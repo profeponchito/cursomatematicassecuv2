@@ -1,0 +1,1326 @@
+{
+  "id": "3S-B1-PDA07",
+  "grado": "3°",
+  "trimestre": "3",
+  "numero": 7,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Forma, espacio y medida",
+  "titulo": "Área y Volumen de la Esfera",
+  "contenido": "Circunferencia, círculo y esfera.",
+  "pda": "Calcula el área de la superficie y el volumen de una esfera.",
+  "problematizacion": {
+    "contexto": "Una empresa va a fabricar un globo aerostático que, cuando está completamente inflado, tiene forma de esfera con un radio de 7 metros. Antes de coserlo, los ingenieros necesitan saber cuánta lona se requiere para cubrir toda la superficie exterior del globo, y cuánto aire cabe dentro de él para calibrar el sistema de quemadores.",
+    "pregunta": "¿Cuál es el área de la superficie del globo y cuál es su volumen (usa π≈3.14)?"
+  },
+  "subtemas": [
+    {
+      "numero": "7.1",
+      "titulo": "La esfera: elementos y diferencia con el círculo",
+      "explicacion": "Una esfera es un cuerpo geométrico de tres dimensiones (3D): el conjunto de todos los puntos del espacio que están a la misma distancia de un punto fijo llamado centro. Esa distancia constante es el radio. El círculo, en cambio, es la versión plana (2D) de esa misma idea: el conjunto de puntos de un plano que están a la misma distancia de un centro. De hecho, si cortas una esfera exactamente por su centro con un plano, la sección que se observa es un círculo del mismo radio que la esfera. Por eso decimos que el círculo 'vive' dentro de la esfera, pero no son la misma figura: uno es plano y la otra es un cuerpo sólido.",
+      "ejemplos": [
+        "Una moneda o un disco de cartón son ejemplos de círculo: figuras planas cuyos puntos del borde están a la misma distancia del centro, pero solo existen en un plano.",
+        "Una canica o una pelota de tenis son ejemplos de esfera: cuerpos sólidos donde todos los puntos de su superficie están a la misma distancia del centro, en las tres dimensiones del espacio."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de las siguientes figuras es una esfera (cuerpo de tres dimensiones)?",
+          "opciones": [
+            "Una pelota de fútbol",
+            "Un aro de basquetbol",
+            "Una hoja circular de papel",
+            "Una moneda"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "La pelota de fútbol es un cuerpo sólido en 3D; el aro, la hoja y la moneda son objetos planos o curvos en 2D."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un círculo es una figura plana (2D), mientras que una esfera es un cuerpo sólido (3D).",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: el círculo existe en un plano; la esfera ocupa las tres dimensiones del espacio."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Todos los puntos de la superficie de una esfera están a la misma distancia de su centro.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: esa distancia constante es precisamente el radio de la esfera."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La distancia constante del centro de una esfera a cualquier punto de su superficie se llama ___.",
+          "respuestaCorrecta": "radio",
+          "retroalimentacion": "El radio es la distancia constante entre el centro y la superficie, tanto en la esfera como en el círculo."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Si cortas una naranja (esfera) exactamente por la mitad, pasando por su centro, ¿qué figura se observa en el corte?",
+          "opciones": [
+            "Un círculo",
+            "Un cuadrado",
+            "Un triángulo",
+            "Un rectángulo"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Cualquier corte de una esfera que pase por su centro produce un círculo del mismo radio que la esfera."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una circunferencia y un círculo son exactamente lo mismo.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: la circunferencia es solo el borde (la línea curva); el círculo incluye también la región interior."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de estos objetos se aproxima mejor a una esfera?",
+          "opciones": [
+            "Un balón de básquetbol",
+            "Una lata de refresco",
+            "Un dado",
+            "Una pirámide"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "El balón es prácticamente una esfera; la lata es un cilindro, el dado un cubo y la pirámide tiene base y vértice."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El punto que está a la misma distancia de todos los puntos de la superficie de una esfera se llama ___.",
+          "respuestaCorrecta": "centro",
+          "retroalimentacion": "El centro es el punto de referencia desde el cual se mide el radio hacia cualquier punto de la superficie."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un globo terráqueo (esfera) tiene infinitos círculos posibles si lo cortas por diferentes planos que pasen por su centro.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: cualquier plano que pase por el centro de la esfera produce un círculo distinto, y hay infinitos planos posibles."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada elemento con su definición correcta.",
+          "columnaA": [
+            "Radio de la esfera",
+            "Centro de la esfera",
+            "Círculo"
+          ],
+          "columnaB": [
+            "Punto interior equidistante de toda la superficie esférica",
+            "Distancia constante del centro a la superficie",
+            "Figura plana, sección transversal de una esfera cortada por su centro"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            2
+          ],
+          "retroalimentacion": "Radio = distancia constante del centro a la superficie. Centro = punto equidistante de toda la superficie. Círculo = sección plana de una esfera cortada por su centro."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 1 de 10 · Introductorio"
+    },
+    {
+      "numero": "7.2",
+      "titulo": "Área de la superficie esférica",
+      "explicacion": "El área de la superficie de una esfera se calcula multiplicando por 4 el área de un círculo del mismo radio: A = 4×π×r². Esto significa que, si 'aplanaras' la cáscara de una esfera, su superficie equivaldría exactamente a la de 4 círculos de ese radio. Usaremos π≈3.14 en todos los cálculos.",
+      "formula": "A = 4 × π × r²   (π ≈ 3.14)",
+      "ejemplos": [
+        "Esfera de radio 5 cm: A = 4×3.14×5² = 4×3.14×25 = 314 cm².",
+        "Esfera de radio 3 m: A = 4×3.14×3² = 4×3.14×9 = 113.04 m²."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Calcula el área de la superficie de una esfera con radio de 5 cm (usa π≈3.14).",
+          "opciones": [
+            "314 cm²",
+            "78.5 cm²",
+            "628 cm²",
+            "157 cm²"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "A = 4×3.14×5² = 4×3.14×25 = 314 cm². (78.5 cm² es el área de solo un círculo, sin multiplicar por 4)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El área de la superficie de una esfera con radio 3 m es 113.04 m².",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: A = 4×3.14×3² = 4×3.14×9 = 113.04 m²."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El área de la superficie de una esfera con radio de 10 cm es ___ cm² (usa π≈3.14).",
+          "respuestaCorrecta": "1256",
+          "retroalimentacion": "A = 4×3.14×10² = 4×3.14×100 = 1256 cm²."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Calcula el área de la superficie de una esfera con radio de 7 m (usa π≈3.14).",
+          "opciones": [
+            "615.44 m²",
+            "153.86 m²",
+            "1230.88 m²",
+            "307.72 m²"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "A = 4×3.14×7² = 4×3.14×49 = 615.44 m². (153.86 m² es el área de solo un círculo de radio 7)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El área de la superficie de una esfera con radio 4 cm es 200.96 cm².",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: A = 4×3.14×4² = 4×3.14×16 = 200.96 cm²."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El área de la superficie de una esfera con radio de 6 cm es ___ cm² (usa π≈3.14).",
+          "respuestaCorrecta": "452.16",
+          "retroalimentacion": "A = 4×3.14×6² = 4×3.14×36 = 452.16 cm²."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Calcula el área de la superficie de una esfera con radio de 8 cm (usa π≈3.14).",
+          "opciones": [
+            "803.84 cm²",
+            "200.96 cm²",
+            "1607.68 cm²",
+            "401.92 cm²"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "A = 4×3.14×8² = 4×3.14×64 = 803.84 cm²."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El área de la superficie de una esfera con radio 9 m es 1017.36 m².",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: A = 4×3.14×9² = 4×3.14×81 = 1017.36 m²."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El área de la superficie de una esfera con radio de 2 cm es ___ cm² (usa π≈3.14).",
+          "respuestaCorrecta": "50.24",
+          "retroalimentacion": "A = 4×3.14×2² = 4×3.14×4 = 50.24 cm²."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada esfera (dado su radio) con el área de su superficie (usa π≈3.14).",
+          "columnaA": [
+            "r=3 cm",
+            "r=6 cm",
+            "r=11 cm"
+          ],
+          "columnaB": [
+            "1519.76 cm²",
+            "452.16 cm²",
+            "113.04 cm²"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "r=3: A=4×3.14×9=113.04 cm². r=6: A=4×3.14×36=452.16 cm². r=11: A=4×3.14×121=1519.76 cm²."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 2 de 10 · Intermedio"
+    },
+    {
+      "numero": "7.3",
+      "titulo": "Volumen de la esfera",
+      "explicacion": "El volumen de una esfera (el espacio que ocupa, o lo que cabe dentro de ella) se calcula con la fórmula V = (4/3)×π×r³. A diferencia del área, aquí el radio se eleva al cubo (r³ = r×r×r), no al cuadrado, porque el volumen mide un espacio de tres dimensiones. Usaremos π≈3.14 y redondearemos a 2 decimales cuando sea necesario.",
+      "formula": "V = (4/3) × π × r³   (π ≈ 3.14)",
+      "ejemplos": [
+        "Esfera de radio 3 cm: V = (4/3)×3.14×3³ = (4/3)×3.14×27 = 113.04 cm³.",
+        "Esfera de radio 6 m: V = (4/3)×3.14×6³ = (4/3)×3.14×216 = 904.32 m³."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Calcula el volumen de una esfera con radio de 3 cm (usa π≈3.14).",
+          "opciones": [
+            "113.04 cm³",
+            "84.78 cm³",
+            "226.08 cm³",
+            "56.52 cm³"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "V = (4/3)×3.14×3³ = (4/3)×3.14×27 = 113.04 cm³. (84.78 cm³ resulta de olvidar el factor 4/3)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El volumen de una esfera con radio de 6 m es 904.32 m³.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: V = (4/3)×3.14×6³ = (4/3)×3.14×216 = 904.32 m³."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El volumen de una esfera con radio de 9 cm es ___ cm³ (usa π≈3.14, redondea a 2 decimales).",
+          "respuestaCorrecta": "3052.08",
+          "retroalimentacion": "V = (4/3)×3.14×9³ = (4/3)×3.14×729 = 3052.08 cm³."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Calcula el volumen de una esfera con radio de 2 cm (usa π≈3.14).",
+          "opciones": [
+            "33.49 cm³",
+            "50.24 cm³",
+            "66.98 cm³",
+            "16.75 cm³"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "V = (4/3)×3.14×2³ = (4/3)×3.14×8 = 33.49 cm³. (50.24 cm³ es el área de esa misma esfera, no su volumen)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El volumen de una esfera con radio de 4 m es 267.95 m³ (redondeado a 2 decimales).",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: V = (4/3)×3.14×4³ = (4/3)×3.14×64 = 267.95 m³."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El volumen de una esfera con radio de 5 cm es ___ cm³ (usa π≈3.14, redondea a 2 decimales).",
+          "respuestaCorrecta": "523.33",
+          "retroalimentacion": "V = (4/3)×3.14×5³ = (4/3)×3.14×125 = 523.33 cm³."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Calcula el volumen de una esfera con radio de 10 m (usa π≈3.14, redondea a 2 decimales).",
+          "opciones": [
+            "4186.67 m³",
+            "1256 m³",
+            "8373.34 m³",
+            "2093.34 m³"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "V = (4/3)×3.14×10³ = (4/3)×3.14×1000 = 4186.67 m³. (1256 m³ es el área de esa misma esfera, no su volumen)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El volumen de una esfera con radio de 12 cm es 7234.56 cm³ (redondeado a 2 decimales).",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: V = (4/3)×3.14×12³ = (4/3)×3.14×1728 = 7234.56 cm³."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El volumen de una esfera con radio de 1 cm es ___ cm³ (usa π≈3.14, redondea a 2 decimales).",
+          "respuestaCorrecta": "4.19",
+          "retroalimentacion": "V = (4/3)×3.14×1³ = (4/3)×3.14×1 = 4.19 cm³ (redondeado)."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada esfera (dado su radio) con su volumen (usa π≈3.14).",
+          "columnaA": [
+            "r=3 cm",
+            "r=6 cm",
+            "r=8 cm"
+          ],
+          "columnaB": [
+            "2143.57 cm³",
+            "113.04 cm³",
+            "904.32 cm³"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "r=3: V=(4/3)×3.14×27=113.04 cm³. r=6: V=(4/3)×3.14×216=904.32 cm³. r=8: V=(4/3)×3.14×512=2143.57 cm³."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 3 de 10 · Avanzado"
+    },
+    {
+      "numero": "7.4",
+      "titulo": "Aplicación combinada",
+      "explicacion": "Recuerda: el área de la superficie de una esfera es A = 4×π×r², y su volumen es V = (4/3)×π×r³. Para un mismo objeto esférico puedes necesitar ambos datos: el área te dice cuánto material cubre la superficie (pintura, tela, papel), y el volumen te dice cuánto espacio ocupa o cuánto cabe dentro (agua, aire, aserrín). Para comparar dos esferas de radios distintos, calcula el volumen de cada una por separado y luego resta: como el volumen depende de r³, un pequeño cambio en el radio produce un cambio mucho mayor en el volumen que en el área.",
+      "formula": "A = 4 × π × r²      V = (4/3) × π × r³      (π ≈ 3.14)",
+      "ejemplos": [
+        "Retomando el reto inicial: el globo aerostático es una esfera de radio 7 m. Lona necesaria (área): A = 4×3.14×7² = 4×3.14×49 = 615.44 m². Aire que cabe dentro (volumen): V = (4/3)×3.14×7³ = (4/3)×3.14×343 = 1436.03 m³ (redondeado a 2 decimales).",
+        "Comparando dos esferas: una de radio 3 cm (V=113.04 cm³) y otra de radio 6 cm (V=904.32 cm³). La esfera de radio 6 cm tiene 904.32-113.04 = 791.28 cm³ más de volumen, aunque su radio es apenas el doble: como el volumen crece con r³, se vuelve 8 veces mayor, no 2 veces."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una pelota decorativa esférica tiene radio de 5 cm. ¿Cuál es su volumen? (usa π≈3.14)",
+          "opciones": [
+            "523.33 cm³",
+            "314 cm³",
+            "1046.66 cm³",
+            "261.67 cm³"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "V = (4/3)×3.14×5³ = 523.33 cm³. (314 cm² es el área de esa misma esfera, no su volumen)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una esfera de radio 10 m tiene un área de superficie de 1256 m² y un volumen de 4186.67 m³ (ambos redondeados a 2 decimales).",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: A=4×3.14×10²=1256 m² y V=(4/3)×3.14×10³=4186.67 m³."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una esfera de radio 3 cm tiene un área de superficie de ___ cm² (usa π≈3.14).",
+          "respuestaCorrecta": "113.04",
+          "retroalimentacion": "A = 4×3.14×3² = 113.04 cm². (Curiosidad: con r=3, el área en cm² y el volumen en cm³ de esta esfera dan el mismo número, aunque miden cosas distintas)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una esfera A tiene radio 4 cm y una esfera B tiene radio 8 cm. ¿Cuál tiene mayor volumen y por cuánto? (usa π≈3.14)",
+          "opciones": [
+            "Esfera B, por 1875.62 cm³ más",
+            "Esfera A, por 1875.62 cm³ más",
+            "Esfera B, por 267.95 cm³ más",
+            "Ambas tienen el mismo volumen"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "V(A)=267.95 cm³, V(B)=2143.57 cm³. Diferencia: 2143.57-267.95 = 1875.62 cm³, a favor de la esfera B."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una esfera con radio 9 cm tiene un volumen 2147.76 cm³ mayor que una esfera con radio 6 cm.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: V(9)=3052.08 cm³, V(6)=904.32 cm³. Diferencia: 3052.08-904.32 = 2147.76 cm³."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un tinaco esférico con radio de 2 m tiene un volumen de ___ m³ (usa π≈3.14, redondea a 2 decimales).",
+          "respuestaCorrecta": "33.49",
+          "retroalimentacion": "V = (4/3)×3.14×2³ = (4/3)×3.14×8 = 33.49 m³."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un domo esférico decorativo tiene radio de 6 m. ¿Cuáles son su área de superficie y su volumen? (usa π≈3.14)",
+          "opciones": [
+            "A=452.16 m² y V=904.32 m³",
+            "A=904.32 m² y V=452.16 m³",
+            "A=452.16 m² y V=113.04 m³",
+            "A=339.12 m² y V=904.32 m³"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "A = 4×3.14×6² = 452.16 m². V = (4/3)×3.14×6³ = 904.32 m³."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si el radio de una esfera se duplica, su volumen también se duplica.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: el volumen depende de r³, así que al duplicar el radio el volumen se multiplica por 8, no por 2. Ejemplo: V(3)=113.04 cm³ y V(6)=904.32 cm³, que es 8 veces mayor, no el doble."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una esfera de radio 7 cm tiene un área de superficie de ___ cm² (usa π≈3.14).",
+          "respuestaCorrecta": "615.44",
+          "retroalimentacion": "A = 4×3.14×7² = 4×3.14×49 = 615.44 cm² (el mismo cálculo que el área de lona del globo aerostático del reto inicial)."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada esfera (dado su radio) con su volumen correspondiente (usa π≈3.14).",
+          "columnaA": [
+            "r=5 cm",
+            "r=9 cm",
+            "r=12 cm"
+          ],
+          "columnaB": [
+            "7234.56 cm³",
+            "523.33 cm³",
+            "3052.08 cm³"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "r=5: V=523.33 cm³. r=9: V=3052.08 cm³. r=12: V=7234.56 cm³."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 4 de 10 · Síntesis"
+    },
+    {
+      "numero": "7.5",
+      "nivelEtiqueta": "Nivel 5 de 10 · Aplicación",
+      "titulo": "Del diámetro al radio: balones, domos y tanques esféricos",
+      "explicacion": "En la vida real casi nunca te dan directamente el radio de un objeto esférico: los fabricantes y las fichas técnicas casi siempre especifican el diámetro (la medida de un extremo a otro, pasando por el centro). Antes de aplicar cualquier fórmula debes dividir el diámetro entre 2 para obtener el radio. Un error muy común es sustituir el diámetro directamente en las fórmulas de área o volumen, lo que produce resultados varias veces mayores a los reales, porque el volumen depende de r³.",
+      "formula": "r = d ÷ 2 ; luego A = 4×π×r² y V = (4/3)×π×r³   (π ≈ 3.14)",
+      "ejemplos": [
+        "Un balón oficial de voleibol tiene diámetro de 26 cm. Su radio es 26÷2 = 13 cm. Su volumen es V = (4/3)×3.14×13³ = (4/3)×3.14×2197 = 9198.11 cm³.",
+        "Un tinaco esférico tiene diámetro de 9 m. Su radio es 9÷2 = 4.5 m. Su área de superficie es A = 4×3.14×4.5² = 4×3.14×20.25 = 254.34 m²."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un domo esférico decorativo tiene un diámetro de 28 cm. ¿Cuál es su radio?",
+          "opciones": [
+            "14 cm",
+            "28 cm",
+            "7 cm",
+            "56 cm"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "El radio es la mitad del diámetro: 28÷2 = 14 cm."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si el diámetro de una pelota es de 34 cm, su radio es de 17 cm.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: r = d÷2 = 34÷2 = 17 cm."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una boya esférica tiene un diámetro de 36 cm. ¿Cuál es su volumen? (usa π≈3.14)",
+          "opciones": [
+            "24416.64 cm³",
+            "12208.32 cm³",
+            "4069.44 cm³",
+            "48833.28 cm³"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Radio = 36÷2 = 18 cm. V = (4/3)×3.14×18³ = 24416.64 cm³. (4069.44 cm³ es el área, no el volumen; 12208.32 cm³ es solo la mitad)."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un tanque esférico tiene un diámetro de 38 m; su radio es ___ m.",
+          "respuestaCorrecta": "19",
+          "retroalimentacion": "r = d÷2 = 38÷2 = 19 m."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Si al calcular el volumen de una esfera se usa por error el diámetro completo en vez del radio (sin dividirlo entre 2), el resultado obtenido es:",
+          "opciones": [
+            "8 veces mayor al volumen real",
+            "2 veces mayor al volumen real",
+            "el volumen real, sin cambio",
+            "la mitad del volumen real"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Como el volumen depende de r³, usar el diámetro (el doble del radio) infla el resultado por 2³ = 8 veces."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una esfera con diámetro de 42 cm tiene un radio de 21 cm y un área de superficie de 5538.96 cm².",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: r=42÷2=21 cm y A=4×3.14×21²=5538.96 cm²."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El área de la superficie de una esfera con diámetro de 44 cm es ___ cm² (primero halla el radio, usa π≈3.14).",
+          "respuestaCorrecta": "6079.04",
+          "retroalimentacion": "r=44÷2=22 cm. A=4×3.14×22²=6079.04 cm²."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una pelota decorativa tiene un diámetro de 46 cm. ¿Cuál es su volumen? (usa π≈3.14)",
+          "opciones": [
+            "50939.17 cm³",
+            "6644.24 cm³",
+            "101878.34 cm³",
+            "25469.59 cm³"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "r=46÷2=23 cm. V=(4/3)×3.14×23³=50939.17 cm³. (6644.24 cm³ es el área; 25469.59 cm³ es solo la mitad del volumen)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un tanque esférico con diámetro de 48 m tiene un volumen de 57876.48 m³.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: r=48÷2=24 m. V=(4/3)×3.14×24³=57876.48 m³."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada esfera (dado su diámetro) con su radio correcto.",
+          "columnaA": [
+            "d = 32 cm",
+            "d = 17 cm",
+            "d = 27 cm"
+          ],
+          "columnaB": [
+            "13.5 cm",
+            "16 cm",
+            "8.5 cm"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "d=32→r=16 cm. d=17→r=8.5 cm. d=27→r=13.5 cm."
+        }
+      ]
+    },
+    {
+      "numero": "7.6",
+      "nivelEtiqueta": "Nivel 6 de 10 · Aplicación avanzada",
+      "titulo": "Presupuestos con esferas: costos de pintura, relleno y llenado",
+      "explicacion": "Además de calcular el área y el volumen de una esfera, en contextos reales necesitas convertir esas medidas en dinero: multiplicando el área por un precio por unidad de superficie obtienes el costo de recubrir un objeto esférico (pintura, lona, aislante); multiplicando el volumen por un precio por unidad de capacidad obtienes el costo de llenarlo (agua, gas, arena, concreto). Elegir la fórmula correcta según lo que se compra —superficie o contenido— es la clave de esta lección.",
+      "formula": "Costo de recubrir = Área × precio por m²      Costo de llenar = Volumen × precio por m³   (π ≈ 3.14)",
+      "ejemplos": [
+        "Un tinaco esférico de radio 4.5 m se pintará con pintura anticorrosiva que cuesta $60 por m². Área: A=4×3.14×4.5²=254.34 m². Costo total: 254.34×$60 = $15,260.40.",
+        "Un globo se llenará con helio que cuesta $18 por m³; su radio es de 6.5 m. Volumen: V=(4/3)×3.14×6.5³=1149.76 m³. Costo total: 1149.76×$18 = $20,695.68."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un tinaco esférico de radio 4.5 m se pintará con pintura que cuesta $60 por m². ¿Cuánto costará pintar toda su superficie? (usa π≈3.14)",
+          "opciones": [
+            "$15,260.40",
+            "$254.34",
+            "$60.00",
+            "$30,520.80"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "A=4×3.14×4.5²=254.34 m². Costo=254.34×60=$15,260.40. (254.34 es solo el área, sin multiplicar por el precio)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Llenar un globo esférico de radio 6.5 m con helio, a $18 por m³, cuesta $20,695.68 en total.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: V=(4/3)×3.14×6.5³=1149.76 m³. Costo=1149.76×18=$20,695.68."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Cubrir con lona la superficie de una esfera de radio 8.5 m cuesta $___ si la lona cuesta $35 por m² (usa π≈3.14).",
+          "respuestaCorrecta": "31761.10",
+          "retroalimentacion": "A=4×3.14×8.5²=907.46 m². Costo=907.46×35=$31,761.10."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Rellenar de arena decorativa una esfera hueca de radio 10.5 m cuesta $12 por m³. ¿Cuál es el costo total? (usa π≈3.14)",
+          "opciones": [
+            "$58,159.08",
+            "$4,846.59",
+            "$16,616.88",
+            "$116,318.16"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "V=(4/3)×3.14×10.5³=4846.59 m³. Costo=4846.59×12=$58,159.08. ($16,616.88 resulta de usar por error el área en vez del volumen)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si el precio de la pintura baja de $60 a $50 por m² para pintar una esfera de radio 4.5 m, la empresa ahorra $2,543.40 en total.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: A=254.34 m². Ahorro=254.34×(60-50)=254.34×10=$2,543.40."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Llenar de concreto una esfera de radio 9.5 m cuesta $___ si el concreto cuesta $95 por m³ (usa π≈3.14, redondea a 2 decimales).",
+          "respuestaCorrecta": "341006.30",
+          "retroalimentacion": "V=(4/3)×3.14×9.5³=3589.54 m³. Costo=3589.54×95=$341,006.30."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un domo esférico de radio 11.5 m se cubrirá con paneles aislantes (toda la superficie de la esfera completa) que cuestan $28 por m². ¿Cuál es el costo aproximado? (usa π≈3.14)",
+          "opciones": [
+            "$46,509.68",
+            "$1,661.06",
+            "$23,254.84",
+            "$93,019.36"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "A=4×3.14×11.5²=1661.06 m². Costo=1661.06×28=$46,509.68."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El costo de llenar con agua una esfera de radio 13.5 m, a $4 por m³, es mayor a $40,000.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: V=(4/3)×3.14×13.5³=10300.77 m³. Costo=10300.77×4=$41,203.08, que sí es mayor a $40,000."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada esfera (dado su radio) con el costo de pintar su superficie completa a $20 por m² (usa π≈3.14).",
+          "columnaA": [
+            "r = 6.5 m",
+            "r = 8.5 m",
+            "r = 14.5 m"
+          ],
+          "columnaB": [
+            "$52,814.80",
+            "$10,613.20",
+            "$18,149.20"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "r=6.5: A=530.66 m², costo=$10,613.20. r=8.5: A=907.46 m², costo=$18,149.20. r=14.5: A=2640.74 m², costo=$52,814.80."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un tanque esférico de radio 10.5 m se pintará por fuera (a $22 por m²) y se llenará de agua por dentro (a $7 por m³). ¿Cuál es el costo TOTAL (pintura + agua)? (usa π≈3.14)",
+          "opciones": [
+            "$64,390.41",
+            "$30,464.28",
+            "$33,926.13",
+            "$94,854.69"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Pintura: A=1384.74 m²×22=$30,464.28. Agua: V=4846.59 m³×7=$33,926.13. Total=$30,464.28+$33,926.13=$64,390.41."
+        }
+      ]
+    },
+    {
+      "numero": "7.7",
+      "nivelEtiqueta": "Nivel 7 de 10 · Reto",
+      "titulo": "El problema inverso: encontrar el radio a partir del volumen o el área",
+      "explicacion": "Hasta ahora conocías el radio y calculabas el área o el volumen. En muchos problemas reales de ingeniería ocurre lo contrario: se conoce la capacidad requerida de un tanque (su volumen) o el material disponible (su área) y se necesita encontrar qué radio debe tener. Para 'deshacer' el cuadrado se usa raíz cuadrada, y para 'deshacer' el cubo se usa raíz cúbica.",
+      "formula": "r = √(A ÷ (4×π))      r = ∛(V ÷ ((4/3)×π))      (π ≈ 3.14)",
+      "ejemplos": [
+        "Se requiere un tanque esférico con un área de superficie de 3629.84 m². r = √(3629.84÷(4×3.14)) = √(3629.84÷12.56) = √289 = 17 m.",
+        "Se requiere un tanque esférico con un volumen de 17148.59 m³. r = ∛(17148.59÷((4/3)×3.14)) = ∛(17148.59÷4.1867) ≈ ∛4096 = 16 m."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un tanque esférico debe tener un área de superficie de 4069.44 m². ¿Cuál es el radio necesario? (usa π≈3.14)",
+          "opciones": [
+            "18 m",
+            "9 m",
+            "36 m",
+            "6 m"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "r=√(4069.44÷12.56)=√324=18 m."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si una esfera tiene un volumen de 24416.64 m³, su radio es de 18 m.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: r=∛(24416.64÷4.1867)≈∛5832=18 m (y de hecho el área de esa misma esfera, 4069.44 m², también corresponde a r=18 m)."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El radio de una esfera cuyo volumen es 6367.40 cm³ es ___ cm.",
+          "respuestaCorrecta": "11.5",
+          "retroalimentacion": "r=∛(6367.40÷4.1867)≈∛1520.88≈11.5 cm."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un ingeniero necesita un tanque esférico con un volumen de 1766.25 m³. ¿Qué radio debe tener? (usa π≈3.14)",
+          "opciones": [
+            "7.5 m",
+            "15 m",
+            "3.75 m",
+            "22.5 m"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "r=∛(1766.25÷4.1867)≈∛421.88≈7.5 m."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un domo esférico con área de superficie de 1661.06 m² tiene un radio de 11.5 m.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: r=√(1661.06÷12.56)=√132.25=11.5 m."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El radio de una esfera cuya área de superficie es 907.46 cm² es ___ cm.",
+          "respuestaCorrecta": "8.5",
+          "retroalimentacion": "r=√(907.46÷12.56)=√72.25=8.5 cm."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Sin calcular con precisión: si el volumen de una esfera es 28716.35 m³, ¿cuál de estos radios es el correcto?",
+          "opciones": [
+            "19 m",
+            "9.5 m",
+            "38 m",
+            "28.6 m"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "r=∛(28716.35÷4.1867)≈∛6859=19 m. (9.5 m sería el radio si el volumen fuera 8 veces menor)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Para encontrar el radio de una esfera a partir de su volumen se usa una raíz cuadrada.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: para el volumen se usa raíz CÚBICA (porque V depende de r³); la raíz cuadrada se usa para encontrar el radio a partir del ÁREA (que depende de r²)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una fábrica necesita un tanque esférico que almacene 50939.17 m³ de agua. ¿Cuál es el radio aproximado que deben construir? (usa π≈3.14)",
+          "opciones": [
+            "23 m",
+            "11.5 m",
+            "46 m",
+            "69 m"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "r=∛(50939.17÷4.1867)≈∛12167=23 m."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada esfera (dado su volumen) con el radio correspondiente (usa π≈3.14).",
+          "columnaA": [
+            "V = 11488.21 m³",
+            "V = 20569.09 m³",
+            "V = 38772.72 m³"
+          ],
+          "columnaB": [
+            "21 m",
+            "14 m",
+            "17 m"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "V=11488.21→r=14 m. V=20569.09→r=17 m. V=38772.72→r=21 m."
+        }
+      ]
+    },
+    {
+      "numero": "7.8",
+      "nivelEtiqueta": "Nivel 8 de 10 · Reto avanzado",
+      "titulo": "Razones de escala: cómo cambian área y volumen al modificar el radio",
+      "explicacion": "Ya viste que si duplicas el radio de una esfera, su volumen se vuelve 8 veces mayor. Ahora generalizamos esa idea: si el radio se multiplica por cualquier factor k, el área se multiplica por k² y el volumen por k³ (y al revés: si conoces cuántas veces cambió el volumen o el área, puedes encontrar el factor de cambio del radio sacando raíz cúbica o raíz cuadrada). Esto te permite comparar o rediseñar esferas sin recalcular todo desde cero, incluso con aumentos por porcentaje.",
+      "formula": "Si el radio ×k → Área ×k²  y  Volumen ×k³      (factor de radio = √(factor de área) = ∛(factor de volumen))",
+      "ejemplos": [
+        "Si el radio de una esfera aumenta un 50% (se multiplica por 1.5), su volumen se multiplica por 1.5³=3.375. Ejemplo: una esfera de radio 6.5 cm tiene V=1149.76 cm³; al aumentar su radio a 6.5×1.5=9.75 cm, su nuevo volumen es V=(4/3)×3.14×9.75³=3880.45 cm³, muy cercano a 1149.76×3.375=3880.44 cm³ (la pequeña diferencia es por el redondeo).",
+        "Si el área de una esfera se multiplica por 9, el radio se multiplicó por √9=3. Ejemplo: una esfera de radio 4.5 m tiene A=254.34 m²; una esfera con 9 veces más área (2289.06 m²) tiene efectivamente un radio de 4.5×3=13.5 m, y en efecto A(13.5 m)=2289.06 m²."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Si el radio de una esfera se multiplica por 4, ¿por qué factor se multiplica su volumen?",
+          "opciones": [
+            "64",
+            "16",
+            "4",
+            "8"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "El volumen depende de r³, así que el factor es 4³=64."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si el radio de una esfera se reduce a la mitad, su área de superficie se reduce a la cuarta parte.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: el área depende de r², y (1/2)²=1/4."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si el volumen de una esfera se multiplicó por 27, el radio se multiplicó por ___.",
+          "respuestaCorrecta": "3",
+          "retroalimentacion": "∛27=3, porque el volumen depende de r³."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una esfera A tiene radio r y una esfera B tiene radio 5r. ¿Cuántas veces más volumen tiene la esfera B respecto a la esfera A?",
+          "opciones": [
+            "125 veces",
+            "25 veces",
+            "5 veces",
+            "15 veces"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "El factor de volumen es 5³=125."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si el área de la superficie de una esfera se multiplica por 16, su radio se multiplicó por 4.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: √16=4, porque el área depende de r²."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una esfera de radio 6.5 cm tiene un volumen de 1149.76 cm³. Si se construye otra esfera con el doble de radio (13 cm), sin recalcular todo, ¿cuál será aproximadamente su nuevo volumen?",
+          "opciones": [
+            "aproximadamente 9198 cm³",
+            "aproximadamente 2300 cm³",
+            "aproximadamente 4599 cm³",
+            "aproximadamente 575 cm³"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Al duplicar el radio, el volumen se multiplica por 2³=8: 1149.76×8≈9198 cm³ (el valor exacto es 9198.11 cm³)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si el radio de una esfera se multiplica por 10, su volumen se multiplica por 1000.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 10³=1000."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El área de la superficie de una esfera pasó de 530.66 cm² a 4775.94 cm² al aumentar su radio. ¿Por qué factor se multiplicó el radio?",
+          "opciones": [
+            "3",
+            "9",
+            "4.5",
+            "1.5"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "El área se multiplicó por 4775.94÷530.66=9, y como el área depende de r², el factor del radio es √9=3."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si el radio de una esfera aumenta un 20% (se multiplica por 1.2), su volumen se multiplica aproximadamente por ___ (redondea a 2 decimales).",
+          "respuestaCorrecta": "1.73",
+          "retroalimentacion": "1.2³=1.728, que redondeado a 2 decimales es 1.73."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada cambio de radio con el factor por el que se multiplica el volumen.",
+          "columnaA": [
+            "Radio ×2",
+            "Radio ×3",
+            "Radio ×5"
+          ],
+          "columnaB": [
+            "125",
+            "8",
+            "27"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "Radio×2→volumen×8. Radio×3→volumen×27. Radio×5→volumen×125."
+        }
+      ]
+    },
+    {
+      "numero": "7.9",
+      "nivelEtiqueta": "Nivel 9 de 10 · Integración",
+      "titulo": "Hemisferios y cápsulas: domos, tinacos y tanques combinados",
+      "explicacion": "Un hemisferio es exactamente la mitad de una esfera, cortada por un plano que pasa por su centro: por eso su volumen es la mitad del volumen de la esfera completa, V=(2/3)×π×r³. Su superficie curva (sin contar la base circular plana) también es la mitad de la superficie esférica: A=2×π×r². Estas figuras aparecen en domos y tinacos, y combinadas con un cilindro en el centro forman tanques con forma de 'cápsula', donde el volumen total es el del cilindro más el de UNA esfera completa (porque las dos semiesferas de los extremos, juntas, forman una esfera).",
+      "formula": "V_hemisferio = (2/3)×π×r³      A_curva = 2×π×r²      V_cápsula = (π×r²×h) + (4/3)×π×r³      (π≈3.14)",
+      "ejemplos": [
+        "Un domo hemisférico de radio 9.5 m corona un auditorio. El volumen de aire bajo el domo es V=(2/3)×3.14×9.5³=1794.77 m³, y el área de material para cubrir solo la parte curva (sin la base) es A=2×3.14×9.5²=566.77 m².",
+        "Un tinaco tiene forma de cápsula: un cilindro de radio 4.5 m y altura 11 m, cerrado en ambos extremos por dos semiesferas del mismo radio. Como las dos semiesferas juntas forman una esfera completa, el volumen total es: V_cilindro + V_esfera = (3.14×4.5²×11) + ((4/3)×3.14×4.5³) = 699.44 + 381.51 = 1080.95 m³."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el volumen de un hemisferio (media esfera) de radio 7.5 cm? (usa π≈3.14)",
+          "opciones": [
+            "883.12 cm³",
+            "1766.25 cm³",
+            "706.50 cm³",
+            "441.56 cm³"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "V_hemisferio=(2/3)×3.14×7.5³=883.12 cm³. (1766.25 cm³ es el volumen de la esfera COMPLETA, no de la mitad)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El volumen de un hemisferio es exactamente la mitad del volumen de la esfera completa del mismo radio.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: un hemisferio es la mitad de una esfera, así que su volumen también es la mitad."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El área curva (sin contar la base circular) de un domo hemisférico de radio 8.5 m es ___ m² (usa π≈3.14).",
+          "respuestaCorrecta": "453.73",
+          "retroalimentacion": "A_curva=2×3.14×8.5²=453.73 m²."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un tinaco en forma de cápsula tiene un cilindro de radio 4.5 m y altura 11 m, cerrado en ambos extremos por dos semiesferas del mismo radio. ¿Cuál es su volumen total? (usa π≈3.14)",
+          "opciones": [
+            "1080.95 m³",
+            "699.44 m³",
+            "381.51 m³",
+            "1462.46 m³"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "V_cilindro=3.14×4.5²×11=699.44 m³. V_esfera(4.5)=381.51 m³. Total=699.44+381.51=1080.95 m³. (Las dos semiesferas juntas forman UNA esfera completa, no dos)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El volumen de una cápsula (cilindro con una semiesfera en cada extremo) es igual al volumen del cilindro más el volumen de UNA esfera completa del mismo radio.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: las dos semiesferas de los extremos, juntas, equivalen exactamente a una esfera completa."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un domo hemisférico de radio 6.5 m tiene un volumen de aire de ___ m³ (usa π≈3.14).",
+          "respuestaCorrecta": "574.88",
+          "retroalimentacion": "V_hemisferio=(2/3)×3.14×6.5³=574.88 m³."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Si divides exactamente por la mitad una esfera de radio 10.5 cm, ¿cuál es el volumen de cada mitad (hemisferio)? (usa π≈3.14)",
+          "opciones": [
+            "2423.30 cm³",
+            "4846.59 cm³",
+            "1384.74 cm³",
+            "6467.86 cm³"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "V_esfera(10.5)=4846.59 cm³; cada mitad tiene 4846.59÷2=2423.30 cm³."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El área TOTAL de un hemisferio sólido, incluyendo su base circular plana, es igual a 3×π×r² (la superficie curva más el círculo de la base).",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: superficie curva (2×π×r²) + base circular (π×r²) = 3×π×r²."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Se pintará solo la parte curva (exterior) de un domo hemisférico de radio 9.5 m; la pintura cuesta $25 por m². ¿Cuánto costará? (usa π≈3.14)",
+          "opciones": [
+            "$14,169.25",
+            "$44,869.25",
+            "$28,338.50",
+            "$7,084.63"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "A_curva=2×3.14×9.5²=566.77 m². Costo=566.77×25=$14,169.25."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada hemisferio (dado su radio) con su volumen correspondiente (usa π≈3.14).",
+          "columnaA": [
+            "r = 4.5 m",
+            "r = 7.5 m",
+            "r = 11.5 m"
+          ],
+          "columnaB": [
+            "3183.70 m³",
+            "190.75 m³",
+            "883.12 m³"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "r=4.5→190.75 m³. r=7.5→883.12 m³. r=11.5→3183.70 m³."
+        }
+      ]
+    },
+    {
+      "numero": "7.10",
+      "nivelEtiqueta": "Nivel 10 de 10 · Dominio",
+      "titulo": "Reto final: diseño integral de tanques y domos esféricos",
+      "explicacion": "Esta lección combina todo lo que aprendiste sobre esferas y hemisferios: convertir diámetro a radio, calcular área y volumen, aplicar precios por unidad, trabajar con cápsulas y hemisferios, y razonar con factores de escala, todo dentro de problemas de varios pasos, como los que resuelve un ingeniero real al diseñar un tanque, domo o estructura esférica completa.",
+      "formula": "r=d÷2  |  A=4×π×r²  |  V=(4/3)×π×r³  |  V_hemisferio=(2/3)×π×r³  |  Costo=cantidad×precio unitario   (π≈3.14)",
+      "ejemplos": [
+        "Una empresa fabrica tanques esféricos de gas; un modelo tiene diámetro de 17 m. Radio: 17÷2=8.5 m. Volumen: V=(4/3)×3.14×8.5³=2571.14 m³. Si el gas para llenarlo cuesta $8 por m³, el costo total es 2571.14×8=$20,569.12.",
+        "Un domo hemisférico de una planta industrial tiene radio 11.5 m. Área curva a impermeabilizar: A=2×3.14×11.5²=830.53 m². Si el impermeabilizante cuesta $22 por m², el costo total es 830.53×22=$18,271.66."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un tanque esférico para agua tiene un diámetro de 29 m. ¿Cuál es su volumen? (primero halla el radio; usa π≈3.14)",
+          "opciones": [
+            "12763.58 m³",
+            "2640.74 m³",
+            "6381.79 m³",
+            "25527.16 m³"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "r=29÷2=14.5 m. V=(4/3)×3.14×14.5³=12763.58 m³. (2640.74 m³ es el área, no el volumen)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un tanque esférico con diámetro de 27 m, lleno de agua que cuesta $5 por m³, costará $51,503.85 en total.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: r=27÷2=13.5 m. V=(4/3)×3.14×13.5³=10300.77 m³. Costo=10300.77×5=$51,503.85."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un domo hemisférico tiene un diámetro de 19 m; su volumen de aire es ___ m³ (usa π≈3.14).",
+          "respuestaCorrecta": "1794.77",
+          "retroalimentacion": "r=19÷2=9.5 m. V_hemisferio=(2/3)×3.14×9.5³=1794.77 m³."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Llenar de helio una esfera de radio 6.5 m cuesta $20,695.68 (a $18/m³). Si se construye una esfera con el DOBLE de radio (13 m), manteniendo el mismo precio por m³, ¿aproximadamente cuánto costará llenarla?",
+          "opciones": [
+            "aproximadamente $165,565",
+            "aproximadamente $41,391",
+            "aproximadamente $82,783",
+            "aproximadamente $331,131"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Al duplicar el radio, el volumen (y por lo tanto el costo) se multiplica por 2³=8: 20,695.68×8≈$165,565 (el valor exacto es $165,565.98)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una cápsula formada por un cilindro de radio 6.5 m y altura 14 m, rematada en ambos extremos por semiesferas del mismo radio, tiene un volumen mayor a 3000 m³.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: V_cilindro=3.14×6.5²×14=1857.31 m³. V_esfera(6.5)=1149.76 m³. Total=1857.31+1149.76=3007.07 m³, que sí es mayor a 3000 m³."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Se requiere un tanque esférico que contenga 4846.59 m³ de gas, cuyo llenado cuesta $9 por m³. ¿Cuál es el radio del tanque y cuánto costará llenarlo?",
+          "opciones": [
+            "r=10.5 m, costo=$43,619.31",
+            "r=21 m, costo=$21,809.66",
+            "r=10.5 m, costo=$4,846.59",
+            "r=5.25 m, costo=$87,238.62"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "r=∛(4846.59÷4.1867)≈∛1157.53≈10.5 m. Costo=4846.59×9=$43,619.31."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si el área de la superficie de una esfera se multiplica por 25, su radio se multiplicó por 5.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: √25=5, porque el área depende de r²."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un domo esférico completo (toda la superficie de la esfera, no solo la mitad) con diámetro de 21 m se cubrirá con paneles solares que cuestan $30 por m². El costo total será $___ (usa π≈3.14).",
+          "respuestaCorrecta": "41542.20",
+          "retroalimentacion": "r=21÷2=10.5 m. A=4×3.14×10.5²=1384.74 m². Costo=1384.74×30=$41,542.20."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un tanque esférico industrial tiene un diámetro de 33 m. Debe llenarse de agua (a $6.50/m³) y su superficie exterior debe pintarse (a $40/m²). ¿Cuál es el costo TOTAL (pintura + agua)? (usa π≈3.14)",
+          "opciones": [
+            "$259,024.09",
+            "$136,778.40",
+            "$122,245.69",
+            "$518,048.18"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "r=33÷2=16.5 m. A=4×3.14×16.5²=3419.46 m². V=(4/3)×3.14×16.5³=18807.03 m³. Pintura=3419.46×40=$136,778.40. Agua=18807.03×6.5=$122,245.69. Total=$259,024.09."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada tanque esférico (dado su diámetro) con el volumen correcto (usa π≈3.14).",
+          "columnaA": [
+            "d=34 m (radio=17 m)",
+            "d=32 m (radio=16 m)",
+            "d=23 m (radio=11.5 m)"
+          ],
+          "columnaB": [
+            "6367.40 m³",
+            "20569.09 m³",
+            "17148.59 m³"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "d=34→r=17 m→V=20569.09 m³. d=32→r=16 m→V=17148.59 m³. d=23→r=11.5 m→V=6367.40 m³."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "La esfera es una figura plana de dos dimensiones.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Falso: la esfera es un cuerpo sólido de tres dimensiones (3D); su versión plana es el círculo."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál de los siguientes objetos se aproxima mejor a una esfera?",
+      "opciones": [
+        "Un globo inflado",
+        "Un lápiz",
+        "Un libro",
+        "Una moneda"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "El globo inflado es prácticamente una esfera; los otros objetos son alargados o planos."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "El segmento que une el centro de una esfera con cualquier punto de su superficie se llama ___.",
+      "respuestaCorrecta": "radio",
+      "retroalimentacion": "El radio conecta el centro con cualquier punto de la superficie esférica."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Calcula el área de la superficie de una esfera con radio de 4 cm (usa π≈3.14).",
+      "opciones": [
+        "200.96 cm²",
+        "50.24 cm²",
+        "401.92 cm²",
+        "100.48 cm²"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "A = 4×3.14×4² = 4×3.14×16 = 200.96 cm²."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "El área de la superficie de una esfera con radio de 11 cm es 5572.45 cm².",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Falso: el área correcta es A=4×3.14×11²=1519.76 cm². 5572.45 cm³ es en realidad el volumen de esa misma esfera."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "El volumen de una esfera con radio de 8 cm es ___ cm³ (usa π≈3.14, redondea a 2 decimales).",
+      "respuestaCorrecta": "2143.57",
+      "retroalimentacion": "V = (4/3)×3.14×8³ = (4/3)×3.14×512 = 2143.57 cm³."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Calcula el volumen de una esfera con radio de 15 m (usa π≈3.14, redondea a 2 decimales).",
+      "opciones": [
+        "14130 m³",
+        "2826 m³",
+        "28260 m³",
+        "7065 m³"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "V = (4/3)×3.14×15³ = (4/3)×3.14×3375 = 14130 m³. (2826 m² es el área de esa misma esfera, no su volumen)."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "El área de la superficie de una esfera con radio de 20 cm es 5024 cm².",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: A = 4×3.14×20² = 4×3.14×400 = 5024 cm²."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "El área de la superficie de una esfera con radio de 9 m es ___ m² (usa π≈3.14).",
+      "respuestaCorrecta": "1017.36",
+      "retroalimentacion": "A = 4×3.14×9² = 4×3.14×81 = 1017.36 m²."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Una esfera A tiene radio 2 cm y una esfera B tiene radio 4 cm. ¿Cuál tiene mayor volumen y por cuánto? (usa π≈3.14)",
+      "opciones": [
+        "Esfera B, por 234.46 cm³ más",
+        "Esfera A, por 234.46 cm³ más",
+        "Esfera B, por 33.49 cm³ más",
+        "Ambas son iguales"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "V(A)=33.49 cm³, V(B)=267.95 cm³. Diferencia: 267.95-33.49 = 234.46 cm³, a favor de la esfera B."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Al duplicar el radio de una esfera, su área de superficie se multiplica por 4.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: como A depende de r², al duplicar r el área se multiplica por 2²=4. Ejemplo: A(3)=113.04 m², A(6)=452.16 m², justo 4 veces mayor."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Una pelota esférica (como una de playa) tiene radio de 12 cm. Su volumen es ___ cm³ (usa π≈3.14, redondea a 2 decimales).",
+      "respuestaCorrecta": "7234.56",
+      "retroalimentacion": "V = (4/3)×3.14×12³ = (4/3)×3.14×1728 = 7234.56 cm³."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Un domo esférico tiene radio de 10 m. ¿Cuál es su área de superficie? (usa π≈3.14)",
+      "opciones": [
+        "1256 m²",
+        "4186.67 m²",
+        "2512 m²",
+        "628 m²"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "A = 4×3.14×10² = 4×3.14×100 = 1256 m². (4186.67 m³ es el volumen de ese mismo domo, no su área)."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Una esfera con radio de 7 cm tiene un volumen de 1436.03 cm³ (redondeado a 2 decimales).",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: V = (4/3)×3.14×7³ = (4/3)×3.14×343 = 1436.03 cm³."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "El área de la superficie de una esfera con radio de 6 m es ___ m² (usa π≈3.14).",
+      "respuestaCorrecta": "452.16",
+      "retroalimentacion": "A = 4×3.14×6² = 4×3.14×36 = 452.16 m²."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Una esfera A tiene radio 5 cm y una esfera B tiene radio 10 cm. ¿Cuánto mayor es el área de B respecto a la de A? (usa π≈3.14)",
+      "opciones": [
+        "942 cm² más",
+        "314 cm² más",
+        "1256 cm² más",
+        "628 cm² más"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "A(5)=314 cm², A(10)=1256 cm². Diferencia: 1256-314 = 942 cm²."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Si el radio de una esfera se triplica, su volumen se multiplica por 27.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: como V depende de r³, al triplicar r el volumen se multiplica por 3³=27. Ejemplo: V(2)=33.49 cm³, V(6)=904.32 cm³, aproximadamente 27 veces mayor."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Una esfera con radio de 1 cm tiene un volumen de ___ cm³ (usa π≈3.14, redondea a 2 decimales).",
+      "respuestaCorrecta": "4.19",
+      "retroalimentacion": "V = (4/3)×3.14×1³ = 4.19 cm³ (redondeado)."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es la fórmula correcta para calcular el volumen de una esfera?",
+      "opciones": [
+        "V = (4/3)×π×r³",
+        "V = 4×π×r²",
+        "V = π×r²×h",
+        "V = (1/3)×π×r²×h"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "V = (4/3)×π×r³ es la fórmula del volumen de la esfera. Las otras corresponden al área de la esfera o a otros cuerpos (cilindro, cono)."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "La fórmula del área de la superficie de una esfera es A = 4×π×r².",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: A = 4×π×r² es la fórmula del área de la superficie esférica."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada esfera (dado su radio) con el área de su superficie correspondiente (usa π≈3.14).",
+      "columnaA": [
+        "r=2 cm",
+        "r=8 cm",
+        "r=9 cm"
+      ],
+      "columnaB": [
+        "1017.36 cm²",
+        "50.24 cm²",
+        "803.84 cm²"
+      ],
+      "parejasCorrectas": [
+        1,
+        2,
+        0
+      ],
+      "retroalimentacion": "r=2: A=50.24 cm². r=8: A=803.84 cm². r=9: A=1017.36 cm²."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada esfera (dado su radio) con su volumen correspondiente (usa π≈3.14).",
+      "columnaA": [
+        "r=4 cm",
+        "r=7 cm",
+        "r=10 cm"
+      ],
+      "columnaB": [
+        "4186.67 cm³",
+        "267.95 cm³",
+        "1436.03 cm³"
+      ],
+      "parejasCorrectas": [
+        1,
+        2,
+        0
+      ],
+      "retroalimentacion": "r=4: V=267.95 cm³. r=7: V=1436.03 cm³. r=10: V=4186.67 cm³."
+    }
+  ]
+}

@@ -1,0 +1,1587 @@
+{
+  "id": "2S-B1-PDA01",
+  "grado": "2°",
+  "trimestre": "1",
+  "numero": 1,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Extensión de los números a positivos y negativos y su orden",
+  "contenido": "Extensión de los números a positivos y negativos y su orden.",
+  "pda": "Compara y ordena números con signo (enteros, fracciones y decimales) en la recta numérica y analiza en qué casos se cumple la propiedad de densidad.",
+  "problematizacion": {
+    "contexto": "En el changarro de tu tío, el cuaderno de fiados anota algunas deudas de los clientes como fracciones (por ejemplo -3/4 de kilo de azúcar que aún deben) y otras como decimales (-1.5 de saldo). Tu tío te pide ayudarle a saber quién debe más, pero al estar los números escritos de formas distintas no puede compararlos directamente.",
+    "pregunta": "¿Cómo puedes expresar todas las deudas del cuaderno en la misma forma (decimal) para saber qué cliente debe más?"
+  },
+  "subtemas": [
+    {
+      "numero": "1.1",
+      "titulo": "Distintas formas de expresar números con signo",
+      "explicacion": "Los números con signo incluyen enteros, fracciones y decimales, y todos pueden ubicarse en la misma recta numérica. Para comparar números que están en formas distintas, conviene expresarlos todos de la misma manera (por ejemplo, convirtiendo las fracciones a decimales).",
+      "formula": "-1/2 = -0.5",
+      "ejemplos": [
+        "-3/4 = -0.75",
+        "Convirtiendo -3.5, -2, -1/2, 0, +1.25 todo a decimal: -3.5, -2, -0.5, 0, 1.25."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Entre 0.2 y 0.3 no existe ningún otro número.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: por la propiedad de densidad, entre 0.2 y 0.3 existen infinitos números, por ejemplo 0.25."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Entre -1.2 y -1.12 no existe ningún otro número.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: por la propiedad de densidad, entre -1.2 y -1.12 existen infinitos números, por ejemplo -1.16."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Entre 4.3 y 4.55 no existe ningún otro número.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: por la propiedad de densidad, entre 4.3 y 4.55 existen infinitos números, por ejemplo 4.425."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Entre 0.3 y 0.37 no existe ningún otro número.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: por la propiedad de densidad, entre 0.3 y 0.37 existen infinitos números, por ejemplo 0.335."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Entre -0.2 y 0.05 no existe ningún otro número.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: por la propiedad de densidad, entre -0.2 y 0.05 existen infinitos números, por ejemplo -0.075."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuántos números decimales existen entre -0.4 y -0.39?",
+          "opciones": [
+            "Ninguno",
+            "Uno solo",
+            "Infinitos",
+            "Solamente diez"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Por la propiedad de densidad, entre dos números con signo distintos siempre hay infinitos números, por ejemplo -0.395."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si dos números con signo son diferentes, siempre existe al menos un número entre ellos.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: esta es la propiedad de densidad de los números con signo."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La propiedad que asegura que entre dos números con signo distintos siempre hay otro número se llama propiedad de ___.",
+          "respuestaCorrecta": "densidad",
+          "retroalimentacion": "Se llama propiedad de densidad."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada par de números con un número que se encuentre entre ellos.",
+          "columnaA": [
+            "-0.6 y -0.5",
+            "2.1 y 2.2",
+            "-3 y -2.9"
+          ],
+          "columnaB": [
+            "-0.55",
+            "2.15",
+            "-2.95"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "-0.55 está entre -0.6 y -0.5; 2.15 está entre 2.1 y 2.2; -2.95 está entre -3 y -2.9."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de los siguientes números está entre -1.31 y -1.30?",
+          "opciones": [
+            "-1.305",
+            "-1.32",
+            "-1.29",
+            "-1.4"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "-1.305 está entre -1.31 y -1.30, ya que -1.31 < -1.305 < -1.30."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 1 de 10 · Introductorio"
+    },
+    {
+      "numero": "1.2",
+      "titulo": "Ordenar en la recta numérica",
+      "explicacion": "Una vez que todos los números están en la misma forma, se ordenan igual que los enteros: los negativos con mayor valor absoluto van primero (son los menores), después el cero, y al final los positivos de menor a mayor.",
+      "ejemplos": [
+        "-3.5, -2, -0.5, 0, 1.25 ordenados de menor a mayor: -3.5 < -2 < -0.5 < 0 < 1.25."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "llenar_frase",
+          "frase": "-3/4 escrito como decimal es ___.",
+          "respuestaCorrecta": "-0.75",
+          "retroalimentacion": "-3/4 = -0.75."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El número menor entre 0, -1/2, -4, 8 es ___.",
+          "respuestaCorrecta": "-4",
+          "retroalimentacion": "-4 está más a la izquierda en la recta numérica, así que es el menor."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El número menor entre 1/2, 0.1, -1/2, 10 es ___.",
+          "respuestaCorrecta": "-1/2",
+          "retroalimentacion": "-1/2 está más a la izquierda en la recta numérica, así que es el menor."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El número menor entre -1/2, -3.2, 8, -6/10 es ___.",
+          "respuestaCorrecta": "-3.2",
+          "retroalimentacion": "-3.2 está más a la izquierda en la recta numérica, así que es el menor."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El número menor entre -10, 6/8, 1/5, 1.7 es ___.",
+          "respuestaCorrecta": "-10",
+          "retroalimentacion": "-10 está más a la izquierda en la recta numérica, así que es el menor."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Ordena de menor a mayor: -5, 1/4, -0.8, 3",
+          "opciones": [
+            "-5, -0.8, 1/4, 3",
+            "3, 1/4, -0.8, -5",
+            "-0.8, -5, 1/4, 3",
+            "1/4, -0.8, -5, 3"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "1/4 = 0.25. De menor a mayor: -5 < -0.8 < 0.25 < 3."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El número mayor entre -3, 2/5, -1.8, -6 es ___.",
+          "respuestaCorrecta": "2/5",
+          "retroalimentacion": "2/5 (0.4) está más a la derecha en la recta numérica, así que es el mayor."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En la recta numérica, -4.5 se ubica a la izquierda de -4.05.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: -4.5 < -4.05, así que -4.5 queda a la izquierda."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada conjunto de números con su valor mínimo.",
+          "columnaA": [
+            "-2, 5, -7, 0",
+            "3/4, -1, 2, -3",
+            "-0.5, -0.05, 1, -5"
+          ],
+          "columnaB": [
+            "-3",
+            "-7",
+            "-5"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            2
+          ],
+          "retroalimentacion": "El mínimo del primer conjunto es -7; del segundo es -3; del tercero es -5."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál fracción, al convertirla a decimal, resulta en -0.6?",
+          "opciones": [
+            "-3/5",
+            "-3/4",
+            "-2/3",
+            "-5/8"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "-3/5 = -0.6."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 2 de 10 · Intermedio"
+    },
+    {
+      "numero": "1.3",
+      "titulo": "La densidad de los números con signo",
+      "explicacion": "Entre dos números con signo siempre existe otro número: a esto se le llama propiedad de densidad. A diferencia de los números enteros (donde entre -2 y -1 no hay otro entero), entre dos números con signo (incluyendo fracciones y decimales) siempre se puede encontrar uno más.",
+      "ejemplos": [
+        "Entre -2 y -1 está -1.5, y también -1.2, -1.9, etc.: hay infinitos números posibles.",
+        "Entre 0 y 1 está 0.5, y también 0.1, 0.99, etc."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Qué número está entre -2 y -1 en la recta numérica?",
+          "opciones": [
+            "-3",
+            "-1.5",
+            "0",
+            "-2.5"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "-1.5 está entre -2 y -1, ya que -2 < -1.5 < -1."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Ordena de menor a mayor: -0.5, 1/4, -2, 0",
+          "opciones": [
+            "-2, -0.5, 0, 1/4",
+            "1/4, 0, -0.5, -2",
+            "-0.5, -2, 0, 1/4",
+            "0, -0.5, -2, 1/4"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "1/4 = 0.25. Ordenados: -2 < -0.5 < 0 < 0.25."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Ordena de mayor a menor:",
+          "opciones": [
+            "-2.2, -0.7, 5, -1",
+            "5, -0.7, -1, -2.2",
+            "-1, 5, -2.2, -0.7",
+            "-0.7, -1, 5, -2.2"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "De mayor a menor: 5 > -0.7 > -1 > -2.2."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Ordena de mayor a menor:",
+          "opciones": [
+            "-5, 1/2, -9/10, -3.2",
+            "1/2, -9/10, -3.2, -5",
+            "1/2, -5, -9/10, -3.2",
+            "-9/10, -3.2, 1/2, -5"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "De mayor a menor: 1/2 > -9/10 > -3.2 > -5."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Ordena de mayor a menor:",
+          "opciones": [
+            "2.8, 1.2, -1/2, -1",
+            "2.8, -1/2, -1, 1.2",
+            "1.2, 2.8, -1/2, -1",
+            "-1, 2.8, -1/2, 1.2"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "De mayor a menor: 2.8 > 1.2 > -1/2 > -1."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Qué número está entre -0.6 y -0.5?",
+          "opciones": [
+            "-0.55",
+            "-0.7",
+            "-0.4",
+            "-1"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "-0.55 está entre -0.6 y -0.5, ya que -0.6 < -0.55 < -0.5."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Entre -3 y -2.5 existe al menos un número, por ejemplo -2.8.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: -3 < -2.8 < -2.5, así que sí existe un número entre ellos."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Entre dos números con signo distintos siempre existe otro número: a esta propiedad se le llama propiedad de ___.",
+          "respuestaCorrecta": "densidad",
+          "retroalimentacion": "Se llama propiedad de densidad."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada intervalo con un número que se encuentre dentro de él.",
+          "columnaA": [
+            "Entre -5 y -4",
+            "Entre 0 y 1",
+            "Entre -2.2 y -2"
+          ],
+          "columnaB": [
+            "-4.5",
+            "0.5",
+            "-2.1"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "-4.5 está entre -5 y -4; 0.5 está entre 0 y 1; -2.1 está entre -2.2 y -2."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Ordena de menor a mayor: -0.3, 2, -4, 1/2",
+          "opciones": [
+            "-4, -0.3, 1/2, 2",
+            "2, 1/2, -0.3, -4",
+            "-0.3, -4, 1/2, 2",
+            "1/2, -0.3, -4, 2"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "1/2 = 0.5. De menor a mayor: -4 < -0.3 < 0.5 < 2."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 3 de 10 · Avanzado"
+    },
+    {
+      "numero": "1.4",
+      "titulo": "Síntesis y aplicación",
+      "explicacion": "Recuerda: para comparar números con signo que están en distintas formas (enteros, fracciones, decimales), conviene expresarlos todos igual, por ejemplo convirtiendo las fracciones a decimales. Los negativos con mayor valor absoluto son los menores, y entre dos números con signo siempre existe otro número más (la propiedad de densidad).",
+      "ejemplos": [
+        "Entre 0.2 y 0.3 no existe ningún otro número. Falso: por la propiedad de densidad, entre 0.2 y 0.3 existen infinitos números, por ejemplo 0.25."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Ordena de mayor a menor:",
+          "opciones": [
+            "6, 3/5, -1.1, 8",
+            "8, 6, 3/5, -1.1",
+            "8, 3/5, -1.1, 6",
+            "6, 3/5, 8, -1.1"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "De mayor a menor: 8 > 6 > 3/5 > -1.1."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada par de números con la comparación correcta.",
+          "columnaA": [
+            "-7 y -3",
+            "-2 y -5",
+            "-1/4 y -0.75"
+          ],
+          "columnaB": [
+            "-2 > -5",
+            "-1/4 > -0.75",
+            "-7 < -3"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "-7 < -3; -2 > -5; -1/4 (-0.25) > -0.75."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada par de números con la comparación correcta.",
+          "columnaA": [
+            "-1/5 y 7",
+            "10 y -2/5",
+            "-10 y 1.7"
+          ],
+          "columnaB": [
+            "-1/5 < 7",
+            "10 > -2/5",
+            "-10 < 1.7"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "-1/5 y 7: -1/5 < 7; 10 y -2/5: 10 > -2/5; -10 y 1.7: -10 < 1.7."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada par de números con la comparación correcta.",
+          "columnaA": [
+            "-7 y -2.8",
+            "-3.7 y -2",
+            "-4 y 8"
+          ],
+          "columnaB": [
+            "-3.7 < -2",
+            "-7 < -2.8",
+            "-4 < 8"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            2
+          ],
+          "retroalimentacion": "-7 y -2.8: -7 < -2.8; -3.7 y -2: -3.7 < -2; -4 y 8: -4 < 8."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada par de números con la comparación correcta.",
+          "columnaA": [
+            "-1/2 y 1/2",
+            "-0.4 y 8",
+            "1.6 y 4"
+          ],
+          "columnaB": [
+            "-1/2 < 1/2",
+            "-0.4 < 8",
+            "1.6 < 4"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "-1/2 y 1/2: -1/2 < 1/2; -0.4 y 8: -0.4 < 8; 1.6 y 4: 1.6 < 4."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Ordena de menor a mayor: -2/5, 3, -6, 0.9",
+          "opciones": [
+            "-6, -2/5, 0.9, 3",
+            "3, 0.9, -2/5, -6",
+            "-2/5, -6, 0.9, 3",
+            "0.9, -2/5, -6, 3"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "-2/5 = -0.4. De menor a mayor: -6 < -0.4 < 0.9 < 3."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "-5/8 es menor que -0.5.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: -5/8 = -0.625, y -0.625 < -0.5."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El número mayor entre -9, 4/5, -0.3, 2 es ___.",
+          "respuestaCorrecta": "2",
+          "retroalimentacion": "Comparando -9, 0.8, -0.3 y 2, el mayor es 2."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Empareja cada par de números con la comparación que le corresponde.",
+          "columnaA": [
+            "-6 y -4",
+            "-0.8 y -1/4",
+            "3 y -9"
+          ],
+          "columnaB": [
+            "3 > -9",
+            "-6 < -4",
+            "-0.8 < -1/4"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "-6 < -4; -0.8 < -1/4 (-0.25); 3 > -9."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de las siguientes comparaciones es correcta?",
+          "opciones": [
+            "-3 > 2",
+            "-7 < -7.5",
+            "-1/2 > -0.8",
+            "0 < -0.01"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "-1/2 (-0.5) es mayor que -0.8, ya que está más a la derecha en la recta numérica."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 4 de 10 · Síntesis"
+    },
+    {
+      "numero": "1.5",
+      "titulo": "Temperaturas bajo cero en el norte de México",
+      "explicacion": "Aplicarás la comparación y el orden de números con signo a datos reales de clima: los reportes de temperatura mínima que publica el Servicio Meteorológico Nacional en distintas ciudades. A diferencia de las lecciones anteriores, aquí las lecturas ya no son números \"redondos\": tienen centésimas y a veces vienen como fracción de grado, y deberás decidir cuál ciudad amaneció más fría o si una lectura reportada es coherente con las demás.",
+      "ejemplos": [
+        "En una madrugada de enero, Chihuahua registró -6.4 °C, Ciudad Juárez -7.15 °C y Ensenada -2.8 °C. Comparando: -7.15 < -6.4 < -2.8, así que Ciudad Juárez tuvo la temperatura más baja (la más fría) de las tres.",
+        "Si Nuevo Casas Grandes registró -5 3/4 °C, es decir -5.75 °C, ¿dónde queda respecto a las tres ciudades anteriores? Como -6.4 < -5.75 < -2.8, Nuevo Casas Grandes quedó entre Chihuahua y Ensenada."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una noche de enero se registraron estas temperaturas mínimas: Hermosillo -1.6 °C, Chihuahua -6.4 °C, Saltillo -3.9 °C y Torreón -0.75 °C. ¿Cuál ciudad amaneció más fría?",
+          "opciones": [
+            "Hermosillo",
+            "Chihuahua",
+            "Saltillo",
+            "Torreón"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Chihuahua tuvo -6.4 °C, la temperatura más baja de las cuatro: -6.4 < -3.9 < -1.6 < -0.75."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La temperatura -5.2 °C es menor que -5.08 °C.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: -5.2 está más a la izquierda en la recta numérica que -5.08, así que -5.2 < -5.08."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si una estación climatológica registra -4 3/5 °C, escrito como decimal es ___ °C.",
+          "respuestaCorrecta": "-4.6",
+          "retroalimentacion": "-4 3/5 = -4.6, porque 3/5 = 0.6."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada temperatura dada como fracción con su forma decimal correcta.",
+          "columnaA": [
+            "-3 1/4 °C (Monterrey)",
+            "-7/2 °C (Saltillo)",
+            "-9/20 °C (Tijuana)"
+          ],
+          "columnaB": [
+            "-0.45",
+            "-3.25",
+            "-3.5"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "-3 1/4 = -3.25; -7/2 = -3.5; -9/20 = -0.45."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un reporte matutino registró: -8.3 °C, -8.03 °C, -8.35 °C y -7.9 °C. ¿Cuál es el orden correcto de la más fría a la menos fría?",
+          "opciones": [
+            "-8.03, -8.3, -8.35, -7.9",
+            "-7.9, -8.03, -8.3, -8.35",
+            "-8.35, -8.3, -8.03, -7.9",
+            "-8.35, -8.03, -8.3, -7.9"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "De más fría a menos fría (de menor a mayor): -8.35 < -8.3 < -8.03 < -7.9."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Entre las temperaturas -6.7 °C y -6.68 °C es imposible que exista otra lectura de temperatura.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: por la propiedad de densidad, entre -6.7 °C y -6.68 °C existen infinitas lecturas posibles, por ejemplo -6.69 °C."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si Ensenada reporta -3 9/20 °C, escrito como decimal es ___ °C.",
+          "respuestaCorrecta": "-3.45",
+          "retroalimentacion": "-3 9/20 = -3.45, porque 9/20 = 0.45."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un termómetro digital registró -5.6 °C y otro, minutos después, -5.5 °C. ¿Cuál de las siguientes pudo ser una lectura intermedia real?",
+          "opciones": [
+            "-5.65 °C",
+            "-5.4 °C",
+            "-6 °C",
+            "-5.55 °C"
+          ],
+          "respuestaCorrecta": 3,
+          "retroalimentacion": "-5.55 °C está entre -5.6 °C y -5.5 °C, ya que -5.6 < -5.55 < -5.5."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "-1 3/4 °C es una temperatura menor que -1.7 °C.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: -1 3/4 = -1.75 °C, y -1.75 < -1.7."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Cada estación registró 4 lecturas en un día. Relaciona cada estación con su lectura más baja (la más fría).",
+          "columnaA": [
+            "Estación A: -4.5, 3/4, -5.5, 0",
+            "Estación B: -1.3, -1, 2, -2.7",
+            "Estación C: -9/20, -1/25, 1, -4"
+          ],
+          "columnaB": [
+            "-5.5",
+            "-4",
+            "-2.7"
+          ],
+          "parejasCorrectas": [
+            0,
+            2,
+            1
+          ],
+          "retroalimentacion": "Estación A: la más baja es -5.5. Estación B: la más baja es -2.7. Estación C: la más baja es -4."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 5 de 10 · Aplicación"
+    },
+    {
+      "numero": "1.6",
+      "titulo": "Buceo en Cozumel: profundidades y arrecifes",
+      "explicacion": "En esta lección profundizas la aplicación a un contexto de buceo, donde las profundidades mezclan decimales de más cifras con fracciones menos comunes (octavos y dieciseisavos de metro). Además de ordenar, ahora tendrás que decidir si un punto se ubica dentro de un rango entre dos profundidades, e identificar cuándo dos lecturas escritas de forma distinta representan en realidad la misma profundidad.",
+      "ejemplos": [
+        "Un buzo revisa 4 puntos: el barco hundido está a -18.4 m, el arrecife a -12 3/8 m, la cueva a -25.6 m y una boya de referencia a -9.5 m. Convirtiendo -12 3/8 a decimal: -12.375 m. Ordenando de menor a mayor (de más profundo a menos profundo): -25.6 < -18.4 < -12.375 < -9.5.",
+        "La escuela de buceo quiere colocar una línea de seguridad entre el barco (-18.4 m) y el arrecife (-12.375 m). ¿Puede colocarla a -15 m? Sí, porque -18.4 < -15 < -12.375."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un buzo anota estas profundidades: barco hundido -18.4 m, arrecife -12 3/8 m, cueva -25.6 m, boya -9.5 m. ¿Cuál es el orden correcto de la más profunda a la menos profunda?",
+          "opciones": [
+            "-9.5, -12.375, -18.4, -25.6",
+            "-25.6, -18.4, -12.375, -9.5",
+            "-12.375, -18.4, -25.6, -9.5",
+            "-25.6, -12.375, -18.4, -9.5"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "-12 3/8 = -12.375 m. De más profunda a menos profunda: -25.6 < -18.4 < -12.375 < -9.5."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "-14 5/8 m es una profundidad menos profunda (mayor) que -14.7 m.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: -14 5/8 = -14.625 m, y -14.625 > -14.7, así que -14 5/8 m está más cerca de la superficie."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "-16 7/8 m escrito en decimal es ___ m.",
+          "respuestaCorrecta": "-16.875",
+          "retroalimentacion": "-16 7/8 = -16.875, porque 7/8 = 0.875."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada profundidad dada como fracción con su forma decimal.",
+          "columnaA": [
+            "-21 3/16 m",
+            "-7/16 m",
+            "-33/8 m"
+          ],
+          "columnaB": [
+            "-0.4375",
+            "-4.125",
+            "-21.1875"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "-21 3/16 = -21.1875; -7/16 = -0.4375; -33/8 = -4.125."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Dos boyas marcan -20.5 m y -19.8 m. ¿Cuál de las siguientes profundidades queda entre ambas?",
+          "opciones": [
+            "-21 m",
+            "-19.5 m",
+            "-20.1 m",
+            "-18 m"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "-20.1 m está entre -20.5 m y -19.8 m, ya que -20.5 < -20.1 < -19.8."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Entre -30.2 m y -30.19 m no cabe ninguna otra profundidad posible.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: por la propiedad de densidad, entre -30.2 m y -30.19 m existen infinitas profundidades posibles, por ejemplo -30.195 m."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "-9 5/16 m escrito en decimal es ___ m.",
+          "respuestaCorrecta": "-9.3125",
+          "retroalimentacion": "-9 5/16 = -9.3125, porque 5/16 = 0.3125."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En su bitácora, un buzo anotó estas cuatro profundidades: -11.6 m, -11 3/5 m, -11.06 m y -10.9 m. ¿Cuáles dos anotaciones representan en realidad la misma profundidad?",
+          "opciones": [
+            "-11.6 m y -11.06 m",
+            "-11 3/5 m y -10.9 m",
+            "-11.06 m y -10.9 m",
+            "-11.6 m y -11 3/5 m"
+          ],
+          "respuestaCorrecta": 3,
+          "retroalimentacion": "-11 3/5 = -11.6, así que -11.6 m y -11 3/5 m son la misma profundidad escrita de dos formas distintas."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "-8 9/16 m es una profundidad mayor (más profunda) que -8.5 m.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: -8 9/16 = -8.5625 m, y -8.5625 < -8.5, así que -8 9/16 m está más profundo."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Cada equipo de buceo registró 4 profundidades en su bitácora. Relaciona a cada equipo con su punto más profundo.",
+          "columnaA": [
+            "Equipo 1: -14.2, -9, -14 3/4, -1",
+            "Equipo 2: -6 1/8, -19.4, -0.9, 7",
+            "Equipo 3: -23.05, -22 7/8, -24, 5"
+          ],
+          "columnaB": [
+            "-19.4",
+            "-14.75",
+            "-24"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            2
+          ],
+          "retroalimentacion": "Equipo 1: el punto más profundo es -14.75 (-14 3/4). Equipo 2: -19.4. Equipo 3: -24."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 6 de 10 · Aplicación avanzada"
+    },
+    {
+      "numero": "1.7",
+      "titulo": "Ingresos y deudas de comerciantes en un tianguis",
+      "explicacion": "El reto consiste en comparar el balance semanal (ganancia o pérdida) de varios comerciantes de un tianguis, usando cinco o más valores a la vez y números con signo menos \"redondos\" (décimas y fracciones con denominadores mayores). También aprenderás a encontrar, usando la propiedad de densidad, un balance posible entre dos balances ya conocidos, algo útil para estimar el desempeño de un comerciante nuevo.",
+      "ejemplos": [
+        "Cinco comerciantes reportan su balance semanal: Doña Rosa -102.3, Don Beto -87.75, Lupe -215/4, Chuy 9/2 y Mari 125.5. Convirtiendo: -215/4 = -53.75 y 9/2 = 4.5. Ordenando de menor a mayor: -102.3 < -87.75 < -53.75 < 4.5 < 125.5.",
+        "Si un sexto comerciante tuvo una pérdida entre la de Don Beto (-87.75) y la de Lupe (-53.75), ¿pudo ser -70.4? Sí, porque -87.75 < -70.4 < -53.75."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Cinco comerciantes reportan estos balances de la semana: -64.8, 19/8, -305.5, -9.25 y 200. ¿Cuál es el orden correcto de menor a mayor?",
+          "opciones": [
+            "-305.5, -64.8, -9.25, 19/8, 200",
+            "200, 19/8, -9.25, -64.8, -305.5",
+            "-9.25, -64.8, -305.5, 19/8, 200",
+            "-305.5, -9.25, -64.8, 19/8, 200"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "19/8 = 2.375. De menor a mayor: -305.5 < -64.8 < -9.25 < 2.375 < 200."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "-91.6 es menor que -365/4.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: -365/4 = -91.25, y -91.6 está más a la izquierda: -91.6 < -91.25."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una deuda de -133/8 escrita en decimal es ___.",
+          "respuestaCorrecta": "-16.625",
+          "retroalimentacion": "-133/8 = -16.625."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada balance dado como fracción con su forma decimal.",
+          "columnaA": [
+            "-181/8",
+            "-87/4",
+            "-19/8"
+          ],
+          "columnaB": [
+            "-22.625",
+            "-21.75",
+            "-2.375"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "-181/8 = -22.625; -87/4 = -21.75; -19/8 = -2.375."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Dos comerciantes reportaron pérdidas de -215.4 y -214.9. ¿Cuál de los siguientes balances pudo tener un tercer comerciante entre ellos?",
+          "opciones": [
+            "-216",
+            "-215.15",
+            "-214.5",
+            "-215.5"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "-215.15 está entre -215.4 y -214.9, ya que -215.4 < -215.15 < -214.9."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Entre los balances -58.02 y -58.019 no existe ningún otro balance posible.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: por la propiedad de densidad, entre -58.02 y -58.019 existen infinitos balances posibles, por ejemplo -58.0195."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "-329/20 escrito en decimal es ___.",
+          "respuestaCorrecta": "-16.45",
+          "retroalimentacion": "-329/20 = -16.45."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Cinco comerciantes reportan: -47.6, -237/5, -48.1, -47.55 y -46.9. ¿Cuál tuvo la pérdida más grande (el balance menor)?",
+          "opciones": [
+            "-47.6",
+            "-237/5",
+            "-48.1",
+            "-46.9"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "-237/5 = -47.4. Comparando los cinco balances, -48.1 es el menor (la pérdida más grande)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "-13/2 es mayor que -6.4.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: -13/2 = -6.5, y -6.5 es menor que -6.4, no mayor."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Cada puesto del tianguis registró 4 balances en el mes. Relaciona cada puesto con su balance menor (su peor mes).",
+          "columnaA": [
+            "Puesto 1: -72.3, -18, -351/5, 12",
+            "Puesto 2: -9/4, -523/4, 45, -12.6",
+            "Puesto 3: -88.05, -351/4, 3, -90"
+          ],
+          "columnaB": [
+            "-72.3",
+            "-90",
+            "-130.75"
+          ],
+          "parejasCorrectas": [
+            0,
+            2,
+            1
+          ],
+          "retroalimentacion": "Puesto 1: el menor es -72.3. Puesto 2: -523/4 = -130.75 es el menor. Puesto 3: -90 es el menor."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 7 de 10 · Reto"
+    },
+    {
+      "numero": "1.8",
+      "titulo": "Diferencial de goles esperados (xG) en la tabla del torneo",
+      "explicacion": "En el análisis deportivo moderno se usa el \"diferencial de goles esperados\" (xG) por partido, un número con signo que casi nunca es redondo. El reto avanzado combina la comparación de estos valores (muchos escritos como octavos o dieciseisavos) con preguntas sobre qué valor pudo existir entre dos ya conocidos, igual que haría un analista al revisar el rendimiento de varios equipos a la vez.",
+      "formula": "xG diferencial = xG a favor − xG en contra (por partido)",
+      "ejemplos": [
+        "Un analista calcula el xG diferencial por partido de 4 equipos: Tigres 0.85, Rayados -11/16, Pumas -19/16 y América 19/16. Convirtiendo: -11/16 = -0.6875 y -19/16 = -1.1875. Ordenando de menor a mayor: -1.1875 < -0.6875 < 0.85 < 1.1875.",
+        "Si un quinto equipo tuvo un xG diferencial entre el de Pumas (-1.1875) y el de Rayados (-0.6875), ¿pudo ser -1.0? Sí, porque -1.1875 < -1.0 < -0.6875."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Cuatro equipos tienen este xG diferencial por partido: Cruz Azul -0.65, Toluca 5/8, Necaxa -13/8, León -0.4. ¿Cuál es el orden correcto de menor a mayor?",
+          "opciones": [
+            "-13/8, -0.65, -0.4, 5/8",
+            "5/8, -0.4, -0.65, -13/8",
+            "-0.65, -13/8, -0.4, 5/8",
+            "-13/8, -0.4, -0.65, 5/8"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "-13/8 = -1.625 y 5/8 = 0.625. De menor a mayor: -1.625 < -0.65 < -0.4 < 0.625."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "-19/16 es menor que -1.1.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: -19/16 = -1.1875, y -1.1875 < -1.1."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "-27/16 escrito en decimal es ___.",
+          "respuestaCorrecta": "-1.6875",
+          "retroalimentacion": "-27/16 = -1.6875."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada xG diferencial dado como fracción con su forma decimal.",
+          "columnaA": [
+            "-21/8",
+            "-47/16",
+            "-3/16"
+          ],
+          "columnaB": [
+            "-0.1875",
+            "-2.9375",
+            "-2.625"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "-21/8 = -2.625; -47/16 = -2.9375; -3/16 = -0.1875."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Pachuca tiene un xG diferencial de -2.4 y Atlas de -2.35. ¿Cuál de los siguientes valores pudo tener un equipo entre ambos?",
+          "opciones": [
+            "-2.3",
+            "-2.45",
+            "-2.5",
+            "-2.38"
+          ],
+          "respuestaCorrecta": 3,
+          "retroalimentacion": "-2.38 está entre -2.4 y -2.35, ya que -2.4 < -2.38 < -2.35."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Entre los valores -0.502 y -0.501 no cabe ningún otro xG diferencial.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: por la propiedad de densidad, entre -0.502 y -0.501 existen infinitos valores posibles, por ejemplo -0.5015."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "-53/16 escrito en decimal es ___.",
+          "respuestaCorrecta": "-3.3125",
+          "retroalimentacion": "-53/16 = -3.3125."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El promedio de gol por partido (a favor menos en contra) de 4 equipos es: Monterrey -0.6, Santos 2/5, Puebla -3/4, Querétaro -0.55. ¿Cuál equipo tiene el promedio más bajo?",
+          "opciones": [
+            "Monterrey",
+            "Puebla",
+            "Querétaro",
+            "Santos"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "-3/4 = -0.75, el valor más bajo de los cuatro: -0.75 < -0.6 < -0.55 < 0.4."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "-11/8 es mayor que -1.4.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: -11/8 = -1.375, y -1.375 > -1.4."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Cada equipo tiene 4 registros de xG diferencial en el torneo. Relaciona a cada equipo con su peor registro (el valor menor).",
+          "columnaA": [
+            "Equipo A: -0.58, 3/8, -0.62, 0.1",
+            "Equipo B: -15/8, -1.2, 0, -31/16",
+            "Equipo C: -2.05, -33/16, -1.9, 1"
+          ],
+          "columnaB": [
+            "-1.9375",
+            "-2.0625",
+            "-0.62"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "Equipo A: el menor es -0.62. Equipo B: -31/16 = -1.9375 es el menor. Equipo C: -33/16 = -2.0625 es el menor."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 8 de 10 · Reto avanzado"
+    },
+    {
+      "numero": "1.9",
+      "titulo": "Bitácora de un experimento: cambios de temperatura y presión",
+      "explicacion": "Esta lección integra en un solo problema las tres primeras habilidades del PDA: primero conviertes distintos valores a la misma forma, después los ordenas en la recta numérica y, por último, decides si entre dos de ellos existe otro valor posible (densidad). A diferencia de las lecciones anteriores, que trabajaban una habilidad a la vez, aquí cada reactivo puede exigirte dos o tres pasos seguidos, como ocurre al analizar datos reales de laboratorio.",
+      "ejemplos": [
+        "Durante un experimento, un termómetro registra estos cambios respecto a la temperatura inicial: -3 3/8 °C, -2.9 °C, -7/2 °C y +1.6 °C. Paso 1 (convertir): -3 3/8 = -3.375 y -7/2 = -3.5. Paso 2 (ordenar): -3.5 < -3.375 < -2.9 < 1.6. Paso 3 (densidad): ¿hay otro cambio posible entre -3.5 y -3.375? Sí, por ejemplo -3.44, porque -3.5 < -3.44 < -3.375.",
+        "En otra etapa se registra la variación de presión: -0.08 atm, -1/16 atm, -0.095 atm y 0.02 atm. Convirtiendo -1/16 = -0.0625, el orden de menor a mayor queda: -0.095 < -0.08 < -0.0625 < 0.02."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un experimento registra estas variaciones de temperatura: -4 5/8 °C, -4.7 °C, -9/2 °C y +2 °C. ¿Cuál es el orden correcto de menor a mayor?",
+          "opciones": [
+            "-4.7, -4 5/8, -9/2, 2",
+            "-4.7, -9/2, -4 5/8, 2",
+            "-9/2, -4 5/8, -4.7, 2",
+            "2, -4 5/8, -9/2, -4.7"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "-4 5/8 = -4.625 y -9/2 = -4.5. De menor a mayor: -4.7 < -4.625 < -4.5 < 2."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La variación -4.625 °C (equivalente a -4 5/8 °C) es menor que -4.5 °C (equivalente a -9/2 °C).",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: -4.625 está más a la izquierda que -4.5, así que -4.625 < -4.5."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "-9/2 °C escrito en decimal es ___ °C.",
+          "respuestaCorrecta": "-4.5",
+          "retroalimentacion": "-9/2 = -4.5."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Se registraron las variaciones -4.7 °C y -4.625 °C (esta última equivalente a -4 5/8 °C). ¿Cuál de las siguientes pudo registrarse también entre ambas?",
+          "opciones": [
+            "-4.8 °C",
+            "-4.5 °C",
+            "-4.66 °C",
+            "-4.72 °C"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "-4.66 °C está entre -4.7 °C y -4.625 °C, ya que -4.7 < -4.66 < -4.625."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada variación de presión dada como fracción con su forma decimal.",
+          "columnaA": [
+            "-1/16 atm",
+            "-5/16 atm",
+            "-13/16 atm"
+          ],
+          "columnaB": [
+            "-0.8125",
+            "-0.0625",
+            "-0.3125"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "-1/16 = -0.0625; -5/16 = -0.3125; -13/16 = -0.8125."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Entre las variaciones -0.095 atm y -0.09 atm no existe ninguna otra variación posible de presión.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: por la propiedad de densidad, entre -0.095 atm y -0.09 atm existen infinitos valores posibles, por ejemplo -0.093 atm."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "-9/16 atm escrito en decimal es ___ atm.",
+          "respuestaCorrecta": "-0.5625",
+          "retroalimentacion": "-9/16 = -0.5625."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Cuatro lecturas de presión son: -0.18 atm, -3/16 atm, -0.17 atm y -5/32 atm. ¿Cuál es el orden correcto de mayor a menor (de la menos negativa a la más negativa)?",
+          "opciones": [
+            "-3/16, -0.18, -0.17, -5/32",
+            "-0.17, -5/32, -3/16, -0.18",
+            "-5/32, -3/16, -0.17, -0.18",
+            "-5/32, -0.17, -0.18, -3/16"
+          ],
+          "respuestaCorrecta": 3,
+          "retroalimentacion": "-3/16 = -0.1875 y -5/32 = -0.15625. De mayor a menor: -0.15625 > -0.17 > -0.18 > -0.1875."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Aunque -3.375 °C y -3.5 °C ya tienen varias cifras decimales, todavía es posible encontrar una variación de temperatura entre ambas.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: la propiedad de densidad se cumple sin importar cuántas cifras decimales tengan los números; por ejemplo, -3.44 está entre -3.5 y -3.375."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Cada etapa del experimento tiene 4 registros. Relaciona cada etapa con su registro más negativo.",
+          "columnaA": [
+            "Etapa 1 (temperatura): -19/8, -2.4, -2/5, 1",
+            "Etapa 2 (presión): -0.55, -9/16, -0.5, 0.3",
+            "Etapa 3 (temperatura): -57/8, -7.2, -71/10, 0"
+          ],
+          "columnaB": [
+            "-0.5625",
+            "-2.4",
+            "-7.2"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            2
+          ],
+          "retroalimentacion": "Etapa 1: el más negativo es -2.4. Etapa 2: -9/16 = -0.5625 es el más negativo. Etapa 3: -7.2 es el más negativo."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 9 de 10 · Integración"
+    },
+    {
+      "numero": "1.10",
+      "titulo": "Balance general de la cooperativa escolar",
+      "explicacion": "Esta lección culmina el tema en el contexto de administración de una cooperativa escolar: un reporte financiero con el balance neto de varios meses, usando números con signo en distintas formas y con cifras poco redondas (dieciseisavos y centésimas). Cada reactivo exige encadenar dos o tres habilidades a la vez —convertir, ordenar y aplicar la densidad— tal como lo haría un contador al revisar cuentas reales.",
+      "ejemplos": [
+        "El balance neto (ingresos menos gastos) de 4 meses de la cooperativa es: Papelería -227/16, Cafetería -13.6, Uniformes -14.09 y Deportes +3.5. Convirtiendo -227/16 = -14.1875. Ordenando de menor a mayor: -14.1875 < -14.09 < -13.6 < 3.5.",
+        "El contador busca un balance de corrección entre Papelería (-14.1875) y Uniformes (-14.09). ¿Puede usar -14.12? Sí, porque -14.1875 < -14.12 < -14.09."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Cinco departamentos de la cooperativa reportan estos balances netos: -227/16, -13.6, -14.09, +3.5 y -95/8. ¿Cuál es el orden correcto de menor a mayor?",
+          "opciones": [
+            "3.5, -95/8, -13.6, -14.09, -227/16",
+            "-227/16, -14.09, -13.6, -95/8, 3.5",
+            "-14.09, -227/16, -95/8, -13.6, 3.5",
+            "-95/8, -227/16, -14.09, -13.6, 3.5"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "-227/16 = -14.1875 y -95/8 = -11.875. De menor a mayor: -14.1875 < -14.09 < -13.6 < -11.875 < 3.5."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "-149/16 es menor que -9.3.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: -149/16 = -9.3125, y -9.3125 < -9.3."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "-227/16 escrito en decimal es ___.",
+          "respuestaCorrecta": "-14.1875",
+          "retroalimentacion": "-227/16 = -14.1875."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada balance dado como fracción con su forma decimal.",
+          "columnaA": [
+            "-103/16",
+            "-167/16",
+            "-39/16"
+          ],
+          "columnaB": [
+            "-2.4375",
+            "-10.4375",
+            "-6.4375"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "-103/16 = -6.4375; -167/16 = -10.4375; -39/16 = -2.4375."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El contador busca un balance de corrección entre Papelería (-14.1875) y Uniformes (-14.09). ¿Cuál de los siguientes valores es válido?",
+          "opciones": [
+            "-14.2",
+            "-14.05",
+            "-14.12",
+            "-14.19"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "-14.12 está entre -14.1875 y -14.09, ya que -14.1875 < -14.12 < -14.09. Nota: -14.19 no sirve porque es menor que -14.1875."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Entre -6.4375 y -6.43 no puede existir ningún otro balance, porque ambos ya tienen cuatro cifras decimales.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: la propiedad de densidad se cumple sin importar cuántas cifras decimales tengan los números; por ejemplo, -6.435 está entre -6.4375 y -6.43."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "-95/8 escrito en decimal es ___.",
+          "respuestaCorrecta": "-11.875",
+          "retroalimentacion": "-95/8 = -11.875."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Para detectar el peor mes, un contador ordena estos balances de menor a mayor: -227/16, -14.09, -283/20 y -13.6. ¿Cuál es el orden correcto?",
+          "opciones": [
+            "-283/20, -227/16, -14.09, -13.6",
+            "-13.6, -14.09, -283/20, -227/16",
+            "-227/16, -14.09, -283/20, -13.6",
+            "-227/16, -283/20, -14.09, -13.6"
+          ],
+          "respuestaCorrecta": 3,
+          "retroalimentacion": "-227/16 = -14.1875 y -283/20 = -14.15. De menor a mayor: -14.1875 < -14.15 < -14.09 < -13.6."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "-283/20 es mayor que -227/16.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: -283/20 = -14.15 y -227/16 = -14.1875, y -14.15 > -14.1875."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Cada departamento tiene 4 balances mensuales. Relaciona a cada departamento con su peor mes (el balance menor).",
+          "columnaA": [
+            "Departamento X: -149/16, -9.4, -37/4, 2",
+            "Departamento Y: -103/16, -6.5, -6.44, 0.9",
+            "Departamento Z: -167/16, -10.42, -83/8, 4"
+          ],
+          "columnaB": [
+            "-9.4",
+            "-6.5",
+            "-10.4375"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "Departamento X: el menor es -9.4. Departamento Y: -6.5 es el menor. Departamento Z: -167/16 = -10.4375 es el menor."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 10 de 10 · Dominio"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "llenar_frase",
+      "frase": "-7/4 escrito como decimal es ___.",
+      "respuestaCorrecta": "-1.75",
+      "retroalimentacion": "-7/4 = -1.75."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "El número menor entre -6, 3/4, -2.5, 9 es ___.",
+      "respuestaCorrecta": "-6",
+      "retroalimentacion": "-6 está más a la izquierda en la recta numérica, así que es el menor."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Entre -0.6 y -0.55 no existe ningún otro número.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Falso: por la propiedad de densidad, entre -0.6 y -0.55 existen infinitos números, por ejemplo -0.575."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué número está entre -3 y -2.5?",
+      "opciones": [
+        "-3.5",
+        "-2.8",
+        "-2",
+        "-4"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "-2.8 está entre -3 y -2.5, ya que -3 < -2.8 < -2.5."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada fracción con su forma decimal.",
+      "columnaA": [
+        "-9/4",
+        "7/8",
+        "-3/20"
+      ],
+      "columnaB": [
+        "-2.25",
+        "0.875",
+        "-0.15"
+      ],
+      "parejasCorrectas": [
+        0,
+        1,
+        2
+      ],
+      "retroalimentacion": "-9/4 = -2.25; 7/8 = 0.875; -3/20 = -0.15."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "-9/8 escrito como decimal es ___.",
+      "respuestaCorrecta": "-1.125",
+      "retroalimentacion": "-9/8 = -1.125."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué número está entre -4 y -3.5?",
+      "opciones": [
+        "-3.8",
+        "-4.5",
+        "-3",
+        "-5"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "-3.8 está entre -4 y -3.5, ya que -4 < -3.8 < -3.5."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Entre -2.3 y -2.25 no existe ningún otro número.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Falso: por la propiedad de densidad, entre -2.3 y -2.25 existen infinitos números, por ejemplo -2.275."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "El número menor entre -8, 5/8, -1.9, 3 es ___.",
+      "respuestaCorrecta": "-8",
+      "retroalimentacion": "-8 está más a la izquierda en la recta numérica, así que es el menor."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Empareja cada fracción con el número decimal que le corresponde.",
+      "columnaA": [
+        "-11/4",
+        "3/8",
+        "-7/20"
+      ],
+      "columnaB": [
+        "-2.75",
+        "0.375",
+        "-0.35"
+      ],
+      "parejasCorrectas": [
+        0,
+        1,
+        2
+      ],
+      "retroalimentacion": "-11/4 = -2.75; 3/8 = 0.375; -7/20 = -0.35."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Ordena de menor a mayor: -4, 0.5, -1/2, 2",
+      "opciones": [
+        "-4, -1/2, 0.5, 2",
+        "2, 0.5, -1/2, -4",
+        "-1/2, -4, 0.5, 2",
+        "0.5, -1/2, -4, 2"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "De menor a mayor: -4 < -1/2 (-0.5) < 0.5 < 2."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Ordena de mayor a menor: -6, 3, -1.5, 0",
+      "opciones": [
+        "3, 0, -1.5, -6",
+        "-6, -1.5, 0, 3",
+        "3, -1.5, 0, -6",
+        "0, 3, -1.5, -6"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "De mayor a menor: 3 > 0 > -1.5 > -6."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Entre -4.1 y -4.05 no existe ningún otro número.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Falso: por la propiedad de densidad, entre -4.1 y -4.05 existen infinitos números, por ejemplo -4.08."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "El número mayor entre -8, 2/5, -0.9, -1 es ___.",
+      "respuestaCorrecta": "2/5",
+      "retroalimentacion": "2/5 (0.4) está más a la derecha en la recta numérica, así que es el mayor."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada par de números con la comparación correcta.",
+      "columnaA": [
+        "-9 y -6",
+        "-1.8 y -1",
+        "3/5 y -0.2"
+      ],
+      "columnaB": [
+        "-1.8 < -1",
+        "3/5 > -0.2",
+        "-9 < -6"
+      ],
+      "parejasCorrectas": [
+        2,
+        0,
+        1
+      ],
+      "retroalimentacion": "-9 < -6; -1.8 < -1; 3/5 (0.6) > -0.2."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Ordena de menor a mayor: -3, 1.5, -0.2, 4",
+      "opciones": [
+        "-3, -0.2, 1.5, 4",
+        "4, 1.5, -0.2, -3",
+        "-0.2, -3, 1.5, 4",
+        "1.5, -0.2, -3, 4"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "De menor a mayor: -3 < -0.2 < 1.5 < 4."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Ordena de mayor a menor: -7, 2, -0.5, 5",
+      "opciones": [
+        "5, 2, -0.5, -7",
+        "-7, -0.5, 2, 5",
+        "2, 5, -0.5, -7",
+        "5, -0.5, 2, -7"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "De mayor a menor: 5 > 2 > -0.5 > -7."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Entre -6.3 y -6.25 no existe ningún otro número.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Falso: por la propiedad de densidad, entre -6.3 y -6.25 existen infinitos números, por ejemplo -6.275."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "El número menor entre -5, 3/10, -0.8, 6 es ___.",
+      "respuestaCorrecta": "-5",
+      "retroalimentacion": "-5 está más a la izquierda en la recta numérica, así que es el menor."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Empareja cada par de números con la comparación que le corresponde.",
+      "columnaA": [
+        "-12 y -8",
+        "-2.5 y -2",
+        "7/10 y -0.1"
+      ],
+      "columnaB": [
+        "7/10 > -0.1",
+        "-12 < -8",
+        "-2.5 < -2"
+      ],
+      "parejasCorrectas": [
+        1,
+        2,
+        0
+      ],
+      "retroalimentacion": "-12 < -8; -2.5 < -2; 7/10 (0.7) > -0.1."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "-3/8 escrito como decimal es ___.",
+      "respuestaCorrecta": "-0.375",
+      "retroalimentacion": "-3/8 = -0.375."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "-0.7 es menor que -2/3.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: -2/3 = -0.666..., y -0.7 está más a la izquierda: -0.7 < -0.666..."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Ordena de mayor a menor: -0.375, 1, -3, 1/2",
+      "opciones": [
+        "1, 1/2, -0.375, -3",
+        "1, -3, 1/2, -0.375",
+        "-3, -0.375, 1/2, 1",
+        "1/2, 1, -0.375, -3"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "De mayor a menor: 1 > 1/2 (0.5) > -0.375 > -3."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Entre -5.02 y -5.019 no existe ningún otro número.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Falso: por la propiedad de densidad, entre -5.02 y -5.019 existen infinitos números, por ejemplo -5.0195."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada par de números con la comparación correcta.",
+      "columnaA": [
+        "-8 y -3.9",
+        "5/8 y -1",
+        "-0.15 y -0.2"
+      ],
+      "columnaB": [
+        "5/8 > -1",
+        "-0.15 > -0.2",
+        "-8 < -3.9"
+      ],
+      "parejasCorrectas": [
+        2,
+        0,
+        1
+      ],
+      "retroalimentacion": "-8 < -3.9; 5/8 (0.625) > -1; -0.15 > -0.2."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "-11/8 escrito como decimal es ___.",
+      "respuestaCorrecta": "-1.375",
+      "retroalimentacion": "-11/8 = -1.375."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "-1.4 es menor que -4/3.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: -4/3 = -1.333..., y -1.4 está más a la izquierda: -1.4 < -1.333..."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Ordena de menor a mayor: 2, -0.25, -5, 3/4",
+      "opciones": [
+        "-5, -0.25, 3/4, 2",
+        "2, 3/4, -0.25, -5",
+        "-0.25, -5, 3/4, 2",
+        "3/4, -0.25, -5, 2"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "3/4 = 0.75. De menor a mayor: -5 < -0.25 < 0.75 < 2."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Entre -8.13 y -8.12 no existe ningún otro número.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Falso: por la propiedad de densidad, entre -8.13 y -8.12 existen infinitos números, por ejemplo -8.125."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Empareja cada par de números con la comparación que le corresponde.",
+      "columnaA": [
+        "-10 y -6.5",
+        "3/8 y -2",
+        "-0.45 y -0.5"
+      ],
+      "columnaB": [
+        "-0.45 > -0.5",
+        "3/8 > -2",
+        "-10 < -6.5"
+      ],
+      "parejasCorrectas": [
+        2,
+        1,
+        0
+      ],
+      "retroalimentacion": "-10 < -6.5; 3/8 (0.375) > -2; -0.45 > -0.5."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "-5/2 escrito como decimal es ___.",
+      "respuestaCorrecta": "-2.5",
+      "retroalimentacion": "-5/2 = -2.5."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué número está entre -0.5 y 0?",
+      "opciones": [
+        "-1",
+        "-0.25",
+        "0.5",
+        "-0.75"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "-0.25 está entre -0.5 y 0, ya que -0.5 < -0.25 < 0."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "-3 es menor que -1/2.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: -1/2 = -0.5, y -3 está más a la izquierda: -3 < -0.5."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada par de números con la comparación correcta.",
+      "columnaA": [
+        "-9 y -4",
+        "-3 y -6",
+        "1/2 y -0.75"
+      ],
+      "columnaB": [
+        "1/2 > -0.75",
+        "-3 > -6",
+        "-9 < -4"
+      ],
+      "parejasCorrectas": [
+        2,
+        1,
+        0
+      ],
+      "retroalimentacion": "-9 < -4; -3 > -6; 1/2 (0.5) > -0.75."
+    }
+  ]
+}

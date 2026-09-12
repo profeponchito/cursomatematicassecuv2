@@ -1,0 +1,1407 @@
+{
+  "id": "1S-B1-PDA08",
+  "grado": "1°",
+  "trimestre": "2",
+  "numero": 8,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Forma, espacio y medida",
+  "titulo": "Ángulos y Rectas",
+  "contenido": "Rectas y ángulos.",
+  "pda": "Clasifica ángulos por su medida y resuelve problemas que impliquen ángulos formados por rectas paralelas cortadas por una transversal.",
+  "problematizacion": {
+    "contexto": "En el parque de tu colonia van a construir una rampa nueva para patinetas y patines. El maestro de la escuela, que está ayudando a diseñarla, midió el ángulo que forma la rampa con el suelo y te pide ayuda para entender qué tan inclinada va a quedar.",
+    "pregunta": "Si la rampa forma un ángulo de 35° con el suelo, ¿ese ángulo es agudo, recto, obtuso o llano?"
+  },
+  "subtemas": [
+    {
+      "numero": "8.1",
+      "titulo": "¿Cómo se clasifican los ángulos?",
+      "explicacion": "Un ángulo es la abertura entre dos semirrectas que comparten el mismo origen (el vértice), y se mide en grados. Según su medida, los ángulos se clasifican en cuatro tipos: agudo (mide menos de 90°), recto (mide exactamente 90°, se suele marcar con un cuadrito en el vértice), obtuso (mide más de 90° pero menos de 180°) y llano (mide exactamente 180°, forma una línea recta).",
+      "ejemplos": [
+        "Un ángulo de 40° es agudo, porque es menor que 90°.",
+        "Un ángulo de 135° es obtuso, porque está entre 90° y 180°."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cómo se clasifica un ángulo que mide 35°?",
+          "opciones": [
+            "Agudo",
+            "Recto",
+            "Obtuso",
+            "Llano"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Un ángulo de 35° es agudo porque es menor que 90°."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un ángulo que mide 90° se clasifica como recto.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: un ángulo recto mide exactamente 90°."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cómo se clasifica un ángulo que mide 120°?",
+          "opciones": [
+            "Agudo",
+            "Recto",
+            "Obtuso",
+            "Llano"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Un ángulo de 120° es obtuso porque está entre 90° y 180°."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un ángulo que mide 178° se clasifica como llano.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: 178° es obtuso porque está entre 90° y 180°. El ángulo llano mide exactamente 180°."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un ángulo que mide exactamente 180° se llama ángulo ___.",
+          "respuestaCorrecta": "llano",
+          "retroalimentacion": "El ángulo llano mide exactamente 180° y forma una línea recta."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cómo se clasifica un ángulo que mide 15°?",
+          "opciones": [
+            "Agudo",
+            "Recto",
+            "Obtuso",
+            "Llano"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "15° es agudo porque es menor que 90°."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un ángulo que mide 90° se clasifica como agudo.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: un ángulo de 90° es recto, no agudo. El agudo mide menos de 90°."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un ángulo que mide 150° se clasifica como ___.",
+          "respuestaCorrecta": "obtuso",
+          "retroalimentacion": "150° está entre 90° y 180°, por lo tanto es obtuso."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de los siguientes ángulos es obtuso?",
+          "opciones": [
+            "45°",
+            "90°",
+            "135°",
+            "180°"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "135° está entre 90° y 180°, así que es obtuso; los demás son agudo, recto y llano."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada ángulo con su clasificación.",
+          "columnaA": [
+            "40°",
+            "90°",
+            "125°",
+            "180°"
+          ],
+          "columnaB": [
+            "Agudo",
+            "Recto",
+            "Obtuso",
+            "Llano"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "retroalimentacion": "40°→agudo (menor a 90°); 90°→recto; 125°→obtuso (entre 90° y 180°); 180°→llano."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 1 de 10 · Introductorio"
+    },
+    {
+      "numero": "8.2",
+      "titulo": "Ángulos complementarios y suplementarios",
+      "explicacion": "Dos ángulos son complementarios cuando la suma de sus medidas es 90°. Dos ángulos son suplementarios cuando la suma de sus medidas es 180°. Para hallar el complemento de un ángulo se resta su medida a 90°; para hallar el suplemento se resta su medida a 180°.",
+      "formula": "complemento = 90° − ángulo     suplemento = 180° − ángulo",
+      "ejemplos": [
+        "El complemento de 35° es 90−35=55°, porque 35°+55°=90°.",
+        "El suplemento de 110° es 180−110=70°, porque 110°+70°=180°."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si un ángulo mide 35°, su complementario mide ___°.",
+          "respuestaCorrecta": "55",
+          "retroalimentacion": "90−35=55°, ya que 35°+55°=90°."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si un ángulo mide 65°, su suplementario mide ___°.",
+          "respuestaCorrecta": "115",
+          "retroalimentacion": "180−65=115°."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto mide el complemento de un ángulo de 20°?",
+          "opciones": [
+            "70°",
+            "60°",
+            "80°",
+            "50°"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "90−20=70°."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto mide el suplemento de un ángulo de 130°?",
+          "opciones": [
+            "60°",
+            "50°",
+            "40°",
+            "70°"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "180−130=50°."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un ángulo de 40° y un ángulo de 50° son complementarios.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "40+50=90°, así que son complementarios."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un ángulo de 100° y un ángulo de 90° son suplementarios.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: 100+90=190°, no 180°, así que no son suplementarios."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un ángulo de 75° y uno de 15°, ¿qué relación tienen?",
+          "opciones": [
+            "Complementarios",
+            "Suplementarios",
+            "Ninguna de las anteriores",
+            "Son iguales"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "75+15=90°, son complementarios."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un ángulo de 48° y uno de 132°, ¿qué relación tienen?",
+          "opciones": [
+            "Complementarios",
+            "Suplementarios",
+            "Ninguna de las anteriores",
+            "Son iguales"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "48+132=180°, son suplementarios."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si un ángulo mide 82°, su complementario mide ___°.",
+          "respuestaCorrecta": "8",
+          "retroalimentacion": "90−82=8°."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada ángulo con la medida de su complementario.",
+          "columnaA": [
+            "30°",
+            "55°",
+            "10°",
+            "75°"
+          ],
+          "columnaB": [
+            "60°",
+            "35°",
+            "80°",
+            "15°"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "retroalimentacion": "30°→60° (90−30); 55°→35° (90−55); 10°→80° (90−10); 75°→15° (90−75)."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 2 de 10 · Intermedio"
+    },
+    {
+      "numero": "8.3",
+      "titulo": "Ángulos entre paralelas cortadas por una transversal",
+      "explicacion": "Cuando dos rectas paralelas son cortadas por una tercera recta llamada transversal, se forman 8 ángulos que guardan relaciones especiales entre sí: los ángulos correspondientes (misma posición relativa en cada recta) son iguales; los ángulos alternos internos (entre las paralelas, en lados opuestos de la transversal) son iguales; los ángulos alternos externos (fuera de las paralelas, en lados opuestos de la transversal) son iguales; y los ángulos colaterales internos, también llamados conjugados internos (entre las paralelas, del mismo lado de la transversal), son suplementarios, es decir, suman 180°.",
+      "formula": "correspondientes = alternos internos = alternos externos (iguales)     colaterales internos: suman 180°",
+      "ejemplos": [
+        "Si dos paralelas son cortadas por una transversal y un ángulo mide 70°, su correspondiente también mide 70°, porque los ángulos correspondientes son iguales.",
+        "Si un ángulo mide 65°, su colateral interno mide 180−65=115°, porque los colaterales internos son suplementarios."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "llenar_frase",
+          "frase": "Dos rectas paralelas son cortadas por una transversal. Un ángulo mide 65°. Su ángulo correspondiente mide ___°.",
+          "respuestaCorrecta": "65",
+          "retroalimentacion": "Los ángulos correspondientes son iguales, así que también mide 65°."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Dos rectas paralelas son cortadas por una transversal. Un ángulo mide 48°. Su ángulo alterno interno mide ___°.",
+          "respuestaCorrecta": "48",
+          "retroalimentacion": "Los ángulos alternos internos son iguales, así que también mide 48°."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Dos rectas paralelas son cortadas por una transversal. Un ángulo mide 72°. ¿Cuánto mide su ángulo colateral interno (conjugado interno)?",
+          "opciones": [
+            "72°",
+            "108°",
+            "18°",
+            "180°"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Los colaterales internos son suplementarios: 180−72=108°."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Dos rectas paralelas son cortadas por una transversal. Un ángulo mide 115°. Su ángulo alterno externo mide ___°.",
+          "respuestaCorrecta": "115",
+          "retroalimentacion": "Los ángulos alternos externos son iguales, así que también mide 115°."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si dos rectas paralelas son cortadas por una transversal y un ángulo mide 55°, su ángulo correspondiente mide 125°.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: los ángulos correspondientes son iguales, así que el correspondiente también mide 55°, no 125°."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si dos rectas paralelas son cortadas por una transversal y un ángulo mide 80°, su ángulo colateral interno mide 100°.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: los colaterales internos suman 180°, y 80+100=180°."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Dos rectas paralelas son cortadas por una transversal. Un ángulo mide 63°. ¿Cuánto mide su ángulo colateral interno?",
+          "opciones": [
+            "63°",
+            "27°",
+            "117°",
+            "180°"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "180−63=117°, porque los colaterales internos son suplementarios."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Dos rectas paralelas son cortadas por una transversal. Un ángulo mide 95°. Su ángulo colateral interno mide ___°.",
+          "respuestaCorrecta": "85",
+          "retroalimentacion": "180−95=85°."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Dos rectas paralelas son cortadas por una transversal. Un ángulo mide 38°. ¿Cuánto mide su ángulo alterno interno?",
+          "opciones": [
+            "38°",
+            "52°",
+            "142°",
+            "180°"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Los alternos internos son iguales: 38°."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Dos rectas paralelas son cortadas por una transversal. Relaciona cada situación con la medida que resulta.",
+          "columnaA": [
+            "Ángulo dado: 50°. Su correspondiente mide",
+            "Ángulo dado: 72°. Su colateral interno mide",
+            "Ángulo dado: 95°. Su alterno interno mide",
+            "Ángulo dado: 118°. Su colateral interno mide"
+          ],
+          "columnaB": [
+            "108°",
+            "50°",
+            "62°",
+            "95°"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            3,
+            2
+          ],
+          "retroalimentacion": "50° dado: correspondiente igual = 50°. 72° dado: colateral interno = 180−72=108°. 95° dado: alterno interno igual = 95°. 118° dado: colateral interno = 180−118=62°."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 3 de 10 · Avanzado"
+    },
+    {
+      "numero": "8.4",
+      "titulo": "Aplicación combinada",
+      "explicacion": "Recuerda las tres ideas clave sobre ángulos: 1) se clasifican según su medida en agudo, recto, obtuso o llano; 2) dos ángulos son complementarios si suman 90° y suplementarios si suman 180°; 3) cuando dos rectas paralelas son cortadas por una transversal, los ángulos correspondientes, alternos internos y alternos externos son iguales, mientras que los colaterales internos son suplementarios (suman 180°). Ahora aplicarás estas tres ideas juntas para resolver problemas más completos.",
+      "ejemplos": [
+        "Una rampa forma con el suelo un ángulo de 25°. Su complementario mide 90−25=65°, y el ángulo de 25° se clasifica como agudo.",
+        "Dos vigas paralelas de un techo son cortadas por una viga transversal; un ángulo mide 100°. Su colateral interno mide 180−100=80°: el de 100° es obtuso y el de 80° es agudo."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una rampa para patinetas forma un ángulo de 28° con el suelo. ¿Cómo se clasifica ese ángulo y cuánto mide su complementario?",
+          "opciones": [
+            "Agudo; complementario 62°",
+            "Obtuso; complementario 62°",
+            "Agudo; complementario 152°",
+            "Recto; complementario 62°"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "28° es agudo (menor a 90°); su complementario es 90−28=62°."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Dos rectas paralelas que forman el borde de una cancha son cortadas por una línea transversal. Un ángulo mide 118°. Su ángulo alterno interno mide ___°.",
+          "respuestaCorrecta": "118",
+          "retroalimentacion": "Los alternos internos son iguales, así que también mide 118°."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Ese mismo ángulo de 118° del reactivo anterior, ¿cómo se clasifica?",
+          "opciones": [
+            "Agudo",
+            "Recto",
+            "Obtuso",
+            "Llano"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "118° está entre 90° y 180°, es obtuso."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El techo de una casa forma dos ángulos con una viga transversal: uno de 42° y su colateral interno. El colateral interno mide 138° y se clasifica como obtuso.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "180−42=138°, que está entre 90° y 180°, por lo tanto es obtuso. Correcto."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un ángulo mide 63°. Su suplementario mide ___°.",
+          "respuestaCorrecta": "117",
+          "retroalimentacion": "180−63=117°."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El ángulo de 117° del reactivo anterior (suplementario de 63°), ¿cómo se clasifica?",
+          "opciones": [
+            "Agudo",
+            "Recto",
+            "Obtuso",
+            "Llano"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "117° está entre 90° y 180°, es obtuso."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Dos rectas paralelas son cortadas por una transversal; un ángulo mide 85°. Su correspondiente y su complementario miden lo mismo (85°).",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: el correspondiente de 85° es igual, 85°, pero su complementario es 90−85=5°; no son iguales."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una rampa de acceso forma un ángulo de 12° con el piso. ¿Cuánto mide el ángulo suplementario de ese ángulo?",
+          "opciones": [
+            "78°",
+            "168°",
+            "102°",
+            "12°"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "180−12=168°."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Dos rectas paralelas son cortadas por una transversal. Un ángulo agudo mide 54°. Su ángulo colateral interno mide ___°.",
+          "respuestaCorrecta": "126",
+          "retroalimentacion": "180−54=126°, porque los colaterales internos son suplementarios."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación con el resultado correcto.",
+          "columnaA": [
+            "Ángulo de 34°: su complementario mide",
+            "Ángulo de 34°: su suplementario mide",
+            "Transversal a dos paralelas, ángulo de 52°: su correspondiente mide",
+            "Transversal a dos paralelas, ángulo de 52°: su colateral interno mide"
+          ],
+          "columnaB": [
+            "128°",
+            "56°",
+            "52°",
+            "146°"
+          ],
+          "parejasCorrectas": [
+            1,
+            3,
+            2,
+            0
+          ],
+          "retroalimentacion": "34°: complementario=90−34=56°, suplementario=180−34=146°. 52° (paralelas/transversal): correspondiente igual=52°, colateral interno=180−52=128°."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 4 de 10 · Síntesis"
+    },
+    {
+      "numero": "8.5",
+      "titulo": "Ángulos opuestos por el vértice en cruces y objetos cotidianos",
+      "explicacion": "Cuando dos rectas se cortan en un solo punto (no necesariamente paralelas), se forman dos pares de ángulos opuestos por el vértice —uno frente al otro, sin lado en común— que siempre son iguales entre sí. Los ángulos que sí comparten un lado y están uno junto al otro sobre la misma recta se llaman ángulos adyacentes y forman un par lineal: su suma siempre es 180° (son suplementarios). Esta relación aparece en cruces de calles, tijeras abiertas, compases y cualquier par de rectas que se intersectan en un solo punto.",
+      "formula": "ángulos opuestos por el vértice: iguales     ángulos adyacentes (par lineal): suman 180°",
+      "ejemplos": [
+        "En el cruce de dos calles rectas, uno de los cuatro ángulos formados mide 72°. Su ángulo opuesto por el vértice también mide 72° (son iguales), y sus dos ángulos adyacentes miden cada uno 180−72=108°, porque forman un par lineal con él.",
+        "Al abrir unas tijeras, el ángulo entre las hojas mide 35°. El ángulo opuesto por el vértice, formado por los mangos, también mide 35°; el ángulo adyacente (entre una hoja y un mango) mide 180−35=145°."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Dos cables de luz se cruzan en un poste formando cuatro ángulos. Uno de ellos mide 64°. ¿Cuánto mide su ángulo opuesto por el vértice?",
+          "opciones": [
+            "64°",
+            "116°",
+            "32°",
+            "180°"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Los ángulos opuestos por el vértice son iguales, así que también mide 64°."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En el cruce de dos avenidas se forman cuatro ángulos. Uno de ellos mide 47°. Su ángulo adyacente (el que forma par lineal con él) mide ___°.",
+          "respuestaCorrecta": "133",
+          "retroalimentacion": "Los ángulos adyacentes son suplementarios: 180−47=133°."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si dos rectas se cruzan y uno de los ángulos formados mide 110°, su ángulo opuesto por el vértice mide 70°.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: los opuestos por el vértice son iguales, así que también mide 110°; 70° sería el ángulo adyacente (180−110=70°)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Al abrir un compás, el ángulo entre sus dos patas mide 38°. ¿Cuánto mide el ángulo adyacente, formado entre una pata y la prolongación de la otra?",
+          "opciones": [
+            "38°",
+            "142°",
+            "52°",
+            "180°"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Los ángulos adyacentes son suplementarios: 180−38=142°."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Dos cuerdas de un papalote (cometa) se cruzan formando cuatro ángulos. Relaciona cada ángulo dado con la medida de su ángulo adyacente (par lineal).",
+          "columnaA": [
+            "55°",
+            "88°",
+            "23°",
+            "162°"
+          ],
+          "columnaB": [
+            "92°",
+            "18°",
+            "157°",
+            "125°"
+          ],
+          "parejasCorrectas": [
+            3,
+            0,
+            2,
+            1
+          ],
+          "retroalimentacion": "55°→adyacente 180−55=125°; 88°→180−88=92°; 23°→180−23=157°; 162°→180−162=18°."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Dos rieles de tren se cruzan con un desvío formando un ángulo de 26° en uno de los lados. ¿Cuánto mide el ángulo opuesto por el vértice?",
+          "opciones": [
+            "154°",
+            "26°",
+            "64°",
+            "180°"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Los opuestos por el vértice son iguales: 26°."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Dos ángulos opuestos por el vértice siempre son iguales, sin importar cuánto midan.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: es una propiedad que se cumple siempre que dos rectas se cruzan en un punto."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En una señal de tránsito pintada en el piso en forma de X, un ángulo mide 118°. Su ángulo opuesto por el vértice mide ___°.",
+          "respuestaCorrecta": "118",
+          "retroalimentacion": "Los opuestos por el vértice son iguales: 118°."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Dos correas de una polea se cruzan formando un ángulo de 81°. ¿Cuánto mide el ángulo adyacente a él (que forma un par lineal)?",
+          "opciones": [
+            "81°",
+            "99°",
+            "9°",
+            "180°"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Los ángulos adyacentes son suplementarios: 180−81=99°."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si dos rectas se cruzan formando un ángulo de 90° de un lado, entonces los cuatro ángulos formados miden 90° cada uno.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: si un ángulo es 90°, su adyacente es 180−90=90°, y los opuestos por el vértice igualan a cada uno, así los 4 ángulos miden 90°."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 5 de 10 · Aplicación"
+    },
+    {
+      "numero": "8.6",
+      "titulo": "Ecuaciones con ángulos complementarios y suplementarios",
+      "explicacion": "Ahora los ángulos ya no se dan directamente en grados, sino como expresiones algebraicas (por ejemplo, x y 2x, o x+10). Para resolverlos, se plantea una ecuación usando la relación de complementariedad (suma=90°) o suplementariedad (suma=180°) y se despeja x; luego se sustituye para obtener las medidas reales de cada ángulo. Esta habilidad permite resolver problemas donde no se conoce de entrada el valor de los ángulos, solo su relación.",
+      "formula": "Si dos ángulos son complementarios: x + y = 90°     Si son suplementarios: x + y = 180°",
+      "ejemplos": [
+        "Dos ángulos son complementarios. Uno mide x y el otro 2x. Entonces x+2x=90 → 3x=90 → x=30. Los ángulos miden 30° y 60°.",
+        "Dos ángulos son suplementarios. Uno mide x+20 y el otro x+40. Entonces (x+20)+(x+40)=180 → 2x+60=180 → 2x=120 → x=60. Los ángulos miden 80° y 100°."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Dos ángulos son complementarios. Uno mide 2x° y el otro 3x°. ¿Cuánto vale x?",
+          "opciones": [
+            "x=18°",
+            "x=30°",
+            "x=45°",
+            "x=22°"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "2x+3x=90 → 5x=90 → x=18°."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Dos ángulos son suplementarios: uno mide x° y el otro 4x°. El valor de x es ___°.",
+          "respuestaCorrecta": "36",
+          "retroalimentacion": "x+4x=180 → 5x=180 → x=36°."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Dos ángulos son complementarios. Uno mide (x+10)° y el otro (x+20)°. ¿Cuánto vale x?",
+          "opciones": [
+            "x=30°",
+            "x=20°",
+            "x=40°",
+            "x=25°"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(x+10)+(x+20)=90 → 2x+30=90 → 2x=60 → x=30°."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Dos ángulos son suplementarios: uno mide (x+30)° y el otro (x+50)°. El valor de x es 60°.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: (x+30)+(x+50)=180 → 2x+80=180 → 2x=100 → x=50°, no 60°."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Dos ángulos son complementarios. Uno mide 4x° y el otro 5x°. ¿Cuánto mide el ángulo mayor?",
+          "opciones": [
+            "50°",
+            "40°",
+            "45°",
+            "36°"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "4x+5x=90 → 9x=90 → x=10°; los ángulos miden 40° y 50°; el mayor es 50°."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Dos ángulos son suplementarios. Uno mide 3x° y el otro 2x°. El ángulo menor mide ___°.",
+          "respuestaCorrecta": "72",
+          "retroalimentacion": "3x+2x=180 → 5x=180 → x=36°; los ángulos son 108° y 72°; el menor es 72°."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Dos ángulos son complementarios. Uno mide (2x+5)° y el otro (x+10)°. ¿Cuánto vale x?",
+          "opciones": [
+            "x=25°",
+            "x=20°",
+            "x=15°",
+            "x=30°"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(2x+5)+(x+10)=90 → 3x+15=90 → 3x=75 → x=25°."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Dos ángulos son complementarios: uno mide 3x° y el otro (x+10)°. Si x=20°, ambos ángulos miden 60° y 30°.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 3x+(x+10)=90 → 4x+10=90 → x=20°; 3x=60° y x+10=30°, que suman 90°."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Dos ángulos son suplementarios. Uno mide (5x−10)° y el otro (x+40)°. ¿Cuánto vale x?",
+          "opciones": [
+            "x=25°",
+            "x=20°",
+            "x=30°",
+            "x=15°"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(5x−10)+(x+40)=180 → 6x+30=180 → 6x=150 → x=25°."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "En cada caso, dos ángulos son complementarios. Relaciona la ecuación con el valor correcto de x.",
+          "columnaA": [
+            "x + 2x = 90",
+            "x + 4x = 90",
+            "2x + 7x = 90",
+            "x + 5x = 90"
+          ],
+          "columnaB": [
+            "15°",
+            "30°",
+            "10°",
+            "18°"
+          ],
+          "parejasCorrectas": [
+            1,
+            3,
+            2,
+            0
+          ],
+          "retroalimentacion": "x+2x=90 → x=30°; x+4x=90 → x=18°; 2x+7x=90 → x=10°; x+5x=90 → x=15°."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 6 de 10 · Aplicación avanzada"
+    },
+    {
+      "numero": "8.7",
+      "titulo": "Ángulos alrededor de un punto y entre varias rectas",
+      "explicacion": "Cuando varias rectas o segmentos comparten un mismo vértice —como los rayos de una rueda de bicicleta, las aspas de un ventilador o las calles que llegan a una plaza— los ángulos que se forman alrededor de ese punto, sin traslaparse, siempre suman exactamente 360°. Esta relación permite encontrar la medida de un ángulo faltante cuando se conocen los demás ángulos que rodean el mismo punto, o repartir 360° en partes iguales.",
+      "formula": "La suma de los ángulos consecutivos alrededor de un punto es 360°.",
+      "ejemplos": [
+        "En una plaza circular llegan 3 calles que forman ángulos consecutivos de 110°, 95° y un tercero desconocido. Como los tres deben sumar 360°: 110+95=205, y 360−205=155°, así que el tercer ángulo mide 155°.",
+        "Alrededor de un poste hay 4 cables que forman ángulos consecutivos de 70°, 85°, 100° y uno desconocido. Como deben sumar 360°: 70+85+100=255, y 360−255=105°, el ángulo faltante mide 105°."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Alrededor de un asta bandera se cruzan 3 cuerdas que forman ángulos consecutivos de 130°, 150° y un tercero. ¿Cuánto mide el tercer ángulo?",
+          "opciones": [
+            "80°",
+            "70°",
+            "90°",
+            "100°"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "130+150=280°; 360−280=80°."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En una rotonda (glorieta) llegan 4 calles que forman ángulos consecutivos de 80°, 95°, 100° y uno desconocido alrededor del centro. El ángulo faltante mide ___°.",
+          "respuestaCorrecta": "85",
+          "retroalimentacion": "80+95+100=275°; 360−275=85°."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Alrededor de un punto donde se cruzan varias rectas, los ángulos consecutivos que rodean ese punto siempre suman 360°, sin importar cuántos sean.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: una vuelta completa alrededor de un punto siempre equivale a 360°."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Los radios de una rueda de bicicleta forman, alrededor del centro, ángulos consecutivos e iguales de 72°, 72°, 72°, 72° y un quinto ángulo. ¿Cuánto mide el quinto?",
+          "opciones": [
+            "72°",
+            "60°",
+            "90°",
+            "80°"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "4×72=288°; 360−288=72°."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En un rosetón (ventana circular decorativa) hay 6 ángulos iguales alrededor del centro. ¿Cuánto mide cada uno? ___°.",
+          "respuestaCorrecta": "60",
+          "retroalimentacion": "360÷6=60°."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un ventilador de techo tiene 4 aspas que forman ángulos consecutivos e iguales alrededor del centro. ¿Cuánto mide el ángulo entre cada par de aspas consecutivas?",
+          "opciones": [
+            "90°",
+            "80°",
+            "72°",
+            "60°"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "360÷4=90°."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En una plaza llegan 3 calles que forman ángulos de 140°, 130° y 100° alrededor del mismo punto. Estos tres ángulos sí pueden coexistir alrededor de ese punto porque suman 360°.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: 140+130+100=370°, no 360°; para coexistir alrededor de un mismo punto sin traslaparse deben sumar exactamente 360°."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Alrededor de un punto se forman 4 ángulos consecutivos: tres de ellos miden 65°, 110° y 95°. ¿Cuánto mide el cuarto?",
+          "opciones": [
+            "90°",
+            "80°",
+            "100°",
+            "70°"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "65+110+95=270°; 360−270=90°."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En una rotonda llegan 5 calles que forman ángulos consecutivos de 60°, 75°, 68°, 82° y uno desconocido. El ángulo faltante mide ___°.",
+          "respuestaCorrecta": "75",
+          "retroalimentacion": "60+75+68+82=285°; 360−285=75°."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Alrededor de cada punto se forman los ángulos consecutivos indicados (todos, menos uno, ya conocidos). Relaciona cada conjunto con la medida del ángulo faltante.",
+          "columnaA": [
+            "120°, 100°, faltante",
+            "90°, 90°, 90°, faltante",
+            "150°, 80°, 70°, faltante",
+            "60°, 60°, 60°, 60°, faltante"
+          ],
+          "columnaB": [
+            "60°",
+            "140°",
+            "120°",
+            "90°"
+          ],
+          "parejasCorrectas": [
+            1,
+            3,
+            0,
+            2
+          ],
+          "retroalimentacion": "360−120−100=140°; 360−90×3=90°; 360−150−80−70=60°; 360−60×4=120°."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 7 de 10 · Reto"
+    },
+    {
+      "numero": "8.8",
+      "titulo": "Sistemas con paralelas, transversal y álgebra",
+      "explicacion": "En esta lección se combina lo aprendido sobre rectas paralelas cortadas por una transversal con ecuaciones algebraicas: los ángulos ya no vienen dados directamente, sino como expresiones con x, y se usan las relaciones de ángulos correspondientes, alternos o colaterales internos para plantear la ecuación correcta, resolver x, y después calcular las medidas reales de los ángulos pedidos.",
+      "formula": "correspondientes/alternos: expresión1 = expresión2     colaterales internos: expresión1 + expresión2 = 180°",
+      "ejemplos": [
+        "Dos rectas paralelas son cortadas por una transversal. Un ángulo mide 3x° y su correspondiente mide (2x+20)°. Como los correspondientes son iguales: 3x=2x+20 → x=20. El ángulo mide 3(20)=60°.",
+        "Dos rectas paralelas son cortadas por una transversal. Un ángulo mide 4x° y su colateral interno mide (2x+30)°. Como los colaterales internos son suplementarios: 4x+2x+30=180 → 6x=150 → x=25. Los ángulos miden 4(25)=100° y 2(25)+30=80°."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Dos rectas paralelas son cortadas por una transversal, formando un ángulo de 2x° y su correspondiente de (x+30)°. ¿Cuánto vale x?",
+          "opciones": [
+            "x=30°",
+            "x=20°",
+            "x=15°",
+            "x=40°"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Los correspondientes son iguales: 2x=x+30 → x=30°."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Dos rectas paralelas son cortadas por una transversal. Un ángulo mide 5x° y su alterno interno mide (3x+20)°. El valor de x es ___.",
+          "respuestaCorrecta": "10",
+          "retroalimentacion": "Los alternos internos son iguales: 5x=3x+20 → 2x=20 → x=10°."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Dos rectas paralelas son cortadas por una transversal. Un ángulo mide (4x+10)° y su colateral interno mide (2x+20)°. ¿Cuánto vale x?",
+          "opciones": [
+            "x=25°",
+            "x=20°",
+            "x=30°",
+            "x=15°"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Los colaterales internos son suplementarios: (4x+10)+(2x+20)=180 → 6x+30=180 → x=25°."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Dos rectas paralelas son cortadas por una transversal. Un ángulo mide 3x° y su correspondiente mide (x+40)°. Si x=20°, ambos ángulos miden 60°.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 3x=x+40 → 2x=40 → x=20°; 3(20)=60° y 20+40=60°."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Dos rectas paralelas son cortadas por una transversal. Un ángulo mide (4x−10)° y su colateral interno mide (2x+40)°. ¿Cuánto mide el ángulo (4x−10)° una vez hallada x?",
+          "opciones": [
+            "90°",
+            "80°",
+            "100°",
+            "70°"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(4x−10)+(2x+40)=180 → 6x+30=180 → x=25°; el ángulo mide 4(25)−10=90°."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Dos rectas paralelas son cortadas por una transversal. Un ángulo mide 7x° y su alterno externo mide (5x+16)°. El valor de x es ___.",
+          "respuestaCorrecta": "8",
+          "retroalimentacion": "Los alternos externos son iguales: 7x=5x+16 → 2x=16 → x=8°."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Dos rectas paralelas son cortadas por una transversal. Un ángulo mide (3x+15)° y su correspondiente mide (5x−25)°. ¿Cuánto vale x?",
+          "opciones": [
+            "x=20°",
+            "x=15°",
+            "x=25°",
+            "x=10°"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Los correspondientes son iguales: 3x+15=5x−25 → 40=2x → x=20°."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Dos rectas paralelas son cortadas por una transversal. Un ángulo mide (2x+8)° y su colateral interno mide (4x+22)°. Si x=25°, los dos ángulos suman 180°.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: con x=25°, 2(25)+8=58° y 4(25)+22=122°, y 58+122=180°."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Dos rectas paralelas son cortadas por una transversal. Un ángulo mide (9x−5)° y su alterno interno mide (6x+13)°. ¿Cuánto vale x?",
+          "opciones": [
+            "x=6°",
+            "x=8°",
+            "x=5°",
+            "x=10°"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Los alternos internos son iguales: 9x−5=6x+13 → 3x=18 → x=6°."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "En cada caso, dos rectas paralelas son cortadas por una transversal. Relaciona la ecuación con el valor correcto de x.",
+          "columnaA": [
+            "correspondientes: 2x = x+50",
+            "colaterales internos: 3x + (x+20) = 180",
+            "alternos internos: 4x = 2x+36",
+            "colaterales internos: (5x−10) + (3x+30) = 180"
+          ],
+          "columnaB": [
+            "18°",
+            "20°",
+            "50°",
+            "40°"
+          ],
+          "parejasCorrectas": [
+            2,
+            3,
+            0,
+            1
+          ],
+          "retroalimentacion": "2x=x+50 → x=50°; 3x+x+20=180 → x=40°; 4x=2x+36 → x=18°; 5x−10+3x+30=180 → x=20°."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 8 de 10 · Reto avanzado"
+    },
+    {
+      "numero": "8.9",
+      "titulo": "Problemas integrales: clasificación, complemento/suplemento y paralelas",
+      "explicacion": "En esta lección se resuelven problemas de varios pasos que combinan dos o más ideas del PDA a la vez: clasificar un ángulo, encontrar su complementario o suplementario, y usar las relaciones de ángulos entre paralelas cortadas por una transversal, incluyendo los ángulos opuestos por el vértice. Cada problema representa una situación real con más de una pregunta encadenada, como los que se resolverían en un proyecto escolar o en la vida cotidiana.",
+      "ejemplos": [
+        "En una fábrica de muebles, dos tablas paralelas son cortadas por un soporte transversal. Uno de los ángulos formados mide 100°. Su colateral interno mide 180−100=80° (agudo), y el opuesto por el vértice del ángulo de 100° también mide 100° (obtuso).",
+        "En el diseño de una cometa, dos varillas se cruzan formando un ángulo de 54°. Su ángulo opuesto por el vértice también mide 54° (agudo), y su adyacente mide 180−54=126° (obtuso); ese 126° coincide con el suplementario de 54°."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un carpintero corta dos tablas paralelas con una sierra que actúa como transversal. Uno de los ángulos formados mide 112°. ¿Cuánto mide su ángulo colateral interno, y cómo se clasifica?",
+          "opciones": [
+            "68°, agudo",
+            "68°, obtuso",
+            "112°, obtuso",
+            "98°, agudo"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Colateral interno: 180−112=68°, y 68° es agudo porque es menor que 90°."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Dos rieles de una vía de tren, paralelos, son cortados por un durmiente transversal. Un ángulo mide 63°. Su colateral interno mide 180−63=117°. El suplementario de ese colateral interno (117°) mide ___°.",
+          "respuestaCorrecta": "63",
+          "retroalimentacion": "El suplementario de 117° es 180−117=63°, que coincide con el ángulo original."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En el cruce de dos avenidas (no paralelas) se forma un ángulo de 38°. Su opuesto por el vértice mide 38° y se clasifica como agudo; su adyacente mide 142° y se clasifica como obtuso.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: opuesto por el vértice = 38° (agudo); adyacente = 180−38=142° (obtuso)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En el techo de una casa, dos vigas paralelas son cortadas por una viga transversal. Un ángulo mide 2x° y su correspondiente mide (x+35)°. Una vez hallada x, ¿cómo se clasifica el ángulo 2x°?",
+          "opciones": [
+            "Agudo",
+            "Recto",
+            "Obtuso",
+            "Llano"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "2x=x+35 → x=35°; el ángulo mide 2(35)=70°, que es agudo (menor a 90°)."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un poste de luz tiene dos cables que se cruzan formando un ángulo de 27°. Su opuesto por el vértice mide 27°, y el complemento de ese ángulo de 27° mide ___°.",
+          "respuestaCorrecta": "63",
+          "retroalimentacion": "El complemento de 27° es 90−27=63°."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En un edificio, dos vigas paralelas del piso son cortadas por una columna transversal. Un ángulo mide 3x° y su colateral interno mide (x+40)°. Una vez hallada x, ¿cuánto mide el ángulo 3x°, y cómo se clasifica?",
+          "opciones": [
+            "105°, obtuso",
+            "105°, agudo",
+            "35°, agudo",
+            "75°, agudo"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "3x+(x+40)=180 → 4x=140 → x=35°; el ángulo mide 3(35)=105°, que es obtuso."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Dos rectas paralelas son cortadas por una transversal formando un ángulo de 48°. Su alterno interno mide 48° (agudo) y el suplementario de ese alterno interno es 132° (obtuso).",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: alterno interno=48° (agudo); suplementario de 48°=180−48=132° (obtuso)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En el diseño de una rampa de skate con dos superficies paralelas cortadas por un soporte, un ángulo mide 158°. ¿Cómo se clasifica ese ángulo, y cuánto mide su colateral interno?",
+          "opciones": [
+            "Obtuso; colateral interno 22°",
+            "Llano; colateral interno 22°",
+            "Obtuso; colateral interno 32°",
+            "Agudo; colateral interno 22°"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "158° está entre 90° y 180°, es obtuso; su colateral interno es 180−158=22°."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Dos calles paralelas son cortadas por una avenida transversal. Un ángulo mide (4x+5)° y su correspondiente mide (2x+45)°. El valor de x es ___.",
+          "respuestaCorrecta": "20",
+          "retroalimentacion": "4x+5=2x+45 → 2x=40 → x=20°."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación (que integra dos ideas del tema) con el resultado correcto.",
+          "columnaA": [
+            "Ángulo de 42° en cruce de dos rectas: su opuesto por el vértice mide",
+            "Ángulo de 42°: su adyacente (par lineal) mide",
+            "Ángulo de 65° entre paralelas: su colateral interno mide",
+            "Ángulo de 65°: su complemento mide"
+          ],
+          "columnaB": [
+            "115°",
+            "25°",
+            "138°",
+            "42°"
+          ],
+          "parejasCorrectas": [
+            3,
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "Opuesto de 42°=42°; adyacente de 42°=180−42=138°; colateral interno de 65°=180−65=115°; complemento de 65°=90−65=25°."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 9 de 10 · Integración"
+    },
+    {
+      "numero": "8.10",
+      "titulo": "Proyecto final: diseño de una plaza con ángulos y rectas",
+      "explicacion": "Esta última lección integra todo lo aprendido en el PDA en problemas de mayor exigencia: ecuaciones con paralelas y transversal, ángulos opuestos por el vértice, ángulos alrededor de un punto, y clasificación, todo dentro de contextos de diseño y planeación real (urbanismo, arquitectura, ingeniería). Los problemas piden encadenar varios pasos y justificar cada resultado, tal como lo haría un profesionista que verifica sus cálculos antes de construir algo.",
+      "ejemplos": [
+        "Un urbanista diseña una plaza donde llegan 3 calles formando ángulos consecutivos alrededor del punto central: 125°, 95° y un tercero desconocido. Como deben sumar 360°: 125+95=220, 360−220=140°, el tercer ángulo mide 140° y se clasifica como obtuso.",
+        "En el diseño de un puente, dos vigas paralelas son cortadas por un tirante transversal. Un ángulo mide (3x+10)° y su colateral interno mide (2x+40)°. Como son suplementarios: (3x+10)+(2x+40)=180 → 5x+50=180 → 5x=130 → x=26. El primer ángulo mide 3(26)+10=88° (agudo) y el segundo 2(26)+40=92° (obtuso)."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un arquitecto diseña una plaza circular donde llegan 4 andadores, formando ángulos consecutivos de 80°, 95°, 110° y uno desconocido alrededor del centro. ¿Cuánto mide el ángulo faltante y cómo se clasifica?",
+          "opciones": [
+            "75°, agudo",
+            "75°, obtuso",
+            "85°, agudo",
+            "65°, agudo"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "80+95+110=285°; 360−285=75°, que es agudo (menor a 90°)."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En el techo de un puente, dos vigas paralelas son cortadas por un tirante transversal. Un ángulo mide 4x° y su correspondiente mide (2x+50)°. El valor de x es ___.",
+          "respuestaCorrecta": "25",
+          "retroalimentacion": "4x=2x+50 → 2x=50 → x=25°."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En el diseño de una plaza llegan 3 andadores formando ángulos consecutivos alrededor del centro de 150°, 140° y 70°; el tercero (70°) se clasifica como agudo.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 150+140+70=360°, y 70° es agudo porque es menor que 90°."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Dos vigas paralelas de un puente son cortadas por un tirante transversal. Un ángulo mide (5x−15)° y su colateral interno mide (3x+35)°. Una vez hallada x, ¿cómo se clasifica el ángulo (5x−15)°?",
+          "opciones": [
+            "Agudo",
+            "Recto",
+            "Obtuso",
+            "Llano"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(5x−15)+(3x+35)=180 → 8x+20=180 → x=20°; el ángulo mide 5(20)−15=85°, que es agudo."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En el cruce de dos cables tensores de una torre se forma un ángulo de 74°. Su opuesto por el vértice mide 74°, y el suplementario de ese opuesto por el vértice mide ___°.",
+          "respuestaCorrecta": "106",
+          "retroalimentacion": "El suplementario de 74° es 180−74=106°."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un ingeniero revisa una intersección donde llegan 5 calles formando ángulos consecutivos iguales alrededor del punto central. ¿Cuánto mide cada ángulo, y cómo se clasifica?",
+          "opciones": [
+            "72°, agudo",
+            "72°, obtuso",
+            "90°, recto",
+            "60°, agudo"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "360÷5=72°, que es agudo porque es menor que 90°."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Dos rectas paralelas de un techo son cortadas por una viga transversal. Un ángulo mide (6x+10)° y su alterno interno mide (4x+50)°. El valor de x que resuelve la ecuación es 20°.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 6x+10=4x+50 → 2x=40 → x=20°."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una plaza llegan 4 calles formando ángulos consecutivos de 3x°, 3x°, 2x° y 2x° alrededor del centro (dos pares iguales). ¿Cuánto vale x?",
+          "opciones": [
+            "x=36°",
+            "x=30°",
+            "x=40°",
+            "x=45°"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "3x+3x+2x+2x=360 → 10x=360 → x=36°."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Dos vigas paralelas de una bodega son cortadas por un tirante transversal. Un ángulo mide (7x−20)° y su colateral interno mide (5x+8)°. El valor de x es ___.",
+          "respuestaCorrecta": "16",
+          "retroalimentacion": "(7x−20)+(5x+8)=180 → 12x−12=180 → 12x=192 → x=16°."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "En el diseño final de una plaza, relaciona cada situación con su resultado correcto (combinan varias ideas del tema).",
+          "columnaA": [
+            "3 calles alrededor de un punto: 100°, 140° y el tercero",
+            "Paralelas y transversal: 2x°=(x+30)°, valor de x",
+            "Cruce de dos avenidas: ángulo de 55°, su adyacente",
+            "Paralelas y transversal: colateral interno de (3x+10)° y (x+30)°, valor de x"
+          ],
+          "columnaB": [
+            "35°",
+            "120°",
+            "30°",
+            "125°"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            3,
+            0
+          ],
+          "retroalimentacion": "360−100−140=120°; 2x=x+30 → x=30°; adyacente de 55°=180−55=125°; (3x+10)+(x+30)=180 → 4x+40=180 → x=35°."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 10 de 10 · Dominio"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cómo se clasifica un ángulo de 78°?",
+      "opciones": [
+        "Agudo",
+        "Recto",
+        "Obtuso",
+        "Llano"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "78°<90°, es agudo."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Un ángulo de 95° es obtuso.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: 95° está entre 90° y 180°, es obtuso."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Un ángulo que mide 90° se clasifica como ___.",
+      "respuestaCorrecta": "recto",
+      "retroalimentacion": "Mide exactamente 90°, es recto."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál de estos ángulos es agudo?",
+      "opciones": [
+        "100°",
+        "90°",
+        "10°",
+        "180°"
+      ],
+      "respuestaCorrecta": 2,
+      "retroalimentacion": "10° es menor que 90°, es agudo; los demás son obtuso, recto y llano."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Un ángulo de 179° es llano.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Falso: 179° es obtuso porque no llega a 180°; el llano mide exactamente 180°."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada ángulo con su clasificación.",
+      "columnaA": [
+        "25°",
+        "90°",
+        "170°",
+        "180°"
+      ],
+      "columnaB": [
+        "Agudo",
+        "Recto",
+        "Obtuso",
+        "Llano"
+      ],
+      "parejasCorrectas": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "retroalimentacion": "25°→agudo; 90°→recto; 170°→obtuso; 180°→llano."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Si un ángulo mide 47°, su complementario mide ___°.",
+      "respuestaCorrecta": "43",
+      "retroalimentacion": "90−47=43°."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Si un ángulo mide 98°, su suplementario mide ___°.",
+      "respuestaCorrecta": "82",
+      "retroalimentacion": "180−98=82°."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuánto mide el complemento de un ángulo de 61°?",
+      "opciones": [
+        "39°",
+        "29°",
+        "19°",
+        "49°"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "90−61=29°."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuánto mide el suplemento de un ángulo de 77°?",
+      "opciones": [
+        "113°",
+        "103°",
+        "93°",
+        "123°"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "180−77=103°."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Un ángulo de 33° y uno de 57° son complementarios.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "33+57=90°, son complementarios."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Un ángulo de 95° y uno de 90° son suplementarios.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Falso: 95+90=185°, no 180°, así que no son suplementarios."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Dos rectas paralelas son cortadas por una transversal. Un ángulo mide 58°. Su ángulo correspondiente mide ___°.",
+      "respuestaCorrecta": "58",
+      "retroalimentacion": "Los correspondientes son iguales: 58°."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Dos rectas paralelas son cortadas por una transversal. Un ángulo mide 102°. Su ángulo alterno externo mide ___°.",
+      "respuestaCorrecta": "102",
+      "retroalimentacion": "Los alternos externos son iguales: 102°."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Dos rectas paralelas son cortadas por una transversal. Un ángulo mide 84°. ¿Cuánto mide su colateral interno?",
+      "opciones": [
+        "84°",
+        "96°",
+        "6°",
+        "180°"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "180−84=96°."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Dos rectas paralelas son cortadas por una transversal. Un ángulo mide 67°. ¿Cuánto mide su ángulo alterno interno?",
+      "opciones": [
+        "67°",
+        "113°",
+        "23°",
+        "180°"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "Los alternos internos son iguales: 67°."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Dos rectas paralelas son cortadas por una transversal; un ángulo mide 49°, y su colateral interno mide 131°.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: 180−49=131°."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Dos rectas paralelas son cortadas por una transversal; un ángulo mide 72° y su correspondiente mide 108°.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Falso: los correspondientes son iguales; el correspondiente de 72° también mide 72°, no 108°."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Una escalera forma un ángulo de 68° con el piso. ¿Cómo se clasifica ese ángulo?",
+      "opciones": [
+        "Agudo",
+        "Recto",
+        "Obtuso",
+        "Llano"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "68°<90°, es agudo."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "La escalera del reactivo anterior forma un ángulo de 68° con el piso. Su complementario mide ___°.",
+      "respuestaCorrecta": "22",
+      "retroalimentacion": "90−68=22°."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Dos vigas paralelas de un techo son cortadas por una viga transversal. Un ángulo mide 105°. ¿Cuánto mide su colateral interno y cómo se clasifica?",
+      "opciones": [
+        "75°, agudo",
+        "105°, obtuso",
+        "75°, obtuso",
+        "85°, agudo"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "180−105=75°, y 75° es agudo porque es menor que 90°."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Un ángulo de 15° y su suplementario (165°) son ambos agudos.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Falso: el suplementario de 15° es 180−15=165°, y ese ángulo es obtuso, no agudo."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Dos rectas paralelas son cortadas por una transversal. Un ángulo obtuso mide 130°. Su ángulo alterno interno mide ___°.",
+      "respuestaCorrecta": "130",
+      "retroalimentacion": "Los alternos internos son iguales: 130°."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada situación con su resultado.",
+      "columnaA": [
+        "Ángulo de 26°: su complementario",
+        "Ángulo de 26°: su suplementario",
+        "Transversal a paralelas, ángulo de 44°: su correspondiente",
+        "Transversal a paralelas, ángulo de 44°: su colateral interno"
+      ],
+      "columnaB": [
+        "136°",
+        "44°",
+        "64°",
+        "154°"
+      ],
+      "parejasCorrectas": [
+        2,
+        3,
+        1,
+        0
+      ],
+      "retroalimentacion": "26°: complementario=90−26=64°, suplementario=180−26=154°. 44° (paralelas/transversal): correspondiente igual=44°, colateral interno=180−44=136°."
+    }
+  ]
+}

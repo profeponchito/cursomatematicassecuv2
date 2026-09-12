@@ -1,0 +1,1305 @@
+{
+  "id": "2S-B1-PDA11",
+  "grado": "2°",
+  "trimestre": "3",
+  "numero": 11,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Tablas y Gráficas Estadísticas",
+  "contenido": "Obtención y representación de información.",
+  "pda": "Organiza datos en tablas de frecuencia relativa y porcentual y los representa en histogramas y gráficas de línea, eligiendo la gráfica adecuada según el tipo de dato.",
+  "problematizacion": {
+    "contexto": "En tu grupo de 2° de secundaria, la maestra de Matemáticas registró las calificaciones del examen bimestral de los 30 alumnos y las agrupó en rangos (6-7, 7-8, 8-9, 9-10) para ver cómo se distribuyó el grupo completo. Por separado, en la clase de Ciencias llevas un registro de la temperatura máxima de tu ciudad cada día durante una semana, para ver cómo fue cambiando de un día a otro.",
+    "pregunta": "¿Qué tipo de gráfica usarías para mostrar cuántos alumnos cayeron en cada rango de calificación, y cuál para mostrar cómo cambió la temperatura día con día?"
+  },
+  "subtemas": [
+    {
+      "numero": "11.1",
+      "titulo": "Frecuencia relativa y porcentual",
+      "explicacion": "La frecuencia absoluta es el número de veces que aparece un dato o cuántos elementos caen en una categoría. La frecuencia relativa es la razón entre esa frecuencia y el total de datos (frecuencia ÷ total), expresada como un decimal; indica qué proporción del total representa esa categoría. La frecuencia porcentual es la frecuencia relativa multiplicada por 100, expresada con el símbolo %. Si sumas las frecuencias relativas de todas las categorías de una tabla, el resultado siempre es 1 (o 100% en frecuencia porcentual).",
+      "formula": "frecuencia relativa = frecuencia ÷ total     ·     frecuencia porcentual = frecuencia relativa × 100",
+      "ejemplos": [
+        "En un grupo de 25 alumnos, 5 obtuvieron la calificación más alta. Frecuencia relativa = 5÷25 = 0.2. Frecuencia porcentual = 0.2×100 = 20%.",
+        "De 40 personas encuestadas, 8 prefieren el color azul. Frecuencia relativa = 8÷40 = 0.2 → frecuencia porcentual = 20%."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En un grupo de 20 alumnos, 4 sacaron la calificación más alta. La frecuencia relativa de esa calificación es 0.2.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: frecuencia relativa = 4÷20 = 0.2."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "De 50 personas encuestadas, 15 prefieren el fútbol. La frecuencia porcentual de esa preferencia es 30%.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 15÷50 = 0.3, y 0.3×100 = 30%."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En una encuesta a 40 alumnos, 10 dijeron que su materia favorita es Matemáticas. La frecuencia relativa es ___.",
+          "respuestaCorrecta": "0.25",
+          "retroalimentacion": "Frecuencia relativa = 10÷40 = 0.25."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "De 25 alumnos, 20 aprobaron el examen. La frecuencia porcentual de alumnos aprobados es ___%.",
+          "respuestaCorrecta": "80",
+          "retroalimentacion": "20÷25 = 0.8, y 0.8×100 = 80%."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En un salón de 30 alumnos, 6 usan lentes. ¿Cuál es la frecuencia relativa de alumnos que usan lentes?",
+          "opciones": [
+            "0.6",
+            "0.2",
+            "0.06",
+            "2.0"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "6÷30 = 0.2."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "De 16 partidos jugados, un equipo ganó 12. La frecuencia porcentual de partidos ganados es 75%.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 12÷16 = 0.75, y 0.75×100 = 75%."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En una tienda, de 8 clientes encuestados, 6 prefieren pagar con tarjeta. La frecuencia relativa es ___.",
+          "respuestaCorrecta": "0.75",
+          "retroalimentacion": "6÷8 = 0.75."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "De 50 estudiantes, 35 llegan a la escuela en transporte público. ¿Cuál es la frecuencia porcentual?",
+          "opciones": [
+            "35%",
+            "70%",
+            "65%",
+            "50%"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "35÷50 = 0.7, y 0.7×100 = 70%."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada dato (frecuencia de un total) con su frecuencia porcentual.",
+          "columnaA": [
+            "6 de 24",
+            "9 de 30",
+            "14 de 40"
+          ],
+          "columnaB": [
+            "35%",
+            "25%",
+            "30%"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "6÷24=0.25→25%. 9÷30=0.3→30%. 14÷40=0.35→35%."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En un grupo de 10 alumnos, 3 tienen mascota. La frecuencia relativa es 3.0.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: la frecuencia relativa es 3÷10 = 0.3, no 3.0 (esa cifra sería la frecuencia porcentual dividida entre 100, no el resultado directo)."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 1 de 10 · Introductorio"
+    },
+    {
+      "numero": "11.2",
+      "titulo": "Histogramas",
+      "explicacion": "Un histograma es una gráfica que representa datos numéricos continuos agrupados en intervalos (también llamados clases), como rangos de calificaciones, estaturas o pesos. A diferencia de la gráfica de barras, en el histograma las barras se dibujan pegadas unas con otras, sin espacio entre ellas, porque los intervalos son consecutivos: el final de uno es el inicio del siguiente. La altura de cada barra representa la frecuencia de datos que caen en ese intervalo.",
+      "ejemplos": [
+        "En un histograma de calificaciones de 30 alumnos con los intervalos [6-7): 4, [7-8): 9, [8-9): 11 y [9-10]: 6, el intervalo con más alumnos es [8-9) con 11 alumnos, y la suma 4+9+11+6=30 coincide con el total del grupo.",
+        "Si un histograma de estaturas (en cm) tiene los intervalos [150-155): 3, [155-160): 8, [160-165): 10 y [165-170): 5, entonces la cantidad de estudiantes con estatura entre 155 y 165 cm es 8+10=18."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un histograma muestra las calificaciones de 30 alumnos: [6-7): 4, [7-8): 9, [8-9): 11, [9-10]: 6. ¿Cuántos alumnos obtuvieron una calificación de 8 o más (intervalos [8-9) y [9-10])?",
+          "opciones": [
+            "17",
+            "20",
+            "11",
+            "6"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "11+6=17 alumnos."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Con el histograma de calificaciones ([6-7):4, [7-8):9, [8-9):11, [9-10]:6), el total de alumnos representados es ___.",
+          "respuestaCorrecta": "30",
+          "retroalimentacion": "4+9+11+6 = 30."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En un histograma, a diferencia de la gráfica de barras, las barras se dibujan pegadas, sin espacio entre ellas.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: eso se debe a que los intervalos son consecutivos (el final de uno es el inicio del siguiente)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un histograma agrupa datos categóricos, como colores favoritos, en vez de datos numéricos continuos.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: el histograma se usa para datos numéricos continuos agrupados en intervalos; los datos categóricos se representan mejor con barras o gráfica circular."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un histograma de pesos (en kg) de 25 personas tiene los intervalos [50-55): 5, [55-60): 8, [60-65): 7, [65-70): 5. ¿Cuántas personas pesan menos de 60 kg (intervalos [50-55) y [55-60))?",
+          "opciones": [
+            "13",
+            "15",
+            "12",
+            "20"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "5+8=13 personas."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un histograma de tiempos (en minutos) de 40 corredores tiene los intervalos [20-25): 6, [25-30): 14, [30-35): 12, [35-40): 8. ¿Cuántos corredores tardaron entre 25 y 35 minutos (intervalos [25-30) y [30-35))? ___",
+          "respuestaCorrecta": "26",
+          "retroalimentacion": "14+12 = 26 corredores."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Con el histograma de tiempos de corredores ([20-25):6, [25-30):14, [30-35):12, [35-40):8), ¿qué intervalo tiene la mayor frecuencia?",
+          "opciones": [
+            "[20-25)",
+            "[25-30)",
+            "[30-35)",
+            "[35-40)"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "El intervalo [25-30) tiene 14 corredores, la frecuencia más alta."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En el histograma de pesos ([50-55):5, [55-60):8, [60-65):7, [65-70):5), el intervalo [60-65) tiene más personas que el intervalo [65-70).",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 7 personas en [60-65) contra 5 en [65-70)."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada intervalo del histograma de calificaciones ([6-7):4, [7-8):9, [8-9):11, [9-10]:6) con su frecuencia.",
+          "columnaA": [
+            "[7-8)",
+            "[9-10]",
+            "[8-9)"
+          ],
+          "columnaB": [
+            "6",
+            "11",
+            "9"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "[7-8) tiene 9. [9-10] tiene 6. [8-9) tiene 11."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Con el histograma de pesos ([50-55):5, [55-60):8, [60-65):7, [65-70):5), ¿cuántas personas en total se registraron? ___",
+          "respuestaCorrecta": "25",
+          "retroalimentacion": "5+8+7+5 = 25 personas."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 2 de 10 · Intermedio"
+    },
+    {
+      "numero": "11.3",
+      "titulo": "Gráficas de línea",
+      "explicacion": "Una gráfica de línea muestra cómo cambia un dato a lo largo del tiempo: en el eje horizontal se ubica el tiempo (días, meses, años) y en el eje vertical el valor que se mide (temperatura, ventas, estatura, etc.). Los puntos se unen con segmentos de recta, y la inclinación de cada segmento indica si el dato aumentó, disminuyó o se mantuvo igual entre un periodo y el siguiente.",
+      "ejemplos": [
+        "La temperatura máxima registrada de lunes a domingo fue: L 20°C, M 23°C, Mi 22°C, J 27°C, V 25°C, S 21°C, D 19°C. Entre viernes y sábado la temperatura bajó 4°C (25-21=4), mientras que el mayor aumento fue de miércoles a jueves: 27-22=5°C."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Según la gráfica de línea de temperatura (L 20°C, M 23°C, Mi 22°C, J 27°C, V 25°C, S 21°C, D 19°C), ¿cuál fue la temperatura registrada el jueves?",
+          "opciones": [
+            "22°C",
+            "25°C",
+            "27°C",
+            "23°C"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "El jueves se registraron 27°C."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Con los mismos datos de temperatura, la diferencia entre la temperatura del viernes y la del sábado es ___°C.",
+          "respuestaCorrecta": "4",
+          "retroalimentacion": "Viernes 25°C - Sábado 21°C = 4°C."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En la gráfica de temperatura de la semana, el mayor aumento entre un día y el siguiente ocurrió de miércoles a jueves.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: de miércoles (22°C) a jueves (27°C) hubo un aumento de 5°C, el mayor de la semana."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En la gráfica de temperatura, la temperatura bajó todos los días de la semana.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: hubo aumentos, por ejemplo de lunes (20°C) a martes (23°C) y de miércoles (22°C) a jueves (27°C)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Entre qué par de días consecutivos ocurrió la mayor disminución de temperatura?",
+          "opciones": [
+            "Jueves a viernes",
+            "Viernes a sábado",
+            "Sábado a domingo",
+            "Lunes a martes"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "De viernes (25°C) a sábado (21°C) la temperatura bajó 4°C, la mayor disminución."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Las ventas (en cientos de pesos) de la semana fueron: lunes 8, martes 12, miércoles 10, jueves 15, viernes 18. El aumento de ventas entre jueves y viernes fue de ___ (cientos de pesos).",
+          "respuestaCorrecta": "3",
+          "retroalimentacion": "18-15 = 3 (cientos de pesos)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Con los datos de ventas (L 8, M 12, Mi 10, J 15, V 18, en cientos de pesos), ¿entre qué días hubo una disminución en las ventas?",
+          "opciones": [
+            "De lunes a martes",
+            "De martes a miércoles",
+            "De miércoles a jueves",
+            "De jueves a viernes"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "De martes (12) a miércoles (10) las ventas bajaron; en los demás pares aumentaron."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Según la gráfica de ventas, el total vendido en la semana (sumando los 5 días) fue ___ (cientos de pesos).",
+          "respuestaCorrecta": "63",
+          "retroalimentacion": "8+12+10+15+18 = 63 (cientos de pesos)."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada día de la semana con la temperatura registrada según la gráfica de línea (L 20°C, M 23°C, Mi 22°C, J 27°C, V 25°C, S 21°C, D 19°C).",
+          "columnaA": [
+            "Miércoles",
+            "Viernes",
+            "Domingo"
+          ],
+          "columnaB": [
+            "19°C",
+            "25°C",
+            "22°C"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "Miércoles: 22°C. Viernes: 25°C. Domingo: 19°C."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En la gráfica de ventas, las ventas del viernes fueron el doble que las del lunes.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: el doble de las ventas del lunes (8) sería 16, y el viernes se vendieron 18, no 16."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 3 de 10 · Avanzado"
+    },
+    {
+      "numero": "11.4",
+      "titulo": "Síntesis y aplicación: elegir la gráfica adecuada",
+      "explicacion": "Para elegir la gráfica correcta hay que fijarse en el tipo de dato: si es categórico (colores, deportes, marcas) conviene una gráfica de barras o una gráfica circular; si es numérico continuo agrupado en intervalos (calificaciones, estaturas, pesos) se usa un histograma; y si el dato cambia a lo largo del tiempo (horas, días, meses, años) se usa una gráfica de línea. Además, recuerda que para comparar proporciones entre categorías o intervalos conviene usar la frecuencia relativa (frecuencia ÷ total) o la frecuencia porcentual (frecuencia relativa × 100), no solo la frecuencia absoluta.",
+      "ejemplos": [
+        "Para mostrar cómo se distribuyeron las calificaciones de un examen agrupadas en rangos se usa un histograma; para mostrar cómo cambió el peso de un bebé mes con mes se usa una gráfica de línea; y para comparar el deporte favorito de un grupo (fútbol, básquetbol, natación) se usa una gráfica de barras o circular."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Quieres mostrar cómo cambió la estatura de una planta cada semana durante 2 meses. ¿Qué tipo de gráfica es la más adecuada?",
+          "opciones": [
+            "Histograma",
+            "Gráfica circular",
+            "Gráfica de línea",
+            "Gráfica de barras"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Como el dato cambia a lo largo del tiempo, la gráfica de línea es la adecuada."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Quieres mostrar cómo se distribuyen las calificaciones de 40 alumnos agrupadas en rangos (6-7, 7-8, 8-9, 9-10). ¿Qué gráfica usarías?",
+          "opciones": [
+            "Gráfica de línea",
+            "Histograma",
+            "Gráfica circular",
+            "Ninguna de las anteriores"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Son datos numéricos agrupados en intervalos, así que el histograma es la gráfica adecuada."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Para comparar el deporte favorito de un grupo (fútbol, básquetbol, natación), lo más adecuado es una gráfica de barras o circular, no un histograma.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: son datos categóricos, no numéricos agrupados en intervalos."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una gráfica de línea es adecuada para mostrar la temperatura registrada cada hora durante un día.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: el dato (temperatura) cambia a lo largo del tiempo (las horas)."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "De 40 alumnos, 6 prefieren la gráfica circular para representar datos categóricos. La frecuencia porcentual de esa preferencia es ___%.",
+          "respuestaCorrecta": "15",
+          "retroalimentacion": "6÷40 = 0.15, y 0.15×100 = 15%."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En una encuesta a 50 personas sobre su gráfica favorita, 20 dijeron gráfica de barras. La frecuencia relativa de esa respuesta es ___.",
+          "respuestaCorrecta": "0.4",
+          "retroalimentacion": "20÷50 = 0.4."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un histograma de pesos (en kg) de 40 personas tiene los intervalos [40-45): 6, [45-50): 12, [50-55): 14, [55-60): 8. ¿Cuál es la frecuencia porcentual del intervalo [45-50)?",
+          "opciones": [
+            "30%",
+            "12%",
+            "40%",
+            "70%"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "12÷40 = 0.3, y 0.3×100 = 30%."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En el histograma de pesos ([40-45):6, [45-50):12, [50-55):14, [55-60):8, de 40 personas), el intervalo con mayor frecuencia relativa es [50-55), con una frecuencia relativa de 0.35.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 14÷40 = 0.35, la frecuencia relativa más alta de los cuatro intervalos."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación con el tipo de gráfica más adecuada para representarla.",
+          "columnaA": [
+            "Temperatura registrada cada día del mes",
+            "Calificaciones de un grupo agrupadas en rangos",
+            "Color favorito de un grupo de amigos (categorías)"
+          ],
+          "columnaB": [
+            "Gráfica de barras o circular",
+            "Histograma",
+            "Gráfica de línea"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "Dato que cambia con el tiempo → línea. Dato numérico agrupado en intervalos → histograma. Dato categórico → barras o circular."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "De un grupo de 25 alumnos, 5 prefieren estudiar en la mañana. ¿Cuál es la frecuencia relativa de esa preferencia?",
+          "opciones": [
+            "0.5",
+            "0.2",
+            "0.05",
+            "5.0"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "5÷25 = 0.2."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 4 de 10 · Síntesis"
+    },
+    {
+      "numero": "11.5",
+      "titulo": "Tablas de frecuencia a partir de datos sin agrupar",
+      "explicacion": "Hasta ahora las frecuencias ya venían dadas en una tabla; en la vida real casi nunca es así: primero tienes una lista de datos sueltos (por ejemplo, las respuestas de cada persona en una encuesta) y tú debes contar cuántas veces se repite cada valor o categoría antes de calcular la frecuencia relativa y porcentual. Este conteo es el paso que conecta los datos crudos con cualquier tabla o gráfica estadística. Un error común es olvidar verificar que la suma de todas las frecuencias absolutas sea igual al total de datos registrados.",
+      "ejemplos": [
+        "Se preguntó a 12 alumnos su fruta favorita y las respuestas, en el orden en que se recogieron, fueron: manzana, plátano, plátano, manzana, naranja, plátano, manzana, plátano, naranja, plátano, manzana, plátano. Al contar: manzana aparece 4 veces, plátano 6 veces y naranja 2 veces (4+6+2=12, coincide con el total). La frecuencia relativa de plátano es 6÷12=0.5 y su frecuencia porcentual es 50%.",
+        "En 10 partidos, un jugador anotó esta cantidad de goles por partido: 0,1,0,2,1,0,1,0,1,2. Contando: anotó 0 goles en 4 partidos, 1 gol en 4 partidos y 2 goles en 2 partidos (4+4+2=10). La frecuencia porcentual de partidos con exactamente 1 gol es 4÷10=0.4 → 40%."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una encuesta a 10 alumnos sobre su mascota, las respuestas fueron: perro, gato, perro, pez, perro, gato, perro, gato, pez, perro. ¿Cuántos alumnos respondieron 'perro'?",
+          "opciones": [
+            "3",
+            "5",
+            "4",
+            "10"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Contando las repeticiones en la lista: 'perro' aparece 5 veces."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Con esos mismos datos de mascotas (perro 5, gato 3, pez 2, de 10 respuestas), la frecuencia relativa de 'gato' es ___.",
+          "respuestaCorrecta": "0.3",
+          "retroalimentacion": "'gato' aparece 3 veces de 10 respuestas: 3÷10=0.3."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Con los datos de mascotas (perro 5, gato 3, pez 2, de 10 respuestas), la frecuencia porcentual de 'pez' es 20%.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 2÷10=0.2 → 20%."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una tiendita se registraron 16 ventas de refresco en este orden: cola, naranja, cola, limón, cola, naranja, cola, limón, cola, naranja, cola, limón, cola, naranja, cola, limón. ¿Cuántas veces se vendió 'cola'?",
+          "opciones": [
+            "4",
+            "6",
+            "8",
+            "16"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "'cola' se repite 8 veces de las 16 ventas registradas."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Con los datos de refrescos anteriores (cola 8, naranja 4, limón 4, de 16 ventas), la frecuencia relativa de 'naranja' es ___.",
+          "respuestaCorrecta": "0.25",
+          "retroalimentacion": "'naranja' aparece 4 veces de 16: 4÷16=0.25."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En los datos de refrescos (cola 8, naranja 4, limón 4, de 16 ventas), 'limón' y 'naranja' tienen la misma frecuencia absoluta.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: ambos se repiten 4 veces cada uno."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Con los goles por partido del ejemplo (0,1,0,2,1,0,1,0,1,2 en 10 partidos), ¿en cuántos partidos anotó 0 goles?",
+          "opciones": [
+            "2",
+            "4",
+            "6",
+            "10"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "El valor 0 aparece 4 veces en la lista de 10 partidos."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Con los mismos datos de goles (0,1,0,2,1,0,1,0,1,2 en 10 partidos), la frecuencia porcentual de partidos con 2 goles es ___%.",
+          "respuestaCorrecta": "20",
+          "retroalimentacion": "El valor 2 aparece 2 veces de 10 partidos: 2÷10=0.2 → 20%."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Antes de calcular la frecuencia relativa de datos sin agrupar, siempre debes contar cuántas veces se repite cada valor o categoría en la lista original.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: ese conteo es el primer paso para construir cualquier tabla de frecuencias a partir de datos crudos."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada mascota (encuesta a 10 alumnos: perro 5, gato 3, pez 2) con su frecuencia relativa.",
+          "columnaA": [
+            "perro",
+            "gato",
+            "pez"
+          ],
+          "columnaB": [
+            "0.2",
+            "0.5",
+            "0.3"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "perro: 5÷10=0.5. gato: 3÷10=0.3. pez: 2÷10=0.2."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 5 de 10 · Aplicación"
+    },
+    {
+      "numero": "11.6",
+      "titulo": "Amplitud de clase: cómo definir los intervalos de un histograma",
+      "explicacion": "En los histogramas anteriores los intervalos ya estaban definidos; ahora aprenderás a construirlos tú mismo. Primero se calcula el rango de los datos (valor máximo menos valor mínimo) y luego se decide en cuántos intervalos (clases) se quiere dividir la información. La amplitud de clase es el ancho que debe tener cada intervalo para cubrir todo el rango de manera uniforme, y se obtiene dividiendo el rango entre el número de intervalos deseado; si el resultado no es un número entero, la amplitud se redondea hacia arriba para que ningún dato quede fuera.",
+      "formula": "rango = valor máximo − valor mínimo     ·     amplitud de clase = rango ÷ número de intervalos (redondeando hacia arriba si no es exacto)",
+      "ejemplos": [
+        "Las calificaciones de 20 alumnos van de 62 a 98 puntos y se quieren organizar en 4 intervalos. Rango = 98−62 = 36. Amplitud = 36÷4 = 9. Los intervalos, empezando en 62, quedan: [62-71), [71-80), [80-89) y [89-98].",
+        "Las edades de los socios de un gimnasio van de 15 a 63 años y se quieren 6 intervalos. Rango = 63−15 = 48. Amplitud = 48÷6 = 8, así que los intervalos son [15-23), [23-31), [31-39), [39-47), [47-55) y [55-63]."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "llenar_frase",
+          "frase": "Los pesos de 24 paquetes de una bodega van de 18 a 54 kg. Si se quieren 4 intervalos, el rango es ___ kg.",
+          "respuestaCorrecta": "36",
+          "retroalimentacion": "54−18=36 kg."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Con ese mismo rango de 36 kg y 4 intervalos, ¿cuál es la amplitud de clase?",
+          "opciones": [
+            "4",
+            "9",
+            "6",
+            "12"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "36÷4=9 kg de amplitud."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Las estaturas de un grupo van de 140 a 176 cm y se quieren 6 intervalos. La amplitud de clase es ___ cm.",
+          "respuestaCorrecta": "6",
+          "retroalimentacion": "(176−140)÷6 = 36÷6 = 6 cm."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Los tiempos de una carrera van de 12 a 52 segundos. Si se usan 5 intervalos, la amplitud de clase es 8 segundos.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: (52−12)÷5 = 40÷5 = 8 segundos."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Las edades de un grupo van de 12 a 55 años y se quieren 5 intervalos. El rango es 43, que no se divide exacto entre 5 (43÷5=8.6). ¿Qué amplitud de clase se debe usar para que ningún dato quede fuera?",
+          "opciones": [
+            "8",
+            "8.6",
+            "9",
+            "5"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Como 8.6 no es un número entero, se redondea hacia arriba a 9 para cubrir todo el rango sin dejar datos fuera."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Las alturas de 30 plantas de un invernadero van de 8 a 38 cm y se quieren 6 intervalos. La amplitud de clase es ___ cm.",
+          "respuestaCorrecta": "5",
+          "retroalimentacion": "(38−8)÷6 = 30÷6 = 5 cm."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Con los intervalos de calificaciones [62-71), [71-80), [80-89), [89-98] (amplitud 9, iniciando en 62), ¿en qué intervalo cae una calificación de 79?",
+          "opciones": [
+            "[62-71)",
+            "[71-80)",
+            "[80-89)",
+            "[89-98]"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "79 está entre 71 (incluido) y 80 (no incluido), así que cae en [71-80)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Con los mismos intervalos de calificaciones ([62-71), [71-80), [80-89), [89-98]), una calificación de 89 cae en el intervalo [80-89).",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: como [80-89) no incluye el 89, una calificación de 89 cae en el último intervalo, [89-98]."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un intervalo de histograma se escribe [71-80). ¿Qué significa esto?",
+          "opciones": [
+            "Incluye 71 y 80",
+            "Incluye 71 pero no 80",
+            "No incluye ni 71 ni 80",
+            "Incluye 80 pero no 71"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "El corchete [ incluye el límite inferior (71); el paréntesis ) excluye el límite superior (80), que pasa al siguiente intervalo."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación (rango de datos y número de intervalos) con su amplitud de clase correspondiente.",
+          "columnaA": [
+            "Rango 36, con 4 intervalos",
+            "Rango 48, con 6 intervalos",
+            "Rango 40, con 5 intervalos"
+          ],
+          "columnaB": [
+            "8",
+            "9",
+            "8"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            2
+          ],
+          "retroalimentacion": "36÷4=9. 48÷6=8. 40÷5=8."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 6 de 10 · Aplicación avanzada"
+    },
+    {
+      "numero": "11.7",
+      "titulo": "Frecuencia acumulada: cuántos datos hay hasta cierto punto",
+      "explicacion": "La frecuencia acumulada de un intervalo es la suma de su frecuencia más las frecuencias de todos los intervalos anteriores; sirve para responder preguntas como '¿cuántos alumnos obtuvieron menos de 8 de calificación?' sin tener que revisar toda la tabla cada vez. También existe la frecuencia porcentual acumulada, que es la frecuencia acumulada dividida entre el total y multiplicada por 100. El último valor de la frecuencia acumulada siempre debe coincidir con el total de datos, y el de la frecuencia porcentual acumulada, con 100%.",
+      "formula": "frecuencia acumulada de un intervalo = frecuencia de ese intervalo + frecuencias acumuladas de los intervalos anteriores     ·     frecuencia porcentual acumulada = (frecuencia acumulada ÷ total) × 100",
+      "ejemplos": [
+        "Un histograma de calificaciones de 40 alumnos tiene los intervalos [5-6):3, [6-7):7, [7-8):10, [8-9):12, [9-10]:8. La frecuencia acumulada hasta [7-8) es 3+7+10=20, lo que significa que 20 alumnos obtuvieron menos de 8 de calificación; en porcentaje, 20÷40=0.5 → 50%.",
+        "Con los tiempos de 50 corredores agrupados en [10-15):8, [15-20):14, [20-25):16, [25-30):12, la frecuencia acumulada hasta [20-25) es 8+14+16=38, es decir, 38 corredores tardaron menos de 25 minutos; en porcentaje, 38÷50=0.76 → 76%."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Con la tabla de calificaciones [5-6):3, [6-7):7, [7-8):10, [8-9):12, [9-10]:8 (40 alumnos), ¿cuál es la frecuencia acumulada hasta el intervalo [8-9)?",
+          "opciones": [
+            "22",
+            "32",
+            "20",
+            "12"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "3+7+10+12=32."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Con la misma tabla de calificaciones (frecuencia acumulada de 32 hasta [8-9), de 40 alumnos), la frecuencia porcentual acumulada hasta [8-9) es ___%.",
+          "respuestaCorrecta": "80",
+          "retroalimentacion": "32÷40=0.8 → 80%."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Con la tabla de calificaciones, la frecuencia porcentual acumulada del último intervalo [9-10] siempre debe ser 100%.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: la frecuencia acumulada del último intervalo es igual al total de datos, así que su porcentaje es siempre 100%."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Con la tabla de pesos de 40 paquetes [2-4):5, [4-6):9, [6-8):15, [8-10]:11, ¿cuántos paquetes pesan menos de 6 kg?",
+          "opciones": [
+            "9",
+            "14",
+            "5",
+            "15"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "5+9=14 paquetes pesan menos de 6 kg."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Con la misma tabla de pesos ([2-4):5, [4-6):9, [6-8):15, [8-10]:11, de 40 paquetes), la frecuencia porcentual acumulada hasta [6-8) (es decir, menos de 8 kg) es ___%.",
+          "respuestaCorrecta": "72.5",
+          "retroalimentacion": "5+9+15=29 paquetes de 40: 29÷40=0.725 → 72.5%."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Con los tiempos de 50 corredores [10-15):8, [15-20):14, [20-25):16, [25-30):12, ¿cuántos corredores tardaron menos de 20 minutos?",
+          "opciones": [
+            "14",
+            "22",
+            "38",
+            "8"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "8+14=22 corredores tardaron menos de 20 minutos."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Con la tabla de corredores ([10-15):8, [15-20):14, [20-25):16, [25-30):12), el 76% de los corredores tardó menos de 25 minutos.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 8+14+16=38 de 50: 38÷50=0.76 → 76%."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Con la tabla de corredores, la frecuencia acumulada hasta el último intervalo [25-30) debe ser igual a ___.",
+          "respuestaCorrecta": "50",
+          "retroalimentacion": "La frecuencia acumulada del último intervalo siempre es igual al total de datos, que es 50."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La frecuencia acumulada de un intervalo se calcula multiplicando su frecuencia por el número de intervalos anteriores.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: se calcula sumando la frecuencia de ese intervalo con las frecuencias de todos los intervalos anteriores, no multiplicando."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Con la tabla de pesos de 40 paquetes ([2-4):5, [4-6):9, [6-8):15, [8-10]:11), relaciona cada intervalo con su frecuencia acumulada.",
+          "columnaA": [
+            "[2-4)",
+            "[4-6)",
+            "[6-8)",
+            "[8-10]"
+          ],
+          "columnaB": [
+            "40",
+            "29",
+            "14",
+            "5"
+          ],
+          "parejasCorrectas": [
+            3,
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "[2-4): 5. [4-6): 5+9=14. [6-8): 14+15=29. [8-10]: 29+11=40."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 7 de 10 · Reto"
+    },
+    {
+      "numero": "11.8",
+      "titulo": "Tasa de cambio y variación porcentual en gráficas de línea",
+      "explicacion": "Además de ver si un dato sube o baja de un periodo a otro, en esta lección calcularás qué tanto cambió en términos porcentuales, no solo en cifras absolutas: una empresa que pasa de vender 250 a 300 unidades tuvo el mismo aumento absoluto (50) que otra que pasa de 1000 a 1050, pero el cambio porcentual es muy distinto (20% contra 5%). También aprenderás a calcular la tasa de cambio promedio entre dos puntos que no son consecutivos, dividiendo la diferencia total entre el número de periodos que los separan, y a comparar dos series de datos relacionadas.",
+      "formula": "variación porcentual = [(valor final − valor inicial) ÷ valor inicial] × 100     ·     tasa de cambio promedio = (valor final − valor inicial) ÷ número de periodos",
+      "ejemplos": [
+        "Las ventas mensuales de una papelería fueron: enero 400, febrero 460, marzo 500, abril 550, mayo 600 (en pesos). De enero a mayo (4 meses de diferencia) la variación porcentual es (600−400)÷400×100 = 50%, y la tasa de cambio promedio es (600−400)÷4 = 200÷4 = 50 pesos por mes.",
+        "El precio de un producto pasó de $250 a $300 en una semana. La variación porcentual es (300−250)÷250×100 = 20%."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "La temperatura de un experimento fue de 18°C el día 1 y subió hasta 24°C el día 4. ¿Cuál es la tasa de cambio promedio por día (entre el día 1 y el día 4, que son 3 periodos de diferencia)?",
+          "opciones": [
+            "6°C",
+            "3°C",
+            "2°C",
+            "24°C"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "(24−18)÷3 = 2°C por día."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una tienda A pasó de vender 800 a 1000 unidades en dos meses. Su variación porcentual fue de ___%.",
+          "respuestaCorrecta": "25",
+          "retroalimentacion": "(1000−800)÷800×100 = 25%."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una tienda B pasó de vender 500 a 750 unidades en el mismo periodo. ¿Cuál es su variación porcentual?",
+          "opciones": [
+            "25%",
+            "50%",
+            "150%",
+            "250%"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "(750−500)÷500×100 = 50%."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Comparando la tienda A (de 800 a 1000 unidades) y la tienda B (de 500 a 750 unidades), aunque B vendió menos unidades en total, tuvo una variación porcentual mayor que A.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: A tuvo 25% de aumento y B tuvo 50%, aunque B vendió menos unidades en total."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La población de un pueblo pasó de 4000 a 4600 habitantes en 4 años. La variación porcentual total fue de ___%.",
+          "respuestaCorrecta": "15",
+          "retroalimentacion": "(4600−4000)÷4000×100 = 15%."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Con los mismos datos de población (de 4000 a 4600 habitantes en 4 años), ¿cuál es la tasa de cambio promedio por año?",
+          "opciones": [
+            "600",
+            "150",
+            "15",
+            "4600"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "(4600−4000)÷4 = 150 habitantes por año."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Con las ventas de la papelería (enero 400, ..., mayo 600 pesos), la variación porcentual de enero a mayo es del 50%.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "(600−400)÷400×100 = 50%."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El precio de un producto pasó de $250 a $300. El aumento porcentual fue de ___%.",
+          "respuestaCorrecta": "20",
+          "retroalimentacion": "(300−250)÷250×100 = 20%."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Dos tiendas cambiaron sus ventas en el mismo periodo: tienda A de 800 a 1000 unidades y tienda C de 200 a 300 unidades. ¿Cuál tienda tuvo mayor variación porcentual?",
+          "opciones": [
+            "Tienda A",
+            "Tienda C",
+            "Ambas tuvieron la misma variación",
+            "No se puede saber"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "A tuvo 25% de aumento; C tuvo (300−200)÷200×100=50%, mayor que A aunque su aumento absoluto (100) sea menor que el de A (200)."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada cambio de valores con su variación porcentual.",
+          "columnaA": [
+            "De 300 a 360",
+            "De 4000 a 4600",
+            "De 500 a 750"
+          ],
+          "columnaB": [
+            "50%",
+            "15%",
+            "20%"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "300→360: (360−300)÷300×100=20%. 4000→4600: (4600−4000)÷4000×100=15%. 500→750: (750−500)÷500×100=50%."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 8 de 10 · Reto avanzado"
+    },
+    {
+      "numero": "11.9",
+      "titulo": "Gráficas engañosas: cómo detectar manipulación visual en los datos",
+      "explicacion": "No basta con elegir el tipo de gráfica correcto (barras, circular, histograma o línea): también hay que revisar si la gráfica está construida de forma honesta. Una gráfica puede ser engañosa si el eje vertical no empieza en cero (esto exagera visualmente diferencias pequeñas), si usa una escala inconsistente entre series, o si mezcla frecuencias absolutas y porcentuales sin aclararlo. Para detectar el engaño, siempre compara los valores numéricos reales —calculando tú mismo la diferencia o el porcentaje— en vez de confiar solo en el tamaño de las barras o la inclinación de las líneas.",
+      "ejemplos": [
+        "Una gráfica de barras muestra las ventas de dos tiendas con el eje vertical empezando en 80 en vez de en 0: la tienda A vendió 80 unidades y la tienda B vendió 88. Como el eje no empieza en 0, la barra de B se ve casi el doble de alta que la de A, pero la diferencia real es solo 88−80=8 unidades, es decir, un aumento del (88−80)÷80×100=10%, no del 100%.",
+        "Si dos gráficas de línea usan escalas distintas en el eje vertical (una de 0 a 10 y otra de 0 a 1000) para representar el mismo tipo de dato, no se pueden comparar visualmente sus inclinaciones aunque se vean parecidas: hay que fijarse en los valores numéricos de cada eje, no solo en la forma de la línea."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si el eje vertical de una gráfica de barras no empieza en cero, las diferencias entre las barras pueden verse más grandes de lo que realmente son.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: truncar el eje vertical es una forma común de exagerar visualmente diferencias pequeñas."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una gráfica de barras con el eje vertical de 80 a 90 muestra dos tiendas: A con 80 unidades y B con 88. ¿Cuál es la variación porcentual real de B respecto a A?",
+          "opciones": [
+            "10%",
+            "100%",
+            "8%",
+            "80%"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(88−80)÷80×100=10%; el eje truncado hace que la diferencia visual parezca mucho mayor de lo que realmente es."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Para saber si una gráfica está siendo engañosa, basta con ver qué tan inclinada se ve la línea o qué tan alta se ve la barra, sin necesidad de revisar los valores numéricos de los ejes.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: siempre hay que revisar los valores numéricos reales de los ejes, porque el tamaño visual puede estar manipulado por la escala."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Quieres comparar de forma honesta las ventas mensuales de una tienda durante un año. ¿Cuál gráfica es la más adecuada y qué regla no debes olvidar?",
+          "opciones": [
+            "Gráfica de línea, y el eje vertical debe empezar en 0 para no exagerar los cambios",
+            "Gráfica circular, sin importar el eje",
+            "Histograma, agrupando los meses en intervalos",
+            "Gráfica de barras separadas por colores distintos cada mes"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "El dato cambia con el tiempo, así que la gráfica de línea es adecuada, y el eje vertical debe iniciar en 0 para representar los cambios de forma honesta."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un histograma de calificaciones de 40 alumnos muestra el intervalo [8-9) con 12 alumnos, pero el eje vertical solo llega hasta 15 y no empieza en 0, sino en 8, lo que hace ver esa barra desproporcionadamente alta. La frecuencia porcentual real de ese intervalo es 12÷40×100 = ___%.",
+          "respuestaCorrecta": "30",
+          "retroalimentacion": "12÷40=0.3 → 30%, sin importar cómo se vea la barra en un eje mal construido."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Mezclar en una misma tabla frecuencias absolutas y frecuencias porcentuales sin aclarar cuál es cuál puede confundir a quien lee la gráfica.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: siempre se debe indicar claramente si un valor es una frecuencia absoluta (conteo) o porcentual (%), para evitar interpretaciones erróneas."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Dos gráficas de línea representan el mismo tipo de dato (ventas mensuales), pero una usa una escala vertical de 0 a 100 y la otra de 0 a 10,000. Si ambas líneas se ven con la misma inclinación, ¿qué se puede concluir?",
+          "opciones": [
+            "Que ambas tiendas crecieron exactamente igual",
+            "Que no se pueden comparar visualmente sin revisar los valores numéricos de cada eje",
+            "Que la de escala más pequeña creció más",
+            "Que la de escala más grande creció más"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Con escalas distintas, la inclinación visual no es comparable; hay que revisar los valores reales de cada eje."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Elegir el tipo de gráfica correcto (barras, circular, histograma o línea) garantiza automáticamente que la gráfica no sea engañosa.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: incluso con el tipo correcto de gráfica, un eje mal construido (que no empieza en 0, con escala inconsistente) puede seguir siendo engañoso."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un vendedor quiere presentar sus resultados del año de la forma más favorable posible, exagerando visualmente un pequeño aumento en ventas. ¿Qué truco es más probable que use?",
+          "opciones": [
+            "Empezar el eje vertical en un valor cercano a sus datos, en vez de en 0",
+            "Usar una gráfica de línea con el eje empezando en 0",
+            "Mostrar la frecuencia relativa exacta junto con la absoluta",
+            "Usar un histograma con intervalos de amplitud correcta"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Truncar el eje vertical cerca de los valores reales exagera visualmente cualquier diferencia pequeña."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada práctica al construir una gráfica con si es honesta o engañosa.",
+          "columnaA": [
+            "Eje vertical que empieza en 0",
+            "Eje vertical que empieza muy por encima de 0, cerca de los datos",
+            "Aclarar si los valores son frecuencia absoluta o porcentual",
+            "Usar dos escalas distintas para comparar visualmente dos series sin aclararlo"
+          ],
+          "columnaB": [
+            "Honesta",
+            "Engañosa"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "retroalimentacion": "Empezar en 0 y aclarar las unidades son prácticas honestas; truncar el eje o mezclar escalas sin aclararlo son formas de engañar visualmente."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 9 de 10 · Integración"
+    },
+    {
+      "numero": "11.10",
+      "titulo": "Proyecto integrador: de datos crudos a un reporte estadístico completo",
+      "explicacion": "Esta última lección combina todo lo aprendido en el PDA: partir de una lista de datos sin agrupar, construir una tabla de frecuencias con los intervalos adecuados, calcular la frecuencia acumulada, y decidir qué gráfica (o gráficas) mostrar según el tipo de dato, igual que tendrías que hacerlo en un reporte real de la escuela o de un proyecto de investigación. Los problemas de esta lección integran al menos dos de las lecciones anteriores del PDA en un solo ejercicio, con números menos redondos y más pasos que resolver.",
+      "ejemplos": [
+        "Las calificaciones (sobre 100) de 20 alumnos en un examen fueron: 62, 64, 65, 68, 70, 71, 72, 74, 75, 77, 79, 81, 82, 84, 87, 88, 89, 90, 93, 98. Paso 1: el rango es 98−62=36 y con 4 intervalos la amplitud es 36÷4=9, dando los intervalos [62-71), [71-80), [80-89) y [89-98]. Paso 2: contando cuántas calificaciones caen en cada uno se obtiene 5, 6, 5 y 4 respectivamente (5+6+5+4=20). Paso 3: la frecuencia acumulada hasta [80-89) es 5+6+5=16, es decir, 16÷20×100=80% de los alumnos obtuvieron menos de 89 puntos.",
+        "Una empresa tiene dos sucursales cuyas ventas mensuales (en miles de pesos) fueron: Norte: enero 300, febrero 330, marzo 360, abril 390. Sur: enero 300, febrero 420, marzo 380, abril 450. Ambas sucursales empezaron igual (300) y terminaron con ventas parecidas (390 y 450), pero la variación porcentual de enero a abril es distinta: Norte (390−300)÷300×100=30%, mientras que Sur (450−300)÷300×100=50%, aunque la gráfica de Sur muestra más subidas y bajadas en el camino."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "llenar_frase",
+          "frase": "Con las calificaciones de 20 alumnos (62,64,65,68,70,71,72,74,75,77,79,81,82,84,87,88,89,90,93,98) organizadas en 4 intervalos de amplitud 9 empezando en 62, el número de alumnos en el intervalo [71-80) es ___.",
+          "respuestaCorrecta": "6",
+          "retroalimentacion": "Los valores 71, 72, 74, 75, 77 y 79 caen en [71-80): son 6 alumnos."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Con la tabla de calificaciones resultante ([62-71):5, [71-80):6, [80-89):5, [89-98]:4), ¿cuál es la frecuencia acumulada hasta el intervalo [80-89)?",
+          "opciones": [
+            "11",
+            "16",
+            "20",
+            "5"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "5+6+5=16."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Con la misma tabla de calificaciones (frecuencia acumulada de 16 hasta [80-89), de 20 alumnos), el porcentaje de alumnos que obtuvieron menos de 89 puntos es ___%.",
+          "respuestaCorrecta": "80",
+          "retroalimentacion": "16÷20×100=80%."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Con la tabla de calificaciones ([62-71):5, [71-80):6, [80-89):5, [89-98]:4, de 20 alumnos), el 20% de los alumnos obtuvo 89 puntos o más.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "El intervalo [89-98] tiene 4 alumnos de 20: 4÷20×100=20%."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Las sucursales Norte (enero 300, ..., abril 390) y Sur (enero 300, ..., abril 450) de una empresa iniciaron con las mismas ventas, en miles de pesos. ¿Cuál sucursal tuvo mayor variación porcentual de enero a abril?",
+          "opciones": [
+            "Norte, con 30%",
+            "Sur, con 50%",
+            "Ambas tuvieron la misma variación",
+            "No se puede calcular sin más datos"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Norte: (390−300)÷300×100=30%. Sur: (450−300)÷300×100=50%. Sur tuvo mayor variación porcentual."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Con los datos de la sucursal Norte (enero 300, febrero 330, marzo 360, abril 390, en miles de pesos), la tasa de cambio promedio mensual (de enero a abril, 3 periodos) es de ___ miles de pesos por mes.",
+          "respuestaCorrecta": "30",
+          "retroalimentacion": "(390−300)÷3=30 miles de pesos por mes."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Para mostrar en un reporte cómo cambiaron mes a mes las ventas de las dos sucursales (Norte y Sur) durante el año, ¿qué tipo de gráfica es la más adecuada, y qué detalle debe cuidarse?",
+          "opciones": [
+            "Histograma, agrupando las ventas en intervalos",
+            "Gráfica de línea con las dos series en la misma escala, para poder comparar sus inclinaciones de forma honesta",
+            "Gráfica circular, mostrando qué proporción de las ventas totales aportó cada sucursal cada mes",
+            "Gráfica de barras con escalas distintas para cada sucursal"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Como el dato cambia con el tiempo y se comparan dos series, la gráfica de línea es adecuada, pero ambas series deben usar la misma escala para que la comparación visual sea honesta."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En el reporte de calificaciones, si un compañero presentara el histograma con el eje vertical empezando en 4 (el valor mínimo de las frecuencias) en vez de en 0, exageraría visualmente las diferencias entre los intervalos, aunque los porcentajes reales (25%, 30%, 25%, 20%) no cambiarían.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: truncar el eje vertical no cambia los datos reales, solo distorsiona su apariencia visual."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un reporte necesita mostrar tanto la distribución de 20 calificaciones (agrupadas en intervalos) como el cambio de las ventas de una sucursal mes a mes. ¿Qué combinación de gráficas es correcta?",
+          "opciones": [
+            "Dos histogramas",
+            "Un histograma para las calificaciones y una gráfica de línea para las ventas",
+            "Dos gráficas de línea",
+            "Dos gráficas circulares"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Las calificaciones agrupadas en intervalos se representan con histograma; las ventas mes a mes, con gráfica de línea, porque cambian a lo largo del tiempo."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Con la tabla de calificaciones ([62-71):5, [71-80):6, [80-89):5, [89-98]:4, de 20 alumnos), relaciona cada intervalo con su frecuencia porcentual.",
+          "columnaA": [
+            "[62-71)",
+            "[71-80)",
+            "[80-89)",
+            "[89-98]"
+          ],
+          "columnaB": [
+            "25%",
+            "30%",
+            "20%"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            0,
+            2
+          ],
+          "retroalimentacion": "[62-71): 5÷20=25%. [71-80): 6÷20=30%. [80-89): 5÷20=25%. [89-98]: 4÷20=20%."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 10 de 10 · Dominio"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "De 20 alumnos, 5 usan lentes. La frecuencia relativa es 0.25.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: 5÷20 = 0.25."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "De 60 encuestados, 15 prefieren té. La frecuencia porcentual es ___%.",
+      "respuestaCorrecta": "25",
+      "retroalimentacion": "15÷60 = 0.25, y 0.25×100 = 25%."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "De 45 alumnos, 9 llegan caminando a la escuela. ¿Cuál es la frecuencia relativa?",
+      "opciones": [
+        "0.2",
+        "0.9",
+        "0.09",
+        "2.0"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "9÷45 = 0.2."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "En un histograma, las barras se dibujan con espacio entre ellas, igual que en la gráfica de barras.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Falso: en el histograma las barras van pegadas, sin espacio, porque los intervalos son consecutivos."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Un histograma de calificaciones de 40 alumnos tiene los intervalos [6-7):6, [7-8):10, [8-9):16, [9-10]:8. El total representado es ___.",
+      "respuestaCorrecta": "40",
+      "retroalimentacion": "6+10+16+8 = 40."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Con el histograma de calificaciones ([6-7):6, [7-8):10, [8-9):16, [9-10]:8), ¿cuántos alumnos obtuvieron 8 o más (intervalos [8-9) y [9-10])?",
+      "opciones": [
+        "24",
+        "16",
+        "8",
+        "30"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "16+8 = 24 alumnos."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "En el histograma de calificaciones ([6-7):6, [7-8):10, [8-9):16, [9-10]:8), el intervalo con menor frecuencia es [6-7).",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: [6-7) tiene 6 alumnos, la frecuencia más baja de los cuatro intervalos."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Con el histograma de calificaciones ([6-7):6, [7-8):10, [8-9):16, [9-10]:8, de 40 alumnos), la frecuencia porcentual del intervalo [8-9) es ___%.",
+      "respuestaCorrecta": "40",
+      "retroalimentacion": "16÷40 = 0.4, y 0.4×100 = 40%."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Durante una semana se registró la temperatura: lunes 10°C, martes 8°C, miércoles 12°C, jueves 9°C, viernes 11°C. ¿Cuál fue la temperatura registrada el miércoles?",
+      "opciones": [
+        "8°C",
+        "12°C",
+        "9°C",
+        "11°C"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "El miércoles se registraron 12°C."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Con los datos de temperatura (L 10°C, M 8°C, Mi 12°C, J 9°C, V 11°C), la diferencia entre la temperatura del martes y la del miércoles fue de ___°C.",
+      "respuestaCorrecta": "4",
+      "retroalimentacion": "12-8 = 4°C."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Con los datos de temperatura (L 10°C, M 8°C, Mi 12°C, J 9°C, V 11°C), la mayor disminución de un día a otro ocurrió de miércoles a jueves.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: de miércoles (12°C) a jueves (9°C) bajó 3°C, la mayor disminución de la semana."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Con los datos de temperatura (L 10°C, M 8°C, Mi 12°C, J 9°C, V 11°C), ¿entre qué días hubo el mayor aumento?",
+      "opciones": [
+        "Lunes a martes",
+        "Martes a miércoles",
+        "Miércoles a jueves",
+        "Jueves a viernes"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "De martes (8°C) a miércoles (12°C) subió 4°C, el mayor aumento de la semana."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Las ventas semanales (en cientos de pesos) fueron: lunes 5, martes 9, miércoles 7, jueves 12, viernes 14. El total de ventas de la semana fue ___ (cientos de pesos).",
+      "respuestaCorrecta": "47",
+      "retroalimentacion": "5+9+7+12+14 = 47."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Con los datos de ventas (L 5, M 9, Mi 7, J 12, V 14, en cientos de pesos), ¿entre qué días las ventas disminuyeron?",
+      "opciones": [
+        "Lunes a martes",
+        "Martes a miércoles",
+        "Miércoles a jueves",
+        "Jueves a viernes"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "De martes (9) a miércoles (7) las ventas bajaron; en los demás pares aumentaron."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Con los datos de ventas (L 5, M 9, Mi 7, J 12, V 14, en cientos de pesos), el jueves se vendió más del doble que el lunes.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: el doble del lunes (5) sería 10, y el jueves se vendieron 12, que es más de 10."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Para representar cómo cambia el número de habitantes de una ciudad año con año, ¿qué gráfica es más adecuada?",
+      "opciones": [
+        "Histograma",
+        "Gráfica de línea",
+        "Gráfica circular",
+        "Ninguna"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "El dato cambia a lo largo del tiempo, así que la gráfica de línea es la adecuada."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Para representar la distribución de estaturas de 50 alumnos agrupadas en intervalos, ¿qué gráfica es más adecuada?",
+      "opciones": [
+        "Gráfica de línea",
+        "Gráfica circular",
+        "Histograma",
+        "Gráfica de barras separadas"
+      ],
+      "respuestaCorrecta": 2,
+      "retroalimentacion": "Son datos numéricos continuos agrupados en intervalos, así que el histograma es la gráfica adecuada."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Una gráfica circular es útil para mostrar cómo se reparte un total en categorías, por ejemplo el color favorito de un grupo.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: la gráfica circular muestra qué proporción del total representa cada categoría."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "De 80 alumnos de una escuela, 32 prefieren la clase de Educación Física. La frecuencia relativa es ___.",
+      "respuestaCorrecta": "0.4",
+      "retroalimentacion": "32÷80 = 0.4."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "De 80 alumnos, 32 prefieren la clase de Educación Física. ¿Cuál es la frecuencia porcentual?",
+      "opciones": [
+        "32%",
+        "40%",
+        "4%",
+        "0.4%"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "32÷80 = 0.4, y 0.4×100 = 40%."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada dato (frecuencia de un total) con su frecuencia porcentual.",
+      "columnaA": [
+        "10 de 50",
+        "18 de 60",
+        "21 de 30"
+      ],
+      "columnaB": [
+        "70%",
+        "20%",
+        "30%"
+      ],
+      "parejasCorrectas": [
+        1,
+        2,
+        0
+      ],
+      "retroalimentacion": "10÷50=0.2→20%. 18÷60=0.3→30%. 21÷30=0.7→70%."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Un histograma se usa para representar datos categóricos, como el deporte favorito de un grupo.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Falso: el histograma se usa para datos numéricos continuos agrupados en intervalos; los datos categóricos se representan mejor con barras o gráfica circular."
+    }
+  ]
+}

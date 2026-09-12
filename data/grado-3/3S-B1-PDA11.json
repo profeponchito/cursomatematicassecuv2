@@ -1,0 +1,1352 @@
+{
+  "id": "3S-B1-PDA11",
+  "grado": "3°",
+  "trimestre": "3",
+  "numero": 11,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Probabilidad de la Unión de Eventos",
+  "contenido": "Azar e incertidumbre en la ocurrencia de eventos cotidianos.",
+  "pda": "Calcula la probabilidad de la unión de dos eventos, distinguiendo eventos mutuamente excluyentes de los que no lo son.",
+  "problematizacion": {
+    "contexto": "En la fiesta de tu salón alguien propone un juego rápido: se revuelve una baraja estándar de 52 cartas (4 palos de 13 cartas cada uno: corazones y diamantes en rojo, tréboles y picas en negro) y cada quien saca una sola carta. Si sacas un as O un rey, ganas un punto. Tu amigo dice: 'eso es fácil de calcular, nada más suma las probabilidades de cada uno'. Otro amigo propone una segunda ronda: ahora ganas si sacas una carta roja O un as, y alguien nota que esta vez sumar directo da un resultado que no puede ser cierto.",
+    "pregunta": "¿Por qué la regla de 'nada más sumar' funciona para as-o-rey pero no funciona igual para roja-o-as?"
+  },
+  "subtemas": [
+    {
+      "numero": "11.1",
+      "titulo": "Eventos mutuamente excluyentes",
+      "explicacion": "Dos eventos son mutuamente excluyentes cuando NO pueden ocurrir al mismo tiempo en un mismo resultado: no existe ningún elemento del espacio muestral que cumpla ambos eventos a la vez. En una baraja de 52 cartas, 'sacar un as' y 'sacar un rey' son mutuamente excluyentes porque ninguna carta es as y rey al mismo tiempo. En cambio, 'sacar una carta roja' y 'sacar un as' NO son mutuamente excluyentes, porque el as de corazones y el as de diamantes son, a la vez, cartas rojas y ases: sí existen cartas que cumplen los dos eventos juntos. Para decidir si dos eventos son mutuamente excluyentes basta con preguntarte: ¿hay alguna carta que cumpla las dos condiciones al mismo tiempo? Si la respuesta es sí, no son mutuamente excluyentes.",
+      "ejemplos": [
+        "Sacar un as y sacar un rey (en una sola carta) son mutuamente excluyentes: ninguna carta de la baraja es as y rey a la vez, así que no pueden ocurrir juntos.",
+        "Sacar una carta roja y sacar un as NO son mutuamente excluyentes: el as de corazones y el as de diamantes son cartas rojas y ases al mismo tiempo, así que sí pueden ocurrir juntos."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Los eventos 'sacar un as' y 'sacar un rey' (en una sola carta) son mutuamente excluyentes.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: ninguna carta de la baraja es as y rey a la vez, así que no pueden ocurrir juntos."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Los eventos 'sacar una carta roja' y 'sacar un as' son mutuamente excluyentes.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: el as de corazones y el as de diamantes son cartas rojas y ases a la vez, así que sí pueden ocurrir juntos."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de los siguientes pares de eventos SÍ es mutuamente excluyente?",
+          "opciones": [
+            "Sacar una reina y sacar un rey",
+            "Sacar una carta roja y sacar un as",
+            "Sacar un rey y sacar una carta de picas",
+            "Sacar una carta negra y sacar un as"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Ninguna carta es reina y rey a la vez, así que sí son mutuamente excluyentes. Las otras tres opciones sí se traslapan (as rojo, rey de picas, as negro)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de los siguientes pares de eventos NO es mutuamente excluyente?",
+          "opciones": [
+            "Sacar una jota y sacar una reina",
+            "Sacar un 5 y sacar un 7",
+            "Sacar una carta de tréboles y sacar una carta de corazones",
+            "Sacar una carta de diamantes y sacar una reina"
+          ],
+          "respuestaCorrecta": 3,
+          "retroalimentacion": "La reina de diamantes cumple ambos eventos a la vez, así que sí se traslapan. Las otras tres parejas no comparten ninguna carta."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Los eventos 'sacar una carta roja' y 'sacar una carta negra' ___ mutuamente excluyentes, porque ninguna carta es roja y negra a la vez.",
+          "respuestaCorrecta": "son",
+          "retroalimentacion": "Ninguna carta puede ser roja y negra al mismo tiempo, así que sí son mutuamente excluyentes."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Los eventos 'sacar un rey' y 'sacar una carta de picas' ___ mutuamente excluyentes, porque el rey de picas cumple ambos eventos.",
+          "respuestaCorrecta": "no son",
+          "retroalimentacion": "El rey de picas es, a la vez, rey y carta de picas, así que los eventos se traslapan y no son mutuamente excluyentes."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Los eventos 'sacar una carta de tréboles' y 'sacar una carta de corazones' son mutuamente excluyentes.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: ninguna carta pertenece a dos palos a la vez, así que no pueden ocurrir juntos."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Los eventos 'sacar una carta negra' y 'sacar un as' son mutuamente excluyentes.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: el as de tréboles y el as de picas son cartas negras y ases a la vez, así que sí pueden ocurrir juntos."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Se saca una sola carta de la baraja. ¿Por qué 'sacar una jota' y 'sacar una reina' son eventos mutuamente excluyentes?",
+          "opciones": [
+            "Porque ninguna carta es jota y reina al mismo tiempo",
+            "Porque hay más jotas que reinas",
+            "Porque las jotas son cartas rojas",
+            "Porque las reinas son cartas de figura"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "El criterio para decidir si dos eventos son mutuamente excluyentes es si comparten o no algún resultado; aquí ninguna carta es jota y reina a la vez."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada par de eventos con su clasificación.",
+          "columnaA": [
+            "Sacar un 5 y sacar un 7",
+            "Sacar una carta roja y sacar un as",
+            "Sacar una reina y sacar un rey"
+          ],
+          "columnaB": [
+            "No mutuamente excluyentes",
+            "Mutuamente excluyentes"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            1
+          ],
+          "retroalimentacion": "5 y 7: ninguna carta es ambas cosas → mutuamente excluyentes. Roja y as: el as de corazones/diamantes cumple ambos → no mutuamente excluyentes. Reina y rey: ninguna carta es ambas cosas → mutuamente excluyentes."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 1 de 10 · Introductorio"
+    },
+    {
+      "numero": "11.2",
+      "titulo": "Regla de la suma (mutuamente excluyentes)",
+      "explicacion": "Cuando dos eventos A y B son mutuamente excluyentes, la probabilidad de que ocurra A o B (su unión, A∪B) es simplemente la suma de sus probabilidades por separado, porque no hay ningún resultado que se esté contando dos veces. Con una baraja de 52 cartas: P(as) = 4/52 y P(rey) = 4/52; como ningún as es rey, P(as ∪ rey) = 4/52 + 4/52 = 8/52 = 2/13.",
+      "formula": "Si A y B son mutuamente excluyentes: P(A∪B) = P(A) + P(B)",
+      "ejemplos": [
+        "P(as) = 4/52. P(rey) = 4/52. Como son mutuamente excluyentes, P(as ∪ rey) = 4/52 + 4/52 = 8/52 = 2/13.",
+        "P(tréboles) = 13/52. P(corazones) = 13/52. Como ninguna carta es de los dos palos a la vez, P(tréboles ∪ corazones) = 13/52 + 13/52 = 26/52 = 1/2."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Se saca una carta. P(as) = 4/52 y P(rey) = 4/52, y son mutuamente excluyentes. ¿Cuánto vale P(as ∪ rey)?",
+          "opciones": [
+            "8/52",
+            "16/52",
+            "4/52",
+            "2/52"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(as ∪ rey) = 4/52 + 4/52 = 8/52 = 2/13."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "P(reina) = 4/52 y P(jota) = 4/52, y son mutuamente excluyentes. Entonces P(reina ∪ jota) = ___/52.",
+          "respuestaCorrecta": "8",
+          "retroalimentacion": "P(reina ∪ jota) = 4/52 + 4/52 = 8/52 = 2/13."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Como 'sacar un rey' y 'sacar una reina' son mutuamente excluyentes, P(rey ∪ reina) = 8/52.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: P(rey ∪ reina) = 4/52 + 4/52 = 8/52 = 2/13."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "P(picas) = 13/52 y P(diamantes) = 13/52, y ninguna carta es de los dos palos a la vez. ¿Cuánto vale P(picas ∪ diamantes)?",
+          "opciones": [
+            "26/52",
+            "13/52",
+            "39/52",
+            "1/4"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(picas ∪ diamantes) = 13/52 + 13/52 = 26/52 = 1/2."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "P(as) = 4/52 y P(jota) = 4/52, y son mutuamente excluyentes. Entonces P(as ∪ jota) = ___/52.",
+          "respuestaCorrecta": "8",
+          "retroalimentacion": "P(as ∪ jota) = 4/52 + 4/52 = 8/52 = 2/13."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Como 'sacar un 5' y 'sacar un 7' son mutuamente excluyentes, P(5 ∪ 7) = 8/52, es decir, 2/13.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: P(5 ∪ 7) = 4/52 + 4/52 = 8/52 = 2/13."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "P(2) = 4/52 y P(10) = 4/52, y son mutuamente excluyentes. ¿Cuánto vale P(2 ∪ 10)?",
+          "opciones": [
+            "8/52",
+            "4/52",
+            "16/52",
+            "10/52"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(2 ∪ 10) = 4/52 + 4/52 = 8/52 = 2/13."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Como 'sacar un as' y 'sacar una reina' son mutuamente excluyentes, P(as ∪ reina) = 6/52.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: P(as ∪ reina) = 4/52 + 4/52 = 8/52, no 6/52."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "P(jota) = 4/52 y P(rey) = 4/52, y son mutuamente excluyentes. Entonces P(jota ∪ rey) = ___/52.",
+          "respuestaCorrecta": "8",
+          "retroalimentacion": "P(jota ∪ rey) = 4/52 + 4/52 = 8/52 = 2/13."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada par de eventos mutuamente excluyentes con el valor de P(A∪B).",
+          "columnaA": [
+            "as ∪ rey",
+            "tréboles ∪ corazones",
+            "carta roja ∪ carta negra"
+          ],
+          "columnaB": [
+            "52/52",
+            "26/52",
+            "8/52"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "as∪rey: 4/52+4/52=8/52. tréboles∪corazones: 13/52+13/52=26/52. roja∪negra: 26/52+26/52=52/52 (cubren toda la baraja)."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 2 de 10 · Intermedio"
+    },
+    {
+      "numero": "11.3",
+      "titulo": "Eventos NO excluyentes",
+      "explicacion": "Cuando dos eventos A y B SÍ pueden ocurrir juntos (no son mutuamente excluyentes), sumar P(A) + P(B) cuenta dos veces los resultados que cumplen ambas condiciones a la vez —su intersección, A∩B—. Para corregir esto, hay que restarla una vez: P(A∪B) = P(A) + P(B) − P(A∩B). Por ejemplo, 'sacar una carta roja' y 'sacar un as' se traslapan en 2 cartas (el as de corazones y el as de diamantes), así que esas 2 cartas hay que restarlas para no contarlas dos veces.",
+      "formula": "Si A y B pueden ocurrir juntos: P(A∪B) = P(A) + P(B) − P(A∩B)",
+      "ejemplos": [
+        "P(roja) = 26/52, P(as) = 4/52, P(roja∩as) = 2/52 (el as de corazones y el as de diamantes). P(roja∪as) = 26/52 + 4/52 − 2/52 = 28/52 = 7/13.",
+        "P(rey) = 4/52, P(picas) = 13/52, P(rey∩picas) = 1/52 (el rey de picas). P(rey∪picas) = 4/52 + 13/52 − 1/52 = 16/52 = 4/13."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "P(roja) = 26/52, P(as) = 4/52 y P(roja∩as) = 2/52 (el as de corazones y el as de diamantes). ¿Cuánto vale P(roja ∪ as)?",
+          "opciones": [
+            "28/52",
+            "30/52",
+            "26/52",
+            "4/52"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(roja ∪ as) = 26/52 + 4/52 − 2/52 = 28/52 = 7/13."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "P(rey) = 4/52, P(picas) = 13/52 y P(rey∩picas) = 1/52 (el rey de picas). Entonces P(rey ∪ picas) = ___/52.",
+          "respuestaCorrecta": "16",
+          "retroalimentacion": "P(rey ∪ picas) = 4/52 + 13/52 − 1/52 = 16/52 = 4/13."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Como la reina de corazones y la reina de diamantes cumplen 'sacar una reina' y 'sacar una carta roja' a la vez, P(reina ∪ roja) = 28/52.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: P(reina ∪ roja) = 4/52 + 26/52 − 2/52 = 28/52 = 7/13."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "P(negra) = 26/52, P(jota) = 4/52 y P(negra∩jota) = 2/52 (la jota de tréboles y la jota de picas). ¿Cuánto vale P(negra ∪ jota)?",
+          "opciones": [
+            "28/52",
+            "30/52",
+            "24/52",
+            "26/52"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(negra ∪ jota) = 26/52 + 4/52 − 2/52 = 28/52 = 7/13."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "P(as) = 4/52, P(negra) = 26/52 y P(as∩negra) = 2/52 (el as de tréboles y el as de picas). Entonces P(as ∪ negra) = ___/52.",
+          "respuestaCorrecta": "28",
+          "retroalimentacion": "P(as ∪ negra) = 4/52 + 26/52 − 2/52 = 28/52 = 7/13."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Como la jota, la reina y el rey de corazones y de diamantes cumplen 'sacar una carta de figura' y 'sacar una carta roja' a la vez (6 cartas en total), P(figura ∪ roja) = 30/52.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: P(figura ∪ roja) = 12/52 + 26/52 − 6/52 = 32/52, no 30/52."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "P(par, es decir 2-4-6-8-10) = 20/52, P(negra) = 26/52 y P(par∩negra) = 10/52 (las 5 cartas pares de tréboles y las 5 de picas). ¿Cuánto vale P(par ∪ negra)?",
+          "opciones": [
+            "36/52",
+            "30/52",
+            "46/52",
+            "20/52"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(par ∪ negra) = 20/52 + 26/52 − 10/52 = 36/52 = 9/13."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Como el as de corazones cumple 'sacar un as' y 'sacar una carta de corazones' a la vez, P(as ∪ corazones) = 16/52.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: P(as ∪ corazones) = 4/52 + 13/52 − 1/52 = 16/52 = 4/13."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "P(rey) = 4/52, P(roja) = 26/52 y P(rey∩roja) = 2/52 (el rey de corazones y el rey de diamantes). Entonces P(rey ∪ roja) = ___/52.",
+          "respuestaCorrecta": "28",
+          "retroalimentacion": "P(rey ∪ roja) = 4/52 + 26/52 − 2/52 = 28/52 = 7/13."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada par de eventos (que sí pueden ocurrir juntos) con el valor correcto de P(A∪B).",
+          "columnaA": [
+            "diamantes ∪ reina",
+            "figura (J,Q,K) ∪ roja",
+            "carta par (2,4,6,8,10) ∪ negra"
+          ],
+          "columnaB": [
+            "36/52",
+            "32/52",
+            "16/52"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "diamantes∪reina: 13/52+4/52-1/52=16/52. figura∪roja: 12/52+26/52-6/52=32/52. par∪negra: 20/52+26/52-10/52=36/52."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 3 de 10 · Avanzado"
+    },
+    {
+      "numero": "11.4",
+      "titulo": "Síntesis y aplicación",
+      "explicacion": "Antes de calcular la probabilidad de una unión, primero decide si los eventos son mutuamente excluyentes o no. Pregúntate: ¿existe algún resultado que cumpla los dos eventos a la vez? Si NO existe ninguno, son mutuamente excluyentes y usas P(A∪B) = P(A) + P(B). Si SÍ existe al menos uno, no son mutuamente excluyentes y debes restar esa intersección: P(A∪B) = P(A) + P(B) − P(A∩B). Saltarte este primer paso es el error más común: sumar directo cuando los eventos se traslapan da un resultado inflado, porque las cartas que cumplen ambos eventos quedarían contadas dos veces.",
+      "formula": "P(A∪B) = P(A) + P(B)  si A y B son mutuamente excluyentes  |  P(A∪B) = P(A) + P(B) − P(A∩B)  si no lo son",
+      "ejemplos": [
+        "Retomando el reto inicial: 'as' y 'rey' son mutuamente excluyentes (ninguna carta es ambas cosas), así que P(as ∪ rey) = 4/52 + 4/52 = 8/52 = 2/13. En cambio, 'roja' y 'as' no son mutuamente excluyentes (el as de corazones y el as de diamantes son ambas cosas), así que hay que restar esa intersección: P(roja ∪ as) = 26/52 + 4/52 − 2/52 = 28/52 = 7/13."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Los eventos 'sacar un as' y 'sacar un rey' son mutuamente excluyentes. ¿Cuánto vale P(as ∪ rey)?",
+          "opciones": [
+            "8/52",
+            "16/52",
+            "4/52",
+            "2/52"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Al ser mutuamente excluyentes, P(as ∪ rey) = 4/52 + 4/52 = 8/52 = 2/13."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Los eventos 'sacar una carta roja' y 'sacar un as' NO son mutuamente excluyentes, porque hay ases rojos. ¿Cuánto vale P(roja ∪ as)?",
+          "opciones": [
+            "28/52",
+            "30/52",
+            "26/52",
+            "4/52"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Al no ser mutuamente excluyentes, se resta la intersección: P(roja ∪ as) = 26/52 + 4/52 − 2/52 = 28/52 = 7/13."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Los eventos 'sacar una jota' y 'sacar una reina' son mutuamente excluyentes, por lo que P(jota ∪ reina) = 8/52.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: ninguna carta es jota y reina a la vez, así que P(jota ∪ reina) = 4/52 + 4/52 = 8/52 = 2/13."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Los eventos 'sacar un rey' y 'sacar una carta de picas' NO son mutuamente excluyentes, porque existe el rey de picas. Por eso P(rey ∪ picas) = ___/52.",
+          "respuestaCorrecta": "16",
+          "retroalimentacion": "P(rey ∪ picas) = 4/52 + 13/52 − 1/52 = 16/52 = 4/13."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Los eventos 'sacar una carta roja' y 'sacar una carta negra' son mutuamente excluyentes (y además cubren toda la baraja), por lo que P(roja ∪ negra) = 52/52 = 1.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: ninguna carta es roja y negra a la vez, y entre las dos cubren las 52 cartas, así que P(roja ∪ negra) = 26/52 + 26/52 = 52/52 = 1."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Los eventos 'sacar una carta de figura (J,Q,K)' y 'sacar una carta roja' NO son mutuamente excluyentes. ¿Cuánto vale P(figura ∪ roja)?",
+          "opciones": [
+            "32/52",
+            "30/52",
+            "38/52",
+            "12/52"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(figura ∪ roja) = 12/52 + 26/52 − 6/52 = 32/52 = 8/13 (6 figuras rojas: J, Q y K de corazones y de diamantes)."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Los eventos 'sacar un 5' y 'sacar un 2' son mutuamente excluyentes, así que P(5 ∪ 2) = ___/52.",
+          "respuestaCorrecta": "8",
+          "retroalimentacion": "P(5 ∪ 2) = 4/52 + 4/52 = 8/52 = 2/13."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Los eventos 'sacar una carta de diamantes' y 'sacar un rey' son mutuamente excluyentes.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: el rey de diamantes cumple ambos eventos a la vez, así que no son mutuamente excluyentes; P(diamantes ∪ rey) = 13/52 + 4/52 − 1/52 = 16/52."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Los eventos 'sacar una carta de tréboles' y 'sacar una carta de picas' son mutuamente excluyentes. ¿Cuánto vale P(tréboles ∪ picas)?",
+          "opciones": [
+            "26/52",
+            "39/52",
+            "13/52",
+            "52/52"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(tréboles ∪ picas) = 13/52 + 13/52 = 26/52 = 1/2."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada par de eventos con el valor correcto de P(A∪B).",
+          "columnaA": [
+            "Múltiplo de 3 (3,6,9) ∪ carta negra",
+            "as ∪ rey",
+            "carta roja ∪ as"
+          ],
+          "columnaB": [
+            "8/52",
+            "32/52",
+            "28/52"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            2
+          ],
+          "retroalimentacion": "mult3∪negra (no ME): 12/52+26/52-6/52=32/52. as∪rey (ME): 4/52+4/52=8/52. roja∪as (no ME): 26/52+4/52-2/52=28/52."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 4 de 10 · Síntesis"
+    },
+    {
+      "numero": "11.5",
+      "titulo": "Dos dados: la regla de la suma en un nuevo espacio muestral",
+      "explicacion": "Las lecciones 1 a 4 trabajaron siempre con una baraja de 52 cartas, pero la regla de la unión de eventos aplica a cualquier espacio muestral. Al lanzar dos dados hay 36 resultados posibles (cada combinación ordenada de los dos dados), así que ahora el denominador de las probabilidades cambia y las combinaciones favorables hay que contarlas nuevamente, por ejemplo listando las parejas que suman cierto valor. Esta lección te enseña a identificar si dos eventos definidos sobre la suma de los dados se traslapan comparando directamente los resultados que cumplen cada uno, y no solo por 'sentido común'.",
+      "formula": "Igual que antes: P(A∪B) = P(A) + P(B) si A y B son mutuamente excluyentes; P(A∪B) = P(A) + P(B) − P(A∩B) si no lo son. Lo nuevo es el espacio muestral: 36 resultados en vez de 52 cartas.",
+      "ejemplos": [
+        "Al lanzar dos dados hay 36 resultados posibles. El evento 'la suma es 7' se cumple en 6 de ellos: (1,6),(2,5),(3,4),(4,3),(5,2),(6,1). El evento 'la suma es 11' se cumple en 2: (5,6),(6,5). Ningún resultado da suma 7 y 11 a la vez, así que son mutuamente excluyentes: P(suma 7 ∪ suma 11) = 6/36 + 2/36 = 8/36 = 2/9.",
+        "El evento 'la suma es par' se cumple en 18 de los 36 resultados, y 'la suma es múltiplo de 5' (sumas 5 o 10) se cumple en 7. Los resultados (4,6),(5,5),(6,4) —los que suman 10— cumplen ambos eventos a la vez (10 es par y múltiplo de 5), así que esos 3 resultados son la intersección: P(par ∪ múltiplo de 5) = 18/36 + 7/36 − 3/36 = 22/36 = 11/18."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Se lanzan dos dados de 6 caras y se registra el resultado de cada uno por separado (por ejemplo, (2,5) es distinto de (5,2)). ¿Cuántos resultados posibles hay en total?",
+          "opciones": [
+            "36",
+            "12",
+            "66",
+            "21"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Hay 6 resultados posibles para el primer dado y 6 para el segundo, así que en total hay 6×6 = 36 combinaciones ordenadas."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La suma 7 se puede obtener de ___ maneras distintas al lanzar dos dados: (1,6), (2,5), (3,4), (4,3), (5,2) y (6,1).",
+          "respuestaCorrecta": "6",
+          "retroalimentacion": "Son 6 parejas ordenadas distintas las que suman 7."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Los eventos 'la suma es 7' y 'la suma es 11' son mutuamente excluyentes. ¿Cuánto vale P(suma 7 ∪ suma 11)?",
+          "opciones": [
+            "8/36",
+            "36/36",
+            "4/36",
+            "10/36"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(suma 7 ∪ suma 11) = 6/36 + 2/36 = 8/36 = 2/9."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Los eventos 'la suma es 7' y 'la suma es 11' son mutuamente excluyentes.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: ningún resultado de los 36 posibles da suma 7 y 11 al mismo tiempo."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Los eventos 'la suma es par' y 'la suma es múltiplo de 5' son mutuamente excluyentes.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: los resultados que suman 10 (como (4,6), (5,5) y (6,4)) son pares y múltiplos de 5 a la vez, así que sí se traslapan."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Con P(par) = 18/36, P(múltiplo de 5) = 7/36 y su intersección (suma = 10) = 3/36, ¿cuánto vale P(par ∪ múltiplo de 5)?",
+          "opciones": [
+            "22/36",
+            "25/36",
+            "19/36",
+            "18/36"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(par ∪ múltiplo de 5) = 18/36 + 7/36 − 3/36 = 22/36 = 11/18."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "P(la suma es par) = 18/36 y P(la suma es múltiplo de 5) = 7/36. Como estos eventos se traslapan en los resultados que suman 10, su intersección vale ___/36.",
+          "respuestaCorrecta": "3",
+          "retroalimentacion": "Las tres parejas que suman 10 —(4,6), (5,5) y (6,4)— son la intersección."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El evento A es 'el primer dado muestra 6' (6 resultados posibles) y el evento B es 'la suma es 2' (solo (1,1), 1 resultado). Como ningún resultado con primer dado 6 puede sumar 2, son mutuamente excluyentes. ¿Cuánto vale P(A ∪ B)?",
+          "opciones": [
+            "7/36",
+            "8/36",
+            "6/36",
+            "2/36"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(A ∪ B) = 6/36 + 1/36 = 7/36, porque no hay traslape entre 'primer dado 6' y 'suma 2'."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada par de eventos (al lanzar dos dados) con su clasificación.",
+          "columnaA": [
+            "la suma es 7 / la suma es 11",
+            "la suma es par / la suma es múltiplo de 5",
+            "el primer dado es 6 / la suma es 2"
+          ],
+          "columnaB": [
+            "No mutuamente excluyentes",
+            "Mutuamente excluyentes"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            1
+          ],
+          "retroalimentacion": "suma7/suma11: ningún resultado cumple ambas → mutuamente excluyentes. par/múltiplo de 5: los resultados que suman 10 cumplen ambas → no mutuamente excluyentes. primer dado 6/suma 2: imposible cumplir ambas (la suma mínima con un 6 es 7) → mutuamente excluyentes."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Al cambiar el espacio muestral de una baraja de 52 cartas a dos dados con 36 resultados, ¿qué cambia realmente en la fórmula P(A∪B) = P(A) + P(B) − P(A∩B)?",
+          "opciones": [
+            "El denominador de las probabilidades cambia, pero la lógica de la fórmula es la misma",
+            "La fórmula ya no aplica y hay que usar otra distinta",
+            "Ahora hay que multiplicar las probabilidades en lugar de sumarlas",
+            "Los eventos ya nunca pueden ser mutuamente excluyentes"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "La fórmula de la unión funciona igual sin importar cuál sea el espacio muestral; lo único que cambia es cuántos resultados totales hay y cuáles cumplen cada evento."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 5 de 10 · Aplicación"
+    },
+    {
+      "numero": "11.6",
+      "titulo": "Encuestas y porcentajes: la unión sin fracciones de cartas",
+      "explicacion": "Hasta ahora las probabilidades se calculaban contando cartas de una baraja de 52. En la vida real, muchos datos —como los de una encuesta— ya vienen dados directamente en porcentajes, sin que tengas que contar nada: por ejemplo, '45% de los alumnos practica futbol'. Esta lección te enseña a aplicar la misma fórmula de la unión usando porcentajes o decimales en lugar de fracciones de 52, y a reconocer cuándo el porcentaje de la intersección ya viene dado en el enunciado en vez de tener que calcularlo tú.",
+      "formula": "Con porcentajes: P(A∪B) = P(A) + P(B) − P(A∩B), donde todos los valores se expresan como % (o como decimales entre 0 y 1).",
+      "ejemplos": [
+        "En una encuesta a 100 estudiantes, 45% practica futbol y 30% practica básquetbol; 12% practica ambos deportes. Como sí hay traslape, P(futbol ∪ básquetbol) = 45% + 30% − 12% = 63%.",
+        "En otra encuesta, cada estudiante eligió un solo género musical favorito: 38% eligió reguetón y 27% eligió pop. Como nadie pudo elegir los dos a la vez, estos eventos son mutuamente excluyentes: P(reguetón ∪ pop) = 38% + 27% = 65%."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una encuesta a 100 estudiantes, 45% practica futbol, 30% practica básquetbol y 12% practica ambos deportes. ¿Cuánto vale P(futbol ∪ básquetbol)?",
+          "opciones": [
+            "63%",
+            "75%",
+            "51%",
+            "87%"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(futbol ∪ básquetbol) = 45% + 30% − 12% = 63%."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Como el 12% de los estudiantes practica futbol y básquetbol a la vez, estos dos eventos NO son mutuamente excluyentes.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: si hay un porcentaje que cumple ambos eventos a la vez, no son mutuamente excluyentes."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En una encuesta, cada alumno eligió un solo género musical favorito: 38% prefiere reguetón y 27% prefiere pop (son mutuamente excluyentes). Entonces P(reguetón ∪ pop) = ___%.",
+          "respuestaCorrecta": "65",
+          "retroalimentacion": "Al ser mutuamente excluyentes, P(reguetón ∪ pop) = 38% + 27% = 65%."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una encuesta sobre transporte, cada alumno usó un solo medio para llegar a la escuela: 22% camina y 15% va en bicicleta. ¿Cuánto vale P(camina ∪ bicicleta)?",
+          "opciones": [
+            "37%",
+            "7%",
+            "33%",
+            "44%"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Al ser mutuamente excluyentes (cada quien usó un solo medio), P(camina ∪ bicicleta) = 22% + 15% = 37%."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una encuesta sobre alimentación, 52% come fruta diario, 40% come verduras diario y 25% come ambas cosas diario. ¿Cuánto vale P(fruta ∪ verduras)?",
+          "opciones": [
+            "67%",
+            "92%",
+            "17%",
+            "77%"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(fruta ∪ verduras) = 52% + 40% − 25% = 67%."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si el 70% de los alumnos usa Instagram, el 55% usa TikTok y el 40% usa ambas aplicaciones, entonces P(Instagram ∪ TikTok) = 125%.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: P(Instagram ∪ TikTok) = 70% + 55% − 40% = 85%. Un porcentaje de la unión nunca puede pasar de 100%, así que 125% ya era una señal de error."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El 70% de los alumnos usa Instagram, el 55% usa TikTok y el 40% usa ambas aplicaciones. P(Instagram ∪ TikTok) = ___%.",
+          "respuestaCorrecta": "85",
+          "retroalimentacion": "P(Instagram ∪ TikTok) = 70% + 55% − 40% = 85%."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una encuesta, 60% habla inglés, 8% habla francés y 5% habla ambos idiomas. ¿Cuánto vale P(inglés ∪ francés)?",
+          "opciones": [
+            "63%",
+            "68%",
+            "73%",
+            "55%"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(inglés ∪ francés) = 60% + 8% − 5% = 63%."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Por qué es imposible que P(A∪B) sea mayor que 100% en los resultados de una encuesta bien hecha?",
+          "opciones": [
+            "Porque un porcentaje de una población no puede pasar del 100% de esa población",
+            "Porque siempre hay que redondear los porcentajes",
+            "Porque las encuestas siempre tienen error de medición",
+            "Porque el porcentaje de la intersección siempre es 0%"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "El 100% representa a toda la población encuestada; ningún subconjunto de ella (ni su unión) puede superarlo."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación de encuesta con el valor correcto de P(A∪B).",
+          "columnaA": [
+            "Fruta (52%) y verduras (40%), ambas 25%",
+            "Camina (22%) y bicicleta (15%), mutuamente excluyentes",
+            "Inglés (60%) y francés (8%), ambos 5%"
+          ],
+          "columnaB": [
+            "37%",
+            "63%",
+            "67%"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "Fruta∪verduras: 52+40−25=67%. Camina∪bicicleta (ME): 22+15=37%. Inglés∪francés: 60+8−5=63%."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 6 de 10 · Aplicación avanzada"
+    },
+    {
+      "numero": "11.7",
+      "titulo": "Control de calidad: despejar la intersección desconocida",
+      "explicacion": "En las lecciones anteriores siempre conocías P(A), P(B) y P(A∩B), y solo tenías que sumarlos y restar la intersección para obtener P(A∪B). Ahora el reto es al revés: en muchos reportes reales (de una fábrica, un laboratorio o una tienda) conoces cuántos casos cumplen A, cuántos cumplen B y cuántos cumplen 'A o B' en total, pero NO sabes cuántos cumplen ambos a la vez. Para encontrarlo, despejas la intersección de la misma fórmula: P(A∩B) = P(A) + P(B) − P(A∪B).",
+      "formula": "Despejando de P(A∪B) = P(A) + P(B) − P(A∩B): P(A∩B) = P(A) + P(B) − P(A∪B)",
+      "ejemplos": [
+        "De 250 piezas inspeccionadas en una fábrica, 60 tienen el defecto 'rayón' (A), 45 tienen el defecto 'grieta' (B), y 84 piezas tienen al menos uno de los dos defectos (A∪B). ¿Cuántas piezas tienen AMBOS defectos? Usando P(A∩B) = P(A) + P(B) − P(A∪B): en número de piezas, 60 + 45 − 84 = 21 piezas tienen ambos defectos.",
+        "De 500 pruebas de software, 150 fallaron por el error tipo X, 100 fallaron por el error tipo Y, y 215 pruebas fallaron por al menos uno de los dos errores. ¿Cuántas fallaron por AMBOS errores? 150 + 100 − 215 = 35 pruebas fallaron por ambos errores."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "De 250 piezas inspeccionadas, 72 tienen el defecto A, 50 tienen el defecto B y 100 tienen al menos uno de los dos defectos. ¿Cuántas piezas tienen AMBOS defectos?",
+          "opciones": [
+            "22",
+            "30",
+            "42",
+            "8"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(A∩B) en número de piezas = 72 + 50 − 100 = 22 piezas."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "De 400 análisis de sangre, 96 dieron positivo a la prueba A, 68 dieron positivo a la prueba B y 40 dieron positivo a ambas pruebas. El número de análisis positivos a al menos una prueba es ___.",
+          "respuestaCorrecta": "124",
+          "retroalimentacion": "96 + 68 − 40 = 124 análisis positivos a al menos una prueba."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "De 320 estudiantes, 84 reprobaron matemáticas, 60 reprobaron español y 132 reprobaron al menos una de las dos materias. ¿Cuántos reprobaron AMBAS materias?",
+          "opciones": [
+            "12",
+            "24",
+            "36",
+            "6"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "84 + 60 − 132 = 12 estudiantes reprobaron ambas materias."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En un cultivo de 600 plantas, 150 tienen plaga de pulgón, 90 tienen plaga de hongo y 24 tienen ambas plagas. El número de plantas con al menos una plaga es 216.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 150 + 90 − 24 = 216 plantas con al menos una plaga."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En una tienda, de 1000 clientes, 430 usaron el cupón A, 310 usaron el cupón B y 610 usaron al menos uno de los dos cupones. El número de clientes que usaron AMBOS cupones es ___.",
+          "respuestaCorrecta": "130",
+          "retroalimentacion": "430 + 310 − 610 = 130 clientes usaron ambos cupones."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si solo 45 piezas tienen el defecto de grieta, es posible que 90 piezas tengan a la vez el defecto de rayón y el de grieta.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: la intersección nunca puede ser mayor que el más pequeño de los dos grupos; si solo 45 piezas tienen grieta, como máximo 45 piezas pueden tener ambos defectos."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Qué fórmula permite calcular P(A∩B) cuando ya conoces P(A), P(B) y P(A∪B)?",
+          "opciones": [
+            "P(A∩B) = P(A) + P(B) − P(A∪B)",
+            "P(A∩B) = P(A∪B) − P(A) − P(B)",
+            "P(A∩B) = P(A) × P(B)",
+            "P(A∩B) = P(A∪B) + P(A) + P(B)"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Se despeja P(A∩B) de la fórmula original de la unión: P(A∩B) = P(A) + P(B) − P(A∪B)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "De 500 pruebas de software, 150 fallaron por el error tipo X, 100 fallaron por el error tipo Y y 215 fallaron por al menos uno de los dos errores. ¿Cuántas pruebas fallaron por AMBOS errores?",
+          "opciones": [
+            "35",
+            "45",
+            "60",
+            "20"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "150 + 100 − 215 = 35 pruebas fallaron por ambos errores."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación de control de calidad con el número correcto de casos en la intersección (A∩B).",
+          "columnaA": [
+            "Rayón=72, Grieta=50, unión=100 (de 250 piezas)",
+            "Reprobó Mate=84, Reprobó Español=60, unión=132 (de 320 alumnos)",
+            "Cupón A=430, Cupón B=310, unión=610 (de 1000 clientes)"
+          ],
+          "columnaB": [
+            "12",
+            "130",
+            "22"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "72+50−100=22. 84+60−132=12. 430+310−610=130."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una farmacia con 300 clientes, 80 compraron analgésicos (A) y 50 compraron vitaminas (B). El reporte dice que la unión (A∪B) fue de solo 20 clientes. ¿Qué está mal con este reporte?",
+          "opciones": [
+            "Es imposible: la unión nunca puede ser menor que el mayor de los dos grupos (80 en este caso)",
+            "Está bien, es solo un error de redondeo sin importancia",
+            "Es imposible porque 300 es un número demasiado grande",
+            "Es correcto si los dos eventos son mutuamente excluyentes"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Como A∪B incluye a todos los que compraron A, la unión no puede ser menor que 80 (el tamaño de A); un reporte de 20 es matemáticamente imposible."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 7 de 10 · Reto"
+    },
+    {
+      "numero": "11.8",
+      "titulo": "Rifas y boletos: la unión con conteo por divisibilidad",
+      "explicacion": "Aquí el reto no es que te den los datos ya contados, sino que tú mismo debes CONTAR cuántos números de un rango cumplen cada condición (por ejemplo, cuántos boletos del 1 al 120 son múltiplo de 3) antes de poder aplicar la fórmula de la unión. Para contar los múltiplos de un número n hasta cierto límite, divides el límite entre n y tomas la parte entera. Y para contar la intersección de 'múltiplo de a' con 'múltiplo de b', cuentas los múltiplos del mínimo común múltiplo (mcm) de a y b, no simplemente los multiplicas.",
+      "formula": "Múltiplos de n hasta L: L ÷ n (parte entera). Intersección de múltiplos de a y de b: múltiplos del mcm(a,b) hasta L.",
+      "ejemplos": [
+        "En una rifa con 120 boletos (del 1 al 120), ganas si tu boleto es múltiplo de 3 o de 5. Múltiplos de 3: 120÷3 = 40. Múltiplos de 5: 120÷5 = 24. Múltiplos de 15 (mcm de 3 y 5, la intersección): 120÷15 = 8. Entonces hay 40 + 24 − 8 = 56 boletos ganadores, y P(múltiplo de 3 ∪ múltiplo de 5) = 56/120 = 7/15.",
+        "En la misma rifa, ¿cuántos boletos son múltiplo de 4 o de 6? Múltiplos de 4: 120÷4 = 30. Múltiplos de 6: 120÷6 = 20. Múltiplos de 12 (mcm de 4 y 6): 120÷12 = 10. Entonces hay 30 + 20 − 10 = 40 boletos, y P(múltiplo de 4 ∪ múltiplo de 6) = 40/120 = 1/3."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "llenar_frase",
+          "frase": "De los boletos del 1 al 120, hay ___ múltiplos de 3.",
+          "respuestaCorrecta": "40",
+          "retroalimentacion": "120 ÷ 3 = 40 múltiplos de 3."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "De los boletos del 1 al 120, hay ___ múltiplos de 5.",
+          "respuestaCorrecta": "24",
+          "retroalimentacion": "120 ÷ 5 = 24 múltiplos de 5."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuántos boletos del 1 al 120 son múltiplos de 15 (es decir, de 3 y de 5 a la vez)?",
+          "opciones": [
+            "8",
+            "15",
+            "3",
+            "24"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "120 ÷ 15 = 8, porque 15 es el mínimo común múltiplo de 3 y 5."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una rifa con 120 boletos, ¿cuál es la probabilidad de ganar si ganas al sacar un boleto múltiplo de 3 o de 5?",
+          "opciones": [
+            "56/120 (7/15)",
+            "64/120",
+            "72/120",
+            "48/120"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "40 + 24 − 8 = 56 boletos ganadores, entonces P = 56/120 = 7/15."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "De los boletos del 1 al 90, los eventos 'múltiplo de 3' y 'múltiplo de 4' NO son mutuamente excluyentes, porque números como 12, 24 y 36 son múltiplos de ambos.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: hay boletos (múltiplos de 12) que cumplen las dos condiciones a la vez, así que sí se traslapan."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "De los boletos del 1 al 90, hay 30 múltiplos de 3, 22 múltiplos de 4 y 7 múltiplos de 12 (la intersección). ¿Cuántos boletos son múltiplo de 3 o de 4?",
+          "opciones": [
+            "45",
+            "52",
+            "37",
+            "60"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "30 + 22 − 7 = 45 boletos."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "De los boletos del 1 al 150, hay 25 múltiplos de 6, 18 múltiplos de 8 y 6 múltiplos de 24 (la intersección). Entonces hay ___ boletos múltiplo de 6 o de 8.",
+          "respuestaCorrecta": "37",
+          "retroalimentacion": "25 + 18 − 6 = 37 boletos."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "De los boletos del 1 al 200, hay 40 múltiplos de 5, 28 múltiplos de 7 y 5 múltiplos de 35 (la intersección). ¿Cuál es la probabilidad de sacar un boleto múltiplo de 5 o de 7?",
+          "opciones": [
+            "63/200",
+            "73/200",
+            "68/200",
+            "58/200"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "40 + 28 − 5 = 63 boletos, entonces P = 63/200."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "De los boletos del 1 al 10, los eventos 'múltiplo de 3' y 'múltiplo de 7' son mutuamente excluyentes, porque ningún boleto del 1 al 10 es múltiplo de ambos a la vez (se necesitaría ser múltiplo de 21).",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: como 21 (el mcm de 3 y 7) es mayor que 10, ningún boleto del 1 al 10 cumple ambas condiciones."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada rifa con el número correcto de boletos ganadores (la unión).",
+          "columnaA": [
+            "Del 1 al 120: múltiplo de 3 o de 5",
+            "Del 1 al 120: múltiplo de 4 o de 6",
+            "Del 1 al 90: múltiplo de 3 o de 4"
+          ],
+          "columnaB": [
+            "40",
+            "56",
+            "45"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            2
+          ],
+          "retroalimentacion": "3∨5 hasta 120: 40+24−8=56. 4∨6 hasta 120: 30+20−10=40. 3∨4 hasta 90: 30+22−7=45."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 8 de 10 · Reto avanzado"
+    },
+    {
+      "numero": "11.9",
+      "titulo": "El complemento de la unión: la probabilidad de 'ninguno de los dos'",
+      "explicacion": "Esta lección integra todo lo visto en el PDA: primero decides si dos eventos son mutuamente excluyentes o no (lección 1), después calculas P(A∪B) con la fórmula que corresponda (lecciones 2 y 3), y ahora agregas un paso nuevo: la probabilidad de que NO ocurra ni A ni B, es decir, el complemento de la unión. Como el espacio muestral completo se reparte entre 'ocurre A o B' y 'no ocurre ninguno de los dos', estos dos casos deben sumar 1 (o el 100%), así que P(ninguno) = 1 − P(A∪B).",
+      "formula": "P(ni A ni B) = 1 − P(A∪B)",
+      "ejemplos": [
+        "En una encuesta a 250 personas, 100 tienen perro (A), 70 tienen gato (B) y 25 tienen ambas mascotas. Primero la unión: P(A∪B) = 100/250 + 70/250 − 25/250 = 145/250. Como no son mutuamente excluyentes (25 personas tienen ambas), esa resta era necesaria. La probabilidad de que una persona NO tenga ninguna de las dos mascotas es P(ninguno) = 1 − 145/250 = 105/250 = 21/50.",
+        "De 500 alumnos, 220 llegan a la escuela en camión (A) y 150 caminando (B); cada alumno usa un solo medio de transporte ese día, así que A y B son mutuamente excluyentes. P(A∪B) = 220/500 + 150/500 = 370/500. La probabilidad de que un alumno llegue por otro medio (ninguno de los dos) es P(ninguno) = 1 − 370/500 = 130/500 = 13/50."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una encuesta a 250 personas, 100 tienen perro, 70 tienen gato y 25 tienen ambas mascotas. ¿Cuál es la probabilidad de que una persona NO tenga ninguna de las dos mascotas?",
+          "opciones": [
+            "105/250 (21/50)",
+            "145/250",
+            "25/250",
+            "175/250"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(A∪B) = 100/250+70/250−25/250 = 145/250. P(ninguno) = 1 − 145/250 = 105/250 = 21/50."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si el 44% de los alumnos llega en camión y el 30% camina (medios de transporte mutuamente excluyentes), entonces el 26% de los alumnos usa otro medio de transporte.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: P(camión ∪ caminando) = 44% + 30% = 74%, así que el resto, 100% − 74% = 26%, usa otro medio."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En una escuela de 180 alumnos, 60 están en el club de ciencias, 45 en el club de arte y 15 en ambos. La probabilidad de que un alumno NO esté en ninguno de los dos clubes es ___/180.",
+          "respuestaCorrecta": "90",
+          "retroalimentacion": "P(A∪B) en alumnos = 60+45−15 = 90. Ninguno = 180 − 90 = 90."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En un grupo de 400 personas, 96 nadan y 84 corren maratón; estas dos actividades no se pueden combinar en el mismo horario de entrenamiento (son mutuamente excluyentes). ¿Cuál es la probabilidad de que una persona NO practique ninguna de las dos actividades?",
+          "opciones": [
+            "220/400 (0.55)",
+            "180/400",
+            "96/400",
+            "304/400"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(A∪B) = 96/400 + 84/400 = 180/400. P(ninguno) = 1 − 180/400 = 220/400 = 0.55."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La fórmula P(ninguno) = 1 − P(A∪B) funciona sin importar si A y B son mutuamente excluyentes o no.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: el complemento del 'al menos uno' siempre es 'ninguno de los dos', sin importar cómo se haya calculado P(A∪B)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una escuela de 120 estudiantes, 50 visitan la biblioteca física, 70 usan la biblioteca digital y 30 usan ambas. ¿Qué porcentaje de estudiantes NO usa ninguna de las dos bibliotecas?",
+          "opciones": [
+            "25%",
+            "75%",
+            "40%",
+            "10%"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(A∪B) = 50/120+70/120−30/120 = 90/120 = 75%. P(ninguno) = 100% − 75% = 25%."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En un torneo de 90 atletas, 34 compiten en atletismo, 28 en natación y 10 en ambos deportes. El número de atletas que NO compite en ninguno de los dos deportes es ___.",
+          "respuestaCorrecta": "38",
+          "retroalimentacion": "Unión = 34+28−10 = 52. Ninguno = 90 − 52 = 38."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "De 150 personas encuestadas, 55 prefieren café y 40 prefieren té como bebida principal; nadie puede preferir las dos a la vez (son mutuamente excluyentes). ¿Cuál es la probabilidad de que alguien NO prefiera ninguna de las dos como bebida principal?",
+          "opciones": [
+            "55/150",
+            "95/150",
+            "15/150",
+            "105/150"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(A∪B) = 55/150+40/150 = 95/150. P(ninguno) = 1 − 95/150 = 55/150."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En el club de ciencias y arte (60 en ciencias, 45 en arte, 15 en ambos, de 180 alumnos), la probabilidad de estar en AL MENOS un club es igual a la probabilidad de NO estar en ningún club.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: P(al menos uno) = 90/180 y P(ninguno) = 90/180; en este caso particular ambas valen exactamente la mitad."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación con la probabilidad correcta de que NO ocurra ninguno de los dos eventos.",
+          "columnaA": [
+            "250 personas: perro=100, gato=70, ambas=25",
+            "120 estudiantes: biblioteca física=50, digital=70, ambas=30",
+            "90 atletas: atletismo=34, natación=28, ambos=10"
+          ],
+          "columnaB": [
+            "1/4",
+            "19/45",
+            "21/50"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "Perro/gato: 1−145/250=105/250=21/50. Bibliotecas: 1−90/120=30/120=1/4. Atletas: 1−52/90=38/90=19/45."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 9 de 10 · Integración"
+    },
+    {
+      "numero": "11.10",
+      "titulo": "Consultoría de datos: unión, intersección y complemento en un solo problema",
+      "explicacion": "Esta es la lección de dominio: cada problema te da datos de una situación real y tú debes decidir cuál de las tres formas de la fórmula necesitas usar —calcular la unión, despejar la intersección, o calcular el complemento (ninguno)— sin que se te diga cuál. Los números ya no son tan 'redondos' como en las primeras lecciones, y varios problemas requieren dos pasos: primero obtener un dato (como la intersección o la unión) y después usarlo para responder la verdadera pregunta.",
+      "formula": "Las tres formas de la misma fórmula: P(A∪B) = P(A)+P(B)−P(A∩B) · P(A∩B) = P(A)+P(B)−P(A∪B) · P(ninguno) = 1−P(A∪B)",
+      "ejemplos": [
+        "Una empresa encuestó a 340 clientes: 158 compran el producto Alfa, 121 compran el producto Beta y 46 compran ambos. a) La probabilidad de que un cliente compre al menos uno: P(A∪B) = 158+121−46 = 233, es decir 233/340. b) La probabilidad de que no compre ninguno: P(ninguno) = 1 − 233/340 = 107/340.",
+        "En un hospital revisaron a 280 pacientes: 132 presentan el síntoma X, 97 presentan el síntoma Y, y se sabe que 189 pacientes presentan al menos uno de los dos síntomas. a) ¿Cuántos presentan AMBOS síntomas? Despejando: P(A∩B) = 132+97−189 = 40 pacientes. b) La probabilidad de que un paciente no presente ninguno de los dos síntomas es P(ninguno) = 1 − 189/280 = 91/280."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una empresa encuestó a 420 clientes: 210 compran el producto X, 168 compran el producto Y y 84 compran ambos productos. ¿Cuál es la probabilidad de que un cliente NO compre ninguno de los dos productos?",
+          "opciones": [
+            "126/420 (3/10)",
+            "294/420",
+            "84/420",
+            "210/420"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(A∪B) = 210+168−84 = 294, entonces P(ninguno) = 420−294 = 126, es decir 126/420 = 3/10."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En un hospital revisaron a 360 pacientes: 150 presentan el síntoma X, 110 presentan el síntoma Y, y 221 presentan al menos uno de los dos síntomas. El número de pacientes que presentan AMBOS síntomas es ___.",
+          "respuestaCorrecta": "39",
+          "retroalimentacion": "Despejando la intersección: 150 + 110 − 221 = 39 pacientes presentan ambos síntomas."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Con los datos del hospital anterior (360 pacientes, 221 con al menos un síntoma), ¿cuál es la probabilidad de que un paciente NO presente ninguno de los dos síntomas?",
+          "opciones": [
+            "139/360",
+            "221/360",
+            "39/360",
+            "150/360"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(ninguno) = 360 − 221 = 139, es decir 139/360."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si en 540 hectáreas hay 200 con plaga A, 150 con plaga B y 60 con ambas plagas, entonces la probabilidad de que una hectárea tenga AL MENOS una plaga es 290/540.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: P(A∪B) = 200+150−60 = 290, entonces P(A∪B) = 290/540."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En un torneo con 250 estudiantes, 40% juega fútbol, 28% juega voleibol y 60% juega al menos uno de los dos deportes. El porcentaje de estudiantes que juegan AMBOS deportes es ___%.",
+          "respuestaCorrecta": "8",
+          "retroalimentacion": "Despejando: 40% + 28% − 60% = 8% juega ambos deportes."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Con los mismos datos del torneo (60% juega al menos un deporte), ¿qué porcentaje de estudiantes NO juega ninguno de los dos deportes?",
+          "opciones": [
+            "40%",
+            "8%",
+            "60%",
+            "32%"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(ninguno) = 100% − 60% = 40%."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En un taller mecánico, 34 de 96 piezas tienen desgaste tipo A y 29 tienen desgaste tipo B; estos dos desgastes nunca ocurren juntos en la misma pieza porque vienen de procesos distintos (son mutuamente excluyentes). ¿Cuál es la probabilidad de que una pieza NO tenga ninguno de los dos desgastes?",
+          "opciones": [
+            "33/96",
+            "63/96",
+            "34/96",
+            "29/96"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(A∪B) = 34+29 = 63 (al ser mutuamente excluyentes, se suman directo). P(ninguno) = 96−63 = 33, es decir 33/96."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si P(A) = 0.55, P(B) = 0.30 y sabes que A y B son mutuamente excluyentes, entonces puedes calcular P(ninguno) sin necesitar el valor de P(A∩B).",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: si son mutuamente excluyentes, P(A∩B) = 0 automáticamente, así que P(ninguno) = 1 − (0.55+0.30) = 0.15 sin necesitar más datos."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una fábrica, P(defecto A) = 0.18, P(defecto B) = 0.11 y se sabe que el 6% de las piezas tiene ambos defectos a la vez. ¿Qué probabilidad hay de que una pieza elegida al azar esté completamente libre de defectos (ni A ni B)?",
+          "opciones": [
+            "77%",
+            "23%",
+            "6%",
+            "94%"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(A∪B) = 0.18+0.11−0.06 = 0.23 = 23%. P(libre de defectos) = 100% − 23% = 77%."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación con el resultado numérico correcto que se pide.",
+          "columnaA": [
+            "420 clientes: X=210, Y=168, ambos=84 → P(ninguno)",
+            "360 pacientes: X=150, Y=110, unión=221 → cuántos tienen ambos",
+            "96 piezas: A=34, B=29 (mutuamente excluyentes) → P(ninguno)"
+          ],
+          "columnaB": [
+            "39",
+            "33/96",
+            "126/420"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "Clientes: 420−(210+168−84)=126, o sea 126/420. Pacientes: 150+110−221=39. Taller: 96−(34+29)=33, o sea 33/96."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 10 de 10 · Dominio"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Los eventos 'sacar un as' y 'sacar un 10' son mutuamente excluyentes.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: ninguna carta es as y 10 a la vez."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Los eventos 'sacar una carta de corazones' y 'sacar una reina' son mutuamente excluyentes.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Falso: la reina de corazones cumple ambos eventos a la vez."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál de los siguientes pares de eventos es mutuamente excluyente?",
+      "opciones": [
+        "Sacar una jota y sacar un 3",
+        "Sacar una carta de tréboles y sacar un rey",
+        "Sacar una carta roja y sacar una reina",
+        "Sacar una carta negra y sacar un as"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "Ninguna carta es jota y 3 a la vez, así que sí son mutuamente excluyentes. Las otras tres opciones se traslapan."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Los eventos 'sacar una carta de picas' y 'sacar una carta de diamantes' ___ mutuamente excluyentes.",
+      "respuestaCorrecta": "son",
+      "retroalimentacion": "Ninguna carta pertenece a dos palos a la vez, así que sí son mutuamente excluyentes."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "P(as) = 4/52 y P(10) = 4/52, y son mutuamente excluyentes. ¿Cuánto vale P(as ∪ 10)?",
+      "opciones": [
+        "8/52",
+        "16/52",
+        "4/52",
+        "2/52"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "P(as ∪ 10) = 4/52 + 4/52 = 8/52 = 2/13."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "P(jota) = 4/52 y P(3) = 4/52, y son mutuamente excluyentes. Entonces P(jota ∪ 3) = ___/52.",
+      "respuestaCorrecta": "8",
+      "retroalimentacion": "P(jota ∪ 3) = 4/52 + 4/52 = 8/52 = 2/13."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Como 'sacar una carta de corazones' y 'sacar una carta de diamantes' son mutuamente excluyentes, P(corazones ∪ diamantes) = 26/52, es decir, 1/2.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: P(corazones ∪ diamantes) = 13/52 + 13/52 = 26/52 = 1/2."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "P(rey) = 4/52 y P(9) = 4/52, y son mutuamente excluyentes. ¿Cuánto vale P(rey ∪ 9)?",
+      "opciones": [
+        "8/52",
+        "16/52",
+        "4/52",
+        "2/52"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "P(rey ∪ 9) = 4/52 + 4/52 = 8/52 = 2/13."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Los eventos 'sacar una reina' y 'sacar una carta negra' NO son mutuamente excluyentes, y P(reina ∪ negra) = 28/52.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: la reina de tréboles y la reina de picas cumplen ambos eventos, así que P(reina ∪ negra) = 4/52 + 26/52 − 2/52 = 28/52."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "P(rey) = 4/52, P(corazones) = 13/52 y P(rey∩corazones) = 1/52 (el rey de corazones). ¿Cuánto vale P(rey ∪ corazones)?",
+      "opciones": [
+        "16/52",
+        "17/52",
+        "13/52",
+        "4/52"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "P(rey ∪ corazones) = 4/52 + 13/52 − 1/52 = 16/52 = 4/13."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "P(figura, es decir J-Q-K) = 12/52, P(negra) = 26/52 y P(figura∩negra) = 6/52 (las 6 figuras de tréboles y picas). Entonces P(figura ∪ negra) = ___/52.",
+      "respuestaCorrecta": "32",
+      "retroalimentacion": "P(figura ∪ negra) = 12/52 + 26/52 − 6/52 = 32/52 = 8/13."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "P(diamantes ∪ jota) = 16/52, porque la jota de diamantes cumple ambos eventos.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: P(diamantes ∪ jota) = 13/52 + 4/52 − 1/52 = 16/52 = 4/13."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "P(tréboles) = 13/52, P(rey) = 4/52 y P(tréboles∩rey) = 1/52 (el rey de tréboles). ¿Cuánto vale P(tréboles ∪ rey)?",
+      "opciones": [
+        "16/52",
+        "17/52",
+        "13/52",
+        "4/52"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "P(tréboles ∪ rey) = 13/52 + 4/52 − 1/52 = 16/52 = 4/13."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Los eventos 'sacar una carta roja' y 'sacar una reina' son mutuamente excluyentes.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Falso: la reina de corazones y la reina de diamantes cumplen ambos eventos a la vez."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "P(roja) = 26/52, P(reina) = 4/52 y P(roja∩reina) = 2/52. Entonces P(roja ∪ reina) = ___/52.",
+      "respuestaCorrecta": "28",
+      "retroalimentacion": "P(roja ∪ reina) = 26/52 + 4/52 − 2/52 = 28/52 = 7/13."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál de los siguientes pares de eventos NO es mutuamente excluyente?",
+      "opciones": [
+        "Sacar un 5 y sacar un 8",
+        "Sacar una carta de picas y sacar una carta de diamantes",
+        "Sacar una carta negra y sacar una jota",
+        "Sacar un rey y sacar una reina"
+      ],
+      "respuestaCorrecta": 2,
+      "retroalimentacion": "La jota de tréboles y la jota de picas cumplen 'negra' y 'jota' a la vez, así que ese par no es mutuamente excluyente. Los otros tres sí lo son."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Como 'sacar un rey' y 'sacar una reina' son mutuamente excluyentes, P(rey ∪ reina) = 8/52.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: P(rey ∪ reina) = 4/52 + 4/52 = 8/52 = 2/13."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "P(picas) = 13/52 y P(corazones) = 13/52, y son mutuamente excluyentes. Entonces P(picas ∪ corazones) = ___/52.",
+      "respuestaCorrecta": "26",
+      "retroalimentacion": "P(picas ∪ corazones) = 13/52 + 13/52 = 26/52 = 1/2."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "P(negra) = 26/52, P(10) = 4/52 y P(negra∩10) = 2/52 (el 10 de tréboles y el 10 de picas). ¿Cuánto vale P(negra ∪ 10)?",
+      "opciones": [
+        "28/52",
+        "30/52",
+        "26/52",
+        "4/52"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "P(negra ∪ 10) = 26/52 + 4/52 − 2/52 = 28/52 = 7/13."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "P(as ∪ roja) = 28/52.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: P(as ∪ roja) = 4/52 + 26/52 − 2/52 = 28/52 = 7/13 (el as de corazones y el as de diamantes son la intersección)."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada par de eventos con su clasificación.",
+      "columnaA": [
+        "Sacar una jota y sacar un 3",
+        "Sacar una carta de corazones y sacar una reina",
+        "Sacar una carta roja y sacar una carta negra"
+      ],
+      "columnaB": [
+        "No mutuamente excluyentes",
+        "Mutuamente excluyentes"
+      ],
+      "parejasCorrectas": [
+        1,
+        0,
+        1
+      ],
+      "retroalimentacion": "Jota y 3: ninguna carta es ambas cosas → mutuamente excluyentes. Corazones y reina: la reina de corazones cumple ambos → no mutuamente excluyentes. Roja y negra: ninguna carta es ambas cosas → mutuamente excluyentes."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada par de eventos con el valor de P(A∪B).",
+      "columnaA": [
+        "rey ∪ reina",
+        "tréboles ∪ rey",
+        "figura (J,Q,K) ∪ negra"
+      ],
+      "columnaB": [
+        "32/52",
+        "16/52",
+        "8/52"
+      ],
+      "parejasCorrectas": [
+        2,
+        1,
+        0
+      ],
+      "retroalimentacion": "rey∪reina (ME): 4/52+4/52=8/52. tréboles∪rey (no ME): 13/52+4/52-1/52=16/52. figura∪negra (no ME): 12/52+26/52-6/52=32/52."
+    }
+  ]
+}

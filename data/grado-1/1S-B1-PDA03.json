@@ -1,0 +1,1448 @@
+{
+  "id": "1S-B1-PDA03",
+  "grado": "1°",
+  "trimestre": "1",
+  "numero": 3,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Extensión del significado de las operaciones y sus relaciones inversas",
+  "contenido": "Extensión del significado de las operaciones y sus relaciones inversas.",
+  "pda": "Reconoce el significado de las cuatro operaciones básicas al operar números con signo. Comprueba las propiedades conmutativa, asociativa y distributiva, e identifica y aplica la jerarquía de operaciones.",
+  "problematizacion": {
+    "contexto": "Tu mesada de la semana es de $150. El lunes gastas $40 en el break, el miércoles tu tía te da $30 extra por ayudarle en la casa, y el viernes tienes que pagar $60 para la cooperativa del salón.",
+    "pregunta": "Usando sumas y restas con números con signo, ¿cuánto dinero te queda al final de la semana?"
+  },
+  "subtemas": [
+    {
+      "numero": "3.1",
+      "titulo": "Sumar y restar números con signo",
+      "explicacion": "Al sumar números con signo, si tienen el mismo signo se suman sus valores absolutos y se conserva el signo; si tienen signos diferentes se restan los valores absolutos y se conserva el signo del que tiene mayor valor absoluto.",
+      "ejemplos": [
+        "-8 + 5: signos diferentes, 8-5=3, se conserva el signo del mayor (negativo): -3.",
+        "450 − 300 + 120 − 80 = 190. El balance final del comerciante fue +$190."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "(-15) ÷ (-3) = 5.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: signos iguales (negativo entre negativo) dan resultado positivo: 5."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En la expresión 5 + 3 × (-8), el resultado es -17.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Primero la multiplicación: 3×(-8)=-24; luego 5+(-24)=-19."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En la expresión 9 + 8 × (9), el resultado es 83.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Primero la multiplicación: 8×(9)=72; luego 9+(72)=81."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En la expresión 3 + 2 × (6), el resultado es 15.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Primero la multiplicación: 2×(6)=12; luego 3+(12)=15."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En la expresión 9 - 5 × (-5), el resultado es 32.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Primero la multiplicación: -5×(-5)=25; luego 9+(25)=34."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En la expresión 6 + 4 × (-3), el resultado es -6.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Primero la multiplicación: 4×(-3)=-12; luego 6+(-12)=-6."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Resuelve: (-20) ÷ (-4)",
+          "opciones": [
+            "-5",
+            "5",
+            "-4",
+            "4"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "(-20) ÷ (-4) = 5. Signos iguales dan resultado positivo."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "8 - 6 × (-2) = ___.",
+          "respuestaCorrecta": "20",
+          "retroalimentacion": "Primero la multiplicación: 6×(-2)=-12; luego 8-(-12)=20."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada expresión con su resultado.",
+          "columnaA": [
+            "7 + 2 × (-5)",
+            "(-12) ÷ (-4)",
+            "10 - 3 × (-2)"
+          ],
+          "columnaB": [
+            "16",
+            "-3",
+            "3"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "7+2×(-5)=-3; (-12)÷(-4)=3; 10-3×(-2)=16."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En la expresión (-9) + 5 × (-2), el resultado es -19.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Primero la multiplicación: 5×(-2)=-10; luego -9+(-10)=-19."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 1 de 10 · Introductorio"
+    },
+    {
+      "numero": "3.2",
+      "titulo": "Multiplicar y dividir con signos",
+      "explicacion": "La multiplicación y la división siguen la regla de signos: signos iguales dan resultado positivo, signos diferentes dan resultado negativo.",
+      "formula": "(+)×(+)=+  ;  (−)×(−)=+  ;  (+)×(−)=−  ;  (−)×(+)=−",
+      "ejemplos": [
+        "(-6) × (-4) = 24, porque signos iguales (negativo por negativo) dan resultado positivo.",
+        "(-20) ÷ 5 = -4, porque signos diferentes dan resultado negativo."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "llenar_frase",
+          "frase": "El comerciante vendió $450, pagó una deuda de $300, le devolvieron $120 y pagó $80 de flete. Su balance final fue $___.",
+          "respuestaCorrecta": "190",
+          "retroalimentacion": "450 − 300 + 120 − 80 = 190."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "(15) - (12) = ___.",
+          "respuestaCorrecta": "3",
+          "retroalimentacion": "(15) - (12) = 3."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "(-15) - (11) = ___.",
+          "respuestaCorrecta": "-26",
+          "retroalimentacion": "(-15) - (11) = -26."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "(8) + (14) = ___.",
+          "respuestaCorrecta": "22",
+          "retroalimentacion": "(8) + (14) = 22."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "(-8) - (3) = ___.",
+          "respuestaCorrecta": "-11",
+          "retroalimentacion": "(-8) - (3) = -11."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Resuelve: (-7) × (-6)",
+          "opciones": [
+            "36",
+            "42",
+            "-42",
+            "-36"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "(-7)×(-6)=42. Signos iguales dan resultado positivo."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "(-24) ÷ 4 = -6.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Signos diferentes dan resultado negativo: (-24)÷4=-6."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "(9) × (-5) = ___.",
+          "respuestaCorrecta": "-45",
+          "retroalimentacion": "Signos diferentes dan resultado negativo: 9×(-5)=-45."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada operación con su resultado.",
+          "columnaA": [
+            "(-8) × (-3)",
+            "(36) ÷ (-6)",
+            "(-45) ÷ (-9)"
+          ],
+          "columnaB": [
+            "5",
+            "24",
+            "-6"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "(-8)×(-3)=24; 36÷(-6)=-6; (-45)÷(-9)=5."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un buzo desciende 15 m, luego sube 6 m, desciende otros 9 m y sube 4 m. Su posición final respecto al punto de partida es ___ m.",
+          "respuestaCorrecta": "-14",
+          "retroalimentacion": "-15 + 6 - 9 + 4 = -14."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 2 de 10 · Intermedio"
+    },
+    {
+      "numero": "3.3",
+      "titulo": "Jerarquía de operaciones con signos",
+      "explicacion": "Cuando una expresión combina varias operaciones, primero se resuelven las multiplicaciones y divisiones (de izquierda a derecha), y después las sumas y restas.",
+      "ejemplos": [
+        "2 + 3 × (-4): primero la multiplicación, 3×(-4)=-12; luego 2+(-12)=-10.",
+        "(-2 + 5) × 3: primero el paréntesis, -2+5=3; luego 3×3=9."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Resuelve aplicando jerarquía de operaciones: 2 + 3 × (-4)",
+          "opciones": [
+            "-20",
+            "-10",
+            "10",
+            "20"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Primero la multiplicación: 3×(-4)=-12; luego 2+(-12)=-10."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Resuelve aplicando jerarquía de operaciones: 10 - 2 × (-3)",
+          "opciones": [
+            "4",
+            "16",
+            "-16",
+            "24"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Primero la multiplicación: 2×(-3)=-6; luego 10-(-6)=16."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Resuelve: (-2) × (-5)",
+          "opciones": [
+            "10",
+            "7",
+            "14",
+            "6"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(-2) × (-5) = 10. Signos iguales dan positivo."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Resuelve: (5) × (-3)",
+          "opciones": [
+            "-18",
+            "-15",
+            "-12",
+            "-17"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "(5) × (-3) = -15. Signos diferentes dan negativo."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Resuelve: (6) × (-9)",
+          "opciones": [
+            "-54",
+            "-50",
+            "-51",
+            "-57"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(6) × (-9) = -54. Signos diferentes dan negativo."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En la expresión 4 + 3 × (-6), el resultado es -14.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Primero la multiplicación: 3×(-6)=-18; luego 4+(-18)=-14."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "12 - 4 × (-3) = ___.",
+          "respuestaCorrecta": "24",
+          "retroalimentacion": "Primero la multiplicación: 4×(-3)=-12; luego 12-(-12)=24."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Resuelve aplicando jerarquía de operaciones: (-2) + 6 × (-3)",
+          "opciones": [
+            "20",
+            "-20",
+            "-14",
+            "14"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Primero la multiplicación: 6×(-3)=-18; luego -2+(-18)=-20."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada expresión con su resultado.",
+          "columnaA": [
+            "5 + 4 × (-3)",
+            "(-3) × (-6)",
+            "8 - 2 × (-4)"
+          ],
+          "columnaB": [
+            "16",
+            "-7",
+            "18"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "5+4×(-3)=-7; (-3)×(-6)=18; 8-2×(-4)=16."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Resuelve: (-6) × (-7)",
+          "opciones": [
+            "36",
+            "42",
+            "-42",
+            "48"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "(-6) × (-7) = 42. Signos iguales dan positivo."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 3 de 10 · Avanzado"
+    },
+    {
+      "numero": "3.4",
+      "titulo": "Síntesis y aplicación",
+      "explicacion": "Recuerda: para sumar o restar números con signo, si tienen el mismo signo se suman sus valores y se conserva el signo; si son de signos distintos, se restan los valores y se conserva el signo del mayor. Para multiplicar o dividir, la regla es más simple: signos iguales dan resultado positivo, signos diferentes dan resultado negativo. Y cuando hay varias operaciones juntas, primero se resuelven las multiplicaciones y divisiones, y después las sumas y restas.",
+      "ejemplos": [
+        "(-15) ÷ (-3) = 5. Correcto: signos iguales (negativo entre negativo) dan resultado positivo: 5."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Resuelve: (-4) × (6)",
+          "opciones": [
+            "-28",
+            "-24",
+            "-22",
+            "-26"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "(-4) × (6) = -24. Signos diferentes dan negativo."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada operación con su resultado.",
+          "columnaA": [
+            "(-6) × (-4)",
+            "-8 + 5",
+            "(-20) ÷ 5"
+          ],
+          "columnaB": [
+            "-4",
+            "24",
+            "-3"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "(-6)×(-4)=24; -8+5=-3; (-20)÷5=-4."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada operación con su resultado.",
+          "columnaA": [
+            "(1) + (8)",
+            "(-4) × (-7)",
+            "(-3) × (6)"
+          ],
+          "columnaB": [
+            "-18",
+            "9",
+            "28"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "(1) + (8)=9; (-4) × (-7)=28; (-3) × (6)=-18."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada operación con su resultado.",
+          "columnaA": [
+            "(6) - (12)",
+            "(4) × (3)",
+            "(11) - (7)"
+          ],
+          "columnaB": [
+            "-6",
+            "4",
+            "12"
+          ],
+          "parejasCorrectas": [
+            0,
+            2,
+            1
+          ],
+          "retroalimentacion": "(6) - (12)=-6; (4) × (3)=12; (11) - (7)=4."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada operación con su resultado.",
+          "columnaA": [
+            "(8) × (6)",
+            "(13) + (6)",
+            "(-4) × (9)"
+          ],
+          "columnaB": [
+            "19",
+            "48",
+            "-36"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            2
+          ],
+          "retroalimentacion": "(8) × (6)=48; (13) + (6)=19; (-4) × (9)=-36."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En la expresión 6 - 4 × (-2), el resultado es 14.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Primero la multiplicación: 4×(-2)=-8; luego 6-(-8)=14."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "(-9) × (5) = ___.",
+          "respuestaCorrecta": "-45",
+          "retroalimentacion": "Signos diferentes dan negativo: (-9)×5=-45."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Resuelve: (-36) ÷ (-4)",
+          "opciones": [
+            "-9",
+            "9",
+            "8",
+            "-8"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "(-36) ÷ (-4) = 9. Signos iguales dan positivo."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Empareja cada operación con su resultado correcto.",
+          "columnaA": [
+            "(-5) × (7)",
+            "2 + 6 × (-3)",
+            "(28) ÷ (-4)"
+          ],
+          "columnaB": [
+            "-7",
+            "-35",
+            "-16"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "(-5)×7=-35; 2+6×(-3)=-16; 28÷(-4)=-7."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "(-6) × (-8) = 48.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Signos iguales dan resultado positivo: (-6)×(-8)=48."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 4 de 10 · Síntesis"
+    },
+    {
+      "numero": "3.5",
+      "nivelEtiqueta": "Nivel 5 de 10 · Aplicación",
+      "titulo": "Propiedad conmutativa con números con signo",
+      "explicacion": "La propiedad conmutativa dice que en una suma o en una multiplicación puedes cambiar el orden de los números con signo y el resultado no cambia. Sin embargo, esta propiedad NO se cumple para la resta ni para la división: cambiar el orden en esas operaciones sí cambia el resultado (o incluso el signo). Aprender a distinguir cuándo se puede reordenar y cuándo no evita errores comunes al simplificar cálculos.",
+      "formula": "a + b = b + a  ;  a × b = b × a   (la resta y la división NO son conmutativas)",
+      "ejemplos": [
+        "-9 + 14 = 5 y 14 + (-9) = 5: el orden no afecta el resultado de la suma.",
+        "8 - (-3) = 11, pero (-3) - 8 = -11: al cambiar el orden en una resta el resultado cambia por completo, por eso la resta no es conmutativa."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "-9 + 14 da el mismo resultado que 14 + (-9).",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: por la propiedad conmutativa de la suma, -9+14=5 y 14+(-9)=5."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "8 - (-3) da el mismo resultado que (-3) - 8.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: 8-(-3)=11, pero (-3)-8=-11. La resta no es conmutativa."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de las siguientes operaciones NO cumple la propiedad conmutativa?",
+          "opciones": [
+            "(-5) + 9",
+            "(-5) × 9",
+            "(-5) - 9",
+            "9 × (-5)"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "La resta no es conmutativa: (-5)-9=-14, pero 9-(-5)=14, resultados distintos."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si (-12) × 7 = -84, entonces 7 × (-12) = ___.",
+          "respuestaCorrecta": "-84",
+          "retroalimentacion": "Por la propiedad conmutativa de la multiplicación, el orden de los factores no altera el resultado: -84."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En un torneo, el equipo A tiene una diferencia de goles de -6 y el equipo B de 15. Por la propiedad conmutativa, -6 + 15 da el mismo resultado que 15 + (-6) = ___.",
+          "respuestaCorrecta": "9",
+          "retroalimentacion": "-6+15=9 y 15+(-6)=9: el orden no afecta el resultado de la suma."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada operación con la que le da el mismo resultado por la propiedad conmutativa.",
+          "columnaA": [
+            "(-8) + 20",
+            "6 × (-11)",
+            "(-15) + (-4)"
+          ],
+          "columnaB": [
+            "(-4) + (-15)",
+            "(-11) × 6",
+            "20 + (-8)"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "(-8)+20=12=20+(-8); 6×(-11)=-66=(-11)×6; (-15)+(-4)=-19=(-4)+(-15)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un científico registra un cambio de temperatura de -4°C seguido de un cambio de +11°C. ¿El orden en que se suman estos cambios afecta el resultado final?",
+          "opciones": [
+            "Sí, cambia el resultado",
+            "No, por la propiedad conmutativa de la suma",
+            "Sí, pero solo si ambos son negativos",
+            "No, pero solo aplica a la multiplicación"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "La suma es conmutativa: -4+11=7 y 11+(-4)=7, el orden no importa."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La propiedad conmutativa permite calcular (-3) × 8 como 8 × (-3), y ambas dan -24.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: (-3)×8=-24 y 8×(-3)=-24, el orden de los factores no altera el producto."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "3 ÷ (-15) NO da el mismo resultado que (-15) ÷ 3, por lo tanto la división ___ conmutativa.",
+          "respuestaCorrecta": "no es",
+          "retroalimentacion": "3÷(-15)=-0.2 mientras que (-15)÷3=-5: son distintos, así que la división no es conmutativa."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál expresión es equivalente a (-9) + 23 por la propiedad conmutativa?",
+          "opciones": [
+            "23 + (-9)",
+            "23 - (-9)",
+            "(-9) - 23",
+            "9 + 23"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(-9)+23=14 y 23+(-9)=14: cambiar el orden de una suma no altera el resultado."
+        }
+      ]
+    },
+    {
+      "numero": "3.6",
+      "nivelEtiqueta": "Nivel 6 de 10 · Aplicación avanzada",
+      "titulo": "Propiedad asociativa y distributiva con números con signo",
+      "explicacion": "La propiedad asociativa permite agrupar de distinta forma los sumandos o factores de una operación sin que cambie el resultado. La propiedad distributiva, en cambio, permite \"repartir\" una multiplicación sobre una suma o resta: a×(b+c) es igual a a×b + a×c, incluso cuando a, b o c son negativos. Estas propiedades son herramientas nuevas (no vistas en las lecciones 3.1 a 3.4) que sirven para simplificar cálculos con paréntesis antes de resolver la jerarquía de operaciones.",
+      "formula": "Asociativa: (a+b)+c = a+(b+c)  ;  Distributiva: a × (b + c) = a×b + a×c",
+      "ejemplos": [
+        "-4 × (7 + (-2)) = -4×7 + (-4)×(-2) = -28 + 8 = -20, lo mismo que -4×5=-20.",
+        "(-8 + 15) + (-6) = -8 + (15 + (-6)): ambas formas de agrupar dan 1."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado de aplicar la propiedad distributiva a -4 × (7 + (-2))?",
+          "opciones": [
+            "-4×7 + (-4)×(-2) = -20",
+            "-4×7 + (-4)×(-2) = -36",
+            "-4+7 + -4+(-2) = -3",
+            "-4×7 - (-4)×(-2) = -36"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "-4×7=-28 y -4×(-2)=8; -28+8=-20, igual que -4×(7+(-2))=-4×5=-20."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Aplica la propiedad distributiva: 6 × (-9 + 4) = 6×(-9) + 6×(4) = ___.",
+          "respuestaCorrecta": "-30",
+          "retroalimentacion": "6×(-9)=-54 y 6×4=24; -54+24=-30, igual que 6×(-5)=-30."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Por la propiedad asociativa, (-8 + 15) + (-6) es igual a -8 + (15 + (-6)).",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: ambas agrupaciones dan 1, sin importar cómo se agrupen los sumandos."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "-5 × (3 + (-8)) es igual a (-5×3) + (-5×(-8)).",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: -5×(3+(-8))=-5×(-5)=25, y (-5×3)+(-5×(-8))=-15+40=25."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una fábrica aplica una penalización de -$3 por cada uno de 12 productos defectuosos hallados el lunes, y 5 productos defectuosos más el martes con la misma penalización. ¿Cuál es la penalización total, usando (-3) × (12 + 5)?",
+          "opciones": [
+            "-$41",
+            "-$51",
+            "-$45",
+            "-$36"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "(-3)×(12+5)=(-3)×17=-51. También se puede calcular como (-3)×12 + (-3)×5 = -36+(-15)=-51."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Usa la propiedad distributiva para calcular: (-7) × (10 + (-3)) = ___.",
+          "respuestaCorrecta": "-49",
+          "retroalimentacion": "(-7)×10=-70 y (-7)×(-3)=21; -70+21=-49, igual que (-7)×7=-49."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada expresión con su resultado usando las propiedades asociativa o distributiva.",
+          "columnaA": [
+            "4 × (-6 + 9)",
+            "(-10 + 3) + (-5)",
+            "(-2) × (8 + (-11))"
+          ],
+          "columnaB": [
+            "-12",
+            "6",
+            "12"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "4×(-6+9)=4×3=12; (-10+3)+(-5)=-7+(-5)=-12; (-2)×(8+(-11))=(-2)×(-3)=6."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de las siguientes NO es una aplicación correcta de la propiedad distributiva?",
+          "opciones": [
+            "3×(4+(-2)) = 3×4 + 3×(-2)",
+            "(-5)×(6+(-1)) = (-5)×6 + (-5)×(-1)",
+            "(-2)×(7-3) = (-2)×7 - 3",
+            "8×(-3+5) = 8×(-3)+8×5"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Está mal aplicada: debería ser (-2)×7 - (-2)×3 = -14+6=-8, no (-2)×7-3=-17."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un grupo de 8 amigos debe pagar una multa de -$15 cada uno más un cargo extra de -$4 cada uno. Usando la propiedad distributiva: 8 × (-15 + (-4)) = ___.",
+          "respuestaCorrecta": "-152",
+          "retroalimentacion": "-15+(-4)=-19; 8×(-19)=-152. También: 8×(-15)+8×(-4)=-120+(-32)=-152."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La propiedad asociativa también aplica a la multiplicación: (-2 × 5) × (-3) es igual a -2 × (5 × (-3)).",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: (-2×5)×(-3)=(-10)×(-3)=30, y -2×(5×(-3))=-2×(-15)=30."
+        }
+      ]
+    },
+    {
+      "numero": "3.7",
+      "nivelEtiqueta": "Nivel 7 de 10 · Reto",
+      "titulo": "Jerarquía de operaciones con paréntesis y corchetes anidados",
+      "explicacion": "Cuando una expresión combina paréntesis dentro de corchetes, se resuelve primero lo que está más adentro (el paréntesis), después lo que queda dentro del corchete, y al final las operaciones que están fuera. Esto añade un nivel de dificultad respecto a la lección 3.3, porque ahora hay más de dos niveles de agrupación y más pasos antes de llegar al resultado final.",
+      "ejemplos": [
+        "[(-3 + 8) × (-2)] - 4: primero el paréntesis, -3+8=5; luego el corchete, 5×(-2)=-10; al final, -10-4=-14.",
+        "-6 + [10 - (3 × (-4))]: primero el paréntesis, 3×(-4)=-12; luego el corchete, 10-(-12)=22; al final, -6+22=16."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Resuelve: [(-3 + 8) × (-2)] - 4",
+          "opciones": [
+            "-14",
+            "-6",
+            "14",
+            "-10"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "-3+8=5; 5×(-2)=-10; -10-4=-14."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Resuelve: -6 + [10 - (3 × (-4))]",
+          "opciones": [
+            "-16",
+            "16",
+            "-2",
+            "28"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "3×(-4)=-12; 10-(-12)=22; -6+22=16."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "[(-9) + 15] × [(-2) - 3] = ___.",
+          "respuestaCorrecta": "-30",
+          "retroalimentacion": "(-9)+15=6; (-2)-3=-5; 6×(-5)=-30."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "20 - [(-4) × (3 + (-1))] = ___.",
+          "respuestaCorrecta": "28",
+          "retroalimentacion": "3+(-1)=2; (-4)×2=-8; 20-(-8)=28."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El resultado de -2 × [7 + (-3 × 5)] es 16.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: -3×5=-15; 7+(-15)=-8; -2×(-8)=16."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El resultado de [(-18) ÷ (-3)] + [4 × (-5)] es -14.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: (-18)÷(-3)=6; 4×(-5)=-20; 6+(-20)=-14."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una excursión sube [8 + (-3)] metros por cada uno de 4 tramos iguales, y luego desciende 10 m de golpe. ¿Cuál es la altitud final relativa al inicio? Usa 4×[8+(-3)] - 10.",
+          "opciones": [
+            "10 m",
+            "30 m",
+            "-10 m",
+            "20 m"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "8+(-3)=5; 4×5=20; 20-10=10 m."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una tienda vende $[(-50) + 120] cada uno de 3 días, y al final resta un gasto fijo de $65. Calcula: 3 × [(-50) + 120] - 65 = ___.",
+          "respuestaCorrecta": "145",
+          "retroalimentacion": "(-50)+120=70; 3×70=210; 210-65=145."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada expresión con su resultado.",
+          "columnaA": [
+            "[6 - (-2)] × (-3)",
+            "(-14) + [(-5) × (-2)]",
+            "[(-12) ÷ 4] + [3 × (-2)]"
+          ],
+          "columnaB": [
+            "-9",
+            "-24",
+            "-4"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "[6-(-2)]×(-3)=8×(-3)=-24; (-14)+[(-5)×(-2)]=-14+10=-4; [(-12)÷4]+[3×(-2)]=-3+(-6)=-9."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Resuelve: [(-30) ÷ (-5)] × [(-2) + (-1)]",
+          "opciones": [
+            "-18",
+            "18",
+            "-6",
+            "6"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(-30)÷(-5)=6; (-2)+(-1)=-3; 6×(-3)=-18."
+        }
+      ]
+    },
+    {
+      "numero": "3.8",
+      "nivelEtiqueta": "Nivel 8 de 10 · Reto avanzado",
+      "titulo": "Operaciones inversas: encontrar un valor desconocido",
+      "explicacion": "Cada operación tiene una operación inversa que la \"deshace\": la suma se deshace con la resta y viceversa, y la multiplicación se deshace con la división y viceversa. Usando esta idea se puede encontrar un valor desconocido (llamado x) cuando se conoce el resultado de una operación, dando el primer paso hacia el despeje de ecuaciones simples con números con signo.",
+      "formula": "Si a + x = b, entonces x = b − a  ;  Si a × x = b, entonces x = b ÷ a",
+      "ejemplos": [
+        "Un submarino desciende 25 m más y queda a -68 m: x + (-25) = -68, entonces x = -68 - (-25) = -43 m (posición inicial).",
+        "Si (-6) × x = 42, entonces x = 42 ÷ (-6) = -7."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si x + (-18) = -30, entonces x = ___.",
+          "respuestaCorrecta": "-12",
+          "retroalimentacion": "x = -30 - (-18) = -30 + 18 = -12."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si (-7) × x = 56, entonces x = ___.",
+          "respuestaCorrecta": "-8",
+          "retroalimentacion": "x = 56 ÷ (-7) = -8."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un buzo desciende desde una posición x, luego sube 12 m y queda a -20 m respecto a la superficie: x + 12 = -20. ¿Cuál era su posición antes de subir?",
+          "opciones": [
+            "-32 m",
+            "8 m",
+            "-8 m",
+            "32 m"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "x = -20 - 12 = -32 m."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si x - 9 = -15, entonces x = -6.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: x = -15 + 9 = -6."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si (-4) × x = -36, entonces x = -9.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: x = -36 ÷ (-4) = 9, no -9 (signos iguales dan resultado positivo)."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una empresa repartió una pérdida total x entre 6 socios en partes iguales; a cada socio le tocó -$450, es decir x ÷ 6 = -450. La pérdida total x fue $___.",
+          "respuestaCorrecta": "-2700",
+          "retroalimentacion": "x = -450 × 6 = -2700."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el valor de x si -3 + x = 11?",
+          "opciones": [
+            "14",
+            "8",
+            "-14",
+            "-8"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "x = 11 - (-3) = 14."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada ecuación con el valor de x que la resuelve.",
+          "columnaA": [
+            "x + 7 = -5",
+            "x × (-2) = 18",
+            "x - (-4) = 10"
+          ],
+          "columnaB": [
+            "6",
+            "-9",
+            "-12"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "x+7=-5 → x=-12; x×(-2)=18 → x=-9; x-(-4)=10 → x=6."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un termómetro marcaba una temperatura inicial x, bajó 15 grados por una tormenta y quedó en -6°C: x + (-15) = -6. La temperatura inicial fue ___ °C.",
+          "respuestaCorrecta": "9",
+          "retroalimentacion": "x = -6 - (-15) = -6 + 15 = 9°C."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si x ÷ (-5) = -12, entonces x = 60.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: x = -12 × (-5) = 60."
+        }
+      ]
+    },
+    {
+      "numero": "3.9",
+      "nivelEtiqueta": "Nivel 9 de 10 · Integración",
+      "titulo": "Integración: presupuestos y balances con decimales",
+      "explicacion": "Esta lección integra todo lo aprendido en el PDA (jerarquía de operaciones, propiedad distributiva y operaciones inversas), pero ahora con números decimales, como ocurre con el dinero (centavos) o la temperatura (décimas de grado). Los problemas combinan varios pasos y contextos reales de negocios, ciencia y deporte, exigiendo mayor precisión en los cálculos.",
+      "ejemplos": [
+        "Un comerciante tenía -$120.50, vendió $310.75 y pagó una deuda de $85.25: -120.50 + 310.75 - 85.25 = $105.00.",
+        "Una temperatura de -6.5°C sube 9.2°C y luego baja 4.7°C: -6.5 + 9.2 - 4.7 = -2.0°C."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un comerciante tenía un saldo de -$120.50 en su cuenta. Vendió mercancía por $310.75 y pagó una deuda de $85.25. Su saldo final es $___.",
+          "respuestaCorrecta": "105",
+          "retroalimentacion": "-120.50+310.75-85.25=105.00."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "La temperatura en una ciudad fue de -6.5°C en la madrugada, subió 9.2°C hacia el mediodía y bajó 4.7°C por la tarde. ¿Cuál fue la temperatura final?",
+          "opciones": [
+            "-2.0°C",
+            "2.0°C",
+            "-1.0°C",
+            "-20.4°C"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "-6.5+9.2-4.7=-2.0°C."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un equipo de futbol tiene una diferencia de goles de -3 por partido durante 4 partidos, y luego un partido con diferencia de +11. Usando (4 × (-3)) + 11, su diferencia total de goles es ___.",
+          "respuestaCorrecta": "-1",
+          "retroalimentacion": "4×(-3)=-12; -12+11=-1."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si una tienda pierde $45.80 diarios durante 5 días y luego gana $210.50 en un solo día, su balance total es +$1.50.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: 5×(-45.80)=-229.00; -229.00+210.50=-$18.50, no +$1.50."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El nivel de una alberca cambia -2.5 cm por hora durante 6 horas por evaporación, y luego sube 20 cm de golpe por la lluvia. ¿Cuál es el cambio neto de nivel?",
+          "opciones": [
+            "5 cm",
+            "-5 cm",
+            "35 cm",
+            "-35 cm"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "6×(-2.5)=-15; -15+20=5 cm."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Aplica la propiedad distributiva y la jerarquía: 3 × (-8.5 + 2.5) - 6 = ___.",
+          "respuestaCorrecta": "-24",
+          "retroalimentacion": "-8.5+2.5=-6; 3×(-6)=-18; -18-6=-24."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación con su resultado.",
+          "columnaA": [
+            "Saldo: -75.50 + 120.25 - 30",
+            "Temperatura: -4.2 + (-3.8) × 2",
+            "Puntaje: 5 × (-6) + 40"
+          ],
+          "columnaB": [
+            "10",
+            "-11.8",
+            "14.75"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "-75.50+120.25-30=14.75; -4.2+(-3.8×2)=-4.2-7.6=-11.8; 5×(-6)+40=-30+40=10."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un corredor mejora su tiempo -0.8 segundos en cada una de 5 carreras, pero en la última tiene una penalización de +2.5 segundos. ¿Cuál es el cambio neto en su tiempo? Usa 5×(-0.8)+2.5.",
+          "opciones": [
+            "-1.5 s",
+            "1.5 s",
+            "-6.5 s",
+            "-4.0 s"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "5×(-0.8)=-4.0; -4.0+2.5=-1.5 s."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una empresa repartió una ganancia entre 4 socios; a cada uno le tocaron $312.75. Si se resta un gasto de $50.25 por persona, ¿cuánto le queda a cada socio? $___.",
+          "respuestaCorrecta": "262.5",
+          "retroalimentacion": "312.75-50.25=262.50."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El resultado de [(-9.6) ÷ 3] + [(-2) × 4.5] es -12.2.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: (-9.6)÷3=-3.2; (-2)×4.5=-9; -3.2+(-9)=-12.2."
+        }
+      ]
+    },
+    {
+      "numero": "3.10",
+      "nivelEtiqueta": "Nivel 10 de 10 · Dominio",
+      "titulo": "Dominio: retos integradores de operaciones con signo",
+      "explicacion": "Este reto final combina todo el PDA: las cuatro operaciones con signo, la jerarquía con paréntesis y corchetes anidados, las propiedades conmutativa, asociativa y distributiva, y las operaciones inversas para encontrar valores desconocidos, todo en problemas de varios pasos y contextos variados (negocios, ciencia y deporte) con números menos \"redondos\".",
+      "ejemplos": [
+        "-5 × [(-12 + 27) ÷ 3] + (-8): primero (-12+27)=15, 15÷3=5, -5×5=-25, -25+(-8)=-33.",
+        "6 × (-45.5 + 20) - [(-90) ÷ (-3)]: -45.5+20=-25.5, 6×(-25.5)=-153, (-90)÷(-3)=30, -153-30=-183."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Resuelve: -5 × [(-12 + 27) ÷ 3] + (-8)",
+          "opciones": [
+            "-33",
+            "33",
+            "-17",
+            "-41"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(-12+27)=15; 15÷3=5; -5×5=-25; -25+(-8)=-33."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "6 × (-45.5 + 20) - [(-90) ÷ (-3)] = ___.",
+          "respuestaCorrecta": "-183",
+          "retroalimentacion": "-45.5+20=-25.5; 6×(-25.5)=-153; (-90)÷(-3)=30; -153-30=-183."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un alpinista sube [(-15) + 40] metros en la mañana, y luego desciende el triple de esa cantidad más 10 m extra por una tormenta. Su posición final relativa al inicio, calculada como [(-15)+40] - (3×[(-15)+40] + 10), es -60 m.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: (-15+40)=25; 3×25=75, +10=85; 25-85=-60 m."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una fábrica tiene una pérdida de $38.40 en cada uno de 5 días y una ganancia de $126.75 repartida en 3 días iguales. ¿Cuál es el balance total? Usa 5×(-38.40) + 3×(126.75÷3).",
+          "opciones": [
+            "-$65.25",
+            "$65.25",
+            "-$318.75",
+            "-$192.00"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "5×(-38.40)=-192.00; 126.75÷3=42.25, ×3=126.75; -192.00+126.75=-$65.25."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Aplica la propiedad distributiva y luego la jerarquía: (-7) × [8 + (-3)] ÷ (-5) = ___.",
+          "respuestaCorrecta": "7",
+          "retroalimentacion": "8+(-3)=5; (-7)×5=-35; -35÷(-5)=7."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada expresión con su resultado.",
+          "columnaA": [
+            "[(-6) × 9] + [(-45) ÷ (-9)]",
+            "(-3) × [(-14) + 6] - 7",
+            "[24 ÷ (-4)] × [(-3) + (-2)]"
+          ],
+          "columnaB": [
+            "30",
+            "-49",
+            "17"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "[(-6)×9]+[(-45)÷(-9)]=-54+5=-49; (-3)×[(-14)+6]-7=(-3)×(-8)-7=24-7=17; [24÷(-4)]×[(-3)+(-2)]=(-6)×(-5)=30."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si x × (-4) + 10 = -22, entonces x = 8.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: x×(-4)=-22-10=-32; x=-32÷(-4)=8."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una temperatura inicial x baja 12.5°C, y luego se multiplica por -2, dando -19°C: (x - 12.5) × (-2) = -19. La temperatura inicial x fue ___ °C.",
+          "respuestaCorrecta": "22",
+          "retroalimentacion": "x-12.5=-19÷(-2)=9.5; x=9.5+12.5=22°C."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un equipo de basquetbol anota en 4 cuartos las siguientes diferencias de puntos: -8, 15, -3 y x. Si la diferencia total del partido fue +11, ¿cuál fue la diferencia del cuarto cuarto x? Usa -8+15-3+x=11.",
+          "opciones": [
+            "7",
+            "-7",
+            "15",
+            "4"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "-8+15-3=4; x=11-4=7."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El resultado de aplicar la propiedad distributiva y la jerarquía en -2 × [(-9 + 4) × 3] - 6 es 24.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: (-9+4)=-5; -5×3=-15; -2×(-15)=30; 30-6=24."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "(-13) + 6 = -7.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Signos diferentes: se resta 13-6=7 y se conserva el signo del mayor (negativo): -7."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "(-5) - (-9) = -4.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Falso: (-5) - (-9) = -5 + 9 = 4, no -4."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "(-17) + (9) = ___.",
+      "respuestaCorrecta": "-8",
+      "retroalimentacion": "Signos diferentes: se resta 17-9=8 y se conserva el signo del mayor (negativo): -8."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "(20) - (-6) = ___.",
+      "respuestaCorrecta": "26",
+      "retroalimentacion": "Restar un negativo equivale a sumar: 20 - (-6) = 20 + 6 = 26."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Una tienda vendió $380, pagó $150 de renta, recibió $60 de una devolución a favor y pagó $40 de transporte. ¿Cuál fue su balance final?",
+      "opciones": [
+        "$250",
+        "$230",
+        "$270",
+        "$210"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "380 − 150 + 60 − 40 = 250."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "(-11) + 4 = -7.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Signos diferentes: se resta 11-4=7 y se conserva el signo del mayor (negativo): -7."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "(-6) - (-10) = ___.",
+      "respuestaCorrecta": "4",
+      "retroalimentacion": "Restar un negativo equivale a sumar: -6 - (-10) = -6 + 10 = 4."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Un elevador sube 12 pisos, baja 5, sube 3 y baja 8. ¿En qué piso relativo al inicio terminó?",
+      "opciones": [
+        "3",
+        "2",
+        "-2",
+        "0"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "12 - 5 + 3 - 8 = 2."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada operación con su resultado.",
+      "columnaA": [
+        "(-14) + 9",
+        "(18) - (-7)",
+        "(-3) - (5)"
+      ],
+      "columnaB": [
+        "25",
+        "-8",
+        "-5"
+      ],
+      "parejasCorrectas": [
+        2,
+        0,
+        1
+      ],
+      "retroalimentacion": "(-14)+9=-5; 18-(-7)=25; (-3)-(5)=-8."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "(-19) + (12) = ___.",
+      "respuestaCorrecta": "-7",
+      "retroalimentacion": "Signos diferentes: se resta 19-12=7 y se conserva el signo del mayor (negativo): -7."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "(-7) × (-8) = 56.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: signos iguales dan resultado positivo: 56."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "(-45) ÷ (-9) = -5.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Falso: signos iguales dan resultado positivo: (-45) ÷ (-9) = 5, no -5."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "(7) × (-6) = ___.",
+      "respuestaCorrecta": "-42",
+      "retroalimentacion": "Signos diferentes dan resultado negativo: 7 × (-6) = -42."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "4 + 6 × (-2) = ___.",
+      "respuestaCorrecta": "-8",
+      "retroalimentacion": "Primero la multiplicación: 6×(-2)=-12; luego 4+(-12)=-8."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Resuelve aplicando jerarquía de operaciones: 8 - 3 × (-4)",
+      "opciones": [
+        "20",
+        "-4",
+        "-20",
+        "4"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "Primero la multiplicación: 3×(-4)=-12; luego 8-(-12)=20."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "(-6) × (-9) = 54.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: signos iguales dan resultado positivo: 54."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "(-32) ÷ 8 = -4.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: signos diferentes dan resultado negativo: -32÷8=-4."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "5 - 3 × (-4) = ___.",
+      "respuestaCorrecta": "17",
+      "retroalimentacion": "Primero la multiplicación: 3×(-4)=-12; luego 5-(-12)=17."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Resuelve aplicando jerarquía de operaciones: 9 + 2 × (-5)",
+      "opciones": [
+        "1",
+        "-1",
+        "-19",
+        "19"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "Primero la multiplicación: 2×(-5)=-10; luego 9+(-10)=-1."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada operación con su resultado.",
+      "columnaA": [
+        "(-8) × (-5)",
+        "(-27) ÷ (-3)",
+        "4 - 6 × (-2)"
+      ],
+      "columnaB": [
+        "16",
+        "40",
+        "9"
+      ],
+      "parejasCorrectas": [
+        1,
+        2,
+        0
+      ],
+      "retroalimentacion": "(-8)×(-5)=40; (-27)÷(-3)=9; 4-6×(-2)=16."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "En la expresión 7 - 4 × (-2), el resultado es 15.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: primero 4×(-2)=-8; luego 7-(-8)=15."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "(-3) - (-8) = -11.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Falso: (-3) - (-8) = -3 + 8 = 5, no -11."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "(-24) ÷ (-6) = ___.",
+      "respuestaCorrecta": "4",
+      "retroalimentacion": "Signos iguales dan resultado positivo: (-24) ÷ (-6) = 4."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Resuelve: (-9) × (4)",
+      "opciones": [
+        "-36",
+        "-13",
+        "-5",
+        "36"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "(-9) × (4) = -36. Signos diferentes dan negativo."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada operación con su resultado.",
+      "columnaA": [
+        "(-14) + 5",
+        "(-3) × (-9)",
+        "(18) ÷ (-3)"
+      ],
+      "columnaB": [
+        "27",
+        "-6",
+        "-9"
+      ],
+      "parejasCorrectas": [
+        2,
+        0,
+        1
+      ],
+      "retroalimentacion": "(-14) + 5 = -9; (-3) × (-9) = 27; (18) ÷ (-3) = -6."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "En la expresión 8 - 5 × (-3), el resultado es 23.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Primero la multiplicación: 5×(-3)=-15; luego 8-(-15)=23."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "(-42) ÷ (-7) = ___.",
+      "respuestaCorrecta": "6",
+      "retroalimentacion": "Signos iguales dan resultado positivo: (-42)÷(-7)=6."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Resuelve: (-8) × (5)",
+      "opciones": [
+        "-13",
+        "-40",
+        "3",
+        "40"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "(-8) × (5) = -40. Signos diferentes dan negativo."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada expresión con su resultado.",
+      "columnaA": [
+        "(-17) + 6",
+        "(-4) × (-8)",
+        "(20) ÷ (-5)"
+      ],
+      "columnaB": [
+        "32",
+        "-4",
+        "-11"
+      ],
+      "parejasCorrectas": [
+        2,
+        0,
+        1
+      ],
+      "retroalimentacion": "(-17)+6=-11; (-4)×(-8)=32; 20÷(-5)=-4."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "(-6) - (-9) = 3.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Restar un negativo equivale a sumar: -6 - (-9) = -6 + 9 = 3."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "(-9) + (-4) = ___.",
+      "respuestaCorrecta": "-13",
+      "retroalimentacion": "Mismo signo: se suman los valores absolutos y se conserva el signo negativo: -13."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es el resultado de (-36) ÷ 6?",
+      "opciones": [
+        "-6",
+        "6",
+        "-30",
+        "30"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "Signos diferentes dan resultado negativo: (-36) ÷ 6 = -6."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "En la expresión 5 + 2 × (-3), el resultado es -1.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: primero 2×(-3)=-6, luego 5+(-6)=-1."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada operación con su resultado.",
+      "columnaA": [
+        "(-9) + (-4)",
+        "(-36) ÷ 6",
+        "5 + 2 × (-3)"
+      ],
+      "columnaB": [
+        "-1",
+        "-13",
+        "-6"
+      ],
+      "parejasCorrectas": [
+        1,
+        2,
+        0
+      ],
+      "retroalimentacion": "(-9)+(-4)=-13; (-36)÷6=-6; 5+2×(-3)=-1."
+    }
+  ]
+}

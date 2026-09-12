@@ -1,0 +1,1473 @@
+{
+  "id": "1S-B1-PDA02",
+  "grado": "1°",
+  "trimestre": "1",
+  "numero": 2,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Extensión de los números a positivos y negativos y su orden",
+  "contenido": "Extensión de los números a positivos y negativos y su orden.",
+  "pda": "Reconoce la necesidad de los números negativos a partir de usar cantidades que tienen al cero como referencia. Compara y ordena números con signo en la recta numérica.",
+  "problematizacion": {
+    "contexto": "En la tiendita de la esquina, don Beto anota en un cuaderno lo que los vecinos le deben cuando compran fiado y lo que le pagaron de más. Sin usar signos, no hay forma de distinguir en el cuaderno si alguien le debe dinero o si a alguien le sobra saldo a favor.",
+    "pregunta": "¿Cómo usarías números con signo para anotar en el cuaderno de don Beto una deuda de $50 y un saldo a favor de $50, tomando el cero como referencia?"
+  },
+  "subtemas": [
+    {
+      "numero": "2.1",
+      "titulo": "¿Por qué necesitamos números negativos?",
+      "explicacion": "Los números con signo permiten representar cantidades opuestas a partir de una referencia (el cero): ganancias/pérdidas, alturas/profundidades, temperaturas arriba/abajo de cero. Sin ellos, no podríamos distinguir '3 pisos abajo del nivel de la calle' de '3 pisos arriba'.",
+      "ejemplos": [
+        "Una temperatura de -3°C significa 3 grados bajo cero.",
+        "Un elevador que baja al nivel -2 está dos pisos por debajo de la planta baja (nivel 0)."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un submarino a -120 m está más profundo que uno a -85 m.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "-120 está más lejos del 0 hacia abajo: -120 < -85, así que -120 m es más profundo."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "-4 es mayor que 6.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "-4 < 6 en la recta numérica."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "-7 es menor que 0.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "-7 < 0 en la recta numérica."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "-8 es mayor que -10.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "-8 > -10 en la recta numérica."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "13 es mayor que 6.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "13 > 6 en la recta numérica."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "-15 es menor que -9.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: -15 < -9 en la recta numérica."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "-2 es mayor que 5.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: -2 < 5 en la recta numérica."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una cueva está al nivel -6 respecto al suelo. Esto significa que está ___ metros por debajo del nivel del suelo.",
+          "respuestaCorrecta": "6",
+          "retroalimentacion": "El nivel -6 indica 6 metros por debajo de la referencia (0)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una montaña tiene una cima a 300 m y una mina a -150 m respecto al nivel del mar. ¿Cuál está más lejos del nivel del mar (0)?",
+          "opciones": [
+            "La cima (300 m)",
+            "La mina (-150 m)",
+            "Ambas están a la misma distancia",
+            "No se puede saber"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "La cima está a 300 m del 0 y la mina a 150 m; 300 es mayor que 150, así que la cima está más lejos."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada número con su ubicación en la recta numérica respecto al cero.",
+          "columnaA": [
+            "-8",
+            "0",
+            "6"
+          ],
+          "columnaB": [
+            "A la derecha del cero",
+            "Es el cero mismo",
+            "A la izquierda del cero"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "-8 está a la izquierda del cero; 0 es el cero mismo; 6 está a la derecha del cero."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 1 de 10 · Introductorio"
+    },
+    {
+      "numero": "2.2",
+      "titulo": "Comparar y ordenar en la recta numérica",
+      "explicacion": "En la recta numérica, entre dos números el mayor es el que está más a la derecha. Esto significa que, entre dos negativos, el que tiene mayor valor absoluto (está 'más lejos' del cero) en realidad es el menor.",
+      "formula": "... -3 < -2 < -1 < 0 < 1 < 2 ...",
+      "ejemplos": [
+        "Comparar -5 y -2: -5 está más a la izquierda, entonces -5 < -2, aunque 5 sea mayor que 2 en valor absoluto.",
+        "Un submarino a -120 m está más profundo (más lejos del 0) que uno a -85 m, así que -120 < -85."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "llenar_frase",
+          "frase": "El número menor entre -7, -2, 5, -10 es ___.",
+          "respuestaCorrecta": "-10",
+          "retroalimentacion": "-10 está más a la izquierda que -7, -2 y 5, así que es el menor."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El número menor entre 2, 19, -11, -10 es ___.",
+          "respuestaCorrecta": "-11",
+          "retroalimentacion": "-11 está más a la izquierda en la recta numérica, así que es el menor."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El número menor entre 18, -9, 4, 15 es ___.",
+          "respuestaCorrecta": "-9",
+          "retroalimentacion": "-9 está más a la izquierda en la recta numérica, así que es el menor."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El número menor entre 16, 19, -2, 7 es ___.",
+          "respuestaCorrecta": "-2",
+          "retroalimentacion": "-2 está más a la izquierda en la recta numérica, así que es el menor."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El número menor entre 17, 13, -18, 14 es ___.",
+          "respuestaCorrecta": "-18",
+          "retroalimentacion": "-18 está más a la izquierda en la recta numérica, así que es el menor."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El número mayor entre -3, -8, 2, -1 es ___.",
+          "respuestaCorrecta": "2",
+          "retroalimentacion": "2 es el único positivo de la lista, así que está más a la derecha y es el mayor."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El número menor entre -6, 10, -12, 5 es ___.",
+          "respuestaCorrecta": "-12",
+          "retroalimentacion": "-12 está más a la izquierda en la recta numérica, así que es el menor."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Entre -5 y -2, el número -5 es mayor.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: -5 < -2, porque -5 está más a la izquierda en la recta numérica."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de los siguientes números es el mayor: -20, -3, -15, -8?",
+          "opciones": [
+            "-20",
+            "-3",
+            "-15",
+            "-8"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "-3 es el menos negativo de la lista, así que es el mayor."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada par de números con el símbolo de comparación correcto.",
+          "columnaA": [
+            "-7 ___ -2",
+            "4 ___ -4",
+            "-9 ___ -9"
+          ],
+          "columnaB": [
+            "<",
+            ">",
+            "="
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "-7 < -2; 4 > -4; -9 = -9."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 2 de 10 · Intermedio"
+    },
+    {
+      "numero": "2.3",
+      "titulo": "Ordenar listas de varios números con signo",
+      "explicacion": "Para ordenar una lista con positivos, negativos y el cero, ubica primero los negativos (el de mayor valor absoluto va primero, porque es el menor), después el cero, y al final los positivos de menor a mayor.",
+      "ejemplos": [
+        "Ordenar -4, 3, -1, 0 de menor a mayor: -4, -1, 0, 3.",
+        "Un buzo a -15 m y un dron a 40 m: -15 está más cerca del nivel del mar (0) que 40, aunque ambos parezcan 'grandes' en valor absoluto."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Ordena de menor a mayor: -4, 3, -1, 0",
+          "opciones": [
+            "-4, -1, 0, 3",
+            "3, 0, -1, -4",
+            "-1, -4, 0, 3",
+            "0, -1, -4, 3"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "De menor a mayor: -4 < -1 < 0 < 3."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de las siguientes listas está ordenada de mayor a menor?",
+          "opciones": [
+            "5, -2, -7, -10",
+            "-10, -7, -2, 5",
+            "-2, -7, 5, -10",
+            "5, -10, -2, -7"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "De mayor a menor: 5 > -2 > -7 > -10."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de las siguientes listas está ordenada de mayor a menor?",
+          "opciones": [
+            "19, 13, 4, -9",
+            "4, 13, -9, 19",
+            "4, 19, 13, -9",
+            "4, 13, 19, -9"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "De mayor a menor: 19 > 13 > 4 > -9."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de las siguientes listas está ordenada de mayor a menor?",
+          "opciones": [
+            "-16, 20, -5, 10",
+            "20, 10, -5, -16",
+            "-5, -16, 10, 20",
+            "20, -5, 10, -16"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "De mayor a menor: 20 > 10 > -5 > -16."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de las siguientes listas está ordenada de mayor a menor?",
+          "opciones": [
+            "20, -16, 17, -5",
+            "20, 17, -5, -16",
+            "-16, 17, -5, 20",
+            "-16, 17, 20, -5"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "De mayor a menor: 20 > 17 > -5 > -16."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Ordena de menor a mayor: -6, 2, -9, 0",
+          "opciones": [
+            "-9, -6, 0, 2",
+            "2, 0, -6, -9",
+            "-6, -9, 0, 2",
+            "0, -6, -9, 2"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "De menor a mayor: -9 < -6 < 0 < 2."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Ordenados de mayor a menor, el segundo número de la lista -3, 8, -10, 1 es ___.",
+          "respuestaCorrecta": "1",
+          "retroalimentacion": "De mayor a menor: 8, 1, -3, -10. El segundo lugar es 1."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La lista -14, -9, -2, 6 está ordenada de menor a mayor.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: -14 < -9 < -2 < 6."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La lista 5, -3, -8, -12 está ordenada de menor a mayor.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: esa lista va de mayor a menor (5 > -3 > -8 > -12), no de menor a mayor."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada número de la lista -11, 4, -3, 9 con la posición que ocupa al ordenarla de menor a mayor.",
+          "columnaA": [
+            "-11",
+            "-3",
+            "9"
+          ],
+          "columnaB": [
+            "Primero",
+            "Segundo",
+            "Cuarto"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "De menor a mayor: -11, -3, 4, 9. -11 es primero, -3 es segundo, 9 es cuarto."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 3 de 10 · Avanzado"
+    },
+    {
+      "numero": "2.4",
+      "titulo": "Síntesis y aplicación",
+      "explicacion": "Recuerda: en la recta numérica, el número mayor es el que está más a la derecha; entre dos negativos, el que parece 'más grande' (mayor valor absoluto) en realidad es el menor. Para ordenar o comparar varios números con signo, ubícalos mentalmente en la recta: primero los negativos (el más negativo va primero), luego el cero, y al final los positivos.",
+      "ejemplos": [
+        "Un submarino a -120 m está más profundo que uno a -85 m. -120 está más lejos del 0 hacia abajo: -120 < -85, así que -120 m es más profundo."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de las siguientes listas está ordenada de mayor a menor?",
+          "opciones": [
+            "-5, 18, -7, 5",
+            "-7, 5, -5, 18",
+            "-5, 5, 18, -7",
+            "18, 5, -5, -7"
+          ],
+          "respuestaCorrecta": 3,
+          "retroalimentacion": "De mayor a menor: 18 > 5 > -5 > -7."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada temperatura con su posición relativa entre las tres.",
+          "columnaA": [
+            "-8°C",
+            "-3°C",
+            "2°C"
+          ],
+          "columnaB": [
+            "Es la más caliente",
+            "Es la más fría",
+            "Es templada, bajo cero"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "-8°C es la más fría (más a la izquierda); -3°C es templada bajo cero; 2°C es la más caliente."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada temperatura con su posición relativa entre las tres.",
+          "columnaA": [
+            "0°C",
+            "4°C",
+            "-11°C"
+          ],
+          "columnaB": [
+            "Es la temperatura intermedia",
+            "Es la más fría",
+            "Es la más caliente"
+          ],
+          "parejasCorrectas": [
+            0,
+            2,
+            1
+          ],
+          "retroalimentacion": "De frío a caliente: -11°C < 0°C < 4°C."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada temperatura con su posición relativa entre las tres.",
+          "columnaA": [
+            "-8°C",
+            "-15°C",
+            "-13°C"
+          ],
+          "columnaB": [
+            "Es la más fría",
+            "Es la más caliente",
+            "Es la temperatura intermedia"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            2
+          ],
+          "retroalimentacion": "De frío a caliente: -15°C < -13°C < -8°C."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada temperatura con su posición relativa entre las tres.",
+          "columnaA": [
+            "9°C",
+            "-12°C",
+            "-11°C"
+          ],
+          "columnaB": [
+            "Es la temperatura intermedia",
+            "Es la más caliente",
+            "Es la más fría"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "De frío a caliente: -12°C < -11°C < 9°C."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de las siguientes listas está ordenada de menor a mayor?",
+          "opciones": [
+            "-9, -2, 4, 7",
+            "7, 4, -2, -9",
+            "-2, -9, 4, 7",
+            "4, -9, -2, 7"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "De menor a mayor: -9 < -2 < 4 < 7."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El número menor entre -16, 9, -3, 12 es ___.",
+          "respuestaCorrecta": "-16",
+          "retroalimentacion": "-16 está más a la izquierda en la recta numérica, así que es el menor."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En la lista 10, -2, -9, -14, el número -2 es el segundo mayor.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: de mayor a menor la lista es 10, -2, -9, -14, así que -2 es el segundo mayor."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un buzo a -40 m está menos profundo que uno a -25 m.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: -40 está más lejos del 0 hacia abajo que -25, así que el buzo a -40 m está MÁS profundo, no menos."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada altura (respecto al nivel del mar) con su posición relativa entre las tres.",
+          "columnaA": [
+            "-14 m",
+            "3 m",
+            "-6 m"
+          ],
+          "columnaB": [
+            "Es la más alta",
+            "Es la más baja",
+            "Es intermedia"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            2
+          ],
+          "retroalimentacion": "De más baja a más alta: -14 m < -6 m < 3 m."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 4 de 10 · Síntesis"
+    },
+    {
+      "numero": "2.5",
+      "nivelEtiqueta": "Nivel 5 de 10 · Aplicación",
+      "titulo": "Saldos y temperaturas con números decimales con signo",
+      "explicacion": "Hasta ahora comparaste y ordenaste números con signo enteros. En la vida real, muchas cantidades con signo tienen decimales: saldos bancarios en pesos con centavos, o temperaturas con décimas de grado. Las mismas reglas de la recta numérica aplican: para comparar dos decimales negativos, primero compara la parte entera; si es igual, compara las cifras decimales recordando que, entre negativos, 'más grande' en apariencia significa 'más chico' en valor.",
+      "formula": "Para comparar decimales con signo: compara primero la parte entera; si coincide, compara las cifras decimales una por una. Entre dos negativos con la misma parte entera, el de mayor parte decimal es el MENOR (está más a la izquierda).",
+      "ejemplos": [
+        "Comparar -6.1 y -6.05: ambos tienen parte entera -6; como decimales, -6.10 está más a la izquierda que -6.05, así que -6.1 < -6.05.",
+        "El saldo de una cuenta es -$45.80 (debe) y otro es -$45.30 (debe). Como -45.80 < -45.30, la cuenta de -$45.80 tiene la deuda mayor."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El saldo de Ana en su cuenta es -$45.30 (debe) y el de Luis es -$45.80 (debe). ¿Quién debe más dinero?",
+          "opciones": [
+            "Ana",
+            "Luis",
+            "Deben lo mismo",
+            "No se puede saber"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "-45.80 < -45.30, así que Luis tiene el saldo más negativo y debe más dinero."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La temperatura -2.5°C es mayor que -2.8°C.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: -2.5 está más a la derecha que -2.8 en la recta numérica, así que -2.5 > -2.8."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "-6.1 es menor que -6.05.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: -6.10 está más a la izquierda que -6.05, así que -6.1 < -6.05."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El número menor entre -3.2, -3.25 y -3.1 es ___.",
+          "respuestaCorrecta": "-3.25",
+          "retroalimentacion": "-3.25 está más a la izquierda que -3.2 y -3.1, así que es el menor."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Entre -12.5°C y -12.05°C, la temperatura más fría es ___ °C.",
+          "respuestaCorrecta": "-12.5",
+          "retroalimentacion": "-12.5 está más a la izquierda que -12.05, así que es la temperatura más fría."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un termómetro científico registra estas temperaturas en un experimento: -0.8°C, -0.75°C, -0.9°C. ¿Cuál es la más fría?",
+          "opciones": [
+            "-0.9°C",
+            "-0.8°C",
+            "-0.75°C",
+            "Las tres son iguales"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "-0.9°C está más a la izquierda en la recta numérica que las otras dos, así que es la más fría."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada número decimal con signo con su posición al ordenarlos.",
+          "columnaA": [
+            "-7.4",
+            "-7.04",
+            "-6.9"
+          ],
+          "columnaB": [
+            "Es el menor",
+            "Es intermedio",
+            "Es el mayor"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "Ordenados de menor a mayor: -7.4 < -7.04 < -6.9."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En una cuenta bancaria, un saldo de -$120.00 representa una deuda mayor que uno de -$95.50.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: -120.00 < -95.50, así que la deuda de -$120.00 es mayor."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de las siguientes listas de saldos está ordenada de menor a mayor (de más deuda a más saldo a favor)?",
+          "opciones": [
+            "-85.40, -20.15, 0, 32.60",
+            "32.60, 0, -20.15, -85.40",
+            "-20.15, -85.40, 0, 32.60",
+            "0, -20.15, -85.40, 32.60"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "De menor a mayor: -85.40 < -20.15 < 0 < 32.60."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El número mayor entre -0.3, -0.03 y -3.0 es ___.",
+          "respuestaCorrecta": "-0.03",
+          "retroalimentacion": "-0.03 es el que está más cerca del cero (más a la derecha), así que es el mayor de los tres."
+        }
+      ]
+    },
+    {
+      "numero": "2.6",
+      "nivelEtiqueta": "Nivel 6 de 10 · Aplicación avanzada",
+      "titulo": "Valor absoluto: la distancia de un número al cero",
+      "explicacion": "Ya sabes decidir cuál de dos números con signo es mayor. Ahora aprenderás una idea distinta pero relacionada: el valor absoluto, que mide qué tan lejos está un número del cero, sin importar si está a la izquierda o a la derecha. Se escribe entre dos barras: |x|. Esto es útil cuando lo que importa no es 'quién es mayor' sino 'quién está más lejos', por ejemplo, qué tan grande es una deuda o qué tan profundo está un buzo.",
+      "formula": "|x| es la distancia de x al cero. Si x es positivo o cero, |x| = x. Si x es negativo, |x| = −x (su opuesto, siempre positivo). Ejemplo: |−7| = 7 y |7| = 7.",
+      "ejemplos": [
+        "|−15| = 15, porque -15 está a 15 unidades de distancia del cero.",
+        "Comparar |−4| y |3|: |−4| = 4 y |3| = 3; aunque -4 < 3 como números con signo, |−4| > |3| porque -4 está más lejos del cero que 3."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "llenar_frase",
+          "frase": "|−15| = ___",
+          "respuestaCorrecta": "15",
+          "retroalimentacion": "-15 está a 15 unidades del cero, así que |−15| = 15."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "|22| = ___",
+          "respuestaCorrecta": "22",
+          "retroalimentacion": "22 ya es positivo, así que su valor absoluto es el mismo número: |22| = 22."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "|−7| es igual a |7|.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: ambos están a 7 unidades del cero, así que |−7| = |7| = 7."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "|−9| es mayor que |4|.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: |−9| = 9 y |4| = 4; 9 > 4."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de estos números tiene el mayor valor absoluto: -12, 8, -5, 10?",
+          "opciones": [
+            "-12",
+            "8",
+            "-5",
+            "10"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "|−12| = 12, que es mayor que |8| = 8, |−5| = 5 y |10| = 10."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un buzo está a -18 m y un dron vuela a 15 m del nivel del mar. Sin importar la dirección, ¿cuál está más lejos del nivel del mar?",
+          "opciones": [
+            "El buzo",
+            "El dron",
+            "Están a la misma distancia",
+            "No se puede saber"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "|−18| = 18 y |15| = 15; como 18 > 15, el buzo está más lejos del nivel del mar."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Aunque -20 es menor que 5, el valor absoluto de -20 es mayor que el valor absoluto de 5.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: -20 < 5 como números, pero |−20| = 20 es mayor que |5| = 5."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El número negativo cuyo valor absoluto es 14 es ___.",
+          "respuestaCorrecta": "-14",
+          "retroalimentacion": "|−14| = 14, y -14 es el único número negativo con esa distancia al cero."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada número con su valor absoluto.",
+          "columnaA": [
+            "-11",
+            "6",
+            "-3"
+          ],
+          "columnaB": [
+            "3",
+            "11",
+            "6"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "|−11| = 11, |6| = 6, |−3| = 3."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una fábrica se mide la desviación de tres piezas respecto a la medida ideal (0 mm): pieza A: -0.6 mm, pieza B: 0.4 mm, pieza C: -0.9 mm. ¿Cuál pieza tiene mayor desviación en valor absoluto (está más lejos de la medida ideal)?",
+          "opciones": [
+            "Pieza A",
+            "Pieza B",
+            "Pieza C",
+            "Las tres tienen la misma desviación"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "|−0.9| = 0.9 es mayor que |−0.6| = 0.6 y |0.4| = 0.4, así que la pieza C tiene la mayor desviación."
+        }
+      ]
+    },
+    {
+      "numero": "2.7",
+      "nivelEtiqueta": "Nivel 7 de 10 · Reto",
+      "titulo": "Distancia entre dos puntos en la recta numérica",
+      "explicacion": "Ya sabes medir qué tan lejos está un número del cero (valor absoluto). Ahora vas a medir la distancia entre DOS números cualesquiera con signo, estén o no del mismo lado del cero. Para eso, cuentas las unidades que los separan en la recta numérica: si están en lados opuestos, sumas las distancias de cada uno al cero; si están del mismo lado, restas sus distancias al cero.",
+      "formula": "La distancia entre dos números a y b en la recta numérica siempre se expresa como un valor positivo: distancia = |a − b| (equivale a contar las unidades que los separan, sin importar el orden).",
+      "ejemplos": [
+        "Distancia entre -3 y 4: -3 está a 3 unidades del cero y 4 está a 4 unidades del cero, y están en lados opuestos, así que la distancia total es 3 + 4 = 7 unidades.",
+        "Distancia entre -8 y -2: ambos están del lado negativo; la distancia es la resta de sus posiciones: 8 − 2 = 6 unidades."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "llenar_frase",
+          "frase": "La distancia entre -5 y 3 en la recta numérica es ___ unidades.",
+          "respuestaCorrecta": "8",
+          "retroalimentacion": "-5 está a 5 unidades del cero y 3 está a 3 unidades, en lados opuestos: 5 + 3 = 8 unidades."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La distancia entre -9 y -4 en la recta numérica es ___ unidades.",
+          "respuestaCorrecta": "5",
+          "retroalimentacion": "Ambos están del lado negativo: la distancia es 9 − 4 = 5 unidades."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Dos excursionistas se ubican en la recta numérica: uno en -12 y otro en 7. ¿Qué distancia los separa?",
+          "opciones": [
+            "19 unidades",
+            "5 unidades",
+            "17 unidades",
+            "12 unidades"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "-12 está a 12 unidades del cero y 7 a 7 unidades, en lados opuestos: 12 + 7 = 19 unidades."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La distancia entre -6 y 6 es 0.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: -6 y 6 son números distintos; la distancia entre ellos es 6 + 6 = 12 unidades."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La distancia entre -14 y -14 es 0.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: son el mismo punto en la recta numérica, así que la distancia es 0."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un buzo está a -25 m y una gaviota vuela a 10 m sobre el nivel del mar. ¿Qué distancia vertical los separa?",
+          "opciones": [
+            "35 m",
+            "15 m",
+            "25 m",
+            "10 m"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "El buzo está a 25 m del nivel del mar y la gaviota a 10 m, en lados opuestos: 25 + 10 = 35 m."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Dos ciudades registran temperaturas de -8°C y 15°C. La diferencia (distancia) entre ambas temperaturas es ___ °C.",
+          "respuestaCorrecta": "23",
+          "retroalimentacion": "-8°C está a 8 unidades del cero y 15°C a 15 unidades, en lados opuestos: 8 + 15 = 23°C."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada par de números con la distancia que los separa en la recta numérica.",
+          "columnaA": [
+            "-3 y 10",
+            "-9 y -2",
+            "-15 y 0"
+          ],
+          "columnaB": [
+            "15",
+            "7",
+            "13"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "Distancia entre -3 y 10: 13. Entre -9 y -2: 7. Entre -15 y 0: 15."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál par de números tiene la MAYOR distancia entre sí en la recta numérica: (-4 y 9), (-15 y -1), o (-6 y 6)?",
+          "opciones": [
+            "-4 y 9",
+            "-15 y -1",
+            "-6 y 6",
+            "Las tres distancias son iguales"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Distancia entre -4 y 9: 13. Entre -15 y -1: 14. Entre -6 y 6: 12. La mayor es 14, del par -15 y -1."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La distancia entre -20 y 5 es mayor que la distancia entre -20 y -5.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: distancia entre -20 y 5 es 25; distancia entre -20 y -5 es 15. 25 > 15."
+        }
+      ]
+    },
+    {
+      "numero": "2.8",
+      "nivelEtiqueta": "Nivel 8 de 10 · Reto avanzado",
+      "titulo": "¿Cuántos números enteros hay entre dos valores con signo?",
+      "explicacion": "Además de medir la distancia total entre dos números, ahora vas a contar CUÁNTOS números enteros caben estrictamente entre ellos (sin incluir los extremos). Esto exige recorrer mentalmente la recta numérica del menor al mayor y contar uno por uno, aplicando todo lo que sabes sobre el orden de los números con signo.",
+      "formula": "Cantidad de enteros estrictamente entre a y b (con a menor que b) = b − a − 1.",
+      "ejemplos": [
+        "Entre -3 y 4 (sin incluir los extremos): -2, -1, 0, 1, 2, 3 → son 6 enteros. Verificación: 4 − (−3) − 1 = 6.",
+        "Entre -10 y -6 (sin incluir los extremos): -9, -8, -7 → son 3 enteros. Verificación: −6 − (−10) − 1 = 3."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "llenar_frase",
+          "frase": "¿Cuántos números enteros hay estrictamente entre -6 y 2? ___",
+          "respuestaCorrecta": "7",
+          "retroalimentacion": "Los enteros son -5, -4, -3, -2, -1, 0, 1: son 7 en total."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "¿Cuántos números enteros hay estrictamente entre -15 y -9? ___",
+          "respuestaCorrecta": "5",
+          "retroalimentacion": "Los enteros son -14, -13, -12, -11, -10: son 5 en total."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuántos números enteros hay entre -4 y 4, sin contar los extremos?",
+          "opciones": [
+            "7",
+            "8",
+            "9",
+            "6"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Los enteros son -3, -2, -1, 0, 1, 2, 3: son 7 en total."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Entre -2 y 3 (sin incluir los extremos) hay 4 números enteros.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: -1, 0, 1, 2 son 4 números enteros."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Entre -20 y -15 (sin incluir los extremos) hay 5 números enteros.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: los enteros son -19, -18, -17, -16, que son solo 4, no 5."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En un edificio con sótanos, los niveles van del -5 (sótano) al 3 (piso), pasando por todos los enteros. ¿Cuántos niveles hay estrictamente entre el -5 y el 3?",
+          "opciones": [
+            "7",
+            "8",
+            "6",
+            "9"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Los niveles intermedios son -4, -3, -2, -1, 0, 1, 2: son 7 en total."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si contamos los números enteros entre -30 y -22 (sin incluir los extremos), obtenemos ___ números.",
+          "respuestaCorrecta": "7",
+          "retroalimentacion": "Los enteros son -29, -28, -27, -26, -25, -24, -23: son 7 en total."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una tabla de temperaturas registradas cada grado entero muestra valores posibles entre -9°C y -3°C (sin incluir esos dos extremos). ¿Cuántos valores enteros son posibles?",
+          "opciones": [
+            "5",
+            "6",
+            "4",
+            "7"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Los valores posibles son -8, -7, -6, -5, -4°C: son 5 en total."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada par de números con la cantidad de enteros que hay estrictamente entre ellos.",
+          "columnaA": [
+            "-5 y 5",
+            "-12 y -8",
+            "-1 y 4"
+          ],
+          "columnaB": [
+            "4",
+            "9",
+            "3"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "Entre -5 y 5 hay 9 enteros; entre -12 y -8 hay 3 enteros; entre -1 y 4 hay 4 enteros."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Entre -1 y 1 (sin incluir los extremos) el único número entero es el 0.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: el único entero estrictamente entre -1 y 1 es el 0."
+        }
+      ]
+    },
+    {
+      "numero": "2.9",
+      "nivelEtiqueta": "Nivel 9 de 10 · Integración",
+      "titulo": "Integrando orden, valor absoluto y distancia en problemas reales",
+      "explicacion": "Es momento de combinar todo lo aprendido: ordenar listas, calcular valor absoluto y medir distancias entre números con signo, dentro de un mismo problema real con varios datos. Muchas decisiones (quién debe más, quién está más lejos de la superficie, quién ganó una competencia) requieren aplicar más de una de estas herramientas en el mismo análisis.",
+      "ejemplos": [
+        "Cuatro cuentas bancarias tienen los saldos -320, 150, -85 y 0. Ordenadas de menor a mayor: -320, -85, 0, 150. Además, |−320| = 320 es el mayor valor absoluto de todos, así que la cuenta de -320 tuvo el movimiento más grande.",
+        "Tres ciudades registran mínimas de -14°C, -9°C y 3°C. La diferencia entre la más fría (-14°C) y la más caliente (3°C) es |−14 − 3| = 17°C."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Las temperaturas mínimas de 4 ciudades son: -11°C, 6°C, -3°C y -18°C. ¿Cuál es la diferencia entre la ciudad más fría y la más caliente?",
+          "opciones": [
+            "24°C",
+            "17°C",
+            "9°C",
+            "5°C"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "La más fría es -18°C y la más caliente es 6°C; la diferencia es |−18 − 6| = 24°C."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "De las cuentas -230, -85, 40 y -410, la que representa la MAYOR deuda es ___.",
+          "respuestaCorrecta": "-410",
+          "retroalimentacion": "-410 es el número más negativo de la lista, así que representa la mayor deuda."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En la lista de saldos -230, -85, 40 y -410, la cuenta con el MAYOR movimiento en valor absoluto es la de -85.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: |−410| = 410 es el mayor valor absoluto de la lista, no |−85| = 85."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En un torneo de golf, gana quien tiene el MENOR resultado respecto al par. Los resultados son: Jugador A: -4, Jugador B: 2, Jugador C: -7, Jugador D: 0. ¿Quién ganó?",
+          "opciones": [
+            "Jugador C",
+            "Jugador A",
+            "Jugador D",
+            "Jugador B"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "-7 es el menor de los cuatro resultados, así que el Jugador C ganó."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En el torneo de golf anterior (A: -4, B: 2, C: -7, D: 0), el jugador en último lugar (el peor resultado) es el Jugador ___.",
+          "respuestaCorrecta": "B",
+          "retroalimentacion": "2 es el mayor de los cuatro resultados, así que el Jugador B quedó en último lugar."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona a cada jugador de golf con su posición en la clasificación final (1er lugar = mejor resultado, el menor número).",
+          "columnaA": [
+            "Jugador A (-4)",
+            "Jugador B (2)",
+            "Jugador C (-7)",
+            "Jugador D (0)"
+          ],
+          "columnaB": [
+            "1er lugar",
+            "2do lugar",
+            "3er lugar",
+            "4to lugar"
+          ],
+          "parejasCorrectas": [
+            1,
+            3,
+            0,
+            2
+          ],
+          "retroalimentacion": "De mejor a peor: C (-7) 1°, A (-4) 2°, D (0) 3°, B (2) 4°."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Cuatro submarinos están en las profundidades -220 m, -85 m, -310 m y -150 m respecto al nivel del mar. ¿Cuál está más cerca de la superficie?",
+          "opciones": [
+            "El de -85 m",
+            "El de -150 m",
+            "El de -220 m",
+            "El de -310 m"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "|−85| = 85 es el menor valor absoluto de la lista, así que ese submarino está más cerca de la superficie."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "De los submarinos anteriores (-220 m, -85 m, -310 m, -150 m), el que está más profundo es el de -310 m.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: -310 es el número más negativo de la lista, así que es el más profundo."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La distancia entre el submarino más profundo (-310 m) y el más cercano a la superficie (-85 m) es ___ m.",
+          "respuestaCorrecta": "225",
+          "retroalimentacion": "La distancia es |−310 − (−85)| = 225 m."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Se tiene la lista ordenada de menor a mayor -310, -220, -150, -85. Si se agrega un dron a 40 m de altura, ¿en qué posición de la lista ordenada de menor a mayor quedaría?",
+          "opciones": [
+            "5ta (última)",
+            "1era",
+            "3era",
+            "2da"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "40 es mayor que todos los demás valores (-310, -220, -150, -85), así que queda en la última posición: 5ta."
+        }
+      ]
+    },
+    {
+      "numero": "2.10",
+      "nivelEtiqueta": "Nivel 10 de 10 · Dominio",
+      "titulo": "Dominio: rankings deportivos, financieros y científicos con números con signo",
+      "explicacion": "Esta es la lección más exigente del PDA: combinarás orden, valor absoluto, distancia y conteo de enteros entre dos valores, usando decimales y varios pasos por problema, en contextos deportivos, financieros y científicos. Cada reactivo requiere identificar primero qué herramienta usar (¿orden?, ¿valor absoluto?, ¿distancia?) antes de calcular.",
+      "ejemplos": [
+        "En un torneo de golf de precisión, cinco jugadores obtienen (respecto al par): -6.5, 3.0, -2.25, 0 y -9.75. Ordenados de mejor a peor (de menor a mayor): -9.75, -6.5, -2.25, 0, 3.0. La diferencia entre el mejor y el peor resultado es |−9.75 − 3.0| = 12.75.",
+        "Un buzo desciende hasta -18.5 m y un dron vuela a 12.25 m. La distancia total entre ambos es |−18.5 − 12.25| = 30.75 m."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "llenar_frase",
+          "frase": "En un torneo, los puntajes respecto al par son -6.25, -6.5 y -5.75. El campeón (menor puntaje) tiene un resultado de ___.",
+          "respuestaCorrecta": "-6.5",
+          "retroalimentacion": "-6.5 es el menor de los tres puntajes, así que es el resultado del campeón."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Los saldos de 4 empresas (en millones de pesos) son: -12.75, -12.5, 3.2 y -20.4. ¿Cuál empresa tiene la mayor deuda?",
+          "opciones": [
+            "La de -20.4",
+            "La de -12.75",
+            "La de -12.5",
+            "La de 3.2"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "-20.4 es el número más negativo de la lista, así que representa la mayor deuda."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En la lista -12.75, -12.5, 3.2 y -20.4, la empresa con saldo -12.5 tiene mayor valor absoluto de movimiento que la de -12.75.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: |−12.5| = 12.5 es menor que |−12.75| = 12.75."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Con los saldos de la pregunta anterior, la distancia entre -20.4 (mayor deuda) y 3.2 (mayor saldo a favor) es ___ millones.",
+          "respuestaCorrecta": "23.6",
+          "retroalimentacion": "La distancia es |−20.4 − 3.2| = 23.6 millones."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Ordena de mayor a menor los saldos -12.75, -12.5, 3.2 y -20.4.",
+          "opciones": [
+            "3.2, -12.5, -12.75, -20.4",
+            "-20.4, -12.75, -12.5, 3.2",
+            "3.2, -12.75, -12.5, -20.4",
+            "-12.5, -12.75, 3.2, -20.4"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "De mayor a menor: 3.2 > -12.5 > -12.75 > -20.4."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "¿Cuántos números enteros hay estrictamente entre -13 y -7? ___",
+          "respuestaCorrecta": "5",
+          "retroalimentacion": "Los enteros son -12, -11, -10, -9, -8: son 5 en total."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un buzo científico registra profundidades de -45.6 m, -38.25 m y -52.1 m en tres inmersiones. ¿Cuál es la diferencia entre la inmersión más profunda y la menos profunda?",
+          "opciones": [
+            "13.85 m",
+            "6.5 m",
+            "7.35 m",
+            "90.35 m"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "La más profunda es -52.1 m y la menos profunda es -38.25 m; la diferencia es |−52.1 − (−38.25)| = 13.85 m."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En el caso anterior, la inmersión de -45.6 m tiene mayor valor absoluto que la de -38.25 m.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: |−45.6| = 45.6 es mayor que |−38.25| = 38.25."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada resultado deportivo con su posición en la clasificación final (gana quien tiene el menor número respecto al par).",
+          "columnaA": [
+            "-9.5",
+            "-9.05",
+            "-10.0",
+            "2.5"
+          ],
+          "columnaB": [
+            "3er lugar",
+            "1er lugar",
+            "4to lugar (último)",
+            "2do lugar"
+          ],
+          "parejasCorrectas": [
+            3,
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "De mejor a peor: -10.0 (1°), -9.5 (2°), -9.05 (3°), 2.5 (4°, último)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Integrando todo lo aprendido: un dron vuela a 8.4 m, un buzo está a -15.6 m y un submarino a -31.2 m, todos respecto al nivel del mar. ¿Cuál de las siguientes afirmaciones es verdadera?",
+          "opciones": [
+            "El submarino tiene el mayor valor absoluto y está más lejos del nivel del mar que los otros dos",
+            "El dron y el buzo están a la misma distancia del nivel del mar",
+            "El buzo está más lejos del nivel del mar que el submarino",
+            "El submarino tiene el menor valor absoluto de los tres"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "|−31.2| = 31.2 es mayor que |−15.6| = 15.6 y |8.4| = 8.4, así que el submarino está más lejos del nivel del mar."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Una cueva a -60 m es menos profunda que una a -45 m.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Falso: -60 está más lejos del 0 hacia abajo que -45, así que la cueva a -60 m es MÁS profunda, no menos."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "-9 es mayor que -3.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Falso: -9 < -3 en la recta numérica, porque -9 está más a la izquierda."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "El número menor entre -14, 8, -6, 11 es ___.",
+      "respuestaCorrecta": "-14",
+      "retroalimentacion": "-14 está más a la izquierda en la recta numérica, así que es el menor."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "El número mayor entre -5, -19, 3, -1 es ___.",
+      "respuestaCorrecta": "3",
+      "retroalimentacion": "3 es el único positivo de la lista, así que está más a la derecha y es el mayor."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Un excursionista está en un mirador a 30 m sobre el nivel del río, y un espeleólogo está en una cueva a -18 m del mismo nivel. ¿Quién está más lejos del nivel del río (del 0)?",
+      "opciones": [
+        "El excursionista (mirador)",
+        "El espeleólogo (cueva)",
+        "Ambos están a la misma distancia",
+        "No se puede saber"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "El mirador está a 30 m de distancia del 0, y la cueva a 18 m; 30 es mayor que 18, así que el excursionista está más lejos."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "-25 es menor que -18.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: -25 < -18, porque -25 está más a la izquierda en la recta numérica."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Una torre a 45 m está más lejos del suelo (0) que un sótano a -30 m.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: la torre está a 45 m del 0 y el sótano a 30 m; 45 es mayor que 30."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "El número mayor entre -8, -21, 6, -15 es ___.",
+      "respuestaCorrecta": "6",
+      "retroalimentacion": "6 es el único positivo de la lista, así que está más a la derecha y es el mayor."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "El número menor entre 9, -17, 2, -4 es ___.",
+      "respuestaCorrecta": "-17",
+      "retroalimentacion": "-17 está más a la izquierda en la recta numérica, así que es el menor."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Un globo aerostático vuela a 55 m de altura y un buzo está a -40 m de profundidad, ambos respecto al nivel del suelo/mar. ¿Quién está más lejos del nivel de referencia (del 0)?",
+      "opciones": [
+        "El globo aerostático",
+        "El buzo",
+        "Ambos están a la misma distancia",
+        "No se puede saber"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "El globo está a 55 m del 0 y el buzo a 40 m; 55 es mayor que 40, así que el globo está más lejos."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "La lista -6, -2, 0, 5 está ordenada de menor a mayor.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: -6 < -2 < 0 < 5."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Ordenados de menor a mayor, el segundo número de la lista 8, -13, 0, -4 es ___.",
+      "respuestaCorrecta": "-4",
+      "retroalimentacion": "De menor a mayor: -13, -4, 0, 8. El segundo lugar es -4."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál de las siguientes listas está ordenada de mayor a menor?",
+      "opciones": [
+        "7, -1, -9, -14",
+        "-14, -9, -1, 7",
+        "-1, 7, -9, -14",
+        "7, -9, -1, -14"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "De mayor a menor: 7 > -1 > -9 > -14."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Ordena de menor a mayor: -12, 6, -3, 1",
+      "opciones": [
+        "-12, -3, 1, 6",
+        "6, 1, -3, -12",
+        "-3, -12, 1, 6",
+        "1, -3, -12, 6"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "De menor a mayor: -12 < -3 < 1 < 6."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada altura (respecto al nivel del mar) con su posición relativa entre las tres.",
+      "columnaA": [
+        "-6 m",
+        "5 m",
+        "-1 m"
+      ],
+      "columnaB": [
+        "Es el más alto",
+        "Es el más bajo",
+        "Es intermedio"
+      ],
+      "parejasCorrectas": [
+        1,
+        0,
+        2
+      ],
+      "retroalimentacion": "De más bajo a más alto: -6 m < -1 m < 5 m."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "La lista -9, -4, 0, 3 está ordenada de menor a mayor.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: -9 < -4 < 0 < 3."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Ordenados de menor a mayor, el tercer número de la lista 5, -12, 0, -3 es ___.",
+      "respuestaCorrecta": "0",
+      "retroalimentacion": "De menor a mayor: -12, -3, 0, 5. El tercer lugar es 0."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál de las siguientes listas está ordenada de mayor a menor?",
+      "opciones": [
+        "9, 2, -4, -11",
+        "-11, -4, 2, 9",
+        "2, 9, -4, -11",
+        "9, -4, 2, -11"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "De mayor a menor: 9 > 2 > -4 > -11."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Ordena de menor a mayor: -8, 5, -1, 3",
+      "opciones": [
+        "-8, -1, 3, 5",
+        "5, 3, -1, -8",
+        "-1, -8, 3, 5",
+        "3, -1, -8, 5"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "De menor a mayor: -8 < -1 < 3 < 5."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada profundidad (respecto al nivel del mar) con su posición relativa entre las tres.",
+      "columnaA": [
+        "-9 m",
+        "-2 m",
+        "4 m"
+      ],
+      "columnaB": [
+        "Es la más profunda",
+        "Es la más alta",
+        "Es intermedia"
+      ],
+      "parejasCorrectas": [
+        0,
+        2,
+        1
+      ],
+      "retroalimentacion": "De más profunda a más alta: -9 m < -2 m < 4 m."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "-17 es menor que -11.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: -17 < -11, porque -17 está más a la izquierda en la recta numérica."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "La lista -2, 9, -15, 4 ordenada de mayor a menor queda: 9, 4, -2, -15.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: de mayor a menor, 9 > 4 > -2 > -15."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "El número mayor entre -22, -19, -25, -30 es ___.",
+      "respuestaCorrecta": "-19",
+      "retroalimentacion": "Entre números negativos, el mayor es el que está más cerca del 0: -19 es el menos negativo, así que es el mayor."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Un dron vuela a 12 m y un buzo está a -27 m. ¿Cuál está más cerca del nivel del mar (del 0)?",
+      "opciones": [
+        "El dron",
+        "El buzo",
+        "Ambos están a la misma distancia",
+        "No se puede saber"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "El dron está a 12 m del 0 y el buzo a 27 m; 12 es menor que 27, así que el dron está más cerca."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada posición (respecto al nivel del mar) con su descripción.",
+      "columnaA": [
+        "-25 m",
+        "10 m",
+        "-3 m"
+      ],
+      "columnaB": [
+        "Es la más profunda",
+        "Es la más alta",
+        "Es una posición intermedia"
+      ],
+      "parejasCorrectas": [
+        0,
+        1,
+        2
+      ],
+      "retroalimentacion": "-25 m es la más profunda; -3 m es una posición intermedia; 10 m es la más alta."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "-33 es menor que -28.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: -33 < -28, porque -33 está más a la izquierda en la recta numérica."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "La lista -7, 6, -19, 1 ordenada de mayor a menor queda: 6, 1, -7, -19.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: de mayor a menor, 6 > 1 > -7 > -19."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "El número mayor entre -31, -27, -36, -29 es ___.",
+      "respuestaCorrecta": "-27",
+      "retroalimentacion": "Entre números negativos, el mayor es el que está más cerca del 0: -27 es el menos negativo."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Un helicóptero vuela a 18 m y un submarino está a -33 m, ambos respecto al nivel del mar. ¿Cuál está más cerca del nivel del mar (del 0)?",
+      "opciones": [
+        "El helicóptero",
+        "El submarino",
+        "Ambos están a la misma distancia",
+        "No se puede saber"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "El helicóptero está a 18 m del 0 y el submarino a 33 m; 18 es menor que 33, así que el helicóptero está más cerca."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada posición (respecto al nivel del mar) con su descripción.",
+      "columnaA": [
+        "-18 m",
+        "7 m",
+        "-40 m"
+      ],
+      "columnaB": [
+        "Es una posición intermedia",
+        "Es la más alta",
+        "Es la más profunda"
+      ],
+      "parejasCorrectas": [
+        0,
+        1,
+        2
+      ],
+      "retroalimentacion": "-40 m es la más profunda; -18 m es una posición intermedia; 7 m es la más alta."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "-15 es mayor que -20.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: -15 está más a la derecha en la recta numérica que -20, así que -15 > -20."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Un dron vuela a 25 m y un buzo está a -10 m. ¿Cuál está más lejos del nivel del mar (0)?",
+      "opciones": [
+        "El dron (más lejos)",
+        "El buzo (más lejos)",
+        "Ambos están a la misma distancia",
+        "No se puede saber"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "El dron está a 25 m de distancia del 0, y el buzo a 10 m; 25 es mayor que 10, así que el dron está más lejos."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Ordenados de mayor a menor, el segundo número de la lista 6, -3, 0, -8 es ___.",
+      "respuestaCorrecta": "0",
+      "retroalimentacion": "De mayor a menor: 6, 0, -3, -8. El segundo lugar es el 0."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada temperatura con su posición relativa entre las tres.",
+      "columnaA": [
+        "-12°C",
+        "-1°C",
+        "4°C"
+      ],
+      "columnaB": [
+        "Es la más caliente",
+        "Es templada, bajo cero",
+        "Es la más fría"
+      ],
+      "parejasCorrectas": [
+        2,
+        1,
+        0
+      ],
+      "retroalimentacion": "-12°C es la más fría; -1°C es templada bajo cero; 4°C es la más caliente."
+    }
+  ]
+}

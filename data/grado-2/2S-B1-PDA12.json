@@ -1,0 +1,1314 @@
+{
+  "id": "2S-B1-PDA12",
+  "grado": "2°",
+  "trimestre": "3",
+  "numero": 12,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Rango y Comparación de Datos",
+  "contenido": "Interpretación de la información a través de medidas de tendencia central y de dispersión.",
+  "pda": "Calcula el rango de un conjunto de datos y compara conjuntos usando medidas de tendencia central y dispersión.",
+  "problematizacion": {
+    "contexto": "En 2°A y 2°B se aplicó el mismo examen de Ciencias. El grupo 2°A obtuvo las calificaciones 7, 7, 7, 8, 8 y el grupo 2°B obtuvo 5, 5, 8, 9, 10. Cuando el profesor calculó el promedio de cada grupo, descubrió que ambos grupos tuvieron exactamente la misma media: 7.4.",
+    "pregunta": "Si ambos grupos tienen el mismo promedio, ¿cómo puedes saber cuál de los dos tuvo calificaciones más parejas y cuál tuvo calificaciones más dispersas?"
+  },
+  "subtemas": [
+    {
+      "numero": "12.1",
+      "titulo": "Rango",
+      "explicacion": "El rango es la medida de dispersión más simple: nos dice qué tan 'estirados' están los datos, del valor más bajo al más alto. Se calcula restando el dato mínimo al dato máximo. Un rango grande significa que los datos están muy dispersos (muy separados entre sí); un rango pequeño significa que los datos están más juntos, es decir, son más parejos.",
+      "formula": "Rango = valor máximo − valor mínimo",
+      "ejemplos": [
+        "Las calificaciones del grupo 2°A en un examen fueron 7, 7, 7, 8, 8. El valor máximo es 8 y el mínimo es 7, así que el rango es 8 − 7 = 1: calificaciones muy parejas.",
+        "Las temperaturas de una ciudad durante la semana fueron 18, 19, 20, 28, 30 °C. El rango es 30 − 18 = 12 °C: una semana con temperaturas bastante variables."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el rango del conjunto de datos 7, 9, 12, 15, 18?",
+          "opciones": [
+            "11",
+            "18",
+            "7",
+            "12"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Rango = máximo − mínimo = 18 − 7 = 11."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El rango del conjunto 4, 4, 5, 6, 7 es 3.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: rango = 7 − 4 = 3."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El rango del conjunto de datos 10, 25, 30, 42, 50 es ___.",
+          "respuestaCorrecta": "40",
+          "retroalimentacion": "Rango = 50 − 10 = 40."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El rango de un conjunto de datos donde todos los valores son iguales, como 3, 3, 3, 3, 3, es 0.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: si el máximo y el mínimo son el mismo valor (3), el rango es 3 − 3 = 0: no hay dispersión."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Los precios (en pesos) de 5 artículos son 50, 52, 55, 58, 60. ¿Cuál es el rango de precios?",
+          "opciones": [
+            "10",
+            "60",
+            "50",
+            "8"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Rango = 60 − 50 = 10."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El rango del conjunto de datos 6, 10, 14, 18, 22 es ___.",
+          "respuestaCorrecta": "16",
+          "retroalimentacion": "Rango = 22 − 6 = 16."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El rango del conjunto 20, 21, 22, 23, 24 es 4.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: rango = 24 − 20 = 4."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un vendedor registra sus ventas diarias (en miles de pesos): 5, 15, 25, 35, 45. ¿Cuál es el rango de sus ventas?",
+          "opciones": [
+            "40",
+            "45",
+            "5",
+            "25"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Rango = 45 − 5 = 40."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El rango del conjunto 30, 31, 32, 33, 34 es 5.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: rango = 34 − 30 = 4, no 5."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada conjunto de datos con su rango.",
+          "columnaA": [
+            "9, 13, 16, 20, 24",
+            "7, 7, 8, 9, 10",
+            "11, 11, 11, 15, 19"
+          ],
+          "columnaB": [
+            "3",
+            "8",
+            "15"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "9,13,16,20,24: 24−9=15. 7,7,8,9,10: 10−7=3. 11,11,11,15,19: 19−11=8."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 1 de 10 · Introductorio"
+    },
+    {
+      "numero": "12.2",
+      "titulo": "Comparar dos conjuntos con media y rango",
+      "explicacion": "Dos conjuntos de datos pueden tener exactamente la misma media y aun así comportarse muy diferente: uno puede tener sus datos muy juntos (parejo, rango pequeño) y el otro muy separados (disperso, rango grande). Por eso la media sola no basta para describir un conjunto de datos: siempre conviene acompañarla del rango para saber qué tan pareja o dispersa es la información.",
+      "ejemplos": [
+        "Las calificaciones del grupo 2°A fueron 7,7,7,8,8 (media 7.4, rango 1) y las del grupo 2°B fueron 5,5,8,9,10 (media 7.4, rango 5). Ambos grupos tienen la misma media, pero 2°A tuvo calificaciones mucho más parejas.",
+        "La Ciudad Norte tuvo temperaturas 21,22,23,24,25 °C (media 23, rango 4) y la Ciudad Sur tuvo 18,19,20,28,30 °C (media 23, rango 12). Mismo promedio, pero el clima de Sur fue mucho más variable."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "llenar_frase",
+          "frase": "Los puntos del Equipo Rojo en 5 partidos fueron 11, 12, 13, 14, 15. La media de puntos del Equipo Rojo es ___.",
+          "respuestaCorrecta": "13",
+          "retroalimentacion": "Media = (11+12+13+14+15)/5 = 65/5 = 13."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Los puntos del Equipo Azul en 5 partidos fueron 8, 9, 10, 18, 20. La media de puntos del Equipo Azul es ___.",
+          "respuestaCorrecta": "13",
+          "retroalimentacion": "Media = (8+9+10+18+20)/5 = 65/5 = 13."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el rango de los puntos del Equipo Rojo (11, 12, 13, 14, 15)?",
+          "opciones": [
+            "4",
+            "15",
+            "11",
+            "26"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Rango = 15 − 11 = 4."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el rango de los puntos del Equipo Azul (8, 9, 10, 18, 20)?",
+          "opciones": [
+            "12",
+            "20",
+            "8",
+            "28"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Rango = 20 − 8 = 12."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El Equipo Rojo y el Equipo Azul tienen la misma media de puntos (13), pero como el Equipo Azul tiene un rango mayor (12 contra 4), sus resultados fueron más dispersos partido a partido.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: misma media, pero un rango mayor en el Equipo Azul significa más variación entre partidos."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El Grupo X ahorra (en pesos, por semana) 50, 50, 52, 53, 55 y el Grupo Y ahorra 30, 40, 40, 70, 80. Ambos grupos tienen la misma media de ahorro (52 pesos). ¿Cuál grupo ahorra de forma más pareja (menos dispersa)?",
+          "opciones": [
+            "Grupo X",
+            "Grupo Y",
+            "Ambos igual",
+            "No se puede saber"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Rango de X = 55−50=5; rango de Y = 80−30=50. El Grupo X es mucho más parejo."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El rango del ahorro semanal del Grupo Y (30, 40, 40, 70, 80) es ___ pesos.",
+          "respuestaCorrecta": "50",
+          "retroalimentacion": "Rango = 80 − 30 = 50."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La Ciudad Norte tuvo temperaturas 21, 22, 23, 24, 25 °C durante la semana y la Ciudad Sur tuvo 18, 19, 20, 28, 30 °C. Ambas ciudades tienen la misma temperatura promedio (23 °C), pero el clima de la Ciudad Sur fue más variable (mayor rango).",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Rango de Norte = 25−21=4; rango de Sur = 30−18=12. La Ciudad Sur fue más variable."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Si la Ciudad Norte tuvo un rango de temperatura de 4 °C durante la semana y la Ciudad Sur tuvo un rango de 12 °C, ¿cuál ciudad tuvo el clima más constante?",
+          "opciones": [
+            "Ciudad Norte",
+            "Ciudad Sur",
+            "Ambas igual",
+            "Falta información"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Un rango menor (4 °C) indica menos variación: la Ciudad Norte fue más constante."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada comparación con el grupo que resultó más disperso (mayor rango).",
+          "columnaA": [
+            "Grupo 2°A (7,7,7,8,8) vs Grupo 2°B (5,5,8,9,10), misma media",
+            "Equipo Rojo (11-15) vs Equipo Azul (8-20), misma media",
+            "Grupo X (50-55) vs Grupo Y (30-80), misma media"
+          ],
+          "columnaB": [
+            "Grupo Y",
+            "Grupo 2°B",
+            "Equipo Azul"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "2°B tiene rango 5 contra 1 de 2°A; Equipo Azul tiene rango 12 contra 4 de Rojo; Grupo Y tiene rango 50 contra 5 de X."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 2 de 10 · Intermedio"
+    },
+    {
+      "numero": "12.3",
+      "titulo": "Datos atípicos",
+      "explicacion": "Un dato atípico es un valor que está muy alejado del resto de los datos del conjunto. Como la media toma en cuenta el valor de todos los datos al sumarlos, un solo dato atípico puede 'jalar' la media mucho hacia arriba o hacia abajo, haciendo que ya no represente bien al grupo. La mediana, en cambio, solo depende del orden de los datos, así que casi no cambia cuando hay un dato atípico; por eso suele representar mejor al grupo típico cuando hay valores extremos.",
+      "ejemplos": [
+        "Los sueldos (en miles de pesos) de 5 empleados son 8, 9, 9, 10, 60. La media es 19.2, pero la mediana es 9: la mayoría de los empleados gana alrededor de 9, no 19.2. El sueldo de 60 es un dato atípico que sube mucho la media.",
+        "Las edades de un grupo son 13, 13, 14, 14, 90 (un error de captura). La media es 28.8 años, pero la mediana es 14: la mediana refleja mejor la edad típica del grupo."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "llenar_frase",
+          "frase": "Los sueldos (en miles de pesos) de 5 empleados son 8, 9, 9, 10, 60. La media de estos sueldos es ___.",
+          "respuestaCorrecta": "19.2",
+          "retroalimentacion": "Media = (8+9+9+10+60)/5 = 96/5 = 19.2."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La mediana de esos mismos sueldos (8, 9, 9, 10, 60) es ___.",
+          "respuestaCorrecta": "9",
+          "retroalimentacion": "Ordenados: 8,9,9,10,60. El valor de en medio es 9."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En el conjunto de sueldos 8, 9, 9, 10, 60, el valor 60 es un dato atípico porque está muy alejado del resto.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: los demás valores están entre 8 y 10, muy lejos de 60."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Considerando que hay un dato atípico (60) entre los sueldos 8, 9, 9, 10, 60, ¿qué medida representa mejor el sueldo típico de este grupo?",
+          "opciones": [
+            "La mediana (9)",
+            "La media (19.2)",
+            "El rango (52)",
+            "El valor máximo (60)"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "La mediana (9) no se ve afectada por el valor extremo; la media (19.2) sí sube mucho por el dato atípico."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un salón registra las edades de sus integrantes: 13, 13, 14, 14, 90 (el último dato es un error de captura). La media de las edades es ___.",
+          "respuestaCorrecta": "28.8",
+          "retroalimentacion": "Media = (13+13+14+14+90)/5 = 144/5 = 28.8."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La mediana de esas mismas edades (13, 13, 14, 14, 90) es ___.",
+          "respuestaCorrecta": "14",
+          "retroalimentacion": "Ordenadas: 13,13,14,14,90. El valor de en medio es 14."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En el conjunto de edades 13, 13, 14, 14, 90, la mediana (14) representa mejor la edad típica del grupo que la media (28.8).",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: casi todos tienen 13 o 14 años; el 90 es un error que solo afecta a la media."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Las calificaciones de un examen fueron 1, 7, 8, 8, 9 (un alumno no presentó parte del examen y sacó 1). ¿Cuál es la mediana de este conjunto?",
+          "opciones": [
+            "8",
+            "7",
+            "6.6",
+            "1"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Ordenadas: 1,7,8,8,9. El valor de en medio es 8."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En las calificaciones 1, 7, 8, 8, 9, la media (6.6) es menor que la mayoría de las calificaciones individuales del grupo, debido al dato atípico (1).",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 6.6 es menor que 7, 8, 8 y 9; solo el 1 es menor que la media. El dato atípico baja la media."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada conjunto de datos (con un dato atípico) con el valor de su mediana.",
+          "columnaA": [
+            "Ventas diarias: 20, 21, 22, 23, 95",
+            "Propinas: 29, 30, 31, 32, 120",
+            "Estaturas (cm): 150, 151, 152, 153, 190"
+          ],
+          "columnaB": [
+            "152",
+            "22",
+            "31"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "Ordenando cada conjunto, la mediana es: ventas=22, propinas=31, estaturas=152; el dato atípico (95, 120 o 190) casi no afecta a la mediana."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 3 de 10 · Avanzado"
+    },
+    {
+      "numero": "12.4",
+      "titulo": "Comparación combinada",
+      "explicacion": "Para comparar qué tan consistente es un grupo de datos frente a otro, conviene usar varias herramientas juntas: la media (para saber el promedio), el rango (para saber qué tan dispersos están) y revisar si hay algún dato atípico (que podría estar 'engañando' a la media). Un grupo es más consistente cuando su rango es pequeño y no tiene valores atípicos que distorsionen sus resultados.",
+      "ejemplos": [
+        "Grupo A obtuvo 69, 70, 71, 72, 73 en un examen (media 71, rango 4) y Grupo B obtuvo 50, 55, 60, 85, 90 (media 68, rango 40). Aunque las medias son parecidas, el Grupo A es mucho más consistente porque su rango es mucho menor."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Grupo A obtuvo las calificaciones 69, 70, 71, 72, 73 y Grupo B obtuvo 50, 55, 60, 85, 90 en el mismo examen. ¿Cuál grupo tuvo un desempeño más consistente (parejo)?",
+          "opciones": [
+            "Grupo A",
+            "Grupo B",
+            "Ambos iguales",
+            "No se puede saber"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Rango de A = 73−69=4; rango de B = 90−50=40. El Grupo A es mucho más consistente."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La media de las calificaciones del Grupo A (69, 70, 71, 72, 73) es ___.",
+          "respuestaCorrecta": "71",
+          "retroalimentacion": "Media = (69+70+71+72+73)/5 = 355/5 = 71."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La media de las calificaciones del Grupo B (50, 55, 60, 85, 90) es ___.",
+          "respuestaCorrecta": "68",
+          "retroalimentacion": "Media = (50+55+60+85+90)/5 = 340/5 = 68."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El Grupo A tiene mayor rango de calificaciones que el Grupo B.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: el rango del Grupo A es 4 y el del Grupo B es 40; el Grupo A tiene el rango menor."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Dos talleres midieron el tiempo (en minutos) que tardan sus alumnos en resolver un acertijo. Taller 1: 10, 10, 11, 11, 12; Taller 2: 5, 8, 9, 15, 18. Aunque sus medias son parecidas (10.8 y 11), ¿cuál taller tuvo tiempos más dispersos?",
+          "opciones": [
+            "Taller 1",
+            "Taller 2",
+            "Ambos igual",
+            "Falta información"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Rango Taller 1 = 12−10=2; rango Taller 2 = 18−5=13. El Taller 2 fue mucho más disperso."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El rango de los tiempos del Taller 2 (5, 8, 9, 15, 18) es ___ minutos.",
+          "respuestaCorrecta": "13",
+          "retroalimentacion": "Rango = 18 − 5 = 13."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si dos conjuntos de datos tienen medias parecidas pero uno tiene un rango mucho mayor, ese conjunto es más disperso (menos parejo).",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: un rango mayor siempre indica más dispersión entre los datos, sin importar qué tan parecidas sean las medias."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un conjunto de datos tiene un valor muy alejado del resto (un dato atípico). ¿Qué medida se ve MENOS afectada por ese dato atípico?",
+          "opciones": [
+            "La media",
+            "La mediana",
+            "El rango",
+            "El valor máximo"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "La mediana solo depende del orden de los datos, así que casi no cambia con un dato atípico; la media sí se ve muy afectada."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El rango únicamente toma en cuenta el valor máximo y el valor mínimo de un conjunto de datos, sin importar los valores intermedios.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: el rango se calcula solo con el máximo y el mínimo; ignora cómo se distribuyen los datos entre ellos."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación con la conclusión correcta.",
+          "columnaA": [
+            "Grupo A (69-73) vs Grupo B (50-90), misma tarea",
+            "Taller 1 (10-12 min) vs Taller 2 (5-18 min)",
+            "Un conjunto de datos con un valor muy alejado del resto"
+          ],
+          "columnaB": [
+            "La mediana representa mejor al grupo que la media",
+            "Taller 1 es más consistente",
+            "Grupo A es más consistente"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "Grupo A tiene menor rango que B; Taller 1 tiene menor rango que Taller 2; con un dato atípico, la mediana representa mejor al grupo que la media."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 4 de 10 · Síntesis"
+    },
+    {
+      "numero": "12.5",
+      "nivelEtiqueta": "Nivel 5 de 10 · Aplicación",
+      "titulo": "Desviación media: qué tan lejos están los datos del promedio",
+      "explicacion": "El rango solo usa dos datos (el máximo y el mínimo) e ignora todo lo demás. La desviación media, en cambio, toma en cuenta TODOS los datos: mide qué tan lejos está, en promedio, cada dato respecto a la media del conjunto. Para calcularla, a cada dato se le resta la media, se toma esa distancia sin signo (valor absoluto) y se promedian todas esas distancias. Entre más grande sea la desviación media, más dispersos están los datos alrededor del promedio.",
+      "formula": "Desviación media = (suma de |dato − media|) ÷ cantidad de datos",
+      "ejemplos": [
+        "Grupo 2°A: 7, 7, 7, 8, 8 (media 7.4). Distancias a la media: 0.4, 0.4, 0.4, 0.6, 0.6. Suma = 2.4. Desviación media = 2.4 ÷ 5 = 0.48.",
+        "Grupo 2°B: 5, 5, 8, 9, 10 (media 7.4). Distancias a la media: 2.4, 2.4, 0.6, 1.6, 2.6. Suma = 9.6. Desviación media = 9.6 ÷ 5 = 1.92. Como 1.92 es mucho mayor que 0.48, esto confirma que 2°B tuvo calificaciones más dispersas que 2°A, aunque ambos grupos tuvieran la misma media."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Las alturas de 5 plantas (en cm) son 20, 22, 24, 26, 28 (media 24). ¿Cuál es la desviación media de estas alturas?",
+          "opciones": [
+            "2.4",
+            "4.8",
+            "24",
+            "8"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Distancias a la media: 4, 2, 0, 2, 4. Suma = 12. Desviación media = 12 ÷ 5 = 2.4."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La desviación media del conjunto 6, 7, 8, 9, 10 es 1.2.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: media = 8; distancias 2,1,0,1,2; suma = 6; desviación media = 6 ÷ 5 = 1.2."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La desviación media de un conjunto de datos donde todos los valores son iguales, como 15, 15, 15, 15, 15, es ___.",
+          "respuestaCorrecta": "0",
+          "retroalimentacion": "Si todos los datos son iguales a la media, cada distancia es 0, así que la desviación media también es 0."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El equipo Halcones anotó 3, 5, 5, 7, 10 puntos en 5 partidos (media 6) y el equipo Águilas anotó 4, 5, 6, 7, 8 puntos (media 6). ¿Cuál equipo tuvo una desviación media MENOR (más consistente)?",
+          "opciones": [
+            "Águilas",
+            "Halcones",
+            "Ambos igual",
+            "No se puede saber"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Desviación media de Halcones = (3+1+1+1+4)/5 = 10/5 = 2.0. Desviación media de Águilas = (2+1+0+1+2)/5 = 6/5 = 1.2. Las Águilas son más consistentes."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La desviación media de las anotaciones de los Halcones (3, 5, 5, 7, 10; media 6) es ___.",
+          "respuestaCorrecta": "2",
+          "retroalimentacion": "Distancias a la media: 3, 1, 1, 1, 4. Suma = 10. Desviación media = 10 ÷ 5 = 2."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La desviación media de las anotaciones de las Águilas (4, 5, 6, 7, 8; media 6) es ___.",
+          "respuestaCorrecta": "1.2",
+          "retroalimentacion": "Distancias a la media: 2, 1, 0, 1, 2. Suma = 6. Desviación media = 6 ÷ 5 = 1.2."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La desviación media usa el valor de todos los datos del conjunto, mientras que el rango solo usa el valor máximo y el mínimo.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: por eso la desviación media da una idea más completa de la dispersión que el rango."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de las siguientes afirmaciones describe mejor la ventaja de la desviación media sobre el rango?",
+          "opciones": [
+            "Toma en cuenta todos los datos, no solo los valores extremos",
+            "Siempre da un valor mayor que el rango",
+            "Es más fácil de calcular que el rango",
+            "No depende de la media del conjunto"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "La desviación media considera la distancia de cada dato a la media, no solo el máximo y el mínimo como el rango."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada conjunto de datos con su desviación media.",
+          "columnaA": [
+            "10, 10, 10, 10, 10",
+            "5, 8, 10, 12, 15",
+            "9, 9, 10, 11, 11"
+          ],
+          "columnaB": [
+            "0",
+            "2.8",
+            "0.8"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "10,10,10,10,10: media 10, desviación media 0. 5,8,10,12,15: media 10, desviación media 2.8. 9,9,10,11,11: media 10, desviación media 0.8."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un agricultor midió el crecimiento semanal (en cm) de 5 plantas: 4, 5, 6, 7, 8. ¿Cuál es la desviación media de estos datos?",
+          "opciones": [
+            "1.2",
+            "6",
+            "2",
+            "3.6"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Media = 6. Distancias: 2, 1, 0, 1, 2. Suma = 6. Desviación media = 6 ÷ 5 = 1.2."
+        }
+      ]
+    },
+    {
+      "numero": "12.6",
+      "nivelEtiqueta": "Nivel 6 de 10 · Aplicación avanzada",
+      "titulo": "Cuartiles y rango intercuartílico: dispersión del 50% central",
+      "explicacion": "Los cuartiles dividen un conjunto de datos ordenados en cuatro partes iguales: Q1 deja el 25% de los datos por debajo, Q2 es la mediana (deja el 50% por debajo) y Q3 deja el 75% por debajo. El rango intercuartílico (RIC) es la distancia entre Q3 y Q1: mide qué tan dispersa está la mitad central de los datos, ignorando los valores más extremos. Por eso el RIC es más robusto que el rango cuando hay un dato atípico, ya que un solo valor extremo puede disparar el rango sin afectar mucho al RIC.",
+      "formula": "Ordena los datos de menor a mayor. Q2 (mediana) es el valor central. Q1 es la mediana de los datos que quedan por debajo de Q2; Q3 es la mediana de los datos que quedan por arriba de Q2. RIC = Q3 − Q1.",
+      "ejemplos": [
+        "Calificaciones de 7 estudiantes, ordenadas: 60, 65, 70, 75, 80, 85, 95. La mediana (Q2) es 75. La mitad inferior es 60, 65, 70, cuya mediana es Q1 = 65. La mitad superior es 80, 85, 95, cuya mediana es Q3 = 85. RIC = 85 − 65 = 20.",
+        "Tiempos de espera (minutos) de 7 clientes: 10, 12, 14, 15, 16, 17, 60 (el último cliente esperó mucho más por una falla del sistema). El rango es 60 − 10 = 50, un valor muy grande por ese dato atípico. Pero Q1 = 12 y Q3 = 17, así que el RIC = 17 − 12 = 5: mucho más pequeño, porque describe solo la mitad central de los datos, sin dejarse 'engañar' por el valor extremo."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En el conjunto ordenado 60, 65, 70, 75, 80, 85, 95, ¿cuál es el primer cuartil (Q1)?",
+          "opciones": [
+            "65",
+            "75",
+            "85",
+            "60"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "La mitad inferior (60, 65, 70) tiene como mediana a 65, así que Q1 = 65."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En ese mismo conjunto (60, 65, 70, 75, 80, 85, 95), ¿cuál es el tercer cuartil (Q3)?",
+          "opciones": [
+            "85",
+            "75",
+            "95",
+            "65"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "La mitad superior (80, 85, 95) tiene como mediana a 85, así que Q3 = 85."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El rango intercuartílico (RIC) del conjunto 60, 65, 70, 75, 80, 85, 95 es ___.",
+          "respuestaCorrecta": "20",
+          "retroalimentacion": "RIC = Q3 − Q1 = 85 − 65 = 20."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El RIC del conjunto 10, 12, 14, 15, 16, 17, 60 (que es 5) es mucho menor que su rango (que es 50), porque el valor 60 es un dato atípico que infla el rango pero casi no afecta a los cuartiles.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: Q1 = 12 y Q3 = 17, así que RIC = 5, mientras que el rango completo es 60 − 10 = 50."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El rango intercuartílico del conjunto de datos 10, 12, 14, 15, 16, 17, 60 es ___.",
+          "respuestaCorrecta": "5",
+          "retroalimentacion": "Q1 = 12, Q3 = 17. RIC = 17 − 12 = 5."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Los pesos (kg) de 7 perros, ordenados, son 8, 9, 10, 12, 14, 15, 16. ¿Cuál es el primer cuartil (Q1)?",
+          "opciones": [
+            "9",
+            "12",
+            "15",
+            "10"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "La mitad inferior (8, 9, 10) tiene como mediana a 9, así que Q1 = 9."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El rango intercuartílico de los pesos de los perros (8, 9, 10, 12, 14, 15, 16) es ___.",
+          "respuestaCorrecta": "6",
+          "retroalimentacion": "Q1 = 9 y Q3 = 15 (mediana de 14, 15, 16). RIC = 15 − 9 = 6."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Los gastos mensuales (en cientos de pesos) de una familia durante 7 meses fueron 20, 22, 25, 28, 30, 33 y un mes excepcional de 90 (por una reparación). ¿Qué medida de dispersión conviene más para describir sus gastos habituales, sin que el mes excepcional la distorsione?",
+          "opciones": [
+            "El rango intercuartílico (RIC)",
+            "El rango",
+            "La suma total de los gastos",
+            "El valor máximo"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "El RIC (Q3 − Q1 = 33 − 22 = 11) describe el 50% central de los gastos sin dejarse afectar por el mes atípico de 90; el rango (70) sí se ve muy afectado."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El primer cuartil (Q1) de los tiempos de 7 corredores (30, 31, 33, 35, 37, 39, 42 minutos, ordenados) es ___ minutos.",
+          "respuestaCorrecta": "31",
+          "retroalimentacion": "La mitad inferior es 30, 31, 33; su mediana es 31, así que Q1 = 31."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada conjunto de datos con su rango intercuartílico (RIC).",
+          "columnaA": [
+            "60, 65, 70, 75, 80, 85, 95",
+            "8, 9, 10, 12, 14, 15, 16",
+            "30, 31, 33, 35, 37, 39, 42"
+          ],
+          "columnaB": [
+            "6",
+            "20",
+            "8"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            2
+          ],
+          "retroalimentacion": "El primer conjunto tiene RIC = 85−65=20. El segundo tiene RIC = 15−9=6. El tercero tiene RIC = 39−31=8."
+        }
+      ]
+    },
+    {
+      "numero": "12.7",
+      "nivelEtiqueta": "Nivel 7 de 10 · Reto",
+      "titulo": "Diagrama de caja: leer y comparar distribuciones con el resumen de cinco números",
+      "explicacion": "El diagrama de caja (o boxplot) representa visualmente el 'resumen de cinco números' de un conjunto de datos: el mínimo, Q1, la mediana, Q3 y el máximo. La caja va de Q1 a Q3 (contiene el 50% central de los datos) y tiene una línea marcando la mediana; los 'bigotes' son las líneas que salen de la caja hasta el mínimo y el máximo. Comparar dos diagramas de caja permite ver de un vistazo cuál grupo es más disperso o más parejo, sin necesidad de ver todos los datos originales.",
+      "formula": "Resumen de cinco números: mínimo, Q1, mediana (Q2), Q3, máximo. En el diagrama de caja: la caja abarca de Q1 a Q3, la línea interior marca la mediana, y los bigotes llegan hasta el mínimo y el máximo.",
+      "ejemplos": [
+        "Para los gastos 20, 22, 25, 28, 30, 33, 90, el resumen de cinco números es: mínimo 20, Q1 22, mediana 28, Q3 33, máximo 90. En el diagrama de caja, la caja sería angosta (de 22 a 33) pero el bigote derecho sería muy largo (hasta 90), mostrando visualmente que hay un dato atípico alejado del resto.",
+        "El equipo Tigres tiene el resumen: mínimo 50, Q1 60, mediana 70, Q3 75, máximo 80. El equipo Leones tiene: mínimo 40, Q1 55, mediana 70, Q3 85, máximo 100. Ambos equipos comparten la misma mediana (70), pero la caja y los bigotes de Leones son mucho más largos (RIC de 30 contra 15 de Tigres), así que su diagrama de caja se ve mucho más 'estirado': Leones es el equipo con resultados más dispersos."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resumen de cinco números (mínimo, Q1, mediana, Q3, máximo) de los gastos 20, 22, 25, 28, 30, 33, 90?",
+          "opciones": [
+            "20, 22, 28, 33, 90",
+            "20, 25, 28, 30, 90",
+            "22, 25, 28, 33, 90",
+            "20, 22, 25, 33, 90"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Mínimo = 20, Q1 = 22, mediana = 28, Q3 = 33, máximo = 90."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En un diagrama de caja, la longitud de la caja (de Q1 a Q3) representa el rango intercuartílico (RIC).",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: la caja va exactamente de Q1 a Q3, así que su longitud es Q3 − Q1, que es el RIC."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En un diagrama de caja, la línea que está dentro de la caja representa la ___ del conjunto de datos.",
+          "respuestaCorrecta": "mediana",
+          "retroalimentacion": "La línea interior de la caja marca la mediana (Q2) del conjunto."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Tigres: mínimo 50, Q1 60, mediana 70, Q3 75, máximo 80. Leones: mínimo 40, Q1 55, mediana 70, Q3 85, máximo 100. Ambos equipos tienen la misma mediana de puntos. ¿Cuál equipo tendría un diagrama de caja con caja y bigotes más largos (mayor dispersión)?",
+          "opciones": [
+            "Leones",
+            "Tigres",
+            "Ambos igual",
+            "No se puede saber"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "El RIC de Leones es 85−55=30 y el de Tigres es 75−60=15; además el rango total de Leones (100−40=60) es mayor que el de Tigres (80−50=30)."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El rango intercuartílico (RIC) del equipo Tigres (Q1 = 60, Q3 = 75) es ___.",
+          "respuestaCorrecta": "15",
+          "retroalimentacion": "RIC = Q3 − Q1 = 75 − 60 = 15."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El rango intercuartílico (RIC) del equipo Leones (Q1 = 55, Q3 = 85) es ___.",
+          "respuestaCorrecta": "30",
+          "retroalimentacion": "RIC = Q3 − Q1 = 85 − 55 = 30."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si el bigote derecho de un diagrama de caja es mucho más largo que el izquierdo, esto sugiere que hay valores grandes más alejados del centro que valores pequeños.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: un bigote largo de un lado indica que los datos de ese extremo están más dispersos o alejados de la caja central."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En un diagrama de caja, ¿qué porcentaje aproximado de los datos está contenido dentro de la caja (entre Q1 y Q3)?",
+          "opciones": [
+            "50%",
+            "25%",
+            "75%",
+            "100%"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "La caja va de Q1 (25%) a Q3 (75%), así que contiene el 50% central de los datos."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada parte del diagrama de caja con lo que representa.",
+          "columnaA": [
+            "Borde izquierdo de la caja",
+            "Línea dentro de la caja",
+            "Borde derecho de la caja",
+            "Extremo del bigote derecho"
+          ],
+          "columnaB": [
+            "Q1",
+            "Mediana",
+            "Q3",
+            "Máximo"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "retroalimentacion": "El borde izquierdo de la caja es Q1, la línea interior es la mediana, el borde derecho es Q3, y el extremo del bigote derecho es el valor máximo."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resumen de cinco números del conjunto 10, 12, 14, 15, 16, 17, 60?",
+          "opciones": [
+            "10, 12, 15, 17, 60",
+            "10, 14, 15, 16, 60",
+            "12, 14, 15, 16, 17",
+            "10, 12, 14, 17, 60"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Mínimo = 10, Q1 = 12, mediana = 15, Q3 = 17, máximo = 60."
+        }
+      ]
+    },
+    {
+      "numero": "12.8",
+      "nivelEtiqueta": "Nivel 8 de 10 · Reto avanzado",
+      "titulo": "Comparar tres o más grupos usando varias medidas a la vez",
+      "explicacion": "Cuando se comparan tres o más grupos, ya no basta con mirar solo la media o solo el rango: hay que combinar varias medidas para tomar una buena decisión. Un grupo puede tener la mejor media pero ser muy inconsistente (mucha dispersión), mientras otro con media parecida sea mucho más confiable. Además, si algún grupo tiene un dato atípico, su media puede no representar bien su desempeño típico, y conviene revisar también la mediana.",
+      "ejemplos": [
+        "Tres fábricas registran el mismo promedio de defectos diarios (media 12), pero con rangos distintos: Fábrica X (rango 4), Fábrica Y (rango 8) y Fábrica Z (rango 14). Aunque las tres 'producen lo mismo en promedio', la Fábrica X es la más consistente y confiable, y la Fábrica Z es la más impredecible."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Tres fábricas registran su número de defectos diarios durante 5 días. Fábrica X: 10, 11, 12, 13, 14; Fábrica Y: 8, 9, 12, 15, 16; Fábrica Z: 5, 9, 12, 15, 19. Las tres tienen la misma media (12). ¿Cuál fábrica tiene el proceso MÁS consistente (menor rango)?",
+          "opciones": [
+            "Fábrica X",
+            "Fábrica Y",
+            "Fábrica Z",
+            "Las tres son iguales"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Rango de X = 14−10=4; rango de Y = 16−8=8; rango de Z = 19−5=14. La Fábrica X es la más consistente."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El rango de defectos de la Fábrica Z (5, 9, 12, 15, 19) es ___.",
+          "respuestaCorrecta": "14",
+          "retroalimentacion": "Rango = 19 − 5 = 14."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La media de defectos de la Fábrica Y (8, 9, 12, 15, 16) es ___.",
+          "respuestaCorrecta": "12",
+          "retroalimentacion": "Media = (8+9+12+15+16)/5 = 60/5 = 12."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Las tres fábricas (X, Y, Z) tienen la misma media de defectos (12), pero diferente rango, por lo que la fábrica más consistente no es necesariamente la que tiene 'mejor promedio' sino la de menor dispersión.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: con medias iguales, el rango (o la desviación media) es el criterio que distingue qué tan confiable es cada proceso."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Los tiempos de entrega (en días) de tres empresas de paquetería en 5 pedidos fueron: Empresa A: 3, 4, 4, 5, 4; Empresa B: 1, 2, 4, 6, 7; Empresa C: 2, 3, 4, 5, 11. Las tres tienen mediana 4 días. ¿Cuál empresa tiene un dato que hace que su media (5) se aleje de su mediana (4)?",
+          "opciones": [
+            "Empresa C",
+            "Empresa A",
+            "Empresa B",
+            "Ninguna"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "La Empresa C tiene un dato de 11 días, mucho más alejado del resto, que sube su media a 5, mientras su mediana sigue siendo 4."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La media de tiempos de entrega de la Empresa C (2, 3, 4, 5, 11) es ___ días.",
+          "respuestaCorrecta": "5",
+          "retroalimentacion": "Media = (2+3+4+5+11)/5 = 25/5 = 5."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Necesitas elegir la empresa de paquetería MÁS confiable (menor variación en los tiempos de entrega) entre A (3,4,4,5,4), B (1,2,4,6,7) y C (2,3,4,5,11). Según el rango de cada una, ¿cuál elegirías?",
+          "opciones": [
+            "Empresa A",
+            "Empresa B",
+            "Empresa C",
+            "Cualquiera, es lo mismo"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Rango de A = 5−3=2; rango de B = 7−1=6; rango de C = 11−2=9. La Empresa A tiene el menor rango."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Aunque las tres empresas de paquetería (A, B, C) tienen la misma mediana de tiempo de entrega (4 días), la Empresa A es la más consistente porque tiene el menor rango.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: el rango de la Empresa A (2) es mucho menor que el de B (6) y C (9)."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada fábrica con la descripción que le corresponde, según su rango de defectos diarios.",
+          "columnaA": [
+            "Fábrica X (rango 4)",
+            "Fábrica Y (rango 8)",
+            "Fábrica Z (rango 14)"
+          ],
+          "columnaB": [
+            "Proceso menos consistente",
+            "Proceso más consistente",
+            "Consistencia intermedia"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "Fábrica X (rango más pequeño) es la más consistente; Fábrica Z (rango más grande) es la menos consistente; Fábrica Y queda en un punto intermedio."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Tres equipos de ventas reportaron sus ventas semanales (miles de pesos): Equipo 1: 27, 28, 29, 30, 31; Equipo 2: 19, 23, 27, 31, 35; Equipo 3: 10, 20, 22, 24, 80 (una venta excepcional a una empresa grande). ¿Qué medida usarías para describir la venta 'típica' semanal del Equipo 3, dado el valor de 80?",
+          "opciones": [
+            "La mediana",
+            "La media",
+            "El rango",
+            "El valor máximo"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "La mediana (22) no se ve afectada por el dato atípico de 80, mientras que la media (31.2) sí se distorsiona mucho por esa venta excepcional."
+        }
+      ]
+    },
+    {
+      "numero": "12.9",
+      "nivelEtiqueta": "Nivel 9 de 10 · Integración",
+      "titulo": "Coeficiente de variación: comparar dispersión entre grupos con medias muy distintas",
+      "explicacion": "Hasta ahora hemos comparado grupos que tienen la MISMA media. Pero, ¿cómo comparar la dispersión de dos grupos cuando sus medias son muy diferentes (por ejemplo, sueldos de 20 mil pesos contra sueldos de 100 mil pesos)? Para eso sirve el coeficiente de variación (CV): expresa la desviación media como un porcentaje de la media, así que permite comparar qué tan disperso es un grupo EN RELACIÓN con su propio tamaño, sin importar la escala de los números.",
+      "formula": "Coeficiente de variación (CV) = (desviación media ÷ media) × 100%",
+      "ejemplos": [
+        "Departamento Junior: sueldos de 18, 19, 20, 21, 22 miles de pesos (media 20, desviación media 1.2). Departamento Senior: sueldos de 98, 99, 100, 101, 102 miles de pesos (media 100, desviación media 1.2). Ambos tienen la MISMA desviación media (1.2), pero sus CV son muy distintos: CV Junior = (1.2÷20)×100 = 6%, y CV Senior = (1.2÷100)×100 = 1.2%. Aunque la dispersión absoluta es igual, los sueldos junior son relativamente mucho más variables.",
+        "Un taller mide el tiempo (minutos) de dos tipos de reparación. Reparación rápida: media 10, desviación media 1.2 → CV = 12%. Reparación larga: media 120, desviación media 1.2 → CV = 1%. La reparación rápida tiene mucha más variabilidad relativa, aunque la desviación media absoluta sea la misma."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Departamento Junior: sueldos con media 20 (miles de pesos) y desviación media 1.2. Departamento Senior: sueldos con media 100 (miles de pesos) y desviación media 1.2. Aunque ambos tienen la misma desviación media, ¿cuál departamento tiene mayor coeficiente de variación (mayor dispersión relativa)?",
+          "opciones": [
+            "Departamento Junior",
+            "Departamento Senior",
+            "Ambos iguales",
+            "No se puede saber"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "CV Junior = (1.2÷20)×100 = 6%. CV Senior = (1.2÷100)×100 = 1.2%. El Departamento Junior tiene mayor dispersión relativa."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El coeficiente de variación del Departamento Junior (media 20, desviación media 1.2) es ___%.",
+          "respuestaCorrecta": "6",
+          "retroalimentacion": "CV = (1.2 ÷ 20) × 100 = 6%."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El coeficiente de variación del Departamento Senior (media 100, desviación media 1.2) es ___%.",
+          "respuestaCorrecta": "1.2",
+          "retroalimentacion": "CV = (1.2 ÷ 100) × 100 = 1.2%."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Dos conjuntos de datos pueden tener la misma desviación media absoluta pero un coeficiente de variación distinto, si sus medias son diferentes.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: el CV depende de la relación entre la desviación media y la media, no solo del valor absoluto de la desviación media."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un taller mecánico mide el tiempo (minutos) que tarda en dos tipos de reparación. Reparación rápida: media 10, desviación media 1.2. Reparación larga: media 120, desviación media 1.2. ¿Cuál reparación tiene mayor variabilidad RELATIVA (mayor coeficiente de variación)?",
+          "opciones": [
+            "Reparación rápida",
+            "Reparación larga",
+            "Ambas iguales",
+            "Falta información"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "CV rápida = (1.2÷10)×100 = 12%. CV larga = (1.2÷120)×100 = 1%. La reparación rápida es relativamente mucho más variable."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El coeficiente de variación de la reparación rápida (media 10, desviación media 1.2) es ___%.",
+          "respuestaCorrecta": "12",
+          "retroalimentacion": "CV = (1.2 ÷ 10) × 100 = 12%."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Por qué es útil el coeficiente de variación (CV) cuando se comparan dos grupos de datos?",
+          "opciones": [
+            "Porque permite comparar la dispersión relativa entre grupos con medias muy distintas",
+            "Porque siempre da el mismo resultado que el rango",
+            "Porque elimina la necesidad de calcular la media",
+            "Porque solo funciona si ambos grupos tienen la misma media"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "El CV convierte la dispersión en un porcentaje relativo a la media, lo que permite comparar grupos aunque sus escalas sean muy diferentes."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Los pesos (kg) de 5 costales son 45, 48, 50, 52, 55. La media es 50 y la desviación media es 2.8. El coeficiente de variación es ___%.",
+          "respuestaCorrecta": "5.6",
+          "retroalimentacion": "CV = (2.8 ÷ 50) × 100 = 5.6%."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un coeficiente de variación de 25% indica una dispersión relativa mayor que uno de 5%.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: entre mayor sea el CV, mayor es la dispersión de los datos en relación con su media."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada grupo (media, desviación media) con su coeficiente de variación.",
+          "columnaA": [
+            "Media 20, desviación media 1.2",
+            "Media 50, desviación media 2.5",
+            "Media 200, desviación media 8"
+          ],
+          "columnaB": [
+            "4%",
+            "6%",
+            "5%"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "(1.2÷20)×100=6%. (2.5÷50)×100=5%. (8÷200)×100=4%."
+        }
+      ]
+    },
+    {
+      "numero": "12.10",
+      "nivelEtiqueta": "Nivel 10 de 10 · Dominio",
+      "titulo": "Integración final: elegir la medida correcta y tomar decisiones con datos reales",
+      "explicacion": "En situaciones reales rara vez se usa una sola medida estadística: hay que decidir cuál usar (media, mediana, rango, RIC, desviación media o coeficiente de variación) según lo que se necesite responder y según si hay datos atípicos o grupos con escalas distintas. Esta lección integra todo lo aprendido en el PDA para resolver problemas completos de varios pasos, tomando decisiones informadas como lo haría alguien en un trabajo real.",
+      "ejemplos": [
+        "Una app de reseñas registró las calificaciones (1 a 10) de 5 usuarios sobre un restaurante: 8, 8, 9, 9, 1 (un usuario puso 1 por un error de la app). La media es 7, pero la mediana es 8. Como el 1 es un dato atípico causado por un error, la mediana (8) representa mejor la satisfacción típica de los clientes que la media (7).",
+        "Dos sucursales de una cafetería venden café en promedios muy distintos. Sucursal Centro: media 300 tazas diarias, desviación media 15 (CV = 5%). Sucursal Periférico: media 60 tazas diarias, desviación media 6 (CV = 10%). Aunque la Sucursal Centro vende mucho más en promedio, la Sucursal Periférico es relativamente más variable en sus ventas día a día, según su coeficiente de variación."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una app de reseñas registró las calificaciones (1 a 10) que 5 usuarios dieron a un restaurante: 8, 8, 9, 9, 1 (un usuario puso 1 por un error de la app). ¿Qué medida describe mejor la satisfacción típica de los clientes, y cuál es su valor?",
+          "opciones": [
+            "La mediana, que es 8",
+            "La media, que es 7",
+            "El rango, que es 8",
+            "El máximo, que es 9"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Ordenando: 1, 8, 8, 9, 9, la mediana es 8. La media (7) se ve distorsionada por el dato atípico de 1."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Los tiempos (en segundos) de 7 corredores en una prueba de 100 m, ordenados, son: 11.8, 12.0, 12.1, 12.3, 12.5, 12.8, 15.0 (el último tiempo es de un corredor lesionado). El primer cuartil (Q1) es ___ segundos.",
+          "respuestaCorrecta": "12.0",
+          "retroalimentacion": "La mitad inferior es 11.8, 12.0, 12.1; su mediana es 12.0, así que Q1 = 12.0."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El rango intercuartílico (RIC) de esos mismos tiempos de los 7 corredores es ___ segundos.",
+          "respuestaCorrecta": "0.8",
+          "retroalimentacion": "Q1 = 12.0 y Q3 = 12.8 (mediana de 12.5, 12.8, 15.0). RIC = 12.8 − 12.0 = 0.8."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En el ejemplo de los 7 corredores, el RIC (0.8 s) describe mejor la variabilidad típica del grupo que el rango (15.0 − 11.8 = 3.2 s), porque el corredor lesionado es un dato atípico.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: el rango se dispara por el tiempo del corredor lesionado, mientras que el RIC casi no se ve afectado."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Dos sucursales de una cafetería venden en promedio diferente cantidad de café al día. Sucursal Centro: media 300 tazas, desviación media 15. Sucursal Periférico: media 60 tazas, desviación media 6. ¿Cuál sucursal tiene mayor variabilidad relativa (mayor coeficiente de variación) en sus ventas diarias?",
+          "opciones": [
+            "Sucursal Periférico",
+            "Sucursal Centro",
+            "Ambas iguales",
+            "No se puede saber"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "CV Centro = (15÷300)×100 = 5%. CV Periférico = (6÷60)×100 = 10%. La Sucursal Periférico es relativamente más variable, aunque venda menos en promedio."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El coeficiente de variación de la Sucursal Periférico (media 60, desviación media 6) es ___%.",
+          "respuestaCorrecta": "10",
+          "retroalimentacion": "CV = (6 ÷ 60) × 100 = 10%."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Tres jugadores de basquetbol anotaron estos puntos en 5 partidos: Jugador P: 14, 17, 18, 19, 22; Jugador Q: 11, 15, 18, 21, 25; Jugador R: 9, 12, 18, 24, 27. Los tres promedian 18 puntos por partido. Si el entrenador busca al jugador MÁS CONSTANTE para un partido decisivo, ¿a quién debería elegir?",
+          "opciones": [
+            "Jugador P",
+            "Jugador Q",
+            "Jugador R",
+            "Cualquiera, ya que los tres promedian igual"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Rango de P = 22−14=8; rango de Q = 25−11=14; rango de R = 27−9=18. El Jugador P es el más constante, aunque los tres tengan el mismo promedio."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El rango de puntos del Jugador R (9, 12, 18, 24, 27) es ___.",
+          "respuestaCorrecta": "18",
+          "retroalimentacion": "Rango = 27 − 9 = 18."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación con la herramienta estadística más adecuada para resolverla.",
+          "columnaA": [
+            "Comparar la dispersión relativa de dos grupos con medias muy distintas",
+            "Describir el 50% central de los datos sin que un valor atípico lo afecte",
+            "Elegir la medida de tendencia central cuando hay un dato atípico extremo",
+            "Medir qué tan lejos están, en promedio, todos los datos respecto a la media"
+          ],
+          "columnaB": [
+            "Desviación media",
+            "Mediana",
+            "Coeficiente de variación",
+            "Rango intercuartílico (RIC)"
+          ],
+          "parejasCorrectas": [
+            2,
+            3,
+            1,
+            0
+          ],
+          "retroalimentacion": "Para comparar dispersión relativa con medias distintas se usa el CV; para el 50% central se usa el RIC; ante un dato atípico extremo conviene la mediana; para medir la distancia promedio a la media se usa la desviación media."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una empresa evalúa a dos proveedores de tornillos según el diámetro (en mm) de una muestra de 5 piezas de cada uno. Proveedor A: 5.98, 5.99, 6.00, 6.01, 6.02 (media 6.00, desviación media 0.012). Proveedor B: 5.80, 5.95, 6.00, 6.05, 6.20 (media 6.00, desviación media 0.10). Para piezas que deben ser muy precisas, ¿qué proveedor conviene elegir y por qué?",
+          "opciones": [
+            "Proveedor A, porque tiene menor desviación media (mayor consistencia)",
+            "Proveedor B, porque tiene mayor desviación media",
+            "Cualquiera, ya que ambos tienen la misma media",
+            "Proveedor B, porque sus valores son más grandes"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Ambos proveedores tienen la misma media (6.00 mm), pero el Proveedor A tiene una desviación media mucho menor (0.012 contra 0.10), lo que indica piezas mucho más consistentes y precisas."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "llenar_frase",
+      "frase": "El rango del conjunto de datos 11, 13, 16, 19, 21 es ___.",
+      "respuestaCorrecta": "10",
+      "retroalimentacion": "Rango = 21 − 11 = 10."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "El rango del conjunto 40, 41, 42, 43, 44 es 4.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: rango = 44 − 40 = 4."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es el rango de un conjunto de datos donde todos los valores son iguales a 2 (2, 2, 2, 2, 2)?",
+      "opciones": [
+        "0",
+        "2",
+        "10",
+        "No se puede calcular"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "Si el máximo y el mínimo son iguales (2), el rango es 2 − 2 = 0."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "El rango del conjunto de datos 15, 20, 32, 45, 60 es ___.",
+      "respuestaCorrecta": "45",
+      "retroalimentacion": "Rango = 60 − 15 = 45."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Una tienda registra sus ventas diarias (en miles de pesos) durante 5 días. Tienda A: 99, 100, 101, 102, 103; Tienda B: 70, 90, 105, 110, 130. Ambas tiendas tienen la misma media de ventas (101). ¿Cuál tienda tuvo ventas más parejas (menos dispersas)?",
+      "opciones": [
+        "Tienda A",
+        "Tienda B",
+        "Ambas iguales",
+        "No se puede saber"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "Rango de A = 103−99=4; rango de B = 130−70=60. La Tienda A es mucho más pareja."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "El rango de las ventas de la Tienda B (70, 90, 105, 110, 130) es ___ (miles de pesos).",
+      "respuestaCorrecta": "60",
+      "retroalimentacion": "Rango = 130 − 70 = 60."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "La Tienda A y la Tienda B tienen el mismo rango de ventas.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Falso: el rango de la Tienda A es 4 y el de la Tienda B es 60."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Dos salones compararon sus calificaciones en un examen. Clase 1: 79, 80, 81, 82, 83; Clase 2: 60, 70, 85, 90, 100. Ambas clases tienen la misma media (81). ¿Cuál clase fue más consistente?",
+      "opciones": [
+        "Clase 1",
+        "Clase 2",
+        "Ambas iguales",
+        "Falta información"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "Rango de Clase 1 = 83−79=4; rango de Clase 2 = 100−60=40. La Clase 1 fue más consistente."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "La media de las temperaturas de la Ciudad de México durante 5 días (16, 17, 18, 19, 21) es ___ °C.",
+      "respuestaCorrecta": "18.2",
+      "retroalimentacion": "Media = (16+17+18+19+21)/5 = 91/5 = 18.2."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "La media de las temperaturas de Mérida durante los mismos 5 días (22, 25, 28, 30, 35) es ___ °C.",
+      "respuestaCorrecta": "28",
+      "retroalimentacion": "Media = (22+25+28+30+35)/5 = 140/5 = 28."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Mérida tuvo temperaturas más dispersas que la Ciudad de México durante esa semana (rango de 13 °C contra 5 °C).",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: rango de CDMX = 21−16=5; rango de Mérida = 35−22=13."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Un equipo de proyecto obtuvo estas calificaciones: 84, 85, 86, 87 y un integrante que no entregó su parte obtuvo 3. ¿Cuál es la mediana de este conjunto?",
+      "opciones": [
+        "85",
+        "69",
+        "3",
+        "84.5"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "Ordenados: 3, 84, 85, 86, 87. El valor de en medio es 85."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "La media de las calificaciones 3, 84, 85, 86, 87 es ___.",
+      "respuestaCorrecta": "69",
+      "retroalimentacion": "Media = (3+84+85+86+87)/5 = 345/5 = 69."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "En el conjunto 3, 84, 85, 86, 87, la mediana (85) representa mejor el desempeño típico del equipo que la media (69).",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: casi todo el equipo sacó entre 84 y 87; el 3 es un dato atípico que baja mucho la media."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Los precios de 5 artículos son 50, 52, 53, 55 y 300 (un artículo de lujo). ¿Cuál medida se ve más afectada por el precio atípico de 300?",
+      "opciones": [
+        "La media",
+        "La mediana",
+        "El mínimo",
+        "Ninguna"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "La media sube mucho por el valor extremo (300); la mediana casi no cambia."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "La mediana de los precios 50, 52, 53, 55, 300 es ___.",
+      "respuestaCorrecta": "53",
+      "retroalimentacion": "Ordenados: 50, 52, 53, 55, 300. El valor de en medio es 53."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Un grupo de amigos esperó el camión 5, 6, 6, 7 y 50 minutos (un día hubo un problema mecánico). La mediana (6 minutos) representa mejor el tiempo de espera habitual que la media (14.8 minutos).",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: la mayoría esperó entre 5 y 7 minutos; el 50 es un caso atípico que solo afecta a la media."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "El rango de los pesos de 5 paquetes (3, 3, 4, 4, 5 kg) es:",
+      "opciones": [
+        "2",
+        "5",
+        "3",
+        "8"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "Rango = 5 − 3 = 2."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "El rango de las rentas diarias de bicicletas (12, 13, 14, 15, 16) es ___.",
+      "respuestaCorrecta": "4",
+      "retroalimentacion": "Rango = 16 − 12 = 4."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "El rango únicamente depende del valor máximo y el valor mínimo del conjunto de datos.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: los demás valores intermedios no afectan el cálculo del rango."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada conjunto de datos con su rango.",
+      "columnaA": [
+        "11, 13, 16, 19, 21",
+        "40, 41, 42, 43, 44",
+        "15, 20, 32, 45, 60"
+      ],
+      "columnaB": [
+        "4",
+        "45",
+        "10"
+      ],
+      "parejasCorrectas": [
+        2,
+        0,
+        1
+      ],
+      "retroalimentacion": "11,13,16,19,21: 21−11=10. 40,41,42,43,44: 44−40=4. 15,20,32,45,60: 60−15=45."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada situación con la conclusión correcta.",
+      "columnaA": [
+        "Tienda A vs Tienda B, misma media",
+        "Precios con un artículo de 300 (dato atípico)",
+        "Clase 1 vs Clase 2, misma media"
+      ],
+      "columnaB": [
+        "Clase 1 es más consistente",
+        "La mediana representa mejor al grupo",
+        "Tienda A es más pareja (menor rango)"
+      ],
+      "parejasCorrectas": [
+        2,
+        1,
+        0
+      ],
+      "retroalimentacion": "Tienda A tiene menor rango que Tienda B; con un dato atípico, la mediana representa mejor al grupo; Clase 1 tiene menor rango que Clase 2."
+    }
+  ]
+}

@@ -1,0 +1,1504 @@
+{
+  "id": "1S-B1-PDA07",
+  "grado": "1°",
+  "trimestre": "2",
+  "numero": 7,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Funciones",
+  "contenido": "Funciones.",
+  "pda": "Relaciona e interpreta relaciones proporcional y no proporcional a partir de su representación tabular, gráfica y con diagramas.",
+  "problematizacion": {
+    "contexto": "En la tienda de la esquina, el kilo de tortillas cuesta 18 pesos, y si no compras nada, no pagas nada. Doña Rosa, la dueña, anota en un cuaderno cuánto paga cada cliente según los kilos que lleva.",
+    "pregunta": "¿Por qué la relación entre los kilos de tortillas comprados y el precio a pagar es una relación proporcional?"
+  },
+  "subtemas": [
+    {
+      "numero": "7.1",
+      "titulo": "¿Qué hace proporcional a una relación?",
+      "explicacion": "Una relación es proporcional cuando, al aumentar una cantidad, la otra aumenta en la misma proporción y la razón entre ambas siempre es constante. Una señal clara: si x=0, entonces y=0 (la recta pasa por el origen).",
+      "formula": "Proporcional: y = kx",
+      "ejemplos": [
+        "Cuadernos a $15 cada uno: y=15x. Si compras 0 cuadernos, pagas $0: es proporcional."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La tarifa de taxi con $12 fijos más $2 por km es una relación proporcional.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: tiene un cargo fijo ($12) que se paga aunque no se recorra ningún km, así que no es proporcional."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La relación y = 7x es proporcional.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: es de la forma y=kx (con k=7) y pasa por el origen (0,0)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La relación y = 9x es proporcional.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Una relación es proporcional solo si es de la forma y=kx (pasa por el origen), sin ningún valor fijo sumado."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El área de un cuadrado en función de su lado es una relación proporcional.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Una relación es proporcional solo si es de la forma y=kx (pasa por el origen); el área de un cuadrado es y=x², una relación cuadrática, no proporcional."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La relación y = 5x + 14 es proporcional.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Una relación es proporcional solo si es de la forma y=kx (pasa por el origen), sin ningún valor fijo sumado."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de las siguientes es la característica principal de una relación proporcional?",
+          "opciones": [
+            "Su gráfica es una recta que pasa por el origen (0,0)",
+            "Su gráfica es una recta que no pasa por el origen",
+            "Su gráfica siempre es una curva",
+            "Tiene un valor fijo que se suma"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Toda relación proporcional es de la forma y=kx, cuya gráfica es una recta que pasa por el origen (0,0)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La relación y = 3x es proporcional.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: es de la forma y=kx (con k=3) y pasa por el origen (0,0)."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En una relación proporcional, si x = 0, entonces y = ___.",
+          "respuestaCorrecta": "0",
+          "retroalimentacion": "En toda relación proporcional (y=kx), si x=0 entonces y=0, porque no hay ningún valor fijo."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada relación con su tipo (proporcional o no proporcional).",
+          "columnaA": [
+            "y = 8x",
+            "y = 2x + 5",
+            "El costo de manzanas a $6/kg"
+          ],
+          "columnaB": [
+            "No proporcional (+5 fijo)",
+            "Proporcional (y=6x)",
+            "Proporcional (y=8x)"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "y=8x y las manzanas a $6/kg son proporcionales (y=kx); y=2x+5 no lo es porque tiene un valor fijo (+5)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El costo total de comprar globos a $4 cada uno, sin ningún cargo adicional, es una relación proporcional.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: es y=4x, sin ningún cargo fijo, así que pasa por el origen y es proporcional."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 1 de 10 · Introductorio"
+    },
+    {
+      "numero": "7.2",
+      "titulo": "Relaciones no proporcionales (con valor inicial)",
+      "explicacion": "Si hay un valor fijo inicial que se suma, como la tarifa base de un taxi, la relación no es proporcional, porque aunque x=0 (no viajas nada), y no es 0 (igual pagas la tarifa base).",
+      "formula": "No proporcional: y = kx + b  (con b ≠ 0)",
+      "ejemplos": [
+        "Taxi: y=12+2x. Aunque no viajes (x=0), pagas los $12 iniciales: no es proporcional."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La relación y = 15x es proporcional.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Una relación es proporcional solo si es de la forma y=kx (pasa por el origen), sin ningún valor fijo sumado."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si k=5 y x=11, entonces y = ___.",
+          "respuestaCorrecta": "55",
+          "retroalimentacion": "y = kx = 5 × 11 = 55."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si k=11 y x=12, entonces y = ___.",
+          "respuestaCorrecta": "132",
+          "retroalimentacion": "y = kx = 11 × 12 = 132."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si k=8 y x=9, entonces y = ___.",
+          "respuestaCorrecta": "72",
+          "retroalimentacion": "y = kx = 8 × 9 = 72."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si k=14 y x=6, entonces y = ___.",
+          "respuestaCorrecta": "84",
+          "retroalimentacion": "y = kx = 14 × 6 = 84."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La relación y = 20 + 3x es proporcional.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: tiene un valor fijo (20) que se suma aunque x=0, así que no es proporcional."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de las siguientes situaciones NO es proporcional?",
+          "opciones": [
+            "El costo de dulces a $2 c/u",
+            "La renta de una cancha: $25 fijos + $10/hora",
+            "y = 9x",
+            "El costo de manzanas a $7/kg"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "La renta de la cancha tiene un cargo fijo de $25 que se paga aunque no se use ninguna hora, así que no es proporcional."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si k=6 y x=13, entonces y = ___.",
+          "respuestaCorrecta": "78",
+          "retroalimentacion": "y = kx = 6 × 13 = 78."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación con si es proporcional o no.",
+          "columnaA": [
+            "Membresía de gimnasio: $50 fijos + $20/mes",
+            "Boletos de cine a $85 c/u",
+            "Renta de bicicleta: $30 fijos + $15/hora"
+          ],
+          "columnaB": [
+            "Proporcional (y=85x)",
+            "No proporcional ($50 fijos)",
+            "No proporcional ($30 fijos)"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            2
+          ],
+          "retroalimentacion": "Los boletos de cine son proporcionales (y=85x); la membresía y la bicicleta tienen un cargo fijo, así que no lo son."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si una relación tiene un valor inicial fijo distinto de cero, entonces no puede ser proporcional.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: cualquier valor fijo sumado hace que, aunque x=0, y no sea 0, por lo que la relación no es proporcional."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 2 de 10 · Intermedio"
+    },
+    {
+      "numero": "7.3",
+      "titulo": "Identificar la constante k y reconocer gráficas",
+      "explicacion": "En una relación proporcional, la constante k se calcula dividiendo y entre x en cualquier par de valores de la tabla. En una gráfica, una relación proporcional siempre es una recta que pasa por el origen (0,0); si la recta no pasa por el origen, no es proporcional.",
+      "formula": "k = y ÷ x",
+      "ejemplos": [
+        "En una tabla, x=2 → y=10 y x=4 → y=20: k = 10/2 = 5 (y también 20/4 = 5, se confirma que es constante)."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál gráfica representa una relación NO proporcional?",
+          "opciones": [
+            "Una recta que pasa por el origen (0,0)",
+            "Una recta que NO pasa por el origen",
+            "Una recta con pendiente positiva que pasa por (0,0)",
+            "Todas las anteriores son proporcionales"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Si la recta no pasa por el origen, existe un valor inicial fijo, por lo que no es proporcional."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una tabla, x=3 → y=21 y x=6 → y=42. ¿Cuál es la constante de proporcionalidad k?",
+          "opciones": [
+            "3",
+            "6",
+            "7",
+            "14"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "k = y/x = 21/3 = 7 (se confirma con 42/6 = 7)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de estas relaciones es proporcional?",
+          "opciones": [
+            "El boleto de cine con $22 de descuento fijo",
+            "El consumo de agua: $22 fijos + consumo",
+            "La renta de un juego: $22 fijos + $18/hora",
+            "El costo de plumas a $18 c/u"
+          ],
+          "respuestaCorrecta": 3,
+          "retroalimentacion": "El costo de plumas es y=18x: si compras 0, pagas $0, es proporcional. Las demás tienen un cargo o descuento fijo."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de estas relaciones es proporcional?",
+          "opciones": [
+            "El boleto de cine con $27 de descuento fijo",
+            "El costo de playeras a $6 c/u",
+            "La renta de un juego: $27 fijos + $6/hora",
+            "El consumo de agua: $27 fijos + consumo"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "El costo de playeras es y=6x: si compras 0, pagas $0, es proporcional. Las demás tienen un cargo o descuento fijo."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de estas relaciones es proporcional?",
+          "opciones": [
+            "El boleto de cine con $11 de descuento fijo",
+            "El costo de plumas a $23 c/u",
+            "El consumo de agua: $11 fijos + consumo",
+            "La renta de un juego: $11 fijos + $23/hora"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "El costo de plumas es y=23x: si compras 0, pagas $0, es proporcional. Las demás tienen un cargo o descuento fijo."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En una tabla, x=5 → y=40. La constante de proporcionalidad k = ___.",
+          "respuestaCorrecta": "8",
+          "retroalimentacion": "k = y/x = 40/5 = 8."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En una gráfica de proporcionalidad directa, la recta siempre pasa por el punto (0,0).",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: toda relación proporcional (y=kx) tiene y=0 cuando x=0, así que su gráfica pasa por el origen."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una tabla, x=3 → y=33 y x=6 → y=66. ¿Cuál es la constante de proporcionalidad k?",
+          "opciones": [
+            "11",
+            "3",
+            "6",
+            "33"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "k = y/x = 33/3 = 11 (se confirma con 66/6 = 11)."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada tabla con su constante de proporcionalidad k.",
+          "columnaA": [
+            "x=2 → y=14",
+            "x=5 → y=30",
+            "x=3 → y=27"
+          ],
+          "columnaB": [
+            "6",
+            "9",
+            "7"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "x=2,y=14: k=7. x=5,y=30: k=6. x=3,y=27: k=9."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de las siguientes opciones representa una relación proporcional?",
+          "opciones": [
+            "El boleto de cine con $15 de descuento fijo",
+            "El consumo de agua: $15 fijos + consumo",
+            "La renta de cancha: $15 fijos + $10/hora",
+            "El costo de dulces a $10 c/u"
+          ],
+          "respuestaCorrecta": 3,
+          "retroalimentacion": "El costo de dulces es y=10x: si compras 0, pagas $0, es proporcional. Las demás tienen un cargo o descuento fijo."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 3 de 10 · Avanzado"
+    },
+    {
+      "numero": "7.4",
+      "titulo": "Síntesis y aplicación",
+      "explicacion": "Recuerda: una relación es proporcional cuando la razón entre las dos cantidades siempre es la misma y, si x=0, entonces y=0 (no hay ningún cargo fijo). Si existe un valor inicial que se suma (como la tarifa base del taxi), la relación no es proporcional. En una gráfica, lo proporcional siempre es una recta que pasa por el origen (0,0).",
+      "ejemplos": [
+        "La tarifa de taxi con $12 fijos más $2 por km es una relación proporcional. Falso: tiene un cargo fijo ($12) que se paga aunque no se recorra ningún km, así que no es proporcional."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de estas relaciones es proporcional?",
+          "opciones": [
+            "La renta de un juego: $8 fijos + $16/hora",
+            "El consumo de agua: $8 fijos + consumo",
+            "El boleto de cine con $8 de descuento fijo",
+            "El costo de plumas a $16 c/u"
+          ],
+          "respuestaCorrecta": 3,
+          "retroalimentacion": "El costo de plumas es y=16x: si compras 0, pagas $0, es proporcional. Las demás tienen un cargo o descuento fijo."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación con el tipo de relación que representa.",
+          "columnaA": [
+            "Cuadernos a $15 c/u",
+            "Taxi: $12 + $2/km",
+            "Manzanas a $18/kg"
+          ],
+          "columnaB": [
+            "No proporcional (tiene cargo fijo)",
+            "Proporcional (y=18x)",
+            "Proporcional (y=15x)"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "Cuadernos y manzanas son proporcionales (y=kx); el taxi no lo es, porque tiene un cargo fijo."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación con el tipo de relación que representa.",
+          "columnaA": [
+            "Renta con $30 fijos + $14/hora",
+            "Renta con $28 fijos + $17/hora",
+            "Renta con $12 fijos + $12/hora"
+          ],
+          "columnaB": [
+            "No proporcional ($28 fijos)",
+            "No proporcional ($30 fijos)",
+            "No proporcional ($12 fijos)"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            2
+          ],
+          "retroalimentacion": "Es proporcional si no tiene cargo fijo (pasa por el origen); si lo tiene, no lo es."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación con el tipo de relación que representa.",
+          "columnaA": [
+            "Renta con $26 fijos + $25/hora",
+            "Chocolates a $14 c/u",
+            "Renta con $21 fijos + $22/hora"
+          ],
+          "columnaB": [
+            "No proporcional ($26 fijos)",
+            "No proporcional ($21 fijos)",
+            "Proporcional (y=14x)"
+          ],
+          "parejasCorrectas": [
+            0,
+            2,
+            1
+          ],
+          "retroalimentacion": "Es proporcional si no tiene cargo fijo (pasa por el origen); si lo tiene, no lo es."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación con el tipo de relación que representa.",
+          "columnaA": [
+            "Boletos a $24 c/u",
+            "Boletos a $17 c/u",
+            "Chocolates a $21 c/u"
+          ],
+          "columnaB": [
+            "Proporcional (y=24x)",
+            "Proporcional (y=21x)",
+            "Proporcional (y=17x)"
+          ],
+          "parejasCorrectas": [
+            0,
+            2,
+            1
+          ],
+          "retroalimentacion": "Es proporcional si no tiene cargo fijo (pasa por el origen); si lo tiene, no lo es."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de las siguientes situaciones es proporcional?",
+          "opciones": [
+            "La renta de un salón: $50 fijos + $30/hora",
+            "El consumo de luz: $50 fijos + consumo",
+            "El boleto con $50 de descuento fijo",
+            "El costo de refrescos a $30 c/u"
+          ],
+          "respuestaCorrecta": 3,
+          "retroalimentacion": "El costo de refrescos es y=30x: si compras 0, pagas $0, es proporcional. Las demás tienen un cargo o descuento fijo."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La renta de una bicicleta con $10 fijos más $5 por hora es una relación proporcional.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: tiene un cargo fijo ($10) que se paga aunque no se use ninguna hora, así que no es proporcional."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El costo de camisetas a $45 cada una es una relación proporcional porque si compras 0 camisetas, pagas $___.",
+          "respuestaCorrecta": "0",
+          "retroalimentacion": "Como no hay ningún cargo fijo, si compras 0 camisetas pagas $0, por eso es proporcional (y=45x)."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Clasifica cada situación como proporcional o no proporcional.",
+          "columnaA": [
+            "Renta con $19 fijos + $8/hora",
+            "Chocolates a $9 c/u",
+            "Renta con $33 fijos + $11/hora"
+          ],
+          "columnaB": [
+            "Proporcional (y=9x)",
+            "No proporcional ($33 fijos)",
+            "No proporcional ($19 fijos)"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "Los chocolates son proporcionales (y=9x); las dos rentas tienen un cargo fijo, así que no lo son."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de estas relaciones NO es proporcional?",
+          "opciones": [
+            "El costo de plátanos a $13/kg",
+            "La renta de lancha: $45 fijos + $20/hora",
+            "y=7x",
+            "El costo de dulces a $3 c/u"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "La renta de lancha tiene un cargo fijo de $45 que se paga aunque no se use ninguna hora, así que no es proporcional."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 4 de 10 · Síntesis"
+    },
+    {
+      "numero": "7.5",
+      "nivelEtiqueta": "Nivel 5 de 10 · Aplicación",
+      "titulo": "Completar tablas de valores en relaciones proporcionales",
+      "explicacion": "En las lecciones anteriores identificaste si una relación es proporcional y calculaste k a partir de un solo par de valores. Ahora usarás esa k para completar una tabla completa: conociendo la constante, puedes calcular cualquier y a partir de x (y = k × x) o cualquier x a partir de y (x = y ÷ k). Esto te permite predecir valores que no aparecen anotados directamente, como el precio de una cantidad que Doña Rosa no había registrado en su cuaderno.",
+      "formula": "y = k × x   y también   x = y ÷ k",
+      "ejemplos": [
+        "El kilo de tortillas cuesta $18 (k=18). Si quieres el precio de 3.5 kg: y = 18 × 3.5 = $63.",
+        "Con $72 alcanzaste para tortillas a $18/kg. ¿Cuántos kg compraste? x = 72 ÷ 18 = 4 kg."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "llenar_frase",
+          "frase": "El kilo de tortillas cuesta $18. Si Ana compra 2.5 kg, paga $___.",
+          "respuestaCorrecta": "45",
+          "retroalimentacion": "y = k × x = 18 × 2.5 = $45."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El kilo de tortillas cuesta $18. Si Luis pagó $63, compró ___ kg.",
+          "respuestaCorrecta": "3.5",
+          "retroalimentacion": "x = y ÷ k = 63 ÷ 18 = 3.5 kg."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una relación proporcional con k=7, si x=1.5, ¿cuánto vale y?",
+          "opciones": [
+            "10.5",
+            "7",
+            "8.5",
+            "9"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "y = k × x = 7 × 1.5 = 10.5."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una tabla proporcional muestra: x=2→y=22, x=4→y=44, x=6→y=66. ¿Cuánto vale y cuando x=8?",
+          "opciones": [
+            "80",
+            "86",
+            "88",
+            "90"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "La constante es k=22/2=11 (se confirma con 44/4=11 y 66/6=11). Entonces y = 11 × 8 = 88."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En una tabla proporcional donde k=15, si x=0.4, entonces y=6.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: y = k × x = 15 × 0.4 = 6."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si en una relación proporcional x=9 corresponde a y=54, entonces cuando x=13 corresponde a y=78.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: k = 54÷9 = 6, y con x=13: y = 6 × 13 = 78."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La gasolina cuesta $24 por litro. Si Pedro cargó 12.5 litros, pagó $___.",
+          "respuestaCorrecta": "300",
+          "retroalimentacion": "y = k × x = 24 × 12.5 = $300."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada valor de x con su y correspondiente, sabiendo que k=6.",
+          "columnaA": [
+            "x = 3",
+            "x = 5",
+            "x = 7.5"
+          ],
+          "columnaB": [
+            "45",
+            "18",
+            "30"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "Con k=6: x=3→y=18; x=5→y=30; x=7.5→y=45."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una relación proporcional tiene el par x=4→y=52. ¿Cuál es el valor de y cuando x=9?",
+          "opciones": [
+            "113",
+            "117",
+            "121",
+            "108"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "k = 52÷4 = 13, entonces y = 13 × 9 = 117."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En una papelería, 3 boletos de camión cuestan $27 de forma proporcional. Siguiendo la misma tasa, 7 boletos cuestan $___.",
+          "respuestaCorrecta": "63",
+          "retroalimentacion": "k = 27÷3 = 9, entonces y = 9 × 7 = 63."
+        }
+      ]
+    },
+    {
+      "numero": "7.6",
+      "nivelEtiqueta": "Nivel 6 de 10 · Aplicación avanzada",
+      "titulo": "Diagramas de flechas: ¿cuándo una relación es función?",
+      "explicacion": "Además de tablas y gráficas, una relación puede representarse con un diagrama de flechas (diagrama sagital), donde cada flecha conecta un valor de entrada (x) con su valor de salida (y). Una relación es función cuando cada entrada tiene una única salida; si el mismo valor de x tuviera dos flechas hacia salidas distintas, la relación no sería función y tampoco podría ser una relación proporcional bien definida (y=kx solo permite un resultado por cada x).",
+      "formula": "Es función si: cada x → una sola y",
+      "ejemplos": [
+        "Diagrama: 2→10, 3→15, 4→20 (cada x tiene una sola flecha) → es función, y además es proporcional con k=5.",
+        "Diagrama: 2→8, 2→11 (el mismo x=2 apunta a dos y distintos) → no es función, y por lo tanto tampoco es proporcional."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En un diagrama sagital, si x=5 tiene una flecha hacia y=20 y otra flecha hacia y=25, la relación es una función.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: si una misma entrada (x=5) tiene dos salidas distintas, no es función."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En un diagrama sagital, si cada valor de entrada tiene una sola flecha de salida, la relación es una función.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: esa es justamente la condición para que una relación sea función."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En un diagrama: x=3→9, x=4→16, x=5→9 (dos entradas distintas llegan al mismo valor de salida). ¿Es esta relación una función?",
+          "opciones": [
+            "Sí, es función porque cada x tiene una sola flecha de salida",
+            "No, porque dos entradas llegan al mismo valor de salida",
+            "No, porque hay más entradas que salidas",
+            "No se puede saber sin una gráfica"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Sí es función: lo que importa es que cada x tenga una sola salida; que dos x distintas compartan la misma y sí está permitido."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En un diagrama, x=6 tiene una flecha hacia y=12 y también otra flecha hacia y=18. ¿Qué se puede concluir?",
+          "opciones": [
+            "Es función y además proporcional",
+            "No es función, porque x=6 tiene dos salidas distintas",
+            "Es proporcional con k=12",
+            "Es proporcional con k=18"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Como la misma entrada x=6 apunta a dos salidas diferentes (12 y 18), la relación no es función, y por lo tanto no puede ser proporcional."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En un diagrama sagital, x=7 tiene una sola flecha hacia y=42. Si esta relación fuera proporcional, su constante sería k=___.",
+          "respuestaCorrecta": "6",
+          "retroalimentacion": "k = y ÷ x = 42 ÷ 7 = 6."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada diagrama con su clasificación correcta.",
+          "columnaA": [
+            "x=2→6, x=3→9, x=4→12 (una sola flecha por cada x)",
+            "x=5→10 y también x=5→15 (dos flechas desde x=5)",
+            "x=1→7, x=2→7, x=3→7 (una sola flecha por cada x)"
+          ],
+          "columnaB": [
+            "Función (varias entradas pueden compartir la misma salida)",
+            "Función y proporcional (k=3)",
+            "No es función (una entrada con dos salidas)"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "El primer diagrama es función y proporcional (k=3); el segundo no es función porque x=5 tiene dos salidas; el tercero sí es función, aunque varias entradas compartan la misma salida (7)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Toda relación proporcional representada como diagrama sagital es también una función.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: en y=kx, cada x produce un único y, así que siempre es función."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de estos diagramas NO puede representar una relación proporcional?",
+          "opciones": [
+            "x=1→5, x=2→10, x=3→15",
+            "x=0→0, x=2→10, x=4→20",
+            "x=2→9, x=2→14, x=4→18",
+            "x=1→8, x=2→16, x=3→24"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "En la tercera opción, x=2 apunta a dos salidas distintas (9 y 14), así que ni siquiera es función, y por lo tanto no puede ser proporcional."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un diagrama sagital es función y además proporcional. Si x=8 apunta a y=56, entonces k = ___.",
+          "respuestaCorrecta": "7",
+          "retroalimentacion": "k = y ÷ x = 56 ÷ 8 = 7."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En un diagrama sagital de una relación que es función pero NO proporcional, un mismo valor de entrada puede tener dos flechas de salida distintas.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: ser función significa que cada entrada tiene una sola salida, sin importar si la relación es proporcional o no."
+        }
+      ]
+    },
+    {
+      "numero": "7.7",
+      "nivelEtiqueta": "Nivel 7 de 10 · Reto",
+      "titulo": "Leer gráficas: pendiente y comparación de rapidez de crecimiento",
+      "explicacion": "Ya calculaste k a partir de tablas; ahora lo leerás directamente en una gráfica y compararás la inclinación (pendiente) de dos rectas proporcionales. Entre dos rectas que pasan por el origen, la que tiene mayor k crece más rápido y se ve más inclinada (más cerca del eje vertical); la de menor k se ve más aplanada. Esto sirve, por ejemplo, para comparar quién corre más rápido o cuál producto es más caro solo mirando sus gráficas.",
+      "formula": "A mayor k, más inclinada (empinada) la recta; a menor k, más aplanada.",
+      "ejemplos": [
+        "Recta A pasa por (0,0) y (4,28): kA=7. Recta B pasa por (0,0) y (4,20): kB=5. La recta A es más inclinada porque 7>5.",
+        "En una gráfica, el punto (5,45) está sobre una recta proporcional que pasa por el origen: k = 45÷5 = 9."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una recta proporcional pasa por los puntos (0,0) y (6,42). ¿Cuál es su constante k?",
+          "opciones": [
+            "6",
+            "7",
+            "8",
+            "42"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "k = 42 ÷ 6 = 7."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Dos corredores tienen gráficas de distancia-tiempo proporcionales: la recta del corredor A pasa por (4,32) y la del corredor B por (4,24). ¿Cuál corredor es más rápido (recta más inclinada)?",
+          "opciones": [
+            "Corredor A",
+            "Corredor B",
+            "Ambos son igual de rápidos",
+            "No se puede saber"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "kA = 32÷4 = 8 y kB = 24÷4 = 6. Como 8>6, el corredor A es más rápido y su recta es más inclinada."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Entre dos rectas proporcionales que pasan por el origen, la que tiene mayor constante k se ve más inclinada (más cerca del eje vertical).",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: a mayor k, la recta crece más rápido y se acerca más al eje vertical."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una recta proporcional pasa por (0,0) y (9,63). Su constante de proporcionalidad es k=___.",
+          "respuestaCorrecta": "7",
+          "retroalimentacion": "k = 63 ÷ 9 = 7."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una gráfica, la recta del 'costo de manzanas' pasa por (3,51) y la recta del 'costo de peras' pasa por (3,45). ¿Cuál fruta es más cara por kg?",
+          "opciones": [
+            "Manzana",
+            "Pera",
+            "Cuestan igual",
+            "No se puede saber"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "kManzana = 51÷3 = 17 y kPera = 45÷3 = 15. Como 17>15, la manzana es más cara por kg."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una recta proporcional que pasa por (0,0) y (5,20) es más inclinada que otra que pasa por (0,0) y (5,35).",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: la primera tiene k=20÷5=4 y la segunda k=35÷5=7. Como 7>4, la segunda recta es la más inclinada."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada par de puntos de una recta proporcional con su constante k.",
+          "columnaA": [
+            "(0,0) y (7,56)",
+            "(0,0) y (8,32)",
+            "(0,0) y (6,54)"
+          ],
+          "columnaB": [
+            "4",
+            "9",
+            "8"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "56÷7=8; 32÷8=4; 54÷6=9."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de estas rectas proporcionales tiene mayor rapidez de crecimiento (mayor k)?",
+          "opciones": [
+            "Pasa por (0,0) y (10,40)",
+            "Pasa por (0,0) y (10,70)",
+            "Pasa por (0,0) y (10,55)",
+            "Pasa por (0,0) y (10,25)"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Las constantes son 4, 7, 5.5 y 2.5 respectivamente. La mayor es k=7, en la segunda opción."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una recta proporcional pasa por el punto (12,84). Su constante de proporcionalidad es k=___.",
+          "respuestaCorrecta": "7",
+          "retroalimentacion": "k = 84 ÷ 12 = 7."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si una recta proporcional pasa por (0,0) y por (10,10), su constante k es igual a 1.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: k = 10 ÷ 10 = 1."
+        }
+      ]
+    },
+    {
+      "numero": "7.8",
+      "nivelEtiqueta": "Nivel 8 de 10 · Reto avanzado",
+      "titulo": "Comparar tasas unitarias: ¿cuál opción conviene más?",
+      "explicacion": "Ahora usarás la proporcionalidad para tomar decisiones de la vida real: comparar dos o más opciones calculando su tasa unitaria (k) y decidiendo cuál conviene más. A diferencia de las lecciones anteriores, aquí manejarás números decimales y deberás decidir si conviene el k más alto o el más bajo según el contexto: en precios conviene el k más bajo (más barato por unidad), pero en rendimiento de gasolina o velocidad conviene el k más alto.",
+      "formula": "Tasa unitaria: k = cantidad total ÷ número de unidades",
+      "ejemplos": [
+        "Un paquete de 4 kg de arroz cuesta $76 y otro de 6.5 kg cuesta $123.50. Precio por kg: 76÷4=$19/kg; 123.50÷6.5=$19/kg. Cuestan lo mismo por kilo.",
+        "Un coche recorre 245 km con 17.5 L de gasolina: rendimiento = 245÷17.5 = 14 km/L."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una tienda vende 3.5 kg de café en $210 y otra vende 5 kg en $290. ¿Cuál tienda tiene menor precio por kg?",
+          "opciones": [
+            "Primera tienda",
+            "Segunda tienda",
+            "Cuestan igual",
+            "No se puede calcular"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Primera: 210÷3.5=$60/kg. Segunda: 290÷5=$58/kg. Como 58<60, la segunda tienda es más barata por kg."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un auto recorre 168 km con 12 litros de gasolina, de forma constante. Su rendimiento es de ___ km por litro.",
+          "respuestaCorrecta": "14",
+          "retroalimentacion": "168 ÷ 12 = 14 km por litro."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si un producto cuesta $45 por 2.5 kg, su precio unitario es de $18 por kg.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 45 ÷ 2.5 = $18/kg."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El auto A recorre 315 km con 22.5 L de gasolina; el auto B recorre 280 km con 20 L. ¿Cuál es más eficiente (más km por litro)?",
+          "opciones": [
+            "Auto A",
+            "Auto B",
+            "Ambos son igual de eficientes",
+            "No se puede calcular"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Auto A: 315÷22.5=14 km/L. Auto B: 280÷20=14 km/L. Ambos tienen el mismo rendimiento."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una fábrica produce, de manera proporcional, 3.5 lotes en 7 horas. Su tasa de producción es de ___ lotes por hora.",
+          "respuestaCorrecta": "0.5",
+          "retroalimentacion": "3.5 ÷ 7 = 0.5 lotes por hora."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un supermercado vende 2.5 kg de manzanas en $87.50 y otro vende 4 kg en $148. ¿Cuál tiene mejor precio (más barato) por kg?",
+          "opciones": [
+            "Primer supermercado",
+            "Segundo supermercado",
+            "Cuestan igual",
+            "No se puede calcular"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Primero: 87.50÷2.5=$35/kg. Segundo: 148÷4=$37/kg. Como 35<37, el primer supermercado es más barato."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Entre dos gasolineras con el mismo precio por litro, conviene la marca de auto que rinde más kilómetros por litro.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: a mayor rendimiento (km por litro), se necesita menos gasolina para recorrer la misma distancia."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación con su tasa unitaria correcta.",
+          "columnaA": [
+            "6.5 kg de azúcar por $136.50",
+            "4.5 horas de trabajo por $328.50",
+            "8 litros de jugo por $132"
+          ],
+          "columnaB": [
+            "$16.50/litro",
+            "$73/hora",
+            "$21/kg"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "Azúcar: 136.50÷6.5=$21/kg. Trabajo: 328.50÷4.5=$73/hora. Jugo: 132÷8=$16.50/litro."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un ciclista recorre 52.5 km en 3.5 horas de manera constante. ¿Cuál es su velocidad en km/h?",
+          "opciones": [
+            "14",
+            "15",
+            "16",
+            "17.5"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "52.5 ÷ 3.5 = 15 km/h."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una impresora imprime, de forma constante, 5.5 hojas por cada 2 segundos. En un segundo imprime ___ hojas.",
+          "respuestaCorrecta": "2.75",
+          "retroalimentacion": "5.5 ÷ 2 = 2.75 hojas por segundo."
+        }
+      ]
+    },
+    {
+      "numero": "7.9",
+      "nivelEtiqueta": "Nivel 9 de 10 · Integración",
+      "titulo": "Integración: de la tabla a la gráfica, la ecuación y el diagrama",
+      "explicacion": "En esta lección conectarás todo lo aprendido: identificarás si una relación es proporcional, calcularás su k, y la representarás al mismo tiempo como ecuación, tabla, gráfica y diagrama de flechas. Los problemas ahora combinan dos o más subtemas de este PDA a la vez: por ejemplo, decidir si una tabla es proporcional y, si lo es, escribir su ecuación y usarla en un diagrama.",
+      "ejemplos": [
+        "Un taller cobra $145 por reparar 5 piezas, de forma proporcional. Ecuación: k=145÷5=29, entonces y=29x. Tabla: x=8→y=232. Gráfica: recta que pasa por (0,0) y (5,145). Diagrama: 5→145 con una sola flecha.",
+        "Una tabla muestra x=4→y=52 y x=7→y=91. Como 52÷4=13 y 91÷7=13, la relación es proporcional con k=13 y ecuación y=13x; en el diagrama, 4→52 y 7→91 son flechas únicas (es función)."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un taller cobra, de forma proporcional, $203 por reparar 7 piezas. ¿Cuál es la ecuación que representa esta relación?",
+          "opciones": [
+            "y=29x",
+            "y=29x+7",
+            "y=7x+29",
+            "y=203x"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "k = 203÷7 = 29, así que la ecuación es y=29x."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Usando la ecuación y=29x del taller de reparaciones, si reparan 12 piezas, el costo es $___.",
+          "respuestaCorrecta": "348",
+          "retroalimentacion": "y = 29 × 12 = $348."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En el diagrama sagital del taller de reparaciones, x=7 solo puede apuntar a una salida (y=203), porque es una función proporcional.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: al ser proporcional (y=29x), cada entrada tiene una única salida, así que también es función."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una tabla muestra x=3→y=45 y x=8→y=125. ¿Es esta relación proporcional?",
+          "opciones": [
+            "Sí, k=15 en ambos casos",
+            "No, porque 45÷3 no es igual a 125÷8",
+            "Sí, porque ambos son múltiplos de 5",
+            "No se puede saber sin ver la gráfica"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "45÷3=15, pero 125÷8=15.625. Como las razones no son iguales, la relación no es proporcional."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Dos rectas proporcionales pasan por el origen: la recta A por (6,90) y la recta B por (6,54). La diferencia entre sus constantes kA y kB es ___.",
+          "respuestaCorrecta": "6",
+          "retroalimentacion": "kA=90÷6=15, kB=54÷6=9. La diferencia es 15-9=6."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una tabla muestra x=2→18, x=5→45, x=9→81. ¿Cuál es su constante de proporcionalidad y su ecuación?",
+          "opciones": [
+            "k=9, y=9x",
+            "k=8, y=8x",
+            "k=9, y=9x+2",
+            "k=10, y=10x"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "18÷2=9, 45÷5=9 y 81÷9=9: la constante es k=9 y la ecuación es y=9x."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si una relación es proporcional, entonces también es una función (cada x tiene una sola y) y su gráfica pasa por el origen.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: y=kx siempre asigna un único valor de y a cada x, y cuando x=0, y=0."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada tabla con la ecuación que le corresponde.",
+          "columnaA": [
+            "x=4→52, x=6→78",
+            "x=3→42, x=9→126",
+            "x=5→85, x=10→170"
+          ],
+          "columnaB": [
+            "y=17x",
+            "y=13x",
+            "y=14x"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "Primera tabla: k=52÷4=13. Segunda tabla: k=42÷3=14. Tercera tabla: k=85÷5=17."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un plan telefónico cobra $180 fijos cada mes sin importar cuántos mensajes se envíen. ¿Se puede representar esta relación con una ecuación del tipo y=kx?",
+          "opciones": [
+            "Sí, con k=180",
+            "No, porque y siempre vale 180 sin importar x (no es proporcional)",
+            "Sí, con k=0",
+            "No se puede representar con ninguna ecuación"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Como y no depende de x (siempre es 180), no es de la forma y=kx: no es una relación proporcional."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En un diagrama, x=6 tiene una sola flecha hacia y, con k=23. El valor de y es ___.",
+          "respuestaCorrecta": "138",
+          "retroalimentacion": "y = k × x = 23 × 6 = 138."
+        }
+      ]
+    },
+    {
+      "numero": "7.10",
+      "nivelEtiqueta": "Nivel 10 de 10 · Dominio",
+      "titulo": "Dominio: proyecto integrador de proporcionalidad",
+      "explicacion": "Esta es la lección de mayor dominio: resolverás problemas completos de varios pasos que requieren decidir si una situación es proporcional, calcular su constante, y comparar varias opciones para tomar una decisión, tal como lo haría alguien en un negocio real. Los números ya no son tan 'redondos' y algunos problemas mezclan dos relaciones distintas (una proporcional y otra no) dentro del mismo enunciado.",
+      "ejemplos": [
+        "El kilo de tortillas ahora cuesta $18.50. Si Marta pagó $138.75, ¿cuántos kg compró? x = 138.75 ÷ 18.50 = 7.5 kg.",
+        "Una app de taxis cobra $32.50 fijos más $9.75 por km. Si Juan pagó $110.50, ¿cuántos km recorrió? (110.50-32.50)÷9.75 = 78÷9.75 = 8 km."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "llenar_frase",
+          "frase": "El kilo de tortillas ahora cuesta $18.50. Si Marta pagó $138.75, compró ___ kg.",
+          "respuestaCorrecta": "7.5",
+          "retroalimentacion": "x = y ÷ k = 138.75 ÷ 18.50 = 7.5 kg."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una app de taxis cobra $32.50 fijos más $9.75 por km. Si Juan pagó $110.50 en total, recorrió ___ km.",
+          "respuestaCorrecta": "8",
+          "retroalimentacion": "Primero se resta el cargo fijo: 110.50-32.50=78. Luego 78 ÷ 9.75 = 8 km."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La relación de la app de taxis (con $32.50 fijos más $9.75 por km) es proporcional.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: tiene un cargo fijo de $32.50 que se paga aunque no se recorra ningún km, así que no es proporcional."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Dos tortillerías: la primera cobra $18.50/kg sin cargo fijo, y la segunda cobra $15 fijos más $16/kg. Si Ana compra 5 kg en cada una, ¿cuál le cuesta menos?",
+          "opciones": [
+            "Primera tortillería",
+            "Segunda tortillería",
+            "Cuestan igual",
+            "No se puede calcular"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Primera: 18.50×5=$92.50. Segunda: 15+16×5=$95. Como 92.50<95, la primera tortillería es más barata."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un taller de bicicletas cobra, de forma proporcional, $214.50 por reparar el equivalente a 6.5 bicicletas. ¿Cuál es la constante k (costo por bicicleta)?",
+          "opciones": [
+            "31",
+            "33",
+            "35",
+            "33.5"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "k = 214.50 ÷ 6.5 = 33."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Con la constante k=33 del taller de bicicletas, el costo de reparar el equivalente a 9.5 bicicletas es $___.",
+          "respuestaCorrecta": "313.5",
+          "retroalimentacion": "y = 33 × 9.5 = $313.50."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si una tabla muestra x=2.5→y=42.5 y x=6→y=102, la relación es proporcional.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 42.5÷2.5=17 y 102÷6=17. Como la razón es la misma (k=17), es proporcional."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación con su clasificación correcta.",
+          "columnaA": [
+            "Internet: $0 fijos + $12.50/GB usado",
+            "Renta de coche: $450 fijos + $3.20/km",
+            "Boletos de concierto a $685 c/u"
+          ],
+          "columnaB": [
+            "No proporcional ($450 fijos)",
+            "Proporcional (y=685x)",
+            "Proporcional (y=12.50x)"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "El internet y los boletos son proporcionales (sin cargo fijo); la renta de coche no lo es, porque tiene $450 fijos."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una fábrica produce, de forma proporcional, 156 piezas en 9.75 horas. Manteniendo la misma tasa, ¿cuántas piezas produce en 14 horas?",
+          "opciones": [
+            "210",
+            "224",
+            "238",
+            "216"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "k = 156 ÷ 9.75 = 16 piezas por hora. En 14 horas: y = 16 × 14 = 224 piezas."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Se comparan dos relaciones: A) una tabla con un solo dato conocido, x=4→y=71; B) un taxi que cobra $18 fijos más $7.50/km. ¿Cuál afirmación es correcta?",
+          "opciones": [
+            "La relación A no es proporcional; la B sí lo es",
+            "La relación B definitivamente no es proporcional (tiene $18 fijos); con un solo punto no se puede saber si A lo es",
+            "Ambas relaciones son proporcionales",
+            "Ninguna de las dos relaciones es proporcional"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "El taxi (B) tiene un cargo fijo de $18, así que nunca es proporcional. En cambio, con un solo par de valores (A) no hay suficiente información para saber si toda la relación cumple y=kx."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "La relacion y = 6x + 3 es proporcional.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Tiene un valor fijo (+3) que se suma aunque x=0, asi que no es proporcional."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "La relacion y = 12x es proporcional.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Es de la forma y=kx (con k=12) y pasa por el origen (0,0)."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cual de estas relaciones es proporcional?",
+      "opciones": [
+        "El estacionamiento: $20 fijos + $5/hora",
+        "El costo de manzanas a $9/kg",
+        "La renta de patines: $15 fijos + $3/hora",
+        "El boleto con $6 de descuento fijo"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "El costo de manzanas es y=9x: si compras 0 kg, pagas $0, es proporcional. Las demas tienen un cargo o descuento fijo."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Si k=13 y x=7, entonces y = ___.",
+      "respuestaCorrecta": "91",
+      "retroalimentacion": "y = kx = 13 × 7 = 91."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Si k=6 y x=15, entonces y = ___.",
+      "respuestaCorrecta": "90",
+      "retroalimentacion": "y = kx = 6 × 15 = 90."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cual de las siguientes situaciones es proporcional?",
+      "opciones": [
+        "El estacionamiento: $18 fijos + $4/hora",
+        "El costo de peras a $11/kg",
+        "La renta de patines: $22 fijos + $6/hora",
+        "El boleto con $9 de descuento fijo"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "El costo de peras es y=11x: si compras 0 kg, pagas $0, es proporcional. Las demas tienen un cargo o descuento fijo."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "La relacion y = 20x - 5 es proporcional.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Tiene un valor fijo (-5) restado, asi que no es proporcional."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "La relacion y = 17x es proporcional.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Es de la forma y=kx (con k=17) y pasa por el origen (0,0)."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Si k=9 y x=8, entonces y = ___.",
+      "respuestaCorrecta": "72",
+      "retroalimentacion": "y = kx = 9 × 8 = 72."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada relacion con su tipo.",
+      "columnaA": [
+        "y=14x",
+        "y=5x+2",
+        "El costo de plumas a $7 c/u"
+      ],
+      "columnaB": [
+        "No proporcional (+2 fijo)",
+        "Proporcional (y=14x)",
+        "Proporcional (y=7x)"
+      ],
+      "parejasCorrectas": [
+        1,
+        0,
+        2
+      ],
+      "retroalimentacion": "y=14x y las plumas a $7 c/u son proporcionales (y=kx); y=5x+2 no lo es porque tiene un valor fijo (+2)."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "En una tabla, x=4 → y=36 y x=8 → y=72. ¿Cual es la constante de proporcionalidad k?",
+      "opciones": [
+        "9",
+        "8",
+        "4",
+        "72"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "k = y/x = 36/4 = 9 (se confirma con 72/8 = 9)."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Si la grafica de una relacion es una recta que pasa por el origen, la relacion es proporcional.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: toda relacion proporcional (y=kx) pasa por el punto (0,0) en su grafica."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Si k=16 y x=5, entonces y = ___.",
+      "respuestaCorrecta": "80",
+      "retroalimentacion": "y = kx = 16 × 5 = 80."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cual de estas relaciones es proporcional?",
+      "opciones": [
+        "El taxi: $9 fijos + $3/km",
+        "El costo de refrescos a $14 c/u",
+        "La renta de cancha: $9 fijos + $14/hora",
+        "El boleto con $9 de descuento fijo"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "El costo de refrescos es y=14x: si compras 0, pagas $0, es proporcional. Las demas tienen un cargo o descuento fijo."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "En una tabla, x=5 → y=40 y x=10 → y=80, la constante de proporcionalidad es k=8.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: k = 40/5 = 8 (se confirma con 80/10 = 8)."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "En una tabla, x=3 → y=21. La constante de proporcionalidad k = ___.",
+      "respuestaCorrecta": "7",
+      "retroalimentacion": "k = y/x = 21/3 = 7."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "En una tabla, x=6 → y=54 y x=9 → y=81, la constante de proporcionalidad es k=9.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: k = 54/6 = 9 (se confirma con 81/9 = 9)."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cual de las siguientes situaciones es proporcional?",
+      "opciones": [
+        "El taxi: $7 fijos + $2/km",
+        "El costo de jugos a $11 c/u",
+        "La renta de cancha: $7 fijos + $11/hora",
+        "El boleto con $7 de descuento fijo"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "El costo de jugos es y=11x: si compras 0, pagas $0, es proporcional. Las demas tienen un cargo o descuento fijo."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada tabla con su constante de proporcionalidad k.",
+      "columnaA": [
+        "x=2 → y=24",
+        "x=4 → y=28",
+        "x=5 → y=40"
+      ],
+      "columnaB": [
+        "7",
+        "8",
+        "12"
+      ],
+      "parejasCorrectas": [
+        2,
+        0,
+        1
+      ],
+      "retroalimentacion": "x=2,y=24: k=12. x=4,y=28: k=7. x=5,y=40: k=8."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Si la grafica de una relacion es una recta que NO pasa por el origen, la relacion es proporcional.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Falso: si la recta no pasa por el origen (0,0), la relacion NO es proporcional, porque tiene un valor fijo."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "La relacion y = 4x - 2 es proporcional.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Tiene un valor fijo (-2) restado, asi que no es proporcional."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Si k=17 y x=4, entonces y = ___.",
+      "respuestaCorrecta": "68",
+      "retroalimentacion": "y = kx = 17 × 4 = 68."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cual de estas relaciones NO es proporcional?",
+      "opciones": [
+        "El costo de naranjas a $10/kg",
+        "La renta de lancha: $40 fijos + $20/hora",
+        "y=13x",
+        "El costo de dulces a $2 c/u"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "La renta de lancha tiene un cargo fijo de $40 que se paga aunque no se use ninguna hora, asi que no es proporcional."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada situacion con el tipo de relacion que representa.",
+      "columnaA": [
+        "Camisetas a $19 c/u",
+        "Estacionamiento: $6 fijos + $3/hora",
+        "Libros a $22 c/u"
+      ],
+      "columnaB": [
+        "No proporcional ($6 fijos)",
+        "Proporcional (y=19x)",
+        "Proporcional (y=22x)"
+      ],
+      "parejasCorrectas": [
+        1,
+        0,
+        2
+      ],
+      "retroalimentacion": "Camisetas y libros son proporcionales (y=kx); el estacionamiento no lo es, porque tiene un cargo fijo."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada tabla con su constante de proporcionalidad k.",
+      "columnaA": [
+        "x=2 → y=16",
+        "x=5 → y=45",
+        "x=3 → y=15"
+      ],
+      "columnaB": [
+        "9",
+        "5",
+        "8"
+      ],
+      "parejasCorrectas": [
+        2,
+        0,
+        1
+      ],
+      "retroalimentacion": "x=2,y=16: k=8. x=5,y=45: k=9. x=3,y=15: k=5."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál de estas relaciones NO es proporcional?",
+      "opciones": [
+        "El costo de limones a $8/kg",
+        "La renta de kayak: $35 fijos + $15/hora",
+        "y=6x",
+        "El costo de globos a $3 c/u"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "La renta de kayak tiene un cargo fijo de $35 que se paga aunque no se use ninguna hora, así que no es proporcional."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "La relacion y = 9x + 7 es proporcional.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Tiene un valor fijo (+7) que se suma aunque x=0, asi que no es proporcional."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Si k=12 y x=6, entonces y = ___.",
+      "respuestaCorrecta": "72",
+      "retroalimentacion": "y = kx = 12 × 6 = 72."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada situación con el tipo de relación que representa.",
+      "columnaA": [
+        "Estacionamiento: $10 fijos + $2/hora",
+        "Naranjas a $8/kg",
+        "Playeras a $12 c/u"
+      ],
+      "columnaB": [
+        "Proporcional (y=8x)",
+        "No proporcional ($10 fijos)",
+        "Proporcional (y=12x)"
+      ],
+      "parejasCorrectas": [
+        1,
+        0,
+        2
+      ],
+      "retroalimentacion": "Las naranjas y las playeras son proporcionales (y=kx); el estacionamiento no lo es, porque tiene un cargo fijo."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "En una tabla, x=6 → y=54 y x=9 → y=81. ¿Cuál es la constante de proporcionalidad k?",
+      "opciones": [
+        "6",
+        "9",
+        "54",
+        "81"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "k = y/x = 54/6 = 9 (se confirma con 81/9 = 9)."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Si k=9 y x=4, entonces y = ___.",
+      "respuestaCorrecta": "36",
+      "retroalimentacion": "y = kx = 9 × 4 = 36."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál de estas relaciones NO es proporcional?",
+      "opciones": [
+        "El costo de dulces a $3 c/u",
+        "La renta de bicicleta: $15 fijos + $4/hora",
+        "El costo de plátanos a $12/kg",
+        "y=8x"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "La renta de bicicleta tiene un cargo fijo de $15 que se paga aunque no se use ninguna hora, así que no es proporcional."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "La gráfica de una relación proporcional siempre pasa por el punto (0,0).",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: si x=0 entonces y=0 en toda relación proporcional (y=kx)."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada situación con el tipo de relación que representa.",
+      "columnaA": [
+        "Cine con $10 de descuento fijo",
+        "Chocolates a $5 c/u",
+        "Consumo de agua con $50 fijos + consumo"
+      ],
+      "columnaB": [
+        "No proporcional (cargo/descuento fijo)",
+        "No proporcional (cargo fijo)",
+        "Proporcional (y=5x)"
+      ],
+      "parejasCorrectas": [
+        0,
+        2,
+        1
+      ],
+      "retroalimentacion": "El cine y el agua tienen un cargo o descuento fijo, así que no son proporcionales; los chocolates sí (y=5x)."
+    }
+  ]
+}
