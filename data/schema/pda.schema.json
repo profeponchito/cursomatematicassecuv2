@@ -1,0 +1,146 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PDA MATE-NEM (v5)",
+  "description": "Estructura modular de un Proceso de Desarrollo de Aprendizaje (PDA) de Matemáticas, NEM. Flujo: problematización (gancho de contexto real) → de 1 a 12 subtemas de menor a mayor dificultad, cada uno con su propia mini-actividad calificada de 5-10 reactivos (mini-resultado independiente con puntos y estrellas) → resultado global del PDA (suma de los mini-resultados). Un PDA curricular por grado trae 10-12 subtemas (Paso 25: los 4 núcleo del diseño original — Introductorio/Intermedio/Avanzado/Síntesis — más 6-8 lecciones adicionales de dificultad creciente, con `nivelEtiqueta` fijo en las 10-12 para que la escala completa se muestre coherente en vez de calcularse por índice); una 'tarjeta dividida' de camino (Paso 15, en desuso desde el Paso 21) trae exactamente 1.",
+  "type": "object",
+  "required": ["id", "grado", "campoFormativo", "eje", "titulo", "problematizacion", "subtemas"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Identificador único, convención: '<grado>S-B<bloque>-PDA<num>', ej. '2S-B1-PDA03'"
+    },
+    "grado": {
+      "type": "string",
+      "enum": ["1°", "2°", "3°", "Ejercítate"],
+      "description": "'Ejercítate' identifica un tema de práctica libre (pseudo-grado): no pertenece a la ruta curricular de ningún grado en particular, vive en data/ejercitate/ en vez de data/grado-N/, y requiere además el campo 'categoria'."
+    },
+    "trimestre": { "type": "string", "enum": ["1", "2", "3"] },
+    "numero": {
+      "type": "integer",
+      "description": "Número de tema dentro de su grado (1, 2, 3…), en el orden en que se recorren los PDAs de ese grado. Se muestra en la interfaz como 'Tema N'. Para 'Ejercítate', es el número 1-36 de la lista del usuario."
+    },
+    "categoria": {
+      "type": "string",
+      "enum": ["basico", "intermedio", "avanzado", "estadistica"],
+      "description": "Solo para grado='Ejercítate': agrupa el tema en uno de los 4 caminos de la pantalla de Ejercítate (básicos/intermedios/avanzados/estadística y probabilidad)."
+    },
+    "campoFormativo": { "type": "string", "const": "Saberes y Pensamiento Científico" },
+    "eje": { "type": "string" },
+    "titulo": { "type": "string" },
+    "contenido": { "type": "string", "description": "Enunciado oficial del Contenido de la NEM" },
+    "pda": { "type": "string", "description": "Enunciado oficial del Proceso de Desarrollo de Aprendizaje" },
+
+    "problematizacion": {
+      "type": "object",
+      "description": "Fase 1: gancho de contexto real que despierta interés, antes de explicar el tema.",
+      "required": ["contexto", "pregunta"],
+      "properties": {
+        "contexto": { "type": "string" },
+        "pregunta": { "type": "string" }
+      }
+    },
+
+    "subtemas": {
+      "type": "array",
+      "description": "El tema explicado y evaluado en partes, de menor a mayor dificultad. Cada subtema es una mini-actividad autocontenida: teoría (titulo/explicacion/ejemplos) + su propia mini-actividad calificada de 5-10 reactivos, con resultado (puntos, estrellas) independiente de los demás. Al completar todos, el PDA muestra un resultado global (suma de todos los mini-resultados). Un PDA 'completo' (curricular por grado) tiene 10-12 subtemas desde el Paso 25: los 4 núcleo originales (Introductorio/Intermedio/Avanzado/Síntesis) más 6-8 lecciones nuevas de dificultad creciente (numeradas <N>.5 en adelante), cada una con su propio `nivelEtiqueta` fijo (p.ej. 'Nivel 7 de 10 · Reto') para que la escala completa de 10-12 se muestre tal cual en vez de calcularse por índice. Ejercítate (pseudo-grado) sigue con 4 subtemas, sin cambios. Desde el Paso 15, un PDA también puede tener un SOLO subtema (minItems 1, en desuso desde el Paso 21): es una 'tarjeta dividida' del camino. En ese caso el subtema trae su propio campo 'nivelEtiqueta' (ver abajo) porque su posición real no puede deducirse de su índice dentro de un arreglo de un solo elemento.",
+      "minItems": 1,
+      "maxItems": 12,
+      "items": {
+        "type": "object",
+        "required": ["titulo", "explicacion", "ejemplos", "puntosPorReactivo", "estrellasMax", "reactivos"],
+        "properties": {
+          "numero": {
+            "type": "string",
+            "description": "Número jerárquico del subtema, formato '<numero del PDA>.<consecutivo>' (ej. '3.2' = subtema 2 del tema 3, '3.4' = el más difícil/de síntesis de ese tema). Si el PDA tiene subtemas de repaso opcionales, continúan la numeración a partir de .5 (ej. '3.5', '3.6', '3.7'). Se muestra en la interfaz junto al título del subtema."
+          },
+          "nivelEtiqueta": {
+            "type": "string",
+            "description": "Etiqueta fija de nivel/dificultad a mostrar en vez de calcularla por índice (ver nivelChip_ en app.js) — solo necesaria en PDAs 'tarjeta dividida' de un solo subtema (Paso 15), donde el índice dentro del arreglo (siempre 0) no revela la posición real del subtema en su PDA de origen. Formato idéntico al que generaría el motor, ej. 'Nivel 3 de 4 · Avanzado' o 'Repaso 2 de 3'. Si se omite, la etiqueta se calcula por índice/longitud del arreglo como de costumbre."
+          },
+          "titulo": { "type": "string" },
+          "explicacion": { "type": "string", "description": "Explicación del subtema, más desarrollada que una síntesis breve. El subtema 4 ('Síntesis y aplicación') recapitula las ideas clave de los subtemas 1-3." },
+          "formula": { "type": "string" },
+          "ejemplos": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "type": "string" },
+            "description": "Uno o más ejemplos resueltos que ilustran el subtema."
+          },
+          "puntosPorReactivo": { "type": "integer", "description": "Puntos otorgados por cada reactivo correcto de ESTE subtema (mini-actividad independiente)." },
+          "estrellasMax": { "type": "integer", "default": 3, "description": "Estrellas máximas de ESTE subtema (mini-actividad independiente)." },
+          "reactivos": {
+            "type": "array",
+            "minItems": 5,
+            "maxItems": 10,
+            "items": { "$ref": "#/definitions/pregunta" },
+            "description": "Los reactivos calificados de este subtema, en múltiplos de 5: exactamente 5 = una sola ronda (paso 'actividad' único); exactamente 10 = dos rondas de 5 (Paso 16: la app las presenta como dos pantallas de actividad consecutivas — 'paso 3' y 'paso 4' del recorrido — antes de calificar juntas las 10 en un solo mini-resultado). El motor (`vistaPDA` en app.js) deriva el número de rondas de `Math.ceil(reactivos.length / 5)`, así que un mismo PDA puede tener subtemas de 5 (una ronda) sin cambios de comportamiento."
+          }
+        }
+      }
+    },
+
+    "practicaExtra": {
+      "type": "array",
+      "description": "Fase opcional, no calificada: reactivos adicionales mostrados después del resultado global del PDA, para quien quiera seguir practicando el mismo tema. No afectan el puntaje ni las estrellas.",
+      "items": { "$ref": "#/definitions/pregunta" }
+    }
+  },
+
+  "definitions": {
+    "pregunta": {
+      "type": "object",
+      "description": "Una pregunta de cualquiera de los 5 tipos soportados. Los campos requeridos varían según 'tipo'.",
+      "required": ["tipo", "retroalimentacion"],
+      "properties": {
+        "tipo": {
+          "type": "string",
+          "enum": ["opcion_multiple", "verdadero_falso", "llenar_frase", "relacionar_columnas", "algoritmo_columnas"]
+        },
+        "retroalimentacion": { "type": "string", "description": "Explicación mostrada después de responder, sea correcta o incorrecta." },
+
+        "pregunta": { "type": "string", "description": "[opcion_multiple] El enunciado de la pregunta." },
+        "opciones": { "type": "array", "items": { "type": "string" }, "description": "[opcion_multiple] Lista de opciones." },
+        "respuestaCorrecta": {
+          "description": "[opcion_multiple] índice (entero, base 0) de la opción correcta. [verdadero_falso] booleano. [llenar_frase] string esperado."
+        },
+
+        "enunciado": { "type": "string", "description": "[verdadero_falso] La afirmación a evaluar." },
+
+        "frase": { "type": "string", "description": "[llenar_frase] Frase con un solo hueco marcado como '___'." },
+
+        "instruccion": { "type": "string", "description": "[relacionar_columnas] Instrucción para el alumno." },
+        "columnaA": { "type": "array", "items": { "type": "string" }, "description": "[relacionar_columnas] Elementos a relacionar." },
+        "columnaB": { "type": "array", "items": { "type": "string" }, "description": "[relacionar_columnas] Opciones de pareja (se muestran en un <select> por fila)." },
+        "parejasCorrectas": {
+          "type": "array",
+          "items": { "type": "integer" },
+          "description": "[relacionar_columnas] Mismo orden que columnaA; cada valor es el índice en columnaB de su pareja correcta."
+        },
+
+        "operacion": {
+          "type": "string",
+          "enum": ["suma", "resta", "multiplicacion"],
+          "description": "[algoritmo_columnas] Qué operación representa el algoritmo vertical dibujado (Paso 18). Determina solo el texto de apoyo mostrado, no la validación — la validación siempre compara dígito por dígito contra 'valor'."
+        },
+        "filas": {
+          "type": "array",
+          "minItems": 2,
+          "description": "[algoritmo_columnas] Las filas del algoritmo vertical, en orden de arriba hacia abajo: primero los operandos (y, en una multiplicación con multiplicador de 2+ cifras, los productos parciales), al final la fila con 'esResultado':true (bajo la línea horizontal). Todas las filas se alinean a la derecha como en un algoritmo escrito en papel.",
+          "items": {
+            "type": "object",
+            "required": ["valor"],
+            "properties": {
+              "valor": { "type": "string", "pattern": "^[0-9]+(\\.[0-9]+)?$", "description": "El número COMPLETO y correcto de esta fila (con punto decimal si aplica), tal como debe quedar una vez resuelto — de aquí se derivan tanto los dígitos ya dados como los correctos de las casillas vacías." },
+              "signo": { "type": "string", "enum": ["+", "-", "×"], "description": "Si se muestra un signo de operación a la izquierda de esta fila (normalmente solo en la última fila de operandos/productos parciales, justo arriba de la línea)." },
+              "esResultado": { "type": "boolean", "description": "true en la fila del resultado final (se dibuja una línea horizontal arriba de ella)." }
+            }
+          }
+        },
+        "ocultos": {
+          "type": "array",
+          "description": "[algoritmo_columnas] Mismo largo y mismo orden que 'filas': para cada fila, la lista de posiciones (índice de carácter dentro de 'valor', 0 = el dígito más a la izquierda; si 'valor' tiene punto decimal, el punto también cuenta como una posición del string pero nunca debe marcarse como oculto) que se muestran como casilla vacía para que el alumno la complete. Las posiciones que NO aparecen aquí se muestran como dígito ya escrito (dado)."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,769 @@
+{
+  "id": "EJ-14",
+  "grado": "Ejercítate",
+  "numero": 14,
+  "categoria": "basico",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Completar dígitos del algoritmo de la multiplicación y división con decimales",
+  "contenido": "El algoritmo escrito de la multiplicación y la división cuando alguno de los factores o el divisor tiene cifras decimales, y cómo ubicar correctamente el punto decimal en el resultado.",
+  "pda": "Aplica y completa correctamente los pasos del algoritmo escrito de la multiplicación y la división con números decimales, contando y colocando el punto decimal en el resultado.",
+  "problematizacion": {
+    "contexto": "En el mercado, el kilogramo de queso cuesta $84.50 y doña Rosa quiere comprar 2.5 kilogramos. Para saber cuánto debe pagar, tiene que multiplicar 84.50 × 2.5, pero no recuerda en qué lugar exacto va el punto decimal del resultado.",
+    "pregunta": "¿Cómo puede doña Rosa saber en qué posición colocar el punto decimal al multiplicar o dividir números con decimales?"
+  },
+  "subtemas": [
+    {
+      "numero": "14.1",
+      "titulo": "Multiplicar un decimal por un número entero",
+      "explicacion": "Para multiplicar un decimal por un número entero, completas el algoritmo vertical multiplicando los dígitos como si ambos fueran números enteros, ignorando el punto. Al final, cuentas cuántas cifras decimales tiene el factor decimal (el entero no aporta ninguna) y colocas el punto decimal en el resultado contando esa cantidad de lugares desde la derecha. En los ejercicios de esta sección, algunas casillas del algoritmo ya vienen escritas y otras las debes completar tú.",
+      "formula": "cifras decimales del resultado = cifras decimales del factor decimal + cifras decimales del factor entero (0)",
+      "ejemplos": [
+        "6.2 × 3, en columnas: multiplicas 62 × 3 = 186; como 6.2 tiene 1 cifra decimal, colocas el punto un lugar desde la derecha y el resultado es 18.6.",
+        "0.45 × 6, en columnas: multiplicas 45 × 6 = 270; como 0.45 tiene 2 cifras decimales, el resultado es 2.70, es decir 2.7."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "3.2"
+            },
+            {
+              "valor": "4",
+              "signo": "×"
+            },
+            {
+              "valor": "12.8",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              3
+            ]
+          ],
+          "retroalimentacion": "3.2 × 4: multiplicas como enteros 32 × 4 = 128; como 3.2 tiene 1 cifra decimal, el resultado es 12.8."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "5.6"
+            },
+            {
+              "valor": "3",
+              "signo": "×"
+            },
+            {
+              "valor": "16.8",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [],
+            [
+              0,
+              1
+            ]
+          ],
+          "retroalimentacion": "5.6 × 3: multiplicas como enteros 56 × 3 = 168; como 5.6 tiene 1 cifra decimal, el resultado es 16.8."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "2.7"
+            },
+            {
+              "valor": "6",
+              "signo": "×"
+            },
+            {
+              "valor": "16.2",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "2.7 × 6: multiplicas como enteros 27 × 6 = 162; como 2.7 tiene 1 cifra decimal, el resultado es 16.2."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "8.3"
+            },
+            {
+              "valor": "5",
+              "signo": "×"
+            },
+            {
+              "valor": "41.5",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              3
+            ]
+          ],
+          "retroalimentacion": "8.3 × 5: multiplicas como enteros 83 × 5 = 415; como 8.3 tiene 1 cifra decimal, el resultado es 41.5."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "4.9"
+            },
+            {
+              "valor": "7",
+              "signo": "×"
+            },
+            {
+              "valor": "34.3",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "4.9 × 7: multiplicas como enteros 49 × 7 = 343; como 4.9 tiene 1 cifra decimal, el resultado es 34.3."
+        }
+      ]
+    },
+    {
+      "numero": "14.2",
+      "titulo": "Multiplicar decimal por decimal y verificar una división",
+      "explicacion": "Al multiplicar dos números decimales en columnas, multiplicas los dígitos como si fueran enteros y luego SUMAS las cifras decimales de los DOS factores para saber cuántas cifras decimales lleva el resultado. Para comprobar una división de un decimal entre un número entero, se arma el algoritmo de la multiplicación al revés: el cociente (cuadro de arriba) multiplicado por el divisor (cuadro de en medio, con el signo ×) debe dar exactamente el dividendo (cuadro final, bajo la línea).",
+      "formula": "cifras decimales del resultado de una multiplicación = cifras decimales del factor 1 + cifras decimales del factor 2",
+      "ejemplos": [
+        "1.2 × 0.3, en columnas: multiplicas 12 × 3 = 36; como hay 1+1=2 cifras decimales entre los dos factores, el resultado es 0.36.",
+        "Para comprobar que 8.4 ÷ 4 = 2.1, armas el algoritmo con 2.1 arriba, × 4 en medio y 8.4 como resultado: 2.1 × 4 = 8.4, así que la división es correcta."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "1.4"
+            },
+            {
+              "valor": "0.3",
+              "signo": "×"
+            },
+            {
+              "valor": "0.42",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "1.4 × 0.3: multiplicas como enteros 14 × 3 = 42; como hay 1+1=2 cifras decimales en total entre los factores, el resultado es 0.42."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "2.3"
+            },
+            {
+              "valor": "0.4",
+              "signo": "×"
+            },
+            {
+              "valor": "0.92",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0,
+              2
+            ],
+            [],
+            []
+          ],
+          "retroalimentacion": "2.3 × 0.4: multiplicas como enteros 23 × 4 = 92; como hay 1+1=2 cifras decimales en total entre los factores, el resultado es 0.92."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "1.6"
+            },
+            {
+              "valor": "0.2",
+              "signo": "×"
+            },
+            {
+              "valor": "0.32",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0,
+              2
+            ],
+            [],
+            []
+          ],
+          "retroalimentacion": "1.6 × 0.2: multiplicas como enteros 16 × 2 = 32; como hay 1+1=2 cifras decimales en total entre los factores, el resultado es 0.32."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "2.1"
+            },
+            {
+              "valor": "4",
+              "signo": "×"
+            },
+            {
+              "valor": "8.4",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "Esto verifica que 8.4 ÷ 4 = 2.1, porque 2.1 × 4 = 8.4."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "3.2"
+            },
+            {
+              "valor": "3",
+              "signo": "×"
+            },
+            {
+              "valor": "9.6",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "Esto verifica que 9.6 ÷ 3 = 3.2, porque 3.2 × 3 = 9.6."
+        }
+      ]
+    },
+    {
+      "numero": "14.3",
+      "titulo": "Multiplicador de dos cifras y división con divisor decimal",
+      "explicacion": "Cuando el multiplicador tiene dos cifras (aunque una de las dos cantidades sea decimal), el algoritmo necesita dos filas de producto parcial antes de la fila de resultado: una por cada dígito del multiplicador, y se suman para obtener el resultado final; el punto decimal se coloca hasta el final, contando las cifras decimales de ambos factores. Para comprobar una división en la que el divisor es decimal (o ambos, dividendo y divisor, son decimales), se arma igual que antes: cociente × divisor = dividendo.",
+      "formula": "a ÷ b (b decimal), verificación: cociente × divisor = dividendo",
+      "ejemplos": [
+        "2.3 × 1.6, en columnas: multiplicas 23 × 6 = 138 y 23 × 1 (desplazado un lugar) = 230; sumas 138 + 230 = 368; como hay 1+1=2 cifras decimales entre los factores, el resultado es 3.68.",
+        "Para comprobar que 1.44 ÷ 0.12 = 12, armas el algoritmo con 12 arriba, × 0.12 en medio y 1.44 como resultado: 12 × 0.12 = 1.44, así que la división es correcta."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "2.3"
+            },
+            {
+              "valor": "1.6",
+              "signo": "×"
+            },
+            {
+              "valor": "138"
+            },
+            {
+              "valor": "230",
+              "signo": "+"
+            },
+            {
+              "valor": "3.68",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [],
+            [
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          "retroalimentacion": "2.3 × 1.6: multiplicas como enteros 23 × 16 (138 + 230) = 368; como hay 1+1=2 cifras decimales en total entre los factores, el resultado es 3.68."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "15"
+            },
+            {
+              "valor": "0.4",
+              "signo": "×"
+            },
+            {
+              "valor": "6",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0,
+              1
+            ],
+            [],
+            []
+          ],
+          "retroalimentacion": "Esto verifica que 6 ÷ 0.4 = 15, porque 15 × 0.4 = 6."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "12"
+            },
+            {
+              "valor": "0.12",
+              "signo": "×"
+            },
+            {
+              "valor": "1.44",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0,
+              1
+            ],
+            [],
+            []
+          ],
+          "retroalimentacion": "Esto verifica que 1.44 ÷ 0.12 = 12, porque 12 × 0.12 = 1.44."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "1.2"
+            },
+            {
+              "valor": "2.4",
+              "signo": "×"
+            },
+            {
+              "valor": "48"
+            },
+            {
+              "valor": "240",
+              "signo": "+"
+            },
+            {
+              "valor": "2.88",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [],
+            [],
+            [
+              0
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "retroalimentacion": "1.2 × 2.4: multiplicas como enteros 12 × 24 (48 + 240) = 288; como hay 1+1=2 cifras decimales en total entre los factores, el resultado es 2.88."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "12"
+            },
+            {
+              "valor": "0.75",
+              "signo": "×"
+            },
+            {
+              "valor": "9",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0,
+              1
+            ],
+            [],
+            []
+          ],
+          "retroalimentacion": "Esto verifica que 9 ÷ 0.75 = 12, porque 12 × 0.75 = 9."
+        }
+      ]
+    },
+    {
+      "numero": "14.4",
+      "titulo": "Síntesis y aplicación",
+      "explicacion": "Recuerda: al multiplicar decimales en columnas, sumas las cifras decimales de los dos factores para colocar el punto en el resultado, y si el multiplicador tiene dos cifras necesitas sumar dos productos parciales antes de llegar al resultado. Al comprobar una división, sin importar si el divisor o el dividendo (o ambos) son decimales, siempre arma el algoritmo como una multiplicación: cociente × divisor = dividendo. Esta sección mezcla los casos anteriores con más cifras decimales y dígitos.",
+      "ejemplos": [
+        "3.15 × 12, en columnas: multiplicas 315 × 2 = 630 y 315 × 1 (desplazado un lugar) = 3150; sumas 630 + 3150 = 3780; como 3.15 tiene 2 cifras decimales, el resultado es 37.80.",
+        "Para comprobar que 5.28 ÷ 0.24 = 22, armas el algoritmo con 22 arriba, × 0.24 en medio y 5.28 como resultado: 22 × 0.24 = 5.28, así que la división es correcta."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "3.15"
+            },
+            {
+              "valor": "12",
+              "signo": "×"
+            },
+            {
+              "valor": "630"
+            },
+            {
+              "valor": "3150",
+              "signo": "+"
+            },
+            {
+              "valor": "37.80",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0,
+              3
+            ],
+            [],
+            [],
+            [
+              1,
+              3
+            ],
+            [
+              4
+            ]
+          ],
+          "retroalimentacion": "3.15 × 12: multiplicas como enteros 315 × 12 (630 + 3150) = 3780; como 3.15 tiene 2 cifras decimales, el resultado es 37.80."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "60"
+            },
+            {
+              "valor": "0.25",
+              "signo": "×"
+            },
+            {
+              "valor": "15",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "Esto verifica que 15 ÷ 0.25 = 60, porque 60 × 0.25 = 15."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "22"
+            },
+            {
+              "valor": "0.24",
+              "signo": "×"
+            },
+            {
+              "valor": "5.28",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "Esto verifica que 5.28 ÷ 0.24 = 22, porque 22 × 0.24 = 5.28."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "12.4"
+            },
+            {
+              "valor": "0.3",
+              "signo": "×"
+            },
+            {
+              "valor": "3.72",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0,
+              3
+            ],
+            [],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "12.4 × 0.3: multiplicas como enteros 124 × 3 = 372; como hay 1+1=2 cifras decimales en total entre los factores, el resultado es 3.72."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "4.5"
+            },
+            {
+              "valor": "23",
+              "signo": "×"
+            },
+            {
+              "valor": "135"
+            },
+            {
+              "valor": "900",
+              "signo": "+"
+            },
+            {
+              "valor": "103.5",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [],
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          "retroalimentacion": "4.5 × 23: multiplicas como enteros 45 × 23 (135 + 900) = 1035; como 4.5 tiene 1 cifra decimal, el resultado es 103.5."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "algoritmo_columnas",
+      "operacion": "multiplicacion",
+      "filas": [
+        {
+          "valor": "6.3"
+        },
+        {
+          "valor": "4",
+          "signo": "×"
+        },
+        {
+          "valor": "25.2",
+          "esResultado": true
+        }
+      ],
+      "ocultos": [
+        [
+          0
+        ],
+        [],
+        [
+          3
+        ]
+      ],
+      "retroalimentacion": "6.3 × 4: multiplicas como enteros 63 × 4 = 252; como 6.3 tiene 1 cifra decimal, el resultado es 25.2."
+    },
+    {
+      "tipo": "algoritmo_columnas",
+      "operacion": "multiplicacion",
+      "filas": [
+        {
+          "valor": "3.4"
+        },
+        {
+          "valor": "0.2",
+          "signo": "×"
+        },
+        {
+          "valor": "0.68",
+          "esResultado": true
+        }
+      ],
+      "ocultos": [
+        [
+          2
+        ],
+        [],
+        [
+          2
+        ]
+      ],
+      "retroalimentacion": "3.4 × 0.2: multiplicas como enteros 34 × 2 = 68; como hay 1+1=2 cifras decimales en total entre los factores, el resultado es 0.68."
+    },
+    {
+      "tipo": "algoritmo_columnas",
+      "operacion": "multiplicacion",
+      "filas": [
+        {
+          "valor": "3.2"
+        },
+        {
+          "valor": "2",
+          "signo": "×"
+        },
+        {
+          "valor": "6.4",
+          "esResultado": true
+        }
+      ],
+      "ocultos": [
+        [
+          0
+        ],
+        [],
+        [
+          2
+        ]
+      ],
+      "retroalimentacion": "Esto verifica que 6.4 ÷ 2 = 3.2, porque 3.2 × 2 = 6.4."
+    },
+    {
+      "tipo": "algoritmo_columnas",
+      "operacion": "multiplicacion",
+      "filas": [
+        {
+          "valor": "20"
+        },
+        {
+          "valor": "0.7",
+          "signo": "×"
+        },
+        {
+          "valor": "14",
+          "esResultado": true
+        }
+      ],
+      "ocultos": [
+        [
+          1
+        ],
+        [],
+        [
+          0
+        ]
+      ],
+      "retroalimentacion": "Esto verifica que 14 ÷ 0.7 = 20, porque 20 × 0.7 = 14."
+    }
+  ]
+}
