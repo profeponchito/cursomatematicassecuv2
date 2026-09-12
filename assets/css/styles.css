@@ -1,0 +1,414 @@
+/* MATE-NEM · Estilos globales complementarios a Tailwind (cargado por CDN)
+ * ----------------------------------------------------------------------
+ * Sistema visual: tipografía Baloo 2 (encabezados, amigable/creativa) +
+ * Inter (texto), marca índigo/violeta en la navegación, y una paleta
+ * "Aula NEM" propia (azul pizarrón, cobre, verde bosque, grafito, vino,
+ * ocre) para el camino de PDAs y las fases del recorrido — original y
+ * deliberadamente distinta a la de Duolingo, con animaciones suaves de
+ * entrada para que cada pantalla se sienta viva sin distraer del contenido.
+ */
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  background: #f7f4ec;
+  background-image:
+    radial-gradient(circle at 10% 0%, rgba(29, 78, 216, 0.09), transparent 40%),
+    radial-gradient(circle at 90% 10%, rgba(194, 65, 12, 0.07), transparent 40%),
+    radial-gradient(circle at 50% 100%, rgba(6, 95, 70, 0.06), transparent 40%);
+  background-attachment: fixed;
+}
+
+/* Recorta un bloque de texto a 2 líneas (etiquetas de los nodos del camino),
+ * sin depender del plugin line-clamp de Tailwind. */
+.mn-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+h1, h2, h3, .font-heading {
+  font-family: 'Baloo 2', system-ui, sans-serif;
+}
+
+/* Foco visible y accesible en navegación por teclado (importante en móviles con teclado externo) */
+:focus-visible {
+  outline: 2px solid #6366f1;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Entrada suave de cada panel/paso del recorrido */
+@keyframes mn-aparecer {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.mn-panel {
+  animation: mn-aparecer 0.35s ease-out both;
+}
+
+/* Aparición escalonada de tarjetas (grados, lista de PDAs) */
+@keyframes mn-tarjeta {
+  from { opacity: 0; transform: translateY(14px) scale(0.98); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+.mn-tarjeta {
+  animation: mn-tarjeta 0.4s ease-out both;
+}
+
+/* Estrellas: aparecen una a una con un pequeño "pop" */
+@keyframes mn-estrella-pop {
+  0%   { opacity: 0; transform: scale(0.3) rotate(-15deg); }
+  60%  { opacity: 1; transform: scale(1.15) rotate(5deg); }
+  100% { opacity: 1; transform: scale(1) rotate(0); }
+}
+.mn-estrella {
+  display: inline-block;
+  animation: mn-estrella-pop 0.5s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
+
+/* Resplandor sutil detrás de un resultado sobresaliente (3 estrellas) */
+@keyframes mn-resplandor {
+  0%, 100% { opacity: 0.5; transform: scale(1); }
+  50%      { opacity: 0.9; transform: scale(1.08); }
+}
+.mn-resplandor {
+  animation: mn-resplandor 2.2s ease-in-out infinite;
+}
+
+/* Barra de avance: transición suave del ancho */
+.mn-barra-avance {
+  transition: width 0.5s cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+/* Celebración final estilo videojuego ("nivel superado"), al cerrar un
+ * PDA/tema completo: confeti de colores que cae en bucle... */
+@keyframes mn-confeti-caer {
+  0%   { opacity: 0; transform: translateY(-12px) rotate(0deg); }
+  15%  { opacity: 1; }
+  100% { opacity: 0; transform: translateY(90px) rotate(220deg); }
+}
+.mn-confeti {
+  position: absolute;
+  top: 0;
+  width: 8px;
+  height: 8px;
+  border-radius: 2px;
+  animation: mn-confeti-caer 1.8s ease-in both infinite;
+}
+
+/* ...y un trofeo que aparece con un "pop" y flota suavemente después. */
+@keyframes mn-trofeo-pop {
+  0%   { opacity: 0; transform: scale(0.4) rotate(-8deg); }
+  55%  { opacity: 1; transform: scale(1.12) rotate(4deg); }
+  100% { opacity: 1; transform: scale(1) rotate(0); }
+}
+@keyframes mn-trofeo-flotar {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-6px); }
+}
+.mn-trofeo {
+  animation: mn-trofeo-pop 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) both,
+             mn-trofeo-flotar 2.4s ease-in-out 0.6s infinite;
+}
+
+/* Botones y tarjetas interactivas: leve elevación al pasar el cursor */
+.mn-elevar {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.mn-elevar:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 24px -8px rgba(79, 70, 229, 0.35);
+}
+.mn-elevar:active {
+  transform: translateY(-1px);
+}
+
+/* Patrón decorativo sutil (puntos) usado en fondos de encabezado/hero */
+.mn-puntos {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.35) 1.5px, transparent 1.5px);
+  background-size: 18px 18px;
+}
+
+/* Respeta a quien prefiere menos movimiento */
+@media (prefers-reduced-motion: reduce) {
+  .mn-panel, .mn-tarjeta, .mn-estrella, .mn-resplandor, .mn-elevar, .mn-confeti, .mn-trofeo {
+    animation: none !important;
+    transition: none !important;
+  }
+  .mn-confeti { display: none; } /* sin animación, el confeti caído se vería como manchas fijas */
+}
+
+/* Oculta elementos de navegación al imprimir/exportar la constancia */
+@media print {
+  header,
+  .no-imprimir {
+    display: none !important;
+  }
+}
+
+/* ------------------------------------------------------------
+ * "Profe Ponchito" — capa visual añadida sobre la app existente
+ * ------------------------------------------------------------
+ * Convive con todo lo de arriba: no reemplaza la paleta "Aula NEM" ni la
+ * estructura de datos (grado→PDA→subtema), solo agrega la forma/curvatura
+ * tipo Duolingo (curvas orgánicas, tarjetas muy redondeadas, botones con
+ * relieve 3D, paneles flotantes) usando una versión PASTEL de los mismos
+ * colores que ya existían (azul pizarrón, cobre, verde bosque, grafito,
+ * vino, ocre) — nunca los colores propios de Duolingo.
+ * ---------------------------------------------------------- */
+
+/* Botón/tarjeta "pulsable": borde inferior más grueso y oscuro que da
+ * sensación de relieve 3D; al presionar, se "hunde" (baja y el borde se
+ * adelgaza), como en Duolingo. El color del borde inferior se define inline
+ * (--mn-3d-borde) porque cada acción usa un degradado distinto. */
+.mn-boton-3d {
+  --mn-3d-borde: rgba(0, 0, 0, 0.25);
+  border-bottom-width: 4px;
+  border-bottom-style: solid;
+  border-bottom-color: var(--mn-3d-borde);
+  transition: transform 0.08s ease, border-bottom-width 0.08s ease, box-shadow 0.08s ease;
+}
+.mn-boton-3d:active {
+  transform: translateY(3px);
+  border-bottom-width: 1px;
+}
+@media (prefers-reduced-motion: reduce) {
+  .mn-boton-3d { transition: none; }
+}
+
+/* Manchas orgánicas ("blobs") pastel: fondo decorativo suave detrás del
+ * camino de módulos y de la pantalla de bienvenida — puramente estético,
+ * no interactivo (aria-hidden en el HTML). */
+.mn-blob {
+  position: absolute;
+  border-radius: 62% 38% 55% 45% / 48% 42% 58% 52%;
+  filter: blur(2px);
+  opacity: 0.55;
+  z-index: 0;
+  pointer-events: none;
+}
+@keyframes mn-blob-flotar {
+  0%, 100% { transform: translate(0, 0) rotate(0deg); }
+  50%      { transform: translate(6px, -10px) rotate(6deg); }
+}
+.mn-blob-animado {
+  animation: mn-blob-flotar 9s ease-in-out infinite;
+}
+
+/* Onda decorativa entre secciones del camino de módulos (separador curvo). */
+.mn-onda {
+  display: block;
+  width: 100%;
+  height: 28px;
+  opacity: 0.5;
+}
+
+/* Nodo del camino de módulos, ahora <details>/<summary>: al presionar (o
+ * enfocar con teclado) se despliega una tarjeta flotante con sus lecciones,
+ * sin perder la navegación (el botón "Empezar" de adentro sigue siendo el
+ * enlace real). */
+.mn-nodo > summary {
+  list-style: none;
+  cursor: pointer;
+}
+.mn-nodo > summary::-webkit-details-marker { display: none; }
+.mn-nodo[open] > summary .mn-nodo-circulo {
+  box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.25);
+}
+/* Un nodo abierto debe pintarse SIEMPRE por encima de los demás nodos del
+ * camino (que están más abajo en el DOM/serpiente y si no, taparían la
+ * tarjeta flotante o su botón "Empezar"). */
+.mn-nodo[open] {
+  z-index: 30;
+}
+
+@keyframes mn-flotar-in {
+  from { opacity: 0; transform: translate(-50%, 6px) scale(0.92); }
+  to   { opacity: 1; transform: translate(-50%, 0) scale(1); }
+}
+.mn-flotar-in {
+  animation: mn-flotar-in 0.22s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
+
+/* Panel flotante curvo de retroalimentación (parte inferior de la pantalla),
+ * al estilo Duolingo: verde pastel si la respuesta es correcta, naranja
+ * pastel si es incorrecta/hay que reintentar. */
+@keyframes mn-panel-subir {
+  from { opacity: 0; transform: translateY(100%); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.mn-panel-flotante {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 50;
+  border-top-left-radius: 28px;
+  border-top-right-radius: 28px;
+  box-shadow: 0 -12px 32px -8px rgba(15, 23, 42, 0.25);
+  animation: mn-panel-subir 0.3s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+@media (prefers-reduced-motion: reduce) {
+  .mn-panel-flotante, .mn-flotar-in, .mn-blob-animado { animation: none !important; }
+}
+
+/* Suave balanceo del ícono "pensativo" en el panel de retroalimentación
+ * naranja, para darle un poco de vida sin ser una animación completa del
+ * mascota (no se generaron nuevas poses del Profe Ponchito). */
+@keyframes mn-pensar {
+  0%, 100% { transform: rotate(-4deg); }
+  50%      { transform: rotate(4deg); }
+}
+.mn-pensar {
+  animation: mn-pensar 1.6s ease-in-out infinite;
+  transform-origin: 50% 85%;
+}
+
+/* Barra de avance "píldora": versión curva/gruesa de mn-barra-avance, usada
+ * en el encabezado y en el recorrido de un PDA. */
+.mn-progreso-pill {
+  height: 10px;
+  border-radius: 999px;
+  background: rgba(148, 163, 184, 0.25);
+  overflow: hidden;
+}
+.mn-progreso-pill > span {
+  display: block;
+  height: 100%;
+  border-radius: 999px;
+  transition: width 0.5s cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+/* Telón de fondo de los modales redondeados (soporte, calculadora). */
+.mn-modal-fondo {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.45);
+  backdrop-filter: blur(2px);
+  z-index: 60;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+/* Avatar circular del perfil (iniciales del alumno) en el encabezado. */
+.mn-avatar {
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Baloo 2', system-ui, sans-serif;
+  font-weight: 800;
+  flex-shrink: 0;
+}
+
+/* ------------------------------------------------------------
+ * Constancia / diploma (generado por constancia.js dentro de
+ * #contenedor-constancia). Estilo "diploma" clásico con acentos
+ * en índigo/violeta para que combine con el resto de la app.
+ * ---------------------------------------------------------- */
+.constancia {
+  width: 100%;
+  max-width: 780px;
+  margin: 0 auto;
+}
+.constancia__marco {
+  position: relative;
+  background: #fffdf9;
+  background-image:
+    radial-gradient(circle at 0% 0%, rgba(99, 102, 241, 0.10), transparent 45%),
+    radial-gradient(circle at 100% 100%, rgba(217, 70, 239, 0.08), transparent 45%);
+  border: 3px double #a5b4fc;
+  border-radius: 16px;
+  padding: clamp(20px, 5vw, 48px);
+  text-align: center;
+  box-shadow: 0 20px 40px -12px rgba(79, 70, 229, 0.25);
+  font-family: 'Inter', system-ui, sans-serif;
+}
+.constancia__sello {
+  letter-spacing: 4px;
+  color: #7c3aed;
+  font-weight: 800;
+  font-size: 0.8rem;
+  margin: 0 0 10px;
+  font-family: 'Baloo 2', system-ui, sans-serif;
+}
+.constancia__titulo {
+  margin: 0;
+  font-size: clamp(1.6rem, 5vw, 2.4rem);
+  color: #1e293b;
+  font-family: 'Baloo 2', system-ui, sans-serif;
+  font-weight: 800;
+}
+.constancia__subtitulo {
+  margin: 4px 0 22px;
+  color: #64748b;
+  font-style: italic;
+}
+.constancia__texto {
+  color: #334155;
+  margin: 8px 0;
+}
+.constancia__nombre {
+  margin: 10px 0;
+  font-size: clamp(1.5rem, 6vw, 2.1rem);
+  font-family: 'Baloo 2', system-ui, sans-serif;
+  background: linear-gradient(90deg, #4f46e5, #a21caf);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  border-bottom: 2px solid #ede9fe;
+  display: inline-block;
+  padding-bottom: 8px;
+}
+.constancia__pda {
+  margin: 14px 0 4px;
+  color: #1e293b;
+  font-weight: 700;
+}
+.constancia__eje {
+  margin: 0 0 16px;
+  color: #64748b;
+  font-size: 0.9rem;
+}
+.constancia__resultados {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin: 16px 0;
+  font-size: 0.95rem;
+  color: #334155;
+}
+.constancia__resultados strong {
+  color: #7c3aed;
+}
+.constancia__pie {
+  margin-top: 24px;
+  padding-top: 16px;
+  border-top: 1px dashed #ddd6fe;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.constancia__fecha,
+.constancia__folio {
+  font-size: 0.8rem;
+  color: #64748b;
+}
+.constancia__qr {
+  display: flex;
+  justify-content: center;
+}
+
+@media print {
+  .constancia__marco {
+    box-shadow: none;
+  }
+}
