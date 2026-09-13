@@ -20,37 +20,42 @@ calificada de 5 reactivos y su propio mini-resultado → resultado GLOBAL del
 PDA, suma de todos los subtemas → práctica extra opcional) → envío a Sheets
 (uno por subtema y uno por el resultado global) → constancia con fecha,
 hora y QR → **pantalla de celebración final** estilo videojuego. Los
-**3 trimestres completos** en los 3 grados (38 PDAs: 14 en 1°, 13 en 2°, 11
-en 3°, repartidos entre los ejes "Sentido numérico y pensamiento
-algebraico", "Forma, espacio y medida" y "Análisis de datos y
-probabilidad" — ver "Paso 23" más abajo), cada uno con **10 lecciones de
-menor a mayor dificultad** (ver "Paso 25"), y los 40 temas de
-Ejercítate (con 4 lecciones cada uno) ya están cargados con este diseño, mezclando los 4 tipos de
+**3 trimestres completos** en los 3 grados (38 PDAs curriculares: 14 en 1°,
+13 en 2°, 11 en 3°, repartidos entre los ejes "Sentido numérico y
+pensamiento algebraico", "Forma, espacio y medida" y "Análisis de datos y
+probabilidad" — ver "Paso 23" más abajo) llegaron a tener **10 lecciones
+de menor a mayor dificultad** cada uno (Paso 25) y, desde el **Paso 26**,
+cada uno de esos 38 PDAs vive dividido en **3 series más cortas** (Serie A:
+4 lecciones núcleo — Introductorio/Intermedio/Avanzado/Síntesis — Serie B:
+3 lecciones de aplicación, Serie C: 3 lecciones de reto/dominio), con
+títulos como "…1.1"/"…1.2"/"…1.3": **114 series en total** (42 en 1°, 39 en
+2°, 33 en 3°). Los 40 temas de Ejercítate (con 4 lecciones cada uno, sin
+dividir) ya están cargados con este diseño, mezclando los 4 tipos de
 reactivo soportados (opción múltiple, verdadero/falso, llenar frase,
 relacionar columnas); en cada intento, el orden de las preguntas y el de
 sus opciones se mezcla aleatoriamente, así que repetir un subtema no se ve
 idéntico la segunda vez. Cada PDA/tema y cada subtema tiene su propio
 número (`Tema N`, `N.1`…) mostrado junto a su título. Una sección de
-práctica extra opcional (3-4 reactivos más, sin calificar) aparece después
-del resultado global para quien quiera seguir practicando, y justo después
-de ella (o del resultado, si el PDA no tiene práctica extra) aparece la
-celebración final.
+práctica extra opcional (sin calificar) aparece después del resultado
+global para quien quiera seguir practicando, y justo después de ella (o
+del resultado, si el PDA no tiene práctica extra) aparece la celebración
+final.
 
-Cada uno de los 17 PDAs curriculares del Trimestre 1 (7 en 1°, 6 en 2°, 4
-en 3°) tiene sus **4 subtemas núcleo** (Introductorio/Intermedio/Avanzado/
-Síntesis), cada uno con su propia mini-actividad calificada de **10
-reactivos** en dos rondas consecutivas ("Ronda 1 de 2"/"Ronda 2 de 2") que
-se califican juntas en un solo mini-resultado — 40 reactivos calificados
-por PDA en total. Además, cada PDA trae una sección de **práctica extra**
-con 34 reactivos opcionales y sin calificar (los 3 subtemas de repaso que
-antes reforzaban lo ya visto, más los 3-4 de práctica extra que ya traía
-el PDA), para quien quiera seguir practicando después de ver su resultado
-global. Los temas de Ejercítate siguen con sus propios 4 subtemas (20
+Cada una de las 114 series de grado (ver "Paso 26") tiene 3 o 4 subtemas
+(según sea Serie A, B o C), cada uno con su propia mini-actividad
+calificada de **10 reactivos** en dos rondas consecutivas ("Ronda 1 de
+2"/"Ronda 2 de 2") que se califican juntas en un solo mini-resultado — una
+serie corta de 3 lecciones son **14 pasos** hasta el resultado global y una
+de 4 lecciones (Serie A) son **18 pasos**, en vez de los 42 de un PDA sin
+dividir. Además, cada serie trae su propia porción de **práctica extra**
+opcional y sin calificar (repartida proporcionalmente entre las 3 series
+de cada PDA original), para quien quiera seguir practicando después de ver
+su resultado. Los temas de Ejercítate siguen con sus propios 4 subtemas (20
 reactivos, una sola ronda de 5 cada uno) y su propia práctica extra más
 breve (3-4 reactivos): no se tocaron en ninguno de estos ajustes. Desde el
 Paso 17, Ejercítate tiene **40 temas** (36 originales + 4 nuevos de
 "completar dígitos del algoritmo" y números con signo, ver más abajo). Al
-terminar la constancia y la práctica extra (si el PDA/tema la tiene),
+terminar la constancia y la práctica extra (si la serie/tema la tiene),
 aparece una pantalla de **celebración estilo "nivel superado" de
 videojuego** — confeti animado, trofeo y un botón para elegir otro tema —
 como cierre festivo de cada recorrido.
@@ -184,6 +189,7 @@ el sitio ya se sirve por `https://`.
 23. ✅ Trimestres 2 y 3 completos, navegación por periodo y reetiquetado curricular real (Paso 23). El docente reportó que su grupo veía "solo 6 o 7 temas" por grado y pidió llegar a 20, además de separar los temas nuevos en tarjetas propias de "2do periodo" en vez de amontonarlos en el camino de un solo grado. Investigar la fuente oficial (SEP, Programa Sintético Fase 6) mostró que **toda la Fase 6 (los 3 años de secundaria juntos) tiene solo 14 Contenidos**, no 20 por grado — 7 ya cubiertos en Trimestre 1 ("Sentido numérico y pensamiento algebraico"), 4 de "Forma, espacio y medida" y 3 de "Análisis de datos y probabilidad" sin usar todavía; se lo planteamos honestamente al docente junto con una dosificación trimestral real ya publicada para 1° (que reparte los 7 PDAs de álgebra entre Trimestre 1 y 2, en vez de dejarlos todos en el Trimestre 1 como estaba la app), y eligió la opción recomendada: reetiquetar el contenido existente según esa fuente y escribir 21 PDAs nuevos de geometría/estadística/probabilidad para llegar a un total honesto de **14/13/11 PDAs por grado** (1°/2°/3°). Se reutilizó el campo `trimestre` que ya existía en el esquema (antes sin usar por `app.js`) en vez de inventar uno nuevo: se reetiquetaron los 17 PDAs originales (3 se quedan en Trimestre 1, 14 pasan a Trimestre 2 repartidos por grado) y se escribieron 6 PDAs nuevos de geometría para Trimestre 2 (Rectas y ángulos; Construcción y propiedades de las figuras planas y cuerpos — 2 por grado, con dificultad creciente: ángulos y clasificación de triángulos en 1°, congruencia y semejanza en 2°, Pitágoras y trigonometría en 3°) y 15 para Trimestre 3 (Circunferencia/círculo/esfera, Medición y cálculo, Obtención y representación de información, Medidas de tendencia central y dispersión, Azar e incertidumbre — 5 por grado). Para la navegación, la pantalla de selección de grado pasó de 3 tarjetas (1°/2°/3°) a **9 tarjetas agrupadas por grado** (cada una "1°/2°/3° · Trimestre N") más Ejercítate, con una nueva ruta `/pda-lista/:grado/:trimestre` que filtra los PDAs ya cargados por su campo `trimestre` (mismo patrón que ya usaba Ejercítate para agrupar por categoría) — exactamente lo que pidió el docente ("separa los nuevos temas en nuevos cuadros que digan 2 periodo primer año"). Los 21 PDAs nuevos (840 reactivos calificados + práctica extra) se generaron con agentes en paralelo, cada uno verificando su propia aritmética/geometría/probabilidad con Python antes de entregar, y se revalidaron de forma independiente contra el esquema (0 errores) y por muestreo aritmético manual. Toda la app (38 PDAs curriculares × 3 grados × 3 trimestres, más Ejercítate) se probó de punta a punta con Playwright y un build local de Tailwind: conteo de tarjetas por grado/trimestre, un recorrido completo por cada grado en Trimestre 2 y en Trimestre 3, y verificación de que los enlaces "volver"/"cambiar de grado"/"elegir otro tema" regresan siempre al trimestre correcto — 0 errores.
 24. ✅ Se retiró el canal de "Soporte" / mailto al docente (Paso 24). El docente preguntó cómo evitar que le llegara contenido ofensivo (archivos adjuntos de índole sexual o grotesca) a su correo real, y — al no existir en Gmail personal ni en Workspace una forma de filtrar el *contenido* de una imagen adjunta (solo el tipo de archivo o palabras del asunto/cuerpo) — la opción más simple y segura fue **quitar el botón que abría ese canal**, en vez de intentar filtrarlo. Se eliminó por completo: el botón flotante "¿Necesitas ayuda?" (`mn-boton-soporte-flotante`) que aparecía en todas las pantallas, la tarjeta "Soporte" de la pantalla `/recursos`, su modal (`abrirModalSoporte_`, que armaba un enlace `mailto:docentealfonsomatematicas@gmail.com` con lo que el alumno escribiera) y las referencias a "soporte" en el cierre por tecla Escape. La pantalla `/recursos` se renombró de "Recursos y soporte" a **"Recursos"** (igual el título del enlace en el encabezado) y ahora solo conserva la Calculadora y la tarjeta de "Materiales descargables", sin tocar ninguna otra funcionalidad, dato o PDA. Nada de esto afecta el webhook de Google Apps Script (que sigue siendo la única vía de datos hacia el docente, vía la hoja de cálculo, y no admite adjuntos). Probado de punta a punta con Playwright: el botón y el modal ya no existen en el DOM, la Calculadora y "Materiales descargables" siguen funcionando, y la navegación general (`/grados` con las 9 tarjetas de grado×trimestre + Ejercítate) no se vio afectada — 0 errores.
 25. ✅ De 4 a 10 lecciones por PDA, de menor a mayor dificultad (Paso 25). El docente notó que cada PDA de cada trimestre traía "pocas lecciones" y pidió expandir cada uno a al menos 10, desglosadas de menor a mayor dificultad, aceptando que hiciera falta crear más ejercicios. Los 38 PDAs curriculares (los 17 originales del Trimestre 1/2 y los 21 nuevos del Paso 23) tenían los mismos 4 subtemas núcleo (Introductorio/Intermedio/Avanzado/Síntesis) — se agregaron **6 lecciones nuevas por PDA** (Aplicación → Aplicación avanzada → Reto → Reto avanzado → Integración → Dominio, numeradas `<N>.5` a `<N>.10`), cada una con su propia mini-actividad de 10 reactivos (2 rondas de 5), llevando los 38 PDAs a **10 lecciones cada uno** (228 lecciones nuevas, ~2,280 reactivos nuevos en total). Cada subtema (existente y nuevo) ahora trae un `nivelEtiqueta` explícito ("Nivel N de 10 · <etiqueta>") en vez de calcularse por índice, para que la escala completa de 10 niveles se vea coherente de principio a fin. El esquema (`maxItems` de subtemas) se amplió de 7 a 12. Contenido generado con 38 agentes en paralelo (uno por PDA, en lotes para evitar límites de tasa de la API), cada uno leyendo primero el PDA real para no duplicar nada de los 4 subtemas ni de la práctica extra existente, y verificando su propia aritmética/geometría/probabilidad con Python antes de entregar. Validación independiente posterior: 0 errores de esquema en los 38 archivos fusionados, 4 reactivos `llenar_frase` corregidos (les faltaba el hueco `___`), 0 duplicados de contenido detectados contra el material ya existente. Probado de punta a punta con Playwright: las 38 tarjetas de PDA en las 9 combinaciones grado×trimestre muestran exactamente 10 lecciones al desplegarse, y un recorrido completo de un PDA (10 lecciones × 2 rondas = 20 rondas de actividad) llega correctamente al resultado global — 0 errores.
-26. ⏳ Página de verificación de folios (`verificar.html`) enlazada desde el QR.
-27. ⏳ Desplegar el Web Endpoint real, configurar `WEBHOOK_URL` y subir a GitHub Pages.
-28. ⏳ Pruebas en dispositivos móviles reales.
+26. ✅ Cada PDA de 10 lecciones se dividió en 3 series más cortas (Paso 26). El docente vio el camino de 42 pasos que dejó el Paso 25 y pidió más PDAs pero más cortos cada uno, renombrando por ejemplo "Expresión de fracciones 1.1", "1.2". Se dividió mecánicamente cada uno de los 38 PDAs curriculares en 3 series (Serie A: las 4 lecciones núcleo — Introductorio/Intermedio/Avanzado/Síntesis; Serie B: 3 lecciones de aplicación; Serie C: 3 lecciones de reto/dominio), sin tocar ningún subtema, reactivo ni explicación existente — solo se repartió la `practicaExtra` proporcionalmente entre las 3 y se recalculó el `nivelEtiqueta` de cada lección sobre el total local de su serie. Cada serie recibió además su propia problematización nueva (114 en total, redactadas por 3 agentes — uno por grado — ligadas específicamente a las lecciones de esa serie), y su título quedó con el sufijo "N.1"/"N.2"/"N.3" que pidió el docente (p. ej. "Expresión de fracciones como decimales... 1.1"). Los 38 PDAs se convirtieron en **114 series** (42 en 1°, 39 en 2°, 33 en 3°); el motor de la app no necesitó ningún cambio (ya soportaba cualquier número de subtemas desde el Paso 14). Validado contra el esquema (0 errores) y contra el conteo exacto de reactivos originales (ningún reactivo se perdió ni se duplicó). Probado de punta a punta con Playwright: conteo de tarjetas por trimestre en los 3 grados, y un recorrido completo de una serie corta confirmando que ahora toma 14-18 pasos (antes 42) hasta el resultado global — 0 errores.
+27. ⏳ Página de verificación de folios (`verificar.html`) enlazada desde el QR.
+28. ⏳ Desplegar el Web Endpoint real, configurar `WEBHOOK_URL` y subir a GitHub Pages.
+29. ⏳ Pruebas en dispositivos móviles reales.
