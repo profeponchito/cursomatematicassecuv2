@@ -1,0 +1,147 @@
+{
+  "id": "2S-B1-PDA11-07",
+  "grado": "2°",
+  "trimestre": "3",
+  "numero": 107,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Tablas y Gráficas Estadísticas 11.7",
+  "contenido": "Obtención y representación de información.",
+  "pda": "Organiza datos en tablas de frecuencia relativa y porcentual y los representa en histogramas y gráficas de línea, eligiendo la gráfica adecuada según el tipo de dato.",
+  "problematizacion": {
+    "contexto": "En la tabla de calificaciones del examen de Matemáticas de un grupo de Torreón, las frecuencias por rango son: 6-7 con 3 alumnos, 7-8 con 8 alumnos, 8-9 con 12 alumnos y 9-10 con 7 alumnos.",
+    "pregunta": "¿Cuántos alumnos obtuvieron menos de 9 de calificación, usando la frecuencia acumulada?"
+  },
+  "subtemas": [
+    {
+      "numero": "11.7",
+      "titulo": "Frecuencia acumulada: cuántos datos hay hasta cierto punto",
+      "explicacion": "La frecuencia acumulada de un intervalo es la suma de su frecuencia más las frecuencias de todos los intervalos anteriores; sirve para responder preguntas como '¿cuántos alumnos obtuvieron menos de 8 de calificación?' sin tener que revisar toda la tabla cada vez. También existe la frecuencia porcentual acumulada, que es la frecuencia acumulada dividida entre el total y multiplicada por 100. El último valor de la frecuencia acumulada siempre debe coincidir con el total de datos, y el de la frecuencia porcentual acumulada, con 100%.",
+      "formula": "frecuencia acumulada de un intervalo = frecuencia de ese intervalo + frecuencias acumuladas de los intervalos anteriores     ·     frecuencia porcentual acumulada = (frecuencia acumulada ÷ total) × 100",
+      "ejemplos": [
+        "Un histograma de calificaciones de 40 alumnos tiene los intervalos [5-6):3, [6-7):7, [7-8):10, [8-9):12, [9-10]:8. La frecuencia acumulada hasta [7-8) es 3+7+10=20, lo que significa que 20 alumnos obtuvieron menos de 8 de calificación; en porcentaje, 20÷40=0.5 → 50%.",
+        "Con los tiempos de 50 corredores agrupados en [10-15):8, [15-20):14, [20-25):16, [25-30):12, la frecuencia acumulada hasta [20-25) es 8+14+16=38, es decir, 38 corredores tardaron menos de 25 minutos; en porcentaje, 38÷50=0.76 → 76%."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Con la tabla de calificaciones [5-6):3, [6-7):7, [7-8):10, [8-9):12, [9-10]:8 (40 alumnos), ¿cuál es la frecuencia acumulada hasta el intervalo [8-9)?",
+          "opciones": [
+            "22",
+            "32",
+            "20",
+            "12"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "3+7+10+12=32."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Con la misma tabla de calificaciones (frecuencia acumulada de 32 hasta [8-9), de 40 alumnos), la frecuencia porcentual acumulada hasta [8-9) es ___%.",
+          "respuestaCorrecta": "80",
+          "retroalimentacion": "32÷40=0.8 → 80%."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Con la tabla de calificaciones, la frecuencia porcentual acumulada del último intervalo [9-10] siempre debe ser 100%.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: la frecuencia acumulada del último intervalo es igual al total de datos, así que su porcentaje es siempre 100%."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Con la tabla de pesos de 40 paquetes [2-4):5, [4-6):9, [6-8):15, [8-10]:11, ¿cuántos paquetes pesan menos de 6 kg?",
+          "opciones": [
+            "9",
+            "14",
+            "5",
+            "15"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "5+9=14 paquetes pesan menos de 6 kg."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Con la misma tabla de pesos ([2-4):5, [4-6):9, [6-8):15, [8-10]:11, de 40 paquetes), la frecuencia porcentual acumulada hasta [6-8) (es decir, menos de 8 kg) es ___%.",
+          "respuestaCorrecta": "72.5",
+          "retroalimentacion": "5+9+15=29 paquetes de 40: 29÷40=0.725 → 72.5%."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Con los tiempos de 50 corredores [10-15):8, [15-20):14, [20-25):16, [25-30):12, ¿cuántos corredores tardaron menos de 20 minutos?",
+          "opciones": [
+            "14",
+            "22",
+            "38",
+            "8"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "8+14=22 corredores tardaron menos de 20 minutos."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Con la tabla de corredores ([10-15):8, [15-20):14, [20-25):16, [25-30):12), el 76% de los corredores tardó menos de 25 minutos.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 8+14+16=38 de 50: 38÷50=0.76 → 76%."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Con la tabla de corredores, la frecuencia acumulada hasta el último intervalo [25-30) debe ser igual a ___.",
+          "respuestaCorrecta": "50",
+          "retroalimentacion": "La frecuencia acumulada del último intervalo siempre es igual al total de datos, que es 50."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La frecuencia acumulada de un intervalo se calcula multiplicando su frecuencia por el número de intervalos anteriores.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: se calcula sumando la frecuencia de ese intervalo con las frecuencias de todos los intervalos anteriores, no multiplicando."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Con la tabla de pesos de 40 paquetes ([2-4):5, [4-6):9, [6-8):15, [8-10]:11), relaciona cada intervalo con su frecuencia acumulada.",
+          "columnaA": [
+            "[2-4)",
+            "[4-6)",
+            "[6-8)",
+            "[8-10]"
+          ],
+          "columnaB": [
+            "40",
+            "29",
+            "14",
+            "5"
+          ],
+          "parejasCorrectas": [
+            3,
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "[2-4): 5. [4-6): 5+9=14. [6-8): 14+15=29. [8-10]: 29+11=40."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 7 de 10 · Reto"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Con los datos de ventas (L 5, M 9, Mi 7, J 12, V 14, en cientos de pesos), ¿entre qué días las ventas disminuyeron?",
+      "opciones": [
+        "Lunes a martes",
+        "Martes a miércoles",
+        "Miércoles a jueves",
+        "Jueves a viernes"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "De martes (9) a miércoles (7) las ventas bajaron; en los demás pares aumentaron."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Con los datos de ventas (L 5, M 9, Mi 7, J 12, V 14, en cientos de pesos), el jueves se vendió más del doble que el lunes.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: el doble del lunes (5) sería 10, y el jueves se vendieron 12, que es más de 10."
+    }
+  ]
+}

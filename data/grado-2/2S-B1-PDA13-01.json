@@ -1,0 +1,144 @@
+{
+  "id": "2S-B1-PDA13-01",
+  "grado": "2°",
+  "trimestre": "3",
+  "numero": 121,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Eventos Compuestos y Diagramas de Árbol 13.1",
+  "contenido": "Azar e incertidumbre en la ocurrencia de eventos cotidianos.",
+  "pda": "Calcula la probabilidad de eventos compuestos independientes usando diagramas de árbol.",
+  "problematizacion": {
+    "contexto": "En la fiesta de fin de año de su salón en Puebla, Kevin va a servir agua de sabor: hay 4 sabores (jamaica, horchata, limón y tamarindo) y, aparte, puede servirla en vaso chico o vaso grande.",
+    "pregunta": "¿De cuántas formas distintas puede Kevin combinar un sabor de agua con un tamaño de vaso?"
+  },
+  "subtemas": [
+    {
+      "numero": "13.1",
+      "titulo": "Eventos compuestos",
+      "explicacion": "Ya sabes calcular la probabilidad de un evento simple, como sacar 'águila' en una moneda o un '5' en un dado. Un evento compuesto combina dos o más experimentos simples que ocurren juntos o en secuencia, por ejemplo lanzar una moneda Y un dado, o elegir una playera Y un pantalón. Para saber cuántos resultados distintos puede tener ese evento compuesto (su espacio muestral), se multiplica el número de resultados posibles de cada experimento simple.",
+      "formula": "Total de resultados = (resultados del experimento 1) × (resultados del experimento 2)",
+      "ejemplos": [
+        "Lanzar un dado (6 resultados) y una moneda (2 resultados) juntos: 6 × 2 = 12 resultados posibles en total.",
+        "Elegir una playera de 3 colores y un pantalón de 2 colores: 3 × 2 = 6 combinaciones distintas."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si lanzas una moneda y un dado juntos, el espacio muestral combinado tiene 12 resultados posibles.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: moneda (2 resultados) × dado (6 resultados) = 12."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si lanzas dos dados, el espacio muestral combinado tiene 36 resultados posibles.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 6 × 6 = 36."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si lanzas tres monedas, el espacio muestral combinado tiene 6 resultados posibles.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: cada moneda tiene 2 resultados, así que son 2×2×2 = 8, no 6."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Al elegir una playera (3 colores) y un pantalón (2 colores), hay 5 combinaciones posibles.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: 3 × 2 = 6 combinaciones, no 5."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si lanzas dos monedas, el número total de resultados posibles es ___.",
+          "respuestaCorrecta": "4",
+          "retroalimentacion": "2 × 2 = 4."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si lanzas un dado y después una moneda, el número total de resultados posibles es ___.",
+          "respuestaCorrecta": "12",
+          "retroalimentacion": "6 × 2 = 12."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Si eliges un helado de 4 sabores y un tamaño de entre 3 opciones (chico, mediano, grande), ¿cuántas combinaciones distintas hay?",
+          "opciones": [
+            "7",
+            "12",
+            "10",
+            "9"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "4 × 3 = 12 combinaciones."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Si lanzas dos dados, ¿cuántos resultados tiene el espacio muestral combinado?",
+          "opciones": [
+            "12",
+            "24",
+            "36",
+            "30"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "6 × 6 = 36."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada combinación de experimentos con el número total de resultados de su espacio muestral.",
+          "columnaA": [
+            "Moneda y dado",
+            "Dos monedas",
+            "Dos dados"
+          ],
+          "columnaB": [
+            "4",
+            "36",
+            "12"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "Moneda y dado: 2×6=12. Dos monedas: 2×2=4. Dos dados: 6×6=36."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Si combinas 3 playeras y 4 pantalones, ¿cuántos conjuntos distintos puedes formar?",
+          "opciones": [
+            "7",
+            "12",
+            "10",
+            "14"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "3 × 4 = 12 conjuntos distintos."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 1 de 10 · Introductorio"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Se lanza un dado y se elige una carta de un mazo con 4 palos posibles. ¿Cuántos resultados tiene el espacio muestral?",
+      "opciones": [
+        "10",
+        "20",
+        "24",
+        "28"
+      ],
+      "respuestaCorrecta": 2,
+      "retroalimentacion": "6 × 4 = 24 resultados posibles."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Al lanzar dos dados, el espacio muestral tiene 30 resultados posibles.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Falso: 6 × 6 = 36 resultados, no 30."
+    }
+  ]
+}

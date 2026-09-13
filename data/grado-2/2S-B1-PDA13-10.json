@@ -1,0 +1,164 @@
+{
+  "id": "2S-B1-PDA13-10",
+  "grado": "2°",
+  "trimestre": "3",
+  "numero": 130,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Eventos Compuestos y Diagramas de Árbol 13.10",
+  "contenido": "Azar e incertidumbre en la ocurrencia de eventos cotidianos.",
+  "pda": "Calcula la probabilidad de eventos compuestos independientes usando diagramas de árbol.",
+  "problematizacion": {
+    "contexto": "En la feria de tu pueblo, un juego con la rueda de la fortuna tiene 8 secciones de distinto color, y solo 2 de ellas son 'sección ganadora'; el juego permite girar la rueda 3 veces de forma independiente, y ganas el premio mayor si caes en sección ganadora en las 3 giradas.",
+    "pregunta": "Combinando la regla del producto, el conteo del espacio muestral y el complemento, ¿cuál es la probabilidad de ganar el premio mayor en las 3 giradas, y cuál es la probabilidad de no caer en sección ganadora ni una sola vez de las 3?"
+  },
+  "subtemas": [
+    {
+      "numero": "13.10",
+      "nivelEtiqueta": "Nivel 10 de 10 · Dominio",
+      "titulo": "Dominio total: la rueda de la fortuna de la feria",
+      "explicacion": "Esta última lección del PDA reúne todo lo aprendido: contar espacios muestrales grandes, calcular probabilidades puntuales con la regla del producto (incluso con probabilidades distintas entre eventos) y usar el complemento para calcular la probabilidad de que algo ocurra al repetir un juego varias veces de forma independiente. Los problemas combinan tres o más pasos de cálculo antes de llegar a la respuesta final.",
+      "formula": "P(al menos uno en n intentos independientes) = 1 − (1 − p)ⁿ, donde p es la probabilidad de éxito en un solo intento",
+      "ejemplos": [
+        "La rueda de la fortuna de la feria tiene 8 secciones iguales: 1 dorada (premio mayor) y 7 normales. Un jugador gira la rueda y lanza un dado, de forma independiente. Paso 1: el espacio muestral total es 8×6=48 combinaciones igual de probables. Paso 2: P(sección dorada y sacar un 6) = 1/48. Paso 3: si el jugador repite el juego completo 2 veces de forma independiente, P(ganar el premio mayor AL MENOS UNA vez) = 1 − (47/48)² ≈ 1 − 0.959 ≈ 0.041.",
+        "En un examen de opción múltiple, cada pregunta tiene 4 opciones y solo una es correcta. Si un alumno responde al azar 2 preguntas de forma independiente, P(acertar ambas) = 1/4×1/4 = 1/16, y P(acertar AL MENOS UNA de las dos) = 1 − (3/4)² = 1 − 9/16 = 7/16."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "La rueda de la fortuna de la feria tiene 8 secciones iguales (1 dorada, 7 normales). Un jugador gira la rueda y lanza un dado, de forma independiente. ¿Cuántas combinaciones tiene el espacio muestral total?",
+          "opciones": [
+            "48",
+            "14",
+            "56",
+            "24"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "8 × 6 = 48 combinaciones posibles."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Con los datos anteriores, la probabilidad de obtener exactamente 'sección dorada y un 6' en un solo intento es ___.",
+          "respuestaCorrecta": "1/48",
+          "retroalimentacion": "Con 48 combinaciones igual de probables, una específica tiene probabilidad 1/48."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Si el jugador repite el juego completo (rueda y dado) 2 veces de forma independiente, ¿cuál es la probabilidad de NO ganar el premio mayor ('dorada y 6') en NINGUNO de los 2 intentos? (redondea a 3 decimales)",
+          "opciones": [
+            "≈0.959",
+            "≈0.041",
+            "≈0.5",
+            "≈0.021"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(no ganar en un intento) = 47/48. P(no ganar en los 2) = (47/48)² = 2209/2304 ≈ 0.959."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Siguiendo el juego anterior, la probabilidad de ganar el premio mayor AL MENOS UNA VEZ en los 2 intentos es aproximadamente ___ (usa 3 decimales).",
+          "respuestaCorrecta": "0.041",
+          "retroalimentacion": "1 − (47/48)² = 1 − 0.959 ≈ 0.041."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En un examen de opción múltiple con 4 opciones por pregunta (solo una correcta), si un alumno responde al azar 2 preguntas de forma independiente, la probabilidad de acertar AMBAS es 1/16.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 1/4 × 1/4 = 1/16."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Con los datos del reactivo anterior, ¿cuál es la probabilidad de acertar AL MENOS UNA de las dos preguntas al responder al azar?",
+          "opciones": [
+            "7/16",
+            "1/16",
+            "9/16",
+            "1/2"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(ninguna acertada) = 3/4 × 3/4 = 9/16. P(al menos una) = 1 − 9/16 = 7/16."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una alarma de seguridad tiene 3 sensores independientes; cada uno detecta un movimiento con probabilidad 0.6. ¿Cuál es la probabilidad de que AL MENOS UNO de los 3 sensores detecte el movimiento?",
+          "opciones": [
+            "0.936",
+            "0.6",
+            "0.216",
+            "0.064"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(ningún sensor detecta) = 0.4³ = 0.064. P(al menos uno) = 1 − 0.064 = 0.936."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un videojuego da un objeto especial con probabilidad 1/20 cada vez que se completa un nivel. Si un jugador completa 5 niveles de forma independiente, la probabilidad de obtener el objeto especial AL MENOS UNA VEZ es MAYOR que 1/4.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: P(al menos una vez) = 1 − (19/20)⁵ ≈ 1 − 0.774 ≈ 0.226, que es MENOR que 1/4 = 0.25."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación de intentos repetidos independientes con la probabilidad aproximada de que el evento ocurra AL MENOS UNA VEZ.",
+          "columnaA": [
+            "p=1/48 en 2 intentos",
+            "p=1/16 en 4 intentos",
+            "p=1/4 en 2 intentos"
+          ],
+          "columnaB": [
+            "≈0.041",
+            "≈0.228",
+            "0.4375"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "1−(47/48)²≈0.041. 1−(15/16)⁴≈0.228. 1−(3/4)²=7/16=0.4375."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En la feria, el juego de la rueda (8 secciones, 1 dorada) y el dado se juegan de forma independiente 3 veces. ¿Cuál es la probabilidad de ganar el premio mayor ('dorada y 6') AL MENOS UNA VEZ en los 3 intentos? (redondea a 4 decimales)",
+          "opciones": [
+            "0.0612",
+            "0.1224",
+            "0.9388",
+            "0.0208"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(no ganar en 3 intentos) = (47/48)³ ≈ 0.9388. P(al menos una vez) = 1 − 0.9388 ≈ 0.0612."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Se lanza un dado y dos monedas: la probabilidad de 'número impar en el dado y sol en ambas monedas' es 1/8.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: P(impar)=1/2, P(sol y sol)=1/2×1/2=1/4. 1/2 × 1/4 = 1/8."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Al lanzar 3 monedas, relaciona cada evento con su probabilidad.",
+      "columnaA": [
+        "Exactamente 1 águila",
+        "Exactamente 3 águilas",
+        "Al menos 2 águilas"
+      ],
+      "columnaB": [
+        "1/2",
+        "3/8",
+        "1/8"
+      ],
+      "parejasCorrectas": [
+        1,
+        2,
+        0
+      ],
+      "retroalimentacion": "Exactamente 1 águila: 3/8. Exactamente 3 águilas: 1/8. Al menos 2 águilas: 4/8 = 1/2."
+    }
+  ]
+}

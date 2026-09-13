@@ -1,0 +1,149 @@
+{
+  "id": "2S-B1-PDA12-02",
+  "grado": "2°",
+  "trimestre": "3",
+  "numero": 112,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Rango y Comparación de Datos 12.2",
+  "contenido": "Interpretación de la información a través de medidas de tendencia central y de dispersión.",
+  "pda": "Calcula el rango de un conjunto de datos y compara conjuntos usando medidas de tendencia central y dispersión.",
+  "problematizacion": {
+    "contexto": "En una fábrica de calzado en León, dos máquinas cortan suelas; en un día, la máquina A produjo 48, 50, 49, 51 y 52 pares por hora, y la máquina B produjo 40, 45, 50, 55 y 60 pares por hora. Ambas tienen exactamente el mismo promedio: 50 pares por hora.",
+    "pregunta": "Aunque tienen el mismo promedio, ¿cuál máquina es más constante en su producción por hora, usando el rango de cada una?"
+  },
+  "subtemas": [
+    {
+      "numero": "12.2",
+      "titulo": "Comparar dos conjuntos con media y rango",
+      "explicacion": "Dos conjuntos de datos pueden tener exactamente la misma media y aun así comportarse muy diferente: uno puede tener sus datos muy juntos (parejo, rango pequeño) y el otro muy separados (disperso, rango grande). Por eso la media sola no basta para describir un conjunto de datos: siempre conviene acompañarla del rango para saber qué tan pareja o dispersa es la información.",
+      "ejemplos": [
+        "Las calificaciones del grupo 2°A fueron 7,7,7,8,8 (media 7.4, rango 1) y las del grupo 2°B fueron 5,5,8,9,10 (media 7.4, rango 5). Ambos grupos tienen la misma media, pero 2°A tuvo calificaciones mucho más parejas.",
+        "La Ciudad Norte tuvo temperaturas 21,22,23,24,25 °C (media 23, rango 4) y la Ciudad Sur tuvo 18,19,20,28,30 °C (media 23, rango 12). Mismo promedio, pero el clima de Sur fue mucho más variable."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "llenar_frase",
+          "frase": "Los puntos del Equipo Rojo en 5 partidos fueron 11, 12, 13, 14, 15. La media de puntos del Equipo Rojo es ___.",
+          "respuestaCorrecta": "13",
+          "retroalimentacion": "Media = (11+12+13+14+15)/5 = 65/5 = 13."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Los puntos del Equipo Azul en 5 partidos fueron 8, 9, 10, 18, 20. La media de puntos del Equipo Azul es ___.",
+          "respuestaCorrecta": "13",
+          "retroalimentacion": "Media = (8+9+10+18+20)/5 = 65/5 = 13."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el rango de los puntos del Equipo Rojo (11, 12, 13, 14, 15)?",
+          "opciones": [
+            "4",
+            "15",
+            "11",
+            "26"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Rango = 15 − 11 = 4."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el rango de los puntos del Equipo Azul (8, 9, 10, 18, 20)?",
+          "opciones": [
+            "12",
+            "20",
+            "8",
+            "28"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Rango = 20 − 8 = 12."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El Equipo Rojo y el Equipo Azul tienen la misma media de puntos (13), pero como el Equipo Azul tiene un rango mayor (12 contra 4), sus resultados fueron más dispersos partido a partido.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: misma media, pero un rango mayor en el Equipo Azul significa más variación entre partidos."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El Grupo X ahorra (en pesos, por semana) 50, 50, 52, 53, 55 y el Grupo Y ahorra 30, 40, 40, 70, 80. Ambos grupos tienen la misma media de ahorro (52 pesos). ¿Cuál grupo ahorra de forma más pareja (menos dispersa)?",
+          "opciones": [
+            "Grupo X",
+            "Grupo Y",
+            "Ambos igual",
+            "No se puede saber"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Rango de X = 55−50=5; rango de Y = 80−30=50. El Grupo X es mucho más parejo."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El rango del ahorro semanal del Grupo Y (30, 40, 40, 70, 80) es ___ pesos.",
+          "respuestaCorrecta": "50",
+          "retroalimentacion": "Rango = 80 − 30 = 50."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La Ciudad Norte tuvo temperaturas 21, 22, 23, 24, 25 °C durante la semana y la Ciudad Sur tuvo 18, 19, 20, 28, 30 °C. Ambas ciudades tienen la misma temperatura promedio (23 °C), pero el clima de la Ciudad Sur fue más variable (mayor rango).",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Rango de Norte = 25−21=4; rango de Sur = 30−18=12. La Ciudad Sur fue más variable."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Si la Ciudad Norte tuvo un rango de temperatura de 4 °C durante la semana y la Ciudad Sur tuvo un rango de 12 °C, ¿cuál ciudad tuvo el clima más constante?",
+          "opciones": [
+            "Ciudad Norte",
+            "Ciudad Sur",
+            "Ambas igual",
+            "Falta información"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Un rango menor (4 °C) indica menos variación: la Ciudad Norte fue más constante."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada comparación con el grupo que resultó más disperso (mayor rango).",
+          "columnaA": [
+            "Grupo 2°A (7,7,7,8,8) vs Grupo 2°B (5,5,8,9,10), misma media",
+            "Equipo Rojo (11-15) vs Equipo Azul (8-20), misma media",
+            "Grupo X (50-55) vs Grupo Y (30-80), misma media"
+          ],
+          "columnaB": [
+            "Grupo Y",
+            "Grupo 2°B",
+            "Equipo Azul"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "2°B tiene rango 5 contra 1 de 2°A; Equipo Azul tiene rango 12 contra 4 de Rojo; Grupo Y tiene rango 50 contra 5 de X."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 2 de 10 · Intermedio"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es el rango de un conjunto de datos donde todos los valores son iguales a 2 (2, 2, 2, 2, 2)?",
+      "opciones": [
+        "0",
+        "2",
+        "10",
+        "No se puede calcular"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "Si el máximo y el mínimo son iguales (2), el rango es 2 − 2 = 0."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "El rango del conjunto de datos 15, 20, 32, 45, 60 es ___.",
+      "respuestaCorrecta": "45",
+      "retroalimentacion": "Rango = 60 − 15 = 45."
+    }
+  ]
+}

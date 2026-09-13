@@ -1,0 +1,150 @@
+{
+  "id": "2S-B1-PDA11-06",
+  "grado": "2°",
+  "trimestre": "3",
+  "numero": 106,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Tablas y Gráficas Estadísticas 11.6",
+  "contenido": "Obtención y representación de información.",
+  "pda": "Organiza datos en tablas de frecuencia relativa y porcentual y los representa en histogramas y gráficas de línea, eligiendo la gráfica adecuada según el tipo de dato.",
+  "problematizacion": {
+    "contexto": "Un profesor de Educación Física en Chihuahua midió las estaturas, en cm, de sus 32 alumnos: el más bajo mide 148 cm y el más alto 182 cm; quiere organizar estos datos en 6 intervalos para hacer un histograma.",
+    "pregunta": "¿Cuál es el rango de las estaturas, y qué amplitud debe tener cada uno de los 6 intervalos para cubrir todos los datos?"
+  },
+  "subtemas": [
+    {
+      "numero": "11.6",
+      "titulo": "Amplitud de clase: cómo definir los intervalos de un histograma",
+      "explicacion": "En los histogramas anteriores los intervalos ya estaban definidos; ahora aprenderás a construirlos tú mismo. Primero se calcula el rango de los datos (valor máximo menos valor mínimo) y luego se decide en cuántos intervalos (clases) se quiere dividir la información. La amplitud de clase es el ancho que debe tener cada intervalo para cubrir todo el rango de manera uniforme, y se obtiene dividiendo el rango entre el número de intervalos deseado; si el resultado no es un número entero, la amplitud se redondea hacia arriba para que ningún dato quede fuera.",
+      "formula": "rango = valor máximo − valor mínimo     ·     amplitud de clase = rango ÷ número de intervalos (redondeando hacia arriba si no es exacto)",
+      "ejemplos": [
+        "Las calificaciones de 20 alumnos van de 62 a 98 puntos y se quieren organizar en 4 intervalos. Rango = 98−62 = 36. Amplitud = 36÷4 = 9. Los intervalos, empezando en 62, quedan: [62-71), [71-80), [80-89) y [89-98].",
+        "Las edades de los socios de un gimnasio van de 15 a 63 años y se quieren 6 intervalos. Rango = 63−15 = 48. Amplitud = 48÷6 = 8, así que los intervalos son [15-23), [23-31), [31-39), [39-47), [47-55) y [55-63]."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "llenar_frase",
+          "frase": "Los pesos de 24 paquetes de una bodega van de 18 a 54 kg. Si se quieren 4 intervalos, el rango es ___ kg.",
+          "respuestaCorrecta": "36",
+          "retroalimentacion": "54−18=36 kg."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Con ese mismo rango de 36 kg y 4 intervalos, ¿cuál es la amplitud de clase?",
+          "opciones": [
+            "4",
+            "9",
+            "6",
+            "12"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "36÷4=9 kg de amplitud."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Las estaturas de un grupo van de 140 a 176 cm y se quieren 6 intervalos. La amplitud de clase es ___ cm.",
+          "respuestaCorrecta": "6",
+          "retroalimentacion": "(176−140)÷6 = 36÷6 = 6 cm."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Los tiempos de una carrera van de 12 a 52 segundos. Si se usan 5 intervalos, la amplitud de clase es 8 segundos.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: (52−12)÷5 = 40÷5 = 8 segundos."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Las edades de un grupo van de 12 a 55 años y se quieren 5 intervalos. El rango es 43, que no se divide exacto entre 5 (43÷5=8.6). ¿Qué amplitud de clase se debe usar para que ningún dato quede fuera?",
+          "opciones": [
+            "8",
+            "8.6",
+            "9",
+            "5"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Como 8.6 no es un número entero, se redondea hacia arriba a 9 para cubrir todo el rango sin dejar datos fuera."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Las alturas de 30 plantas de un invernadero van de 8 a 38 cm y se quieren 6 intervalos. La amplitud de clase es ___ cm.",
+          "respuestaCorrecta": "5",
+          "retroalimentacion": "(38−8)÷6 = 30÷6 = 5 cm."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Con los intervalos de calificaciones [62-71), [71-80), [80-89), [89-98] (amplitud 9, iniciando en 62), ¿en qué intervalo cae una calificación de 79?",
+          "opciones": [
+            "[62-71)",
+            "[71-80)",
+            "[80-89)",
+            "[89-98]"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "79 está entre 71 (incluido) y 80 (no incluido), así que cae en [71-80)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Con los mismos intervalos de calificaciones ([62-71), [71-80), [80-89), [89-98]), una calificación de 89 cae en el intervalo [80-89).",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: como [80-89) no incluye el 89, una calificación de 89 cae en el último intervalo, [89-98]."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un intervalo de histograma se escribe [71-80). ¿Qué significa esto?",
+          "opciones": [
+            "Incluye 71 y 80",
+            "Incluye 71 pero no 80",
+            "No incluye ni 71 ni 80",
+            "Incluye 80 pero no 71"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "El corchete [ incluye el límite inferior (71); el paréntesis ) excluye el límite superior (80), que pasa al siguiente intervalo."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación (rango de datos y número de intervalos) con su amplitud de clase correspondiente.",
+          "columnaA": [
+            "Rango 36, con 4 intervalos",
+            "Rango 48, con 6 intervalos",
+            "Rango 40, con 5 intervalos"
+          ],
+          "columnaB": [
+            "8",
+            "9",
+            "8"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            2
+          ],
+          "retroalimentacion": "36÷4=9. 48÷6=8. 40÷5=8."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 6 de 10 · Aplicación avanzada"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Con los datos de temperatura (L 10°C, M 8°C, Mi 12°C, J 9°C, V 11°C), ¿entre qué días hubo el mayor aumento?",
+      "opciones": [
+        "Lunes a martes",
+        "Martes a miércoles",
+        "Miércoles a jueves",
+        "Jueves a viernes"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "De martes (8°C) a miércoles (12°C) subió 4°C, el mayor aumento de la semana."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Las ventas semanales (en cientos de pesos) fueron: lunes 5, martes 9, miércoles 7, jueves 12, viernes 14. El total de ventas de la semana fue ___ (cientos de pesos).",
+      "respuestaCorrecta": "47",
+      "retroalimentacion": "5+9+7+12+14 = 47."
+    }
+  ]
+}

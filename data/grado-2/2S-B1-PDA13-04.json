@@ -1,0 +1,148 @@
+{
+  "id": "2S-B1-PDA13-04",
+  "grado": "2°",
+  "trimestre": "3",
+  "numero": 124,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Eventos Compuestos y Diagramas de Árbol 13.4",
+  "contenido": "Azar e incertidumbre en la ocurrencia de eventos cotidianos.",
+  "pda": "Calcula la probabilidad de eventos compuestos independientes usando diagramas de árbol.",
+  "problematizacion": {
+    "contexto": "En un juego de la feria en Toluca, lanzas 3 monedas al mismo tiempo y ganas un peluche si obtienes exactamente 2 águilas entre las tres.",
+    "pregunta": "Usando el conteo de resultados posibles y un diagrama de árbol mental, ¿cuántos de los resultados con las 3 monedas tienen exactamente 2 águilas, y cuál es la probabilidad de ganar el peluche?"
+  },
+  "subtemas": [
+    {
+      "numero": "13.4",
+      "titulo": "Aplicación combinada",
+      "explicacion": "Recuerda: para contar los resultados de un evento compuesto se multiplica el número de resultados de cada experimento, un diagrama de árbol muestra TODOS esos resultados como ramas, y si los experimentos son independientes, la regla del producto P(A y B) = P(A) × P(B) da la probabilidad de que ocurran juntos. En problemas con 3 experimentos (como 3 monedas), conviene imaginar el árbol completo y contar cuántas ramas cumplen la condición pedida antes de calcular la probabilidad.",
+      "ejemplos": [
+        "Al lanzar 3 monedas hay 2×2×2=8 resultados posibles: AAA, AAS, ASA, ASS, SAA, SAS, SSA, SSS (A=águila, S=sol). De esos 8, exactamente 3 tienen dos águilas y un sol (AAS, ASA, SAA), así que P(exactamente 2 águilas) = 3/8."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Se lanzan 3 monedas. ¿Cuántos resultados posibles hay en el espacio muestral?",
+          "opciones": [
+            "6",
+            "8",
+            "9",
+            "12"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "2×2×2 = 8 resultados posibles."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Se lanzan 3 monedas. ¿Cuántos de los 8 resultados tienen exactamente 2 águilas?",
+          "opciones": [
+            "2",
+            "3",
+            "4",
+            "1"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Son AAS, ASA y SAA: 3 resultados de los 8."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Se lanzan 3 monedas. La probabilidad de obtener exactamente 2 águilas es ___.",
+          "respuestaCorrecta": "3/8",
+          "retroalimentacion": "3 de los 8 resultados tienen exactamente 2 águilas, así que P = 3/8."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Al lanzar 3 monedas, la probabilidad de obtener 'sol, sol, sol' (ningún águila) es 1/8.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: solo 1 de los 8 resultados es SSS, así que P = 1/8."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Al lanzar 3 monedas, la probabilidad de obtener al menos 2 águilas es 1/2.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 4 de los 8 resultados tienen 2 o 3 águilas (AAA, AAS, ASA, SAA), así que P = 4/8 = 1/2."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Se lanzan 3 monedas. ¿Cuál es la probabilidad de obtener exactamente 3 águilas?",
+          "opciones": [
+            "1/8",
+            "3/8",
+            "1/4",
+            "1/2"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Solo AAA cumple la condición: 1 de 8 resultados, P = 1/8."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Se lanza un dado y luego dos monedas. El número total de resultados en el espacio muestral es ___.",
+          "respuestaCorrecta": "24",
+          "retroalimentacion": "6 × 2 × 2 = 24 resultados posibles."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Se lanza un dado y luego dos monedas. ¿Cuál es la probabilidad de obtener 'un número par en el dado y águila en ambas monedas'?",
+          "opciones": [
+            "1/6",
+            "1/8",
+            "1/12",
+            "1/4"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "P(par)=1/2. P(águila y águila)=1/2×1/2=1/4. En total: 1/2 × 1/4 = 1/8."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Al lanzar 3 monedas, relaciona cada evento con su probabilidad.",
+          "columnaA": [
+            "Exactamente 0 águilas",
+            "Exactamente 2 águilas",
+            "Al menos 2 águilas"
+          ],
+          "columnaB": [
+            "1/8",
+            "3/8",
+            "1/2"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "0 águilas: 1/8 (solo SSS). 2 águilas: 3/8 (AAS, ASA, SAA). Al menos 2 águilas: 4/8 = 1/2 (AAA, AAS, ASA, SAA)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Al lanzar un dado y una moneda, la probabilidad de obtener 'un 6 en el dado y sol' es 1/12.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: P(6)=1/6, P(sol)=1/2. 1/6 × 1/2 = 1/12."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 4 de 10 · Síntesis"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "llenar_frase",
+      "frase": "En el diagrama de árbol de una moneda y un dado (moneda primero), el número de ramas que terminan en 'águila' es ___.",
+      "respuestaCorrecta": "6",
+      "retroalimentacion": "De la rama águila salen 6 ramas más (una por cada valor del dado)."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "En el diagrama de árbol de dos dados, ¿cuántas ramas terminan con 'segundo dado = 4'?",
+      "opciones": [
+        "1",
+        "6",
+        "12",
+        "36"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "Por cada uno de los 6 valores del primer dado hay una rama que termina en 4, así que son 6."
+    }
+  ]
+}

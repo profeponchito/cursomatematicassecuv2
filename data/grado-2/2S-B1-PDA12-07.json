@@ -1,0 +1,153 @@
+{
+  "id": "2S-B1-PDA12-07",
+  "grado": "2°",
+  "trimestre": "3",
+  "numero": 117,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Rango y Comparación de Datos 12.7",
+  "contenido": "Interpretación de la información a través de medidas de tendencia central y de dispersión.",
+  "pda": "Calcula el rango de un conjunto de datos y compara conjuntos usando medidas de tendencia central y dispersión.",
+  "problematizacion": {
+    "contexto": "Un profesor de Ciencias en Guadalajara dibujó dos diagramas de caja para comparar las calificaciones de sus dos grupos en el mismo examen: el grupo A tiene una caja angosta y corta, mientras que el grupo B tiene una caja mucho más ancha con bigotes largos.",
+    "pregunta": "Solo mirando ambos diagramas de caja, ¿cuál grupo tuvo calificaciones más parejas y cuál tuvo calificaciones más dispersas?"
+  },
+  "subtemas": [
+    {
+      "numero": "12.7",
+      "nivelEtiqueta": "Nivel 7 de 10 · Reto",
+      "titulo": "Diagrama de caja: leer y comparar distribuciones con el resumen de cinco números",
+      "explicacion": "El diagrama de caja (o boxplot) representa visualmente el 'resumen de cinco números' de un conjunto de datos: el mínimo, Q1, la mediana, Q3 y el máximo. La caja va de Q1 a Q3 (contiene el 50% central de los datos) y tiene una línea marcando la mediana; los 'bigotes' son las líneas que salen de la caja hasta el mínimo y el máximo. Comparar dos diagramas de caja permite ver de un vistazo cuál grupo es más disperso o más parejo, sin necesidad de ver todos los datos originales.",
+      "formula": "Resumen de cinco números: mínimo, Q1, mediana (Q2), Q3, máximo. En el diagrama de caja: la caja abarca de Q1 a Q3, la línea interior marca la mediana, y los bigotes llegan hasta el mínimo y el máximo.",
+      "ejemplos": [
+        "Para los gastos 20, 22, 25, 28, 30, 33, 90, el resumen de cinco números es: mínimo 20, Q1 22, mediana 28, Q3 33, máximo 90. En el diagrama de caja, la caja sería angosta (de 22 a 33) pero el bigote derecho sería muy largo (hasta 90), mostrando visualmente que hay un dato atípico alejado del resto.",
+        "El equipo Tigres tiene el resumen: mínimo 50, Q1 60, mediana 70, Q3 75, máximo 80. El equipo Leones tiene: mínimo 40, Q1 55, mediana 70, Q3 85, máximo 100. Ambos equipos comparten la misma mediana (70), pero la caja y los bigotes de Leones son mucho más largos (RIC de 30 contra 15 de Tigres), así que su diagrama de caja se ve mucho más 'estirado': Leones es el equipo con resultados más dispersos."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resumen de cinco números (mínimo, Q1, mediana, Q3, máximo) de los gastos 20, 22, 25, 28, 30, 33, 90?",
+          "opciones": [
+            "20, 22, 28, 33, 90",
+            "20, 25, 28, 30, 90",
+            "22, 25, 28, 33, 90",
+            "20, 22, 25, 33, 90"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Mínimo = 20, Q1 = 22, mediana = 28, Q3 = 33, máximo = 90."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En un diagrama de caja, la longitud de la caja (de Q1 a Q3) representa el rango intercuartílico (RIC).",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: la caja va exactamente de Q1 a Q3, así que su longitud es Q3 − Q1, que es el RIC."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En un diagrama de caja, la línea que está dentro de la caja representa la ___ del conjunto de datos.",
+          "respuestaCorrecta": "mediana",
+          "retroalimentacion": "La línea interior de la caja marca la mediana (Q2) del conjunto."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Tigres: mínimo 50, Q1 60, mediana 70, Q3 75, máximo 80. Leones: mínimo 40, Q1 55, mediana 70, Q3 85, máximo 100. Ambos equipos tienen la misma mediana de puntos. ¿Cuál equipo tendría un diagrama de caja con caja y bigotes más largos (mayor dispersión)?",
+          "opciones": [
+            "Leones",
+            "Tigres",
+            "Ambos igual",
+            "No se puede saber"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "El RIC de Leones es 85−55=30 y el de Tigres es 75−60=15; además el rango total de Leones (100−40=60) es mayor que el de Tigres (80−50=30)."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El rango intercuartílico (RIC) del equipo Tigres (Q1 = 60, Q3 = 75) es ___.",
+          "respuestaCorrecta": "15",
+          "retroalimentacion": "RIC = Q3 − Q1 = 75 − 60 = 15."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El rango intercuartílico (RIC) del equipo Leones (Q1 = 55, Q3 = 85) es ___.",
+          "respuestaCorrecta": "30",
+          "retroalimentacion": "RIC = Q3 − Q1 = 85 − 55 = 30."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si el bigote derecho de un diagrama de caja es mucho más largo que el izquierdo, esto sugiere que hay valores grandes más alejados del centro que valores pequeños.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: un bigote largo de un lado indica que los datos de ese extremo están más dispersos o alejados de la caja central."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En un diagrama de caja, ¿qué porcentaje aproximado de los datos está contenido dentro de la caja (entre Q1 y Q3)?",
+          "opciones": [
+            "50%",
+            "25%",
+            "75%",
+            "100%"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "La caja va de Q1 (25%) a Q3 (75%), así que contiene el 50% central de los datos."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada parte del diagrama de caja con lo que representa.",
+          "columnaA": [
+            "Borde izquierdo de la caja",
+            "Línea dentro de la caja",
+            "Borde derecho de la caja",
+            "Extremo del bigote derecho"
+          ],
+          "columnaB": [
+            "Q1",
+            "Mediana",
+            "Q3",
+            "Máximo"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "retroalimentacion": "El borde izquierdo de la caja es Q1, la línea interior es la mediana, el borde derecho es Q3, y el extremo del bigote derecho es el valor máximo."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resumen de cinco números del conjunto 10, 12, 14, 15, 16, 17, 60?",
+          "opciones": [
+            "10, 12, 15, 17, 60",
+            "10, 14, 15, 16, 60",
+            "12, 14, 15, 16, 17",
+            "10, 12, 14, 17, 60"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Mínimo = 10, Q1 = 12, mediana = 15, Q3 = 17, máximo = 60."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "En el conjunto 3, 84, 85, 86, 87, la mediana (85) representa mejor el desempeño típico del equipo que la media (69).",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: casi todo el equipo sacó entre 84 y 87; el 3 es un dato atípico que baja mucho la media."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Los precios de 5 artículos son 50, 52, 53, 55 y 300 (un artículo de lujo). ¿Cuál medida se ve más afectada por el precio atípico de 300?",
+      "opciones": [
+        "La media",
+        "La mediana",
+        "El mínimo",
+        "Ninguna"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "La media sube mucho por el valor extremo (300); la mediana casi no cambia."
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "id": "2S-B1-PDA11-09",
+  "grado": "2°",
+  "trimestre": "3",
+  "numero": 109,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Tablas y Gráficas Estadísticas 11.9",
+  "contenido": "Obtención y representación de información.",
+  "pda": "Organiza datos en tablas de frecuencia relativa y porcentual y los representa en histogramas y gráficas de línea, eligiendo la gráfica adecuada según el tipo de dato.",
+  "problematizacion": {
+    "contexto": "En una presentación de la tienda escolar en Saltillo, un compañero muestra una gráfica de barras donde las ventas de refrescos parecen haberse triplicado de un mes a otro, pero al revisar los números reales, las ventas solo subieron de 180 a 200 unidades.",
+    "pregunta": "¿Qué debes revisar en esa gráfica de barras para saber si está manipulada visualmente, y cómo confirmarías el cambio real usando los números?"
+  },
+  "subtemas": [
+    {
+      "numero": "11.9",
+      "titulo": "Gráficas engañosas: cómo detectar manipulación visual en los datos",
+      "explicacion": "No basta con elegir el tipo de gráfica correcto (barras, circular, histograma o línea): también hay que revisar si la gráfica está construida de forma honesta. Una gráfica puede ser engañosa si el eje vertical no empieza en cero (esto exagera visualmente diferencias pequeñas), si usa una escala inconsistente entre series, o si mezcla frecuencias absolutas y porcentuales sin aclararlo. Para detectar el engaño, siempre compara los valores numéricos reales —calculando tú mismo la diferencia o el porcentaje— en vez de confiar solo en el tamaño de las barras o la inclinación de las líneas.",
+      "ejemplos": [
+        "Una gráfica de barras muestra las ventas de dos tiendas con el eje vertical empezando en 80 en vez de en 0: la tienda A vendió 80 unidades y la tienda B vendió 88. Como el eje no empieza en 0, la barra de B se ve casi el doble de alta que la de A, pero la diferencia real es solo 88−80=8 unidades, es decir, un aumento del (88−80)÷80×100=10%, no del 100%.",
+        "Si dos gráficas de línea usan escalas distintas en el eje vertical (una de 0 a 10 y otra de 0 a 1000) para representar el mismo tipo de dato, no se pueden comparar visualmente sus inclinaciones aunque se vean parecidas: hay que fijarse en los valores numéricos de cada eje, no solo en la forma de la línea."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si el eje vertical de una gráfica de barras no empieza en cero, las diferencias entre las barras pueden verse más grandes de lo que realmente son.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: truncar el eje vertical es una forma común de exagerar visualmente diferencias pequeñas."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una gráfica de barras con el eje vertical de 80 a 90 muestra dos tiendas: A con 80 unidades y B con 88. ¿Cuál es la variación porcentual real de B respecto a A?",
+          "opciones": [
+            "10%",
+            "100%",
+            "8%",
+            "80%"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(88−80)÷80×100=10%; el eje truncado hace que la diferencia visual parezca mucho mayor de lo que realmente es."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Para saber si una gráfica está siendo engañosa, basta con ver qué tan inclinada se ve la línea o qué tan alta se ve la barra, sin necesidad de revisar los valores numéricos de los ejes.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: siempre hay que revisar los valores numéricos reales de los ejes, porque el tamaño visual puede estar manipulado por la escala."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Quieres comparar de forma honesta las ventas mensuales de una tienda durante un año. ¿Cuál gráfica es la más adecuada y qué regla no debes olvidar?",
+          "opciones": [
+            "Gráfica de línea, y el eje vertical debe empezar en 0 para no exagerar los cambios",
+            "Gráfica circular, sin importar el eje",
+            "Histograma, agrupando los meses en intervalos",
+            "Gráfica de barras separadas por colores distintos cada mes"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "El dato cambia con el tiempo, así que la gráfica de línea es adecuada, y el eje vertical debe iniciar en 0 para representar los cambios de forma honesta."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un histograma de calificaciones de 40 alumnos muestra el intervalo [8-9) con 12 alumnos, pero el eje vertical solo llega hasta 15 y no empieza en 0, sino en 8, lo que hace ver esa barra desproporcionadamente alta. La frecuencia porcentual real de ese intervalo es 12÷40×100 = ___%.",
+          "respuestaCorrecta": "30",
+          "retroalimentacion": "12÷40=0.3 → 30%, sin importar cómo se vea la barra en un eje mal construido."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Mezclar en una misma tabla frecuencias absolutas y frecuencias porcentuales sin aclarar cuál es cuál puede confundir a quien lee la gráfica.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: siempre se debe indicar claramente si un valor es una frecuencia absoluta (conteo) o porcentual (%), para evitar interpretaciones erróneas."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Dos gráficas de línea representan el mismo tipo de dato (ventas mensuales), pero una usa una escala vertical de 0 a 100 y la otra de 0 a 10,000. Si ambas líneas se ven con la misma inclinación, ¿qué se puede concluir?",
+          "opciones": [
+            "Que ambas tiendas crecieron exactamente igual",
+            "Que no se pueden comparar visualmente sin revisar los valores numéricos de cada eje",
+            "Que la de escala más pequeña creció más",
+            "Que la de escala más grande creció más"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Con escalas distintas, la inclinación visual no es comparable; hay que revisar los valores reales de cada eje."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Elegir el tipo de gráfica correcto (barras, circular, histograma o línea) garantiza automáticamente que la gráfica no sea engañosa.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: incluso con el tipo correcto de gráfica, un eje mal construido (que no empieza en 0, con escala inconsistente) puede seguir siendo engañoso."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un vendedor quiere presentar sus resultados del año de la forma más favorable posible, exagerando visualmente un pequeño aumento en ventas. ¿Qué truco es más probable que use?",
+          "opciones": [
+            "Empezar el eje vertical en un valor cercano a sus datos, en vez de en 0",
+            "Usar una gráfica de línea con el eje empezando en 0",
+            "Mostrar la frecuencia relativa exacta junto con la absoluta",
+            "Usar un histograma con intervalos de amplitud correcta"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Truncar el eje vertical cerca de los valores reales exagera visualmente cualquier diferencia pequeña."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada práctica al construir una gráfica con si es honesta o engañosa.",
+          "columnaA": [
+            "Eje vertical que empieza en 0",
+            "Eje vertical que empieza muy por encima de 0, cerca de los datos",
+            "Aclarar si los valores son frecuencia absoluta o porcentual",
+            "Usar dos escalas distintas para comparar visualmente dos series sin aclararlo"
+          ],
+          "columnaB": [
+            "Honesta",
+            "Engañosa"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "retroalimentacion": "Empezar en 0 y aclarar las unidades son prácticas honestas; truncar el eje o mezclar escalas sin aclararlo son formas de engañar visualmente."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 9 de 10 · Integración"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "llenar_frase",
+      "frase": "De 80 alumnos de una escuela, 32 prefieren la clase de Educación Física. La frecuencia relativa es ___.",
+      "respuestaCorrecta": "0.4",
+      "retroalimentacion": "32÷80 = 0.4."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "De 80 alumnos, 32 prefieren la clase de Educación Física. ¿Cuál es la frecuencia porcentual?",
+      "opciones": [
+        "32%",
+        "40%",
+        "4%",
+        "0.4%"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "32÷80 = 0.4, y 0.4×100 = 40%."
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "id": "2S-B1-PDA13-09",
+  "grado": "2°",
+  "trimestre": "3",
+  "numero": 129,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Eventos Compuestos y Diagramas de Árbol 13.9",
+  "contenido": "Azar e incertidumbre en la ocurrencia de eventos cotidianos.",
+  "pda": "Calcula la probabilidad de eventos compuestos independientes usando diagramas de árbol.",
+  "problematizacion": {
+    "contexto": "En la kermes de fin de cursos de una secundaria de Puebla se rifan 3 premios entre 200 boletos vendidos, y aparte hay un juego donde primero giras una ruleta de 5 colores y luego lanzas un dado, ganando un premio extra si coinciden ciertas condiciones entre ambos resultados.",
+    "pregunta": "Combinando el conteo del espacio muestral del juego de ruleta y dado con la probabilidad de ganar ese premio extra, y por separado la probabilidad de que tu boleto sea uno de los 3 premiados en la rifa, ¿cómo organizarías el cálculo completo de ambas probabilidades?"
+  },
+  "subtemas": [
+    {
+      "numero": "13.9",
+      "nivelEtiqueta": "Nivel 9 de 10 · Integración",
+      "titulo": "Rifas y sorteos escolares: uniendo conteo, árbol y probabilidad",
+      "explicacion": "Esta lección integra todo lo aprendido en el PDA: contar el espacio muestral, pensar en el diagrama de árbol, calcular probabilidades con la regla del producto (incluso con probabilidades distintas entre eventos) y usar el complemento para 'al menos uno'. Resolverás problemas de varios pasos donde primero cuentas, luego calculas una probabilidad puntual y finalmente una probabilidad de complemento, todo en un mismo contexto de kermes o rifa escolar.",
+      "formula": "Recapitulación: N = (opciones 1) × (opciones 2) × ...; P(resultado específico) = 1/N si son igual de probables; P(NO ese resultado) = 1 − P(resultado específico)",
+      "ejemplos": [
+        "En la kermes escolar hay una ruleta con 5 secciones iguales (rojo, azul, verde, amarillo, morado) y una urna con 4 pelotas numeradas (1 a 4), elegidas de forma independiente. Paso 1 (conteo): el espacio muestral total tiene 5×4=20 combinaciones igual de probables. Paso 2 (probabilidad puntual): P(caer en 'rojo' y sacar la pelota '3') = 1/20. Paso 3 (complemento): P(NO obtener exactamente 'rojo y 3') = 1 − 1/20 = 19/20.",
+        "Un juego de feria lanza un dado (6 caras) y luego gira una ruleta con 3 secciones de distinto tamaño: verde (probabilidad 0.5), azul (0.3) y roja (0.2), independiente del dado. P(sacar un '6' en el dado y que la ruleta caiga en roja) = 1/6 × 0.2 = 1/30. Además, P(la ruleta NO caiga en roja, sin importar el dado) = 1 − 0.2 = 0.8."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En la kermes hay una ruleta de 5 secciones iguales y una urna con 4 pelotas numeradas, elegidas de forma independiente. ¿Cuántos resultados tiene el espacio muestral total?",
+          "opciones": [
+            "20",
+            "9",
+            "5",
+            "4"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "5 × 4 = 20 combinaciones posibles."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Con los datos anteriores (ruleta de 5 secciones, urna de 4 pelotas), la probabilidad de obtener exactamente 'rojo y pelota 3' es ___.",
+          "respuestaCorrecta": "1/20",
+          "retroalimentacion": "Con 20 combinaciones igual de probables, una específica tiene probabilidad 1/20."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Siguiendo con la kermes, ¿cuál es la probabilidad de NO obtener exactamente 'rojo y pelota 3'?",
+          "opciones": [
+            "19/20",
+            "1/20",
+            "4/5",
+            "1/4"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "1 − 1/20 = 19/20."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En un juego de feria se lanza un dado y luego se gira una ruleta con secciones verde (0.5), azul (0.3) y roja (0.2), de forma independiente. La probabilidad de sacar un '6' en el dado Y que la ruleta caiga en roja es 1/30.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 1/6 × 0.2 = 1/6 × 1/5 = 1/30."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Con los datos del reactivo anterior, ¿cuál es la probabilidad de que la ruleta NO caiga en roja (sin importar el dado)?",
+          "opciones": [
+            "0.8",
+            "0.2",
+            "0.5",
+            "0.3"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "1 − 0.2 = 0.8, ya que el resultado del dado no afecta a la ruleta."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una rifa escolar vende boletos con 3 colores (rojo, azul, verde, igual de probables) y 10 números (0 al 9, igual de probables), elegidos de forma independiente por boleto. El total de boletos distintos posibles es ___.",
+          "respuestaCorrecta": "30",
+          "retroalimentacion": "3 × 10 = 30 boletos distintos posibles."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Con los 30 boletos posibles de la rifa (reactivo anterior), ¿cuál es la probabilidad de que un boleto elegido al azar sea exactamente 'azul y número 7'?",
+          "opciones": [
+            "1/30",
+            "1/13",
+            "1/10",
+            "1/3"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Con 30 boletos igual de probables, uno específico tiene probabilidad 1/30."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En la rifa anterior, la probabilidad de que un boleto NO sea 'azul y número 7' es 29/30.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 1 − 1/30 = 29/30."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación de la kermes o la rifa con el cálculo que necesitas hacer primero.",
+          "columnaA": [
+            "Saber cuántos boletos distintos hay en total",
+            "Saber la probabilidad de un boleto específico",
+            "Saber la probabilidad de que NO salga un boleto específico"
+          ],
+          "columnaB": [
+            "Regla del producto para contar (multiplicar las opciones de cada categoría)",
+            "Dividir 1 entre el total de resultados posibles",
+            "Restar de 1 la probabilidad de ese resultado específico (complemento)"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "Contar el total usa la regla del producto; la probabilidad de un resultado específico es 1/N; y la de que NO ocurra es el complemento, 1 menos esa probabilidad."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un juego combina un trompo con 4 secciones iguales y una moneda, lanzados de forma independiente, con 8 resultados posibles en total. Si el jugador repite este juego completo 2 veces de forma independiente, ¿cuál es la probabilidad de obtener AL MENOS UNA vez la combinación 'sección roja y águila' en sus 2 intentos?",
+          "opciones": [
+            "15/64",
+            "1/8",
+            "1/4",
+            "49/64"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "En cada intento P(rojo y águila)=1/8, así que P(ninguna vez en 2 intentos)=(7/8)²=49/64. P(al menos una vez)=1−49/64=15/64."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Al lanzar 3 monedas, hay 3 resultados con exactamente 2 soles.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: exactamente 2 soles equivale a exactamente 1 águila, y hay 3 resultados así (ASS, SAS, SSA)."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Se lanza un dado y dos monedas. ¿Cuántos resultados tiene el espacio muestral?",
+      "opciones": [
+        "12",
+        "20",
+        "24",
+        "30"
+      ],
+      "respuestaCorrecta": 2,
+      "retroalimentacion": "6 × 2 × 2 = 24 resultados posibles."
+    }
+  ]
+}

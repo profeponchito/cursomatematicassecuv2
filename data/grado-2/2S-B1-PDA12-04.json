@@ -1,0 +1,142 @@
+{
+  "id": "2S-B1-PDA12-04",
+  "grado": "2°",
+  "trimestre": "3",
+  "numero": 114,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Rango y Comparación de Datos 12.4",
+  "contenido": "Interpretación de la información a través de medidas de tendencia central y de dispersión.",
+  "pda": "Calcula el rango de un conjunto de datos y compara conjuntos usando medidas de tendencia central y dispersión.",
+  "problematizacion": {
+    "contexto": "El entrenador de un equipo de voleibol en Mérida quiere decidir a cuál de dos jugadoras titular en el próximo partido, comparando sus puntos anotados en los últimos 5 juegos: Karla (8, 9, 8, 10, 9) y Fernanda (2, 15, 9, 3, 15).",
+    "pregunta": "Usando la media, el rango y revisando si hay datos atípicos, ¿a cuál de las dos jugadoras recomendarías titular, y por qué?"
+  },
+  "subtemas": [
+    {
+      "numero": "12.4",
+      "titulo": "Comparación combinada",
+      "explicacion": "Para comparar qué tan consistente es un grupo de datos frente a otro, conviene usar varias herramientas juntas: la media (para saber el promedio), el rango (para saber qué tan dispersos están) y revisar si hay algún dato atípico (que podría estar 'engañando' a la media). Un grupo es más consistente cuando su rango es pequeño y no tiene valores atípicos que distorsionen sus resultados.",
+      "ejemplos": [
+        "Grupo A obtuvo 69, 70, 71, 72, 73 en un examen (media 71, rango 4) y Grupo B obtuvo 50, 55, 60, 85, 90 (media 68, rango 40). Aunque las medias son parecidas, el Grupo A es mucho más consistente porque su rango es mucho menor."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Grupo A obtuvo las calificaciones 69, 70, 71, 72, 73 y Grupo B obtuvo 50, 55, 60, 85, 90 en el mismo examen. ¿Cuál grupo tuvo un desempeño más consistente (parejo)?",
+          "opciones": [
+            "Grupo A",
+            "Grupo B",
+            "Ambos iguales",
+            "No se puede saber"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Rango de A = 73−69=4; rango de B = 90−50=40. El Grupo A es mucho más consistente."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La media de las calificaciones del Grupo A (69, 70, 71, 72, 73) es ___.",
+          "respuestaCorrecta": "71",
+          "retroalimentacion": "Media = (69+70+71+72+73)/5 = 355/5 = 71."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La media de las calificaciones del Grupo B (50, 55, 60, 85, 90) es ___.",
+          "respuestaCorrecta": "68",
+          "retroalimentacion": "Media = (50+55+60+85+90)/5 = 340/5 = 68."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El Grupo A tiene mayor rango de calificaciones que el Grupo B.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: el rango del Grupo A es 4 y el del Grupo B es 40; el Grupo A tiene el rango menor."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Dos talleres midieron el tiempo (en minutos) que tardan sus alumnos en resolver un acertijo. Taller 1: 10, 10, 11, 11, 12; Taller 2: 5, 8, 9, 15, 18. Aunque sus medias son parecidas (10.8 y 11), ¿cuál taller tuvo tiempos más dispersos?",
+          "opciones": [
+            "Taller 1",
+            "Taller 2",
+            "Ambos igual",
+            "Falta información"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Rango Taller 1 = 12−10=2; rango Taller 2 = 18−5=13. El Taller 2 fue mucho más disperso."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El rango de los tiempos del Taller 2 (5, 8, 9, 15, 18) es ___ minutos.",
+          "respuestaCorrecta": "13",
+          "retroalimentacion": "Rango = 18 − 5 = 13."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si dos conjuntos de datos tienen medias parecidas pero uno tiene un rango mucho mayor, ese conjunto es más disperso (menos parejo).",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: un rango mayor siempre indica más dispersión entre los datos, sin importar qué tan parecidas sean las medias."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un conjunto de datos tiene un valor muy alejado del resto (un dato atípico). ¿Qué medida se ve MENOS afectada por ese dato atípico?",
+          "opciones": [
+            "La media",
+            "La mediana",
+            "El rango",
+            "El valor máximo"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "La mediana solo depende del orden de los datos, así que casi no cambia con un dato atípico; la media sí se ve muy afectada."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El rango únicamente toma en cuenta el valor máximo y el valor mínimo de un conjunto de datos, sin importar los valores intermedios.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: el rango se calcula solo con el máximo y el mínimo; ignora cómo se distribuyen los datos entre ellos."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación con la conclusión correcta.",
+          "columnaA": [
+            "Grupo A (69-73) vs Grupo B (50-90), misma tarea",
+            "Taller 1 (10-12 min) vs Taller 2 (5-18 min)",
+            "Un conjunto de datos con un valor muy alejado del resto"
+          ],
+          "columnaB": [
+            "La mediana representa mejor al grupo que la media",
+            "Taller 1 es más consistente",
+            "Grupo A es más consistente"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "Grupo A tiene menor rango que B; Taller 1 tiene menor rango que Taller 2; con un dato atípico, la mediana representa mejor al grupo que la media."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 4 de 10 · Síntesis"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Dos salones compararon sus calificaciones en un examen. Clase 1: 79, 80, 81, 82, 83; Clase 2: 60, 70, 85, 90, 100. Ambas clases tienen la misma media (81). ¿Cuál clase fue más consistente?",
+      "opciones": [
+        "Clase 1",
+        "Clase 2",
+        "Ambas iguales",
+        "Falta información"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "Rango de Clase 1 = 83−79=4; rango de Clase 2 = 100−60=40. La Clase 1 fue más consistente."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "La media de las temperaturas de la Ciudad de México durante 5 días (16, 17, 18, 19, 21) es ___ °C.",
+      "respuestaCorrecta": "18.2",
+      "retroalimentacion": "Media = (16+17+18+19+21)/5 = 91/5 = 18.2."
+    }
+  ]
+}

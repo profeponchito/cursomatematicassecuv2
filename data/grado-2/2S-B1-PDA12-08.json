@@ -1,0 +1,154 @@
+{
+  "id": "2S-B1-PDA12-08",
+  "grado": "2°",
+  "trimestre": "3",
+  "numero": 118,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Rango y Comparación de Datos 12.8",
+  "contenido": "Interpretación de la información a través de medidas de tendencia central y de dispersión.",
+  "pda": "Calcula el rango de un conjunto de datos y compara conjuntos usando medidas de tendencia central y dispersión.",
+  "problematizacion": {
+    "contexto": "Tres equipos de robótica de una secundaria de Mexicali compiten por representar a la escuela; sus puntajes en las últimas 4 pruebas fueron: Alfa (85, 88, 86, 87), Beta (70, 95, 80, 99) y Gamma (84, 85, 200, 86), donde el 200 de Gamma fue claramente un error de captura.",
+    "pregunta": "Usando media, rango y revisando datos atípicos, ¿a qué equipo recomendarías para representar a la escuela, y qué cuidado especial debes tener con los datos de Gamma?"
+  },
+  "subtemas": [
+    {
+      "numero": "12.8",
+      "nivelEtiqueta": "Nivel 8 de 10 · Reto avanzado",
+      "titulo": "Comparar tres o más grupos usando varias medidas a la vez",
+      "explicacion": "Cuando se comparan tres o más grupos, ya no basta con mirar solo la media o solo el rango: hay que combinar varias medidas para tomar una buena decisión. Un grupo puede tener la mejor media pero ser muy inconsistente (mucha dispersión), mientras otro con media parecida sea mucho más confiable. Además, si algún grupo tiene un dato atípico, su media puede no representar bien su desempeño típico, y conviene revisar también la mediana.",
+      "ejemplos": [
+        "Tres fábricas registran el mismo promedio de defectos diarios (media 12), pero con rangos distintos: Fábrica X (rango 4), Fábrica Y (rango 8) y Fábrica Z (rango 14). Aunque las tres 'producen lo mismo en promedio', la Fábrica X es la más consistente y confiable, y la Fábrica Z es la más impredecible."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Tres fábricas registran su número de defectos diarios durante 5 días. Fábrica X: 10, 11, 12, 13, 14; Fábrica Y: 8, 9, 12, 15, 16; Fábrica Z: 5, 9, 12, 15, 19. Las tres tienen la misma media (12). ¿Cuál fábrica tiene el proceso MÁS consistente (menor rango)?",
+          "opciones": [
+            "Fábrica X",
+            "Fábrica Y",
+            "Fábrica Z",
+            "Las tres son iguales"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Rango de X = 14−10=4; rango de Y = 16−8=8; rango de Z = 19−5=14. La Fábrica X es la más consistente."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El rango de defectos de la Fábrica Z (5, 9, 12, 15, 19) es ___.",
+          "respuestaCorrecta": "14",
+          "retroalimentacion": "Rango = 19 − 5 = 14."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La media de defectos de la Fábrica Y (8, 9, 12, 15, 16) es ___.",
+          "respuestaCorrecta": "12",
+          "retroalimentacion": "Media = (8+9+12+15+16)/5 = 60/5 = 12."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Las tres fábricas (X, Y, Z) tienen la misma media de defectos (12), pero diferente rango, por lo que la fábrica más consistente no es necesariamente la que tiene 'mejor promedio' sino la de menor dispersión.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: con medias iguales, el rango (o la desviación media) es el criterio que distingue qué tan confiable es cada proceso."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Los tiempos de entrega (en días) de tres empresas de paquetería en 5 pedidos fueron: Empresa A: 3, 4, 4, 5, 4; Empresa B: 1, 2, 4, 6, 7; Empresa C: 2, 3, 4, 5, 11. Las tres tienen mediana 4 días. ¿Cuál empresa tiene un dato que hace que su media (5) se aleje de su mediana (4)?",
+          "opciones": [
+            "Empresa C",
+            "Empresa A",
+            "Empresa B",
+            "Ninguna"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "La Empresa C tiene un dato de 11 días, mucho más alejado del resto, que sube su media a 5, mientras su mediana sigue siendo 4."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La media de tiempos de entrega de la Empresa C (2, 3, 4, 5, 11) es ___ días.",
+          "respuestaCorrecta": "5",
+          "retroalimentacion": "Media = (2+3+4+5+11)/5 = 25/5 = 5."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Necesitas elegir la empresa de paquetería MÁS confiable (menor variación en los tiempos de entrega) entre A (3,4,4,5,4), B (1,2,4,6,7) y C (2,3,4,5,11). Según el rango de cada una, ¿cuál elegirías?",
+          "opciones": [
+            "Empresa A",
+            "Empresa B",
+            "Empresa C",
+            "Cualquiera, es lo mismo"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Rango de A = 5−3=2; rango de B = 7−1=6; rango de C = 11−2=9. La Empresa A tiene el menor rango."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Aunque las tres empresas de paquetería (A, B, C) tienen la misma mediana de tiempo de entrega (4 días), la Empresa A es la más consistente porque tiene el menor rango.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: el rango de la Empresa A (2) es mucho menor que el de B (6) y C (9)."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada fábrica con la descripción que le corresponde, según su rango de defectos diarios.",
+          "columnaA": [
+            "Fábrica X (rango 4)",
+            "Fábrica Y (rango 8)",
+            "Fábrica Z (rango 14)"
+          ],
+          "columnaB": [
+            "Proceso menos consistente",
+            "Proceso más consistente",
+            "Consistencia intermedia"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "Fábrica X (rango más pequeño) es la más consistente; Fábrica Z (rango más grande) es la menos consistente; Fábrica Y queda en un punto intermedio."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Tres equipos de ventas reportaron sus ventas semanales (miles de pesos): Equipo 1: 27, 28, 29, 30, 31; Equipo 2: 19, 23, 27, 31, 35; Equipo 3: 10, 20, 22, 24, 80 (una venta excepcional a una empresa grande). ¿Qué medida usarías para describir la venta 'típica' semanal del Equipo 3, dado el valor de 80?",
+          "opciones": [
+            "La mediana",
+            "La media",
+            "El rango",
+            "El valor máximo"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "La mediana (22) no se ve afectada por el dato atípico de 80, mientras que la media (31.2) sí se distorsiona mucho por esa venta excepcional."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "llenar_frase",
+      "frase": "La mediana de los precios 50, 52, 53, 55, 300 es ___.",
+      "respuestaCorrecta": "53",
+      "retroalimentacion": "Ordenados: 50, 52, 53, 55, 300. El valor de en medio es 53."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Un grupo de amigos esperó el camión 5, 6, 6, 7 y 50 minutos (un día hubo un problema mecánico). La mediana (6 minutos) representa mejor el tiempo de espera habitual que la media (14.8 minutos).",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: la mayoría esperó entre 5 y 7 minutos; el 50 es un caso atípico que solo afecta a la media."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "El rango de los pesos de 5 paquetes (3, 3, 4, 4, 5 kg) es:",
+      "opciones": [
+        "2",
+        "5",
+        "3",
+        "8"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "Rango = 5 − 3 = 2."
+    }
+  ]
+}

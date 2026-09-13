@@ -1,0 +1,156 @@
+{
+  "id": "2S-B1-PDA13-08",
+  "grado": "2°",
+  "trimestre": "3",
+  "numero": 128,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Eventos Compuestos y Diagramas de Árbol 13.8",
+  "contenido": "Azar e incertidumbre en la ocurrencia de eventos cotidianos.",
+  "pda": "Calcula la probabilidad de eventos compuestos independientes usando diagramas de árbol.",
+  "problematizacion": {
+    "contexto": "En una taquería de Guadalajara, el menú del día combina 5 tipos de taco, 4 tipos de salsa y 3 tipos de bebida, y cada cliente elige exactamente una opción de cada categoría.",
+    "pregunta": "¿Cuántas combinaciones distintas de taco, salsa y bebida existen en total, y cuál es la probabilidad de que un cliente elegido al azar pida exactamente taco al pastor, salsa verde y horchata, si todas las combinaciones son igual de probables?"
+  },
+  "subtemas": [
+    {
+      "numero": "13.8",
+      "nivelEtiqueta": "Nivel 8 de 10 · Reto avanzado",
+      "titulo": "Espacios muestrales grandes: combos de menú y de tienda",
+      "explicacion": "Ya combinaste 2 o 3 experimentos pequeños (moneda, dado, colores). Ahora construirás espacios muestrales más grandes combinando varios experimentos con distinto número de opciones cada uno (por ejemplo 5×4×3), y calcularás la probabilidad de que salga exactamente UN resultado específico entre todos los posibles, asumiendo que cada combinación es igual de probable.",
+      "formula": "Si el espacio muestral tiene N resultados igual de probables, P(un resultado específico) = 1/N, donde N = (opciones de la categoría 1) × (opciones de la categoría 2) × ...",
+      "ejemplos": [
+        "Una lonchería ofrece 5 tipos de torta, 4 bebidas y 3 postres. El número total de combos posibles es 5×4×3 = 60. Si Marco elige uno al azar entre todas las combinaciones posibles, P(le toque exactamente torta de milanesa + agua de jamaica + flan) = 1/60.",
+        "Una tienda de tenis exhibe 6 modelos, 4 colores y 2 tallas. Total de combinaciones = 6×4×2 = 48. La probabilidad de que un cliente elegido al azar entre todas las combinaciones posibles obtenga exactamente 'modelo Runner, azul, talla grande' es 1/48."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una lonchería ofrece 5 tortas, 4 bebidas y 3 postres. ¿Cuántas combinaciones distintas de torta + bebida + postre existen?",
+          "opciones": [
+            "60",
+            "12",
+            "20",
+            "15"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "5 × 4 × 3 = 60 combinaciones."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si el espacio muestral de combos de la lonchería tiene 60 resultados igual de probables, la probabilidad de obtener una combinación específica al elegir al azar es ___.",
+          "respuestaCorrecta": "1/60",
+          "retroalimentacion": "Con 60 resultados igual de probables, cada uno tiene probabilidad 1/60."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una tienda de tenis exhibe 6 modelos, 4 colores y 2 tallas. Si un cliente elige una combinación al azar entre todas las posibles, ¿cuál es la probabilidad de que sea exactamente 'modelo Runner, azul, talla grande'?",
+          "opciones": [
+            "1/48",
+            "1/12",
+            "1/24",
+            "1/6"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Total de combinaciones: 6×4×2=48. Una combinación específica tiene probabilidad 1/48."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En una heladería con 7 sabores y 5 tipos de topping, hay 35 combinaciones posibles de una bola de helado con un topping.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 7 × 5 = 35 combinaciones."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En una rifa con 90 boletos numerados, cada boleto tiene la misma probabilidad de salir premiado. La probabilidad de que un boleto específico gane es 1/9.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: con 90 boletos igual de probables, cada uno tiene probabilidad 1/90, no 1/9."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una papelería tiene 7 diseños de cuaderno, 3 tipos de pasta y 2 tamaños. El número total de combinaciones posibles es ___.",
+          "respuestaCorrecta": "42",
+          "retroalimentacion": "7 × 3 × 2 = 42 combinaciones."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Con los datos del reactivo anterior (7 diseños, 3 pastas, 2 tamaños), ¿cuál es la probabilidad de que, al elegir al azar entre las 42 combinaciones, te toque exactamente 'cuadrícula chica, pasta dura, tamaño profesional'?",
+          "opciones": [
+            "1/42",
+            "1/21",
+            "1/14",
+            "1/7"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Con 42 combinaciones igual de probables, una específica tiene probabilidad 1/42."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada combinación de opciones (número de opciones por categoría) con el total de resultados posibles en el espacio muestral.",
+          "columnaA": [
+            "4 sabores × 3 tamaños × 2 conos",
+            "5 playeras × 6 pantalones × 2 chamarras",
+            "9 canciones × 4 dificultades"
+          ],
+          "columnaB": [
+            "24",
+            "60",
+            "36"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "4×3×2=24. 5×6×2=60. 9×4=36."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una feria escolar arma paquetes de rifa combinando 10 colores de boleto, 5 números de mesa y 2 turnos (mañana/tarde). ¿Cuántas combinaciones distintas de paquete existen?",
+          "opciones": [
+            "100",
+            "70",
+            "50",
+            "17"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "10 × 5 × 2 = 100 combinaciones."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Con las 100 combinaciones de paquetes de rifa igual de probables, la probabilidad de que un paquete elegido al azar sea exactamente 'boleto verde, mesa 3, turno mañana' es ___.",
+          "respuestaCorrecta": "1/100",
+          "retroalimentacion": "Con 100 combinaciones igual de probables, cada una tiene probabilidad 1/100."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "La probabilidad de obtener 'águila' en una moneda y 'un número menor que 3' en un dado es 1/6.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: P(águila)=1/2, P(menor que 3)=2/6=1/3. 1/2 × 1/3 = 1/6."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Se lanzan 3 monedas. ¿Cuál es la probabilidad de obtener exactamente 1 águila?",
+      "opciones": [
+        "1/8",
+        "3/8",
+        "1/2",
+        "1/4"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "3 de los 8 resultados tienen exactamente 1 águila (ASS, SAS, SSA), P = 3/8."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Se lanzan 3 monedas. La probabilidad de obtener al menos 2 águilas es ___.",
+      "respuestaCorrecta": "1/2",
+      "retroalimentacion": "4 de los 8 resultados tienen 2 o 3 águilas, P = 4/8 = 1/2."
+    }
+  ]
+}

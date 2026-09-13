@@ -1,0 +1,150 @@
+{
+  "id": "2S-B1-PDA12-06",
+  "grado": "2°",
+  "trimestre": "3",
+  "numero": 116,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Rango y Comparación de Datos 12.6",
+  "contenido": "Interpretación de la información a través de medidas de tendencia central y de dispersión.",
+  "pda": "Calcula el rango de un conjunto de datos y compara conjuntos usando medidas de tendencia central y dispersión.",
+  "problematizacion": {
+    "contexto": "Los tiempos, en minutos, que tardaron 8 alumnos de una secundaria de Puebla en resolver un examen fueron, ya ordenados: 35, 38, 40, 42, 44, 46, 48 y 60.",
+    "pregunta": "¿Cuáles son Q1 y Q3 de este conjunto de datos, y cuál es el rango intercuartílico (RIC)?"
+  },
+  "subtemas": [
+    {
+      "numero": "12.6",
+      "nivelEtiqueta": "Nivel 6 de 10 · Aplicación avanzada",
+      "titulo": "Cuartiles y rango intercuartílico: dispersión del 50% central",
+      "explicacion": "Los cuartiles dividen un conjunto de datos ordenados en cuatro partes iguales: Q1 deja el 25% de los datos por debajo, Q2 es la mediana (deja el 50% por debajo) y Q3 deja el 75% por debajo. El rango intercuartílico (RIC) es la distancia entre Q3 y Q1: mide qué tan dispersa está la mitad central de los datos, ignorando los valores más extremos. Por eso el RIC es más robusto que el rango cuando hay un dato atípico, ya que un solo valor extremo puede disparar el rango sin afectar mucho al RIC.",
+      "formula": "Ordena los datos de menor a mayor. Q2 (mediana) es el valor central. Q1 es la mediana de los datos que quedan por debajo de Q2; Q3 es la mediana de los datos que quedan por arriba de Q2. RIC = Q3 − Q1.",
+      "ejemplos": [
+        "Calificaciones de 7 estudiantes, ordenadas: 60, 65, 70, 75, 80, 85, 95. La mediana (Q2) es 75. La mitad inferior es 60, 65, 70, cuya mediana es Q1 = 65. La mitad superior es 80, 85, 95, cuya mediana es Q3 = 85. RIC = 85 − 65 = 20.",
+        "Tiempos de espera (minutos) de 7 clientes: 10, 12, 14, 15, 16, 17, 60 (el último cliente esperó mucho más por una falla del sistema). El rango es 60 − 10 = 50, un valor muy grande por ese dato atípico. Pero Q1 = 12 y Q3 = 17, así que el RIC = 17 − 12 = 5: mucho más pequeño, porque describe solo la mitad central de los datos, sin dejarse 'engañar' por el valor extremo."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En el conjunto ordenado 60, 65, 70, 75, 80, 85, 95, ¿cuál es el primer cuartil (Q1)?",
+          "opciones": [
+            "65",
+            "75",
+            "85",
+            "60"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "La mitad inferior (60, 65, 70) tiene como mediana a 65, así que Q1 = 65."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En ese mismo conjunto (60, 65, 70, 75, 80, 85, 95), ¿cuál es el tercer cuartil (Q3)?",
+          "opciones": [
+            "85",
+            "75",
+            "95",
+            "65"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "La mitad superior (80, 85, 95) tiene como mediana a 85, así que Q3 = 85."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El rango intercuartílico (RIC) del conjunto 60, 65, 70, 75, 80, 85, 95 es ___.",
+          "respuestaCorrecta": "20",
+          "retroalimentacion": "RIC = Q3 − Q1 = 85 − 65 = 20."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El RIC del conjunto 10, 12, 14, 15, 16, 17, 60 (que es 5) es mucho menor que su rango (que es 50), porque el valor 60 es un dato atípico que infla el rango pero casi no afecta a los cuartiles.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: Q1 = 12 y Q3 = 17, así que RIC = 5, mientras que el rango completo es 60 − 10 = 50."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El rango intercuartílico del conjunto de datos 10, 12, 14, 15, 16, 17, 60 es ___.",
+          "respuestaCorrecta": "5",
+          "retroalimentacion": "Q1 = 12, Q3 = 17. RIC = 17 − 12 = 5."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Los pesos (kg) de 7 perros, ordenados, son 8, 9, 10, 12, 14, 15, 16. ¿Cuál es el primer cuartil (Q1)?",
+          "opciones": [
+            "9",
+            "12",
+            "15",
+            "10"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "La mitad inferior (8, 9, 10) tiene como mediana a 9, así que Q1 = 9."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El rango intercuartílico de los pesos de los perros (8, 9, 10, 12, 14, 15, 16) es ___.",
+          "respuestaCorrecta": "6",
+          "retroalimentacion": "Q1 = 9 y Q3 = 15 (mediana de 14, 15, 16). RIC = 15 − 9 = 6."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Los gastos mensuales (en cientos de pesos) de una familia durante 7 meses fueron 20, 22, 25, 28, 30, 33 y un mes excepcional de 90 (por una reparación). ¿Qué medida de dispersión conviene más para describir sus gastos habituales, sin que el mes excepcional la distorsione?",
+          "opciones": [
+            "El rango intercuartílico (RIC)",
+            "El rango",
+            "La suma total de los gastos",
+            "El valor máximo"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "El RIC (Q3 − Q1 = 33 − 22 = 11) describe el 50% central de los gastos sin dejarse afectar por el mes atípico de 90; el rango (70) sí se ve muy afectado."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El primer cuartil (Q1) de los tiempos de 7 corredores (30, 31, 33, 35, 37, 39, 42 minutos, ordenados) es ___ minutos.",
+          "respuestaCorrecta": "31",
+          "retroalimentacion": "La mitad inferior es 30, 31, 33; su mediana es 31, así que Q1 = 31."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada conjunto de datos con su rango intercuartílico (RIC).",
+          "columnaA": [
+            "60, 65, 70, 75, 80, 85, 95",
+            "8, 9, 10, 12, 14, 15, 16",
+            "30, 31, 33, 35, 37, 39, 42"
+          ],
+          "columnaB": [
+            "6",
+            "20",
+            "8"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            2
+          ],
+          "retroalimentacion": "El primer conjunto tiene RIC = 85−65=20. El segundo tiene RIC = 15−9=6. El tercero tiene RIC = 39−31=8."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Un equipo de proyecto obtuvo estas calificaciones: 84, 85, 86, 87 y un integrante que no entregó su parte obtuvo 3. ¿Cuál es la mediana de este conjunto?",
+      "opciones": [
+        "85",
+        "69",
+        "3",
+        "84.5"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "Ordenados: 3, 84, 85, 86, 87. El valor de en medio es 85."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "La media de las calificaciones 3, 84, 85, 86, 87 es ___.",
+      "respuestaCorrecta": "69",
+      "retroalimentacion": "Media = (3+84+85+86+87)/5 = 345/5 = 69."
+    }
+  ]
+}

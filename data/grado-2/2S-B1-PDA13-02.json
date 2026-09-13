@@ -1,0 +1,137 @@
+{
+  "id": "2S-B1-PDA13-02",
+  "grado": "2°",
+  "trimestre": "3",
+  "numero": 122,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Eventos Compuestos y Diagramas de Árbol 13.2",
+  "contenido": "Azar e incertidumbre en la ocurrencia de eventos cotidianos.",
+  "pda": "Calcula la probabilidad de eventos compuestos independientes usando diagramas de árbol.",
+  "problematizacion": {
+    "contexto": "En una heladería de Tampico, Renata puede elegir entre 2 sabores de nieve (mango o fresa) y, para cada sabor, entre 3 toppings (chochitos, cajeta o nuez).",
+    "pregunta": "¿Cómo dibujarías un diagrama de árbol que muestre todas las combinaciones posibles de sabor y topping que puede pedir Renata, y cuántas combinaciones hay en total?"
+  },
+  "subtemas": [
+    {
+      "numero": "13.2",
+      "titulo": "Diagrama de árbol",
+      "explicacion": "Un diagrama de árbol es una forma ordenada de dibujar TODOS los resultados posibles de un evento compuesto: primero se dibujan las ramas del primer experimento y, al final de cada una, las ramas del segundo experimento. Cada 'camino' completo, de principio a fin, representa un resultado distinto del espacio muestral, y ningún resultado se repite ni se olvida.",
+      "ejemplos": [
+        "Al dibujar el árbol de 'moneda y dado' (moneda primero), del tronco salen 2 ramas (águila, sol) y de cada una salen 6 ramas más (1 al 6): en total 2×6=12 caminos completos.",
+        "Al dibujar el árbol de 'dado y moneda' (dado primero), del tronco salen 6 ramas (1 al 6) y de cada una salen 2 ramas (águila, sol): también 12 caminos, aunque el orden en que se dibuja el árbol sea distinto."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En el diagrama de árbol de una moneda y un dado, la rama 'águila y 6' aparece una sola vez.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: cada combinación posible aparece exactamente una vez en el árbol."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En el diagrama de árbol de dos monedas lanzadas una tras otra, hay 8 ramas (resultados finales) en total.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: son 2×2=4 ramas, no 8."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En el diagrama de árbol de un dado y una moneda (dado primero), 6 de las 12 ramas terminan en 'águila'.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: por cada uno de los 6 valores del dado hay una rama que termina en águila, así que 6 de las 12."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En el diagrama de árbol de una moneda y un dado (moneda primero), 3 de las 12 ramas terminan en 'sol y número par'.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: de la rama 'sol' salen 6 ramas (1 al 6) y los pares son 2, 4 y 6: solo 3 de ellas."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En el diagrama de árbol de una moneda y un dado, el número total de ramas (resultados finales) es ___.",
+          "respuestaCorrecta": "12",
+          "retroalimentacion": "2 × 6 = 12 ramas en total."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En el diagrama de árbol de un dado y una moneda (dado primero), el número de ramas que terminan en 'número impar y sol' es ___.",
+          "respuestaCorrecta": "3",
+          "retroalimentacion": "Los números impares del dado son 1, 3 y 5; cada uno tiene una rama que termina en sol, así que son 3 ramas."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En el diagrama de árbol de dos monedas lanzadas una tras otra, ¿cuántas ramas terminan con 'sol' en el segundo lanzamiento?",
+          "opciones": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "De las 4 ramas (águila-águila, águila-sol, sol-águila, sol-sol), 2 terminan en sol: águila-sol y sol-sol."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En el diagrama de árbol de un dado y una moneda (dado primero), ¿cuántas ramas terminan en 'número menor a 3' seguido de cualquier resultado de moneda?",
+          "opciones": [
+            "2",
+            "4",
+            "6",
+            "8"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Los números menores a 3 son 1 y 2; cada uno se combina con 2 resultados de moneda, así que 2×2=4 ramas."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada diagrama de árbol con su número total de ramas (resultados finales).",
+          "columnaA": [
+            "Moneda y dado (moneda primero)",
+            "Dado y dado",
+            "Moneda, moneda y moneda"
+          ],
+          "columnaB": [
+            "12",
+            "36",
+            "8"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "Moneda y dado: 2×6=12. Dado y dado: 6×6=36. Tres monedas: 2×2×2=8."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En el diagrama de árbol de dos dados, 6 de las 36 ramas terminan en 'primer dado = 3'.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: si el primer dado es 3, el segundo dado puede tomar 6 valores distintos, así que hay 6 ramas."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 2 de 10 · Intermedio"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "llenar_frase",
+      "frase": "Si combinas 5 sabores de helado con 2 tipos de cono, hay ___ combinaciones posibles.",
+      "respuestaCorrecta": "10",
+      "retroalimentacion": "5 × 2 = 10 combinaciones."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Se lanzan 4 monedas. ¿Cuántos resultados posibles hay en el espacio muestral?",
+      "opciones": [
+        "8",
+        "12",
+        "16",
+        "20"
+      ],
+      "respuestaCorrecta": 2,
+      "retroalimentacion": "2×2×2×2 = 16 resultados posibles."
+    }
+  ]
+}

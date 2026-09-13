@@ -1,0 +1,164 @@
+{
+  "id": "2S-B1-PDA13-07",
+  "grado": "2°",
+  "trimestre": "3",
+  "numero": 127,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Eventos Compuestos y Diagramas de Árbol 13.7",
+  "contenido": "Azar e incertidumbre en la ocurrencia de eventos cotidianos.",
+  "pda": "Calcula la probabilidad de eventos compuestos independientes usando diagramas de árbol.",
+  "problematizacion": {
+    "contexto": "En un centro de control de calidad de una maquiladora en Ciudad Juárez, tres sensores revisan de forma independiente si una pieza tiene defectos: el sensor A detecta el defecto el 90% de las veces, el sensor B el 85% y el sensor C el 80%.",
+    "pregunta": "¿Cuál es la probabilidad de que los tres sensores detecten el defecto al mismo tiempo, y cuál es la probabilidad de que al menos uno de los tres lo detecte?"
+  },
+  "subtemas": [
+    {
+      "numero": "13.7",
+      "nivelEtiqueta": "Nivel 7 de 10 · Reto",
+      "titulo": "Tres eventos independientes con probabilidades distintas",
+      "explicacion": "Hasta ahora combinaste dos eventos independientes a la vez. En esta lección extiendes la regla del producto a TRES eventos independientes con probabilidades diferentes entre sí, y también extiendes el complemento a tres eventos para calcular la probabilidad de que ocurra al menos uno de ellos.",
+      "formula": "P(A y B y C) = P(A) × P(B) × P(C); P(al menos uno de los tres) = 1 − [(1−P(A)) × (1−P(B)) × (1−P(C))]",
+      "ejemplos": [
+        "Una fábrica de dulces tiene tres máquinas independientes; la probabilidad de que cada una funcione sin fallas en un turno es 0.9, 0.8 y 0.95 respectivamente. P(las tres funcionen sin fallas) = 0.9 × 0.8 × 0.95 = 0.684.",
+        "El pronóstico dice que, de forma independiente, hay 20% de probabilidad de lluvia el lunes, 30% el martes y 10% el miércoles. P(llueva al menos uno de esos tres días) = 1 − (0.8×0.7×0.9) = 1 − 0.504 = 0.496, es decir, 49.6%."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Tres semáforos independientes en el camino a la escuela están en verde con probabilidad 0.5, 0.4 y 0.6 respectivamente. ¿Cuál es la probabilidad de que los TRES estén en verde al mismo tiempo?",
+          "opciones": [
+            "0.12",
+            "0.5",
+            "1.5",
+            "0.06"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "0.5 × 0.4 × 0.6 = 0.12."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si P(A)=1/2, P(B)=1/3 y P(C)=1/4 son independientes, entonces P(A y B y C) = 1/24.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 1/2 × 1/3 × 1/4 = 1/24."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Tres alumnos resuelven de forma independiente el mismo problema de examen: Ana con probabilidad 0.8, Beto con 0.5 y Caro con 0.25. La probabilidad de que los TRES lo resuelvan correctamente es ___.",
+          "respuestaCorrecta": "0.1",
+          "retroalimentacion": "0.8 × 0.5 × 0.25 = 0.1."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una fábrica, tres líneas de ensamblaje funcionan de forma independiente sin fallas con probabilidad 0.9, 0.8 y 0.95. ¿Cuál es la probabilidad de que las TRES funcionen sin fallas en un mismo turno?",
+          "opciones": [
+            "0.684",
+            "0.72",
+            "0.855",
+            "0.6"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "0.9 × 0.8 × 0.95 = 0.684."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El pronóstico indica, de forma independiente, 20% de probabilidad de lluvia el lunes, 30% el martes y 10% el miércoles. La probabilidad de que llueva AL MENOS uno de esos tres días es 49.6%.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 1 − (0.8×0.7×0.9) = 1 − 0.504 = 0.496 = 49.6%."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada trío de probabilidades independientes P(A), P(B), P(C) con el valor de P(A y B y C).",
+          "columnaA": [
+            "P=0.5, 0.5, 0.4",
+            "P=1/2, 1/2, 1/3",
+            "P=0.2, 0.5, 0.5"
+          ],
+          "columnaB": [
+            "0.1",
+            "1/12",
+            "0.05"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "0.5×0.5×0.4=0.1. 1/2×1/2×1/3=1/12. 0.2×0.5×0.5=0.05."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un estudiante presenta tres exámenes de manera independiente con probabilidad de REPROBAR 0.1, 0.25 y 0.2 respectivamente. La probabilidad de que APRUEBE los tres es ___.",
+          "respuestaCorrecta": "0.54",
+          "retroalimentacion": "Probabilidades de aprobar: 0.9, 0.75 y 0.8. 0.9 × 0.75 × 0.8 = 0.54."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un beisbolista tiene probabilidad 0.3 de conectar hit en cada uno de sus 3 turnos al bat en un partido, de forma independiente. ¿Cuál es la probabilidad de que NO conecte hit en NINGUNO de sus 3 turnos?",
+          "opciones": [
+            "0.343",
+            "0.657",
+            "0.027",
+            "0.9"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(no hit en un turno) = 0.7. P(no hit en los 3) = 0.7 × 0.7 × 0.7 = 0.343."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si P(A)=0.4, P(B)=0.5 y P(C)=0.5 son independientes, la probabilidad de que ocurran los TRES es MAYOR que la probabilidad de que ocurra solo A.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: P(los tres) = 0.4×0.5×0.5 = 0.1, que es MENOR que P(A)=0.4, no mayor."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Tres controles de calidad independientes de un mismo producto tienen probabilidad de detectar un defecto de 0.5, 0.5 y 0.8. Si el defecto existe, ¿cuál es la probabilidad de que AL MENOS UNO de los tres lo detecte?",
+          "opciones": [
+            "0.95",
+            "0.05",
+            "0.8",
+            "0.5"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(ninguno detecta) = 0.5×0.5×0.2 = 0.05. P(al menos uno detecta) = 1 − 0.05 = 0.95."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Se lanzan dos dados. ¿Cuál es la probabilidad de obtener 'un número par en el primero y un número mayor a 4 en el segundo'?",
+      "opciones": [
+        "1/6",
+        "1/12",
+        "1/3",
+        "1/4"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "P(par)=1/2, P(mayor a 4)=2/6=1/3. 1/2 × 1/3 = 1/6."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada pareja de probabilidades independientes con el valor de P(A y B).",
+      "columnaA": [
+        "P(A)=1/2, P(B)=1/4",
+        "P(A)=1/3, P(B)=1/3",
+        "P(A)=1/6, P(B)=1/3"
+      ],
+      "columnaB": [
+        "1/9",
+        "1/8",
+        "1/18"
+      ],
+      "parejasCorrectas": [
+        1,
+        0,
+        2
+      ],
+      "retroalimentacion": "1/2×1/4=1/8. 1/3×1/3=1/9. 1/6×1/3=1/18."
+    }
+  ]
+}

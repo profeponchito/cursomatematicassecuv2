@@ -1,0 +1,143 @@
+{
+  "id": "2S-B1-PDA11-02",
+  "grado": "2°",
+  "trimestre": "3",
+  "numero": 102,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Tablas y Gráficas Estadísticas 11.2",
+  "contenido": "Obtención y representación de información.",
+  "pda": "Organiza datos en tablas de frecuencia relativa y porcentual y los representa en histogramas y gráficas de línea, eligiendo la gráfica adecuada según el tipo de dato.",
+  "problematizacion": {
+    "contexto": "La entrenadora de natación de un club en Tijuana agrupó los tiempos, en segundos, de sus 25 nadadores en cuatro intervalos consecutivos: 30-35, 35-40, 40-45 y 45-50, sin dejar espacio entre un intervalo y el siguiente.",
+    "pregunta": "¿Qué tipo de gráfica debe usar la entrenadora para representar cuántos nadadores cayeron en cada intervalo de tiempo, y por qué las barras deben ir pegadas?"
+  },
+  "subtemas": [
+    {
+      "numero": "11.2",
+      "titulo": "Histogramas",
+      "explicacion": "Un histograma es una gráfica que representa datos numéricos continuos agrupados en intervalos (también llamados clases), como rangos de calificaciones, estaturas o pesos. A diferencia de la gráfica de barras, en el histograma las barras se dibujan pegadas unas con otras, sin espacio entre ellas, porque los intervalos son consecutivos: el final de uno es el inicio del siguiente. La altura de cada barra representa la frecuencia de datos que caen en ese intervalo.",
+      "ejemplos": [
+        "En un histograma de calificaciones de 30 alumnos con los intervalos [6-7): 4, [7-8): 9, [8-9): 11 y [9-10]: 6, el intervalo con más alumnos es [8-9) con 11 alumnos, y la suma 4+9+11+6=30 coincide con el total del grupo.",
+        "Si un histograma de estaturas (en cm) tiene los intervalos [150-155): 3, [155-160): 8, [160-165): 10 y [165-170): 5, entonces la cantidad de estudiantes con estatura entre 155 y 165 cm es 8+10=18."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un histograma muestra las calificaciones de 30 alumnos: [6-7): 4, [7-8): 9, [8-9): 11, [9-10]: 6. ¿Cuántos alumnos obtuvieron una calificación de 8 o más (intervalos [8-9) y [9-10])?",
+          "opciones": [
+            "17",
+            "20",
+            "11",
+            "6"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "11+6=17 alumnos."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Con el histograma de calificaciones ([6-7):4, [7-8):9, [8-9):11, [9-10]:6), el total de alumnos representados es ___.",
+          "respuestaCorrecta": "30",
+          "retroalimentacion": "4+9+11+6 = 30."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En un histograma, a diferencia de la gráfica de barras, las barras se dibujan pegadas, sin espacio entre ellas.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: eso se debe a que los intervalos son consecutivos (el final de uno es el inicio del siguiente)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un histograma agrupa datos categóricos, como colores favoritos, en vez de datos numéricos continuos.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: el histograma se usa para datos numéricos continuos agrupados en intervalos; los datos categóricos se representan mejor con barras o gráfica circular."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un histograma de pesos (en kg) de 25 personas tiene los intervalos [50-55): 5, [55-60): 8, [60-65): 7, [65-70): 5. ¿Cuántas personas pesan menos de 60 kg (intervalos [50-55) y [55-60))?",
+          "opciones": [
+            "13",
+            "15",
+            "12",
+            "20"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "5+8=13 personas."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un histograma de tiempos (en minutos) de 40 corredores tiene los intervalos [20-25): 6, [25-30): 14, [30-35): 12, [35-40): 8. ¿Cuántos corredores tardaron entre 25 y 35 minutos (intervalos [25-30) y [30-35))? ___",
+          "respuestaCorrecta": "26",
+          "retroalimentacion": "14+12 = 26 corredores."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Con el histograma de tiempos de corredores ([20-25):6, [25-30):14, [30-35):12, [35-40):8), ¿qué intervalo tiene la mayor frecuencia?",
+          "opciones": [
+            "[20-25)",
+            "[25-30)",
+            "[30-35)",
+            "[35-40)"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "El intervalo [25-30) tiene 14 corredores, la frecuencia más alta."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En el histograma de pesos ([50-55):5, [55-60):8, [60-65):7, [65-70):5), el intervalo [60-65) tiene más personas que el intervalo [65-70).",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 7 personas en [60-65) contra 5 en [65-70)."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada intervalo del histograma de calificaciones ([6-7):4, [7-8):9, [8-9):11, [9-10]:6) con su frecuencia.",
+          "columnaA": [
+            "[7-8)",
+            "[9-10]",
+            "[8-9)"
+          ],
+          "columnaB": [
+            "6",
+            "11",
+            "9"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "[7-8) tiene 9. [9-10] tiene 6. [8-9) tiene 11."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Con el histograma de pesos ([50-55):5, [55-60):8, [60-65):7, [65-70):5), ¿cuántas personas en total se registraron? ___",
+          "respuestaCorrecta": "25",
+          "retroalimentacion": "5+8+7+5 = 25 personas."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 2 de 10 · Intermedio"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "De 45 alumnos, 9 llegan caminando a la escuela. ¿Cuál es la frecuencia relativa?",
+      "opciones": [
+        "0.2",
+        "0.9",
+        "0.09",
+        "2.0"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "9÷45 = 0.2."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "En un histograma, las barras se dibujan con espacio entre ellas, igual que en la gráfica de barras.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Falso: en el histograma las barras van pegadas, sin espacio, porque los intervalos son consecutivos."
+    }
+  ]
+}

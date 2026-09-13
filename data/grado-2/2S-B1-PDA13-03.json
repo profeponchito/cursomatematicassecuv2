@@ -1,0 +1,164 @@
+{
+  "id": "2S-B1-PDA13-03",
+  "grado": "2°",
+  "trimestre": "3",
+  "numero": 123,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Eventos Compuestos y Diagramas de Árbol 13.3",
+  "contenido": "Azar e incertidumbre en la ocurrencia de eventos cotidianos.",
+  "pda": "Calcula la probabilidad de eventos compuestos independientes usando diagramas de árbol.",
+  "problematizacion": {
+    "contexto": "En la kermes de una secundaria de Puebla, un juego consiste en lanzar un dado y, por separado, girar una ruleta con 4 colores (rojo, azul, verde y amarillo); ganas un premio si sale un 6 en el dado Y el color rojo en la ruleta.",
+    "pregunta": "Si el resultado del dado no afecta el de la ruleta, ¿cuál es la probabilidad de ganar el premio, es decir, de que ocurran los dos eventos a la vez?"
+  },
+  "subtemas": [
+    {
+      "numero": "13.3",
+      "titulo": "Regla del producto (eventos independientes)",
+      "explicacion": "Dos eventos son independientes cuando el resultado de uno NO afecta la probabilidad del otro; por ejemplo, el resultado de una moneda no cambia lo que puede salir en un dado. Cuando dos eventos A y B son independientes, la probabilidad de que ocurran los dos al mismo tiempo (A y B) se calcula multiplicando sus probabilidades por separado: esta es la regla del producto.",
+      "formula": "P(A y B) = P(A) × P(B), si A y B son independientes",
+      "ejemplos": [
+        "P(águila) = 1/2 y P(número par en un dado) = 3/6 = 1/2. Como son independientes: P(águila y número par) = 1/2 × 1/2 = 1/4.",
+        "P(un 3 en el primer dado) = 1/6 y P(un 5 en el segundo dado) = 1/6. P(ambos) = 1/6 × 1/6 = 1/36."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Se lanza una moneda y un dado. ¿Cuál es la probabilidad de obtener 'águila y un número par'?",
+          "opciones": [
+            "1/2",
+            "1/4",
+            "1/3",
+            "1/6"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "P(águila)=1/2, P(par)=1/2. P(águila y par) = 1/2 × 1/2 = 1/4."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Se lanzan dos dados. ¿Cuál es la probabilidad de obtener 'un 3 en el primer dado y un 5 en el segundo'?",
+          "opciones": [
+            "1/12",
+            "1/36",
+            "1/6",
+            "1/18"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "P(3)=1/6 y P(5)=1/6. Como son independientes: 1/6 × 1/6 = 1/36."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La probabilidad de obtener 'sol y un número mayor a 4' al lanzar una moneda y un dado es 1/6.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: P(sol)=1/2, P(mayor a 4)=2/6=1/3. 1/2 × 1/3 = 1/6."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La probabilidad de obtener 'águila' en dos lanzamientos consecutivos de una moneda es 1/2.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: P(águila y águila) = 1/2 × 1/2 = 1/4, no 1/2."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Al elegir una playera (de 4 colores) y un pantalón (de 3 colores) al azar, la probabilidad de obtener 'playera roja y pantalón azul' es ___.",
+          "respuestaCorrecta": "1/12",
+          "retroalimentacion": "P(playera roja)=1/4, P(pantalón azul)=1/3. 1/4 × 1/3 = 1/12."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Se lanzan dos dados. La probabilidad de que ambos muestren un número par es ___.",
+          "respuestaCorrecta": "1/4",
+          "retroalimentacion": "P(par)=3/6=1/2 en cada dado. 1/2 × 1/2 = 1/4."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Si P(A)=1/3 y P(B)=1/2, y A y B son eventos independientes, ¿cuál es P(A y B)?",
+          "opciones": [
+            "1/5",
+            "1/6",
+            "2/3",
+            "1/2"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "P(A y B) = 1/3 × 1/2 = 1/6."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si dos eventos son independientes, la ocurrencia de uno no afecta la probabilidad del otro.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: esa es justamente la definición de eventos independientes."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada pareja de probabilidades (de eventos independientes) con el valor de P(A y B).",
+          "columnaA": [
+            "P(A)=1/2, P(B)=1/3",
+            "P(A)=1/4, P(B)=1/2",
+            "P(A)=1/6, P(B)=1/2"
+          ],
+          "columnaB": [
+            "1/8",
+            "1/12",
+            "1/6"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "1/2×1/3=1/6. 1/4×1/2=1/8. 1/6×1/2=1/12."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Se lanza un dado y una moneda. ¿Cuál es la probabilidad de obtener 'un número menor que 3 y águila'?",
+          "opciones": [
+            "1/6",
+            "1/3",
+            "1/12",
+            "1/4"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(menor que 3)=2/6=1/3, P(águila)=1/2. 1/3 × 1/2 = 1/6."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 3 de 10 · Avanzado"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Al elegir un color de playera (6 colores) y una talla (3 tallas), hay 18 combinaciones posibles.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: 6 × 3 = 18."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada combinación de experimentos con su número total de resultados.",
+      "columnaA": [
+        "Dado y dado",
+        "Tres monedas",
+        "Moneda y dado"
+      ],
+      "columnaB": [
+        "12",
+        "36",
+        "8"
+      ],
+      "parejasCorrectas": [
+        1,
+        2,
+        0
+      ],
+      "retroalimentacion": "Dado y dado: 6×6=36. Tres monedas: 2×2×2=8. Moneda y dado: 2×6=12."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "En el diagrama de árbol de dos monedas, hay 4 ramas y todas son igual de probables.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: las 4 ramas (águila-águila, águila-sol, sol-águila, sol-sol) tienen la misma probabilidad."
+    }
+  ]
+}

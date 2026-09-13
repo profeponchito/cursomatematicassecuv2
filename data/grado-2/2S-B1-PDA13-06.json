@@ -1,0 +1,144 @@
+{
+  "id": "2S-B1-PDA13-06",
+  "grado": "2°",
+  "trimestre": "3",
+  "numero": 126,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Eventos Compuestos y Diagramas de Árbol 13.6",
+  "contenido": "Azar e incertidumbre en la ocurrencia de eventos cotidianos.",
+  "pda": "Calcula la probabilidad de eventos compuestos independientes usando diagramas de árbol.",
+  "problematizacion": {
+    "contexto": "En una línea de producción de una fábrica de dulces en Guadalajara, dos máquinas envuelven caramelos de forma independiente; la máquina 1 falla en envolver correctamente el 5% de las veces, y la máquina 2 falla el 8% de las veces.",
+    "pregunta": "¿Cuál es la probabilidad de que al menos una de las dos máquinas falle en envolver un caramelo, usando el complemento de que ninguna falle?"
+  },
+  "subtemas": [
+    {
+      "numero": "13.6",
+      "nivelEtiqueta": "Nivel 6 de 10 · Aplicación avanzada",
+      "titulo": "Al menos un acierto: control de calidad y deportes",
+      "explicacion": "Ya calculaste 'al menos 2 águilas' en 3 monedas, donde todos los resultados eran igual de probables. Ahora calcularás la probabilidad de que ocurra AL MENOS UNO de dos eventos independientes cuando sus probabilidades individuales son distintas entre sí. La estrategia es usar el complemento: primero calculas la probabilidad de que NINGUNO de los dos ocurra, y luego restas ese valor de 1.",
+      "formula": "P(al menos uno de A o B) = 1 − [(1 − P(A)) × (1 − P(B))]",
+      "ejemplos": [
+        "Dos jugadores de basquetbol tiran un tiro libre cada uno, de forma independiente: Ana encesta con probabilidad 0.7 y Bruno con 0.6. P(ninguno encesta) = (1−0.7)×(1−0.6) = 0.3×0.4 = 0.12. P(al menos uno encesta) = 1 − 0.12 = 0.88.",
+        "En una fábrica, la probabilidad de que la máquina A falle en un día es 1/10 y la de la máquina B es 1/5, de forma independiente. P(ninguna falla) = 9/10 × 4/5 = 36/50 = 18/25. P(al menos una falla) = 1 − 18/25 = 7/25."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Dos porteros de fútbol atajan penales de forma independiente: Carlos con probabilidad 0.5 y Diego con probabilidad 0.8. ¿Cuál es la probabilidad de que AL MENOS UNO de los dos ataje su penal?",
+          "opciones": [
+            "0.9",
+            "0.4",
+            "0.1",
+            "1.3"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(ninguno ataja) = 0.5×0.2 = 0.1. P(al menos uno) = 1 − 0.1 = 0.9."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si P(A)=0.3 y P(B)=0.4 son independientes, la probabilidad de que ocurra al menos uno de los dos es 0.58.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: P(ninguno) = 0.7×0.6 = 0.42, así que P(al menos uno) = 1 − 0.42 = 0.58."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si P(A)=1/4 y P(B)=1/3 son independientes, P(al menos uno de los dos) = ___.",
+          "respuestaCorrecta": "1/2",
+          "retroalimentacion": "P(ninguno) = 3/4 × 2/3 = 1/2. P(al menos uno) = 1 − 1/2 = 1/2."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Dos alarmas contra incendio funcionan de manera independiente: la probabilidad de que la alarma 1 falle es 0.05 y la de la alarma 2 es 0.1. ¿Cuál es la probabilidad de que AL MENOS UNA de las dos funcione correctamente (es decir, que no fallen ambas)?",
+          "opciones": [
+            "99.5%",
+            "95%",
+            "0.5%",
+            "90%"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(ambas fallan) = 0.05 × 0.1 = 0.005. P(al menos una funciona) = 1 − 0.005 = 0.995 = 99.5%."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Dos exámenes de admisión son independientes: la probabilidad de aprobar el primero es 2/5 y el segundo es 3/5. La probabilidad de aprobar AL MENOS UNO de los dos es 19/25.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: P(ninguno aprobado) = 3/5 × 2/5 = 6/25. P(al menos uno) = 1 − 6/25 = 19/25."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada par de probabilidades independientes con la probabilidad de que ocurra AL MENOS UNO de los dos eventos.",
+          "columnaA": [
+            "P(A)=0.2, P(B)=0.5",
+            "P(A)=1/2, P(B)=1/4",
+            "P(A)=0.9, P(B)=0.2"
+          ],
+          "columnaB": [
+            "0.6",
+            "5/8",
+            "0.92"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "0.2,0.5: 1−(0.8×0.5)=0.6. 1/2,1/4: 1−(1/2×3/4)=5/8. 0.9,0.2: 1−(0.1×0.8)=0.92."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Dos líneas de producción trabajan de forma independiente: la probabilidad de que la línea 1 tenga un defecto es 0.1 y la línea 2 es 0.2. La probabilidad de que AL MENOS UNA tenga un defecto es ___.",
+          "respuestaCorrecta": "0.28",
+          "retroalimentacion": "P(ninguna con defecto) = 0.9 × 0.8 = 0.72. P(al menos una) = 1 − 0.72 = 0.28."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una competencia, dos atletas tienen probabilidad independiente de calificar a la final: Elena con 3/4 y Fer con 2/3. ¿Cuál es la probabilidad de que AL MENOS UNA de las dos califique?",
+          "opciones": [
+            "11/12",
+            "1/12",
+            "7/12",
+            "5/6"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(ninguna califica) = 1/4 × 1/3 = 1/12. P(al menos una) = 1 − 1/12 = 11/12."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si dos eventos independientes tienen P(A)=0.6 y P(B)=0.6, la probabilidad de que ocurra al menos uno de los dos es MENOR que la probabilidad de que ocurra solo A.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: P(al menos uno) = 1 − (0.4×0.4) = 0.84, que es MAYOR que P(A)=0.6, no menor."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una alumna hace dos intentos independientes de tiro a la canasta en Educación Física, con probabilidad de acierto 0.3 en cada intento. ¿Cuál es la probabilidad de que acierte AL MENOS UNA vez en sus dos intentos?",
+          "opciones": [
+            "0.51",
+            "0.09",
+            "0.6",
+            "0.49"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(ningún acierto) = 0.7×0.7 = 0.49. P(al menos uno) = 1 − 0.49 = 0.51."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "llenar_frase",
+      "frase": "Se lanza un dado y una moneda. La probabilidad de obtener 'un 1 en el dado y águila' es ___.",
+      "respuestaCorrecta": "1/12",
+      "retroalimentacion": "P(1)=1/6, P(águila)=1/2. 1/6 × 1/2 = 1/12."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Si P(A)=1/5 y P(B)=1/2, y A y B son independientes, entonces P(A y B)=1/10.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: 1/5 × 1/2 = 1/10."
+    }
+  ]
+}

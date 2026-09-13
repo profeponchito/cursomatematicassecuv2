@@ -1,0 +1,174 @@
+{
+  "id": "2S-B1-PDA12-10",
+  "grado": "2°",
+  "trimestre": "3",
+  "numero": 120,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Rango y Comparación de Datos 12.10",
+  "contenido": "Interpretación de la información a través de medidas de tendencia central y de dispersión.",
+  "pda": "Calcula el rango de un conjunto de datos y compara conjuntos usando medidas de tendencia central y dispersión.",
+  "problematizacion": {
+    "contexto": "Para el consejo estudiantil de una secundaria de Puebla, te piden comparar el desempeño de tres grupos de 2° grado en el examen bimestral, decidiendo tú mismo qué medidas usar (media, mediana, rango, RIC, desviación media o coeficiente de variación), sabiendo que uno de los grupos tiene una calificación muy baja que parece un error de captura.",
+    "pregunta": "¿Qué combinación de medidas estadísticas elegirías y en qué orden las calcularías para dar una recomendación justa y bien fundamentada sobre los tres grupos?"
+  },
+  "subtemas": [
+    {
+      "numero": "12.10",
+      "nivelEtiqueta": "Nivel 10 de 10 · Dominio",
+      "titulo": "Integración final: elegir la medida correcta y tomar decisiones con datos reales",
+      "explicacion": "En situaciones reales rara vez se usa una sola medida estadística: hay que decidir cuál usar (media, mediana, rango, RIC, desviación media o coeficiente de variación) según lo que se necesite responder y según si hay datos atípicos o grupos con escalas distintas. Esta lección integra todo lo aprendido en el PDA para resolver problemas completos de varios pasos, tomando decisiones informadas como lo haría alguien en un trabajo real.",
+      "ejemplos": [
+        "Una app de reseñas registró las calificaciones (1 a 10) de 5 usuarios sobre un restaurante: 8, 8, 9, 9, 1 (un usuario puso 1 por un error de la app). La media es 7, pero la mediana es 8. Como el 1 es un dato atípico causado por un error, la mediana (8) representa mejor la satisfacción típica de los clientes que la media (7).",
+        "Dos sucursales de una cafetería venden café en promedios muy distintos. Sucursal Centro: media 300 tazas diarias, desviación media 15 (CV = 5%). Sucursal Periférico: media 60 tazas diarias, desviación media 6 (CV = 10%). Aunque la Sucursal Centro vende mucho más en promedio, la Sucursal Periférico es relativamente más variable en sus ventas día a día, según su coeficiente de variación."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una app de reseñas registró las calificaciones (1 a 10) que 5 usuarios dieron a un restaurante: 8, 8, 9, 9, 1 (un usuario puso 1 por un error de la app). ¿Qué medida describe mejor la satisfacción típica de los clientes, y cuál es su valor?",
+          "opciones": [
+            "La mediana, que es 8",
+            "La media, que es 7",
+            "El rango, que es 8",
+            "El máximo, que es 9"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Ordenando: 1, 8, 8, 9, 9, la mediana es 8. La media (7) se ve distorsionada por el dato atípico de 1."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Los tiempos (en segundos) de 7 corredores en una prueba de 100 m, ordenados, son: 11.8, 12.0, 12.1, 12.3, 12.5, 12.8, 15.0 (el último tiempo es de un corredor lesionado). El primer cuartil (Q1) es ___ segundos.",
+          "respuestaCorrecta": "12.0",
+          "retroalimentacion": "La mitad inferior es 11.8, 12.0, 12.1; su mediana es 12.0, así que Q1 = 12.0."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El rango intercuartílico (RIC) de esos mismos tiempos de los 7 corredores es ___ segundos.",
+          "respuestaCorrecta": "0.8",
+          "retroalimentacion": "Q1 = 12.0 y Q3 = 12.8 (mediana de 12.5, 12.8, 15.0). RIC = 12.8 − 12.0 = 0.8."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En el ejemplo de los 7 corredores, el RIC (0.8 s) describe mejor la variabilidad típica del grupo que el rango (15.0 − 11.8 = 3.2 s), porque el corredor lesionado es un dato atípico.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: el rango se dispara por el tiempo del corredor lesionado, mientras que el RIC casi no se ve afectado."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Dos sucursales de una cafetería venden en promedio diferente cantidad de café al día. Sucursal Centro: media 300 tazas, desviación media 15. Sucursal Periférico: media 60 tazas, desviación media 6. ¿Cuál sucursal tiene mayor variabilidad relativa (mayor coeficiente de variación) en sus ventas diarias?",
+          "opciones": [
+            "Sucursal Periférico",
+            "Sucursal Centro",
+            "Ambas iguales",
+            "No se puede saber"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "CV Centro = (15÷300)×100 = 5%. CV Periférico = (6÷60)×100 = 10%. La Sucursal Periférico es relativamente más variable, aunque venda menos en promedio."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El coeficiente de variación de la Sucursal Periférico (media 60, desviación media 6) es ___%.",
+          "respuestaCorrecta": "10",
+          "retroalimentacion": "CV = (6 ÷ 60) × 100 = 10%."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Tres jugadores de basquetbol anotaron estos puntos en 5 partidos: Jugador P: 14, 17, 18, 19, 22; Jugador Q: 11, 15, 18, 21, 25; Jugador R: 9, 12, 18, 24, 27. Los tres promedian 18 puntos por partido. Si el entrenador busca al jugador MÁS CONSTANTE para un partido decisivo, ¿a quién debería elegir?",
+          "opciones": [
+            "Jugador P",
+            "Jugador Q",
+            "Jugador R",
+            "Cualquiera, ya que los tres promedian igual"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Rango de P = 22−14=8; rango de Q = 25−11=14; rango de R = 27−9=18. El Jugador P es el más constante, aunque los tres tengan el mismo promedio."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El rango de puntos del Jugador R (9, 12, 18, 24, 27) es ___.",
+          "respuestaCorrecta": "18",
+          "retroalimentacion": "Rango = 27 − 9 = 18."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación con la herramienta estadística más adecuada para resolverla.",
+          "columnaA": [
+            "Comparar la dispersión relativa de dos grupos con medias muy distintas",
+            "Describir el 50% central de los datos sin que un valor atípico lo afecte",
+            "Elegir la medida de tendencia central cuando hay un dato atípico extremo",
+            "Medir qué tan lejos están, en promedio, todos los datos respecto a la media"
+          ],
+          "columnaB": [
+            "Desviación media",
+            "Mediana",
+            "Coeficiente de variación",
+            "Rango intercuartílico (RIC)"
+          ],
+          "parejasCorrectas": [
+            2,
+            3,
+            1,
+            0
+          ],
+          "retroalimentacion": "Para comparar dispersión relativa con medias distintas se usa el CV; para el 50% central se usa el RIC; ante un dato atípico extremo conviene la mediana; para medir la distancia promedio a la media se usa la desviación media."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una empresa evalúa a dos proveedores de tornillos según el diámetro (en mm) de una muestra de 5 piezas de cada uno. Proveedor A: 5.98, 5.99, 6.00, 6.01, 6.02 (media 6.00, desviación media 0.012). Proveedor B: 5.80, 5.95, 6.00, 6.05, 6.20 (media 6.00, desviación media 0.10). Para piezas que deben ser muy precisas, ¿qué proveedor conviene elegir y por qué?",
+          "opciones": [
+            "Proveedor A, porque tiene menor desviación media (mayor consistencia)",
+            "Proveedor B, porque tiene mayor desviación media",
+            "Cualquiera, ya que ambos tienen la misma media",
+            "Proveedor B, porque sus valores son más grandes"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Ambos proveedores tienen la misma media (6.00 mm), pero el Proveedor A tiene una desviación media mucho menor (0.012 contra 0.10), lo que indica piezas mucho más consistentes y precisas."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada conjunto de datos con su rango.",
+      "columnaA": [
+        "11, 13, 16, 19, 21",
+        "40, 41, 42, 43, 44",
+        "15, 20, 32, 45, 60"
+      ],
+      "columnaB": [
+        "4",
+        "45",
+        "10"
+      ],
+      "parejasCorrectas": [
+        2,
+        0,
+        1
+      ],
+      "retroalimentacion": "11,13,16,19,21: 21−11=10. 40,41,42,43,44: 44−40=4. 15,20,32,45,60: 60−15=45."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada situación con la conclusión correcta.",
+      "columnaA": [
+        "Tienda A vs Tienda B, misma media",
+        "Precios con un artículo de 300 (dato atípico)",
+        "Clase 1 vs Clase 2, misma media"
+      ],
+      "columnaB": [
+        "Clase 1 es más consistente",
+        "La mediana representa mejor al grupo",
+        "Tienda A es más pareja (menor rango)"
+      ],
+      "parejasCorrectas": [
+        2,
+        1,
+        0
+      ],
+      "retroalimentacion": "Tienda A tiene menor rango que Tienda B; con un dato atípico, la mediana representa mejor al grupo; Clase 1 tiene menor rango que Clase 2."
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "id": "2S-B1-PDA11-10",
+  "grado": "2°",
+  "trimestre": "3",
+  "numero": 110,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Tablas y Gráficas Estadísticas 11.10",
+  "contenido": "Obtención y representación de información.",
+  "pda": "Organiza datos en tablas de frecuencia relativa y porcentual y los representa en histogramas y gráficas de línea, eligiendo la gráfica adecuada según el tipo de dato.",
+  "problematizacion": {
+    "contexto": "Para el periódico mural de su secundaria en Puebla, tu equipo levantó una encuesta sobre cuántas horas duermen 35 compañeros cada noche, con datos sueltos que van de 4 a 10 horas, y deben entregar un reporte con tabla de frecuencias, frecuencia acumulada y la gráfica más adecuada.",
+    "pregunta": "¿Cómo organizarías todo el proceso, desde los datos sueltos hasta decidir qué gráfica presentar en el periódico mural, para que el reporte quede completo y claro?"
+  },
+  "subtemas": [
+    {
+      "numero": "11.10",
+      "titulo": "Proyecto integrador: de datos crudos a un reporte estadístico completo",
+      "explicacion": "Esta última lección combina todo lo aprendido en el PDA: partir de una lista de datos sin agrupar, construir una tabla de frecuencias con los intervalos adecuados, calcular la frecuencia acumulada, y decidir qué gráfica (o gráficas) mostrar según el tipo de dato, igual que tendrías que hacerlo en un reporte real de la escuela o de un proyecto de investigación. Los problemas de esta lección integran al menos dos de las lecciones anteriores del PDA en un solo ejercicio, con números menos redondos y más pasos que resolver.",
+      "ejemplos": [
+        "Las calificaciones (sobre 100) de 20 alumnos en un examen fueron: 62, 64, 65, 68, 70, 71, 72, 74, 75, 77, 79, 81, 82, 84, 87, 88, 89, 90, 93, 98. Paso 1: el rango es 98−62=36 y con 4 intervalos la amplitud es 36÷4=9, dando los intervalos [62-71), [71-80), [80-89) y [89-98]. Paso 2: contando cuántas calificaciones caen en cada uno se obtiene 5, 6, 5 y 4 respectivamente (5+6+5+4=20). Paso 3: la frecuencia acumulada hasta [80-89) es 5+6+5=16, es decir, 16÷20×100=80% de los alumnos obtuvieron menos de 89 puntos.",
+        "Una empresa tiene dos sucursales cuyas ventas mensuales (en miles de pesos) fueron: Norte: enero 300, febrero 330, marzo 360, abril 390. Sur: enero 300, febrero 420, marzo 380, abril 450. Ambas sucursales empezaron igual (300) y terminaron con ventas parecidas (390 y 450), pero la variación porcentual de enero a abril es distinta: Norte (390−300)÷300×100=30%, mientras que Sur (450−300)÷300×100=50%, aunque la gráfica de Sur muestra más subidas y bajadas en el camino."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "llenar_frase",
+          "frase": "Con las calificaciones de 20 alumnos (62,64,65,68,70,71,72,74,75,77,79,81,82,84,87,88,89,90,93,98) organizadas en 4 intervalos de amplitud 9 empezando en 62, el número de alumnos en el intervalo [71-80) es ___.",
+          "respuestaCorrecta": "6",
+          "retroalimentacion": "Los valores 71, 72, 74, 75, 77 y 79 caen en [71-80): son 6 alumnos."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Con la tabla de calificaciones resultante ([62-71):5, [71-80):6, [80-89):5, [89-98]:4), ¿cuál es la frecuencia acumulada hasta el intervalo [80-89)?",
+          "opciones": [
+            "11",
+            "16",
+            "20",
+            "5"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "5+6+5=16."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Con la misma tabla de calificaciones (frecuencia acumulada de 16 hasta [80-89), de 20 alumnos), el porcentaje de alumnos que obtuvieron menos de 89 puntos es ___%.",
+          "respuestaCorrecta": "80",
+          "retroalimentacion": "16÷20×100=80%."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Con la tabla de calificaciones ([62-71):5, [71-80):6, [80-89):5, [89-98]:4, de 20 alumnos), el 20% de los alumnos obtuvo 89 puntos o más.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "El intervalo [89-98] tiene 4 alumnos de 20: 4÷20×100=20%."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Las sucursales Norte (enero 300, ..., abril 390) y Sur (enero 300, ..., abril 450) de una empresa iniciaron con las mismas ventas, en miles de pesos. ¿Cuál sucursal tuvo mayor variación porcentual de enero a abril?",
+          "opciones": [
+            "Norte, con 30%",
+            "Sur, con 50%",
+            "Ambas tuvieron la misma variación",
+            "No se puede calcular sin más datos"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Norte: (390−300)÷300×100=30%. Sur: (450−300)÷300×100=50%. Sur tuvo mayor variación porcentual."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Con los datos de la sucursal Norte (enero 300, febrero 330, marzo 360, abril 390, en miles de pesos), la tasa de cambio promedio mensual (de enero a abril, 3 periodos) es de ___ miles de pesos por mes.",
+          "respuestaCorrecta": "30",
+          "retroalimentacion": "(390−300)÷3=30 miles de pesos por mes."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Para mostrar en un reporte cómo cambiaron mes a mes las ventas de las dos sucursales (Norte y Sur) durante el año, ¿qué tipo de gráfica es la más adecuada, y qué detalle debe cuidarse?",
+          "opciones": [
+            "Histograma, agrupando las ventas en intervalos",
+            "Gráfica de línea con las dos series en la misma escala, para poder comparar sus inclinaciones de forma honesta",
+            "Gráfica circular, mostrando qué proporción de las ventas totales aportó cada sucursal cada mes",
+            "Gráfica de barras con escalas distintas para cada sucursal"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Como el dato cambia con el tiempo y se comparan dos series, la gráfica de línea es adecuada, pero ambas series deben usar la misma escala para que la comparación visual sea honesta."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En el reporte de calificaciones, si un compañero presentara el histograma con el eje vertical empezando en 4 (el valor mínimo de las frecuencias) en vez de en 0, exageraría visualmente las diferencias entre los intervalos, aunque los porcentajes reales (25%, 30%, 25%, 20%) no cambiarían.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: truncar el eje vertical no cambia los datos reales, solo distorsiona su apariencia visual."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un reporte necesita mostrar tanto la distribución de 20 calificaciones (agrupadas en intervalos) como el cambio de las ventas de una sucursal mes a mes. ¿Qué combinación de gráficas es correcta?",
+          "opciones": [
+            "Dos histogramas",
+            "Un histograma para las calificaciones y una gráfica de línea para las ventas",
+            "Dos gráficas de línea",
+            "Dos gráficas circulares"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Las calificaciones agrupadas en intervalos se representan con histograma; las ventas mes a mes, con gráfica de línea, porque cambian a lo largo del tiempo."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Con la tabla de calificaciones ([62-71):5, [71-80):6, [80-89):5, [89-98]:4, de 20 alumnos), relaciona cada intervalo con su frecuencia porcentual.",
+          "columnaA": [
+            "[62-71)",
+            "[71-80)",
+            "[80-89)",
+            "[89-98]"
+          ],
+          "columnaB": [
+            "25%",
+            "30%",
+            "20%"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            0,
+            2
+          ],
+          "retroalimentacion": "[62-71): 5÷20=25%. [71-80): 6÷20=30%. [80-89): 5÷20=25%. [89-98]: 4÷20=20%."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 10 de 10 · Dominio"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada dato (frecuencia de un total) con su frecuencia porcentual.",
+      "columnaA": [
+        "10 de 50",
+        "18 de 60",
+        "21 de 30"
+      ],
+      "columnaB": [
+        "70%",
+        "20%",
+        "30%"
+      ],
+      "parejasCorrectas": [
+        1,
+        2,
+        0
+      ],
+      "retroalimentacion": "10÷50=0.2→20%. 18÷60=0.3→30%. 21÷30=0.7→70%."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Un histograma se usa para representar datos categóricos, como el deporte favorito de un grupo.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Falso: el histograma se usa para datos numéricos continuos agrupados en intervalos; los datos categóricos se representan mejor con barras o gráfica circular."
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "id": "2S-B1-PDA12-03",
+  "grado": "2°",
+  "trimestre": "3",
+  "numero": 113,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Rango y Comparación de Datos 12.3",
+  "contenido": "Interpretación de la información a través de medidas de tendencia central y de dispersión.",
+  "pda": "Calcula el rango de un conjunto de datos y compara conjuntos usando medidas de tendencia central y dispersión.",
+  "problematizacion": {
+    "contexto": "En una tienda de abarrotes de Zacatecas, las ventas diarias de una semana normal fueron 800, 850, 820, 780 y 810 pesos, pero un día hubo una boda en el pueblo y las ventas se dispararon a 4500 pesos.",
+    "pregunta": "¿Ese día de 4500 pesos es un dato atípico?, y si lo incluyes en el cálculo, ¿la media o la mediana representa mejor las ventas típicas de esa tienda?"
+  },
+  "subtemas": [
+    {
+      "numero": "12.3",
+      "titulo": "Datos atípicos",
+      "explicacion": "Un dato atípico es un valor que está muy alejado del resto de los datos del conjunto. Como la media toma en cuenta el valor de todos los datos al sumarlos, un solo dato atípico puede 'jalar' la media mucho hacia arriba o hacia abajo, haciendo que ya no represente bien al grupo. La mediana, en cambio, solo depende del orden de los datos, así que casi no cambia cuando hay un dato atípico; por eso suele representar mejor al grupo típico cuando hay valores extremos.",
+      "ejemplos": [
+        "Los sueldos (en miles de pesos) de 5 empleados son 8, 9, 9, 10, 60. La media es 19.2, pero la mediana es 9: la mayoría de los empleados gana alrededor de 9, no 19.2. El sueldo de 60 es un dato atípico que sube mucho la media.",
+        "Las edades de un grupo son 13, 13, 14, 14, 90 (un error de captura). La media es 28.8 años, pero la mediana es 14: la mediana refleja mejor la edad típica del grupo."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "llenar_frase",
+          "frase": "Los sueldos (en miles de pesos) de 5 empleados son 8, 9, 9, 10, 60. La media de estos sueldos es ___.",
+          "respuestaCorrecta": "19.2",
+          "retroalimentacion": "Media = (8+9+9+10+60)/5 = 96/5 = 19.2."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La mediana de esos mismos sueldos (8, 9, 9, 10, 60) es ___.",
+          "respuestaCorrecta": "9",
+          "retroalimentacion": "Ordenados: 8,9,9,10,60. El valor de en medio es 9."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En el conjunto de sueldos 8, 9, 9, 10, 60, el valor 60 es un dato atípico porque está muy alejado del resto.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: los demás valores están entre 8 y 10, muy lejos de 60."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Considerando que hay un dato atípico (60) entre los sueldos 8, 9, 9, 10, 60, ¿qué medida representa mejor el sueldo típico de este grupo?",
+          "opciones": [
+            "La mediana (9)",
+            "La media (19.2)",
+            "El rango (52)",
+            "El valor máximo (60)"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "La mediana (9) no se ve afectada por el valor extremo; la media (19.2) sí sube mucho por el dato atípico."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un salón registra las edades de sus integrantes: 13, 13, 14, 14, 90 (el último dato es un error de captura). La media de las edades es ___.",
+          "respuestaCorrecta": "28.8",
+          "retroalimentacion": "Media = (13+13+14+14+90)/5 = 144/5 = 28.8."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La mediana de esas mismas edades (13, 13, 14, 14, 90) es ___.",
+          "respuestaCorrecta": "14",
+          "retroalimentacion": "Ordenadas: 13,13,14,14,90. El valor de en medio es 14."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En el conjunto de edades 13, 13, 14, 14, 90, la mediana (14) representa mejor la edad típica del grupo que la media (28.8).",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: casi todos tienen 13 o 14 años; el 90 es un error que solo afecta a la media."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Las calificaciones de un examen fueron 1, 7, 8, 8, 9 (un alumno no presentó parte del examen y sacó 1). ¿Cuál es la mediana de este conjunto?",
+          "opciones": [
+            "8",
+            "7",
+            "6.6",
+            "1"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Ordenadas: 1,7,8,8,9. El valor de en medio es 8."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En las calificaciones 1, 7, 8, 8, 9, la media (6.6) es menor que la mayoría de las calificaciones individuales del grupo, debido al dato atípico (1).",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 6.6 es menor que 7, 8, 8 y 9; solo el 1 es menor que la media. El dato atípico baja la media."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada conjunto de datos (con un dato atípico) con el valor de su mediana.",
+          "columnaA": [
+            "Ventas diarias: 20, 21, 22, 23, 95",
+            "Propinas: 29, 30, 31, 32, 120",
+            "Estaturas (cm): 150, 151, 152, 153, 190"
+          ],
+          "columnaB": [
+            "152",
+            "22",
+            "31"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "Ordenando cada conjunto, la mediana es: ventas=22, propinas=31, estaturas=152; el dato atípico (95, 120 o 190) casi no afecta a la mediana."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 3 de 10 · Avanzado"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Una tienda registra sus ventas diarias (en miles de pesos) durante 5 días. Tienda A: 99, 100, 101, 102, 103; Tienda B: 70, 90, 105, 110, 130. Ambas tiendas tienen la misma media de ventas (101). ¿Cuál tienda tuvo ventas más parejas (menos dispersas)?",
+      "opciones": [
+        "Tienda A",
+        "Tienda B",
+        "Ambas iguales",
+        "No se puede saber"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "Rango de A = 103−99=4; rango de B = 130−70=60. La Tienda A es mucho más pareja."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "El rango de las ventas de la Tienda B (70, 90, 105, 110, 130) es ___ (miles de pesos).",
+      "respuestaCorrecta": "60",
+      "retroalimentacion": "Rango = 130 − 70 = 60."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "La Tienda A y la Tienda B tienen el mismo rango de ventas.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Falso: el rango de la Tienda A es 4 y el de la Tienda B es 60."
+    }
+  ]
+}
