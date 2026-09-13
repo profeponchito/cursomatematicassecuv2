@@ -1,0 +1,165 @@
+{
+  "id": "1S-B1-PDA13-09",
+  "grado": "1°",
+  "trimestre": "3",
+  "numero": 129,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Media, Mediana y Moda 13.9",
+  "contenido": "Interpretación de la información a través de medidas de tendencia central y de dispersión.",
+  "pda": "Calcula la media, la mediana y la moda de un conjunto de datos.",
+  "problematizacion": {
+    "contexto": "Dos rutas de camión llevan a los alumnos de una secundaria en Tulancingo, Hidalgo, a la escuela; la ruta A tardó, en 5 días, 22, 24, 23, 25 y 21 minutos, mientras que la ruta B tardó 15, 40, 18, 16 y 17 minutos.",
+    "pregunta": "Calculando la media y la mediana de cada ruta, ¿cuál de las dos conviene recomendar como más constante para llegar a tiempo?"
+  },
+  "subtemas": [
+    {
+      "numero": "13.9",
+      "nivelEtiqueta": "Nivel 9 de 10 · Integración",
+      "titulo": "Comparando dos grupos de datos para tomar una decisión",
+      "explicacion": "Integramos media, mediana y moda para comparar DOS conjuntos de datos distintos y decidir cuál conviene más según el contexto (por ejemplo, elegir entre dos rutas o dos vendedores). No basta con calcular una sola medida: hay que calcular las tres para cada conjunto, compararlas entre sí y justificar con base en los datos cuál representa mejor el desempeño 'típico', tomando en cuenta si algún valor atípico está distorsionando alguna de las medidas.",
+      "ejemplos": [
+        "Dos rutas de camión: la Ruta A tarda 18, 20, 19, 21 y 17 minutos en 5 días; la Ruta B tarda 15, 15, 40, 16 y 14 minutos (un día con tráfico atípico). Media A = 95÷5 = 19. Media B = 100÷5 = 20. Mediana A (ordenada 17,18,19,20,21) = 19. Mediana B (ordenada 14,15,15,16,40) = 15. Moda B = 15. Aunque la media de B es más alta, su mediana (15) es menor: normalmente la Ruta B es más rápida, pero un día atípico subió mucho su media.",
+        "Dos vendedores en 6 días: X vendió 10, 12, 11, 13, 12 y 10 unidades; Y vendió 8, 9, 30, 7, 8 y 9 unidades (un día con una venta excepcional). Media X = 68÷6 ≈ 11.33. Media Y = 71÷6 ≈ 11.83. Mediana X (ordenada 10,10,11,12,12,13) = 11.5. Mediana Y (ordenada 7,8,8,9,9,30) = 8.5. Aunque la media de Y es mayor, su mediana (8.5) es bastante menor que la de X (11.5): el vendedor X es más consistente, y la media de Y está inflada por un solo día excepcional."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Dos rutas de camión tardan, en minutos: Ruta A: 18, 20, 19, 21 y 17 (5 días); Ruta B: 15, 15, 40, 16 y 14 (5 días, un día con tráfico atípico). ¿Cuál ruta tiene la media de tiempo MÁS ALTA?",
+          "opciones": [
+            "Ruta A",
+            "Ruta B",
+            "Son iguales",
+            "No se puede saber"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Media A = 95÷5 = 19. Media B = 100÷5 = 20. La Ruta B tiene la media más alta."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Con esas mismas rutas, la mediana de la Ruta B (15 minutos) es menor que la mediana de la Ruta A (19 minutos), aunque la media de B es más alta.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Mediana A (17,18,19,20,21) = 19. Mediana B (14,15,15,16,40) = 15. Correcto: 15 es menor que 19."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Con los datos de la Ruta B (15, 15, 40, 16 y 14 minutos), la moda es ___ minutos.",
+          "respuestaCorrecta": "15",
+          "retroalimentacion": "El valor 15 se repite 2 veces, más que cualquier otro dato. La moda es 15 minutos."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Considerando las medias y medianas de ambas rutas, ¿cuál conclusión es más correcta?",
+          "opciones": [
+            "La Ruta B siempre es más lenta que la A",
+            "La Ruta B normalmente es más rápida que la A, pero un día de tráfico atípico subió mucho su media",
+            "La Ruta A tiene un dato atípico que sube su media",
+            "Ambas rutas tardan exactamente lo mismo"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "La mediana de B (15) es menor que la de A (19), lo que muestra que B suele ser más rápida; el día de 40 minutos es el que distorsiona su media."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Dos vendedores en 6 días: X vendió 10, 12, 11, 13, 12 y 10 unidades; Y vendió 8, 9, 30, 7, 8 y 9 unidades. La media de Y (≈11.83) es mayor que la media de X (≈11.33).",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Media X = 68÷6 ≈ 11.33. Media Y = 71÷6 ≈ 11.83. Correcto: la media de Y es mayor."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Con los datos del vendedor X (10, 12, 11, 13, 12 y 10 unidades), la mediana es ___ unidades.",
+          "respuestaCorrecta": "11.5",
+          "retroalimentacion": "Ordenados: 10, 10, 11, 12, 12, 13. Con 6 datos (par), la mediana es (11+12)÷2 = 11.5."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Con los datos del vendedor Y (8, 9, 30, 7, 8 y 9 unidades), ¿cuál es su mediana?",
+          "opciones": [
+            "8",
+            "8.5",
+            "9",
+            "11.83"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Ordenados: 7, 8, 8, 9, 9, 30. Con 6 datos (par), la mediana es (8+9)÷2 = 8.5."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Aunque la media del vendedor Y (≈11.83) es más alta que la de X (≈11.33), su mediana (8.5) es menor que la de X (11.5): esto indica que la venta 'típica' de Y es en realidad más baja, y su media está inflada por un solo día excepcional de 30 unidades.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: la mediana de Y (8.5) muestra el desempeño típico real, mientras que su media está distorsionada por el día atípico de 30 unidades."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El vendedor X tiene datos 10, 12, 11, 13, 12 y 10. Este conjunto es bimodal: sus dos modas son 10 y ___.",
+          "respuestaCorrecta": "12",
+          "retroalimentacion": "El 10 y el 12 se repiten 2 veces cada uno, más que el 11 y el 13 (que aparecen 1 vez). El conjunto es bimodal: 10 y 12."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada conjunto con la medida que MEJOR representa su desempeño típico (la menos afectada por datos atípicos).",
+          "columnaA": [
+            "Ruta B (15, 15, 40, 16 y 14 min, con tráfico atípico)",
+            "Vendedor Y (8, 9, 30, 7, 8 y 9 unidades, con una venta excepcional)",
+            "Ruta A (18, 20, 19, 21 y 17 min, sin datos atípicos)"
+          ],
+          "columnaB": [
+            "La media o la mediana dan un resultado similar y confiable (19 min)",
+            "La mediana (15 min), porque el dato de 40 min es atípico",
+            "La mediana (8.5 unidades), porque el dato de 30 es atípico"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "Ruta B: usar la mediana (15 min). Vendedor Y: usar la mediana (8.5 unidades). Ruta A: sin datos atípicos, media y mediana coinciden en 19 min."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada conjunto de datos con el valor de su media.",
+      "columnaA": [
+        "Calificaciones: 7, 9, 8 y 8",
+        "Edades: 12, 10, 11 y 11",
+        "Goles: 5, 7, 6 y 6"
+      ],
+      "columnaB": [
+        "11",
+        "6",
+        "8"
+      ],
+      "parejasCorrectas": [
+        2,
+        0,
+        1
+      ],
+      "retroalimentacion": "Calificaciones (7,9,8,8): media=8. Edades (12,10,11,11): media=11. Goles (5,7,6,6): media=6."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Ordena mentalmente cada conjunto y relaciónalo con el valor de su mediana.",
+      "columnaA": [
+        "Calificaciones (desordenadas): 9, 6, 8 y 7",
+        "Edades (desordenadas): 14, 10, 12, 13 y 11",
+        "Goles (desordenados): 4, 7, 5 y 6"
+      ],
+      "columnaB": [
+        "5.5",
+        "7.5",
+        "12"
+      ],
+      "parejasCorrectas": [
+        1,
+        2,
+        0
+      ],
+      "retroalimentacion": "Calificaciones ordenadas 6,7,8,9: mediana=7.5. Edades ordenadas 10,11,12,13,14: mediana=12. Goles ordenados 4,5,6,7: mediana=5.5."
+    }
+  ]
+}

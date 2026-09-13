@@ -1,0 +1,164 @@
+{
+  "id": "1S-B1-PDA14-08",
+  "grado": "1°",
+  "trimestre": "3",
+  "numero": 138,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Probabilidad de Eventos Simples 14.8",
+  "contenido": "Azar e incertidumbre en la ocurrencia de eventos cotidianos.",
+  "pda": "Calcula la probabilidad clásica de eventos simples a partir de su espacio muestral.",
+  "problematizacion": {
+    "contexto": "Para investigar si una moneda estaba \"cargada\", un grupo de alumnos de Xalapa la lanzó 50 veces y registró que cayó águila 32 veces.",
+    "pregunta": "¿Cuál es la probabilidad frecuencial de que esa moneda caiga águila, según el experimento?"
+  },
+  "subtemas": [
+    {
+      "numero": "14.8",
+      "titulo": "Probabilidad frecuencial: lo que dicen los datos reales",
+      "explicacion": "Hasta ahora calculamos la probabilidad clásica contando resultados igualmente posibles (como en un dado justo). Pero en la vida real muchas veces no podemos contar así, y en su lugar repetimos un experimento muchas veces y observamos qué tan seguido ocurre el evento: eso es la probabilidad frecuencial o experimental. Entre más veces se repita el experimento, esta probabilidad tiende a acercarse a la probabilidad clásica (cuando esta existe), pero no son exactamente lo mismo.",
+      "formula": "P frecuencial (evento) = número de veces que ocurrió el evento ÷ número total de repeticiones del experimento",
+      "ejemplos": [
+        "Un jugador lanzó una moneda 50 veces y obtuvo águila 27 veces. P frecuencial (águila) = 27/50 = 0.54, un valor cercano a la probabilidad clásica de 0.5.",
+        "En 200 tiros libres, un basquetbolista encestó 156. P frecuencial (encestar) = 156/200 = 0.78."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Se lanzó un dado 60 veces y el número 4 salió en 12 ocasiones. ¿Cuál es la probabilidad frecuencial de obtener 4?",
+          "opciones": [
+            "1/5",
+            "1/6",
+            "1/4",
+            "1/12"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P frecuencial = 12/60 = 1/5."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En una granja se sembraron 80 semillas y germinaron 68. La probabilidad frecuencial de que una semilla germine, en decimal, es ___.",
+          "respuestaCorrecta": "0.85",
+          "retroalimentacion": "68 ÷ 80 = 0.85."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si se lanza una moneda 100 veces y cae águila 53 veces, la probabilidad frecuencial de águila (0.53) es exactamente igual a la probabilidad clásica (0.5).",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: 0.53 es cercana a 0.5, pero no es exactamente igual; son dos formas distintas de calcular la probabilidad."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un control de calidad revisó 500 focos y encontró 15 defectuosos. ¿Cuál es la probabilidad frecuencial de que un foco sea defectuoso, como porcentaje?",
+          "opciones": [
+            "3%",
+            "1.5%",
+            "5%",
+            "15%"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P frecuencial = 15/500 = 0.03 = 3%."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un futbolista pateó 40 penales y anotó 34. La probabilidad frecuencial de que anote un penal, como fracción simplificada, es ___.",
+          "respuestaCorrecta": "17/20",
+          "retroalimentacion": "34 ÷ 40 = 34/40, que simplificada es 17/20."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Entre más veces se repita un experimento aleatorio, la probabilidad frecuencial tiende a acercarse a la probabilidad clásica.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: con muchas repeticiones, la probabilidad frecuencial se aproxima cada vez más a la probabilidad clásica."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una tienda entraron 250 clientes y 90 hicieron una compra. ¿Cuál es la probabilidad frecuencial de que un cliente haga una compra?",
+          "opciones": [
+            "36%",
+            "9%",
+            "90%",
+            "64%"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P frecuencial = 90/250 = 0.36 = 36%."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada experimento con su probabilidad frecuencial.",
+          "columnaA": [
+            "Moneda lanzada 40 veces: águila 22 veces",
+            "Dado lanzado 90 veces: salió 6 en 18 ocasiones",
+            "Ruleta girada 120 veces: cayó en verde 30 veces"
+          ],
+          "columnaB": [
+            "0.2",
+            "0.55",
+            "0.25"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            2
+          ],
+          "retroalimentacion": "Moneda: 22/40 = 0.55. Dado: 18/90 = 0.2. Ruleta: 30/120 = 0.25."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una máquina empacadora llenó 300 bolsas y 12 salieron con peso incorrecto. La probabilidad frecuencial de que una bolsa tenga peso incorrecto, en porcentaje, es ___%.",
+          "respuestaCorrecta": "4",
+          "retroalimentacion": "12/300 = 0.04 = 4%."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un estudio registró 1000 lanzamientos de una tachuela y 'punta arriba' cayó 560 veces, dando una probabilidad frecuencial de 0.56; este valor NO se puede obtener con probabilidad clásica simple porque los resultados de la tachuela no son igualmente probables.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: como la tachuela no tiene resultados igualmente posibles, solo la probabilidad frecuencial (basada en datos reales) permite estimarla."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 8 de 10 · Reto avanzado"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "La probabilidad 0.8 equivale a qué fracción simplificada?",
+      "opciones": [
+        "4/5",
+        "8/10",
+        "3/5",
+        "4/10"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "0.8 = 8/10, que simplificada es 4/5."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "La probabilidad 1/8 en decimal es ___.",
+      "respuestaCorrecta": "0.125",
+      "retroalimentacion": "1 ÷ 8 = 0.125."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada situación con la probabilidad pedida, en la forma indicada.",
+      "columnaA": [
+        "Ruleta de 20 secciones: 5 rojas, 10 azules, 5 verdes → P(verde) en fracción simplificada",
+        "Bolsa con 6 azules y 4 rojas → P(azul) en porcentaje",
+        "Baraja de 40 cartas → P(espadas) en decimal"
+      ],
+      "columnaB": [
+        "60%",
+        "0.25",
+        "1/4"
+      ],
+      "parejasCorrectas": [
+        2,
+        0,
+        1
+      ],
+      "retroalimentacion": "Verde en ruleta: 5/20 = 1/4. Azul en bolsa: 6/10 = 60%. Espadas: 10/40 = 0.25."
+    }
+  ]
+}

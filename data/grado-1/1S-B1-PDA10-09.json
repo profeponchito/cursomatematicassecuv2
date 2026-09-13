@@ -1,0 +1,156 @@
+{
+  "id": "1S-B1-PDA10-09",
+  "grado": "1°",
+  "trimestre": "3",
+  "numero": 99,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Forma, espacio y medida",
+  "titulo": "El Círculo y sus Elementos 10.9",
+  "contenido": "Circunferencia, círculo y esfera.",
+  "pda": "Identifica los elementos de la circunferencia y calcula su perímetro y el área del círculo.",
+  "problematizacion": {
+    "contexto": "En Torreón van a construir una pista de trote con forma de estadio: un tramo recto de 80 metros de largo por 6 metros de ancho, rematado en cada extremo por un semicírculo de 3 metros de radio.",
+    "pregunta": "¿Cuál es el perímetro total de la pista, sabiendo que los dos semicírculos juntos forman una circunferencia completa (usa π ≈ 3.14)?"
+  },
+  "subtemas": [
+    {
+      "numero": "10.9",
+      "nivelEtiqueta": "Nivel 9 de 10 · Integración",
+      "titulo": "Pistas y albercas tipo estadio: rectángulo + semicírculos",
+      "explicacion": "Muchas pistas de atletismo, canchas y hasta albercas tienen forma de 'estadio': un rectángulo central con dos extremos semicirculares del mismo radio. Como esos dos semicírculos juntos forman exactamente un círculo completo, puedes calcular el perímetro sumando los dos lados rectos más la circunferencia completa de ese círculo, y el área sumando el área del rectángulo más el área de ese círculo completo. Esta lección integra por primera vez la fórmula del círculo con la del rectángulo en una sola figura.",
+      "formula": "Perímetro = 2×L + π×d     |     Área = (L×d) + π×r²   (L = tramo recto, d = ancho = diámetro de los semicírculos, r = d÷2)",
+      "ejemplos": [
+        "Una pista de atletismo tiene tramos rectos de 60 m y un ancho (diámetro de los extremos) de 40 m: Perímetro = 2×60 + 3.14×40 = 120+125.6 = 245.6 m. Área = 60×40 + 3.14×20² = 2400+1256 = 3656 m².",
+        "Una alberca tipo estadio tiene tramos rectos de 25 m y ancho de 14 m: Perímetro = 2×25+3.14×14 = 50+43.96 = 93.96 m. Área = 25×14+3.14×7² = 350+153.86 = 503.86 m²."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una pista con dos tramos rectos y dos extremos semicirculares del mismo radio, los dos semicírculos juntos forman:",
+          "opciones": [
+            "Un círculo completo",
+            "Un cuadrado",
+            "Dos círculos distintos",
+            "Un semicírculo más grande"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Dos semicírculos del mismo radio, unidos por sus diámetros, forman exactamente un círculo completo."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una pista de atletismo tiene tramos rectos de 60 m y ancho de 40 m. ¿Cuál es su perímetro total? ___ m",
+          "respuestaCorrecta": "245.6",
+          "retroalimentacion": "P = 2×60 + 3.14×40 = 120+125.6 = 245.6 m."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Esa misma pista (tramos de 60 m, ancho 40 m) tiene un área de 3656 m².",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: A = 60×40 + 3.14×20² = 2400+1256 = 3656 m²."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una cancha tipo estadio tiene tramos rectos de 80 m y ancho de 30 m. ¿Cuál es su perímetro?",
+          "opciones": [
+            "254.2 m",
+            "188.4 m",
+            "160 m",
+            "94.2 m"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P = 2×80 + 3.14×30 = 160+94.2 = 254.2 m."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Esa misma cancha (tramos de 80 m, ancho de 30 m) tiene un área de ___ m².",
+          "respuestaCorrecta": "3106.5",
+          "retroalimentacion": "A = 80×30 + 3.14×15² = 2400+706.5 = 3106.5 m²."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una alberca tipo estadio con tramos rectos de 25 m y ancho de 14 m tiene un perímetro de 93.96 m.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: P = 2×25 + 3.14×14 = 50+43.96 = 93.96 m."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Esa misma alberca (tramos de 25 m, ancho 14 m) tiene un área de:",
+          "opciones": [
+            "503.86 m²",
+            "350 m²",
+            "153.86 m²",
+            "250 m²"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "A = 25×14 + 3.14×7² = 350+153.86 = 503.86 m²."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una pista tiene tramos rectos de 100 m y un ancho de 46 m. ¿Cuál es su perímetro? ___ m",
+          "respuestaCorrecta": "344.44",
+          "retroalimentacion": "P = 2×100 + 3.14×46 = 200+144.44 = 344.44 m."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El área total de una pista tipo estadio es de 3656 m², y el área de sus dos semicírculos juntos (un círculo completo) es de 1256 m². ¿Cuál es el área solo del rectángulo central?",
+          "opciones": [
+            "2400 m²",
+            "2400.44 m²",
+            "4912 m²",
+            "1256 m²"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Área del rectángulo = área total − área del círculo = 3656 − 1256 = 2400 m²."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada pista (tramo recto L, ancho d) con su perímetro total.",
+          "columnaA": [
+            "L=60 m, d=40 m",
+            "L=80 m, d=30 m",
+            "L=100 m, d=46 m"
+          ],
+          "columnaB": [
+            "254.2 m",
+            "344.44 m",
+            "245.6 m"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "(60,40): P=245.6 m. (80,30): P=254.2 m. (100,46): P=344.44 m."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "llenar_frase",
+      "frase": "Un tanque circular tiene un diámetro de 22 m. Su radio mide ___ m.",
+      "respuestaCorrecta": "11",
+      "retroalimentacion": "r = d ÷ 2 = 22 ÷ 2 = 11 m."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Ese tanque circular con diámetro de 22 m, ¿cuál es su perímetro?",
+      "opciones": [
+        "69.08 m",
+        "34.54 m",
+        "44 m",
+        "121 m"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "P = 3.14 × 22 = 69.08 m."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Ese mismo tanque (diámetro 22 m) tiene un área de ___ m² (usa A = π × r²).",
+      "respuestaCorrecta": "379.94",
+      "retroalimentacion": "r = 11 m, entonces A = 3.14 × 11² = 3.14 × 121 = 379.94 m²."
+    }
+  ]
+}

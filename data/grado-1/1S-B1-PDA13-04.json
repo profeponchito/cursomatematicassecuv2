@@ -1,0 +1,143 @@
+{
+  "id": "1S-B1-PDA13-04",
+  "grado": "1°",
+  "trimestre": "3",
+  "numero": 124,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Media, Mediana y Moda 13.4",
+  "contenido": "Interpretación de la información a través de medidas de tendencia central y de dispersión.",
+  "pda": "Calcula la media, la mediana y la moda de un conjunto de datos.",
+  "problematizacion": {
+    "contexto": "En un torneo de dardos en Tijuana, Gael anotó estos puntajes en 6 tiros: 20, 20, 18, 15, 20 y 45 (el último fue un tiro excepcional al centro del blanco).",
+    "pregunta": "¿Cuáles son la media, la mediana y la moda de esos 6 puntajes, y cuál de las tres crees que representa mejor \"lo típico\" de los tiros de Gael?"
+  },
+  "subtemas": [
+    {
+      "numero": "13.4",
+      "titulo": "Las tres medidas juntas",
+      "explicacion": "Recuerda: la media se calcula sumando todos los datos y dividiendo entre cuántos son; la mediana es el valor central de los datos ya ordenados (o el promedio de los dos centrales si son un número par de datos); y la moda es el dato que más se repite. Para un mismo conjunto de datos, estas tres medidas pueden dar valores distintos. Cuando hay un dato muy alejado de los demás (un valor atípico), la media se ve más afectada que la mediana o la moda, así que conviene comparar las tres antes de decidir cuál representa mejor 'lo típico' en cada situación.",
+      "ejemplos": [
+        "Calificaciones de Ana: 6, 9, 7, 6 y 8. Media = 36÷5 = 7.2. Ordenadas: 6, 6, 7, 8, 9 → mediana = 7. El 6 se repite 2 veces → moda = 6. Las tres son parecidas, así que cualquiera representa bien el grupo.",
+        "Goles en 6 partidos: 2, 8, 2, 3, 2 y 4 (un partido fue una goleada de 8). Media = 21÷6 = 3.5, pero mediana = 2.5 y moda = 2: la media queda más alta porque el 8 la 'jala' hacia arriba, así que la mediana o la moda representan mejor lo que el equipo anota normalmente."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Las calificaciones de Ana en 5 exámenes fueron 6, 9, 7, 6 y 8. ¿Cuál es la media?",
+          "opciones": [
+            "6",
+            "7",
+            "7.2",
+            "36"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Suma = 6+9+7+6+8 = 36. Media = 36 ÷ 5 = 7.2."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Con esas mismas calificaciones de Ana (6, 9, 7, 6 y 8), la mediana es ___.",
+          "respuestaCorrecta": "7",
+          "retroalimentacion": "Ordenadas: 6, 6, 7, 8, 9. Con 5 datos, la mediana es el valor central: 7."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En esas mismas calificaciones de Ana (6, 9, 7, 6 y 8), la moda es 6.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "El 6 se repite 2 veces y los demás datos aparecen 1 sola vez. La moda es 6. Correcto."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Las edades de 6 primos en una reunión son 11, 15, 11, 14, 11 y 13 años. ¿Cuál es la media?",
+          "opciones": [
+            "11",
+            "12",
+            "12.5",
+            "75"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Suma = 11+15+11+14+11+13 = 75. Media = 75 ÷ 6 = 12.5 años."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Con esas mismas edades (11, 15, 11, 14, 11 y 13 años), la mediana es ___.",
+          "respuestaCorrecta": "12",
+          "retroalimentacion": "Ordenadas: 11, 11, 11, 13, 14, 15. Con 6 datos (par), la mediana es el promedio de los dos centrales: 12 años."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En esas mismas edades (11, 15, 11, 14, 11 y 13 años), la moda es 11.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "El 11 se repite 3 veces, más que cualquier otro dato. La moda es 11. Correcto."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En 6 partidos, un equipo anotó 2, 8, 2, 3, 2 y 4 goles (el partido con 8 goles fue una goleada histórica, muy distinta a lo normal). ¿Cuál medida se ve más 'jalada' hacia arriba por ese dato atípico, y por eso representa peor el desempeño típico del equipo?",
+          "opciones": [
+            "La media",
+            "La mediana",
+            "La moda",
+            "Las tres son igual de representativas"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Media = 3.5, mediana = 2.5, moda = 2. El dato atípico (8 goles) sube la media más de lo que sube la mediana o la moda, así que la media queda menos representativa de lo que el equipo anota normalmente."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Con esos mismos goles (2, 8, 2, 3, 2 y 4), la mediana y la moda están más cerca del desempeño típico del equipo que la media, porque no se ven tan afectadas por el partido de la goleada.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Mediana = 2.5 y moda = 2, ambas cercanas a los goles habituales del equipo (2 y 3-4); la media (3.5) sí se ve elevada por el partido atípico. Correcto."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En esos mismos goles (2, 8, 2, 3, 2 y 4), la media es ___.",
+          "respuestaCorrecta": "3.5",
+          "retroalimentacion": "Suma = 2+8+2+3+2+4 = 21. Media = 21 ÷ 6 = 3.5."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Con los datos de las calificaciones de Ana (6, 9, 7, 6 y 8), relaciona cada medida de tendencia central con su valor.",
+          "columnaA": [
+            "Media",
+            "Mediana",
+            "Moda"
+          ],
+          "columnaB": [
+            "6",
+            "7.2",
+            "7"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "Media = 7.2, mediana = 7, moda = 6."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 4 de 10 · Síntesis"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "llenar_frase",
+      "frase": "Las calificaciones desordenadas de 6 alumnos son 6, 9, 7, 8, 10 y 9. Ordénalas: la mediana es ___.",
+      "respuestaCorrecta": "8.5",
+      "retroalimentacion": "Ordenadas: 6, 7, 8, 9, 9, 10. Con 6 datos (par), la mediana es (8+9)÷2 = 8.5."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Las edades de 5 primos son 14, 15, 14, 16 y 14 años. ¿Cuál es la moda?",
+      "opciones": [
+        "14",
+        "15",
+        "16",
+        "No tiene moda"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "El 14 se repite 3 veces, más que los demás datos. La moda es 14."
+    }
+  ]
+}
