@@ -1,0 +1,164 @@
+{
+  "id": "1S-B1-PDA04-05",
+  "grado": "1°",
+  "trimestre": "2",
+  "numero": 35,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Regularidades y Patrones 4.5",
+  "contenido": "Regularidades y Patrones.",
+  "pda": "Representa algebraicamente una sucesión con progresión aritmética de figuras y números.",
+  "problematizacion": {
+    "contexto": "Karla ahorra para un boleto de concierto que cuesta $260: empieza con $80 y agrega $15 cada semana a su alcancía.",
+    "pregunta": "¿En qué semana (n) Karla reunirá exactamente los $260 del boleto?"
+  },
+  "subtemas": [
+    {
+      "numero": "4.5",
+      "titulo": "Encontrar en qué semana o día ocurre un valor (despejar n)",
+      "explicacion": "Hasta ahora calculabas el valor de un término conociendo su posición. Ahora vas a hacer lo inverso: conoces la meta que quieres alcanzar (un ahorro, una producción, un marcador) y necesitas encontrar en qué posición (n) de la sucesión ocurre. Para esto despejas n de la fórmula del término general.",
+      "formula": "n = (término_n − a) ÷ d + 1",
+      "ejemplos": [
+        "Ahorras $20 la primera semana y aumentas $5 cada semana (a=20, d=5). ¿En qué semana ahorras $75? n = (75−20)÷5 + 1 = 55÷5+1 = 11+1 = 12. En la semana 12 ahorras $75.",
+        "Una fábrica produce 150 piezas el primer día y aumenta 12 piezas cada día (a=150, d=12). ¿En qué día llega a 246 piezas? n = (246−150)÷12+1 = 96÷12+1 = 8+1 = 9. Llega en el día 9."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un jugador de basquetbol anota 8 puntos en su primer partido y aumenta 3 puntos cada partido siguiente (a=8, d=3). ¿En qué partido anota 26 puntos?",
+          "opciones": [
+            "6",
+            "7",
+            "8",
+            "5"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "n = (26−8)÷3+1 = 18÷3+1 = 6+1 = 7. En el partido 7 anota 26 puntos."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una alberca tiene 40 litros al inicio y le agregan 15 litros cada minuto (a=40, d=15). ¿En qué minuto tendrá 205 litros? n=___.",
+          "respuestaCorrecta": "12",
+          "retroalimentacion": "n = (205−40)÷15+1 = 165÷15+1 = 11+1 = 12."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una tienda vende 5 blusas el primer día y aumenta 6 ventas cada día (a=5, d=6). Se cumple que en el día 8 se venden 47 blusas.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "término_8 = 5 + (8−1)×6 = 5+42 = 47. Verdadero."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un ciclista recorre 12 km el primer día de entrenamiento y aumenta 6 km cada día (a=12, d=6). ¿En qué día recorre 60 km?",
+          "opciones": [
+            "8",
+            "9",
+            "10",
+            "7"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "n = (60−12)÷6+1 = 48÷6+1 = 8+1 = 9."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un termómetro marca -10°C a las 6:00 am y sube 3°C cada hora (a=-10, d=3). Si n=1 es la hora de las 6:00 am, ¿en qué valor de n marca 11°C? n=___.",
+          "respuestaCorrecta": "8",
+          "retroalimentacion": "n = (11−(-10))÷3+1 = 21÷3+1 = 7+1 = 8."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una empresa tiene 200 clientes el primer mes y gana 25 clientes nuevos cada mes (a=200, d=25). Se necesitan 9 meses para llegar a 400 clientes.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "término_9 = 200 + (9−1)×25 = 200+200 = 400. Verdadero."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un corredor completa 9 vueltas el día 1 y aumenta 4 vueltas cada día (a=9, d=4). ¿En qué día completa 45 vueltas?",
+          "opciones": [
+            "9",
+            "10",
+            "11",
+            "8"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "n = (45−9)÷4+1 = 36÷4+1 = 9+1 = 10."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación (a, d, meta) con el número de posición (n) en que se alcanza la meta.",
+          "columnaA": [
+            "a=6, d=7, meta=41",
+            "a=18, d=-3, meta=0",
+            "a=24, d=-6, meta=0"
+          ],
+          "columnaB": [
+            "6",
+            "5",
+            "7"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "a=6,d=7,meta=41: n=(41−6)÷7+1=6. a=18,d=-3,meta=0: n=(0−18)÷-3+1=7. a=24,d=-6,meta=0: n=(0−24)÷-6+1=5."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una app de mensajería tiene 300 usuarios el primer mes y crece 45 usuarios cada mes (a=300, d=45). ¿En qué mes llega a 570 usuarios? n=___.",
+          "respuestaCorrecta": "7",
+          "retroalimentacion": "n = (570−300)÷45+1 = 270÷45+1 = 6+1 = 7."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un tinaco tiene 80 litros y una llave agrega 25 litros cada minuto (a=80, d=25). ¿En qué minuto alcanza 305 litros?",
+          "opciones": [
+            "9",
+            "10",
+            "11",
+            "8"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "n = (305−80)÷25+1 = 225÷25+1 = 9+1 = 10."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 5 de 10 · Aplicación"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada sucesion (dado a y d) con el valor del termino indicado.",
+      "columnaA": [
+        "a=3, d=5 -> termino 6",
+        "a=9, d=-3 -> termino 4",
+        "a=12, d=-2 -> termino 5"
+      ],
+      "columnaB": [
+        "4",
+        "28",
+        "0"
+      ],
+      "parejasCorrectas": [
+        1,
+        2,
+        0
+      ],
+      "retroalimentacion": "a=3,d=5: termino_6=3+5x5=28. a=9,d=-3: termino_4=9+3x-3=0. a=12,d=-2: termino_5=12+4x-2=4."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Una sucesion de fichas empieza en 3 fichas y aumenta 4 en cada figura. La figura 6 tiene 23 fichas.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "a=3, d=4. termino_6 = 3 + (6-1)x4 = 3+20 = 23."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Con a=7 y d=-2, el termino 6 de la sucesion es ___.",
+      "respuestaCorrecta": "-3",
+      "retroalimentacion": "termino_6 = 7 + (6-1)x-2 = 7-10 = -3."
+    }
+  ]
+}

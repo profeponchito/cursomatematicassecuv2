@@ -1,0 +1,159 @@
+{
+  "id": "1S-B1-PDA12-07",
+  "grado": "1°",
+  "trimestre": "3",
+  "numero": 117,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Recolección y Gráficas de Datos 12.7",
+  "contenido": "Obtención y representación de información.",
+  "pda": "Distingue variables cualitativas y cuantitativas, organiza datos en tablas de frecuencia y los representa en gráficas de barras y circulares.",
+  "problematizacion": {
+    "contexto": "La entrenadora de atletismo de una secundaria en Chilpancingo registró los tiempos, en minutos, de 30 corredores en una carrera de 5 km, con valores muy variados entre 22 y 40 minutos.",
+    "pregunta": "¿Por qué conviene agrupar esos 30 tiempos en intervalos de clase en vez de anotar cada tiempo por separado en la tabla?"
+  },
+  "subtemas": [
+    {
+      "numero": "12.7",
+      "nivelEtiqueta": "Nivel 7 de 10 · Reto",
+      "titulo": "Datos agrupados en intervalos de clase",
+      "explicacion": "Cuando una variable cuantitativa tiene muchos valores distintos (estaturas exactas, pesos, tiempos en minutos), no conviene poner una fila por cada valor: se agrupan los datos en intervalos de clase (rangos) del mismo tamaño y se cuenta cuántos datos caen en cada uno. Esto simplifica la tabla sin perder la idea de cómo se distribuyen los datos, y la suma de las frecuencias de los intervalos sigue siendo igual al total.",
+      "formula": "amplitud del intervalo = diferencia entre los límites inferiores de dos intervalos consecutivos",
+      "ejemplos": [
+        "Estaturas (cm) de 20 alumnos agrupadas en intervalos de 10 cm: [140-149]=4, [150-159]=9, [160-169]=5, [170-179]=2. La suma 4+9+5+2=20 coincide con el total.",
+        "Calificaciones de 30 alumnos agrupadas en intervalos de 2 puntos: [6-7]=8, [8-9]=15, [10]=7. Aunque el último intervalo es más angosto, la suma 8+15+7=30 sigue siendo el total."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Pesos (kg) de 24 alumnos agrupados en intervalos: [40-49]=6, [50-59]=11, [60-69]=7. ¿Cuántos alumnos pesan entre 50 y 59 kg?",
+          "opciones": [
+            "6",
+            "7",
+            "9",
+            "11"
+          ],
+          "respuestaCorrecta": 3,
+          "retroalimentacion": "El intervalo [50-59] tiene frecuencia 11. Verifica: 6+11+7=24."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En la tabla de pesos anterior ([40-49]=6, [50-59]=11, [60-69]=7, total 24), el número de alumnos que pesa menos de 50 kg es ___.",
+          "respuestaCorrecta": "6",
+          "retroalimentacion": "El intervalo [40-49] agrupa a los alumnos con menos de 50 kg: frecuencia 6."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En la tabla de pesos ([40-49]=6, [50-59]=11, [60-69]=7), el intervalo [50-59] es el que tiene mayor frecuencia.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 11 es la frecuencia más alta de los tres intervalos."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En la tabla de pesos con intervalos [40-49], [50-59], [60-69], ¿cuál es la amplitud (tamaño) de cada intervalo?",
+          "opciones": [
+            "5",
+            "9",
+            "10",
+            "15"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Cada intervalo cubre 10 kg de ancho: por ejemplo, de 50 a 60 hay una diferencia de 10."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Calificaciones de 35 alumnos agrupadas en intervalos de 2 puntos: [5-6]=4, [7-8]=13, [9-10]=18. La suma de las tres frecuencias es ___.",
+          "respuestaCorrecta": "35",
+          "retroalimentacion": "4+13+18=35, igual al total de alumnos."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En la tabla de calificaciones anterior ([5-6]=4, [7-8]=13, [9-10]=18, total 35), ¿cuántos alumnos sacaron 7 puntos o más?",
+          "opciones": [
+            "26",
+            "28",
+            "31",
+            "33"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "13+18=31 alumnos sacaron 7 puntos o más."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En la tabla de calificaciones ([5-6]=4, [7-8]=13, [9-10]=18, total 35), menos de la mitad de los alumnos sacó entre 5 y 6 puntos.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "4 de 35 es aproximadamente 11%, mucho menos de la mitad."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Tiempos (minutos) que tardan 28 alumnos en llegar a la escuela, agrupados en intervalos de 5 minutos: [0-4]=5, [5-9]=12, [10-14]=8, [15-19]=3. ¿Cuántos alumnos tardan 10 minutos o más?",
+          "opciones": [
+            "8",
+            "9",
+            "11",
+            "14"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "8+3=11 alumnos tardan 10 minutos o más. Verifica: 5+12+8+3=28."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Con la tabla de tiempos de traslado ([0-4] min=5, [5-9] min=12, [10-14] min=8, [15-19] min=3), relaciona cada intervalo con su frecuencia.",
+          "columnaA": [
+            "[0-4] min",
+            "[5-9] min",
+            "[10-14] min",
+            "[15-19] min"
+          ],
+          "columnaB": [
+            "8",
+            "12",
+            "3",
+            "5"
+          ],
+          "parejasCorrectas": [
+            3,
+            1,
+            0,
+            2
+          ],
+          "retroalimentacion": "[0-4]=5, [5-9]=12, [10-14]=8, [15-19]=3; 5+12+8+3=28."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Calificaciones de 40 alumnos agrupadas: [6-7]=10, [8-9]=22, [10]=8. ¿Qué porcentaje de alumnos sacó 8 o más?",
+          "opciones": [
+            "65%",
+            "70%",
+            "75%",
+            "80%"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "22+8=30 alumnos sacaron 8 o más. 30÷40=0.75, es decir 75%."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "llenar_frase",
+      "frase": "En una gráfica de barras sobre helados, la barra de 'chocolate' llega a 13 y la de 'vainilla' llega a 9. La diferencia entre ambas es ___.",
+      "respuestaCorrecta": "4",
+      "retroalimentacion": "13-9=4 de diferencia."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Una gráfica de barras sobre mascotas muestra: perro=12, gato=9, pez=6, ave=3. ¿Cuál es el total de alumnos encuestados?",
+      "opciones": [
+        "28",
+        "29",
+        "30",
+        "32"
+      ],
+      "respuestaCorrecta": 2,
+      "retroalimentacion": "12+9+6+3=30 alumnos en total."
+    }
+  ]
+}

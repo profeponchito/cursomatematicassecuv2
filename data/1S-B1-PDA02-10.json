@@ -1,0 +1,172 @@
+{
+  "id": "1S-B1-PDA02-10",
+  "grado": "1°",
+  "trimestre": "1",
+  "numero": 20,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Extensión de los números a positivos y negativos y su orden 2.10",
+  "contenido": "Extensión de los números a positivos y negativos y su orden.",
+  "pda": "Reconoce la necesidad de los números negativos a partir de usar cantidades que tienen al cero como referencia. Compara y ordena números con signo en la recta numérica.",
+  "problematizacion": {
+    "contexto": "Un reporte financiero muestra que tres sucursales cambiaron así respecto al mes anterior: Norte -8.4%, Sur 3.2% y Centro -1.75%; además, un científico midió que la temperatura de un experimento pasó de -12.3°C a 5.6°C.",
+    "pregunta": "¿Qué sucursal tuvo el peor desempeño, cuál es la distancia entre las dos sucursales con signo opuesto, y cuántos números enteros hay entre las dos temperaturas del experimento?"
+  },
+  "subtemas": [
+    {
+      "numero": "2.10",
+      "nivelEtiqueta": "Nivel 10 de 10 · Dominio",
+      "titulo": "Dominio: rankings deportivos, financieros y científicos con números con signo",
+      "explicacion": "Esta es la lección más exigente del PDA: combinarás orden, valor absoluto, distancia y conteo de enteros entre dos valores, usando decimales y varios pasos por problema, en contextos deportivos, financieros y científicos. Cada reactivo requiere identificar primero qué herramienta usar (¿orden?, ¿valor absoluto?, ¿distancia?) antes de calcular.",
+      "ejemplos": [
+        "En un torneo de golf de precisión, cinco jugadores obtienen (respecto al par): -6.5, 3.0, -2.25, 0 y -9.75. Ordenados de mejor a peor (de menor a mayor): -9.75, -6.5, -2.25, 0, 3.0. La diferencia entre el mejor y el peor resultado es |−9.75 − 3.0| = 12.75.",
+        "Un buzo desciende hasta -18.5 m y un dron vuela a 12.25 m. La distancia total entre ambos es |−18.5 − 12.25| = 30.75 m."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "llenar_frase",
+          "frase": "En un torneo, los puntajes respecto al par son -6.25, -6.5 y -5.75. El campeón (menor puntaje) tiene un resultado de ___.",
+          "respuestaCorrecta": "-6.5",
+          "retroalimentacion": "-6.5 es el menor de los tres puntajes, así que es el resultado del campeón."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Los saldos de 4 empresas (en millones de pesos) son: -12.75, -12.5, 3.2 y -20.4. ¿Cuál empresa tiene la mayor deuda?",
+          "opciones": [
+            "La de -20.4",
+            "La de -12.75",
+            "La de -12.5",
+            "La de 3.2"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "-20.4 es el número más negativo de la lista, así que representa la mayor deuda."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En la lista -12.75, -12.5, 3.2 y -20.4, la empresa con saldo -12.5 tiene mayor valor absoluto de movimiento que la de -12.75.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: |−12.5| = 12.5 es menor que |−12.75| = 12.75."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Con los saldos de la pregunta anterior, la distancia entre -20.4 (mayor deuda) y 3.2 (mayor saldo a favor) es ___ millones.",
+          "respuestaCorrecta": "23.6",
+          "retroalimentacion": "La distancia es |−20.4 − 3.2| = 23.6 millones."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Ordena de mayor a menor los saldos -12.75, -12.5, 3.2 y -20.4.",
+          "opciones": [
+            "3.2, -12.5, -12.75, -20.4",
+            "-20.4, -12.75, -12.5, 3.2",
+            "3.2, -12.75, -12.5, -20.4",
+            "-12.5, -12.75, 3.2, -20.4"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "De mayor a menor: 3.2 > -12.5 > -12.75 > -20.4."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "¿Cuántos números enteros hay estrictamente entre -13 y -7? ___",
+          "respuestaCorrecta": "5",
+          "retroalimentacion": "Los enteros son -12, -11, -10, -9, -8: son 5 en total."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un buzo científico registra profundidades de -45.6 m, -38.25 m y -52.1 m en tres inmersiones. ¿Cuál es la diferencia entre la inmersión más profunda y la menos profunda?",
+          "opciones": [
+            "13.85 m",
+            "6.5 m",
+            "7.35 m",
+            "90.35 m"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "La más profunda es -52.1 m y la menos profunda es -38.25 m; la diferencia es |−52.1 − (−38.25)| = 13.85 m."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En el caso anterior, la inmersión de -45.6 m tiene mayor valor absoluto que la de -38.25 m.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: |−45.6| = 45.6 es mayor que |−38.25| = 38.25."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada resultado deportivo con su posición en la clasificación final (gana quien tiene el menor número respecto al par).",
+          "columnaA": [
+            "-9.5",
+            "-9.05",
+            "-10.0",
+            "2.5"
+          ],
+          "columnaB": [
+            "3er lugar",
+            "1er lugar",
+            "4to lugar (último)",
+            "2do lugar"
+          ],
+          "parejasCorrectas": [
+            3,
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "De mejor a peor: -10.0 (1°), -9.5 (2°), -9.05 (3°), 2.5 (4°, último)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Integrando todo lo aprendido: un dron vuela a 8.4 m, un buzo está a -15.6 m y un submarino a -31.2 m, todos respecto al nivel del mar. ¿Cuál de las siguientes afirmaciones es verdadera?",
+          "opciones": [
+            "El submarino tiene el mayor valor absoluto y está más lejos del nivel del mar que los otros dos",
+            "El dron y el buzo están a la misma distancia del nivel del mar",
+            "El buzo está más lejos del nivel del mar que el submarino",
+            "El submarino tiene el menor valor absoluto de los tres"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "|−31.2| = 31.2 es mayor que |−15.6| = 15.6 y |8.4| = 8.4, así que el submarino está más lejos del nivel del mar."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Un dron vuela a 25 m y un buzo está a -10 m. ¿Cuál está más lejos del nivel del mar (0)?",
+      "opciones": [
+        "El dron (más lejos)",
+        "El buzo (más lejos)",
+        "Ambos están a la misma distancia",
+        "No se puede saber"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "El dron está a 25 m de distancia del 0, y el buzo a 10 m; 25 es mayor que 10, así que el dron está más lejos."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Ordenados de mayor a menor, el segundo número de la lista 6, -3, 0, -8 es ___.",
+      "respuestaCorrecta": "0",
+      "retroalimentacion": "De mayor a menor: 6, 0, -3, -8. El segundo lugar es el 0."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada temperatura con su posición relativa entre las tres.",
+      "columnaA": [
+        "-12°C",
+        "-1°C",
+        "4°C"
+      ],
+      "columnaB": [
+        "Es la más caliente",
+        "Es templada, bajo cero",
+        "Es la más fría"
+      ],
+      "parejasCorrectas": [
+        2,
+        1,
+        0
+      ],
+      "retroalimentacion": "-12°C es la más fría; -1°C es templada bajo cero; 4°C es la más caliente."
+    }
+  ]
+}

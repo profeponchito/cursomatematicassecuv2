@@ -1,0 +1,143 @@
+{
+  "id": "1S-B1-PDA14-09",
+  "grado": "1°",
+  "trimestre": "3",
+  "numero": 139,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Probabilidad de Eventos Simples 14.9",
+  "contenido": "Azar e incertidumbre en la ocurrencia de eventos cotidianos.",
+  "pda": "Calcula la probabilidad clásica de eventos simples a partir de su espacio muestral.",
+  "problematizacion": {
+    "contexto": "En la feria de fin de año de una secundaria en Oaxaca, un juego usa una bolsa con 40 fichas de colores: 16 rojas, 10 azules, 8 verdes y 6 amarillas, y hay dos formas de ganar: sacar una ficha roja, o sacar cualquier ficha que no sea amarilla.",
+    "pregunta": "¿Cuál de las dos formas de ganar tiene mayor probabilidad, y cómo lo comprobarías combinando el cálculo de probabilidad clásica y del evento contrario?"
+  },
+  "subtemas": [
+    {
+      "numero": "14.9",
+      "titulo": "Problemas integradores de probabilidad",
+      "explicacion": "En esta lección los problemas combinan varias herramientas vistas antes en un mismo ejercicio: identificar el espacio muestral dentro de un contexto más elaborado, calcular la probabilidad clásica, aplicar el evento contrario o la suma de casos favorables, convertir entre fracción, decimal y porcentaje, e incluso comparar con la probabilidad frecuencial. Ya no basta con aplicar una sola idea: hay que decidir qué combinación de pasos usar para cada problema.",
+      "ejemplos": [
+        "Una tómbola tiene boletos numerados del 1 al 45; ganan los múltiplos de 9 (9, 18, 27, 36, 45: 5 boletos). P(ganar) = 5/45 = 1/9.",
+        "En un salón de 36 estudiantes, 15 son de categoría infantil, 12 de juvenil y el resto de categoría mayor (36 − 15 − 12 = 9). P(juvenil o mayor) = (12 + 9)/36 = 21/36 = 7/12."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una kermés hay una tómbola con boletos numerados del 1 al 45. Ganan premio los boletos que son múltiplos de 9. Si compras un boleto al azar, ¿cuál es la probabilidad de ganar, como fracción simplificada?",
+          "opciones": [
+            "1/9",
+            "4/45",
+            "1/5",
+            "5/9"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Los múltiplos de 9 hasta 45 son 9, 18, 27, 36 y 45: 5 boletos de 45. P = 5/45 = 1/9."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una fábrica numera sus piezas del 1 al 60 y considera defectuosa cualquier pieza cuyo número sea múltiplo de 7. La probabilidad de que una pieza tomada al azar sea defectuosa, sin simplificar, es ___.",
+          "respuestaCorrecta": "8/60",
+          "retroalimentacion": "Los múltiplos de 7 hasta 60 son 7, 14, 21, 28, 35, 42, 49 y 56: 8 números de 60."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En una rifa con 72 boletos, 8 tienen premio 'grande' y 10 tienen premio 'chico'. La probabilidad de NO ganar ningún premio es 54/72.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: los boletos sin premio son 72 − 8 − 10 = 54, así que P(sin premio) = 54/72."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una bolsa contiene fichas numeradas del 1 al 50. Se ganan puntos si la ficha es un número primo menor que 20 (2, 3, 5, 7, 11, 13, 17, 19: 8 números). ¿Cuál es la probabilidad de ganar puntos, en porcentaje?",
+          "opciones": [
+            "16%",
+            "8%",
+            "20%",
+            "40%"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P = 8/50 = 0.16 = 16%."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En un torneo de ajedrez con 36 jugadores, 15 son de categoría infantil y 12 de categoría juvenil; el resto es de categoría mayor. La probabilidad de que un jugador elegido al azar sea de categoría mayor o juvenil, como fracción simplificada, es ___.",
+          "respuestaCorrecta": "7/12",
+          "retroalimentacion": "Mayor = 36 − 15 − 12 = 9 jugadores. Mayor o juvenil = 9 + 12 = 21 de 36, que simplificada es 7/12."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En una fábrica de dulces, de 90 piezas producidas en una hora, 63 pasaron el control de calidad. La probabilidad frecuencial de que una pieza NO pase el control es 3/10.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: las que no pasaron son 90 − 63 = 27 de 90, es decir, 27/90 = 3/10."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Se lanza un dado de 12 caras numeradas del 1 al 12. ¿Cuál es la probabilidad de obtener un número que sea múltiplo de 3 o múltiplo de 4 (sin contar dos veces el 12, que es múltiplo de ambos)?",
+          "opciones": [
+            "1/2",
+            "7/12",
+            "5/12",
+            "2/3"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Múltiplos de 3: {3,6,9,12}. Múltiplos de 4: {4,8,12}. Sin repetir el 12, la unión es {3,4,6,8,9,12}: 6 números de 12, P = 6/12 = 1/2."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada problema integrador con su respuesta correcta (fracción simplificada).",
+          "columnaA": [
+            "Boletos del 1 al 40, ganan los múltiplos de 5. P(ganar)",
+            "84 estudiantes: 35 juegan fútbol, 21 básquetbol, el resto ningún deporte. P(ningún deporte)",
+            "Bolsa con 54 canicas: 18 rojas, 20 azules, el resto verdes. P(verde)"
+          ],
+          "columnaB": [
+            "8/27",
+            "1/5",
+            "1/3"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "Múltiplos de 5 hasta 40: 8 de 40 = 1/5. Sin deporte: 84−35−21 = 28 de 84 = 1/3. Verdes: 54−18−20 = 16 de 54 = 8/27."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una encuesta a 120 personas mostró que 48 prefieren mango, 30 prefieren papaya y el resto otra fruta. La probabilidad de que una persona prefiera mango o papaya, en porcentaje, es ___%.",
+          "respuestaCorrecta": "65",
+          "retroalimentacion": "Mango o papaya: 48 + 30 = 78 de 120. P = 78/120 = 0.65 = 65%."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En 150 lanzamientos de una moneda cargada salieron 96 águilas. Comparando con la probabilidad clásica de una moneda normal (50%), la probabilidad frecuencial obtenida (64%) sugiere que esta moneda favorece más el águila que una moneda justa.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 96/150 = 0.64 = 64%, un valor bastante mayor que el 50% esperado en una moneda justa."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 9 de 10 · Integración"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Una bolsa tiene 3 canicas rojas, 5 azules y 2 verdes (10 en total). ¿Cuál es la probabilidad de sacar una canica que NO sea roja, en porcentaje?",
+      "opciones": [
+        "30%",
+        "70%",
+        "50%",
+        "20%"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "No roja son azul o verde: 5+2 = 7 de 10, P = 7/10 = 0.7 = 70%."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "En una baraja española de 40 cartas hay 4 palos con 10 cartas cada uno.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: 4 palos × 10 cartas = 40 cartas en total."
+    }
+  ]
+}

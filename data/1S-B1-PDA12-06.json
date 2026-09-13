@@ -1,0 +1,153 @@
+{
+  "id": "1S-B1-PDA12-06",
+  "grado": "1°",
+  "trimestre": "3",
+  "numero": 116,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Recolección y Gráficas de Datos 12.6",
+  "contenido": "Obtención y representación de información.",
+  "pda": "Distingue variables cualitativas y cuantitativas, organiza datos en tablas de frecuencia y los representa en gráficas de barras y circulares.",
+  "problematizacion": {
+    "contexto": "En un examen de matemáticas en Tepatitlán, Jalisco, las calificaciones de 15 alumnos se organizaron en una tabla de frecuencias, y hasta la calificación de 8 hay una frecuencia acumulada de 11 alumnos.",
+    "pregunta": "¿Cuántos alumnos sacaron una calificación de 8 o menos en ese examen?"
+  },
+  "subtemas": [
+    {
+      "numero": "12.6",
+      "nivelEtiqueta": "Nivel 6 de 10 · Aplicación avanzada",
+      "titulo": "Frecuencia acumulada en calificaciones y edades",
+      "explicacion": "Cuando los datos cuantitativos se pueden ordenar de menor a mayor (calificaciones, edades, número de aciertos), es útil saber cuántos casos hay 'hasta cierto valor'. La frecuencia acumulada de un valor es la suma de su frecuencia más las de todos los valores anteriores en el orden. Así respondes preguntas como '¿cuántos alumnos sacaron 8 o menos?' sin volver a sumar cada vez desde cero.",
+      "formula": "frecuencia acumulada de un valor = frecuencia acumulada del valor anterior + frecuencia del valor actual",
+      "ejemplos": [
+        "Calificaciones de 20 alumnos en una tarea: 6=2, 7=5, 8=8, 9=3, 10=2. La frecuencia acumulada hasta 8 es 2+5+8=15 alumnos que sacaron 8 o menos.",
+        "Edades de 15 niños en un club: 11 años=3, 12 años=6, 13 años=4, 14 años=2. La frecuencia acumulada hasta 13 años es 3+6+4=13 niños de 13 años o menos."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Calificaciones de 25 alumnos en un examen: 7=4, 8=9, 9=7, 10=5. ¿Cuántos alumnos sacaron 8 o menos?",
+          "opciones": [
+            "11",
+            "12",
+            "13",
+            "14"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "4+9=13 alumnos sacaron 8 o menos."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En el examen anterior (7=4, 8=9, 9=7, 10=5, total 25), la frecuencia acumulada hasta 9 es ___.",
+          "respuestaCorrecta": "20",
+          "retroalimentacion": "4+9+7=20 alumnos sacaron 9 o menos."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La frecuencia acumulada hasta el valor más alto de una tabla siempre es igual al total de datos.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: al llegar al último valor ya se sumaron todas las frecuencias, así que coincide con el total."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Número de libros leídos en el mes por 30 alumnos: 0 libros=3, 1 libro=8, 2 libros=10, 3 libros=6, 4 libros=3. ¿Cuántos alumnos leyeron 2 libros o menos?",
+          "opciones": [
+            "18",
+            "19",
+            "20",
+            "21"
+          ],
+          "respuestaCorrecta": 3,
+          "retroalimentacion": "3+8+10=21 alumnos leyeron 2 libros o menos."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En la tabla de libros anterior (0=3, 1=8, 2=10, 3=6, 4=3, total 30), la frecuencia acumulada hasta 3 libros es ___.",
+          "respuestaCorrecta": "27",
+          "retroalimentacion": "3+8+10+6=27 alumnos leyeron 3 libros o menos."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En la tabla de libros (0=3, 1=8, 2=10, 3=6, 4=3), la frecuencia acumulada hasta 1 libro es 11.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 3+8=11 alumnos leyeron 1 libro o menos."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Edades de 18 asistentes a un taller de robótica: 12 años=2, 13 años=5, 14 años=6, 15 años=5. ¿Cuántos asistentes tienen 14 años o menos?",
+          "opciones": [
+            "11",
+            "12",
+            "13",
+            "14"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "2+5+6=13 asistentes tienen 14 años o menos."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En el taller de robótica anterior (12=2, 13=5, 14=6, 15=5, total 18), la frecuencia acumulada hasta 13 años es ___.",
+          "respuestaCorrecta": "7",
+          "retroalimentacion": "2+5=7 asistentes tienen 13 años o menos."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Un examen de 22 alumnos registró el número de errores cometidos: 0 errores=6, 1 error=9, 2 errores=5, 3 errores=2. Relaciona cada rango con su frecuencia acumulada correcta.",
+          "columnaA": [
+            "Hasta 0 errores",
+            "Hasta 1 error",
+            "Hasta 2 errores",
+            "Hasta 3 errores"
+          ],
+          "columnaB": [
+            "22",
+            "6",
+            "20",
+            "15"
+          ],
+          "parejasCorrectas": [
+            1,
+            3,
+            2,
+            0
+          ],
+          "retroalimentacion": "Acumuladas: hasta 0=6, hasta 1=6+9=15, hasta 2=15+5=20, hasta 3=20+2=22 (igual al total)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un examen de 40 alumnos dio estas calificaciones: 6=5, 7=10, 8=15, 9=7, 10=3. ¿Qué porcentaje de alumnos sacó 7 o menos?",
+          "opciones": [
+            "30%",
+            "32.5%",
+            "35%",
+            "37.5%"
+          ],
+          "respuestaCorrecta": 3,
+          "retroalimentacion": "Frecuencia acumulada hasta 7: 5+10=15. Porcentaje: 15÷40=0.375, es decir 37.5%."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "En una gráfica de barras sobre videojuegos favoritos, la barra de 'aventura' llega a 9 y la de 'deportes' llega a 14. ¿Cuántos alumnos en total prefieren estos dos géneros?",
+      "opciones": [
+        "21",
+        "22",
+        "23",
+        "24"
+      ],
+      "respuestaCorrecta": 2,
+      "retroalimentacion": "9+14=23 alumnos."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "En una gráfica de barras, mientras más alta es la barra, menor es la frecuencia de esa categoría.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Falso: mientras más alta la barra, MAYOR es la frecuencia, no menor."
+    }
+  ]
+}

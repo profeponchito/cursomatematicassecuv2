@@ -1,0 +1,164 @@
+{
+  "id": "1S-B1-PDA05-06",
+  "grado": "1°",
+  "trimestre": "2",
+  "numero": 46,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Introducción al álgebra 5.6",
+  "contenido": "Introducción al álgebra.",
+  "pda": "Interpreta y plantea diversas situaciones del lenguaje común al lenguaje algebraico y viceversa. Representa algebraicamente perímetros de figuras.",
+  "problematizacion": {
+    "contexto": "El huerto escolar es un terreno rectangular cuyo largo mide x metros y cuyo ancho mide y metros, dos medidas que no están relacionadas entre sí.",
+    "pregunta": "¿Qué expresión algebraica con x y y representa el perímetro del huerto rectangular?"
+  },
+  "subtemas": [
+    {
+      "numero": "5.6",
+      "nivelEtiqueta": "Nivel 6 de 10 · Aplicación avanzada",
+      "titulo": "Perímetros con dos variables: terrenos y huertos",
+      "explicacion": "En todas las lecciones anteriores el perímetro dependía de una sola variable, x. Ahora las figuras tienen dos dimensiones independientes entre sí —x y y—, como un terreno donde el ancho y el largo no se relacionan mediante una fórmula. Esto exige agrupar por separado los términos en x y los términos en y al simplificar, en lugar de combinarlos en un solo tipo de término.",
+      "formula": "Perímetro de un rectángulo con ancho x y largo y = 2x + 2y.",
+      "ejemplos": [
+        "Un huerto rectangular mide x metros de ancho y y metros de largo. Su perímetro es 2x+2y.",
+        "Una cancha rectangular tiene ancho x metros y largo 2y metros; su perímetro es 2(x) + 2(2y) = 2x+4y."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un huerto rectangular tiene ancho x metros y largo y metros. ¿Cuál es la expresión de su perímetro?",
+          "opciones": [
+            "2x+2y",
+            "x+y",
+            "xy",
+            "2x+y"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Un rectángulo tiene dos anchos y dos largos: 2x+2y."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El perímetro de un rectángulo con ancho x y largo 3y es ___.",
+          "respuestaCorrecta": "2x+6y",
+          "retroalimentacion": "2(x) + 2(3y) = 2x + 6y."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un triángulo tiene lados x, y y x+y. ¿Cuál es su perímetro simplificado?",
+          "opciones": [
+            "2x+2y",
+            "2xy",
+            "x+y",
+            "3x+3y"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "x + y + (x+y) = 2x+2y."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El perímetro de un rectángulo con ancho 2x y largo y es 4x+2y.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "2(2x) + 2(y) = 4x + 2y."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El perímetro de un rectángulo con ancho x y largo 4y es 2x+4y.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "2(x) + 2(4y) = 2x + 8y, no 2x+4y."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un cuadrilátero tiene lados x, y, x+2 y y+3. Su perímetro simplificado es ___.",
+          "respuestaCorrecta": "2x+2y+5",
+          "retroalimentacion": "x + y + (x+2) + (y+3) = 2x+2y+5."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un terreno rectangular tiene ancho x metros y largo (x+y) metros. ¿Cuál es su perímetro simplificado?",
+          "opciones": [
+            "4x+2y",
+            "2x+2y",
+            "4x+y",
+            "3x+2y"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "2(x) + 2(x+y) = 2x + 2x + 2y = 4x+2y."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada figura con su perímetro simplificado.",
+          "columnaA": [
+            "Rectángulo ancho x, largo y",
+            "Rectángulo ancho 2x, largo 3y",
+            "Triángulo con lados x, y, 2x"
+          ],
+          "columnaB": [
+            "3x+y",
+            "4x+6y",
+            "2x+2y"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "Rectángulo x,y: 2x+2y. Rectángulo 2x,3y: 4x+6y. Triángulo x,y,2x: x+y+2x=3x+y."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Qué frase corresponde a la expresión x+y?",
+          "opciones": [
+            "La suma de dos cantidades diferentes",
+            "El doble de una cantidad",
+            "La mitad de una cantidad",
+            "El triple de una cantidad menos otra"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "x+y suma dos cantidades distintas, cada una representada por su propia variable."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El perímetro de un pentágono con lados x, x, y, y y (x+y) es ___.",
+          "respuestaCorrecta": "3x+3y",
+          "retroalimentacion": "x + x + y + y + (x+y) = 3x + 3y."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "El perimetro de un rectangulo con ancho x y largo 4x es 10x.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "2(x) + 2(4x) = 2x + 8x = 10x."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "'El doble de un numero menos 12' se escribe ___.",
+      "respuestaCorrecta": "2x-12",
+      "retroalimentacion": "'el doble de un numero menos 12' se traduce como 2x-12."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada figura con su perímetro simplificado.",
+      "columnaA": [
+        "Cuadrado de lado x+6",
+        "Triángulo con lados x, x+1, 2x+1",
+        "Rectángulo con ancho x y largo 2x+3"
+      ],
+      "columnaB": [
+        "6x+6",
+        "4x+2",
+        "4x+24"
+      ],
+      "parejasCorrectas": [
+        2,
+        1,
+        0
+      ],
+      "retroalimentacion": "Cuadrado x+6: 4(x+6)=4x+24. Triángulo x,x+1,2x+1: x+(x+1)+(2x+1)=4x+2. Rectángulo x,2x+3: 2x+2(2x+3)=6x+6."
+    }
+  ]
+}

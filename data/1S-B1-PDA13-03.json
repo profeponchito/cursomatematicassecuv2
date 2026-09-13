@@ -1,0 +1,156 @@
+{
+  "id": "1S-B1-PDA13-03",
+  "grado": "1°",
+  "trimestre": "3",
+  "numero": 123,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Media, Mediana y Moda 13.3",
+  "contenido": "Interpretación de la información a través de medidas de tendencia central y de dispersión.",
+  "pda": "Calcula la media, la mediana y la moda de un conjunto de datos.",
+  "problematizacion": {
+    "contexto": "En una papelería de Puebla, se registraron los colores de mochila que compraron 9 clientes en un día: azul, negro, azul, rosa, azul, negro, verde, azul y negro.",
+    "pregunta": "¿Cuál es la moda de los colores de mochila vendidos ese día?"
+  },
+  "subtemas": [
+    {
+      "numero": "13.3",
+      "titulo": "Moda",
+      "explicacion": "La moda es el dato que más veces se repite en un conjunto. A diferencia de la media y la mediana, un conjunto de datos puede tener una sola moda, puede ser bimodal (dos datos empatados en la frecuencia más alta) o puede no tener moda si todos los datos son diferentes (o si todos se repiten la misma cantidad de veces).",
+      "ejemplos": [
+        "Datos 8, 9, 8, 7, 8 y 10: el 8 aparece 3 veces, más que cualquier otro dato. La moda es 8.",
+        "Datos 7, 8, 7, 9, 8 y 10: el 7 y el 8 aparecen 2 veces cada uno. El conjunto es bimodal: sus modas son 7 y 8.",
+        "Datos 11, 12, 13, 14 y 15: todos son diferentes, ninguno se repite. Este conjunto no tiene moda."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Las calificaciones de 6 alumnos en un examen son 8, 9, 8, 7, 8 y 10. ¿Cuál es la moda de este grupo?",
+          "opciones": [
+            "7",
+            "8",
+            "9",
+            "10"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "El 8 se repite 3 veces, más que cualquier otro dato. La moda es 8."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Las edades de 5 primos son 11, 12, 13, 14 y 15 años, todas diferentes. Este conjunto de datos no tiene moda.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: ningún valor se repite (todas las edades aparecen solo una vez), así que el conjunto no tiene moda."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un equipo anotó estos goles en 6 partidos: 2, 3, 2, 4, 2 y 5. La moda de estos datos es ___.",
+          "respuestaCorrecta": "2",
+          "retroalimentacion": "El 2 se repite 3 veces, más que los demás valores. La moda es 2."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Las calificaciones de 6 alumnos son 7, 8, 7, 9, 8 y 10. ¿Cuál es la moda de este grupo?",
+          "opciones": [
+            "Solo 7",
+            "Solo 8",
+            "7 y 8 (bimodal)",
+            "No tiene moda"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "El 7 y el 8 se repiten 2 veces cada uno, más que los demás datos: el conjunto es bimodal, con modas 7 y 8."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Las edades de 5 primos son 13, 14, 13, 15 y 13 años. La moda de sus edades es 13.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "El 13 se repite 3 veces, más que cualquier otro dato. La moda es 13. Correcto."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un equipo anotó 1, 2, 3, 4 y 5 goles en 5 partidos distintos (todos diferentes). ¿Cuál es la moda de estos datos?",
+          "opciones": [
+            "1",
+            "3",
+            "5",
+            "No tiene moda"
+          ],
+          "respuestaCorrecta": 3,
+          "retroalimentacion": "Como ningún valor se repite, este conjunto de datos no tiene moda."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Las calificaciones de 6 alumnos son 9, 10, 9, 8, 9 y 7. La moda de este grupo es ___.",
+          "respuestaCorrecta": "9",
+          "retroalimentacion": "El 9 se repite 3 veces, más que los demás datos. La moda es 9."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Las edades de 6 primos son 12, 13, 12, 14, 13 y 15 años. Este conjunto es bimodal, con modas 12 y 13.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "El 12 y el 13 se repiten 2 veces cada uno, más que los demás datos: es bimodal, con modas 12 y 13. Correcto."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un equipo anotó 3, 4, 3, 5, 3 y 2 goles en 6 partidos. ¿Cuál es la moda de estos datos?",
+          "opciones": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "El 3 se repite 3 veces, más que cualquier otro dato. La moda es 3."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada conjunto de datos con el tipo de moda que tiene.",
+          "columnaA": [
+            "Calificaciones: 5, 6, 5, 7 y 8",
+            "Edades: 10, 11, 12 y 13",
+            "Goles por partido: 4, 5, 4, 6, 5 y 7"
+          ],
+          "columnaB": [
+            "Bimodal (4 y 5)",
+            "Una sola moda (5)",
+            "No tiene moda"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "Calificaciones (5,6,5,7,8): el 5 se repite 2 veces → Una sola moda (5). Edades (10,11,12,13): todas diferentes → No tiene moda. Goles (4,5,4,6,5,7): el 4 y el 5 se repiten 2 veces cada uno → Bimodal (4 y 5)."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 3 de 10 · Avanzado"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "llenar_frase",
+      "frase": "Las calificaciones desordenadas de 4 alumnos son 10, 7, 9 y 8. Ordénalas: la mediana es ___.",
+      "respuestaCorrecta": "8.5",
+      "retroalimentacion": "Ordenadas: 7, 8, 9, 10. Con 4 datos, la mediana es (8+9)÷2 = 8.5."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Las edades desordenadas de 5 primos son 13, 16, 14, 15 y 12 años. La mediana de sus edades es 14 años.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Ordenadas: 12, 13, 14, 15, 16. Con 5 datos, la mediana es el valor central: 14 años. Correcto."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Los goles desordenados en 6 partidos fueron 5, 2, 4, 3, 1 y 3. Ordénalos y encuentra la mediana.",
+      "opciones": [
+        "2.5",
+        "3",
+        "3.5",
+        "4"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "Ordenados: 1, 2, 3, 3, 4, 5. Con 6 datos (par), la mediana es (3+3)÷2 = 3."
+    }
+  ]
+}
