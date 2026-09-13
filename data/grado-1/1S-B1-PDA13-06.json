@@ -1,0 +1,144 @@
+{
+  "id": "1S-B1-PDA13-06",
+  "grado": "1°",
+  "trimestre": "3",
+  "numero": 126,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Media, Mediana y Moda 13.6",
+  "contenido": "Interpretación de la información a través de medidas de tendencia central y de dispersión.",
+  "pda": "Calcula la media, la mediana y la moda de un conjunto de datos.",
+  "problematizacion": {
+    "contexto": "Santiago ha sacado 7, 8 y 6 en sus primeros tres exámenes de matemáticas en su secundaria de Morelia, y necesita que el promedio de sus 4 exámenes del bimestre sea al menos 8 para no reprobar.",
+    "pregunta": "¿Qué calificación mínima necesita Santiago en su cuarto examen para lograr ese promedio de 8?"
+  },
+  "subtemas": [
+    {
+      "numero": "13.6",
+      "nivelEtiqueta": "Nivel 6 de 10 · Aplicación avanzada",
+      "titulo": "Encontrar el dato faltante conociendo la media",
+      "explicacion": "Ahora invertimos el proceso: en vez de calcular la media a partir de todos los datos, usamos una media YA conocida (la que queremos lograr) y el número total de datos para encontrar el dato que falta. Esto sirve, por ejemplo, para saber qué calificación necesitas en tu próximo examen para alcanzar cierto promedio. La clave es multiplicar la media deseada por el número de datos para obtener la suma total necesaria, y luego restarle los datos que ya conoces.",
+      "formula": "dato faltante = (media deseada × número de datos) − (suma de los datos conocidos)",
+      "ejemplos": [
+        "Un alumno tiene registradas las calificaciones 7, 8 y 9 en sus primeros 3 exámenes, y quiere que su media final (con 4 exámenes) sea 8. Suma necesaria = 8×4 = 32. Suma conocida = 7+8+9 = 24. Dato faltante = 32−24 = 8: necesita sacar 8 en el 4.º examen.",
+        "En baloncesto, un jugador anotó 12, 15, 18 y 20 puntos en sus primeros 4 partidos. Quiere que su media en 5 partidos sea 17. Suma necesaria = 17×5 = 85. Suma conocida = 12+15+18+20 = 65. Dato faltante = 85−65 = 20: necesita anotar 20 puntos en el 5.º partido."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un alumno tiene calificaciones 6, 8 y 9 en sus primeros 3 exámenes. Si quiere que la media de sus 4 exámenes sea 8, ¿qué calificación necesita en el 4.º examen?",
+          "opciones": [
+            "7",
+            "8",
+            "9",
+            "10"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Suma necesaria = 8×4 = 32. Suma conocida = 6+8+9 = 23. Dato faltante = 32−23 = 9."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En 3 partidos, un jugador anotó 10, 14 y 12 puntos. Para que su media en 4 partidos sea 13, necesita anotar 16 puntos en el 4.º partido.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Suma necesaria = 13×4 = 52. Suma conocida = 10+14+12 = 36. Dato faltante = 52−36 = 16. Correcto."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un corredor recorrió en 3 entrenamientos 5.5, 6.0 y 6.5 km. Para que su media en 4 entrenamientos sea 6 km, en el 4.º entrenamiento debe recorrer ___ km.",
+          "respuestaCorrecta": "6",
+          "retroalimentacion": "Suma necesaria = 6×4 = 24. Suma conocida = 5.5+6.0+6.5 = 18. Dato faltante = 24−18 = 6 km."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Las ventas de una tienda en 4 días fueron $800, $950, $700 y $1,050. Si el gerente quiere que la media de 5 días sea $900, ¿cuánto debe vender el quinto día?",
+          "opciones": [
+            "$900",
+            "$950",
+            "$1,000",
+            "$1,050"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Suma necesaria = 900×5 = 4500. Suma conocida = 800+950+700+1050 = 3500. Dato faltante = 4500−3500 = $1,000."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un alumno sacó 7, 9, 8 y 6 en sus primeros 4 exámenes. Para tener una media de 8 en 5 exámenes, necesita sacar 10 en el 5.º examen.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Suma necesaria = 8×5 = 40. Suma conocida = 7+9+8+6 = 30. Dato faltante = 40−30 = 10. Correcto."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un equipo de voleibol anotó 18, 22 y 20 puntos en sus primeros 3 sets. Para que su media en 4 sets sea 21 puntos, en el 4.º set debe anotar ___ puntos.",
+          "respuestaCorrecta": "24",
+          "retroalimentacion": "Suma necesaria = 21×4 = 84. Suma conocida = 18+22+20 = 60. Dato faltante = 84−60 = 24 puntos."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un alumno tiene 8, 7, 9 y 8 registrados en sus primeros 4 exámenes. Si su media final (con 5 exámenes) debe ser 8.4, ¿qué calificación necesita en el 5.º examen?",
+          "opciones": [
+            "9",
+            "9.5",
+            "10",
+            "10.5"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Suma necesaria = 8.4×5 = 42. Suma conocida = 8+7+9+8 = 32. Dato faltante = 42−32 = 10."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una fábrica produjo 120, 135 y 128 piezas en 3 días. Si quiere que la media de 4 días sea 130 piezas, necesita producir 137 piezas el 4.º día.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Suma necesaria = 130×4 = 520. Suma conocida = 120+135+128 = 383. Dato faltante = 520−383 = 137 piezas. Correcto."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un ciclista recorrió 42, 38 y 45 km en 3 días. Para que su media en 4 días sea 41 km, el 4.º día debe recorrer ___ km.",
+          "respuestaCorrecta": "39",
+          "retroalimentacion": "Suma necesaria = 41×4 = 164. Suma conocida = 42+38+45 = 125. Dato faltante = 164−125 = 39 km."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación con el dato faltante necesario para lograr la media deseada.",
+          "columnaA": [
+            "Exámenes 6, 7 y 8 (3 datos); media deseada en 4 exámenes = 7.5",
+            "Partidos con 10 y 12 puntos (2 datos); media deseada en 3 partidos = 12",
+            "Ventas de $500 y $600 (2 datos); media deseada en 3 días = $550"
+          ],
+          "columnaB": [
+            "9",
+            "14",
+            "550"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "Exámenes: 7.5×4−(6+7+8)=30−21=9. Partidos: 12×3−(10+12)=36−22=14. Ventas: 550×3−(500+600)=1650−1100=$550."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Las calificaciones de 5 alumnos son 8, 9, 8, 10 y 9. ¿Cuál es la moda de este grupo?",
+      "opciones": [
+        "Solo 8",
+        "Solo 9",
+        "8 y 9 (bimodal)",
+        "No tiene moda"
+      ],
+      "respuestaCorrecta": 2,
+      "retroalimentacion": "El 8 y el 9 se repiten 2 veces cada uno, más que los demás datos: es bimodal, con modas 8 y 9."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Las edades de 5 primos son 12, 12, 13, 14 y 12 años. La moda de sus edades es 12.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "El 12 se repite 3 veces, más que los demás datos. La moda es 12. Correcto."
+    }
+  ]
+}

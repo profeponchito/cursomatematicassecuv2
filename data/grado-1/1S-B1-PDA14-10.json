@@ -1,0 +1,137 @@
+{
+  "id": "1S-B1-PDA14-10",
+  "grado": "1°",
+  "trimestre": "3",
+  "numero": 140,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Probabilidad de Eventos Simples 14.10",
+  "contenido": "Azar e incertidumbre en la ocurrencia de eventos cotidianos.",
+  "pda": "Calcula la probabilidad clásica de eventos simples a partir de su espacio muestral.",
+  "problematizacion": {
+    "contexto": "El comité de la kermés de una secundaria en Puebla está decidiendo entre dos juegos para recaudar fondos: uno con una probabilidad de ganar del 15%, y otro donde de 80 intentos anteriores solo 6 personas ganaron.",
+    "pregunta": "¿Cómo compararías la probabilidad de ambos juegos para decidir cuál conviene más ofrecer, tomando en cuenta que uno es clásico y el otro es frecuencial?"
+  },
+  "subtemas": [
+    {
+      "numero": "14.10",
+      "titulo": "Reto final: probabilidad para tomar decisiones",
+      "explicacion": "En esta lección de dominio, los problemas imitan decisiones reales de negocios, salud y deporte donde se deben calcular, comparar e interpretar probabilidades con números menos 'redondos' para elegir la mejor opción o entender un resultado. Se integran todas las herramientas del PDA: espacio muestral, probabilidad clásica y frecuencial, evento contrario, suma de casos favorables, conversión entre formas y comparación entre eventos.",
+      "ejemplos": [
+        "Una empresa revisa 3 rutas de entrega. Ruta A: 23 de 92 envíos llegan tarde (23/92 = 0.25). Ruta B: 15 de 75 llegan tarde (15/75 = 0.2). Ruta B tiene la menor probabilidad de tardanza.",
+        "Un lote tiene 138 piezas y 9 son defectuosas. P(funciona correctamente) = 129/138 ≈ 0.9348, es decir, aproximadamente 93.5%."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una empresa de mensajería revisa 3 rutas: en la Ruta A, 23 de 92 envíos llegaron tarde; en la Ruta B, 15 de 75 llegaron tarde; en la Ruta C, 21 de 84 llegaron tarde. ¿Qué ruta tiene MENOR probabilidad de tardanza?",
+          "opciones": [
+            "Ruta A",
+            "Ruta B",
+            "Ruta C",
+            "Las tres son iguales"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "P(A) = 23/92 = 0.25, P(B) = 15/75 = 0.2, P(C) = 21/84 = 0.25. La Ruta B tiene la menor probabilidad de tardanza."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En un lote de 138 piezas electrónicas, 9 están defectuosas. La probabilidad de que una pieza elegida al azar SÍ funcione correctamente, en porcentaje redondeado a un decimal, es ___%.",
+          "respuestaCorrecta": "93.5",
+          "retroalimentacion": "Funcionan 138 − 9 = 129 piezas. P = 129/138 ≈ 0.9348, que redondeado a un decimal es 93.5%."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una tienda de ropa registró que de 215 clientes que entraron un sábado, 86 compraron algo. La probabilidad frecuencial de compra (40%) es mayor que la probabilidad de sacar una carta de corazones en una baraja de 52 cartas (25%).",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 86/215 = 0.4 = 40% y 13/52 = 0.25 = 25%. Como 40% > 25%, la afirmación es verdadera."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un laboratorio prueba una vacuna en 340 personas y 17 presentan un efecto secundario leve. ¿Cuál es la probabilidad, como fracción simplificada, de que una persona NO presente el efecto secundario?",
+          "opciones": [
+            "19/20",
+            "17/340",
+            "323/340",
+            "18/20"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Sin efecto: 340 − 17 = 323 de 340. La fracción 323/340 se simplifica dividiendo entre 17: 19/20."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una cooperativa agrícola sembró 264 plantas de tomate y 231 sobrevivieron a una plaga. La probabilidad frecuencial de que una planta haya sobrevivido, como fracción simplificada, es ___.",
+          "respuestaCorrecta": "7/8",
+          "retroalimentacion": "231/264 se simplifica dividiendo entre 33: 7/8."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En un torneo de tiro con arco, Ana acierta 39 de 52 tiros y Luis acierta 33 de 44 tiros. Como ambas razones se simplifican a 3/4, Ana y Luis tienen la misma probabilidad de acertar.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 39/52 = 3/4 y 33/44 = 3/4, así que ambos tienen la misma probabilidad de acertar."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una fábrica de calzado produce en dos turnos. En el matutino, 14 de 175 pares salen con defecto. En el vespertino, 13 de 150 salen con defecto. ¿Qué turno tiene MAYOR probabilidad de producir un par defectuoso?",
+          "opciones": [
+            "Turno matutino",
+            "Turno vespertino",
+            "Son iguales",
+            "No hay suficiente información"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Matutino: 14/175 = 0.08. Vespertino: 13/150 ≈ 0.0867. El turno vespertino tiene mayor probabilidad de defecto."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación de negocio con su probabilidad, como porcentaje.",
+          "columnaA": [
+            "De 450 llamadas a servicio al cliente, 108 terminan en queja formal",
+            "De 300 pedidos en línea, 39 llegan con retraso",
+            "De 275 exámenes médicos, 55 resultan positivos a una prueba"
+          ],
+          "columnaB": [
+            "13%",
+            "24%",
+            "20%"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            2
+          ],
+          "retroalimentacion": "Quejas: 108/450 = 24%. Retrasos: 39/300 = 13%. Positivos: 55/275 = 20%."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un estudio de mercado encuestó a 425 personas: 340 prefieren pagar con tarjeta y el resto con efectivo. La probabilidad de que una persona prefiera pagar en efectivo, como fracción simplificada, es ___.",
+          "respuestaCorrecta": "1/5",
+          "retroalimentacion": "Efectivo: 425 − 340 = 85 de 425. La fracción 85/425 se simplifica dividiendo entre 85: 1/5."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una aseguradora analiza 640 pólizas de auto y 96 tuvieron algún reclamo en el año. Si esta probabilidad frecuencial (15%) se mantiene, entonces de 800 pólizas nuevas se esperarían aproximadamente 120 reclamos.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 96/640 = 0.15 = 15%, y 15% de 800 es 0.15 × 800 = 120."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 10 de 10 · Dominio"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "llenar_frase",
+      "frase": "En una ruleta de 8 secciones numeradas del 1 al 8, la probabilidad de obtener un número par es ___.",
+      "respuestaCorrecta": "4/8",
+      "retroalimentacion": "Los números pares son {2,4,6,8}: 4 casos favorables de 8 totales, P = 4/8."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "La probabilidad 1/20 equivale a 5%.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: 1 ÷ 20 = 0.05, y 0.05 × 100 = 5%."
+    }
+  ]
+}

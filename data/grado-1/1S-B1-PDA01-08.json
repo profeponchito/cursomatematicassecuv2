@@ -1,0 +1,159 @@
+{
+  "id": "1S-B1-PDA01-08",
+  "grado": "1°",
+  "trimestre": "1",
+  "numero": 8,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Expresión de fracciones como decimales y de decimales como fracciones 1.8",
+  "contenido": "Expresión de fracciones como decimales y de decimales como fracciones.",
+  "pda": "Usa diversas estrategias al convertir números fraccionarios a decimales y viceversa.",
+  "problematizacion": {
+    "contexto": "En el equipo de voleibol, Karina ganó 2 de cada 3 sets que jugó en el torneo, y su entrenadora quiere anotar ese rendimiento en la tabla de estadísticas del club.",
+    "pregunta": "¿Qué tipo de decimal (finito o periódico) resulta de convertir 2/3, y cómo lo redondearía la entrenadora a dos cifras decimales?"
+  },
+  "subtemas": [
+    {
+      "numero": "1.8",
+      "nivelEtiqueta": "Nivel 8 de 10 · Reto avanzado",
+      "titulo": "Decimales periódicos: identificarlos y trabajar con ellos",
+      "explicacion": "En lecciones anteriores viste que algunas fracciones dan decimales que nunca terminan (periódicos), pero no profundizaste en cuándo pasa esto ni cómo manejarlos. Ahora aprenderás a identificar, sin dividir primero, qué fracciones producen un decimal finito y cuáles uno periódico, según los factores primos del denominador ya simplificado, y a redondear decimales periódicos a un número dado de cifras para poder usarlos en cálculos reales.",
+      "formula": "Una fracción simplificada a/b da un decimal FINITO si, y solo si, los únicos factores primos de b son 2 y/o 5. Si b tiene cualquier otro factor primo (3, 7, 11...), el decimal es PERIÓDICO.",
+      "ejemplos": [
+        "5/12: 12 = 2² × 3. Como aparece el factor 3, el decimal es periódico: 5/12 = 0.41666... ≈ 0.417 redondeado a milésimos.",
+        "7/40: 40 = 2³ × 5. Solo tiene los factores 2 y 5, así que el decimal es finito: 7/40 = 0.175."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de estas fracciones da un decimal FINITO (no periódico)?",
+          "opciones": [
+            "5/12",
+            "7/15",
+            "9/40",
+            "11/24"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "40 = 2³ × 5 (solo factores 2 y 5) → finito. Los denominadores 12, 15 y 24 tienen el factor 3, así que dan decimales periódicos."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "5/6 da un decimal periódico, porque 6 = 2 × 3 tiene el factor 3.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: al tener el factor primo 3, el decimal nunca termina: 5/6 = 0.8333..."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "7/12 escrito como decimal, redondeado a milésimos (3 cifras), es ___.",
+          "respuestaCorrecta": "0.583",
+          "retroalimentacion": "7 ÷ 12 = 0.58333..., que redondeado a milésimos es 0.583."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es 5/6 como decimal, redondeado a centésimos (2 cifras)?",
+          "opciones": [
+            "0.83",
+            "0.84",
+            "0.8",
+            "0.833"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "5 ÷ 6 = 0.8333..., que redondeado a centésimos es 0.83."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "13/15 da un decimal finito.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: 15 = 3 × 5 tiene el factor 3, así que 13/15 = 0.8666... es periódico."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "11/12 escrito como decimal, redondeado a milésimos, es ___.",
+          "respuestaCorrecta": "0.917",
+          "retroalimentacion": "11 ÷ 12 = 0.91666..., que redondeado a milésimos es 0.917."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un tanque se llena a razón de 7/15 por hora. ¿Qué tipo de decimal representa esa fracción y por qué?",
+          "opciones": [
+            "Periódico, porque 15 = 3 × 5 tiene el factor 3",
+            "Finito, porque 15 termina en 5",
+            "Periódico, porque 7 es impar",
+            "Finito, porque 7 y 15 no tienen factores comunes"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "15 = 3 × 5; como tiene el factor 3, el decimal es periódico: 7/15 = 0.4666..."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "2/15 escrito como decimal, redondeado a milésimos, es ___.",
+          "respuestaCorrecta": "0.133",
+          "retroalimentacion": "2 ÷ 15 = 0.13333..., que redondeado a milésimos es 0.133."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "9/40 y 7/12 son ambas fracciones que dan decimal finito.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: 9/40 sí es finito (40 = 2³ × 5), pero 7/12 es periódico porque 12 = 2² × 3 tiene el factor 3."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Clasifica cada fracción según el tipo de decimal que produce.",
+          "columnaA": [
+            "9/40",
+            "7/12",
+            "11/50",
+            "5/6"
+          ],
+          "columnaB": [
+            "Periódico",
+            "Finito"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "retroalimentacion": "9/40 (2³×5) y 11/50 (2×5²) son finitos; 7/12 (2²×3) y 5/6 (2×3) son periódicos por el factor 3."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada fracción con su equivalente decimal.",
+      "columnaA": [
+        "13/25",
+        "1/25",
+        "17/50"
+      ],
+      "columnaB": [
+        "0.34",
+        "0.52",
+        "0.04"
+      ],
+      "parejasCorrectas": [
+        1,
+        2,
+        0
+      ],
+      "retroalimentacion": "13/25 = 0.52; 1/25 = 0.04; 17/50 = 0.34."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "11/20 equivale a 0.55.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: 11 ÷ 20 = 0.55."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "0.65 equivale a la fracción 3/5.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Falso: 0.65 = 13/20, y 3/5 = 0.6, son distintos."
+    }
+  ]
+}

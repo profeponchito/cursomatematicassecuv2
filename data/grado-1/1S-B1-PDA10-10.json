@@ -1,0 +1,150 @@
+{
+  "id": "1S-B1-PDA10-10",
+  "grado": "1°",
+  "trimestre": "3",
+  "numero": 100,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Forma, espacio y medida",
+  "titulo": "El Círculo y sus Elementos 10.10",
+  "contenido": "Circunferencia, círculo y esfera.",
+  "pda": "Identifica los elementos de la circunferencia y calcula su perímetro y el área del círculo.",
+  "problematizacion": {
+    "contexto": "El ayuntamiento de Colima planea un parque nuevo con una fuente circular de 3 metros de radio, rodeada por un camino en forma de anillo que llega hasta 5 metros de radio, y una jardinera con forma de pista de atletismo alrededor.",
+    "pregunta": "¿Qué cálculos de perímetros y áreas de círculos, anillos y figuras tipo estadio tendría que hacer el ayuntamiento para saber cuánto material necesita para cada parte del parque?"
+  },
+  "subtemas": [
+    {
+      "numero": "10.10",
+      "nivelEtiqueta": "Nivel 10 de 10 · Dominio",
+      "titulo": "Proyecto integrador: diseña un parque con fuente, camino y jardinera",
+      "explicacion": "Esta lección final integra todo lo que aprendiste sobre el círculo —elementos, perímetro, área, semicírculos, anillos y figuras tipo estadio— en un solo proyecto: el diseño de un parque con una fuente circular, un camino en forma de anillo alrededor y una jardinera con forma de pista. Tendrás que combinar varias fórmulas en un mismo problema, calcular costos con cifras más grandes y hasta detectar un error de razonamiento común: pensar que si el radio se duplica, el área del anillo también se duplica (no es así, porque el anillo depende de una resta de dos áreas que crecen distinto).",
+      "formula": "Se combinan las fórmulas ya vistas de anillo, círculo y pista tipo estadio, junto con Costo total = Medida × precio por unidad.",
+      "ejemplos": [
+        "Una fuente circular de radio 21 m tiene un camino de adoquín alrededor hasta radio 29 m. El área del camino (anillo) es 2640.74−1384.74 = 1256 m². Si el adoquín cuesta $150 por m², el costo es 1256×150 = $188,400.",
+        "Esa misma fuente (radio 21 m) llevará una cinta de seguridad en todo su borde, que cuesta $25 por metro. Su perímetro es 2×3.14×21 = 131.88 m, así que la cinta cuesta 131.88×25 = $3,297."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El camino de adoquín alrededor de la fuente (anillo entre radio 21 m y 29 m, área 1256 m²) cuesta $150 por m². ¿Cuál es el costo total del adoquín?",
+          "opciones": [
+            "$188,400",
+            "$1,256",
+            "$94,200",
+            "$376,800"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Costo = 1256 × 150 = $188,400."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La fuente circular de radio 21 m llevará una cinta de seguridad en todo su borde, que cuesta $25 por metro. ¿Cuánto costará la cinta? $___",
+          "respuestaCorrecta": "3297",
+          "retroalimentacion": "P = 2×3.14×21 = 131.88 m; Costo = 131.88×25 = $3,297."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una jardinera con forma de pista (tramo recto de 50 m, ancho de 24 m) tiene un área de 1652.16 m².",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: A = 50×24 + 3.14×12² = 1200+452.16 = 1652.16 m²."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Sembrar pasto en esa jardinera (área 1652.16 m²) cuesta $8 por m². ¿Cuál es el costo del pasto?",
+          "opciones": [
+            "$13,217.28",
+            "$1,652.16",
+            "$8,260.80",
+            "$16,521.60"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Costo = 1652.16 × 8 = $13,217.28."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El costo total del proyecto del parque es la suma del adoquín ($188,400), la cinta de seguridad ($3,297) y el pasto ($13,217.28). ¿Cuál es el costo total? $___",
+          "respuestaCorrecta": "204914.28",
+          "retroalimentacion": "188400 + 3297 + 13217.28 = $204,914.28."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si se duplicara el radio de la fuente (de 21 m a 42 m) y también se mantuviera el mismo ancho de camino (8 m, hasta radio 50 m), el área del anillo sería exactamente el doble de 1256 m².",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: el nuevo anillo mide 3.14×50²−3.14×42²=7850−5538.96=2311.04 m², que NO es el doble de 1256 (el doble sería 2512). El anillo no escala igual que el círculo completo."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un anillo tiene radio externo de 31 m (área externa 3017.54 m²) y área total de anillo de 1884 m². ¿Cuál es el radio del círculo interno?",
+          "opciones": [
+            "19 m",
+            "12 m",
+            "25 m",
+            "1133.54 m"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Área interna = 3017.54−1884 = 1133.54 m²; como A=π×r², r²=1133.54÷3.14=361, y r=19 m."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si sumas el área de la fuente (radio 21 m, 1384.74 m²) con el área de la jardinera tipo pista (1652.16 m²), ¿cuál es el área verde total combinada? ___ m²",
+          "respuestaCorrecta": "3036.9",
+          "retroalimentacion": "1384.74 + 1652.16 = 3036.9 m²."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Se necesita delimitar con manguera el borde exterior del camino (círculo de radio 29 m) y el borde exterior de la jardinera tipo pista (perímetro 175.36 m). ¿Cuántos metros de manguera se necesitan en total?",
+          "opciones": [
+            "357.48 m",
+            "307.48 m",
+            "182.12 m",
+            "175.36 m"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Perímetro del camino = 2×3.14×29 = 182.12 m; total = 182.12+175.36 = 357.48 m."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada elemento del parque con su costo total.",
+          "columnaA": [
+            "Camino de adoquín (anillo)",
+            "Cinta de seguridad (borde de la fuente)",
+            "Pasto (jardinera)"
+          ],
+          "columnaB": [
+            "$3,297",
+            "$188,400",
+            "$13,217.28"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            2
+          ],
+          "retroalimentacion": "Adoquín: $188,400. Cinta: $3,297. Pasto: $13,217.28."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Una rueda con diámetro de 28 cm tiene un radio de 14 cm y un área de 615.44 cm².",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: r = 28 ÷ 2 = 14 cm, y A = 3.14 × 14² = 615.44 cm²."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Una tapa circular con diámetro de 38 cm, ¿cuál es su área?",
+      "opciones": [
+        "1133.54 cm²",
+        "59.66 cm²",
+        "361 cm²",
+        "722 cm²"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "r = 19 cm, entonces A = 3.14 × 19² = 3.14 × 361 = 1133.54 cm²."
+    }
+  ]
+}

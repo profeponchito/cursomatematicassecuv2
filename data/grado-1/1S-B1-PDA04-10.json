@@ -1,0 +1,163 @@
+{
+  "id": "1S-B1-PDA04-10",
+  "grado": "1°",
+  "trimestre": "2",
+  "numero": 40,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Regularidades y Patrones 4.10",
+  "contenido": "Regularidades y Patrones.",
+  "pda": "Representa algebraicamente una sucesión con progresión aritmética de figuras y números.",
+  "problematizacion": {
+    "contexto": "Dos hermanos ahorran para un viaje: Iván no anotó cuánto ahorró el primer mes ni cuánto aumenta, solo que en el mes 2 llevaba $340 y en el mes 5 llevaba $520; su hermana Dulce ahorra $150 el primer mes y aumenta $50 cada mes.",
+    "pregunta": "¿Quién de los dos hermanos habrá ahorrado más dinero en total al cabo de 8 meses, reconstruyendo primero la sucesión de Iván?"
+  },
+  "subtemas": [
+    {
+      "numero": "4.10",
+      "titulo": "Retos finales: reconstruir la sucesión y comparar escenarios",
+      "explicacion": "En el nivel de dominio, los problemas no te dan directamente a ni d: debes reconstruirlos combinando dos términos conocidos, y después usar esa información para resolver preguntas de posición, término específico o suma total, muchas veces comparando dos sucesiones distintas para tomar una decisión, como cuál de dos planes de ahorro conviene más.",
+      "ejemplos": [
+        "El término 2 de una sucesión de ahorro es $18 y el término 5 es $42. ¿Cuánto se ha ahorrado en total hasta el término 8? Paso 1: d=(42-18)÷(5-2)=8. Paso 2: a=18-(2-1)×8=10. Paso 3: término_8 = 10+(8-1)×8 = 66. Paso 4: S₈ = 8×(10+66)÷2 = 304. En total se han ahorrado $304 hasta el término 8.",
+        "Negocio A: el término 3 es 26 y el término 6 es 50. Negocio B: el término 2 es 15 y el término 5 es 39. ¿Cuál negocio acumula más en sus primeros 6 términos? Negocio A: d=(50-26)÷3=8, a=26-2×8=10, término_6=10+5×8=50, S₆=6×(10+50)÷2=180. Negocio B: d=(39-15)÷3=8, a=15-1×8=7, término_6=7+5×8=47, S₆=6×(7+47)÷2=162. El Negocio A acumula más ($180 contra $162)."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "llenar_frase",
+          "frase": "El término 3 de una sucesión es 19 y el término 6 es 40. ¿Cuál es el valor del término 9? Respuesta: ___.",
+          "respuestaCorrecta": "61",
+          "retroalimentacion": "d=(40-19)÷(6-3)=7. a=19-2×7=5. término_9=5+8×7=61."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El término 2 de una sucesión de ventas es 24 y el término 5 es 54. ¿Cuánto suman en total los primeros 5 términos (S₅)?",
+          "opciones": [
+            "170",
+            "160",
+            "180",
+            "150"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "d=(54-24)÷(5-2)=10. a=24-1×10=14. término_5=14+4×10=54. S₅=5×(14+54)÷2=170."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Negocio A tiene término 2=12 y término 5=30. Negocio B tiene término 3=20 y término 6=41. Se cumple que la diferencia d de ambos negocios es la misma.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Negocio A: d=(30-12)÷(5-2)=6. Negocio B: d=(41-20)÷(6-3)=7. No son iguales, es falso."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El término 4 de una sucesión es -3 y el término 8 es 21. ¿Cuál es el primer término (a)? Respuesta: ___.",
+          "respuestaCorrecta": "-21",
+          "retroalimentacion": "d=(21-(-3))÷(8-4)=6. a=-3-3×6=-21."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Retomando la sucesión anterior (término 4=-3, término 8=21, por lo que d=6 y a=-21), ¿en qué posición n el término vale 57?",
+          "opciones": [
+            "14",
+            "13",
+            "15",
+            "12"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "n = (57-(-21))÷6+1 = 78÷6+1 = 13+1 = 14."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un plan de ahorro A tiene término 3=$50 y término 7=$110. Un plan B tiene término 2=$40 y término 6=$120. Se cumple que el plan B tiene mayor diferencia (d) constante que el plan A.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Plan A: d=(110-50)÷(7-3)=15. Plan B: d=(120-40)÷(6-2)=20. 20>15, es verdadero."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Retomando el plan A (término 3=$50, término 7=$110, por lo que d=15 y a=20), ¿cuánto se ha ahorrado en total hasta el término 6 (S₆)? Respuesta: $___.",
+          "respuestaCorrecta": "345",
+          "retroalimentacion": "término_6 = 20+5×15 = 95. S₆ = 6×(20+95)÷2 = 345."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Retomando el plan B (término 2=$40, término 6=$120, por lo que d=20 y a=20), ¿cuánto se ha ahorrado en total hasta el término 6 (S₆)?",
+          "opciones": [
+            "420",
+            "400",
+            "440",
+            "380"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "término_6 = 20+5×20 = 120. S₆ = 6×(20+120)÷2 = 420."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Cada fila da dos términos conocidos de una sucesión distinta. Relaciónala con el valor correcto de su término 10.",
+          "columnaA": [
+            "término 2=5, término 4=13",
+            "término 3=9, término 6=24",
+            "término 5=18, término 9=38"
+          ],
+          "columnaB": [
+            "43",
+            "37",
+            "44"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "término 2=5,término 4=13: d=4,a=1,término_10=1+9×4=37. término 3=9,término 6=24: d=5,a=-1,término_10=-1+9×5=44. término 5=18,término 9=38: d=5,a=-2,término_10=-2+9×5=43."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una sucesión tiene término 5=22 y término 9=46. Se cumple que la suma de sus primeros 5 términos (S₅) es 80.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "d=(46-22)÷(9-5)=6. a=22-4×6=-2. término_5=-2+4×6=22 (consistente). S₅=5×(-2+22)÷2=50, no 80. Es falso."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 10 de 10 · Dominio"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "En la sucesión 10, 7, 4, 1..., ¿cuál es la diferencia constante d?",
+      "opciones": [
+        "-3",
+        "3",
+        "-7",
+        "4"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "Cada término disminuye 3 respecto al anterior: 7-10=-3."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "En la sucesión 2, 5, 8, 11..., el término 6 es 17.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: a=2, d=3. término_6 = 2 + (6-1)×3 = 2+15 = 17."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada sucesión (dado a y d) con el término indicado.",
+      "columnaA": [
+        "a=5, d=2 → término 4",
+        "a=20, d=-5 → término 3",
+        "a=0, d=8 → término 5"
+      ],
+      "columnaB": [
+        "10",
+        "32",
+        "11"
+      ],
+      "parejasCorrectas": [
+        2,
+        0,
+        1
+      ],
+      "retroalimentacion": "a=5,d=2,n=4: 5+3×2=11. a=20,d=-5,n=3: 20+2×(-5)=10. a=0,d=8,n=5: 0+4×8=32."
+    }
+  ]
+}

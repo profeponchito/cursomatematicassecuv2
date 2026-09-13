@@ -1,0 +1,143 @@
+{
+  "id": "1S-B1-PDA14-01",
+  "grado": "1°",
+  "trimestre": "3",
+  "numero": 131,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Probabilidad de Eventos Simples 14.1",
+  "contenido": "Azar e incertidumbre en la ocurrencia de eventos cotidianos.",
+  "pda": "Calcula la probabilidad clásica de eventos simples a partir de su espacio muestral.",
+  "problematizacion": {
+    "contexto": "En una feria escolar en Acapulco, hay una urna con 15 pelotas numeradas del 1 al 15, y los alumnos sacan una al azar para ver si ganan un premio con los números pares.",
+    "pregunta": "¿Cuántos resultados posibles tiene el espacio muestral de sacar una pelota de esa urna?"
+  },
+  "subtemas": [
+    {
+      "numero": "14.1",
+      "titulo": "Espacio muestral",
+      "explicacion": "El espacio muestral de un experimento aleatorio es el conjunto de TODOS los resultados posibles que se pueden obtener. Por ejemplo, al lanzar un dado de 6 caras, los resultados posibles son 1, 2, 3, 4, 5 y 6; ese conjunto {1,2,3,4,5,6} es el espacio muestral y tiene 6 elementos. Para encontrar el espacio muestral de una bolsa con canicas de colores, basta con sumar todas las canicas que contiene.",
+      "ejemplos": [
+        "Al lanzar un dado de 6 caras, el espacio muestral es {1,2,3,4,5,6}: tiene 6 resultados posibles.",
+        "Al lanzar una moneda, el espacio muestral es {águila, sol}: tiene 2 resultados posibles."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El espacio muestral de lanzar una moneda tiene 2 resultados posibles (águila y sol).",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: los únicos resultados posibles al lanzar una moneda son águila o sol, así que el espacio muestral tiene 2 elementos."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Al lanzar un dado de 6 caras, ¿cuántos resultados tiene su espacio muestral?",
+          "opciones": [
+            "4",
+            "6",
+            "8",
+            "12"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "El espacio muestral de un dado de 6 caras es {1,2,3,4,5,6}, es decir, 6 resultados posibles."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una bolsa tiene 4 canicas rojas, 3 azules y 2 verdes. El espacio muestral de sacar una canica tiene ___ resultados posibles.",
+          "respuestaCorrecta": "9",
+          "retroalimentacion": "Se suman todas las canicas: 4+3+2 = 9 resultados posibles."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En una baraja española de 40 cartas, el espacio muestral de sacar una carta tiene 40 resultados posibles.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: la baraja completa tiene 40 cartas distintas, así que hay 40 resultados posibles al sacar una."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una ruleta está dividida en 8 secciones iguales numeradas del 1 al 8. ¿Cuántos resultados tiene su espacio muestral?",
+          "opciones": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Las secciones numeradas del 1 al 8 dan 8 resultados posibles: {1,2,3,4,5,6,7,8}."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Al lanzar un dado de 6 caras, el espacio muestral es el conjunto {1,2,3,4,5,6}, que tiene ___ resultados.",
+          "respuestaCorrecta": "6",
+          "retroalimentacion": "El conjunto {1,2,3,4,5,6} tiene 6 elementos, uno por cada cara del dado."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una bolsa con 5 canicas azules y 3 rojas tiene un espacio muestral de 7 resultados posibles.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: 5+3 = 8 canicas en total, así que el espacio muestral tiene 8 resultados, no 7."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una bolsa tiene 6 canicas verdes, 2 amarillas y 2 rojas. ¿Cuántos resultados tiene su espacio muestral?",
+          "opciones": [
+            "8",
+            "9",
+            "10",
+            "12"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Se suman todas las canicas: 6+2+2 = 10 resultados posibles."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada experimento con el número de resultados de su espacio muestral.",
+          "columnaA": [
+            "Lanzar una moneda",
+            "Lanzar un dado de 6 caras",
+            "Sacar una carta de una baraja de 40"
+          ],
+          "columnaB": [
+            "2",
+            "6",
+            "40"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "Moneda: {águila, sol} = 2. Dado: {1,2,3,4,5,6} = 6. Baraja de 40 cartas = 40 resultados."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una ruleta tiene 10 secciones iguales: 4 rojas, 3 azules y 3 verdes. El espacio muestral de girarla tiene ___ resultados.",
+          "respuestaCorrecta": "10",
+          "retroalimentacion": "Se suman todas las secciones: 4+3+3 = 10 resultados posibles."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 1 de 10 · Introductorio"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "El espacio muestral de lanzar un dado de 6 caras tiene 6 resultados posibles.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: el espacio muestral de un dado de 6 caras es {1,2,3,4,5,6}."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Una bolsa tiene 6 canicas azules y 4 rojas. ¿Cuántos resultados tiene el espacio muestral de sacar una canica?",
+      "opciones": [
+        "6",
+        "4",
+        "10",
+        "2"
+      ],
+      "respuestaCorrecta": 2,
+      "retroalimentacion": "Se suman todas las canicas: 6+4 = 10 resultados posibles."
+    }
+  ]
+}

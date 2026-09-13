@@ -1,0 +1,150 @@
+{
+  "id": "1S-B1-PDA14-06",
+  "grado": "1°",
+  "trimestre": "3",
+  "numero": 136,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Probabilidad de Eventos Simples 14.6",
+  "contenido": "Azar e incertidumbre en la ocurrencia de eventos cotidianos.",
+  "pda": "Calcula la probabilidad clásica de eventos simples a partir de su espacio muestral.",
+  "problematizacion": {
+    "contexto": "En una caja de dulces que reparte un maestro en Campeche hay 30 dulces: 12 de limón, 10 de tamarindo, 5 de fresa y 3 de menta.",
+    "pregunta": "¿Cuál es la probabilidad de sacar un dulce que sea de limón O de tamarindo?"
+  },
+  "subtemas": [
+    {
+      "numero": "14.6",
+      "titulo": "Probabilidad de 'A o B' con colores y categorías que no se repiten",
+      "explicacion": "Cuando dos resultados no pueden ocurrir al mismo tiempo (por ejemplo, una canica no puede ser roja Y azul a la vez), la probabilidad de que ocurra uno U OTRO se calcula sumando sus casos favorables antes de dividir entre el total. Esto es distinto a calcular cada probabilidad por separado: aquí combinamos dos categorías en un solo evento compuesto.",
+      "formula": "P(A o B) = (casos favorables de A + casos favorables de B) ÷ casos totales, si A y B no pueden ocurrir al mismo tiempo",
+      "ejemplos": [
+        "Una bolsa tiene 24 canicas: 9 rojas, 6 azules y 9 verdes. P(roja o azul) = (9 + 6) ÷ 24 = 15/24, que simplificada es 5/8.",
+        "Una ruleta de 18 secciones tiene 4 rojas, 5 azules y 9 amarillas. P(azul o amarilla) = (5 + 9) ÷ 18 = 14/18, que simplificada es 7/9."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una bolsa tiene 30 dulces: 12 de fresa, 10 de limón y 8 de menta. ¿Cuál es la probabilidad de sacar un dulce de fresa o de menta, como fracción simplificada?",
+          "opciones": [
+            "3/5",
+            "2/3",
+            "1/3",
+            "4/5"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Casos favorables: 12 + 8 = 20 de 30 en total. P = 20/30, que simplificada es 2/3."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una urna tiene 40 fichas: 15 verdes, 10 azules y 15 rojas. La probabilidad de sacar una ficha verde o roja, sin simplificar, es ___.",
+          "respuestaCorrecta": "30/40",
+          "retroalimentacion": "Casos favorables: 15 + 15 = 30 de 40 en total, así que P = 30/40."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una ruleta tiene 16 secciones: 6 rojas, 4 azules y 6 verdes. La probabilidad de que caiga en rojo o verde es 12/16.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 6 + 6 = 12 casos favorables de 16 en total, P = 12/16."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una cooperativa escolar vende 50 productos: 20 galletas, 15 chocolates y 15 chicles. ¿Cuál es la probabilidad de que el siguiente producto vendido sea galleta o chicle?",
+          "opciones": [
+            "7/10",
+            "3/5",
+            "4/5",
+            "1/2"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Casos favorables: 20 + 15 = 35 de 50, P = 35/50, que simplificada es 7/10."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En un torneo hay 22 equipos: 8 de la zona norte, 6 de la zona centro y 8 de la zona sur. La probabilidad de que un equipo elegido al azar sea de la zona norte o sur, como fracción simplificada, es ___.",
+          "respuestaCorrecta": "8/11",
+          "retroalimentacion": "Casos favorables: 8 + 8 = 16 de 22 en total. P = 16/22, que simplificada es 8/11."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En una baraja inglesa de 52 cartas hay 13 corazones y 13 diamantes (ambos rojos). La probabilidad de sacar un corazón o un diamante es 26/52.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 13 + 13 = 26 casos favorables de 52 cartas en total."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una bolsa tiene 45 canicas: 10 rojas, 15 azules y 20 verdes. ¿Cuál es la probabilidad de sacar una canica azul o verde, como fracción simplificada?",
+          "opciones": [
+            "7/9",
+            "2/3",
+            "5/9",
+            "4/5"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Casos favorables: 15 + 20 = 35 de 45. P = 35/45, que simplificada es 7/9."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación con la probabilidad de 'A o B' (sin simplificar).",
+          "columnaA": [
+            "Bolsa de 20: 5 rojas, 7 azules, 8 verdes → P(roja o azul)",
+            "Ruleta de 24: 6 rojas, 10 azules, 8 verdes → P(roja o verde)",
+            "Urna de 36: 9 blancas, 12 negras, 15 grises → P(blanca o negra)"
+          ],
+          "columnaB": [
+            "21/36",
+            "3/5",
+            "14/24"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "Roja o azul: (5+7)/20 = 12/20 = 3/5. Roja o verde: (6+8)/24 = 14/24. Blanca o negra: (9+12)/36 = 21/36."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una fábrica produce 60 piezas: 18 de tamaño A, 24 de tamaño B y 18 de tamaño C. La probabilidad de que una pieza sea de tamaño A o C, como fracción simplificada, es ___.",
+          "respuestaCorrecta": "3/5",
+          "retroalimentacion": "Casos favorables: 18 + 18 = 36 de 60. P = 36/60, que simplificada es 3/5."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una kermés hay 35 boletos: 14 dan premio 'refresco', 7 dan premio 'dulce' y 14 no tienen premio. ¿Cuál es la probabilidad de ganar refresco o dulce, como fracción simplificada?",
+          "opciones": [
+            "3/5",
+            "2/5",
+            "4/5",
+            "1/5"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Casos favorables: 14 + 7 = 21 de 35. P = 21/35, que simplificada es 3/5."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 6 de 10 · Aplicación avanzada"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "En una baraja española de 40 cartas, la probabilidad de sacar una carta de bastos es 25%.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: hay 10 cartas de bastos de 40, P = 10/40 = 0.25 = 25%."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Una ruleta está dividida en 20 secciones iguales. ¿Cuántos resultados tiene su espacio muestral?",
+      "opciones": [
+        "10",
+        "15",
+        "20",
+        "25"
+      ],
+      "respuestaCorrecta": 2,
+      "retroalimentacion": "Hay 20 secciones, así que el espacio muestral tiene 20 resultados posibles."
+    }
+  ]
+}

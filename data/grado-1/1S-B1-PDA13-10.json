@@ -1,0 +1,143 @@
+{
+  "id": "1S-B1-PDA13-10",
+  "grado": "1°",
+  "trimestre": "3",
+  "numero": 130,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Media, Mediana y Moda 13.10",
+  "contenido": "Interpretación de la información a través de medidas de tendencia central y de dispersión.",
+  "pda": "Calcula la media, la mediana y la moda de un conjunto de datos.",
+  "problematizacion": {
+    "contexto": "El entrenador de basquetbol de una secundaria en Chihuahua está armando su reporte final de la temporada: tiene los puntos anotados por cada jugador en todos los partidos, algunos con un desempeño mucho más alto de lo normal, y necesita decidir con qué medida presentar el rendimiento \"típico\" del equipo ante los papás.",
+    "pregunta": "¿Qué medidas —media, mediana o moda— calcularías y compararías para decidir cuál representa mejor el desempeño típico del equipo, y por qué?"
+  },
+  "subtemas": [
+    {
+      "numero": "13.10",
+      "nivelEtiqueta": "Nivel 10 de 10 · Dominio",
+      "titulo": "Proyecto final: analiza un caso completo con las tres medidas",
+      "explicacion": "En esta lección de dominio resuelves problemas completos de varios pasos que integran todo lo aprendido del PDA: calcular las tres medidas a partir de datos crudos o de tablas de frecuencia, encontrar datos faltantes conociendo la media, detectar y manejar valores atípicos, y justificar con argumentos cuál medida conviene usar en cada situación real (negocios, deporte, salud). Aquí ya no se te dice qué medida calcular: debes decidirlo tú según la pregunta planteada.",
+      "ejemplos": [
+        "Un negocio de tacos registró ventas diarias (en pesos) durante 6 días: $2,400, $2,650, $2,300, $2,550, $2,500 y $9,800 (el último día hubo un evento especial en la colonia). El dueño quiere saber cuánto vende 'normalmente' para planear sus compras. Media = 22,200÷6 = $3,700. Mediana (ordenados 2,300, 2,400, 2,500, 2,550, 2,650, 9,800) = (2,500+2,550)÷2 = $2,525. Como el día del evento es un valor atípico, la mediana representa mejor las ventas normales: el dueño debería comprar pensando en ~$2,525 diarios, no en $3,700.",
+        "En un torneo de atletismo, 3 corredores registraron 45, 47 y 44 segundos, y dos corredores más llegaron empatados con el mismo tiempo cada uno. Si la media de los 5 tiempos debe ser 46 segundos, ¿cuánto tardó cada uno de los dos corredores empatados? Suma total necesaria = 46×5 = 230. Suma conocida = 45+47+44 = 136. Suma de los dos tiempos faltantes = 230−136 = 94. Como son iguales entre sí, cada uno tardó 94÷2 = 47 segundos."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un negocio de tacos vendió en 6 días: $2,400, $2,650, $2,300, $2,550, $2,500 y $9,800 (el último día hubo un evento especial). ¿Cuál es la media de ventas diarias?",
+          "opciones": [
+            "$2,525",
+            "$3,700",
+            "$3,900",
+            "$22,200"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Suma = 2400+2650+2300+2550+2500+9800 = 22,200. Media = 22,200÷6 = $3,700."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Con esas mismas ventas, la mediana ($2,525) representa mejor las ventas 'normales' del negocio que la media ($3,700), porque el día del evento es un valor atípico.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "El día del evento (9,800) infla la media, pero apenas afecta a la mediana. Correcto."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Con esas mismas ventas (2,400, 2,650, 2,300, 2,550, 2,500 y 9,800 pesos), la mediana es $___ pesos.",
+          "respuestaCorrecta": "2525",
+          "retroalimentacion": "Ordenados: 2,300, 2,400, 2,500, 2,550, 2,650, 9,800. Con 6 datos (par), la mediana es (2,500+2,550)÷2 = $2,525."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En un torneo, 3 corredores registraron 45, 47 y 44 segundos, y dos corredores más empataron con el mismo tiempo cada uno. Si la media de los 5 tiempos debe ser 46 segundos, ¿cuánto tardó cada uno de los dos corredores empatados?",
+          "opciones": [
+            "45",
+            "46",
+            "47",
+            "48"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Suma total necesaria = 46×5 = 230. Suma conocida = 45+47+44 = 136. Suma de los dos faltantes = 230−136 = 94. Cada uno = 94÷2 = 47 segundos."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En una papelería se vendieron 5, 8, 5, 12 y 5 cuadernos en 5 días distintos de la semana. La moda de estos datos es 5 cuadernos, y también es el valor de la mediana.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "El 5 se repite 3 veces (moda = 5). Ordenados: 5, 5, 5, 8, 12; el valor central (mediana) también es 5. Correcto."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un equipo de básquetbol anotó, en una tabla de frecuencias por partido (10 partidos): 80 puntos (frecuencia 3), 90 puntos (frecuencia 4) y 100 puntos (frecuencia 3). La media de puntos por partido es ___.",
+          "respuestaCorrecta": "90",
+          "retroalimentacion": "Suma = 80×3+90×4+100×3 = 240+360+300 = 900. Media = 900÷10 = 90 puntos."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Con la tabla de puntos del equipo de básquetbol (80 pts frecuencia 3, 90 pts frecuencia 4, 100 pts frecuencia 3; 10 partidos), ¿cuál es la moda?",
+          "opciones": [
+            "80",
+            "90",
+            "100",
+            "No tiene moda"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "El valor 90 tiene la frecuencia más alta (4 partidos), más que 80 (3) o 100 (3). La moda es 90."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Con esa misma tabla de puntos del equipo de básquetbol, la mediana de los puntos por partido (con 10 partidos) es 90, porque los partidos 5.º y 6.º al ordenar caen dentro del bloque de 90 puntos.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Acumulando frecuencias: 3 partidos de 80 (posiciones 1-3), 7 de 80 u 90 (posiciones 4-7); las posiciones 5 y 6 caen en el bloque de 90, así que la mediana es 90. Correcto."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un estudio de salud registró el peso (en kg) de 4 pacientes: 68.5, 72.0, 70.5 y 69.0. Si se agrega un 5.º paciente que pesa 95.5 kg (un caso atípico), la nueva media del grupo de 5 es ___ kg.",
+          "respuestaCorrecta": "75.1",
+          "retroalimentacion": "Suma = 68.5+72.0+70.5+69.0+95.5 = 375.5. Media = 375.5÷5 = 75.1 kg."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada caso final con la medida (o valor) que mejor resuelve la pregunta planteada.",
+          "columnaA": [
+            "Ventas de tacos con un día atípico de evento especial: ¿cuánto vende 'normalmente' el negocio?",
+            "Torneo de atletismo con dos corredores empatados y media grupal conocida: ¿cuánto tardó cada uno?",
+            "Tabla de frecuencias de puntos de básquetbol: ¿qué marcador fue el más común?"
+          ],
+          "columnaB": [
+            "90 puntos (la moda)",
+            "$2,525 (la mediana)",
+            "47 segundos (dato faltante despejado de la media)"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "Ventas: usar la mediana ($2,525). Corredores: despejar de la media (47 segundos cada uno). Básquetbol: usar la moda (90 puntos)."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Un equipo anotó 5, 5, 6, 7 y 8 goles en 5 partidos. ¿Cuál es la moda de estos datos?",
+      "opciones": [
+        "5",
+        "6",
+        "7",
+        "No tiene moda"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "El 5 se repite 2 veces y los demás datos aparecen 1 sola vez. La moda es 5."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Las calificaciones de 4 alumnos son 8, 8, 9 y 9. La media del grupo es 8.5.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Suma = 8+8+9+9 = 34. Media = 34 ÷ 4 = 8.5. Correcto."
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "id": "1S-B1-PDA04-07",
+  "grado": "1°",
+  "trimestre": "2",
+  "numero": 37,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Regularidades y Patrones 4.7",
+  "contenido": "Regularidades y Patrones.",
+  "pda": "Representa algebraicamente una sucesión con progresión aritmética de figuras y números.",
+  "problematizacion": {
+    "contexto": "En una colecta escolar no se anotó cuánto se juntó el primer día ni cuánto aumenta diario, pero se sabe que el tercer día se juntaron $140 y el séptimo día se juntaron $260.",
+    "pregunta": "¿Cuánto dinero se juntó el primer día (a) y cuál es el aumento diario (d) de la colecta?"
+  },
+  "subtemas": [
+    {
+      "numero": "4.7",
+      "titulo": "Descubrir a y d cuando conoces dos términos no consecutivos",
+      "explicacion": "En problemas más retadores no te dan el primer término ni la diferencia directamente: te dan el valor de dos términos distintos de la sucesión (por ejemplo el término 3 y el término 7) y debes descubrir tú mismo cuánto vale d y cuánto vale a, antes de poder calcular cualquier otro término o la suma.",
+      "formula": "d = (término_m − término_k) ÷ (m − k);  a = término_k − (k − 1) × d",
+      "ejemplos": [
+        "En una sucesión, el término 3 es 11 y el término 7 es 27. d = (27−11)÷(7−3) = 16÷4 = 4. a = 11 − (3−1)×4 = 11−8 = 3. La sucesión empieza en a=3 con d=4 (3, 7, 11, 15, 19, 23, 27...).",
+        "El término 2 de una sucesión es 18 y el término 5 es 42. d = (42−18)÷(5−2) = 24÷3 = 8. a = 18 − (2−1)×8 = 18−8 = 10."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "llenar_frase",
+          "frase": "En una sucesión, el término 2 es 9 y el término 6 es 29. La diferencia constante d es ___.",
+          "respuestaCorrecta": "5",
+          "retroalimentacion": "d = (29−9)÷(6−2) = 20÷4 = 5."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una sucesión, el término 4 es 22 y el término 9 es 47. ¿Cuál es el valor de a (primer término)?",
+          "opciones": [
+            "7",
+            "5",
+            "10",
+            "12"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "d = (47−22)÷(9−4) = 5. a = 22 − (4−1)×5 = 22−15 = 7."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si el término 3 de una sucesión es 14 y el término 6 es 29, entonces d=5.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "d = (29−14)÷(6−3) = 15÷3 = 5. Verdadero."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En una sucesión, el término 5 es 33 y el término 8 es 54. El primer término (a) es ___.",
+          "respuestaCorrecta": "5",
+          "retroalimentacion": "d = (54−33)÷(8−5) = 7. a = 33 − (5−1)×7 = 33−28 = 5."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El término 2 de una sucesión es 6 y el término 5 es 21. ¿Cuál es el término 8?",
+          "opciones": [
+            "36",
+            "31",
+            "41",
+            "26"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "d = (21−6)÷(5−2) = 5. a = 6−(2−1)×5 = 1. término_8 = 1+(8−1)×5 = 36."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si el término 4 de una sucesión es -2 y el término 7 es 13, entonces la diferencia d=5.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "d = (13−(-2))÷(7−4) = 15÷3 = 5. Verdadero."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En una sucesión, el término 3 es 20 y el término 10 es 62. La diferencia constante d es ___.",
+          "respuestaCorrecta": "6",
+          "retroalimentacion": "d = (62−20)÷(10−3) = 42÷7 = 6."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El término 6 de una sucesión es 40 y el término 2 es 16. ¿Cuál es el primer término (a)?",
+          "opciones": [
+            "10",
+            "6",
+            "16",
+            "4"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "d = (40−16)÷(6−2) = 6. a = 16−(2−1)×6 = 10."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada par de términos conocidos con el valor correcto de la diferencia d.",
+          "columnaA": [
+            "término 2=8, término 5=23",
+            "término 3=30, término 7=10",
+            "término 4=12, término 9=42"
+          ],
+          "columnaB": [
+            "6",
+            "-5",
+            "5"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "término 2=8,término 5=23: d=(23−8)÷3=5. término 3=30,término 7=10: d=(10−30)÷4=-5. término 4=12,término 9=42: d=(42−12)÷5=6."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El término 5 de una sucesión es 50 y el término 9 es 30. ¿Cuál es la diferencia d?",
+          "opciones": [
+            "-5",
+            "5",
+            "-4",
+            "4"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "d = (30−50)÷(9−5) = -20÷4 = -5."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 7 de 10 · Reto"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "En la sucesion con a=11 y d=-3, el termino 6 es -4.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "termino_6 = 11 + (6-1)x-3 = 11-15 = -4."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Con a=9 y d=6, el termino 5 de la sucesion es ___.",
+      "respuestaCorrecta": "33",
+      "retroalimentacion": "termino_5 = 9 + (5-1)x6 = 9+24 = 33."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Una sucesion de figuras con palillos empieza en 7 palillos y aumenta 6 en cada figura. ¿Cuantos palillos tiene la figura 5?",
+      "opciones": [
+        "25",
+        "31",
+        "37",
+        "28"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "a=7, d=6. termino_5 = 7 + (5-1)x6 = 7+24 = 31."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada sucesion (dado a y d) con el valor del termino indicado.",
+      "columnaA": [
+        "a=6, d=3 -> termino 5",
+        "a=15, d=-4 -> termino 4",
+        "a=1, d=4 -> termino 6"
+      ],
+      "columnaB": [
+        "3",
+        "21",
+        "18"
+      ],
+      "parejasCorrectas": [
+        2,
+        0,
+        1
+      ],
+      "retroalimentacion": "a=6,d=3: termino_5=6+4x3=18. a=15,d=-4: termino_4=15+3x-4=3. a=1,d=4: termino_6=1+5x4=21."
+    }
+  ]
+}

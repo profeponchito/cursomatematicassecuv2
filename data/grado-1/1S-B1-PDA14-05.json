@@ -1,0 +1,144 @@
+{
+  "id": "1S-B1-PDA14-05",
+  "grado": "1°",
+  "trimestre": "3",
+  "numero": 135,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Probabilidad de Eventos Simples 14.5",
+  "contenido": "Azar e incertidumbre en la ocurrencia de eventos cotidianos.",
+  "pda": "Calcula la probabilidad clásica de eventos simples a partir de su espacio muestral.",
+  "problematizacion": {
+    "contexto": "En una tómbola de la kermés en Tepic, hay 25 papelitos y solo 6 de ellos dicen \"ganaste\"; los demás dicen \"sigue participando\".",
+    "pregunta": "¿Cuál es la probabilidad de sacar un papelito que diga \"sigue participando\", usando el evento contrario al de ganar?"
+  },
+  "subtemas": [
+    {
+      "numero": "14.5",
+      "titulo": "El evento contrario: probabilidad de que algo NO ocurra",
+      "explicacion": "Además de calcular la probabilidad de que un evento ocurra, muchas veces necesitamos saber la probabilidad de que NO ocurra (su evento contrario o complementario). Como el evento y su contrario juntos cubren todos los casos posibles, sus probabilidades siempre suman 1 (o 100%). Esto permite calcular una probabilidad restando en vez de contar de nuevo todos los casos.",
+      "formula": "P(evento contrario) = 1 − P(evento)",
+      "ejemplos": [
+        "Una rifa escolar tiene 12 boletos: 5 tienen premio. P(premiado) = 5/12, entonces P(no premiado) = 1 − 5/12 = 7/12.",
+        "Una ruleta de 15 secciones tiene 6 rojas. P(roja) = 6/15 = 2/5, entonces P(no roja) = 1 − 2/5 = 3/5."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una rifa escolar hay 20 boletos y 3 tienen premio. ¿Cuál es la probabilidad de que un boleto NO tenga premio?",
+          "opciones": [
+            "3/20",
+            "17/20",
+            "20/3",
+            "17/3"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "P(premio) = 3/20, así que P(no premio) = 1 − 3/20 = 17/20."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una bolsa tiene 15 dulces: 9 de limón y el resto de menta. Si P(limón) = 9/15, entonces P(no limón) = ___.",
+          "respuestaCorrecta": "6/15",
+          "retroalimentacion": "Como hay 15 dulces en total y 9 son de limón, los otros 15 − 9 = 6 son de menta, así que P(no limón) = 6/15."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En una urna con 25 papelitos, 10 dicen 'gana' y 15 dicen 'pierde'. La probabilidad de perder es 3/5.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: P(perder) = 15/25, que simplificada es 3/5."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una fábrica, de 50 tornillos revisados, 4 salieron defectuosos. ¿Cuál es la probabilidad de que un tornillo NO sea defectuoso?",
+          "opciones": [
+            "2/25",
+            "46/50",
+            "4/46",
+            "50/46"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Como 4 de 50 son defectuosos, los otros 50 − 4 = 46 no lo son, así que P(no defectuoso) = 46/50."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La cooperativa escolar vende 40 boletos para una tómbola y 8 tienen premio de dulce, es decir, P(premio) = 1/5. La probabilidad de NO ganar dulce es ___.",
+          "respuestaCorrecta": "4/5",
+          "retroalimentacion": "P(no premio) = 1 − 1/5 = 4/5."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En 20 tiros libres, un jugador de básquetbol encestó 14. La probabilidad de que falle un tiro es 3/10.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: P(encestar) = 14/20 = 7/10, así que P(fallar) = 1 − 7/10 = 3/10."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una bolsa tiene 18 canicas: 11 son grandes y el resto pequeñas. ¿Cuál es la probabilidad de sacar una canica pequeña?",
+          "opciones": [
+            "11/18",
+            "7/18",
+            "18/7",
+            "7/11"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Si 11 de 18 son grandes, las pequeñas son 18 − 11 = 7, así que P(pequeña) = 7/18."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada probabilidad de un evento con la probabilidad de su evento contrario.",
+          "columnaA": [
+            "P(ganar) = 3/8, ¿P(no ganar)?",
+            "P(lluvia) = 0.35, ¿P(no lluvia)?",
+            "P(rojo) = 2/9, ¿P(no rojo)?"
+          ],
+          "columnaB": [
+            "0.65",
+            "5/8",
+            "7/9"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            2
+          ],
+          "retroalimentacion": "3/8 → 1 − 3/8 = 5/8. 0.35 → 1 − 0.35 = 0.65. 2/9 → 1 − 2/9 = 7/9."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En una kermés, la probabilidad de ganar un peluche es 0.15. La probabilidad de NO ganarlo es ___.",
+          "respuestaCorrecta": "0.85",
+          "retroalimentacion": "P(no ganar) = 1 − 0.15 = 0.85."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si la probabilidad de que llueva mañana es 40%, entonces la probabilidad de que NO llueva es 60%.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 100% − 40% = 60%."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 5 de 10 · Aplicación"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Una bolsa tiene 4 canicas amarillas, 4 verdes y 2 rojas (10 en total). ¿Cuál es la probabilidad de sacar una canica verde, como fracción simplificada?",
+      "opciones": [
+        "4/10",
+        "2/5",
+        "1/5",
+        "2/10"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "P(verde) = 4/10, que simplificada es 2/5."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "En una ruleta de 10 secciones (3 rojas, 4 azules, 3 verdes), la probabilidad de caer en una sección azul, en porcentaje, es ___.",
+      "respuestaCorrecta": "40%",
+      "retroalimentacion": "P(azul) = 4/10 = 0.4, y 0.4 × 100 = 40%."
+    }
+  ]
+}

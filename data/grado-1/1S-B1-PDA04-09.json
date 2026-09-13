@@ -1,0 +1,169 @@
+{
+  "id": "1S-B1-PDA04-09",
+  "grado": "1°",
+  "trimestre": "2",
+  "numero": 39,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Regularidades y Patrones 4.9",
+  "contenido": "Regularidades y Patrones.",
+  "pda": "Representa algebraicamente una sucesión con progresión aritmética de figuras y números.",
+  "problematizacion": {
+    "contexto": "Un vivero vende plantas de ornato: la primera semana vendió 12 plantas y cada semana vende 6 plantas más que la anterior. Quieren saber en qué semana venderán 60 plantas y cuántas habrán vendido en total hasta ese momento.",
+    "pregunta": "¿En qué semana venderán 60 plantas en una sola semana, y cuántas plantas habrán vendido en total desde la semana 1 hasta esa semana?"
+  },
+  "subtemas": [
+    {
+      "numero": "4.9",
+      "titulo": "Problemas que combinan posición y suma en un mismo contexto",
+      "explicacion": "Esta lección integra las herramientas que ya dominas —calcular un término, despejar su posición n y sumar varios términos— dentro de un mismo problema con contexto real, ya que en la vida cotidiana normalmente necesitas más de un paso para responder una pregunta completa: primero encontrar en qué posición ocurre algo, y después cuánto se acumula en total hasta ese punto.",
+      "ejemplos": [
+        "Ahorras $18 la primera semana y $7 más cada semana siguiente. ¿En qué semana alcanzas los $88 y cuánto llevas ahorrado en total hasta esa semana? Paso 1 (posición): n=(88-18)÷7+1 = 70÷7+1 = 10+1=11. Alcanzas $88 en la semana 11. Paso 2 (suma): S₁₁ = 11×(18+88)÷2 = 11×106÷2 = 583. Llevas ahorrado un total de $583.",
+        "Un vivero vende 9 plantas el primer día y aumenta 5 cada día. ¿En qué día vende 54 plantas, y cuántas plantas ha vendido en total hasta ese día? n=(54-9)÷5+1 = 45÷5+1 = 9+1=10. S₁₀ = 10×(9+54)÷2 = 10×63÷2 = 315 plantas en total."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un club de lectura empieza con 14 libros leídos el primer mes y aumenta 3 libros cada mes (a=14, d=3). ¿Cuántos libros en total ha leído hasta el mes en que llega a leer 35 libros en un mes? Respuesta: ___ libros en total.",
+          "respuestaCorrecta": "196",
+          "retroalimentacion": "n = (35-14)÷3+1 = 8. S₈ = 8×(14+35)÷2 = 196."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una tienda vende 10 pasteles el primer día de un evento y aumenta 5 cada día (a=10, d=5). ¿Cuántos pasteles en total ha vendido hasta el día en que vende 40 pasteles?",
+          "opciones": [
+            "175",
+            "160",
+            "190",
+            "150"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "n = (40-10)÷5+1 = 7. S₇ = 7×(10+40)÷2 = 175."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Dos sucesiones: A tiene a=16, d=4 y B tiene a=8, d=7. Se cumple que el término 6 de A es igual al término 7 de B.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "término_6 de A = 16+5×4=36. término_7 de B = 8+6×7=50. No son iguales, es falso."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un gimnasio tiene 30 inscritos el primer mes y aumenta 12 cada mes (a=30, d=12). ¿En qué mes llega a 114 inscritos? Respuesta: mes ___.",
+          "respuestaCorrecta": "8",
+          "retroalimentacion": "n = (114-30)÷12+1 = 8."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Con los mismos datos del gimnasio (a=30, d=12), ¿cuántos inscritos en total (sumando todos los meses) hay acumulados hasta el mes 8?",
+          "opciones": [
+            "576",
+            "560",
+            "600",
+            "540"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "término_8 = 30+7×12=114. S₈ = 8×(30+114)÷2 = 576."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una fábrica A produce con a=22, d=8 y otra fábrica B produce con a=15, d=10. Se cumple que ambas fábricas producen la misma cantidad en el día 3.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "término_3 de A = 22+2×8=38. término_3 de B = 15+2×10=35. No son iguales, es falso."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un cine ha vendido 25 boletos el día 1 y aumenta 9 cada día (a=25, d=9). ¿En qué día se han vendido 97 boletos ese día? Respuesta: día ___.",
+          "respuestaCorrecta": "9",
+          "retroalimentacion": "n = (97-25)÷9+1 = 9."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Siguiendo el cine anterior (a=25, d=9), ¿cuántos boletos en total se han vendido hasta el día 9?",
+          "opciones": [
+            "549",
+            "530",
+            "560",
+            "500"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "término_9 = 25+8×9=97. S₉ = 9×(25+97)÷2 = 549."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación con la suma total (Sₙ) que le corresponde hasta el término n indicado.",
+          "columnaA": [
+            "a=11, d=5, hasta n=6",
+            "a=7, d=9, hasta n=5",
+            "a=12, d=4, hasta n=4"
+          ],
+          "columnaB": [
+            "72",
+            "141",
+            "125"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "a=11,d=5,n=6: término_6=11+5×5=36, S₆=6×(11+36)÷2=141. a=7,d=9,n=5: término_5=7+4×9=43, S₅=5×(7+43)÷2=125. a=12,d=4,n=4: término_4=12+3×4=24, S₄=4×(12+24)÷2=72."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una campaña de donaciones recibe $45 el día 1 y aumenta $15 cada día (a=45, d=15). Se cumple que el total recaudado en los primeros 5 días es $400.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "término_5 = 45+4×15=105. S₅ = 5×(45+105)÷2 = 375, no $400. Es falso."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 9 de 10 · Integración"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Una sucesión de figuras con fichas empieza en 5 fichas y aumenta 3 en cada figura. ¿Cuántas fichas tiene la figura 7?",
+      "opciones": [
+        "20",
+        "23",
+        "26",
+        "18"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "a=5, d=3. término_7 = 5 + (7-1)x3 = 5+18 = 23."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Empareja cada sucesión (a y d) con el valor del término solicitado.",
+      "columnaA": [
+        "a=10, d=-4 → término 5",
+        "a=3, d=8 → término 4",
+        "a=18, d=-2 → término 6"
+      ],
+      "columnaB": [
+        "8",
+        "27",
+        "-6"
+      ],
+      "parejasCorrectas": [
+        2,
+        1,
+        0
+      ],
+      "retroalimentacion": "a=10,d=-4,término 5: 10+4x-4=-6. a=3,d=8,término 4: 3+3x8=27. a=18,d=-2,término 6: 18+5x-2=8."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "La diferencia constante de la sucesión 40, 33, 26, 19... es d=-7.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Cada término disminuye 7 respecto al anterior: 33-40=-7."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Con a=3 y d=6, el término 5 de la sucesión es ___.",
+      "respuestaCorrecta": "27",
+      "retroalimentacion": "término_5 = 3 + (5-1)×6 = 3+24 = 27."
+    }
+  ]
+}

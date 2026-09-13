@@ -1,0 +1,157 @@
+{
+  "id": "1S-B1-PDA04-08",
+  "grado": "1°",
+  "trimestre": "2",
+  "numero": 38,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Regularidades y Patrones 4.8",
+  "contenido": "Regularidades y Patrones.",
+  "pda": "Representa algebraicamente una sucesión con progresión aritmética de figuras y números.",
+  "problematizacion": {
+    "contexto": "Una deuda familiar inicia en -$1200.50 y cada mes se abona la misma cantidad fija, de modo que al segundo mes la deuda ya es de -$950.25.",
+    "pregunta": "¿Cuál es la diferencia constante (d) que se abona cada mes a la deuda, considerando los decimales y el signo negativo?"
+  },
+  "subtemas": [
+    {
+      "numero": "4.8",
+      "titulo": "Progresiones con decimales y negativos en dinero y clima",
+      "explicacion": "Los retos ahora incluyen diferencias y primeros términos decimales o negativos, comunes en contextos reales como precios, pagos de deudas o temperaturas bajo cero. La misma fórmula del término n funciona igual, solo debes tener cuidado al operar con decimales y signos negativos.",
+      "ejemplos": [
+        "Un refresco cuesta $12.50 y su precio aumenta $0.75 cada año por inflación (a=12.50, d=0.75). ¿Cuánto costará en el año 6 (término 6)? término_6 = 12.50+(6-1)×0.75 = 12.50+3.75 = 16.25. Costará $16.25.",
+        "La temperatura registrada es -8.5°C a la medianoche y sube 2.5°C cada hora (a=-8.5, d=2.5). ¿Cuál es la temperatura en la hora 5 (término 5)? término_5 = -8.5+(5-1)×2.5 = -8.5+10 = 1.5°C."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un refresco cuesta $10.20 y aumenta $0.60 cada año (a=10.20, d=0.60). ¿Cuánto costará en el año 5? Respuesta: $___.",
+          "respuestaCorrecta": "12.6",
+          "retroalimentacion": "término_5 = 10.20+(5-1)×0.60 = 10.20+2.40 = 12.60."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "La temperatura es -5.5°C a las 6:00 am y sube 1.5°C cada hora (a=-5.5, d=1.5). ¿Cuál es la temperatura en la hora 6 (término 6)?",
+          "opciones": [
+            "2°C",
+            "0.5°C",
+            "3.5°C",
+            "-2°C"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "término_6 = -5.5+(6-1)×1.5 = -5.5+7.5 = 2°C."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una acción de bolsa vale $45.75 y baja $2.25 cada día (a=45.75, d=-2.25). Se cumple que en el día 4 (término 4) vale $39.00.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "término_4 = 45.75+(4-1)×(-2.25) = 45.75-6.75 = 39.00. Verdadero."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El nivel de agua de una presa baja 0.8 metros cada semana desde 15.5 metros (a=15.5, d=-0.8). ¿Cuál es el nivel en la semana 6 (término 6)? Respuesta: ___ metros.",
+          "respuestaCorrecta": "11.5",
+          "retroalimentacion": "término_6 = 15.5+(6-1)×(-0.8) = 15.5-4 = 11.5."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una deuda de $500 se reduce $37.50 cada mes mediante pagos (a=500, d=-37.5). ¿Cuánto se debe en el mes 5 (término 5)?",
+          "opciones": [
+            "$350",
+            "$362.50",
+            "$325",
+            "$400"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "término_5 = 500+(5-1)×(-37.5) = 500-150 = 350."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un corredor tarda 32.4 minutos la primera semana en una carrera de 5 km y reduce 0.6 minutos cada semana siguiente (a=32.4, d=-0.6). Se cumple que en la semana 7 tarda 28.8 minutos.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "término_7 = 32.4+(7-1)×(-0.6) = 32.4-3.6 = 28.8. Verdadero."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El precio de la gasolina sube $0.35 cada mes desde $22.80 (a=22.80, d=0.35). ¿Cuál será el precio en el mes 4 (término 4)? Respuesta: $___.",
+          "respuestaCorrecta": "23.85",
+          "retroalimentacion": "término_4 = 22.80+(4-1)×0.35 = 22.80+1.05 = 23.85."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una alberca pierde 1.25 cm de nivel de agua por evaporación cada día, empezando en 150 cm (a=150, d=-1.25). ¿Cuál es el nivel en el día 8 (término 8)?",
+          "opciones": [
+            "141.25 cm",
+            "142.5 cm",
+            "138.75 cm",
+            "143.75 cm"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "término_8 = 150+(8-1)×(-1.25) = 150-8.75 = 141.25 cm."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada sucesión con decimales (a, d) con el valor de su término 4.",
+          "columnaA": [
+            "a=8.5, d=1.5",
+            "a=20.4, d=-2.4",
+            "a=3.2, d=0.8"
+          ],
+          "columnaB": [
+            "5.6",
+            "13.2",
+            "13"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "a=8.5,d=1.5: término_4=8.5+3×1.5=13. a=20.4,d=-2.4: término_4=20.4+3×(-2.4)=13.2. a=3.2,d=0.8: término_4=3.2+3×0.8=5.6."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un ahorro inicial de $200.50 crece $15.25 cada mes (a=200.50, d=15.25). Se cumple que en el mes 6 (término 6) el ahorro es $276.75.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "término_6 = 200.50+(6-1)×15.25 = 200.50+76.25 = 276.75. Verdadero."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 8 de 10 · Reto avanzado"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada sucesion (dado a y d) con el valor del termino indicado.",
+      "columnaA": [
+        "a=4, d=-2 -> termino 5",
+        "a=2, d=3 -> termino 4",
+        "a=13, d=-3 -> termino 3"
+      ],
+      "columnaB": [
+        "11",
+        "7",
+        "-4"
+      ],
+      "parejasCorrectas": [
+        2,
+        0,
+        1
+      ],
+      "retroalimentacion": "a=4,d=-2: termino_5=4+4x-2=-4. a=2,d=3: termino_4=2+3x3=11. a=13,d=-3: termino_3=13+2x-3=7."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "En la sucesión con a=8 y d=-5, el término 5 es -12.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "término_5 = 8 + (5-1)x-5 = 8-20 = -12."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Con a=2 y d=7, el término 6 de la sucesión es ___.",
+      "respuestaCorrecta": "37",
+      "retroalimentacion": "término_6 = 2 + (6-1)x7 = 2+35 = 37."
+    }
+  ]
+}
