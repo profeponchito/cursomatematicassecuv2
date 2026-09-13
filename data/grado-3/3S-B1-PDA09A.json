@@ -1,0 +1,527 @@
+{
+  "id": "3S-B1-PDA09A",
+  "grado": "3°",
+  "trimestre": "3",
+  "numero": 25,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Muestras y Análisis Crítico de Gráficas 9.1",
+  "contenido": "Obtención y representación de información.",
+  "pda": "Distingue población y muestra, y analiza críticamente gráficas estadísticas, incluyendo gráficas que pueden inducir a error.",
+  "problematizacion": {
+    "contexto": "Para elegir el mejor sabor de agua fresca del festival escolar en Tepic, el comité solo preguntó a los 15 alumnos que estaban formados en la fila del puesto de tamarindo, y anunció el resultado como 'el sabor favorito de toda la secundaria'. Además presentaron una gráfica de barras donde las ventas de tamarindo ($480) se ven casi el triple que las de jamaica ($420), porque el eje vertical empieza en $400 en vez de en $0.",
+    "pregunta": "¿La muestra de 15 alumnos realmente representa a toda la secundaria, y la gráfica refleja con justicia qué tan parejas fueron las ventas de tamarindo y jamaica?"
+  },
+  "subtemas": [
+    {
+      "numero": "9.1",
+      "titulo": "Población y muestra",
+      "explicacion": "La población es el conjunto completo de todos los elementos que interesa estudiar (por ejemplo, todos los alumnos de una escuela, o todos los habitantes de una ciudad). Como consultar a la población completa suele ser muy costoso o muy lento, se estudia una muestra: un subconjunto de la población, elegido para representarla sin tener que consultar a todos sus miembros. Una muestra aleatoria es aquella en la que cada elemento de la población tiene la misma probabilidad de ser elegido, lo que ayuda a que la muestra refleje de verdad a la población y no favorezca a un grupo en particular.",
+      "ejemplos": [
+        "Para saber la estatura promedio de los 900 alumnos de una secundaria, un investigador mide a 60 alumnos elegidos al azar de la lista completa de inscripción: la población son los 900 alumnos, la muestra son los 60 medidos.",
+        "Para conocer la opinión de los 500,000 habitantes de una ciudad sobre un nuevo parque, se entrevista por teléfono a 800 personas elegidas al azar del padrón municipal: la población son los 500,000 habitantes, la muestra son las 800 personas entrevistadas."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un laboratorio quiere conocer el nivel de glucosa promedio de los 3,000 empleados de una fábrica. Analiza la sangre de 150 empleados elegidos al azar de la lista de nómina. ¿Cuál es la muestra en este estudio?",
+          "opciones": [
+            "Los 3,000 empleados de la fábrica",
+            "Los 150 empleados analizados",
+            "El nivel de glucosa promedio",
+            "El laboratorio que hizo el estudio"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "La muestra es el subconjunto realmente estudiado: los 150 empleados elegidos al azar. Los 3,000 empleados son la población completa."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si una escuela tiene 1,200 alumnos y se encuesta a 80 alumnos elegidos al azar de la lista general, esos 80 alumnos son la muestra.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: la muestra es siempre el subconjunto que se estudia directamente, no la población completa."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La población de un estudio siempre es más pequeña que la muestra.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: es al revés. La muestra es un subconjunto de la población, así que la población es igual o más grande que la muestra, nunca más pequeña."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si un estudio busca conocer la opinión de los 40,000 habitantes de un municipio y para ello entrevista a 500 de ellos elegidos al azar, el conjunto de los 40,000 habitantes se llama ___.",
+          "respuestaCorrecta": "población",
+          "retroalimentacion": "El conjunto completo de todos los elementos que interesa estudiar se llama población; los 500 entrevistados son la muestra."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Qué característica debe tener una muestra aleatoria?",
+          "opciones": [
+            "Que la elijan solo los estudiantes con mejores calificaciones",
+            "Que cada elemento de la población tenga la misma probabilidad de ser elegido",
+            "Que sea exactamente la mitad de la población",
+            "Que la elija una sola persona a mano, sin ningún criterio"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "En una muestra aleatoria, cada elemento de la población tiene la misma probabilidad de ser seleccionado; así se evita favorecer a un grupo en particular."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En un estudio sobre el tiempo de uso de redes sociales de los 25,000 estudiantes de una universidad, se encuestó a 300 estudiantes elegidos al azar. El conjunto de los 300 estudiantes encuestados se llama ___.",
+          "respuestaCorrecta": "muestra",
+          "retroalimentacion": "Los 300 estudiantes realmente encuestados forman la muestra; los 25,000 estudiantes de la universidad son la población."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada término con su definición correcta.",
+          "columnaA": [
+            "Población",
+            "Muestra",
+            "Muestra aleatoria"
+          ],
+          "columnaB": [
+            "Subconjunto de la población que realmente se estudia",
+            "Conjunto completo de todos los elementos que interesa estudiar",
+            "Muestra en la que cada elemento tiene la misma probabilidad de ser elegido"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            2
+          ],
+          "retroalimentacion": "Población: el conjunto completo de interés. Muestra: el subconjunto que se estudia. Muestra aleatoria: cada elemento tiene la misma probabilidad de ser elegido."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un municipio con 60,000 habitantes quiere saber la opinión sobre un nuevo reglamento. Se seleccionan 400 personas al azar de todo el padrón municipal para entrevistarlas. ¿Cuál es la población en este estudio?",
+          "opciones": [
+            "Las 400 personas entrevistadas",
+            "Los 60,000 habitantes del municipio",
+            "El nuevo reglamento",
+            "El padrón municipal como documento"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "La población es el conjunto completo de interés: los 60,000 habitantes del municipio. Las 400 personas entrevistadas son la muestra."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si de los 500 pacientes de una clínica se eligen 50 al azar para un estudio, la población de ese estudio es de 50 pacientes.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: la población son los 500 pacientes (el conjunto completo); los 50 elegidos al azar son la muestra."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En una muestra aleatoria, cada elemento de la población tiene la misma ___ de ser elegido.",
+          "respuestaCorrecta": "probabilidad",
+          "retroalimentacion": "Esa igualdad de probabilidad es justo lo que hace que una muestra aleatoria tienda a representar bien a la población."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 1 de 4 · Introductorio"
+    },
+    {
+      "numero": "9.2",
+      "titulo": "Diseño de una encuesta",
+      "explicacion": "Diseñar bien una encuesta requiere tres pasos: identificar con claridad la variable de estudio (qué se va a medir), definir la población objetivo (a quién se quiere representar) y elegir una forma adecuada de tomar la muestra. Una muestra es representativa cuando refleja la diversidad real de la población (distintas edades, lugares, grupos, horarios, etc.) y se elige preferentemente al azar. Una muestra es sesgada (no representativa) cuando solo incluye a una parte particular de la población —por ejemplo, un solo grupo, un solo lugar o un solo tipo de persona— y por eso sus resultados no pueden generalizarse a toda la población que dice representar.",
+      "ejemplos": [
+        "Para saber si a TODA la escuela (600 alumnos de todos los grados) le gustaría cambiar el uniforme, un alumno solo pregunta a los 30 alumnos de su propio grupo, 3°A. Esa muestra no es representativa: excluye a los demás grados y grupos, que podrían opinar diferente.",
+        "Para conocer la variable 'tiempo diario de ejercicio' en los adultos de una ciudad, un estudio bien diseñado elegiría al azar a personas de distintas colonias, edades y horarios, no solo a quienes ya salen a correr a un parque a las 6 a.m. (eso sesgaría la muestra hacia personas que ya son activas)."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un director quiere saber si TODOS los alumnos de la secundaria (900 en total, de 1° a 3°) están de acuerdo con extender el horario de la cafetería. Para ahorrar tiempo, solo encuesta a los 40 alumnos de un grupo de 3°. ¿Qué problema tiene esta muestra?",
+          "opciones": [
+            "Ninguno, 40 alumnos son suficientes para cualquier estudio",
+            "No es representativa, porque excluye a los alumnos de 1° y 2°, que también forman parte de la población",
+            "El problema es que la variable de estudio no está definida",
+            "El problema es que 900 alumnos es una población demasiado pequeña"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "La población objetivo son los 900 alumnos de todos los grados; encuestar solo a un grupo de 3° deja fuera a 1° y 2°, sesgando la muestra."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Para saber la opinión de TODOS los habitantes de una colonia sobre instalar un semáforo, es representativo entrevistar solo a quienes pasan frente a la tienda de la esquina en la mañana.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: eso excluye a quienes trabajan, salen a otra hora o no pasan por ahí, sesgando la muestra hacia un solo horario y lugar."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Antes de diseñar una encuesta, se debe identificar la variable de estudio, la población objetivo y una forma adecuada de elegir la ___.",
+          "respuestaCorrecta": "muestra",
+          "retroalimentacion": "Esos tres elementos (variable, población objetivo y forma de elegir la muestra) son la base de una encuesta bien diseñada."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una cadena de tiendas quiere conocer la variable 'gasto promedio mensual' de TODOS sus clientes a nivel nacional. ¿Cuál sería la forma más adecuada de elegir la muestra?",
+          "opciones": [
+            "Preguntar solo a los clientes de la sucursal más grande de la capital",
+            "Elegir al azar clientes de distintas sucursales en varias ciudades del país",
+            "Preguntar solo a los empleados de la tienda",
+            "Preguntar solo a quienes compraron el producto más caro"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Para representar a los clientes de todo el país, la muestra debe incluir, al azar, clientes de distintas sucursales y ciudades."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si la variable de estudio es 'horas de sueño de los adolescentes de un país', encuestar solo a los alumnos de una sola escuela privada de una ciudad SÍ representa adecuadamente a todos los adolescentes del país.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: una sola escuela, de un solo tipo y de una sola ciudad, no refleja la diversidad de todos los adolescentes del país; la muestra estaría sesgada."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Para saber si el camión escolar debe cambiar de ruta, la escuela pregunta a una muestra aleatoria de alumnos que SÍ usan el camión, tomada de todos los grados y grupos. ¿Esta muestra es representativa para esa pregunta en particular?",
+          "opciones": [
+            "Sí, porque son justo quienes usan el servicio y se eligieron al azar entre todos los grados",
+            "No, porque debieron preguntar a los alumnos que van caminando a la escuela",
+            "No, porque solo se debe preguntar a los alumnos de 3°",
+            "Sí, pero solo si se pregunta nada más a un grupo"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Cuando la variable de estudio es específica (el uso del camión), es adecuado limitar la población a quienes son relevantes para esa pregunta —los usuarios del servicio— siempre que la muestra dentro de ese grupo se elija al azar y sea diversa."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada muestra descrita con el diagnóstico correcto sobre su representatividad.",
+          "columnaA": [
+            "Encuestar solo a los alumnos de 3°A para conocer la opinión de TODA la escuela (todos los grados)",
+            "Elegir al azar clientes de varias sucursales y ciudades para conocer el gasto promedio de clientes a nivel nacional",
+            "Encuestar solo a los alumnos que llegan más temprano a la escuela para conocer el promedio de calificaciones de TODOS los alumnos"
+          ],
+          "columnaB": [
+            "Sesgada: excluye a alumnos con distintos horarios de llegada",
+            "Representativa: incluye diversidad de toda la población",
+            "Sesgada: excluye a otros grados de la población"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "Encuestar solo a 3°A excluye a otros grados (sesgada). Elegir al azar clientes de varias sucursales y ciudades sí representa a la población nacional. Encuestar solo a quienes llegan temprano excluye a quienes tienen otros horarios (sesgada)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si la variable de estudio es 'tiempo que tardan los alumnos en llegar a la escuela', es necesario definir esa variable con claridad (por ejemplo, en minutos) antes de diseñar la encuesta.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: definir con precisión la variable de estudio es el primer paso para diseñar una encuesta útil."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Encuestar solo a un grupo de una escuela para representar la opinión de toda la escuela produce una muestra ___ (no representativa).",
+          "respuestaCorrecta": "sesgada",
+          "retroalimentacion": "Cuando la muestra deja fuera partes importantes de la población que dice representar, se le llama muestra sesgada."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de las siguientes es la población objetivo adecuada si se quiere estudiar 'el tiempo de traslado al trabajo de los empleados de una empresa con sucursales en 5 ciudades'?",
+          "opciones": [
+            "Solo los empleados de la sucursal más cercana a la oficina central",
+            "Todos los empleados de las 5 sucursales de la empresa",
+            "Solo los gerentes de cada sucursal",
+            "Solo los empleados que usan transporte público"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Si el estudio busca representar a toda la empresa, la población objetivo debe incluir a los empleados de las 5 sucursales, no solo a un subgrupo."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 2 de 4 · Intermedio"
+    },
+    {
+      "numero": "9.3",
+      "titulo": "Gráficas engañosas",
+      "explicacion": "Una gráfica estadística puede inducir a error, aunque los datos que use sean reales, si está mal construida. Tres formas comunes de hacerlo son: (1) que el eje vertical no empiece en cero, lo que exagera visualmente diferencias que en realidad son pequeñas; (2) que use escalas o intervalos desiguales entre sus marcas, lo que distorsiona la forma real de la tendencia; y (3) que use imágenes o íconos de tamaño desproporcionado para representar cantidades, de modo que al crecer en alto y en ancho a la vez, su área visual crece mucho más de lo que debería (por ejemplo, el doble de altura y el doble de ancho multiplican el área por 4, no por 2).",
+      "ejemplos": [
+        "Una gráfica de barras sobre el precio de la gasolina tiene el eje Y que va de $21.50 a $23.00 en vez de ir de $0 a $23.00: aunque el precio solo subió de $22.10 a $22.90 (80 centavos), la barra se ve casi el doble de alta, exagerando visualmente el aumento real.",
+        "Una infografía usa íconos de personas para representar 'millones de usuarios': un ícono del doble de alto (y también del doble de ancho) representa 'el doble de usuarios', pero su área visual resulta 4 veces mayor, exagerando la diferencia real."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una gráfica de barras sobre las ventas mensuales tiene el eje Y que va de $8,000 a $8,500 (en vez de empezar en $0). Las ventas realmente subieron de $8,100 a $8,300 (un aumento de apenas 2.5%). ¿Qué efecto tiene esta gráfica?",
+          "opciones": [
+            "Ninguno, la gráfica es igual de precisa que si empezara en $0",
+            "Exagera visualmente el aumento, haciendo que un cambio pequeño parezca enorme",
+            "Hace que el aumento se vea más pequeño de lo que realmente es",
+            "No se puede saber sin ver los colores de las barras"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Al no empezar el eje en $0, cualquier diferencia entre las barras ocupa proporcionalmente mucho más espacio visual del que le corresponde, exagerando el aumento real."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una gráfica cuyo eje vertical no empieza en cero puede exagerar visualmente diferencias que en realidad son pequeñas.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: es una de las formas más comunes de construir una gráfica engañosa."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Cuando el eje vertical de una gráfica de barras no empieza en ___, las diferencias entre barras pueden verse más grandes de lo que realmente son.",
+          "respuestaCorrecta": "cero",
+          "retroalimentacion": "Empezar el eje en cero es lo que permite comparar las alturas de las barras de forma proporcional y justa."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Usar escalas desiguales en los intervalos de un eje (por ejemplo, que un tramo represente 5 unidades y el siguiente tramo represente 20 unidades) puede hacer que una gráfica induzca a error.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: los intervalos desiguales distorsionan la forma real de la tendencia que muestran los datos."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una infografía representa 'ventas de la empresa A' con un ícono de una moneda de 1 cm de altura, y 'ventas de la empresa B' (el doble de ventas que A) con un ícono de una moneda de 2 cm de altura y también el doble de ancha. ¿Por qué esta imagen es engañosa?",
+          "opciones": [
+            "Porque no es engañosa: el doble de altura representa correctamente el doble de ventas",
+            "Porque al duplicar también el ancho, el área de la moneda de B resulta 4 veces mayor que la de A, exagerando la diferencia real (que es solo el doble)",
+            "Porque las monedas deberían ser de diferente color",
+            "Porque las ventas de A y B nunca deben compararse con imágenes"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Al crecer en alto y en ancho a la vez, el área visual del ícono crece al cuadrado: 2 veces más alto y 2 veces más ancho da 4 veces más área, aunque la cantidad real solo se duplicó."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si una gráfica de pastel (circular) suma 110% en vez de 100% entre todas sus partes, es una señal de que la gráfica tiene un error y puede inducir a conclusiones equivocadas.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: las partes de una gráfica de pastel deben sumar 100%; si suman más (o menos), hay un error en los datos o en su construcción."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una gráfica que usa imágenes o íconos de tamaño desproporcionado (donde el área crece más de lo que debería) para representar una cantidad es un ejemplo de gráfica ___.",
+          "respuestaCorrecta": "engañosa",
+          "retroalimentacion": "A ese tipo de representación visual, que puede llevar a conclusiones equivocadas, se le llama gráfica engañosa."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de las siguientes es una señal de que una gráfica de barras PUEDE estar diseñada para inducir a error?",
+          "opciones": [
+            "El eje Y empieza en cero y los intervalos son iguales",
+            "El eje Y no empieza en cero y los intervalos entre marcas son desiguales",
+            "La gráfica incluye un título y las unidades de medida",
+            "Las barras tienen colores distintos para cada categoría"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Un eje que no empieza en cero, combinado con intervalos desiguales, es una combinación típica de gráficas mal construidas."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una gráfica de líneas donde el eje Y empieza en cero y usa intervalos iguales entre sus marcas representa de forma justa los cambios reales de los datos.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: empezar en cero y usar intervalos iguales son dos condiciones básicas para que una gráfica sea justa y no exagere ni distorsione la tendencia."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada recurso gráfico con el tipo de error que puede causar.",
+          "columnaA": [
+            "Eje vertical que no empieza en cero",
+            "Intervalos desiguales entre las marcas del eje",
+            "Íconos o imágenes de tamaño desproporcionado (crecen en área, no solo en altura)"
+          ],
+          "columnaB": [
+            "Exagera diferencias al comparar tamaños o áreas visuales",
+            "Distorsiona la forma de la tendencia al no respetar una escala uniforme",
+            "Exagera visualmente el tamaño de las diferencias entre barras"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "Eje sin empezar en cero: exagera diferencias entre barras. Intervalos desiguales: distorsiona la forma de la tendencia. Íconos desproporcionados: exageran diferencias al comparar áreas."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 3 de 4 · Avanzado"
+    },
+    {
+      "numero": "9.4",
+      "titulo": "Análisis crítico combinado",
+      "explicacion": "Recuerda: una muestra es confiable cuando es representativa de la población que dice estudiar (aleatoria, diversa y del tamaño adecuado), y una gráfica es confiable cuando está bien construida (eje vertical desde cero, intervalos iguales, imágenes proporcionales). Para decidir si un dato estadístico presentado en una noticia o anuncio es confiable, hay que revisar AMBAS cosas: ¿la muestra representa realmente a la población de la que se habla?, y ¿la gráfica que acompaña los resultados los representa con justicia? Si cualquiera de las dos falla, la conclusión que se comunica puede ser engañosa, aunque la otra esté bien.",
+      "ejemplos": [
+        "Retomando el reto inicial: la encuesta de la app de streaming solo preguntó a 200 personas que ya usan esa app y dejaron reseña (no a 'los mexicanos' en general), así que la muestra está sesgada y no representa a la población que dice representar. Además, la gráfica del precio de la gasolina, con el eje empezando en $21.50, exagera visualmente un aumento real de apenas 80 centavos. Ninguno de los dos datos es confiable tal como se presentó.",
+        "Una noticia afirma que '9 de cada 10 dentistas recomiendan la pasta X', basada en una encuesta a 10 dentistas que trabajan en la misma clínica que patrocina el producto (muestra pequeña y sesgada), acompañada de una gráfica de barras con el eje Y que va de 80% a 100% (exagerando la diferencia con otras marcas): ni la muestra ni la gráfica son confiables."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una revista afirma que 'el 95% de los jóvenes prefiere hacer ejercicio al aire libre', basada en una encuesta a 40 jóvenes que asisten a un parque a correr, junto con una gráfica de barras cuyo eje Y va de 70% a 100% (no de 0% a 100%). ¿Es confiable esta conclusión?",
+          "opciones": [
+            "Sí, porque 40 personas ya son suficientes para cualquier encuesta",
+            "No, porque la muestra está sesgada (solo gente que ya va a hacer ejercicio al aire libre) y además la gráfica exagera el porcentaje al no empezar en 0%",
+            "Sí, porque la gráfica muestra correctamente el 95%",
+            "No, pero solo por el problema de la muestra; la gráfica sí es confiable"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Hay dos problemas independientes: la muestra solo incluye personas que ya hacen ejercicio al aire libre (sesgada), y la gráfica exagera el porcentaje al no empezar en 0%."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si una muestra es representativa pero la gráfica que acompaña los resultados tiene el eje Y mal construido (no empieza en cero), la conclusión que se comunica al público de todas formas puede resultar engañosa.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: aunque los datos de la muestra sean válidos, una gráfica mal construida puede comunicar una impresión exagerada o falsa de esos mismos datos."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una conclusión es totalmente confiable si la muestra es representativa, sin importar cómo se haya construido la gráfica que la acompaña.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: también hay que revisar que la gráfica esté bien construida (eje desde cero, escalas iguales, imágenes proporcionales); una gráfica engañosa puede distorsionar datos que en el fondo son correctos."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Para decidir si una noticia con datos estadísticos es confiable, hay que revisar si la muestra es ___ de la población y si la gráfica que la acompaña está bien construida.",
+          "respuestaCorrecta": "representativa",
+          "retroalimentacion": "Las dos revisiones —muestra representativa y gráfica bien construida— son necesarias para confiar en una conclusión estadística."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un canal de videos afirma que 'el 80% de las personas prefiere ver series a las películas', basado en una encuesta a 5,000 personas de diferentes edades, ciudades y hábitos de consumo elegidas al azar, mostrada en una gráfica de barras con el eje Y de 0% a 100% en intervalos iguales de 10%. ¿Es confiable esta conclusión?",
+          "opciones": [
+            "No, porque 5,000 personas es una muestra demasiado pequeña",
+            "Sí, porque la muestra es amplia, diversa y aleatoria, y la gráfica está bien construida",
+            "No, porque toda encuesta por internet es sesgada automáticamente",
+            "Sí, pero solo porque la gráfica se ve bien, sin importar la muestra"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "En este caso ambas condiciones se cumplen: la muestra es amplia, diversa y aleatoria, y la gráfica respeta un eje desde 0% con intervalos iguales."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una encuesta con una muestra pequeña y no aleatoria puede parecer más confiable de lo que realmente es si se presenta con una gráfica visualmente exagerada.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: una gráfica llamativa o exagerada puede distraer de los problemas reales que tiene la muestra en la que se basa."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un estudio dice representar 'a todos los adultos del país' pero solo entrevistó a 50 personas de una sola colonia de una sola ciudad, y presenta sus resultados en una gráfica circular (de pastel) donde las partes suman 115%. ¿Qué problemas tiene este estudio?",
+          "opciones": [
+            "Ninguno, 50 personas y una gráfica de pastel siempre son confiables",
+            "Tiene dos problemas: la muestra no es representativa de todo el país, y la gráfica tiene un error (suma más de 100%)",
+            "Solo tiene un problema: la gráfica",
+            "Solo tiene un problema: la muestra"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "La muestra es demasiado pequeña y local para representar a todo el país, y una gráfica de pastel que suma más de 100% tiene un error de construcción."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si una gráfica de pastel (circular) suma más de 100% entre sus partes, eso indica que hay un ___ en los datos o en la construcción de la gráfica.",
+          "respuestaCorrecta": "error",
+          "retroalimentacion": "Las partes de una gráfica de pastel deben sumar exactamente 100%; si no es así, hay un error que hace dudar de toda la gráfica."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Al leer una noticia con datos estadísticos, conviene preguntarse tanto '¿a quién y cómo se preguntó?' (la muestra) como '¿la gráfica representa los datos de forma justa?' (el eje, la escala, las imágenes).",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: esas dos preguntas son la base del análisis crítico de cualquier dato estadístico presentado públicamente."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada caso descrito con el diagnóstico correcto sobre su confiabilidad.",
+          "columnaA": [
+            "Muestra aleatoria de 3,000 personas de todo el país + gráfica con eje desde 0% en intervalos iguales",
+            "Muestra de 20 personas de un solo barrio para representar a todo un país + gráfica con eje desde 0%",
+            "Muestra aleatoria de 3,000 personas de todo el país + gráfica con eje que empieza en 80%"
+          ],
+          "columnaB": [
+            "Confiable: tanto la muestra como la gráfica están bien construidas",
+            "No confiable: el problema está en la muestra, que no es representativa",
+            "No confiable: el problema está en la gráfica, que exagera visualmente las diferencias"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "Cuando muestra y gráfica están bien construidas, la conclusión es confiable. Si solo falla la muestra (pero la gráfica está bien), el problema es la muestra. Si solo falla la gráfica (pero la muestra está bien), el problema es la gráfica."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 4 de 4 · Síntesis"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Un hospital quiere conocer el peso promedio de sus 2,000 pacientes registrados. Pesa a 120 pacientes elegidos al azar del expediente clínico. ¿Cuál es la muestra?",
+      "opciones": [
+        "Los 2,000 pacientes registrados",
+        "Los 120 pacientes pesados",
+        "El peso promedio",
+        "El expediente clínico"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "La muestra es el subconjunto realmente estudiado: los 120 pacientes pesados."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "La población de un estudio es siempre igual o mayor que la muestra.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: la muestra es un subconjunto de la población, así que la población es igual o más grande."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Un subconjunto representativo de una población, elegido para estudiarlo sin consultar a todos, se llama ___.",
+      "respuestaCorrecta": "muestra",
+      "retroalimentacion": "Ese subconjunto que se estudia directamente es la muestra."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Para saber la opinión de TODOS los 500,000 habitantes de una ciudad sobre un nuevo impuesto, ¿cuál muestra sería más representativa?",
+      "opciones": [
+        "800 personas elegidas al azar de distintas colonias y edades",
+        "800 personas que asisten a una sola reunión vecinal",
+        "800 empleados del ayuntamiento",
+        "800 personas mayores de 60 años únicamente"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "Una muestra representativa debe reflejar la diversidad de toda la población, no limitarse a un solo grupo o lugar."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Encuestar solo a los alumnos de un club de ciencias para representar la opinión de TODA la escuela sobre el menú del comedor es una muestra representativa.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Falso: el club de ciencias es un subgrupo particular, no representa la diversidad de toda la escuela; la muestra está sesgada."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Una gráfica de barras sobre el número de accidentes viales tiene el eje Y que va de 40 a 55 (en vez de 0 a 55). ¿Qué efecto tiene esto?",
+      "opciones": [
+        "Ninguno",
+        "Exagera visualmente las diferencias entre las barras",
+        "Reduce visualmente las diferencias entre las barras",
+        "Hace que la gráfica sea más fácil de leer sin afectar la interpretación"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "Un eje que no empieza en cero exagera proporcionalmente las diferencias visuales entre las barras."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Un eje vertical que empieza en cero, con intervalos iguales entre sus marcas, representa de forma justa los datos.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: esas dos condiciones son la base de una gráfica bien construida."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Cuando una imagen usada en una gráfica crece en altura Y en ancho para representar una cantidad, su ___ crece mucho más de lo que debería, exagerando la diferencia real.",
+      "respuestaCorrecta": "área",
+      "retroalimentacion": "Al crecer en dos dimensiones a la vez, el área visual crece al cuadrado, no proporcionalmente."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Una encuesta afirma representar a 'todos los adultos mexicanos' pero solo entrevistó a 30 personas en un centro comercial de una sola ciudad, en un solo horario. ¿Qué problema tiene esta muestra?",
+      "opciones": [
+        "Ninguno, 30 personas son suficientes",
+        "No es representativa: excluye a personas de otras ciudades, horarios y contextos",
+        "El problema es que se debió encuestar a niños también",
+        "El problema es que un centro comercial no tiene personas"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "Una muestra tomada en un solo lugar, ciudad y horario no puede representar a todos los adultos de un país tan diverso."
+    }
+  ]
+}

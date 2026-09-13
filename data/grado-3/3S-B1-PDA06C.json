@@ -1,0 +1,426 @@
+{
+  "id": "3S-B1-PDA06C",
+  "grado": "3°",
+  "trimestre": "2",
+  "numero": 18,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Forma, espacio y medida",
+  "titulo": "Áreas y Volúmenes de Cuerpos Geométricos 6.3",
+  "contenido": "Construcción y propiedades de las figuras planas y cuerpos.",
+  "pda": "Calcula el área total y el volumen de prismas, pirámides y cilindros, y relaciona sus vistas con su representación tridimensional.",
+  "problematizacion": {
+    "contexto": "Una cooperativa agrícola de La Piedad va a construir una bodega compuesta por un silo cilíndrico para granos, unido a un cuarto en forma de prisma rectangular para guardar herramientas, y necesitan un solo presupuesto que sume el volumen y el área de pintura de ambas partes.",
+    "pregunta": "Sumando el silo cilíndrico y el cuarto en forma de prisma, ¿cuál es el volumen total de almacenamiento y el área total que hay que pintar en toda la construcción?"
+  },
+  "subtemas": [
+    {
+      "numero": "6.8",
+      "nivelEtiqueta": "Nivel 1 de 3 · Reto avanzado",
+      "titulo": "Cuerpos compuestos: sumar volúmenes y áreas de figuras combinadas",
+      "explicacion": "Muchos objetos reales no son un solo cuerpo geométrico 'puro', sino la combinación de dos: por ejemplo, una casita de juguete es un prisma rectangular (las paredes) con una pirámide encima (el techo), o una torre de agua es un cilindro grande (la base) con un cilindro más angosto encima (el tanque). El volumen total de un cuerpo compuesto es la SUMA de los volúmenes de sus partes. Para el área que se puede ver desde fuera, solo se suman las caras expuestas: la cara donde las dos partes se unen NO se pinta ni se cuenta, porque queda escondida entre ambas piezas.",
+      "formula": "Volumen total = Volumen de la parte 1 + Volumen de la parte 2\nÁrea expuesta = suma de las caras visibles desde fuera (sin contar la cara donde se unen las partes)",
+      "ejemplos": [
+        "Una casita de juguete: la parte de abajo es un prisma rectangular de 8×6×5 cm (paredes) y la de arriba es una pirámide de base 8×6 cm y altura 4 cm (techo). Volumen total = Volumen del prisma + Volumen de la pirámide = (8×6×5) + (⅓×8×6×4) = 240 + 64 = 304 cm³.",
+        "Un granero: prisma rectangular de 10×6×4 m (paredes) + pirámide de base 10×6 m y altura 3 m (techo a cuatro aguas). Volumen total = (10×6×4) + (⅓×10×6×3) = 240 + 60 = 300 m³."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una casita de juguete tiene un prisma de base 6×5 cm y altura de paredes 4 cm, con un techo piramidal de base 6×5 cm y altura 3 cm. ¿Cuál es su volumen total?",
+          "opciones": [
+            "150 cm³",
+            "120 cm³",
+            "180 cm³",
+            "90 cm³"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Volumen del prisma = 6×5×4 = 120 cm³. Volumen de la pirámide = ⅓×(6×5)×3 = 30 cm³. Total = 150 cm³."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un granero con paredes prisma de base 9×7 m y altura 5 m, y techo piramidal de base 9×7 m y altura 6 m, tiene un volumen total de 441 m³.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: volumen del prisma = 9×7×5 = 315 m³. Volumen de la pirámide = ⅓×63×6 = 126 m³. Total = 441 m³."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una cabaña con paredes prisma de base 4×4 m y altura 3 m, y techo piramidal (mismo tamaño de base) de altura 3 m, tiene un volumen total de ___ m³.",
+          "respuestaCorrecta": "64",
+          "retroalimentacion": "Volumen del prisma = 4×4×3 = 48 m³. Volumen de la pirámide = ⅓×16×3 = 16 m³. Total = 64 m³."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una casita de juguete tiene paredes: prisma de base cuadrada de 6×6 cm y altura de paredes 5 cm (sin tapa arriba). Encima tiene un techo piramidal de base 6×6 cm con apotema de 5 cm. ¿Cuántos cm² hay que cubrir por fuera en total (4 paredes + 4 caras del techo, sin contar el piso ni la unión entre paredes y techo)?",
+          "opciones": [
+            "180 cm²",
+            "240 cm²",
+            "300 cm²",
+            "150 cm²"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Área de las paredes (lateral del prisma) = perímetro×altura = 24×5 = 120 cm². Área del techo (lateral de la pirámide) = (24×5)÷2 = 60 cm². Total expuesto = 120+60 = 180 cm²."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un cobertizo tiene paredes: prisma de base cuadrada de 10×10 m y altura de paredes 3 m; y techo piramidal de base 10×10 m con apotema de 7 m. El área que hay que cubrir con lámina por fuera (paredes + techo, sin la base) es 260 m².",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: paredes = 40×3 = 120 m². Techo = (40×7)÷2 = 140 m². Total = 260 m²."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un cobertizo con paredes prisma de base cuadrada de 5×5 m y altura 4 m, y techo piramidal (misma base) de altura 3 m, tiene un volumen total de ___ m³.",
+          "respuestaCorrecta": "125",
+          "retroalimentacion": "Volumen del prisma = 5×5×4 = 100 m³. Volumen de la pirámide = ⅓×25×3 = 25 m³. Total = 125 m³."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una torre de agua tiene un cilindro grande (el pedestal: radio 3 m, altura 2 m) y un cilindro más angosto encima (el tanque: radio 1.5 m, altura 6 m). ¿Cuál es su volumen total (usa π≈3.14)?",
+          "opciones": [
+            "98.91 m³",
+            "56.52 m³",
+            "42.39 m³",
+            "113.04 m³"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Volumen del pedestal = 3.14×9×2 = 56.52 m³. Volumen del tanque = 3.14×2.25×6 = 42.39 m³. Total = 98.91 m³."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada cuerpo compuesto con su volumen total (usa π≈3.14 para los cilindros).",
+          "columnaA": [
+            "Compuesto A: prisma 5×5×6 + pirámide base 5×5, altura 3",
+            "Compuesto B: prisma 8×4×3 + pirámide base 8×4, altura 6",
+            "Compuesto C: cilindro r=2,h=5 + cilindro r=1,h=4"
+          ],
+          "columnaB": [
+            "160 cm³",
+            "75.36 cm³",
+            "175 cm³"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "A: 150+25 = 175 cm³. B: 96+64 = 160 cm³. C: 62.8+12.56 = 75.36 cm³."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una caseta con paredes (prisma de base cuadrada 8×8 m, altura de paredes 4 m) y techo piramidal (base 8×8 m, apotema 6 m) tiene un área expuesta total de 204 m².",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: paredes = 32×4 = 128 m². Techo = (32×6)÷2 = 96 m². Total = 224 m², no 204 m²."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Cobertizo X: prisma 6×6×5 m + techo piramidal (base 6×6 m, altura 3 m). Torre Y: un solo cilindro de radio 4 m y altura 10 m. ¿Cuál cuerpo tiene mayor volumen (usa π≈3.14)?",
+          "opciones": [
+            "Torre Y (el cilindro)",
+            "Cobertizo X (prisma+pirámide)",
+            "Tienen el mismo volumen",
+            "Faltan datos para saberlo"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Volumen de X = 180+36 = 216 m³. Volumen de Y = 3.14×16×10 = 502.4 m³. Como 502.4 > 216, la Torre Y tiene mayor volumen."
+        }
+      ]
+    },
+    {
+      "numero": "6.9",
+      "nivelEtiqueta": "Nivel 2 de 3 · Integración",
+      "titulo": "El proyecto del silo completo: volumen, área y costos en un mismo problema",
+      "explicacion": "Ahora vas a resolver problemas que encadenan VARIOS pasos sobre el MISMO objeto: primero el volumen (para saber la capacidad), luego el área (para saber cuánto material se necesita) y después el costo (multiplicando por el precio y redondeando las unidades hacia arriba). Cada resultado depende de que los pasos anteriores estén bien calculados, así que hay que ser ordenado y cuidadoso con las operaciones.",
+      "formula": "Volumen = capacidad del cuerpo (usa la fórmula según su forma)\nÁrea total o lateral = material necesario para cubrirlo\nCosto = (Área ÷ rendimiento, redondeado hacia arriba) × precio por unidad",
+      "ejemplos": [
+        "Un silo cilíndrico de radio 2.5 m y altura 9 m: a) ¿Cuántos m³ de grano le caben? V = 3.14×2.5²×9 = 176.63 m³. b) Si solo se pintará la superficie lateral, ¿cuántos m² hay que pintar? Lateral = 2×3.14×2.5×9 = 141.3 m². c) Si 1 litro de pintura rinde 15 m² y cuesta $110, ¿cuánto cuesta pintarlo? 141.3÷15 = 9.42 → 10 litros × $110 = $1100.",
+        "Un invernadero piramidal de base cuadrada de 12 m de lado y altura de 8 m: a) Volumen = ⅓×144×8 = 384 m³. b) Si el apotema de la cara lateral es 10 m, el área lateral (para forrar con plástico) = (48×10)÷2 = 240 m²."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuántos m³ de grano caben en un silo cilíndrico de radio 2.5 m y altura 8 m (usa π≈3.14)?",
+          "opciones": [
+            "157 m³",
+            "125.6 m³",
+            "196.25 m³",
+            "163.28 m³"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "V = 3.14×2.5²×8 = 3.14×6.25×8 = 157 m³."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Para el mismo silo (radio 2.5 m, altura 8 m), si solo se pinta la superficie lateral, hay que pintar 125.6 m².",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: lateral = 2×3.14×2.5×8 = 125.6 m²."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si un litro de pintura rinde 20 m², se necesitan ___ litros para pintar el silo del reactivo anterior (redondea hacia arriba).",
+          "respuestaCorrecta": "7",
+          "retroalimentacion": "125.6÷20 = 6.28 → se redondea hacia arriba a 7 litros."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Si cada litro de pintura cuesta $98, ¿cuál es el costo total de pintar el silo (usando los 7 litros del reactivo anterior)?",
+          "opciones": [
+            "$686",
+            "$700",
+            "$588",
+            "$616"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "7 litros × $98 = $686."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un invernadero piramidal de base cuadrada de 12 m de lado y altura de 9 m tiene un volumen de 432 m³.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: V = ⅓×(12×12)×9 = ⅓×144×9 = 432 m³."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Ese mismo invernadero (base cuadrada de 12 m de lado) tiene un apotema de la cara lateral de 11 m. Su área lateral (para forrar con plástico) es ___ m².",
+          "respuestaCorrecta": "264",
+          "retroalimentacion": "Área lateral = (perímetro×apotema)÷2 = (48×11)÷2 = 264 m²."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El plástico para el invernadero se vende en rollos que cubren 30 m² cada uno y cuestan $450. ¿Cuántos rollos se necesitan (redondeando hacia arriba) y cuál es el costo total, usando el área lateral de 264 m² del reactivo anterior?",
+          "opciones": [
+            "9 rollos, $4050",
+            "8 rollos, $3600",
+            "9 rollos, $3960",
+            "10 rollos, $4500"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "264÷30 = 8.8 → se redondea hacia arriba a 9 rollos. 9×$450 = $4050."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada objeto con la magnitud que se pide (usa π≈3.14).",
+          "columnaA": [
+            "Volumen de un cilindro de radio 4 m y altura 6 m",
+            "Volumen de una pirámide de base 10×10 m y altura 12 m",
+            "Área lateral de un cilindro de radio 3 m y altura 5 m"
+          ],
+          "columnaB": [
+            "400 m³",
+            "94.2 m²",
+            "301.44 m³"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "Cilindro (volumen) = 3.14×16×6 = 301.44 m³. Pirámide (volumen) = ⅓×100×12 = 400 m³. Cilindro (lateral) = 2×3.14×3×5 = 94.2 m²."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un tinaco cilíndrico de radio 2.5 m y altura 4 m está lleno de agua. Una familia consume 0.5 m³ de agua al día. ¿Para cuántos días alcanza el agua (usa π≈3.14)?",
+          "opciones": [
+            "157 días",
+            "130 días",
+            "150 días",
+            "165 días"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "V = 3.14×2.5²×4 = 3.14×6.25×4 = 78.5 m³. 78.5÷0.5 = 157 días exactos."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Para un silo cilíndrico de radio 3.5 m y altura 10 m, el volumen (384.65 m³) es mayor que su área total (296.73 m²), aunque ambos números se calculan con las mismas medidas.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: V = 3.14×3.5²×10 = 384.65 m³. AT = 2×3.14×3.5²+2×3.14×3.5×10 = 296.73 m². Volumen (m³) y área (m²) miden cosas distintas, pero aquí el valor numérico del volumen resulta mayor."
+        }
+      ]
+    },
+    {
+      "numero": "6.10",
+      "nivelEtiqueta": "Nivel 3 de 3 · Dominio",
+      "titulo": "Reto final: diseña y presupuesta una construcción con varios cuerpos geométricos",
+      "explicacion": "Para cerrar el tema, vas a resolver problemas de proyecto completo que combinan cuerpos compuestos, comparaciones, costos y hasta descuentos, tal como lo haría alguien que planea una construcción real. Un dato nuevo importante: cuando la base de una pirámide es RECTANGULAR (no cuadrada), sus caras laterales no son todas iguales — hay dos caras grandes (sobre los lados largos) y dos caras chicas (sobre los lados cortos), y cada par tiene su PROPIA altura de cara lateral (apotema), así que el área lateral se calcula sumando el área de cada par por separado.",
+      "formula": "Área lateral de una pirámide de base rectangular = 2×(lado1×apotema1)÷2 + 2×(lado2×apotema2)÷2\n(el descuento se resta al final: Precio final = Precio total − Precio total×%descuento÷100)",
+      "ejemplos": [
+        "El techo de un establo es una pirámide de base rectangular de 12×8 m: las 2 caras grandes (base 12 m) tienen un apotema de 5 m, y las 2 caras chicas (base 8 m) tienen un apotema de 6 m. Área de las 2 caras grandes = 2×(12×5)÷2 = 60 m². Área de las 2 caras chicas = 2×(8×6)÷2 = 48 m². Área lateral total del techo = 60+48 = 108 m².",
+        "Si la lámina para ese techo cuesta $90 por m², el costo es 108×90 = $9720. Con un descuento del 10% por pago de contado, el descuento es $972 y el costo final es $9720−$972 = $8748."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un establo tiene paredes: prisma de base 12×8 m y altura 3.5 m. Su techo es una pirámide de base 12×8 m y altura (vertical) de 2 m. ¿Cuál es el volumen total del establo?",
+          "opciones": [
+            "400 m³",
+            "384 m³",
+            "368 m³",
+            "432 m³"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Volumen del prisma = 12×8×3.5 = 336 m³. Volumen de la pirámide = ⅓×(12×8)×2 = 64 m³. Total = 400 m³."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Del mismo establo, solo se pintarán las paredes (área lateral del prisma, sin el techo ni el piso). Si 1 litro de pintura rinde 14 m² y cuesta $120, el costo total es $1200.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: área lateral = perímetro×altura = 2×(12+8)×3.5 = 140 m². 140÷14 = 10 → exactamente 10 litros × $120 = $1200."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El techo piramidal del establo (base rectangular 12×8 m) tiene un apotema de 5 m para las caras del lado de 12 m, y un apotema de 6 m para las caras del lado de 8 m. El área lateral total del techo es ___ m².",
+          "respuestaCorrecta": "108",
+          "retroalimentacion": "Caras grandes: 2×(12×5)÷2 = 60 m². Caras chicas: 2×(8×6)÷2 = 48 m². Total = 60+48 = 108 m²."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Si la lámina para el techo del establo (108 m²) cuesta $85 por m², y la ferretería da un 10% de descuento por pago de contado, ¿cuál es el costo final?",
+          "opciones": [
+            "$8262",
+            "$9180",
+            "$7362",
+            "$8100"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Costo sin descuento = 108×85 = $9180. Descuento del 10% = $918. Costo final = $9180−$918 = $8262."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un silo cilíndrico de radio 3.2 m y altura 11 m tiene MENOR volumen (353.69 m³) que el establo completo (400 m³) del reactivo 1.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: V del silo = 3.14×3.2²×11 = 353.69 m³, que es menor que los 400 m³ del establo."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un tanque cilíndrico de radio 2.2 m y altura 6.5 m se pintará por completo (área total). Si 1 litro rinde 16 m² y cuesta $105, el costo total (redondeando los litros hacia arriba) es $___.",
+          "respuestaCorrecta": "840",
+          "retroalimentacion": "Área total = 2×3.14×2.2²+2×3.14×2.2×6.5 = 120.2 m². 120.2÷16 = 7.51 → 8 litros × $105 = $840."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Para forrar una carpa piramidal de base cuadrada de 11 m de lado y apotema de 6.5 m (área lateral = 143 m², sin la base), el Proveedor A cobra $60/m² sin descuento y el Proveedor B cobra $70/m² con 15% de descuento. ¿Cuál conviene más y por cuánto?",
+          "opciones": [
+            "Proveedor B, por $71.5 menos",
+            "Proveedor A, por $71.5 menos",
+            "Proveedor B, por $154 menos",
+            "Cuestan lo mismo"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Proveedor A = 143×60 = $8580. Proveedor B = 143×70×0.85 = $8508.5. B es más barato por $8580−$8508.5 = $71.5."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación con su resultado correcto (usa π≈3.14).",
+          "columnaA": [
+            "Volumen de un cilindro de radio 2.5 m y altura 7 m",
+            "Área total de una pirámide de base cuadrada de lado 13 m y apotema 8 m",
+            "Costo de pintar 50 m² a $45/m², con 20% de descuento"
+          ],
+          "columnaB": [
+            "$1800",
+            "377 m²",
+            "137.38 m³"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "Volumen del cilindro = 137.38 m³. Área total de la pirámide = 169+208 = 377 m². Costo con descuento = 50×45×0.8 = $1800."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una capilla con paredes (prisma de base cuadrada 8×8 m, altura de paredes 6 m) y techo piramidal (base 8×8 m, apotema 9 m) tiene un área total a cubrir por fuera de 336 m² (paredes + techo, sin el piso ni la unión interna).",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: paredes = 32×6 = 192 m². Techo = (32×9)÷2 = 144 m². Total = 336 m²."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una torre de agua tiene un cilindro grande (soporte: radio 4 m, altura 3 m) y un cilindro pequeño encima (tanque: radio 2.2 m, altura 5 m). ¿Cuál es el volumen TOTAL de agua que puede almacenar la torre completa (usa π≈3.14)?",
+          "opciones": [
+            "226.71 m³",
+            "150.72 m³",
+            "75.99 m³",
+            "301.44 m³"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Volumen del soporte = 3.14×16×3 = 150.72 m³. Volumen del tanque = 3.14×4.84×5 = 75.99 m³. Total = 226.71 m³."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es el volumen de un cilindro de radio 2 cm y altura 3 cm (usa π≈3.14)?",
+      "opciones": [
+        "37.68 cm³",
+        "25.12 cm³",
+        "18.84 cm³",
+        "50.24 cm³"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "V = 3.14×2²×3 = 3.14×4×3 = 37.68 cm³."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada cuerpo geométrico con su volumen (usa π≈3.14 para el cilindro).",
+      "columnaA": [
+        "Prisma rectangular 7×2×3 cm",
+        "Pirámide base cuadrada lado 5 cm, altura 3 cm",
+        "Cilindro radio 4 cm, altura 5 cm"
+      ],
+      "columnaB": [
+        "251.2 cm³",
+        "42 cm³",
+        "25 cm³"
+      ],
+      "parejasCorrectas": [
+        1,
+        2,
+        0
+      ],
+      "retroalimentacion": "Prisma: V=(7×2)×3=42 cm³. Pirámide: V=(1/3)×(5×5)×3=(1/3)×75=25 cm³. Cilindro: V=3.14×4²×5=251.2 cm³."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué forma tiene la vista superior (desde arriba) de una pirámide cuadrangular?",
+      "opciones": [
+        "Un cuadrado",
+        "Un círculo",
+        "Un triángulo",
+        "Un rectángulo"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "Vista desde arriba, se ve el contorno de la base cuadrada: un cuadrado."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "La vista lateral (de lado) de un cilindro puesto de pie es un rectángulo.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: de lado, un cilindro de pie se proyecta como un rectángulo."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "El volumen de un silo cilíndrico de radio 3 m y altura 5 m, usando π≈3.14, es aproximadamente ___ m³.",
+      "respuestaCorrecta": "141.3",
+      "retroalimentacion": "V = 3.14×3²×5 = 3.14×9×5 = 141.3 m³."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Un tinaco cilíndrico de radio 5 dm y altura 2 dm, ¿cuántos litros de agua contiene (usa π≈3.14, 1 dm³=1 litro)?",
+      "opciones": [
+        "157 litros",
+        "314 litros",
+        "78.5 litros",
+        "628 litros"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "V = 3.14×5²×2 = 3.14×25×2 = 157 dm³ = 157 litros."
+    }
+  ]
+}

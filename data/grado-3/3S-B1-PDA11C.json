@@ -1,0 +1,433 @@
+{
+  "id": "3S-B1-PDA11C",
+  "grado": "3°",
+  "trimestre": "3",
+  "numero": 33,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Probabilidad de la Unión de Eventos 11.3",
+  "contenido": "Azar e incertidumbre en la ocurrencia de eventos cotidianos.",
+  "pda": "Calcula la probabilidad de la unión de dos eventos, distinguiendo eventos mutuamente excluyentes de los que no lo son.",
+  "problematizacion": {
+    "contexto": "Rodrigo fue contratado como 'consultor de datos' por el comité de una rifa escolar en Campeche que vendió 150 boletos numerados del 1 al 150. El premio mayor se gana si tu boleto es múltiplo de 6 o múltiplo de 9, y el comité también quiere saber qué porcentaje de boletos no ganaría nada.",
+    "pregunta": "¿Cuál es la probabilidad de ganar el premio mayor (múltiplo de 6 o de 9), y cuál es la probabilidad del complemento, es decir, de no ganar ninguno de los dos?"
+  },
+  "subtemas": [
+    {
+      "numero": "11.8",
+      "titulo": "Rifas y boletos: la unión con conteo por divisibilidad",
+      "explicacion": "Aquí el reto no es que te den los datos ya contados, sino que tú mismo debes CONTAR cuántos números de un rango cumplen cada condición (por ejemplo, cuántos boletos del 1 al 120 son múltiplo de 3) antes de poder aplicar la fórmula de la unión. Para contar los múltiplos de un número n hasta cierto límite, divides el límite entre n y tomas la parte entera. Y para contar la intersección de 'múltiplo de a' con 'múltiplo de b', cuentas los múltiplos del mínimo común múltiplo (mcm) de a y b, no simplemente los multiplicas.",
+      "formula": "Múltiplos de n hasta L: L ÷ n (parte entera). Intersección de múltiplos de a y de b: múltiplos del mcm(a,b) hasta L.",
+      "ejemplos": [
+        "En una rifa con 120 boletos (del 1 al 120), ganas si tu boleto es múltiplo de 3 o de 5. Múltiplos de 3: 120÷3 = 40. Múltiplos de 5: 120÷5 = 24. Múltiplos de 15 (mcm de 3 y 5, la intersección): 120÷15 = 8. Entonces hay 40 + 24 − 8 = 56 boletos ganadores, y P(múltiplo de 3 ∪ múltiplo de 5) = 56/120 = 7/15.",
+        "En la misma rifa, ¿cuántos boletos son múltiplo de 4 o de 6? Múltiplos de 4: 120÷4 = 30. Múltiplos de 6: 120÷6 = 20. Múltiplos de 12 (mcm de 4 y 6): 120÷12 = 10. Entonces hay 30 + 20 − 10 = 40 boletos, y P(múltiplo de 4 ∪ múltiplo de 6) = 40/120 = 1/3."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "llenar_frase",
+          "frase": "De los boletos del 1 al 120, hay ___ múltiplos de 3.",
+          "respuestaCorrecta": "40",
+          "retroalimentacion": "120 ÷ 3 = 40 múltiplos de 3."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "De los boletos del 1 al 120, hay ___ múltiplos de 5.",
+          "respuestaCorrecta": "24",
+          "retroalimentacion": "120 ÷ 5 = 24 múltiplos de 5."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuántos boletos del 1 al 120 son múltiplos de 15 (es decir, de 3 y de 5 a la vez)?",
+          "opciones": [
+            "8",
+            "15",
+            "3",
+            "24"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "120 ÷ 15 = 8, porque 15 es el mínimo común múltiplo de 3 y 5."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una rifa con 120 boletos, ¿cuál es la probabilidad de ganar si ganas al sacar un boleto múltiplo de 3 o de 5?",
+          "opciones": [
+            "56/120 (7/15)",
+            "64/120",
+            "72/120",
+            "48/120"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "40 + 24 − 8 = 56 boletos ganadores, entonces P = 56/120 = 7/15."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "De los boletos del 1 al 90, los eventos 'múltiplo de 3' y 'múltiplo de 4' NO son mutuamente excluyentes, porque números como 12, 24 y 36 son múltiplos de ambos.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: hay boletos (múltiplos de 12) que cumplen las dos condiciones a la vez, así que sí se traslapan."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "De los boletos del 1 al 90, hay 30 múltiplos de 3, 22 múltiplos de 4 y 7 múltiplos de 12 (la intersección). ¿Cuántos boletos son múltiplo de 3 o de 4?",
+          "opciones": [
+            "45",
+            "52",
+            "37",
+            "60"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "30 + 22 − 7 = 45 boletos."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "De los boletos del 1 al 150, hay 25 múltiplos de 6, 18 múltiplos de 8 y 6 múltiplos de 24 (la intersección). Entonces hay ___ boletos múltiplo de 6 o de 8.",
+          "respuestaCorrecta": "37",
+          "retroalimentacion": "25 + 18 − 6 = 37 boletos."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "De los boletos del 1 al 200, hay 40 múltiplos de 5, 28 múltiplos de 7 y 5 múltiplos de 35 (la intersección). ¿Cuál es la probabilidad de sacar un boleto múltiplo de 5 o de 7?",
+          "opciones": [
+            "63/200",
+            "73/200",
+            "68/200",
+            "58/200"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "40 + 28 − 5 = 63 boletos, entonces P = 63/200."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "De los boletos del 1 al 10, los eventos 'múltiplo de 3' y 'múltiplo de 7' son mutuamente excluyentes, porque ningún boleto del 1 al 10 es múltiplo de ambos a la vez (se necesitaría ser múltiplo de 21).",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: como 21 (el mcm de 3 y 7) es mayor que 10, ningún boleto del 1 al 10 cumple ambas condiciones."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada rifa con el número correcto de boletos ganadores (la unión).",
+          "columnaA": [
+            "Del 1 al 120: múltiplo de 3 o de 5",
+            "Del 1 al 120: múltiplo de 4 o de 6",
+            "Del 1 al 90: múltiplo de 3 o de 4"
+          ],
+          "columnaB": [
+            "40",
+            "56",
+            "45"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            2
+          ],
+          "retroalimentacion": "3∨5 hasta 120: 40+24−8=56. 4∨6 hasta 120: 30+20−10=40. 3∨4 hasta 90: 30+22−7=45."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 1 de 3 · Reto avanzado"
+    },
+    {
+      "numero": "11.9",
+      "titulo": "El complemento de la unión: la probabilidad de 'ninguno de los dos'",
+      "explicacion": "Esta lección integra todo lo visto en el PDA: primero decides si dos eventos son mutuamente excluyentes o no (lección 1), después calculas P(A∪B) con la fórmula que corresponda (lecciones 2 y 3), y ahora agregas un paso nuevo: la probabilidad de que NO ocurra ni A ni B, es decir, el complemento de la unión. Como el espacio muestral completo se reparte entre 'ocurre A o B' y 'no ocurre ninguno de los dos', estos dos casos deben sumar 1 (o el 100%), así que P(ninguno) = 1 − P(A∪B).",
+      "formula": "P(ni A ni B) = 1 − P(A∪B)",
+      "ejemplos": [
+        "En una encuesta a 250 personas, 100 tienen perro (A), 70 tienen gato (B) y 25 tienen ambas mascotas. Primero la unión: P(A∪B) = 100/250 + 70/250 − 25/250 = 145/250. Como no son mutuamente excluyentes (25 personas tienen ambas), esa resta era necesaria. La probabilidad de que una persona NO tenga ninguna de las dos mascotas es P(ninguno) = 1 − 145/250 = 105/250 = 21/50.",
+        "De 500 alumnos, 220 llegan a la escuela en camión (A) y 150 caminando (B); cada alumno usa un solo medio de transporte ese día, así que A y B son mutuamente excluyentes. P(A∪B) = 220/500 + 150/500 = 370/500. La probabilidad de que un alumno llegue por otro medio (ninguno de los dos) es P(ninguno) = 1 − 370/500 = 130/500 = 13/50."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una encuesta a 250 personas, 100 tienen perro, 70 tienen gato y 25 tienen ambas mascotas. ¿Cuál es la probabilidad de que una persona NO tenga ninguna de las dos mascotas?",
+          "opciones": [
+            "105/250 (21/50)",
+            "145/250",
+            "25/250",
+            "175/250"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(A∪B) = 100/250+70/250−25/250 = 145/250. P(ninguno) = 1 − 145/250 = 105/250 = 21/50."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si el 44% de los alumnos llega en camión y el 30% camina (medios de transporte mutuamente excluyentes), entonces el 26% de los alumnos usa otro medio de transporte.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: P(camión ∪ caminando) = 44% + 30% = 74%, así que el resto, 100% − 74% = 26%, usa otro medio."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En una escuela de 180 alumnos, 60 están en el club de ciencias, 45 en el club de arte y 15 en ambos. La probabilidad de que un alumno NO esté en ninguno de los dos clubes es ___/180.",
+          "respuestaCorrecta": "90",
+          "retroalimentacion": "P(A∪B) en alumnos = 60+45−15 = 90. Ninguno = 180 − 90 = 90."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En un grupo de 400 personas, 96 nadan y 84 corren maratón; estas dos actividades no se pueden combinar en el mismo horario de entrenamiento (son mutuamente excluyentes). ¿Cuál es la probabilidad de que una persona NO practique ninguna de las dos actividades?",
+          "opciones": [
+            "220/400 (0.55)",
+            "180/400",
+            "96/400",
+            "304/400"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(A∪B) = 96/400 + 84/400 = 180/400. P(ninguno) = 1 − 180/400 = 220/400 = 0.55."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La fórmula P(ninguno) = 1 − P(A∪B) funciona sin importar si A y B son mutuamente excluyentes o no.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: el complemento del 'al menos uno' siempre es 'ninguno de los dos', sin importar cómo se haya calculado P(A∪B)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una escuela de 120 estudiantes, 50 visitan la biblioteca física, 70 usan la biblioteca digital y 30 usan ambas. ¿Qué porcentaje de estudiantes NO usa ninguna de las dos bibliotecas?",
+          "opciones": [
+            "25%",
+            "75%",
+            "40%",
+            "10%"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(A∪B) = 50/120+70/120−30/120 = 90/120 = 75%. P(ninguno) = 100% − 75% = 25%."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En un torneo de 90 atletas, 34 compiten en atletismo, 28 en natación y 10 en ambos deportes. El número de atletas que NO compite en ninguno de los dos deportes es ___.",
+          "respuestaCorrecta": "38",
+          "retroalimentacion": "Unión = 34+28−10 = 52. Ninguno = 90 − 52 = 38."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "De 150 personas encuestadas, 55 prefieren café y 40 prefieren té como bebida principal; nadie puede preferir las dos a la vez (son mutuamente excluyentes). ¿Cuál es la probabilidad de que alguien NO prefiera ninguna de las dos como bebida principal?",
+          "opciones": [
+            "55/150",
+            "95/150",
+            "15/150",
+            "105/150"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(A∪B) = 55/150+40/150 = 95/150. P(ninguno) = 1 − 95/150 = 55/150."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En el club de ciencias y arte (60 en ciencias, 45 en arte, 15 en ambos, de 180 alumnos), la probabilidad de estar en AL MENOS un club es igual a la probabilidad de NO estar en ningún club.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: P(al menos uno) = 90/180 y P(ninguno) = 90/180; en este caso particular ambas valen exactamente la mitad."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación con la probabilidad correcta de que NO ocurra ninguno de los dos eventos.",
+          "columnaA": [
+            "250 personas: perro=100, gato=70, ambas=25",
+            "120 estudiantes: biblioteca física=50, digital=70, ambas=30",
+            "90 atletas: atletismo=34, natación=28, ambos=10"
+          ],
+          "columnaB": [
+            "1/4",
+            "19/45",
+            "21/50"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "Perro/gato: 1−145/250=105/250=21/50. Bibliotecas: 1−90/120=30/120=1/4. Atletas: 1−52/90=38/90=19/45."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 2 de 3 · Integración"
+    },
+    {
+      "numero": "11.10",
+      "titulo": "Consultoría de datos: unión, intersección y complemento en un solo problema",
+      "explicacion": "Esta es la lección de dominio: cada problema te da datos de una situación real y tú debes decidir cuál de las tres formas de la fórmula necesitas usar —calcular la unión, despejar la intersección, o calcular el complemento (ninguno)— sin que se te diga cuál. Los números ya no son tan 'redondos' como en las primeras lecciones, y varios problemas requieren dos pasos: primero obtener un dato (como la intersección o la unión) y después usarlo para responder la verdadera pregunta.",
+      "formula": "Las tres formas de la misma fórmula: P(A∪B) = P(A)+P(B)−P(A∩B) · P(A∩B) = P(A)+P(B)−P(A∪B) · P(ninguno) = 1−P(A∪B)",
+      "ejemplos": [
+        "Una empresa encuestó a 340 clientes: 158 compran el producto Alfa, 121 compran el producto Beta y 46 compran ambos. a) La probabilidad de que un cliente compre al menos uno: P(A∪B) = 158+121−46 = 233, es decir 233/340. b) La probabilidad de que no compre ninguno: P(ninguno) = 1 − 233/340 = 107/340.",
+        "En un hospital revisaron a 280 pacientes: 132 presentan el síntoma X, 97 presentan el síntoma Y, y se sabe que 189 pacientes presentan al menos uno de los dos síntomas. a) ¿Cuántos presentan AMBOS síntomas? Despejando: P(A∩B) = 132+97−189 = 40 pacientes. b) La probabilidad de que un paciente no presente ninguno de los dos síntomas es P(ninguno) = 1 − 189/280 = 91/280."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una empresa encuestó a 420 clientes: 210 compran el producto X, 168 compran el producto Y y 84 compran ambos productos. ¿Cuál es la probabilidad de que un cliente NO compre ninguno de los dos productos?",
+          "opciones": [
+            "126/420 (3/10)",
+            "294/420",
+            "84/420",
+            "210/420"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(A∪B) = 210+168−84 = 294, entonces P(ninguno) = 420−294 = 126, es decir 126/420 = 3/10."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En un hospital revisaron a 360 pacientes: 150 presentan el síntoma X, 110 presentan el síntoma Y, y 221 presentan al menos uno de los dos síntomas. El número de pacientes que presentan AMBOS síntomas es ___.",
+          "respuestaCorrecta": "39",
+          "retroalimentacion": "Despejando la intersección: 150 + 110 − 221 = 39 pacientes presentan ambos síntomas."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Con los datos del hospital anterior (360 pacientes, 221 con al menos un síntoma), ¿cuál es la probabilidad de que un paciente NO presente ninguno de los dos síntomas?",
+          "opciones": [
+            "139/360",
+            "221/360",
+            "39/360",
+            "150/360"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(ninguno) = 360 − 221 = 139, es decir 139/360."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si en 540 hectáreas hay 200 con plaga A, 150 con plaga B y 60 con ambas plagas, entonces la probabilidad de que una hectárea tenga AL MENOS una plaga es 290/540.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: P(A∪B) = 200+150−60 = 290, entonces P(A∪B) = 290/540."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En un torneo con 250 estudiantes, 40% juega fútbol, 28% juega voleibol y 60% juega al menos uno de los dos deportes. El porcentaje de estudiantes que juegan AMBOS deportes es ___%.",
+          "respuestaCorrecta": "8",
+          "retroalimentacion": "Despejando: 40% + 28% − 60% = 8% juega ambos deportes."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Con los mismos datos del torneo (60% juega al menos un deporte), ¿qué porcentaje de estudiantes NO juega ninguno de los dos deportes?",
+          "opciones": [
+            "40%",
+            "8%",
+            "60%",
+            "32%"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(ninguno) = 100% − 60% = 40%."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En un taller mecánico, 34 de 96 piezas tienen desgaste tipo A y 29 tienen desgaste tipo B; estos dos desgastes nunca ocurren juntos en la misma pieza porque vienen de procesos distintos (son mutuamente excluyentes). ¿Cuál es la probabilidad de que una pieza NO tenga ninguno de los dos desgastes?",
+          "opciones": [
+            "33/96",
+            "63/96",
+            "34/96",
+            "29/96"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(A∪B) = 34+29 = 63 (al ser mutuamente excluyentes, se suman directo). P(ninguno) = 96−63 = 33, es decir 33/96."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si P(A) = 0.55, P(B) = 0.30 y sabes que A y B son mutuamente excluyentes, entonces puedes calcular P(ninguno) sin necesitar el valor de P(A∩B).",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: si son mutuamente excluyentes, P(A∩B) = 0 automáticamente, así que P(ninguno) = 1 − (0.55+0.30) = 0.15 sin necesitar más datos."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una fábrica, P(defecto A) = 0.18, P(defecto B) = 0.11 y se sabe que el 6% de las piezas tiene ambos defectos a la vez. ¿Qué probabilidad hay de que una pieza elegida al azar esté completamente libre de defectos (ni A ni B)?",
+          "opciones": [
+            "77%",
+            "23%",
+            "6%",
+            "94%"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(A∪B) = 0.18+0.11−0.06 = 0.23 = 23%. P(libre de defectos) = 100% − 23% = 77%."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación con el resultado numérico correcto que se pide.",
+          "columnaA": [
+            "420 clientes: X=210, Y=168, ambos=84 → P(ninguno)",
+            "360 pacientes: X=150, Y=110, unión=221 → cuántos tienen ambos",
+            "96 piezas: A=34, B=29 (mutuamente excluyentes) → P(ninguno)"
+          ],
+          "columnaB": [
+            "39",
+            "33/96",
+            "126/420"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "Clientes: 420−(210+168−84)=126, o sea 126/420. Pacientes: 150+110−221=39. Taller: 96−(34+29)=33, o sea 33/96."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 3 de 3 · Dominio"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Como 'sacar un rey' y 'sacar una reina' son mutuamente excluyentes, P(rey ∪ reina) = 8/52.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: P(rey ∪ reina) = 4/52 + 4/52 = 8/52 = 2/13."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "P(picas) = 13/52 y P(corazones) = 13/52, y son mutuamente excluyentes. Entonces P(picas ∪ corazones) = ___/52.",
+      "respuestaCorrecta": "26",
+      "retroalimentacion": "P(picas ∪ corazones) = 13/52 + 13/52 = 26/52 = 1/2."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "P(negra) = 26/52, P(10) = 4/52 y P(negra∩10) = 2/52 (el 10 de tréboles y el 10 de picas). ¿Cuánto vale P(negra ∪ 10)?",
+      "opciones": [
+        "28/52",
+        "30/52",
+        "26/52",
+        "4/52"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "P(negra ∪ 10) = 26/52 + 4/52 − 2/52 = 28/52 = 7/13."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "P(as ∪ roja) = 28/52.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: P(as ∪ roja) = 4/52 + 26/52 − 2/52 = 28/52 = 7/13 (el as de corazones y el as de diamantes son la intersección)."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada par de eventos con su clasificación.",
+      "columnaA": [
+        "Sacar una jota y sacar un 3",
+        "Sacar una carta de corazones y sacar una reina",
+        "Sacar una carta roja y sacar una carta negra"
+      ],
+      "columnaB": [
+        "No mutuamente excluyentes",
+        "Mutuamente excluyentes"
+      ],
+      "parejasCorrectas": [
+        1,
+        0,
+        1
+      ],
+      "retroalimentacion": "Jota y 3: ninguna carta es ambas cosas → mutuamente excluyentes. Corazones y reina: la reina de corazones cumple ambos → no mutuamente excluyentes. Roja y negra: ninguna carta es ambas cosas → mutuamente excluyentes."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada par de eventos con el valor de P(A∪B).",
+      "columnaA": [
+        "rey ∪ reina",
+        "tréboles ∪ rey",
+        "figura (J,Q,K) ∪ negra"
+      ],
+      "columnaB": [
+        "32/52",
+        "16/52",
+        "8/52"
+      ],
+      "parejasCorrectas": [
+        2,
+        1,
+        0
+      ],
+      "retroalimentacion": "rey∪reina (ME): 4/52+4/52=8/52. tréboles∪rey (no ME): 13/52+4/52-1/52=16/52. figura∪negra (no ME): 12/52+26/52-6/52=32/52."
+    }
+  ]
+}

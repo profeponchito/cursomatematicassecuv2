@@ -1263,3 +1263,120 @@ exactamente 10. Se recorrió además un PDA completo (10 lecciones × 2
 rondas = 20 rondas de actividad) de principio a fin, confirmando que
 llega correctamente al resultado global (con el texto "Suma de los 10
 subtemas") y a la constancia — 0 errores.
+
+## Paso 26: cada PDA de 10 lecciones se dividió en 3 series más cortas
+
+El docente vio el camino de un PDA con el nuevo diseño del Paso 25
+("Paso 1 de 42") y pidió lo contrario de lo que parecía a primera vista:
+no menos contenido, sino **más PDAs y cada uno más corto** — verbatim:
+"quisiera que fueran mas pdas y que el camino sea mas corto en cada pda,
+con ello quiero decir que cambies las estructuras manten la cantidad de
+reactivos pero dividelos en varios pdas renombra si quieres como por
+ejemplo expresion de fracciones 1.1, expresion de fracciones 1.2". Es
+decir: mismo contenido total, reorganizado en más unidades curriculares
+más pequeñas.
+
+### 1. Alcance acordado con el docente
+
+Antes de tocar datos se hicieron 3 preguntas de aclaración (con el
+tamaño real del cambio ya estimado: dividir 38 PDAs de 10 lecciones
+multiplicaría el número de PDAs por trimestre):
+
+- **Tamaño de cada serie**: el docente eligió "3 lecciones por parte
+  (Recomendado)" — cada PDA de 10 lecciones se reparte en 3 series de
+  tamaño 4+3+3, en vez de, por ejemplo, 5 series de 2.
+- **Práctica extra**: eligió que se reparta **proporcionalmente entre
+  las 3 series** (no que se quede completa solo en la última).
+- **Problematización**: eligió que **cada serie tenga su propia
+  problematización corta**, en vez de que solo la primera la conserve.
+
+### 2. División mecánica (4+3+3), sin tocar contenido existente
+
+Los subtemas, reactivos, explicaciones y ejemplos de cada PDA **no se
+reescribieron**: la división es un reagrupamiento puramente mecánico,
+hecho con un script de Python, no con agentes de generación. Para cada
+uno de los 38 PDAs de 10 subtemas (Paso 25):
+
+- **Serie A** (id `<original>A`): subtemas 1-4, las 4 lecciones núcleo
+  del diseño original (Introductorio/Intermedio/Avanzado/Síntesis). Su
+  `nivelEtiqueta` se recalculó de "Nivel N de 10" a "Nivel N de 4" —
+  volviendo, coincidentemente, a la escala que tenían antes del Paso 25.
+- **Serie B** (id `<original>B`): subtemas 5-7 (Aplicación/Aplicación
+  avanzada/Reto), con `nivelEtiqueta` recalculado a "Nivel N de 3".
+- **Serie C** (id `<original>C`): subtemas 8-10 (Reto avanzado/
+  Integración/Dominio), también "Nivel N de 3".
+
+El campo `numero` (interno, usado para el chip "Tema N" y el número
+dentro del círculo del camino) se reasignó de forma secuencial dentro de
+cada grado, en el mismo orden curricular de siempre (1, 2, 3… hasta 42 en
+1°, 39 en 2°, 33 en 3°) — es un contador de posición en el camino, no
+tiene que ver con la numeración "N.1"/"N.2" del título. El título de cada
+serie es el título original del PDA más el sufijo que pidió el docente,
+usando el número ORIGINAL del PDA (1-14/1-13/1-11) y la posición de la
+serie (1, 2 o 3): p. ej. el PDA 1 de 1° ("Expresión de fracciones como
+decimales y de decimales como fracciones") generó los títulos "...
+1.1", "... 1.2" y "... 1.3" para sus Series A, B y C — el ejemplo textual
+que dio el docente. La `practicaExtra` de cada PDA original se repartió
+en 3 bloques contiguos, proporcionales al tamaño de cada serie (≈40%/
+30%/30%), conservando el orden original de los reactivos sin recortar ni
+duplicar ninguno.
+
+Resultado: los 38 PDAs se convirtieron en **114 series** (42 en 1°, 39 en
+2°, 33 en 3°). El motor de la app (`vistaPDA`, `panelSubtema_`,
+`panelActividad_`, `leccionesModulo_`, `caminoPDAs_`) no necesitó ningún
+cambio de código: ya deriva el número de pasos y de lecciones de
+`pda.subtemas.length` desde el Paso 14, y el camino de la pantalla
+`/pda-lista/:grado/:trimestre` ya soportaba cualquier cantidad de nodos.
+El único cambio real de esquema fue de documentación (`pda.schema.json`:
+las descripciones de `description` y `subtemas.description` se
+reescribieron para explicar el modelo de series; `maxItems` se dejó en
+12, sin cambio funcional).
+
+### 3. 114 problematizaciones nuevas, una por serie
+
+A diferencia de los subtemas (reagrupados tal cual), la problematización
+de cada serie **sí es contenido nuevo**: la del PDA completo ya no tiene
+sentido repartida en 3 (haría que las Series B y C empezaran con un gancho
+que no corresponde a sus lecciones). Se generaron 114 problematizaciones
+(3 por cada uno de los 38 PDAs) con **3 agentes, uno por grado** — no uno
+por PDA ni uno por serie, ya que una problematización es mucho más corta
+que una lección completa con reactivos, así que un solo agente pudo
+redactar con calidad las 33-42 problematizaciones de su grado en una sola
+pasada, revisando la variedad de escenarios y personajes de principio a
+fin (evitando repetir "Ana" o "el equipo de baloncesto" del PDA original
+en más de un lugar). Cada agente recibió, por cada serie, los títulos de
+las lecciones que le tocaban específicamente, para calibrar la pregunta
+de la problematización al contenido real de esa serie (una Serie C, por
+ejemplo, plantea algo resoluble solo con las lecciones de reto/dominio,
+no con las lecciones núcleo de la Serie A del mismo PDA). El formato es
+idéntico al de siempre (`contexto` + `pregunta`), con escenarios
+mexicanos variados (mercados, kermés, deportes, comercio, dinero,
+oficios) y sin depender de verificación aritmética (una problematización
+es un gancho motivador, no un reactivo calificado).
+
+### 4. Fusión y validación
+
+Las 114 problematizaciones se fusionaron en los 114 archivos con un
+script (sin tocar ningún otro campo). Validación posterior:
+`jsonschema.Draft7Validator` sobre los 114 archivos reales: **0
+errores**. Revisión estructural genérica (igual que en pasos anteriores:
+rango de índices en `opcion_multiple`/`relacionar_columnas`, booleano en
+`verdadero_falso`, hueco `___` en `llenar_frase`): **0 errores**. Se
+comparó además, PDA por PDA, la suma de reactivos de las 3 series contra
+el conteo original antes de dividir (subtemas + práctica extra): **0
+discrepancias** — ningún reactivo se perdió ni se duplicó al repartir. Se
+verificó también que el campo `numero` quedara secuencial sin huecos ni
+repetidos en cada grado (1…42, 1…39, 1…33) y que ninguna etiqueta de nivel
+conservara el texto obsoleto "de 10".
+
+**Prueba de punta a punta** (Playwright + build local de Tailwind):
+conteo exacto de nodos por trimestre en los 3 grados (por ejemplo, 1° ·
+Trimestre 1 pasó de 3 a **9** nodos, Trimestre 2 de 6 a **18**, Trimestre
+3 de 5 a **15**; 2° · Trimestre 1 de 3 a **9**; 3° · Trimestre 1 de 1 a
+**3**); un recorrido completo de una serie corta (`1S-B1-PDA01B`, 3
+lecciones) confirmando que ahora toma **"Paso 1 de 14"** (antes "Paso 1
+de 42" para el PDA completo) y que llega correctamente al resultado
+global; y un recorrido de una Serie A (4 lecciones) confirmando **"Paso 1
+de 18"** — la misma duración que un PDA completo tenía antes del Paso 25.
+Ejercítate (40 temas, sin dividir) se verificó sin cambios — 0 errores en
+toda la suite.

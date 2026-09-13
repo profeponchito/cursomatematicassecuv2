@@ -1,0 +1,414 @@
+{
+  "id": "3S-B1-PDA10C",
+  "grado": "3°",
+  "trimestre": "3",
+  "numero": 30,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Estadística con Datos Agrupados 10.3",
+  "contenido": "Interpretación de la información a través de medidas de tendencia central y de dispersión.",
+  "pda": "Calcula medidas de tendencia central para datos agrupados en tablas de frecuencia e interpreta la desviación media de un conjunto de datos.",
+  "problematizacion": {
+    "contexto": "Paulina debe entregar el reporte final de un estudio sobre el gasto semanal en transporte de 90 familias de su colonia en Durango, agrupado en una tabla de frecuencias. Al calcular los datos nota que unas cuantas familias gastan muchísimo más que el resto, lo que hace que el promedio se vea 'inflado' y no represente bien a la mayoría.",
+    "pregunta": "Calculando la desviación media y comparando media, mediana y moda, ¿cuál medida representa mejor el gasto típico de estas familias sesgadas?"
+  },
+  "subtemas": [
+    {
+      "numero": "10.8",
+      "nivelEtiqueta": "Nivel 1 de 3 · Reto avanzado",
+      "titulo": "Desviación media de datos agrupados con marca de clase",
+      "explicacion": "En el subtema 10.4 calculaste la desviación media usando la lista completa de datos individuales. Pero eso es justo lo que NO tienes cuando los datos ya vienen agrupados en una tabla de frecuencias, como en el reto inicial de este PDA (las edades de los 80 visitantes de la Feria de Ciencias). Para resolverlo, usas la marca de clase de cada intervalo como valor representativo, multiplicas su distancia absoluta a la media por la frecuencia del intervalo (para 'contar' esa distancia tantas veces como datos hay en ese intervalo), sumas esos productos y divides entre el total de datos. Esta es la pieza que faltaba para responder por completo la pregunta planteada al inicio del PDA.",
+      "formula": "DM = Σ[f × |marca de clase − media|] / n",
+      "ejemplos": [
+        "Un puesto de mercado registra sus ventas diarias (cientos de pesos) durante 20 días: 0-10 (f=5), 10-20 (f=10), 20-30 (f=4), 30-40 (f=1). Marcas: 5,15,25,35. media = (5·5+15·10+25·4+35·1)/20 = 310/20 = 15.5. DM = [5·|5−15.5| + 10·|15−15.5| + 4·|25−15.5| + 1·|35−15.5|]/20 = [52.5+5+38+19.5]/20 = 115/20 = 5.75.",
+        "Un taller registra la edad (años) de 20 aprendices: 10-20 (f=3), 20-30 (f=9), 30-40 (f=6), 40-50 (f=2). Marcas: 15,25,35,45. media = (15·3+25·9+35·6+45·2)/20 = 570/20 = 28.5. DM = [3·|15−28.5|+9·|25−28.5|+6·|35−28.5|+2·|45−28.5|]/20 = [40.5+31.5+39+33]/20 = 144/20 = 7.2."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Las calificaciones (sobre 100 puntos) de 30 alumnos se agrupan así: 60-70 (f=4), 70-80 (f=10), 80-90 (f=14), 90-100 (f=2). Calculando primero la media y después la desviación media, ¿cuál es la desviación media de este conjunto, redondeada a dos decimales?",
+          "opciones": [
+            "7.02",
+            "5.75",
+            "10.00",
+            "8.25"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Marcas: 65,75,85,95. media=(4·65+10·75+14·85+2·95)/30≈79.67. DM=[4|65−79.67|+10|75−79.67|+14|85−79.67|+2|95−79.67|]/30≈7.02."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El tiempo de espera (minutos) de 30 pacientes en una farmacia se agrupa así: 0-5 (f=6), 5-10 (f=12), 10-15 (f=8), 15-20 (f=4). La desviación media de este conjunto de datos agrupados es ___.",
+          "respuestaCorrecta": "4",
+          "retroalimentacion": "Marcas: 2.5,7.5,12.5,17.5. media=(6·2.5+12·7.5+8·12.5+4·17.5)/30≈9.17. DM=[6|2.5−9.17|+12|7.5−9.17|+8|12.5−9.17|+4|17.5−9.17|]/30=4."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El peso (kg) de 40 costales de arroz se agrupa así: 40-50 (f=5), 50-60 (f=15), 60-70 (f=12), 70-80 (f=8). La desviación media de este conjunto es 8.25 kg.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: marcas 45,55,65,75; media=(5·45+15·55+12·65+8·75)/40=60.75. DM=[5|45−60.75|+15|55−60.75|+12|65−60.75|+8|75−60.75|]/40=8.25."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Los kilómetros recorridos en un día por 40 repartidores se agrupan así: 0-20 (f=7), 20-40 (f=13), 40-60 (f=16), 60-80 (f=4). ¿Cuál es la desviación media de este conjunto?",
+          "opciones": [
+            "15.5",
+            "12.0",
+            "10.0",
+            "20.0"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Marcas: 10,30,50,70. media=(7·10+13·30+16·50+4·70)/40=38.5. DM=[7|10−38.5|+13|30−38.5|+16|50−38.5|+4|70−38.5|]/40=15.5."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La edad (años) de 50 asistentes a una obra de teatro se agrupa así: 10-20 (f=4), 20-30 (f=10), 30-40 (f=18), 40-50 (f=12), 50-60 (f=6). La desviación media de este conjunto, redondeada a dos decimales, es ___.",
+          "respuestaCorrecta": "8.74",
+          "retroalimentacion": "Marcas: 15,25,35,45,55. media=(4·15+10·25+18·35+12·45+6·55)/50=36.2. DM=[4|15−36.2|+10|25−36.2|+18|35−36.2|+12|45−36.2|+6|55−36.2|]/50≈8.74."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Al calcular la desviación media de datos agrupados, se usa la marca de clase de cada intervalo en lugar del valor exacto de cada dato, porque ese valor exacto ya no está disponible una vez que los datos se agruparon.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: la marca de clase es el mejor valor representativo disponible para todo el intervalo."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En la fórmula DM = Σ[f × |marca de clase − media|] / n, ¿por qué se multiplica cada distancia |marca de clase − media| por la frecuencia f del intervalo?",
+          "opciones": [
+            "Porque esa distancia representa a los f datos de ese intervalo, y hay que contarla una vez por cada uno de ellos",
+            "Porque f siempre es igual a la marca de clase",
+            "Porque así se elimina la necesidad de usar valor absoluto",
+            "Porque esa multiplicación sirve para calcular la moda, no la desviación media"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Correcto: como no conoces cada dato individual, usas la marca de clase como si fuera el valor de los f datos de ese intervalo, así que su distancia a la media 'cuenta' f veces en la suma."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada tabla de frecuencias con su desviación media (redondeada a dos decimales cuando aplica).",
+          "columnaA": [
+            "Kg de material reciclado por 30 familias: 0-10(f=8),10-20(f=12),20-30(f=6),30-40(f=4)",
+            "Milímetros de lluvia en 40 días: 0-20(f=10),20-40(f=16),40-60(f=9),60-80(f=5)",
+            "Minutos de ejercicio diario de 30 personas: 0-15(f=5),15-30(f=11),30-45(f=9),45-60(f=5)"
+          ],
+          "columnaB": [
+            "15.85",
+            "12.47",
+            "8"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "Reciclaje: marcas 5,15,25,35; media=17; DM=8. Lluvia: marcas 10,30,50,70; media=34.5; DM=15.85. Ejercicio: marcas 7.5,22.5,37.5,52.5; media=29.5; DM≈12.47."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un gimnasio registra el tiempo (minutos) que permanecen entrenando 35 clientes: 20-40 (f=6), 40-60 (f=14), 60-80 (f=10), 80-100 (f=5). ¿Cuál es la desviación media de este conjunto?",
+          "opciones": [
+            "16",
+            "12",
+            "10",
+            "20"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Marcas: 30,50,70,90. media=(6·30+14·50+10·70+5·90)/35=58. DM=[6|30−58|+14|50−58|+10|70−58|+5|90−58|]/35=16."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si dos conjuntos de datos agrupados tienen medias distintas, comparar directamente sus desviaciones medias (sin convertirlas a porcentaje) siempre te dice de forma justa cuál conjunto es más disperso.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: cuando las medias son muy distintas, conviene comparar la desviación media relativa (DM entre la media, en porcentaje) para hacer una comparación justa; la comparación directa puede ser engañosa."
+        }
+      ]
+    },
+    {
+      "numero": "10.9",
+      "nivelEtiqueta": "Nivel 2 de 3 · Integración",
+      "titulo": "Reporte estadístico integral: media, mediana, moda y dispersión",
+      "explicacion": "Ya sabes calcular por separado la media, la mediana exacta, la moda estimada y la desviación media de datos agrupados. Un reporte estadístico real —como el que pide el comité de la Feria de Ciencias en el reto inicial— casi siempre necesita varias de estas medidas juntas, no una sola, para describir completamente un conjunto de datos: dónde se concentra (media, mediana, moda) y qué tan dispersos están (desviación media). Además, comparar estas medidas entre sí ya te empieza a decir algo sobre la forma de la distribución.",
+      "formula": "media = Σ(marca·f)/n ; Me = Li+[(n/2−Fant)/fme]×A ; Mo = Li+[(fmo−fant)/((fmo−fant)+(fmo−fpost))]×A ; DM = Σ[f·|marca−media|]/n",
+      "ejemplos": [
+        "Una cooperativa escolar registra sus ventas diarias (en pesos) durante 60 días de clases: 0-20 (f=6), 20-40 (f=14), 40-60 (f=20), 60-80 (f=15), 80-100 (f=5). Reporte completo: media = 49.67 pesos; mediana exacta = 50 pesos (clase mediana 40-60); moda estimada ≈ 50.91 pesos (misma clase modal 40-60); desviación media ≈ 17.11 pesos. Como media, mediana y moda son muy parecidas, la distribución de las ventas es bastante simétrica alrededor de esos 50 pesos, aunque con bastante dispersión (17.11 de desviación media).",
+        "Una fábrica de zapatos registra los pares producidos por día durante 50 días: 100-150 (f=5), 150-200 (f=12), 200-250 (f=20), 250-300 (f=9), 300-350 (f=4). Reporte completo: media = 220 pares; mediana exacta = 220 pares; moda estimada ≈ 221.05 pares; desviación media = 40.6 pares. Aquí la media y la mediana son prácticamente idénticas, lo que confirma una distribución simétrica; la fábrica produce en promedio 220 pares diarios, con una variación típica de unos 40.6 pares respecto a ese promedio."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "llenar_frase",
+          "frase": "La cooperativa escolar registra sus ventas diarias (pesos) durante 60 días: 0-20 (f=6), 20-40 (f=14), 40-60 (f=20), 60-80 (f=15), 80-100 (f=5). La media de estas ventas, redondeada a dos decimales, es ___.",
+          "respuestaCorrecta": "49.67",
+          "retroalimentacion": "Marcas: 10,30,50,70,90. media=(6·10+14·30+20·50+15·70+5·90)/60≈49.67."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Con la misma tabla de ventas de la cooperativa (0-20:f=6, 20-40:f=14, 40-60:f=20, 60-80:f=15, 80-100:f=5, n=60), ¿cuál es la mediana exacta?",
+          "opciones": [
+            "50",
+            "49.67",
+            "40",
+            "60"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "n/2=30. Acumuladas: 6,20,40,55,60. Clase mediana 40-60 (Li=40, Fant=20, fme=20, A=20). Me=40+[(30−20)/20]×20=50."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Con la misma tabla de ventas de la cooperativa, ¿cuál es la moda estimada, redondeada a dos decimales?",
+          "opciones": [
+            "50.91",
+            "50.00",
+            "49.67",
+            "45.00"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Clase modal 40-60 (fmo=20, Li=40, fant=14, fpost=15, A=20). Mo=40+[(20−14)/((20−14)+(20−15))]×20≈50.91."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La desviación media de las ventas de la cooperativa (misma tabla) es aproximadamente 17.11 pesos.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: media≈49.67. DM=[6|10−49.67|+14|30−49.67|+20|50−49.67|+15|70−49.67|+5|90−49.67|]/60≈17.11."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada medida estadística de las ventas de la cooperativa (misma tabla) con su valor.",
+          "columnaA": [
+            "Media",
+            "Mediana exacta",
+            "Moda estimada"
+          ],
+          "columnaB": [
+            "50.91",
+            "49.67",
+            "50"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "Media≈49.67, mediana=50, moda≈50.91: las tres son parecidas porque la distribución es bastante simétrica."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una fábrica de zapatos registra los pares producidos por día durante 50 días: 100-150 (f=5), 150-200 (f=12), 200-250 (f=20), 250-300 (f=9), 300-350 (f=4). La media de esta producción es ___ pares.",
+          "respuestaCorrecta": "220",
+          "retroalimentacion": "Marcas: 125,175,225,275,325. media=(5·125+12·175+20·225+9·275+4·325)/50=220."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Con la misma tabla de producción de la fábrica de zapatos, la mediana exacta también es 220 pares, igual que la media.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: n/2=25. Acumuladas: 5,17,37,46,50. Clase mediana 200-250 (Li=200, Fant=17, fme=20, A=50). Me=200+[(25−17)/20]×50=220."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Con la misma tabla de producción de la fábrica de zapatos, ¿cuál es la moda estimada, redondeada a dos decimales?",
+          "opciones": [
+            "221.05",
+            "220.00",
+            "225.00",
+            "215.00"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Clase modal 200-250 (fmo=20, Li=200, fant=12, fpost=9, A=50). Mo=200+[(20−12)/((20−12)+(20−9))]×50≈221.05."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Con la misma tabla de producción de la fábrica de zapatos, la desviación media de la producción diaria es ___ pares.",
+          "respuestaCorrecta": "40.6",
+          "retroalimentacion": "DM=[5|125−220|+12|175−220|+20|225−220|+9|275−220|+4|325−220|]/50=2030/50=40.6."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En la fábrica de zapatos, la media (220) y la mediana (220) son prácticamente iguales. ¿Qué te dice esto sobre la forma en que se distribuyen los datos de producción alrededor del centro?",
+          "opciones": [
+            "Que la distribución es bastante simétrica, sin valores muy extremos que jalen el promedio hacia un lado",
+            "Que hay un error en los cálculos, porque la media y la mediana nunca pueden coincidir",
+            "Que todos los días se produjeron exactamente 220 pares",
+            "Que la desviación media también debe valer 0"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Correcto: cuando media y mediana son muy parecidas, es señal de que la distribución no está sesgada por valores atípicos; en el subtema 10.10 verás qué pasa cuando sí los hay."
+        }
+      ]
+    },
+    {
+      "numero": "10.10",
+      "nivelEtiqueta": "Nivel 3 de 3 · Dominio",
+      "titulo": "Comparar y decidir: la medida más representativa ante datos sesgados",
+      "explicacion": "Dominar la estadística con datos agrupados no es solo saber calcular las fórmulas, sino saber elegir e interpretar la medida correcta según el contexto: cuándo comparar la desviación media de forma relativa (como porcentaje de la media) para que la comparación sea justa entre grupos distintos, y cuándo desconfiar de la media porque unos cuantos valores muy altos o muy bajos (atípicos) la distorsionan, siendo la mediana o la moda más representativas del 'dato típico'.",
+      "formula": "DM relativa (%) = (DM / media) × 100",
+      "ejemplos": [
+        "Dos escuelas comparan las calificaciones (escala 5-10) de sus 50 alumnos. Escuela X: media=8.06, DM=1.0128 (≈1.01). Escuela Y: media=7.4, DM=0.96. En términos absolutos, la Escuela X parece más dispersa (1.01>0.96). Pero la DM relativa da otra imagen: Escuela X = (1.0128/8.06)×100 ≈ 12.57%; Escuela Y = (0.96/7.4)×100 ≈ 12.97%. Relativamente, la Escuela Y tiene calificaciones un poco MÁS dispersas que la X, aunque su desviación media absoluta sea menor, porque su media también es más baja.",
+        "Una empresa agrupa los sueldos por hora (pesos) de sus 46 empleados: 4-8 (f=10), 8-12 (f=14), 12-16 (f=10), 16-20 (f=6), 20-24 (f=4), 24-60 (f=2) —estos últimos 2 son sueldos de gerentes, mucho más altos que el resto—. Media=13.48, mediana=11.71, moda=10. La media es la mayor de las tres porque los 2 sueldos de gerentes (entre 24 y 60) la 'jalan' hacia arriba, aunque representen solo 2 de 46 empleados. La mediana y la moda son más representativas del sueldo 'típico' de la mayoría."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "llenar_frase",
+          "frase": "Escuela X registra las calificaciones (escala 5-10) de sus 50 alumnos: 5-6 (f=3), 6-7 (f=7), 7-8 (f=12), 8-9 (f=15), 9-10 (f=13). La media de estas calificaciones es ___.",
+          "respuestaCorrecta": "8.06",
+          "retroalimentacion": "Marcas: 5.5,6.5,7.5,8.5,9.5. media=(3·5.5+7·6.5+12·7.5+15·8.5+13·9.5)/50=403/50=8.06."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Escuela Y registra las calificaciones de sus 50 alumnos: 5-6 (f=6), 6-7 (f=14), 7-8 (f=15), 8-9 (f=9), 9-10 (f=6). ¿Cuál es la media de este grupo?",
+          "opciones": [
+            "7.4",
+            "8.06",
+            "7.0",
+            "7.8"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Marcas: 5.5,6.5,7.5,8.5,9.5. media=(6·5.5+14·6.5+15·7.5+9·8.5+6·9.5)/50=370/50=7.4."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La desviación media de las calificaciones de la Escuela X es 1.01 y la de la Escuela Y es 0.96. En términos absolutos (sin convertir a porcentaje), esto significa que la Escuela X tiene calificaciones ligeramente más dispersas que la Escuela Y.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: comparando las desviaciones medias directamente, 1.01 es mayor que 0.96, así que en términos absolutos X está algo más dispersa."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada conjunto con su desviación media relativa (redondeada a dos decimales).",
+          "columnaA": [
+            "Escuela X: calificaciones, media=8.06, DM=1.01",
+            "Escuela Y: calificaciones, media=7.4, DM=0.96",
+            "Empresa: sueldos por hora, media=13.48, DM=5.37"
+          ],
+          "columnaB": [
+            "39.83%",
+            "12.97%",
+            "12.57%"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "Escuela X: (1.01/8.06)×100≈12.57%. Escuela Y: (0.96/7.4)×100≈12.97%. Empresa: (5.37/13.48)×100≈39.83%. La empresa tiene, por mucho, la mayor dispersión relativa: los sueldos de los gerentes hacen que el grupo sea muy heterogéneo comparado con las calificaciones de las escuelas."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Con media=7.4 y DM=0.96 para la Escuela Y, la desviación media relativa es ___ % (redondea a dos decimales).",
+          "respuestaCorrecta": "12.97",
+          "retroalimentacion": "DM relativa = (0.96/7.4)×100 ≈ 12.97%."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una empresa agrupa los sueldos por hora (pesos) de sus 46 empleados: 4-8 (f=10), 8-12 (f=14), 12-16 (f=10), 16-20 (f=6), 20-24 (f=4), 24-60 (f=2) —los 2 últimos son sueldos de gerentes—. ¿Cuál es la media de estos sueldos por hora, redondeada a dos decimales?",
+          "opciones": [
+            "13.48",
+            "11.71",
+            "10.00",
+            "14.00"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Marcas: 6,10,14,18,22,42. media=(10·6+14·10+10·14+6·18+4·22+2·42)/46≈13.48."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Con la misma tabla de sueldos de la empresa, la mediana exacta, redondeada a dos decimales, es ___.",
+          "respuestaCorrecta": "11.71",
+          "retroalimentacion": "n=46, n/2=23. Acumuladas: 10,24,34,40,44,46. Clase mediana 8-12 (Li=8, Fant=10, fme=14, A=4). Me=8+[(23−10)/14]×4≈11.71."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Con la misma tabla de sueldos de la empresa, la moda estimada de los sueldos por hora es 10 pesos.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: clase modal 8-12 (fmo=14, Li=8, fant=10, fpost=10, A=4). Como fant=fpost, la moda cae en la marca de clase: Mo=8+4/2=10."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En la tabla de sueldos de la empresa, la diferencia entre la media (13.48) y la mediana o la moda (11.71 y 10) se debe a que los 2 sueldos de gerentes (en el intervalo 24-60) jalan el promedio hacia arriba, aunque la mayoría de empleados gane menos.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: unos cuantos valores muy altos (los gerentes) distorsionan la media, mientras que la mediana y la moda reflejan mejor el sueldo de la mayoría de los empleados."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Si el gerente de recursos humanos quiere reportar el sueldo 'típico' de un empleado de esta empresa de la forma más representativa, sin que lo distorsionen los sueldos de los gerentes, ¿qué medida le conviene más usar?",
+          "opciones": [
+            "La mediana o la moda, porque no se ven tan afectadas por los valores extremos como la media",
+            "La media, porque siempre es la medida más representativa de cualquier conjunto de datos",
+            "La desviación media, porque reemplaza directamente al sueldo típico",
+            "Ninguna medida sirve cuando los datos están agrupados en una tabla"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Correcto: ante valores atípicos (los sueldos de los gerentes), la mediana y la moda son más representativas del sueldo típico que la media, que se ve arrastrada por esos valores extremos."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "llenar_frase",
+      "frase": "Calificaciones: 5, 6, 7, 8, 9 (media=7). La desviación media de este conjunto es ___.",
+      "respuestaCorrecta": "1.2",
+      "retroalimentacion": "Distancias: 2,1,0,1,2. Suma=6. DM=6/5=1.2."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Datos: 10, 12, 14, 16, 18 (media=14). ¿Cuál es la desviación media de este conjunto?",
+      "opciones": [
+        "2.4",
+        "2.0",
+        "1.6",
+        "3.0"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "Distancias: 4,2,0,2,4. Suma=12. DM=12/5=2.4."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Datos: 3, 5, 5, 7, 10 (media=6). La desviación media de este conjunto es 2.0.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: distancias 3,1,1,1,4, suma=10, DM=10/5=2.0."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Datos: 2, 4, 6, 8, 10 (media=6). La desviación media de este conjunto es 1.6.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Falso: distancias 4,2,0,2,4, suma=12, DM=12/5=2.4, no 1.6."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Datos: 15, 17, 18, 19, 21 (media=18). ¿Cuál es la desviación media de este conjunto?",
+      "opciones": [
+        "1.6",
+        "1.2",
+        "2.0",
+        "0.8"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "Distancias: 3,1,0,1,3. Suma=8. DM=8/5=1.6."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada conjunto de datos con su desviación media.",
+      "columnaA": [
+        "Calificaciones 6,7,8,9,10 (media=8)",
+        "Edades 12,13,13,14,18 (media=14)",
+        "Datos 20,22,24,26,28 (media=24)"
+      ],
+      "columnaB": [
+        "2.4",
+        "1.2",
+        "1.6"
+      ],
+      "parejasCorrectas": [
+        1,
+        2,
+        0
+      ],
+      "retroalimentacion": "Calificaciones: DM=6/5=1.2. Edades: DM=8/5=1.6. Datos 20-28: distancias 4,2,0,2,4, suma=12, DM=12/5=2.4."
+    }
+  ]
+}

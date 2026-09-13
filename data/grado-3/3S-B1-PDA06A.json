@@ -1,0 +1,544 @@
+{
+  "id": "3S-B1-PDA06A",
+  "grado": "3°",
+  "trimestre": "2",
+  "numero": 16,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Forma, espacio y medida",
+  "titulo": "Áreas y Volúmenes de Cuerpos Geométricos 6.1",
+  "contenido": "Construcción y propiedades de las figuras planas y cuerpos.",
+  "pda": "Calcula el área total y el volumen de prismas, pirámides y cilindros, y relaciona sus vistas con su representación tridimensional.",
+  "problematizacion": {
+    "contexto": "Natalia arma cajas de cartón para empacar pedidos en la bodega de una papelería en la Ciudad de México. Antes de armar una caja con forma de prisma rectangular, dibuja primero su desarrollo plano (todas las caras extendidas) para no desperdiciar cartón.",
+    "pregunta": "A partir del desarrollo plano de la caja, ¿cuál es el área total de cartón que necesita y cuál es el volumen que cabe adentro?"
+  },
+  "subtemas": [
+    {
+      "numero": "6.1",
+      "titulo": "Desarrollo plano (redes) de cuerpos geométricos",
+      "explicacion": "El desarrollo plano (o red) de un cuerpo geométrico es la figura que se obtiene al 'desdoblarlo' por sus aristas hasta dejarlo completamente extendido sobre un plano. Ver el desarrollo plano de un cuerpo ayuda a identificar todas sus caras y a entender por qué las fórmulas de área total suman TODAS esas caras. Por ejemplo: un prisma rectangular (una caja) se desdobla en 6 rectángulos; un prisma triangular se desdobla en 2 triángulos (las bases) más 3 rectángulos (una por cada lado del triángulo); una pirámide cuadrangular se desdobla en 1 cuadrado (la base) más 4 triángulos (las caras laterales, que se juntan en el vértice); y un cilindro se desdobla en 2 círculos (las bases) más 1 rectángulo, que es precisamente la superficie lateral 'desenrollada'.",
+      "ejemplos": [
+        "Una caja de zapatos (prisma rectangular) tiene 6 caras: si la desdoblas por sus aristas, obtienes 6 rectángulos.",
+        "Una lata de refresco (cilindro) tiene 2 tapas circulares y una etiqueta que, al despegarla y extenderla, forma un rectángulo: por eso su desarrollo plano es 2 círculos + 1 rectángulo."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuántos rectángulos forman el desarrollo plano de un prisma rectangular (una caja)?",
+          "opciones": [
+            "4",
+            "5",
+            "6",
+            "8"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Una caja tiene 6 caras rectangulares: arriba, abajo y los 4 lados."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El desarrollo plano de un cilindro está formado por 2 círculos y 1 rectángulo.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: las 2 tapas circulares (bases) y un rectángulo que es la superficie lateral desenrollada."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El desarrollo plano de una pirámide cuadrangular tiene 1 cuadrado (la base) y ___ triángulos (las caras laterales).",
+          "respuestaCorrecta": "4",
+          "retroalimentacion": "Una pirámide cuadrangular tiene 4 caras laterales triangulares, una por cada lado de la base cuadrada."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuántas figuras en total forman el desarrollo plano de un prisma triangular (2 triángulos + 3 rectángulos)?",
+          "opciones": [
+            "5",
+            "6",
+            "4",
+            "3"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "2 triángulos (las bases) + 3 rectángulos (uno por cada lado del triángulo) = 5 figuras."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El desarrollo plano de un cubo está formado por 6 cuadrados iguales.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: el cubo es un caso especial de prisma rectangular donde las 6 caras son cuadrados idénticos."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El rectángulo del desarrollo plano de un cilindro representa la superficie ___ del cilindro.",
+          "respuestaCorrecta": "lateral",
+          "retroalimentacion": "Al 'desenrollar' la pared curva del cilindro, esta se convierte en un rectángulo: es la superficie lateral."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada cuerpo geométrico con las figuras que forman su desarrollo plano.",
+          "columnaA": [
+            "Cilindro",
+            "Prisma triangular",
+            "Cubo"
+          ],
+          "columnaB": [
+            "6 cuadrados",
+            "2 círculos + 1 rectángulo",
+            "2 triángulos + 3 rectángulos"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "Cilindro: 2 círculos + 1 rectángulo. Prisma triangular: 2 triángulos + 3 rectángulos. Cubo: 6 cuadrados."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una pirámide con base triangular tiene, en su desarrollo plano, ¿cuántas caras triangulares en total (incluyendo la base)?",
+          "opciones": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "1 triángulo de base + 3 triángulos laterales (uno por cada lado de la base) = 4 caras triangulares."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El desarrollo plano de un prisma triangular incluye 3 rectángulos, uno por cada lado del triángulo de la base.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: cada lado del triángulo de la base se convierte en una cara rectangular lateral."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El desarrollo plano de un prisma pentagonal (base con 5 lados) tiene 2 pentágonos y ___ rectángulos.",
+          "respuestaCorrecta": "5",
+          "retroalimentacion": "Un rectángulo lateral por cada uno de los 5 lados del pentágono de la base."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 1 de 4 · Introductorio"
+    },
+    {
+      "numero": "6.2",
+      "titulo": "Área total de prismas",
+      "explicacion": "El área total (o superficie total) de un prisma es la suma de las áreas de TODAS sus caras, tal como las ves en su desarrollo plano: las 2 bases más todas las caras laterales. Para un prisma rectangular (una caja) con largo l, ancho a y altura h, hay 3 pares de caras rectangulares iguales: la de arriba y abajo (l×a), la de al frente y atrás (l×h), y la de los dos lados (a×h). Por eso cada término se multiplica por 2.",
+      "formula": "Área total de un prisma rectangular = 2×(largo×ancho) + 2×(largo×altura) + 2×(ancho×altura)",
+      "ejemplos": [
+        "Caja de 5×4×3 cm: AT = 2(5×4) + 2(5×3) + 2(4×3) = 2(20) + 2(15) + 2(12) = 40+30+24 = 94 cm².",
+        "Caja de 8×3×2 cm: AT = 2(8×3) + 2(8×2) + 2(3×2) = 48+32+12 = 92 cm²."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el área total de una caja de 5 cm de largo, 4 cm de ancho y 3 cm de altura?",
+          "opciones": [
+            "94 cm²",
+            "60 cm²",
+            "47 cm²",
+            "120 cm²"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "AT = 2(5×4)+2(5×3)+2(4×3) = 40+30+24 = 94 cm²."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El área total de una caja de 6 cm de largo, 2 cm de ancho y 4 cm de altura es 88 cm².",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: AT = 2(6×2)+2(6×4)+2(2×4) = 24+48+16 = 88 cm²."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El área total de una caja de 8×3×2 cm es ___ cm².",
+          "respuestaCorrecta": "92",
+          "retroalimentacion": "AT = 2(8×3)+2(8×2)+2(3×2) = 48+32+12 = 92 cm²."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el área total de una caja de 7 cm de largo, 5 cm de ancho y 2 cm de altura?",
+          "opciones": [
+            "70 cm²",
+            "94 cm²",
+            "118 cm²",
+            "140 cm²"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "AT = 2(7×5)+2(7×2)+2(5×2) = 70+28+20 = 118 cm²."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El área total de un cubo de 4 cm de arista es 96 cm².",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: en un cubo las 3 dimensiones son iguales, AT = 2(4×4)+2(4×4)+2(4×4) = 3×32 = 96 cm²."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El área total de una caja de 10×3×3 cm es ___ cm².",
+          "respuestaCorrecta": "138",
+          "retroalimentacion": "AT = 2(10×3)+2(10×3)+2(3×3) = 60+60+18 = 138 cm²."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El área total de una caja de 6×6×2 cm es 130 cm².",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: AT = 2(6×6)+2(6×2)+2(6×2) = 72+24+24 = 120 cm², no 130 cm²."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el área total de una caja de 9×4×3 cm?",
+          "opciones": [
+            "108 cm²",
+            "132 cm²",
+            "150 cm²",
+            "165 cm²"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "AT = 2(9×4)+2(9×3)+2(4×3) = 72+54+24 = 150 cm²."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada caja con su área total correcta.",
+          "columnaA": [
+            "Caja 5×5×5 cm",
+            "Caja 12×2×3 cm",
+            "Caja 8×4×5 cm"
+          ],
+          "columnaB": [
+            "132 cm²",
+            "184 cm²",
+            "150 cm²"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "5×5×5: AT=3×2(25)=150 cm². 12×2×3: AT=2(24)+2(36)+2(6)=48+72+12=132 cm². 8×4×5: AT=2(32)+2(40)+2(20)=64+80+40=184 cm²."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El área total de una caja de 6×5×4 cm es ___ cm².",
+          "respuestaCorrecta": "148",
+          "retroalimentacion": "AT = 2(6×5)+2(6×4)+2(5×4) = 60+48+40 = 148 cm²."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 2 de 4 · Intermedio"
+    },
+    {
+      "numero": "6.3",
+      "titulo": "Volumen de prismas, pirámides y cilindros",
+      "explicacion": "El volumen es la cantidad de espacio que ocupa un cuerpo, y se mide en unidades cúbicas (cm³, m³...). Para un PRISMA (como una caja), el volumen es el área de su base multiplicada por su altura: como la base se 'repite' en cada nivel de altura. Para una PIRÁMIDE con la misma base y altura que un prisma, el volumen es exactamente la tercera parte, porque el cuerpo se va angostando hasta terminar en un vértice. Para un CILINDRO, la base es un círculo (área = π×r²), así que su volumen es π×r²×h; en esta app usaremos siempre π≈3.14, y como resultado puede tener hasta 2 decimales.",
+      "formula": "Volumen de un prisma = Área de la base × altura\nVolumen de una pirámide = (1/3) × Área de la base × altura\nVolumen de un cilindro = π × r² × h  (usa π≈3.14)",
+      "ejemplos": [
+        "Prisma rectangular de 5×4×3 cm: V = (5×4)×3 = 20×3 = 60 cm³.",
+        "Pirámide de base cuadrada de lado 6 cm y altura 5 cm: V = (1/3)×(6×6)×5 = (1/3)×36×5 = (1/3)×180 = 60 cm³.",
+        "Cilindro de radio 3 cm y altura 4 cm: V = 3.14×3²×4 = 3.14×9×4 = 113.04 cm³."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el volumen de un prisma rectangular de 5×4×3 cm?",
+          "opciones": [
+            "60 cm³",
+            "47 cm³",
+            "72 cm³",
+            "35 cm³"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "V = (5×4)×3 = 20×3 = 60 cm³."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El volumen de un prisma rectangular de 6×3×2 cm es 36 cm³.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: V = (6×3)×2 = 18×2 = 36 cm³."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El volumen de un prisma rectangular de 9×3×4 cm es ___ cm³.",
+          "respuestaCorrecta": "108",
+          "retroalimentacion": "V = (9×3)×4 = 27×4 = 108 cm³."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el volumen de una pirámide de base cuadrada de lado 6 cm y altura 5 cm?",
+          "opciones": [
+            "36 cm³",
+            "60 cm³",
+            "180 cm³",
+            "20 cm³"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "V = (1/3)×(6×6)×5 = (1/3)×36×5 = (1/3)×180 = 60 cm³."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El volumen de una pirámide de base cuadrada de lado 9 cm y altura 4 cm es 108 cm³.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: V = (1/3)×(9×9)×4 = (1/3)×81×4 = (1/3)×324 = 108 cm³."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El volumen de una pirámide de base rectangular de 6×3 cm y altura 4 cm es ___ cm³.",
+          "respuestaCorrecta": "24",
+          "retroalimentacion": "Área de la base = 6×3 = 18 cm². V = (1/3)×18×4 = (1/3)×72 = 24 cm³."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el volumen de un cilindro de radio 3 cm y altura 4 cm (usa π≈3.14)?",
+          "opciones": [
+            "113.04 cm³",
+            "84.78 cm³",
+            "150.72 cm³",
+            "37.68 cm³"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "V = π×r²×h = 3.14×3²×4 = 3.14×9×4 = 113.04 cm³."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El volumen de un cilindro de radio 5 cm y altura 3 cm (con π≈3.14) es 235.5 cm³.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: V = 3.14×5²×3 = 3.14×25×3 = 235.5 cm³."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada cuerpo geométrico con su volumen (usa π≈3.14 para el cilindro).",
+          "columnaA": [
+            "Prisma rectangular 7×4×5 cm",
+            "Pirámide base cuadrada lado 3 cm, altura 9 cm",
+            "Cilindro radio 2 cm, altura 5 cm"
+          ],
+          "columnaB": [
+            "62.8 cm³",
+            "140 cm³",
+            "27 cm³"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "Prisma: V=(7×4)×5=140 cm³. Pirámide: V=(1/3)×(3×3)×9=(1/3)×81=27 cm³. Cilindro: V=3.14×2²×5=62.8 cm³."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el volumen de un cilindro de radio 7 cm y altura 2 cm (usa π≈3.14)?",
+          "opciones": [
+            "307.72 cm³",
+            "153.86 cm³",
+            "439.6 cm³",
+            "43.96 cm³"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "V = 3.14×7²×2 = 3.14×49×2 = 307.72 cm³."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 3 de 4 · Avanzado"
+    },
+    {
+      "numero": "6.4",
+      "titulo": "Vistas de un cuerpo geométrico y aplicación combinada",
+      "explicacion": "Las vistas de un cuerpo geométrico son las proyecciones bidimensionales que se obtienen al observarlo desde una dirección específica: la vista frontal (de frente), la vista lateral (de lado) y la vista superior (desde arriba, en planta). Por ejemplo, la vista superior de un cilindro (visto desde arriba) es un círculo, y la vista frontal de una pirámide cuadrangular (vista de frente) es un triángulo. Ahora que ya sabes calcular áreas totales y volúmenes, vamos a aplicarlos juntos en problemas de la vida real: desde forrar una caja de regalo hasta calcular cuánta agua cabe en un tinaco.",
+      "ejemplos": [
+        "Un bote de pintura cilíndrico, visto desde arriba, se ve como un círculo; visto de frente, se ve como un rectángulo.",
+        "Una carpa de circo con forma de pirámide cuadrangular, vista de frente, se ve como un triángulo."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Qué forma tiene la vista superior (vista desde arriba) de un cilindro?",
+          "opciones": [
+            "Un círculo",
+            "Un rectángulo",
+            "Un triángulo",
+            "Un cuadrado"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Visto desde arriba, un cilindro se ve exactamente como su base: un círculo."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La vista frontal de una pirámide cuadrangular es un triángulo.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: de frente, las caras laterales triangulares que convergen en el vértice se proyectan como un triángulo."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La vista superior de un prisma rectangular (una caja) es un ___.",
+          "respuestaCorrecta": "rectángulo",
+          "retroalimentacion": "Vista desde arriba, se ve el contorno de la base de la caja: un rectángulo."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada cuerpo geométrico con la forma de la vista indicada.",
+          "columnaA": [
+            "Cilindro — vista superior",
+            "Pirámide cuadrangular — vista frontal",
+            "Cubo — vista lateral"
+          ],
+          "columnaB": [
+            "Círculo",
+            "Cuadrado",
+            "Triángulo"
+          ],
+          "parejasCorrectas": [
+            0,
+            2,
+            1
+          ],
+          "retroalimentacion": "Cilindro desde arriba: círculo. Pirámide de frente: triángulo. Cubo de lado: cuadrado."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto cartón (área total) se necesita para forrar una caja de regalo de 7×3×4 cm?",
+          "opciones": [
+            "122 cm²",
+            "84 cm²",
+            "106 cm²",
+            "140 cm²"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "AT = 2(7×3)+2(7×4)+2(3×4) = 42+56+24 = 122 cm²."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Se necesitan 136 cm² de cartón para forrar una caja de regalo de 10×4×2 cm.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: AT = 2(10×4)+2(10×2)+2(4×2) = 80+40+16 = 136 cm²."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El área total de cartón para forrar una caja de regalo de 6×4×5 cm es ___ cm².",
+          "respuestaCorrecta": "148",
+          "retroalimentacion": "AT = 2(6×4)+2(6×5)+2(4×5) = 48+60+40 = 148 cm²."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un tinaco cilíndrico tiene radio 5 dm y altura 8 dm. ¿Cuántos litros de agua le caben (usa π≈3.14 y recuerda que 1 dm³ = 1 litro)?",
+          "opciones": [
+            "628 litros",
+            "200 litros",
+            "314 litros",
+            "1256 litros"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "V = π×r²×h = 3.14×5²×8 = 3.14×25×8 = 628 dm³ = 628 litros."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El volumen de un silo cilíndrico de radio 3 m y altura 12 m (con π≈3.14) es 339.12 m³.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: V = 3.14×3²×12 = 3.14×9×12 = 339.12 m³. Este es el silo del inicio del tema."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una carpa de circo con forma de pirámide tiene base cuadrada de 6 m de lado y 6 m de altura. ¿Cuál es su volumen?",
+          "opciones": [
+            "72 m³",
+            "216 m³",
+            "36 m³",
+            "108 m³"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "V = (1/3)×(6×6)×6 = (1/3)×36×6 = (1/3)×216 = 72 m³."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 4 de 4 · Síntesis"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuántas figuras en total forman el desarrollo plano de una pirámide cuadrangular (1 cuadrado + 4 triángulos)?",
+      "opciones": [
+        "5",
+        "4",
+        "6",
+        "8"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "1 cuadrado (base) + 4 triángulos (caras laterales) = 5 figuras en total."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "El desarrollo plano de un prisma rectangular está formado por 6 rectángulos.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: una caja tiene 6 caras, todas rectangulares."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "El desarrollo plano de un cilindro tiene 2 círculos y 1 ___.",
+      "respuestaCorrecta": "rectángulo",
+      "retroalimentacion": "La superficie lateral del cilindro, al desenrollarse, forma un rectángulo."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "El rectángulo del desarrollo plano de un cilindro corresponde a su superficie lateral.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: las 2 bases son los círculos, y la superficie lateral es el rectángulo."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada cuerpo geométrico con las figuras que forman su desarrollo plano.",
+      "columnaA": [
+        "Cilindro",
+        "Prisma triangular",
+        "Cubo"
+      ],
+      "columnaB": [
+        "2 triángulos + 3 rectángulos",
+        "6 cuadrados",
+        "2 círculos + 1 rectángulo"
+      ],
+      "parejasCorrectas": [
+        2,
+        0,
+        1
+      ],
+      "retroalimentacion": "Cilindro: 2 círculos + 1 rectángulo. Prisma triangular: 2 triángulos + 3 rectángulos. Cubo: 6 cuadrados."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es el área total de una caja de 4×3×2 cm?",
+      "opciones": [
+        "52 cm²",
+        "36 cm²",
+        "26 cm²",
+        "44 cm²"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "AT = 2(4×3)+2(4×2)+2(3×2) = 24+16+12 = 52 cm²."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "El área total de una caja de 9×2×4 cm es 124 cm².",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: AT = 2(9×2)+2(9×4)+2(2×4) = 36+72+16 = 124 cm²."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "El área total de una caja de 5×3×3 cm es ___ cm².",
+      "respuestaCorrecta": "78",
+      "retroalimentacion": "AT = 2(5×3)+2(5×3)+2(3×3) = 30+30+18 = 78 cm²."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es el área total de una caja de 7×6×3 cm?",
+      "opciones": [
+        "162 cm²",
+        "126 cm²",
+        "138 cm²",
+        "180 cm²"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "AT = 2(7×6)+2(7×3)+2(6×3) = 84+42+36 = 162 cm²."
+    }
+  ]
+}

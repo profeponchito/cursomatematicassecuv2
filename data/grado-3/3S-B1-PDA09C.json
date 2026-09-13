@@ -1,0 +1,426 @@
+{
+  "id": "3S-B1-PDA09C",
+  "grado": "3°",
+  "trimestre": "3",
+  "numero": 27,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Muestras y Análisis Crítico de Gráficas 9.3",
+  "contenido": "Obtención y representación de información.",
+  "pda": "Distingue población y muestra, y analiza críticamente gráficas estadísticas, incluyendo gráficas que pueden inducir a error.",
+  "problematizacion": {
+    "contexto": "Sofía es reportera del periódico escolar en Chihuahua y recibió un estudio de una compañía de telefonía que asegura, con una encuesta a solo 30 usuarios de una sola colonia, que 'el 95% de los clientes está satisfecho con la señal', acompañado de una gráfica cuyo eje vertical empieza en 80% en vez de 0%.",
+    "pregunta": "Auditando el estudio completo, ¿qué tan válida es la muestra, y cuánto exagera visualmente la gráfica la satisfacción real de los clientes?"
+  },
+  "subtemas": [
+    {
+      "numero": "9.8",
+      "nivelEtiqueta": "Nivel 1 de 3 · Reto avanzado",
+      "titulo": "Calcular cuánto exagera una gráfica con eje vertical recortado",
+      "explicacion": "Ya sabíamos que un eje vertical que no empieza en cero exagera visualmente los cambios; ahora vamos a calcular exactamente cuánto los exagera, comparando el cambio real de los datos con el cambio que percibe quien ve la gráfica (según dónde empieza el eje). Esto permite poner un número —un factor de exageración— a qué tan engañosa es una gráfica en particular, en vez de solo decir 'se ve exagerada'.",
+      "formula": "Cambio real (%) = (valor final − valor inicial) ÷ valor inicial × 100. Factor de exageración = valor inicial ÷ (valor inicial − punto donde empieza el eje)",
+      "ejemplos": [
+        "El precio de un boleto de camión sube de $12.00 a $12.60 (aumento real de 5%). La gráfica usa un eje que empieza en $11.00. Alturas visuales: 12.00−11.00=1.00 y 12.60−11.00=1.60; cambio visual = (1.60−1.00)÷1.00×100=60%. Factor de exageración = 60÷5=12 (o, directamente, 12.00÷(12.00−11.00)=12): la gráfica hace ver el aumento 12 veces más grande de lo que realmente es.",
+        "Las ventas de una tienda suben de $50,000 a $54,000 (aumento real de 8%). La gráfica usa un eje que empieza en $48,000. Factor de exageración = 50,000÷(50,000−48,000)=50,000÷2,000=25."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El precio de un boleto de metro sube de $5.00 a $5.25 (aumento real de 5%). La gráfica de un noticiero usa un eje que empieza en $4.50. ¿Cuál es el factor de exageración de esta gráfica?",
+          "opciones": [
+            "10",
+            "5",
+            "2",
+            "50"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Factor = 5.00 ÷ (5.00 − 4.50) = 5.00 ÷ 0.50 = 10; la gráfica exagera el aumento 10 veces."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si el eje de una gráfica empieza exactamente en 0, el factor de exageración siempre es igual a 1, es decir, la gráfica no exagera nada.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: factor = valor inicial ÷ (valor inicial − 0) = valor inicial ÷ valor inicial = 1."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Las ventas de una papelería suben de $8,000 a $8,320 (aumento real de 4%). Si la gráfica usa un eje que empieza en $7,000, el factor de exageración es de ___.",
+          "respuestaCorrecta": "8",
+          "retroalimentacion": "Factor = 8,000 ÷ (8,000 − 7,000) = 8,000 ÷ 1,000 = 8."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Las exportaciones de una empresa suben de $120,000 a $126,000 (aumento real de 5%). Una gráfica usa un eje que empieza en $114,000. ¿Cuál es el factor de exageración?",
+          "opciones": [
+            "20",
+            "5",
+            "6",
+            "100"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Factor = 120,000 ÷ (120,000 − 114,000) = 120,000 ÷ 6,000 = 20."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Entre dos gráficas que muestran el mismo aumento real, la que tiene el eje recortado más cerca del valor inicial (es decir, con una diferencia más pequeña entre el valor inicial y el inicio del eje) tiene un factor de exageración mayor.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: como el factor es valor inicial ÷ (valor inicial − inicio del eje), entre más pequeño sea ese denominador, mayor es el factor."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El precio de un boleto de cine sube de $65 a $68.90 (aumento real de 6%). Si una gráfica muestra este aumento con un eje que empieza en $60, el factor de exageración es de ___.",
+          "respuestaCorrecta": "13",
+          "retroalimentacion": "Factor = 65 ÷ (65 − 60) = 65 ÷ 5 = 13."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Dos gráficas muestran el mismo aumento real a partir de un valor inicial de $200. La gráfica A usa un eje que empieza en $180; la gráfica B usa un eje que empieza en $150. ¿Cuál gráfica exagera más el mismo aumento real?",
+          "opciones": [
+            "La gráfica A, porque su eje recortado está más cerca del valor inicial",
+            "La gráfica B, porque tiene un eje más bajo en términos absolutos",
+            "Ambas exageran exactamente igual",
+            "Ninguna exagera, porque ambas recortan el eje"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Factor A = 200÷(200−180)=10. Factor B = 200÷(200−150)=4. La gráfica A exagera más, aunque su eje recortado parezca 'menos agresivo' en apariencia."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación (valor inicial e inicio del eje) con su factor de exageración correcto.",
+          "columnaA": [
+            "Valor inicial $40, eje empieza en $30",
+            "Valor inicial $500, eje empieza en $400",
+            "Valor inicial $90, eje empieza en $60"
+          ],
+          "columnaB": [
+            "5",
+            "3",
+            "4"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "40÷(40−30)=4. 500÷(500−400)=5. 90÷(90−60)=3."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El factor de exageración depende únicamente del valor final de los datos, no del valor inicial ni del punto donde empieza el eje.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: el factor de exageración se calcula con el valor inicial y el punto donde empieza el eje (valor inicial ÷ (valor inicial − inicio del eje)); el valor final no interviene en esta fórmula."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una noticia dice que el desempleo 'se disparó': subió de 4.0% a 4.2% de la población económicamente activa (un aumento real de 5%). La gráfica que acompaña la noticia usa un eje que va de 3.8% a 4.5%. ¿Cuál es el factor de exageración?",
+          "opciones": [
+            "20",
+            "5",
+            "4",
+            "2"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Factor = 4.0 ÷ (4.0 − 3.8) = 4.0 ÷ 0.2 = 20; la gráfica hace ver el aumento 20 veces más grande de lo que realmente es."
+        }
+      ]
+    },
+    {
+      "numero": "9.9",
+      "nivelEtiqueta": "Nivel 2 de 3 · Integración",
+      "titulo": "Casos integrados: evaluar el muestreo y calcular la distorsión de la gráfica en un mismo estudio",
+      "explicacion": "Un estudio real debe juzgarse en dos frentes independientes a la vez, y ahora con números concretos: si el muestreo (aleatorio, estratificado o sistemático) se aplicó correctamente y de forma proporcional, y cuánto distorsiona la gráfica que acompaña los resultados (el factor de exageración que ya sabes calcular). Un estudio puede fallar en uno, en ambos o en ninguno de los dos frentes, y en esta lección practicarás diagnosticar y calcular ambas cosas dentro de un mismo caso, integrando lo visto en 9.2, 9.6 y 9.7 (muestreo) con lo visto en 9.3 y 9.8 (gráficas).",
+      "formula": "Estimación poblacional = (frecuencia ÷ muestra) × población. Muestra por estrato = (estrato ÷ población) × muestra. Factor de exageración = valor inicial ÷ (valor inicial − inicio del eje)",
+      "ejemplos": [
+        "Una cadena de gimnasios con 4 sucursales (900, 700, 500 y 400 socios; total 2,500) quiere estimar cuántos de sus 2,500 socios usan la app móvil, y encuesta una muestra estratificada proporcional de 250 socios. A la sucursal de 900 socios le correspondería (900÷2,500)×250=90 encuestados, pero en realidad el estudio solo encuestó a 40 de esa sucursal: la muestra subrepresenta a la sucursal más grande, y el estudio pierde validez sin importar qué tan bien construida esté la gráfica que presente los resultados.",
+        "Un reporte de satisfacción usa una muestra aleatoria bien diseñada de 600 personas (representativa), pero presenta el resultado —que subió de 32% a 40%— en una gráfica con eje que empieza en 28%. Factor de exageración = 32÷(32−28)=8. Aquí la muestra está bien, pero la gráfica sí tiene un problema real y calculable."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una empresa con 4,000 empleados (2,400 en oficinas y 1,600 en planta) toma una muestra estratificada proporcional de 100 empleados. A los empleados de planta les corresponden proporcionalmente 40 en la muestra. De esos 40, 30 dijeron estar satisfechos con las prestaciones. ¿Cuántos de los 1,600 empleados de planta se estima que están satisfechos?",
+          "opciones": [
+            "1,200 empleados",
+            "900 empleados",
+            "1,600 empleados",
+            "750 empleados"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "30 ÷ 40 = 0.75 (75%). Estimación: 0.75 × 1,600 = 1,200 empleados de planta."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si una muestra estratificada no respeta la proporción correcta entre estratos (por ejemplo, toma muy pocos elementos de un grupo grande), la estimación poblacional calculada a partir de ella puede no ser confiable, sin importar qué tan bien construida esté la gráfica que presente los resultados.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: un problema en el diseño de la muestra no se corrige con una gráfica bien hecha; son dos frentes independientes."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un ayuntamiento con 9,000 habitantes en 3 colonias (4,500 / 3,000 / 1,500) hace una muestra estratificada de 180 personas. A la colonia de 1,500 habitantes le corresponden ___ personas en la muestra.",
+          "respuestaCorrecta": "30",
+          "retroalimentacion": "(1,500 ÷ 9,000) × 180 = 30 personas."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una encuesta representativa (muestra aleatoria de 600 personas de una ciudad de 30,000 habitantes, bien diseñada) mide el apoyo a una ciclovía antes y después de una campaña: subió de 32% a 40%. El resultado se presenta en una gráfica de barras con eje que empieza en 28% (en vez de 0%). ¿Cuál es el factor de exageración de esta gráfica?",
+          "opciones": [
+            "8",
+            "25",
+            "200",
+            "4"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Factor = 32 ÷ (32 − 28) = 32 ÷ 4 = 8."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En el caso de la ciclovía anterior, aunque la muestra sea representativa y confiable, la gráfica sigue teniendo un problema real: exagera 8 veces el aumento verdadero del apoyo.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: una muestra confiable no vuelve confiable a una gráfica mal construida; ambos aspectos se evalúan por separado."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una fábrica textil produce 7,200 prendas a la semana y usa un muestreo sistemático con k=50 para inspeccionar 144 prendas. De esas 144 prendas inspeccionadas, 18 tienen algún defecto. ¿Cuántas prendas defectuosas se estima que hay en el total de 7,200 producidas esa semana?",
+          "opciones": [
+            "900 prendas",
+            "720 prendas",
+            "1,000 prendas",
+            "450 prendas"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "18 ÷ 144 = 0.125 (12.5%). Estimación: 0.125 × 7,200 = 900 prendas."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El muestreo sistemático del caso anterior sería problemático si el defecto ocurriera siempre en la máquina que interviene exactamente cada 50 prendas, porque entonces la muestra podría no representar bien al resto de la producción.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: si k=50 coincide con un patrón de periodicidad ligado al defecto, la muestra estaría sesgada aunque el procedimiento parezca correcto."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada caso con el diagnóstico correcto sobre dónde está su problema (si lo tiene).",
+          "columnaA": [
+            "Muestra aleatoria bien diseñada + gráfica con eje desde 0%",
+            "Muestra estratificada mal proporcionada (subrepresenta un grupo grande) + gráfica bien construida",
+            "Muestra aleatoria bien diseñada + gráfica con eje recortado con factor de exageración de 10"
+          ],
+          "columnaB": [
+            "El problema está en la gráfica, no en la muestra",
+            "No hay ningún problema: estudio confiable",
+            "El problema está en la muestra, no en la gráfica"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "Muestra y gráfica bien hechas: sin problema. Muestra mal proporcionada + gráfica bien hecha: el problema es la muestra. Muestra bien hecha + gráfica con factor 10: el problema es la gráfica."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una asociación de 15,000 socios en 3 regiones (7,500 / 5,000 / 2,500) toma una muestra estratificada de 300 socios. A la región de 5,000 socios le corresponden ___ socios en la muestra.",
+          "respuestaCorrecta": "100",
+          "retroalimentacion": "(5,000 ÷ 15,000) × 300 = 100 socios."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una cadena de restaurantes toma una muestra estratificada proporcional de 400 clientes en total; una sucursal con 2,000 de los 20,000 clientes frecuentes de la cadena (10% del total) debería aportar 40 clientes, pero solo se encuestó a 10 clientes de ahí. Además, los resultados de satisfacción (que subieron de 55% a 60%) se presentan en una gráfica con eje que empieza en 50%. ¿Cuáles son los dos problemas de este estudio?",
+          "opciones": [
+            "La muestra subrepresenta a una sucursal grande (10 en vez de 40 encuestados) Y la gráfica exagera el aumento con un factor de 11",
+            "Solo hay un problema: la muestra",
+            "Solo hay un problema: la gráfica",
+            "No hay ningún problema, ambos aspectos están bien"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "La sucursal debía aportar 40 encuestados y solo aportó 10 (muestra subrepresentada). Además, factor de exageración = 55÷(55−50)=11."
+        }
+      ]
+    },
+    {
+      "numero": "9.10",
+      "nivelEtiqueta": "Nivel 3 de 3 · Dominio",
+      "titulo": "Caso final de dominio: auditoría completa de un estudio estadístico",
+      "explicacion": "En esta lección no aprenderás una técnica nueva, sino que aplicarás TODAS las herramientas del PDA en un solo caso extendido: identificar población y muestra, revisar si el muestreo (aleatorio, estratificado o sistemático) se aplicó de forma correcta y proporcional, calcular una estimación poblacional a partir de la muestra, y calcular el factor exacto de exageración de la gráfica que acompaña los resultados, para llegar a un veredicto final bien justificado sobre si la conclusión del estudio es confiable.",
+      "formula": "Estimación poblacional = (frecuencia ÷ muestra) × población. Muestra por estrato = (estrato ÷ población) × muestra. Intervalo sistemático k = población ÷ muestra. Factor de exageración = valor inicial ÷ (valor inicial − inicio del eje)",
+      "ejemplos": [
+        "Un partido político anuncia que su candidato subió su intención de voto del 28% al 35% tras un debate. La encuesta se hizo con una muestra estratificada de 500 personas de un padrón de 40,000 votantes, dividido en 3 regiones (20,000 / 12,000 / 8,000), y el reporte muestra una gráfica con eje que empieza en 24%. Paso 1 (muestreo): cada región debería aportar 20,000÷40,000×500=250, 12,000÷40,000×500=150 y 8,000÷40,000×500=100 encuestados; si el reporte confirma esos números, el muestreo está bien proporcionado. Paso 2 (gráfica): factor de exageración = 28÷(28−24)=7. Conclusión: la muestra parece bien diseñada, pero la gráfica exagera 7 veces el cambio real; el dato no debería presentarse con esa gráfica sin advertirlo.",
+        "Una marca de multivitamínicos anuncia que 'el 90% de los atletas mejora su energía', basada en una muestra sistemática de 60 de los 3,000 atletas patrocinados por la marca (k=3,000÷60=50). Aunque el cálculo de k es correcto, el problema real es otro: la población de referencia son solo los atletas patrocinados por la marca, no 'los atletas' en general, así que la conclusión no puede generalizarse aunque el muestreo sistemático esté bien calculado."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una alcaldía con 60,000 habitantes divide una muestra estratificada de 600 personas en 3 colonias de 30,000, 18,000 y 12,000 habitantes, para medir el apoyo a un proyecto de parque. La colonia de 12,000 habitantes aportó 90 personas a la muestra. ¿Está correctamente proporcionada esa parte de la muestra?",
+          "opciones": [
+            "Sí, 90 es la proporción correcta para esa colonia",
+            "No, la colonia de 12,000 habitantes debería aportar 120 personas, no 90; está subrepresentada",
+            "No, debería aportar 60 personas",
+            "Sí, porque cualquier número menor a 100 es aceptable"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "(12,000 ÷ 60,000) × 600 = 120 personas; la colonia aportó solo 90, así que está subrepresentada."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "De los 90 encuestados de la colonia de 12,000 habitantes (caso anterior), 54 apoyan el proyecto del parque. Usando solo ese dato, ¿cuál sería la estimación de personas de esa colonia que apoyan el proyecto?",
+          "opciones": [
+            "7,200 personas",
+            "5,400 personas",
+            "9,000 personas",
+            "6,000 personas"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "54 ÷ 90 = 0.6 (60%). Estimación: 0.6 × 12,000 = 7,200 personas."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El resultado de 7,200 personas calculado en la pregunta anterior es matemáticamente correcto como estimación para esa colonia, pero el estudio en su conjunto sigue siendo cuestionable porque el reparto de la muestra entre colonias no fue proporcional.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: un cálculo de estimación puede ser aritméticamente correcto y, aun así, formar parte de un estudio con un problema de diseño en otra parte (el reparto entre colonias)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El reporte final de la alcaldía presenta el apoyo total, que subió de 42% a 48% tras una campaña, en una gráfica con eje que empieza en 36%. ¿Cuál es el factor de exageración de esta gráfica?",
+          "opciones": [
+            "7",
+            "14.3",
+            "6",
+            "2"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Factor = 42 ÷ (42 − 36) = 42 ÷ 6 = 7."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Combinando los dos hallazgos del caso de la alcaldía (la colonia subrepresentada y la gráfica con eje recortado), el estudio tiene ___ problemas independientes que afectan su confiabilidad.",
+          "respuestaCorrecta": "dos",
+          "retroalimentacion": "Un problema está en el reparto de la muestra entre colonias; el otro, independiente del primero, está en la construcción de la gráfica."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una marca de multivitamínicos afirma que 'el 90% de los atletas mejora su energía', basada en una muestra sistemática de 60 de los 3,000 atletas patrocinados por la marca (k=50, correctamente calculado). ¿Cuál es el problema principal de esta afirmación?",
+          "opciones": [
+            "No hay ningún problema, el muestreo sistemático siempre es válido si k está bien calculado",
+            "La población de referencia (atletas patrocinados por la marca) no representa a 'los atletas' en general, así que la conclusión no puede generalizarse",
+            "El problema es que 60 es una muestra demasiado grande",
+            "El problema es que k=50 está mal calculado"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Aunque k=50 esté bien calculado, la población de la que se tomó la muestra (solo atletas patrocinados) es distinta de 'los atletas' en general; el problema es de definición de población, no de técnica de muestreo."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Aunque una técnica de muestreo (aleatorio, estratificado o sistemático) se aplique con la fórmula correcta, la conclusión de un estudio puede seguir sin ser confiable si la población de la que se toma la muestra no es la población que se quiere representar.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: la técnica de muestreo y la definición de la población objetivo son dos revisiones distintas; ambas deben estar bien para confiar en la conclusión."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación de los casos anteriores con el tipo de problema al que corresponde.",
+          "columnaA": [
+            "Colonia de 12,000 habitantes aportó solo 90 personas en vez de 120 en la muestra estratificada",
+            "Gráfica del apoyo total con eje que empieza en 36%, factor de exageración de 7",
+            "Encuesta de atletas patrocinados por la marca usada para hablar de 'todos los atletas'"
+          ],
+          "columnaB": [
+            "Problema de definición de población objetivo",
+            "Problema de proporción entre estratos de la muestra",
+            "Problema de construcción de la gráfica"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "Colonia subrepresentada: problema de proporción entre estratos. Eje recortado con factor 7: problema de gráfica. Atletas patrocinados usados para 'todos los atletas': problema de definición de población."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Tomando en cuenta todo el caso de la alcaldía (colonia subrepresentada en la muestra Y gráfica con factor de exageración de 7), ¿cuál es el veredicto más correcto sobre el reporte del apoyo al proyecto del parque?",
+          "opciones": [
+            "El reporte es totalmente confiable porque usó muestreo estratificado",
+            "El reporte tiene al menos dos problemas independientes —una colonia subrepresentada en la muestra y una gráfica que exagera 7 veces el cambio real— por lo que su conclusión no debe aceptarse sin más análisis",
+            "El reporte es confiable porque la gráfica empieza en un número mayor que cero, lo cual siempre es válido",
+            "El reporte no tiene ningún problema porque el 48% final es un dato real verificado"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Usar una técnica de muestreo por nombre no garantiza que se haya aplicado bien, y un dato final real no vuelve confiable a una gráfica que lo exagera; ambos problemas deben señalarse."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Para declarar que un estudio estadístico es completamente confiable, es necesario revisar que la población esté bien definida, que la muestra (aleatoria, estratificada o sistemática) esté bien diseñada y correctamente proporcionada, y que cualquier gráfica que acompañe los resultados esté bien construida, sin exagerar mediante ejes recortados u otros recursos.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: esa revisión completa —población, muestra y gráfica— es exactamente lo que integra todo lo aprendido en este PDA."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Un estudio bien diseñado sobre 'el tiempo de traslado al trabajo' en una ciudad debería elegir la muestra...",
+      "opciones": [
+        "Solo entre quienes usan bicicleta",
+        "Al azar entre personas con distintos medios de transporte, zonas y horarios",
+        "Solo entre los empleados de una sola empresa",
+        "Solo entre quienes viven en el centro de la ciudad"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "Para representar a toda la ciudad, la muestra debe incluir, al azar, personas con distintos medios de transporte, zonas y horarios."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Una encuesta con muestra representativa y una gráfica bien construida (eje desde cero, escalas iguales) es más confiable que una con cualquiera de esos dos problemas.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: cumplir ambas condiciones —muestra representativa y gráfica bien construida— da la conclusión más confiable."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada término con su definición.",
+      "columnaA": [
+        "Población",
+        "Muestra",
+        "Gráfica engañosa"
+      ],
+      "columnaB": [
+        "Representación visual que puede llevar a conclusiones equivocadas por su diseño",
+        "Conjunto completo de elementos que interesa estudiar",
+        "Subconjunto de la población que se estudia realmente"
+      ],
+      "parejasCorrectas": [
+        1,
+        2,
+        0
+      ],
+      "retroalimentacion": "Población: el conjunto completo de interés. Muestra: el subconjunto realmente estudiado. Gráfica engañosa: una representación visual que puede inducir a conclusiones equivocadas."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Una marca de cereal afirma que '9 de cada 10 niños lo prefieren', basada en una encuesta a 10 niños que son hijos de empleados de la marca. ¿Qué problema tiene esta muestra?",
+      "opciones": [
+        "Ninguno, 10 niños son suficientes",
+        "Es una muestra muy pequeña y sesgada (hijos de empleados de la misma marca)",
+        "El problema es que se preguntó a niños y no a adultos",
+        "El problema es que el cereal no se puede estudiar con encuestas"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "Una muestra de solo 10 personas, además ligadas a la propia marca, no puede representar la preferencia de 'los niños' en general."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Un ícono que representa 'el doble de ventas' duplicando su altura Y su ancho en realidad multiplica su área visual por 4, no por 2.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: al duplicar dos dimensiones a la vez, el área resultante se multiplica por 2×2=4."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Una gráfica que exagera o distorsiona visualmente los datos reales se llama gráfica ___.",
+      "respuestaCorrecta": "engañosa",
+      "retroalimentacion": "A ese tipo de representación visual se le llama gráfica engañosa."
+    }
+  ]
+}

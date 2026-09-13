@@ -1,0 +1,590 @@
+{
+  "id": "3S-B1-PDA04A",
+  "grado": "3°",
+  "trimestre": "2",
+  "numero": 10,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Funciones 4.1",
+  "contenido": "Funciones.",
+  "pda": "Relaciona e interpreta la variación de dos cantidades a partir de su representación tabular, gráfica y algebraica. Explora diversos procedimientos para resolver problemas de reparto proporcional.",
+  "problematizacion": {
+    "contexto": "Cuatro compañeros de una secundaria en Tuxtla Gutiérrez pintaron un mural para la kermés escolar, trabajando 3, 5, 4 y 8 horas respectivamente. La escuela les dio $400 de reconocimiento y quieren repartirlo de forma justa, según las horas que aportó cada quien.",
+    "pregunta": "¿Cuánto le corresponde a cada uno de los cuatro compañeros si el reparto es proporcional a las horas trabajadas?"
+  },
+  "subtemas": [
+    {
+      "numero": "4.1",
+      "titulo": "¿Qué es el reparto proporcional?",
+      "explicacion": "El reparto proporcional distribuye una cantidad total entre varias partes, en proporción a un valor de referencia (como la aportación de cada socio). Se calcula sumando todas las partes de referencia, y dividiendo la cantidad total entre esa suma para obtener el valor de cada 'parte', que se multiplica por la aportación de cada quien.",
+      "formula": "parte de cada quien = (aportación individual / suma total de aportaciones) × cantidad a repartir",
+      "ejemplos": [
+        "Suma total = 3000+5000+2000 = 10,000. Juan: (3000/10000)×2000 = $600. Luis: (5000/10000)×2000 = $1,000. Marco: (2000/10000)×2000 = $400."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Se reparten $500 proporcionalmente entre dos personas que aportaron $100 y $150. A la primera (la de $100) le tocan $200.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: suma=250. (100/250)×500 = $200."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Al repartir $217 en razón 4:3, a la parte de razón 4 le tocan $124.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "(4/7)×217 = $124."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si x se multiplica por 5 y y también se multiplica por 5, es una variación directa.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "En variación directa, ambas cantidades cambian siempre en la misma proporción."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Al repartir $75 en razón 4:1, a la parte de razón 4 le tocan $60.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "(4/5)×75 = $60."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si x se multiplica por 3 y y también se multiplica por 3, es una variación directa.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "En variación directa, ambas cantidades cambian siempre en la misma proporción."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Se reparten $360 proporcionalmente entre dos personas que aportaron $40 y $80. ¿Cuánto le toca a la de $80?",
+          "opciones": [
+            "$180",
+            "$200",
+            "$240",
+            "$120"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Suma=120. (80/120)×360 = $240."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Al repartir $150 en razón 2:3, a la parte de razón 3 le tocan $___.",
+          "respuestaCorrecta": "90",
+          "retroalimentacion": "Suma=5. (3/5)×150 = $90."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Al repartir $180 en razón 5:1, a la parte de razón 5 le tocan $150.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: suma=6. (5/6)×180 = $150."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si x se multiplica por 2 y y se divide entre 2, es una variación directa.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Eso es variación inversa; en variación directa ambas cantidades cambian siempre en la misma proporción."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada reparto proporcional con el resultado de la parte indicada.",
+          "columnaA": [
+            "$100 en razón 1:4 — parte de razón 1",
+            "$300 en razón 2:3 — parte de razón 2",
+            "$210 en razón 3:4 — parte de razón 3"
+          ],
+          "columnaB": [
+            "$120",
+            "$90",
+            "$20"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "$100 en razón 1:4 — parte de razón 1 = $20; $300 en razón 2:3 — parte de razón 2 = $120; $210 en razón 3:4 — parte de razón 3 = $90."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 1 de 4 · Introductorio"
+    },
+    {
+      "numero": "4.2",
+      "titulo": "Variación directa entre dos cantidades",
+      "explicacion": "Cuando dos cantidades varían de forma que al duplicar una, la otra también se duplica (o al triplicar una, la otra también se triplica), se dice que hay una variación directa entre ellas: su razón siempre es constante.",
+      "ejemplos": [
+        "En una tabla, cuando x se duplica y y también se duplica, ambas varían en la misma proporción: es variación directa."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "llenar_frase",
+          "frase": "Juan, Luis y Marco aportaron $3,000, $5,000 y $2,000 respectivamente y reparten $2,000 de utilidad proporcionalmente. A Luis le corresponden $___.",
+          "respuestaCorrecta": "1000",
+          "retroalimentacion": "Suma=10,000. Luis: (5000/10000)×2000 = $1,000."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Se reparten $259 proporcionalmente entre dos personas con aportaciones en razón 3:4. A la de razón 4 le tocan $___.",
+          "respuestaCorrecta": "148",
+          "retroalimentacion": "Suma=7. (4/7)×259 = $148."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Se reparten $221 proporcionalmente entre dos personas con aportaciones en razón 9:8. A la de razón 8 le tocan $___.",
+          "respuestaCorrecta": "104",
+          "retroalimentacion": "Suma=17. (8/17)×221 = $104."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Se reparten $225 proporcionalmente entre dos personas con aportaciones en razón 4:5. A la de razón 5 le tocan $___.",
+          "respuestaCorrecta": "125",
+          "retroalimentacion": "Suma=9. (5/9)×225 = $125."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Se reparten $65 proporcionalmente entre dos personas con aportaciones en razón 4:1. A la de razón 1 le tocan $___.",
+          "respuestaCorrecta": "13",
+          "retroalimentacion": "Suma=5. (1/5)×65 = $13."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Se reparten $280 proporcionalmente entre dos personas con aportaciones en razón 3:4. ¿Cuánto le toca a la de razón 4?",
+          "opciones": [
+            "$140",
+            "$150",
+            "$160",
+            "$120"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Suma=7. (4/7)×280 = $160."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Se reparten $150 proporcionalmente entre dos personas con aportaciones de $30 y $70. A la de $70 le tocan $105.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: suma=100. (70/100)×150 = $105."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Se reparten $348 proporcionalmente entre dos personas con aportaciones en razón 5:7. A la de razón 5 le tocan $___.",
+          "respuestaCorrecta": "145",
+          "retroalimentacion": "Suma=12. (5/12)×348 = $145."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de las siguientes es una variación directa?",
+          "opciones": [
+            "Al duplicar x, y se reduce a la mitad",
+            "Al triplicar x, y se triplica también",
+            "Al aumentar x, y permanece constante",
+            "Al duplicar x, y aumenta 5 unidades"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "En variación directa, al multiplicar x por un número, y se multiplica por ese mismo número."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada reparto en razón con el resultado de la parte indicada.",
+          "columnaA": [
+            "$220 en razón 3:8 — parte de razón 3",
+            "$392 en razón 2:5 — parte de razón 2",
+            "$260 en razón 7:6 — parte de razón 7"
+          ],
+          "columnaB": [
+            "$140",
+            "$60",
+            "$112"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "$220 en razón 3:8 — parte de razón 3 = $60; $392 en razón 2:5 — parte de razón 2 = $112; $260 en razón 7:6 — parte de razón 7 = $140."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 2 de 4 · Intermedio"
+    },
+    {
+      "numero": "4.3",
+      "titulo": "Repartos proporcionales con más de dos partes",
+      "explicacion": "El mismo método del reparto proporcional funciona sin importar cuántas partes haya: se suman todos los valores de referencia (edades, aportaciones, horas trabajadas, etc.) y se reparte la cantidad total en esa misma proporción.",
+      "ejemplos": [
+        "Se reparten 60 dulces proporcionalmente entre 3 niños de 4, 5 y 6 años. Suma de edades=15. Al niño de 6 años le tocan (6/15)×60 = 24 dulces."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Se reparten 60 dulces proporcionalmente entre 3 niños según sus edades: 4, 5 y 6 años. ¿Cuántos dulces le tocan al niño de 6 años?",
+          "opciones": [
+            "16",
+            "20",
+            "24",
+            "30"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Suma de edades=15. (6/15)×60 = 24 dulces."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Se reparten 90 dulces proporcionalmente entre 3 niños de edades 2, 3 y 4 años. ¿Cuántos dulces le tocan al niño de 3 años?",
+          "opciones": [
+            "20",
+            "30",
+            "40",
+            "45"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Suma de edades=9. (3/9)×90 = 30 dulces."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Se reparten $203 proporcionalmente entre dos personas con aportaciones en razón 5:2. ¿Cuánto le toca a la de razón 5?",
+          "opciones": [
+            "$130",
+            "$155",
+            "$145",
+            "$140"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Suma=7. (5/7)×203 = $145."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Se reparten $390 proporcionalmente entre dos personas con aportaciones en razón 5:8. ¿Cuánto le toca a la de razón 5?",
+          "opciones": [
+            "$145",
+            "$155",
+            "$150",
+            "$140"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Suma=13. (5/13)×390 = $150."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Se reparten $320 proporcionalmente entre dos personas con aportaciones en razón 8:2. ¿Cuánto le toca a la de razón 8?",
+          "opciones": [
+            "$240",
+            "$261",
+            "$256",
+            "$251"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Suma=10. (8/10)×320 = $256."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Se reparten 100 dulces proporcionalmente entre 3 niños de edades 2, 3 y 5 años. Al niño de 5 años le tocan 50 dulces.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: suma de edades=10. (5/10)×100 = 50 dulces."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Se reparten 120 dulces proporcionalmente entre 3 niños de edades 3, 4 y 5 años. Al niño de 4 años le tocan ___ dulces.",
+          "respuestaCorrecta": "40",
+          "retroalimentacion": "Suma de edades=12. (4/12)×120 = 40 dulces."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Se reparten $180 proporcionalmente entre 3 personas con aportaciones en razón 2:3:4. ¿Cuánto le toca a la de razón 3?",
+          "opciones": [
+            "$40",
+            "$60",
+            "$80",
+            "$90"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Suma=9. (3/9)×180 = $60."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Se reparten $135 proporcionalmente entre dos personas en razón 2:7. A la de razón 7 le tocan $105.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: suma=9. (7/9)×135 = $105."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada reparto entre tres partes con el resultado de la parte indicada.",
+          "columnaA": [
+            "90 dulces entre edades 1, 2 y 3 años — parte de 3 años",
+            "150 dulces entre edades 2, 3 y 5 años — parte de 5 años",
+            "80 dulces entre edades 1, 3 y 4 años — parte de 4 años"
+          ],
+          "columnaB": [
+            "75",
+            "40",
+            "45"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "90 dulces (edades 1,2,3): suma=6, (3/6)×90=45; 150 dulces (edades 2,3,5): suma=10, (5/10)×150=75; 80 dulces (edades 1,3,4): suma=8, (4/8)×80=40."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 3 de 4 · Avanzado"
+    },
+    {
+      "numero": "4.4",
+      "titulo": "Síntesis y aplicación",
+      "explicacion": "Recuerda: para hacer un reparto proporcional, suma todos los valores de referencia (aportaciones, edades, etc.), divide la cantidad total entre esa suma, y multiplica ese resultado por la parte de cada quien. El mismo método funciona sin importar cuántas partes haya. Además, cuando dos cantidades aumentan siempre en la misma proporción (si una se duplica, la otra también), se dice que hay una variación directa entre ellas.",
+      "ejemplos": [
+        "Se reparten $500 proporcionalmente entre dos personas que aportaron $100 y $150. A la primera (la de $100) le tocan $200. Correcto: suma=250. (100/250)×500 = $200."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Se reparten $168 proporcionalmente entre dos personas con aportaciones en razón 2:1. ¿Cuánto le toca a la de razón 2?",
+          "opciones": [
+            "$117",
+            "$122",
+            "$102",
+            "$112"
+          ],
+          "respuestaCorrecta": 3,
+          "retroalimentacion": "Suma=3. (2/3)×168 = $112."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada socio con la utilidad que le corresponde ($2,000 repartidos entre Juan $3,000, Luis $5,000 y Marco $2,000).",
+          "columnaA": [
+            "Juan ($3,000)",
+            "Luis ($5,000)",
+            "Marco ($2,000)"
+          ],
+          "columnaB": [
+            "$400",
+            "$1,000",
+            "$600"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "Juan: (3000/10000)×2000=$600. Luis: (5000/10000)×2000=$1,000. Marco: (2000/10000)×2000=$400."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada reparto proporcional con el resultado de la parte indicada.",
+          "columnaA": [
+            "$273 en razón 1:6 — parte de razón 1",
+            "$272 en razón 7:1 — parte de razón 7",
+            "$360 en razón 1:8 — parte de razón 1"
+          ],
+          "columnaB": [
+            "$39",
+            "$238",
+            "$40"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "$273 en razón 1:6 — parte de razón 1 = $39; $272 en razón 7:1 — parte de razón 7 = $238; $360 en razón 1:8 — parte de razón 1 = $40."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada reparto proporcional con el resultado de la parte indicada.",
+          "columnaA": [
+            "$144 en razón 9:3 — parte de razón 9",
+            "$220 en razón 8:2 — parte de razón 8",
+            "$468 en razón 2:7 — parte de razón 2"
+          ],
+          "columnaB": [
+            "$176",
+            "$108",
+            "$104"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            2
+          ],
+          "retroalimentacion": "$144 en razón 9:3 — parte de razón 9 = $108; $220 en razón 8:2 — parte de razón 8 = $176; $468 en razón 2:7 — parte de razón 2 = $104."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada reparto proporcional con el resultado de la parte indicada.",
+          "columnaA": [
+            "$84 en razón 1:3 — parte de razón 1",
+            "$216 en razón 5:3 — parte de razón 5",
+            "$252 en razón 5:2 — parte de razón 5"
+          ],
+          "columnaB": [
+            "$135",
+            "$180",
+            "$21"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "$84 en razón 1:3 — parte de razón 1 = $21; $216 en razón 5:3 — parte de razón 5 = $135; $252 en razón 5:2 — parte de razón 5 = $180."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Se reparten $250 proporcionalmente entre dos personas con aportaciones en razón 3:2. A la de razón 3 le tocan $150.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: suma=5. (3/5)×250 = $150."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Se reparten $228 proporcionalmente entre dos personas con aportaciones en razón 5:7. A la de razón 7 le tocan $___.",
+          "respuestaCorrecta": "133",
+          "retroalimentacion": "Suma=12. (7/12)×228 = $133."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Ana, Luis y Ceci aportaron $1,000, $2,000 y $3,000 y reparten $1,200 de utilidad proporcionalmente. ¿Cuánto le toca a Luis?",
+          "opciones": [
+            "$200",
+            "$400",
+            "$600",
+            "$300"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Suma=6,000. (2000/6000)×1200 = $400."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En un reparto proporcional entre 4 personas con aportaciones iguales, a cada una le toca exactamente 1/4 del total.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: si las cuatro aportaciones son iguales, la suma se divide en cuatro partes iguales."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Se reparten $416 proporcionalmente entre dos personas con aportaciones en razón 9:7. A la de razón 9 le tocan $___.",
+          "respuestaCorrecta": "234",
+          "retroalimentacion": "Suma=16. (9/16)×416 = $234."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 4 de 4 · Síntesis"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Se reparten $450 proporcionalmente entre dos personas que aportaron $60 y $90. A la primera (la de $60) le tocan $180.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: suma=150. (60/150)×450 = $180."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Se reparten $195 proporcionalmente entre dos personas con aportaciones en razón 2:3. A la de razón 3 le tocan $___.",
+      "respuestaCorrecta": "117",
+      "retroalimentacion": "Suma=5. (3/5)×195 = $117."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Si x se multiplica por 4 y y también se multiplica por 4, ¿qué tipo de variación es?",
+      "opciones": [
+        "Variación directa",
+        "Variación inversa",
+        "No hay variación",
+        "Variación cuadrática"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "Cuando ambas cantidades cambian siempre en la misma proporción, es una variación directa."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Al repartir $88 en razón 3:8, a la parte de razón 8 le tocan $70.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Suma=11. (8/11)×88 = $64, no $70."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Se reparten $150 proporcionalmente entre dos personas con aportaciones en razón 1:4. A la de razón 4 le tocan $___.",
+      "respuestaCorrecta": "120",
+      "retroalimentacion": "Suma=5. (4/5)×150 = $120."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Se reparten $324 proporcionalmente entre dos personas con aportaciones en razón 4:5. ¿Cuánto le toca a la de razón 4?",
+      "opciones": [
+        "$120",
+        "$144",
+        "$160",
+        "$180"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "Suma=9. (4/9)×324 = $144."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Se reparten $99 proporcionalmente entre dos personas con aportaciones en razón 2:7. A la de razón 7 le tocan $77.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: suma=9. (7/9)×99 = $77."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Se reparten $270 proporcionalmente entre dos personas con aportaciones en razón 5:4. A la de razón 5 le tocan $___.",
+      "respuestaCorrecta": "150",
+      "retroalimentacion": "Suma=9. (5/9)×270 = $150."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Si x se multiplica por 6 y y también se multiplica por 6, es una variación directa.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "En variación directa, ambas cantidades cambian siempre en la misma proporción."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál de estas situaciones NO es una variación directa?",
+      "opciones": [
+        "Al duplicar x, y se duplica",
+        "Al triplicar x, y se triplica",
+        "Al multiplicar x por 5, y se mantiene igual",
+        "Al multiplicar x por 4, y se multiplica por 4"
+      ],
+      "respuestaCorrecta": 2,
+      "retroalimentacion": "Si y no cambia al variar x, no hay variación directa (la razón entre ambas no es constante)."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Se reparten 84 dulces proporcionalmente entre 3 niños de edades 3, 4 y 5 años. ¿Cuántos dulces le tocan al niño de 5 años?",
+      "opciones": [
+        "21",
+        "28",
+        "35",
+        "42"
+      ],
+      "respuestaCorrecta": 2,
+      "retroalimentacion": "Suma de edades=12. (5/12)×84=35 dulces."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Ana, Beto y Caro aportaron $2,000, $3,000 y $5,000 respectivamente a un negocio y reparten $1,000 de utilidad proporcionalmente. A Beto le corresponden $___.",
+      "respuestaCorrecta": "300",
+      "retroalimentacion": "Suma=10,000. Beto: (3000/10000)×1000 = $300."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Si x aumenta y y disminuye en la misma proporción, es una variación directa.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Eso es variación inversa; en variación directa ambas cantidades aumentan o disminuyen juntas en la misma proporción."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Se reparten $200 proporcionalmente entre dos personas con aportaciones en razón 7:3. ¿Cuánto le toca a la de razón 7?",
+      "opciones": [
+        "$130",
+        "$140",
+        "$150",
+        "$120"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "Suma=10. (7/10)×200 = $140."
+    }
+  ]
+}

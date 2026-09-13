@@ -1,0 +1,418 @@
+{
+  "id": "3S-B1-PDA08B",
+  "grado": "3°",
+  "trimestre": "3",
+  "numero": 23,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Forma, espacio y medida",
+  "titulo": "Densidad, Rapidez y Costos 8.2",
+  "contenido": "Medición y cálculo en diferentes contextos.",
+  "pda": "Resuelve problemas de medición que combinan densidad, rapidez media y costos por unidad de área o volumen.",
+  "problematizacion": {
+    "contexto": "Gael trabaja los fines de semana en una ferretería de Pachuca. Un cliente lleva dos varillas metálicas del mismo tamaño pero de materiales distintos y quiere identificarlas solo pesándolas, mientras Gael recorrió 350 metros en 4 minutos para entregarle el pedido a otro cliente, y debe decidir si conviene la promoción de '3x2' en cierto tipo de tornillos.",
+    "pregunta": "¿Cómo identifica Gael el material de cada varilla por su densidad, cuál fue su rapidez media en metros por minuto, y realmente conviene la promoción 3x2?"
+  },
+  "subtemas": [
+    {
+      "numero": "8.5",
+      "titulo": "Identificar materiales por su densidad",
+      "explicacion": "La densidad no solo sirve para calcular masa o volumen: también permite identificar de qué material está hecho un objeto, comparando el resultado con una tabla de densidades de referencia. Esto se usa para detectar joyería falsa, clasificar metales para reciclaje o verificar la pureza de un material. Si la densidad calculada coincide con la de un material conocido, es probable que sea ese material; si no coincide, se trata de otra sustancia o de una mezcla.",
+      "formula": "d = m / V, y luego se compara el resultado con una tabla de densidades conocidas (aluminio 2.7 g/cm³, hierro 7.9 g/cm³, cobre 8.9 g/cm³, plata 10.5 g/cm³, plomo 11.3 g/cm³, oro 19.3 g/cm³)",
+      "ejemplos": [
+        "Una 'cadena de oro' tiene masa de 96.5 g y volumen de 10 cm³: d = 96.5/10 = 9.65 g/cm³. Como la densidad del oro es 19.3 g/cm³, esta cadena NO es de oro puro; su densidad se parece más a una aleación con cobre (8.9 g/cm³).",
+        "Un anillo declarado de plata tiene masa de 42 g y volumen de 4 cm³: d = 42/4 = 10.5 g/cm³. Esto coincide exactamente con la densidad de la plata (10.5 g/cm³), por lo que sí parece ser auténtico."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "nivelEtiqueta": "Nivel 1 de 3 · Aplicación",
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un vendedor asegura que una barra es de plata pura (densidad real de la plata: 10.5 g/cm³). La barra tiene masa de 189 g y volumen de 18 cm³. ¿Es realmente de plata?",
+          "opciones": [
+            "Sí, su densidad (10.5 g/cm³) coincide con la de la plata",
+            "No, es demasiado densa para ser plata",
+            "No, es demasiado ligera para ser plata",
+            "No se puede saber sin conocer su color"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "d = 189/18 = 10.5 g/cm³, que coincide exactamente con la densidad de la plata."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un objeto con masa de 178 g y volumen de 20 cm³ tiene una densidad de 8.9 g/cm³, la cual corresponde a la del cobre.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: d = 178/20 = 8.9 g/cm³, que es la densidad típica del cobre."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un objeto tiene masa de 45.2 g y volumen de 4 cm³. Su densidad es de ___ g/cm³, la cual corresponde a la densidad del plomo.",
+          "respuestaCorrecta": "11.3",
+          "retroalimentacion": "d = 45.2/4 = 11.3 g/cm³, que es la densidad del plomo."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una joya se anuncia como oro puro (densidad del oro: 19.3 g/cm³). Al medirla, tiene masa de 154.4 g y volumen de 8 cm³. ¿Qué se puede concluir?",
+          "opciones": [
+            "Su densidad es 19.3 g/cm³, sí parece ser oro puro",
+            "Su densidad es 18.3 g/cm³, no es oro puro",
+            "Su densidad es 19.3 g/cm³, pero es cobre",
+            "Su densidad es 15.4 g/cm³, no es oro puro"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "d = 154.4/8 = 19.3 g/cm³, exactamente igual a la densidad del oro."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un trozo de metal con masa de 236 g y volumen de 20 cm³ tiene una densidad de 11.8 g/cm³. Como la densidad del plomo es 11.3 g/cm³, se puede concluir que definitivamente es plomo puro.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "d = 236/20 = 11.8 g/cm³ es correcto, pero NO coincide exactamente con 11.3 g/cm³ (la del plomo), así que no se puede concluir que sea plomo puro; podría ser una aleación."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una pieza de metal para reciclaje tiene masa de 142.2 g y volumen de 18 cm³. Su densidad es de ___ g/cm³ (usa un decimal), la cual corresponde a la del hierro.",
+          "respuestaCorrecta": "7.9",
+          "retroalimentacion": "d = 142.2/18 = 7.9 g/cm³, que es la densidad del hierro."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Dos anillos parecen idénticos por fuera. El anillo A tiene masa de 84 g y volumen de 8 cm³; el anillo B tiene masa de 71.2 g y también volumen de 8 cm³. Si la plata pura tiene densidad de 10.5 g/cm³, ¿cuál anillo es de plata pura?",
+          "opciones": [
+            "El anillo A",
+            "El anillo B",
+            "Ambos",
+            "Ninguno de los dos"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Anillo A: 84/8 = 10.5 g/cm³ (plata). Anillo B: 71.2/8 = 8.9 g/cm³ (más parecido al cobre)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Se sabe que el aluminio genuino tiene una densidad de 2.7 g/cm³. Una barra con masa de 94.5 g y volumen de 35 cm³ sí es de aluminio genuino.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: d = 94.5/35 = 2.7 g/cm³, que coincide exactamente con la del aluminio."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Calcula la densidad de cada objeto y relaciónalo con el material al que corresponde, según la tabla de referencia.",
+          "columnaA": [
+            "m = 40.5 g, V = 15 cm³",
+            "m = 118.5 g, V = 15 cm³",
+            "m = 157.5 g, V = 15 cm³"
+          ],
+          "columnaB": [
+            "Aluminio (2.7 g/cm³)",
+            "Hierro (7.9 g/cm³)",
+            "Plata (10.5 g/cm³)"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "40.5/15=2.7 g/cm³ (aluminio). 118.5/15=7.9 g/cm³ (hierro). 157.5/15=10.5 g/cm³ (plata)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un lingote de cobre (densidad 8.9 g/cm³) tiene una masa de 267 g. ¿Cuál es su volumen?",
+          "opciones": [
+            "30 cm³",
+            "23.8 cm³",
+            "2 376.3 cm³",
+            "0.03 cm³"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "V = m/d = 267/8.9 = 30 cm³."
+        }
+      ]
+    },
+    {
+      "numero": "8.6",
+      "titulo": "Rapidez media con unidades mixtas (minutos y metros)",
+      "explicacion": "En la vida real los tiempos de un recorrido casi nunca vienen en horas exactas: aparecen en minutos, y las distancias a veces en metros. Antes de aplicar la fórmula de rapidez media hay que convertir todo a las mismas unidades: los minutos se dividen entre 60 para pasarlos a horas, y los metros se dividen entre 1 000 para pasarlos a kilómetros. Solo después de convertir se puede sumar correctamente las distancias y los tiempos.",
+      "formula": "Convierte primero: horas = minutos ÷ 60; kilómetros = metros ÷ 1 000. Después aplica: rapidez media = distancia total (km) / tiempo total (h)",
+      "ejemplos": [
+        "Un ciclista recorre 15 km en 30 minutos y luego 25 km en 45 minutos. Convertimos: 30 min = 0.5 h, 45 min = 0.75 h. Rapidez media = (15+25)/(0.5+0.75) = 40/1.25 = 32 km/h.",
+        "Un atleta corre 2 400 m en 12 minutos. Convertimos: 2 400 m = 2.4 km, 12 min = 0.2 h. Rapidez media = 2.4/0.2 = 12 km/h."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "nivelEtiqueta": "Nivel 2 de 3 · Aplicación avanzada",
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un ciclista recorre 15 km en 30 minutos y luego 25 km en 45 minutos. ¿Cuál es su rapidez media en todo el recorrido, en km/h?",
+          "opciones": [
+            "32 km/h",
+            "30 km/h",
+            "35 km/h",
+            "28 km/h"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "30 min = 0.5 h, 45 min = 0.75 h. Rapidez media = (15+25)/(0.5+0.75) = 40/1.25 = 32 km/h."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un atleta corre 2 400 m en 12 minutos. Esto equivale a una rapidez media de 12 km/h.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 2 400 m = 2.4 km, 12 min = 0.2 h. Rapidez media = 2.4/0.2 = 12 km/h."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un repartidor recorre 9 km en 20 minutos y después 3 km en 10 minutos. Su rapidez media en todo el recorrido es de ___ km/h.",
+          "respuestaCorrecta": "24",
+          "retroalimentacion": "20 min = 1/3 h, 10 min = 1/6 h, total = 0.5 h. Rapidez media = (9+3)/0.5 = 24 km/h."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un nadador recorre 1 200 m en 20 minutos. ¿Cuál es su rapidez media en km/h?",
+          "opciones": [
+            "3.6 km/h",
+            "4 km/h",
+            "60 km/h",
+            "36 km/h"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "1 200 m = 1.2 km, 20 min = 1/3 h. Rapidez media = 1.2 ÷ (1/3) = 3.6 km/h."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un excursionista camina 4 km en 50 minutos y luego 2 km en 40 minutos. Su rapidez media en todo el recorrido es de 4 km/h.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 50+40=90 min = 1.5 h. Rapidez media = (4+2)/1.5 = 6/1.5 = 4 km/h."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un ciclista recorre 10 km en 24 minutos y después 5 km en 6 minutos. Su rapidez media en todo el recorrido es de ___ km/h.",
+          "respuestaCorrecta": "30",
+          "retroalimentacion": "24+6=30 min = 0.5 h. Rapidez media = (10+5)/0.5 = 30 km/h."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un corredor recorre 800 m en 4 minutos y luego 3.2 km en 16 minutos. ¿Cuál es su rapidez media en todo el recorrido, en km/h?",
+          "opciones": [
+            "12 km/h",
+            "15 km/h",
+            "10 km/h",
+            "8 km/h"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "800 m = 0.8 km; distancia total = 0.8+3.2 = 4 km; tiempo total = 4+16 = 20 min = 1/3 h. Rapidez media = 4 ÷ (1/3) = 12 km/h."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una motocicleta de reparto recorre 18 km en 24 minutos; esto equivale a una rapidez media de 45 km/h.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 24 min = 0.4 h. Rapidez media = 18/0.4 = 45 km/h."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Convierte los minutos a horas y relaciona cada tramo con su rapidez media.",
+          "columnaA": [
+            "6 km en 15 min",
+            "9 km en 30 min",
+            "14 km en 20 min"
+          ],
+          "columnaB": [
+            "24 km/h",
+            "18 km/h",
+            "42 km/h"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "6÷(15/60)=24 km/h. 9÷(30/60)=18 km/h. 14÷(20/60)=42 km/h."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En un triatlón, un competidor nada 1 km en 20 minutos y luego corre 12.5 km en 70 minutos. ¿Cuál es su rapidez media combinada (natación + carrera) en km/h?",
+          "opciones": [
+            "9 km/h",
+            "8 km/h",
+            "13.5 km/h",
+            "90 km/h"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "20+70=90 min = 1.5 h. Distancia total = 1+12.5 = 13.5 km. Rapidez media = 13.5/1.5 = 9 km/h."
+        }
+      ]
+    },
+    {
+      "numero": "8.7",
+      "titulo": "Promociones y descuentos en el costo por unidad",
+      "explicacion": "El precio anunciado por unidad no siempre es el que realmente pagas: las promociones como '3x2' (llevas 3 y pagas 2) o los descuentos porcentuales cambian el costo real. Para comparar de forma justa, primero calcula cuánto pagas en total y cuántas piezas o unidades te llevas realmente (incluyendo las gratis), y luego divide el pago total entre esa cantidad real. Ese es el precio unitario verdadero, y es el que debes usar para decidir qué opción conviene más.",
+      "formula": "precio unitario real = precio total pagado ÷ cantidad total obtenida (incluyendo piezas de regalo)",
+      "ejemplos": [
+        "Una tienda ofrece '3x2' en yogures de $18 cada uno: te llevas 3 pero pagas solo 2, es decir, pagas 2×18 = $36 por 3 yogures. Precio real por yogur = 36/3 = $12 (no $18).",
+        "Un paquete de 12 refrescos cuesta $180 normalmente, pero tiene 15% de descuento: descuento = 0.15×180 = $27, precio final = 180−27 = $153. Precio por refresco = 153/12 = $12.75."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "nivelEtiqueta": "Nivel 3 de 3 · Reto",
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una tienda vende playeras a $150 cada una con la promoción 'compra 2 y llévate 1 gratis'. Si te llevas 3 playeras pagando solo 2, ¿cuál es el precio real por playera?",
+          "opciones": [
+            "$100",
+            "$150",
+            "$50",
+            "$300"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Pagas 2×150 = $300 por 3 playeras. Precio real = 300/3 = $100 por playera."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En una promoción de 'lleva 4, paga 3' de aceite a $90 el litro, si te llevas 4 litros pagando 3, el precio real por litro es de $67.50.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: pagas 3×90 = $270 por 4 litros. Precio real = 270/4 = $67.50 por litro."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una tienda tiene 20% de descuento en un paquete de 8 jabones cuyo precio normal es de $200. El precio final del paquete con descuento es de $___.",
+          "respuestaCorrecta": "160",
+          "retroalimentacion": "Descuento = 0.20×200 = $40. Precio final = 200−40 = $160."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una tienda anuncia 30% de descuento en una bolsa de 5 kg de detergente cuyo precio normal es de $250. ¿Cuál es el precio por kilogramo, considerando el descuento?",
+          "opciones": [
+            "$35/kg",
+            "$50/kg",
+            "$45/kg",
+            "$30/kg"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Descuento = 0.30×250 = $75. Precio final = 250−75 = $175. Precio por kg = 175/5 = $35/kg."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En la promoción '3x2' de yogures a $18 cada uno, si te llevas 3 y pagas 2, el precio real por yogur es de $12.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: pagas 2×18 = $36 por 3 yogures. Precio real = 36/3 = $12 por yogur."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una ferretería vende un paquete de 10 tornillos en $50. Por la promoción 'lleva 4, paga 3', si compras 3 paquetes te regalan uno más. El precio real por paquete, aprovechando la promoción, es de $___.",
+          "respuestaCorrecta": "37.5",
+          "retroalimentacion": "Pagas 3×50 = $150 por 4 paquetes. Precio real = 150/4 = $37.50 por paquete."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un supermercado ofrece '2x1' en refrescos de $24 cada uno. Si te llevas 2 pagando solo 1, ¿cuál es el precio real por refresco?",
+          "opciones": [
+            "$12",
+            "$24",
+            "$6",
+            "$48"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Pagas $24 por 2 refrescos. Precio real = 24/2 = $12 por refresco."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una tienda de ropa anuncia 25% de descuento en un paquete de 6 pares de calcetines cuyo precio normal es de $120. Con el descuento, el precio por par es de $15.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: descuento = 0.25×120 = $30. Precio final = 120−30 = $90. Precio por par = 90/6 = $15."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Calcula el precio real por unidad de cada promoción y relaciónalo con su resultado.",
+          "columnaA": [
+            "'3x2' en velas de $30 c/u (llevas 3, pagas 2)",
+            "20% de descuento en un paquete de 4 focos de $200",
+            "'lleva 5, paga 4' en manzanas de $12/kg (por kg)"
+          ],
+          "columnaB": [
+            "$20 por vela",
+            "$40 por foco",
+            "$9.60 por kg"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "Velas: pagas 2×30=$60 por 3 = $20/vela. Focos: 200−40=$160÷4=$40/foco. Manzanas: pagas 4×12=$48 por 5 kg = $9.60/kg."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "La tienda A vende bolsas de arroz de 5 kg a $100 con la promoción 'lleva 3, paga 2' (te llevas 3 bolsas pagando 2). La tienda B vende la misma bolsa de 5 kg a $90, sin promoción. ¿Cuál conviene más por kilogramo?",
+          "opciones": [
+            "Tienda A",
+            "Tienda B",
+            "Cuestan lo mismo por kg",
+            "Falta información"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Tienda A: pagas 2×100=$200 por 3 bolsas (15 kg) → 200/15 ≈ $13.33/kg. Tienda B: 90/5 = $18/kg. Conviene más la tienda A."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Un viaje se hace en tres tramos: 10 km en 1 h, 20 km en 1 h y 30 km en 2 h. ¿Cuál es la rapidez media de todo el viaje?",
+      "opciones": [
+        "15 km/h",
+        "20 km/h",
+        "10 km/h",
+        "25 km/h"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "rapidez media = (10+20+30)/(1+1+2) = 60/4 = 15 km/h."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Un viaje tiene un tramo de 100 km en 4 h y otro de 20 km en 1 h; su rapidez media es de 24 km/h.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: (100+20)/(4+1) = 120/5 = 24 km/h."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Una tela cuesta $240 por 8 m². Su precio por m² es de ___ pesos.",
+      "respuestaCorrecta": "30",
+      "retroalimentacion": "precio unitario = 240/8 = $30/m²."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Un garrafón de 15 litros cuesta $75. ¿Cuál es su precio por litro?",
+      "opciones": [
+        "$5/L",
+        "$11.25/L",
+        "$0.2/L",
+        "$20/L"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "precio unitario = 75/15 = $5/L."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Una bolsa de 9 kg cuesta $450; su precio por kg es de $50.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: 450/9 = $50/kg."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Un tinaco de 15 litros cuesta $600. Su precio por litro es de ___ pesos.",
+      "respuestaCorrecta": "40",
+      "retroalimentacion": "precio unitario = 600/15 = $40/L."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "La tienda A vende 3 kg de frijol en $75 y la tienda B vende 5 kg en $100. ¿Cuál tienda conviene más por kg?",
+      "opciones": [
+        "Tienda A",
+        "Tienda B",
+        "Cuestan lo mismo por kg",
+        "Falta información"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "Tienda A: 75/3 = $25/kg. Tienda B: 100/5 = $20/kg. Conviene más la tienda B."
+    }
+  ]
+}

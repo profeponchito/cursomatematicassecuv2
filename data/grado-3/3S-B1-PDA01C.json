@@ -1,0 +1,476 @@
+{
+  "id": "3S-B1-PDA01C",
+  "grado": "3°",
+  "trimestre": "1",
+  "numero": 3,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Extensión del significado de las operaciones y sus relaciones inversas 1.3",
+  "contenido": "Extensión del significado de las operaciones y sus relaciones inversas.",
+  "pda": "Calcula potencias con exponente entero y la raíz cuadrada. Usa la notación científica.",
+  "problematizacion": {
+    "contexto": "Renata participa en el club de astronomía de su prepa en Monterrey. Al calcular la distancia a una estrella, su calculadora le arrojó el resultado 0.43 × 10⁷ km, un número que no está en la forma correcta de notación científica y que su maestro le pide corregir antes de presentarlo en la feria de ciencias.",
+    "pregunta": "¿Cómo se normaliza correctamente ese resultado a la notación científica estándar, con la primera cifra entre 1 y 10?"
+  },
+  "subtemas": [
+    {
+      "numero": "1.8",
+      "nivelEtiqueta": "Nivel 1 de 3 · Reto avanzado",
+      "titulo": "Normalización de resultados en notación científica",
+      "explicacion": "En la lección anterior multiplicaste y dividiste cantidades ya en notación científica; ahora resolverás casos donde el coeficiente resultante no cumple la regla 1 ≤ a < 10 y debes normalizarlo corriendo el punto decimal y ajustando el exponente. Este paso extra ocurre todo el tiempo en cálculos reales de ciencia, ingeniería y comercio, y es indispensable dominarlo antes de combinarlo con otras operaciones.",
+      "formula": "Si el coeficiente resultante es ≥10 o <1, corre el punto decimal y suma o resta 1 al exponente hasta que 1 ≤ a < 10.",
+      "ejemplos": [
+        "(5 × 10⁴) × (4 × 10³) = 20 × 10⁷ → como 20 ≥ 10, se ajusta a 2 × 10⁸.",
+        "(2 × 10³) ÷ (4 × 10⁵) = 0.5 × 10⁻² → como 0.5 < 1, se ajusta a 5 × 10⁻³."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado correctamente normalizado de (6 × 10⁵) × (5 × 10²)?",
+          "opciones": [
+            "30 × 10⁷",
+            "3 × 10⁸",
+            "3 × 10⁷",
+            "0.3 × 10⁹"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "6 × 5 = 30 × 10⁷, y como 30 ≥ 10, se ajusta a 3 × 10⁸."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "(3 × 10²) ÷ (6 × 10⁵) normalizado es ___.",
+          "respuestaCorrecta": "5 × 10⁻⁴",
+          "retroalimentacion": "3 ÷ 6 = 0.5 × 10⁻³, y como 0.5 < 1, se ajusta a 5 × 10⁻⁴."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "(8 × 10⁵) × (5 × 10³) = 4 × 10⁹, ya normalizado.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "8 × 5 = 40 × 10⁸, y al normalizar (40 ≥ 10) queda 4 × 10⁹."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado normalizado de (9 × 10⁶) × (6 × 10⁴)?",
+          "opciones": [
+            "5.4 × 10¹¹",
+            "54 × 10¹⁰",
+            "5.4 × 10¹⁰",
+            "0.54 × 10¹²"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "9 × 6 = 54 × 10¹⁰, y al normalizar (54 ≥ 10) queda 5.4 × 10¹¹."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "(2 × 10⁴) ÷ (8 × 10⁷) normalizado es ___.",
+          "respuestaCorrecta": "2.5 × 10⁻⁴",
+          "retroalimentacion": "2 ÷ 8 = 0.25 × 10⁻³, y al normalizar (0.25 < 1) queda 2.5 × 10⁻⁴."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una empresa fabrica 4 × 10⁵ tornillos por lote y produce 9 × 10² lotes. ¿Cuántos tornillos produce en total, normalizado?",
+          "opciones": [
+            "3.6 × 10⁸",
+            "36 × 10⁷",
+            "3.6 × 10⁷",
+            "0.36 × 10⁹"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "4 × 9 = 36 × 10⁷, y al normalizar (36 ≥ 10) queda 3.6 × 10⁸ tornillos."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "(3 × 10³) ÷ (5 × 10⁶) normalizado es 6 × 10⁻⁴.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "3 ÷ 5 = 0.6 × 10⁻³, y al normalizar (0.6 < 1) queda 6 × 10⁻⁴."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada operación con su resultado normalizado.",
+          "columnaA": [
+            "(8 × 10²) × (7 × 10³)",
+            "(4 × 10³) ÷ (8 × 10⁶)",
+            "(9 × 10⁴) × (8 × 10²)"
+          ],
+          "columnaB": [
+            "5 × 10⁻⁴",
+            "7.2 × 10⁷",
+            "5.6 × 10⁶"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "(8×10²)×(7×10³)=56×10⁵=5.6×10⁶; (4×10³)÷(8×10⁶)=0.5×10⁻³=5×10⁻⁴; (9×10⁴)×(8×10²)=72×10⁶=7.2×10⁷."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado normalizado de (5 × 10⁷) × (7 × 10³)?",
+          "opciones": [
+            "3.5 × 10¹¹",
+            "35 × 10¹⁰",
+            "3.5 × 10¹⁰",
+            "0.35 × 10¹²"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "5 × 7 = 35 × 10¹⁰, y al normalizar (35 ≥ 10) queda 3.5 × 10¹¹."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "(6 × 10²) ÷ (3 × 10⁸) normalizado es ___.",
+          "respuestaCorrecta": "2 × 10⁻⁶",
+          "retroalimentacion": "6 ÷ 3 = 2 × 10⁻⁶, y como 2 ya está entre 1 y 10, no necesita más ajuste."
+        }
+      ]
+    },
+    {
+      "numero": "1.9",
+      "nivelEtiqueta": "Nivel 2 de 3 · Integración",
+      "titulo": "Problemas integradores: potencias, raíces y notación científica",
+      "explicacion": "Esta lección combina en un mismo problema los tres subtemas del PDA: primero resuelves una potencia con exponente entero o una raíz cuadrada, y después expresas o interpretas el resultado en notación científica. Así trabajas la extensión de las operaciones tal como se usa en la vida real, donde casi nunca un problema usa una sola herramienta a la vez.",
+      "ejemplos": [
+        "Una colonia de bacterias de 128,000 individuos se reduce a la mitad cada hora durante una fumigación. Después de 6 horas: 128,000 × 2⁻⁶ = 128,000 × 1/64 = 2,000 bacterias, que en notación científica es 2 × 10³.",
+        "Un terreno cuadrado de 6,250,000 m² se va a repartir: primero se calcula su lado, √6,250,000 = 2,500 m, y esa cantidad en notación científica es 2.5 × 10³ m."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una inversión de 90,000 pesos pierde la mitad de su valor cada semestre durante una crisis. Después de 4 semestres, ¿cuánto queda, expresado en notación científica?",
+          "opciones": [
+            "5.625 × 10³",
+            "5,625 × 10⁴",
+            "56.25 × 10²",
+            "5.625 × 10²"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "90,000 × 2⁻⁴ = 90,000 ÷ 16 = 5,625 pesos = 5.625 × 10³."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un parque cuadrado tiene un área de 1,960,000 m². Su lado mide √1,960,000 = 1,400 m, que en notación científica es ___.",
+          "respuestaCorrecta": "1.4 × 10³",
+          "retroalimentacion": "1,400 m se escribe en notación científica como 1.4 × 10³ m."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si una muestra de 640,000 bacterias se reduce a la mitad 5 veces seguidas, quedan 2 × 10⁴ bacterias.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "640,000 × 2⁻⁵ = 640,000 ÷ 32 = 20,000 = 2 × 10⁴."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un campo cuadrado de paneles solares tiene un área de 8.41 × 10⁶ m². ¿Cuánto mide cada lado?",
+          "opciones": [
+            "2,900 m",
+            "2,700 m",
+            "3,000 m",
+            "2,800 m"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "8.41 × 10⁶ = 8,410,000, y √8,410,000 = 2,900 m."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una concentración de 8,100 mg/mL se diluye 1:10 dos veces. El resultado es 8,100 × 10⁻² = 81 mg/mL, que en notación científica es ___.",
+          "respuestaCorrecta": "8.1 × 10¹",
+          "retroalimentacion": "81 mg/mL se escribe en notación científica como 8.1 × 10¹ mg/mL."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación con su resultado en notación científica.",
+          "columnaA": [
+            "√5,290,000 (lado de un terreno en m)",
+            "240,000 × 2⁻³ (población tras 3 reducciones a la mitad)",
+            "0.000047 (una medida en metros)"
+          ],
+          "columnaB": [
+            "4.7 × 10⁻⁵",
+            "2.3 × 10³",
+            "3 × 10⁴"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "√5,290,000 = 2,300 = 2.3×10³; 240,000×2⁻³ = 30,000 = 3×10⁴; 0.000047 = 4.7×10⁻⁵."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un banco reduce el saldo de una cuenta congelada a una décima parte cada año que permanece inactiva. Si el saldo inicial es 3,700,000 pesos y pasan 3 años, ¿cuánto queda, en notación científica?",
+          "opciones": [
+            "3.7 × 10³",
+            "3.7 × 10⁴",
+            "37 × 10²",
+            "3.7 × 10²"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "3,700,000 × 10⁻³ = 3,700 pesos = 3.7 × 10³."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El lado de un terreno cuadrado de 2.56 × 10⁶ m² es 1.6 × 10³ m.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "2.56 × 10⁶ = 2,560,000, y √2,560,000 = 1,600 = 1.6 × 10³."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una muestra de 38,000 organismos se reduce a la mitad cada semana. Después de 3 semanas quedan 38,000 × 2⁻³ = ___ organismos.",
+          "respuestaCorrecta": "4,750",
+          "retroalimentacion": "38,000 × 2⁻³ = 38,000 ÷ 8 = 4,750."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un campo cuadrado tiene un área de 1.44 × 10⁶ m². ¿Cuánto mide cada lado?",
+          "opciones": [
+            "1,100 m",
+            "1,200 m",
+            "1,300 m",
+            "1,400 m"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "1.44 × 10⁶ = 1,440,000, y √1,440,000 = 1,200 m."
+        }
+      ]
+    },
+    {
+      "numero": "1.10",
+      "nivelEtiqueta": "Nivel 3 de 3 · Dominio",
+      "titulo": "Retos finales: dominio de potencias, raíces y notación científica",
+      "explicacion": "Esta última lección exige resolver problemas completos de varios pasos sin apoyo adicional, aplicando en cada uno más de una herramienta del PDA (exponentes enteros, raíz cuadrada y notación científica) en contextos de negocios, ciencia y deporte. El nivel de dominio significa identificar tú mismo qué herramienta usar primero, sin que el enunciado te lo indique directamente.",
+      "ejemplos": [
+        "Una empresa de logística reporta que su inventario de 972,000 artículos se reduce a una décima parte cada trimestre sin ventas. Si pasan 3 trimestres sin ventas: 972,000 × 10⁻³ = 972 artículos, que en notación científica es 9.72 × 10².",
+        "Un vivero tiene un terreno cuadrado de 3.61 × 10⁶ m² para sembrar árboles en cuadrícula. El lado del terreno es √3,610,000 = 1,900 m, porque 1,900 × 1,900 = 3,610,000."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una cadena de tiendas reporta ventas de 4.5 × 10⁵ pesos en cada una de 6 × 10² sucursales. ¿Cuál es el ingreso total, en notación científica?",
+          "opciones": [
+            "2.7 × 10⁸",
+            "27 × 10⁷",
+            "2.7 × 10⁷",
+            "0.27 × 10⁹"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "4.5 × 6 = 27, y 10⁵⁺² = 10⁷, entonces 27 × 10⁷ = 2.7 × 10⁸ pesos."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un estadio cuadrado ocupa un área de 7.29 × 10⁶ m². ¿Cuánto mide cada lado? ___ m.",
+          "respuestaCorrecta": "2,700",
+          "retroalimentacion": "7.29 × 10⁶ = 7,290,000, y √7,290,000 = 2,700 m."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una startup con capital de 512,000 pesos lo reduce a la mitad cada trimestre con pérdidas. Después de 7 trimestres le quedan 4,000 pesos.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "512,000 × 2⁻⁷ = 512,000 ÷ 128 = 4,000 pesos."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un antiviral reduce una población de virus a una centésima parte (10⁻²) cada día de tratamiento. Si la población inicial es 3.6 × 10⁷ y pasan 2 días de tratamiento, ¿cuál es la población final?",
+          "opciones": [
+            "3.6 × 10³",
+            "3.6 × 10⁴",
+            "36 × 10²",
+            "3.6 × 10⁵"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Dos reducciones de 10⁻² equivalen a 10⁻⁴: 3.6 × 10⁷ × 10⁻⁴ = 3.6 × 10³."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una empresa de mensajería entrega 8 × 10³ paquetes diarios durante 5 × 10² días. En total entrega ___ paquetes (en notación científica).",
+          "respuestaCorrecta": "4 × 10⁶",
+          "retroalimentacion": "8 × 5 = 40, y 10³⁺² = 10⁵, entonces 40 × 10⁵ = 4 × 10⁶ paquetes."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada problema con su resultado final.",
+          "columnaA": [
+            "Un inventario de 972,000 artículos se reduce a 10⁻³ (3 trimestres sin ventas)",
+            "Lado de un terreno cuadrado de 1.21 × 10⁶ m²",
+            "(9 × 10⁴) × (8 × 10³), normalizado"
+          ],
+          "columnaB": [
+            "7.2 × 10⁸",
+            "1,100 m",
+            "9.72 × 10²"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "972,000×10⁻³=972=9.72×10²; √1,210,000=1,100 m; (9×10⁴)×(8×10³)=72×10⁷=7.2×10⁸."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "La probabilidad de ganar cierto juego es 40⁻¹. ¿Cuál es su valor en notación científica?",
+          "opciones": [
+            "2.5 × 10⁻²",
+            "2.5 × 10⁻¹",
+            "25 × 10⁻³",
+            "2.5 × 10⁻³"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "40⁻¹ = 1/40 = 0.025 = 2.5 × 10⁻²."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El resultado de (7 × 10⁵) ÷ (2 × 10⁸) normalizado es 3.5 × 10⁻³.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "7 ÷ 2 = 3.5, y 10⁵⁻⁸ = 10⁻³, entonces el resultado es 3.5 × 10⁻³."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una reserva natural tiene 250,000 árboles. Una plaga reduce la cantidad a la mitad cada año. Después de 3 años, en notación científica, quedan ___ árboles.",
+          "respuestaCorrecta": "3.125 × 10⁴",
+          "retroalimentacion": "250,000 × 2⁻³ = 250,000 ÷ 8 = 31,250 = 3.125 × 10⁴."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un satélite mide que el área de un lago cuadrado es 1.69 × 10⁶ m². Los científicos deben reportar el perímetro del lago (4 × lado) en notación científica. ¿Cuál es el resultado?",
+          "opciones": [
+            "5.2 × 10³",
+            "5.2 × 10⁴",
+            "1.3 × 10³",
+            "52 × 10²"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "1.69 × 10⁶ = 1,690,000, √1,690,000 = 1,300 m, y el perímetro es 4 × 1,300 = 5,200 = 5.2 × 10³ m."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada expresión con su resultado.",
+      "columnaA": [
+        "10⁻3",
+        "√676",
+        "4.5 × 10⁷"
+      ],
+      "columnaB": [
+        "1/1000",
+        "número grande",
+        "26"
+      ],
+      "parejasCorrectas": [
+        0,
+        2,
+        1
+      ],
+      "retroalimentacion": "10⁻3 = 1/1000; √676 = 26; 4.5×10⁷ = número grande."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es el resultado de 6⁻2?",
+      "opciones": [
+        "1/36",
+        "36",
+        "-36",
+        "1/12"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "6⁻2 = 1/6² = 1/36."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "√576 = 24.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "24 × 24 = 576."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "0.0000059 escrito en notación científica es ___.",
+      "respuestaCorrecta": "5.9 × 10⁻⁶",
+      "retroalimentacion": "0.0000059 = 5.9 × 10⁻⁶."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es la raíz cuadrada de 225?",
+      "opciones": [
+        "14",
+        "15",
+        "16",
+        "13"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "15 × 15 = 225."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada operación con su resultado correcto.",
+      "columnaA": [
+        "10⁻4",
+        "√961",
+        "6.2×10^8"
+      ],
+      "columnaB": [
+        "1/10000",
+        "número grande",
+        "31"
+      ],
+      "parejasCorrectas": [
+        0,
+        2,
+        1
+      ],
+      "retroalimentacion": "10⁻4 = 1/10000; √961 = 31; 6.2×10^8 = número grande."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "La raíz cuadrada de 196 es ___.",
+      "respuestaCorrecta": "14",
+      "retroalimentacion": "14 × 14 = 196."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cómo se escribe 0.00031 en notación científica?",
+      "opciones": [
+        "3.1 × 10⁻⁴",
+        "31 × 10⁻⁵",
+        "3.1 × 10⁴",
+        "0.31 × 10⁻³"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "0.00031 = 3.1 × 10⁻⁴."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "3⁻³ = 1/27.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: 3⁻³ = 1/3³ = 1/27."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada expresión con su resultado.",
+      "columnaA": [
+        "√64",
+        "4⁻²",
+        "2,300,000"
+      ],
+      "columnaB": [
+        "2.3 × 10⁶",
+        "1/16",
+        "8"
+      ],
+      "parejasCorrectas": [
+        2,
+        1,
+        0
+      ],
+      "retroalimentacion": "√64=8; 4⁻²=1/16; 2,300,000 = 2.3×10⁶."
+    }
+  ]
+}

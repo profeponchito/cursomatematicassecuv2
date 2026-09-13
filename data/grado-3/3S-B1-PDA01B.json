@@ -1,0 +1,458 @@
+{
+  "id": "3S-B1-PDA01B",
+  "grado": "3°",
+  "trimestre": "1",
+  "numero": 2,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Extensión del significado de las operaciones y sus relaciones inversas 1.2",
+  "contenido": "Extensión del significado de las operaciones y sus relaciones inversas.",
+  "pda": "Calcula potencias con exponente entero y la raíz cuadrada. Usa la notación científica.",
+  "problematizacion": {
+    "contexto": "Tadeo trabaja los sábados en la farmacia de su tío en Toluca. Para preparar un antiséptico debe diluir una solución madre de 640 ml a la mitad cada vez que la pasa a un frasco más chico, y repite ese proceso 6 veces seguidas antes de entregarla al cliente.",
+    "pregunta": "Usando exponentes negativos, ¿cuántos mililitros de solución quedan después de las 6 diluciones a la mitad?"
+  },
+  "subtemas": [
+    {
+      "numero": "1.5",
+      "nivelEtiqueta": "Nivel 1 de 3 · Aplicación",
+      "titulo": "Diluciones y reducciones progresivas con exponentes negativos",
+      "explicacion": "En los subtemas anteriores calculaste exponentes negativos como fracciones aisladas; ahora los usarás para modelar procesos reales donde una cantidad se divide entre la misma base varias veces seguidas, como una dilución de laboratorio o la reducción del grosor de un material. El exponente negativo ya no es solo un ejercicio: representa cuántas veces se repitió la misma división.",
+      "formula": "Cantidad final = Cantidad inicial × baseᐨⁿ (n = número de veces que se repite la división)",
+      "ejemplos": [
+        "Un laboratorio parte de una muestra con concentración 500 mg/mL y realiza 3 diluciones seriadas 1:10 (cada una multiplica por 10⁻¹). Concentración final = 500 × 10⁻³ = 500 × 0.001 = 0.5 mg/mL.",
+        "Una tintorería diluye un colorante concentrado: parte de 240 g/L y aplica 2 diluciones 1:10. Concentración final = 240 × 10⁻² = 240 × 0.01 = 2.4 g/L."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una enfermera prepara un medicamento: parte de una concentración de 900 mg/mL y aplica 2 diluciones 1:10 seguidas. ¿Cuál es la concentración final?",
+          "opciones": [
+            "9 mg/mL",
+            "0.9 mg/mL",
+            "90 mg/mL",
+            "0.09 mg/mL"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "900 × 10⁻² = 900 × 0.01 = 9 mg/mL."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si una muestra de 1,200 mg/mL se diluye 1:10 tres veces seguidas, la concentración final es 1.2 mg/mL.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "1,200 × 10⁻³ = 1,200 × 0.001 = 1.2 mg/mL."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una solución de 650 mg/mL se diluye 1:10 una sola vez; la concentración final es ___ mg/mL.",
+          "respuestaCorrecta": "65",
+          "retroalimentacion": "650 × 10⁻¹ = 650 × 0.1 = 65 mg/mL."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Si una cantidad inicial C₀ se divide entre la misma base b un total de n veces seguidas, ¿qué expresión representa la cantidad final?",
+          "opciones": [
+            "C₀ × bⁿ",
+            "C₀ × bᐨⁿ",
+            "C₀ ÷ n",
+            "C₀ - bn"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Dividir n veces entre b equivale a multiplicar por b elevado al exponente negativo n: C₀ × bᐨⁿ."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "30⁻¹ equivale a dividir un número entre 30 una sola vez, es decir, 1/30.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Un exponente negativo -1 siempre es el recíproco simple: 30⁻¹ = 1/30."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un material reduce su grosor a una novena parte cada capa que se le retira. Si el grosor inicial es 6,561 micras, después de 4 capas quedan 6,561 × 9⁻⁴ = ___ micras.",
+          "respuestaCorrecta": "1",
+          "retroalimentacion": "9⁻⁴ = 1/9⁴ = 1/6,561, y 6,561 × 1/6,561 = 1 micra."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una máquina reduce una medida a un tercio en cada paso. Si la medida inicial es 972 unidades, ¿qué expresión representa la medida después de 5 pasos?",
+          "opciones": [
+            "972 × 3⁵",
+            "972 × 3⁻⁵",
+            "972 ÷ 5",
+            "972 × 5⁻³"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Reducir a un tercio 5 veces seguidas equivale a multiplicar por 3⁻⁵."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada exponente negativo con su valor como fracción.",
+          "columnaA": [
+            "11⁻³",
+            "12⁻³",
+            "13⁻³"
+          ],
+          "columnaB": [
+            "1/1,728",
+            "1/2,197",
+            "1/1,331"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "11⁻³ = 1/1,331; 12⁻³ = 1/1,728; 13⁻³ = 1/2,197."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un compuesto tóxico de 6,700 mg/L se diluye 1:10 tres veces seguidas. La concentración final es ___ mg/L.",
+          "respuestaCorrecta": "6.7",
+          "retroalimentacion": "6,700 × 10⁻³ = 6,700 × 0.001 = 6.7 mg/L."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "50⁻¹ = 1/50.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: cualquier número elevado a -1 es su recíproco, 50⁻¹ = 1/50."
+        }
+      ]
+    },
+    {
+      "numero": "1.6",
+      "nivelEtiqueta": "Nivel 2 de 3 · Aplicación avanzada",
+      "titulo": "Raíz cuadrada en el diseño de espacios cuadrados",
+      "explicacion": "Hasta ahora calculaste la raíz cuadrada de números aislados; ahora la usarás para resolver el problema inverso: encontrar el lado de una superficie cuadrada a partir de su área, algo muy común en diseño, construcción y agricultura. Además, trabajarás con áreas más grandes y menos \"redondas\", que exigen reconocer cuadrados perfectos mayores.",
+      "formula": "Si Área = lado², entonces lado = √Área",
+      "ejemplos": [
+        "Un terreno cuadrado tiene un área de 1,764 m². Su lado mide √1,764 = 42 m, porque 42 × 42 = 1,764.",
+        "Una alberca cuadrada tiene un área de 2,304 m². Su lado mide √2,304 = 48 m, porque 48 × 48 = 2,304."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un patio cuadrado tiene un área de 1,089 m². ¿Cuánto mide cada lado?",
+          "opciones": [
+            "31 m",
+            "32 m",
+            "33 m",
+            "34 m"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "33 × 33 = 1,089."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una cancha cuadrada de futbol rápido tiene un área de 1,296 m². Cada lado mide ___ m.",
+          "respuestaCorrecta": "36",
+          "retroalimentacion": "36 × 36 = 1,296."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si un mosaico cuadrado tiene un área de 1,369 cm², entonces cada lado mide 37 cm.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "37 × 37 = 1,369."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una mesa cuadrada tiene 2,116 cm² de superficie. ¿Cuánto mide cada lado?",
+          "opciones": [
+            "44 cm",
+            "45 cm",
+            "46 cm",
+            "47 cm"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "46 × 46 = 2,116."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El área de una alfombra cuadrada es 2,809 cm². Su lado mide ___ cm.",
+          "respuestaCorrecta": "53",
+          "retroalimentacion": "53 × 53 = 2,809."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada área cuadrada con la medida de su lado.",
+          "columnaA": [
+            "1,521 m²",
+            "1,681 m²",
+            "1,936 m²"
+          ],
+          "columnaB": [
+            "44 m",
+            "39 m",
+            "41 m"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "√1,521 = 39; √1,681 = 41; √1,936 = 44."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un terreno resultó ser cuadrado con área de 2,601 m². Si se quiere cercarlo, ¿cuántos metros mide cada lado?",
+          "opciones": [
+            "49 m",
+            "50 m",
+            "51 m",
+            "52 m"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "51 × 51 = 2,601."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un lote cuadrado de 2,704 m² tiene lados de 51 m.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "52 × 52 = 2,704, no 51."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una superficie cuadrada tiene un área de 3,025 cm². Su lado mide ___ cm.",
+          "respuestaCorrecta": "55",
+          "retroalimentacion": "55 × 55 = 3,025."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el lado de un jardín cuadrado cuya área es 3,249 m²?",
+          "opciones": [
+            "56 m",
+            "57 m",
+            "58 m",
+            "59 m"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "57 × 57 = 3,249."
+        }
+      ]
+    },
+    {
+      "numero": "1.7",
+      "nivelEtiqueta": "Nivel 3 de 3 · Reto",
+      "titulo": "Multiplicación y división de cantidades en notación científica",
+      "explicacion": "En subtemas anteriores solo convertías un número aislado a notación científica; ahora aprenderás a multiplicar y dividir dos cantidades que ya están expresadas así, combinando los coeficientes y sumando o restando los exponentes. Es una herramienta clave en ciencia y tecnología, por ejemplo para calcular capacidad de almacenamiento digital o producción industrial.",
+      "formula": "(a × 10ᵐ) × (b × 10ⁿ) = (a × b) × 10ᵐ⁺ⁿ   |   (a × 10ᵐ) ÷ (b × 10ⁿ) = (a ÷ b) × 10ᵐ⁻ⁿ",
+      "ejemplos": [
+        "(3 × 10⁴) × (2 × 10³) = (3 × 2) × 10⁴⁺³ = 6 × 10⁷.",
+        "(8 × 10⁶) ÷ (2 × 10²) = (8 ÷ 2) × 10⁶⁻² = 4 × 10⁴."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado de (6 × 10⁵) × (4 × 10²)?",
+          "opciones": [
+            "2.4 × 10⁸",
+            "24 × 10⁷",
+            "2.4 × 10⁷",
+            "24 × 10⁸"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "6 × 4 = 24, y 10⁵⁺² = 10⁷, entonces 24 × 10⁷ = 2.4 × 10⁸."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "(9 × 10⁸) ÷ (3 × 10³) = ___ (en notación científica).",
+          "respuestaCorrecta": "3 × 10⁵",
+          "retroalimentacion": "9 ÷ 3 = 3, y 10⁸⁻³ = 10⁵, entonces el resultado es 3 × 10⁵."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "(2 × 10⁴) × (5 × 10³) = 1 × 10⁸.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "2 × 5 = 10, y 10⁴⁺³ = 10⁷, entonces 10 × 10⁷ = 1 × 10⁸."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un archivo de video pesa 3 × 10⁹ bytes y se comprime multiplicándose por 5 × 10⁻¹ (a la mitad). ¿Cuál es el nuevo tamaño?",
+          "opciones": [
+            "1.5 × 10⁹ bytes",
+            "1.5 × 10⁸ bytes",
+            "3 × 10⁸ bytes",
+            "15 × 10⁹ bytes"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "3 × 5 = 15, y 10⁹⁻¹ = 10⁸, entonces 15 × 10⁸ = 1.5 × 10⁹ bytes."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "1 terabyte equivale a 10¹² bytes. Si un disco duro tiene 3.5 × 10¹² bytes, ¿cuántos terabytes son? ___",
+          "respuestaCorrecta": "3.5",
+          "retroalimentacion": "3.5 × 10¹² bytes ÷ 10¹² bytes por terabyte = 3.5 terabytes."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado de (7 × 10⁶) × (6 × 10⁴)?",
+          "opciones": [
+            "4.2 × 10¹¹",
+            "42 × 10¹⁰",
+            "4.2 × 10¹⁰",
+            "42 × 10¹¹"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "7 × 6 = 42, y 10⁶⁺⁴ = 10¹⁰, entonces 42 × 10¹⁰ = 4.2 × 10¹¹."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "(8 × 10⁷) ÷ (4 × 10²) = 2 × 10⁵.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "8 ÷ 4 = 2, y 10⁷⁻² = 10⁵, entonces el resultado es 2 × 10⁵."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada operación en notación científica con su resultado.",
+          "columnaA": [
+            "(4 × 10³) × (2 × 10²)",
+            "(6 × 10⁷) ÷ (3 × 10²)",
+            "(5 × 10⁵) × (3 × 10¹)"
+          ],
+          "columnaB": [
+            "1.5 × 10⁷",
+            "8 × 10⁵",
+            "2 × 10⁵"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "(4×10³)×(2×10²)=8×10⁵; (6×10⁷)÷(3×10²)=2×10⁵; (5×10⁵)×(3×10¹)=1.5×10⁷."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una aplicación almacena 4 × 10² fotos, cada una de 2 × 10⁶ bytes. ¿Cuántos bytes ocupan en total?",
+          "opciones": [
+            "8 × 10⁸",
+            "8 × 10⁷",
+            "4 × 10⁸",
+            "2 × 10⁸"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "4 × 2 = 8, y 10²⁺⁶ = 10⁸, entonces el total es 8 × 10⁸ bytes."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una fábrica produce 5 × 10³ piezas por día durante 4 × 10¹ días. En total produce ___ piezas (en notación científica).",
+          "respuestaCorrecta": "2 × 10⁵",
+          "retroalimentacion": "5 × 4 = 20, y 10³⁺¹ = 10⁴, entonces 20 × 10⁴ = 2 × 10⁵ piezas."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada cantidad con su notación científica.",
+      "columnaA": [
+        "5,400,000",
+        "0.0000091",
+        "√1024"
+      ],
+      "columnaB": [
+        "32",
+        "5.4 × 10⁶",
+        "9.1 × 10⁻⁶"
+      ],
+      "parejasCorrectas": [
+        1,
+        2,
+        0
+      ],
+      "retroalimentacion": "5,400,000 = 5.4×10⁶; 0.0000091 = 9.1×10⁻⁶; √1024 = 32."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "√676 = 26.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "26 × 26 = 676."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "0.0000073 escrito en notación científica es ___.",
+      "respuestaCorrecta": "7.3 × 10⁻⁶",
+      "retroalimentacion": "0.0000073 = 7.3 × 10⁻⁶."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cómo se escribe 3,200,000 en notación científica?",
+      "opciones": [
+        "3.2×10⁵",
+        "32×10⁵",
+        "3.2×10⁶",
+        "0.32×10⁷"
+      ],
+      "respuestaCorrecta": 2,
+      "retroalimentacion": "3,200,000 = 3.2 × 10⁶."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "La raíz cuadrada de 841 es ___.",
+      "respuestaCorrecta": "29",
+      "retroalimentacion": "29 × 29 = 841."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada número con su notación científica correspondiente.",
+      "columnaA": [
+        "6,700,000",
+        "0.000052",
+        "√1444"
+      ],
+      "columnaB": [
+        "5.2×10⁻⁵",
+        "38",
+        "6.7×10⁶"
+      ],
+      "parejasCorrectas": [
+        2,
+        0,
+        1
+      ],
+      "retroalimentacion": "6,700,000 = 6.7×10⁶; 0.000052 = 5.2×10⁻⁵; √1444 = 38."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es el resultado de 7⁻2?",
+      "opciones": [
+        "1/49",
+        "-14",
+        "49",
+        "1/14"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "7⁻2 = 1/7² = 1/49."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "√121 = 11.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "11 × 11 = 121."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "0.00000023 escrito en notación científica es ___.",
+      "respuestaCorrecta": "2.3 × 10⁻⁷",
+      "retroalimentacion": "0.00000023 = 2.3 × 10⁻⁷."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es la raíz cuadrada de 100?",
+      "opciones": [
+        "12",
+        "10",
+        "20",
+        "11"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "10 × 10 = 100."
+    }
+  ]
+}

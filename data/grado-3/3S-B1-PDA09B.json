@@ -1,0 +1,412 @@
+{
+  "id": "3S-B1-PDA09B",
+  "grado": "3°",
+  "trimestre": "3",
+  "numero": 26,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Muestras y Análisis Crítico de Gráficas 9.2",
+  "contenido": "Obtención y representación de información.",
+  "pda": "Distingue población y muestra, y analiza críticamente gráficas estadísticas, incluyendo gráficas que pueden inducir a error.",
+  "problematizacion": {
+    "contexto": "El departamento de Salud de un municipio de Morelia encuestó a 250 personas de una colonia de 5,000 habitantes y encontró que el 12% ya se vacunó contra la influenza este año. Repartieron la muestra proporcionalmente entre los distintos grupos de edad, aunque un compañero de estadística sugirió, en cambio, encuestar solo la casa número 10, 20, 30, 40... de cada calle.",
+    "pregunta": "¿Cuántas personas de la colonia se han vacunado según el porcentaje muestral, y qué riesgo de sesgo tendría el muestreo sistemático que propuso el compañero?"
+  },
+  "subtemas": [
+    {
+      "numero": "9.5",
+      "nivelEtiqueta": "Nivel 1 de 3 · Aplicación",
+      "titulo": "Estimar el total de una población a partir de un porcentaje muestral",
+      "explicacion": "Hasta ahora solo evaluábamos si una muestra era representativa; ahora, suponiendo que sí lo es, aprenderás a usarla para algo muy práctico: proyectar un resultado obtenido en la muestra hacia toda la población, mediante una proporción directa (regla de tres). Esto es justo lo que hacen empresas, gobiernos e investigadores cuando dicen 'se estima que X millones de personas...': parten de un dato pequeño (la muestra) y lo escalan al tamaño real de la población que les interesa.",
+      "formula": "Estimación en la población = (frecuencia obtenida en la muestra ÷ tamaño de la muestra) × tamaño de la población",
+      "ejemplos": [
+        "Una tienda departamental encuesta a una muestra aleatoria de 240 de sus 9,600 clientes registrados, y 156 dicen preferir recibir promociones por WhatsApp en vez de correo electrónico. Proporción en la muestra: 156 ÷ 240 = 0.65 (65%). Estimación para toda la clientela: 0.65 × 9,600 = 6,240 clientes que preferirían WhatsApp.",
+        "En una encuesta aleatoria a 180 de los 4,500 habitantes de un pueblo, 45 dijeron que usan bicicleta como transporte principal. Proporción: 45 ÷ 180 = 0.25 (25%). Estimación: 0.25 × 4,500 = 1,125 habitantes que usan bicicleta como transporte principal."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un gimnasio tiene 1,350 socios. En una muestra aleatoria de 90 socios, 63 dicen entrenar en la mañana. ¿Cuántos de los 1,350 socios se estima que entrenan en la mañana?",
+          "opciones": [
+            "945 socios",
+            "630 socios",
+            "1,350 socios",
+            "90 socios"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "63 ÷ 90 = 0.7 (70%). Estimación: 0.7 × 1,350 = 945 socios."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si en una muestra aleatoria de 300 personas, 90 prefieren refresco light, la estimación para una población de 6,000 personas es de 1,800 personas.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 90 ÷ 300 = 0.3 (30%); 0.3 × 6,000 = 1,800 personas."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Para estimar cuántas personas de toda una población compartirían cierto resultado a partir de una muestra, se multiplica la proporción obtenida en la muestra por el tamaño de la ___.",
+          "respuestaCorrecta": "población",
+          "retroalimentacion": "La proporción muestral se escala multiplicándola por el tamaño total de la población que se quiere representar."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una clínica atiende a 1,600 pacientes. En una muestra aleatoria de 200 pacientes, 46 tienen presión alta. ¿Cuántos de los 1,600 pacientes se estima que tienen presión alta?",
+          "opciones": [
+            "368 pacientes",
+            "46 pacientes",
+            "200 pacientes",
+            "736 pacientes"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "46 ÷ 200 = 0.23 (23%). Estimación: 0.23 × 1,600 = 368 pacientes."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una escuela tiene 980 alumnos. En una muestra aleatoria de 140 alumnos, 112 dicen usar mochila con ruedas. La estimación para toda la escuela es de 686 alumnos.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: 112 ÷ 140 = 0.8 (80%); 0.8 × 980 = 784 alumnos, no 686."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En una empresa de 2,400 empleados se encuestó a una muestra aleatoria de 320 empleados, de los cuales 208 dijeron preferir horario flexible. La estimación de empleados de toda la empresa que preferirían horario flexible es de ___ empleados.",
+          "respuestaCorrecta": "1560",
+          "retroalimentacion": "208 ÷ 320 = 0.65 (65%); 0.65 × 2,400 = 1,560 empleados."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El club de fans de un equipo de beisbol tiene 2,750 aficionados registrados. En una muestra aleatoria de 250 de ellos, 175 asistieron a más de 5 juegos en el año. ¿Cuántos de los 2,750 aficionados se estima que asistieron a más de 5 juegos?",
+          "opciones": [
+            "1,925 aficionados",
+            "1,750 aficionados",
+            "2,750 aficionados",
+            "875 aficionados"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "175 ÷ 250 = 0.7 (70%). Estimación: 0.7 × 2,750 = 1,925 aficionados."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada muestra con la estimación correcta para su población.",
+          "columnaA": [
+            "Muestra de 100 de 5,000 clientes; 40 prefieren la app móvil",
+            "Muestra de 150 de 3,000 alumnos; 105 usan transporte escolar",
+            "Muestra de 80 de 2,200 vecinos; 20 asisten a las juntas vecinales"
+          ],
+          "columnaB": [
+            "2,000 clientes estimados",
+            "550 vecinos estimados",
+            "2,100 alumnos estimados"
+          ],
+          "parejasCorrectas": [
+            0,
+            2,
+            1
+          ],
+          "retroalimentacion": "40÷100=0.4×5,000=2,000. 105÷150=0.7×3,000=2,100. 20÷80=0.25×2,200=550."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La fórmula para estimar un total poblacional a partir de una muestra es: (tamaño de la muestra ÷ frecuencia en la muestra) × tamaño de la población.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: la fórmula correcta es (frecuencia en la muestra ÷ tamaño de la muestra) × tamaño de la población; el orden de la división está invertido en el enunciado."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una cadena de cafeterías tiene 18,000 clientes frecuentes registrados en su app de lealtad. En una muestra aleatoria de 450 clientes, 315 dicen que comprarían un nuevo producto de temporada. ¿Cuántos de los 18,000 clientes se estima que comprarían el nuevo producto?",
+          "opciones": [
+            "12,600 clientes",
+            "6,300 clientes",
+            "15,750 clientes",
+            "9,000 clientes"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "315 ÷ 450 = 0.7 (70%). Estimación: 0.7 × 18,000 = 12,600 clientes."
+        }
+      ]
+    },
+    {
+      "numero": "9.6",
+      "nivelEtiqueta": "Nivel 2 de 3 · Aplicación avanzada",
+      "titulo": "Muestreo aleatorio estratificado: repartir la muestra proporcionalmente entre grupos",
+      "explicacion": "Cuando una población tiene subgrupos (estratos) de tamaños muy distintos —como grados escolares, turnos de trabajo o regiones—, un muestreo aleatorio simple podría, por pura casualidad, dejar fuera o subrepresentar a un subgrupo pequeño. El muestreo estratificado corrige esto dividiendo la población en estratos y tomando de cada uno una cantidad de la muestra proporcional a su tamaño, para que ningún grupo quede sobre ni subrepresentado.",
+      "formula": "Muestra por estrato = (tamaño del estrato ÷ tamaño total de la población) × tamaño total de la muestra",
+      "ejemplos": [
+        "Una secundaria tiene 1,000 alumnos: 420 en 1°, 340 en 2° y 240 en 3°. Se quiere una muestra estratificada de 100 alumnos. Por regla de proporción: 1° → (420÷1,000)×100=42; 2° → (340÷1,000)×100=34; 3° → (240÷1,000)×100=24. En total: 42+34+24=100, tal como se pidió.",
+        "Una empresa tiene 750 empleados: 450 en el turno matutino y 300 en el vespertino. Para una muestra estratificada de 60 empleados: matutino → (450÷750)×60=36; vespertino → (300÷750)×60=24. Suman los 60 solicitados."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una preparatoria tiene 1,600 alumnos: 900 mujeres y 700 hombres. Se planea una muestra estratificada de 80 alumnos. ¿Cuántas mujeres debe incluir la muestra?",
+          "opciones": [
+            "45 mujeres",
+            "35 mujeres",
+            "40 mujeres",
+            "50 mujeres"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(900 ÷ 1,600) × 80 = 45 mujeres."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En un muestreo estratificado, cada subgrupo (estrato) aporta a la muestra una cantidad proporcional a su tamaño dentro de la población total.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: esa proporcionalidad es justo lo que distingue al muestreo estratificado de uno aleatorio simple."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En el muestreo estratificado, la población se divide primero en subgrupos llamados ___ antes de tomar la muestra de cada uno.",
+          "respuestaCorrecta": "estratos",
+          "retroalimentacion": "Cada uno de esos subgrupos, definidos por una característica común, se llama estrato."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un hospital tiene 2,000 pacientes: 1,200 son adultos y 800 son adultos mayores. Se toma una muestra estratificada de 150 pacientes. ¿Cuántos deben ser adultos mayores?",
+          "opciones": [
+            "60 pacientes",
+            "90 pacientes",
+            "75 pacientes",
+            "50 pacientes"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(800 ÷ 2,000) × 150 = 60 pacientes adultos mayores."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una ciudad tiene 12,000 habitantes en 3 colonias: A con 5,000, B con 4,000 y C con 3,000. Para una muestra estratificada de 240 personas, a la colonia C le corresponden 80 personas.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: (3,000 ÷ 12,000) × 240 = 60 personas, no 80."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una fábrica tiene 1,800 trabajadores: 1,080 en el área de producción y 720 en administración. Para una muestra estratificada de 100 trabajadores, al área de producción le corresponden ___ trabajadores.",
+          "respuestaCorrecta": "60",
+          "retroalimentacion": "(1,080 ÷ 1,800) × 100 = 60 trabajadores."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un club deportivo tiene 500 socios: 300 practican fútbol y 200 practican basquetbol. Se decide tomar una muestra estratificada de 50 socios. ¿Cuántos socios de basquetbol debe incluir la muestra?",
+          "opciones": [
+            "20 socios",
+            "30 socios",
+            "25 socios",
+            "15 socios"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(200 ÷ 500) × 50 = 20 socios de basquetbol."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada caso de muestreo estratificado con la cantidad correcta que corresponde al primer subgrupo mencionado.",
+          "columnaA": [
+            "Escuela de 800 alumnos: 500 en secundaria y 300 en primaria; muestra total de 40",
+            "Empresa de 900 empleados: 600 en ventas y 300 en logística; muestra total de 90",
+            "Comunidad de 2,500 personas: 1,500 adultos y 1,000 jóvenes; muestra total de 100"
+          ],
+          "columnaB": [
+            "60 empleados de ventas",
+            "25 alumnos de secundaria",
+            "60 adultos"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            2
+          ],
+          "retroalimentacion": "(500÷800)×40=25 alumnos de secundaria. (600÷900)×90=60 empleados de ventas. (1,500÷2,500)×100=60 adultos."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El muestreo estratificado es útil cuando la población tiene subgrupos de tamaños muy distintos que un muestreo aleatorio simple podría representar mal por pura casualidad.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: al fijar de antemano cuántos elementos aporta cada subgrupo, se evita que el azar deje fuera o subrepresente a un grupo pequeño."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una universidad tiene 6,000 estudiantes: 3,600 en licenciatura y 2,400 en posgrado. Se planea una muestra estratificada de 300 estudiantes. ¿Cuántos deben ser de posgrado?",
+          "opciones": [
+            "120 estudiantes",
+            "180 estudiantes",
+            "150 estudiantes",
+            "100 estudiantes"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(2,400 ÷ 6,000) × 300 = 120 estudiantes de posgrado."
+        }
+      ]
+    },
+    {
+      "numero": "9.7",
+      "nivelEtiqueta": "Nivel 3 de 3 · Reto",
+      "titulo": "Muestreo sistemático y el riesgo de sesgo oculto por periodicidad",
+      "explicacion": "Otra técnica de muestreo aleatorio es el muestreo sistemático: se ordena la población en una lista y se selecciona un elemento de cada k, empezando desde un punto elegido al azar entre 1 y k. Es más rápido de aplicar que el aleatorio simple, pero tiene un riesgo nuevo que no habíamos visto: si la lista tiene un patrón oculto que se repite justo cada k elementos (periodicidad), la muestra puede terminar sesgada aunque el procedimiento de selección parezca perfectamente aleatorio y justo.",
+      "formula": "Intervalo de muestreo k = tamaño de la población ÷ tamaño de la muestra",
+      "ejemplos": [
+        "Una fábrica produce 3,600 productos al día y quiere inspeccionar una muestra sistemática de 90 productos. k = 3,600 ÷ 90 = 40; se inspecciona 1 de cada 40 productos, empezando en un número aleatorio entre 1 y 40.",
+        "Un call center recibe 2,800 llamadas por semana y revisa 56 para control de calidad: k = 2,800 ÷ 56 = 50. Pero si las llamadas están ordenadas por turno y cada 50 llamadas se completa exactamente el turno de un mismo operador, el muestreo sistemático podría, sin querer, elegir siempre al mismo operador y sesgar el resultado."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una línea de producción fabrica 4,500 piezas al día. Se quiere una muestra sistemática de 90 piezas. ¿Cuál es el intervalo de muestreo k?",
+          "opciones": [
+            "50",
+            "45",
+            "90",
+            "500"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "k = 4,500 ÷ 90 = 50; se inspecciona 1 de cada 50 piezas."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En el muestreo sistemático, el punto de partida se elige al azar entre 1 y k, y a partir de ahí se selecciona cada k-ésimo elemento.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: ese arranque aleatorio es lo que le da al muestreo sistemático su componente de azar."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El intervalo de muestreo k en un muestreo sistemático se calcula dividiendo el tamaño de la ___ entre el tamaño de la muestra deseada.",
+          "respuestaCorrecta": "población",
+          "retroalimentacion": "k = tamaño de la población ÷ tamaño de la muestra."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un supermercado registra 6,300 tickets de venta en una semana y decide revisar 1 de cada 70 tickets para un estudio de calidad. ¿Cuántos tickets tendrá la muestra?",
+          "opciones": [
+            "90 tickets",
+            "70 tickets",
+            "63 tickets",
+            "100 tickets"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "6,300 ÷ 70 = 90 tickets en la muestra."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un call center recibe llamadas ordenadas según el turno de 8 operadores que se repiten siempre en la misma secuencia. Si se usa k=8, tomar cada octava llamada da una muestra representativa de todos los operadores.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: si k coincide exactamente con el ciclo de 8 operadores, cada 8ª llamada caerá siempre en el mismo operador, sesgando la muestra en vez de representar a los ocho."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una escuela con 2,400 alumnos inscritos en una lista quiere una muestra sistemática de 60 alumnos. El intervalo de muestreo k es de ___.",
+          "respuestaCorrecta": "40",
+          "retroalimentacion": "k = 2,400 ÷ 60 = 40."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un municipio tiene 5,000 viviendas registradas en una lista y quiere una muestra sistemática de 100 viviendas. Si el primer número elegido al azar entre 1 y k es el 23, ¿cuál sería la segunda vivienda seleccionada en la muestra?",
+          "opciones": [
+            "La vivienda 73",
+            "La vivienda 50",
+            "La vivienda 123",
+            "La vivienda 46"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "k = 5,000 ÷ 100 = 50. La segunda vivienda seleccionada es 23 + 50 = 73."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada caso con el intervalo de muestreo k correcto.",
+          "columnaA": [
+            "Población de 8,000 y muestra deseada de 200",
+            "Población de 3,150 y muestra deseada de 90",
+            "Población de 12,000 y muestra deseada de 400"
+          ],
+          "columnaB": [
+            "35",
+            "30",
+            "40"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "8,000÷200=40. 3,150÷90=35. 12,000÷400=30."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El muestreo sistemático siempre es completamente inmune a cualquier tipo de sesgo, sin importar cómo esté ordenada la lista de la población.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: si la lista tiene un patrón que se repite cada k elementos (periodicidad), el muestreo sistemático puede resultar sesgado."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una panadería produce en lotes de 12 charolas, y siempre la charola número 12 de cada lote sale con menos peso por ser la última en hornearse. Si se hace un muestreo sistemático con k=12 y el punto de inicio elegido al azar resulta ser la charola 12, ¿qué pasará con la muestra?",
+          "opciones": [
+            "Será representativa, porque el punto de inicio fue elegido al azar",
+            "Estará sesgada, porque siempre se elegirá la charola con menos peso de cada lote",
+            "No se puede saber sin conocer el tamaño total de la población",
+            "Será igual de representativa que cualquier otro punto de inicio"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Aunque el punto de inicio se eligió al azar, coincide con el patrón de periodicidad (k=12 = tamaño del lote), así que la muestra caerá siempre en la charola más ligera: está sesgada."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Una gráfica de pastel (circular) cuyas partes suman 100% está construida correctamente en ese aspecto.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: las partes de una gráfica de pastel deben sumar exactamente 100%."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál de estas es la población objetivo si un estudio busca conocer 'las calificaciones promedio de todos los alumnos de 3° de secundaria del estado'?",
+      "opciones": [
+        "Solo los alumnos de una escuela",
+        "Todos los alumnos de 3° de secundaria del estado",
+        "Solo los alumnos con las mejores calificaciones",
+        "Los maestros de 3° de secundaria"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "La población objetivo es el conjunto completo que el estudio dice representar: todos los alumnos de 3° del estado."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Antes de aplicar una encuesta, se debe definir con claridad la variable de estudio, la población objetivo y la forma de elegir la ___.",
+      "respuestaCorrecta": "muestra",
+      "retroalimentacion": "Esos tres elementos son la base de una encuesta bien diseñada."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Una muestra elegida solo entre las personas más fáciles de contactar (por ejemplo, solo amigos y familiares) suele estar sesgada.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: elegir solo a quienes son fáciles de contactar deja fuera a mucha gente distinta, sesgando la muestra."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Una noticia dice que 'las ventas de autos eléctricos se dispararon' mostrando una gráfica cuyo eje Y va de 1,000 a 1,200 unidades (no de 0 a 1,200), cuando en realidad las ventas subieron de 1,050 a 1,090 unidades. ¿Qué está pasando?",
+      "opciones": [
+        "La gráfica exagera visualmente un aumento en realidad pequeño",
+        "La gráfica reduce el aumento real",
+        "La gráfica no tiene ningún problema",
+        "Las ventas realmente se dispararon como dice la gráfica"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "El aumento real es de solo 40 unidades sobre una base de 1,050; el eje recortado desde 1,000 hace que ese cambio se vea enorme."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Si una gráfica usa intervalos desiguales en su eje (unos tramos representan 2 unidades y otros representan 10), puede distorsionar la forma real de la tendencia de los datos.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: los intervalos desiguales rompen la proporcionalidad visual entre los valores representados."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "En una muestra aleatoria, cada elemento de la población tiene la misma ___ de ser elegido.",
+      "respuestaCorrecta": "probabilidad",
+      "retroalimentacion": "Esa igualdad de probabilidad es la característica que define a una muestra aleatoria."
+    }
+  ]
+}

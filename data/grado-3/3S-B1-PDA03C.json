@@ -1,0 +1,476 @@
+{
+  "id": "3S-B1-PDA03C",
+  "grado": "3°",
+  "trimestre": "2",
+  "numero": 9,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Ecuaciones lineales y cuadráticas 3.3",
+  "contenido": "Ecuaciones lineales y cuadráticas.",
+  "pda": "Resuelve ecuaciones de la forma Ax²+Bx+C=0 por factorización y fórmula general. Resuelve problemas cuyo planteamiento es una ecuación cuadrática.",
+  "problematizacion": {
+    "contexto": "Octavio organiza un torneo de fútbol rápido en Tijuana. El costo de la organización según el número de partidos x está dado por 3x² - 7x - 6, y necesita saber para qué número de partidos ese costo sería exactamente cero, antes de fijar el precio de las inscripciones.",
+    "pregunta": "Resolviendo la ecuación cuadrática con A distinto de 1, ¿para qué número de partidos x el costo del torneo es exactamente cero?"
+  },
+  "subtemas": [
+    {
+      "numero": "3.8",
+      "titulo": "Ecuaciones cuadráticas con A distinto de 1",
+      "explicacion": "Todas las ecuaciones anteriores tenían A=1. Ahora A puede ser cualquier número distinto de 1 (por ejemplo 2x²+7x+3=0). La fórmula general sigue funcionando exactamente igual: x=(−B±√(B²−4AC))/2A, solo que ahora divides entre 2A y no solo entre 2; para factorizar, buscas dos binomios cuyo producto reproduzca A, B y C a la vez. Estos casos aparecen en problemas reales donde el costo o la ganancia depende de varias unidades a la vez, como la producción por lotes.",
+      "formula": "x = (−B ± √(B²−4AC)) / 2A — con A≠1, recuerda dividir entre 2A, no solo entre 2.",
+      "ejemplos": [
+        "2x² + 7x + 3 = 0: A=2, B=7, C=3. Δ=49-24=25. x=(-7±5)/4 → x=-0.5 o x=-3. (Factorizando: (2x+1)(x+3)=2x²+7x+3.)",
+        "3x² - 5x - 2 = 0: A=3, B=-5, C=-2. Δ=25+24=49. x=(5±7)/6 → x=2 o x=-1/3. (Factorizando: (3x+1)(x-2)=3x²-5x-2.)"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Resuelve: 2x² - 3x - 2 = 0",
+          "opciones": [
+            "x=2, x=-0.5",
+            "x=-2, x=0.5",
+            "x=1, x=-1",
+            "x=4, x=-0.25"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(2x+1)(x-2)=2x²-3x-2=0 → x=2 o x=-0.5."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Resuelve 2x² - 7x - 4 = 0. La solución positiva y entera es x = ___.",
+          "respuestaCorrecta": "4",
+          "retroalimentacion": "(2x+1)(x-4)=2x²-7x-4=0 → x=4 o x=-0.5. La entera positiva es 4."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Las soluciones de 5x² - 3x - 2 = 0 son x=1 y x=-0.4.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Δ=9+40=49. x=(3±7)/10 → x=1 o x=-0.4. Correcto."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Las soluciones de 4x² + 4x - 3 = 0 son x=0.5 y x=-1.5.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Δ=16+48=64. x=(-4±8)/8 → x=0.5 o x=-1.5. Correcto."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un taller produce x lotes de piezas; su costo neto (en miles de pesos) es 2x²−5x−3. ¿Para qué valor positivo de x el costo neto es cero?",
+          "opciones": [
+            "3",
+            "1.5",
+            "2.5",
+            "6"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "2x²-5x-3=0 → (2x+1)(x-3)=0 → x=3 (se descarta -0.5)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Resuelve: 3x² - 11x + 6 = 0",
+          "opciones": [
+            "x=3, x=2/3",
+            "x=2, x=1",
+            "x=3, x=-2/3",
+            "x=6, x=1/3"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(3x-2)(x-3)=3x²-11x+6=0 → x=3 o x=2/3."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Resuelve 2x² + x - 15 = 0. La solución negativa es x = ___.",
+          "respuestaCorrecta": "-3",
+          "retroalimentacion": "(2x-5)(x+3)=2x²+x-15=0 → x=2.5 o x=-3. La negativa es -3."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El costo de fabricar x unidades de un producto artesanal es 3x² - 14x - 5 (en cientos de pesos). Cuando el costo es cero, una de las soluciones es x = 5.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "3x²-14x-5=0 → (3x+1)(x-5)=0 → x=5 o x=-1/3. Sí, x=5 es solución."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada ecuación cuadrática (con A≠1) con sus soluciones.",
+          "columnaA": [
+            "2x² - x - 6 = 0",
+            "3x² + 2x - 8 = 0",
+            "4x² - 9x + 2 = 0"
+          ],
+          "columnaB": [
+            "x = 4/3, x = -2",
+            "x = 2, x = 1/4",
+            "x = 2, x = -1.5"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "2x²-x-6=0→x=2,-1.5; 3x²+2x-8=0→x=4/3,-2; 4x²-9x+2=0→x=2,1/4."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuáles son los valores de A, B y C en la ecuación 5x² - 2x + 9 = 0?",
+          "opciones": [
+            "A=5, B=-2, C=9",
+            "A=5, B=2, C=-9",
+            "A=-2, B=5, C=9",
+            "A=5, B=-2, C=-9"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "En Ax²+Bx+C=0, el coeficiente de x² es A=5, el de x es B=-2 y el término independiente es C=9."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 1 de 3 · Reto avanzado"
+    },
+    {
+      "numero": "3.9",
+      "titulo": "Integración: geometría, costos y discriminante en un mismo problema",
+      "explicacion": "En esta lección cada problema combina dos o más ideas ya vistas en este PDA: plantear la ecuación desde un enunciado, decidir si conviene factorizar o usar la fórmula general, aplicar el discriminante para saber si hay solución, o resolver ecuaciones con A≠1 en un contexto de área o de costos. Lee con cuidado qué pide cada problema antes de resolver.",
+      "ejemplos": [
+        "Un vivero tiene un terreno donde el largo es el doble del ancho menos 2 metros, y el área es 84 m². Si x es el ancho: x(2x-2)=84 → 2x²-2x-84=0 → x²-x-42=0 (dividiendo entre 2) → (x-7)(x+6)=0 → x=7 (se descarta -6). El ancho es 7 m y el largo es 2(7)-2=12 m.",
+        "Un rectángulo tiene perímetro 30 m y área 44 m². Semiperímetro=15. x²-15x+44=0 → Δ=225-176=49 → (x-11)(x-4)=0 → x=11 o x=4. Dimensiones: 11 m y 4 m."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un terreno rectangular tiene el largo igual al triple del ancho menos 4 metros, y su área es 95 m². Si x es el ancho, ¿cuál ecuación en forma estándar representa el problema?",
+          "opciones": [
+            "3x²-4x-95=0",
+            "3x²+4x-95=0",
+            "x²-4x-95=0",
+            "3x²-4x+95=0"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "x(3x-4)=95 → 3x²-4x=95 → 3x²-4x-95=0."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un terreno rectangular tiene el largo igual al doble del ancho más 3 metros, y su área es 90 m². El ancho mide ___ m.",
+          "respuestaCorrecta": "6",
+          "retroalimentacion": "x(2x+3)=90 → 2x²+3x-90=0 → (2x+15)(x-6)=0 → x=6 (se descarta -7.5). Comprobación: 6×15=90."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un rectángulo con perímetro 34 m y área 66 m² tiene por dimensiones 13 m y 5 m.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Semiperímetro=17. x²-17x+66=0 → (x-11)(x-6)=0 → las dimensiones reales son 11 m y 6 m (13×5=65≠66 y 13+5=18≠17)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una fábrica modela su costo mensual (en miles de pesos) al producir x lotes con la expresión 2x² - 9x + 15. Calculando el discriminante de 2x²-9x+15=0, ¿existe algún número de lotes para el cual el costo sea exactamente cero?",
+          "opciones": [
+            "No, el discriminante es negativo y no hay solución real",
+            "Sí, existen dos soluciones",
+            "Sí, existe una solución doble",
+            "No se puede saber sin resolver"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Δ=(-9)²-4(2)(15)=81-120=-39<0 → no hay solución real, el costo nunca llega exactamente a cero."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Resuelve 3x² - 2x - 21 = 0 usando la fórmula general. La solución positiva y entera es x = ___.",
+          "respuestaCorrecta": "3",
+          "retroalimentacion": "Δ=4+252=256. x=(2±16)/6 → x=3 o x=-7/3. La positiva entera es 3."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada ecuación con el número de soluciones reales que tiene.",
+          "columnaA": [
+            "x² - 16x + 64 = 0",
+            "x² + 16 = 0",
+            "2x² - 7x + 3 = 0"
+          ],
+          "columnaB": [
+            "Dos soluciones reales",
+            "Ninguna solución real",
+            "Una solución real (doble)"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "x²-16x+64=0→Δ=0 (una, x=8); x²+16=0→Δ=-64 (ninguna); 2x²-7x+3=0→Δ=25 (dos: x=3, x=0.5)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un balón se patea y su altura (en metros) en función del tiempo x (segundos) es -x² + 8x. Igualando a cero para saber cuándo toca el suelo, obtenemos x² - 8x = 0, cuyas soluciones son x=0 y x=8.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "-x²+8x=0 → multiplicando por -1: x²-8x=0 → x(x-8)=0 → x=0 (patada) o x=8 (cae al suelo)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una empresa de transporte tiene una ganancia (en miles de pesos) modelada por 2x² - 11x + 12, donde x son los pasajeros (en decenas). ¿Para qué valores de x la ganancia es exactamente cero?",
+          "opciones": [
+            "x=4, x=1.5",
+            "x=3, x=2",
+            "x=6, x=1",
+            "x=4, x=-1.5"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "2x²-11x+12=0 → (2x-3)(x-4)=0 → x=4 o x=1.5."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un salón rectangular tiene perímetro de 42 m y área de 108 m². El lado más corto mide ___ m.",
+          "respuestaCorrecta": "9",
+          "retroalimentacion": "Semiperímetro=21. x²-21x+108=0 → (x-12)(x-9)=0 → dimensiones 12 m y 9 m. El más corto es 9."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un cohete de agua escolar alcanza una altura (en metros) dada por -2x² + 20x, donde x son los segundos transcurridos. Aparte de x=0, ¿en qué segundo el cohete vuelve a estar a nivel del suelo?",
+          "opciones": [
+            "x=10",
+            "x=5",
+            "x=20",
+            "x=2"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "-2x²+20x=0 → dividiendo entre -2: x²-10x=0 → x(x-10)=0 → x=0 o x=10."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 2 de 3 · Integración"
+    },
+    {
+      "numero": "3.10",
+      "titulo": "Dominio: problemas completos de principio a fin",
+      "explicacion": "Estos problemas requieren que apliques todo el proceso completo: plantear la ecuación desde el contexto, decidir el método de solución más eficiente, verificar con el discriminante si es necesario, y finalmente interpretar cuál de las soluciones matemáticas tiene sentido en la situación real. Ya no se te dice qué método usar ni se te da la ecuación lista; también aprenderás a comprobar una solución sustituyéndola directamente en la ecuación.",
+      "ejemplos": [
+        "Una fábrica de mochilas tiene una ganancia (miles de pesos) de -x² + 22x - 96 según los cientos de unidades x vendidas. Igualando a cero: multiplicamos por -1 → x² - 22x + 96 = 0 → (x-6)(x-16)=0 → x=6 o x=16. Esto significa que la fábrica no pierde dinero vendiendo entre 6 y 16 cientos de unidades.",
+        "Un salón mide (x+5) metros de largo y (x-2) metros de ancho, y su área es 98 m². (x+5)(x-2)=98 → x²+3x-10=98 → x²+3x-108=0 → (x-9)(x+12)=0 → x=9 (se descarta -12). Largo=14 m, ancho=7 m."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un terreno mide (x+6) m de largo y (x-3) m de ancho. Si su área es 220 m², ¿cuáles son sus dimensiones?",
+          "opciones": [
+            "20 m y 11 m",
+            "18 m y 9 m",
+            "22 m y 13 m",
+            "19 m y 10 m"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(x+6)(x-3)=220 → x²+3x-238=0 → (x-14)(x+17)=0 → x=14. Largo=20 m, ancho=11 m."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una empresa produce x cientos de playeras; su costo neto (miles de pesos) es 3x² - 20x + 12. Si el costo neto fue exactamente cero, la mayor cantidad de cientos de playeras producidas fue x = ___.",
+          "respuestaCorrecta": "6",
+          "retroalimentacion": "3x²-20x+12=0 → (3x-2)(x-6)=0 → x=6 o x=2/3. La mayor es 6."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un rectángulo tiene su largo igual al doble del ancho disminuido en 5 metros. Si su área es 75 m², una posible dimensión del ancho es 7.5 m.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "x(2x-5)=75 → 2x²-5x-75=0 → Δ=625 → x=(5±25)/4 → x=7.5 o x=-5. Con ancho=7.5, largo=2(7.5)-5=10 y área=75. Correcto."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Se quiere construir un jardín rectangular cuyo perímetro sea 26 m y área 50 m². Calculando el discriminante correspondiente, ¿es esto geométricamente posible con dimensiones reales?",
+          "opciones": [
+            "No es posible: el discriminante es negativo",
+            "Sí, un rectángulo de 10 m × 3 m",
+            "Sí, un rectángulo de 9 m × 4 m",
+            "Sí, pero solo con números decimales negativos"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Semiperímetro=13. x²-13x+50=0 → Δ=169-200=-31<0 → no existe ningún rectángulo real con esas medidas."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un dron de exhibición sigue una trayectoria de altura h = -2x² + 22x (metros), con x en segundos. Aparte de x=0, el dron vuelve a estar a nivel del suelo en el segundo x = ___.",
+          "respuestaCorrecta": "11",
+          "retroalimentacion": "-2x²+22x=0 → dividiendo entre -2: x²-11x=0 → x(x-11)=0 → x=0 o x=11."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación con la ecuación en forma estándar (ya simplificada) que la representa.",
+          "columnaA": [
+            "Un rectángulo con largo = ancho + 7 tiene área 170 m²",
+            "Un rectángulo con perímetro 36 m y área 80 m²",
+            "El cuadrado de un número menos 9 veces el número es igual a 112"
+          ],
+          "columnaB": [
+            "x² - 18x + 80 = 0",
+            "x² - 9x - 112 = 0",
+            "x² + 7x - 170 = 0"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "x(x+7)=170→x²+7x-170=0; semiperímetro18→x²-18x+80=0; x²-9x=112→x²-9x-112=0."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una alberca rectangular tiene un andador de concreto alrededor. El área total (alberca + andador) es (x+4)(x+2) y se sabe que mide 143 m². ¿Cuánto mide x?",
+          "opciones": [
+            "9",
+            "10",
+            "11",
+            "13"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(x+4)(x+2)=143 → x²+6x-135=0 → (x-9)(x+15)=0 → x=9 (se descarta -15)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una empresa de dulces típicos mexicanos tiene una ganancia (en miles de pesos) modelada por 2x² - 3x - 20, donde x son los kilos vendidos (en decenas). Cuando x=4, la ganancia es exactamente cero.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Sustituyendo: 2(4)²-3(4)-20 = 32-12-20 = 0. Correcto, x=4 es una solución."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Verifica: para la ecuación 3x² + x - 14 = 0, al sustituir x=2 se obtiene 3(2)²+2-14 = ___.",
+          "respuestaCorrecta": "0",
+          "retroalimentacion": "3(4)+2-14 = 12+2-14 = 0. Esto confirma que x=2 es una solución de la ecuación."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El comité de la kermés modela ahora la ganancia de un segundo puesto con la expresión 2x² − 13x + 15, donde x son las horas transcurridas. ¿En qué horas la ganancia de este puesto es exactamente cero?",
+          "opciones": [
+            "x=1.5 y x=5",
+            "x=3 y x=5",
+            "x=1 y x=6",
+            "x=2.5 y x=6"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "2x²-13x+15=0 → (2x-3)(x-5)=0 → x=1.5 o x=5."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 3 de 3 · Dominio"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada ecuación con sus soluciones.",
+      "columnaA": [
+        "x² - 15x + 56 = 0",
+        "x² + 3x - 54 = 0",
+        "x² - 7x - 18 = 0"
+      ],
+      "columnaB": [
+        "x = 9, x = -2",
+        "x = 7, x = 8",
+        "x = -9, x = 6"
+      ],
+      "parejasCorrectas": [
+        1,
+        2,
+        0
+      ],
+      "retroalimentacion": "x² - 15x + 56 = 0 → x = 7, x = 8; x² + 3x - 54 = 0 → x = -9, x = 6; x² - 7x - 18 = 0 → x = 9, x = -2."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Un jardín rectangular tiene área de 48 m² y su largo mide 2 metros más que su ancho. ¿Cuánto mide el ancho?",
+      "opciones": [
+        "5 m",
+        "6 m",
+        "7 m",
+        "8 m"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "x(x+2)=48 → x²+2x−48=0 → (x+8)(x−6)=0 → x=6 (se descarta el valor negativo)."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Las soluciones de x² - 5x - 36 = 0 son x=9 y x=-4.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: (x-9)(x+4)=x²-5x-36=0, así que x=9 o x=-4."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Factoriza y resuelve: x² + 14x + 45 = 0. La solución menor es x = ___.",
+      "respuestaCorrecta": "-9",
+      "retroalimentacion": "(x+5)(x+9)=0 → x=-5 o x=-9. La menor es -9."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Un terreno cuadrado tiene área de 196 m². ¿Cuánto mide su lado?",
+      "opciones": [
+        "12 m",
+        "13 m",
+        "14 m",
+        "16 m"
+      ],
+      "respuestaCorrecta": 2,
+      "retroalimentacion": "x²=196 → x=14 (se descarta el valor negativo)."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada ecuación con sus soluciones.",
+      "columnaA": [
+        "x² - 2x - 24 = 0",
+        "x² + 5x - 24 = 0",
+        "x² - 10x + 24 = 0"
+      ],
+      "columnaB": [
+        "x = 4, x = 6",
+        "x = 6, x = -4",
+        "x = -8, x = 3"
+      ],
+      "parejasCorrectas": [
+        1,
+        2,
+        0
+      ],
+      "retroalimentacion": "x²-2x-24=0 → x=6,-4; x²+5x-24=0 → x=-8,3; x²-10x+24=0 → x=4,6."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Factoriza y resuelve: x² - 9x + 20 = 0. La solución menor es x = ___.",
+      "respuestaCorrecta": "4",
+      "retroalimentacion": "(x-4)(x-5)=0 → x=4 o x=5. La menor es 4."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Un jardín rectangular tiene área 54 m² y su largo mide 3 m más que su ancho. ¿Cuánto mide el ancho?",
+      "opciones": [
+        "5 m",
+        "6 m",
+        "7 m",
+        "9 m"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "x(x+3)=54 → x²+3x−54=0 → (x+9)(x−6)=0 → x=6 (se descarta x=-9)."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "La solución positiva de x² - 2x - 15 = 0 es x=5.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: (x-5)(x+3)=x²-2x-15=0 → x=5 o x=-3. La positiva es 5."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada ecuación con sus soluciones.",
+      "columnaA": [
+        "x² - 7x + 12 = 0",
+        "x² - 9x + 20 = 0",
+        "x² - 2x - 15 = 0"
+      ],
+      "columnaB": [
+        "x = 5, x = -3",
+        "x = 3, x = 4",
+        "x = 4, x = 5"
+      ],
+      "parejasCorrectas": [
+        1,
+        2,
+        0
+      ],
+      "retroalimentacion": "x²-7x+12=0 → x=3,4; x²-9x+20=0 → x=4,5; x²-2x-15=0 → x=5,-3."
+    }
+  ]
+}
