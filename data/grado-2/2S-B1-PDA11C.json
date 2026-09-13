@@ -1,0 +1,421 @@
+{
+  "id": "2S-B1-PDA11C",
+  "grado": "2°",
+  "trimestre": "3",
+  "numero": 33,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Tablas y Gráficas Estadísticas 11.3",
+  "contenido": "Obtención y representación de información.",
+  "pda": "Organiza datos en tablas de frecuencia relativa y porcentual y los representa en histogramas y gráficas de línea, eligiendo la gráfica adecuada según el tipo de dato.",
+  "problematizacion": {
+    "contexto": "El encargado de la cooperativa escolar presenta una gráfica de línea mostrando que las ventas \"se dispararon\" de un mes a otro, pero recortó el eje vertical para que el cambio se vea exagerado, cuando en realidad las ventas solo subieron de $1,200 a $1,260.",
+    "pregunta": "¿Cuál es la variación porcentual real de las ventas de un mes a otro, y por qué la gráfica que presentó el encargado resulta engañosa?"
+  },
+  "subtemas": [
+    {
+      "numero": "11.8",
+      "titulo": "Tasa de cambio y variación porcentual en gráficas de línea",
+      "explicacion": "Además de ver si un dato sube o baja de un periodo a otro, en esta lección calcularás qué tanto cambió en términos porcentuales, no solo en cifras absolutas: una empresa que pasa de vender 250 a 300 unidades tuvo el mismo aumento absoluto (50) que otra que pasa de 1000 a 1050, pero el cambio porcentual es muy distinto (20% contra 5%). También aprenderás a calcular la tasa de cambio promedio entre dos puntos que no son consecutivos, dividiendo la diferencia total entre el número de periodos que los separan, y a comparar dos series de datos relacionadas.",
+      "formula": "variación porcentual = [(valor final − valor inicial) ÷ valor inicial] × 100     ·     tasa de cambio promedio = (valor final − valor inicial) ÷ número de periodos",
+      "ejemplos": [
+        "Las ventas mensuales de una papelería fueron: enero 400, febrero 460, marzo 500, abril 550, mayo 600 (en pesos). De enero a mayo (4 meses de diferencia) la variación porcentual es (600−400)÷400×100 = 50%, y la tasa de cambio promedio es (600−400)÷4 = 200÷4 = 50 pesos por mes.",
+        "El precio de un producto pasó de $250 a $300 en una semana. La variación porcentual es (300−250)÷250×100 = 20%."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "La temperatura de un experimento fue de 18°C el día 1 y subió hasta 24°C el día 4. ¿Cuál es la tasa de cambio promedio por día (entre el día 1 y el día 4, que son 3 periodos de diferencia)?",
+          "opciones": [
+            "6°C",
+            "3°C",
+            "2°C",
+            "24°C"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "(24−18)÷3 = 2°C por día."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una tienda A pasó de vender 800 a 1000 unidades en dos meses. Su variación porcentual fue de ___%.",
+          "respuestaCorrecta": "25",
+          "retroalimentacion": "(1000−800)÷800×100 = 25%."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una tienda B pasó de vender 500 a 750 unidades en el mismo periodo. ¿Cuál es su variación porcentual?",
+          "opciones": [
+            "25%",
+            "50%",
+            "150%",
+            "250%"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "(750−500)÷500×100 = 50%."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Comparando la tienda A (de 800 a 1000 unidades) y la tienda B (de 500 a 750 unidades), aunque B vendió menos unidades en total, tuvo una variación porcentual mayor que A.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: A tuvo 25% de aumento y B tuvo 50%, aunque B vendió menos unidades en total."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La población de un pueblo pasó de 4000 a 4600 habitantes en 4 años. La variación porcentual total fue de ___%.",
+          "respuestaCorrecta": "15",
+          "retroalimentacion": "(4600−4000)÷4000×100 = 15%."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Con los mismos datos de población (de 4000 a 4600 habitantes en 4 años), ¿cuál es la tasa de cambio promedio por año?",
+          "opciones": [
+            "600",
+            "150",
+            "15",
+            "4600"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "(4600−4000)÷4 = 150 habitantes por año."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Con las ventas de la papelería (enero 400, ..., mayo 600 pesos), la variación porcentual de enero a mayo es del 50%.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "(600−400)÷400×100 = 50%."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El precio de un producto pasó de $250 a $300. El aumento porcentual fue de ___%.",
+          "respuestaCorrecta": "20",
+          "retroalimentacion": "(300−250)÷250×100 = 20%."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Dos tiendas cambiaron sus ventas en el mismo periodo: tienda A de 800 a 1000 unidades y tienda C de 200 a 300 unidades. ¿Cuál tienda tuvo mayor variación porcentual?",
+          "opciones": [
+            "Tienda A",
+            "Tienda C",
+            "Ambas tuvieron la misma variación",
+            "No se puede saber"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "A tuvo 25% de aumento; C tuvo (300−200)÷200×100=50%, mayor que A aunque su aumento absoluto (100) sea menor que el de A (200)."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada cambio de valores con su variación porcentual.",
+          "columnaA": [
+            "De 300 a 360",
+            "De 4000 a 4600",
+            "De 500 a 750"
+          ],
+          "columnaB": [
+            "50%",
+            "15%",
+            "20%"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "300→360: (360−300)÷300×100=20%. 4000→4600: (4600−4000)÷4000×100=15%. 500→750: (750−500)÷500×100=50%."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 1 de 3 · Reto avanzado"
+    },
+    {
+      "numero": "11.9",
+      "titulo": "Gráficas engañosas: cómo detectar manipulación visual en los datos",
+      "explicacion": "No basta con elegir el tipo de gráfica correcto (barras, circular, histograma o línea): también hay que revisar si la gráfica está construida de forma honesta. Una gráfica puede ser engañosa si el eje vertical no empieza en cero (esto exagera visualmente diferencias pequeñas), si usa una escala inconsistente entre series, o si mezcla frecuencias absolutas y porcentuales sin aclararlo. Para detectar el engaño, siempre compara los valores numéricos reales —calculando tú mismo la diferencia o el porcentaje— en vez de confiar solo en el tamaño de las barras o la inclinación de las líneas.",
+      "ejemplos": [
+        "Una gráfica de barras muestra las ventas de dos tiendas con el eje vertical empezando en 80 en vez de en 0: la tienda A vendió 80 unidades y la tienda B vendió 88. Como el eje no empieza en 0, la barra de B se ve casi el doble de alta que la de A, pero la diferencia real es solo 88−80=8 unidades, es decir, un aumento del (88−80)÷80×100=10%, no del 100%.",
+        "Si dos gráficas de línea usan escalas distintas en el eje vertical (una de 0 a 10 y otra de 0 a 1000) para representar el mismo tipo de dato, no se pueden comparar visualmente sus inclinaciones aunque se vean parecidas: hay que fijarse en los valores numéricos de cada eje, no solo en la forma de la línea."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si el eje vertical de una gráfica de barras no empieza en cero, las diferencias entre las barras pueden verse más grandes de lo que realmente son.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: truncar el eje vertical es una forma común de exagerar visualmente diferencias pequeñas."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una gráfica de barras con el eje vertical de 80 a 90 muestra dos tiendas: A con 80 unidades y B con 88. ¿Cuál es la variación porcentual real de B respecto a A?",
+          "opciones": [
+            "10%",
+            "100%",
+            "8%",
+            "80%"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(88−80)÷80×100=10%; el eje truncado hace que la diferencia visual parezca mucho mayor de lo que realmente es."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Para saber si una gráfica está siendo engañosa, basta con ver qué tan inclinada se ve la línea o qué tan alta se ve la barra, sin necesidad de revisar los valores numéricos de los ejes.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: siempre hay que revisar los valores numéricos reales de los ejes, porque el tamaño visual puede estar manipulado por la escala."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Quieres comparar de forma honesta las ventas mensuales de una tienda durante un año. ¿Cuál gráfica es la más adecuada y qué regla no debes olvidar?",
+          "opciones": [
+            "Gráfica de línea, y el eje vertical debe empezar en 0 para no exagerar los cambios",
+            "Gráfica circular, sin importar el eje",
+            "Histograma, agrupando los meses en intervalos",
+            "Gráfica de barras separadas por colores distintos cada mes"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "El dato cambia con el tiempo, así que la gráfica de línea es adecuada, y el eje vertical debe iniciar en 0 para representar los cambios de forma honesta."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un histograma de calificaciones de 40 alumnos muestra el intervalo [8-9) con 12 alumnos, pero el eje vertical solo llega hasta 15 y no empieza en 0, sino en 8, lo que hace ver esa barra desproporcionadamente alta. La frecuencia porcentual real de ese intervalo es 12÷40×100 = ___%.",
+          "respuestaCorrecta": "30",
+          "retroalimentacion": "12÷40=0.3 → 30%, sin importar cómo se vea la barra en un eje mal construido."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Mezclar en una misma tabla frecuencias absolutas y frecuencias porcentuales sin aclarar cuál es cuál puede confundir a quien lee la gráfica.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: siempre se debe indicar claramente si un valor es una frecuencia absoluta (conteo) o porcentual (%), para evitar interpretaciones erróneas."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Dos gráficas de línea representan el mismo tipo de dato (ventas mensuales), pero una usa una escala vertical de 0 a 100 y la otra de 0 a 10,000. Si ambas líneas se ven con la misma inclinación, ¿qué se puede concluir?",
+          "opciones": [
+            "Que ambas tiendas crecieron exactamente igual",
+            "Que no se pueden comparar visualmente sin revisar los valores numéricos de cada eje",
+            "Que la de escala más pequeña creció más",
+            "Que la de escala más grande creció más"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Con escalas distintas, la inclinación visual no es comparable; hay que revisar los valores reales de cada eje."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Elegir el tipo de gráfica correcto (barras, circular, histograma o línea) garantiza automáticamente que la gráfica no sea engañosa.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: incluso con el tipo correcto de gráfica, un eje mal construido (que no empieza en 0, con escala inconsistente) puede seguir siendo engañoso."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un vendedor quiere presentar sus resultados del año de la forma más favorable posible, exagerando visualmente un pequeño aumento en ventas. ¿Qué truco es más probable que use?",
+          "opciones": [
+            "Empezar el eje vertical en un valor cercano a sus datos, en vez de en 0",
+            "Usar una gráfica de línea con el eje empezando en 0",
+            "Mostrar la frecuencia relativa exacta junto con la absoluta",
+            "Usar un histograma con intervalos de amplitud correcta"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Truncar el eje vertical cerca de los valores reales exagera visualmente cualquier diferencia pequeña."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada práctica al construir una gráfica con si es honesta o engañosa.",
+          "columnaA": [
+            "Eje vertical que empieza en 0",
+            "Eje vertical que empieza muy por encima de 0, cerca de los datos",
+            "Aclarar si los valores son frecuencia absoluta o porcentual",
+            "Usar dos escalas distintas para comparar visualmente dos series sin aclararlo"
+          ],
+          "columnaB": [
+            "Honesta",
+            "Engañosa"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "retroalimentacion": "Empezar en 0 y aclarar las unidades son prácticas honestas; truncar el eje o mezclar escalas sin aclararlo son formas de engañar visualmente."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 2 de 3 · Integración"
+    },
+    {
+      "numero": "11.10",
+      "titulo": "Proyecto integrador: de datos crudos a un reporte estadístico completo",
+      "explicacion": "Esta última lección combina todo lo aprendido en el PDA: partir de una lista de datos sin agrupar, construir una tabla de frecuencias con los intervalos adecuados, calcular la frecuencia acumulada, y decidir qué gráfica (o gráficas) mostrar según el tipo de dato, igual que tendrías que hacerlo en un reporte real de la escuela o de un proyecto de investigación. Los problemas de esta lección integran al menos dos de las lecciones anteriores del PDA en un solo ejercicio, con números menos redondos y más pasos que resolver.",
+      "ejemplos": [
+        "Las calificaciones (sobre 100) de 20 alumnos en un examen fueron: 62, 64, 65, 68, 70, 71, 72, 74, 75, 77, 79, 81, 82, 84, 87, 88, 89, 90, 93, 98. Paso 1: el rango es 98−62=36 y con 4 intervalos la amplitud es 36÷4=9, dando los intervalos [62-71), [71-80), [80-89) y [89-98]. Paso 2: contando cuántas calificaciones caen en cada uno se obtiene 5, 6, 5 y 4 respectivamente (5+6+5+4=20). Paso 3: la frecuencia acumulada hasta [80-89) es 5+6+5=16, es decir, 16÷20×100=80% de los alumnos obtuvieron menos de 89 puntos.",
+        "Una empresa tiene dos sucursales cuyas ventas mensuales (en miles de pesos) fueron: Norte: enero 300, febrero 330, marzo 360, abril 390. Sur: enero 300, febrero 420, marzo 380, abril 450. Ambas sucursales empezaron igual (300) y terminaron con ventas parecidas (390 y 450), pero la variación porcentual de enero a abril es distinta: Norte (390−300)÷300×100=30%, mientras que Sur (450−300)÷300×100=50%, aunque la gráfica de Sur muestra más subidas y bajadas en el camino."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "llenar_frase",
+          "frase": "Con las calificaciones de 20 alumnos (62,64,65,68,70,71,72,74,75,77,79,81,82,84,87,88,89,90,93,98) organizadas en 4 intervalos de amplitud 9 empezando en 62, el número de alumnos en el intervalo [71-80) es ___.",
+          "respuestaCorrecta": "6",
+          "retroalimentacion": "Los valores 71, 72, 74, 75, 77 y 79 caen en [71-80): son 6 alumnos."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Con la tabla de calificaciones resultante ([62-71):5, [71-80):6, [80-89):5, [89-98]:4), ¿cuál es la frecuencia acumulada hasta el intervalo [80-89)?",
+          "opciones": [
+            "11",
+            "16",
+            "20",
+            "5"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "5+6+5=16."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Con la misma tabla de calificaciones (frecuencia acumulada de 16 hasta [80-89), de 20 alumnos), el porcentaje de alumnos que obtuvieron menos de 89 puntos es ___%.",
+          "respuestaCorrecta": "80",
+          "retroalimentacion": "16÷20×100=80%."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Con la tabla de calificaciones ([62-71):5, [71-80):6, [80-89):5, [89-98]:4, de 20 alumnos), el 20% de los alumnos obtuvo 89 puntos o más.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "El intervalo [89-98] tiene 4 alumnos de 20: 4÷20×100=20%."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Las sucursales Norte (enero 300, ..., abril 390) y Sur (enero 300, ..., abril 450) de una empresa iniciaron con las mismas ventas, en miles de pesos. ¿Cuál sucursal tuvo mayor variación porcentual de enero a abril?",
+          "opciones": [
+            "Norte, con 30%",
+            "Sur, con 50%",
+            "Ambas tuvieron la misma variación",
+            "No se puede calcular sin más datos"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Norte: (390−300)÷300×100=30%. Sur: (450−300)÷300×100=50%. Sur tuvo mayor variación porcentual."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Con los datos de la sucursal Norte (enero 300, febrero 330, marzo 360, abril 390, en miles de pesos), la tasa de cambio promedio mensual (de enero a abril, 3 periodos) es de ___ miles de pesos por mes.",
+          "respuestaCorrecta": "30",
+          "retroalimentacion": "(390−300)÷3=30 miles de pesos por mes."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Para mostrar en un reporte cómo cambiaron mes a mes las ventas de las dos sucursales (Norte y Sur) durante el año, ¿qué tipo de gráfica es la más adecuada, y qué detalle debe cuidarse?",
+          "opciones": [
+            "Histograma, agrupando las ventas en intervalos",
+            "Gráfica de línea con las dos series en la misma escala, para poder comparar sus inclinaciones de forma honesta",
+            "Gráfica circular, mostrando qué proporción de las ventas totales aportó cada sucursal cada mes",
+            "Gráfica de barras con escalas distintas para cada sucursal"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Como el dato cambia con el tiempo y se comparan dos series, la gráfica de línea es adecuada, pero ambas series deben usar la misma escala para que la comparación visual sea honesta."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En el reporte de calificaciones, si un compañero presentara el histograma con el eje vertical empezando en 4 (el valor mínimo de las frecuencias) en vez de en 0, exageraría visualmente las diferencias entre los intervalos, aunque los porcentajes reales (25%, 30%, 25%, 20%) no cambiarían.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: truncar el eje vertical no cambia los datos reales, solo distorsiona su apariencia visual."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un reporte necesita mostrar tanto la distribución de 20 calificaciones (agrupadas en intervalos) como el cambio de las ventas de una sucursal mes a mes. ¿Qué combinación de gráficas es correcta?",
+          "opciones": [
+            "Dos histogramas",
+            "Un histograma para las calificaciones y una gráfica de línea para las ventas",
+            "Dos gráficas de línea",
+            "Dos gráficas circulares"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Las calificaciones agrupadas en intervalos se representan con histograma; las ventas mes a mes, con gráfica de línea, porque cambian a lo largo del tiempo."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Con la tabla de calificaciones ([62-71):5, [71-80):6, [80-89):5, [89-98]:4, de 20 alumnos), relaciona cada intervalo con su frecuencia porcentual.",
+          "columnaA": [
+            "[62-71)",
+            "[71-80)",
+            "[80-89)",
+            "[89-98]"
+          ],
+          "columnaB": [
+            "25%",
+            "30%",
+            "20%"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            0,
+            2
+          ],
+          "retroalimentacion": "[62-71): 5÷20=25%. [71-80): 6÷20=30%. [80-89): 5÷20=25%. [89-98]: 4÷20=20%."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 3 de 3 · Dominio"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Para representar la distribución de estaturas de 50 alumnos agrupadas en intervalos, ¿qué gráfica es más adecuada?",
+      "opciones": [
+        "Gráfica de línea",
+        "Gráfica circular",
+        "Histograma",
+        "Gráfica de barras separadas"
+      ],
+      "respuestaCorrecta": 2,
+      "retroalimentacion": "Son datos numéricos continuos agrupados en intervalos, así que el histograma es la gráfica adecuada."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Una gráfica circular es útil para mostrar cómo se reparte un total en categorías, por ejemplo el color favorito de un grupo.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: la gráfica circular muestra qué proporción del total representa cada categoría."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "De 80 alumnos de una escuela, 32 prefieren la clase de Educación Física. La frecuencia relativa es ___.",
+      "respuestaCorrecta": "0.4",
+      "retroalimentacion": "32÷80 = 0.4."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "De 80 alumnos, 32 prefieren la clase de Educación Física. ¿Cuál es la frecuencia porcentual?",
+      "opciones": [
+        "32%",
+        "40%",
+        "4%",
+        "0.4%"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "32÷80 = 0.4, y 0.4×100 = 40%."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada dato (frecuencia de un total) con su frecuencia porcentual.",
+      "columnaA": [
+        "10 de 50",
+        "18 de 60",
+        "21 de 30"
+      ],
+      "columnaB": [
+        "70%",
+        "20%",
+        "30%"
+      ],
+      "parejasCorrectas": [
+        1,
+        2,
+        0
+      ],
+      "retroalimentacion": "10÷50=0.2→20%. 18÷60=0.3→30%. 21÷30=0.7→70%."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Un histograma se usa para representar datos categóricos, como el deporte favorito de un grupo.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Falso: el histograma se usa para datos numéricos continuos agrupados en intervalos; los datos categóricos se representan mejor con barras o gráfica circular."
+    }
+  ]
+}

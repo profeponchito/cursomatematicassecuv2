@@ -1,0 +1,394 @@
+{
+  "id": "1S-B1-PDA14C",
+  "grado": "1°",
+  "trimestre": "3",
+  "numero": 42,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Probabilidad de Eventos Simples 14.3",
+  "contenido": "Azar e incertidumbre en la ocurrencia de eventos cotidianos.",
+  "pda": "Calcula la probabilidad clásica de eventos simples a partir de su espacio muestral.",
+  "problematizacion": {
+    "contexto": "Leonardo lleva el registro de 200 tiradas de un juego de dados en la feria de su comunidad: el número 6 salió 50 veces en total. Antes de comprar un boleto para la rifa principal, quiere comparar esa probabilidad real observada con la probabilidad teórica esperada.",
+    "pregunta": "Según los datos reales de las 200 tiradas, ¿cuál es la probabilidad frecuencial de que salga el número 6, y cómo se compara con la probabilidad teórica de 1/6, para decidir si Leonardo compra el boleto de la rifa?"
+  },
+  "subtemas": [
+    {
+      "numero": "14.8",
+      "titulo": "Probabilidad frecuencial: lo que dicen los datos reales",
+      "explicacion": "Hasta ahora calculamos la probabilidad clásica contando resultados igualmente posibles (como en un dado justo). Pero en la vida real muchas veces no podemos contar así, y en su lugar repetimos un experimento muchas veces y observamos qué tan seguido ocurre el evento: eso es la probabilidad frecuencial o experimental. Entre más veces se repita el experimento, esta probabilidad tiende a acercarse a la probabilidad clásica (cuando esta existe), pero no son exactamente lo mismo.",
+      "formula": "P frecuencial (evento) = número de veces que ocurrió el evento ÷ número total de repeticiones del experimento",
+      "ejemplos": [
+        "Un jugador lanzó una moneda 50 veces y obtuvo águila 27 veces. P frecuencial (águila) = 27/50 = 0.54, un valor cercano a la probabilidad clásica de 0.5.",
+        "En 200 tiros libres, un basquetbolista encestó 156. P frecuencial (encestar) = 156/200 = 0.78."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Se lanzó un dado 60 veces y el número 4 salió en 12 ocasiones. ¿Cuál es la probabilidad frecuencial de obtener 4?",
+          "opciones": [
+            "1/5",
+            "1/6",
+            "1/4",
+            "1/12"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P frecuencial = 12/60 = 1/5."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En una granja se sembraron 80 semillas y germinaron 68. La probabilidad frecuencial de que una semilla germine, en decimal, es ___.",
+          "respuestaCorrecta": "0.85",
+          "retroalimentacion": "68 ÷ 80 = 0.85."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si se lanza una moneda 100 veces y cae águila 53 veces, la probabilidad frecuencial de águila (0.53) es exactamente igual a la probabilidad clásica (0.5).",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: 0.53 es cercana a 0.5, pero no es exactamente igual; son dos formas distintas de calcular la probabilidad."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un control de calidad revisó 500 focos y encontró 15 defectuosos. ¿Cuál es la probabilidad frecuencial de que un foco sea defectuoso, como porcentaje?",
+          "opciones": [
+            "3%",
+            "1.5%",
+            "5%",
+            "15%"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P frecuencial = 15/500 = 0.03 = 3%."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un futbolista pateó 40 penales y anotó 34. La probabilidad frecuencial de que anote un penal, como fracción simplificada, es ___.",
+          "respuestaCorrecta": "17/20",
+          "retroalimentacion": "34 ÷ 40 = 34/40, que simplificada es 17/20."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Entre más veces se repita un experimento aleatorio, la probabilidad frecuencial tiende a acercarse a la probabilidad clásica.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: con muchas repeticiones, la probabilidad frecuencial se aproxima cada vez más a la probabilidad clásica."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una tienda entraron 250 clientes y 90 hicieron una compra. ¿Cuál es la probabilidad frecuencial de que un cliente haga una compra?",
+          "opciones": [
+            "36%",
+            "9%",
+            "90%",
+            "64%"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P frecuencial = 90/250 = 0.36 = 36%."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada experimento con su probabilidad frecuencial.",
+          "columnaA": [
+            "Moneda lanzada 40 veces: águila 22 veces",
+            "Dado lanzado 90 veces: salió 6 en 18 ocasiones",
+            "Ruleta girada 120 veces: cayó en verde 30 veces"
+          ],
+          "columnaB": [
+            "0.2",
+            "0.55",
+            "0.25"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            2
+          ],
+          "retroalimentacion": "Moneda: 22/40 = 0.55. Dado: 18/90 = 0.2. Ruleta: 30/120 = 0.25."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una máquina empacadora llenó 300 bolsas y 12 salieron con peso incorrecto. La probabilidad frecuencial de que una bolsa tenga peso incorrecto, en porcentaje, es ___%.",
+          "respuestaCorrecta": "4",
+          "retroalimentacion": "12/300 = 0.04 = 4%."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un estudio registró 1000 lanzamientos de una tachuela y 'punta arriba' cayó 560 veces, dando una probabilidad frecuencial de 0.56; este valor NO se puede obtener con probabilidad clásica simple porque los resultados de la tachuela no son igualmente probables.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: como la tachuela no tiene resultados igualmente posibles, solo la probabilidad frecuencial (basada en datos reales) permite estimarla."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 1 de 3 · Reto avanzado"
+    },
+    {
+      "numero": "14.9",
+      "titulo": "Problemas integradores de probabilidad",
+      "explicacion": "En esta lección los problemas combinan varias herramientas vistas antes en un mismo ejercicio: identificar el espacio muestral dentro de un contexto más elaborado, calcular la probabilidad clásica, aplicar el evento contrario o la suma de casos favorables, convertir entre fracción, decimal y porcentaje, e incluso comparar con la probabilidad frecuencial. Ya no basta con aplicar una sola idea: hay que decidir qué combinación de pasos usar para cada problema.",
+      "ejemplos": [
+        "Una tómbola tiene boletos numerados del 1 al 45; ganan los múltiplos de 9 (9, 18, 27, 36, 45: 5 boletos). P(ganar) = 5/45 = 1/9.",
+        "En un salón de 36 estudiantes, 15 son de categoría infantil, 12 de juvenil y el resto de categoría mayor (36 − 15 − 12 = 9). P(juvenil o mayor) = (12 + 9)/36 = 21/36 = 7/12."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una kermés hay una tómbola con boletos numerados del 1 al 45. Ganan premio los boletos que son múltiplos de 9. Si compras un boleto al azar, ¿cuál es la probabilidad de ganar, como fracción simplificada?",
+          "opciones": [
+            "1/9",
+            "4/45",
+            "1/5",
+            "5/9"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Los múltiplos de 9 hasta 45 son 9, 18, 27, 36 y 45: 5 boletos de 45. P = 5/45 = 1/9."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una fábrica numera sus piezas del 1 al 60 y considera defectuosa cualquier pieza cuyo número sea múltiplo de 7. La probabilidad de que una pieza tomada al azar sea defectuosa, sin simplificar, es ___.",
+          "respuestaCorrecta": "8/60",
+          "retroalimentacion": "Los múltiplos de 7 hasta 60 son 7, 14, 21, 28, 35, 42, 49 y 56: 8 números de 60."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En una rifa con 72 boletos, 8 tienen premio 'grande' y 10 tienen premio 'chico'. La probabilidad de NO ganar ningún premio es 54/72.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: los boletos sin premio son 72 − 8 − 10 = 54, así que P(sin premio) = 54/72."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una bolsa contiene fichas numeradas del 1 al 50. Se ganan puntos si la ficha es un número primo menor que 20 (2, 3, 5, 7, 11, 13, 17, 19: 8 números). ¿Cuál es la probabilidad de ganar puntos, en porcentaje?",
+          "opciones": [
+            "16%",
+            "8%",
+            "20%",
+            "40%"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P = 8/50 = 0.16 = 16%."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En un torneo de ajedrez con 36 jugadores, 15 son de categoría infantil y 12 de categoría juvenil; el resto es de categoría mayor. La probabilidad de que un jugador elegido al azar sea de categoría mayor o juvenil, como fracción simplificada, es ___.",
+          "respuestaCorrecta": "7/12",
+          "retroalimentacion": "Mayor = 36 − 15 − 12 = 9 jugadores. Mayor o juvenil = 9 + 12 = 21 de 36, que simplificada es 7/12."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En una fábrica de dulces, de 90 piezas producidas en una hora, 63 pasaron el control de calidad. La probabilidad frecuencial de que una pieza NO pase el control es 3/10.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: las que no pasaron son 90 − 63 = 27 de 90, es decir, 27/90 = 3/10."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Se lanza un dado de 12 caras numeradas del 1 al 12. ¿Cuál es la probabilidad de obtener un número que sea múltiplo de 3 o múltiplo de 4 (sin contar dos veces el 12, que es múltiplo de ambos)?",
+          "opciones": [
+            "1/2",
+            "7/12",
+            "5/12",
+            "2/3"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Múltiplos de 3: {3,6,9,12}. Múltiplos de 4: {4,8,12}. Sin repetir el 12, la unión es {3,4,6,8,9,12}: 6 números de 12, P = 6/12 = 1/2."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada problema integrador con su respuesta correcta (fracción simplificada).",
+          "columnaA": [
+            "Boletos del 1 al 40, ganan los múltiplos de 5. P(ganar)",
+            "84 estudiantes: 35 juegan fútbol, 21 básquetbol, el resto ningún deporte. P(ningún deporte)",
+            "Bolsa con 54 canicas: 18 rojas, 20 azules, el resto verdes. P(verde)"
+          ],
+          "columnaB": [
+            "8/27",
+            "1/5",
+            "1/3"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "Múltiplos de 5 hasta 40: 8 de 40 = 1/5. Sin deporte: 84−35−21 = 28 de 84 = 1/3. Verdes: 54−18−20 = 16 de 54 = 8/27."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una encuesta a 120 personas mostró que 48 prefieren mango, 30 prefieren papaya y el resto otra fruta. La probabilidad de que una persona prefiera mango o papaya, en porcentaje, es ___%.",
+          "respuestaCorrecta": "65",
+          "retroalimentacion": "Mango o papaya: 48 + 30 = 78 de 120. P = 78/120 = 0.65 = 65%."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En 150 lanzamientos de una moneda cargada salieron 96 águilas. Comparando con la probabilidad clásica de una moneda normal (50%), la probabilidad frecuencial obtenida (64%) sugiere que esta moneda favorece más el águila que una moneda justa.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 96/150 = 0.64 = 64%, un valor bastante mayor que el 50% esperado en una moneda justa."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 2 de 3 · Integración"
+    },
+    {
+      "numero": "14.10",
+      "titulo": "Reto final: probabilidad para tomar decisiones",
+      "explicacion": "En esta lección de dominio, los problemas imitan decisiones reales de negocios, salud y deporte donde se deben calcular, comparar e interpretar probabilidades con números menos 'redondos' para elegir la mejor opción o entender un resultado. Se integran todas las herramientas del PDA: espacio muestral, probabilidad clásica y frecuencial, evento contrario, suma de casos favorables, conversión entre formas y comparación entre eventos.",
+      "ejemplos": [
+        "Una empresa revisa 3 rutas de entrega. Ruta A: 23 de 92 envíos llegan tarde (23/92 = 0.25). Ruta B: 15 de 75 llegan tarde (15/75 = 0.2). Ruta B tiene la menor probabilidad de tardanza.",
+        "Un lote tiene 138 piezas y 9 son defectuosas. P(funciona correctamente) = 129/138 ≈ 0.9348, es decir, aproximadamente 93.5%."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una empresa de mensajería revisa 3 rutas: en la Ruta A, 23 de 92 envíos llegaron tarde; en la Ruta B, 15 de 75 llegaron tarde; en la Ruta C, 21 de 84 llegaron tarde. ¿Qué ruta tiene MENOR probabilidad de tardanza?",
+          "opciones": [
+            "Ruta A",
+            "Ruta B",
+            "Ruta C",
+            "Las tres son iguales"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "P(A) = 23/92 = 0.25, P(B) = 15/75 = 0.2, P(C) = 21/84 = 0.25. La Ruta B tiene la menor probabilidad de tardanza."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En un lote de 138 piezas electrónicas, 9 están defectuosas. La probabilidad de que una pieza elegida al azar SÍ funcione correctamente, en porcentaje redondeado a un decimal, es ___%.",
+          "respuestaCorrecta": "93.5",
+          "retroalimentacion": "Funcionan 138 − 9 = 129 piezas. P = 129/138 ≈ 0.9348, que redondeado a un decimal es 93.5%."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una tienda de ropa registró que de 215 clientes que entraron un sábado, 86 compraron algo. La probabilidad frecuencial de compra (40%) es mayor que la probabilidad de sacar una carta de corazones en una baraja de 52 cartas (25%).",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 86/215 = 0.4 = 40% y 13/52 = 0.25 = 25%. Como 40% > 25%, la afirmación es verdadera."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un laboratorio prueba una vacuna en 340 personas y 17 presentan un efecto secundario leve. ¿Cuál es la probabilidad, como fracción simplificada, de que una persona NO presente el efecto secundario?",
+          "opciones": [
+            "19/20",
+            "17/340",
+            "323/340",
+            "18/20"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Sin efecto: 340 − 17 = 323 de 340. La fracción 323/340 se simplifica dividiendo entre 17: 19/20."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una cooperativa agrícola sembró 264 plantas de tomate y 231 sobrevivieron a una plaga. La probabilidad frecuencial de que una planta haya sobrevivido, como fracción simplificada, es ___.",
+          "respuestaCorrecta": "7/8",
+          "retroalimentacion": "231/264 se simplifica dividiendo entre 33: 7/8."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En un torneo de tiro con arco, Ana acierta 39 de 52 tiros y Luis acierta 33 de 44 tiros. Como ambas razones se simplifican a 3/4, Ana y Luis tienen la misma probabilidad de acertar.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 39/52 = 3/4 y 33/44 = 3/4, así que ambos tienen la misma probabilidad de acertar."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una fábrica de calzado produce en dos turnos. En el matutino, 14 de 175 pares salen con defecto. En el vespertino, 13 de 150 salen con defecto. ¿Qué turno tiene MAYOR probabilidad de producir un par defectuoso?",
+          "opciones": [
+            "Turno matutino",
+            "Turno vespertino",
+            "Son iguales",
+            "No hay suficiente información"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Matutino: 14/175 = 0.08. Vespertino: 13/150 ≈ 0.0867. El turno vespertino tiene mayor probabilidad de defecto."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación de negocio con su probabilidad, como porcentaje.",
+          "columnaA": [
+            "De 450 llamadas a servicio al cliente, 108 terminan en queja formal",
+            "De 300 pedidos en línea, 39 llegan con retraso",
+            "De 275 exámenes médicos, 55 resultan positivos a una prueba"
+          ],
+          "columnaB": [
+            "13%",
+            "24%",
+            "20%"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            2
+          ],
+          "retroalimentacion": "Quejas: 108/450 = 24%. Retrasos: 39/300 = 13%. Positivos: 55/275 = 20%."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un estudio de mercado encuestó a 425 personas: 340 prefieren pagar con tarjeta y el resto con efectivo. La probabilidad de que una persona prefiera pagar en efectivo, como fracción simplificada, es ___.",
+          "respuestaCorrecta": "1/5",
+          "retroalimentacion": "Efectivo: 425 − 340 = 85 de 425. La fracción 85/425 se simplifica dividiendo entre 85: 1/5."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una aseguradora analiza 640 pólizas de auto y 96 tuvieron algún reclamo en el año. Si esta probabilidad frecuencial (15%) se mantiene, entonces de 800 pólizas nuevas se esperarían aproximadamente 120 reclamos.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 96/640 = 0.15 = 15%, y 15% de 800 es 0.15 × 800 = 120."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 3 de 3 · Dominio"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "llenar_frase",
+      "frase": "La probabilidad 1/8 en decimal es ___.",
+      "respuestaCorrecta": "0.125",
+      "retroalimentacion": "1 ÷ 8 = 0.125."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada situación con la probabilidad pedida, en la forma indicada.",
+      "columnaA": [
+        "Ruleta de 20 secciones: 5 rojas, 10 azules, 5 verdes → P(verde) en fracción simplificada",
+        "Bolsa con 6 azules y 4 rojas → P(azul) en porcentaje",
+        "Baraja de 40 cartas → P(espadas) en decimal"
+      ],
+      "columnaB": [
+        "60%",
+        "0.25",
+        "1/4"
+      ],
+      "parejasCorrectas": [
+        2,
+        0,
+        1
+      ],
+      "retroalimentacion": "Verde en ruleta: 5/20 = 1/4. Azul en bolsa: 6/10 = 60%. Espadas: 10/40 = 0.25."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Una bolsa tiene 3 canicas rojas, 5 azules y 2 verdes (10 en total). ¿Cuál es la probabilidad de sacar una canica que NO sea roja, en porcentaje?",
+      "opciones": [
+        "30%",
+        "70%",
+        "50%",
+        "20%"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "No roja son azul o verde: 5+2 = 7 de 10, P = 7/10 = 0.7 = 70%."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "En una baraja española de 40 cartas hay 4 palos con 10 cartas cada uno.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: 4 palos × 10 cartas = 40 cartas en total."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "En una ruleta de 8 secciones numeradas del 1 al 8, la probabilidad de obtener un número par es ___.",
+      "respuestaCorrecta": "4/8",
+      "retroalimentacion": "Los números pares son {2,4,6,8}: 4 casos favorables de 8 totales, P = 4/8."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "La probabilidad 1/20 equivale a 5%.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: 1 ÷ 20 = 0.05, y 0.05 × 100 = 5%."
+    }
+  ]
+}

@@ -1,0 +1,400 @@
+{
+  "id": "1S-B1-PDA13B",
+  "grado": "1°",
+  "trimestre": "3",
+  "numero": 38,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Media, Mediana y Moda 13.2",
+  "contenido": "Interpretación de la información a través de medidas de tendencia central y de dispersión.",
+  "pda": "Calcula la media, la mediana y la moda de un conjunto de datos.",
+  "problematizacion": {
+    "contexto": "La familia de Yolanda anotó su gasto diario en el mercado durante la semana: $245.50, $198.75, $210.00, $260.25 y un día que no se anotó bien. Yolanda recuerda que el gasto promedio de esos 5 días fue de $230.00.",
+    "pregunta": "¿Cuánto gastó la familia de Yolanda el día que no se anotó, si el promedio de los 5 días fue $230.00?"
+  },
+  "subtemas": [
+    {
+      "numero": "13.5",
+      "nivelEtiqueta": "Nivel 1 de 3 · Aplicación",
+      "titulo": "Presupuestos familiares con decimales",
+      "explicacion": "Ahora calculamos la media en contextos de dinero, donde los datos casi siempre traen decimales (pesos con centavos) en vez de números enteros redondos. El procedimiento es el mismo —sumar y dividir— pero hay que sumar los decimales con cuidado, alineando el punto decimal, y el resultado se interpreta como un valor en pesos que sirve para planear gastos o comparar precios.",
+      "formula": "media = (suma de todos los datos, con decimales) ÷ (número de datos)",
+      "ejemplos": [
+        "Gastos diarios en transporte durante 5 días: $18.50, $22.00, $15.75, $20.25 y $19.50. Suma = 18.50+22.00+15.75+20.25+19.50 = 96.00. Media = 96.00 ÷ 5 = $19.20 por día.",
+        "Precios de 4 cuadernos en una papelería: $32.50, $28.75, $35.00 y $29.75. Suma = 32.50+28.75+35.00+29.75 = 126.00. Media = 126.00 ÷ 4 = $31.50."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una semana, Marisol gastó en su transporte diario (lunes a viernes): $15.50, $18.00, $16.25, $17.75 y $19.00. ¿Cuál es la media de su gasto diario?",
+          "opciones": [
+            "$17.00",
+            "$17.30",
+            "$17.50",
+            "$86.50"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Suma = 15.50+18.00+16.25+17.75+19.00 = 86.50. Media = 86.50 ÷ 5 = $17.30."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En una tienda, 4 paquetes de galletas cuestan $12.50, $14.00, $13.50 y $12.00. La media de precios es $13.00.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Suma = 12.50+14.00+13.50+12.00 = 52.00. Media = 52.00 ÷ 4 = $13.00. Correcto."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Los recibos de luz de una familia en 4 meses fueron $450.00, $525.50, $480.25 y $504.25 pesos. La media mensual es $___ pesos.",
+          "respuestaCorrecta": "490",
+          "retroalimentacion": "Suma = 450.00+525.50+480.25+504.25 = 1960.00. Media = 1960.00 ÷ 4 = $490.00."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un grupo de amigos organiza una salida. Los boletos cuestan $85.50, $92.00, $78.75 y $89.75 cada uno (varía por descuentos). ¿Cuál es el gasto medio por boleto?",
+          "opciones": [
+            "$85.50",
+            "$86.50",
+            "$87.00",
+            "$346.00"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Suma = 85.50+92.00+78.75+89.75 = 346.00. Media = 346.00 ÷ 4 = $86.50."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Los precios de 5 helados en una feria son $22.50, $25.00, $18.75, $24.25 y $19.50. La media de precios es $22.00.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Suma = 22.50+25.00+18.75+24.25+19.50 = 110.00. Media = 110.00 ÷ 5 = $22.00. Correcto."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En 6 días, una tienda tuvo ventas de $1,250.50, $980.50, $1,105.00, $1,320.00, $1,000.50 y $1,243.50 pesos. La venta media diaria es $___ pesos.",
+          "respuestaCorrecta": "1150",
+          "retroalimentacion": "Suma = 1250.50+980.50+1105.00+1320.00+1000.50+1243.50 = 6900.00. Media = 6900.00 ÷ 6 = $1,150.00."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Los precios de 4 playeras en una promoción son $149.90, $199.90, $179.90 y $150.30. ¿Cuál es la media de precio?",
+          "opciones": [
+            "$169.90",
+            "$170.00",
+            "$175.00",
+            "$680.00"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Suma = 149.90+199.90+179.90+150.30 = 680.00. Media = 680.00 ÷ 4 = $170.00."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El costo de 5 boletos de camión foráneo fue $235.50, $240.00, $228.75, $242.25 y $233.50. La media es $235.00.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: suma = 235.50+240.00+228.75+242.25+233.50 = 1180.00. Media = 1180.00 ÷ 5 = $236.00, no $235.00."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Durante una semana (7 días), una familia gastó en comida: $310.50, $295.50, $328.00, $300.00, $315.50, $290.50 y $330.00 pesos por día. El gasto medio diario es $___ pesos.",
+          "respuestaCorrecta": "310",
+          "retroalimentacion": "Suma = 310.50+295.50+328.00+300.00+315.50+290.50+330.00 = 2170.00. Media = 2170.00 ÷ 7 = $310.00."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada conjunto de gastos con el valor de su media.",
+          "columnaA": [
+            "Transporte (4 días): $20.00, $22.50, $19.50 y $18.00",
+            "Libretas (4 piezas): $15.75, $17.25, $16.00 y $15.00",
+            "Boletos de cine (5 personas): $65.00, $70.00, $62.50, $68.50 y $64.00"
+          ],
+          "columnaB": [
+            "$20.00",
+            "$16.00",
+            "$66.00"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "Transporte: 80.00÷4=$20.00. Libretas: 64.00÷4=$16.00. Cine: 330.00÷5=$66.00."
+        }
+      ]
+    },
+    {
+      "numero": "13.6",
+      "nivelEtiqueta": "Nivel 2 de 3 · Aplicación avanzada",
+      "titulo": "Encontrar el dato faltante conociendo la media",
+      "explicacion": "Ahora invertimos el proceso: en vez de calcular la media a partir de todos los datos, usamos una media YA conocida (la que queremos lograr) y el número total de datos para encontrar el dato que falta. Esto sirve, por ejemplo, para saber qué calificación necesitas en tu próximo examen para alcanzar cierto promedio. La clave es multiplicar la media deseada por el número de datos para obtener la suma total necesaria, y luego restarle los datos que ya conoces.",
+      "formula": "dato faltante = (media deseada × número de datos) − (suma de los datos conocidos)",
+      "ejemplos": [
+        "Un alumno tiene registradas las calificaciones 7, 8 y 9 en sus primeros 3 exámenes, y quiere que su media final (con 4 exámenes) sea 8. Suma necesaria = 8×4 = 32. Suma conocida = 7+8+9 = 24. Dato faltante = 32−24 = 8: necesita sacar 8 en el 4.º examen.",
+        "En baloncesto, un jugador anotó 12, 15, 18 y 20 puntos en sus primeros 4 partidos. Quiere que su media en 5 partidos sea 17. Suma necesaria = 17×5 = 85. Suma conocida = 12+15+18+20 = 65. Dato faltante = 85−65 = 20: necesita anotar 20 puntos en el 5.º partido."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un alumno tiene calificaciones 6, 8 y 9 en sus primeros 3 exámenes. Si quiere que la media de sus 4 exámenes sea 8, ¿qué calificación necesita en el 4.º examen?",
+          "opciones": [
+            "7",
+            "8",
+            "9",
+            "10"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Suma necesaria = 8×4 = 32. Suma conocida = 6+8+9 = 23. Dato faltante = 32−23 = 9."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En 3 partidos, un jugador anotó 10, 14 y 12 puntos. Para que su media en 4 partidos sea 13, necesita anotar 16 puntos en el 4.º partido.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Suma necesaria = 13×4 = 52. Suma conocida = 10+14+12 = 36. Dato faltante = 52−36 = 16. Correcto."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un corredor recorrió en 3 entrenamientos 5.5, 6.0 y 6.5 km. Para que su media en 4 entrenamientos sea 6 km, en el 4.º entrenamiento debe recorrer ___ km.",
+          "respuestaCorrecta": "6",
+          "retroalimentacion": "Suma necesaria = 6×4 = 24. Suma conocida = 5.5+6.0+6.5 = 18. Dato faltante = 24−18 = 6 km."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Las ventas de una tienda en 4 días fueron $800, $950, $700 y $1,050. Si el gerente quiere que la media de 5 días sea $900, ¿cuánto debe vender el quinto día?",
+          "opciones": [
+            "$900",
+            "$950",
+            "$1,000",
+            "$1,050"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Suma necesaria = 900×5 = 4500. Suma conocida = 800+950+700+1050 = 3500. Dato faltante = 4500−3500 = $1,000."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un alumno sacó 7, 9, 8 y 6 en sus primeros 4 exámenes. Para tener una media de 8 en 5 exámenes, necesita sacar 10 en el 5.º examen.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Suma necesaria = 8×5 = 40. Suma conocida = 7+9+8+6 = 30. Dato faltante = 40−30 = 10. Correcto."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un equipo de voleibol anotó 18, 22 y 20 puntos en sus primeros 3 sets. Para que su media en 4 sets sea 21 puntos, en el 4.º set debe anotar ___ puntos.",
+          "respuestaCorrecta": "24",
+          "retroalimentacion": "Suma necesaria = 21×4 = 84. Suma conocida = 18+22+20 = 60. Dato faltante = 84−60 = 24 puntos."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un alumno tiene 8, 7, 9 y 8 registrados en sus primeros 4 exámenes. Si su media final (con 5 exámenes) debe ser 8.4, ¿qué calificación necesita en el 5.º examen?",
+          "opciones": [
+            "9",
+            "9.5",
+            "10",
+            "10.5"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Suma necesaria = 8.4×5 = 42. Suma conocida = 8+7+9+8 = 32. Dato faltante = 42−32 = 10."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una fábrica produjo 120, 135 y 128 piezas en 3 días. Si quiere que la media de 4 días sea 130 piezas, necesita producir 137 piezas el 4.º día.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Suma necesaria = 130×4 = 520. Suma conocida = 120+135+128 = 383. Dato faltante = 520−383 = 137 piezas. Correcto."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un ciclista recorrió 42, 38 y 45 km en 3 días. Para que su media en 4 días sea 41 km, el 4.º día debe recorrer ___ km.",
+          "respuestaCorrecta": "39",
+          "retroalimentacion": "Suma necesaria = 41×4 = 164. Suma conocida = 42+38+45 = 125. Dato faltante = 164−125 = 39 km."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación con el dato faltante necesario para lograr la media deseada.",
+          "columnaA": [
+            "Exámenes 6, 7 y 8 (3 datos); media deseada en 4 exámenes = 7.5",
+            "Partidos con 10 y 12 puntos (2 datos); media deseada en 3 partidos = 12",
+            "Ventas de $500 y $600 (2 datos); media deseada en 3 días = $550"
+          ],
+          "columnaB": [
+            "9",
+            "14",
+            "550"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "Exámenes: 7.5×4−(6+7+8)=30−21=9. Partidos: 12×3−(10+12)=36−22=14. Ventas: 550×3−(500+600)=1650−1100=$550."
+        }
+      ]
+    },
+    {
+      "numero": "13.7",
+      "nivelEtiqueta": "Nivel 3 de 3 · Reto",
+      "titulo": "Media, mediana y moda en tablas de frecuencia",
+      "explicacion": "Cuando hay muchos datos repetidos, es más práctico organizarlos en una tabla de frecuencias (un valor y cuántas veces se repite) en vez de escribirlos todos uno por uno. Para calcular la media a partir de una tabla, multiplicamos cada valor por su frecuencia, sumamos esos productos y dividimos entre el total de datos (la suma de las frecuencias). La moda sigue siendo el valor con mayor frecuencia, y para la mediana hay que ubicar la posición central acumulando las frecuencias en orden.",
+      "formula": "media = (Σ valor × frecuencia) ÷ (Σ frecuencias)",
+      "ejemplos": [
+        "Calificaciones de un grupo: 6 (frecuencia 3), 7 (frecuencia 5), 8 (frecuencia 8), 9 (frecuencia 4). Total de alumnos = 3+5+8+4 = 20. Suma = 6×3+7×5+8×8+9×4 = 18+35+64+36 = 153. Media = 153÷20 = 7.65. La moda es 8 (la frecuencia más alta, 8 alumnos). Como hay 20 datos (par), la mediana se ubica entre las posiciones 10 y 11: acumulando frecuencias (3, luego 8, luego 16), ambas posiciones caen en el bloque de 8's, así que la mediana también es 8.",
+        "Goles por partido en un torneo (12 partidos): 0 goles (frecuencia 2), 1 gol (frecuencia 4), 2 goles (frecuencia 3), 3 goles (frecuencia 3). Total = 2+4+3+3 = 12 partidos. Suma = 0×2+1×4+2×3+3×3 = 0+4+6+9 = 19. Media = 19÷12 ≈ 1.58 goles. La moda es 1 gol (frecuencia 4, la más alta)."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una tabla de calificaciones de un grupo muestra: 7 (frecuencia 4), 8 (frecuencia 6), 9 (frecuencia 5) y 10 (frecuencia 5). ¿Cuál es la media del grupo (20 alumnos en total)?",
+          "opciones": [
+            "8.5",
+            "8.55",
+            "8.6",
+            "171"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Suma = 7×4+8×6+9×5+10×5 = 28+48+45+50 = 171. Media = 171÷20 = 8.55."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En 10 partidos, los goles anotados por equipo fueron: 0 (frecuencia 1), 1 (frecuencia 3), 2 (frecuencia 4) y 3 (frecuencia 2). La moda de estos datos es 2 goles.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "El valor 2 tiene la frecuencia más alta (4 partidos), más que 0, 1 o 3. La moda es 2 goles. Correcto."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Con esa misma tabla de goles (0 con frecuencia 1, 1 con frecuencia 3, 2 con frecuencia 4, 3 con frecuencia 2; 10 partidos), la media de goles por partido es ___.",
+          "respuestaCorrecta": "1.7",
+          "retroalimentacion": "Suma = 0×1+1×3+2×4+3×2 = 0+3+8+6 = 17. Media = 17÷10 = 1.7 goles."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En un salón de 25 alumnos, la tabla de edades es: 12 años (frecuencia 5), 13 años (frecuencia 12) y 14 años (frecuencia 8). ¿Cuál es la moda de las edades?",
+          "opciones": [
+            "12",
+            "13",
+            "14",
+            "25"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "El valor 13 años tiene la frecuencia más alta (12 alumnos), más que 12 años (5) o 14 años (8). La moda es 13."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Con esa misma tabla de edades (12 años frecuencia 5, 13 años frecuencia 12, 14 años frecuencia 8; 25 alumnos), la mediana de las edades es 13 años.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Con 25 datos (impar), la mediana es el dato en la posición 13. Acumulando: 5 tienen 12 años (posiciones 1-5) y 17 tienen 12 o 13 años (posiciones 6-17); la posición 13 cae en el bloque de 13 años. Correcto."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Con esa misma tabla de edades (12 años frecuencia 5, 13 años frecuencia 12, 14 años frecuencia 8; 25 alumnos), la media de las edades es ___ años.",
+          "respuestaCorrecta": "13.12",
+          "retroalimentacion": "Suma = 12×5+13×12+14×8 = 60+156+112 = 328. Media = 328÷25 = 13.12 años."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una encuesta a 15 familias sobre número de hijos: 0 hijos (frecuencia 2), 1 hijo (frecuencia 5), 2 hijos (frecuencia 6) y 3 hijos (frecuencia 2). ¿Cuál es la media de hijos por familia (aproximada a centésimos)?",
+          "opciones": [
+            "1.5",
+            "1.53",
+            "1.6",
+            "23"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Suma = 0×2+1×5+2×6+3×2 = 0+5+12+6 = 23. Media = 23÷15 ≈ 1.53 hijos."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Con esa misma encuesta de hijos por familia (0 hijos frecuencia 2, 1 hijo frecuencia 5, 2 hijos frecuencia 6, 3 hijos frecuencia 2; 15 familias), la mediana es 2 hijos.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Con 15 datos (impar), la mediana es el dato en la posición 8. Acumulando: 7 familias tienen 0 o 1 hijo (posiciones 1-7) y 13 tienen 0, 1 o 2 hijos (posiciones 8-13); la posición 8 cae en el bloque de 2 hijos. Correcto."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Con esa misma encuesta de hijos por familia (0 hijos frecuencia 2, 1 hijo frecuencia 5, 2 hijos frecuencia 6, 3 hijos frecuencia 2), la moda del número de hijos es ___.",
+          "respuestaCorrecta": "2",
+          "retroalimentacion": "El valor 2 hijos tiene la frecuencia más alta (6 familias), más que 0, 1 o 3 hijos. La moda es 2."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada tabla de frecuencias (10 datos cada una) con el valor de su media.",
+          "columnaA": [
+            "Valor 5 (frecuencia 2), 6 (frecuencia 3), 7 (frecuencia 5)",
+            "Valor 10 (frecuencia 4), 11 (frecuencia 4), 12 (frecuencia 2)",
+            "Valor 2 (frecuencia 6), 3 (frecuencia 2), 4 (frecuencia 2)"
+          ],
+          "columnaB": [
+            "6.3",
+            "10.8",
+            "2.6"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "Primera: (5×2+6×3+7×5)÷10=63÷10=6.3. Segunda: (10×4+11×4+12×2)÷10=108÷10=10.8. Tercera: (2×6+3×2+4×2)÷10=26÷10=2.6."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Las calificaciones de 4 alumnos son 7, 8, 9 y 10 (todas diferentes). Este conjunto de datos no tiene moda.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: ningún valor se repite, así que el conjunto no tiene moda."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Un equipo anotó 3, 3, 5, 3 y 2 goles en 5 partidos. La moda de estos datos es ___.",
+      "respuestaCorrecta": "3",
+      "retroalimentacion": "El 3 se repite 3 veces, más que los demás datos. La moda es 3."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Las calificaciones de 5 alumnos son 8, 9, 8, 10 y 9. ¿Cuál es la moda de este grupo?",
+      "opciones": [
+        "Solo 8",
+        "Solo 9",
+        "8 y 9 (bimodal)",
+        "No tiene moda"
+      ],
+      "respuestaCorrecta": 2,
+      "retroalimentacion": "El 8 y el 9 se repiten 2 veces cada uno, más que los demás datos: es bimodal, con modas 8 y 9."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Las edades de 5 primos son 12, 12, 13, 14 y 12 años. La moda de sus edades es 12.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "El 12 se repite 3 veces, más que los demás datos. La moda es 12. Correcto."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Un equipo anotó 6, 2, 4 y 4 goles en 4 partidos. ¿Cuál es la media de goles por partido?",
+      "opciones": [
+        "3.5",
+        "4",
+        "4.5",
+        "16"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "Suma = 6+2+4+4 = 16. Media = 16 ÷ 4 = 4."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Las edades de 6 primos son 18, 16, 17, 17, 15 y 16 años. La media de sus edades es ___.",
+      "respuestaCorrecta": "16.5",
+      "retroalimentacion": "Suma = 18+16+17+17+15+16 = 99. Media = 99 ÷ 6 = 16.5 años."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Las calificaciones desordenadas de 7 alumnos son 9, 6, 8, 7, 10, 8 y 9. Ordénalas y encuentra la mediana.",
+      "opciones": [
+        "7.5",
+        "8",
+        "8.5",
+        "9"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "Ordenadas: 6, 7, 8, 8, 9, 9, 10. Con 7 datos (impar), la mediana es el valor central (4.º dato): 8."
+    }
+  ]
+}

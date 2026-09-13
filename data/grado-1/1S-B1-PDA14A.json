@@ -1,0 +1,529 @@
+{
+  "id": "1S-B1-PDA14A",
+  "grado": "1°",
+  "trimestre": "3",
+  "numero": 40,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Probabilidad de Eventos Simples 14.1",
+  "contenido": "Azar e incertidumbre en la ocurrencia de eventos cotidianos.",
+  "pda": "Calcula la probabilidad clásica de eventos simples a partir de su espacio muestral.",
+  "problematizacion": {
+    "contexto": "En la feria de su pueblo, Ricardo juega una ruleta de premios dividida en 8 secciones iguales: 3 rojas, 2 azules, 2 verdes y 1 amarilla. Si la ruleta cae en amarilla, gana el premio mayor.",
+    "pregunta": "¿Cuál es la probabilidad de que la ruleta de Ricardo caiga en la sección amarilla, expresada como fracción, decimal y porcentaje?"
+  },
+  "subtemas": [
+    {
+      "numero": "14.1",
+      "titulo": "Espacio muestral",
+      "explicacion": "El espacio muestral de un experimento aleatorio es el conjunto de TODOS los resultados posibles que se pueden obtener. Por ejemplo, al lanzar un dado de 6 caras, los resultados posibles son 1, 2, 3, 4, 5 y 6; ese conjunto {1,2,3,4,5,6} es el espacio muestral y tiene 6 elementos. Para encontrar el espacio muestral de una bolsa con canicas de colores, basta con sumar todas las canicas que contiene.",
+      "ejemplos": [
+        "Al lanzar un dado de 6 caras, el espacio muestral es {1,2,3,4,5,6}: tiene 6 resultados posibles.",
+        "Al lanzar una moneda, el espacio muestral es {águila, sol}: tiene 2 resultados posibles."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El espacio muestral de lanzar una moneda tiene 2 resultados posibles (águila y sol).",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: los únicos resultados posibles al lanzar una moneda son águila o sol, así que el espacio muestral tiene 2 elementos."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Al lanzar un dado de 6 caras, ¿cuántos resultados tiene su espacio muestral?",
+          "opciones": [
+            "4",
+            "6",
+            "8",
+            "12"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "El espacio muestral de un dado de 6 caras es {1,2,3,4,5,6}, es decir, 6 resultados posibles."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una bolsa tiene 4 canicas rojas, 3 azules y 2 verdes. El espacio muestral de sacar una canica tiene ___ resultados posibles.",
+          "respuestaCorrecta": "9",
+          "retroalimentacion": "Se suman todas las canicas: 4+3+2 = 9 resultados posibles."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En una baraja española de 40 cartas, el espacio muestral de sacar una carta tiene 40 resultados posibles.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: la baraja completa tiene 40 cartas distintas, así que hay 40 resultados posibles al sacar una."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una ruleta está dividida en 8 secciones iguales numeradas del 1 al 8. ¿Cuántos resultados tiene su espacio muestral?",
+          "opciones": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Las secciones numeradas del 1 al 8 dan 8 resultados posibles: {1,2,3,4,5,6,7,8}."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Al lanzar un dado de 6 caras, el espacio muestral es el conjunto {1,2,3,4,5,6}, que tiene ___ resultados.",
+          "respuestaCorrecta": "6",
+          "retroalimentacion": "El conjunto {1,2,3,4,5,6} tiene 6 elementos, uno por cada cara del dado."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una bolsa con 5 canicas azules y 3 rojas tiene un espacio muestral de 7 resultados posibles.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: 5+3 = 8 canicas en total, así que el espacio muestral tiene 8 resultados, no 7."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una bolsa tiene 6 canicas verdes, 2 amarillas y 2 rojas. ¿Cuántos resultados tiene su espacio muestral?",
+          "opciones": [
+            "8",
+            "9",
+            "10",
+            "12"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Se suman todas las canicas: 6+2+2 = 10 resultados posibles."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada experimento con el número de resultados de su espacio muestral.",
+          "columnaA": [
+            "Lanzar una moneda",
+            "Lanzar un dado de 6 caras",
+            "Sacar una carta de una baraja de 40"
+          ],
+          "columnaB": [
+            "2",
+            "6",
+            "40"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "Moneda: {águila, sol} = 2. Dado: {1,2,3,4,5,6} = 6. Baraja de 40 cartas = 40 resultados."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una ruleta tiene 10 secciones iguales: 4 rojas, 3 azules y 3 verdes. El espacio muestral de girarla tiene ___ resultados.",
+          "respuestaCorrecta": "10",
+          "retroalimentacion": "Se suman todas las secciones: 4+3+3 = 10 resultados posibles."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 1 de 4 · Introductorio"
+    },
+    {
+      "numero": "14.2",
+      "titulo": "Probabilidad clásica",
+      "explicacion": "La probabilidad clásica de un evento se calcula dividiendo el número de casos favorables (los resultados que cumplen lo que buscamos) entre el número de casos totales (todos los resultados del espacio muestral). Por ejemplo, al lanzar un dado, si queremos la probabilidad de obtener un número par, hay 3 casos favorables ({2,4,6}) de 6 totales, así que P = 3/6.",
+      "formula": "P(evento) = número de casos favorables ÷ número de casos totales",
+      "ejemplos": [
+        "Al lanzar un dado de 6 caras, hay 3 números pares posibles: {2,4,6}. Como el espacio muestral tiene 6 resultados, P(número par) = 3/6.",
+        "En una bolsa con 5 canicas azules y 3 rojas (8 en total), P(canica azul) = 5/8."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Se lanza un dado de 6 caras. ¿Cuál es la probabilidad de obtener un número par?",
+          "opciones": [
+            "2/6",
+            "3/6",
+            "4/6",
+            "1/6"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Los números pares del dado son {2,4,6}: 3 casos favorables de 6 totales, P = 3/6."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En una bolsa hay 4 canicas rojas, 3 azules, 2 verdes y 1 amarilla (10 en total). La probabilidad de sacar una canica roja es ___.",
+          "respuestaCorrecta": "4/10",
+          "retroalimentacion": "Hay 4 canicas rojas de 10 en total, así que P(roja) = 4/10."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Al lanzar una moneda, la probabilidad de que caiga águila es 1/2.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: hay 1 caso favorable (águila) de 2 totales, P = 1/2."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una ruleta tiene 8 secciones iguales numeradas del 1 al 8. ¿Cuál es la probabilidad de que caiga en un número mayor que 6?",
+          "opciones": [
+            "1/8",
+            "2/8",
+            "3/8",
+            "6/8"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Los números mayores que 6 son {7,8}: 2 casos favorables de 8 totales, P = 2/8."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En una bolsa con 5 canicas azules y 3 rojas (8 en total), la probabilidad de sacar una canica azul es ___.",
+          "respuestaCorrecta": "5/8",
+          "retroalimentacion": "Hay 5 canicas azules de 8 en total, así que P(azul) = 5/8."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Al lanzar un dado de 6 caras, la probabilidad de obtener un número múltiplo de 3 es 2/6.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: los múltiplos de 3 en el dado son {3,6}, es decir, 2 casos favorables de 6 totales."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una baraja española de 40 cartas hay 4 ases (uno por cada palo). ¿Cuál es la probabilidad de sacar un as?",
+          "opciones": [
+            "1/40",
+            "4/40",
+            "10/40",
+            "40/4"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Hay 4 ases de 40 cartas en total, así que P(as) = 4/40."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una ruleta tiene 10 secciones: 4 rojas, 3 azules y 3 verdes. La probabilidad de que caiga en una sección azul es ___.",
+          "respuestaCorrecta": "3/10",
+          "retroalimentacion": "Hay 3 secciones azules de 10 en total, así que P(azul) = 3/10."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Al lanzar un dado de 6 caras, la probabilidad de obtener un número menor que 3 es 3/6.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: los números menores que 3 son {1,2}, es decir, 2 casos favorables de 6, así que P = 2/6, no 3/6."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada evento con su probabilidad.",
+          "columnaA": [
+            "Sacar una canica roja de una bolsa con 4 rojas y 6 azules (10 en total)",
+            "Lanzar un dado y obtener un 5",
+            "Lanzar una moneda y obtener sol"
+          ],
+          "columnaB": [
+            "1/6",
+            "4/10",
+            "1/2"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            2
+          ],
+          "retroalimentacion": "Canica roja: 4/10. Obtener un 5 en el dado: 1 caso favorable de 6, P = 1/6. Moneda-sol: 1 de 2, P = 1/2."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 2 de 4 · Intermedio"
+    },
+    {
+      "numero": "14.3",
+      "titulo": "Fracción, decimal y porcentaje",
+      "explicacion": "Una misma probabilidad se puede expresar de tres formas equivalentes: como fracción (casos favorables entre casos totales), como número decimal (dividiendo el numerador entre el denominador) o como porcentaje (multiplicando el decimal por 100). Por ejemplo, 3/6 = 0.5 = 50%: las tres representan exactamente la misma probabilidad.",
+      "ejemplos": [
+        "La probabilidad 3/6 se simplifica a 1/2; en decimal es 0.5 y en porcentaje es 50%.",
+        "La probabilidad 1/4 en decimal es 0.25, y en porcentaje es 25%."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "La probabilidad de un evento es 1/2. ¿A qué porcentaje equivale?",
+          "opciones": [
+            "25%",
+            "50%",
+            "75%",
+            "20%"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "1/2 = 0.5, y 0.5 × 100 = 50%."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La probabilidad 3/4 en decimal es ___.",
+          "respuestaCorrecta": "0.75",
+          "retroalimentacion": "3 ÷ 4 = 0.75."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La probabilidad 2/5 equivale a 0.4 en decimal.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 2 ÷ 5 = 0.4."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Convierte la probabilidad 1/4 a porcentaje.",
+          "opciones": [
+            "10%",
+            "25%",
+            "40%",
+            "50%"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "1/4 = 0.25, y 0.25 × 100 = 25%."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La probabilidad 0.6 expresada como porcentaje es ___.",
+          "respuestaCorrecta": "60%",
+          "retroalimentacion": "0.6 × 100 = 60%."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La probabilidad 3/10 equivale a 30%.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 3/10 = 0.3, y 0.3 × 100 = 30%."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál fracción equivale a una probabilidad del 80%?",
+          "opciones": [
+            "4/5",
+            "3/5",
+            "2/5",
+            "4/10"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "80% = 0.8 = 8/10, que simplificada es 4/5."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La probabilidad 5/8 en decimal es ___.",
+          "respuestaCorrecta": "0.625",
+          "retroalimentacion": "5 ÷ 8 = 0.625."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La probabilidad 1/8 equivale a 12.5%.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 1 ÷ 8 = 0.125, y 0.125 × 100 = 12.5%."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada probabilidad en fracción con su porcentaje equivalente.",
+          "columnaA": [
+            "1/5",
+            "3/5",
+            "7/10"
+          ],
+          "columnaB": [
+            "70%",
+            "20%",
+            "60%"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "1/5 = 0.2 = 20%. 3/5 = 0.6 = 60%. 7/10 = 0.7 = 70%."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 3 de 4 · Avanzado"
+    },
+    {
+      "numero": "14.4",
+      "titulo": "Aplicación combinada",
+      "explicacion": "Para resolver un problema completo de probabilidad: 1) identifica el espacio muestral (cuenta todos los resultados posibles), 2) cuenta los casos favorables del evento que te piden, 3) calcula la probabilidad como fracción y 4) exprésala en la forma que se solicite (fracción simplificada, decimal o porcentaje).",
+      "ejemplos": [
+        "Una bolsa tiene 3 canicas rojas, 5 azules y 2 verdes (10 en total). P(canica azul) = 5/10 = 1/2 = 0.5 = 50%."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una bolsa tiene 3 canicas rojas, 5 azules y 2 verdes (10 en total). ¿Cuál es la probabilidad de sacar una canica azul, expresada como fracción simplificada?",
+          "opciones": [
+            "5/10",
+            "1/2",
+            "2/5",
+            "3/10"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "P(azul) = 5/10, que simplificada es 1/2."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En la misma bolsa (3 rojas, 5 azules, 2 verdes), la probabilidad de sacar una canica roja, en porcentaje, es ___.",
+          "respuestaCorrecta": "30%",
+          "retroalimentacion": "P(roja) = 3/10 = 0.3, y 0.3 × 100 = 30%."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En una baraja española de 40 cartas (4 palos de 10 cartas cada uno), la probabilidad de sacar una carta de copas es 25%.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: hay 10 cartas de copas de 40, P = 10/40 = 0.25 = 25%."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una ruleta tiene 20 secciones iguales: 5 rojas, 10 azules y 5 verdes. ¿Cuál es la probabilidad de que caiga en una sección roja, en decimal?",
+          "opciones": [
+            "0.5",
+            "0.25",
+            "0.4",
+            "0.2"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "P(roja) = 5/20 = 0.25."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En la bolsa con 4 canicas amarillas, 4 verdes y 2 rojas (10 en total), la probabilidad de sacar una canica roja, como fracción simplificada, es ___.",
+          "respuestaCorrecta": "1/5",
+          "retroalimentacion": "P(roja) = 2/10, que simplificada es 1/5."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En la ruleta de 20 secciones (5 rojas, 10 azules, 5 verdes), la probabilidad de caer en una sección azul es 0.5.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: P(azul) = 10/20 = 0.5."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una baraja española de 40 cartas hay 12 cartas de 'figura' (sota, caballo y rey de cada palo). ¿Cuál es la probabilidad de sacar una figura, como porcentaje?",
+          "opciones": [
+            "12%",
+            "24%",
+            "30%",
+            "40%"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "P(figura) = 12/40 = 0.3, y 0.3 × 100 = 30%."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En la bolsa con 4 canicas amarillas, 4 verdes y 2 rojas, la probabilidad de sacar una canica amarilla, en decimal, es ___.",
+          "respuestaCorrecta": "0.4",
+          "retroalimentacion": "P(amarilla) = 4/10 = 0.4."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En la bolsa con 3 canicas rojas, 5 azules y 2 verdes, la probabilidad de NO sacar una canica verde es 80%.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: como NO verde son las rojas y azules, 3+5 = 8 de 10, P = 8/10 = 0.8 = 80%."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación con la probabilidad pedida, en la forma indicada.",
+          "columnaA": [
+            "Bolsa con 3 rojas, 5 azules, 2 verdes → P(verde) en fracción simplificada",
+            "Ruleta de 20 secciones: 5 rojas, 10 azules, 5 verdes → P(roja) en porcentaje",
+            "Baraja de 40 cartas, 4 palos de 10 → P(oros) en decimal"
+          ],
+          "columnaB": [
+            "25%",
+            "0.25",
+            "1/5"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "Verde: 2/10 = 1/5. Roja en ruleta: 5/20 = 25%. Oros: 10/40 = 0.25."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 4 de 4 · Síntesis"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "El espacio muestral de lanzar un dado de 6 caras tiene 6 resultados posibles.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: el espacio muestral de un dado de 6 caras es {1,2,3,4,5,6}."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Una bolsa tiene 6 canicas azules y 4 rojas. ¿Cuántos resultados tiene el espacio muestral de sacar una canica?",
+      "opciones": [
+        "6",
+        "4",
+        "10",
+        "2"
+      ],
+      "respuestaCorrecta": 2,
+      "retroalimentacion": "Se suman todas las canicas: 6+4 = 10 resultados posibles."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Al lanzar un dado de 6 caras, la probabilidad de obtener un número menor que 3 es ___.",
+      "respuestaCorrecta": "2/6",
+      "retroalimentacion": "Los números menores que 3 son {1,2}: 2 casos favorables de 6 totales, P = 2/6."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "En la bolsa con 6 canicas azules y 4 rojas (10 en total), ¿cuál es la probabilidad de sacar una canica roja?",
+      "opciones": [
+        "4/10",
+        "6/10",
+        "4/6",
+        "10/4"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "Hay 4 canicas rojas de 10 en total, así que P(roja) = 4/10."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Al lanzar una moneda, la probabilidad de obtener sol es 1/2.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: hay 1 caso favorable (sol) de 2 totales, P = 1/2."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "La probabilidad 3/5 en decimal es ___.",
+      "respuestaCorrecta": "0.6",
+      "retroalimentacion": "3 ÷ 5 = 0.6."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Convierte la probabilidad 0.2 a porcentaje.",
+      "opciones": [
+        "2%",
+        "12%",
+        "20%",
+        "200%"
+      ],
+      "respuestaCorrecta": 2,
+      "retroalimentacion": "0.2 × 100 = 20%."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "La probabilidad 7/10 equivale a 70%.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: 7/10 = 0.7, y 0.7 × 100 = 70%."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada probabilidad con su forma equivalente.",
+      "columnaA": [
+        "1/4",
+        "3/4",
+        "1/10"
+      ],
+      "columnaB": [
+        "75%",
+        "10%",
+        "25%"
+      ],
+      "parejasCorrectas": [
+        2,
+        0,
+        1
+      ],
+      "retroalimentacion": "1/4 = 25%. 3/4 = 75%. 1/10 = 10%."
+    }
+  ]
+}

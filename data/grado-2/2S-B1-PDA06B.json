@@ -1,0 +1,432 @@
+{
+  "id": "2S-B1-PDA06B",
+  "grado": "2°",
+  "trimestre": "2",
+  "numero": 17,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Ecuaciones lineales y cuadráticas 6.2",
+  "contenido": "Ecuaciones lineales y cuadráticas.",
+  "pda": "Modela y resuelve problemas cuyo planteamiento es una ecuación lineal. Resuelve problemas de porcentajes en diversas situaciones.",
+  "problematizacion": {
+    "contexto": "Dos talleres de bicicletas ofrecen tarifas distintas para reparaciones: el taller \"Veloz\" cobra una revisión fija de $50 más $30 por cada reparación, mientras que \"Rueda Libre\" cobra $80 fijos más $20 por reparación. Tu vecino quiere saber a partir de cuántas reparaciones le conviene más un taller que el otro.",
+    "pregunta": "Planteando una ecuación con la incógnita en ambos lados, ¿con cuántas reparaciones ambos talleres cobran exactamente lo mismo?"
+  },
+  "subtemas": [
+    {
+      "numero": "6.5",
+      "titulo": "Ecuaciones con paréntesis: la propiedad distributiva",
+      "explicacion": "Hasta ahora la variable aparecía sola en un término. Ahora la incógnita estará dentro de un paréntesis multiplicado por un número, como en a(x + b) = c: primero hay que repartir (distribuir) ese número entre ambos términos del paréntesis antes de despejar. Esta forma aparece todo el tiempo en presupuestos donde se suma un cargo fijo antes de multiplicar por la cantidad de unidades.",
+      "formula": "a(x + b) = c → ax + ab = c → x = (c − ab) ÷ a",
+      "ejemplos": [
+        "Una tienda de mesas cobra (x + 80) pesos por cada mesa, ya que $80 es el costo de envío incluido en cada una. Si 4 mesas cuestan $560 en total: 4(x + 80) = 560 → 4x + 320 = 560 → 4x = 240 → x = 60. El precio base de cada mesa, sin envío, es $60.",
+        "El perímetro de un jardín rectangular es 2(x + 9) metros, donde x es el ancho y el largo mide 9 m más que el ancho. Si el perímetro mide 58 m: 2(x + 9) = 58 → 2x + 18 = 58 → 2x = 40 → x = 20. El ancho del jardín es 20 m."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una tienda vende mesas para eventos: cada mesa cuesta (x + 80) pesos, porque $80 es el costo fijo de transporte ya incluido en cada una. Si compras 4 mesas y pagas $560 en total, ¿cuál es el precio base x de una mesa, sin el transporte?",
+          "opciones": [
+            "$60",
+            "$70",
+            "$50",
+            "$140"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "4(x+80)=560 → 4x+320=560 → 4x=240 → x=60."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En la taquilla de un estadio, cada boleto cuesta (x + 25) pesos, ya que $25 es la cuota de servicio que se suma a cada boleto. Seis aficionados pagaron $390 en total. El precio base x del boleto, sin la cuota, es $___.",
+          "respuestaCorrecta": "40",
+          "retroalimentacion": "6(x+25)=390 → 6x+150=390 → 6x=240 → x=40."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una panadería reparte 5 canastas de pan; cada canasta cuesta (x + 10) pesos porque $10 es el costo del empaque. Si las 5 canastas costaron $105 en total, entonces el precio base x de cada canasta es $11.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "5(x+10)=105 → 5x+50=105 → 5x=55 → x=11. Correcto."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un vivero vende macetas: cada una cuesta (x + 18) pesos, pues $18 es el costo de la tierra incluida. Si 3 macetas costaron $90 en total, entonces el precio base x de la maceta es $10.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "3(x+18)=90 → 3x+54=90 → 3x=36 → x=12, no $10."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una panadería vende cajas de pan dulce: cada caja cuesta (x + 15) pesos porque $15 es el costo del envase reutilizable. Si 7 cajas costaron $217 en total, ¿cuál es el precio base x del pan, sin el envase?",
+          "opciones": [
+            "$16",
+            "$19",
+            "$28",
+            "$31"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "7(x+15)=217 → 7x+105=217 → 7x=112 → x=16."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El perímetro de un jardín rectangular se calcula como 2(x + 9) metros, donde x es el ancho y el largo mide 9 m más que el ancho. Si el perímetro es 58 m, el ancho x es ___ m.",
+          "respuestaCorrecta": "20",
+          "retroalimentacion": "2(x+9)=58 → 2x+18=58 → 2x=40 → x=20."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada ecuación con paréntesis con su solución.",
+          "columnaA": [
+            "4(x+5)=48",
+            "3(x+7)=51",
+            "5(x+2)=55"
+          ],
+          "columnaB": [
+            "9",
+            "7",
+            "10"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "4(x+5)=48 → x=7; 3(x+7)=51 → x=10; 5(x+2)=55 → x=9."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Seis primos compran boletos de cine con anticipación y reciben un descuento fijo de $8 en cada boleto: pagan (x − 8) pesos cada uno. Si en total pagaron $144, ¿cuál era el precio original x del boleto, antes del descuento?",
+          "opciones": [
+            "$32",
+            "$24",
+            "$18",
+            "$40"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "6(x−8)=144 → 6x−48=144 → 6x=192 → x=32."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El doble de (x + 13) es igual a 50. Entonces x = 12.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "2(x+13)=50 → 2x+26=50 → 2x=24 → x=12. Correcto."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una granja temporal paga a 12 trabajadores; cada uno recibe (x + 2) pesos por hora, donde $2 es un bono por riesgo. Si el pago total por hora a los 12 trabajadores fue $180, el salario base x es $___.",
+          "respuestaCorrecta": "13",
+          "retroalimentacion": "12(x+2)=180 → 12x+24=180 → 12x=156 → x=13."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 1 de 3 · Aplicación"
+    },
+    {
+      "numero": "6.6",
+      "titulo": "Ecuaciones con la variable en ambos lados",
+      "explicacion": "En las lecciones anteriores la variable aparecía solo en un lado de la ecuación. Ahora la incógnita aparece en ambos lados, como en ax + b = cx + d: para resolverla hay que reunir los términos con x en un solo lado y los números en el otro antes de despejar. Este tipo de ecuación es justo lo que se usa para comparar dos planes, tarifas o sueldos y encontrar en qué punto cuestan o rinden lo mismo.",
+      "formula": "ax + b = cx + d → (a − c)x = d − b → x = (d − b) ÷ (a − c)",
+      "ejemplos": [
+        "Un plan de telefonía A cobra $20 fijos más $5 por cada GB adicional; el plan B cobra $50 fijos más $3 por GB adicional. Para saber con cuántos GB cuestan lo mismo: 20 + 5x = 50 + 3x → 5x − 3x = 50 − 20 → 2x = 30 → x = 15. Con 15 GB adicionales, ambos planes cuestan lo mismo.",
+        "Resuelve: 7x − 10 = 4x + 20 → 7x − 4x = 20 + 10 → 3x = 30 → x = 10."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un plan de telefonía A cobra $150 fijos más $2 por cada minuto adicional; el plan B cobra $90 fijos más $5 por minuto adicional. ¿Con cuántos minutos adicionales ambos planes cuestan lo mismo?",
+          "opciones": [
+            "20 minutos",
+            "30 minutos",
+            "15 minutos",
+            "12 minutos"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "150+2x=90+5x → 60=3x → x=20."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Gimnasio Fit cobra $300 de inscripción más $50 al mes; Gimnasio Total cobra $150 de inscripción más $75 al mes. Después de x meses, el costo acumulado de ambos es igual. x = ___ meses.",
+          "respuestaCorrecta": "6",
+          "retroalimentacion": "300+50x=150+75x → 150=25x → x=6."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Resolver la ecuación 6x + 8 = 2x + 40 da x = 8.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "6x−2x=40−8 → 4x=32 → x=8. Correcto."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Resolver la ecuación 9x − 5 = 3x + 37 da x = 6.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "9x−3x=37+5 → 6x=42 → x=7, no 6."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Ana gana $2,000 fijos al mes más $30 por cada venta; Luis gana $500 fijos más $80 por cada venta. ¿Con cuántas ventas ganan la misma cantidad?",
+          "opciones": [
+            "30 ventas",
+            "25 ventas",
+            "40 ventas",
+            "20 ventas"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "2000+30x=500+80x → 1500=50x → x=30."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Resuelve: 8x − 12 = 3x + 33. x = ___.",
+          "respuestaCorrecta": "9",
+          "retroalimentacion": "8x−3x=33+12 → 5x=45 → x=9."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada ecuación con variable en ambos lados con su solución.",
+          "columnaA": [
+            "5x+6=2x+24",
+            "9x−10=4x+15",
+            "6x+8=2x+40"
+          ],
+          "columnaB": [
+            "8",
+            "6",
+            "5"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "5x+6=2x+24 → x=6; 9x−10=4x+15 → x=5; 6x+8=2x+40 → x=8."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El equipo Águilas ya lleva 34 puntos y anota 4 puntos por posesión; el equipo Halcones lleva 10 puntos y anota 7 puntos por posesión. ¿Después de cuántas posesiones tendrán la misma cantidad de puntos?",
+          "opciones": [
+            "8 posesiones",
+            "6 posesiones",
+            "10 posesiones",
+            "12 posesiones"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "34+4x=10+7x → 24=3x → x=8."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Karla tiene ahorrados $800 y ahorra $50 cada semana; su hermano tiene $200 ahorrados y ahorra $90 cada semana. Sus ahorros se igualarán en 5 semanas.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "800+50x=200+90x → 600=40x → x=15 semanas, no 5."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Resuelve: 4x + 45 = 9x − 10. x = ___.",
+          "respuestaCorrecta": "11",
+          "retroalimentacion": "45+10=9x−4x → 55=5x → x=11."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 2 de 3 · Aplicación avanzada"
+    },
+    {
+      "numero": "6.7",
+      "titulo": "Descuentos y aumentos encadenados",
+      "explicacion": "Hasta ahora se aplicaba un solo cambio porcentual a un precio. Ahora se encadenan dos cambios sucesivos —por ejemplo, un descuento y luego un aumento, o dos descuentos seguidos— y cada uno se calcula sobre el resultado del anterior, nunca sobre el precio original. Esto es justo lo que ocurre cuando una tienda aplica un descuento y luego cobra IVA, o cuando un sueldo sube en años consecutivos.",
+      "formula": "precio final = precio original × factor1 × factor2, donde cada factor es (1 − descuento/100) o (1 + aumento/100)",
+      "ejemplos": [
+        "Un artículo de $500 tiene primero 20% de descuento y luego se le aplica un cupón adicional del 10% sobre el nuevo precio: 500 × 0.80 × 0.90 = 500 × 0.72 = $360.",
+        "Un salario de $6,000 aumenta 10% un año y 10% el siguiente año: 6000 × 1.10 × 1.10 = 6000 × 1.21 = $7,260 (no es un aumento del 20%, sino un poco más)."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una laptop de $12,000 tiene 15% de descuento y luego se le aplica 16% de IVA sobre el precio ya rebajado. ¿Cuál es el precio final?",
+          "opciones": [
+            "$11,832",
+            "$11,700",
+            "$12,180",
+            "$10,200"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "12000×0.85×1.16 = $11,832."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una tablet de $500 tiene primero 20% de descuento y luego un cupón adicional del 10% sobre el nuevo precio. El precio final es $___.",
+          "respuestaCorrecta": "360",
+          "retroalimentacion": "500×0.80×0.90 = $360."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un artículo de $800 sube 25% de precio y luego, sobre el nuevo precio, se le aplica un descuento del 20%. El precio final vuelve a ser $800.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "800×1.25×0.80 = 800×1.00 = $800. Correcto: con estos porcentajes el aumento y el descuento se cancelan exactamente."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un sueldo de $6,000 aumenta 10% un año y 10% el siguiente año. Al final del segundo año el sueldo es $7,260.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "6000×1.10×1.10 = $7,260. Correcto."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una tienda compra playeras a $80 cada una, las marca con un aumento del 50% para venderlas al público y luego ofrece 20% de descuento por temporada. ¿Cuál es el precio final de venta?",
+          "opciones": [
+            "$96",
+            "$100",
+            "$88",
+            "$104"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "80×1.50×0.80 = $96."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un boleto de avión de $3,000 sube 12% de precio por temporada alta y luego baja 5% por una promoción. El precio final es $___.",
+          "respuestaCorrecta": "3192",
+          "retroalimentacion": "3000×1.12×0.95 = $3,192."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación con su precio final.",
+          "columnaA": [
+            "Un artículo de $200 sube 10% y luego baja 10%",
+            "Un artículo de $400 baja 25% y luego sube 20%",
+            "Un artículo de $1,000 baja 30% y luego sube 30%"
+          ],
+          "columnaB": [
+            "910",
+            "198",
+            "360"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "200×1.10×0.90=198; 400×0.75×1.20=360; 1000×0.70×1.30=910."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una población de bacterias de 5,000 aumenta 40% en la primera hora y luego disminuye 25% en la segunda hora por falta de nutrientes. ¿Cuántas bacterias hay al final de la segunda hora?",
+          "opciones": [
+            "5,250",
+            "5,000",
+            "5,600",
+            "4,900"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "5000×1.40×0.75 = 5,250."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un producto de $250 recibe un descuento del 10% y luego otro 10% adicional sobre el nuevo precio. Esto equivale a un descuento total del 20%, así que el precio final es $200.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "250×0.90×0.90 = $202.50, no $200: dos descuentos del 10% seguidos NO equivalen a un descuento del 20%."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un terreno cuesta $150,000 y su valor sube 8% el primer año y 8% más el segundo año, sobre el nuevo valor. Su valor final es $___.",
+          "respuestaCorrecta": "174960",
+          "retroalimentacion": "150000×1.08×1.08 = $174,960."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 3 de 3 · Reto"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "llenar_frase",
+      "frase": "Resuelve: 9x - 6 = 39. x = ___.",
+      "respuestaCorrecta": "5",
+      "retroalimentacion": "9x = 45; x = 45÷9 = 5."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Un artículo tiene 20% de descuento y ahora cuesta $96. ¿Cuánto costaba antes?",
+      "opciones": [
+        "$120",
+        "$115",
+        "$76.80",
+        "$100"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "96 = x×0.80 → x = 96 ÷ 0.80 = $120."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Un producto de $70 con 20% de aumento cuesta $84.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: 70 × 1.20 = $84."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "La solución de 4x + 7 = 39 es x = 9.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "4x = 32; x = 8."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Resuelve: 8x - 10 = 30. x = ___.",
+      "respuestaCorrecta": "5",
+      "retroalimentacion": "8x = 40; x = 40÷8 = 5."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada situación con su resultado.",
+      "columnaA": [
+        "Precio $150 con 40% de descuento",
+        "Precio original si final es $186 con 20% de aumento",
+        "2x + 8 = 24"
+      ],
+      "columnaB": [
+        "155",
+        "8",
+        "90"
+      ],
+      "parejasCorrectas": [
+        2,
+        0,
+        1
+      ],
+      "retroalimentacion": "150×0.60=90; 186÷1.20=155; 2x+8=24 → x=8."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Un número menos el doble de sí mismo es -14 (x - 2x = -14). ¿Cuál es el número?",
+      "opciones": [
+        "14",
+        "-14",
+        "7",
+        "28"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "x - 2x = -x = -14 → x = 14."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "La solución de 10x - 15 = 45 es x = 6.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "10x = 60; x = 6."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Un artículo con 40% de descuento quedó en $90. Su precio original era $___.",
+      "respuestaCorrecta": "150",
+      "retroalimentacion": "90 = x(1 − 0.40) = 0.60x → x = 90 ÷ 0.60 = $150."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Un producto de $80 tiene 25% de aumento. ¿Cuál es su precio final?",
+      "opciones": [
+        "$100",
+        "$95",
+        "$105",
+        "$85"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "80 × (1 + 0.25) = $100."
+    }
+  ]
+}

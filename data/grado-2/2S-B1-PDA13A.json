@@ -1,0 +1,536 @@
+{
+  "id": "2S-B1-PDA13A",
+  "grado": "2°",
+  "trimestre": "3",
+  "numero": 37,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Eventos Compuestos y Diagramas de Árbol 13.1",
+  "contenido": "Azar e incertidumbre en la ocurrencia de eventos cotidianos.",
+  "pda": "Calcula la probabilidad de eventos compuestos independientes usando diagramas de árbol.",
+  "problematizacion": {
+    "contexto": "Afuera de la escuela, el puesto de tortas de don Casimiro ofrece 4 tipos de pan (bolillo, telera, birote, chapata) y 3 tipos de guisado (milanesa, pierna, frijol con queso), y cada cliente elige exactamente un pan y un guisado para armar su torta.",
+    "pregunta": "¿Cuántas tortas diferentes se pueden formar combinando un tipo de pan y un guisado, usando un diagrama de árbol o la regla del producto?"
+  },
+  "subtemas": [
+    {
+      "numero": "13.1",
+      "titulo": "Eventos compuestos",
+      "explicacion": "Ya sabes calcular la probabilidad de un evento simple, como sacar 'águila' en una moneda o un '5' en un dado. Un evento compuesto combina dos o más experimentos simples que ocurren juntos o en secuencia, por ejemplo lanzar una moneda Y un dado, o elegir una playera Y un pantalón. Para saber cuántos resultados distintos puede tener ese evento compuesto (su espacio muestral), se multiplica el número de resultados posibles de cada experimento simple.",
+      "formula": "Total de resultados = (resultados del experimento 1) × (resultados del experimento 2)",
+      "ejemplos": [
+        "Lanzar un dado (6 resultados) y una moneda (2 resultados) juntos: 6 × 2 = 12 resultados posibles en total.",
+        "Elegir una playera de 3 colores y un pantalón de 2 colores: 3 × 2 = 6 combinaciones distintas."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si lanzas una moneda y un dado juntos, el espacio muestral combinado tiene 12 resultados posibles.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: moneda (2 resultados) × dado (6 resultados) = 12."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si lanzas dos dados, el espacio muestral combinado tiene 36 resultados posibles.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 6 × 6 = 36."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si lanzas tres monedas, el espacio muestral combinado tiene 6 resultados posibles.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: cada moneda tiene 2 resultados, así que son 2×2×2 = 8, no 6."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Al elegir una playera (3 colores) y un pantalón (2 colores), hay 5 combinaciones posibles.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: 3 × 2 = 6 combinaciones, no 5."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si lanzas dos monedas, el número total de resultados posibles es ___.",
+          "respuestaCorrecta": "4",
+          "retroalimentacion": "2 × 2 = 4."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si lanzas un dado y después una moneda, el número total de resultados posibles es ___.",
+          "respuestaCorrecta": "12",
+          "retroalimentacion": "6 × 2 = 12."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Si eliges un helado de 4 sabores y un tamaño de entre 3 opciones (chico, mediano, grande), ¿cuántas combinaciones distintas hay?",
+          "opciones": [
+            "7",
+            "12",
+            "10",
+            "9"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "4 × 3 = 12 combinaciones."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Si lanzas dos dados, ¿cuántos resultados tiene el espacio muestral combinado?",
+          "opciones": [
+            "12",
+            "24",
+            "36",
+            "30"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "6 × 6 = 36."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada combinación de experimentos con el número total de resultados de su espacio muestral.",
+          "columnaA": [
+            "Moneda y dado",
+            "Dos monedas",
+            "Dos dados"
+          ],
+          "columnaB": [
+            "4",
+            "36",
+            "12"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "Moneda y dado: 2×6=12. Dos monedas: 2×2=4. Dos dados: 6×6=36."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Si combinas 3 playeras y 4 pantalones, ¿cuántos conjuntos distintos puedes formar?",
+          "opciones": [
+            "7",
+            "12",
+            "10",
+            "14"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "3 × 4 = 12 conjuntos distintos."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 1 de 4 · Introductorio"
+    },
+    {
+      "numero": "13.2",
+      "titulo": "Diagrama de árbol",
+      "explicacion": "Un diagrama de árbol es una forma ordenada de dibujar TODOS los resultados posibles de un evento compuesto: primero se dibujan las ramas del primer experimento y, al final de cada una, las ramas del segundo experimento. Cada 'camino' completo, de principio a fin, representa un resultado distinto del espacio muestral, y ningún resultado se repite ni se olvida.",
+      "ejemplos": [
+        "Al dibujar el árbol de 'moneda y dado' (moneda primero), del tronco salen 2 ramas (águila, sol) y de cada una salen 6 ramas más (1 al 6): en total 2×6=12 caminos completos.",
+        "Al dibujar el árbol de 'dado y moneda' (dado primero), del tronco salen 6 ramas (1 al 6) y de cada una salen 2 ramas (águila, sol): también 12 caminos, aunque el orden en que se dibuja el árbol sea distinto."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En el diagrama de árbol de una moneda y un dado, la rama 'águila y 6' aparece una sola vez.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: cada combinación posible aparece exactamente una vez en el árbol."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En el diagrama de árbol de dos monedas lanzadas una tras otra, hay 8 ramas (resultados finales) en total.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: son 2×2=4 ramas, no 8."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En el diagrama de árbol de un dado y una moneda (dado primero), 6 de las 12 ramas terminan en 'águila'.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: por cada uno de los 6 valores del dado hay una rama que termina en águila, así que 6 de las 12."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En el diagrama de árbol de una moneda y un dado (moneda primero), 3 de las 12 ramas terminan en 'sol y número par'.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: de la rama 'sol' salen 6 ramas (1 al 6) y los pares son 2, 4 y 6: solo 3 de ellas."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En el diagrama de árbol de una moneda y un dado, el número total de ramas (resultados finales) es ___.",
+          "respuestaCorrecta": "12",
+          "retroalimentacion": "2 × 6 = 12 ramas en total."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En el diagrama de árbol de un dado y una moneda (dado primero), el número de ramas que terminan en 'número impar y sol' es ___.",
+          "respuestaCorrecta": "3",
+          "retroalimentacion": "Los números impares del dado son 1, 3 y 5; cada uno tiene una rama que termina en sol, así que son 3 ramas."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En el diagrama de árbol de dos monedas lanzadas una tras otra, ¿cuántas ramas terminan con 'sol' en el segundo lanzamiento?",
+          "opciones": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "De las 4 ramas (águila-águila, águila-sol, sol-águila, sol-sol), 2 terminan en sol: águila-sol y sol-sol."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En el diagrama de árbol de un dado y una moneda (dado primero), ¿cuántas ramas terminan en 'número menor a 3' seguido de cualquier resultado de moneda?",
+          "opciones": [
+            "2",
+            "4",
+            "6",
+            "8"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Los números menores a 3 son 1 y 2; cada uno se combina con 2 resultados de moneda, así que 2×2=4 ramas."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada diagrama de árbol con su número total de ramas (resultados finales).",
+          "columnaA": [
+            "Moneda y dado (moneda primero)",
+            "Dado y dado",
+            "Moneda, moneda y moneda"
+          ],
+          "columnaB": [
+            "12",
+            "36",
+            "8"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "Moneda y dado: 2×6=12. Dado y dado: 6×6=36. Tres monedas: 2×2×2=8."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En el diagrama de árbol de dos dados, 6 de las 36 ramas terminan en 'primer dado = 3'.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: si el primer dado es 3, el segundo dado puede tomar 6 valores distintos, así que hay 6 ramas."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 2 de 4 · Intermedio"
+    },
+    {
+      "numero": "13.3",
+      "titulo": "Regla del producto (eventos independientes)",
+      "explicacion": "Dos eventos son independientes cuando el resultado de uno NO afecta la probabilidad del otro; por ejemplo, el resultado de una moneda no cambia lo que puede salir en un dado. Cuando dos eventos A y B son independientes, la probabilidad de que ocurran los dos al mismo tiempo (A y B) se calcula multiplicando sus probabilidades por separado: esta es la regla del producto.",
+      "formula": "P(A y B) = P(A) × P(B), si A y B son independientes",
+      "ejemplos": [
+        "P(águila) = 1/2 y P(número par en un dado) = 3/6 = 1/2. Como son independientes: P(águila y número par) = 1/2 × 1/2 = 1/4.",
+        "P(un 3 en el primer dado) = 1/6 y P(un 5 en el segundo dado) = 1/6. P(ambos) = 1/6 × 1/6 = 1/36."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Se lanza una moneda y un dado. ¿Cuál es la probabilidad de obtener 'águila y un número par'?",
+          "opciones": [
+            "1/2",
+            "1/4",
+            "1/3",
+            "1/6"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "P(águila)=1/2, P(par)=1/2. P(águila y par) = 1/2 × 1/2 = 1/4."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Se lanzan dos dados. ¿Cuál es la probabilidad de obtener 'un 3 en el primer dado y un 5 en el segundo'?",
+          "opciones": [
+            "1/12",
+            "1/36",
+            "1/6",
+            "1/18"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "P(3)=1/6 y P(5)=1/6. Como son independientes: 1/6 × 1/6 = 1/36."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La probabilidad de obtener 'sol y un número mayor a 4' al lanzar una moneda y un dado es 1/6.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: P(sol)=1/2, P(mayor a 4)=2/6=1/3. 1/2 × 1/3 = 1/6."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La probabilidad de obtener 'águila' en dos lanzamientos consecutivos de una moneda es 1/2.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: P(águila y águila) = 1/2 × 1/2 = 1/4, no 1/2."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Al elegir una playera (de 4 colores) y un pantalón (de 3 colores) al azar, la probabilidad de obtener 'playera roja y pantalón azul' es ___.",
+          "respuestaCorrecta": "1/12",
+          "retroalimentacion": "P(playera roja)=1/4, P(pantalón azul)=1/3. 1/4 × 1/3 = 1/12."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Se lanzan dos dados. La probabilidad de que ambos muestren un número par es ___.",
+          "respuestaCorrecta": "1/4",
+          "retroalimentacion": "P(par)=3/6=1/2 en cada dado. 1/2 × 1/2 = 1/4."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Si P(A)=1/3 y P(B)=1/2, y A y B son eventos independientes, ¿cuál es P(A y B)?",
+          "opciones": [
+            "1/5",
+            "1/6",
+            "2/3",
+            "1/2"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "P(A y B) = 1/3 × 1/2 = 1/6."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si dos eventos son independientes, la ocurrencia de uno no afecta la probabilidad del otro.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: esa es justamente la definición de eventos independientes."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada pareja de probabilidades (de eventos independientes) con el valor de P(A y B).",
+          "columnaA": [
+            "P(A)=1/2, P(B)=1/3",
+            "P(A)=1/4, P(B)=1/2",
+            "P(A)=1/6, P(B)=1/2"
+          ],
+          "columnaB": [
+            "1/8",
+            "1/12",
+            "1/6"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "1/2×1/3=1/6. 1/4×1/2=1/8. 1/6×1/2=1/12."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Se lanza un dado y una moneda. ¿Cuál es la probabilidad de obtener 'un número menor que 3 y águila'?",
+          "opciones": [
+            "1/6",
+            "1/3",
+            "1/12",
+            "1/4"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(menor que 3)=2/6=1/3, P(águila)=1/2. 1/3 × 1/2 = 1/6."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 3 de 4 · Avanzado"
+    },
+    {
+      "numero": "13.4",
+      "titulo": "Aplicación combinada",
+      "explicacion": "Recuerda: para contar los resultados de un evento compuesto se multiplica el número de resultados de cada experimento, un diagrama de árbol muestra TODOS esos resultados como ramas, y si los experimentos son independientes, la regla del producto P(A y B) = P(A) × P(B) da la probabilidad de que ocurran juntos. En problemas con 3 experimentos (como 3 monedas), conviene imaginar el árbol completo y contar cuántas ramas cumplen la condición pedida antes de calcular la probabilidad.",
+      "ejemplos": [
+        "Al lanzar 3 monedas hay 2×2×2=8 resultados posibles: AAA, AAS, ASA, ASS, SAA, SAS, SSA, SSS (A=águila, S=sol). De esos 8, exactamente 3 tienen dos águilas y un sol (AAS, ASA, SAA), así que P(exactamente 2 águilas) = 3/8."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Se lanzan 3 monedas. ¿Cuántos resultados posibles hay en el espacio muestral?",
+          "opciones": [
+            "6",
+            "8",
+            "9",
+            "12"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "2×2×2 = 8 resultados posibles."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Se lanzan 3 monedas. ¿Cuántos de los 8 resultados tienen exactamente 2 águilas?",
+          "opciones": [
+            "2",
+            "3",
+            "4",
+            "1"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Son AAS, ASA y SAA: 3 resultados de los 8."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Se lanzan 3 monedas. La probabilidad de obtener exactamente 2 águilas es ___.",
+          "respuestaCorrecta": "3/8",
+          "retroalimentacion": "3 de los 8 resultados tienen exactamente 2 águilas, así que P = 3/8."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Al lanzar 3 monedas, la probabilidad de obtener 'sol, sol, sol' (ningún águila) es 1/8.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: solo 1 de los 8 resultados es SSS, así que P = 1/8."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Al lanzar 3 monedas, la probabilidad de obtener al menos 2 águilas es 1/2.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 4 de los 8 resultados tienen 2 o 3 águilas (AAA, AAS, ASA, SAA), así que P = 4/8 = 1/2."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Se lanzan 3 monedas. ¿Cuál es la probabilidad de obtener exactamente 3 águilas?",
+          "opciones": [
+            "1/8",
+            "3/8",
+            "1/4",
+            "1/2"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Solo AAA cumple la condición: 1 de 8 resultados, P = 1/8."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Se lanza un dado y luego dos monedas. El número total de resultados en el espacio muestral es ___.",
+          "respuestaCorrecta": "24",
+          "retroalimentacion": "6 × 2 × 2 = 24 resultados posibles."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Se lanza un dado y luego dos monedas. ¿Cuál es la probabilidad de obtener 'un número par en el dado y águila en ambas monedas'?",
+          "opciones": [
+            "1/6",
+            "1/8",
+            "1/12",
+            "1/4"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "P(par)=1/2. P(águila y águila)=1/2×1/2=1/4. En total: 1/2 × 1/4 = 1/8."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Al lanzar 3 monedas, relaciona cada evento con su probabilidad.",
+          "columnaA": [
+            "Exactamente 0 águilas",
+            "Exactamente 2 águilas",
+            "Al menos 2 águilas"
+          ],
+          "columnaB": [
+            "1/8",
+            "3/8",
+            "1/2"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "0 águilas: 1/8 (solo SSS). 2 águilas: 3/8 (AAS, ASA, SAA). Al menos 2 águilas: 4/8 = 1/2 (AAA, AAS, ASA, SAA)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Al lanzar un dado y una moneda, la probabilidad de obtener 'un 6 en el dado y sol' es 1/12.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: P(6)=1/6, P(sol)=1/2. 1/6 × 1/2 = 1/12."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 4 de 4 · Síntesis"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Se lanza un dado y se elige una carta de un mazo con 4 palos posibles. ¿Cuántos resultados tiene el espacio muestral?",
+      "opciones": [
+        "10",
+        "20",
+        "24",
+        "28"
+      ],
+      "respuestaCorrecta": 2,
+      "retroalimentacion": "6 × 4 = 24 resultados posibles."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Al lanzar dos dados, el espacio muestral tiene 30 resultados posibles.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Falso: 6 × 6 = 36 resultados, no 30."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Si combinas 5 sabores de helado con 2 tipos de cono, hay ___ combinaciones posibles.",
+      "respuestaCorrecta": "10",
+      "retroalimentacion": "5 × 2 = 10 combinaciones."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Se lanzan 4 monedas. ¿Cuántos resultados posibles hay en el espacio muestral?",
+      "opciones": [
+        "8",
+        "12",
+        "16",
+        "20"
+      ],
+      "respuestaCorrecta": 2,
+      "retroalimentacion": "2×2×2×2 = 16 resultados posibles."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Al elegir un color de playera (6 colores) y una talla (3 tallas), hay 18 combinaciones posibles.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: 6 × 3 = 18."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada combinación de experimentos con su número total de resultados.",
+      "columnaA": [
+        "Dado y dado",
+        "Tres monedas",
+        "Moneda y dado"
+      ],
+      "columnaB": [
+        "12",
+        "36",
+        "8"
+      ],
+      "parejasCorrectas": [
+        1,
+        2,
+        0
+      ],
+      "retroalimentacion": "Dado y dado: 6×6=36. Tres monedas: 2×2×2=8. Moneda y dado: 2×6=12."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "En el diagrama de árbol de dos monedas, hay 4 ramas y todas son igual de probables.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: las 4 ramas (águila-águila, águila-sol, sol-águila, sol-sol) tienen la misma probabilidad."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "En el diagrama de árbol de una moneda y un dado (moneda primero), el número de ramas que terminan en 'águila' es ___.",
+      "respuestaCorrecta": "6",
+      "retroalimentacion": "De la rama águila salen 6 ramas más (una por cada valor del dado)."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "En el diagrama de árbol de dos dados, ¿cuántas ramas terminan con 'segundo dado = 4'?",
+      "opciones": [
+        "1",
+        "6",
+        "12",
+        "36"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "Por cada uno de los 6 valores del primer dado hay una rama que termina en 4, así que son 6."
+    }
+  ]
+}

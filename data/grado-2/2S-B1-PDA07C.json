@@ -1,0 +1,434 @@
+{
+  "id": "2S-B1-PDA07C",
+  "grado": "2°",
+  "trimestre": "2",
+  "numero": 21,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Forma, espacio y medida",
+  "titulo": "Ángulos y Congruencia de Triángulos 7.3",
+  "contenido": "Rectas y ángulos.",
+  "pda": "Determina la suma de los ángulos internos de un polígono y aplica los criterios de congruencia de triángulos para resolver problemas.",
+  "problematizacion": {
+    "contexto": "En el taller de herrería, dos piezas idénticas de una armadura para el techo de un kiosco tienen ángulos representados como (3x+10)° y (5x-20)°, y el herrero sabe que ambas piezas deben ser congruentes para que el techo quede simétrico.",
+    "pregunta": "¿Cuál es el valor de x, y cuánto mide cada ángulo de las piezas congruentes de la armadura?"
+  },
+  "subtemas": [
+    {
+      "numero": "7.8",
+      "titulo": "Congruencia con incógnitas: ecuaciones en piezas idénticas de armaduras y talleres",
+      "explicacion": "Ahora la congruencia de triángulos se combina con álgebra: en piezas fabricadas en serie (armaduras, talleres, exhibidores), los lados o ángulos correspondientes de dos triángulos congruentes a veces se dan como expresiones algebraicas distintas que en realidad representan la misma medida. Como son congruentes, esas expresiones deben ser iguales entre sí, así que se igualan y se despeja la incógnita para encontrar su valor y, después, la medida real del lado o ángulo.",
+      "formula": "Si dos triángulos son congruentes, sus lados y ángulos correspondientes son iguales: se igualan las expresiones algebraicas y se despeja la incógnita.",
+      "ejemplos": [
+        "Dos triángulos de una armadura son congruentes por LLL. Un lado de uno mide (2x+3) cm y el lado correspondiente del otro mide (x+9) cm. Como son congruentes, esas medidas son iguales: 2x+3 = x+9 → x = 6. Ese lado mide 2(6)+3 = 15 cm.",
+        "Dos triángulos son congruentes por ALA. Un ángulo correspondiente mide (3x−10)° y el otro (2x+15)°. Igualando: 3x−10 = 2x+15 → x = 25. Ese ángulo mide 3(25)−10 = 65°."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Dos triángulos de una armadura son congruentes por LLL. Un lado de uno mide (2x+3) cm y el lado correspondiente del otro mide (x+9) cm. ¿Cuánto vale x?",
+          "opciones": [
+            "6",
+            "5",
+            "7",
+            "4"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "2x+3 = x+9 → x = 6."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En dos triángulos congruentes, un lado mide (2x+3) cm y su correspondiente (x+9) cm; si esas expresiones son iguales, x=6 y ese lado mide ___ cm.",
+          "respuestaCorrecta": "15",
+          "retroalimentacion": "2(6)+3 = 15 cm (se confirma con 6+9=15)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Dos triángulos son congruentes por ALA. Un ángulo correspondiente mide (3x−10)° en uno y (2x+15)° en el otro. ¿Cuánto vale x?",
+          "opciones": [
+            "25",
+            "20",
+            "30",
+            "15"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "3x−10 = 2x+15 → x = 25."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si dos triángulos congruentes por LAL tienen lados correspondientes de (4x−2) cm y (2x+8) cm, entonces x=5.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 4x−2 = 2x+8 → 2x=10 → x=5."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Dos piezas metálicas triangulares son congruentes por LLL. Un lado de la primera mide (5x−4) cm y el lado correspondiente de la segunda mide (3x+6) cm. El valor de x es ___.",
+          "respuestaCorrecta": "5",
+          "retroalimentacion": "5x−4 = 3x+6 → 2x=10 → x=5."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Dos piezas metálicas triangulares congruentes por LLL tienen lados correspondientes de (5x−4) cm y (3x+6) cm. ¿Cuánto mide ese lado (usa el valor de x que hace iguales ambas expresiones)?",
+          "opciones": [
+            "21 cm",
+            "20 cm",
+            "19 cm",
+            "25 cm"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Con x=5: 5(5)−4 = 21 cm (se confirma con 3(5)+6=21)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En dos triángulos congruentes por ALA, un ángulo correspondiente es (4x+5)° y el otro es (2x+35)°; el valor de x que los hace iguales es 15.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 4x+5 = 2x+35 → 2x=30 → x=15."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un taller corta dos triángulos de acrílico congruentes por LAL para un exhibidor. Un lado mide (6x−7) cm y su correspondiente (4x+9) cm. ¿Cuánto vale x?",
+          "opciones": [
+            "8",
+            "7",
+            "9",
+            "6"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "6x−7 = 4x+9 → 2x=16 → x=8."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un taller corta dos triángulos de acrílico congruentes; un lado mide (6x−7) cm y su correspondiente (4x+9) cm. Si esas expresiones son iguales, ese lado mide ___ cm.",
+          "respuestaCorrecta": "41",
+          "retroalimentacion": "Con x=8: 6(8)−7 = 41 cm (se confirma con 4(8)+9=41)."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada par de expresiones (lados o ángulos correspondientes de triángulos congruentes) con el valor de x que las hace iguales.",
+          "columnaA": [
+            "(2x+1) cm = (x+7) cm",
+            "(3x−4)° = (x+10)°",
+            "(2x+5) cm = (x+13) cm"
+          ],
+          "columnaB": [
+            "7",
+            "8",
+            "6"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "2x+1=x+7 → x=6. 3x−4=x+10 → x=7. 2x+5=x+13 → x=8."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 1 de 3 · Reto avanzado"
+    },
+    {
+      "numero": "7.9",
+      "titulo": "Polígonos regulares divididos en triángulos congruentes: domos, kioscos y vitrales",
+      "explicacion": "Esta lección integra dos ideas del PDA en un mismo problema: cuando un polígono regular se divide en triángulos iguales trazando segmentos desde su centro a cada vértice, esos triángulos son isósceles y congruentes entre sí (por LAL, ya que comparten dos radios iguales y el mismo ángulo central). El ángulo central de cada triángulo es igual al ángulo exterior del polígono (ambos valen 360° ÷ n), y sus ángulos de la base se calculan restando ese ángulo central de 180° y dividiendo entre 2.",
+      "formula": "Ángulo central = 360° ÷ n   ·   Ángulo de la base (triángulo isósceles) = (180° − ángulo central) ÷ 2",
+      "ejemplos": [
+        "Un tragaluz con forma de decágono regular (10 lados) se divide en 10 triángulos iguales trazando segmentos desde el centro a cada vértice. El ángulo central de cada triángulo mide 360°÷10=36°; como esos triángulos comparten dos radios iguales y el mismo ángulo central, son congruentes por LAL. Cada ángulo de la base mide (180°−36°)÷2 = 72°.",
+        "Un kiosco hexagonal regular se divide en 6 triángulos desde el centro. El ángulo central es 360°÷6=60°, y como los seis triángulos son isósceles con ese mismo ángulo, sus ángulos de la base miden (180°−60°)÷2=60° cada uno: son en realidad triángulos equiláteros."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un tragaluz circular está enmarcado por un decágono regular (10 lados) dividido en 10 triángulos iguales desde el centro. ¿Cuánto mide el ángulo central de cada triángulo?",
+          "opciones": [
+            "36°",
+            "45°",
+            "40°",
+            "30°"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Ángulo central = 360°÷10 = 36°."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si los dos lados que llegan al centro de cada triángulo del tragaluz (radios) son iguales entre sí en todos los triángulos, y el ángulo entre ellos también es igual (36°), esos triángulos son congruentes por el criterio ___.",
+          "respuestaCorrecta": "LAL",
+          "retroalimentacion": "Dos lados (los radios) y el ángulo comprendido entre ellos son iguales: criterio LAL."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En el mismo tragaluz decagonal, cada triángulo central es isósceles con ángulo central de 36°. ¿Cuánto mide cada ángulo de la base?",
+          "opciones": [
+            "72°",
+            "75°",
+            "70°",
+            "60°"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(180°−36°)÷2 = 72°."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un domo hexagonal regular dividido en 6 triángulos desde el centro forma triángulos equiláteros, porque el ángulo central de 60° y los dos radios iguales generan ángulos base de 60° también.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: (180°−60°)÷2=60°, así los tres ángulos del triángulo (60°,60°,60°) son iguales: es equilátero."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un kiosco con forma de octágono regular se divide en 8 triángulos iguales desde el centro. El ángulo central de cada triángulo mide ___°.",
+          "respuestaCorrecta": "45",
+          "retroalimentacion": "360°÷8 = 45°."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En el kiosco octagonal anterior, ¿cuánto mide cada ángulo de la base de esos triángulos isósceles?",
+          "opciones": [
+            "67.5°",
+            "70°",
+            "65°",
+            "72°"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(180°−45°)÷2 = 67.5°."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una plaza con forma de eneágono regular (9 lados) tiene una banca en cada vértice; el camino gira el ángulo exterior en cada esquina. Además, el terreno se dividió en 9 triángulos congruentes desde el centro por LAL. ¿Cuánto mide el ángulo exterior del eneágono y el ángulo central de cada triángulo?",
+          "opciones": [
+            "40° y 40°",
+            "45° y 40°",
+            "40° y 45°",
+            "36° y 40°"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Ambos se calculan igual: 360°÷9 = 40°. El ángulo exterior y el ángulo central de los triángulos formados desde el centro coinciden."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En cualquier polígono regular dividido en triángulos congruentes desde su centro, el ángulo central de cada triángulo es siempre igual al ángulo exterior del polígono, porque ambos se calculan como 360° ÷ n.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: las dos fórmulas son 360°÷n, así que dan el mismo resultado numérico."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un vitral con forma de dodecágono regular (12 lados) se divide en 12 triángulos congruentes desde el centro. Cada ángulo de la base de esos triángulos isósceles mide ___°.",
+          "respuestaCorrecta": "75",
+          "retroalimentacion": "Ángulo central = 360°÷12=30°; base = (180°−30°)÷2 = 75°."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada polígono regular (dividido en triángulos congruentes desde el centro) con el ángulo de la base de esos triángulos.",
+          "columnaA": [
+            "Hexágono regular (6 triángulos)",
+            "Decágono regular (10 triángulos)",
+            "Dodecágono regular (12 triángulos)"
+          ],
+          "columnaB": [
+            "72°",
+            "75°",
+            "60°"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "Hexágono: central 60°, base (180−60)÷2=60°. Decágono: central 36°, base (180−36)÷2=72°. Dodecágono: central 30°, base (180−30)÷2=75°."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 2 de 3 · Integración"
+    },
+    {
+      "numero": "7.10",
+      "titulo": "Proyecto integrador: plaza, puente y fuente con ángulos, congruencia y bisectrices",
+      "explicacion": "Esta lección de dominio combina, en problemas de varios pasos, todo lo aprendido en el PDA: suma de ángulos interiores y exteriores de polígonos regulares e irregulares, rectas notables (como la bisectriz) y congruencia de triángulos resuelta con ecuaciones algebraicas. Los números ya no son tan exactos ni redondos, y cada problema puede requerir dos o más cálculos encadenados antes de llegar a la respuesta final, tal como ocurre en un proyecto real de diseño o construcción.",
+      "ejemplos": [
+        "Una plaza heptagonal irregular tiene seis ángulos conocidos: 118°, 124°, 132°, 110°, 128° y 135°, que suman 747°. Como la suma total de un heptágono es (7−2)×180°=900°, el séptimo ángulo mide 900°−747°=153°; y su ángulo exterior en ese vértice es 180°−153°=27°.",
+        "Dos losas triangulares de un mismo mosaico son congruentes por ALA: un ángulo mide (2x+7.5)° y el otro (x+22.5)°. Igualando: 2x+7.5 = x+22.5 → x = 15. Ese ángulo mide 2(15)+7.5 = 37.5°."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En un puente colgante, dos triángulos de soporte son congruentes por LAL. Un lado de uno mide (3x−5) m y su correspondiente (x+11) m. ¿Cuánto vale x?",
+          "opciones": [
+            "8",
+            "7",
+            "9",
+            "6"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "3x−5 = x+11 → 2x=16 → x=8."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Con x=8, ese lado del triángulo del puente (3x−5) m mide ___ m.",
+          "respuestaCorrecta": "19",
+          "retroalimentacion": "3(8)−5 = 19 m (se confirma con 8+11=19)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una plaza tiene forma de heptágono irregular (7 lados). Seis de sus ángulos son: 118°, 124°, 132°, 110°, 128° y 135°. ¿Cuánto mide el séptimo ángulo?",
+          "opciones": [
+            "153°",
+            "150°",
+            "148°",
+            "160°"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Suma del heptágono = 900°. Conocidos suman 747°. Faltante = 900−747 = 153°."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si el ángulo interior de la plaza heptagonal irregular en uno de sus vértices es 153°, su ángulo exterior en ese mismo vértice mide 27°.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 180°−153° = 27°."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En el vértice de 118° de la plaza, se traza la bisectriz del ángulo para dividir el área en dos secciones de jardín iguales. Cada sección tiene un ángulo de ___°.",
+          "respuestaCorrecta": "59",
+          "retroalimentacion": "118° ÷ 2 = 59°."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Dos losas triangulares para un mismo mosaico octagonal son congruentes por ALA. Un ángulo correspondiente mide (2x+7.5)° y el otro (x+22.5)°. ¿Cuánto vale x?",
+          "opciones": [
+            "15",
+            "14",
+            "16",
+            "12"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "2x+7.5 = x+22.5 → x = 15."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Con x=15, el ángulo (2x+7.5)° de las losas del mosaico mide ___°.",
+          "respuestaCorrecta": "37.5",
+          "retroalimentacion": "2(15)+7.5 = 37.5° (se confirma con 15+22.5=37.5)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una fuente circular está bordeada por un polígono regular cuyo ángulo exterior mide 7.5°. ¿Cuántos lados tiene el polígono?",
+          "opciones": [
+            "48",
+            "45",
+            "40",
+            "36"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "n = 360° ÷ 7.5° = 48 lados."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si el polígono de la fuente tiene 48 lados, cada ángulo interior mide 172.5°.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 180°−7.5° = 172.5°."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada tarea del proyecto integrador con la herramienta matemática que se usa para resolverla.",
+          "columnaA": [
+            "Encontrar el ángulo interior de un polígono regular conocido el número de lados",
+            "Comprobar que dos piezas triangulares idénticas son congruentes solo con sus tres lados",
+            "Dividir a la mitad un ángulo con una bisectriz",
+            "Encontrar cuántos lados tiene un polígono regular a partir de su ángulo exterior"
+          ],
+          "columnaB": [
+            "Criterio LLL",
+            "360° ÷ ángulo exterior",
+            "[(n−2)×180°] ÷ n",
+            "ángulo ÷ 2"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            3,
+            1
+          ],
+          "retroalimentacion": "Ángulo interior regular: [(n−2)×180°]÷n. Congruencia con tres lados: LLL. Bisectriz: ángulo÷2. Lados a partir del exterior: 360°÷ángulo exterior."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 3 de 3 · Dominio"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Un artesano corta dos triángulos de metal con dos lados de 15 cm y 20 cm, y el ángulo de 40° entre ellos, iguales en ambos. ¿Qué criterio confirma que son congruentes?",
+      "opciones": [
+        "LLL",
+        "LAL",
+        "ALA",
+        "No se puede determinar"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "Dos lados y el ángulo comprendido entre ellos: criterio LAL."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "La suma de los ángulos internos de un octágono (8 lados) es ___°.",
+      "respuestaCorrecta": "1080",
+      "retroalimentacion": "(8−2)×180° = 1080°."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Dos triángulos usados para decorar un mismo diseño comparten dos ángulos y el lado entre ellos. ¿Qué criterio confirma que son congruentes?",
+      "opciones": [
+        "LLL",
+        "LAL",
+        "ALA",
+        "No se puede determinar"
+      ],
+      "respuestaCorrecta": 2,
+      "retroalimentacion": "Dos ángulos y el lado comprendido entre ellos: criterio ALA."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "En un pentágono regular decorativo, cada ángulo interior mide 108°.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: 540°÷5 = 108°."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "La bisectriz de un ángulo de 110° en la estructura de un puente lo divide en dos partes de ___° cada una.",
+      "respuestaCorrecta": "55",
+      "retroalimentacion": "110 ÷ 2 = 55°."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Una mediatriz corta la base de una tienda de campaña triangular de 5.4 m exactamente en su punto medio. ¿Cuánto mide cada mitad?",
+      "opciones": [
+        "2.7 m",
+        "2.5 m",
+        "3.0 m",
+        "2.2 m"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "5.4 ÷ 2 = 2.7 m."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada polígono regular con la medida de su ángulo interior.",
+      "columnaA": [
+        "Hexágono (6 lados)",
+        "Eneágono (9 lados)",
+        "Dodecágono (12 lados)"
+      ],
+      "columnaB": [
+        "150°",
+        "120°",
+        "140°"
+      ],
+      "parejasCorrectas": [
+        1,
+        2,
+        0
+      ],
+      "retroalimentacion": "Hexágono: 720°÷6=120°. Eneágono: 1260°÷9=140°. Dodecágono: 1800°÷12=150°."
+    }
+  ]
+}

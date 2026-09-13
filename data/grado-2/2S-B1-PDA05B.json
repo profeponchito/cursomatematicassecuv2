@@ -1,0 +1,456 @@
+{
+  "id": "2S-B1-PDA05B",
+  "grado": "2°",
+  "trimestre": "2",
+  "numero": 14,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Introducción al álgebra 5.2",
+  "contenido": "Introducción al álgebra.",
+  "pda": "Representa algebraicamente áreas que generan una expresión cuadrática. Identifica y usa las propiedades de los exponentes.",
+  "problematizacion": {
+    "contexto": "Un terreno rectangular para una cancha de usos múltiples mide actualmente x metros de largo por y metros de ancho. El ayuntamiento planea alargarlo 6 metros y ensancharlo 3 metros para que quepan gradas nuevas alrededor.",
+    "pregunta": "¿Qué expresión algebraica representa el área total de la cancha ya ampliada, considerando que el largo y el ancho crecieron cantidades distintas?"
+  },
+  "subtemas": [
+    {
+      "numero": "5.5",
+      "titulo": "Terrenos rectangulares con ampliaciones distintas por lado",
+      "explicacion": "Hasta ahora ampliabas un cuadrado la misma cantidad en los dos lados. Ahora el terreno crece cantidades distintas en cada lado, y se forma un rectángulo (x+a)(x+b). Al multiplicar término a término (propiedad distributiva) se obtienen tres partes: x², la suma de las ampliaciones multiplicada por x, y el producto de las dos ampliaciones como término independiente.",
+      "formula": "(x+a)(x+b) = x² + (a+b)x + ab",
+      "ejemplos": [
+        "Un terreno cuadrado de lado x se amplía 3 m de frente y 5 m de fondo, formando un rectángulo (x+3)(x+5). Área = x² + (3+5)x + (3)(5) = x² + 8x + 15 metros cuadrados.",
+        "Un patio de lado x crece 2 m por un lado y 7 m por el otro: (x+2)(x+7) = x² + 9x + 14 metros cuadrados."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un terreno cuadrado de lado x se amplía 4 m de frente y 6 m de fondo, formando un rectángulo (x+4)(x+6). ¿Cuál es su área?",
+          "opciones": [
+            "x²+10x+24",
+            "x²+24",
+            "x²+10x+10",
+            "x²+24x+10"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Suma de ampliaciones: 4+6=10; producto: 4×6=24, entonces (x+4)(x+6)=x²+10x+24."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "(x+3)(x+9) = x² + 12x + 27.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 3+9=12 y 3×9=27, entonces (x+3)(x+9)=x²+12x+27."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un lote de lado x se amplía 2 m de un lado y 8 m del otro: (x+2)(x+8) = x² + 10x + ___.",
+          "respuestaCorrecta": "16",
+          "retroalimentacion": "El término independiente es el producto de las ampliaciones: 2×8=16."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una cancha rectangular de entrenamiento mide (x+5) metros de largo y (x+1) metros de ancho. ¿Cuál es su área?",
+          "opciones": [
+            "x²+6x+5",
+            "x²+5x+6",
+            "x²+5",
+            "x²+6x+6"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(x+5)(x+1) = x² + (5+1)x + (5×1) = x²+6x+5."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "(x+6)(x+2) = x² + 8x + 14.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: 6+2=8 pero 6×2=12, no 14; (x+6)(x+2)=x²+8x+12."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada terreno rectangular con su área simplificada.",
+          "columnaA": [
+            "(x+3)(x+5)",
+            "(x+2)(x+7)",
+            "(x+4)(x+9)"
+          ],
+          "columnaB": [
+            "x²+13x+36",
+            "x²+8x+15",
+            "x²+9x+14"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "(x+3)(x+5)=x²+8x+15; (x+2)(x+7)=x²+9x+14; (x+4)(x+9)=x²+13x+36."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El área de un terreno (x+7)(x+3) es x² + ___x + 21.",
+          "respuestaCorrecta": "10",
+          "retroalimentacion": "El coeficiente de x es la suma de las ampliaciones: 7+3=10."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el desarrollo de (x+9)(x+5)?",
+          "opciones": [
+            "x²+14x+45",
+            "x²+45x+14",
+            "x²+14x+14",
+            "x²+45"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "9+5=14 y 9×5=45, entonces (x+9)(x+5)=x²+14x+45."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En (x+a)(x+b), el término independiente del resultado siempre es a+b.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: el término independiente es el producto a×b; la suma a+b es el coeficiente del término con x."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un huerto cuadrado de lado x crece 8 m de un lado y 4 m del otro. ¿Cuál es el área del huerto ampliado?",
+          "opciones": [
+            "x²+12x+32",
+            "x²+32x+12",
+            "x²+12x+12",
+            "x²+32"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "8+4=12 y 8×4=32, entonces (x+8)(x+4)=x²+12x+32."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 1 de 3 · Aplicación"
+    },
+    {
+      "numero": "5.6",
+      "titulo": "Cociente de potencias y escalamiento de producción",
+      "explicacion": "Además de multiplicar y elevar potencias, puedes dividir potencias de la misma base: se conserva la base y se restan los exponentes (el del numerador menos el del denominador). También, al elevar un producto a un exponente, cada factor se eleva por separado: (xy)ⁿ = xⁿyⁿ. Estas reglas sirven para comparar ritmos de producción y para escalar áreas cuando cada dimensión se multiplica por un factor.",
+      "formula": "xᵐ ÷ xⁿ = xᵐ⁻ⁿ (con m>n); (xy)ⁿ = xⁿyⁿ",
+      "ejemplos": [
+        "Una fábrica produce x⁷ piezas con la línea A y x³ piezas con la línea B en el mismo periodo. La razón entre ambas producciones es x⁷ ÷ x³ = x⁴.",
+        "Si el lado de un terreno cuadrado de lado x se multiplica por un factor 3, su nueva área es (3x)² = 3²x² = 9x²."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una fábrica produce x⁹ piezas al año con una máquina y x⁴ piezas con otra más lenta. ¿Cuántas veces más produce la primera? (simplifica x⁹ ÷ x⁴)",
+          "opciones": [
+            "x⁵",
+            "x^13",
+            "x^2.25",
+            "5x"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Al dividir potencias de la misma base se restan los exponentes: 9-4=5, entonces x⁹÷x⁴=x⁵."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Al simplificar x^12 ÷ x^7 se obtiene x elevado a la ___.",
+          "respuestaCorrecta": "5",
+          "retroalimentacion": "Se restan los exponentes: 12-7=5."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "x^10 ÷ x^6 es igual a x^4.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: se restan los exponentes: 10-6=4."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "x^8 ÷ x^5 es igual a x^40.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: al dividir potencias de la misma base se restan los exponentes (8-5=3); x^8÷x^5=x^3, no se multiplican los exponentes."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Si el lado de un terreno cuadrado de lado x se triplica, la nueva área es (3x)². ¿Cuál es su desarrollo?",
+          "opciones": [
+            "9x²",
+            "3x²",
+            "6x²",
+            "9x"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(3x)² = 3²×x² = 9x²: al elevar un producto a un exponente, cada factor se eleva por separado."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si cada lado de una fotografía cuadrada de lado x se amplía al doble, su nueva área es (2x)² = ___x².",
+          "respuestaCorrecta": "4",
+          "retroalimentacion": "(2x)² = 2²x² = 4x²."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una receta rinde x⁷ porciones con una versión grande y x³ porciones con una versión reducida. ¿Qué expresión compara ambas producciones (x⁷ ÷ x³)?",
+          "opciones": [
+            "x⁴",
+            "x^10",
+            "x^2.33",
+            "4x"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Se restan los exponentes: 7-3=4."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "(5x)² es igual a 10x².",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: (5x)² = 5²×x² = 25x², no 10x²; cada factor se eleva al cuadrado por separado."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada expresión con su resultado simplificado.",
+          "columnaA": [
+            "x^9÷x^4",
+            "(2x)^4",
+            "x^12÷x^6"
+          ],
+          "columnaB": [
+            "x^6",
+            "x^5",
+            "16x^4"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "x^9÷x^4=x^5; (2x)^4=2^4×x^4=16x^4; x^12÷x^6=x^6."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Al escalar un plano arquitectónico, cada dimensión de un cuadrado de lado x se multiplica por 4. ¿Cuál es el área del cuadrado escalado, (4x)²?",
+          "opciones": [
+            "16x²",
+            "8x²",
+            "4x²",
+            "16x"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(4x)² = 4²×x² = 16x²."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 2 de 3 · Aplicación avanzada"
+    },
+    {
+      "numero": "5.7",
+      "titulo": "Diferencia de cuadrados en terrenos irregulares",
+      "explicacion": "Cuando un cuadrado de lado x se transforma alargando un lado 'a' unidades y acortando el lado opuesto esas mismas 'a' unidades, se forma un rectángulo (x+a)(x-a). Al multiplicar, los términos cruzados con x se cancelan entre sí y solo queda la diferencia de los cuadrados: x² - a². Es un caso especial del producto de binomios distintos que ya conoces, pero sin término lineal en x.",
+      "formula": "(x+a)(x-a) = x² - a²",
+      "ejemplos": [
+        "Un huerto cuadrado de lado x se transforma: un lado se alarga 6 m y el opuesto se acorta 6 m, formando (x+6)(x-6) = x² - 36 metros cuadrados.",
+        "(x+9)(x-9) = x² - 81."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un terreno cuadrado de lado x se transforma alargando un lado 7 m y acortando el opuesto 7 m: (x+7)(x-7). ¿Cuál es su área?",
+          "opciones": [
+            "x²-49",
+            "x²+49",
+            "x²-14x+49",
+            "x²-14"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(x+7)(x-7)=x²-7²=x²-49; los términos con x se cancelan."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "(x+9)(x-9) = x² - 81.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: x²-9²=x²-81."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "(x+11)(x-11) = x² - ___.",
+          "respuestaCorrecta": "121",
+          "retroalimentacion": "11²=121, entonces (x+11)(x-11)=x²-121."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "(x+5)(x-5) = x² - 10.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: (x+5)(x-5)=x²-5²=x²-25, no x²-10."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una pista rectangular se forma alargando 8 m un lado de un terreno cuadrado de lado x y acortando el lado opuesto 8 m. ¿Cuál es el área de la pista?",
+          "opciones": [
+            "x²-64",
+            "x²+64",
+            "x²-16x+64",
+            "x²-16"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(x+8)(x-8)=x²-8²=x²-64."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada producto con su resultado (diferencia de cuadrados).",
+          "columnaA": [
+            "(x+3)(x-3)",
+            "(x+10)(x-10)",
+            "(x+4)(x-4)"
+          ],
+          "columnaB": [
+            "x²-16",
+            "x²-9",
+            "x²-100"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "(x+3)(x-3)=x²-9; (x+10)(x-10)=x²-100; (x+4)(x-4)=x²-16."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un campo cuadrado de lado x se alarga 2 m de un lado y se acorta 2 m del opuesto: (x+2)(x-2) = x² - ___.",
+          "respuestaCorrecta": "4",
+          "retroalimentacion": "2²=4, entonces (x+2)(x-2)=x²-4."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de las siguientes expresiones es EQUIVALENTE a x² - 169?",
+          "opciones": [
+            "(x+13)(x-13)",
+            "(x+13)²",
+            "(x-13)²",
+            "(x+13)(x+13)"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "169=13², y x²-169 es una diferencia de cuadrados: (x+13)(x-13)=x²-169; las otras opciones sí tienen término lineal en x."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "(x+a)(x-a) tiene un término lineal en x, igual que (x+a)².",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: en (x+a)(x-a) los términos +ax y -ax se cancelan, por eso no aparece término lineal; en (x+a)² sí aparece 2ax."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un lote cuadrado de lado x se transforma alargando un lado 12 m y acortando el opuesto 12 m. ¿Cuál es el área resultante?",
+          "opciones": [
+            "x²-144",
+            "x²+144",
+            "x²-24x+144",
+            "x²-24"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(x+12)(x-12)=x²-12²=x²-144."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 3 de 3 · Reto"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es el desarrollo de (x+13)²?",
+      "opciones": [
+        "x²+26x+169",
+        "x²+169",
+        "x²+13x+169",
+        "x²+26x+13"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "(x+13)² = x² + 2(13)x + 13² = x²+26x+169."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Simplifica: x^6 × x^8",
+      "opciones": [
+        "x^14",
+        "x^48",
+        "x^2",
+        "2x^14"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "Al multiplicar potencias de la misma base se suman los exponentes: 6+8=14."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "(x^4)^6 es igual a x^24.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Se multiplican los exponentes: 4×6=24."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "El desarrollo de (x+14)² es x² + 28x + ___.",
+      "respuestaCorrecta": "196",
+      "retroalimentacion": "El tercer término es el cuadrado del segundo: 14² = 196."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "(x+15)² = x² + 30x + 225.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: 2(15)=30 y 15²=225, entonces (x+15)² = x²+30x+225."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada expresión con su resultado simplificado.",
+      "columnaA": [
+        "x^5×x^6",
+        "(x^2)^7",
+        "(x+10)²"
+      ],
+      "columnaB": [
+        "x²+20x+100",
+        "x^14",
+        "x^11"
+      ],
+      "parejasCorrectas": [
+        2,
+        1,
+        0
+      ],
+      "retroalimentacion": "x^5×x^6=x^11; (x^2)^7=x^14; (x+10)²=x²+20x+100."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Simplifica: x^8 × x^5",
+      "opciones": [
+        "x^13",
+        "x^40",
+        "x^3",
+        "2x^13"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "Al multiplicar potencias de la misma base se suman los exponentes: 8+5=13."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "(x+14)² = x² + 28x + 196.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: 2(14)=28 y 14²=196, entonces (x+14)² = x²+28x+196."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Al simplificar x^2 × x^9 se obtiene x elevado a la ___.",
+      "respuestaCorrecta": "11",
+      "retroalimentacion": "Se suman los exponentes: 2+9=11."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Simplifica: (x^7)^3",
+      "opciones": [
+        "x^21",
+        "x^10",
+        "x^343",
+        "x^4"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "Se multiplican los exponentes: 7×3=21."
+    }
+  ]
+}

@@ -1,0 +1,580 @@
+{
+  "id": "2S-B1-PDA03A",
+  "grado": "2°",
+  "trimestre": "1",
+  "numero": 7,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Resolución de problemas de proporcionalidad directa 3.1",
+  "contenido": "Resolución de problemas de proporcionalidad directa.",
+  "pda": "Resuelve problemas de proporcionalidad directa mediante el valor unitario, la constante de proporcionalidad y otros procedimientos.",
+  "problematizacion": {
+    "contexto": "En el puesto de tacos de su tío, Emilio nota que la receta de guisado rinde para 8 tacos con 400 gramos de carne. Cuando llegan más clientes de lo normal, su tío le pide calcular cuánta carne necesita para preparar 20 tacos, manteniendo siempre la misma proporción entre carne y tacos.",
+    "pregunta": "¿Cuántos gramos de carne necesita Emilio para preparar 20 tacos si la cantidad de carne es directamente proporcional al número de tacos?"
+  },
+  "subtemas": [
+    {
+      "numero": "3.1",
+      "titulo": "¿Qué es la proporcionalidad directa?",
+      "explicacion": "Dos cantidades son directamente proporcionales cuando, al multiplicar o dividir una de ellas por un número, la otra queda multiplicada o dividida por ese mismo número. Es decir, su razón (cociente) se mantiene constante. En la vida diaria aparece en el precio según la cantidad, el tiempo de recorrido a velocidad constante según la distancia, o los ingredientes de una receta según el número de porciones.",
+      "formula": "y = k · x",
+      "ejemplos": [
+        "Si 2 boletos de camión cuestan $30, entonces 4 boletos (el doble de boletos) cuestan $60 (el doble de precio): la razón se mantiene.",
+        "En la cooperativa, 4 paquetes de galletas cuestan $60. Si compras el doble de paquetes (8), pagarás el doble: $120."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si 6 boletos de autobús cuestan $90, entonces 10 boletos cuestan $150.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: k = 90÷6 = 15 por boleto; 10×15 = $150."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si 5 kg de manzanas cuestan $285, entonces 4 kg de manzanas cuestan $228.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "k = 285÷5 = 57. 4×57 = $228."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si 4 plumas cuestan $220, entonces 3 plumas cuestan $165.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "k = 220÷4 = 55. 3×55 = $165."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si 5 kg de manzanas cuestan $150, entonces 6 kg de manzanas cuestan $185.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "k = 150÷5 = 30. 6×30 = $180."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si 10 cuadernos cuestan $540, entonces 3 cuadernos cuestan $162.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "k = 540÷10 = 54. 3×54 = $162."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si 8 lápices cuestan $96, entonces 12 lápices cuestan $144.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "k = 96÷8 = 12 por lápiz. 12×12 = $144."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si 7 kg de naranjas cuestan $161, entonces 12 kg cuestan $270.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "k = 161÷7 = 23. 12×23 = $276, no $270."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si 9 boletos de camión cuestan $117, entonces 14 boletos cuestan $___.",
+          "respuestaCorrecta": "182",
+          "retroalimentacion": "k = 117÷9 = 13 por boleto. 14×13 = $182."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si 6 kg de plátano cuestan $54, entonces 10 kg cuestan $___.",
+          "respuestaCorrecta": "90",
+          "retroalimentacion": "k = 54÷6 = 9 por kg. 10×9 = $90."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Si 5 cuadernos cuestan $175, ¿cuánto cuestan 8 cuadernos?",
+          "opciones": [
+            "$245",
+            "$280",
+            "$315",
+            "$260"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "k = 175÷5 = 35 por cuaderno. 8×35 = $280."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 1 de 4 · Introductorio"
+    },
+    {
+      "numero": "3.2",
+      "titulo": "La constante de proporcionalidad (k)",
+      "explicacion": "La constante de proporcionalidad k es el valor que relaciona ambas cantidades: k = y ÷ x. Una vez que se conoce k, se puede calcular el valor de y para cualquier x multiplicando por k. Este método también se llama 'valor unitario', porque k representa cuánto corresponde a una sola unidad (por ejemplo, el precio de un solo paquete).",
+      "formula": "k = y₁ ÷ x₁        y = k · x",
+      "ejemplos": [
+        "Si 4 paquetes de galletas cuestan $60, entonces k = 60 ÷ 4 = 15 (precio de un paquete). Para 10 paquetes: y = 15 × 10 = $150.",
+        "Si 3 kg de manzanas cuestan $54, entonces k = 54 ÷ 3 = 18 (precio por kg). Para 7 kg: y = 18 × 7 = $126."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si 5 cuadernos cuestan $75, entonces 8 cuadernos cuestan $___.",
+          "respuestaCorrecta": "120",
+          "retroalimentacion": "k = 75 ÷ 5 = 15 por cuaderno. Entonces 8 × 15 = $120."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si 9 kg de manzanas cuestan $63, entonces 11 kg de manzanas cuestan $___.",
+          "respuestaCorrecta": "77",
+          "retroalimentacion": "k = 63÷9 = 7 por kg. 11×7 = $77."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si 11 litros de gasolina cuestan $66, entonces 15 litros de gasolina cuestan $___.",
+          "respuestaCorrecta": "90",
+          "retroalimentacion": "k = 66÷11 = 6 por litro. 15×6 = $90."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si 5 boletos de cine cuestan $220, entonces 13 boletos de cine cuestan $___.",
+          "respuestaCorrecta": "572",
+          "retroalimentacion": "k = 220÷5 = 44 por boleto. 13×44 = $572."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si 5 kg de manzanas cuestan $270, entonces 7 kg de manzanas cuestan $___.",
+          "respuestaCorrecta": "378",
+          "retroalimentacion": "k = 270÷5 = 54 por kg. 7×54 = $378."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si 6 kg de tomate cuestan $114, entonces 10 kg cuestan $___.",
+          "respuestaCorrecta": "190",
+          "retroalimentacion": "k = 114÷6 = 19 por kg. 10×19 = $190."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Si 8 litros de leche cuestan $152, ¿cuál es el valor de k (precio por litro)?",
+          "opciones": [
+            "$17",
+            "$19",
+            "$21",
+            "$23"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "k = 152÷8 = 19 por litro."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Si k = $12 por kg y compras 9 kg, ¿cuánto pagarás?",
+          "opciones": [
+            "$96",
+            "$108",
+            "$120",
+            "$132"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "y = k × x = 12 × 9 = $108."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si 7 playeras cuestan $448, entonces k = $64 por playera.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "k = 448÷7 = 64 por playera."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si 12 cuadernos cuestan $300, entonces k = $20 por cuaderno.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "k = 300÷12 = 25 por cuaderno, no $20."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 2 de 4 · Intermedio"
+    },
+    {
+      "numero": "3.3",
+      "titulo": "Resolver problemas con proporcionalidad directa",
+      "explicacion": "Para resolver un problema de proporcionalidad directa: 1) identifica las dos cantidades relacionadas, 2) calcula la constante k dividiendo un par de valores conocidos, y 3) usa y = k·x para encontrar el valor que falta. También puedes usar una regla de tres: si x₁ corresponde a y₁, entonces x₂ corresponde a y₂ = (x₂ × y₁) ÷ x₁.",
+      "ejemplos": [
+        "Una receta usa 2 tazas de harina para 12 panqués (k = 2/12 = 1/6 de taza por panqué). Para 30 panqués: y = 1/6 × 30 = 5 tazas.",
+        "Un grifo llena 45 litros en 9 minutos (k = 45/9 = 5 litros por minuto). En 15 minutos llenará: y = 5 × 15 = 75 litros."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Si 3 kg de manzanas cuestan $54, ¿cuánto cuestan 7 kg?",
+          "opciones": [
+            "$108",
+            "$126",
+            "$150",
+            "$162"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "La constante k = 54 ÷ 3 = 18 por kg. Entonces 7 × 18 = $126."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un grifo llena 60 litros en 12 minutos. ¿Cuántos litros llena en 20 minutos, con el mismo rendimiento?",
+          "opciones": [
+            "80 L",
+            "90 L",
+            "100 L",
+            "110 L"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "k = 60÷12 = 5 litros por minuto. 20×5 = 100 litros."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Si 4 plumas cuestan $44, ¿cuánto cuestan 3 plumas?",
+          "opciones": [
+            "$43",
+            "$11",
+            "$33",
+            "$23"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "k = 44÷4 = 11. 3×11 = $33."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Si 9 horas de trabajo cuestan $261, ¿cuánto cuestan 5 horas de trabajo?",
+          "opciones": [
+            "$145",
+            "$203",
+            "$155",
+            "$87"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "k = 261÷9 = 29. 5×29 = $145."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Si 6 horas de trabajo cuestan $204, ¿cuánto cuestan 11 horas de trabajo?",
+          "opciones": [
+            "$442",
+            "$340",
+            "$374",
+            "$306"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "k = 204÷6 = 34. 11×34 = $374."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un tinaco se llena con 36 litros en 6 minutos. ¿Cuántos litros se llenan en 10 minutos, con el mismo rendimiento?",
+          "opciones": [
+            "50 L",
+            "55 L",
+            "60 L",
+            "65 L"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "k = 36÷6 = 6 litros por minuto. 10×6 = 60 litros."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si 8 cuadernos cuestan $184, entonces 5 cuadernos cuestan $___.",
+          "respuestaCorrecta": "115",
+          "retroalimentacion": "k = 184÷8 = 23 por cuaderno. 5×23 = $115."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si 10 horas de trabajo pagan $350, entonces 6 horas pagan $___.",
+          "respuestaCorrecta": "210",
+          "retroalimentacion": "k = 350÷10 = 35 por hora. 6×35 = $210."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si 7 kg de café cuestan $567, entonces 4 kg cuestan $324.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "k = 567÷7 = 81 por kg. 4×81 = $324."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación con el valor que falta, manteniendo la misma razón.",
+          "columnaA": [
+            "4 kg de arroz cuestan $92; ¿cuánto cuestan 7 kg?",
+            "3 horas de trabajo pagan $141; ¿cuánto pagan 8 horas?",
+            "6 litros de leche cuestan $114; ¿cuánto cuestan 9 litros?"
+          ],
+          "columnaB": [
+            "$376",
+            "$171",
+            "$161"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "4 kg de arroz cuestan $92 → k=$23 por kg; 7×23=$161. 3 horas pagan $141 → k=$47 por hora; 8×47=$376. 6 litros cuestan $114 → k=$19 por litro; 9×19=$171."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 3 de 4 · Avanzado"
+    },
+    {
+      "numero": "3.4",
+      "titulo": "Síntesis y aplicación",
+      "explicacion": "Recuerda: dos cantidades son directamente proporcionales cuando su razón se mantiene constante (la constante de proporcionalidad, k = y ÷ x). Para resolver un problema, calcula k con un par de datos conocidos y luego multiplica por el valor que buscas: y = k × x.",
+      "ejemplos": [
+        "Si 6 boletos de autobús cuestan $90, entonces 10 boletos cuestan $150. Correcto: k = 90÷6 = 15 por boleto; 10×15 = $150."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Si 12 kg de manzanas cuestan $540, ¿cuánto cuestan 15 kg de manzanas?",
+          "opciones": [
+            "$765",
+            "$685",
+            "$720",
+            "$675"
+          ],
+          "respuestaCorrecta": 3,
+          "retroalimentacion": "k = 540÷12 = 45. 15×45 = $675."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación con su constante de proporcionalidad (k).",
+          "columnaA": [
+            "5 lápices cuestan $25",
+            "8 litros de gasolina cuestan $184",
+            "3 horas de trabajo pagan $270"
+          ],
+          "columnaB": [
+            "$23 por litro",
+            "$90 por hora",
+            "$5 por lápiz"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "k = 25÷5 = $5 por lápiz; k = 184÷8 = $23 por litro; k = 270÷3 = $90 por hora."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación con su constante de proporcionalidad (k).",
+          "columnaA": [
+            "12 litros de gasolina cuestan $372",
+            "2 litros de leche cuestan $92",
+            "2 horas de trabajo cuestan $112"
+          ],
+          "columnaB": [
+            "$56 por hora",
+            "$46 por litro",
+            "$31 por litro"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "12 litros de gasolina cuestan $372 → $31 por litro; 2 litros de leche cuestan $92 → $46 por litro; 2 horas de trabajo cuestan $112 → $56 por hora."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación con su constante de proporcionalidad (k).",
+          "columnaA": [
+            "2 boletos de cine cuestan $100",
+            "2 litros de gasolina cuestan $84",
+            "8 plumas cuestan $464"
+          ],
+          "columnaB": [
+            "$58 por pluma",
+            "$42 por litro",
+            "$50 por boleto"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "2 boletos de cine cuestan $100 → $50 por boleto; 2 litros de gasolina cuestan $84 → $42 por litro; 8 plumas cuestan $464 → $58 por pluma."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación con su constante de proporcionalidad (k).",
+          "columnaA": [
+            "4 boletos de cine cuestan $24",
+            "2 plumas cuestan $72",
+            "5 litros de leche cuestan $280"
+          ],
+          "columnaB": [
+            "$56 por litro",
+            "$6 por boleto",
+            "$36 por pluma"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "4 boletos de cine cuestan $24 → $6 por boleto; 2 plumas cuestan $72 → $36 por pluma; 5 litros de leche cuestan $280 → $56 por litro."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Si 9 kg de azúcar cuestan $261, ¿cuánto cuestan 14 kg?",
+          "opciones": [
+            "$377",
+            "$406",
+            "$435",
+            "$464"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "k = 261÷9 = 29 por kg. 14×29 = $406."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si 7 boletos de autobús cuestan $98, entonces 12 boletos cuestan $___.",
+          "respuestaCorrecta": "168",
+          "retroalimentacion": "k = 98÷7 = 14 por boleto. 12×14 = $168."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si 6 metros de cable cuestan $246, entonces 9 metros cuestan $370.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "k = 246÷6 = 41 por metro. 9×41 = $369, no $370."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Si la constante de proporcionalidad es $27 por hora de trabajo, ¿cuánto se paga por 8 horas?",
+          "opciones": [
+            "$189",
+            "$216",
+            "$243",
+            "$270"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "y = k × x = 27 × 8 = $216."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación con su constante de proporcionalidad (k).",
+          "columnaA": [
+            "7 kg de café cuestan $329",
+            "4 boletos de tren cuestan $148",
+            "9 litros de aceite cuestan $306"
+          ],
+          "columnaB": [
+            "$34 por litro",
+            "$47 por kg",
+            "$37 por boleto"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "7 kg de café cuestan $329 → $47 por kg; 4 boletos de tren cuestan $148 → $37 por boleto; 9 litros de aceite cuestan $306 → $34 por litro."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 4 de 4 · Síntesis"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Si 3 boletos de feria cuestan $45, entonces 7 boletos cuestan $105.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: k = 45÷3 = 15 por boleto; 7×15 = $105."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Si 6 refrescos cuestan $72, entonces 9 refrescos cuestan $___.",
+      "respuestaCorrecta": "108",
+      "retroalimentacion": "k = 72÷6 = 12 por refresco. 9×12 = $108."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Si 8 tortillas cuestan $16, entonces 20 tortillas cuestan $42.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "k = 16÷8 = 2 por tortilla. 20×2 = $40, no $42."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Si 7 playeras cuestan $560, entonces 4 playeras cuestan $___.",
+      "respuestaCorrecta": "320",
+      "retroalimentacion": "k = 560÷7 = 80 por playera. 4×80 = $320."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Si 5 paquetes de agua cuestan $75, ¿cuánto cuestan 9 paquetes?",
+      "opciones": [
+        "$125",
+        "$135",
+        "$115",
+        "$145"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "k = 75÷5 = 15 por paquete. 9×15 = $135."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Si 9 panes cuestan $81, entonces 15 panes cuestan $135.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "k = 81÷9 = 9 por pan. 15×9 = $135."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Si 4 litros de jugo cuestan $52, entonces 10 litros cuestan $___.",
+      "respuestaCorrecta": "130",
+      "retroalimentacion": "k = 52÷4 = 13 por litro. 10×13 = $130."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Si 6 boletos de camión cuestan $84, ¿cuánto cuestan 11 boletos?",
+      "opciones": [
+        "$140",
+        "$154",
+        "$168",
+        "$182"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "k = 84÷6 = 14 por boleto. 11×14 = $154."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Si 12 huevos cuestan $48, entonces 20 huevos cuestan $76.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "k = 48÷12 = 4 por huevo. 20×4 = $80, no $76."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Si 3 kg de queso cuestan $210, entonces 5 kg cuestan $___.",
+      "respuestaCorrecta": "350",
+      "retroalimentacion": "k = 210÷3 = 70 por kg. 5×70 = $350."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Un tinaco se llena con 80 litros en 16 minutos. ¿Cuántos litros se llenan en 25 minutos, con el mismo rendimiento?",
+      "opciones": [
+        "100 L",
+        "110 L",
+        "125 L",
+        "135 L"
+      ],
+      "respuestaCorrecta": 2,
+      "retroalimentacion": "k = 80÷16 = 5 litros por minuto. 25×5 = 125 litros."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Si 12 chocolates cuestan $180, entonces 5 chocolates cuestan $___.",
+      "respuestaCorrecta": "75",
+      "retroalimentacion": "k = 180÷12 = 15 por chocolate. 5×15 = $75."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Si 7 metros de tela cuestan $322, ¿cuánto cuestan 4 metros?",
+      "opciones": [
+        "$172",
+        "$184",
+        "$196",
+        "$161"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "k = 322÷7 = 46 por metro. 4×46 = $184."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Si 10 huevos cuestan $35, entonces 16 huevos cuestan $54.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "k = 35÷10 = 3.5 por huevo. 16×3.5 = $56, no $54."
+    }
+  ]
+}

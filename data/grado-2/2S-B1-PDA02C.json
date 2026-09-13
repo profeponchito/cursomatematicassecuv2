@@ -1,0 +1,453 @@
+{
+  "id": "2S-B1-PDA02C",
+  "grado": "2°",
+  "trimestre": "1",
+  "numero": 6,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Extensión del significado de las operaciones y sus relaciones inversas 2.3",
+  "contenido": "Extensión del significado de las operaciones y sus relaciones inversas.",
+  "pda": "Comprueba y argumenta si las operaciones cumplen las propiedades conmutativa, asociativa y distributiva. Aplica criterios de divisibilidad, máximo común divisor y mínimo común múltiplo.",
+  "problematizacion": {
+    "contexto": "Para el torneo deportivo de fin de curso, el comité estudiantil debe formar equipos del mismo tamaño usando exactamente 36, 60 y 48 alumnos inscritos en fútbol, básquetbol y voleibol, sin mezclar deportes y sin que sobre ningún alumno. Al calcular el costo de playeras, el tesorero factoriza la expresión 12x + 18 para simplificar el presupuesto por equipo.",
+    "pregunta": "¿De qué tamaño debe ser cada equipo para que los tres deportes queden divididos en el mayor número de equipos iguales, y cómo queda factorizada la expresión del presupuesto usando su máximo común divisor?"
+  },
+  "subtemas": [
+    {
+      "numero": "2.8",
+      "titulo": "MCD y mcm de tres números",
+      "explicacion": "Hasta ahora calculaste MCD y mcm de dos números; en problemas reales con más de dos elementos (tres turnos, tres proveedores, tres tipos de material) necesitas extender el mismo método a tres números: descompones los tres en factores primos y, para el MCD, tomas los factores comunes a los tres con el MENOR exponente, mientras que para el mcm tomas todos los factores que aparecen con el MAYOR exponente. Los criterios de divisibilidad de la lección anterior ayudan a descomponer más rápido números grandes.",
+      "formula": "MCD(a,b,c) = producto de los factores primos comunes a los tres números, cada uno con su menor exponente. mcm(a,b,c) = producto de todos los factores primos que aparecen en cualquiera de los tres números, cada uno con su mayor exponente.",
+      "ejemplos": [
+        "MCD(18,24,30): 18=2×3², 24=2³×3, 30=2×3×5. El único factor común a los tres es 2 (exponente mínimo 1) y 3 (exponente mínimo 1). MCD=2×3=6.",
+        "mcm(4,5,6): 4=2², 5=5, 6=2×3. Tomamos cada factor con su mayor exponente: 2²×3×5=60. mcm=60."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el MCD de 20, 28 y 44?",
+          "opciones": [
+            "2",
+            "4",
+            "8",
+            "44"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "20=2²×5, 28=2²×7, 44=2²×11. El único factor común a los tres es 2², así que MCD=4."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El mcm de 10, 15 y 18 es ___.",
+          "respuestaCorrecta": "90",
+          "retroalimentacion": "10=2×5, 15=3×5, 18=2×3². mcm=2×3²×5=90."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El MCD de 24, 40 y 56 es 8.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 24=2³×3, 40=2³×5, 56=2³×7. El único factor común a los tres es 2³=8."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El mcm de 9, 12 y 15 es 90.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: 9=3², 12=2²×3, 15=3×5. mcm=2²×3²×5=180, no 90."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un organizador de torneos tiene tres grupos de 42, 56 y 70 participantes, y quiere formar equipos del mismo tamaño en cada grupo, usando el mayor tamaño posible sin mezclar participantes de distintos grupos en un mismo equipo. ¿Cuál es el mayor tamaño de equipo posible?",
+          "opciones": [
+            "7",
+            "14",
+            "28",
+            "2"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "42=2×3×7, 56=2³×7, 70=2×5×7. El factor común a los tres es 2×7=14."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Tres alarmas suenan cada 10, 14 y 21 minutos. Si sonaron juntas a las 8:00 a.m., volverán a sonar juntas después de ___ minutos.",
+          "respuestaCorrecta": "210",
+          "retroalimentacion": "10=2×5, 14=2×7, 21=3×7. mcm=2×3×5×7=210 minutos."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada operación con su resultado.",
+          "columnaA": [
+            "MCD de 18, 24 y 30",
+            "mcm de 4, 5 y 6",
+            "MCD de 21, 35 y 49"
+          ],
+          "columnaB": [
+            "7",
+            "60",
+            "6"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "MCD(18,24,30)=6; mcm(4,5,6)=60; MCD(21,35,49)=7."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el mcm de 15, 20 y 24?",
+          "opciones": [
+            "60",
+            "90",
+            "120",
+            "360"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "15=3×5, 20=2²×5, 24=2³×3. mcm=2³×3×5=120."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Al calcular el MCD de tres números, se toman los factores primos comunes a los tres con el MAYOR exponente que aparece.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: para el MCD se toma el MENOR exponente de los factores comunes; el mayor exponente se usa para calcular el mcm."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una veterinaria recibe visitas de revisión cada 12, 16 y 20 días para tres tipos de animales distintos. Si coincidieron todas un mismo día, volverán a coincidir después de ___ días.",
+          "respuestaCorrecta": "240",
+          "retroalimentacion": "12=2²×3, 16=2⁴, 20=2²×5. mcm=2⁴×3×5=240 días."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 1 de 3 · Reto avanzado"
+    },
+    {
+      "numero": "2.9",
+      "titulo": "Propiedades con expresiones algebraicas y factorización con el MCD",
+      "explicacion": "En esta lección integras dos ideas: primero, comprobarás las propiedades conmutativa, asociativa y distributiva ya no solo con números, sino con expresiones que incluyen una literal (letra) que representa un número cualquiera; segundo, usarás el MCD para factorizar una suma, es decir, para escribirla como el producto de un factor común por la suma de lo que queda, el proceso inverso de aplicar la distributiva. Esto conecta directamente el sentido numérico con el pensamiento algebraico.",
+      "formula": "Factorización con el MCD: si a y b tienen un factor común d = MCD(a,b), entonces a+b = d×(a÷d + b÷d).",
+      "ejemplos": [
+        "Factoriza 30+45 usando el MCD: MCD(30,45)=15. 30+45=15×(2+3)=15×5=75. Comprobación: 30+45=75. ✓",
+        "Comprueba con x=6 si 4×(x+3)=4×x+4×3 (propiedad distributiva). Sustituyendo: 4×(6+3)=4×9=36, y 4×6+4×3=24+12=36. Como ambos lados dan 36, la igualdad se cumple para x=6, mostrando que la distributiva funciona sin importar el valor de x."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si x=5, entonces 3×(x+7)=3×x+3×7 se cumple, porque ambos lados dan 36.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 3×(5+7)=3×12=36, y 3×5+3×7=15+21=36."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Al factorizar 44+66 usando el MCD, obtenemos MCD(44,66)=___.",
+          "respuestaCorrecta": "22",
+          "retroalimentacion": "44=2²×11, 66=2×3×11. MCD(44,66)=2×11=22, y en efecto 44+66=22×(2+3)=22×5=110."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la factorización correcta de 24+32 usando su MCD?",
+          "opciones": [
+            "8 × (3 + 4)",
+            "4 × (6 + 8)",
+            "16 × (1 + 2)",
+            "8 × (4 + 5)"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "MCD(24,32)=8, y 24÷8=3, 32÷8=4, así que 24+32=8×(3+4)=56. Las otras opciones usan un factor que no es el MCD o dan una suma incorrecta."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La igualdad (a+4)+9=a+(4+9) es un ejemplo de la propiedad asociativa que se cumple sin importar el valor de a.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: la propiedad asociativa de la suma garantiza que el agrupamiento de los términos no cambia el resultado, para cualquier valor de a."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si y=8, el valor de (y+3)+2 es ___, igual al valor de y+(3+2).",
+          "respuestaCorrecta": "13",
+          "retroalimentacion": "(8+3)+2=13 y 8+(3+2)=13: ambos caminos dan el mismo resultado por la propiedad asociativa."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál expresión es equivalente a 7×(n+5) para cualquier valor de n, según la propiedad distributiva?",
+          "opciones": [
+            "7n+35",
+            "7n+5",
+            "n+35",
+            "7+5n"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "7×(n+5)=7×n+7×5=7n+35."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada expresión con su resultado equivalente.",
+          "columnaA": [
+            "5×(m+6)",
+            "9×(k+2)",
+            "MCD(36,54)×(2+3)"
+          ],
+          "columnaB": [
+            "9k+18",
+            "90",
+            "5m+30"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "5×(m+6)=5m+30; 9×(k+2)=9k+18; MCD(36,54)=18, y 18×(2+3)=90 (36+54=90)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "50+80 se puede factorizar como 10×(5+8), donde 10 es el MCD de 50 y 80.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 50=2×5², 80=2⁴×5. MCD(50,80)=2×5=10, y 50÷10=5, 80÷10=8."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Si p=12, ¿cuál es el resultado de aplicar la propiedad conmutativa a la suma p+15?",
+          "opciones": [
+            "15+p, que da el mismo resultado que p+15",
+            "p−15",
+            "15×p",
+            "p+15 no tiene propiedad conmutativa"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "La propiedad conmutativa dice que el orden no altera el resultado: p+15=15+p; con p=12, ambos dan 27."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Al factorizar 63+99 usando el MCD, el resultado es ___ × (7+11).",
+          "respuestaCorrecta": "9",
+          "retroalimentacion": "63=3²×7, 99=3²×11. MCD(63,99)=3²=9, y 63÷9=7, 99÷9=11, así que 63+99=9×(7+11)=162."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 2 de 3 · Integración"
+    },
+    {
+      "numero": "2.10",
+      "titulo": "Proyecto integrador: organización de un torneo escolar",
+      "explicacion": "En esta lección de dominio resolverás problemas completos que combinan varias herramientas del PDA a la vez: criterios de divisibilidad para descomponer números grandes, MCD para repartir o agrupar, mcm para sincronizar eventos, y las propiedades de las operaciones para justificar o simplificar cálculos, tal como lo haría alguien organizando un evento real con varias restricciones al mismo tiempo.",
+      "ejemplos": [
+        "Una organizadora de torneos tiene 90 medallas y 135 playeras para premiar a los equipos ganadores, y quiere armar el mayor número de paquetes de premiación iguales sin que sobre material. Primero comprueba con el criterio de divisibilidad entre 9 que ambos números son múltiplos de 9 (9+0=9 y 1+3+5=9), lo que adelanta que el MCD será múltiplo de 9. Calcula: 90=2×3²×5, 135=3³×5 → MCD=3²×5=45. Se arman 45 paquetes: 90÷45=2 medallas y 135÷45=3 playeras por paquete.",
+        "Tres categorías del torneo (infantil, juvenil y libre) reciben partidos que se repiten cada 10, 15 y 25 minutos en distintas canchas. Si los tres partidos iniciaron al mismo tiempo, mcm(10,15,25): 10=2×5, 15=3×5, 25=5² → mcm=2×3×5²=150. Vuelven a iniciar juntos cada 150 minutos, es decir, cada 2 horas con 30 minutos."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un club deportivo tiene 108 balones y 144 conos y quiere formar el mayor número de sets de entrenamiento iguales sin que sobre material. ¿Cuántos balones llevará cada set?",
+          "opciones": [
+            "2",
+            "3",
+            "4",
+            "6"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "108=2²×3³, 144=2⁴×3². MCD(108,144)=2²×3²=36 sets: 108÷36=3 balones por set."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Siguiendo el problema anterior (108 balones y 144 conos, MCD=36), cada set de entrenamiento llevará ___ conos.",
+          "respuestaCorrecta": "4",
+          "retroalimentacion": "144÷36=4 conos por set."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "216 es divisible entre 8, porque sus últimos tres dígitos (216) forman un múltiplo de 8 (216÷8=27).",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 216÷8=27 exacto."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Tres autobuses escolares salen de la terminal cada 15, 18 y 27 minutos. Si los tres salieron juntos a las 7:00 a.m., ¿a qué hora volverán a salir juntos?",
+          "opciones": [
+            "9:30 a.m.",
+            "10:15 a.m.",
+            "11:30 a.m.",
+            "1:00 p.m."
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "15=3×5, 18=2×3², 27=3³. mcm(15,18,27)=2×3³×5=270 minutos (4 h 30 min). 7:00 + 4:30 = 11:30 a.m."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Para calcular rápidamente 25×(4+8), un estudiante aplicó la propiedad distributiva y obtuvo 25×4+25×8=100+200=300, el mismo resultado que sumar primero (4+8=12) y multiplicar 25×12=300.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: ambos caminos son válidos por la propiedad distributiva y dan 300."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Al factorizar 96+144 usando su MCD, obtenemos ___ × (2+3).",
+          "respuestaCorrecta": "48",
+          "retroalimentacion": "96=2⁵×3, 144=2⁴×3². MCD(96,144)=2⁴×3=48, y 96÷48=2, 144÷48=3, así que 96+144=48×(2+3)=240."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada operación o pregunta con su resultado.",
+          "columnaA": [
+            "MCD de 48, 72 y 96",
+            "mcm de 8, 10 y 20",
+            "¿150 es divisible entre 5?"
+          ],
+          "columnaB": [
+            "Sí",
+            "40",
+            "24"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "MCD(48,72,96)=24; mcm(8,10,20)=40; 150 termina en 0, así que sí es divisible entre 5."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una fábrica textil produce 168 playeras y 252 pantalones en un día. Antes de calcular el MCD, un supervisor nota que ambos números son divisibles entre 4 (sus últimos dos dígitos, 68 y 52, son múltiplos de 4). ¿Cuál es el MCD completo de 168 y 252?",
+          "opciones": [
+            "42",
+            "84",
+            "168",
+            "12"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "168=2³×3×7, 252=2²×3²×7. MCD(168,252)=2²×3×7=84."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El mcm de 168 y 252 es 504.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: como MCD(168,252)=84, el mcm es (168×252)÷84=504."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un comité organiza un festival con tres talleres que reciben visitantes cada 9, 15 y 20 minutos. Si los tres talleres recibieron visitantes al mismo tiempo al abrir, volverán a coincidir después de ___ minutos.",
+          "respuestaCorrecta": "180",
+          "retroalimentacion": "9=3², 15=3×5, 20=2²×5. mcm(9,15,20)=2²×3²×5=180 minutos."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 3 de 3 · Dominio"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada operación con su resultado.",
+      "columnaA": [
+        "MCD de 20 y 50",
+        "mcm de 9 y 15",
+        "MCD de 13 y 26"
+      ],
+      "columnaB": [
+        "45",
+        "13",
+        "10"
+      ],
+      "parejasCorrectas": [
+        2,
+        0,
+        1
+      ],
+      "retroalimentacion": "MCD de 20 y 50 = 10; mcm de 9 y 15 = 45; MCD de 13 y 26 = 13."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "El mcm de 20 y 30 es ___.",
+      "respuestaCorrecta": "60",
+      "retroalimentacion": "20=2²×5, 30=2×3×5. mcm = 2²×3×5 = 60."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es el MCD de 39 y 52?",
+      "opciones": [
+        "13",
+        "3",
+        "4",
+        "1"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "39=3×13, 52=2²×13. MCD = 13."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "9×(2+6)=9×2+9×6 es un ejemplo de la propiedad distributiva.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "9×(2+6)=9×2+9×6 corresponde a la propiedad distributiva."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "El MCD de 23 y 46 es 23.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: 46=2×23, así que MCD(23,46) = 23."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Empareja cada operación con el resultado que le corresponde.",
+      "columnaA": [
+        "MCD de 8 y 12",
+        "mcm de 10 y 15",
+        "MCD de 29 y 58"
+      ],
+      "columnaB": [
+        "29",
+        "4",
+        "30"
+      ],
+      "parejasCorrectas": [
+        1,
+        2,
+        0
+      ],
+      "retroalimentacion": "MCD de 8 y 12 = 4; mcm de 10 y 15 = 30; MCD de 29 y 58 = 29."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "El MCD de 16 y 24 es ___.",
+      "respuestaCorrecta": "8",
+      "retroalimentacion": "16=2⁴, 24=2³×3. MCD = 2³ = 8."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál ejemplo muestra la propiedad conmutativa?",
+      "opciones": [
+        "2×(4+3)=2×4+2×3",
+        "(1+2)+3=1+(2+3)",
+        "6+9=9+6",
+        "(2×3)×4=2×(3×4)"
+      ],
+      "respuestaCorrecta": 2,
+      "retroalimentacion": "La conmutativa dice que el orden no altera el resultado: 6+9=9+6."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "El mcm de 5 y 7 es 35.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: como 5 y 7 no comparten factores, su mcm es el producto: 5×7=35."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada operación con su resultado.",
+      "columnaA": [
+        "MCD de 12 y 18",
+        "mcm de 6 y 8",
+        "MCD de 9 y 15"
+      ],
+      "columnaB": [
+        "3",
+        "24",
+        "6"
+      ],
+      "parejasCorrectas": [
+        2,
+        1,
+        0
+      ],
+      "retroalimentacion": "MCD(12,18)=6; mcm(6,8)=24; MCD(9,15)=3."
+    }
+  ]
+}

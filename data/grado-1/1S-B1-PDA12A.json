@@ -1,0 +1,546 @@
+{
+  "id": "1S-B1-PDA12A",
+  "grado": "1°",
+  "trimestre": "3",
+  "numero": 34,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Recolección y Gráficas de Datos 12.1",
+  "contenido": "Obtención y representación de información.",
+  "pda": "Distingue variables cualitativas y cuantitativas, organiza datos en tablas de frecuencia y los representa en gráficas de barras y circulares.",
+  "problematizacion": {
+    "contexto": "Brenda encuesta a los 30 alumnos de su grupo sobre su género musical favorito para el festival de fin de año: pop, banda, reguetón o rock. Quiere organizar las respuestas en una tabla y mostrar los resultados al consejo escolar de manera clara.",
+    "pregunta": "¿Cómo organiza Brenda las respuestas de sus 30 compañeros en una tabla de frecuencia absoluta, y en qué tipo de gráfica —de barras o circular— conviene mostrar el género musical favorito del grupo?"
+  },
+  "subtemas": [
+    {
+      "numero": "12.1",
+      "titulo": "Tipos de variables y recolección de datos",
+      "explicacion": "Antes de organizar cualquier información, hay que identificar qué tipo de dato estás recolectando. Una variable cualitativa describe una cualidad o categoría, no un número: el color favorito, el deporte preferido, el tipo de mascota. Una variable cuantitativa sí es un número que se puede contar o medir: la estatura, la edad, el número de hermanos. Para reunir estos datos existen varios métodos: la encuesta (preguntar directamente a cada persona), la observación (registrar lo que ves sin preguntar) y el conteo (contar cuántas veces ocurre algo).",
+      "ejemplos": [
+        "Si preguntas '¿cuál es tu color favorito?', la respuesta (azul, rojo, verde...) es una variable cualitativa, porque describe una cualidad, no una cantidad.",
+        "Si preguntas '¿cuántos hermanos tienes?', la respuesta (0, 1, 2, 3...) es una variable cuantitativa, porque es un número que se puede contar."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Qué tipo de variable es 'color de cabello'?",
+          "opciones": [
+            "Cualitativa",
+            "Cuantitativa",
+            "Numérica",
+            "Ninguna de las anteriores"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "El color de cabello describe una cualidad (una categoría), no se expresa como número: es una variable cualitativa."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El número de goles anotados en un partido de fútbol es una variable cuantitativa.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: los goles se cuentan con números (0, 1, 2...), por eso es cuantitativa."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La marca de tenis que usa cada alumno es una variable cuantitativa.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: la marca es una categoría (Nike, Adidas, Puma...), no un número, así que es cualitativa."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El clima favorito de cada alumno (soleado, lluvioso, frío) es una variable ___.",
+          "respuestaCorrecta": "cualitativa",
+          "retroalimentacion": "Es cualitativa porque describe una categoría, no una cantidad numérica."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de las siguientes es una variable cuantitativa?",
+          "opciones": [
+            "Sabor de paleta favorito",
+            "Número de libros leídos en el mes",
+            "Equipo de fútbol favorito",
+            "Tipo de mascota"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "El número de libros leídos es una cantidad que se puede contar: es cuantitativa. Las demás opciones son categorías."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Preguntar directamente a cada alumno '¿qué deporte prefieres?' y anotar su respuesta es un ejemplo de:",
+          "opciones": [
+            "Observación",
+            "Encuesta",
+            "Variable cuantitativa",
+            "Gráfica circular"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Preguntar directamente a cada persona y registrar su respuesta es el método de encuesta."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Contar cuántos autos pasan frente a la escuela en una hora, sin preguntarle a nadie, es un método de observación.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: cuando registras lo que ves sin preguntar, estás usando la observación."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Registrar cuántas veces se repite cada color al girar una ruleta 20 veces es un método de ___.",
+          "respuestaCorrecta": "conteo",
+          "retroalimentacion": "Cuando registras cuántas veces ocurre algo, estás usando el método de conteo."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada dato recolectado con el tipo de variable que representa.",
+          "columnaA": [
+            "Deporte favorito de cada alumno",
+            "Número de mascotas en la familia",
+            "Estatura de cada alumno en cm"
+          ],
+          "columnaB": [
+            "Es cuantitativa: es un número que se puede contar.",
+            "Es cualitativa: describe una categoría, no un número.",
+            "Es cuantitativa: es una medida numérica de longitud."
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            2
+          ],
+          "retroalimentacion": "Deporte favorito es cualitativa (categoría). Número de mascotas es cuantitativa (se cuenta). Estatura es cuantitativa (se mide)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una encuesta sobre mascotas, ¿cuál de estas es la variable cualitativa?",
+          "opciones": [
+            "Número de mascotas por familia",
+            "Edad de la mascota en años",
+            "Tipo de mascota (perro, gato, pez...)",
+            "Peso de la mascota en kg"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "El tipo de mascota es una categoría (perro, gato, pez), no un número: es cualitativa."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 1 de 4 · Introductorio"
+    },
+    {
+      "numero": "12.2",
+      "titulo": "Tabla de frecuencia absoluta",
+      "explicacion": "Cuando tienes muchas respuestas de una encuesta, es difícil entenderlas si solo las lees en una lista larga. Para organizarlas, cuentas cuántas veces se repite cada dato o categoría y anotas ese conteo (la frecuencia absoluta) en una tabla de dos columnas: la categoría y su frecuencia. La suma de todas las frecuencias siempre debe ser igual al total de datos recolectados.",
+      "ejemplos": [
+        "Se preguntó el deporte favorito a 10 alumnos y respondieron: fútbol, fútbol, básquetbol, voleibol, fútbol, básquetbol, fútbol, voleibol, fútbol, básquetbol. La tabla de frecuencia queda: fútbol=5, básquetbol=3, voleibol=2. La suma 5+3+2=10 coincide con el total de alumnos.",
+        "Si en una tabla de frecuencia de colores favoritos ya sabes que azul=6, rojo=4 y verde=3, el total de alumnos encuestados es 6+4+3=13."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Se preguntó el color favorito a 12 alumnos: rojo, azul, azul, verde, rojo, azul, rojo, azul, verde, azul, rojo, azul. ¿Cuántos alumnos prefieren azul?",
+          "opciones": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Azul aparece 6 veces: en las respuestas 2, 3, 6, 8, 10 y 12. Rojo aparece 4 veces y verde 2 veces; 6+4+2=12 coincide con el total."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En la tabla de frecuencia del ejercicio anterior, rojo tiene frecuencia ___.",
+          "respuestaCorrecta": "4",
+          "retroalimentacion": "Rojo aparece 4 veces en la lista de 12 respuestas."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En una tabla de frecuencia, la suma de todas las frecuencias siempre es igual al total de datos recolectados.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: cada dato se cuenta una sola vez en su categoría, así que la suma de frecuencias da el total."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una tabla de frecuencia de mascotas muestra: perro=8, gato=5, pez=3, ave=2. ¿Cuántas familias fueron encuestadas en total?",
+          "opciones": [
+            "16",
+            "17",
+            "18",
+            "20"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "8+5+3+2 = 18 familias en total."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En una encuesta a 25 alumnos sobre su materia favorita se obtuvo: matemáticas=9, español=7, historia=6, y el resto prefiere ciencias. La frecuencia de ciencias es ___.",
+          "respuestaCorrecta": "3",
+          "retroalimentacion": "25 - 9 - 7 - 6 = 3 alumnos prefieren ciencias."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Se registró el número de mascotas por familia en 10 casas: 1, 2, 1, 0, 2, 1, 3, 1, 2, 0. ¿Cuál es la frecuencia del valor '1'?",
+          "opciones": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "El valor 1 aparece en las posiciones 1, 3, 6 y 8: frecuencia 4. Verifica: 4(uno)+2(cero)+3(dos)+1(tres)=10."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En la lista de mascotas del ejercicio anterior (1, 2, 1, 0, 2, 1, 3, 1, 2, 0), la frecuencia del valor '2' es 3.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "El valor 2 aparece 3 veces: en las posiciones 2, 5 y 9."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En la misma lista de mascotas (1, 2, 1, 0, 2, 1, 3, 1, 2, 0), el valor '0' tiene frecuencia ___.",
+          "respuestaCorrecta": "2",
+          "retroalimentacion": "El valor 0 aparece 2 veces: en las posiciones 4 y 10."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Una encuesta sobre transporte para llegar a la escuela entre 20 alumnos dio: camina=9, camión=6, bicicleta=5. Relaciona cada medio de transporte con su frecuencia.",
+          "columnaA": [
+            "Camina",
+            "Camión",
+            "Bicicleta"
+          ],
+          "columnaB": [
+            "6 alumnos",
+            "5 alumnos",
+            "9 alumnos"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "Camina=9, camión=6, bicicleta=5; 9+6+5=20 coincide con el total de alumnos encuestados."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una tabla de frecuencia sobre número de hermanos de 15 alumnos: 0 hermanos=4, 1 hermano=6, 2 hermanos=3. ¿Cuál es la frecuencia de '3 hermanos'?",
+          "opciones": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "15 - 4 - 6 - 3 = 2 alumnos tienen 3 hermanos."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 2 de 4 · Intermedio"
+    },
+    {
+      "numero": "12.3",
+      "titulo": "Gráfica de barras",
+      "explicacion": "Una gráfica de barras representa cada categoría con una barra; la altura de la barra es proporcional a su frecuencia. Mientras más alta es la barra, mayor es la frecuencia de esa categoría. Para leer una gráfica de barras, observas el valor donde termina cada barra en el eje que muestra la frecuencia, y puedes sumar o restar esos valores para responder preguntas.",
+      "ejemplos": [
+        "En una gráfica de barras sobre deportes favoritos, la barra de 'fútbol' llega a 12 y la de 'básquetbol' llega a 8. Como 12>8, más alumnos prefieren fútbol. Juntos suman 12+8=20 alumnos.",
+        "Si la barra de 'natación' llega a 5 y es la más baja de la gráfica, 'natación' es el deporte con menor frecuencia entre los mostrados."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una gráfica de barras, la barra de 'fútbol' llega a 12 y la de 'básquetbol' llega a 8. ¿Cuántos alumnos en total prefieren estos dos deportes?",
+          "opciones": [
+            "18",
+            "20",
+            "22",
+            "16"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "12+8=20 alumnos prefieren fútbol o básquetbol."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En una gráfica de barras, la barra más alta siempre representa la categoría con mayor frecuencia.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: la altura de la barra es proporcional a la frecuencia, así que la barra más alta es la de mayor frecuencia."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una gráfica de barras sobre colores favoritos muestra: azul=10, rojo=7, verde=4, amarillo=3. ¿Cuál es el color con menor frecuencia?",
+          "opciones": [
+            "Azul",
+            "Rojo",
+            "Verde",
+            "Amarillo"
+          ],
+          "respuestaCorrecta": 3,
+          "retroalimentacion": "Amarillo tiene la barra más baja, con frecuencia 3."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En la gráfica de colores anterior (azul=10, rojo=7, verde=4, amarillo=3), el total de alumnos encuestados es ___.",
+          "respuestaCorrecta": "24",
+          "retroalimentacion": "10+7+4+3=24 alumnos en total."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En la gráfica de colores (azul=10, rojo=7, verde=4, amarillo=3), más alumnos prefieren verde que rojo.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: verde=4 es menor que rojo=7."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una gráfica de barras sobre mascotas, la barra de 'perro' llega a 15 y la de 'gato' llega a 9. ¿Cuántos alumnos más prefieren perro que gato?",
+          "opciones": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "15-9=6 alumnos más prefieren perro que gato."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si la barra de 'voleibol' en una gráfica llega a 6 y es la más baja de las cuatro categorías mostradas, entonces voleibol tiene la ___ frecuencia.",
+          "respuestaCorrecta": "menor",
+          "retroalimentacion": "La barra más baja corresponde a la categoría con menor frecuencia."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una gráfica de barras sobre materias favoritas muestra: matemáticas=14, español=9, historia=7. ¿Cuántos alumnos fueron encuestados en total?",
+          "opciones": [
+            "28",
+            "29",
+            "30",
+            "32"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "14+9+7=30 alumnos en total."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Una gráfica de barras sobre frutas favoritas muestra: manzana=11, plátano=8, naranja=5. Relaciona cada fruta con su frecuencia en la gráfica.",
+          "columnaA": [
+            "Manzana",
+            "Plátano",
+            "Naranja"
+          ],
+          "columnaB": [
+            "8",
+            "5",
+            "11"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "Manzana=11, plátano=8, naranja=5 según la altura de cada barra; 11+8+5=24 alumnos en total."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En la gráfica de frutas (manzana=11, plátano=8, naranja=5), la diferencia entre la fruta más y menos preferida es 6.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "11-5=6, la diferencia entre manzana (la más preferida) y naranja (la menos preferida)."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 3 de 4 · Avanzado"
+    },
+    {
+      "numero": "12.4",
+      "titulo": "Gráfica circular y aplicación combinada",
+      "explicacion": "Una gráfica circular (o de pastel) muestra cómo se reparte un total en partes, usando porcentajes: cada porción representa el porcentaje de datos que le corresponde, y todas las porciones juntas siempre suman 100%. Para saber cuántos casos representa una porción, multiplicas el porcentaje por el total de datos y divides entre 100. Esta gráfica se puede combinar con una tabla de frecuencia para verificar que los datos coincidan.",
+      "formula": "casos = (porcentaje × total) ÷ 100",
+      "ejemplos": [
+        "En una gráfica circular sobre transporte de 40 alumnos, la porción de 'camión' es 25%. Casos = (25×40)÷100 = 1000÷100 = 10 alumnos usan camión.",
+        "Si en una gráfica circular de 50 alumnos las porciones son: caminar=40%, bicicleta=36%, camión=24% (suman 100%), entonces caminar=(40×50)÷100=20, bicicleta=(36×50)÷100=18, camión=(24×50)÷100=12; y 20+18+12=50 coincide con el total."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una gráfica circular de 40 alumnos, la porción de 'fútbol' es 25%. ¿Cuántos alumnos prefieren fútbol?",
+          "opciones": [
+            "8",
+            "10",
+            "12",
+            "15"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "(25×40)÷100 = 1000÷100 = 10 alumnos."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En una gráfica circular de 60 alumnos, la porción de 'básquetbol' es 20%. El número de alumnos que prefieren básquetbol es ___.",
+          "respuestaCorrecta": "12",
+          "retroalimentacion": "(20×60)÷100 = 1200÷100 = 12 alumnos."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En cualquier gráfica circular, la suma de los porcentajes de todas las porciones siempre debe dar 100%.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: la gráfica circular representa el 100% del total repartido entre las categorías."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una gráfica circular de 80 alumnos muestra: perro=50%, gato=30%, pez=20%. ¿Cuántos alumnos tienen gato?",
+          "opciones": [
+            "20",
+            "24",
+            "28",
+            "30"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "(30×80)÷100 = 2400÷100 = 24 alumnos."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En la gráfica de mascotas anterior (perro=50%, gato=30%, pez=20%, total 80 alumnos), la cantidad de alumnos con perro es ___.",
+          "respuestaCorrecta": "40",
+          "retroalimentacion": "(50×80)÷100 = 4000÷100 = 40 alumnos."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En la gráfica de mascotas (perro=50%, gato=30%, pez=20%, total 80 alumnos), el número de alumnos con pez es 16.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "(20×80)÷100 = 1600÷100 = 16 alumnos con pez."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una tabla de frecuencia de 50 alumnos sobre su materia favorita da: matemáticas=15, español=20, ciencias=15. Si se representa en una gráfica circular, ¿qué porcentaje corresponde a español?",
+          "opciones": [
+            "30%",
+            "35%",
+            "40%",
+            "45%"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "20 de 50 es (20÷50)×100 = 40%."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En la tabla de materias anterior (matemáticas=15, español=20, ciencias=15, total 50), el porcentaje que corresponde a matemáticas es ___%.",
+          "respuestaCorrecta": "30",
+          "retroalimentacion": "15÷50 = 0.30, es decir 30%."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Una gráfica circular de 100 alumnos sobre su color favorito muestra: azul=45%, rojo=35%, verde=20%. Relaciona cada color con el número de alumnos que representa.",
+          "columnaA": [
+            "Azul (45%)",
+            "Rojo (35%)",
+            "Verde (20%)"
+          ],
+          "columnaB": [
+            "35 alumnos",
+            "20 alumnos",
+            "45 alumnos"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "Con 100 alumnos, cada porcentaje equivale directamente al número de alumnos: azul=45, rojo=35, verde=20; 45+35+20=100."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una gráfica circular de 40 alumnos sobre su fruta favorita muestra tres porciones: manzana, plátano y naranja. Manzana representa 20 alumnos y plátano representa 10 alumnos. ¿Cuántos alumnos representa naranja?",
+          "opciones": [
+            "5",
+            "8",
+            "10",
+            "12"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "40-20-10=10 alumnos prefieren naranja, lo que equivale a (10÷40)×100=25%."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 4 de 4 · Síntesis"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué tipo de variable es 'sabor de helado favorito'?",
+      "opciones": [
+        "Cualitativa",
+        "Cuantitativa",
+        "Numérica",
+        "Ninguna"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "Es una categoría, no un número: cualitativa."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "El número de tareas entregadas en el mes es una variable cuantitativa.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto, se puede contar con números."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "El equipo de béisbol favorito de cada alumno es una variable ___.",
+      "respuestaCorrecta": "cualitativa",
+      "retroalimentacion": "Describe una categoría, no una cantidad."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Anotar cuántas veces llueve en un mes sin preguntarle a nadie es un método de:",
+      "opciones": [
+        "Encuesta",
+        "Observación",
+        "Gráfica circular",
+        "Tabla de frecuencia"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "Registrar lo que ocurre sin preguntar a nadie es observación."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Preguntar a cada alumno cuál es su postre favorito y anotar la respuesta es un método de encuesta.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto, es encuesta porque se pregunta directamente."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Se preguntó el sabor de paleta favorito a 14 alumnos: fresa, limón, fresa, uva, fresa, limón, uva, fresa, limón, fresa, uva, limón, fresa, limón. ¿Cuántos prefieren fresa?",
+      "opciones": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "Fresa aparece 6 veces; limón 5 veces; uva 3 veces; 6+5+3=14."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "En la encuesta de paletas anterior, limón tiene frecuencia ___.",
+      "respuestaCorrecta": "5",
+      "retroalimentacion": "Limón aparece 5 veces en la lista de 14 respuestas."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "En la encuesta de paletas (fresa=6, limón=5, uva=3), la fruta menos preferida es uva.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Uva tiene la frecuencia más baja: 3."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Una tabla de frecuencia de mascotas en 22 familias muestra: perro=10, gato=7. ¿Cuál es la frecuencia de pez, si es la única categoría que falta?",
+      "opciones": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "respuestaCorrecta": 2,
+      "retroalimentacion": "22-10-7=5 familias tienen pez."
+    }
+  ]
+}

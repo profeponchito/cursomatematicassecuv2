@@ -1,0 +1,412 @@
+{
+  "id": "1S-B1-PDA10B",
+  "grado": "1°",
+  "trimestre": "3",
+  "numero": 29,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Forma, espacio y medida",
+  "titulo": "El Círculo y sus Elementos 10.2",
+  "contenido": "Circunferencia, círculo y esfera.",
+  "pda": "Identifica los elementos de la circunferencia y calcula su perímetro y el área del círculo.",
+  "problematizacion": {
+    "contexto": "Gael quiere pintar una mesa circular para su cafetería familiar y cotiza pintura según el área a cubrir; también tiene una ventana en forma de medio círculo que debe forrar con papel decorativo. El dueño le pregunta qué pasaría con el costo si duplicara el radio de la mesa.",
+    "pregunta": "Si el radio de la mesa circular de Gael se duplica, ¿cuánto cambia el área a pintar, y cuánto papel necesita para la ventana en forma de medio círculo?"
+  },
+  "subtemas": [
+    {
+      "numero": "10.5",
+      "nivelEtiqueta": "Nivel 1 de 3 · Aplicación",
+      "titulo": "Presupuestos: el costo de forrar y pintar círculos",
+      "explicacion": "Ahora vas a usar el perímetro y el área para resolver problemas de dinero: cuando un material se vende por metro o centímetro (como cinta, listón o malla) usas el perímetro; cuando se vende por metro cuadrado o centímetro cuadrado (como pintura, pasto o tela) usas el área. El costo total siempre se obtiene multiplicando esa medida por el precio de cada unidad. Es la primera vez que combinas la geometría del círculo con un cálculo de presupuesto de la vida real.",
+      "formula": "Costo total = Medida del círculo (Perímetro o Área) × precio por unidad",
+      "ejemplos": [
+        "Una rueda de bicicleta tiene radio de 21 cm y la cinta reflejante cuesta $2 por cm de borde: P = 2 × 3.14 × 21 = 131.88 cm; Costo = 131.88 × 2 = $263.76.",
+        "Una tapa circular con radio de 27 cm se va a pintar y la pintura cuesta $1 por cm²: A = 3.14 × 27² = 2289.06 cm²; Costo = 2289.06 × 1 = $2289.06."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una rueda de bicicleta tiene radio de 21 cm. La cinta reflejante cuesta $2 por cada centímetro de borde. ¿Cuánto cuesta forrar toda la rueda?",
+          "opciones": [
+            "$263.76",
+            "$131.88",
+            "$197.82",
+            "$325.86"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P = 2 × 3.14 × 21 = 131.88 cm; Costo = 131.88 × 2 = $263.76."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una tapa circular de una alberca tiene radio de 27 cm; pintarla cuesta $1 por cm². El costo total es $___.",
+          "respuestaCorrecta": "2289.06",
+          "retroalimentacion": "A = 3.14 × 27² = 2289.06 cm²; como el precio es $1 por cm², el costo es $2289.06."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una mesa redonda tiene diámetro de 58 cm. Si un listón decorativo para todo el borde cuesta $3 por centímetro, el costo total es de $546.36.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "P = 3.14 × 58 = 182.12 cm; Costo = 182.12 × 3 = $546.36."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un jardín circular de radio 23 m se va a cercar con malla que cuesta $40 el metro. ¿Cuánto costará la malla para todo el contorno?",
+          "opciones": [
+            "$5,777.60",
+            "$2,888.80",
+            "$4,055.60",
+            "$7,221.60"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P = 2 × 3.14 × 23 = 144.44 m; Costo = 144.44 × 40 = $5,777.60."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un jardín circular de radio 33 m se sembrará de pasto, que cuesta $5 por m². El costo total del pasto es $___.",
+          "respuestaCorrecta": "17097.3",
+          "retroalimentacion": "A = 3.14 × 33² = 3419.46 m²; Costo = 3419.46 × 5 = $17,097.30."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un mantel circular para una mesa con diámetro de 62 cm (radio 31 cm) se hace con tela que cuesta $2 por cm². ¿Cuál es el costo del mantel?",
+          "opciones": [
+            "$6,035.08",
+            "$3,017.54",
+            "$1,508.77",
+            "$9,052.62"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "r = 62 ÷ 2 = 31 cm; A = 3.14 × 31² = 3017.54 cm²; Costo = 3017.54 × 2 = $6,035.08."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un cable con luces LED para decorar el borde de una fuente circular de radio 35 cm cuesta $4 por centímetro. El costo total es de $879.20.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "P = 2 × 3.14 × 35 = 219.8 cm; Costo = 219.8 × 4 = $879.20."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una base circular con diámetro de 94 cm (radio 47 cm) se va a pintar; la pintura cuesta $1 por cm². El costo total es $___.",
+          "respuestaCorrecta": "6936.26",
+          "retroalimentacion": "A = 3.14 × 47² = 6936.26 cm²; como el precio es $1 por cm², el costo es $6936.26."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Para una carrera nocturna, se necesita forrar DOS VECES (dos vueltas completas) el borde de una rueda de radio 39 cm con cinta reflejante que cuesta $2 por centímetro. ¿Cuánto costará la cinta para las dos vueltas?",
+          "opciones": [
+            "$979.68",
+            "$489.84",
+            "$244.92",
+            "$1,469.52"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P = 2 × 3.14 × 39 = 244.92 cm por vuelta; para dos vueltas: 244.92 × 2 = 489.84 cm; Costo = 489.84 × 2 = $979.68."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada radio con el costo de pintar su círculo completo (a $1 por cm²).",
+          "columnaA": [
+            "r = 21 cm",
+            "r = 27 cm",
+            "r = 33 cm"
+          ],
+          "columnaB": [
+            "$3419.46",
+            "$1384.74",
+            "$2289.06"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "r=21 cm: A=3.14×21²=1384.74 cm². r=27 cm: A=3.14×27²=2289.06 cm². r=33 cm: A=3.14×33²=3419.46 cm²."
+        }
+      ]
+    },
+    {
+      "numero": "10.6",
+      "nivelEtiqueta": "Nivel 2 de 3 · Aplicación avanzada",
+      "titulo": "Qué pasa si el radio cambia: escalamiento de círculos",
+      "explicacion": "Hasta ahora calculaste perímetro y área de un solo círculo a la vez. Aquí compararás dos círculos relacionados para descubrir un patrón importante: si el radio se multiplica por un número k, el perímetro se multiplica por ese mismo número k (porque depende de r una sola vez), pero el área se multiplica por k al cuadrado (porque depende de r²). Entender este patrón te permite predecir resultados sin repetir todo el cálculo, e incluso razonar al revés: si sabes cuánto cambió el área, puedes deducir cuánto cambió el radio.",
+      "formula": "Si el radio se multiplica por k: el perímetro se multiplica por k, y el área se multiplica por k².",
+      "ejemplos": [
+        "Círculo con radio 21 cm: A = 3.14×21² = 1384.74 cm². Si el radio se duplica a 42 cm (k=2): el área nueva = 1384.74×2² = 1384.74×4 = 5538.96 cm², que coincide con calcularla directo: 3.14×42² = 5538.96 cm².",
+        "Círculo con radio 21 cm: P = 2×3.14×21 = 131.88 cm. Si el radio se triplica a 63 cm (k=3): el perímetro nuevo = 131.88×3 = 395.64 cm, que coincide con 2×3.14×63 = 395.64 cm."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Si el radio de un círculo se duplica (se multiplica por 2), ¿por cuánto se multiplica su área?",
+          "opciones": [
+            "4",
+            "2",
+            "8",
+            "6"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "El área depende de r², así que si r se multiplica por 2, el área se multiplica por 2² = 4."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si el radio de un círculo se triplica, su perímetro también se triplica.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: el perímetro depende de r una sola vez (P = 2πr), así que crece en la misma proporción que el radio."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un círculo tiene radio de 21 cm y área de 1384.74 cm². Si su radio se duplica a 42 cm, su nueva área es ___ cm².",
+          "respuestaCorrecta": "5538.96",
+          "retroalimentacion": "Como el radio se duplicó (k=2), el área se multiplica por 2²=4: 1384.74×4 = 5538.96 cm² (igual a 3.14×42²)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un círculo con radio de 21 cm tiene un perímetro de 131.88 cm. Si el radio se triplica a 63 cm, ¿cuál es el nuevo perímetro?",
+          "opciones": [
+            "395.64 cm",
+            "263.76 cm",
+            "1186.92 cm",
+            "131.88 cm"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Como el radio se triplicó (k=3), el perímetro se multiplica por 3: 131.88×3 = 395.64 cm."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una alberca circular con radio de 30 m se amplía a una con radio de 90 m (el triple). Entonces su área se vuelve 9 veces mayor.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: k=3, así que el área se multiplica por 3²=9. Área original: 3.14×30²=2826 m²; área nueva: 3.14×90²=25434 m²; 25434÷2826=9."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La rueda de una bicicleta infantil tiene radio de 23 cm y perímetro de 144.44 cm. La rueda de una bicicleta de adulto tiene el doble de radio (46 cm). ¿Cuál es el perímetro de la rueda de adulto? ___ cm",
+          "respuestaCorrecta": "288.88",
+          "retroalimentacion": "Como el radio se duplicó, el perímetro también se duplica: 144.44×2 = 288.88 cm (igual a 2×3.14×46)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Si el área de un círculo se multiplicó por 9, ¿por cuánto se multiplicó su radio?",
+          "opciones": [
+            "3",
+            "9",
+            "4.5",
+            "6"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Si el área se multiplica por k², y k²=9, entonces k=3: el radio se multiplicó por 3."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si el área de un círculo se multiplicó por 4, entonces su radio se duplicó.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: k²=4 implica k=2, así que el radio se multiplicó por 2 (se duplicó)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una pizza individual tiene radio de 9 cm. Una pizza familiar tiene el triple de radio (27 cm). ¿Cuántas veces más grande es el área de la pizza familiar comparada con la individual?",
+          "opciones": [
+            "9 veces",
+            "3 veces",
+            "6 veces",
+            "27 veces"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Área individual: 3.14×9²=254.34 cm². Área familiar: 3.14×27²=2289.06 cm². 2289.06÷254.34=9, porque k=3 y k²=9."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cómo cambia el radio con cómo cambia el área del círculo.",
+          "columnaA": [
+            "Radio ×2",
+            "Radio ×3",
+            "Radio ×5"
+          ],
+          "columnaB": [
+            "Área ×25",
+            "Área ×4",
+            "Área ×9"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "Radio ×2 → Área ×2²=4. Radio ×3 → Área ×3²=9. Radio ×5 → Área ×5²=25."
+        }
+      ]
+    },
+    {
+      "numero": "10.7",
+      "nivelEtiqueta": "Nivel 3 de 3 · Reto",
+      "titulo": "Medios círculos: ventanas, mesas y canchas en forma de semicírculo",
+      "explicacion": "No todas las figuras redondas son círculos completos: muchas veces solo usarás la mitad, como en una ventana en forma de medio círculo, una mesa 'media luna' o el extremo redondeado de una cancha. El perímetro de un semicírculo NO es solo la mitad de la circunferencia: también debes sumar el diámetro, que es el lado recto que 'cierra' la figura. En cambio, el área del semicírculo sí es exactamente la mitad del área del círculo completo, porque solo tomas la mitad de la superficie.",
+      "formula": "Perímetro del semicírculo = (π × r) + 2r     |     Área del semicírculo = (π × r²) ÷ 2",
+      "ejemplos": [
+        "Una ventana semicircular tiene radio de 21 cm: media circunferencia = 3.14×21 = 65.94 cm; más el diámetro (42 cm) = 107.94 cm de perímetro total. Su área es (3.14×21²)÷2 = 1384.74÷2 = 692.37 cm².",
+        "Una cancha con forma de medio círculo tiene radio de 35 m: perímetro = 3.14×35 + 2×35 = 109.9+70 = 179.9 m; área = (3.14×35²)÷2 = 3846.5÷2 = 1923.25 m²."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cómo se calcula el perímetro de un semicírculo (medio círculo)?",
+          "opciones": [
+            "Media circunferencia + diámetro",
+            "La circunferencia completa",
+            "Media circunferencia + radio",
+            "La circunferencia entre 2"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "El perímetro del semicírculo suma la parte curva (media circunferencia) más el lado recto que la cierra (el diámetro)."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una ventana semicircular tiene radio de 21 cm. Su área es ___ cm² (usa A = (π×r²)÷2).",
+          "respuestaCorrecta": "692.37",
+          "retroalimentacion": "A = (3.14×21²)÷2 = 1384.74÷2 = 692.37 cm²."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El perímetro de esa misma ventana semicircular (radio 21 cm) es de 107.94 cm.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: media circunferencia = 3.14×21 = 65.94 cm, más el diámetro (42 cm) = 107.94 cm."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una mesa 'media luna' tiene radio de 27 cm. ¿Cuál es su área?",
+          "opciones": [
+            "1144.53 cm²",
+            "2289.06 cm²",
+            "572.27 cm²",
+            "84.78 cm²"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "A = (3.14×27²)÷2 = 2289.06÷2 = 1144.53 cm²."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Esa misma mesa 'media luna' (radio 27 cm) tiene un perímetro de ___ cm.",
+          "respuestaCorrecta": "138.78",
+          "retroalimentacion": "P = 3.14×27 + 2×27 = 84.78+54 = 138.78 cm."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un arco decorativo semicircular con radio de 29 cm tiene un perímetro de 149.06 cm.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: P = 3.14×29 + 2×29 = 91.06+58 = 149.06 cm."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una cancha deportiva con un extremo en forma de medio círculo de radio 35 m tiene un perímetro (del semicírculo) de:",
+          "opciones": [
+            "179.9 m",
+            "109.9 m",
+            "219.8 m",
+            "70 m"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P = 3.14×35 + 2×35 = 109.9+70 = 179.9 m."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Esa misma cancha semicircular (radio 35 m) tiene un área de ___ m².",
+          "respuestaCorrecta": "1923.25",
+          "retroalimentacion": "A = (3.14×35²)÷2 = 3846.5÷2 = 1923.25 m²."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una ventana en forma de medio círculo tiene un diámetro de 46 cm (radio 23 cm). ¿Cuál es su perímetro?",
+          "opciones": [
+            "118.22 cm",
+            "72.22 cm",
+            "144.44 cm",
+            "46 cm"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "r = 46÷2 = 23 cm; P = 3.14×23 + 2×23 = 72.22+46 = 118.22 cm."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada radio de un semicírculo con su área correspondiente.",
+          "columnaA": [
+            "r = 21 cm",
+            "r = 27 cm",
+            "r = 35 cm"
+          ],
+          "columnaB": [
+            "1144.53 cm²",
+            "1923.25 cm²",
+            "692.37 cm²"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "r=21 cm: A=692.37 cm². r=27 cm: A=1144.53 cm². r=35 cm: A=1923.25 cm²."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "llenar_frase",
+      "frase": "Una alberca circular con diámetro de 26 m tiene un perímetro de ___ m.",
+      "respuestaCorrecta": "81.64",
+      "retroalimentacion": "P = 3.14 × 26 = 81.64 m."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es el perímetro de una circunferencia con radio de 14 cm?",
+      "opciones": [
+        "87.92 cm",
+        "43.96 cm",
+        "196 cm",
+        "28 cm"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "P = 2 × 3.14 × 14 = 87.92 cm."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "El perímetro de una circunferencia con radio de 16 cm es 100.48 cm.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: P = 2 × 3.14 × 16 = 100.48 cm."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Una pizza tiene un radio de 11 cm. ¿Cuál es su área (A = π × r²)?",
+      "opciones": [
+        "379.94 cm²",
+        "69.08 cm²",
+        "121 cm²",
+        "242 cm²"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "A = 3.14 × 11² = 3.14 × 121 = 379.94 cm²."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "El área de un círculo con radio de 13 cm es ___ cm².",
+      "respuestaCorrecta": "530.66",
+      "retroalimentacion": "A = 3.14 × 13² = 3.14 × 169 = 530.66 cm²."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "El área de un círculo con radio de 14 cm es 615.44 cm².",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: A = 3.14 × 14² = 3.14 × 196 = 615.44 cm²."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Una tapa circular con radio de 16 cm tiene un área de ___ cm².",
+      "respuestaCorrecta": "803.84",
+      "retroalimentacion": "A = 3.14 × 16² = 3.14 × 256 = 803.84 cm²."
+    }
+  ]
+}

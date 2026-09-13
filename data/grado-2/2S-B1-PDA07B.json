@@ -1,0 +1,424 @@
+{
+  "id": "2S-B1-PDA07B",
+  "grado": "2°",
+  "trimestre": "2",
+  "numero": 20,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Forma, espacio y medida",
+  "titulo": "Ángulos y Congruencia de Triángulos 7.2",
+  "contenido": "Rectas y ángulos.",
+  "pda": "Determina la suma de los ángulos internos de un polígono y aplica los criterios de congruencia de triángulos para resolver problemas.",
+  "problematizacion": {
+    "contexto": "Un corredor entrena en una pista con forma de polígono regular trazada en el parque; en cada vértice gira exactamente el mismo ángulo antes de seguir al siguiente tramo recto, y al completar la vuelta suma todos esos giros.",
+    "pregunta": "Si en cada vértice el corredor gira 40°, ¿cuántos lados tiene el polígono de la pista?"
+  },
+  "subtemas": [
+    {
+      "numero": "7.5",
+      "titulo": "Ángulos exteriores de un polígono: giros en un recorrido poligonal",
+      "explicacion": "Hasta ahora solo calculaste ángulos interiores; esta lección introduce el ángulo exterior de un polígono, que se forma al prolongar un lado hacia afuera del vértice. A diferencia de la suma de ángulos interiores —que cambia según el número de lados—, la suma de los ángulos exteriores de cualquier polígono convexo siempre es 360°, sin importar cuántos lados tenga. También aprenderás que el ángulo interior y su ángulo exterior correspondiente son suplementarios (suman 180°), porque quedan sobre la misma línea recta.",
+      "formula": "Suma de ángulos exteriores = 360°   ·   Ángulo exterior (regular) = 360° ÷ n   ·   Ángulo interior + ángulo exterior = 180°",
+      "ejemplos": [
+        "Una pista de patinaje tiene forma de eneágono regular (9 lados). El ángulo exterior en cada vértice, que indica cuánto gira el patinador para seguir el contorno, mide 360°÷9 = 40°.",
+        "El ángulo interior de un polígono regular de 15 lados (pentadecágono) es 156°. Como interior y exterior son suplementarios, el ángulo exterior mide 180°−156°=24°; y si se suman los 15 ángulos exteriores: 15×24°=360°, se confirma la regla."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una pista de patinaje tiene forma de eneágono regular (9 lados). ¿Cuánto debe girar un patinador en cada vértice para seguir el contorno completo?",
+          "opciones": [
+            "40°",
+            "45°",
+            "36°",
+            "60°"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "El giro en cada vértice es el ángulo exterior: 360°÷9 = 40°."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La suma de los ángulos exteriores de cualquier polígono convexo (regular o no) siempre es 360°.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: sin importar el número de lados, la suma de los ángulos exteriores de un polígono convexo es siempre 360°."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En un decágono regular (10 lados), cada ángulo exterior mide ___°.",
+          "respuestaCorrecta": "36",
+          "retroalimentacion": "360° ÷ 10 = 36°."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Si el ángulo interior de un hexágono regular es 120°, ¿cuánto mide su ángulo exterior correspondiente?",
+          "opciones": [
+            "60°",
+            "45°",
+            "50°",
+            "72°"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Interior y exterior son suplementarios: 180°−120° = 60°."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En un polígono regular, el ángulo interior y su ángulo exterior correspondiente siempre suman 180°, porque forman un par lineal sobre la misma recta.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: al prolongar un lado, el ángulo interior y el exterior quedan sobre una línea recta y suman 180°."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un letrero con forma de pentágono regular (5 lados) tiene ángulos exteriores de ___° cada uno.",
+          "respuestaCorrecta": "72",
+          "retroalimentacion": "360° ÷ 5 = 72°."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una plaza tiene forma de dodecágono regular (12 lados). ¿Cuánto mide cada ángulo exterior?",
+          "opciones": [
+            "30°",
+            "45°",
+            "36°",
+            "40°"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "360° ÷ 12 = 30°."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En un octágono regular, el ángulo exterior mide 40°.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: el ángulo interior de un octágono regular es 135°, así que el exterior mide 180°−135°=45°, no 40°."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada polígono regular con la medida de su ángulo exterior.",
+          "columnaA": [
+            "Hexágono (6 lados)",
+            "Eneágono (9 lados)",
+            "Pentágono (5 lados)"
+          ],
+          "columnaB": [
+            "72°",
+            "40°",
+            "60°"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "Hexágono: 360°÷6=60°. Eneágono: 360°÷9=40°. Pentágono: 360°÷5=72°."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El diseño de una rotonda vial tiene forma de octágono regular; los carriles de entrada forman el ángulo exterior en cada esquina. ¿Cuánto mide ese ángulo?",
+          "opciones": [
+            "45°",
+            "40°",
+            "36°",
+            "60°"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "El ángulo interior del octágono regular es 135°, así que el exterior mide 180°−135°=45°."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 1 de 3 · Aplicación"
+    },
+    {
+      "numero": "7.6",
+      "titulo": "¿Cuántos lados tiene? Del ángulo exterior al número de lados",
+      "explicacion": "En la lección anterior calculaste el ángulo exterior conociendo el número de lados; ahora harás el proceso inverso: a partir del ángulo exterior (o del interior) vas a despejar cuántos lados tiene el polígono, usando la fórmula n = 360° ÷ ángulo exterior. Cuando el dato conocido es el ángulo interior, primero debes restarlo de 180° para obtener el exterior antes de dividir entre 360°. Esta habilidad es clave en diseño y construcción, donde a veces se conoce el ángulo de una pieza pero no cuántas de ellas forman la figura completa.",
+      "formula": "n = 360° ÷ ángulo exterior   ·   Ángulo exterior = 180° − ángulo interior",
+      "ejemplos": [
+        "Un domo tiene paneles con forma de polígono regular cuyo ángulo exterior mide 20°. El número de lados es n = 360°÷20° = 18 lados.",
+        "Una losa decorativa tiene ángulo interior de 168° en cada esquina. Primero se obtiene el exterior: 180°−168°=12°; luego n = 360°÷12° = 30 lados."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un domo geodésico usa paneles regulares con ángulo exterior de 24°. ¿Cuántos lados tiene el polígono de cada panel?",
+          "opciones": [
+            "15",
+            "12",
+            "18",
+            "20"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "n = 360° ÷ 24° = 15 lados."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un polígono regular tiene ángulo exterior de 20°. Tiene ___ lados.",
+          "respuestaCorrecta": "18",
+          "retroalimentacion": "n = 360° ÷ 20° = 18."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El ángulo interior de un polígono regular mide 170°. ¿Cuántos lados tiene?",
+          "opciones": [
+            "36",
+            "30",
+            "40",
+            "45"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Exterior = 180°−170°=10°; n = 360°÷10° = 36 lados."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un polígono regular con ángulo exterior de 15° tiene 24 lados.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 360° ÷ 15° = 24 lados."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un polígono regular tiene ángulo interior de 172°. Tiene ___ lados.",
+          "respuestaCorrecta": "45",
+          "retroalimentacion": "Exterior = 180°−172°=8°; n = 360°÷8° = 45."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una baldosa tiene forma de polígono regular con ángulo exterior de 18°. ¿Cuántos lados tiene?",
+          "opciones": [
+            "20",
+            "18",
+            "24",
+            "16"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "n = 360° ÷ 18° = 20 lados."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si el ángulo interior de un polígono regular es 174°, el polígono tiene 60 lados.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: exterior = 180°−174°=6°; n = 360°÷6° = 60 lados."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un ingeniero diseña la tapa de una alcantarilla con forma de polígono regular; su ángulo exterior es 12°. ¿Cuántos lados debe tener la pieza?",
+          "opciones": [
+            "30",
+            "24",
+            "36",
+            "40"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "n = 360° ÷ 12° = 30 lados."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada polígono regular (según su número de lados) con su ángulo exterior.",
+          "columnaA": [
+            "Polígono regular de 40 lados",
+            "Polígono regular de 72 lados",
+            "Polígono regular de 120 lados"
+          ],
+          "columnaB": [
+            "5°",
+            "9°",
+            "3°"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            2
+          ],
+          "retroalimentacion": "40 lados: 360°÷40=9°. 72 lados: 360°÷72=5°. 120 lados: 360°÷120=3°."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una fuente pública circular está bordeada con losas que forman un polígono regular; el ángulo interior en cada unión es 176°. ¿Cuántos lados tiene el polígono?",
+          "opciones": [
+            "90",
+            "80",
+            "72",
+            "60"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Exterior = 180°−176°=4°; n = 360°÷4° = 90 lados."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 2 de 3 · Aplicación avanzada"
+    },
+    {
+      "numero": "7.7",
+      "titulo": "Ángulos desconocidos en polígonos irregulares: ecuaciones con terrenos y canchas",
+      "explicacion": "Los subtemas anteriores trabajaron siempre con polígonos regulares (todos los ángulos iguales); en esta lección enfrentarás polígonos irregulares, donde los ángulos tienen distintas medidas y debes encontrar uno que falta usando la suma total (n−2)×180° menos los ángulos ya conocidos. También resolverás pequeñas ecuaciones donde un ángulo se representa con una expresión algebraica (como x, 2x o x+10°), sumando todas las expresiones e igualando al total del polígono para despejar la incógnita.",
+      "formula": "Ángulo faltante = (n − 2) × 180° − suma de ángulos conocidos",
+      "ejemplos": [
+        "Un terreno hexagonal irregular tiene cinco ángulos de 130°, 150°, 100°, 90° y 170°. Como la suma de ángulos internos de un hexágono es (6−2)×180°=720°, el sexto ángulo mide 720°−(130+150+100+90+170)=720°−640°=80°.",
+        "En un triángulo, los ángulos son x, x+20° y x+40°. Su suma debe ser 180°: x+(x+20)+(x+40)=180 → 3x+60=180 → 3x=120 → x=40°. Entonces los ángulos miden 40°, 60° y 80°."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un terreno tiene forma de pentágono irregular. Cuatro de sus ángulos miden 100°, 110°, 95° y 120°. ¿Cuánto mide el quinto ángulo?",
+          "opciones": [
+            "115°",
+            "110°",
+            "120°",
+            "105°"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Suma de un pentágono = 540°. Conocidos: 100+110+95+120=425°. Faltante = 540−425 = 115°."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un patio hexagonal irregular tiene ángulos de 130°, 150°, 100°, 90° y 170°. El sexto ángulo mide ___°.",
+          "respuestaCorrecta": "80",
+          "retroalimentacion": "Suma de un hexágono = 720°. Conocidos suman 640°. Faltante = 720−640 = 80°."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En un cuadrilátero irregular con ángulos de 80°, 95° y 100°, el cuarto ángulo mide 85°.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: suma del cuadrilátero = 360°; 80+95+100=275°; 360−275=85°."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En un triángulo, dos ángulos miden 3x y 2x, y el tercero mide 70°. Si 3x+2x+70=180, ¿cuánto vale x?",
+          "opciones": [
+            "22",
+            "20",
+            "24",
+            "18"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "5x+70=180 → 5x=110 → x=22."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En un cuadrilátero, tres ángulos son 90°, 90° y 2x°, y el cuarto es x°. Si 90+90+2x+x=360, x = ___.",
+          "respuestaCorrecta": "60",
+          "retroalimentacion": "180+3x=360 → 3x=180 → x=60."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un lote heptagonal (7 lados) irregular tiene seis ángulos que suman 750°. ¿Cuánto mide el séptimo ángulo?",
+          "opciones": [
+            "150°",
+            "140°",
+            "160°",
+            "130°"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Suma de un heptágono = 900°. Faltante = 900−750 = 150°."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si un octágono irregular tiene siete ángulos que suman 950°, el octavo ángulo mide 130°.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: suma del octágono = 1080°; 1080−950 = 130°."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una cancha con forma de pentágono irregular (usada en un torneo escolar) tiene ángulos de 118°, 95°, 102° y 108°. ¿Cuánto debe medir el quinto ángulo para que el diseño sea válido?",
+          "opciones": [
+            "117°",
+            "120°",
+            "110°",
+            "125°"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Suma del pentágono = 540°. Conocidos suman 423°. Faltante = 540−423 = 117°."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En un triángulo, los ángulos son x, x+10° y x+20°. Si x+(x+10)+(x+20)=180, x = ___.",
+          "respuestaCorrecta": "50",
+          "retroalimentacion": "3x+30=180 → 3x=150 → x=50."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada polígono irregular (con sus ángulos conocidos) con el ángulo que le falta.",
+          "columnaA": [
+            "Cuadrilátero con 3 ángulos: 85°, 95°, 100°",
+            "Pentágono con 4 ángulos: 100°, 110°, 90°, 130°",
+            "Hexágono con 5 ángulos: 100°, 120°, 110°, 130°, 140°"
+          ],
+          "columnaB": [
+            "120°",
+            "80°",
+            "110°"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "Cuadrilátero: 360−280=80°. Pentágono: 540−430=110°. Hexágono: 720−600=120°."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 3 de 3 · Reto"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué recta es perpendicular a un lado y pasa exactamente por su punto medio?",
+      "opciones": [
+        "Mediana",
+        "Altura",
+        "Mediatriz",
+        "Bisectriz"
+      ],
+      "respuestaCorrecta": 2,
+      "retroalimentacion": "Esa es la definición de la mediatriz."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "La altura de un triángulo siempre pasa por el punto medio del lado opuesto.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Falso: pasar por el punto medio es propio de la mediana; la altura solo debe ser perpendicular al lado opuesto (o a su prolongación)."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Dos triángulos comparten sus tres lados iguales. ¿Qué criterio demuestra su congruencia?",
+      "opciones": [
+        "LAL",
+        "ALA",
+        "LLL",
+        "No se puede determinar"
+      ],
+      "respuestaCorrecta": 2,
+      "retroalimentacion": "Tres lados iguales: criterio LLL."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "El criterio ALA requiere que el lado igual esté comprendido entre los dos ángulos iguales.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: si el lado no está entre esos ángulos, el criterio ALA no aplica."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Cuando dos triángulos comparten dos lados y el ángulo comprendido entre ellos, el criterio que se cumple es ___.",
+      "respuestaCorrecta": "LAL",
+      "retroalimentacion": "Dos lados y el ángulo entre ellos: criterio LAL."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Dos triángulos solo tienen sus tres ángulos iguales, sin ningún lado confirmado. ¿Qué se puede concluir?",
+      "opciones": [
+        "Son congruentes por AAA",
+        "No se puede determinar su congruencia con los criterios estudiados",
+        "Son congruentes por LLL",
+        "Son congruentes por ALA"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "Con solo los ángulos iguales, los triángulos son semejantes, pero no se puede asegurar la congruencia."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Dos triángulos con dos ángulos iguales y el lado entre ellos igual son congruentes por ALA.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: dos ángulos y el lado comprendido entre ellos cumplen el criterio ALA."
+    }
+  ]
+}

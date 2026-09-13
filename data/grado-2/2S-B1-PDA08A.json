@@ -1,0 +1,569 @@
+{
+  "id": "2S-B1-PDA08A",
+  "grado": "2°",
+  "trimestre": "2",
+  "numero": 22,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Forma, espacio y medida",
+  "titulo": "Semejanza y Cuerpos Geométricos 8.1",
+  "contenido": "Construcción y propiedades de las figuras planas y cuerpos.",
+  "pda": "Aplica la semejanza de triángulos y el Teorema de Thales, calcula áreas de figuras compuestas y clasifica cuerpos geométricos.",
+  "problematizacion": {
+    "contexto": "En el parque, Daniela quiere saber la altura de una palmera sin subirse a medirla. Nota que a cierta hora su propia sombra y la sombra de la palmera se pueden comparar usando triángulos semejantes, porque el sol forma el mismo ángulo con ambas.",
+    "pregunta": "Si Daniela mide 1.5 m y su sombra mide 2 m, mientras la sombra de la palmera mide 12 m, ¿qué altura tiene la palmera usando la semejanza de triángulos?"
+  },
+  "subtemas": [
+    {
+      "numero": "8.1",
+      "titulo": "Semejanza de triángulos",
+      "explicacion": "Dos triángulos son semejantes cuando tienen la misma forma, aunque no necesariamente el mismo tamaño: sus ángulos correspondientes son iguales y sus lados correspondientes son proporcionales entre sí. Para saber si dos triángulos son semejantes basta con comprobar que dos de sus ángulos sean iguales (criterio AA); el tercer ángulo será igual automáticamente, porque la suma de los ángulos internos de cualquier triángulo siempre es 180°. La razón de semejanza (k) es el número por el que se multiplica cada lado del triángulo original para obtener el lado correspondiente del triángulo semejante; se obtiene dividiendo un lado del triángulo grande entre su lado correspondiente del triángulo chico.",
+      "formula": "k = lado del triángulo grande ÷ lado correspondiente del triángulo chico",
+      "ejemplos": [
+        "El triángulo ABC tiene lados AB=3 cm, BC=4 cm y CA=5 cm. Es semejante al triángulo DEF con DE=6 cm, EF=8 cm y FD=10 cm. La razón de semejanza es k = 6÷3 = 2 (se confirma con 8÷4=2 y 10÷5=2).",
+        "Si dos triángulos son semejantes con k=2.5 y un lado del triángulo chico mide 8 cm, el lado correspondiente del triángulo grande mide 8×2.5=20 cm."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El triángulo ABC es semejante al triángulo DEF. AB=3 cm corresponde a DE=6 cm, BC=4 cm corresponde a EF=8 cm, y CA=5 cm corresponde a FD=10 cm. ¿Cuál es la razón de semejanza k (de ABC a DEF)?",
+          "opciones": [
+            "k=1.5",
+            "k=2",
+            "k=2.5",
+            "k=3"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "k = DE÷AB = 6÷3 = 2. Se confirma con EF÷BC=8÷4=2 y FD÷CA=10÷5=2."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En dos triángulos semejantes con razón de semejanza k=3, si un lado del triángulo chico mide 5 cm, el lado correspondiente del triángulo grande mide 15 cm.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "5 cm × k=3 = 15 cm. Correcto."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El triángulo PQR es semejante al triángulo XYZ con razón de semejanza k=2.5 (de PQR a XYZ). Si PQ=8 cm, entonces XY = ___ cm.",
+          "respuestaCorrecta": "20",
+          "retroalimentacion": "XY = PQ × k = 8 × 2.5 = 20 cm."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Dos triángulos semejantes tienen razón k=1.5 (del triángulo chico al grande). Si el lado correspondiente del triángulo grande mide 12 cm, ¿cuánto mide el lado del triángulo chico?",
+          "opciones": [
+            "6",
+            "8",
+            "9",
+            "10"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "El lado chico = 12 ÷ 1.5 = 8 cm."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si dos triángulos tienen sus tres ángulos internos correspondientes iguales, entonces son semejantes.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto. De hecho basta con que dos ángulos correspondientes sean iguales (criterio AA); el tercero será igual automáticamente."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un triángulo tiene lados 4 cm, 7 cm y 10 cm. Es semejante a otro triángulo con razón k=3. El lado más largo del triángulo grande mide ___ cm.",
+          "respuestaCorrecta": "30",
+          "retroalimentacion": "El lado más largo del triángulo chico es 10 cm; 10 × k=3 = 30 cm."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El triángulo ABC es semejante al triángulo A'B'C'. AB=6 cm y A'B'=18 cm. Si BC=9 cm, ¿cuánto mide B'C'?",
+          "opciones": [
+            "24",
+            "27",
+            "30",
+            "21"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "k = 18÷6 = 3. B'C' = 9 × 3 = 27 cm."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada par de lados correspondientes (triángulo chico → triángulo grande) con su razón de semejanza k.",
+          "columnaA": [
+            "Lado chico=4 cm, lado grande=8 cm",
+            "Lado chico=5 cm, lado grande=15 cm",
+            "Lado chico=6 cm, lado grande=9 cm"
+          ],
+          "columnaB": [
+            "1.5",
+            "2",
+            "3"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "4→8: k=2. 5→15: k=3. 6→9: k=1.5."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Dos triángulos semejantes con razón k=2 tienen un lado chico de 7 cm y su correspondiente lado grande mide 12 cm.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: con k=2, el lado grande debería medir 7×2=14 cm, no 12 cm."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En un plano a escala, un lado de un jardín triangular mide 9 cm; ese mismo lado mide 27 cm en el jardín real (el jardín real es semejante al del plano). ¿Cuál es la razón de semejanza k (del plano a la realidad)?",
+          "opciones": [
+            "2",
+            "2.5",
+            "3",
+            "3.5"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "k = 27÷9 = 3."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 1 de 4 · Introductorio"
+    },
+    {
+      "numero": "8.2",
+      "titulo": "Teorema de Thales",
+      "explicacion": "El Teorema de Thales dice que si dos o más rectas paralelas son cortadas por dos rectas transversales, los segmentos que se forman sobre una transversal son proporcionales a los segmentos correspondientes de la otra transversal. Si sobre una transversal se marcan los puntos A, B y C, y sobre la otra los puntos correspondientes A', B' y C' (de modo que AA', BB' y CC' sean paralelas entre sí), entonces se cumple que AB/BC = A'B'/B'C'. Este teorema es muy útil para calcular distancias o longitudes que no se pueden medir directamente, como el ancho de un río, el largo de un terreno irregular o la separación entre dos calles.",
+      "formula": "AB / BC = A'B' / B'C'",
+      "ejemplos": [
+        "Si AB=3 cm, BC=5 cm y A'B'=6 cm, entonces 3/5 = 6/B'C', por lo que B'C' = (5×6)÷3 = 10 cm.",
+        "Si AB=4 cm, BC=6 cm y B'C'=15 cm, entonces A'B' = (4×15)÷6 = 10 cm."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Tres rectas paralelas son cortadas por dos transversales. En la primera transversal, AB=3 cm y BC=5 cm; en la segunda, A'B'=6 cm. Según el Teorema de Thales, ¿cuánto mide B'C'?",
+          "opciones": [
+            "8",
+            "9",
+            "10",
+            "12"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "AB/BC = A'B'/B'C' → 3/5 = 6/B'C' → B'C' = (5×6)÷3 = 10 cm."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Según el Teorema de Thales, si AB=4 cm, BC=6 cm y A'B'=10 cm, entonces B'C'=15 cm.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "4/6 = 10/15 (ambas razones son 0.667), la proporción se cumple."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Tres rectas paralelas cortan dos transversales. AB=5 cm, BC=8 cm, B'C'=16 cm. Entonces A'B' = ___ cm.",
+          "respuestaCorrecta": "10",
+          "retroalimentacion": "A'B' = (AB×B'C')÷BC = (5×16)÷8 = 10 cm."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "AB=6 cm, BC=9 cm, A'B'=8 cm. ¿Cuánto mide B'C'?",
+          "opciones": [
+            "10",
+            "11",
+            "12",
+            "14"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "B'C' = (9×8)÷6 = 12 cm."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si AB=2 cm, BC=7 cm y A'B'=6 cm, entonces B'C'=21 cm.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "2/7 = 6/21 (ambas razones son 0.2857), la proporción se cumple."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "AB=8 cm, BC=12 cm, A'B'=6 cm. Entonces B'C' = ___ cm.",
+          "respuestaCorrecta": "9",
+          "retroalimentacion": "B'C' = (12×6)÷8 = 9 cm."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "AB=3 cm, BC=4 cm, B'C'=12 cm. ¿Cuánto mide A'B'?",
+          "opciones": [
+            "6",
+            "8",
+            "9",
+            "10"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "A'B' = (3×12)÷4 = 9 cm."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada conjunto de segmentos (AB, BC, A'B') con el valor correcto de B'C', según el Teorema de Thales.",
+          "columnaA": [
+            "AB=10 cm, BC=15 cm, A'B'=8 cm",
+            "AB=4 cm, BC=10 cm, A'B'=6 cm",
+            "AB=3 cm, BC=7 cm, A'B'=6 cm"
+          ],
+          "columnaB": [
+            "14",
+            "12",
+            "15"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "10,15,8 → B'C'=12. 4,10,6 → B'C'=15. 3,7,6 → B'C'=14."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si AB=6 cm, BC=10 cm y B'C'=15 cm, entonces A'B'=9 cm.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "6/10 = 9/15 (ambas razones son 0.6), la proporción se cumple."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En un terreno, dos calles paralelas cortan dos avenidas. Sobre una avenida los segmentos miden AB=4 cm y BC=10 cm; sobre la otra, A'B'=6 cm. Aplicando el Teorema de Thales, ¿cuánto mide B'C'?",
+          "opciones": [
+            "12",
+            "13",
+            "15",
+            "18"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "B'C' = (10×6)÷4 = 15 cm."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 2 de 4 · Intermedio"
+    },
+    {
+      "numero": "8.3",
+      "titulo": "Áreas de polígonos y figuras compuestas",
+      "explicacion": "Cada polígono tiene su propia fórmula de área: el triángulo se calcula como (base × altura) ÷ 2; el rectángulo y el romboide (o paralelogramo), como base × altura; y el trapecio, como ((base mayor + base menor) × altura) ÷ 2. Muchas figuras que aparecen en la vida real —como un terreno o el plano de una casa— no son un solo polígono simple, sino una figura compuesta: la estrategia para calcular su área es dividirla en triángulos, rectángulos, romboides o trapecios más simples, calcular el área de cada uno por separado, y después sumarlas (o restarlas, si una parte se recorta de la figura principal, como en una forma de 'L').",
+      "formula": "Triángulo=(b×h)÷2 | Rectángulo=b×h | Romboide=b×h | Trapecio=((B+b)×h)÷2",
+      "ejemplos": [
+        "Un trapecio con base mayor 10 cm, base menor 6 cm y altura 4 cm tiene un área de ((10+6)×4)÷2 = 32 cm².",
+        "Un terreno en forma de 'L' se calcula restando un rectángulo pequeño de 5×3 m de uno grande de 12×8 m: 96−15=81 m²."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el área de un triángulo con base 8 cm y altura 5 cm?",
+          "opciones": [
+            "18",
+            "20",
+            "22",
+            "24"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Área = (8×5)÷2 = 20 cm²."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El área de un romboide con base 6 cm y altura 9 cm es 54 cm².",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Área = 6×9 = 54 cm²."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un trapecio tiene base mayor 10 cm, base menor 6 cm y altura 4 cm. Su área es ___ cm².",
+          "respuestaCorrecta": "32",
+          "retroalimentacion": "Área = ((10+6)×4)÷2 = 32 cm²."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un rectángulo mide 12 cm de base y 7 cm de altura. ¿Cuál es su área?",
+          "opciones": [
+            "77",
+            "80",
+            "84",
+            "91"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Área = 12×7 = 84 cm²."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El área de un triángulo con base 14 cm y altura 6 cm es 42 cm².",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Área = (14×6)÷2 = 42 cm²."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un terreno tiene forma de rectángulo de 10 m de base por 6 m de altura, con un triángulo agregado de 10 m de base y 4 m de altura sobre uno de sus lados. El área total del terreno es ___ m².",
+          "respuestaCorrecta": "80",
+          "retroalimentacion": "Rectángulo: 10×6=60 m². Triángulo: (10×4)÷2=20 m². Total: 60+20=80 m²."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un terreno en forma de 'L' se forma con un rectángulo grande de 12 m × 8 m al que se le resta un rectángulo pequeño de 5 m × 3 m en una esquina. ¿Cuál es el área del terreno?",
+          "opciones": [
+            "79",
+            "81",
+            "83",
+            "85"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "96 m² (rectángulo grande) − 15 m² (rectángulo recortado) = 81 m²."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada figura con su área correcta.",
+          "columnaA": [
+            "Triángulo: base=9 cm, altura=6 cm",
+            "Trapecio: base mayor=12 cm, base menor=8 cm, altura=5 cm",
+            "Romboide: base=7 cm, altura=8 cm"
+          ],
+          "columnaB": [
+            "56",
+            "27",
+            "50"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "Triángulo: (9×6)÷2=27. Trapecio: ((12+8)×5)÷2=50. Romboide: 7×8=56."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una figura compuesta por un rectángulo de 8 cm × 5 cm y un triángulo de base 8 cm y altura 3 cm sobre uno de sus lados tiene un área total de 52 cm².",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Rectángulo: 8×5=40 cm². Triángulo: (8×3)÷2=12 cm². Total: 40+12=52 cm²."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un trapecio tiene base mayor 15 cm, base menor 9 cm y altura 6 cm. ¿Cuál es su área?",
+          "opciones": [
+            "66",
+            "70",
+            "72",
+            "78"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Área = ((15+9)×6)÷2 = 72 cm²."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 3 de 4 · Avanzado"
+    },
+    {
+      "numero": "8.4",
+      "titulo": "Cuerpos geométricos: prismas y pirámides",
+      "explicacion": "Los prismas y las pirámides son cuerpos geométricos formados por caras planas. Un prisma tiene dos bases iguales y paralelas entre sí (por ejemplo, dos triángulos, dos cuadrados o dos pentágonos), unidas por caras laterales que siempre son rectángulos; se nombra según la forma de su base: prisma triangular, prisma cuadrangular, prisma pentagonal, prisma hexagonal, etc. Una pirámide, en cambio, tiene una sola base y caras laterales triangulares que convergen todas en un mismo punto llamado vértice o ápice; también se nombra según su base: pirámide triangular, pirámide cuadrangular, etc. Para cualquier cuerpo geométrico convexo se cumple la relación de Euler: el número de Caras más el número de Vértices es igual al número de Aristas más 2 (C + V = A + 2). Esta relación sirve para comprobar si un cuerpo está bien construido o para calcular un dato que falte.",
+      "formula": "C + V = A + 2",
+      "ejemplos": [
+        "Un prisma cuadrangular tiene 6 caras, 8 vértices y 12 aristas: 6+8=14 y 12+2=14, la relación de Euler se cumple.",
+        "Una pirámide pentagonal tiene una base de 5 lados: 6 caras (5 triángulos + 1 base), 6 vértices (5 de la base + el ápice) y 10 aristas (5 de la base + 5 laterales); 6+6=12=10+2."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un cuerpo geométrico tiene dos bases triangulares iguales y paralelas, unidas por 3 caras laterales rectangulares. ¿Cómo se llama?",
+          "opciones": [
+            "Pirámide triangular",
+            "Prisma triangular",
+            "Prisma cuadrangular",
+            "Pirámide cuadrangular"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Tiene dos bases (no una) y caras laterales rectangulares (no triangulares): es un prisma triangular."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un prisma cuadrangular tiene 6 caras, 8 vértices y 12 aristas.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: C+V=6+8=14=A+2=12+2=14."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una pirámide pentagonal tiene 6 caras y 6 vértices. Según la relación de Euler (C+V=A+2), tiene ___ aristas.",
+          "respuestaCorrecta": "10",
+          "retroalimentacion": "C+V=6+6=12=A+2, entonces A=12−2=10."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuántas caras tiene un prisma hexagonal?",
+          "opciones": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "2 bases hexagonales + 6 caras laterales rectangulares = 8 caras."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una pirámide cuadrangular tiene 5 caras, 5 vértices y 8 aristas.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: C+V=5+5=10=A+2=8+2=10."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un prisma pentagonal tiene 7 caras y 15 aristas. Según la relación de Euler, tiene ___ vértices.",
+          "respuestaCorrecta": "10",
+          "retroalimentacion": "C+V=A+2 → 7+V=15+2=17 → V=17−7=10."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un cuerpo tiene una sola base cuadrada y 4 caras laterales triangulares que convergen en un vértice. ¿Cómo se llama?",
+          "opciones": [
+            "Prisma cuadrangular",
+            "Pirámide triangular",
+            "Pirámide cuadrangular",
+            "Prisma pentagonal"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Una sola base (cuadrada) y caras laterales triangulares que convergen en un ápice: es una pirámide cuadrangular."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada cuerpo geométrico con su número de vértices.",
+          "columnaA": [
+            "Prisma triangular",
+            "Pirámide cuadrangular",
+            "Prisma hexagonal"
+          ],
+          "columnaB": [
+            "12",
+            "5",
+            "6"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "Prisma triangular: 6 vértices. Pirámide cuadrangular: 5 vértices. Prisma hexagonal: 12 vértices."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una pirámide triangular (tetraedro) tiene 4 caras, 4 vértices y 6 aristas, por lo que cumple la relación de Euler.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: C+V=4+4=8=A+2=6+2=8."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un cuerpo geométrico tiene 8 caras y 12 vértices. Según la relación de Euler (C+V=A+2), ¿cuántas aristas tiene?",
+          "opciones": [
+            "16",
+            "18",
+            "20",
+            "22"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "C+V=8+12=20=A+2 → A=20−2=18."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 4 de 4 · Síntesis"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Dos triángulos semejantes tienen razón k=2 (del chico al grande). Si el lado chico mide 9 cm, ¿cuánto mide el lado grande correspondiente?",
+      "opciones": [
+        "16",
+        "18",
+        "20",
+        "22"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "9 × 2 = 18 cm."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Si dos triángulos semejantes tienen razón k=4 y un lado del triángulo chico mide 3 cm, el lado correspondiente del grande mide 12 cm.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "3 × 4 = 12 cm."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "El triángulo MNP es semejante a M'N'P' con razón k=2.5 (de MNP a M'N'P'). Si MN=6 cm, entonces M'N' = ___ cm.",
+      "respuestaCorrecta": "15",
+      "retroalimentacion": "M'N' = 6 × 2.5 = 15 cm."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Dos triángulos semejantes tienen razón k=3 (chico a grande). Si el lado del triángulo grande mide 21 cm, ¿cuánto mide el lado correspondiente del chico?",
+      "opciones": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "21 ÷ 3 = 7 cm."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Si dos triángulos tienen todos sus ángulos correspondientes iguales, son semejantes aunque sus lados midan diferente.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: la semejanza depende de los ángulos iguales y los lados proporcionales, no de que midan lo mismo."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada par de lados correspondientes (triángulo chico → triángulo grande) con su razón de semejanza k.",
+      "columnaA": [
+        "3 cm → 12 cm",
+        "5 cm → 10 cm",
+        "4 cm → 14 cm"
+      ],
+      "columnaB": [
+        "2",
+        "3.5",
+        "4"
+      ],
+      "parejasCorrectas": [
+        2,
+        0,
+        1
+      ],
+      "retroalimentacion": "3→12: k=4. 5→10: k=2. 4→14: k=3.5."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "AB=5 cm, BC=7 cm, A'B'=10 cm. Según el Teorema de Thales, ¿cuánto mide B'C'?",
+      "opciones": [
+        "12",
+        "13",
+        "14",
+        "16"
+      ],
+      "respuestaCorrecta": 2,
+      "retroalimentacion": "B'C' = (7×10)÷5 = 14 cm."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Si AB=9 cm, BC=12 cm y A'B'=6 cm, entonces B'C'=8 cm.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "9/12=0.75 y 6/8=0.75, la proporción se cumple."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "AB=4 cm, BC=9 cm, B'C'=18 cm. Entonces A'B' = ___ cm.",
+      "respuestaCorrecta": "8",
+      "retroalimentacion": "A'B' = (4×18)÷9 = 8 cm."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "AB=7 cm, BC=10 cm, A'B'=14 cm. ¿Cuánto mide B'C'?",
+      "opciones": [
+        "18",
+        "20",
+        "22",
+        "24"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "B'C' = (10×14)÷7 = 20 cm."
+    }
+  ]
+}

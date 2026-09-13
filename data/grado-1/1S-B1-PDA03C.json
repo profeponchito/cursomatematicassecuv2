@@ -1,0 +1,446 @@
+{
+  "id": "1S-B1-PDA03C",
+  "grado": "1°",
+  "trimestre": "1",
+  "numero": 9,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Extensión del significado de las operaciones y sus relaciones inversas 3.3",
+  "contenido": "Extensión del significado de las operaciones y sus relaciones inversas.",
+  "pda": "Reconoce el significado de las cuatro operaciones básicas al operar números con signo. Comprueba las propiedades conmutativa, asociativa y distributiva, e identifica y aplica la jerarquía de operaciones.",
+  "problematizacion": {
+    "contexto": "Alejandro revisa el estado de cuenta de su alcancía digital: al inicio del mes tenía cierta cantidad guardada, depositó $45.50, retiró $20.75 para el cine y ahora el saldo final marca $89.75. No recuerda cuánto tenía guardado al principio del mes.",
+    "pregunta": "Usando una operación inversa, ¿cuánto dinero tenía Alejandro guardado al inicio del mes?"
+  },
+  "subtemas": [
+    {
+      "numero": "3.8",
+      "nivelEtiqueta": "Nivel 1 de 3 · Reto avanzado",
+      "titulo": "Operaciones inversas: encontrar un valor desconocido",
+      "explicacion": "Cada operación tiene una operación inversa que la \"deshace\": la suma se deshace con la resta y viceversa, y la multiplicación se deshace con la división y viceversa. Usando esta idea se puede encontrar un valor desconocido (llamado x) cuando se conoce el resultado de una operación, dando el primer paso hacia el despeje de ecuaciones simples con números con signo.",
+      "formula": "Si a + x = b, entonces x = b − a  ;  Si a × x = b, entonces x = b ÷ a",
+      "ejemplos": [
+        "Un submarino desciende 25 m más y queda a -68 m: x + (-25) = -68, entonces x = -68 - (-25) = -43 m (posición inicial).",
+        "Si (-6) × x = 42, entonces x = 42 ÷ (-6) = -7."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si x + (-18) = -30, entonces x = ___.",
+          "respuestaCorrecta": "-12",
+          "retroalimentacion": "x = -30 - (-18) = -30 + 18 = -12."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si (-7) × x = 56, entonces x = ___.",
+          "respuestaCorrecta": "-8",
+          "retroalimentacion": "x = 56 ÷ (-7) = -8."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un buzo desciende desde una posición x, luego sube 12 m y queda a -20 m respecto a la superficie: x + 12 = -20. ¿Cuál era su posición antes de subir?",
+          "opciones": [
+            "-32 m",
+            "8 m",
+            "-8 m",
+            "32 m"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "x = -20 - 12 = -32 m."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si x - 9 = -15, entonces x = -6.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: x = -15 + 9 = -6."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si (-4) × x = -36, entonces x = -9.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: x = -36 ÷ (-4) = 9, no -9 (signos iguales dan resultado positivo)."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una empresa repartió una pérdida total x entre 6 socios en partes iguales; a cada socio le tocó -$450, es decir x ÷ 6 = -450. La pérdida total x fue $___.",
+          "respuestaCorrecta": "-2700",
+          "retroalimentacion": "x = -450 × 6 = -2700."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el valor de x si -3 + x = 11?",
+          "opciones": [
+            "14",
+            "8",
+            "-14",
+            "-8"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "x = 11 - (-3) = 14."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada ecuación con el valor de x que la resuelve.",
+          "columnaA": [
+            "x + 7 = -5",
+            "x × (-2) = 18",
+            "x - (-4) = 10"
+          ],
+          "columnaB": [
+            "6",
+            "-9",
+            "-12"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "x+7=-5 → x=-12; x×(-2)=18 → x=-9; x-(-4)=10 → x=6."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un termómetro marcaba una temperatura inicial x, bajó 15 grados por una tormenta y quedó en -6°C: x + (-15) = -6. La temperatura inicial fue ___ °C.",
+          "respuestaCorrecta": "9",
+          "retroalimentacion": "x = -6 - (-15) = -6 + 15 = 9°C."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si x ÷ (-5) = -12, entonces x = 60.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: x = -12 × (-5) = 60."
+        }
+      ]
+    },
+    {
+      "numero": "3.9",
+      "nivelEtiqueta": "Nivel 2 de 3 · Integración",
+      "titulo": "Integración: presupuestos y balances con decimales",
+      "explicacion": "Esta lección integra todo lo aprendido en el PDA (jerarquía de operaciones, propiedad distributiva y operaciones inversas), pero ahora con números decimales, como ocurre con el dinero (centavos) o la temperatura (décimas de grado). Los problemas combinan varios pasos y contextos reales de negocios, ciencia y deporte, exigiendo mayor precisión en los cálculos.",
+      "ejemplos": [
+        "Un comerciante tenía -$120.50, vendió $310.75 y pagó una deuda de $85.25: -120.50 + 310.75 - 85.25 = $105.00.",
+        "Una temperatura de -6.5°C sube 9.2°C y luego baja 4.7°C: -6.5 + 9.2 - 4.7 = -2.0°C."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un comerciante tenía un saldo de -$120.50 en su cuenta. Vendió mercancía por $310.75 y pagó una deuda de $85.25. Su saldo final es $___.",
+          "respuestaCorrecta": "105",
+          "retroalimentacion": "-120.50+310.75-85.25=105.00."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "La temperatura en una ciudad fue de -6.5°C en la madrugada, subió 9.2°C hacia el mediodía y bajó 4.7°C por la tarde. ¿Cuál fue la temperatura final?",
+          "opciones": [
+            "-2.0°C",
+            "2.0°C",
+            "-1.0°C",
+            "-20.4°C"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "-6.5+9.2-4.7=-2.0°C."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un equipo de futbol tiene una diferencia de goles de -3 por partido durante 4 partidos, y luego un partido con diferencia de +11. Usando (4 × (-3)) + 11, su diferencia total de goles es ___.",
+          "respuestaCorrecta": "-1",
+          "retroalimentacion": "4×(-3)=-12; -12+11=-1."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si una tienda pierde $45.80 diarios durante 5 días y luego gana $210.50 en un solo día, su balance total es +$1.50.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: 5×(-45.80)=-229.00; -229.00+210.50=-$18.50, no +$1.50."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El nivel de una alberca cambia -2.5 cm por hora durante 6 horas por evaporación, y luego sube 20 cm de golpe por la lluvia. ¿Cuál es el cambio neto de nivel?",
+          "opciones": [
+            "5 cm",
+            "-5 cm",
+            "35 cm",
+            "-35 cm"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "6×(-2.5)=-15; -15+20=5 cm."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Aplica la propiedad distributiva y la jerarquía: 3 × (-8.5 + 2.5) - 6 = ___.",
+          "respuestaCorrecta": "-24",
+          "retroalimentacion": "-8.5+2.5=-6; 3×(-6)=-18; -18-6=-24."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación con su resultado.",
+          "columnaA": [
+            "Saldo: -75.50 + 120.25 - 30",
+            "Temperatura: -4.2 + (-3.8) × 2",
+            "Puntaje: 5 × (-6) + 40"
+          ],
+          "columnaB": [
+            "10",
+            "-11.8",
+            "14.75"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "-75.50+120.25-30=14.75; -4.2+(-3.8×2)=-4.2-7.6=-11.8; 5×(-6)+40=-30+40=10."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un corredor mejora su tiempo -0.8 segundos en cada una de 5 carreras, pero en la última tiene una penalización de +2.5 segundos. ¿Cuál es el cambio neto en su tiempo? Usa 5×(-0.8)+2.5.",
+          "opciones": [
+            "-1.5 s",
+            "1.5 s",
+            "-6.5 s",
+            "-4.0 s"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "5×(-0.8)=-4.0; -4.0+2.5=-1.5 s."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una empresa repartió una ganancia entre 4 socios; a cada uno le tocaron $312.75. Si se resta un gasto de $50.25 por persona, ¿cuánto le queda a cada socio? $___.",
+          "respuestaCorrecta": "262.5",
+          "retroalimentacion": "312.75-50.25=262.50."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El resultado de [(-9.6) ÷ 3] + [(-2) × 4.5] es -12.2.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: (-9.6)÷3=-3.2; (-2)×4.5=-9; -3.2+(-9)=-12.2."
+        }
+      ]
+    },
+    {
+      "numero": "3.10",
+      "nivelEtiqueta": "Nivel 3 de 3 · Dominio",
+      "titulo": "Dominio: retos integradores de operaciones con signo",
+      "explicacion": "Este reto final combina todo el PDA: las cuatro operaciones con signo, la jerarquía con paréntesis y corchetes anidados, las propiedades conmutativa, asociativa y distributiva, y las operaciones inversas para encontrar valores desconocidos, todo en problemas de varios pasos y contextos variados (negocios, ciencia y deporte) con números menos \"redondos\".",
+      "ejemplos": [
+        "-5 × [(-12 + 27) ÷ 3] + (-8): primero (-12+27)=15, 15÷3=5, -5×5=-25, -25+(-8)=-33.",
+        "6 × (-45.5 + 20) - [(-90) ÷ (-3)]: -45.5+20=-25.5, 6×(-25.5)=-153, (-90)÷(-3)=30, -153-30=-183."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Resuelve: -5 × [(-12 + 27) ÷ 3] + (-8)",
+          "opciones": [
+            "-33",
+            "33",
+            "-17",
+            "-41"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(-12+27)=15; 15÷3=5; -5×5=-25; -25+(-8)=-33."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "6 × (-45.5 + 20) - [(-90) ÷ (-3)] = ___.",
+          "respuestaCorrecta": "-183",
+          "retroalimentacion": "-45.5+20=-25.5; 6×(-25.5)=-153; (-90)÷(-3)=30; -153-30=-183."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un alpinista sube [(-15) + 40] metros en la mañana, y luego desciende el triple de esa cantidad más 10 m extra por una tormenta. Su posición final relativa al inicio, calculada como [(-15)+40] - (3×[(-15)+40] + 10), es -60 m.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: (-15+40)=25; 3×25=75, +10=85; 25-85=-60 m."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una fábrica tiene una pérdida de $38.40 en cada uno de 5 días y una ganancia de $126.75 repartida en 3 días iguales. ¿Cuál es el balance total? Usa 5×(-38.40) + 3×(126.75÷3).",
+          "opciones": [
+            "-$65.25",
+            "$65.25",
+            "-$318.75",
+            "-$192.00"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "5×(-38.40)=-192.00; 126.75÷3=42.25, ×3=126.75; -192.00+126.75=-$65.25."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Aplica la propiedad distributiva y luego la jerarquía: (-7) × [8 + (-3)] ÷ (-5) = ___.",
+          "respuestaCorrecta": "7",
+          "retroalimentacion": "8+(-3)=5; (-7)×5=-35; -35÷(-5)=7."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada expresión con su resultado.",
+          "columnaA": [
+            "[(-6) × 9] + [(-45) ÷ (-9)]",
+            "(-3) × [(-14) + 6] - 7",
+            "[24 ÷ (-4)] × [(-3) + (-2)]"
+          ],
+          "columnaB": [
+            "30",
+            "-49",
+            "17"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "[(-6)×9]+[(-45)÷(-9)]=-54+5=-49; (-3)×[(-14)+6]-7=(-3)×(-8)-7=24-7=17; [24÷(-4)]×[(-3)+(-2)]=(-6)×(-5)=30."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si x × (-4) + 10 = -22, entonces x = 8.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: x×(-4)=-22-10=-32; x=-32÷(-4)=8."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una temperatura inicial x baja 12.5°C, y luego se multiplica por -2, dando -19°C: (x - 12.5) × (-2) = -19. La temperatura inicial x fue ___ °C.",
+          "respuestaCorrecta": "22",
+          "retroalimentacion": "x-12.5=-19÷(-2)=9.5; x=9.5+12.5=22°C."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un equipo de basquetbol anota en 4 cuartos las siguientes diferencias de puntos: -8, 15, -3 y x. Si la diferencia total del partido fue +11, ¿cuál fue la diferencia del cuarto cuarto x? Usa -8+15-3+x=11.",
+          "opciones": [
+            "7",
+            "-7",
+            "15",
+            "4"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "-8+15-3=4; x=11-4=7."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El resultado de aplicar la propiedad distributiva y la jerarquía en -2 × [(-9 + 4) × 3] - 6 es 24.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: (-9+4)=-5; -5×3=-15; -2×(-15)=30; 30-6=24."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada operación con su resultado.",
+      "columnaA": [
+        "(-14) + 5",
+        "(-3) × (-9)",
+        "(18) ÷ (-3)"
+      ],
+      "columnaB": [
+        "27",
+        "-6",
+        "-9"
+      ],
+      "parejasCorrectas": [
+        2,
+        0,
+        1
+      ],
+      "retroalimentacion": "(-14) + 5 = -9; (-3) × (-9) = 27; (18) ÷ (-3) = -6."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "En la expresión 8 - 5 × (-3), el resultado es 23.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Primero la multiplicación: 5×(-3)=-15; luego 8-(-15)=23."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "(-42) ÷ (-7) = ___.",
+      "respuestaCorrecta": "6",
+      "retroalimentacion": "Signos iguales dan resultado positivo: (-42)÷(-7)=6."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Resuelve: (-8) × (5)",
+      "opciones": [
+        "-13",
+        "-40",
+        "3",
+        "40"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "(-8) × (5) = -40. Signos diferentes dan negativo."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada expresión con su resultado.",
+      "columnaA": [
+        "(-17) + 6",
+        "(-4) × (-8)",
+        "(20) ÷ (-5)"
+      ],
+      "columnaB": [
+        "32",
+        "-4",
+        "-11"
+      ],
+      "parejasCorrectas": [
+        2,
+        0,
+        1
+      ],
+      "retroalimentacion": "(-17)+6=-11; (-4)×(-8)=32; 20÷(-5)=-4."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "(-6) - (-9) = 3.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Restar un negativo equivale a sumar: -6 - (-9) = -6 + 9 = 3."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "(-9) + (-4) = ___.",
+      "respuestaCorrecta": "-13",
+      "retroalimentacion": "Mismo signo: se suman los valores absolutos y se conserva el signo negativo: -13."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es el resultado de (-36) ÷ 6?",
+      "opciones": [
+        "-6",
+        "6",
+        "-30",
+        "30"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "Signos diferentes dan resultado negativo: (-36) ÷ 6 = -6."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "En la expresión 5 + 2 × (-3), el resultado es -1.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: primero 2×(-3)=-6, luego 5+(-6)=-1."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada operación con su resultado.",
+      "columnaA": [
+        "(-9) + (-4)",
+        "(-36) ÷ 6",
+        "5 + 2 × (-3)"
+      ],
+      "columnaB": [
+        "-1",
+        "-13",
+        "-6"
+      ],
+      "parejasCorrectas": [
+        1,
+        2,
+        0
+      ],
+      "retroalimentacion": "(-9)+(-4)=-13; (-36)÷6=-6; 5+2×(-3)=-1."
+    }
+  ]
+}

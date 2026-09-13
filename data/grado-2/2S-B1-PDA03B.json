@@ -1,0 +1,456 @@
+{
+  "id": "2S-B1-PDA03B",
+  "grado": "2°",
+  "trimestre": "1",
+  "numero": 8,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Resolución de problemas de proporcionalidad directa 3.2",
+  "contenido": "Resolución de problemas de proporcionalidad directa.",
+  "pda": "Resuelve problemas de proporcionalidad directa mediante el valor unitario, la constante de proporcionalidad y otros procedimientos.",
+  "problematizacion": {
+    "contexto": "Dos compañías de internet ofrecen planes distintos para una familia: la compañía A cobra $2.50 por cada gigabyte que se use, mientras que la compañía B cobra una cuota fija de $150 al mes sin importar cuántos gigabytes se gasten.",
+    "pregunta": "¿Cuál de los dos planes representa una proporcionalidad directa entre gigabytes usados y costo, y cuál no, y por qué?"
+  },
+  "subtemas": [
+    {
+      "numero": "3.5",
+      "nivelEtiqueta": "Nivel 1 de 3 · Aplicación",
+      "titulo": "Precios con decimales: compras reales en la tienda",
+      "explicacion": "Hasta ahora los precios y cantidades eran números enteros y 'redondos'. En la vida real, los tickets de compra tienen centavos y las básculas marcan kilogramos con decimales (como 2.5 kg o 3.6 kg). En esta lección aplicarás la misma idea de constante de proporcionalidad (k = y ÷ x), pero calculando y redondeando correctamente cuando aparecen decimales.",
+      "formula": "y = k · x  (k puede ser un número decimal)",
+      "ejemplos": [
+        "3 kg de jitomate cuestan $51.60. Entonces k = 51.60 ÷ 3 = $17.20 por kg. Para 5.5 kg: y = 17.20 × 5.5 = $94.60.",
+        "2.5 litros de leche cuestan $46.25. Entonces k = 46.25 ÷ 2.5 = $18.50 por litro. Para 4 litros: y = 18.50 × 4 = $74.00."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En la tienda, 4 kg de queso panela cuestan $198.00. ¿Cuánto cuestan 2.5 kg?",
+          "opciones": [
+            "$118.75",
+            "$123.75",
+            "$128.50",
+            "$115.00"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "k = 198.00 ÷ 4 = $49.50 por kg. 2.5 × 49.50 = $123.75."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si 1.5 kg de café cuestan $97.50, entonces 4 kg cuestan $___.",
+          "respuestaCorrecta": "260",
+          "retroalimentacion": "k = 97.50 ÷ 1.5 = $65 por kg. 4 × 65 = $260."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si 3.2 litros de gasolina cuestan $76.80, entonces 5 litros cuestan $122.00.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "k = 76.80 ÷ 3.2 = $24 por litro. 5 × 24 = $120.00, no $122.00."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un boleto de transporte escolar cuesta según la distancia recorrida: 2.5 km cuestan $11.25. ¿Cuál es el costo por km (k)?",
+          "opciones": [
+            "$3.75",
+            "$4.50",
+            "$5.25",
+            "$4.75"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "k = 11.25 ÷ 2.5 = $4.50 por km."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si 5.5 kg de naranjas cuestan $82.50, entonces 4 kg cuestan $___.",
+          "respuestaCorrecta": "60",
+          "retroalimentacion": "k = 82.50 ÷ 5.5 = $15 por kg. 4 × 15 = $60."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En la papelería, 3 libretas de cuadro grande cuestan $85.50. ¿Cuánto cuestan 7 libretas?",
+          "opciones": [
+            "$195.00",
+            "$199.50",
+            "$205.50",
+            "$190.50"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "k = 85.50 ÷ 3 = $28.50 por libreta. 7 × 28.50 = $199.50."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si 2 kg de manzanas orgánicas cuestan $63.80, entonces 3.5 kg cuestan $111.65.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "k = 63.80 ÷ 2 = $31.90 por kg. 3.5 × 31.90 = $111.65."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada compra con su precio por unidad (k).",
+          "columnaA": [
+            "4.5 kg de pollo cuestan $166.50",
+            "2.5 L de aceite cuestan $87.50",
+            "3.6 kg de arroz cuestan $64.80"
+          ],
+          "columnaB": [
+            "$35.00 por litro",
+            "$18.00 por kg",
+            "$37.00 por kg"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "Pollo: 166.50÷4.5 = $37.00/kg. Aceite: 87.50÷2.5 = $35.00/L. Arroz: 64.80÷3.6 = $18.00/kg."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un refrigerador consume energía de forma proporcional al tiempo de uso: en 2.5 horas consume 1.75 kWh. ¿Cuántos kWh consume en 6 horas? Respuesta: ___ kWh",
+          "respuestaCorrecta": "4.2",
+          "retroalimentacion": "k = 1.75 ÷ 2.5 = 0.7 kWh por hora. 6 × 0.7 = 4.2 kWh."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Si 5.5 metros de tela cuestan $146.30, ¿cuánto cuesta 1 metro (valor de k)?",
+          "opciones": [
+            "$25.60",
+            "$26.60",
+            "$27.60",
+            "$24.60"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "k = 146.30 ÷ 5.5 = $26.60 por metro."
+        }
+      ]
+    },
+    {
+      "numero": "3.6",
+      "nivelEtiqueta": "Nivel 2 de 3 · Aplicación avanzada",
+      "titulo": "Escalas y planos: la proporcionalidad en mapas y maquetas",
+      "explicacion": "Una nueva aplicación de la proporcionalidad directa son las escalas de mapas, planos y maquetas, donde k representa cuántas unidades reales corresponde a cada unidad dibujada (por ejemplo, km reales por cada cm del mapa). La novedad es que las dos cantidades tienen unidades distintas (cm frente a km o metros) y a veces necesitas ir en sentido inverso: de la medida real a la medida en el dibujo.",
+      "formula": "distancia real = k × distancia en el dibujo   (k = escala)",
+      "ejemplos": [
+        "En un mapa, 2 cm representan 50 km reales. Entonces k = 50 ÷ 2 = 25 km por cm. Si dos ciudades están a 7 cm en el mapa, la distancia real es 25 × 7 = 175 km.",
+        "En una maqueta, 3 cm representan 1.5 m reales, así que k = 1.5 ÷ 3 = 0.5 m por cm. Si una pared mide 9 cm en la maqueta, mide 0.5 × 9 = 4.5 m en la realidad."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En un mapa, 4 cm representan 100 km reales. ¿Cuántos km reales representan 9 cm?",
+          "opciones": [
+            "200 km",
+            "225 km",
+            "250 km",
+            "180 km"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "k = 100 ÷ 4 = 25 km por cm. 9 × 25 = 225 km."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si en un plano 5 cm equivalen a 20 m reales, entonces 8 cm equivalen a ___ m.",
+          "respuestaCorrecta": "32",
+          "retroalimentacion": "k = 20 ÷ 5 = 4 m por cm. 8 × 4 = 32 m."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En una maqueta a escala, 6 cm representan 3 m reales. Entonces 10 cm representan 5 m.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "k = 3 ÷ 6 = 0.5 m por cm. 10 × 0.5 = 5 m."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un plano de una casa usa una escala en la que 3 cm representan 6 m reales. ¿Cuál es la constante de proporcionalidad (m reales por cm)?",
+          "opciones": [
+            "1.5",
+            "2",
+            "2.5",
+            "3"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "k = 6 ÷ 3 = 2 m por cm."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En un mapa de carreteras, 2.5 cm representan 75 km. Dos pueblos están a 6 cm en el mapa. La distancia real entre ellos es ___ km.",
+          "respuestaCorrecta": "180",
+          "retroalimentacion": "k = 75 ÷ 2.5 = 30 km por cm. 6 × 30 = 180 km."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada distancia en el mapa con la distancia real, usando la escala 1 cm = 40 km.",
+          "columnaA": [
+            "2 cm en el mapa",
+            "5.5 cm en el mapa",
+            "3.5 cm en el mapa"
+          ],
+          "columnaB": [
+            "220 km",
+            "140 km",
+            "80 km"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "2 cm → 2×40=80 km. 5.5 cm → 5.5×40=220 km. 3.5 cm → 3.5×40=140 km."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una fotografía se amplía de forma proporcional: una imagen de 4 cm de ancho se amplía a 10 cm. Si el largo original es 6 cm, ¿cuál es el largo ampliado?",
+          "opciones": [
+            "12 cm",
+            "14 cm",
+            "15 cm",
+            "16 cm"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "k = 10 ÷ 4 = 2.5. 6 × 2.5 = 15 cm."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En un dibujo a escala 1:200 (1 cm del dibujo equivale a 200 cm reales), una pared de 8 cm en el dibujo mide 16 m en la realidad.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "8 × 200 = 1,600 cm = 16 m."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una maqueta de un edificio usa la escala 1 cm = 2.4 m. Si el edificio real mide 60 m de altura, ¿cuántos cm medirá en la maqueta? Respuesta: ___ cm",
+          "respuestaCorrecta": "25",
+          "retroalimentacion": "Como la medida real es k veces la medida del dibujo, el dibujo es la medida real entre k: 60 ÷ 2.4 = 25 cm."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En un plano arquitectónico, 3.5 cm representan 14 m reales. ¿Cuántos metros reales representan 9 cm?",
+          "opciones": [
+            "30 m",
+            "32 m",
+            "36 m",
+            "40 m"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "k = 14 ÷ 3.5 = 4 m por cm. 9 × 4 = 36 m."
+        }
+      ]
+    },
+    {
+      "numero": "3.7",
+      "nivelEtiqueta": "Nivel 3 de 3 · Reto",
+      "titulo": "¿Proporcional o no? Cuotas fijas y tarifas engañosas",
+      "explicacion": "Hasta aquí todos los problemas SÍ eran de proporcionalidad directa. El reto de esta lección es reconocer cuándo una relación NO lo es, como la renta fija del salón de usos múltiples de la problematización inicial. Regla clave: una relación es directamente proporcional solo si la razón y÷x es igual para TODOS los pares de valores y, además, cuando x = 0, también y = 0 (sin cargos fijos).",
+      "ejemplos": [
+        "Un plan de telefonía cobra $50 fijos más $2 por cada GB. Con 10 GB pagas $70 (razón 7) y con 20 GB pagas $90 (razón 4.5). Las razones son distintas → NO es proporcionalidad directa: hay una cuota fija.",
+        "La fruta a granel: 3 kg cuestan $54 (razón 18) y 6 kg cuestan $108 (razón 18). La razón es constante y con 0 kg pagarías $0 → SÍ es proporcionalidad directa."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La renta mensual del salón de usos múltiples es siempre $1,200, sin importar cuántas veces se use. La relación entre el número de usos y el costo es directamente proporcional.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: el costo NO cambia aunque cambie el número de usos, así que la razón costo÷usos no es constante entre distintos valores de uso; además al usarlo 1 vez el costo ya es $1,200 y no crece proporcionalmente."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un taxi cobra $15 de banderazo más $8 por km recorrido. Si recorres 5 km pagas $55 y si recorres 10 km pagas $95. ¿Por qué esta relación NO es directamente proporcional?",
+          "opciones": [
+            "Porque la razón costo÷km no es constante (55÷5=11 y 95÷10=9.5)",
+            "Porque el costo siempre aumenta al recorrer más distancia",
+            "Porque 10 km es exactamente el doble de 5 km",
+            "Porque el banderazo es un número impar"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "En proporcionalidad directa la razón y÷x debe ser siempre la misma; aquí cambia por el banderazo fijo de $15."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Para que una relación entre x y y sea directamente proporcional, cuando x vale 0, y debe valer ___.",
+          "respuestaCorrecta": "0",
+          "retroalimentacion": "En y = k·x, si x = 0 entonces y = k·0 = 0. Si hay un cargo fijo, y no será 0 aunque x sí lo sea."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si al comprar 2 boletos pagas $40 y al comprar 5 boletos pagas $100, la relación es directamente proporcional.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "k₁ = 40÷2 = 20 y k₂ = 100÷5 = 20. Como ambas razones son iguales y sin cargo fijo, sí es proporcional."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de las siguientes situaciones SÍ es un ejemplo de proporcionalidad directa?",
+          "opciones": [
+            "Una membresía de gimnasio: $300 de inscripción única más $150 mensuales",
+            "El precio total de la gasolina según los litros cargados, sin cargos adicionales",
+            "La edad de una persona comparada con su estatura",
+            "La renta fija de un salón, sin importar el número de eventos realizados"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "El precio de la gasolina sin cargos fijos cumple y = k·x: al doble de litros, doble de precio, y 0 litros cuestan $0."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una mensajería cobra $25 fijos por envío más $3 por km. Un envío de 5 km cuesta $40 y uno de 10 km cuesta $55. ¿La razón costo÷km es la misma en ambos envíos? Responde 'sí' o 'no': ___",
+          "respuestaCorrecta": "no",
+          "retroalimentacion": "40÷5 = 8 y 55÷10 = 5.5. Las razones son distintas porque hay un cargo fijo de $25."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación con si es o no directamente proporcional.",
+          "columnaA": [
+            "El costo del boleto de camión según la distancia, con el mismo precio por km y sin cargo fijo",
+            "La cuota de un club deportivo: $500 de inscripción más $200 mensuales",
+            "El peso total de un producto según la cantidad de piezas idénticas que compras"
+          ],
+          "columnaB": [
+            "Sí es proporcional",
+            "No es proporcional (tiene cargo fijo)"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            0
+          ],
+          "retroalimentacion": "El boleto por distancia y el peso por piezas idénticas SÍ son proporcionales (sin cargo fijo). La cuota del club NO lo es porque tiene una inscripción fija."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En una alberca, la cantidad de cloro necesaria es proporcional al volumen de agua: 200 litros necesitan 40 ml de cloro, y 500 litros necesitan 100 ml. Esta relación es directamente proporcional.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "k₁ = 40÷200 = 0.2 y k₂ = 100÷500 = 0.2. Ambas razones son iguales, así que sí es proporcional."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un mecánico cobra $350 fijos por revisión más $120 por cada hora de mano de obra. Un cliente paga $590 por 2 horas. Si otro cliente trabaja 4 horas, ¿cuánto pagará (siguiendo la misma relación, que NO es proporcional)?",
+          "opciones": [
+            "$830",
+            "$1,180",
+            "$710",
+            "$950"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Costo = 350 + 120×4 = $830. No se puede duplicar simplemente el pago de 2 horas ($590×2=$1,180) porque hay un cargo fijo que no se repite."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La renta fija de $1,200 del salón de usos múltiples NO es proporcional al número de usos porque, aunque el salón se use ___ veces, el costo sigue siendo $1,200 y no $0.",
+          "respuestaCorrecta": "0",
+          "retroalimentacion": "En proporcionalidad directa, si x=0 entonces y=0. Aquí, incluso con 0 usos planeados el costo de renta ya está fijado, lo cual rompe la condición."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada situación con su constante de proporcionalidad (k).",
+      "columnaA": [
+        "6 dulces cuestan $18",
+        "4 cuadernos cuestan $148",
+        "10 metros de listón cuestan $70"
+      ],
+      "columnaB": [
+        "$37 por cuaderno",
+        "$7 por metro",
+        "$3 por dulce"
+      ],
+      "parejasCorrectas": [
+        2,
+        0,
+        1
+      ],
+      "retroalimentacion": "6 dulces cuestan $18 → $3 por dulce; 4 cuadernos cuestan $148 → $37 por cuaderno; 10 metros de listón cuestan $70 → $7 por metro."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Un grifo llena 54 litros en 9 minutos. ¿Cuántos litros llena en 14 minutos, con el mismo rendimiento?",
+      "opciones": [
+        "70 L",
+        "78 L",
+        "84 L",
+        "90 L"
+      ],
+      "respuestaCorrecta": 2,
+      "retroalimentacion": "k = 54÷9 = 6 litros por minuto. 14×6 = 84 litros."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Si 8 plumas cuestan $184, entonces 6 plumas cuestan $___.",
+      "respuestaCorrecta": "138",
+      "retroalimentacion": "k = 184÷8 = 23 por pluma. 6×23 = $138."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Si 9 metros de listón cuestan $63, entonces 15 metros cuestan $115.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "k = 63÷9 = 7 por metro. 15×7 = $105, no $115."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Si 5 kg de fresas cuestan $175, ¿cuánto cuestan 8 kg?",
+      "opciones": [
+        "$245",
+        "$260",
+        "$280",
+        "$300"
+      ],
+      "respuestaCorrecta": 2,
+      "retroalimentacion": "k = 175÷5 = 35 por kg. 8×35 = $280."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada situación con su constante de proporcionalidad (k).",
+      "columnaA": [
+        "8 refrescos cuestan $96",
+        "5 horas de clase cuestan $225",
+        "12 kg de arroz cuestan $216"
+      ],
+      "columnaB": [
+        "$18 por kg",
+        "$12 por refresco",
+        "$45 por hora"
+      ],
+      "parejasCorrectas": [
+        1,
+        2,
+        0
+      ],
+      "retroalimentacion": "8 refrescos cuestan $96 → $12 por refresco; 5 horas de clase cuestan $225 → $45 por hora; 12 kg de arroz cuestan $216 → $18 por kg."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Si 4 boletos de camión cuestan $52, entonces 9 boletos cuestan $___.",
+      "respuestaCorrecta": "117",
+      "retroalimentacion": "k = 52÷4 = 13 por boleto. 9×13 = $117."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Si 15 kg de naranjas cuestan $225, entonces 8 kg cuestan $120.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: k = 225÷15 = 15 por kg; 8×15 = $120."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Si 6 entradas al cine cuestan $270, ¿cuánto cuestan 11 entradas?",
+      "opciones": [
+        "$450",
+        "$495",
+        "$460",
+        "$405"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "k = 270÷6 = 45 por entrada. 11×45 = $495."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Una receta usa 4 tazas de harina para 24 galletas. Para 36 galletas se necesitan 6 tazas.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: k = 4÷24 = 1/6 de taza por galleta; 36×1/6 = 6 tazas."
+    }
+  ]
+}

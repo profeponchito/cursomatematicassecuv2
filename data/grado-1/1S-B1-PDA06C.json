@@ -1,0 +1,453 @@
+{
+  "id": "1S-B1-PDA06C",
+  "grado": "1°",
+  "trimestre": "2",
+  "numero": 18,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Ecuaciones lineales y cuadráticas 6.3",
+  "contenido": "Ecuaciones lineales y cuadráticas.",
+  "pda": "Resuelve ecuaciones de la forma Ax=B, Ax+B=C, Ax+B=Cx+D con el uso de las propiedades de la igualdad.",
+  "problematizacion": {
+    "contexto": "Bruno quiere contratar un plan de datos móviles: el Plan Azul cobra $150 al mes más $2 por cada gigabyte usado, y el Plan Rojo cobra $90 al mes más $5 por cada gigabyte usado. Quiere saber a partir de cuántos gigabytes de uso mensual ambos planes cuestan exactamente lo mismo.",
+    "pregunta": "Planteando y resolviendo la ecuación con la variable en ambos lados, ¿a cuántos gigabytes de uso los dos planes de Bruno cuestan lo mismo?"
+  },
+  "subtemas": [
+    {
+      "numero": "6.8",
+      "titulo": "Comparar planes y ofertas: paréntesis con la variable en ambos lados",
+      "explicacion": "Ahora la variable aparece dentro de un paréntesis y también del otro lado de la igualdad, como en 3(x+2) = 2(x+7). Primero se distribuye cada paréntesis por separado y después se agrupan los términos con x de un lado y los números del otro, igual que en la lección de \"variable en ambos lados\", pero con un paso extra al inicio. Sirve para comparar dos planes, ofertas o edades expresadas de forma distinta.",
+      "formula": "A(x+B) = C(x+D)  →  Ax+AB = Cx+CD  →  (A−C)x = CD−AB  →  x = (CD−AB) / (A−C)",
+      "ejemplos": [
+        "3(x + 2) = 2(x + 7) → se distribuye: 3x+6 = 2x+14 → 3x-2x = 14-6 → x = 8. La edad de Sofía dentro de 2 años, multiplicada por 3, es igual a su edad dentro de 7 años multiplicada por 2; hoy Sofía tiene 8 años.",
+        "5(x − 1) = 3(x + 5) → 5x-5 = 3x+15 → 5x-3x = 15+5 → 2x=20 → x = 10. Dos talleres cobran distinto por el mismo servicio: 5 veces (el precio menos $1 de descuento) es igual a 3 veces (el precio más $5 de mantenimiento); el precio base es $10."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Resuelve: 2(x + 3) = x + 10",
+          "opciones": [
+            "x=4",
+            "x=16",
+            "x=7",
+            "x=2"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "2x+6=x+10 → 2x-x=10-6 → x=4."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Resuelve: 4(x − 2) = 2(x + 4). x = ___.",
+          "respuestaCorrecta": "8",
+          "retroalimentacion": "4x-8=2x+8 → 4x-2x=8+8 → 2x=16 → x=8."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La solución de 3(x + 2) = 2(x + 7) es x = 8.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 3x+6=2x+14 → x=8."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La solución de 5(x − 1) = 3(x + 5) es x = 8.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "5x-5=3x+15 → 2x=20 → x=10, no 8."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "La edad de Luis dentro de 4 años, multiplicada por 2, es igual a su edad dentro de 10 años: 2(x + 4) = x + 10. ¿Cuántos años tiene Luis hoy?",
+          "opciones": [
+            "x=2",
+            "x=8",
+            "x=18",
+            "x=1"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "2x+8=x+10 → 2x-x=10-8 → x=2."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Resuelve: 6(x + 1) = 4(x + 4). x = ___.",
+          "respuestaCorrecta": "5",
+          "retroalimentacion": "6x+6=4x+16 → 6x-4x=16-6 → 2x=10 → x=5."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Resuelve: 3(x − 4) = x + 2",
+          "opciones": [
+            "x=7",
+            "x=14",
+            "x=4.67",
+            "x=2"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "3x-12=x+2 → 3x-x=2+12 → 2x=14 → x=7."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La solución de 2(x + 5) = 3(x − 1) es x = 13.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 2x+10=3x-3 → -x=-13 → x=13."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Dos huertos: el primero mide 4 veces (x+3) metros de largo y el segundo mide 3 veces (x+8) metros; ambos largos son iguales: 4(x+3) = 3(x+8). x = ___ metros.",
+          "respuestaCorrecta": "12",
+          "retroalimentacion": "4x+12=3x+24 → 4x-3x=24-12 → x=12."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada ecuación con su solución.",
+          "columnaA": [
+            "3(x+1)=2(x+6)",
+            "5(x-2)=3(x+4)",
+            "2(x+7)=x+20"
+          ],
+          "columnaB": [
+            "6",
+            "11",
+            "9"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "3(x+1)=2(x+6) → x=9; 5(x-2)=3(x+4) → x=11; 2(x+7)=x+20 → x=6."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 1 de 3 · Reto avanzado"
+    },
+    {
+      "numero": "6.9",
+      "titulo": "Negocios y decisiones: integrando todas las formas de ecuación",
+      "explicacion": "Esta lección combina lo aprendido en las lecciones anteriores —paréntesis (propiedad distributiva), la variable dividida entre un número, decimales y la variable en ambos lados— dentro de problemas de negocios y de la vida diaria. Antes de despejar, hay que identificar qué forma tiene la ecuación (¿hay paréntesis?, ¿hay una fracción?, ¿la x está en ambos lados?) para decidir qué operación deshacer primero.",
+      "ejemplos": [
+        "4(x - 3) = 2x + 8 → se distribuye: 4x-12 = 2x+8 → 4x-2x = 8+12 → 2x=20 → x=10. Dos líneas de producción fabrican lo mismo por hora cuando el número de piezas es 10.",
+        "x/3 + 7 = 2x − 8 → se multiplica todo por 3: x+21 = 6x-24 → 21+24 = 6x-x → 45=5x → x=9."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una fábrica de playeras tiene dos líneas de producción: la línea A produce 4(x − 3) playeras por hora y la línea B produce 2x + 8 playeras por hora; en cierto momento producen lo mismo: 4(x-3) = 2x+8. ¿Cuánto vale x?",
+          "opciones": [
+            "x=10",
+            "x=8",
+            "x=24",
+            "x=2"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "4x-12=2x+8 → 2x=20 → x=10."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Resuelve: x/3 + 7 = 2x − 8. x = ___.",
+          "respuestaCorrecta": "9",
+          "retroalimentacion": "Se multiplica todo por 3: x+21=6x-24 → 45=5x → x=9."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La solución de 2.5(x + 4) = 3x + 9 es x = 2.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 2.5x+10=3x+9 → 1=0.5x → x=2."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La solución de 6(x − 5) = 4(x + 3) es x = 21.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 6x-30=4x+12 → 2x=42 → x=21."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Dos rutas de camión cobran distinto por pasajero: la ruta Norte cobra 3(x + 5) pesos y la ruta Sur cobra 5x − 3 pesos; ambas cobran lo mismo cuando 3(x+5) = 5x−3. ¿Cuál es el valor de x?",
+          "opciones": [
+            "x=9",
+            "x=6",
+            "x=18",
+            "x=4.5"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "3x+15=5x-3 → 18=2x → x=9."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Resuelve: x/4 + 9 = x − 3. x = ___.",
+          "respuestaCorrecta": "16",
+          "retroalimentacion": "Se multiplica todo por 4: x+36=4x-12 → 48=3x → x=16."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Resuelve: 1.5x + 7 = 0.5x + 19",
+          "opciones": [
+            "x=12",
+            "x=6",
+            "x=26",
+            "x=8.67"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "1.5x-0.5x=19-7 → x=12."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La solución de x/5 + 1.5 = 5.5 es x = 20.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: x/5=5.5-1.5=4 → x=5×4=20."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Resuelve: 2.5(x + 2) = 3x − 1. x = ___.",
+          "respuestaCorrecta": "12",
+          "retroalimentacion": "2.5x+5=3x-1 → 6=0.5x → x=12."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada ecuación con su solución.",
+          "columnaA": [
+            "3(x-2)=x+8",
+            "x/3+5=2x-10",
+            "5(x+1)=2x+20"
+          ],
+          "columnaB": [
+            "9",
+            "5",
+            "7"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "3(x-2)=x+8 → x=7; x/3+5=2x-10 → x=9; 5(x+1)=2x+20 → x=5."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 2 de 3 · Integración"
+    },
+    {
+      "numero": "6.10",
+      "titulo": "Problemas completos: plantea y resuelve tú mismo la ecuación",
+      "explicacion": "En esta última lección ya no se te da la ecuación armada: debes leer el problema, definir la incógnita, traducir el enunciado a una ecuación (con paréntesis, fracciones, decimales o la variable en ambos lados, según convenga) y resolverla aplicando las propiedades de la igualdad. Es el nivel más alto porque integra la traducción del lenguaje cotidiano al álgebra y la verificación de la solución.",
+      "formula": "Pasos: 1) Define x. 2) Traduce el problema a una ecuación. 3) Resuélvela. 4) Verifica sustituyendo x en el enunciado original.",
+      "ejemplos": [
+        "Karla vende accesorios y gana lo mismo por pieza (x pesos); vendió 8 piezas y le descontaron $45 de materiales, quedándose con $215 netos. Ecuación: 8x − 45 = 215 → 8x = 260 → x = 32.5. Verificación: 8(32.5)-45=215 ✓. Cada pieza le deja $32.50.",
+        "Una alberca se llena con x litros por minuto; en 6 minutos, más 40 litros que ya tenía, llegó a 220 litros. Ecuación: 6x + 40 = 220 → 6x = 180 → x = 30. Verificación: 6(30)+40=220 ✓. La llave aporta 30 litros por minuto."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un puesto de tacos vende cada taco al mismo precio x y cobra $4 fijos por el refresco. Un cliente pidió 6 tacos y un refresco, pagó con un billete de $100 y le dieron $18 de cambio. ¿Cuánto cuesta cada taco?",
+          "opciones": [
+            "x=13",
+            "x=13.67",
+            "x=14",
+            "x=12"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Pagó 100-18=82 pesos: 6x+4=82 → 6x=78 → x=13."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un agricultor cosechó x kilogramos de café; regaló 8 kg a un vecino y repartió el resto entre 5 compradores en partes iguales, dándole 34 kg a cada uno: (x-8)/5 = 34. Según esto, x = 178 kg.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: x-8=5×34=170 → x=178."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Dos changarros de jugos: el changarro A cobra $x por licuado y vendió 9, mientras que el changarro B cobra $(x−15) por licuado (promoción) y vendió 12; ambos ganaron lo mismo: 9x = 12(x−15). El precio normal es x = ___ pesos.",
+          "respuestaCorrecta": "60",
+          "retroalimentacion": "9x=12x-180 → 180=3x → x=60."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Ana reparte su mesada semanal de x pesos: guarda la mitad para ahorro, y con la otra mitad compra un boleto de $35 y le sobran $15. ¿Cuál es su mesada semanal completa?",
+          "opciones": [
+            "x=100",
+            "x=50",
+            "x=70",
+            "x=120"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "La mitad de la mesada es x/2 = 35+15 = 50 → x = 100."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un tinaco se llena con una llave que aporta x litros por minuto. Después de 12.5 minutos, más 8 litros que ya tenía, el tinaco llegó a 133 litros: 12.5x + 8 = 133. Según esto, la llave aporta 10 litros por minuto.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 12.5x=125 → x=10."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una tienda hace un descuento: el precio con descuento es 4 veces (el precio original menos $30), y resultó ser $200. Si x es el precio original, 4(x − 30) = 200. El precio original era x = ___ pesos.",
+          "respuestaCorrecta": "80",
+          "retroalimentacion": "4x-120=200 → 4x=320 → x=80."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una fábrica de dulces produce x cajas por día. Por mantenimiento, durante 22 días laborales produjo 15 cajas menos cada día de lo normal, y aun así logró 22(x − 15) = 3850 cajas en total. ¿Cuántas cajas produce normalmente por día?",
+          "opciones": [
+            "x=190",
+            "x=175",
+            "x=205",
+            "x=165"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "22x-330=3850 → 22x=4180 → x=190."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Dos rutas de transporte cobran distinto: la ruta A cobra $7 por km más $12 de banderazo, y la ruta B cobra $9 por km sin banderazo: 7x + 12 = 9x. Según esto, para un viaje de 6 km ambas rutas cobran lo mismo.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 12=9x-7x=2x → x=6."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Se reparten x kilos de arroz entre 8 familias iguales, pero antes se apartan 3 kilos para la escuela; cada familia recibió el equivalente a 20 kilos: x/8 − 3 = 20. En total se repartieron x = ___ kilos.",
+          "respuestaCorrecta": "184",
+          "retroalimentacion": "x/8=20+3=23 → x=8×23=184."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada problema con el valor de x que lo resuelve.",
+          "columnaA": [
+            "Un plomero cobra $x por visita más $8 por cada hora trabajada; en una visita de 3 horas cobró $53: x+8(3)=53.",
+            "El doble de la edad de Mario hace 5 años equivale a su edad actual más 15: 2(x-5)=x+15.",
+            "Una alberca se llena con x litros por minuto; en 6 minutos, más 40 litros que ya tenía, llegó a 220 litros: 6x+40=220."
+          ],
+          "columnaB": [
+            "25",
+            "30",
+            "29"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "Plomero: x+24=53 → x=29. Edad de Mario: 2x-10=x+15 → x=25. Alberca: 6x=180 → x=30."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 3 de 3 · Dominio"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada ecuacion con su solucion.",
+      "columnaA": [
+        "6x + 7 = 43",
+        "9x - 4 = 59",
+        "3x - 8 = 2x + 5"
+      ],
+      "columnaB": [
+        "13",
+        "6",
+        "7"
+      ],
+      "parejasCorrectas": [
+        1,
+        2,
+        0
+      ],
+      "retroalimentacion": "6x+7=43 → x=6; 9x-4=59 → x=7; 3x-8=2x+5 → x=13."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Resuelve: 8x - 6 = 34",
+      "opciones": [
+        "x=5",
+        "x=4",
+        "x=40",
+        "x=6"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "8x = 34+6 = 40; x = 40÷8 = 5."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "La solución de 5x + 12 = 2x + 33 es x = 7.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "5x-2x = 33-12 → 3x=21 → x=7."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Resuelve: 9x - 7 = 6x + 20. x = ___.",
+      "respuestaCorrecta": "9",
+      "retroalimentacion": "9x-6x = 20+7 → 3x=27 → x=9."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Resuelve: x + 55 = 120. x = ___.",
+      "respuestaCorrecta": "65",
+      "retroalimentacion": "x = 120-55 = 65."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Une cada ecuación con el valor de x que la resuelve.",
+      "columnaA": [
+        "6x - 9 = 39",
+        "x + 120 = 300",
+        "5x + 3 = 3x + 21"
+      ],
+      "columnaB": [
+        "180",
+        "9",
+        "8"
+      ],
+      "parejasCorrectas": [
+        2,
+        0,
+        1
+      ],
+      "retroalimentacion": "6x-9=39 → x=8; x+120=300 → x=180; 5x+3=3x+21 → x=9."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Resuelve: 7x = 63. x = ___.",
+      "respuestaCorrecta": "9",
+      "retroalimentacion": "x = 63 ÷ 7 = 9."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Resuelve: x - 25 = 40",
+      "opciones": [
+        "x=15",
+        "x=65",
+        "x=-15",
+        "x=1000"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "x = 40 + 25 = 65."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "La solución de 5x + 10 = 3x + 24 es x = 7.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: 5x - 3x = 24 - 10 → 2x = 14 → x = 7."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada ecuación con su solución.",
+      "columnaA": [
+        "4x - 5 = 11",
+        "3x - 2 = 2x + 6",
+        "x - 25 = 40"
+      ],
+      "columnaB": [
+        "8",
+        "65",
+        "4"
+      ],
+      "parejasCorrectas": [
+        2,
+        0,
+        1
+      ],
+      "retroalimentacion": "4x-5=11 → x=4; 3x-2=2x+6 → x=8; x-25=40 → x=65."
+    }
+  ]
+}

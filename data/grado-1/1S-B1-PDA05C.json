@@ -1,0 +1,494 @@
+{
+  "id": "1S-B1-PDA05C",
+  "grado": "1°",
+  "trimestre": "2",
+  "numero": 15,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Introducción al álgebra 5.3",
+  "contenido": "Introducción al álgebra.",
+  "pda": "Interpreta y plantea diversas situaciones del lenguaje común al lenguaje algebraico y viceversa. Representa algebraicamente perímetros de figuras.",
+  "problematizacion": {
+    "contexto": "Fernanda quiere construir un puesto cuadrado para vender nieves en la kermés, y el reglamento del evento indica que el perímetro máximo permitido es de 18.4 metros. Antes de cortar la madera, necesita saber cuánto puede medir cada lado del puesto.",
+    "pregunta": "Si el perímetro del puesto cuadrado debe ser 18.4 metros, ¿qué ecuación plantea Fernanda y cuánto mide cada lado?"
+  },
+  "subtemas": [
+    {
+      "numero": "5.8",
+      "nivelEtiqueta": "Nivel 1 de 3 · Reto avanzado",
+      "titulo": "Resolver ecuaciones sencillas a partir de un perímetro conocido",
+      "explicacion": "En las lecciones anteriores conocías x y calculabas el perímetro. Ahora el proceso se invierte: se da el valor numérico del perímetro y hay que encontrar x resolviendo una ecuación de uno o dos pasos (despejar la variable). Este es tu primer acercamiento formal a resolver ecuaciones lineales, la base de todo el álgebra que viene después.",
+      "formula": "Para hallar x en 4x=48, divide ambos lados entre el coeficiente: x=48÷4=12. Para 4x+8=48, primero resta 8 de ambos lados (4x=40) y luego divide (x=10).",
+      "ejemplos": [
+        "El perímetro de un cuadrado es 4x. Si el perímetro mide 60 cm, entonces 4x=60, por lo tanto x=15 cm.",
+        "El perímetro de un rectángulo con ancho x y largo x+5 es 4x+10. Si el perímetro es 74 cm: 4x+10=74 → 4x=64 → x=16 cm."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El perímetro de un cuadrado de lado x es 68 cm. ¿Cuánto mide x?",
+          "opciones": [
+            "17 cm",
+            "68 cm",
+            "4 cm",
+            "21 cm"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "4x=68 → x=68÷4=17 cm."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si el perímetro de un cuadrado de lado x es 96 cm, entonces x = ___ cm.",
+          "respuestaCorrecta": "24",
+          "retroalimentacion": "4x=96 → x=96÷4=24."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El perímetro de un rectángulo con ancho x y largo x+4 es 4x+8. Si el perímetro mide 56 cm, ¿cuánto vale x?",
+          "opciones": [
+            "12 cm",
+            "14 cm",
+            "11 cm",
+            "16 cm"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "4x+8=56 → 4x=48 → x=12 cm."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si el perímetro de un rectángulo con ancho x y largo x+3 (perímetro = 4x+6) es 46 cm, entonces x=10 cm.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "4x+6=46 → 4x=40 → x=10 cm."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si el perímetro de un triángulo con lados x, x+2 y 2x (perímetro=4x+2) es 50 cm, entonces x=13 cm.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "4x+2=50 → 4x=48 → x=12 cm, no 13 cm."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si 3x+9=42, entonces x = ___.",
+          "respuestaCorrecta": "11",
+          "retroalimentacion": "3x+9=42 → 3x=33 → x=11."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El total que recibirá Fernanda de su amiga es 2x+10 (x = lo que ganó hoy). Si en total recibió 84 pesos, ¿cuánto ganó hoy (x)?",
+          "opciones": [
+            "37 pesos",
+            "42 pesos",
+            "47 pesos",
+            "34 pesos"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "2x+10=84 → 2x=74 → x=37 pesos."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El perímetro de un pentágono regular de lado x es 5x. Si el perímetro es 85 cm, ¿cuánto mide cada lado?",
+          "opciones": [
+            "17 cm",
+            "20 cm",
+            "15 cm",
+            "5 cm"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "5x=85 → x=85÷5=17 cm."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada ecuación con el valor de x que la resuelve.",
+          "columnaA": [
+            "4x=72",
+            "3x+9=48",
+            "6x-4=56"
+          ],
+          "columnaB": [
+            "10",
+            "18",
+            "13"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "4x=72 → x=18. 3x+9=48 → 3x=39 → x=13. 6x-4=56 → 6x=60 → x=10."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El perímetro de un rectángulo con ancho x y largo 2x es 6x. Si el terreno tiene un perímetro de 90 metros, ¿cuánto mide el ancho (x)?",
+          "opciones": [
+            "15 m",
+            "18 m",
+            "45 m",
+            "30 m"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "6x=90 → x=90÷6=15 m."
+        }
+      ]
+    },
+    {
+      "numero": "5.9",
+      "nivelEtiqueta": "Nivel 2 de 3 · Integración",
+      "titulo": "Problemas integradores: traducción, perímetro y ecuaciones combinadas",
+      "explicacion": "Esta lección combina en un mismo problema las tres habilidades del PDA: traducir lenguaje a álgebra, construir y simplificar expresiones de perímetro (incluso con dos variables o paréntesis) y resolver ecuaciones sencillas para encontrar x. Los contextos son más completos y piden interpretar toda la situación —a veces con dos variables o dos pasos— antes de operar, en lugar de aplicar una sola fórmula aislada.",
+      "ejemplos": [
+        "Un corral rectangular tiene ancho x y largo 'el doble de x más 3 metros', es decir 2x+3. Su perímetro es 2(x) + 2(2x+3) = 2x+4x+6 = 6x+6. Si el perímetro real es 42 metros: 6x+6=42 → 6x=36 → x=6 m de ancho, y el largo es 2(6)+3=15 m.",
+        "La cuota de un club deportivo es 'el triple de la cuota base x, más una inscripción de 50 pesos': 3x+50. Si un socio pagó 275 pesos en total: 3x+50=275 → 3x=225 → x=75 pesos era la cuota base."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un corral rectangular tiene ancho x y largo (x+5) metros. Su perímetro simplificado es 4x+10. Si el perímetro es 66 metros, ¿cuánto mide el ancho x?",
+          "opciones": [
+            "14 m",
+            "19 m",
+            "11 m",
+            "15 m"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "4x+10=66 → 4x=56 → x=14 m."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "'El doble de un número más el triple de otro número' se escribe ___ (usa x y y).",
+          "respuestaCorrecta": "2x+3y",
+          "retroalimentacion": "'El doble de un número' es 2x y 'el triple de otro' es 3y; juntos: 2x+3y."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una tienda cobra 'el triple de la suma del precio base x y 20 pesos de envío': 3(x+20). Si el cliente pagó 300 pesos en total, ¿cuál es el precio base x?",
+          "opciones": [
+            "80 pesos",
+            "100 pesos",
+            "60 pesos",
+            "90 pesos"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "3(x+20)=300 → x+20=100 → x=80 pesos."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un terreno rectangular con ancho x y largo (2x+1) tiene perímetro 6x+2. Si el perímetro es 50 m, entonces x=8 m.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "6x+2=50 → 6x=48 → x=8 m."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El perímetro de un triángulo con lados x, y y (x+y), donde x=5 y y=7, es 24.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Perímetro = 2x+2y = 2(5)+2(7) = 10+14 = 24."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El perímetro de un rectángulo con ancho x y largo 3x es 8x. Si el perímetro real mide 96 cm, entonces x = ___ cm.",
+          "respuestaCorrecta": "12",
+          "retroalimentacion": "8x=96 → x=96÷8=12 cm."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Fernanda ahora también vende aguas frescas. Su amiga le promete darle 'el doble de sus ganancias en paletas (x) más el triple de sus ganancias en aguas (y)': 2x+3y. Si ganó x=40 y y=20 pesos, ¿cuánto le dará su amiga?",
+          "opciones": [
+            "140 pesos",
+            "120 pesos",
+            "100 pesos",
+            "160 pesos"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "2(40)+3(20) = 80+60 = 140 pesos."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un campo rectangular tiene ancho x y largo 'el doble de la suma de x y 6 metros', es decir 2(x+6). Su perímetro simplificado es 6x+24. Si el perímetro es 90 metros, ¿cuánto mide el ancho x?",
+          "opciones": [
+            "11 m",
+            "13 m",
+            "9 m",
+            "15 m"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "6x+24=90 → 6x=66 → x=11 m."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada ecuación integradora con el valor de x que la resuelve.",
+          "columnaA": [
+            "Perímetro 6x+6=48, hallar x",
+            "Perímetro 4x+20=60, hallar x",
+            "Perímetro 2x+2y=30 con y=7, hallar x"
+          ],
+          "columnaB": [
+            "7",
+            "10",
+            "8"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "6x+6=48→x=7. 4x+20=60→x=10. 2x+14=30→2x=16→x=8."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un huerto tiene ancho x y largo (x+10). Su perímetro es 4x+20. Sabemos que x representa 'el doble de un número más 3', y ese número es 6. ¿Cuál es el perímetro del huerto?",
+          "opciones": [
+            "80 m",
+            "75 m",
+            "70 m",
+            "85 m"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "x=2(6)+3=15. Perímetro = 4(15)+20 = 60+20 = 80 m."
+        }
+      ]
+    },
+    {
+      "numero": "5.10",
+      "nivelEtiqueta": "Nivel 3 de 3 · Dominio",
+      "titulo": "Dominio integral: álgebra con decimales y contextos de varios pasos",
+      "explicacion": "Esta lección final combina todas las habilidades del PDA —traducción, perímetros con una o dos variables, distribución con paréntesis y ecuaciones— pero con números menos 'redondos', incluyendo decimales, y con contextos de varios pasos que no indican el procedimiento: tú decides qué operación aplicar primero. Es el nivel más exigente porque exige planear la solución completa antes de operar.",
+      "ejemplos": [
+        "Un terreno rectangular tiene ancho x metros y largo (1.5x+2) metros. Su perímetro es 2(x) + 2(1.5x+2) = 2x+3x+4 = 5x+4. Si el perímetro es 54 metros: 5x+4=54 → 5x=50 → x=10 m.",
+        "Una app cobra una tarifa base x más una comisión del 50% de esa tarifa, es decir x+0.5x = 1.5x. Si el cobro total fue de 138 pesos, entonces 1.5x=138 → x=92 pesos."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un rectángulo tiene ancho x y largo (1.5x+2). Su perímetro simplificado es 5x+4. Si el perímetro es 54 metros, ¿cuánto mide x?",
+          "opciones": [
+            "10 m",
+            "9.6 m",
+            "11.6 m",
+            "8 m"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "5x+4=54 → 5x=50 → x=10 m."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El perímetro de un cuadrado de lado x es 4x. Si el perímetro mide 53 cm, entonces x = ___ cm (usa decimal).",
+          "respuestaCorrecta": "13.25",
+          "retroalimentacion": "4x=53 → x=53÷4=13.25 cm."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una app de transporte cobra una tarifa base x más una comisión del 50% de esa tarifa, es decir x+0.5x = 1.5x. Si el cobro total fue de 138 pesos, ¿cuál era la tarifa base x?",
+          "opciones": [
+            "92 pesos",
+            "69 pesos",
+            "184 pesos",
+            "46 pesos"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "1.5x=138 → x=138÷1.5=92 pesos."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El perímetro de un rectángulo con ancho x y largo (2.5x-1) es 7x-2. Si x=6 cm, el perímetro mide 40 cm.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "7(6)-2 = 42-2 = 40 cm."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un huerto rectangular tiene ancho x y largo (x+3.5). Su perímetro simplificado es ___.",
+          "respuestaCorrecta": "4x+7",
+          "retroalimentacion": "2(x) + 2(x+3.5) = 2x+2x+7 = 4x+7."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El huerto del ejercicio anterior tiene perímetro 4x+7. Si el perímetro real es 39 metros, ¿cuánto mide el ancho x?",
+          "opciones": [
+            "8 m",
+            "7.75 m",
+            "8.5 m",
+            "9 m"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "4x+7=39 → 4x=32 → x=8 m."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una cooperativa reparte utilidades con la expresión 2x+1.5y, donde x son las horas trabajadas del socio A y y las del socio B (el resultado ya está en pesos). Si x=20 horas y y=10 horas, ¿cuánto recibe en total?",
+          "opciones": [
+            "55 pesos",
+            "50 pesos",
+            "45 pesos",
+            "60 pesos"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "2(20) + 1.5(10) = 40+15 = 55 pesos."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada ecuación con decimales con el valor de x que la resuelve.",
+          "columnaA": [
+            "2.5x=45, hallar x",
+            "1.5x+9=39, hallar x",
+            "4x-3.5=32.5, hallar x"
+          ],
+          "columnaB": [
+            "9",
+            "18",
+            "20"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "2.5x=45→x=18. 1.5x+9=39→1.5x=30→x=20. 4x-3.5=32.5→4x=36→x=9."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La expresión 3(x+1.5) simplificada es 3x+4.5.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "3(x+1.5) = 3x + 3(1.5) = 3x+4.5."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un terreno rectangular tiene ancho x y largo 'el doble de la suma de x y 2.5', es decir 2(x+2.5). Su perímetro simplificado es 2x + 2[2(x+2.5)] = 6x+10. Si el perímetro mide 79 metros, ¿cuánto mide el ancho x?",
+          "opciones": [
+            "11.5 m",
+            "13 m",
+            "10.5 m",
+            "11 m"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "6x+10=79 → 6x=69 → x=11.5 m."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada figura con su perimetro simplificado.",
+      "columnaA": [
+        "Cuadrado de lado x+3",
+        "Rectangulo con ancho x y largo x+7",
+        "Triangulo con lados x, x+5, 3x"
+      ],
+      "columnaB": [
+        "5x+5",
+        "4x+14",
+        "4x+12"
+      ],
+      "parejasCorrectas": [
+        2,
+        1,
+        0
+      ],
+      "retroalimentacion": "Cuadrado x+3: 4(x+3)=4x+12. Rectangulo x,x+7: 2x+2(x+7)=4x+14. Triangulo x,x+5,3x: x+(x+5)+3x=5x+5."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Como se escribe algebraicamente 'el triple de un numero mas 9'?",
+      "opciones": [
+        "3x+9",
+        "3x-9",
+        "9x+3",
+        "3(x+9)"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "'el triple de un numero mas 9' se traduce como 3x+9."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "El perimetro de un cuadrado de lado x+8 es ___.",
+      "respuestaCorrecta": "4x+32",
+      "retroalimentacion": "El cuadrado tiene 4 lados iguales de longitud x+8, entonces el perimetro es 4(x+8) = 4x+32."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "El perimetro de un rectangulo con ancho x y largo 5x es 12x.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "2(x) + 2(5x) = 2x + 10x = 12x."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Un triángulo tiene lados x, 3x-2 y x+5. ¿Cuál es su perímetro simplificado?",
+      "opciones": [
+        "5x+3",
+        "5x-3",
+        "5x+7",
+        "4x+3"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "x + (3x-2) + (x+5) = 5x+3."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Une cada frase con su expresión algebraica correspondiente.",
+      "columnaA": [
+        "El cuádruple de un número más 2",
+        "El doble de un número menos 9",
+        "La mitad de un número menos 7"
+      ],
+      "columnaB": [
+        "x/2-7",
+        "2x-9",
+        "4x+2"
+      ],
+      "parejasCorrectas": [
+        2,
+        1,
+        0
+      ],
+      "retroalimentacion": "'El cuádruple más 2' es 4x+2; 'el doble menos 9' es 2x-9; 'la mitad menos 7' es x/2-7."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "La expresión algebraica de 'la mitad de un número más 4' es x/2 + 4.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: 'la mitad de un número' es x/2, y 'más 4' se suma: x/2+4."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "El perímetro de un pentágono regular (5 lados iguales) de lado x es ___.",
+      "respuestaCorrecta": "5x",
+      "retroalimentacion": "Al tener 5 lados iguales de longitud x, el perímetro es 5x."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Un triángulo tiene lados x, 2x-1 y x+4. ¿Cuál es su perímetro simplificado?",
+      "opciones": [
+        "4x+3",
+        "4x+4",
+        "3x+3",
+        "4x-3"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "x + (2x-1) + (x+4) = 4x+3."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada frase del lenguaje común con su expresión algebraica.",
+      "columnaA": [
+        "El triple de un número más 2",
+        "El cuádruple de un número menos 1",
+        "La mitad de un número menos 3"
+      ],
+      "columnaB": [
+        "4x-1",
+        "x/2-3",
+        "3x+2"
+      ],
+      "parejasCorrectas": [
+        2,
+        0,
+        1
+      ],
+      "retroalimentacion": "'El triple más 2' es 3x+2; 'el cuádruple menos 1' es 4x-1; 'la mitad menos 3' es x/2-3."
+    }
+  ]
+}

@@ -1,0 +1,515 @@
+{
+  "id": "2S-B1-PDA12A",
+  "grado": "2°",
+  "trimestre": "3",
+  "numero": 34,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Rango y Comparación de Datos 12.1",
+  "contenido": "Interpretación de la información a través de medidas de tendencia central y de dispersión.",
+  "pda": "Calcula el rango de un conjunto de datos y compara conjuntos usando medidas de tendencia central y dispersión.",
+  "problematizacion": {
+    "contexto": "En el torneo de tiro con arco, dos alumnas tuvieron el mismo promedio de puntos en sus 5 tiros: Perla anotó 7, 8, 8, 8, 9 y Lupita anotó 2, 9, 9, 10, 10. Un profesor nota que uno de los tiros de Lupita parece un dato muy alejado de los demás.",
+    "pregunta": "¿Cuál de las dos arqueras tuvo un rango más grande, y cuál de sus tiros podría considerarse un dato atípico?"
+  },
+  "subtemas": [
+    {
+      "numero": "12.1",
+      "titulo": "Rango",
+      "explicacion": "El rango es la medida de dispersión más simple: nos dice qué tan 'estirados' están los datos, del valor más bajo al más alto. Se calcula restando el dato mínimo al dato máximo. Un rango grande significa que los datos están muy dispersos (muy separados entre sí); un rango pequeño significa que los datos están más juntos, es decir, son más parejos.",
+      "formula": "Rango = valor máximo − valor mínimo",
+      "ejemplos": [
+        "Las calificaciones del grupo 2°A en un examen fueron 7, 7, 7, 8, 8. El valor máximo es 8 y el mínimo es 7, así que el rango es 8 − 7 = 1: calificaciones muy parejas.",
+        "Las temperaturas de una ciudad durante la semana fueron 18, 19, 20, 28, 30 °C. El rango es 30 − 18 = 12 °C: una semana con temperaturas bastante variables."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el rango del conjunto de datos 7, 9, 12, 15, 18?",
+          "opciones": [
+            "11",
+            "18",
+            "7",
+            "12"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Rango = máximo − mínimo = 18 − 7 = 11."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El rango del conjunto 4, 4, 5, 6, 7 es 3.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: rango = 7 − 4 = 3."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El rango del conjunto de datos 10, 25, 30, 42, 50 es ___.",
+          "respuestaCorrecta": "40",
+          "retroalimentacion": "Rango = 50 − 10 = 40."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El rango de un conjunto de datos donde todos los valores son iguales, como 3, 3, 3, 3, 3, es 0.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: si el máximo y el mínimo son el mismo valor (3), el rango es 3 − 3 = 0: no hay dispersión."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Los precios (en pesos) de 5 artículos son 50, 52, 55, 58, 60. ¿Cuál es el rango de precios?",
+          "opciones": [
+            "10",
+            "60",
+            "50",
+            "8"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Rango = 60 − 50 = 10."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El rango del conjunto de datos 6, 10, 14, 18, 22 es ___.",
+          "respuestaCorrecta": "16",
+          "retroalimentacion": "Rango = 22 − 6 = 16."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El rango del conjunto 20, 21, 22, 23, 24 es 4.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: rango = 24 − 20 = 4."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un vendedor registra sus ventas diarias (en miles de pesos): 5, 15, 25, 35, 45. ¿Cuál es el rango de sus ventas?",
+          "opciones": [
+            "40",
+            "45",
+            "5",
+            "25"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Rango = 45 − 5 = 40."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El rango del conjunto 30, 31, 32, 33, 34 es 5.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: rango = 34 − 30 = 4, no 5."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada conjunto de datos con su rango.",
+          "columnaA": [
+            "9, 13, 16, 20, 24",
+            "7, 7, 8, 9, 10",
+            "11, 11, 11, 15, 19"
+          ],
+          "columnaB": [
+            "3",
+            "8",
+            "15"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "9,13,16,20,24: 24−9=15. 7,7,8,9,10: 10−7=3. 11,11,11,15,19: 19−11=8."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 1 de 4 · Introductorio"
+    },
+    {
+      "numero": "12.2",
+      "titulo": "Comparar dos conjuntos con media y rango",
+      "explicacion": "Dos conjuntos de datos pueden tener exactamente la misma media y aun así comportarse muy diferente: uno puede tener sus datos muy juntos (parejo, rango pequeño) y el otro muy separados (disperso, rango grande). Por eso la media sola no basta para describir un conjunto de datos: siempre conviene acompañarla del rango para saber qué tan pareja o dispersa es la información.",
+      "ejemplos": [
+        "Las calificaciones del grupo 2°A fueron 7,7,7,8,8 (media 7.4, rango 1) y las del grupo 2°B fueron 5,5,8,9,10 (media 7.4, rango 5). Ambos grupos tienen la misma media, pero 2°A tuvo calificaciones mucho más parejas.",
+        "La Ciudad Norte tuvo temperaturas 21,22,23,24,25 °C (media 23, rango 4) y la Ciudad Sur tuvo 18,19,20,28,30 °C (media 23, rango 12). Mismo promedio, pero el clima de Sur fue mucho más variable."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "llenar_frase",
+          "frase": "Los puntos del Equipo Rojo en 5 partidos fueron 11, 12, 13, 14, 15. La media de puntos del Equipo Rojo es ___.",
+          "respuestaCorrecta": "13",
+          "retroalimentacion": "Media = (11+12+13+14+15)/5 = 65/5 = 13."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Los puntos del Equipo Azul en 5 partidos fueron 8, 9, 10, 18, 20. La media de puntos del Equipo Azul es ___.",
+          "respuestaCorrecta": "13",
+          "retroalimentacion": "Media = (8+9+10+18+20)/5 = 65/5 = 13."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el rango de los puntos del Equipo Rojo (11, 12, 13, 14, 15)?",
+          "opciones": [
+            "4",
+            "15",
+            "11",
+            "26"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Rango = 15 − 11 = 4."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el rango de los puntos del Equipo Azul (8, 9, 10, 18, 20)?",
+          "opciones": [
+            "12",
+            "20",
+            "8",
+            "28"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Rango = 20 − 8 = 12."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El Equipo Rojo y el Equipo Azul tienen la misma media de puntos (13), pero como el Equipo Azul tiene un rango mayor (12 contra 4), sus resultados fueron más dispersos partido a partido.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: misma media, pero un rango mayor en el Equipo Azul significa más variación entre partidos."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El Grupo X ahorra (en pesos, por semana) 50, 50, 52, 53, 55 y el Grupo Y ahorra 30, 40, 40, 70, 80. Ambos grupos tienen la misma media de ahorro (52 pesos). ¿Cuál grupo ahorra de forma más pareja (menos dispersa)?",
+          "opciones": [
+            "Grupo X",
+            "Grupo Y",
+            "Ambos igual",
+            "No se puede saber"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Rango de X = 55−50=5; rango de Y = 80−30=50. El Grupo X es mucho más parejo."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El rango del ahorro semanal del Grupo Y (30, 40, 40, 70, 80) es ___ pesos.",
+          "respuestaCorrecta": "50",
+          "retroalimentacion": "Rango = 80 − 30 = 50."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La Ciudad Norte tuvo temperaturas 21, 22, 23, 24, 25 °C durante la semana y la Ciudad Sur tuvo 18, 19, 20, 28, 30 °C. Ambas ciudades tienen la misma temperatura promedio (23 °C), pero el clima de la Ciudad Sur fue más variable (mayor rango).",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Rango de Norte = 25−21=4; rango de Sur = 30−18=12. La Ciudad Sur fue más variable."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Si la Ciudad Norte tuvo un rango de temperatura de 4 °C durante la semana y la Ciudad Sur tuvo un rango de 12 °C, ¿cuál ciudad tuvo el clima más constante?",
+          "opciones": [
+            "Ciudad Norte",
+            "Ciudad Sur",
+            "Ambas igual",
+            "Falta información"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Un rango menor (4 °C) indica menos variación: la Ciudad Norte fue más constante."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada comparación con el grupo que resultó más disperso (mayor rango).",
+          "columnaA": [
+            "Grupo 2°A (7,7,7,8,8) vs Grupo 2°B (5,5,8,9,10), misma media",
+            "Equipo Rojo (11-15) vs Equipo Azul (8-20), misma media",
+            "Grupo X (50-55) vs Grupo Y (30-80), misma media"
+          ],
+          "columnaB": [
+            "Grupo Y",
+            "Grupo 2°B",
+            "Equipo Azul"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "2°B tiene rango 5 contra 1 de 2°A; Equipo Azul tiene rango 12 contra 4 de Rojo; Grupo Y tiene rango 50 contra 5 de X."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 2 de 4 · Intermedio"
+    },
+    {
+      "numero": "12.3",
+      "titulo": "Datos atípicos",
+      "explicacion": "Un dato atípico es un valor que está muy alejado del resto de los datos del conjunto. Como la media toma en cuenta el valor de todos los datos al sumarlos, un solo dato atípico puede 'jalar' la media mucho hacia arriba o hacia abajo, haciendo que ya no represente bien al grupo. La mediana, en cambio, solo depende del orden de los datos, así que casi no cambia cuando hay un dato atípico; por eso suele representar mejor al grupo típico cuando hay valores extremos.",
+      "ejemplos": [
+        "Los sueldos (en miles de pesos) de 5 empleados son 8, 9, 9, 10, 60. La media es 19.2, pero la mediana es 9: la mayoría de los empleados gana alrededor de 9, no 19.2. El sueldo de 60 es un dato atípico que sube mucho la media.",
+        "Las edades de un grupo son 13, 13, 14, 14, 90 (un error de captura). La media es 28.8 años, pero la mediana es 14: la mediana refleja mejor la edad típica del grupo."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "llenar_frase",
+          "frase": "Los sueldos (en miles de pesos) de 5 empleados son 8, 9, 9, 10, 60. La media de estos sueldos es ___.",
+          "respuestaCorrecta": "19.2",
+          "retroalimentacion": "Media = (8+9+9+10+60)/5 = 96/5 = 19.2."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La mediana de esos mismos sueldos (8, 9, 9, 10, 60) es ___.",
+          "respuestaCorrecta": "9",
+          "retroalimentacion": "Ordenados: 8,9,9,10,60. El valor de en medio es 9."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En el conjunto de sueldos 8, 9, 9, 10, 60, el valor 60 es un dato atípico porque está muy alejado del resto.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: los demás valores están entre 8 y 10, muy lejos de 60."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Considerando que hay un dato atípico (60) entre los sueldos 8, 9, 9, 10, 60, ¿qué medida representa mejor el sueldo típico de este grupo?",
+          "opciones": [
+            "La mediana (9)",
+            "La media (19.2)",
+            "El rango (52)",
+            "El valor máximo (60)"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "La mediana (9) no se ve afectada por el valor extremo; la media (19.2) sí sube mucho por el dato atípico."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un salón registra las edades de sus integrantes: 13, 13, 14, 14, 90 (el último dato es un error de captura). La media de las edades es ___.",
+          "respuestaCorrecta": "28.8",
+          "retroalimentacion": "Media = (13+13+14+14+90)/5 = 144/5 = 28.8."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La mediana de esas mismas edades (13, 13, 14, 14, 90) es ___.",
+          "respuestaCorrecta": "14",
+          "retroalimentacion": "Ordenadas: 13,13,14,14,90. El valor de en medio es 14."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En el conjunto de edades 13, 13, 14, 14, 90, la mediana (14) representa mejor la edad típica del grupo que la media (28.8).",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: casi todos tienen 13 o 14 años; el 90 es un error que solo afecta a la media."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Las calificaciones de un examen fueron 1, 7, 8, 8, 9 (un alumno no presentó parte del examen y sacó 1). ¿Cuál es la mediana de este conjunto?",
+          "opciones": [
+            "8",
+            "7",
+            "6.6",
+            "1"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Ordenadas: 1,7,8,8,9. El valor de en medio es 8."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En las calificaciones 1, 7, 8, 8, 9, la media (6.6) es menor que la mayoría de las calificaciones individuales del grupo, debido al dato atípico (1).",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 6.6 es menor que 7, 8, 8 y 9; solo el 1 es menor que la media. El dato atípico baja la media."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada conjunto de datos (con un dato atípico) con el valor de su mediana.",
+          "columnaA": [
+            "Ventas diarias: 20, 21, 22, 23, 95",
+            "Propinas: 29, 30, 31, 32, 120",
+            "Estaturas (cm): 150, 151, 152, 153, 190"
+          ],
+          "columnaB": [
+            "152",
+            "22",
+            "31"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "Ordenando cada conjunto, la mediana es: ventas=22, propinas=31, estaturas=152; el dato atípico (95, 120 o 190) casi no afecta a la mediana."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 3 de 4 · Avanzado"
+    },
+    {
+      "numero": "12.4",
+      "titulo": "Comparación combinada",
+      "explicacion": "Para comparar qué tan consistente es un grupo de datos frente a otro, conviene usar varias herramientas juntas: la media (para saber el promedio), el rango (para saber qué tan dispersos están) y revisar si hay algún dato atípico (que podría estar 'engañando' a la media). Un grupo es más consistente cuando su rango es pequeño y no tiene valores atípicos que distorsionen sus resultados.",
+      "ejemplos": [
+        "Grupo A obtuvo 69, 70, 71, 72, 73 en un examen (media 71, rango 4) y Grupo B obtuvo 50, 55, 60, 85, 90 (media 68, rango 40). Aunque las medias son parecidas, el Grupo A es mucho más consistente porque su rango es mucho menor."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Grupo A obtuvo las calificaciones 69, 70, 71, 72, 73 y Grupo B obtuvo 50, 55, 60, 85, 90 en el mismo examen. ¿Cuál grupo tuvo un desempeño más consistente (parejo)?",
+          "opciones": [
+            "Grupo A",
+            "Grupo B",
+            "Ambos iguales",
+            "No se puede saber"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Rango de A = 73−69=4; rango de B = 90−50=40. El Grupo A es mucho más consistente."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La media de las calificaciones del Grupo A (69, 70, 71, 72, 73) es ___.",
+          "respuestaCorrecta": "71",
+          "retroalimentacion": "Media = (69+70+71+72+73)/5 = 355/5 = 71."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La media de las calificaciones del Grupo B (50, 55, 60, 85, 90) es ___.",
+          "respuestaCorrecta": "68",
+          "retroalimentacion": "Media = (50+55+60+85+90)/5 = 340/5 = 68."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El Grupo A tiene mayor rango de calificaciones que el Grupo B.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: el rango del Grupo A es 4 y el del Grupo B es 40; el Grupo A tiene el rango menor."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Dos talleres midieron el tiempo (en minutos) que tardan sus alumnos en resolver un acertijo. Taller 1: 10, 10, 11, 11, 12; Taller 2: 5, 8, 9, 15, 18. Aunque sus medias son parecidas (10.8 y 11), ¿cuál taller tuvo tiempos más dispersos?",
+          "opciones": [
+            "Taller 1",
+            "Taller 2",
+            "Ambos igual",
+            "Falta información"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Rango Taller 1 = 12−10=2; rango Taller 2 = 18−5=13. El Taller 2 fue mucho más disperso."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El rango de los tiempos del Taller 2 (5, 8, 9, 15, 18) es ___ minutos.",
+          "respuestaCorrecta": "13",
+          "retroalimentacion": "Rango = 18 − 5 = 13."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si dos conjuntos de datos tienen medias parecidas pero uno tiene un rango mucho mayor, ese conjunto es más disperso (menos parejo).",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: un rango mayor siempre indica más dispersión entre los datos, sin importar qué tan parecidas sean las medias."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un conjunto de datos tiene un valor muy alejado del resto (un dato atípico). ¿Qué medida se ve MENOS afectada por ese dato atípico?",
+          "opciones": [
+            "La media",
+            "La mediana",
+            "El rango",
+            "El valor máximo"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "La mediana solo depende del orden de los datos, así que casi no cambia con un dato atípico; la media sí se ve muy afectada."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El rango únicamente toma en cuenta el valor máximo y el valor mínimo de un conjunto de datos, sin importar los valores intermedios.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: el rango se calcula solo con el máximo y el mínimo; ignora cómo se distribuyen los datos entre ellos."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación con la conclusión correcta.",
+          "columnaA": [
+            "Grupo A (69-73) vs Grupo B (50-90), misma tarea",
+            "Taller 1 (10-12 min) vs Taller 2 (5-18 min)",
+            "Un conjunto de datos con un valor muy alejado del resto"
+          ],
+          "columnaB": [
+            "La mediana representa mejor al grupo que la media",
+            "Taller 1 es más consistente",
+            "Grupo A es más consistente"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "Grupo A tiene menor rango que B; Taller 1 tiene menor rango que Taller 2; con un dato atípico, la mediana representa mejor al grupo que la media."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 4 de 4 · Síntesis"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "llenar_frase",
+      "frase": "El rango del conjunto de datos 11, 13, 16, 19, 21 es ___.",
+      "respuestaCorrecta": "10",
+      "retroalimentacion": "Rango = 21 − 11 = 10."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "El rango del conjunto 40, 41, 42, 43, 44 es 4.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: rango = 44 − 40 = 4."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es el rango de un conjunto de datos donde todos los valores son iguales a 2 (2, 2, 2, 2, 2)?",
+      "opciones": [
+        "0",
+        "2",
+        "10",
+        "No se puede calcular"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "Si el máximo y el mínimo son iguales (2), el rango es 2 − 2 = 0."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "El rango del conjunto de datos 15, 20, 32, 45, 60 es ___.",
+      "respuestaCorrecta": "45",
+      "retroalimentacion": "Rango = 60 − 15 = 45."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Una tienda registra sus ventas diarias (en miles de pesos) durante 5 días. Tienda A: 99, 100, 101, 102, 103; Tienda B: 70, 90, 105, 110, 130. Ambas tiendas tienen la misma media de ventas (101). ¿Cuál tienda tuvo ventas más parejas (menos dispersas)?",
+      "opciones": [
+        "Tienda A",
+        "Tienda B",
+        "Ambas iguales",
+        "No se puede saber"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "Rango de A = 103−99=4; rango de B = 130−70=60. La Tienda A es mucho más pareja."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "El rango de las ventas de la Tienda B (70, 90, 105, 110, 130) es ___ (miles de pesos).",
+      "respuestaCorrecta": "60",
+      "retroalimentacion": "Rango = 130 − 70 = 60."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "La Tienda A y la Tienda B tienen el mismo rango de ventas.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Falso: el rango de la Tienda A es 4 y el de la Tienda B es 60."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Dos salones compararon sus calificaciones en un examen. Clase 1: 79, 80, 81, 82, 83; Clase 2: 60, 70, 85, 90, 100. Ambas clases tienen la misma media (81). ¿Cuál clase fue más consistente?",
+      "opciones": [
+        "Clase 1",
+        "Clase 2",
+        "Ambas iguales",
+        "Falta información"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "Rango de Clase 1 = 83−79=4; rango de Clase 2 = 100−60=40. La Clase 1 fue más consistente."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "La media de las temperaturas de la Ciudad de México durante 5 días (16, 17, 18, 19, 21) es ___ °C.",
+      "respuestaCorrecta": "18.2",
+      "retroalimentacion": "Media = (16+17+18+19+21)/5 = 91/5 = 18.2."
+    }
+  ]
+}

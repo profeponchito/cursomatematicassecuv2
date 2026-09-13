@@ -1,0 +1,432 @@
+{
+  "id": "2S-B1-PDA09C",
+  "grado": "2°",
+  "trimestre": "3",
+  "numero": 27,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Forma, espacio y medida",
+  "titulo": "Arcos y Sectores Circulares 9.3",
+  "contenido": "Circunferencia, círculo y esfera.",
+  "pda": "Calcula la longitud de un arco y el área de un sector circular a partir del ángulo central.",
+  "problematizacion": {
+    "contexto": "En la feria de su municipio, la rueda de la fortuna tiene un radio exterior de 10 m y un eje central protegido por una estructura circular de 2 m de radio, dejando un anillo (corona circular) donde giran las cabinas. Además, el boletero cobra $5 por cada grado de ángulo recorrido en el paseo de cada cliente.",
+    "pregunta": "¿Cuál es el área del anillo (corona circular) donde giran las cabinas, y cuánto pagaría un cliente que da una vuelta completa de 360° a esa tarifa?"
+  },
+  "subtemas": [
+    {
+      "numero": "9.8",
+      "nivelEtiqueta": "Nivel 1 de 3 · Reto avanzado",
+      "titulo": "Sector de una corona circular: el área entre dos arcos concéntricos",
+      "explicacion": "Hasta ahora todos los sectores partían de un solo círculo. Ahora aparecen DOS círculos con el mismo centro (concéntricos) pero distinto radio —como una pista con carriles, una alberca en forma de anillo o una dona—. La región entre ambos círculos, limitada por el mismo ángulo central, se llama sector de corona circular (o sector de anillo). Su área es la diferencia entre el sector del círculo grande y el sector del círculo pequeño.",
+      "formula": "área del sector de corona = (ángulo÷360) × π × (R² − r²)     donde R = radio mayor, r = radio menor",
+      "ejemplos": [
+        "Una corona circular con radio mayor R=10 cm, radio menor r=6 cm y ángulo central de 90°: área=(90÷360)×3.14×(10²−6²)=0.25×3.14×64=50.24 cm².",
+        "Con R=15 m, r=9 m y ángulo central de 120°: área=(120÷360)×3.14×(15²−9²)=0.3333×3.14×144=150.72 m²."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una pista de atletismo tiene un carril exterior de radio 30 m y un carril interior de radio 25 m. ¿Cuál es el área de la franja entre ambos carriles en un sector con ángulo central de 45°?",
+          "opciones": [
+            "107.94 m²",
+            "98.13 m²",
+            "117.75 m²",
+            "88.32 m²"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "área=(45/360)×3.14×(30²−25²)=(45/360)×3.14×275=107.94 m²."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una dona tiene un radio exterior de 8 cm y un agujero central de radio 3 cm. El área de un sector de esa dona con ángulo central de 60° es de ___ cm².",
+          "respuestaCorrecta": "28.78",
+          "retroalimentacion": "área=(60/360)×3.14×(8²−3²)=(60/360)×3.14×55=28.78 cm²."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un jardín circular de radio 12 m tiene una fuente central de radio 9 m. ¿Cuál es el área de pasto (la zona entre la fuente y el borde del jardín) en un sector con ángulo central de 100°?",
+          "opciones": [
+            "54.95 m²",
+            "65.94 m²",
+            "43.96 m²",
+            "76.86 m²"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "área=(100/360)×3.14×(12²−9²)=(100/360)×3.14×63=54.95 m²."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una arandela metálica tiene radio exterior de 7 cm y radio interior de 4 cm. El área de un sector de esa arandela con ángulo central de 150° es de ___ cm².",
+          "respuestaCorrecta": "43.17",
+          "retroalimentacion": "área=(150/360)×3.14×(7²−4²)=(150/360)×3.14×33=43.17 cm²."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una alberca en forma de anillo tiene un radio exterior de 6 m y una isla circular central de radio 2 m. El área de un sector de esa alberca con ángulo central de 270° es de 75.36 m².",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "área=(270/360)×3.14×(6²−2²)=(270/360)×3.14×32=75.36 m². Correcto."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una pista de patinaje circular tiene radio exterior de 20 m y una zona central prohibida de radio 14 m. ¿Cuál es el área patinable en un sector con ángulo central de 80°?",
+          "opciones": [
+            "142.35 m²",
+            "118.58 m²",
+            "165.97 m²",
+            "94.9 m²"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "área=(80/360)×3.14×(20²−14²)=(80/360)×3.14×204=142.35 m²."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una llanta de bicicleta tiene un radio exterior (con neumático) de 13 cm y un radio interior (del rin) de 5 cm. El área de goma visible en un sector con ángulo central de 72° es de ___ cm².",
+          "respuestaCorrecta": "90.43",
+          "retroalimentacion": "área=(72/360)×3.14×(13²−5²)=(72/360)×3.14×144=90.43 cm²."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un sistema de riego circular cubre un área en forma de anillo, con radio exterior de 9 m y radio interior (zona seca central) de 6 m. ¿Cuál es el área regada en un sector con ángulo central de 200°?",
+          "opciones": [
+            "78.5 m²",
+            "62.8 m²",
+            "94.2 m²",
+            "70.65 m²"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "área=(200/360)×3.14×(9²−6²)=(200/360)×3.14×45=78.5 m²."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si el ángulo central de un sector de corona circular es de 360° (la corona completa), su área es igual a la diferencia entre el área del círculo grande y el área del círculo pequeño. Para R=10 cm y r=6 cm, esa área completa es de 200.96 cm².",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: con 360° la fracción es 1, así que área=π×(R²−r²)=3.14×(100−36)=3.14×64=200.96 cm², igual a restar las áreas de los dos círculos completos (314−113.04=200.96)."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada corona circular (radio mayor R, radio menor r, ángulo central) con el área de su sector.",
+          "columnaA": [
+            "R=11 cm, r=7 cm, 50°",
+            "R=16 cm, r=12 cm, 63°",
+            "R=9 cm, r=5 cm, 140°",
+            "R=18 cm, r=15 cm, 200°"
+          ],
+          "columnaB": [
+            "68.38 cm²",
+            "172.7 cm²",
+            "31.4 cm²",
+            "61.54 cm²"
+          ],
+          "parejasCorrectas": [
+            2,
+            3,
+            0,
+            1
+          ],
+          "retroalimentacion": "R=11,r=7,50°: área=31.4 cm². R=16,r=12,63°: área=61.54 cm². R=9,r=5,140°: área=68.38 cm². R=18,r=15,200°: área=172.7 cm²."
+        }
+      ]
+    },
+    {
+      "numero": "9.9",
+      "nivelEtiqueta": "Nivel 2 de 3 · Integración",
+      "titulo": "La rueda de la fortuna: velocidad, tiempo y ángulo central juntos",
+      "explicacion": "Esta lección regresa al reto de la problematización del PDA —la rueda de la fortuna— pero ahora integra todo lo aprendido: la fracción de vuelta que representa el ángulo entre cabinas (9.1), la longitud del arco que recorre una cabina (9.2), el área de un sector entre dos rayos (9.3), y ahora además el TIEMPO y la VELOCIDAD. Si sabes cuánto tarda la rueda en dar una vuelta completa, puedes calcular cuánto tarda en mover una sola cabina, o qué tan rápido (en metros por minuto o por segundo) se desplaza.",
+      "formula": "velocidad = distancia (arco) ÷ tiempo         tiempo de una fracción de vuelta = (ángulo÷360) × tiempo de la vuelta completa",
+      "ejemplos": [
+        "Una rueda de la fortuna tiene 12 cabinas repartidas uniformemente y radio de 9 m. El ángulo entre cabinas consecutivas es 360°÷12=30°, y la distancia (arco) que recorre una cabina en ese giro es (30÷360)×2×3.14×9=4.71 m.",
+        "Esa misma rueda (radio 9 m) da una vuelta completa en 3 minutos. Su circunferencia total es 2×3.14×9=56.52 m, así que su velocidad es 56.52÷3=18.84 m/min. Como cada uno de los 12 tramos entre cabinas representa 1/12 de la vuelta, el tiempo entre una cabina y la siguiente es 3÷12=0.25 min = 15 segundos."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una rueda de la fortuna con 8 cabinas uniformes y radio de 14 m da una vuelta completa en 4 minutos. ¿Cuántos segundos tarda en mover una cabina hasta la posición de la siguiente?",
+          "opciones": [
+            "30 segundos",
+            "24 segundos",
+            "45 segundos",
+            "20 segundos"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "El ángulo entre cabinas es 360°÷8=45°, es decir 1/8 de vuelta. Tiempo=4 min÷8=0.5 min=30 s."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Para esa misma rueda (8 cabinas, radio 14 m), la distancia curva (arco) que recorre una cabina al pasar a la posición de la siguiente es de ___ m.",
+          "respuestaCorrecta": "10.99",
+          "retroalimentacion": "arco=(45/360)×2×3.14×14=10.99 m."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "La rueda de la fortuna de la feria (10 cabinas uniformes, radio 9 m) da una vuelta completa en 5 minutos. ¿Cuántos segundos tarda en mover una cabina hasta la posición de abordaje de la siguiente?",
+          "opciones": [
+            "30 segundos",
+            "36 segundos",
+            "50 segundos",
+            "18 segundos"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "El ángulo entre cabinas es 360°÷10=36°, es decir 1/10 de vuelta. Tiempo=5 min÷10=0.5 min=30 s."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Para esa misma rueda (radio 9 m, ángulo de 36° entre cabinas), el área del sector comprendido entre dos rayos consecutivos es de ___ m².",
+          "respuestaCorrecta": "25.43",
+          "retroalimentacion": "área=(36/360)×3.14×9²=25.43 m²."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una rueda de la fortuna con 15 cabinas uniformes y radio de 10 m da una vuelta completa en 6 minutos (360 segundos). El ángulo entre cabinas consecutivas es de 24°, y cada cabina tarda 24 segundos en llegar a la posición de la siguiente.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "360°÷15=24°=1/15 de vuelta. 360 s÷15=24 s. Correcto."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Esa rueda (vuelta completa en 6 minutos) gira a una velocidad angular de 60° por minuto (360°÷6 min). ¿Cuántos segundos tarda en girar 96°?",
+          "opciones": [
+            "96 segundos",
+            "80 segundos",
+            "60 segundos",
+            "112 segundos"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "96°÷60°/min=1.6 min=1.6×60=96 segundos."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El radar de un aeropuerto da una vuelta completa cada 12 segundos (30° por segundo) y detecta aviones hasta 50 km. En 1 segundo, la punta de su señal recorre un arco de ___ km.",
+          "respuestaCorrecta": "26.17",
+          "retroalimentacion": "arco=(30/360)×2×3.14×50=26.17 km."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Cuatro ruedas de la fortuna distintas tienen un ángulo de 40° entre cabinas consecutivas, pero diferente radio. Relaciona cada radio con la distancia (arco) que recorre una cabina.",
+          "columnaA": [
+            "radio 6 m",
+            "radio 10 m",
+            "radio 15 m",
+            "radio 20 m"
+          ],
+          "columnaB": [
+            "10.47 m",
+            "4.19 m",
+            "13.96 m",
+            "6.98 m"
+          ],
+          "parejasCorrectas": [
+            1,
+            3,
+            0,
+            2
+          ],
+          "retroalimentacion": "r=6: arco=4.19 m. r=10: arco=6.98 m. r=15: arco=10.47 m. r=20: arco=13.96 m (todos con ángulo=40°)."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un automóvil toma una curva circular de radio 40 m que abarca un ángulo central de 54°. El arco (la distancia curva) que recorre el automóvil al tomar la curva es de ___ m.",
+          "respuestaCorrecta": "37.68",
+          "retroalimentacion": "arco=(54/360)×2×3.14×40=37.68 m."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Ese mismo automóvil toma la curva (arco de 37.68 m) a una velocidad constante de 15 m/s. ¿Cuánto tiempo tarda en recorrer la curva completa?",
+          "opciones": [
+            "2.51 segundos",
+            "2.01 segundos",
+            "3.02 segundos",
+            "1.88 segundos"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "tiempo=distancia÷velocidad=37.68÷15=2.51 segundos."
+        }
+      ]
+    },
+    {
+      "numero": "9.10",
+      "nivelEtiqueta": "Nivel 3 de 3 · Dominio",
+      "titulo": "Presupuesto integral: de un dato conocido al costo total",
+      "explicacion": "Esta lección de dominio integra todo el PDA en problemas de varios pasos: a veces conoces el área y debes encontrar el radio (usando raíz cuadrada) antes de calcular el arco o el perímetro; otras veces debes comparar sectores, calcular qué porcentaje del círculo ocupa un sector, o incluso encontrar el perímetro de un sector de corona circular (dos arcos y dos segmentos rectos). Todo termina aplicándose a un contexto real de diseño, presupuesto o costo en pesos.",
+      "formula": "costo total = cantidad (m² o m) × precio unitario         perímetro de un sector de corona = arco exterior + arco interior + 2×(R−r)",
+      "ejemplos": [
+        "Un jardín en forma de sector tiene un área de 235.5 m² y un ángulo central de 120°. Su radio es r=√(235.5÷((120÷360)×3.14))=√(235.5÷1.0467)=15 m. Su arco es (120÷360)×2×3.14×15=31.4 m, y su perímetro es 31.4+2×15=61.4 m. Si sembrar pasto cuesta $45 por m² y el cerco cuesta $80 por metro, el costo total es 235.5×45 + 61.4×80 = $10,597.50 + $4,912.00 = $15,509.50.",
+        "Una mesa de restaurante en forma de sector tiene radio 1.2 m y ángulo central de 90°. Su área es (90÷360)×3.14×1.2²=1.13 m². Un mantel especial cuesta $150 por m², así que ese mantel cuesta aproximadamente 1.13×150=$169.50."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una alberca en forma de sector circular tiene un área de 141.51 m² y un ángulo central de 96°. ¿Cuál es su radio? (usa π≈3.14)",
+          "opciones": [
+            "13 m",
+            "12 m",
+            "14 m",
+            "15 m"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "r=√(141.51÷((96/360)×3.14))=√(141.51÷0.8373)≈√169=13 m."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un jardín en forma de sector tiene radio 14 m y ángulo central de 85°. Sembrar pasto cuesta $60 por m² y poner cerco alrededor de todo el contorno (arco + 2 radios) cuesta $95 por metro. El costo TOTAL (pasto + cerco) es de $___.",
+          "respuestaCorrecta": "13350.8",
+          "retroalimentacion": "área=(85/360)×3.14×14²=145.31 m² → 145.31×60=$8,718.60. arco=20.76 m, perímetro=20.76+28=48.76 m → 48.76×95=$4,632.20. Total=8,718.60+4,632.20=$13,350.80."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Cuatro jardines en forma de sector tienen todos un ángulo central de 100°, pero diferente radio. Relaciona cada radio con el área de su jardín.",
+          "columnaA": [
+            "radio 10 m",
+            "radio 15 m",
+            "radio 20 m",
+            "radio 25 m"
+          ],
+          "columnaB": [
+            "348.89 m²",
+            "87.22 m²",
+            "545.14 m²",
+            "196.25 m²"
+          ],
+          "parejasCorrectas": [
+            1,
+            3,
+            0,
+            2
+          ],
+          "retroalimentacion": "r=10: área=87.22 m². r=15: área=196.25 m². r=20: área=348.89 m². r=25: área=545.14 m² (todos con ángulo=100°)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una pizza familiar de radio 16 cm se corta en 5 rebanadas iguales (cada una con ángulo central de 72°). Si toda la pizza cuesta $240 y el precio se reparte según el área de cada rebanada, cada rebanada debe costar $48, porque las 5 rebanadas tienen exactamente la misma área (160.77 cm² cada una).",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "área de cada rebanada=(72/360)×3.14×16²=160.77 cm²; como las 5 son iguales, el costo se reparte igual: 240÷5=$48. Correcto."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un diseñador crea un logo circular: un sector con radio 5 cm y ángulo central de 252°. El perímetro total de esa figura (arco + 2 radios) es de ___ cm.",
+          "respuestaCorrecta": "31.98",
+          "retroalimentacion": "arco=(252/360)×2×3.14×5=21.98 cm; perímetro=21.98+2×5=21.98+10=31.98 cm."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una plaza pública tiene un camino en forma de corona circular (radio exterior 20 m, radio interior 15 m). Pavimentar un sector de esa corona con ángulo central de 140° cuesta $35 por m². ¿Cuál es el costo total de pavimentar ese sector?",
+          "opciones": [
+            "$7,479.15",
+            "$6,479.15",
+            "$8,479.15",
+            "$5,979.15"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "área=(140/360)×3.14×(20²−15²)=213.69 m²; costo=213.69×35=$7,479.15."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un jardín en forma de sector tiene radio 9 m y ángulo central de 160°. Sembrar pasto cuesta $50 por m² y el cerco alrededor de todo el contorno cuesta $70 por metro. El costo TOTAL (pasto + cerco) es de $___.",
+          "respuestaCorrecta": "8670.4",
+          "retroalimentacion": "área=(160/360)×3.14×9²=113.04 m² → 113.04×50=$5,652. arco=25.12 m, perímetro=25.12+18=43.12 m → 43.12×70=$3,018.40. Total=5,652+3,018.40=$8,670.40."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un sector circular tiene un área de 340.06 cm² y un ángulo central de 108°. ¿Cuál es su radio?",
+          "opciones": [
+            "19 cm",
+            "18 cm",
+            "20 cm",
+            "17 cm"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "r=√(340.06÷((108/360)×3.14))=√(340.06÷0.942)≈√361=19 cm."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un sector circular con radio 13 cm tiene un ángulo central de 200°. Su área (294.81 cm²) representa aproximadamente el 55.6% del área total del círculo (530.66 cm²).",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "200°÷360°=0.5556=55.56%. área del sector=(200/360)×3.14×13²=294.81 cm²; área del círculo=3.14×13²=530.66 cm². Correcto."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una pieza de joyería tiene forma de sector de corona circular: radio exterior 10 cm, radio interior 6 cm, ángulo central de 225°. Si necesitas soldar un borde de metal en todo su contorno (los dos arcos MÁS los dos lados rectos, cada uno de longitud R−r), ¿cuántos centímetros de borde necesitas en total?",
+          "opciones": [
+            "70.8 cm",
+            "62.8 cm",
+            "78.8 cm",
+            "55.6 cm"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "arco exterior=(225/360)×2×3.14×10=39.25 cm; arco interior=(225/360)×2×3.14×6=23.55 cm; cada lado recto mide R−r=10−6=4 cm (hay dos). Total=39.25+23.55+2×4=39.25+23.55+8=70.8 cm."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Un sector con ángulo central de 120° y radio 10 cm tiene un área de 104.67 cm².",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "sector=(120/360)×3.14×10²=0.3333×314=104.67 cm². Correcto."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada sector (con el mismo radio de 6 cm) con el área que cubre según su ángulo central.",
+      "columnaA": [
+        "30°, r=6 cm",
+        "60°, r=6 cm",
+        "90°, r=6 cm",
+        "120°, r=6 cm"
+      ],
+      "columnaB": [
+        "37.68 cm²",
+        "9.42 cm²",
+        "28.26 cm²",
+        "18.84 cm²"
+      ],
+      "parejasCorrectas": [
+        1,
+        3,
+        2,
+        0
+      ],
+      "retroalimentacion": "Con radio fijo, el área crece proporcionalmente al ángulo: 30°=9.42 cm², 60°=18.84 cm², 90°=28.26 cm², 120°=37.68 cm²."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Una pizza de radio 15 cm se corta en 6 rebanadas iguales (ángulo central de 60°). ¿Cuál es el área de una rebanada?",
+      "opciones": [
+        "117.75 cm²",
+        "70.65 cm²",
+        "141.3 cm²",
+        "58.88 cm²"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "sector=(60/360)×3.14×15²=0.1667×706.5=117.75 cm²."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Un abanico de radio 12 cm se abre formando un ángulo central de 90°. El arco que recorre su borde mide ___ cm.",
+      "respuestaCorrecta": "18.84",
+      "retroalimentacion": "arco=(90/360)×2×3.14×12=0.25×75.36=18.84 cm."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Un jardín circular de radio 10 m tiene una sección con ángulo central de 72°. El área de esa sección es de 62.8 m².",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "sector=(72/360)×3.14×10²=0.2×314=62.8 m². Correcto."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Una noria de radio 25 m tiene 8 cabinas igualmente separadas (ángulo central de 45° entre cada una). ¿Cuál es la distancia en línea curva (arco) entre dos cabinas consecutivas?",
+      "opciones": [
+        "19.62 m",
+        "9.81 m",
+        "39.25 m",
+        "29.43 m"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "arco=(45/360)×2×3.14×25=0.125×157=19.62 m."
+    }
+  ]
+}

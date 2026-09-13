@@ -1,0 +1,426 @@
+{
+  "id": "2S-B1-PDA13B",
+  "grado": "2°",
+  "trimestre": "3",
+  "numero": 38,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Eventos Compuestos y Diagramas de Árbol 13.2",
+  "contenido": "Azar e incertidumbre en la ocurrencia de eventos cotidianos.",
+  "pda": "Calcula la probabilidad de eventos compuestos independientes usando diagramas de árbol.",
+  "problematizacion": {
+    "contexto": "Un portero de fútbol tiene, según sus últimos partidos, 70% de probabilidad de atajar un penal cuando el disparo va a su izquierda, 50% cuando va al centro y 40% cuando va a su derecha. En el próximo partido enfrentará exactamente un penal a cada lado, uno por uno.",
+    "pregunta": "¿Cuál es la probabilidad de que el portero ataje al menos uno de los tres penales, usando las probabilidades distintas de cada lado?"
+  },
+  "subtemas": [
+    {
+      "numero": "13.5",
+      "nivelEtiqueta": "Nivel 1 de 3 · Aplicación",
+      "titulo": "Probabilidades distintas en decisiones cotidianas",
+      "explicacion": "Hasta ahora combinaste eventos con probabilidades \"redondas\" como 1/2 o 1/6 (monedas, dados, colores igual de probables). En la vida real muchas decisiones combinan sucesos con probabilidades distintas entre sí, expresadas como fracciones, decimales o porcentajes: el pronóstico del clima, si un camión llega a tiempo o si un cliente compra cierto producto. La regla del producto sigue funcionando igual, solo que ahora P(A) y P(B) pueden ser cualquier número entre 0 y 1.",
+      "formula": "P(A y B) = P(A) × P(B), aunque P(A) y P(B) sean decimales, porcentajes o fracciones distintas entre sí",
+      "ejemplos": [
+        "El pronóstico del clima en Guadalajara indica 40% (0.4) de probabilidad de lluvia mañana y, de forma independiente, 25% (0.25) de probabilidad de tráfico pesado en la carretera a esa hora. P(lluvia y tráfico pesado) = 0.4 × 0.25 = 0.10, es decir, 10%.",
+        "En una papelería, la probabilidad de que un cliente compre un cuaderno es 3/5 y, de manera independiente, la probabilidad de que también compre un lápiz es 2/3. P(compre cuaderno y lápiz) = 3/5 × 2/3 = 6/15 = 2/5."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En la Ciudad de México, la probabilidad de que un camión llegue a tiempo es 0.6 y, de manera independiente, la probabilidad de que haya boletos disponibles en el cine es 0.5. ¿Cuál es la probabilidad de que el camión llegue a tiempo Y haya boletos disponibles?",
+          "opciones": [
+            "0.11",
+            "0.3",
+            "0.6",
+            "1.1"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "P(camión a tiempo y boletos) = 0.6 × 0.5 = 0.3."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La probabilidad de que llueva mañana en Monterrey es 0.3 y, de forma independiente, la probabilidad de que un vuelo se retrase es 0.2. La probabilidad de que ambas cosas ocurran es 0.5.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: P(lluvia y retraso) = 0.3 × 0.2 = 0.06, no 0.5."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si P(A) = 2/5 y P(B) = 1/4, y A y B son independientes, entonces P(A y B) = ___.",
+          "respuestaCorrecta": "1/10",
+          "retroalimentacion": "2/5 × 1/4 = 2/20 = 1/10."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una escuela, el 80% de los alumnos desayuna antes de clases y, de manera independiente, el 50% practica algún deporte por las tardes. ¿Qué probabilidad hay de que un alumno elegido al azar desayune Y practique deporte?",
+          "opciones": [
+            "40%",
+            "65%",
+            "30%",
+            "80%"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "0.8 × 0.5 = 0.4, es decir, 40%."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En una dulcería, la probabilidad de que un cliente compre chocolate es 3/4 y, de forma independiente, la probabilidad de que compre chicle es 1/3. La probabilidad de que compre ambos productos es 1/4.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 3/4 × 1/3 = 3/12 = 1/4."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada par de probabilidades independientes P(A) y P(B) con el valor de P(A y B).",
+          "columnaA": [
+            "P(A)=0.5, P(B)=0.2",
+            "P(A)=3/4, P(B)=1/2",
+            "P(A)=0.9, P(B)=0.1"
+          ],
+          "columnaB": [
+            "0.1",
+            "3/8",
+            "0.09"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "0.5×0.2=0.1. 3/4×1/2=3/8. 0.9×0.1=0.09."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un puesto de tacos observa que, de forma independiente, el 70% de sus clientes pide salsa verde y el 40% pide también refresco. La probabilidad de que un cliente pida ambas cosas es ___.",
+          "respuestaCorrecta": "0.28",
+          "retroalimentacion": "0.7 × 0.4 = 0.28."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En un tianguis, la probabilidad de que un puesto de frutas tenga mango es 5/6 y, de forma independiente, la probabilidad de que tenga sandía es 2/3. ¿Cuál es la probabilidad de que tenga ambas frutas?",
+          "opciones": [
+            "5/9",
+            "7/9",
+            "4/9",
+            "1/2"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "5/6 × 2/3 = 10/18 = 5/9."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si P(A) = 1/3 y P(B) = 3/8, y A y B son independientes, entonces P(A y B) = 1/8.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 1/3 × 3/8 = 3/24 = 1/8."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una fábrica de bicicletas reporta que el 90% de los cuadros no tiene defectos y, de forma independiente, el 95% de las llantas no tiene defectos. ¿Cuál es la probabilidad de que una bicicleta tenga tanto el cuadro como las llantas sin defectos?",
+          "opciones": [
+            "85.5%",
+            "94.5%",
+            "5%",
+            "90%"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "0.9 × 0.95 = 0.855, es decir, 85.5%."
+        }
+      ]
+    },
+    {
+      "numero": "13.6",
+      "nivelEtiqueta": "Nivel 2 de 3 · Aplicación avanzada",
+      "titulo": "Al menos un acierto: control de calidad y deportes",
+      "explicacion": "Ya calculaste 'al menos 2 águilas' en 3 monedas, donde todos los resultados eran igual de probables. Ahora calcularás la probabilidad de que ocurra AL MENOS UNO de dos eventos independientes cuando sus probabilidades individuales son distintas entre sí. La estrategia es usar el complemento: primero calculas la probabilidad de que NINGUNO de los dos ocurra, y luego restas ese valor de 1.",
+      "formula": "P(al menos uno de A o B) = 1 − [(1 − P(A)) × (1 − P(B))]",
+      "ejemplos": [
+        "Dos jugadores de basquetbol tiran un tiro libre cada uno, de forma independiente: Ana encesta con probabilidad 0.7 y Bruno con 0.6. P(ninguno encesta) = (1−0.7)×(1−0.6) = 0.3×0.4 = 0.12. P(al menos uno encesta) = 1 − 0.12 = 0.88.",
+        "En una fábrica, la probabilidad de que la máquina A falle en un día es 1/10 y la de la máquina B es 1/5, de forma independiente. P(ninguna falla) = 9/10 × 4/5 = 36/50 = 18/25. P(al menos una falla) = 1 − 18/25 = 7/25."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Dos porteros de fútbol atajan penales de forma independiente: Carlos con probabilidad 0.5 y Diego con probabilidad 0.8. ¿Cuál es la probabilidad de que AL MENOS UNO de los dos ataje su penal?",
+          "opciones": [
+            "0.9",
+            "0.4",
+            "0.1",
+            "1.3"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(ninguno ataja) = 0.5×0.2 = 0.1. P(al menos uno) = 1 − 0.1 = 0.9."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si P(A)=0.3 y P(B)=0.4 son independientes, la probabilidad de que ocurra al menos uno de los dos es 0.58.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: P(ninguno) = 0.7×0.6 = 0.42, así que P(al menos uno) = 1 − 0.42 = 0.58."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si P(A)=1/4 y P(B)=1/3 son independientes, P(al menos uno de los dos) = ___.",
+          "respuestaCorrecta": "1/2",
+          "retroalimentacion": "P(ninguno) = 3/4 × 2/3 = 1/2. P(al menos uno) = 1 − 1/2 = 1/2."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Dos alarmas contra incendio funcionan de manera independiente: la probabilidad de que la alarma 1 falle es 0.05 y la de la alarma 2 es 0.1. ¿Cuál es la probabilidad de que AL MENOS UNA de las dos funcione correctamente (es decir, que no fallen ambas)?",
+          "opciones": [
+            "99.5%",
+            "95%",
+            "0.5%",
+            "90%"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(ambas fallan) = 0.05 × 0.1 = 0.005. P(al menos una funciona) = 1 − 0.005 = 0.995 = 99.5%."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Dos exámenes de admisión son independientes: la probabilidad de aprobar el primero es 2/5 y el segundo es 3/5. La probabilidad de aprobar AL MENOS UNO de los dos es 19/25.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: P(ninguno aprobado) = 3/5 × 2/5 = 6/25. P(al menos uno) = 1 − 6/25 = 19/25."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada par de probabilidades independientes con la probabilidad de que ocurra AL MENOS UNO de los dos eventos.",
+          "columnaA": [
+            "P(A)=0.2, P(B)=0.5",
+            "P(A)=1/2, P(B)=1/4",
+            "P(A)=0.9, P(B)=0.2"
+          ],
+          "columnaB": [
+            "0.6",
+            "5/8",
+            "0.92"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "0.2,0.5: 1−(0.8×0.5)=0.6. 1/2,1/4: 1−(1/2×3/4)=5/8. 0.9,0.2: 1−(0.1×0.8)=0.92."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Dos líneas de producción trabajan de forma independiente: la probabilidad de que la línea 1 tenga un defecto es 0.1 y la línea 2 es 0.2. La probabilidad de que AL MENOS UNA tenga un defecto es ___.",
+          "respuestaCorrecta": "0.28",
+          "retroalimentacion": "P(ninguna con defecto) = 0.9 × 0.8 = 0.72. P(al menos una) = 1 − 0.72 = 0.28."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una competencia, dos atletas tienen probabilidad independiente de calificar a la final: Elena con 3/4 y Fer con 2/3. ¿Cuál es la probabilidad de que AL MENOS UNA de las dos califique?",
+          "opciones": [
+            "11/12",
+            "1/12",
+            "7/12",
+            "5/6"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(ninguna califica) = 1/4 × 1/3 = 1/12. P(al menos una) = 1 − 1/12 = 11/12."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si dos eventos independientes tienen P(A)=0.6 y P(B)=0.6, la probabilidad de que ocurra al menos uno de los dos es MENOR que la probabilidad de que ocurra solo A.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: P(al menos uno) = 1 − (0.4×0.4) = 0.84, que es MAYOR que P(A)=0.6, no menor."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una alumna hace dos intentos independientes de tiro a la canasta en Educación Física, con probabilidad de acierto 0.3 en cada intento. ¿Cuál es la probabilidad de que acierte AL MENOS UNA vez en sus dos intentos?",
+          "opciones": [
+            "0.51",
+            "0.09",
+            "0.6",
+            "0.49"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(ningún acierto) = 0.7×0.7 = 0.49. P(al menos uno) = 1 − 0.49 = 0.51."
+        }
+      ]
+    },
+    {
+      "numero": "13.7",
+      "nivelEtiqueta": "Nivel 3 de 3 · Reto",
+      "titulo": "Tres eventos independientes con probabilidades distintas",
+      "explicacion": "Hasta ahora combinaste dos eventos independientes a la vez. En esta lección extiendes la regla del producto a TRES eventos independientes con probabilidades diferentes entre sí, y también extiendes el complemento a tres eventos para calcular la probabilidad de que ocurra al menos uno de ellos.",
+      "formula": "P(A y B y C) = P(A) × P(B) × P(C); P(al menos uno de los tres) = 1 − [(1−P(A)) × (1−P(B)) × (1−P(C))]",
+      "ejemplos": [
+        "Una fábrica de dulces tiene tres máquinas independientes; la probabilidad de que cada una funcione sin fallas en un turno es 0.9, 0.8 y 0.95 respectivamente. P(las tres funcionen sin fallas) = 0.9 × 0.8 × 0.95 = 0.684.",
+        "El pronóstico dice que, de forma independiente, hay 20% de probabilidad de lluvia el lunes, 30% el martes y 10% el miércoles. P(llueva al menos uno de esos tres días) = 1 − (0.8×0.7×0.9) = 1 − 0.504 = 0.496, es decir, 49.6%."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Tres semáforos independientes en el camino a la escuela están en verde con probabilidad 0.5, 0.4 y 0.6 respectivamente. ¿Cuál es la probabilidad de que los TRES estén en verde al mismo tiempo?",
+          "opciones": [
+            "0.12",
+            "0.5",
+            "1.5",
+            "0.06"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "0.5 × 0.4 × 0.6 = 0.12."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si P(A)=1/2, P(B)=1/3 y P(C)=1/4 son independientes, entonces P(A y B y C) = 1/24.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 1/2 × 1/3 × 1/4 = 1/24."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Tres alumnos resuelven de forma independiente el mismo problema de examen: Ana con probabilidad 0.8, Beto con 0.5 y Caro con 0.25. La probabilidad de que los TRES lo resuelvan correctamente es ___.",
+          "respuestaCorrecta": "0.1",
+          "retroalimentacion": "0.8 × 0.5 × 0.25 = 0.1."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una fábrica, tres líneas de ensamblaje funcionan de forma independiente sin fallas con probabilidad 0.9, 0.8 y 0.95. ¿Cuál es la probabilidad de que las TRES funcionen sin fallas en un mismo turno?",
+          "opciones": [
+            "0.684",
+            "0.72",
+            "0.855",
+            "0.6"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "0.9 × 0.8 × 0.95 = 0.684."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El pronóstico indica, de forma independiente, 20% de probabilidad de lluvia el lunes, 30% el martes y 10% el miércoles. La probabilidad de que llueva AL MENOS uno de esos tres días es 49.6%.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 1 − (0.8×0.7×0.9) = 1 − 0.504 = 0.496 = 49.6%."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada trío de probabilidades independientes P(A), P(B), P(C) con el valor de P(A y B y C).",
+          "columnaA": [
+            "P=0.5, 0.5, 0.4",
+            "P=1/2, 1/2, 1/3",
+            "P=0.2, 0.5, 0.5"
+          ],
+          "columnaB": [
+            "0.1",
+            "1/12",
+            "0.05"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "0.5×0.5×0.4=0.1. 1/2×1/2×1/3=1/12. 0.2×0.5×0.5=0.05."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un estudiante presenta tres exámenes de manera independiente con probabilidad de REPROBAR 0.1, 0.25 y 0.2 respectivamente. La probabilidad de que APRUEBE los tres es ___.",
+          "respuestaCorrecta": "0.54",
+          "retroalimentacion": "Probabilidades de aprobar: 0.9, 0.75 y 0.8. 0.9 × 0.75 × 0.8 = 0.54."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un beisbolista tiene probabilidad 0.3 de conectar hit en cada uno de sus 3 turnos al bat en un partido, de forma independiente. ¿Cuál es la probabilidad de que NO conecte hit en NINGUNO de sus 3 turnos?",
+          "opciones": [
+            "0.343",
+            "0.657",
+            "0.027",
+            "0.9"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(no hit en un turno) = 0.7. P(no hit en los 3) = 0.7 × 0.7 × 0.7 = 0.343."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si P(A)=0.4, P(B)=0.5 y P(C)=0.5 son independientes, la probabilidad de que ocurran los TRES es MAYOR que la probabilidad de que ocurra solo A.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: P(los tres) = 0.4×0.5×0.5 = 0.1, que es MENOR que P(A)=0.4, no mayor."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Tres controles de calidad independientes de un mismo producto tienen probabilidad de detectar un defecto de 0.5, 0.5 y 0.8. Si el defecto existe, ¿cuál es la probabilidad de que AL MENOS UNO de los tres lo detecte?",
+          "opciones": [
+            "0.95",
+            "0.05",
+            "0.8",
+            "0.5"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(ninguno detecta) = 0.5×0.5×0.2 = 0.05. P(al menos uno detecta) = 1 − 0.05 = 0.95."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "En el diagrama de árbol de un dado y una moneda (dado primero), 3 de las 12 ramas terminan en 'número mayor a 3 y águila'.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: los números mayores a 3 son 4, 5 y 6; cada uno tiene una rama que termina en águila, son 3."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Se lanzan dos monedas. ¿Cuál es la probabilidad de obtener 'sol y sol'?",
+      "opciones": [
+        "1/2",
+        "1/4",
+        "1/8",
+        "1/3"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "P(sol y sol) = 1/2 × 1/2 = 1/4."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Se lanza un dado y una moneda. La probabilidad de obtener 'un 1 en el dado y águila' es ___.",
+      "respuestaCorrecta": "1/12",
+      "retroalimentacion": "P(1)=1/6, P(águila)=1/2. 1/6 × 1/2 = 1/12."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Si P(A)=1/5 y P(B)=1/2, y A y B son independientes, entonces P(A y B)=1/10.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: 1/5 × 1/2 = 1/10."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Se lanzan dos dados. ¿Cuál es la probabilidad de obtener 'un número par en el primero y un número mayor a 4 en el segundo'?",
+      "opciones": [
+        "1/6",
+        "1/12",
+        "1/3",
+        "1/4"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "P(par)=1/2, P(mayor a 4)=2/6=1/3. 1/2 × 1/3 = 1/6."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada pareja de probabilidades independientes con el valor de P(A y B).",
+      "columnaA": [
+        "P(A)=1/2, P(B)=1/4",
+        "P(A)=1/3, P(B)=1/3",
+        "P(A)=1/6, P(B)=1/3"
+      ],
+      "columnaB": [
+        "1/9",
+        "1/8",
+        "1/18"
+      ],
+      "parejasCorrectas": [
+        1,
+        0,
+        2
+      ],
+      "retroalimentacion": "1/2×1/4=1/8. 1/3×1/3=1/9. 1/6×1/3=1/18."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "La probabilidad de obtener 'águila' en una moneda y 'un número menor que 3' en un dado es 1/6.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: P(águila)=1/2, P(menor que 3)=2/6=1/3. 1/2 × 1/3 = 1/6."
+    }
+  ]
+}
