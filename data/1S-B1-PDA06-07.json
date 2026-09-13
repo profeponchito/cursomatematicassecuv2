@@ -1,0 +1,170 @@
+{
+  "id": "1S-B1-PDA06-07",
+  "grado": "1°",
+  "trimestre": "2",
+  "numero": 57,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Ecuaciones lineales y cuadráticas 6.7",
+  "contenido": "Ecuaciones lineales y cuadráticas.",
+  "pda": "Resuelve ecuaciones de la forma Ax=B, Ax+B=C, Ax+B=Cx+D con el uso de las propiedades de la igualdad.",
+  "problematizacion": {
+    "contexto": "Un terreno de x hectáreas se repartió en partes iguales entre 4 hermanos, y después cada uno recibió 3 hectáreas extra de un terreno vecino, quedando cada uno con 10 hectáreas en total.",
+    "pregunta": "¿Cuántas hectáreas medía el terreno original completo (x), resolviendo x/4+3=10?"
+  },
+  "subtemas": [
+    {
+      "numero": "6.7",
+      "titulo": "Repartos exactos: ecuaciones con x dividido entre un número",
+      "explicacion": "En esta lección la incógnita aparece dividida entre un número, como en x/4 + 3 = 10. Para despejar x, primero se despeja el término dividido usando la operación inversa (suma o resta) y después se multiplica ambos lados por el número que divide a x, en vez de dividir como en las lecciones anteriores. Este tipo de ecuación aparece al repartir terrenos, tiempo o ingredientes entre partes iguales.",
+      "formula": "x/A + B = C  →  x/A = C − B  →  x = A × (C − B)",
+      "ejemplos": [
+        "x/4 + 3 = 10 → x/4 = 10-3 = 7 → x = 4×7 = 28. Un terreno de x m² se repartió entre 4 hermanos y, aparte, la parte de cada uno más un pasillo común dan ese total, así que el terreno completo mide 28 m².",
+        "x/5 − 2 = 6 → x/5 = 8 → x = 5×8 = 40. Un tinaco de x litros se vació en 5 cubetas iguales y sobraron 2 cubetas de diferencia con lo que se necesitaba; el tinaco tenía 40 litros."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Resuelve: x/3 + 4 = 9",
+          "opciones": [
+            "x=15",
+            "x=27",
+            "x=39",
+            "x=5"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "x/3=9-4=5 → x=3×5=15."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Resuelve: x/6 + 2 = 9. x = ___.",
+          "respuestaCorrecta": "42",
+          "retroalimentacion": "x/6=9-2=7 → x=6×7=42."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La solución de x/4 − 5 = 3 es x = 32.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: x/4=3+5=8 → x=4×8=32."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La solución de x/5 + 6 = 14 es x = 30.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "x/5=14-6=8 → x=5×8=40, no 30."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un contenedor de x litros de agua se repartió en partes iguales entre 8 tinacos, y aparte se usaron 5 litros para regar plantas; un tinaco más el riego se relacionan con x/8 + 5 = 17. ¿Cuántos litros tenía el contenedor?",
+          "opciones": [
+            "x=96",
+            "x=136",
+            "x=12",
+            "x=176"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "x/8=17-5=12 → x=8×12=96."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Resuelve: x/7 − 3 = 4. x = ___.",
+          "respuestaCorrecta": "49",
+          "retroalimentacion": "x/7=4+3=7 → x=7×7=49."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Resuelve: x/2 + 9 = 20",
+          "opciones": [
+            "x=22",
+            "x=58",
+            "x=11",
+            "x=2"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "x/2=20-9=11 → x=2×11=22."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La solución de x/9 + 4 = 10 es x = 54.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: x/9=10-4=6 → x=9×6=54."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un equipo de futbol repartió el costo de x pesos del balón entre los 6 jugadores en partes iguales, y cada quien puso además $10 para conos de entrenamiento; cada jugador pagó $35 en total, según x/6 + 10 = 35. El balón costó $___.",
+          "respuestaCorrecta": "150",
+          "retroalimentacion": "x/6=35-10=25 → x=6×25=150."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada ecuación con su solución.",
+          "columnaA": [
+            "x/3+5=12",
+            "x/4-2=9",
+            "x/10+7=15"
+          ],
+          "columnaB": [
+            "44",
+            "80",
+            "21"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "x/3+5=12 → x=21; x/4-2=9 → x=44; x/10+7=15 → x=80."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 7 de 10 · Reto"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "La solucion de 9x - 4 = 6x + 17 es x = 7.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "9x-6x = 17+4 → 3x=21 → x=7."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Resuelve: 6x + 8 = 50. x = ___.",
+      "respuestaCorrecta": "7",
+      "retroalimentacion": "6x = 50-8 = 42; x = 42÷6 = 7."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Resuelve: 3x - 9 = 2x + 4",
+      "opciones": [
+        "x=13",
+        "x=5",
+        "x=-13",
+        "x=6.5"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "3x-2x = 4+9 → x=13."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada ecuacion con su solucion.",
+      "columnaA": [
+        "7x - 2 = 5x + 16",
+        "x + 90 = 250",
+        "4x + 5 = 3x + 19"
+      ],
+      "columnaB": [
+        "160",
+        "14",
+        "9"
+      ],
+      "parejasCorrectas": [
+        2,
+        0,
+        1
+      ],
+      "retroalimentacion": "7x-2=5x+16 → x=9; x+90=250 → x=160; 4x+5=3x+19 → x=14."
+    }
+  ]
+}

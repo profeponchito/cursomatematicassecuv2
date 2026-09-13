@@ -1,0 +1,144 @@
+{
+  "id": "1S-B1-PDA13-07",
+  "grado": "1°",
+  "trimestre": "3",
+  "numero": 127,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Media, Mediana y Moda 13.7",
+  "contenido": "Interpretación de la información a través de medidas de tendencia central y de dispersión.",
+  "pda": "Calcula la media, la mediana y la moda de un conjunto de datos.",
+  "problematizacion": {
+    "contexto": "En una tabla de frecuencias sobre el número de goles anotados por 20 jugadores de un torneo escolar en Tlaxcala, 5 jugadores anotaron 1 gol, 8 anotaron 2 goles, 4 anotaron 3 goles y 3 anotaron 4 goles.",
+    "pregunta": "¿Cuál es el promedio de goles por jugador en ese torneo, usando la tabla de frecuencias?"
+  },
+  "subtemas": [
+    {
+      "numero": "13.7",
+      "nivelEtiqueta": "Nivel 7 de 10 · Reto",
+      "titulo": "Media, mediana y moda en tablas de frecuencia",
+      "explicacion": "Cuando hay muchos datos repetidos, es más práctico organizarlos en una tabla de frecuencias (un valor y cuántas veces se repite) en vez de escribirlos todos uno por uno. Para calcular la media a partir de una tabla, multiplicamos cada valor por su frecuencia, sumamos esos productos y dividimos entre el total de datos (la suma de las frecuencias). La moda sigue siendo el valor con mayor frecuencia, y para la mediana hay que ubicar la posición central acumulando las frecuencias en orden.",
+      "formula": "media = (Σ valor × frecuencia) ÷ (Σ frecuencias)",
+      "ejemplos": [
+        "Calificaciones de un grupo: 6 (frecuencia 3), 7 (frecuencia 5), 8 (frecuencia 8), 9 (frecuencia 4). Total de alumnos = 3+5+8+4 = 20. Suma = 6×3+7×5+8×8+9×4 = 18+35+64+36 = 153. Media = 153÷20 = 7.65. La moda es 8 (la frecuencia más alta, 8 alumnos). Como hay 20 datos (par), la mediana se ubica entre las posiciones 10 y 11: acumulando frecuencias (3, luego 8, luego 16), ambas posiciones caen en el bloque de 8's, así que la mediana también es 8.",
+        "Goles por partido en un torneo (12 partidos): 0 goles (frecuencia 2), 1 gol (frecuencia 4), 2 goles (frecuencia 3), 3 goles (frecuencia 3). Total = 2+4+3+3 = 12 partidos. Suma = 0×2+1×4+2×3+3×3 = 0+4+6+9 = 19. Media = 19÷12 ≈ 1.58 goles. La moda es 1 gol (frecuencia 4, la más alta)."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una tabla de calificaciones de un grupo muestra: 7 (frecuencia 4), 8 (frecuencia 6), 9 (frecuencia 5) y 10 (frecuencia 5). ¿Cuál es la media del grupo (20 alumnos en total)?",
+          "opciones": [
+            "8.5",
+            "8.55",
+            "8.6",
+            "171"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Suma = 7×4+8×6+9×5+10×5 = 28+48+45+50 = 171. Media = 171÷20 = 8.55."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En 10 partidos, los goles anotados por equipo fueron: 0 (frecuencia 1), 1 (frecuencia 3), 2 (frecuencia 4) y 3 (frecuencia 2). La moda de estos datos es 2 goles.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "El valor 2 tiene la frecuencia más alta (4 partidos), más que 0, 1 o 3. La moda es 2 goles. Correcto."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Con esa misma tabla de goles (0 con frecuencia 1, 1 con frecuencia 3, 2 con frecuencia 4, 3 con frecuencia 2; 10 partidos), la media de goles por partido es ___.",
+          "respuestaCorrecta": "1.7",
+          "retroalimentacion": "Suma = 0×1+1×3+2×4+3×2 = 0+3+8+6 = 17. Media = 17÷10 = 1.7 goles."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En un salón de 25 alumnos, la tabla de edades es: 12 años (frecuencia 5), 13 años (frecuencia 12) y 14 años (frecuencia 8). ¿Cuál es la moda de las edades?",
+          "opciones": [
+            "12",
+            "13",
+            "14",
+            "25"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "El valor 13 años tiene la frecuencia más alta (12 alumnos), más que 12 años (5) o 14 años (8). La moda es 13."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Con esa misma tabla de edades (12 años frecuencia 5, 13 años frecuencia 12, 14 años frecuencia 8; 25 alumnos), la mediana de las edades es 13 años.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Con 25 datos (impar), la mediana es el dato en la posición 13. Acumulando: 5 tienen 12 años (posiciones 1-5) y 17 tienen 12 o 13 años (posiciones 6-17); la posición 13 cae en el bloque de 13 años. Correcto."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Con esa misma tabla de edades (12 años frecuencia 5, 13 años frecuencia 12, 14 años frecuencia 8; 25 alumnos), la media de las edades es ___ años.",
+          "respuestaCorrecta": "13.12",
+          "retroalimentacion": "Suma = 12×5+13×12+14×8 = 60+156+112 = 328. Media = 328÷25 = 13.12 años."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una encuesta a 15 familias sobre número de hijos: 0 hijos (frecuencia 2), 1 hijo (frecuencia 5), 2 hijos (frecuencia 6) y 3 hijos (frecuencia 2). ¿Cuál es la media de hijos por familia (aproximada a centésimos)?",
+          "opciones": [
+            "1.5",
+            "1.53",
+            "1.6",
+            "23"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Suma = 0×2+1×5+2×6+3×2 = 0+5+12+6 = 23. Media = 23÷15 ≈ 1.53 hijos."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Con esa misma encuesta de hijos por familia (0 hijos frecuencia 2, 1 hijo frecuencia 5, 2 hijos frecuencia 6, 3 hijos frecuencia 2; 15 familias), la mediana es 2 hijos.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Con 15 datos (impar), la mediana es el dato en la posición 8. Acumulando: 7 familias tienen 0 o 1 hijo (posiciones 1-7) y 13 tienen 0, 1 o 2 hijos (posiciones 8-13); la posición 8 cae en el bloque de 2 hijos. Correcto."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Con esa misma encuesta de hijos por familia (0 hijos frecuencia 2, 1 hijo frecuencia 5, 2 hijos frecuencia 6, 3 hijos frecuencia 2), la moda del número de hijos es ___.",
+          "respuestaCorrecta": "2",
+          "retroalimentacion": "El valor 2 hijos tiene la frecuencia más alta (6 familias), más que 0, 1 o 3 hijos. La moda es 2."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada tabla de frecuencias (10 datos cada una) con el valor de su media.",
+          "columnaA": [
+            "Valor 5 (frecuencia 2), 6 (frecuencia 3), 7 (frecuencia 5)",
+            "Valor 10 (frecuencia 4), 11 (frecuencia 4), 12 (frecuencia 2)",
+            "Valor 2 (frecuencia 6), 3 (frecuencia 2), 4 (frecuencia 2)"
+          ],
+          "columnaB": [
+            "6.3",
+            "10.8",
+            "2.6"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "Primera: (5×2+6×3+7×5)÷10=63÷10=6.3. Segunda: (10×4+11×4+12×2)÷10=108÷10=10.8. Tercera: (2×6+3×2+4×2)÷10=26÷10=2.6."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Un equipo anotó 6, 2, 4 y 4 goles en 4 partidos. ¿Cuál es la media de goles por partido?",
+      "opciones": [
+        "3.5",
+        "4",
+        "4.5",
+        "16"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "Suma = 6+2+4+4 = 16. Media = 16 ÷ 4 = 4."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Las edades de 6 primos son 18, 16, 17, 17, 15 y 16 años. La media de sus edades es ___.",
+      "respuestaCorrecta": "16.5",
+      "retroalimentacion": "Suma = 18+16+17+17+15+16 = 99. Media = 99 ÷ 6 = 16.5 años."
+    }
+  ]
+}

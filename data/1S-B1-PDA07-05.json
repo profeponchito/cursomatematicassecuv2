@@ -1,0 +1,144 @@
+{
+  "id": "1S-B1-PDA07-05",
+  "grado": "1°",
+  "trimestre": "2",
+  "numero": 65,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Funciones 7.5",
+  "contenido": "Funciones.",
+  "pda": "Relaciona e interpreta relaciones proporcional y no proporcional a partir de su representación tabular, gráfica y con diagramas.",
+  "problematizacion": {
+    "contexto": "En una gasolinera se sabe que la constante de proporcionalidad entre litros cargados y su costo es k=23.5 pesos por litro.",
+    "pregunta": "¿Cuánto costarán 12 litros de gasolina, usando la constante k para completar la tabla de valores?"
+  },
+  "subtemas": [
+    {
+      "numero": "7.5",
+      "nivelEtiqueta": "Nivel 5 de 10 · Aplicación",
+      "titulo": "Completar tablas de valores en relaciones proporcionales",
+      "explicacion": "En las lecciones anteriores identificaste si una relación es proporcional y calculaste k a partir de un solo par de valores. Ahora usarás esa k para completar una tabla completa: conociendo la constante, puedes calcular cualquier y a partir de x (y = k × x) o cualquier x a partir de y (x = y ÷ k). Esto te permite predecir valores que no aparecen anotados directamente, como el precio de una cantidad que Doña Rosa no había registrado en su cuaderno.",
+      "formula": "y = k × x   y también   x = y ÷ k",
+      "ejemplos": [
+        "El kilo de tortillas cuesta $18 (k=18). Si quieres el precio de 3.5 kg: y = 18 × 3.5 = $63.",
+        "Con $72 alcanzaste para tortillas a $18/kg. ¿Cuántos kg compraste? x = 72 ÷ 18 = 4 kg."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "llenar_frase",
+          "frase": "El kilo de tortillas cuesta $18. Si Ana compra 2.5 kg, paga $___.",
+          "respuestaCorrecta": "45",
+          "retroalimentacion": "y = k × x = 18 × 2.5 = $45."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El kilo de tortillas cuesta $18. Si Luis pagó $63, compró ___ kg.",
+          "respuestaCorrecta": "3.5",
+          "retroalimentacion": "x = y ÷ k = 63 ÷ 18 = 3.5 kg."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una relación proporcional con k=7, si x=1.5, ¿cuánto vale y?",
+          "opciones": [
+            "10.5",
+            "7",
+            "8.5",
+            "9"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "y = k × x = 7 × 1.5 = 10.5."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una tabla proporcional muestra: x=2→y=22, x=4→y=44, x=6→y=66. ¿Cuánto vale y cuando x=8?",
+          "opciones": [
+            "80",
+            "86",
+            "88",
+            "90"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "La constante es k=22/2=11 (se confirma con 44/4=11 y 66/6=11). Entonces y = 11 × 8 = 88."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En una tabla proporcional donde k=15, si x=0.4, entonces y=6.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: y = k × x = 15 × 0.4 = 6."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si en una relación proporcional x=9 corresponde a y=54, entonces cuando x=13 corresponde a y=78.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: k = 54÷9 = 6, y con x=13: y = 6 × 13 = 78."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La gasolina cuesta $24 por litro. Si Pedro cargó 12.5 litros, pagó $___.",
+          "respuestaCorrecta": "300",
+          "retroalimentacion": "y = k × x = 24 × 12.5 = $300."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada valor de x con su y correspondiente, sabiendo que k=6.",
+          "columnaA": [
+            "x = 3",
+            "x = 5",
+            "x = 7.5"
+          ],
+          "columnaB": [
+            "45",
+            "18",
+            "30"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "Con k=6: x=3→y=18; x=5→y=30; x=7.5→y=45."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una relación proporcional tiene el par x=4→y=52. ¿Cuál es el valor de y cuando x=9?",
+          "opciones": [
+            "113",
+            "117",
+            "121",
+            "108"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "k = 52÷4 = 13, entonces y = 13 × 9 = 117."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En una papelería, 3 boletos de camión cuestan $27 de forma proporcional. Siguiendo la misma tasa, 7 boletos cuestan $___.",
+          "respuestaCorrecta": "63",
+          "retroalimentacion": "k = 27÷3 = 9, entonces y = 9 × 7 = 63."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "En una tabla, x=5 → y=40 y x=10 → y=80, la constante de proporcionalidad es k=8.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: k = 40/5 = 8 (se confirma con 80/10 = 8)."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "En una tabla, x=3 → y=21. La constante de proporcionalidad k = ___.",
+      "respuestaCorrecta": "7",
+      "retroalimentacion": "k = y/x = 21/3 = 7."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "En una tabla, x=6 → y=54 y x=9 → y=81, la constante de proporcionalidad es k=9.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: k = 54/6 = 9 (se confirma con 81/9 = 9)."
+    }
+  ]
+}

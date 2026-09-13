@@ -1,0 +1,144 @@
+{
+  "id": "1S-B1-PDA11-05",
+  "grado": "1°",
+  "trimestre": "3",
+  "numero": 105,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Forma, espacio y medida",
+  "titulo": "Conversión de Unidades de Medida 11.5",
+  "contenido": "Medición y cálculo en diferentes contextos.",
+  "pda": "Convierte entre unidades de longitud, capacidad y masa del sistema métrico para resolver problemas de medición.",
+  "problematizacion": {
+    "contexto": "En Tuxtla Gutiérrez, la cooperativa escolar va a preparar agua de jamaica; la receta original rinde 4 vasos con 200 mililitros de concentrado, pero necesitan hacer 6 veces esa cantidad para vender en el recreo.",
+    "pregunta": "¿Cuántos litros de concentrado necesitará la cooperativa para preparar esa cantidad de agua de jamaica?"
+  },
+  "subtemas": [
+    {
+      "numero": "11.5",
+      "titulo": "Escalar recetas y porciones con conversión de unidades",
+      "explicacion": "Ahora vas a combinar dos pasos en un solo problema: primero multiplicas o divides una cantidad para escalarla (hacer más o menos porciones de una receta) y después conviertes el resultado a la unidad que te conviene. A diferencia de los subtemas anteriores, aquí la medida que conviertes no viene dada directamente en el problema, sino que tú mismo la calculas antes de convertir.",
+      "formula": "Cantidad escalada = cantidad original × factor de escala; después convierte el resultado a la unidad que necesites.",
+      "ejemplos": [
+        "Una receta de agua de jamaica para 4 personas usa 250 mL de concentrado. Para 12 personas el factor de escala es 12 ÷ 4 = 3, entonces 250 × 3 = 750 mL = 0.75 L.",
+        "Una receta de pan usa 150 g de mantequilla para 1 pastel. Para 5 pasteles: 150 × 5 = 750 g = 0.75 kg."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una receta de limonada para 6 vasos usa 300 mL de jarabe. Si preparas el triple (18 vasos), ¿cuántos litros de jarabe necesitas?",
+          "opciones": [
+            "0.9",
+            "9",
+            "0.09",
+            "900"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "300 mL × 3 = 900 mL = 0.9 L."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una receta de galletas usa 200 g de azúcar para 20 galletas. Para hacer 60 galletas (el triple) se necesitan 0.6 kg de azúcar.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 200 g × 3 = 600 g = 0.6 kg."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una receta de mole usa 500 mL de caldo para 4 porciones. Para 8 porciones (el doble) se necesita ___ L de caldo.",
+          "respuestaCorrecta": "1",
+          "retroalimentacion": "500 mL × 2 = 1000 mL = 1 L."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un atleta bebe 750 mL de agua por cada 5 km que corre. Si va a correr 15 km (el triple de distancia), ¿cuántos litros de agua debe llevar?",
+          "opciones": [
+            "2.25",
+            "1.5",
+            "3",
+            "0.225"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "El factor de escala es 15 ÷ 5 = 3, entonces 750 mL × 3 = 2250 mL = 2.25 L."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una receta para 1 pastel usa 400 g de harina. Si haces media receta (para medio pastel), necesitas 2 kg de harina.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: 400 g × 0.5 = 200 g = 0.2 kg, no 2 kg."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una fábrica de jugos usa 2 L de concentrado para producir 1 lote de 8 botellas. Para producir 4 lotes necesita ___ mL de concentrado.",
+          "respuestaCorrecta": "8000",
+          "retroalimentacion": "2 L × 4 = 8 L = 8000 mL."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un gimnasio prepara 1.5 kg de proteína en polvo para 30 batidos. Si quiere preparar el triple de batidos (90), ¿cuántos gramos de proteína necesita en total?",
+          "opciones": [
+            "4500",
+            "450",
+            "45000",
+            "900"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "1.5 kg × 3 = 4.5 kg = 4500 g."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada receta escalada con la cantidad total correcta.",
+          "columnaA": [
+            "Receta de 350 mL para 2 personas, escalada a 8 personas (×4)",
+            "Receta de 120 g para 3 galletas, escalada a 15 galletas (×5)",
+            "Receta de 2 L para 10 platillos, reducida a 5 platillos (×0.5)"
+          ],
+          "columnaB": [
+            "1.4 L",
+            "1000 mL",
+            "0.6 kg"
+          ],
+          "parejasCorrectas": [
+            0,
+            2,
+            1
+          ],
+          "retroalimentacion": "350 mL × 4 = 1400 mL = 1.4 L. 120 g × 5 = 600 g = 0.6 kg. 2 L × 0.5 = 1 L = 1000 mL."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Para triplicar una receta que usa 900 mL de leche, se necesitan 2700 mL en total.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 900 mL × 3 = 2700 mL."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una veterinaria usa 40 g de medicamento para 1 cachorro. Para atender a una camada de 6 cachorros (misma dosis cada uno) necesita en total ___ g.",
+          "respuestaCorrecta": "240",
+          "retroalimentacion": "40 g × 6 = 240 g."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 5 de 10 · Aplicación"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuántos litros hay en 6500 mililitros?",
+      "opciones": [
+        "0.65",
+        "65",
+        "6.5",
+        "650"
+      ],
+      "respuestaCorrecta": 2,
+      "retroalimentacion": "6500 ÷ 1000 = 6.5 L."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "2 kilogramos equivalen a 200 gramos.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Falso: 2 kg × 1000 = 2000 g, no 200 g."
+    }
+  ]
+}

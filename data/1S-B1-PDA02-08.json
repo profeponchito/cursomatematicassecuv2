@@ -1,0 +1,158 @@
+{
+  "id": "1S-B1-PDA02-08",
+  "grado": "1°",
+  "trimestre": "1",
+  "numero": 18,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Extensión de los números a positivos y negativos y su orden 2.8",
+  "contenido": "Extensión de los números a positivos y negativos y su orden.",
+  "pda": "Reconoce la necesidad de los números negativos a partir de usar cantidades que tienen al cero como referencia. Compara y ordena números con signo en la recta numérica.",
+  "problematizacion": {
+    "contexto": "En un experimento de laboratorio, un termómetro digital registró que la temperatura de una muestra bajó de 4°C a -3°C.",
+    "pregunta": "¿Cuántos números enteros hay estrictamente entre 4 y -3, sin contar estos dos valores?"
+  },
+  "subtemas": [
+    {
+      "numero": "2.8",
+      "nivelEtiqueta": "Nivel 8 de 10 · Reto avanzado",
+      "titulo": "¿Cuántos números enteros hay entre dos valores con signo?",
+      "explicacion": "Además de medir la distancia total entre dos números, ahora vas a contar CUÁNTOS números enteros caben estrictamente entre ellos (sin incluir los extremos). Esto exige recorrer mentalmente la recta numérica del menor al mayor y contar uno por uno, aplicando todo lo que sabes sobre el orden de los números con signo.",
+      "formula": "Cantidad de enteros estrictamente entre a y b (con a menor que b) = b − a − 1.",
+      "ejemplos": [
+        "Entre -3 y 4 (sin incluir los extremos): -2, -1, 0, 1, 2, 3 → son 6 enteros. Verificación: 4 − (−3) − 1 = 6.",
+        "Entre -10 y -6 (sin incluir los extremos): -9, -8, -7 → son 3 enteros. Verificación: −6 − (−10) − 1 = 3."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "llenar_frase",
+          "frase": "¿Cuántos números enteros hay estrictamente entre -6 y 2? ___",
+          "respuestaCorrecta": "7",
+          "retroalimentacion": "Los enteros son -5, -4, -3, -2, -1, 0, 1: son 7 en total."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "¿Cuántos números enteros hay estrictamente entre -15 y -9? ___",
+          "respuestaCorrecta": "5",
+          "retroalimentacion": "Los enteros son -14, -13, -12, -11, -10: son 5 en total."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuántos números enteros hay entre -4 y 4, sin contar los extremos?",
+          "opciones": [
+            "7",
+            "8",
+            "9",
+            "6"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Los enteros son -3, -2, -1, 0, 1, 2, 3: son 7 en total."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Entre -2 y 3 (sin incluir los extremos) hay 4 números enteros.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: -1, 0, 1, 2 son 4 números enteros."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Entre -20 y -15 (sin incluir los extremos) hay 5 números enteros.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: los enteros son -19, -18, -17, -16, que son solo 4, no 5."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En un edificio con sótanos, los niveles van del -5 (sótano) al 3 (piso), pasando por todos los enteros. ¿Cuántos niveles hay estrictamente entre el -5 y el 3?",
+          "opciones": [
+            "7",
+            "8",
+            "6",
+            "9"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Los niveles intermedios son -4, -3, -2, -1, 0, 1, 2: son 7 en total."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si contamos los números enteros entre -30 y -22 (sin incluir los extremos), obtenemos ___ números.",
+          "respuestaCorrecta": "7",
+          "retroalimentacion": "Los enteros son -29, -28, -27, -26, -25, -24, -23: son 7 en total."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una tabla de temperaturas registradas cada grado entero muestra valores posibles entre -9°C y -3°C (sin incluir esos dos extremos). ¿Cuántos valores enteros son posibles?",
+          "opciones": [
+            "5",
+            "6",
+            "4",
+            "7"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Los valores posibles son -8, -7, -6, -5, -4°C: son 5 en total."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada par de números con la cantidad de enteros que hay estrictamente entre ellos.",
+          "columnaA": [
+            "-5 y 5",
+            "-12 y -8",
+            "-1 y 4"
+          ],
+          "columnaB": [
+            "4",
+            "9",
+            "3"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "Entre -5 y 5 hay 9 enteros; entre -12 y -8 hay 3 enteros; entre -1 y 4 hay 4 enteros."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Entre -1 y 1 (sin incluir los extremos) el único número entero es el 0.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: el único entero estrictamente entre -1 y 1 es el 0."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada posición (respecto al nivel del mar) con su descripción.",
+      "columnaA": [
+        "-25 m",
+        "10 m",
+        "-3 m"
+      ],
+      "columnaB": [
+        "Es la más profunda",
+        "Es la más alta",
+        "Es una posición intermedia"
+      ],
+      "parejasCorrectas": [
+        0,
+        1,
+        2
+      ],
+      "retroalimentacion": "-25 m es la más profunda; -3 m es una posición intermedia; 10 m es la más alta."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "-33 es menor que -28.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: -33 < -28, porque -33 está más a la izquierda en la recta numérica."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "La lista -7, 6, -19, 1 ordenada de mayor a menor queda: 6, 1, -7, -19.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: de mayor a menor, 6 > 1 > -7 > -19."
+    }
+  ]
+}

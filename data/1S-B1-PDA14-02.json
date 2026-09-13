@@ -1,0 +1,144 @@
+{
+  "id": "1S-B1-PDA14-02",
+  "grado": "1°",
+  "trimestre": "3",
+  "numero": 132,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Probabilidad de Eventos Simples 14.2",
+  "contenido": "Azar e incertidumbre en la ocurrencia de eventos cotidianos.",
+  "pda": "Calcula la probabilidad clásica de eventos simples a partir de su espacio muestral.",
+  "problematizacion": {
+    "contexto": "En una rifa de la cooperativa escolar en Colima, hay 8 boletos numerados del 1 al 8 dentro de una caja, y solo el boleto número 5 gana el premio mayor.",
+    "pregunta": "¿Cuál es la probabilidad clásica de sacar el boleto ganador número 5?"
+  },
+  "subtemas": [
+    {
+      "numero": "14.2",
+      "titulo": "Probabilidad clásica",
+      "explicacion": "La probabilidad clásica de un evento se calcula dividiendo el número de casos favorables (los resultados que cumplen lo que buscamos) entre el número de casos totales (todos los resultados del espacio muestral). Por ejemplo, al lanzar un dado, si queremos la probabilidad de obtener un número par, hay 3 casos favorables ({2,4,6}) de 6 totales, así que P = 3/6.",
+      "formula": "P(evento) = número de casos favorables ÷ número de casos totales",
+      "ejemplos": [
+        "Al lanzar un dado de 6 caras, hay 3 números pares posibles: {2,4,6}. Como el espacio muestral tiene 6 resultados, P(número par) = 3/6.",
+        "En una bolsa con 5 canicas azules y 3 rojas (8 en total), P(canica azul) = 5/8."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Se lanza un dado de 6 caras. ¿Cuál es la probabilidad de obtener un número par?",
+          "opciones": [
+            "2/6",
+            "3/6",
+            "4/6",
+            "1/6"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Los números pares del dado son {2,4,6}: 3 casos favorables de 6 totales, P = 3/6."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En una bolsa hay 4 canicas rojas, 3 azules, 2 verdes y 1 amarilla (10 en total). La probabilidad de sacar una canica roja es ___.",
+          "respuestaCorrecta": "4/10",
+          "retroalimentacion": "Hay 4 canicas rojas de 10 en total, así que P(roja) = 4/10."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Al lanzar una moneda, la probabilidad de que caiga águila es 1/2.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: hay 1 caso favorable (águila) de 2 totales, P = 1/2."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una ruleta tiene 8 secciones iguales numeradas del 1 al 8. ¿Cuál es la probabilidad de que caiga en un número mayor que 6?",
+          "opciones": [
+            "1/8",
+            "2/8",
+            "3/8",
+            "6/8"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Los números mayores que 6 son {7,8}: 2 casos favorables de 8 totales, P = 2/8."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En una bolsa con 5 canicas azules y 3 rojas (8 en total), la probabilidad de sacar una canica azul es ___.",
+          "respuestaCorrecta": "5/8",
+          "retroalimentacion": "Hay 5 canicas azules de 8 en total, así que P(azul) = 5/8."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Al lanzar un dado de 6 caras, la probabilidad de obtener un número múltiplo de 3 es 2/6.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: los múltiplos de 3 en el dado son {3,6}, es decir, 2 casos favorables de 6 totales."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una baraja española de 40 cartas hay 4 ases (uno por cada palo). ¿Cuál es la probabilidad de sacar un as?",
+          "opciones": [
+            "1/40",
+            "4/40",
+            "10/40",
+            "40/4"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Hay 4 ases de 40 cartas en total, así que P(as) = 4/40."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una ruleta tiene 10 secciones: 4 rojas, 3 azules y 3 verdes. La probabilidad de que caiga en una sección azul es ___.",
+          "respuestaCorrecta": "3/10",
+          "retroalimentacion": "Hay 3 secciones azules de 10 en total, así que P(azul) = 3/10."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Al lanzar un dado de 6 caras, la probabilidad de obtener un número menor que 3 es 3/6.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: los números menores que 3 son {1,2}, es decir, 2 casos favorables de 6, así que P = 2/6, no 3/6."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada evento con su probabilidad.",
+          "columnaA": [
+            "Sacar una canica roja de una bolsa con 4 rojas y 6 azules (10 en total)",
+            "Lanzar un dado y obtener un 5",
+            "Lanzar una moneda y obtener sol"
+          ],
+          "columnaB": [
+            "1/6",
+            "4/10",
+            "1/2"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            2
+          ],
+          "retroalimentacion": "Canica roja: 4/10. Obtener un 5 en el dado: 1 caso favorable de 6, P = 1/6. Moneda-sol: 1 de 2, P = 1/2."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 2 de 10 · Intermedio"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "llenar_frase",
+      "frase": "Al lanzar un dado de 6 caras, la probabilidad de obtener un número menor que 3 es ___.",
+      "respuestaCorrecta": "2/6",
+      "retroalimentacion": "Los números menores que 3 son {1,2}: 2 casos favorables de 6 totales, P = 2/6."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "En la bolsa con 6 canicas azules y 4 rojas (10 en total), ¿cuál es la probabilidad de sacar una canica roja?",
+      "opciones": [
+        "4/10",
+        "6/10",
+        "4/6",
+        "10/4"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "Hay 4 canicas rojas de 10 en total, así que P(roja) = 4/10."
+    }
+  ]
+}

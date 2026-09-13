@@ -1,0 +1,169 @@
+{
+  "id": "1S-B1-PDA07-10",
+  "grado": "1°",
+  "trimestre": "2",
+  "numero": 70,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Funciones 7.10",
+  "contenido": "Funciones.",
+  "pda": "Relaciona e interpreta relaciones proporcional y no proporcional a partir de su representación tabular, gráfica y con diagramas.",
+  "problematizacion": {
+    "contexto": "Un changarro de licuados vende cada licuado a $28, de forma proporcional al número vendido, pero además paga una renta fija de $150 al día; en un día vendieron 40 licuados y quieren decidir si les conviene subir el precio a $32.",
+    "pregunta": "¿Cuál de las dos relaciones (las ventas o la renta) es proporcional y cuál no, y qué ganancia neta obtendrían vendiendo los mismos 40 licuados a $28 comparado con venderlos a $32?"
+  },
+  "subtemas": [
+    {
+      "numero": "7.10",
+      "nivelEtiqueta": "Nivel 10 de 10 · Dominio",
+      "titulo": "Dominio: proyecto integrador de proporcionalidad",
+      "explicacion": "Esta es la lección de mayor dominio: resolverás problemas completos de varios pasos que requieren decidir si una situación es proporcional, calcular su constante, y comparar varias opciones para tomar una decisión, tal como lo haría alguien en un negocio real. Los números ya no son tan 'redondos' y algunos problemas mezclan dos relaciones distintas (una proporcional y otra no) dentro del mismo enunciado.",
+      "ejemplos": [
+        "El kilo de tortillas ahora cuesta $18.50. Si Marta pagó $138.75, ¿cuántos kg compró? x = 138.75 ÷ 18.50 = 7.5 kg.",
+        "Una app de taxis cobra $32.50 fijos más $9.75 por km. Si Juan pagó $110.50, ¿cuántos km recorrió? (110.50-32.50)÷9.75 = 78÷9.75 = 8 km."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "llenar_frase",
+          "frase": "El kilo de tortillas ahora cuesta $18.50. Si Marta pagó $138.75, compró ___ kg.",
+          "respuestaCorrecta": "7.5",
+          "retroalimentacion": "x = y ÷ k = 138.75 ÷ 18.50 = 7.5 kg."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una app de taxis cobra $32.50 fijos más $9.75 por km. Si Juan pagó $110.50 en total, recorrió ___ km.",
+          "respuestaCorrecta": "8",
+          "retroalimentacion": "Primero se resta el cargo fijo: 110.50-32.50=78. Luego 78 ÷ 9.75 = 8 km."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La relación de la app de taxis (con $32.50 fijos más $9.75 por km) es proporcional.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: tiene un cargo fijo de $32.50 que se paga aunque no se recorra ningún km, así que no es proporcional."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Dos tortillerías: la primera cobra $18.50/kg sin cargo fijo, y la segunda cobra $15 fijos más $16/kg. Si Ana compra 5 kg en cada una, ¿cuál le cuesta menos?",
+          "opciones": [
+            "Primera tortillería",
+            "Segunda tortillería",
+            "Cuestan igual",
+            "No se puede calcular"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Primera: 18.50×5=$92.50. Segunda: 15+16×5=$95. Como 92.50<95, la primera tortillería es más barata."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un taller de bicicletas cobra, de forma proporcional, $214.50 por reparar el equivalente a 6.5 bicicletas. ¿Cuál es la constante k (costo por bicicleta)?",
+          "opciones": [
+            "31",
+            "33",
+            "35",
+            "33.5"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "k = 214.50 ÷ 6.5 = 33."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Con la constante k=33 del taller de bicicletas, el costo de reparar el equivalente a 9.5 bicicletas es $___.",
+          "respuestaCorrecta": "313.5",
+          "retroalimentacion": "y = 33 × 9.5 = $313.50."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si una tabla muestra x=2.5→y=42.5 y x=6→y=102, la relación es proporcional.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 42.5÷2.5=17 y 102÷6=17. Como la razón es la misma (k=17), es proporcional."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación con su clasificación correcta.",
+          "columnaA": [
+            "Internet: $0 fijos + $12.50/GB usado",
+            "Renta de coche: $450 fijos + $3.20/km",
+            "Boletos de concierto a $685 c/u"
+          ],
+          "columnaB": [
+            "No proporcional ($450 fijos)",
+            "Proporcional (y=685x)",
+            "Proporcional (y=12.50x)"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "El internet y los boletos son proporcionales (sin cargo fijo); la renta de coche no lo es, porque tiene $450 fijos."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una fábrica produce, de forma proporcional, 156 piezas en 9.75 horas. Manteniendo la misma tasa, ¿cuántas piezas produce en 14 horas?",
+          "opciones": [
+            "210",
+            "224",
+            "238",
+            "216"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "k = 156 ÷ 9.75 = 16 piezas por hora. En 14 horas: y = 16 × 14 = 224 piezas."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Se comparan dos relaciones: A) una tabla con un solo dato conocido, x=4→y=71; B) un taxi que cobra $18 fijos más $7.50/km. ¿Cuál afirmación es correcta?",
+          "opciones": [
+            "La relación A no es proporcional; la B sí lo es",
+            "La relación B definitivamente no es proporcional (tiene $18 fijos); con un solo punto no se puede saber si A lo es",
+            "Ambas relaciones son proporcionales",
+            "Ninguna de las dos relaciones es proporcional"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "El taxi (B) tiene un cargo fijo de $18, así que nunca es proporcional. En cambio, con un solo par de valores (A) no hay suficiente información para saber si toda la relación cumple y=kx."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál de estas relaciones NO es proporcional?",
+      "opciones": [
+        "El costo de dulces a $3 c/u",
+        "La renta de bicicleta: $15 fijos + $4/hora",
+        "El costo de plátanos a $12/kg",
+        "y=8x"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "La renta de bicicleta tiene un cargo fijo de $15 que se paga aunque no se use ninguna hora, así que no es proporcional."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "La gráfica de una relación proporcional siempre pasa por el punto (0,0).",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: si x=0 entonces y=0 en toda relación proporcional (y=kx)."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada situación con el tipo de relación que representa.",
+      "columnaA": [
+        "Cine con $10 de descuento fijo",
+        "Chocolates a $5 c/u",
+        "Consumo de agua con $50 fijos + consumo"
+      ],
+      "columnaB": [
+        "No proporcional (cargo/descuento fijo)",
+        "No proporcional (cargo fijo)",
+        "Proporcional (y=5x)"
+      ],
+      "parejasCorrectas": [
+        0,
+        2,
+        1
+      ],
+      "retroalimentacion": "El cine y el agua tienen un cargo o descuento fijo, así que no son proporcionales; los chocolates sí (y=5x)."
+    }
+  ]
+}

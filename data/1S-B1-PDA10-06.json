@@ -1,0 +1,150 @@
+{
+  "id": "1S-B1-PDA10-06",
+  "grado": "1°",
+  "trimestre": "3",
+  "numero": 96,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Forma, espacio y medida",
+  "titulo": "El Círculo y sus Elementos 10.6",
+  "contenido": "Circunferencia, círculo y esfera.",
+  "pda": "Identifica los elementos de la circunferencia y calcula su perímetro y el área del círculo.",
+  "problematizacion": {
+    "contexto": "En Mazatlán, un panadero hace pizzas circulares: su pizza chica tiene 10 cm de radio y su pizza grande tiene el doble de radio, 20 cm.",
+    "pregunta": "Si el radio se duplicó, ¿el área de la pizza grande también se duplicó, o cambió de otra manera?"
+  },
+  "subtemas": [
+    {
+      "numero": "10.6",
+      "nivelEtiqueta": "Nivel 6 de 10 · Aplicación avanzada",
+      "titulo": "Qué pasa si el radio cambia: escalamiento de círculos",
+      "explicacion": "Hasta ahora calculaste perímetro y área de un solo círculo a la vez. Aquí compararás dos círculos relacionados para descubrir un patrón importante: si el radio se multiplica por un número k, el perímetro se multiplica por ese mismo número k (porque depende de r una sola vez), pero el área se multiplica por k al cuadrado (porque depende de r²). Entender este patrón te permite predecir resultados sin repetir todo el cálculo, e incluso razonar al revés: si sabes cuánto cambió el área, puedes deducir cuánto cambió el radio.",
+      "formula": "Si el radio se multiplica por k: el perímetro se multiplica por k, y el área se multiplica por k².",
+      "ejemplos": [
+        "Círculo con radio 21 cm: A = 3.14×21² = 1384.74 cm². Si el radio se duplica a 42 cm (k=2): el área nueva = 1384.74×2² = 1384.74×4 = 5538.96 cm², que coincide con calcularla directo: 3.14×42² = 5538.96 cm².",
+        "Círculo con radio 21 cm: P = 2×3.14×21 = 131.88 cm. Si el radio se triplica a 63 cm (k=3): el perímetro nuevo = 131.88×3 = 395.64 cm, que coincide con 2×3.14×63 = 395.64 cm."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Si el radio de un círculo se duplica (se multiplica por 2), ¿por cuánto se multiplica su área?",
+          "opciones": [
+            "4",
+            "2",
+            "8",
+            "6"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "El área depende de r², así que si r se multiplica por 2, el área se multiplica por 2² = 4."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si el radio de un círculo se triplica, su perímetro también se triplica.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: el perímetro depende de r una sola vez (P = 2πr), así que crece en la misma proporción que el radio."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un círculo tiene radio de 21 cm y área de 1384.74 cm². Si su radio se duplica a 42 cm, su nueva área es ___ cm².",
+          "respuestaCorrecta": "5538.96",
+          "retroalimentacion": "Como el radio se duplicó (k=2), el área se multiplica por 2²=4: 1384.74×4 = 5538.96 cm² (igual a 3.14×42²)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un círculo con radio de 21 cm tiene un perímetro de 131.88 cm. Si el radio se triplica a 63 cm, ¿cuál es el nuevo perímetro?",
+          "opciones": [
+            "395.64 cm",
+            "263.76 cm",
+            "1186.92 cm",
+            "131.88 cm"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Como el radio se triplicó (k=3), el perímetro se multiplica por 3: 131.88×3 = 395.64 cm."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una alberca circular con radio de 30 m se amplía a una con radio de 90 m (el triple). Entonces su área se vuelve 9 veces mayor.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: k=3, así que el área se multiplica por 3²=9. Área original: 3.14×30²=2826 m²; área nueva: 3.14×90²=25434 m²; 25434÷2826=9."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La rueda de una bicicleta infantil tiene radio de 23 cm y perímetro de 144.44 cm. La rueda de una bicicleta de adulto tiene el doble de radio (46 cm). ¿Cuál es el perímetro de la rueda de adulto? ___ cm",
+          "respuestaCorrecta": "288.88",
+          "retroalimentacion": "Como el radio se duplicó, el perímetro también se duplica: 144.44×2 = 288.88 cm (igual a 2×3.14×46)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Si el área de un círculo se multiplicó por 9, ¿por cuánto se multiplicó su radio?",
+          "opciones": [
+            "3",
+            "9",
+            "4.5",
+            "6"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Si el área se multiplica por k², y k²=9, entonces k=3: el radio se multiplicó por 3."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si el área de un círculo se multiplicó por 4, entonces su radio se duplicó.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: k²=4 implica k=2, así que el radio se multiplicó por 2 (se duplicó)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una pizza individual tiene radio de 9 cm. Una pizza familiar tiene el triple de radio (27 cm). ¿Cuántas veces más grande es el área de la pizza familiar comparada con la individual?",
+          "opciones": [
+            "9 veces",
+            "3 veces",
+            "6 veces",
+            "27 veces"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Área individual: 3.14×9²=254.34 cm². Área familiar: 3.14×27²=2289.06 cm². 2289.06÷254.34=9, porque k=3 y k²=9."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cómo cambia el radio con cómo cambia el área del círculo.",
+          "columnaA": [
+            "Radio ×2",
+            "Radio ×3",
+            "Radio ×5"
+          ],
+          "columnaB": [
+            "Área ×25",
+            "Área ×4",
+            "Área ×9"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "Radio ×2 → Área ×2²=4. Radio ×3 → Área ×3²=9. Radio ×5 → Área ×5²=25."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Una pizza tiene un radio de 11 cm. ¿Cuál es su área (A = π × r²)?",
+      "opciones": [
+        "379.94 cm²",
+        "69.08 cm²",
+        "121 cm²",
+        "242 cm²"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "A = 3.14 × 11² = 3.14 × 121 = 379.94 cm²."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "El área de un círculo con radio de 13 cm es ___ cm².",
+      "respuestaCorrecta": "530.66",
+      "retroalimentacion": "A = 3.14 × 13² = 3.14 × 169 = 530.66 cm²."
+    }
+  ]
+}

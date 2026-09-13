@@ -1,0 +1,136 @@
+{
+  "id": "1S-B1-PDA14-07",
+  "grado": "1°",
+  "trimestre": "3",
+  "numero": 137,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Probabilidad de Eventos Simples 14.7",
+  "contenido": "Azar e incertidumbre en la ocurrencia de eventos cotidianos.",
+  "pda": "Calcula la probabilidad clásica de eventos simples a partir de su espacio muestral.",
+  "problematizacion": {
+    "contexto": "En la clase de matemáticas de una secundaria en Villahermosa se comparan dos juegos de la kermés: en el juego A ganas si sacas una canica roja de una bolsa con 4 rojas de 10 canicas, y en el juego B ganas si sacas una ficha verde de una caja con 6 verdes de 15 fichas.",
+    "pregunta": "¿Cuál de los dos juegos, A o B, tiene mayor probabilidad de ganar?"
+  },
+  "subtemas": [
+    {
+      "numero": "14.7",
+      "titulo": "Comparar y ordenar probabilidades de distintos eventos",
+      "explicacion": "Para saber cuál de dos o más eventos es más probable, no basta con mirar las fracciones: hay que convertirlas todas a la misma forma (decimal o porcentaje) y así compararlas directamente. Esta habilidad es distinta a calcular una sola probabilidad: aquí se juzga y se ordena, y a veces el resultado sorprende (dos experimentos con números distintos pueden tener exactamente la misma probabilidad).",
+      "ejemplos": [
+        "Bolsa A: 4 rojas de 16 canicas → P = 4/16 = 0.25 = 25%. Bolsa B: 9 azules de 30 canicas → P = 9/30 = 0.3 = 30%. Como 30% > 25%, la Bolsa B tiene mayor probabilidad.",
+        "Dado: P(número par) = 3/6 = 50%. Moneda: P(águila) = 1/2 = 50%. Ambas probabilidades son iguales."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "La Bolsa A tiene 6 canicas rojas de 24 en total. La Bolsa B tiene 7 canicas rojas de 20 en total. ¿Cuál bolsa tiene mayor probabilidad de sacar una canica roja?",
+          "opciones": [
+            "Bolsa A",
+            "Bolsa B",
+            "Son iguales",
+            "No se puede saber"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "P(A) = 6/24 = 0.25 y P(B) = 7/20 = 0.35. Como 0.35 > 0.25, la Bolsa B tiene mayor probabilidad."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El equipo Águilas gana el 45% de sus partidos y el equipo Tigres gana 11 de cada 20 (55%). El equipo con mayor probabilidad de ganar es ___.",
+          "respuestaCorrecta": "Tigres",
+          "retroalimentacion": "Águilas tiene 45% y Tigres 11/20 = 55%. Como 55% > 45%, Tigres tiene mayor probabilidad."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La probabilidad de sacar un as de una baraja de 52 cartas (4 ases) es mayor que la probabilidad de obtener un 6 al lanzar un dado.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: P(as) = 4/52 ≈ 0.077, mientras que P(6 en el dado) = 1/6 ≈ 0.167. La probabilidad del dado es mayor."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Ordena de MENOR a MAYOR probabilidad: Evento X con P = 0.3, Evento Y con P = 45%, Evento Z con P = 3/8.",
+          "opciones": [
+            "X, Z, Y",
+            "X, Y, Z",
+            "Y, X, Z",
+            "Z, X, Y"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "En decimal: X = 0.3, Z = 3/8 = 0.375, Y = 45% = 0.45. De menor a mayor: X, Z, Y."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En una tienda, 15 de 60 clientes compran fruta y 22 de 88 clientes compran verdura. Ambas probabilidades, expresadas como porcentaje, son iguales a ___%.",
+          "respuestaCorrecta": "25",
+          "retroalimentacion": "15/60 = 0.25 = 25% y 22/88 = 0.25 = 25%: aunque los números son distintos, ambas probabilidades son iguales."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si P(lluvia en la Ciudad A) = 0.4 y P(lluvia en la Ciudad B) = 2/5, entonces ambas ciudades tienen la misma probabilidad de lluvia.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 2/5 = 0.4, así que ambas probabilidades son iguales."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El jugador A encesta 21 de 30 tiros libres y el jugador B encesta 5 de 8. ¿Quién tiene mayor probabilidad de encestar?",
+          "opciones": [
+            "Jugador A",
+            "Jugador B",
+            "Son iguales",
+            "Falta información"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(A) = 21/30 = 0.7 y P(B) = 5/8 = 0.625. Como 0.7 > 0.625, el jugador A tiene mayor probabilidad."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada rifa con su probabilidad de premio, en porcentaje (algunos porcentajes se repiten).",
+          "columnaA": [
+            "Rifa A: 6 premiados de 24 boletos",
+            "Rifa B: 9 premiados de 60 boletos",
+            "Rifa C: 7 premiados de 28 boletos"
+          ],
+          "columnaB": [
+            "15%",
+            "25%"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            1
+          ],
+          "retroalimentacion": "Rifa A: 6/24 = 25%. Rifa B: 9/60 = 15%. Rifa C: 7/28 = 25%. Las rifas A y C tienen la misma probabilidad aunque sus números son distintos."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En una fábrica, la línea 1 produce 3 defectuosos de cada 50 piezas (6%) y la línea 2 produce 5 defectuosos de cada 100 piezas (5%). La línea con MAYOR probabilidad de producir una pieza defectuosa es la línea ___.",
+          "respuestaCorrecta": "1",
+          "retroalimentacion": "La línea 1 tiene 6% de piezas defectuosas y la línea 2 tiene 5%. Como 6% > 5%, la línea 1 tiene mayor probabilidad."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Comparando una ruleta con 12 secciones (3 rojas) y otra con 18 secciones (5 rojas), la segunda ruleta tiene mayor probabilidad de caer en rojo.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: la primera ruleta tiene P = 3/12 = 0.25 y la segunda P = 5/18 ≈ 0.278, que es mayor."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 7 de 10 · Reto"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "llenar_frase",
+      "frase": "En una bolsa con 5 canicas azules y 3 rojas (8 en total), la probabilidad de sacar una canica roja es ___.",
+      "respuestaCorrecta": "3/8",
+      "retroalimentacion": "Hay 3 canicas rojas de 8 en total, así que P(roja) = 3/8."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Al lanzar un dado de 6 caras, la probabilidad de obtener un número mayor que 4 es 2/6.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: los números mayores que 4 son {5,6}, es decir, 2 casos favorables de 6."
+    }
+  ]
+}

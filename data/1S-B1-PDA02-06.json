@@ -1,0 +1,170 @@
+{
+  "id": "1S-B1-PDA02-06",
+  "grado": "1°",
+  "trimestre": "1",
+  "numero": 16,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Extensión de los números a positivos y negativos y su orden 2.6",
+  "contenido": "Extensión de los números a positivos y negativos y su orden.",
+  "pda": "Reconoce la necesidad de los números negativos a partir de usar cantidades que tienen al cero como referencia. Compara y ordena números con signo en la recta numérica.",
+  "problematizacion": {
+    "contexto": "Dos excursionistas se alejan del campamento base, que está en el punto 0 de un sendero recto: uno camina hasta la posición -12 y el otro hasta la posición 9.",
+    "pregunta": "¿Qué excursionista se alejó más del campamento, comparando el valor absoluto de su posición?"
+  },
+  "subtemas": [
+    {
+      "numero": "2.6",
+      "nivelEtiqueta": "Nivel 6 de 10 · Aplicación avanzada",
+      "titulo": "Valor absoluto: la distancia de un número al cero",
+      "explicacion": "Ya sabes decidir cuál de dos números con signo es mayor. Ahora aprenderás una idea distinta pero relacionada: el valor absoluto, que mide qué tan lejos está un número del cero, sin importar si está a la izquierda o a la derecha. Se escribe entre dos barras: |x|. Esto es útil cuando lo que importa no es 'quién es mayor' sino 'quién está más lejos', por ejemplo, qué tan grande es una deuda o qué tan profundo está un buzo.",
+      "formula": "|x| es la distancia de x al cero. Si x es positivo o cero, |x| = x. Si x es negativo, |x| = −x (su opuesto, siempre positivo). Ejemplo: |−7| = 7 y |7| = 7.",
+      "ejemplos": [
+        "|−15| = 15, porque -15 está a 15 unidades de distancia del cero.",
+        "Comparar |−4| y |3|: |−4| = 4 y |3| = 3; aunque -4 < 3 como números con signo, |−4| > |3| porque -4 está más lejos del cero que 3."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "llenar_frase",
+          "frase": "|−15| = ___",
+          "respuestaCorrecta": "15",
+          "retroalimentacion": "-15 está a 15 unidades del cero, así que |−15| = 15."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "|22| = ___",
+          "respuestaCorrecta": "22",
+          "retroalimentacion": "22 ya es positivo, así que su valor absoluto es el mismo número: |22| = 22."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "|−7| es igual a |7|.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: ambos están a 7 unidades del cero, así que |−7| = |7| = 7."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "|−9| es mayor que |4|.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: |−9| = 9 y |4| = 4; 9 > 4."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de estos números tiene el mayor valor absoluto: -12, 8, -5, 10?",
+          "opciones": [
+            "-12",
+            "8",
+            "-5",
+            "10"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "|−12| = 12, que es mayor que |8| = 8, |−5| = 5 y |10| = 10."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un buzo está a -18 m y un dron vuela a 15 m del nivel del mar. Sin importar la dirección, ¿cuál está más lejos del nivel del mar?",
+          "opciones": [
+            "El buzo",
+            "El dron",
+            "Están a la misma distancia",
+            "No se puede saber"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "|−18| = 18 y |15| = 15; como 18 > 15, el buzo está más lejos del nivel del mar."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Aunque -20 es menor que 5, el valor absoluto de -20 es mayor que el valor absoluto de 5.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: -20 < 5 como números, pero |−20| = 20 es mayor que |5| = 5."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El número negativo cuyo valor absoluto es 14 es ___.",
+          "respuestaCorrecta": "-14",
+          "retroalimentacion": "|−14| = 14, y -14 es el único número negativo con esa distancia al cero."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada número con su valor absoluto.",
+          "columnaA": [
+            "-11",
+            "6",
+            "-3"
+          ],
+          "columnaB": [
+            "3",
+            "11",
+            "6"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "|−11| = 11, |6| = 6, |−3| = 3."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una fábrica se mide la desviación de tres piezas respecto a la medida ideal (0 mm): pieza A: -0.6 mm, pieza B: 0.4 mm, pieza C: -0.9 mm. ¿Cuál pieza tiene mayor desviación en valor absoluto (está más lejos de la medida ideal)?",
+          "opciones": [
+            "Pieza A",
+            "Pieza B",
+            "Pieza C",
+            "Las tres tienen la misma desviación"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "|−0.9| = 0.9 es mayor que |−0.6| = 0.6 y |0.4| = 0.4, así que la pieza C tiene la mayor desviación."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál de las siguientes listas está ordenada de mayor a menor?",
+      "opciones": [
+        "9, 2, -4, -11",
+        "-11, -4, 2, 9",
+        "2, 9, -4, -11",
+        "9, -4, 2, -11"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "De mayor a menor: 9 > 2 > -4 > -11."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Ordena de menor a mayor: -8, 5, -1, 3",
+      "opciones": [
+        "-8, -1, 3, 5",
+        "5, 3, -1, -8",
+        "-1, -8, 3, 5",
+        "3, -1, -8, 5"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "De menor a mayor: -8 < -1 < 3 < 5."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada profundidad (respecto al nivel del mar) con su posición relativa entre las tres.",
+      "columnaA": [
+        "-9 m",
+        "-2 m",
+        "4 m"
+      ],
+      "columnaB": [
+        "Es la más profunda",
+        "Es la más alta",
+        "Es intermedia"
+      ],
+      "parejasCorrectas": [
+        0,
+        2,
+        1
+      ],
+      "retroalimentacion": "De más profunda a más alta: -9 m < -2 m < 4 m."
+    }
+  ]
+}

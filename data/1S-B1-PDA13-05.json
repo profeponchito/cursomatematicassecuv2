@@ -1,0 +1,138 @@
+{
+  "id": "1S-B1-PDA13-05",
+  "grado": "1°",
+  "trimestre": "3",
+  "numero": 125,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Media, Mediana y Moda 13.5",
+  "contenido": "Interpretación de la información a través de medidas de tendencia central y de dispersión.",
+  "pda": "Calcula la media, la mediana y la moda de un conjunto de datos.",
+  "problematizacion": {
+    "contexto": "En una semana, la familia de Itzel en Mexicali gastó en transporte estos montos diarios: $45.50, $38.00, $52.25, $41.75 y $49.00.",
+    "pregunta": "¿Cuál es el gasto promedio diario en transporte de la familia de Itzel esa semana?"
+  },
+  "subtemas": [
+    {
+      "numero": "13.5",
+      "nivelEtiqueta": "Nivel 5 de 10 · Aplicación",
+      "titulo": "Presupuestos familiares con decimales",
+      "explicacion": "Ahora calculamos la media en contextos de dinero, donde los datos casi siempre traen decimales (pesos con centavos) en vez de números enteros redondos. El procedimiento es el mismo —sumar y dividir— pero hay que sumar los decimales con cuidado, alineando el punto decimal, y el resultado se interpreta como un valor en pesos que sirve para planear gastos o comparar precios.",
+      "formula": "media = (suma de todos los datos, con decimales) ÷ (número de datos)",
+      "ejemplos": [
+        "Gastos diarios en transporte durante 5 días: $18.50, $22.00, $15.75, $20.25 y $19.50. Suma = 18.50+22.00+15.75+20.25+19.50 = 96.00. Media = 96.00 ÷ 5 = $19.20 por día.",
+        "Precios de 4 cuadernos en una papelería: $32.50, $28.75, $35.00 y $29.75. Suma = 32.50+28.75+35.00+29.75 = 126.00. Media = 126.00 ÷ 4 = $31.50."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una semana, Marisol gastó en su transporte diario (lunes a viernes): $15.50, $18.00, $16.25, $17.75 y $19.00. ¿Cuál es la media de su gasto diario?",
+          "opciones": [
+            "$17.00",
+            "$17.30",
+            "$17.50",
+            "$86.50"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Suma = 15.50+18.00+16.25+17.75+19.00 = 86.50. Media = 86.50 ÷ 5 = $17.30."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En una tienda, 4 paquetes de galletas cuestan $12.50, $14.00, $13.50 y $12.00. La media de precios es $13.00.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Suma = 12.50+14.00+13.50+12.00 = 52.00. Media = 52.00 ÷ 4 = $13.00. Correcto."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Los recibos de luz de una familia en 4 meses fueron $450.00, $525.50, $480.25 y $504.25 pesos. La media mensual es $___ pesos.",
+          "respuestaCorrecta": "490",
+          "retroalimentacion": "Suma = 450.00+525.50+480.25+504.25 = 1960.00. Media = 1960.00 ÷ 4 = $490.00."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un grupo de amigos organiza una salida. Los boletos cuestan $85.50, $92.00, $78.75 y $89.75 cada uno (varía por descuentos). ¿Cuál es el gasto medio por boleto?",
+          "opciones": [
+            "$85.50",
+            "$86.50",
+            "$87.00",
+            "$346.00"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Suma = 85.50+92.00+78.75+89.75 = 346.00. Media = 346.00 ÷ 4 = $86.50."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Los precios de 5 helados en una feria son $22.50, $25.00, $18.75, $24.25 y $19.50. La media de precios es $22.00.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Suma = 22.50+25.00+18.75+24.25+19.50 = 110.00. Media = 110.00 ÷ 5 = $22.00. Correcto."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En 6 días, una tienda tuvo ventas de $1,250.50, $980.50, $1,105.00, $1,320.00, $1,000.50 y $1,243.50 pesos. La venta media diaria es $___ pesos.",
+          "respuestaCorrecta": "1150",
+          "retroalimentacion": "Suma = 1250.50+980.50+1105.00+1320.00+1000.50+1243.50 = 6900.00. Media = 6900.00 ÷ 6 = $1,150.00."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Los precios de 4 playeras en una promoción son $149.90, $199.90, $179.90 y $150.30. ¿Cuál es la media de precio?",
+          "opciones": [
+            "$169.90",
+            "$170.00",
+            "$175.00",
+            "$680.00"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Suma = 149.90+199.90+179.90+150.30 = 680.00. Media = 680.00 ÷ 4 = $170.00."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El costo de 5 boletos de camión foráneo fue $235.50, $240.00, $228.75, $242.25 y $233.50. La media es $235.00.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: suma = 235.50+240.00+228.75+242.25+233.50 = 1180.00. Media = 1180.00 ÷ 5 = $236.00, no $235.00."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Durante una semana (7 días), una familia gastó en comida: $310.50, $295.50, $328.00, $300.00, $315.50, $290.50 y $330.00 pesos por día. El gasto medio diario es $___ pesos.",
+          "respuestaCorrecta": "310",
+          "retroalimentacion": "Suma = 310.50+295.50+328.00+300.00+315.50+290.50+330.00 = 2170.00. Media = 2170.00 ÷ 7 = $310.00."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada conjunto de gastos con el valor de su media.",
+          "columnaA": [
+            "Transporte (4 días): $20.00, $22.50, $19.50 y $18.00",
+            "Libretas (4 piezas): $15.75, $17.25, $16.00 y $15.00",
+            "Boletos de cine (5 personas): $65.00, $70.00, $62.50, $68.50 y $64.00"
+          ],
+          "columnaB": [
+            "$20.00",
+            "$16.00",
+            "$66.00"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "Transporte: 80.00÷4=$20.00. Libretas: 64.00÷4=$16.00. Cine: 330.00÷5=$66.00."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Las calificaciones de 4 alumnos son 7, 8, 9 y 10 (todas diferentes). Este conjunto de datos no tiene moda.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: ningún valor se repite, así que el conjunto no tiene moda."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Un equipo anotó 3, 3, 5, 3 y 2 goles en 5 partidos. La moda de estos datos es ___.",
+      "respuestaCorrecta": "3",
+      "retroalimentacion": "El 3 se repite 3 veces, más que los demás datos. La moda es 3."
+    }
+  ]
+}

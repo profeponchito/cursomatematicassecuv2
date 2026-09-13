@@ -1,0 +1,164 @@
+{
+  "id": "1S-B1-PDA07-06",
+  "grado": "1°",
+  "trimestre": "2",
+  "numero": 66,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Funciones 7.6",
+  "contenido": "Funciones.",
+  "pda": "Relaciona e interpreta relaciones proporcional y no proporcional a partir de su representación tabular, gráfica y con diagramas.",
+  "problematizacion": {
+    "contexto": "Un diagrama de flechas conecta el número de boleto de una rifa escolar con el nombre del ganador, pero un error de impresión hizo que el boleto número 14 apareciera conectado con dos nombres distintos.",
+    "pregunta": "¿Por qué esa relación entre boletos y ganadores no puede considerarse una función?"
+  },
+  "subtemas": [
+    {
+      "numero": "7.6",
+      "nivelEtiqueta": "Nivel 6 de 10 · Aplicación avanzada",
+      "titulo": "Diagramas de flechas: ¿cuándo una relación es función?",
+      "explicacion": "Además de tablas y gráficas, una relación puede representarse con un diagrama de flechas (diagrama sagital), donde cada flecha conecta un valor de entrada (x) con su valor de salida (y). Una relación es función cuando cada entrada tiene una única salida; si el mismo valor de x tuviera dos flechas hacia salidas distintas, la relación no sería función y tampoco podría ser una relación proporcional bien definida (y=kx solo permite un resultado por cada x).",
+      "formula": "Es función si: cada x → una sola y",
+      "ejemplos": [
+        "Diagrama: 2→10, 3→15, 4→20 (cada x tiene una sola flecha) → es función, y además es proporcional con k=5.",
+        "Diagrama: 2→8, 2→11 (el mismo x=2 apunta a dos y distintos) → no es función, y por lo tanto tampoco es proporcional."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En un diagrama sagital, si x=5 tiene una flecha hacia y=20 y otra flecha hacia y=25, la relación es una función.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: si una misma entrada (x=5) tiene dos salidas distintas, no es función."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En un diagrama sagital, si cada valor de entrada tiene una sola flecha de salida, la relación es una función.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: esa es justamente la condición para que una relación sea función."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En un diagrama: x=3→9, x=4→16, x=5→9 (dos entradas distintas llegan al mismo valor de salida). ¿Es esta relación una función?",
+          "opciones": [
+            "Sí, es función porque cada x tiene una sola flecha de salida",
+            "No, porque dos entradas llegan al mismo valor de salida",
+            "No, porque hay más entradas que salidas",
+            "No se puede saber sin una gráfica"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Sí es función: lo que importa es que cada x tenga una sola salida; que dos x distintas compartan la misma y sí está permitido."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En un diagrama, x=6 tiene una flecha hacia y=12 y también otra flecha hacia y=18. ¿Qué se puede concluir?",
+          "opciones": [
+            "Es función y además proporcional",
+            "No es función, porque x=6 tiene dos salidas distintas",
+            "Es proporcional con k=12",
+            "Es proporcional con k=18"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Como la misma entrada x=6 apunta a dos salidas diferentes (12 y 18), la relación no es función, y por lo tanto no puede ser proporcional."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En un diagrama sagital, x=7 tiene una sola flecha hacia y=42. Si esta relación fuera proporcional, su constante sería k=___.",
+          "respuestaCorrecta": "6",
+          "retroalimentacion": "k = y ÷ x = 42 ÷ 7 = 6."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada diagrama con su clasificación correcta.",
+          "columnaA": [
+            "x=2→6, x=3→9, x=4→12 (una sola flecha por cada x)",
+            "x=5→10 y también x=5→15 (dos flechas desde x=5)",
+            "x=1→7, x=2→7, x=3→7 (una sola flecha por cada x)"
+          ],
+          "columnaB": [
+            "Función (varias entradas pueden compartir la misma salida)",
+            "Función y proporcional (k=3)",
+            "No es función (una entrada con dos salidas)"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "El primer diagrama es función y proporcional (k=3); el segundo no es función porque x=5 tiene dos salidas; el tercero sí es función, aunque varias entradas compartan la misma salida (7)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Toda relación proporcional representada como diagrama sagital es también una función.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: en y=kx, cada x produce un único y, así que siempre es función."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de estos diagramas NO puede representar una relación proporcional?",
+          "opciones": [
+            "x=1→5, x=2→10, x=3→15",
+            "x=0→0, x=2→10, x=4→20",
+            "x=2→9, x=2→14, x=4→18",
+            "x=1→8, x=2→16, x=3→24"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "En la tercera opción, x=2 apunta a dos salidas distintas (9 y 14), así que ni siquiera es función, y por lo tanto no puede ser proporcional."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un diagrama sagital es función y además proporcional. Si x=8 apunta a y=56, entonces k = ___.",
+          "respuestaCorrecta": "7",
+          "retroalimentacion": "k = y ÷ x = 56 ÷ 8 = 7."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En un diagrama sagital de una relación que es función pero NO proporcional, un mismo valor de entrada puede tener dos flechas de salida distintas.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: ser función significa que cada entrada tiene una sola salida, sin importar si la relación es proporcional o no."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cual de las siguientes situaciones es proporcional?",
+      "opciones": [
+        "El taxi: $7 fijos + $2/km",
+        "El costo de jugos a $11 c/u",
+        "La renta de cancha: $7 fijos + $11/hora",
+        "El boleto con $7 de descuento fijo"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "El costo de jugos es y=11x: si compras 0, pagas $0, es proporcional. Las demas tienen un cargo o descuento fijo."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada tabla con su constante de proporcionalidad k.",
+      "columnaA": [
+        "x=2 → y=24",
+        "x=4 → y=28",
+        "x=5 → y=40"
+      ],
+      "columnaB": [
+        "7",
+        "8",
+        "12"
+      ],
+      "parejasCorrectas": [
+        2,
+        0,
+        1
+      ],
+      "retroalimentacion": "x=2,y=24: k=12. x=4,y=28: k=7. x=5,y=40: k=8."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Si la grafica de una relacion es una recta que NO pasa por el origen, la relacion es proporcional.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Falso: si la recta no pasa por el origen (0,0), la relacion NO es proporcional, porque tiene un valor fijo."
+    }
+  ]
+}
