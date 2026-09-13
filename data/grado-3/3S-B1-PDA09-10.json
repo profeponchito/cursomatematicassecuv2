@@ -1,0 +1,150 @@
+{
+  "id": "3S-B1-PDA09-10",
+  "grado": "3°",
+  "trimestre": "3",
+  "numero": 90,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Muestras y Análisis Crítico de Gráficas 9.10",
+  "contenido": "Obtención y representación de información.",
+  "pda": "Distingue población y muestra, y analiza críticamente gráficas estadísticas, incluyendo gráficas que pueden inducir a error.",
+  "problematizacion": {
+    "contexto": "Una organización estudiantil de Mérida publica un reporte: dice haber encuestado a 120 de los 2,400 alumnos de una escuela (10 por cada grupo de 20 alumnos, tomados sistemáticamente de la lista), encontró que el 40% quiere cambiar el menú de la cafetería, y presenta una gráfica de barras con el eje vertical empezando en 25% en vez de 0%.",
+    "pregunta": "Considerando la población, el tipo de muestreo usado, la estimación al total de la escuela y la gráfica presentada, ¿el reporte de la organización estudiantil es confiable?"
+  },
+  "subtemas": [
+    {
+      "numero": "9.10",
+      "nivelEtiqueta": "Nivel 10 de 10 · Dominio",
+      "titulo": "Caso final de dominio: auditoría completa de un estudio estadístico",
+      "explicacion": "En esta lección no aprenderás una técnica nueva, sino que aplicarás TODAS las herramientas del PDA en un solo caso extendido: identificar población y muestra, revisar si el muestreo (aleatorio, estratificado o sistemático) se aplicó de forma correcta y proporcional, calcular una estimación poblacional a partir de la muestra, y calcular el factor exacto de exageración de la gráfica que acompaña los resultados, para llegar a un veredicto final bien justificado sobre si la conclusión del estudio es confiable.",
+      "formula": "Estimación poblacional = (frecuencia ÷ muestra) × población. Muestra por estrato = (estrato ÷ población) × muestra. Intervalo sistemático k = población ÷ muestra. Factor de exageración = valor inicial ÷ (valor inicial − inicio del eje)",
+      "ejemplos": [
+        "Un partido político anuncia que su candidato subió su intención de voto del 28% al 35% tras un debate. La encuesta se hizo con una muestra estratificada de 500 personas de un padrón de 40,000 votantes, dividido en 3 regiones (20,000 / 12,000 / 8,000), y el reporte muestra una gráfica con eje que empieza en 24%. Paso 1 (muestreo): cada región debería aportar 20,000÷40,000×500=250, 12,000÷40,000×500=150 y 8,000÷40,000×500=100 encuestados; si el reporte confirma esos números, el muestreo está bien proporcionado. Paso 2 (gráfica): factor de exageración = 28÷(28−24)=7. Conclusión: la muestra parece bien diseñada, pero la gráfica exagera 7 veces el cambio real; el dato no debería presentarse con esa gráfica sin advertirlo.",
+        "Una marca de multivitamínicos anuncia que 'el 90% de los atletas mejora su energía', basada en una muestra sistemática de 60 de los 3,000 atletas patrocinados por la marca (k=3,000÷60=50). Aunque el cálculo de k es correcto, el problema real es otro: la población de referencia son solo los atletas patrocinados por la marca, no 'los atletas' en general, así que la conclusión no puede generalizarse aunque el muestreo sistemático esté bien calculado."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una alcaldía con 60,000 habitantes divide una muestra estratificada de 600 personas en 3 colonias de 30,000, 18,000 y 12,000 habitantes, para medir el apoyo a un proyecto de parque. La colonia de 12,000 habitantes aportó 90 personas a la muestra. ¿Está correctamente proporcionada esa parte de la muestra?",
+          "opciones": [
+            "Sí, 90 es la proporción correcta para esa colonia",
+            "No, la colonia de 12,000 habitantes debería aportar 120 personas, no 90; está subrepresentada",
+            "No, debería aportar 60 personas",
+            "Sí, porque cualquier número menor a 100 es aceptable"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "(12,000 ÷ 60,000) × 600 = 120 personas; la colonia aportó solo 90, así que está subrepresentada."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "De los 90 encuestados de la colonia de 12,000 habitantes (caso anterior), 54 apoyan el proyecto del parque. Usando solo ese dato, ¿cuál sería la estimación de personas de esa colonia que apoyan el proyecto?",
+          "opciones": [
+            "7,200 personas",
+            "5,400 personas",
+            "9,000 personas",
+            "6,000 personas"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "54 ÷ 90 = 0.6 (60%). Estimación: 0.6 × 12,000 = 7,200 personas."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El resultado de 7,200 personas calculado en la pregunta anterior es matemáticamente correcto como estimación para esa colonia, pero el estudio en su conjunto sigue siendo cuestionable porque el reparto de la muestra entre colonias no fue proporcional.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: un cálculo de estimación puede ser aritméticamente correcto y, aun así, formar parte de un estudio con un problema de diseño en otra parte (el reparto entre colonias)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El reporte final de la alcaldía presenta el apoyo total, que subió de 42% a 48% tras una campaña, en una gráfica con eje que empieza en 36%. ¿Cuál es el factor de exageración de esta gráfica?",
+          "opciones": [
+            "7",
+            "14.3",
+            "6",
+            "2"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Factor = 42 ÷ (42 − 36) = 42 ÷ 6 = 7."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Combinando los dos hallazgos del caso de la alcaldía (la colonia subrepresentada y la gráfica con eje recortado), el estudio tiene ___ problemas independientes que afectan su confiabilidad.",
+          "respuestaCorrecta": "dos",
+          "retroalimentacion": "Un problema está en el reparto de la muestra entre colonias; el otro, independiente del primero, está en la construcción de la gráfica."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una marca de multivitamínicos afirma que 'el 90% de los atletas mejora su energía', basada en una muestra sistemática de 60 de los 3,000 atletas patrocinados por la marca (k=50, correctamente calculado). ¿Cuál es el problema principal de esta afirmación?",
+          "opciones": [
+            "No hay ningún problema, el muestreo sistemático siempre es válido si k está bien calculado",
+            "La población de referencia (atletas patrocinados por la marca) no representa a 'los atletas' en general, así que la conclusión no puede generalizarse",
+            "El problema es que 60 es una muestra demasiado grande",
+            "El problema es que k=50 está mal calculado"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Aunque k=50 esté bien calculado, la población de la que se tomó la muestra (solo atletas patrocinados) es distinta de 'los atletas' en general; el problema es de definición de población, no de técnica de muestreo."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Aunque una técnica de muestreo (aleatorio, estratificado o sistemático) se aplique con la fórmula correcta, la conclusión de un estudio puede seguir sin ser confiable si la población de la que se toma la muestra no es la población que se quiere representar.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: la técnica de muestreo y la definición de la población objetivo son dos revisiones distintas; ambas deben estar bien para confiar en la conclusión."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación de los casos anteriores con el tipo de problema al que corresponde.",
+          "columnaA": [
+            "Colonia de 12,000 habitantes aportó solo 90 personas en vez de 120 en la muestra estratificada",
+            "Gráfica del apoyo total con eje que empieza en 36%, factor de exageración de 7",
+            "Encuesta de atletas patrocinados por la marca usada para hablar de 'todos los atletas'"
+          ],
+          "columnaB": [
+            "Problema de definición de población objetivo",
+            "Problema de proporción entre estratos de la muestra",
+            "Problema de construcción de la gráfica"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "Colonia subrepresentada: problema de proporción entre estratos. Eje recortado con factor 7: problema de gráfica. Atletas patrocinados usados para 'todos los atletas': problema de definición de población."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Tomando en cuenta todo el caso de la alcaldía (colonia subrepresentada en la muestra Y gráfica con factor de exageración de 7), ¿cuál es el veredicto más correcto sobre el reporte del apoyo al proyecto del parque?",
+          "opciones": [
+            "El reporte es totalmente confiable porque usó muestreo estratificado",
+            "El reporte tiene al menos dos problemas independientes —una colonia subrepresentada en la muestra y una gráfica que exagera 7 veces el cambio real— por lo que su conclusión no debe aceptarse sin más análisis",
+            "El reporte es confiable porque la gráfica empieza en un número mayor que cero, lo cual siempre es válido",
+            "El reporte no tiene ningún problema porque el 48% final es un dato real verificado"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Usar una técnica de muestreo por nombre no garantiza que se haya aplicado bien, y un dato final real no vuelve confiable a una gráfica que lo exagera; ambos problemas deben señalarse."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Para declarar que un estudio estadístico es completamente confiable, es necesario revisar que la población esté bien definida, que la muestra (aleatoria, estratificada o sistemática) esté bien diseñada y correctamente proporcionada, y que cualquier gráfica que acompañe los resultados esté bien construida, sin exagerar mediante ejes recortados u otros recursos.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: esa revisión completa —población, muestra y gráfica— es exactamente lo que integra todo lo aprendido en este PDA."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Un ícono que representa 'el doble de ventas' duplicando su altura Y su ancho en realidad multiplica su área visual por 4, no por 2.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: al duplicar dos dimensiones a la vez, el área resultante se multiplica por 2×2=4."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Una gráfica que exagera o distorsiona visualmente los datos reales se llama gráfica ___.",
+      "respuestaCorrecta": "engañosa",
+      "retroalimentacion": "A ese tipo de representación visual se le llama gráfica engañosa."
+    }
+  ]
+}

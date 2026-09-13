@@ -1,0 +1,136 @@
+{
+  "id": "3S-B1-PDA03-01",
+  "grado": "3°",
+  "trimestre": "2",
+  "numero": 21,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Ecuaciones lineales y cuadráticas 3.1",
+  "contenido": "Ecuaciones lineales y cuadráticas.",
+  "pda": "Resuelve ecuaciones de la forma Ax²+Bx+C=0 por factorización y fórmula general. Resuelve problemas cuyo planteamiento es una ecuación cuadrática.",
+  "problematizacion": {
+    "contexto": "En un torneo de futbol en Toluca, el número de goles anotados por un equipo se modela con la expresión x² − 7x + 12, donde x son los partidos jugados. El entrenador quiere saber en qué partidos esa expresión daría exactamente cero goles, según el modelo.",
+    "pregunta": "¿En qué valores de x la expresión x² − 7x + 12 es igual a cero, resolviendo por factorización?"
+  },
+  "subtemas": [
+    {
+      "numero": "3.1",
+      "titulo": "Resolver por factorización",
+      "explicacion": "Una ecuación cuadrática tiene la forma Ax²+Bx+C=0. Cuando es posible, se puede factorizar como el producto de dos binomios; como el producto es cero, alguno de los dos factores debe ser cero, lo que da las dos soluciones.",
+      "ejemplos": [
+        "x² - 5x + 6 = 0 se factoriza como (x-2)(x-3)=0, así que x=2 o x=3."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Las soluciones de x² - 7x + 12 = 0 son x=3 y x=4.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: (x-3)(x-4)=x²-7x+12=0, así que x=3 o x=4."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Las soluciones de x² + 5x - 24 = 0 son x=4 y x=-8.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Las soluciones reales son x=3 y x=-8."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Las soluciones de x² + 11x + 28 = 0 son x=-3 y x=-7.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Las soluciones reales son x=-4 y x=-7."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Las soluciones de x² + 5x - 6 = 0 son x=-6 y x=1.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Las soluciones reales son x=-6 y x=1."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Las soluciones de x² + 5x + 4 = 0 son x=-4 y x=-1.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Las soluciones reales son x=-4 y x=-1."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuáles son las soluciones de x² - 8x + 15 = 0?",
+          "opciones": [
+            "x=3, x=5",
+            "x=-3, x=-5",
+            "x=5, x=-3",
+            "x=15, x=1"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(x-3)(x-5)=x²-8x+15=0, así que x=3 o x=5."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Las soluciones de x² - 10x + 21 = 0 son x=3 y x=7.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: (x-3)(x-7)=x²-10x+21=0, así que x=3 o x=7."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Factoriza y resuelve: x² + 8x + 15 = 0. La solución mayor es x = ___.",
+          "respuestaCorrecta": "-3",
+          "retroalimentacion": "(x+3)(x+5)=0 → x=-3 o x=-5. La mayor es -3."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada ecuación con sus soluciones.",
+          "columnaA": [
+            "x² - 6x + 5 = 0",
+            "x² + 4x - 5 = 0",
+            "x² - x - 20 = 0"
+          ],
+          "columnaB": [
+            "x = 5, x = -4",
+            "x = 1, x = 5",
+            "x = -5, x = 1"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "x²-6x+5=0 → x=1,5; x²+4x-5=0 → x=-5,1; x²-x-20=0 → x=5,-4."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Las soluciones de x² - 2x - 15 = 0 son x=5 y x=-3.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: (x-5)(x+3)=x²-2x-15=0, así que x=5 o x=-3."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 1 de 10 · Introductorio"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Las soluciones de x² - 6x + 8 = 0 son x=2 y x=4.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: (x-2)(x-4)=x²-6x+8=0, así que x=2 o x=4."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Factoriza y resuelve: x² + 7x + 10 = 0. La solución menor es x = ___.",
+      "respuestaCorrecta": "-5",
+      "retroalimentacion": "(x+2)(x+5)=0 → x=-2 o x=-5. La menor es -5."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Usando la fórmula general, ¿cuáles son las soluciones de x² - 3x - 10 = 0?",
+      "opciones": [
+        "x=5, x=-2",
+        "x=2, x=-5",
+        "x=-2, x=-5",
+        "x=10, x=-1"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "x=(3±√(9+40))/2=(3±7)/2 → x=5 o x=-2."
+    }
+  ]
+}

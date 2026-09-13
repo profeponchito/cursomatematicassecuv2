@@ -1,0 +1,168 @@
+{
+  "id": "3S-B1-PDA02-07",
+  "grado": "3°",
+  "trimestre": "2",
+  "numero": 17,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Introducción al álgebra 2.7",
+  "contenido": "Introducción al álgebra.",
+  "pda": "Representa algebraicamente áreas y volúmenes de cuerpos geométricos y calcula el valor de una variable en función de las otras.",
+  "problematizacion": {
+    "contexto": "El plomero le ofrece a tu familia un tinaco con el doble de lado en la base, dejando la misma altura, y dice que \"cabe el doble de agua\". Tu papá sospecha que no es tan sencillo y te pide verificarlo antes de pagar la diferencia de precio.",
+    "pregunta": "Si el lado de la base del tinaco se duplica y la altura se queda igual, ¿por cuánto se multiplica realmente el volumen, y tenía razón el plomero?"
+  },
+  "subtemas": [
+    {
+      "numero": "2.7",
+      "nivelEtiqueta": "Nivel 7 de 10 · Reto",
+      "titulo": "Escalar el tinaco: qué pasa si el lado crece",
+      "explicacion": "Hasta ahora calculabas el volumen para un solo valor de x, pero un reto más interesante es predecir qué ocurre cuando el lado cambia de tamaño. Si duplicas el lado x de la base y dejas la altura igual, el área de la base se multiplica por 4 (porque (2x)²=4x²), así que el volumen también se multiplica por 4, no por 2. Si además todas las dimensiones de un cubo se multiplican por el mismo factor k, su volumen se multiplica por k³. Esta lección te reta a razonar sobre el cambio, no solo a sustituir números.",
+      "formula": "Si x' = k×x (misma h): V' = k²×V.  Si un cubo escala todas sus aristas por k: V' = k³×V.",
+      "ejemplos": [
+        "Un tinaco tiene x=6 cm, h=10 cm → V=6²×10=360 cm³. Si el lado se duplica a x=12 cm (misma h), el nuevo volumen es 12²×10=1440 cm³, que es 4 veces 360 cm³ (porque 2²=4).",
+        "Un cubo de arista 5 cm tiene volumen 125 cm³. Si la arista se triplica a 15 cm, el nuevo volumen es 15³=3375 cm³, que es 27 veces 125 cm³ (porque 3³=27)."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si duplicas el lado x de la base de un prisma cuadrado sin cambiar la altura, su volumen también se duplica.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "El volumen se multiplica por 4, porque (2x)²=4x², no por 2."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un prisma cuadrado tiene x=3 cm y h=11 cm (V=99 cm³). Si el lado se duplica a x=6 cm sin cambiar la altura, ¿cuál es el nuevo volumen?",
+          "opciones": [
+            "198 cm³",
+            "396 cm³",
+            "297 cm³",
+            "792 cm³"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Nuevo volumen = 6²×11 = 36×11 = 396 cm³, es decir 4 veces 99 cm³."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un cubo de arista 11 cm tiene volumen 1331 cm³. Si la arista se duplica a 22 cm, el nuevo volumen es 10,648 cm³.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "11³=1331 y 22³=10,648, que es 8 veces 1331 (porque 2³=8)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Si el lado x de la base de un prisma se triplica (la altura no cambia), ¿por qué número se multiplica el volumen?",
+          "opciones": [
+            "3",
+            "6",
+            "9",
+            "27"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "El volumen se multiplica por 3²=9, porque solo el área de la base cambia (la altura sigue igual)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si todas las aristas de un cubo se triplican, su volumen se multiplica por 27.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Como las tres dimensiones se triplican, el volumen se multiplica por 3³=27."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un prisma cuadrado tiene x=7 cm y h=20 cm. Su volumen es V = ___ cm³.",
+          "respuestaCorrecta": "980",
+          "retroalimentacion": "V = 7²×20 = 49×20 = 980 cm³."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Ese mismo prisma (x=7, h=20, V=980 cm³): si el lado se duplica a x=14 cm, ¿cuál es el nuevo volumen?",
+          "opciones": [
+            "1960 cm³",
+            "2940 cm³",
+            "3920 cm³",
+            "7840 cm³"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Nuevo volumen = 14²×20 = 196×20 = 3920 cm³, es decir 4 veces 980 cm³."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un prisma con x=10 cm y h=15 cm tiene volumen 1500 cm³. Si reduces el lado a la mitad (x=5 cm, misma altura), el nuevo volumen es 375 cm³.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "V original = 10²×15 = 1500 cm³. Al reducir x a la mitad, el volumen se divide entre 4: 1500÷4 = 375 cm³."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una empresa empacadora usa cajas cúbicas. Si cambia el tamaño de arista de 6 cm a 12 cm, ¿cuántas veces más volumen tiene la nueva caja respecto a la anterior?",
+          "opciones": [
+            "2",
+            "4",
+            "6",
+            "8"
+          ],
+          "respuestaCorrecta": 3,
+          "retroalimentacion": "El lado se duplicó (k=2), así que el volumen se multiplica por 2³=8."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada cambio de lado (misma altura) con el factor por el que se multiplica el volumen del prisma.",
+          "columnaA": [
+            "x se multiplica por 2",
+            "x se multiplica por 3",
+            "x se multiplica por 4"
+          ],
+          "columnaB": [
+            "9",
+            "16",
+            "4"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "Factor de volumen = k². k=2→4; k=3→9; k=4→16."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Un prisma con base cuadrada de lado x=6 y altura h=7 tiene volumen 252.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "V = 6²×7 = 36×7 = 252."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Un cubo tiene arista 10 cm. Su volumen es ___ cm³.",
+      "respuestaCorrecta": "1000",
+      "retroalimentacion": "10³ = 1000 cm³."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Si el volumen de un prisma es V=x²h, con V=200 y h=8, ¿cuánto vale x²?",
+      "opciones": [
+        "25",
+        "28",
+        "20",
+        "32"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "x² = V/h = 200/8 = 25."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Una caja tiene volumen V=x²h. Si x=9 y h=7, ¿cuál es el volumen?",
+      "opciones": [
+        "567",
+        "497",
+        "637",
+        "560"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "V = 9²×7 = 81×7 = 567."
+    }
+  ]
+}

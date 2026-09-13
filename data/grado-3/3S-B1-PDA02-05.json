@@ -1,0 +1,158 @@
+{
+  "id": "3S-B1-PDA02-05",
+  "grado": "3°",
+  "trimestre": "2",
+  "numero": 15,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Introducción al álgebra 2.5",
+  "contenido": "Introducción al álgebra.",
+  "pda": "Representa algebraicamente áreas y volúmenes de cuerpos geométricos y calcula el valor de una variable en función de las otras.",
+  "problematizacion": {
+    "contexto": "El plomero del tinaco de tu casa ya calculó que x², el área de la base cuadrada del tinaco, es de 2,500 cm², pero necesita saber la medida exacta del lado en centímetros para cortar la lámina antes de soldarla.",
+    "pregunta": "¿Cuánto mide el lado x del tinaco, si su área x² es de 2,500 cm²?"
+  },
+  "subtemas": [
+    {
+      "numero": "2.5",
+      "nivelEtiqueta": "Nivel 5 de 10 · Aplicación",
+      "titulo": "Encontrar el lado del tinaco: la raíz cuadrada",
+      "explicacion": "En las lecciones anteriores encontrabas x² dividiendo el volumen entre la altura, pero eso no te dice cuánto mide realmente el lado x. Ahora aprenderás a dar el último paso: sacar la raíz cuadrada de x² para obtener x en centímetros, justo lo que necesita el plomero de la problematización para comprar el tinaco correcto. Así conectas el álgebra con una medida real que se puede cortar con una cinta métrica.",
+      "formula": "x = √(V ÷ h)",
+      "ejemplos": [
+        "Si el volumen de un tinaco es V=845 cm³ y su altura es h=5 cm, primero x² = 845÷5 = 169, y luego x = √169 = 13 cm.",
+        "Si V=722 cm³ y h=2 cm, entonces x² = 722÷2 = 361, y x = √361 = 19 cm."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un tinaco cuadrado en la azotea tiene volumen V=968 cm³ y su altura es h=8 cm. ¿Cuánto mide el lado x de la base?",
+          "opciones": [
+            "9 cm",
+            "10 cm",
+            "11 cm",
+            "12 cm"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "x² = 968÷8 = 121; x = √121 = 11 cm."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una caja cuadrada de cartón tiene volumen V=400 cm³ y altura h=4 cm. El lado de la base mide x = ___ cm.",
+          "respuestaCorrecta": "10",
+          "retroalimentacion": "x² = 400÷4 = 100; x = √100 = 10 cm."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un contenedor cuadrado con volumen V=432 cm³ y altura h=3 cm tiene un lado de base x=12 cm.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "x² = 432÷3 = 144; x = √144 = 12 cm. Correcto."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un tinaco con volumen V=490 cm³ y altura h=10 cm tiene lado de base x=8 cm.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "x² = 490÷10 = 49; x = √49 = 7 cm, no 8."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una pecera cuadrada tiene volumen V=392 cm³ y altura h=2 cm. ¿Cuál es la medida del lado de su base?",
+          "opciones": [
+            "13 cm",
+            "14 cm",
+            "15 cm",
+            "16 cm"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "x² = 392÷2 = 196; x = √196 = 14 cm."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un tinaco cuadrado tiene volumen V=900 cm³ y altura h=4 cm. El lado de la base mide x = ___ cm.",
+          "respuestaCorrecta": "15",
+          "retroalimentacion": "x² = 900÷4 = 225; x = √225 = 15 cm."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una caja de almacenamiento tiene volumen V=768 cm³ y altura h=3 cm. ¿Cuánto mide el lado x de su base cuadrada?",
+          "opciones": [
+            "14 cm",
+            "15 cm",
+            "16 cm",
+            "17 cm"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "x² = 768÷3 = 256; x = √256 = 16 cm."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un tinaco con volumen V=578 cm³ y altura h=2 cm tiene lado de base x=17 cm.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "x² = 578÷2 = 289; x = √289 = 17 cm."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un depósito cuadrado tiene volumen V=1200 cm³ y altura h=3 cm. El lado de la base mide x = ___ cm.",
+          "respuestaCorrecta": "20",
+          "retroalimentacion": "x² = 1200÷3 = 400; x = √400 = 20 cm."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada tinaco (volumen y altura) con la medida de su lado x.",
+          "columnaA": [
+            "V=972, h=12",
+            "V=1620, h=5",
+            "V=882, h=2"
+          ],
+          "columnaB": [
+            "9",
+            "21",
+            "18"
+          ],
+          "parejasCorrectas": [
+            0,
+            2,
+            1
+          ],
+          "retroalimentacion": "V=972,h=12: x²=81→x=9. V=1620,h=5: x²=324→x=18. V=882,h=2: x²=441→x=21."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada descripción con su volumen.",
+      "columnaA": [
+        "cubo de arista 9 cm",
+        "x=4, h=9",
+        "x=5, h=7"
+      ],
+      "columnaB": [
+        "144",
+        "729",
+        "175"
+      ],
+      "parejasCorrectas": [
+        1,
+        0,
+        2
+      ],
+      "retroalimentacion": "cubo arista 9: 9³=729; x=4,h=9: V=16×9=144; x=5,h=7: V=25×7=175."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Un cubo con arista 5 cm tiene volumen 125 cm³.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "5³ = 125 cm³."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Si el volumen de un prisma es V=x²h, con V=294 y h=6, entonces x² = ___.",
+      "respuestaCorrecta": "49",
+      "retroalimentacion": "x² = V/h = 294/6 = 49."
+    }
+  ]
+}

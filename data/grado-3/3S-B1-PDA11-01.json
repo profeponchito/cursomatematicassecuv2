@@ -1,0 +1,136 @@
+{
+  "id": "3S-B1-PDA11-01",
+  "grado": "3°",
+  "trimestre": "3",
+  "numero": 101,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Probabilidad de la Unión de Eventos 11.1",
+  "contenido": "Azar e incertidumbre en la ocurrencia de eventos cotidianos.",
+  "pda": "Calcula la probabilidad de la unión de dos eventos, distinguiendo eventos mutuamente excluyentes de los que no lo son.",
+  "problematizacion": {
+    "contexto": "En la kermés de su escuela en Oaxaca, Lupita organiza un juego de dados: si sacas un 2 ganas un premio, y si sacas un 5 ganas otro premio distinto. Un compañero le pregunta si podría ganar los dos premios con una sola tirada de un solo dado.",
+    "pregunta": "¿Es posible sacar un 2 y un 5 al mismo tiempo en una sola tirada de un dado, es decir, son estos dos eventos mutuamente excluyentes?"
+  },
+  "subtemas": [
+    {
+      "numero": "11.1",
+      "titulo": "Eventos mutuamente excluyentes",
+      "explicacion": "Dos eventos son mutuamente excluyentes cuando NO pueden ocurrir al mismo tiempo en un mismo resultado: no existe ningún elemento del espacio muestral que cumpla ambos eventos a la vez. En una baraja de 52 cartas, 'sacar un as' y 'sacar un rey' son mutuamente excluyentes porque ninguna carta es as y rey al mismo tiempo. En cambio, 'sacar una carta roja' y 'sacar un as' NO son mutuamente excluyentes, porque el as de corazones y el as de diamantes son, a la vez, cartas rojas y ases: sí existen cartas que cumplen los dos eventos juntos. Para decidir si dos eventos son mutuamente excluyentes basta con preguntarte: ¿hay alguna carta que cumpla las dos condiciones al mismo tiempo? Si la respuesta es sí, no son mutuamente excluyentes.",
+      "ejemplos": [
+        "Sacar un as y sacar un rey (en una sola carta) son mutuamente excluyentes: ninguna carta de la baraja es as y rey a la vez, así que no pueden ocurrir juntos.",
+        "Sacar una carta roja y sacar un as NO son mutuamente excluyentes: el as de corazones y el as de diamantes son cartas rojas y ases al mismo tiempo, así que sí pueden ocurrir juntos."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Los eventos 'sacar un as' y 'sacar un rey' (en una sola carta) son mutuamente excluyentes.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: ninguna carta de la baraja es as y rey a la vez, así que no pueden ocurrir juntos."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Los eventos 'sacar una carta roja' y 'sacar un as' son mutuamente excluyentes.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: el as de corazones y el as de diamantes son cartas rojas y ases a la vez, así que sí pueden ocurrir juntos."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de los siguientes pares de eventos SÍ es mutuamente excluyente?",
+          "opciones": [
+            "Sacar una reina y sacar un rey",
+            "Sacar una carta roja y sacar un as",
+            "Sacar un rey y sacar una carta de picas",
+            "Sacar una carta negra y sacar un as"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Ninguna carta es reina y rey a la vez, así que sí son mutuamente excluyentes. Las otras tres opciones sí se traslapan (as rojo, rey de picas, as negro)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de los siguientes pares de eventos NO es mutuamente excluyente?",
+          "opciones": [
+            "Sacar una jota y sacar una reina",
+            "Sacar un 5 y sacar un 7",
+            "Sacar una carta de tréboles y sacar una carta de corazones",
+            "Sacar una carta de diamantes y sacar una reina"
+          ],
+          "respuestaCorrecta": 3,
+          "retroalimentacion": "La reina de diamantes cumple ambos eventos a la vez, así que sí se traslapan. Las otras tres parejas no comparten ninguna carta."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Los eventos 'sacar una carta roja' y 'sacar una carta negra' ___ mutuamente excluyentes, porque ninguna carta es roja y negra a la vez.",
+          "respuestaCorrecta": "son",
+          "retroalimentacion": "Ninguna carta puede ser roja y negra al mismo tiempo, así que sí son mutuamente excluyentes."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Los eventos 'sacar un rey' y 'sacar una carta de picas' ___ mutuamente excluyentes, porque el rey de picas cumple ambos eventos.",
+          "respuestaCorrecta": "no son",
+          "retroalimentacion": "El rey de picas es, a la vez, rey y carta de picas, así que los eventos se traslapan y no son mutuamente excluyentes."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Los eventos 'sacar una carta de tréboles' y 'sacar una carta de corazones' son mutuamente excluyentes.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: ninguna carta pertenece a dos palos a la vez, así que no pueden ocurrir juntos."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Los eventos 'sacar una carta negra' y 'sacar un as' son mutuamente excluyentes.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: el as de tréboles y el as de picas son cartas negras y ases a la vez, así que sí pueden ocurrir juntos."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Se saca una sola carta de la baraja. ¿Por qué 'sacar una jota' y 'sacar una reina' son eventos mutuamente excluyentes?",
+          "opciones": [
+            "Porque ninguna carta es jota y reina al mismo tiempo",
+            "Porque hay más jotas que reinas",
+            "Porque las jotas son cartas rojas",
+            "Porque las reinas son cartas de figura"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "El criterio para decidir si dos eventos son mutuamente excluyentes es si comparten o no algún resultado; aquí ninguna carta es jota y reina a la vez."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada par de eventos con su clasificación.",
+          "columnaA": [
+            "Sacar un 5 y sacar un 7",
+            "Sacar una carta roja y sacar un as",
+            "Sacar una reina y sacar un rey"
+          ],
+          "columnaB": [
+            "No mutuamente excluyentes",
+            "Mutuamente excluyentes"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            1
+          ],
+          "retroalimentacion": "5 y 7: ninguna carta es ambas cosas → mutuamente excluyentes. Roja y as: el as de corazones/diamantes cumple ambos → no mutuamente excluyentes. Reina y rey: ninguna carta es ambas cosas → mutuamente excluyentes."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 1 de 10 · Introductorio"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Los eventos 'sacar un as' y 'sacar un 10' son mutuamente excluyentes.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: ninguna carta es as y 10 a la vez."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Los eventos 'sacar una carta de corazones' y 'sacar una reina' son mutuamente excluyentes.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Falso: la reina de corazones cumple ambos eventos a la vez."
+    }
+  ]
+}

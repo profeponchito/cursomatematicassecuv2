@@ -1,0 +1,170 @@
+{
+  "id": "3S-B1-PDA06-08",
+  "grado": "3°",
+  "trimestre": "2",
+  "numero": 58,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Forma, espacio y medida",
+  "titulo": "Áreas y Volúmenes de Cuerpos Geométricos 6.8",
+  "contenido": "Construcción y propiedades de las figuras planas y cuerpos.",
+  "pda": "Calcula el área total y el volumen de prismas, pirámides y cilindros, y relaciona sus vistas con su representación tridimensional.",
+  "problematizacion": {
+    "contexto": "Para la feria de ciencias, el equipo de Iker construyó una maqueta de una casa de campo: la base es un prisma cuadrangular de 20 cm por lado y 25 cm de alto, y el techo es una pirámide cuadrangular de la misma base, con 8 cm de altura. Quieren saber cuánto material necesitarían para rellenar por completo la maqueta.",
+    "pregunta": "¿Cuál es el volumen total de la maqueta, sumando el volumen del prisma y el de la pirámide del techo?"
+  },
+  "subtemas": [
+    {
+      "numero": "6.8",
+      "nivelEtiqueta": "Nivel 8 de 10 · Reto avanzado",
+      "titulo": "Cuerpos compuestos: sumar volúmenes y áreas de figuras combinadas",
+      "explicacion": "Muchos objetos reales no son un solo cuerpo geométrico 'puro', sino la combinación de dos: por ejemplo, una casita de juguete es un prisma rectangular (las paredes) con una pirámide encima (el techo), o una torre de agua es un cilindro grande (la base) con un cilindro más angosto encima (el tanque). El volumen total de un cuerpo compuesto es la SUMA de los volúmenes de sus partes. Para el área que se puede ver desde fuera, solo se suman las caras expuestas: la cara donde las dos partes se unen NO se pinta ni se cuenta, porque queda escondida entre ambas piezas.",
+      "formula": "Volumen total = Volumen de la parte 1 + Volumen de la parte 2\nÁrea expuesta = suma de las caras visibles desde fuera (sin contar la cara donde se unen las partes)",
+      "ejemplos": [
+        "Una casita de juguete: la parte de abajo es un prisma rectangular de 8×6×5 cm (paredes) y la de arriba es una pirámide de base 8×6 cm y altura 4 cm (techo). Volumen total = Volumen del prisma + Volumen de la pirámide = (8×6×5) + (⅓×8×6×4) = 240 + 64 = 304 cm³.",
+        "Un granero: prisma rectangular de 10×6×4 m (paredes) + pirámide de base 10×6 m y altura 3 m (techo a cuatro aguas). Volumen total = (10×6×4) + (⅓×10×6×3) = 240 + 60 = 300 m³."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una casita de juguete tiene un prisma de base 6×5 cm y altura de paredes 4 cm, con un techo piramidal de base 6×5 cm y altura 3 cm. ¿Cuál es su volumen total?",
+          "opciones": [
+            "150 cm³",
+            "120 cm³",
+            "180 cm³",
+            "90 cm³"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Volumen del prisma = 6×5×4 = 120 cm³. Volumen de la pirámide = ⅓×(6×5)×3 = 30 cm³. Total = 150 cm³."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un granero con paredes prisma de base 9×7 m y altura 5 m, y techo piramidal de base 9×7 m y altura 6 m, tiene un volumen total de 441 m³.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: volumen del prisma = 9×7×5 = 315 m³. Volumen de la pirámide = ⅓×63×6 = 126 m³. Total = 441 m³."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una cabaña con paredes prisma de base 4×4 m y altura 3 m, y techo piramidal (mismo tamaño de base) de altura 3 m, tiene un volumen total de ___ m³.",
+          "respuestaCorrecta": "64",
+          "retroalimentacion": "Volumen del prisma = 4×4×3 = 48 m³. Volumen de la pirámide = ⅓×16×3 = 16 m³. Total = 64 m³."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una casita de juguete tiene paredes: prisma de base cuadrada de 6×6 cm y altura de paredes 5 cm (sin tapa arriba). Encima tiene un techo piramidal de base 6×6 cm con apotema de 5 cm. ¿Cuántos cm² hay que cubrir por fuera en total (4 paredes + 4 caras del techo, sin contar el piso ni la unión entre paredes y techo)?",
+          "opciones": [
+            "180 cm²",
+            "240 cm²",
+            "300 cm²",
+            "150 cm²"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Área de las paredes (lateral del prisma) = perímetro×altura = 24×5 = 120 cm². Área del techo (lateral de la pirámide) = (24×5)÷2 = 60 cm². Total expuesto = 120+60 = 180 cm²."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un cobertizo tiene paredes: prisma de base cuadrada de 10×10 m y altura de paredes 3 m; y techo piramidal de base 10×10 m con apotema de 7 m. El área que hay que cubrir con lámina por fuera (paredes + techo, sin la base) es 260 m².",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: paredes = 40×3 = 120 m². Techo = (40×7)÷2 = 140 m². Total = 260 m²."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un cobertizo con paredes prisma de base cuadrada de 5×5 m y altura 4 m, y techo piramidal (misma base) de altura 3 m, tiene un volumen total de ___ m³.",
+          "respuestaCorrecta": "125",
+          "retroalimentacion": "Volumen del prisma = 5×5×4 = 100 m³. Volumen de la pirámide = ⅓×25×3 = 25 m³. Total = 125 m³."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una torre de agua tiene un cilindro grande (el pedestal: radio 3 m, altura 2 m) y un cilindro más angosto encima (el tanque: radio 1.5 m, altura 6 m). ¿Cuál es su volumen total (usa π≈3.14)?",
+          "opciones": [
+            "98.91 m³",
+            "56.52 m³",
+            "42.39 m³",
+            "113.04 m³"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Volumen del pedestal = 3.14×9×2 = 56.52 m³. Volumen del tanque = 3.14×2.25×6 = 42.39 m³. Total = 98.91 m³."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada cuerpo compuesto con su volumen total (usa π≈3.14 para los cilindros).",
+          "columnaA": [
+            "Compuesto A: prisma 5×5×6 + pirámide base 5×5, altura 3",
+            "Compuesto B: prisma 8×4×3 + pirámide base 8×4, altura 6",
+            "Compuesto C: cilindro r=2,h=5 + cilindro r=1,h=4"
+          ],
+          "columnaB": [
+            "160 cm³",
+            "75.36 cm³",
+            "175 cm³"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "A: 150+25 = 175 cm³. B: 96+64 = 160 cm³. C: 62.8+12.56 = 75.36 cm³."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una caseta con paredes (prisma de base cuadrada 8×8 m, altura de paredes 4 m) y techo piramidal (base 8×8 m, apotema 6 m) tiene un área expuesta total de 204 m².",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: paredes = 32×4 = 128 m². Techo = (32×6)÷2 = 96 m². Total = 224 m², no 204 m²."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Cobertizo X: prisma 6×6×5 m + techo piramidal (base 6×6 m, altura 3 m). Torre Y: un solo cilindro de radio 4 m y altura 10 m. ¿Cuál cuerpo tiene mayor volumen (usa π≈3.14)?",
+          "opciones": [
+            "Torre Y (el cilindro)",
+            "Cobertizo X (prisma+pirámide)",
+            "Tienen el mismo volumen",
+            "Faltan datos para saberlo"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Volumen de X = 180+36 = 216 m³. Volumen de Y = 3.14×16×10 = 502.4 m³. Como 502.4 > 216, la Torre Y tiene mayor volumen."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "llenar_frase",
+      "frase": "El volumen de una pirámide de base rectangular de 5×4 cm y altura 3 cm es ___ cm³.",
+      "respuestaCorrecta": "20",
+      "retroalimentacion": "Área de la base = 5×4 = 20 cm². V = (1/3)×20×3 = (1/3)×60 = 20 cm³."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es el volumen de un cilindro de radio 2 cm y altura 3 cm (usa π≈3.14)?",
+      "opciones": [
+        "37.68 cm³",
+        "25.12 cm³",
+        "18.84 cm³",
+        "50.24 cm³"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "V = 3.14×2²×3 = 3.14×4×3 = 37.68 cm³."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada cuerpo geométrico con su volumen (usa π≈3.14 para el cilindro).",
+      "columnaA": [
+        "Prisma rectangular 7×2×3 cm",
+        "Pirámide base cuadrada lado 5 cm, altura 3 cm",
+        "Cilindro radio 4 cm, altura 5 cm"
+      ],
+      "columnaB": [
+        "251.2 cm³",
+        "42 cm³",
+        "25 cm³"
+      ],
+      "parejasCorrectas": [
+        1,
+        2,
+        0
+      ],
+      "retroalimentacion": "Prisma: V=(7×2)×3=42 cm³. Pirámide: V=(1/3)×(5×5)×3=(1/3)×75=25 cm³. Cilindro: V=3.14×4²×5=251.2 cm³."
+    }
+  ]
+}

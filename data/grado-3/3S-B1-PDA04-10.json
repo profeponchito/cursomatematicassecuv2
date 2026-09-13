@@ -1,0 +1,170 @@
+{
+  "id": "3S-B1-PDA04-10",
+  "grado": "3°",
+  "trimestre": "2",
+  "numero": 40,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Funciones 4.10",
+  "contenido": "Funciones.",
+  "pda": "Relaciona e interpreta la variación de dos cantidades a partir de su representación tabular, gráfica y algebraica. Explora diversos procedimientos para resolver problemas de reparto proporcional.",
+  "problematizacion": {
+    "contexto": "Tres amigas administran una papelería escolar en Puebla durante todo un semestre: pagan una renta fija mensual y un costo variable por cada paquete de material que compran, y al final deben calcular la utilidad total restando todos los costos a los ingresos, para después repartirla proporcionalmente según lo que aportó cada una al abrir el negocio.",
+    "pregunta": "¿Qué pasos completos debes seguir para calcular la utilidad del semestre de la papelería y repartirla proporcionalmente entre las tres amigas?"
+  },
+  "subtemas": [
+    {
+      "numero": "4.10",
+      "nivelEtiqueta": "Nivel 10 de 10 · Dominio",
+      "titulo": "Proyecto integrador: costos con cargo fijo y reparto proporcional de utilidades",
+      "explicacion": "En esta lección de cierre vas a resolver problemas completos de varios pasos, como los que enfrentaría alguien administrando un negocio real: decidir si una relación de costos es variación directa o tiene cargo fijo, encontrar la constante k a partir de datos no redondos, calcular una utilidad restando costos a ingresos, y repartir esa utilidad proporcionalmente entre varios socios con aportaciones distintas, a veces dentro del mismo problema.",
+      "formula": "y = k×x (variación directa) o y = k×x + b (con cargo fijo)  ;  parte de cada socio = (aportación ÷ suma total) × utilidad",
+      "ejemplos": [
+        "Un negocio de paletas heladas tiene una renta fija de $1,800 al mes más $3.20 por paleta producida. Si un mes produjo 950 paletas, el costo total fue y=3.2×950+1800=3,040+1,800=$4,840. Ese mes la utilidad (ingresos menos costos) fue de $5,400, que se repartió entre 3 socios que aportaron $10,000, $15,000 y $25,000. Al socio de $15,000 le toca: suma=$50,000, (15000÷50000)×5400=$1,620.",
+        "Una tienda de renta de trajes cobra $200 de cuota fija más $65 por día de renta. Si un cliente pagó $850 en total, ¿cuántos días rentó el traje? x = (850-200)÷65 = 650÷65 = 10 días."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una fábrica de dulces tiene un costo fijo de $3,500 al mes más $2.75 por bolsa producida. Si produjo 1,200 bolsas, ¿cuál fue el costo total?",
+          "opciones": [
+            "$6,500",
+            "$6,650",
+            "$6,800",
+            "$6,950"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "y = 2.75×1200+3500 = 3,300+3,500 = $6,800."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Cuatro socios aportaron $6,200, $8,800, $9,500 y $15,500 para abrir una papelería (suma total $40,000) y repartieron $12,000 de utilidad proporcionalmente. Al socio que aportó $9,500 le corresponden $___.",
+          "respuestaCorrecta": "2850",
+          "retroalimentacion": "(9500÷40000)×12000 = $2,850."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una imprenta cobra $220 fijos más $3.60 por copia. Ganó $1,660 en total por un pedido. ¿Cuántas copias imprimió?",
+          "opciones": [
+            "380",
+            "390",
+            "400",
+            "410"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "x = (1660-220)÷3.6 = 1440÷3.6 = 400 copias."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Tres socios aportaron $18,000, $27,000 y $45,000 a un negocio (suma $90,000) y repartieron $7,200 de utilidad proporcionalmente. Al socio de $27,000 le tocan $2,160.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: (27000÷90000)×7200 = $2,160."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un servicio de streaming no cobra cuota fija, solo $0.75 por hora vista (variación directa). Si un usuario pagó $54, vio ___ horas.",
+          "respuestaCorrecta": "72",
+          "retroalimentacion": "x = 54÷0.75 = 72 horas."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Dos socios invirtieron $22,500 y $37,500 en una tienda. Ese mes la tienda tuvo un costo fijo de $2,000 más $15 por producto vendido; vendió 600 productos con ingresos de $18,000. La utilidad es ingresos menos costos. ¿Cuál fue la utilidad?",
+          "opciones": [
+            "$6,500",
+            "$6,800",
+            "$7,000",
+            "$7,200"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Costo = 15×600+2000 = 9,000+2,000 = $11,000. Utilidad = 18,000-11,000 = $7,000."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Siguiendo el negocio anterior (utilidad de $7,000, socios que invirtieron $22,500 y $37,500, suma $60,000), al socio de $37,500 le corresponden $___ de esa utilidad.",
+          "respuestaCorrecta": "4375",
+          "retroalimentacion": "(37500÷60000)×7000 = $4,375."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si una relación es y=k×x+b con b=0, entonces sí es una variación directa.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: con b=0 la ecuación queda y=k×x, que pasa por el origen, es decir, es variación directa."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada negocio con la parte de utilidad que le corresponde (utilidad total $9,000, suma total de aportaciones $60,000).",
+          "columnaA": [
+            "Aportó $14,000 de $60,000 totales",
+            "Aportó $22,000 de $60,000 totales",
+            "Aportó $24,000 de $60,000 totales"
+          ],
+          "columnaB": [
+            "$3,300",
+            "$2,100",
+            "$3,600"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            2
+          ],
+          "retroalimentacion": "$14,000: (14000÷60000)×9000=$2,100. $22,000: (22000÷60000)×9000=$3,300. $24,000: (24000÷60000)×9000=$3,600."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un negocio de jugos tiene costo fijo de $1,250 más $2.40 por vaso preparado. Si preparó 875 vasos y los vendió todos generando $3,500 de ingresos, ¿cuál fue la utilidad (ingresos menos costos)?",
+          "opciones": [
+            "$100",
+            "$150",
+            "$200",
+            "$250"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Costo = 2.4×875+1250 = 2,100+1,250 = $3,350. Utilidad = 3,500-3,350 = $150."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál de estas es un ejemplo de variación directa?",
+      "opciones": [
+        "Al triplicar x, y se mantiene igual",
+        "Al duplicar x, y se duplica también",
+        "Al aumentar x, y disminuye",
+        "Al duplicar x, y aumenta el triple"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "En una variación directa, al duplicar una cantidad, la otra también se duplica: la razón entre ambas es constante."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "En un reparto proporcional entre 3 personas con aportaciones iguales, a cada una le toca exactamente 1/3 del total.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: si las tres aportaciones son iguales, la suma se divide en tres partes iguales."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada reparto proporcional con el resultado de la parte indicada.",
+      "columnaA": [
+        "De $600 entre aportes $100 y $200: parte del aporte $200",
+        "De 40 dulces entre edades 3 y 5 años: parte de 5 años",
+        "De $450 entre aportes $300 y $600: parte del aporte $600"
+      ],
+      "columnaB": [
+        "$300",
+        "$400",
+        "25"
+      ],
+      "parejasCorrectas": [
+        1,
+        2,
+        0
+      ],
+      "retroalimentacion": "Suma 100+200=300: (200/300)×600=$400. Suma 3+5=8: (5/8)×40=25. Suma 300+600=900: (600/900)×450=$300."
+    }
+  ]
+}

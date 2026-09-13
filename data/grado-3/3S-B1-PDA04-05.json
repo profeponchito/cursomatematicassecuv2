@@ -1,0 +1,158 @@
+{
+  "id": "3S-B1-PDA04-05",
+  "grado": "3°",
+  "trimestre": "2",
+  "numero": 35,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Funciones 4.5",
+  "contenido": "Funciones.",
+  "pda": "Relaciona e interpreta la variación de dos cantidades a partir de su representación tabular, gráfica y algebraica. Explora diversos procedimientos para resolver problemas de reparto proporcional.",
+  "problematizacion": {
+    "contexto": "Iker anota en una tabla cuánto le cobra el taxi colectivo de su pueblo en Hidalgo según los kilómetros recorridos: 2 km cuestan $10, 4 km cuestan $20 y 6 km cuestan $30. Quiere encontrar una sola regla que le diga el costo de cualquier distancia sin revisar la tabla fila por fila.",
+    "pregunta": "¿Cuál es la constante de proporcionalidad k en la tabla del taxi de Iker, y cómo se escribe la regla y=k×x para calcular el costo de cualquier distancia?"
+  },
+  "subtemas": [
+    {
+      "numero": "4.5",
+      "nivelEtiqueta": "Nivel 5 de 10 · Aplicación",
+      "titulo": "La constante de proporcionalidad k: y = k×x",
+      "explicacion": "En las lecciones anteriores repartiste una cantidad total en partes proporcionales. Ahora vas a estudiar cómo se relacionan dos cantidades que cambian juntas por medio de una tabla: cuando la razón y÷x siempre da el mismo número, ese número constante se llama constante de proporcionalidad (k), y te permite escribir la regla y = k×x para encontrar cualquier valor de la tabla sin repetir todo el reparto cada vez.",
+      "formula": "k = y ÷ x  ;  y = k × x",
+      "ejemplos": [
+        "Un trabajador gana $180 por 4 horas trabajadas. k = 180÷4 = 45 (gana $45 por hora). Entonces por 7 horas gana y = 45×7 = $315.",
+        "En una tabla, x=2 corresponde a y=17 y x=5 corresponde a y=42.5. k=17÷2=8.5. Se comprueba con x=5: 8.5×5=42.5 ✓. Para x=9: y=8.5×9=76.5."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una tabla muestra que por 3 kg de manzanas se pagan $57. Si la relación es de variación directa, ¿cuál es la constante de proporcionalidad k (precio por kg)?",
+          "opciones": [
+            "$17",
+            "$19",
+            "$21",
+            "$16"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "k = 57÷3 = $19 por kg."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En una tabla de variación directa, x=6 corresponde a y=51. La constante de proporcionalidad es k=___.",
+          "respuestaCorrecta": "8.5",
+          "retroalimentacion": "k = 51÷6 = 8.5."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Si k=12 en una relación y=k×x, ¿cuánto vale y cuando x=7?",
+          "opciones": [
+            "72",
+            "84",
+            "96",
+            "80"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "y = 12×7 = 84."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En una tabla de variación directa, si x=4 da y=30 y x=10 da y=75, entonces k es la misma en ambos casos.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 30÷4=7.5 y 75÷10=7.5, la misma k en ambos pares."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En una tabla, si x=5 da y=40 y x=8 da y=60, entonces la relación es de variación directa.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "No, porque 40÷5=8 y 60÷8=7.5: la razón no es constante, así que no es variación directa."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un ciclista recorre 60 km en 4 horas a velocidad constante (variación directa entre distancia y tiempo). La constante k (velocidad, en km/h) es ___.",
+          "respuestaCorrecta": "15",
+          "retroalimentacion": "k = 60÷4 = 15 km/h."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una receta usa 250 g de harina por cada 2 tazas de agua (variación directa). ¿Cuántos gramos de harina se necesitan para 5 tazas de agua?",
+          "opciones": [
+            "600 g",
+            "625 g",
+            "650 g",
+            "575 g"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "k = 250÷2 = 125 g por taza. Para 5 tazas: 125×5 = 625 g."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada tabla de variación directa (par x,y dado) con su constante de proporcionalidad k.",
+          "columnaA": [
+            "x=3, y=27",
+            "x=4, y=22",
+            "x=5, y=32.5"
+          ],
+          "columnaB": [
+            "9",
+            "5.5",
+            "6.5"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "x=3,y=27: k=27÷3=9. x=4,y=22: k=22÷4=5.5. x=5,y=32.5: k=32.5÷5=6.5."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En un taller mecánico, el costo de la mano de obra es proporcional a las horas trabajadas: 3 horas cuestan $255. El costo de 8 horas es $___.",
+          "respuestaCorrecta": "680",
+          "retroalimentacion": "k = 255÷3 = 85. Costo de 8 horas: 85×8 = $680."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si en una relación y = k×x, k = 6.5, entonces cuando x=8, y=52.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 6.5×8 = 52."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada reparto proporcional con el resultado de la parte indicada.",
+      "columnaA": [
+        "$96 en razón 1:5 — parte de razón 1",
+        "$175 en razón 2:5 — parte de razón 2",
+        "$117 en razón 4:9 — parte de razón 4"
+      ],
+      "columnaB": [
+        "$36",
+        "$16",
+        "$50"
+      ],
+      "parejasCorrectas": [
+        1,
+        2,
+        0
+      ],
+      "retroalimentacion": "$96 en razón 1:5 — parte de razón 1 = $16; $175 en razón 2:5 — parte de razón 2 = $50; $117 en razón 4:9 — parte de razón 4 = $36."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Se reparten 108 dulces proporcionalmente entre 3 niños de edades 2, 3 y 4 años. Al niño de 4 años le tocan 48 dulces.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: suma de edades=9. (4/9)×108 = 48 dulces."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Se reparten $560 proporcionalmente entre dos personas con aportaciones en razón 3:5. A la de razón 3 le tocan $___.",
+      "respuestaCorrecta": "210",
+      "retroalimentacion": "Suma=8. (3/8)×560 = $210."
+    }
+  ]
+}

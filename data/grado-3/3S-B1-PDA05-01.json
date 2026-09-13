@@ -1,0 +1,144 @@
+{
+  "id": "3S-B1-PDA05-01",
+  "grado": "3°",
+  "trimestre": "2",
+  "numero": 41,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Forma, espacio y medida",
+  "titulo": "Teorema de Pitágoras y Trigonometría 5.1",
+  "contenido": "Rectas y ángulos.",
+  "pda": "Aplica el Teorema de Pitágoras y las razones trigonométricas (seno, coseno, tangente) para resolver problemas de triángulos rectángulos.",
+  "problematizacion": {
+    "contexto": "En un parque de Guadalajara, una escalera de bomberos se recarga contra un edificio; la base de la escalera está a 6 metros de la pared y la escalera mide 10 metros de largo.",
+    "pregunta": "¿A qué altura del edificio llega la escalera, usando el Teorema de Pitágoras?"
+  },
+  "subtemas": [
+    {
+      "numero": "5.1",
+      "titulo": "Teorema de Pitágoras",
+      "explicacion": "En todo triángulo rectángulo (el que tiene un ángulo de 90°), el lado más largo se llama hipotenusa (c) y siempre está enfrente del ángulo recto; los otros dos lados se llaman catetos (a y b). El Teorema de Pitágoras dice que el cuadrado de la hipotenusa es igual a la suma de los cuadrados de los catetos. Esto te permite calcular cualquiera de los tres lados si conoces los otros dos: si buscas la hipotenusa, sumas los cuadrados de los catetos y sacas raíz cuadrada; si buscas un cateto, restas al cuadrado de la hipotenusa el cuadrado del cateto conocido y sacas raíz cuadrada.",
+      "formula": "a² + b² = c²  (c = hipotenusa, a y b = catetos)",
+      "ejemplos": [
+        "Catetos de 3 cm y 4 cm: c² = 3²+4² = 9+16 = 25, entonces c = √25 = 5 cm.",
+        "Hipotenusa de 13 cm y un cateto de 5 cm: el otro cateto² = 13²-5² = 169-25 = 144, entonces cateto = √144 = 12 cm."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un triángulo rectángulo tiene catetos de 3 cm y 4 cm. ¿Cuánto mide su hipotenusa?",
+          "opciones": [
+            "5 cm",
+            "6 cm",
+            "7 cm",
+            "25 cm"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "c² = 3²+4² = 9+16 = 25, entonces c = √25 = 5 cm."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un triángulo rectángulo con catetos de 6 cm y 8 cm tiene una hipotenusa de 10 cm.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 6²+8² = 36+64 = 100 = 10², así que la hipotenusa mide 10 cm."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un triángulo rectángulo tiene catetos de 5 cm y 12 cm. Su hipotenusa mide ___ cm.",
+          "respuestaCorrecta": "13",
+          "retroalimentacion": "c² = 5²+12² = 25+144 = 169, entonces c = √169 = 13 cm."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un triángulo rectángulo tiene catetos de 8 cm y 15 cm. ¿Cuánto mide su hipotenusa?",
+          "opciones": [
+            "17 cm",
+            "23 cm",
+            "7 cm",
+            "289 cm"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "c² = 8²+15² = 64+225 = 289, entonces c = √289 = 17 cm."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un triángulo rectángulo con catetos de 9 cm y 40 cm tiene una hipotenusa de 42 cm.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: 9²+40² = 81+1600 = 1681 = 41², así que la hipotenusa correcta es 41 cm, no 42 cm."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un triángulo rectángulo tiene hipotenusa de 13 cm y un cateto de 5 cm. El otro cateto mide ___ cm.",
+          "respuestaCorrecta": "12",
+          "retroalimentacion": "b² = 13²-5² = 169-25 = 144, entonces b = √144 = 12 cm."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un triángulo rectángulo tiene hipotenusa de 17 cm y un cateto de 8 cm. ¿Cuánto mide el otro cateto?",
+          "opciones": [
+            "15 cm",
+            "9 cm",
+            "25 cm",
+            "7 cm"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "b² = 17²-8² = 289-64 = 225, entonces b = √225 = 15 cm."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un triángulo rectángulo con catetos de 7 cm y 24 cm tiene una hipotenusa de 25 cm.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 7²+24² = 49+576 = 625 = 25², así que la hipotenusa mide 25 cm."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un triángulo rectángulo tiene hipotenusa de 20 cm y un cateto de 12 cm. El otro cateto mide ___ cm.",
+          "respuestaCorrecta": "16",
+          "retroalimentacion": "b² = 20²-12² = 400-144 = 256, entonces b = √256 = 16 cm."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada par de catetos con la hipotenusa que le corresponde.",
+          "columnaA": [
+            "Catetos 9 cm y 12 cm",
+            "Catetos 12 cm y 16 cm",
+            "Catetos 9 cm y 40 cm"
+          ],
+          "columnaB": [
+            "41 cm",
+            "20 cm",
+            "15 cm"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "9²+12²=81+144=225=15². 12²+16²=144+256=400=20². 9²+40²=81+1600=1681=41²."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 1 de 10 · Introductorio"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Un triángulo rectángulo tiene catetos de 6 cm y 8 cm. ¿Cuánto mide su hipotenusa?",
+      "opciones": [
+        "10 cm",
+        "14 cm",
+        "48 cm",
+        "7 cm"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "c² = 6²+8² = 36+64 = 100, entonces c = √100 = 10 cm."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Un triángulo rectángulo con catetos de 9 cm y 12 cm tiene una hipotenusa de 15 cm.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "9²+12²=81+144=225=15², así que la hipotenusa mide 15 cm."
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "id": "3S-B1-PDA04-07",
+  "grado": "3°",
+  "trimestre": "2",
+  "numero": 37,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Funciones 4.7",
+  "contenido": "Funciones.",
+  "pda": "Relaciona e interpreta la variación de dos cantidades a partir de su representación tabular, gráfica y algebraica. Explora diversos procedimientos para resolver problemas de reparto proporcional.",
+  "problematizacion": {
+    "contexto": "Fernanda va a cambiar dólares a pesos en una casa de cambio de Tijuana, donde le dicen que cada dólar equivale a 17.50 pesos, sin darle ninguna tabla ni ecuación escrita, solo ese dato suelto.",
+    "pregunta": "¿Cuál es la ecuación y=k×x que representa cuántos pesos (y) recibe Fernanda por una cantidad de dólares (x), y cuántos pesos recibiría por 45 dólares?"
+  },
+  "subtemas": [
+    {
+      "numero": "4.7",
+      "nivelEtiqueta": "Nivel 7 de 10 · Reto",
+      "titulo": "De las palabras a la ecuación: y = k×x en la vida real",
+      "explicacion": "Ahora vas a traducir un problema contextual directamente a su ecuación algebraica y = k×x, sin necesidad de armar toda la tabla primero: identificas qué representa x, qué representa y, calculas k con un solo dato, escribes la ecuación completa y la usas para responder distintas preguntas, incluyendo encontrar x cuando conoces y (despejando x = y÷k). Los datos ahora incluyen decimales y conversiones de la vida real, como tipo de cambio, consumo de combustible o cobro por minuto.",
+      "formula": "y = k × x   →   x = y ÷ k (al despejar x)",
+      "ejemplos": [
+        "El tipo de cambio hace que 50 dólares equivalgan a $925 pesos (variación directa entre dólares y pesos). k = 925÷50 = 18.5 pesos por dólar. La ecuación es y = 18.5×x (y=pesos, x=dólares). Para 120 dólares: y = 18.5×120 = $2,220.",
+        "Un coche consume gasolina de forma proporcional a los km recorridos: con 8 litros recorre 96 km. k = 96÷8 = 12 km por litro. Ecuación: y = 12×x (y=km, x=litros). Con 45 litros puede recorrer y = 12×45 = 540 km. Para llegar a un lugar a 402 km, necesita x = 402÷12 = 33.5 litros."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "llenar_frase",
+          "frase": "El tipo de cambio convierte dólares a pesos de forma proporcional: 20 dólares equivalen a $370 pesos. La ecuación que relaciona pesos (y) con dólares (x) es y = ___ × x.",
+          "respuestaCorrecta": "18.5",
+          "retroalimentacion": "k = 370÷20 = 18.5."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Usando la ecuación y=18.5×x (pesos por dólar), ¿cuántos pesos son 34 dólares?",
+          "opciones": [
+            "$609",
+            "$619",
+            "$629",
+            "$639"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "y = 18.5×34 = $629."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un teléfono cobra $2.50 por cada minuto de llamada de larga distancia (variación directa: y=2.5×x). Si una llamada costó $42.50, duró ___ minutos.",
+          "respuestaCorrecta": "17",
+          "retroalimentacion": "x = 42.5÷2.5 = 17 minutos."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un auto recorre distancia de forma proporcional a la gasolina usada: con 6 litros recorre 81 km. ¿Cuál es la ecuación que da los km (y) a partir de los litros (x)?",
+          "opciones": [
+            "y=13×x",
+            "y=13.5×x",
+            "y=14×x",
+            "y=81×x"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "k = 81÷6 = 13.5, así que y=13.5×x."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Con la ecuación y=13.5×x (km por litro), si un viaje fue de 202.5 km, se usaron ___ litros.",
+          "respuestaCorrecta": "15",
+          "retroalimentacion": "x = 202.5÷13.5 = 15 litros."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si y=7.5×x describe la variación directa entre el costo (y) y los kilogramos de fruta (x), entonces 6 kg cuestan $45.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 7.5×6 = $45."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un ahorrador deposita dinero de forma proporcional a los meses transcurridos: en 4 meses ha ahorrado $1,050. ¿Cuánto habrá ahorrado en 11 meses, según esa variación directa?",
+          "opciones": [
+            "$2,875.00",
+            "$2,887.50",
+            "$2,890.00",
+            "$2,862.50"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "k = 1050÷4 = 262.5. En 11 meses: 262.5×11 = $2,887.50."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una fábrica produce piezas de forma proporcional a las horas trabajadas: en 5 horas produce 137.5 piezas. La constante k (piezas por hora) es ___.",
+          "respuestaCorrecta": "27.5",
+          "retroalimentacion": "k = 137.5÷5 = 27.5 piezas por hora."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación de variación directa con su ecuación y=k×x correspondiente (x = la primera cantidad mencionada).",
+          "columnaA": [
+            "12 dólares equivalen a $222 pesos",
+            "9 litros de gasolina recorren 121.5 km",
+            "6 horas de trabajo pagan $153"
+          ],
+          "columnaB": [
+            "y=25.5×x",
+            "y=18.5×x",
+            "y=13.5×x"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "12 dólares→$222: k=222÷12=18.5. 9 litros→121.5 km: k=121.5÷9=13.5. 6 horas→$153: k=153÷6=25.5."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Con la ecuación y=13.5×x (km recorridos por litro de gasolina x), ¿cuántos litros se necesitan para recorrer 337.5 km?",
+          "opciones": [
+            "22",
+            "24",
+            "25",
+            "28"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "x = 337.5÷13.5 = 25 litros."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "llenar_frase",
+      "frase": "Dos socios aportaron $6,000 y $9,000 a un negocio y reparten $3,000 de utilidad proporcionalmente. Al segundo socio (el de $9,000) le corresponden $___.",
+      "respuestaCorrecta": "1800",
+      "retroalimentacion": "Suma=15,000. (9000/15000)×3000 = $1,800."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Al repartir $130 en razón 3:10, a la parte de razón 10 le tocan $100.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: suma=13. (10/13)×130 = $100."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Se reparten 72 dulces proporcionalmente entre 3 niños de edades 2, 3 y 7 años. ¿Cuántos dulces le tocan al niño de 7 años?",
+      "opciones": [
+        "36",
+        "40",
+        "42",
+        "48"
+      ],
+      "respuestaCorrecta": 2,
+      "retroalimentacion": "Suma de edades=12. (7/12)×72=42 dulces."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "En una variación directa, la razón entre las dos cantidades que varían siempre es constante.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: esa razón constante es justo lo que define a la variación directa."
+    }
+  ]
+}

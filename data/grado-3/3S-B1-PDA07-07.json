@@ -1,0 +1,144 @@
+{
+  "id": "3S-B1-PDA07-07",
+  "grado": "3°",
+  "trimestre": "3",
+  "numero": 67,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Forma, espacio y medida",
+  "titulo": "Área y Volumen de la Esfera 7.7",
+  "contenido": "Circunferencia, círculo y esfera.",
+  "pda": "Calcula el área de la superficie y el volumen de una esfera.",
+  "problematizacion": {
+    "contexto": "Una fábrica de tanques de gas en Celaya recibió un pedido de un tanque esférico con una capacidad exacta de 4.1866 m³. El ingeniero de diseño, Fabián, necesita saber qué radio darle al tanque antes de mandarlo a construir.",
+    "pregunta": "¿Qué radio (aproximado) debe tener el tanque esférico para que su volumen sea el solicitado, usando π≈3.14?"
+  },
+  "subtemas": [
+    {
+      "numero": "7.7",
+      "nivelEtiqueta": "Nivel 7 de 10 · Reto",
+      "titulo": "El problema inverso: encontrar el radio a partir del volumen o el área",
+      "explicacion": "Hasta ahora conocías el radio y calculabas el área o el volumen. En muchos problemas reales de ingeniería ocurre lo contrario: se conoce la capacidad requerida de un tanque (su volumen) o el material disponible (su área) y se necesita encontrar qué radio debe tener. Para 'deshacer' el cuadrado se usa raíz cuadrada, y para 'deshacer' el cubo se usa raíz cúbica.",
+      "formula": "r = √(A ÷ (4×π))      r = ∛(V ÷ ((4/3)×π))      (π ≈ 3.14)",
+      "ejemplos": [
+        "Se requiere un tanque esférico con un área de superficie de 3629.84 m². r = √(3629.84÷(4×3.14)) = √(3629.84÷12.56) = √289 = 17 m.",
+        "Se requiere un tanque esférico con un volumen de 17148.59 m³. r = ∛(17148.59÷((4/3)×3.14)) = ∛(17148.59÷4.1867) ≈ ∛4096 = 16 m."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un tanque esférico debe tener un área de superficie de 4069.44 m². ¿Cuál es el radio necesario? (usa π≈3.14)",
+          "opciones": [
+            "18 m",
+            "9 m",
+            "36 m",
+            "6 m"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "r=√(4069.44÷12.56)=√324=18 m."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si una esfera tiene un volumen de 24416.64 m³, su radio es de 18 m.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: r=∛(24416.64÷4.1867)≈∛5832=18 m (y de hecho el área de esa misma esfera, 4069.44 m², también corresponde a r=18 m)."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El radio de una esfera cuyo volumen es 6367.40 cm³ es ___ cm.",
+          "respuestaCorrecta": "11.5",
+          "retroalimentacion": "r=∛(6367.40÷4.1867)≈∛1520.88≈11.5 cm."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un ingeniero necesita un tanque esférico con un volumen de 1766.25 m³. ¿Qué radio debe tener? (usa π≈3.14)",
+          "opciones": [
+            "7.5 m",
+            "15 m",
+            "3.75 m",
+            "22.5 m"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "r=∛(1766.25÷4.1867)≈∛421.88≈7.5 m."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un domo esférico con área de superficie de 1661.06 m² tiene un radio de 11.5 m.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: r=√(1661.06÷12.56)=√132.25=11.5 m."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El radio de una esfera cuya área de superficie es 907.46 cm² es ___ cm.",
+          "respuestaCorrecta": "8.5",
+          "retroalimentacion": "r=√(907.46÷12.56)=√72.25=8.5 cm."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Sin calcular con precisión: si el volumen de una esfera es 28716.35 m³, ¿cuál de estos radios es el correcto?",
+          "opciones": [
+            "19 m",
+            "9.5 m",
+            "38 m",
+            "28.6 m"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "r=∛(28716.35÷4.1867)≈∛6859=19 m. (9.5 m sería el radio si el volumen fuera 8 veces menor)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Para encontrar el radio de una esfera a partir de su volumen se usa una raíz cuadrada.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: para el volumen se usa raíz CÚBICA (porque V depende de r³); la raíz cuadrada se usa para encontrar el radio a partir del ÁREA (que depende de r²)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una fábrica necesita un tanque esférico que almacene 50939.17 m³ de agua. ¿Cuál es el radio aproximado que deben construir? (usa π≈3.14)",
+          "opciones": [
+            "23 m",
+            "11.5 m",
+            "46 m",
+            "69 m"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "r=∛(50939.17÷4.1867)≈∛12167=23 m."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada esfera (dado su volumen) con el radio correspondiente (usa π≈3.14).",
+          "columnaA": [
+            "V = 11488.21 m³",
+            "V = 20569.09 m³",
+            "V = 38772.72 m³"
+          ],
+          "columnaB": [
+            "21 m",
+            "14 m",
+            "17 m"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "V=11488.21→r=14 m. V=20569.09→r=17 m. V=38772.72→r=21 m."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Una esfera con radio de 7 cm tiene un volumen de 1436.03 cm³ (redondeado a 2 decimales).",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: V = (4/3)×3.14×7³ = (4/3)×3.14×343 = 1436.03 cm³."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "El área de la superficie de una esfera con radio de 6 m es ___ m² (usa π≈3.14).",
+      "respuestaCorrecta": "452.16",
+      "retroalimentacion": "A = 4×3.14×6² = 4×3.14×36 = 452.16 m²."
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "id": "3S-B1-PDA06-06",
+  "grado": "3°",
+  "trimestre": "2",
+  "numero": 56,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Forma, espacio y medida",
+  "titulo": "Áreas y Volúmenes de Cuerpos Geométricos 6.6",
+  "contenido": "Construcción y propiedades de las figuras planas y cuerpos.",
+  "pda": "Calcula el área total y el volumen de prismas, pirámides y cilindros, y relaciona sus vistas con su representación tridimensional.",
+  "problematizacion": {
+    "contexto": "En la fábrica de conservas de don Ernesto, en Guanajuato, hay tambos cilíndricos de acero donde se almacena aceite vegetal. Uno de los tambos tiene un radio de 40 cm y una altura de 90 cm, y antes de ponerlo en uso hay que forrarlo con una lámina protectora que cubra toda su superficie exterior, incluyendo las tapas de arriba y abajo.",
+    "pregunta": "¿Cuántos centímetros cuadrados de lámina se necesitan para cubrir todo el tambo (su área total), usando π≈3.14?"
+  },
+  "subtemas": [
+    {
+      "numero": "6.6",
+      "nivelEtiqueta": "Nivel 6 de 10 · Aplicación avanzada",
+      "titulo": "Área total de cilindros: la etiqueta que se enrolla",
+      "explicacion": "Ya conoces el desarrollo plano del cilindro (2 círculos + 1 rectángulo) y su volumen; ahora calculamos su área total. El rectángulo de la superficie lateral tiene un ancho igual a la altura h del cilindro, y un largo igual al perímetro (circunferencia) de la base circular: 2×π×r. Por eso el área lateral es 2×π×r×h, y el área total suma además las dos bases circulares.",
+      "formula": "Área lateral del cilindro = 2×π×r×h\nÁrea total del cilindro = 2×π×r² + 2×π×r×h (usa π≈3.14)",
+      "ejemplos": [
+        "Cilindro de radio 4 cm y altura 10 cm: área lateral = 2×3.14×4×10 = 251.2 cm². Área de las 2 bases = 2×3.14×16 = 100.48 cm². Área total = 251.2+100.48 = 351.68 cm².",
+        "Una lata de café de radio 5 cm y altura 15 cm: área lateral = 2×3.14×5×15 = 471 cm². Área de las 2 bases = 2×3.14×25 = 157 cm². Área total = 471+157 = 628 cm²."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el área total de un cilindro de radio 6 cm y altura 9 cm (usa π≈3.14)?",
+          "opciones": [
+            "565.2 cm²",
+            "339.12 cm²",
+            "452.16 cm²",
+            "678.24 cm²"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Lateral = 2×3.14×6×9 = 339.12 cm². Bases = 2×3.14×36 = 226.08 cm². Total = 565.2 cm²."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El área total de un cilindro de radio 2 cm y altura 8 cm es 125.6 cm².",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: lateral = 2×3.14×2×8 = 100.48 cm², bases = 2×3.14×4 = 25.12 cm², total = 125.6 cm²."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El área total de un cilindro de radio 10 cm y altura 3 cm es ___ cm².",
+          "respuestaCorrecta": "816.4",
+          "retroalimentacion": "Lateral = 2×3.14×10×3 = 188.4 cm². Bases = 2×3.14×100 = 628 cm². Total = 816.4 cm²."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el área total de un cilindro de radio 8 cm y altura 5 cm (usa π≈3.14)?",
+          "opciones": [
+            "653.12 cm²",
+            "502.4 cm²",
+            "351.68 cm²",
+            "703.36 cm²"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Lateral = 2×3.14×8×5 = 251.2 cm². Bases = 2×3.14×64 = 401.92 cm². Total = 653.12 cm²."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un tubo de ensayo cilíndrico de radio 1 cm y altura 20 cm tiene un área total de 125.6 cm².",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: eso es solo el área lateral (2×3.14×1×20 = 125.6 cm²). El área total suma además las 2 bases: 6.28 cm². Total = 131.88 cm², no 125.6 cm²."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El área total de un disco cilíndrico de radio 6 cm y altura 1 cm es ___ cm².",
+          "respuestaCorrecta": "263.76",
+          "retroalimentacion": "Lateral = 2×3.14×6×1 = 37.68 cm². Bases = 2×3.14×36 = 226.08 cm². Total = 263.76 cm²."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un vaso cilíndrico (sin tapa arriba, solo con la base de abajo) tiene radio 4 cm y altura 12 cm. ¿Cuánto plástico se necesita para hacerlo (superficie lateral + 1 sola base)?",
+          "opciones": [
+            "351.68 cm²",
+            "401.92 cm²",
+            "301.44 cm²",
+            "326.56 cm²"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Lateral = 2×3.14×4×12 = 301.44 cm². Solo 1 base = 3.14×16 = 50.24 cm². Total = 351.68 cm² (no se cuenta la tapa de arriba, que no existe)."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada cilindro con su área total correcta (usa π≈3.14).",
+          "columnaA": [
+            "Cilindro A (r=5 cm, h=4 cm)",
+            "Cilindro B (r=3 cm, h=10 cm)",
+            "Cilindro C (r=11 cm, h=3 cm)"
+          ],
+          "columnaB": [
+            "244.92 cm²",
+            "967.12 cm²",
+            "282.6 cm²"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "A: 282.6 cm². B: 244.92 cm². C: 967.12 cm²."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El área total de un bote cilíndrico de radio 4 cm y altura 9 cm es 300.6 cm².",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: lateral = 2×3.14×4×9 = 226.08 cm², bases = 2×3.14×16 = 100.48 cm², total = 326.56 cm², no 300.6 cm²."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una cubeta cilíndrica de radio 15 cm y altura 30 cm ¿cuántos cm² de plástico tiene su superficie total (2 bases + lateral)?",
+          "opciones": [
+            "4239 cm²",
+            "2826 cm²",
+            "1413 cm²",
+            "5652 cm²"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Lateral = 2×3.14×15×30 = 2826 cm². Bases = 2×3.14×225 = 1413 cm². Total = 4239 cm²."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "El volumen de un prisma rectangular de 7×2×3 cm es 42 cm³.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: V = (7×2)×3 = 14×3 = 42 cm³."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "El volumen de un prisma rectangular de 10×2×2 cm es ___ cm³.",
+      "respuestaCorrecta": "40",
+      "retroalimentacion": "V = (10×2)×2 = 20×2 = 40 cm³."
+    }
+  ]
+}

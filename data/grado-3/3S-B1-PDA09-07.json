@@ -1,0 +1,150 @@
+{
+  "id": "3S-B1-PDA09-07",
+  "grado": "3°",
+  "trimestre": "3",
+  "numero": 87,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Muestras y Análisis Crítico de Gráficas 9.7",
+  "contenido": "Obtención y representación de información.",
+  "pda": "Distingue población y muestra, y analiza críticamente gráficas estadísticas, incluyendo gráficas que pueden inducir a error.",
+  "problematizacion": {
+    "contexto": "Un inspector de calidad en una fábrica de refrescos en Toluca decide revisar 1 de cada 12 botellas que salen de la línea de producción, empezando por la botella número 5. Sin que él lo sepa, la máquina llenadora tiene una pequeña falla que ocurre justo cada 12 botellas.",
+    "pregunta": "¿Por qué el muestreo sistemático de este inspector podría dar una muestra sesgada, a pesar de parecer un procedimiento justo y aleatorio?"
+  },
+  "subtemas": [
+    {
+      "numero": "9.7",
+      "nivelEtiqueta": "Nivel 7 de 10 · Reto",
+      "titulo": "Muestreo sistemático y el riesgo de sesgo oculto por periodicidad",
+      "explicacion": "Otra técnica de muestreo aleatorio es el muestreo sistemático: se ordena la población en una lista y se selecciona un elemento de cada k, empezando desde un punto elegido al azar entre 1 y k. Es más rápido de aplicar que el aleatorio simple, pero tiene un riesgo nuevo que no habíamos visto: si la lista tiene un patrón oculto que se repite justo cada k elementos (periodicidad), la muestra puede terminar sesgada aunque el procedimiento de selección parezca perfectamente aleatorio y justo.",
+      "formula": "Intervalo de muestreo k = tamaño de la población ÷ tamaño de la muestra",
+      "ejemplos": [
+        "Una fábrica produce 3,600 productos al día y quiere inspeccionar una muestra sistemática de 90 productos. k = 3,600 ÷ 90 = 40; se inspecciona 1 de cada 40 productos, empezando en un número aleatorio entre 1 y 40.",
+        "Un call center recibe 2,800 llamadas por semana y revisa 56 para control de calidad: k = 2,800 ÷ 56 = 50. Pero si las llamadas están ordenadas por turno y cada 50 llamadas se completa exactamente el turno de un mismo operador, el muestreo sistemático podría, sin querer, elegir siempre al mismo operador y sesgar el resultado."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una línea de producción fabrica 4,500 piezas al día. Se quiere una muestra sistemática de 90 piezas. ¿Cuál es el intervalo de muestreo k?",
+          "opciones": [
+            "50",
+            "45",
+            "90",
+            "500"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "k = 4,500 ÷ 90 = 50; se inspecciona 1 de cada 50 piezas."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En el muestreo sistemático, el punto de partida se elige al azar entre 1 y k, y a partir de ahí se selecciona cada k-ésimo elemento.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: ese arranque aleatorio es lo que le da al muestreo sistemático su componente de azar."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El intervalo de muestreo k en un muestreo sistemático se calcula dividiendo el tamaño de la ___ entre el tamaño de la muestra deseada.",
+          "respuestaCorrecta": "población",
+          "retroalimentacion": "k = tamaño de la población ÷ tamaño de la muestra."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un supermercado registra 6,300 tickets de venta en una semana y decide revisar 1 de cada 70 tickets para un estudio de calidad. ¿Cuántos tickets tendrá la muestra?",
+          "opciones": [
+            "90 tickets",
+            "70 tickets",
+            "63 tickets",
+            "100 tickets"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "6,300 ÷ 70 = 90 tickets en la muestra."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un call center recibe llamadas ordenadas según el turno de 8 operadores que se repiten siempre en la misma secuencia. Si se usa k=8, tomar cada octava llamada da una muestra representativa de todos los operadores.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: si k coincide exactamente con el ciclo de 8 operadores, cada 8ª llamada caerá siempre en el mismo operador, sesgando la muestra en vez de representar a los ocho."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una escuela con 2,400 alumnos inscritos en una lista quiere una muestra sistemática de 60 alumnos. El intervalo de muestreo k es de ___.",
+          "respuestaCorrecta": "40",
+          "retroalimentacion": "k = 2,400 ÷ 60 = 40."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un municipio tiene 5,000 viviendas registradas en una lista y quiere una muestra sistemática de 100 viviendas. Si el primer número elegido al azar entre 1 y k es el 23, ¿cuál sería la segunda vivienda seleccionada en la muestra?",
+          "opciones": [
+            "La vivienda 73",
+            "La vivienda 50",
+            "La vivienda 123",
+            "La vivienda 46"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "k = 5,000 ÷ 100 = 50. La segunda vivienda seleccionada es 23 + 50 = 73."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada caso con el intervalo de muestreo k correcto.",
+          "columnaA": [
+            "Población de 8,000 y muestra deseada de 200",
+            "Población de 3,150 y muestra deseada de 90",
+            "Población de 12,000 y muestra deseada de 400"
+          ],
+          "columnaB": [
+            "35",
+            "30",
+            "40"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "8,000÷200=40. 3,150÷90=35. 12,000÷400=30."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El muestreo sistemático siempre es completamente inmune a cualquier tipo de sesgo, sin importar cómo esté ordenada la lista de la población.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: si la lista tiene un patrón que se repite cada k elementos (periodicidad), el muestreo sistemático puede resultar sesgado."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una panadería produce en lotes de 12 charolas, y siempre la charola número 12 de cada lote sale con menos peso por ser la última en hornearse. Si se hace un muestreo sistemático con k=12 y el punto de inicio elegido al azar resulta ser la charola 12, ¿qué pasará con la muestra?",
+          "opciones": [
+            "Será representativa, porque el punto de inicio fue elegido al azar",
+            "Estará sesgada, porque siempre se elegirá la charola con menos peso de cada lote",
+            "No se puede saber sin conocer el tamaño total de la población",
+            "Será igual de representativa que cualquier otro punto de inicio"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Aunque el punto de inicio se eligió al azar, coincide con el patrón de periodicidad (k=12 = tamaño del lote), así que la muestra caerá siempre en la charola más ligera: está sesgada."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Una noticia dice que 'las ventas de autos eléctricos se dispararon' mostrando una gráfica cuyo eje Y va de 1,000 a 1,200 unidades (no de 0 a 1,200), cuando en realidad las ventas subieron de 1,050 a 1,090 unidades. ¿Qué está pasando?",
+      "opciones": [
+        "La gráfica exagera visualmente un aumento en realidad pequeño",
+        "La gráfica reduce el aumento real",
+        "La gráfica no tiene ningún problema",
+        "Las ventas realmente se dispararon como dice la gráfica"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "El aumento real es de solo 40 unidades sobre una base de 1,050; el eje recortado desde 1,000 hace que ese cambio se vea enorme."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Si una gráfica usa intervalos desiguales en su eje (unos tramos representan 2 unidades y otros representan 10), puede distorsionar la forma real de la tendencia de los datos.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: los intervalos desiguales rompen la proporcionalidad visual entre los valores representados."
+    }
+  ]
+}

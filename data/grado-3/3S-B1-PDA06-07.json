@@ -1,0 +1,150 @@
+{
+  "id": "3S-B1-PDA06-07",
+  "grado": "3°",
+  "trimestre": "2",
+  "numero": 57,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Forma, espacio y medida",
+  "titulo": "Áreas y Volúmenes de Cuerpos Geométricos 6.7",
+  "contenido": "Construcción y propiedades de las figuras planas y cuerpos.",
+  "pda": "Calcula el área total y el volumen de prismas, pirámides y cilindros, y relaciona sus vistas con su representación tridimensional.",
+  "problematizacion": {
+    "contexto": "El papá de Karina renta tinacos cilíndricos en Mérida. Uno de ellos mide 0.8 m de radio y 1.5 m de altura, y hay que pintarlo por fuera. Cada litro de pintura anticorrosiva rinde para cubrir 5 m², y el litro cuesta $180 pesos.",
+    "pregunta": "¿Cuántos litros completos de pintura debe comprar (redondeando hacia arriba) y cuánto gastará en total?"
+  },
+  "subtemas": [
+    {
+      "numero": "6.7",
+      "nivelEtiqueta": "Nivel 7 de 10 · Reto",
+      "titulo": "Presupuestos de pintura y forrado: área total con precios y rendimientos",
+      "explicacion": "Ahora usamos las fórmulas de área (de prismas, pirámides o cilindros) para resolver problemas de dinero: cuánto cuesta pintar, forrar o cubrir una superficie. Cada litro de pintura o cada pliego de material solo alcanza para cubrir cierta cantidad de área (su rendimiento), así que hay que dividir el área entre el rendimiento para saber cuántas unidades comprar — y si sobra un poco, hay que redondear hacia arriba, porque no se pueden comprar litros o pliegos fraccionarios.",
+      "formula": "Unidades a comprar = Área ÷ Rendimiento por unidad (redondeando hacia arriba)\nCosto total = Unidades compradas × Precio por unidad",
+      "ejemplos": [
+        "Un tinaco cilíndrico de radio 4 dm y altura 9 dm se pintará por fuera (2 bases + lateral). Área total = 2×3.14×16 + 2×3.14×4×9 = 100.48+226.08 = 326.56 dm². Si 1 litro de pintura rinde 40 dm², se necesitan 326.56÷40 = 8.16 → se deben comprar 9 litros (no se pueden comprar litros fraccionarios). Si cada litro cuesta $85, el costo total es 9×85 = $765.",
+        "Una caja de cartón de 50×30×20 cm se forrará con papel decorativo. Área total = 2(50×30)+2(50×20)+2(30×20) = 3000+2000+1200 = 6200 cm². Si cada pliego cubre 1200 cm², se necesitan 6200÷1200 = 5.17 → 6 pliegos. Si cada pliego cuesta $7, el costo es 6×7 = $42."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una bodega tiene forma de prisma rectangular de 6×4×3 m. Se pintarán solo las 4 paredes laterales (no el piso ni el techo). El área lateral de un prisma = perímetro de la base × altura. Si 1 bote de pintura rinde 15 m², ¿cuántos botes se necesitan?",
+          "opciones": [
+            "4 botes",
+            "3 botes",
+            "5 botes",
+            "6 botes"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Perímetro de la base = 2×(6+4) = 20 m. Área lateral = 20×3 = 60 m². 60÷15 = 4, exactamente 4 botes."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un silo cilíndrico de radio 2 m y altura 6 m se pintará solo en su superficie lateral (una base está enterrada y la otra no se ve). Si 1 litro de pintura rinde 12 m², se necesitan 7 litros.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: área lateral = 2×3.14×2×6 = 75.36 m². 75.36÷12 = 6.28 → se redondea hacia arriba a 7 litros."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una carpa piramidal de base cuadrada de 8 m de lado y apotema de 11 m se forrará con lona SOLO en las caras laterales (sin la base, que va sobre el piso). Si un rollo de lona cubre 30 m², se necesitan ___ rollos (redondea hacia arriba).",
+          "respuestaCorrecta": "6",
+          "retroalimentacion": "Área lateral = (perímetro×apotema)÷2 = (32×11)÷2 = 176 m². 176÷30 = 5.87 → se redondea hacia arriba a 6 rollos."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una caja de 25×15×10 cm se forrará por completo (área total) con papel. Si cada pliego cubre 500 cm², ¿cuántos pliegos se necesitan (redondeando hacia arriba)?",
+          "opciones": [
+            "4 pliegos",
+            "3 pliegos",
+            "5 pliegos",
+            "2 pliegos"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Área total = 2(25×15)+2(25×10)+2(15×10) = 750+500+300 = 1550 cm². 1550÷500 = 3.1 → se redondea hacia arriba a 4 pliegos."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un tanque cilíndrico de radio 3 dm y altura 7 dm se pintará por completo (área total). Si 1 litro de pintura cuesta $60 y rinde 20 dm², el costo total para pintarlo es $600.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: área total = 2×3.14×9+2×3.14×3×7 = 56.52+131.88 = 188.4 dm². 188.4÷20 = 9.42 → 10 litros × $60 = $600."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un adorno piramidal de una plaza (base cuadrada de 6 m de lado, apotema de 8 m) se cubrirá por completo (área total, incluida la base) con mosaico. Si cada m² de mosaico cuesta $250, el costo total es $___.",
+          "respuestaCorrecta": "33000",
+          "retroalimentacion": "Área de la base = 36 m². Área lateral = (24×8)÷2 = 96 m². Área total = 36+96 = 132 m². Costo = 132×250 = $33000."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Dos tanques cilíndricos se van a pintar por completo: Tanque A (radio 3 m, altura 5 m) y Tanque B (radio 2 m, altura 8 m). ¿Cuál necesita más pintura (mayor área total)?",
+          "opciones": [
+            "Tanque A",
+            "Tanque B",
+            "Ambos necesitan la misma cantidad",
+            "No se puede saber sin más datos"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Área total de A = 2×3.14×9+2×3.14×3×5 = 150.72 m². Área total de B = 2×3.14×4+2×3.14×2×8 = 125.6 m². Como 150.72 > 125.6, el Tanque A necesita más pintura."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación con la cantidad de unidades que se deben comprar (redondeando siempre hacia arriba).",
+          "columnaA": [
+            "Área de 220 m², rinde 25 m² por bote",
+            "Área de 340 cm², rinde 60 cm² por pliego",
+            "Área de 96 m², rinde 30 m² por rollo"
+          ],
+          "columnaB": [
+            "4 rollos",
+            "9 botes",
+            "6 pliegos"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "220÷25=8.8→9 botes. 340÷60=5.67→6 pliegos. 96÷30=3.2→4 rollos."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una caja de regalo de 40×20×15 cm se forrará por completo. Si cada pliego de papel china cubre 850 cm² y cuesta $5, entonces se necesitan exactamente 4 pliegos y el costo es $20.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: área total = 2(40×20)+2(40×15)+2(20×15) = 1600+1200+600 = 3400 cm². 3400÷850 = 4 → exactamente 4 pliegos, sin sobrante. Costo = 4×$5 = $20."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un silo cilíndrico de radio 2.5 m y altura 10 m se pintará solo en su superficie lateral. Si 1 litro de pintura rinde 18 m² y cuesta $95, ¿cuál es el costo total (redondeando los litros hacia arriba)?",
+          "opciones": [
+            "$855",
+            "$760",
+            "$850",
+            "$900"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Área lateral = 2×3.14×2.5×10 = 157 m². 157÷18 = 8.72 → 9 litros × $95 = $855."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es el volumen de una pirámide de base cuadrada de lado 4 cm y altura 6 cm?",
+      "opciones": [
+        "32 cm³",
+        "96 cm³",
+        "16 cm³",
+        "48 cm³"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "V = (1/3)×(4×4)×6 = (1/3)×16×6 = (1/3)×96 = 32 cm³."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "El volumen de una pirámide de base cuadrada de lado 6 cm y altura 9 cm es 108 cm³.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: V = (1/3)×(6×6)×9 = (1/3)×36×9 = (1/3)×324 = 108 cm³."
+    }
+  ]
+}

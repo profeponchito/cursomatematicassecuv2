@@ -1,0 +1,150 @@
+{
+  "id": "3S-B1-PDA11-07",
+  "grado": "3°",
+  "trimestre": "3",
+  "numero": 107,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Probabilidad de la Unión de Eventos 11.7",
+  "contenido": "Azar e incertidumbre en la ocurrencia de eventos cotidianos.",
+  "pda": "Calcula la probabilidad de la unión de dos eventos, distinguiendo eventos mutuamente excluyentes de los que no lo son.",
+  "problematizacion": {
+    "contexto": "En un control de calidad de una fábrica de calzado en León se revisaron 200 pares de zapatos: 34 tenían algún defecto en la costura, 28 tenían algún defecto en la suela, y en total 52 pares tenían al menos uno de los dos defectos. El ingeniero Casas necesita saber cuántos pares tenían AMBOS defectos a la vez, dato que no anotaron directamente.",
+    "pregunta": "¿Cuántos de los 200 pares de zapatos tenían tanto el defecto de costura como el de suela al mismo tiempo?"
+  },
+  "subtemas": [
+    {
+      "numero": "11.7",
+      "titulo": "Control de calidad: despejar la intersección desconocida",
+      "explicacion": "En las lecciones anteriores siempre conocías P(A), P(B) y P(A∩B), y solo tenías que sumarlos y restar la intersección para obtener P(A∪B). Ahora el reto es al revés: en muchos reportes reales (de una fábrica, un laboratorio o una tienda) conoces cuántos casos cumplen A, cuántos cumplen B y cuántos cumplen 'A o B' en total, pero NO sabes cuántos cumplen ambos a la vez. Para encontrarlo, despejas la intersección de la misma fórmula: P(A∩B) = P(A) + P(B) − P(A∪B).",
+      "formula": "Despejando de P(A∪B) = P(A) + P(B) − P(A∩B): P(A∩B) = P(A) + P(B) − P(A∪B)",
+      "ejemplos": [
+        "De 250 piezas inspeccionadas en una fábrica, 60 tienen el defecto 'rayón' (A), 45 tienen el defecto 'grieta' (B), y 84 piezas tienen al menos uno de los dos defectos (A∪B). ¿Cuántas piezas tienen AMBOS defectos? Usando P(A∩B) = P(A) + P(B) − P(A∪B): en número de piezas, 60 + 45 − 84 = 21 piezas tienen ambos defectos.",
+        "De 500 pruebas de software, 150 fallaron por el error tipo X, 100 fallaron por el error tipo Y, y 215 pruebas fallaron por al menos uno de los dos errores. ¿Cuántas fallaron por AMBOS errores? 150 + 100 − 215 = 35 pruebas fallaron por ambos errores."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "De 250 piezas inspeccionadas, 72 tienen el defecto A, 50 tienen el defecto B y 100 tienen al menos uno de los dos defectos. ¿Cuántas piezas tienen AMBOS defectos?",
+          "opciones": [
+            "22",
+            "30",
+            "42",
+            "8"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(A∩B) en número de piezas = 72 + 50 − 100 = 22 piezas."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "De 400 análisis de sangre, 96 dieron positivo a la prueba A, 68 dieron positivo a la prueba B y 40 dieron positivo a ambas pruebas. El número de análisis positivos a al menos una prueba es ___.",
+          "respuestaCorrecta": "124",
+          "retroalimentacion": "96 + 68 − 40 = 124 análisis positivos a al menos una prueba."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "De 320 estudiantes, 84 reprobaron matemáticas, 60 reprobaron español y 132 reprobaron al menos una de las dos materias. ¿Cuántos reprobaron AMBAS materias?",
+          "opciones": [
+            "12",
+            "24",
+            "36",
+            "6"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "84 + 60 − 132 = 12 estudiantes reprobaron ambas materias."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En un cultivo de 600 plantas, 150 tienen plaga de pulgón, 90 tienen plaga de hongo y 24 tienen ambas plagas. El número de plantas con al menos una plaga es 216.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 150 + 90 − 24 = 216 plantas con al menos una plaga."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En una tienda, de 1000 clientes, 430 usaron el cupón A, 310 usaron el cupón B y 610 usaron al menos uno de los dos cupones. El número de clientes que usaron AMBOS cupones es ___.",
+          "respuestaCorrecta": "130",
+          "retroalimentacion": "430 + 310 − 610 = 130 clientes usaron ambos cupones."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si solo 45 piezas tienen el defecto de grieta, es posible que 90 piezas tengan a la vez el defecto de rayón y el de grieta.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: la intersección nunca puede ser mayor que el más pequeño de los dos grupos; si solo 45 piezas tienen grieta, como máximo 45 piezas pueden tener ambos defectos."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Qué fórmula permite calcular P(A∩B) cuando ya conoces P(A), P(B) y P(A∪B)?",
+          "opciones": [
+            "P(A∩B) = P(A) + P(B) − P(A∪B)",
+            "P(A∩B) = P(A∪B) − P(A) − P(B)",
+            "P(A∩B) = P(A) × P(B)",
+            "P(A∩B) = P(A∪B) + P(A) + P(B)"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Se despeja P(A∩B) de la fórmula original de la unión: P(A∩B) = P(A) + P(B) − P(A∪B)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "De 500 pruebas de software, 150 fallaron por el error tipo X, 100 fallaron por el error tipo Y y 215 fallaron por al menos uno de los dos errores. ¿Cuántas pruebas fallaron por AMBOS errores?",
+          "opciones": [
+            "35",
+            "45",
+            "60",
+            "20"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "150 + 100 − 215 = 35 pruebas fallaron por ambos errores."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación de control de calidad con el número correcto de casos en la intersección (A∩B).",
+          "columnaA": [
+            "Rayón=72, Grieta=50, unión=100 (de 250 piezas)",
+            "Reprobó Mate=84, Reprobó Español=60, unión=132 (de 320 alumnos)",
+            "Cupón A=430, Cupón B=310, unión=610 (de 1000 clientes)"
+          ],
+          "columnaB": [
+            "12",
+            "130",
+            "22"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "72+50−100=22. 84+60−132=12. 430+310−610=130."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una farmacia con 300 clientes, 80 compraron analgésicos (A) y 50 compraron vitaminas (B). El reporte dice que la unión (A∪B) fue de solo 20 clientes. ¿Qué está mal con este reporte?",
+          "opciones": [
+            "Es imposible: la unión nunca puede ser menor que el mayor de los dos grupos (80 en este caso)",
+            "Está bien, es solo un error de redondeo sin importancia",
+            "Es imposible porque 300 es un número demasiado grande",
+            "Es correcto si los dos eventos son mutuamente excluyentes"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Como A∪B incluye a todos los que compraron A, la unión no puede ser menor que 80 (el tamaño de A); un reporte de 20 es matemáticamente imposible."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 7 de 10 · Reto"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Los eventos 'sacar una carta roja' y 'sacar una reina' son mutuamente excluyentes.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Falso: la reina de corazones y la reina de diamantes cumplen ambos eventos a la vez."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "P(roja) = 26/52, P(reina) = 4/52 y P(roja∩reina) = 2/52. Entonces P(roja ∪ reina) = ___/52.",
+      "respuestaCorrecta": "28",
+      "retroalimentacion": "P(roja ∪ reina) = 26/52 + 4/52 − 2/52 = 28/52 = 7/13."
+    }
+  ]
+}

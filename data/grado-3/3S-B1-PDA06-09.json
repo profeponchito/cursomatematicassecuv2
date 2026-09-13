@@ -1,0 +1,150 @@
+{
+  "id": "3S-B1-PDA06-09",
+  "grado": "3°",
+  "trimestre": "2",
+  "numero": 59,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Forma, espacio y medida",
+  "titulo": "Áreas y Volúmenes de Cuerpos Geométricos 6.9",
+  "contenido": "Construcción y propiedades de las figuras planas y cuerpos.",
+  "pda": "Calcula el área total y el volumen de prismas, pirámides y cilindros, y relaciona sus vistas con su representación tridimensional.",
+  "problematizacion": {
+    "contexto": "En el rancho lechero de la familia Domínguez, en Aguascalientes, van a construir un silo cilíndrico nuevo para almacenar forraje, con 2.5 m de radio y 10 m de altura. Necesitan saber cuánta lámina comprar para las paredes, y cuánto costará pintarlo si cada litro de pintura cuesta $150 y rinde 6 m².",
+    "pregunta": "Siguiendo los pasos en orden (primero el volumen del silo, luego su área total, y después el costo de pintura), ¿cuánto costará pintar el silo completo?"
+  },
+  "subtemas": [
+    {
+      "numero": "6.9",
+      "nivelEtiqueta": "Nivel 9 de 10 · Integración",
+      "titulo": "El proyecto del silo completo: volumen, área y costos en un mismo problema",
+      "explicacion": "Ahora vas a resolver problemas que encadenan VARIOS pasos sobre el MISMO objeto: primero el volumen (para saber la capacidad), luego el área (para saber cuánto material se necesita) y después el costo (multiplicando por el precio y redondeando las unidades hacia arriba). Cada resultado depende de que los pasos anteriores estén bien calculados, así que hay que ser ordenado y cuidadoso con las operaciones.",
+      "formula": "Volumen = capacidad del cuerpo (usa la fórmula según su forma)\nÁrea total o lateral = material necesario para cubrirlo\nCosto = (Área ÷ rendimiento, redondeado hacia arriba) × precio por unidad",
+      "ejemplos": [
+        "Un silo cilíndrico de radio 2.5 m y altura 9 m: a) ¿Cuántos m³ de grano le caben? V = 3.14×2.5²×9 = 176.63 m³. b) Si solo se pintará la superficie lateral, ¿cuántos m² hay que pintar? Lateral = 2×3.14×2.5×9 = 141.3 m². c) Si 1 litro de pintura rinde 15 m² y cuesta $110, ¿cuánto cuesta pintarlo? 141.3÷15 = 9.42 → 10 litros × $110 = $1100.",
+        "Un invernadero piramidal de base cuadrada de 12 m de lado y altura de 8 m: a) Volumen = ⅓×144×8 = 384 m³. b) Si el apotema de la cara lateral es 10 m, el área lateral (para forrar con plástico) = (48×10)÷2 = 240 m²."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuántos m³ de grano caben en un silo cilíndrico de radio 2.5 m y altura 8 m (usa π≈3.14)?",
+          "opciones": [
+            "157 m³",
+            "125.6 m³",
+            "196.25 m³",
+            "163.28 m³"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "V = 3.14×2.5²×8 = 3.14×6.25×8 = 157 m³."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Para el mismo silo (radio 2.5 m, altura 8 m), si solo se pinta la superficie lateral, hay que pintar 125.6 m².",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: lateral = 2×3.14×2.5×8 = 125.6 m²."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si un litro de pintura rinde 20 m², se necesitan ___ litros para pintar el silo del reactivo anterior (redondea hacia arriba).",
+          "respuestaCorrecta": "7",
+          "retroalimentacion": "125.6÷20 = 6.28 → se redondea hacia arriba a 7 litros."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Si cada litro de pintura cuesta $98, ¿cuál es el costo total de pintar el silo (usando los 7 litros del reactivo anterior)?",
+          "opciones": [
+            "$686",
+            "$700",
+            "$588",
+            "$616"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "7 litros × $98 = $686."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un invernadero piramidal de base cuadrada de 12 m de lado y altura de 9 m tiene un volumen de 432 m³.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: V = ⅓×(12×12)×9 = ⅓×144×9 = 432 m³."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Ese mismo invernadero (base cuadrada de 12 m de lado) tiene un apotema de la cara lateral de 11 m. Su área lateral (para forrar con plástico) es ___ m².",
+          "respuestaCorrecta": "264",
+          "retroalimentacion": "Área lateral = (perímetro×apotema)÷2 = (48×11)÷2 = 264 m²."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El plástico para el invernadero se vende en rollos que cubren 30 m² cada uno y cuestan $450. ¿Cuántos rollos se necesitan (redondeando hacia arriba) y cuál es el costo total, usando el área lateral de 264 m² del reactivo anterior?",
+          "opciones": [
+            "9 rollos, $4050",
+            "8 rollos, $3600",
+            "9 rollos, $3960",
+            "10 rollos, $4500"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "264÷30 = 8.8 → se redondea hacia arriba a 9 rollos. 9×$450 = $4050."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada objeto con la magnitud que se pide (usa π≈3.14).",
+          "columnaA": [
+            "Volumen de un cilindro de radio 4 m y altura 6 m",
+            "Volumen de una pirámide de base 10×10 m y altura 12 m",
+            "Área lateral de un cilindro de radio 3 m y altura 5 m"
+          ],
+          "columnaB": [
+            "400 m³",
+            "94.2 m²",
+            "301.44 m³"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "Cilindro (volumen) = 3.14×16×6 = 301.44 m³. Pirámide (volumen) = ⅓×100×12 = 400 m³. Cilindro (lateral) = 2×3.14×3×5 = 94.2 m²."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un tinaco cilíndrico de radio 2.5 m y altura 4 m está lleno de agua. Una familia consume 0.5 m³ de agua al día. ¿Para cuántos días alcanza el agua (usa π≈3.14)?",
+          "opciones": [
+            "157 días",
+            "130 días",
+            "150 días",
+            "165 días"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "V = 3.14×2.5²×4 = 3.14×6.25×4 = 78.5 m³. 78.5÷0.5 = 157 días exactos."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Para un silo cilíndrico de radio 3.5 m y altura 10 m, el volumen (384.65 m³) es mayor que su área total (296.73 m²), aunque ambos números se calculan con las mismas medidas.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: V = 3.14×3.5²×10 = 384.65 m³. AT = 2×3.14×3.5²+2×3.14×3.5×10 = 296.73 m². Volumen (m³) y área (m²) miden cosas distintas, pero aquí el valor numérico del volumen resulta mayor."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué forma tiene la vista superior (desde arriba) de una pirámide cuadrangular?",
+      "opciones": [
+        "Un cuadrado",
+        "Un círculo",
+        "Un triángulo",
+        "Un rectángulo"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "Vista desde arriba, se ve el contorno de la base cuadrada: un cuadrado."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "La vista lateral (de lado) de un cilindro puesto de pie es un rectángulo.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: de lado, un cilindro de pie se proyecta como un rectángulo."
+    }
+  ]
+}

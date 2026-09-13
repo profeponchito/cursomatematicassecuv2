@@ -1,0 +1,150 @@
+{
+  "id": "3S-B1-PDA05-03",
+  "grado": "3°",
+  "trimestre": "2",
+  "numero": 43,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Forma, espacio y medida",
+  "titulo": "Teorema de Pitágoras y Trigonometría 5.3",
+  "contenido": "Rectas y ángulos.",
+  "pda": "Aplica el Teorema de Pitágoras y las razones trigonométricas (seno, coseno, tangente) para resolver problemas de triángulos rectángulos.",
+  "problematizacion": {
+    "contexto": "Una rampa para patinetas en un skatepark de Querétaro forma un ángulo de 30° con el suelo, y la rampa, que es la hipotenusa del triángulo, mide 8 metros de largo.",
+    "pregunta": "¿Qué altura alcanza la rampa del skatepark, usando la razón trigonométrica correspondiente al ángulo de 30°?"
+  },
+  "subtemas": [
+    {
+      "numero": "5.3",
+      "titulo": "Calcular lados con ángulos notables",
+      "explicacion": "Cuando el ángulo agudo de un triángulo rectángulo es uno de los llamados 'ángulos notables' (30°, 45° o 60°), ya existen tablas con los valores de sen, cos y tan para ese ángulo. Así, en vez de medir con transportador, puedes usar la razón trigonométrica correspondiente: si conoces la hipotenusa y quieres el opuesto, multiplicas por sen(θ); si quieres el adyacente, multiplicas por cos(θ). Si conoces un cateto y quieres la hipotenusa, divides ese cateto entre sen(θ) o cos(θ) según corresponda. Si conoces un cateto y quieres el otro, usas tan(θ).",
+      "formula": "sen30°=0.50  cos30°=0.87  tan30°=0.58  |  sen45°=0.71  cos45°=0.71  tan45°=1.00  |  sen60°=0.87  cos60°=0.50  tan60°=1.73",
+      "ejemplos": [
+        "Hipotenusa de 10 cm y ángulo de 30°: cateto opuesto = sen(30°)×10 = 0.50×10 = 5.0 cm.",
+        "Cateto adyacente a 30° de 8.7 cm: hipotenusa = 8.7/cos(30°) = 8.7/0.87 = 10.0 cm."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En un triángulo rectángulo, la hipotenusa mide 10 cm y uno de sus ángulos agudos es de 30°. ¿Cuánto mide el cateto opuesto a ese ángulo?",
+          "opciones": [
+            "5.0 cm",
+            "8.7 cm",
+            "7.1 cm",
+            "10 cm"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "opuesto = sen(30°)×hipotenusa = 0.50×10 = 5.0 cm."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En un triángulo rectángulo con hipotenusa de 10 cm y un ángulo agudo de 30°, el cateto adyacente a ese ángulo mide ___ cm.",
+          "respuestaCorrecta": "8.7",
+          "retroalimentacion": "adyacente = cos(30°)×hipotenusa = 0.87×10 = 8.7 cm."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En un triángulo rectángulo con hipotenusa de 12 cm y un ángulo agudo de 45°, el cateto opuesto a ese ángulo mide 8.5 cm.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "opuesto = sen(45°)×12 = 0.71×12 = 8.5 cm."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En un triángulo rectángulo con hipotenusa de 20 cm y un ángulo agudo de 45°, ¿cuánto mide el cateto adyacente a ese ángulo?",
+          "opciones": [
+            "14.2 cm",
+            "14.0 cm",
+            "10.0 cm",
+            "20 cm"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "adyacente = cos(45°)×20 = 0.71×20 = 14.2 cm."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En un triángulo rectángulo con hipotenusa de 8 cm y un ángulo agudo de 60°, el cateto opuesto a ese ángulo mide ___ cm.",
+          "respuestaCorrecta": "7.0",
+          "retroalimentacion": "opuesto = sen(60°)×8 = 0.87×8 = 7.0 cm (redondeado)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En un triángulo rectángulo con hipotenusa de 14 cm y un ángulo agudo de 60°, el cateto adyacente a ese ángulo mide 7.0 cm.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "adyacente = cos(60°)×14 = 0.50×14 = 7.0 cm."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un cateto adyacente a un ángulo de 30° mide 8.7 cm. ¿Cuánto mide la hipotenusa de ese triángulo rectángulo?",
+          "opciones": [
+            "10.0 cm",
+            "7.6 cm",
+            "8.7 cm",
+            "17.4 cm"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "hipotenusa = adyacente/cos(30°) = 8.7/0.87 = 10.0 cm."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un cateto opuesto a un ángulo de 45° mide 7.1 cm. La hipotenusa de ese triángulo rectángulo mide ___ cm.",
+          "respuestaCorrecta": "10.0",
+          "retroalimentacion": "hipotenusa = opuesto/sen(45°) = 7.1/0.71 = 10.0 cm."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En un triángulo rectángulo con un ángulo agudo de 60° y cateto adyacente de 6 cm, el cateto opuesto a ese ángulo mide 10.4 cm.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "opuesto = tan(60°)×adyacente = 1.73×6 = 10.4 cm."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada triángulo rectángulo (hipotenusa y ángulo agudo dados) con la medida de su cateto opuesto a ese ángulo.",
+          "columnaA": [
+            "Hipotenusa=16 cm, ángulo=30°",
+            "Hipotenusa=6 cm, ángulo=45°",
+            "Hipotenusa=9 cm, ángulo=60°"
+          ],
+          "columnaB": [
+            "7.8 cm",
+            "4.3 cm",
+            "8.0 cm"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "16×sen30°=16×0.50=8.0 cm. 6×sen45°=6×0.71=4.3 cm. 9×sen60°=9×0.87=7.8 cm."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 3 de 10 · Avanzado"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "llenar_frase",
+      "frase": "Un triángulo rectángulo tiene catetos de 5 cm y 12 cm. Su hipotenusa mide ___ cm.",
+      "respuestaCorrecta": "13",
+      "retroalimentacion": "c² = 5²+12² = 25+144 = 169, entonces c = √169 = 13 cm."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "En un triángulo rectángulo 3-4-5, si el opuesto a θ es 4 cm y el adyacente es 3 cm, ¿cuánto vale tan(θ)?",
+      "opciones": [
+        "1.33",
+        "0.75",
+        "0.80",
+        "0.60"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "tan(θ) = 4/3 ≈ 1.33 (aquí el opuesto es 4 y el adyacente es 3)."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "En un triángulo rectángulo con cateto opuesto a θ de 12 cm e hipotenusa de 13 cm, sen(θ) ≈ ___ (2 decimales).",
+      "respuestaCorrecta": "0.92",
+      "retroalimentacion": "sen(θ) = 12/13 ≈ 0.92."
+    }
+  ]
+}

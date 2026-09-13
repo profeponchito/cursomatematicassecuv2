@@ -1,0 +1,163 @@
+{
+  "id": "3S-B1-PDA04-08",
+  "grado": "3°",
+  "trimestre": "2",
+  "numero": 38,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Funciones 4.8",
+  "contenido": "Funciones.",
+  "pda": "Relaciona e interpreta la variación de dos cantidades a partir de su representación tabular, gráfica y algebraica. Explora diversos procedimientos para resolver problemas de reparto proporcional.",
+  "problematizacion": {
+    "contexto": "Una empresa de internet en Mérida cobra $50 fijos de instalación más $8 por cada gigabyte extra que consumas al mes, mientras que otra compañía solo cobra $10 por gigabyte, sin ningún cargo fijo.",
+    "pregunta": "¿Cuál de las dos compañías de internet tiene una variación directa y cuál tiene un cargo fijo, y cómo se escribe la ecuación y=k×x+b de la que sí tiene cargo fijo?"
+  },
+  "subtemas": [
+    {
+      "numero": "4.8",
+      "nivelEtiqueta": "Nivel 8 de 10 · Reto avanzado",
+      "titulo": "¿Variación directa o no? Cuando hay un cargo fijo (y = k×x + b)",
+      "explicacion": "No toda relación entre dos cantidades es una variación directa: cuando hay una cantidad fija que se suma sin importar el valor de x (como un cargo fijo o costo base), la razón y÷x deja de ser constante y la gráfica ya no pasa por el origen. Esa relación se escribe y = k×x + b, donde b es el cargo fijo y k es el costo variable por unidad; en esta lección aprenderás a distinguir ambos casos en tablas, gráficas y ecuaciones, y a calcular costos con cargo fijo.",
+      "formula": "y = k×x + b   (b = cargo o costo fijo; si b=0, es variación directa)",
+      "ejemplos": [
+        "Un taxi cobra $12 de bandera (cargo fijo) más $8.50 por km recorrido. La ecuación es y=8.5×x+12. Para 6 km: y=8.5×6+12=51+12=$63. Esto NO es variación directa porque en x=0 ya hay $12 (no pasa por el origen).",
+        "Un plan de telefonía cobra $150 fijos al mes más $0.80 por minuto usado. Si en un mes se pagaron $310, ¿cuántos minutos se usaron? 310=0.8×x+150 → 160=0.8×x → x=200 minutos."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si una relación tiene la forma y=k×x+b con b diferente de 0, su gráfica NO pasa por el origen (0,0).",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: cuando x=0, y=b (no es 0), así que la gráfica pasa por (0,b), no por el origen."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un taxi cobra $15 de bandera más $9 por km. ¿Cuánto se paga por un viaje de 8 km?",
+          "opciones": [
+            "$81",
+            "$87",
+            "$93",
+            "$72"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "y = 9×8+15 = 72+15 = $87."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un plan de telefonía cobra $120 fijos más $0.60 por minuto (y=0.6×x+120). Si se pagó $216 en un mes, se usaron ___ minutos.",
+          "respuestaCorrecta": "160",
+          "retroalimentacion": "x = (216-120)÷0.6 = 96÷0.6 = 160 minutos."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La relación y=4×x (sin ningún término extra) es una variación directa porque pasa por el punto (0,0).",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: cuando x=0, y=4×0=0, así que sí pasa por el origen."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de estas ecuaciones SÍ representa una variación directa?",
+          "opciones": [
+            "y=5×x+10",
+            "y=7×x",
+            "y=x+3",
+            "y=2×x-4"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "y=7×x no tiene cargo fijo (b=0), así que sí es variación directa; las demás tienen un término extra."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una tienda de renta de bicicletas cobra $50 fijos más $25 por hora. El costo de rentar 3 horas es $___.",
+          "respuestaCorrecta": "125",
+          "retroalimentacion": "y = 25×3+50 = 75+50 = $125."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En una tabla, si x=0 corresponde a y=20 (y no a y=0), la relación NO puede ser una variación directa.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: en toda variación directa, x=0 siempre da y=0."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada tabla o descripción con el tipo de relación que representa.",
+          "columnaA": [
+            "y=6×x (sin cargo fijo)",
+            "Un taxi con $20 de bandera más $7 por km",
+            "Una tabla donde x=0 da y=0 y x=4 da y=24"
+          ],
+          "columnaB": [
+            "Variación directa",
+            "No es variación directa (tiene cargo fijo)"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            0
+          ],
+          "retroalimentacion": "y=6×x no tiene cargo fijo: variación directa. El taxi con $20 de bandera sí tiene cargo fijo: no es variación directa. La tabla con x=0,y=0 y razón constante (24÷4=6): variación directa."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un plomero cobra $80 de visita más $60 por hora de trabajo. Si el total cobrado fue $320, ¿cuántas horas trabajó?",
+          "opciones": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "x = (320-80)÷60 = 240÷60 = 4 horas."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La ecuación y=11×x+35 representa el costo de imprimir x copias con un cargo fijo de mantenimiento. El costo de imprimir 12 copias es $___.",
+          "respuestaCorrecta": "167",
+          "retroalimentacion": "y = 11×12+35 = 132+35 = $167."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada reparto proporcional con el resultado de la parte indicada.",
+      "columnaA": [
+        "$175 en razón 3:4 — parte de razón 4",
+        "$264 en razón 5:6 — parte de razón 5",
+        "$187 en razón 6:11 — parte de razón 6"
+      ],
+      "columnaB": [
+        "$66",
+        "$120",
+        "$100"
+      ],
+      "parejasCorrectas": [
+        2,
+        1,
+        0
+      ],
+      "retroalimentacion": "$175 en razón 3:4 — parte de razón 4 = $100; $264 en razón 5:6 — parte de razón 5 = $120; $187 en razón 6:11 — parte de razón 6 = $66."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Dos socios aportaron $5,000 y $15,000 a un negocio y reparten $4,000 de utilidad proporcionalmente. ¿Cuánto le corresponde al socio de $15,000?",
+      "opciones": [
+        "$2,000",
+        "$2,500",
+        "$3,000",
+        "$3,500"
+      ],
+      "respuestaCorrecta": 2,
+      "retroalimentacion": "Suma=20,000. (15000/20000)×4000 = $3,000."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Al repartir $144 en razón 5:7, a la parte de razón 7 le tocan $84.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: suma=12. (7/12)×144 = $84."
+    }
+  ]
+}

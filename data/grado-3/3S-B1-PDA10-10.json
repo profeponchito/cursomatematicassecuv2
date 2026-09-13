@@ -1,0 +1,158 @@
+{
+  "id": "3S-B1-PDA10-10",
+  "grado": "3°",
+  "trimestre": "3",
+  "numero": 100,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Estadística con Datos Agrupados 10.10",
+  "contenido": "Interpretación de la información a través de medidas de tendencia central y de dispersión.",
+  "pda": "Calcula medidas de tendencia central para datos agrupados en tablas de frecuencia e interpreta la desviación media de un conjunto de datos.",
+  "problematizacion": {
+    "contexto": "En una fábrica de dulces en Guanajuato, los sueldos semanales de 20 trabajadores son parecidos entre sí, excepto el del dueño, que es mucho más alto que todos los demás y 'jala' la media hacia arriba. El contador quiere reportar cuál es el sueldo 'típico' de un trabajador sin que ese dato quede distorsionado por el sueldo del dueño.",
+    "pregunta": "¿Qué medida —la media, la mediana o la moda— conviene usar para representar el sueldo típico de los trabajadores, dado que hay un valor atípico muy alto?"
+  },
+  "subtemas": [
+    {
+      "numero": "10.10",
+      "nivelEtiqueta": "Nivel 10 de 10 · Dominio",
+      "titulo": "Comparar y decidir: la medida más representativa ante datos sesgados",
+      "explicacion": "Dominar la estadística con datos agrupados no es solo saber calcular las fórmulas, sino saber elegir e interpretar la medida correcta según el contexto: cuándo comparar la desviación media de forma relativa (como porcentaje de la media) para que la comparación sea justa entre grupos distintos, y cuándo desconfiar de la media porque unos cuantos valores muy altos o muy bajos (atípicos) la distorsionan, siendo la mediana o la moda más representativas del 'dato típico'.",
+      "formula": "DM relativa (%) = (DM / media) × 100",
+      "ejemplos": [
+        "Dos escuelas comparan las calificaciones (escala 5-10) de sus 50 alumnos. Escuela X: media=8.06, DM=1.0128 (≈1.01). Escuela Y: media=7.4, DM=0.96. En términos absolutos, la Escuela X parece más dispersa (1.01>0.96). Pero la DM relativa da otra imagen: Escuela X = (1.0128/8.06)×100 ≈ 12.57%; Escuela Y = (0.96/7.4)×100 ≈ 12.97%. Relativamente, la Escuela Y tiene calificaciones un poco MÁS dispersas que la X, aunque su desviación media absoluta sea menor, porque su media también es más baja.",
+        "Una empresa agrupa los sueldos por hora (pesos) de sus 46 empleados: 4-8 (f=10), 8-12 (f=14), 12-16 (f=10), 16-20 (f=6), 20-24 (f=4), 24-60 (f=2) —estos últimos 2 son sueldos de gerentes, mucho más altos que el resto—. Media=13.48, mediana=11.71, moda=10. La media es la mayor de las tres porque los 2 sueldos de gerentes (entre 24 y 60) la 'jalan' hacia arriba, aunque representen solo 2 de 46 empleados. La mediana y la moda son más representativas del sueldo 'típico' de la mayoría."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "llenar_frase",
+          "frase": "Escuela X registra las calificaciones (escala 5-10) de sus 50 alumnos: 5-6 (f=3), 6-7 (f=7), 7-8 (f=12), 8-9 (f=15), 9-10 (f=13). La media de estas calificaciones es ___.",
+          "respuestaCorrecta": "8.06",
+          "retroalimentacion": "Marcas: 5.5,6.5,7.5,8.5,9.5. media=(3·5.5+7·6.5+12·7.5+15·8.5+13·9.5)/50=403/50=8.06."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Escuela Y registra las calificaciones de sus 50 alumnos: 5-6 (f=6), 6-7 (f=14), 7-8 (f=15), 8-9 (f=9), 9-10 (f=6). ¿Cuál es la media de este grupo?",
+          "opciones": [
+            "7.4",
+            "8.06",
+            "7.0",
+            "7.8"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Marcas: 5.5,6.5,7.5,8.5,9.5. media=(6·5.5+14·6.5+15·7.5+9·8.5+6·9.5)/50=370/50=7.4."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La desviación media de las calificaciones de la Escuela X es 1.01 y la de la Escuela Y es 0.96. En términos absolutos (sin convertir a porcentaje), esto significa que la Escuela X tiene calificaciones ligeramente más dispersas que la Escuela Y.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: comparando las desviaciones medias directamente, 1.01 es mayor que 0.96, así que en términos absolutos X está algo más dispersa."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada conjunto con su desviación media relativa (redondeada a dos decimales).",
+          "columnaA": [
+            "Escuela X: calificaciones, media=8.06, DM=1.01",
+            "Escuela Y: calificaciones, media=7.4, DM=0.96",
+            "Empresa: sueldos por hora, media=13.48, DM=5.37"
+          ],
+          "columnaB": [
+            "39.83%",
+            "12.97%",
+            "12.57%"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "Escuela X: (1.01/8.06)×100≈12.57%. Escuela Y: (0.96/7.4)×100≈12.97%. Empresa: (5.37/13.48)×100≈39.83%. La empresa tiene, por mucho, la mayor dispersión relativa: los sueldos de los gerentes hacen que el grupo sea muy heterogéneo comparado con las calificaciones de las escuelas."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Con media=7.4 y DM=0.96 para la Escuela Y, la desviación media relativa es ___ % (redondea a dos decimales).",
+          "respuestaCorrecta": "12.97",
+          "retroalimentacion": "DM relativa = (0.96/7.4)×100 ≈ 12.97%."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una empresa agrupa los sueldos por hora (pesos) de sus 46 empleados: 4-8 (f=10), 8-12 (f=14), 12-16 (f=10), 16-20 (f=6), 20-24 (f=4), 24-60 (f=2) —los 2 últimos son sueldos de gerentes—. ¿Cuál es la media de estos sueldos por hora, redondeada a dos decimales?",
+          "opciones": [
+            "13.48",
+            "11.71",
+            "10.00",
+            "14.00"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Marcas: 6,10,14,18,22,42. media=(10·6+14·10+10·14+6·18+4·22+2·42)/46≈13.48."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Con la misma tabla de sueldos de la empresa, la mediana exacta, redondeada a dos decimales, es ___.",
+          "respuestaCorrecta": "11.71",
+          "retroalimentacion": "n=46, n/2=23. Acumuladas: 10,24,34,40,44,46. Clase mediana 8-12 (Li=8, Fant=10, fme=14, A=4). Me=8+[(23−10)/14]×4≈11.71."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Con la misma tabla de sueldos de la empresa, la moda estimada de los sueldos por hora es 10 pesos.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: clase modal 8-12 (fmo=14, Li=8, fant=10, fpost=10, A=4). Como fant=fpost, la moda cae en la marca de clase: Mo=8+4/2=10."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En la tabla de sueldos de la empresa, la diferencia entre la media (13.48) y la mediana o la moda (11.71 y 10) se debe a que los 2 sueldos de gerentes (en el intervalo 24-60) jalan el promedio hacia arriba, aunque la mayoría de empleados gane menos.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: unos cuantos valores muy altos (los gerentes) distorsionan la media, mientras que la mediana y la moda reflejan mejor el sueldo de la mayoría de los empleados."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Si el gerente de recursos humanos quiere reportar el sueldo 'típico' de un empleado de esta empresa de la forma más representativa, sin que lo distorsionen los sueldos de los gerentes, ¿qué medida le conviene más usar?",
+          "opciones": [
+            "La mediana o la moda, porque no se ven tan afectadas por los valores extremos como la media",
+            "La media, porque siempre es la medida más representativa de cualquier conjunto de datos",
+            "La desviación media, porque reemplaza directamente al sueldo típico",
+            "Ninguna medida sirve cuando los datos están agrupados en una tabla"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Correcto: ante valores atípicos (los sueldos de los gerentes), la mediana y la moda son más representativas del sueldo típico que la media, que se ve arrastrada por esos valores extremos."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Datos: 15, 17, 18, 19, 21 (media=18). ¿Cuál es la desviación media de este conjunto?",
+      "opciones": [
+        "1.6",
+        "1.2",
+        "2.0",
+        "0.8"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "Distancias: 3,1,0,1,3. Suma=8. DM=8/5=1.6."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada conjunto de datos con su desviación media.",
+      "columnaA": [
+        "Calificaciones 6,7,8,9,10 (media=8)",
+        "Edades 12,13,13,14,18 (media=14)",
+        "Datos 20,22,24,26,28 (media=24)"
+      ],
+      "columnaB": [
+        "2.4",
+        "1.2",
+        "1.6"
+      ],
+      "parejasCorrectas": [
+        1,
+        2,
+        0
+      ],
+      "retroalimentacion": "Calificaciones: DM=6/5=1.2. Edades: DM=8/5=1.6. Datos 20-28: distancias 4,2,0,2,4, suma=12, DM=12/5=2.4."
+    }
+  ]
+}

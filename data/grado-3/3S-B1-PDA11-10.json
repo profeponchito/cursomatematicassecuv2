@@ -1,0 +1,177 @@
+{
+  "id": "3S-B1-PDA11-10",
+  "grado": "3°",
+  "trimestre": "3",
+  "numero": 110,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Probabilidad de la Unión de Eventos 11.10",
+  "contenido": "Azar e incertidumbre en la ocurrencia de eventos cotidianos.",
+  "pda": "Calcula la probabilidad de la unión de dos eventos, distinguiendo eventos mutuamente excluyentes de los que no lo son.",
+  "problematizacion": {
+    "contexto": "Una empresa que hace estudios de mercado en Guadalajara le entrega a Valeria, quien hace ahí su servicio social, los datos de una encuesta a 500 clientes: 210 compran por internet, 185 compran en tienda física, y 340 compran por al menos una de las dos formas. El gerente le pide un reporte con varias respuestas distintas a partir de esos mismos datos.",
+    "pregunta": "¿Cuántos de los 500 clientes compran tanto por internet como en tienda física, y cuántos no compran por ninguno de los dos medios?"
+  },
+  "subtemas": [
+    {
+      "numero": "11.10",
+      "titulo": "Consultoría de datos: unión, intersección y complemento en un solo problema",
+      "explicacion": "Esta es la lección de dominio: cada problema te da datos de una situación real y tú debes decidir cuál de las tres formas de la fórmula necesitas usar —calcular la unión, despejar la intersección, o calcular el complemento (ninguno)— sin que se te diga cuál. Los números ya no son tan 'redondos' como en las primeras lecciones, y varios problemas requieren dos pasos: primero obtener un dato (como la intersección o la unión) y después usarlo para responder la verdadera pregunta.",
+      "formula": "Las tres formas de la misma fórmula: P(A∪B) = P(A)+P(B)−P(A∩B) · P(A∩B) = P(A)+P(B)−P(A∪B) · P(ninguno) = 1−P(A∪B)",
+      "ejemplos": [
+        "Una empresa encuestó a 340 clientes: 158 compran el producto Alfa, 121 compran el producto Beta y 46 compran ambos. a) La probabilidad de que un cliente compre al menos uno: P(A∪B) = 158+121−46 = 233, es decir 233/340. b) La probabilidad de que no compre ninguno: P(ninguno) = 1 − 233/340 = 107/340.",
+        "En un hospital revisaron a 280 pacientes: 132 presentan el síntoma X, 97 presentan el síntoma Y, y se sabe que 189 pacientes presentan al menos uno de los dos síntomas. a) ¿Cuántos presentan AMBOS síntomas? Despejando: P(A∩B) = 132+97−189 = 40 pacientes. b) La probabilidad de que un paciente no presente ninguno de los dos síntomas es P(ninguno) = 1 − 189/280 = 91/280."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una empresa encuestó a 420 clientes: 210 compran el producto X, 168 compran el producto Y y 84 compran ambos productos. ¿Cuál es la probabilidad de que un cliente NO compre ninguno de los dos productos?",
+          "opciones": [
+            "126/420 (3/10)",
+            "294/420",
+            "84/420",
+            "210/420"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(A∪B) = 210+168−84 = 294, entonces P(ninguno) = 420−294 = 126, es decir 126/420 = 3/10."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En un hospital revisaron a 360 pacientes: 150 presentan el síntoma X, 110 presentan el síntoma Y, y 221 presentan al menos uno de los dos síntomas. El número de pacientes que presentan AMBOS síntomas es ___.",
+          "respuestaCorrecta": "39",
+          "retroalimentacion": "Despejando la intersección: 150 + 110 − 221 = 39 pacientes presentan ambos síntomas."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Con los datos del hospital anterior (360 pacientes, 221 con al menos un síntoma), ¿cuál es la probabilidad de que un paciente NO presente ninguno de los dos síntomas?",
+          "opciones": [
+            "139/360",
+            "221/360",
+            "39/360",
+            "150/360"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(ninguno) = 360 − 221 = 139, es decir 139/360."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si en 540 hectáreas hay 200 con plaga A, 150 con plaga B y 60 con ambas plagas, entonces la probabilidad de que una hectárea tenga AL MENOS una plaga es 290/540.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: P(A∪B) = 200+150−60 = 290, entonces P(A∪B) = 290/540."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En un torneo con 250 estudiantes, 40% juega fútbol, 28% juega voleibol y 60% juega al menos uno de los dos deportes. El porcentaje de estudiantes que juegan AMBOS deportes es ___%.",
+          "respuestaCorrecta": "8",
+          "retroalimentacion": "Despejando: 40% + 28% − 60% = 8% juega ambos deportes."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Con los mismos datos del torneo (60% juega al menos un deporte), ¿qué porcentaje de estudiantes NO juega ninguno de los dos deportes?",
+          "opciones": [
+            "40%",
+            "8%",
+            "60%",
+            "32%"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(ninguno) = 100% − 60% = 40%."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En un taller mecánico, 34 de 96 piezas tienen desgaste tipo A y 29 tienen desgaste tipo B; estos dos desgastes nunca ocurren juntos en la misma pieza porque vienen de procesos distintos (son mutuamente excluyentes). ¿Cuál es la probabilidad de que una pieza NO tenga ninguno de los dos desgastes?",
+          "opciones": [
+            "33/96",
+            "63/96",
+            "34/96",
+            "29/96"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(A∪B) = 34+29 = 63 (al ser mutuamente excluyentes, se suman directo). P(ninguno) = 96−63 = 33, es decir 33/96."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si P(A) = 0.55, P(B) = 0.30 y sabes que A y B son mutuamente excluyentes, entonces puedes calcular P(ninguno) sin necesitar el valor de P(A∩B).",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: si son mutuamente excluyentes, P(A∩B) = 0 automáticamente, así que P(ninguno) = 1 − (0.55+0.30) = 0.15 sin necesitar más datos."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una fábrica, P(defecto A) = 0.18, P(defecto B) = 0.11 y se sabe que el 6% de las piezas tiene ambos defectos a la vez. ¿Qué probabilidad hay de que una pieza elegida al azar esté completamente libre de defectos (ni A ni B)?",
+          "opciones": [
+            "77%",
+            "23%",
+            "6%",
+            "94%"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(A∪B) = 0.18+0.11−0.06 = 0.23 = 23%. P(libre de defectos) = 100% − 23% = 77%."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación con el resultado numérico correcto que se pide.",
+          "columnaA": [
+            "420 clientes: X=210, Y=168, ambos=84 → P(ninguno)",
+            "360 pacientes: X=150, Y=110, unión=221 → cuántos tienen ambos",
+            "96 piezas: A=34, B=29 (mutuamente excluyentes) → P(ninguno)"
+          ],
+          "columnaB": [
+            "39",
+            "33/96",
+            "126/420"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "Clientes: 420−(210+168−84)=126, o sea 126/420. Pacientes: 150+110−221=39. Taller: 96−(34+29)=33, o sea 33/96."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 10 de 10 · Dominio"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada par de eventos con su clasificación.",
+      "columnaA": [
+        "Sacar una jota y sacar un 3",
+        "Sacar una carta de corazones y sacar una reina",
+        "Sacar una carta roja y sacar una carta negra"
+      ],
+      "columnaB": [
+        "No mutuamente excluyentes",
+        "Mutuamente excluyentes"
+      ],
+      "parejasCorrectas": [
+        1,
+        0,
+        1
+      ],
+      "retroalimentacion": "Jota y 3: ninguna carta es ambas cosas → mutuamente excluyentes. Corazones y reina: la reina de corazones cumple ambos → no mutuamente excluyentes. Roja y negra: ninguna carta es ambas cosas → mutuamente excluyentes."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada par de eventos con el valor de P(A∪B).",
+      "columnaA": [
+        "rey ∪ reina",
+        "tréboles ∪ rey",
+        "figura (J,Q,K) ∪ negra"
+      ],
+      "columnaB": [
+        "32/52",
+        "16/52",
+        "8/52"
+      ],
+      "parejasCorrectas": [
+        2,
+        1,
+        0
+      ],
+      "retroalimentacion": "rey∪reina (ME): 4/52+4/52=8/52. tréboles∪rey (no ME): 13/52+4/52-1/52=16/52. figura∪negra (no ME): 12/52+26/52-6/52=32/52."
+    }
+  ]
+}

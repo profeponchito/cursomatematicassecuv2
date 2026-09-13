@@ -1,0 +1,149 @@
+{
+  "id": "3S-B1-PDA09-03",
+  "grado": "3°",
+  "trimestre": "3",
+  "numero": 83,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Muestras y Análisis Crítico de Gráficas 9.3",
+  "contenido": "Obtención y representación de información.",
+  "pda": "Distingue población y muestra, y analiza críticamente gráficas estadísticas, incluyendo gráficas que pueden inducir a error.",
+  "problematizacion": {
+    "contexto": "En el periódico mural de la escuela, el comité de finanzas presenta una gráfica de barras sobre el ahorro de la cooperativa: pasó de $8,200 a $8,900 pesos en un mes, pero el eje vertical de la gráfica empieza en $8,000 en vez de en $0, así que la barra de este mes se ve casi el doble de alta que la del mes pasado.",
+    "pregunta": "¿La gráfica del periódico mural representa con justicia qué tan grande fue realmente el aumento del ahorro?"
+  },
+  "subtemas": [
+    {
+      "numero": "9.3",
+      "titulo": "Gráficas engañosas",
+      "explicacion": "Una gráfica estadística puede inducir a error, aunque los datos que use sean reales, si está mal construida. Tres formas comunes de hacerlo son: (1) que el eje vertical no empiece en cero, lo que exagera visualmente diferencias que en realidad son pequeñas; (2) que use escalas o intervalos desiguales entre sus marcas, lo que distorsiona la forma real de la tendencia; y (3) que use imágenes o íconos de tamaño desproporcionado para representar cantidades, de modo que al crecer en alto y en ancho a la vez, su área visual crece mucho más de lo que debería (por ejemplo, el doble de altura y el doble de ancho multiplican el área por 4, no por 2).",
+      "ejemplos": [
+        "Una gráfica de barras sobre el precio de la gasolina tiene el eje Y que va de $21.50 a $23.00 en vez de ir de $0 a $23.00: aunque el precio solo subió de $22.10 a $22.90 (80 centavos), la barra se ve casi el doble de alta, exagerando visualmente el aumento real.",
+        "Una infografía usa íconos de personas para representar 'millones de usuarios': un ícono del doble de alto (y también del doble de ancho) representa 'el doble de usuarios', pero su área visual resulta 4 veces mayor, exagerando la diferencia real."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una gráfica de barras sobre las ventas mensuales tiene el eje Y que va de $8,000 a $8,500 (en vez de empezar en $0). Las ventas realmente subieron de $8,100 a $8,300 (un aumento de apenas 2.5%). ¿Qué efecto tiene esta gráfica?",
+          "opciones": [
+            "Ninguno, la gráfica es igual de precisa que si empezara en $0",
+            "Exagera visualmente el aumento, haciendo que un cambio pequeño parezca enorme",
+            "Hace que el aumento se vea más pequeño de lo que realmente es",
+            "No se puede saber sin ver los colores de las barras"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Al no empezar el eje en $0, cualquier diferencia entre las barras ocupa proporcionalmente mucho más espacio visual del que le corresponde, exagerando el aumento real."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una gráfica cuyo eje vertical no empieza en cero puede exagerar visualmente diferencias que en realidad son pequeñas.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: es una de las formas más comunes de construir una gráfica engañosa."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Cuando el eje vertical de una gráfica de barras no empieza en ___, las diferencias entre barras pueden verse más grandes de lo que realmente son.",
+          "respuestaCorrecta": "cero",
+          "retroalimentacion": "Empezar el eje en cero es lo que permite comparar las alturas de las barras de forma proporcional y justa."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Usar escalas desiguales en los intervalos de un eje (por ejemplo, que un tramo represente 5 unidades y el siguiente tramo represente 20 unidades) puede hacer que una gráfica induzca a error.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: los intervalos desiguales distorsionan la forma real de la tendencia que muestran los datos."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una infografía representa 'ventas de la empresa A' con un ícono de una moneda de 1 cm de altura, y 'ventas de la empresa B' (el doble de ventas que A) con un ícono de una moneda de 2 cm de altura y también el doble de ancha. ¿Por qué esta imagen es engañosa?",
+          "opciones": [
+            "Porque no es engañosa: el doble de altura representa correctamente el doble de ventas",
+            "Porque al duplicar también el ancho, el área de la moneda de B resulta 4 veces mayor que la de A, exagerando la diferencia real (que es solo el doble)",
+            "Porque las monedas deberían ser de diferente color",
+            "Porque las ventas de A y B nunca deben compararse con imágenes"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Al crecer en alto y en ancho a la vez, el área visual del ícono crece al cuadrado: 2 veces más alto y 2 veces más ancho da 4 veces más área, aunque la cantidad real solo se duplicó."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si una gráfica de pastel (circular) suma 110% en vez de 100% entre todas sus partes, es una señal de que la gráfica tiene un error y puede inducir a conclusiones equivocadas.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: las partes de una gráfica de pastel deben sumar 100%; si suman más (o menos), hay un error en los datos o en su construcción."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una gráfica que usa imágenes o íconos de tamaño desproporcionado (donde el área crece más de lo que debería) para representar una cantidad es un ejemplo de gráfica ___.",
+          "respuestaCorrecta": "engañosa",
+          "retroalimentacion": "A ese tipo de representación visual, que puede llevar a conclusiones equivocadas, se le llama gráfica engañosa."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de las siguientes es una señal de que una gráfica de barras PUEDE estar diseñada para inducir a error?",
+          "opciones": [
+            "El eje Y empieza en cero y los intervalos son iguales",
+            "El eje Y no empieza en cero y los intervalos entre marcas son desiguales",
+            "La gráfica incluye un título y las unidades de medida",
+            "Las barras tienen colores distintos para cada categoría"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Un eje que no empieza en cero, combinado con intervalos desiguales, es una combinación típica de gráficas mal construidas."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una gráfica de líneas donde el eje Y empieza en cero y usa intervalos iguales entre sus marcas representa de forma justa los cambios reales de los datos.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: empezar en cero y usar intervalos iguales son dos condiciones básicas para que una gráfica sea justa y no exagere ni distorsione la tendencia."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada recurso gráfico con el tipo de error que puede causar.",
+          "columnaA": [
+            "Eje vertical que no empieza en cero",
+            "Intervalos desiguales entre las marcas del eje",
+            "Íconos o imágenes de tamaño desproporcionado (crecen en área, no solo en altura)"
+          ],
+          "columnaB": [
+            "Exagera diferencias al comparar tamaños o áreas visuales",
+            "Distorsiona la forma de la tendencia al no respetar una escala uniforme",
+            "Exagera visualmente el tamaño de las diferencias entre barras"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "Eje sin empezar en cero: exagera diferencias entre barras. Intervalos desiguales: distorsiona la forma de la tendencia. Íconos desproporcionados: exageran diferencias al comparar áreas."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 3 de 10 · Avanzado"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Encuestar solo a los alumnos de un club de ciencias para representar la opinión de TODA la escuela sobre el menú del comedor es una muestra representativa.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Falso: el club de ciencias es un subgrupo particular, no representa la diversidad de toda la escuela; la muestra está sesgada."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Una gráfica de barras sobre el número de accidentes viales tiene el eje Y que va de 40 a 55 (en vez de 0 a 55). ¿Qué efecto tiene esto?",
+      "opciones": [
+        "Ninguno",
+        "Exagera visualmente las diferencias entre las barras",
+        "Reduce visualmente las diferencias entre las barras",
+        "Hace que la gráfica sea más fácil de leer sin afectar la interpretación"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "Un eje que no empieza en cero exagera proporcionalmente las diferencias visuales entre las barras."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Un eje vertical que empieza en cero, con intervalos iguales entre sus marcas, representa de forma justa los datos.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: esas dos condiciones son la base de una gráfica bien construida."
+    }
+  ]
+}

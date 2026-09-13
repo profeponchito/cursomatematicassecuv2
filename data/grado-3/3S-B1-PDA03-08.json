@@ -1,0 +1,170 @@
+{
+  "id": "3S-B1-PDA03-08",
+  "grado": "3°",
+  "trimestre": "2",
+  "numero": 28,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Ecuaciones lineales y cuadráticas 3.8",
+  "contenido": "Ecuaciones lineales y cuadráticas.",
+  "pda": "Resuelve ecuaciones de la forma Ax²+Bx+C=0 por factorización y fórmula general. Resuelve problemas cuyo planteamiento es una ecuación cuadrática.",
+  "problematizacion": {
+    "contexto": "Una panadería de Puebla que produce por lotes modela su costo de producción con la ecuación 3x²+5x−2=0, donde x son los lotes de pan producidos, y el dueño necesita saber para qué cantidad de lotes el costo sería exactamente cero según el modelo.",
+    "pregunta": "¿Cuáles son las soluciones de 3x²+5x−2=0, tomando en cuenta que A es distinto de 1?"
+  },
+  "subtemas": [
+    {
+      "numero": "3.8",
+      "titulo": "Ecuaciones cuadráticas con A distinto de 1",
+      "explicacion": "Todas las ecuaciones anteriores tenían A=1. Ahora A puede ser cualquier número distinto de 1 (por ejemplo 2x²+7x+3=0). La fórmula general sigue funcionando exactamente igual: x=(−B±√(B²−4AC))/2A, solo que ahora divides entre 2A y no solo entre 2; para factorizar, buscas dos binomios cuyo producto reproduzca A, B y C a la vez. Estos casos aparecen en problemas reales donde el costo o la ganancia depende de varias unidades a la vez, como la producción por lotes.",
+      "formula": "x = (−B ± √(B²−4AC)) / 2A — con A≠1, recuerda dividir entre 2A, no solo entre 2.",
+      "ejemplos": [
+        "2x² + 7x + 3 = 0: A=2, B=7, C=3. Δ=49-24=25. x=(-7±5)/4 → x=-0.5 o x=-3. (Factorizando: (2x+1)(x+3)=2x²+7x+3.)",
+        "3x² - 5x - 2 = 0: A=3, B=-5, C=-2. Δ=25+24=49. x=(5±7)/6 → x=2 o x=-1/3. (Factorizando: (3x+1)(x-2)=3x²-5x-2.)"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Resuelve: 2x² - 3x - 2 = 0",
+          "opciones": [
+            "x=2, x=-0.5",
+            "x=-2, x=0.5",
+            "x=1, x=-1",
+            "x=4, x=-0.25"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(2x+1)(x-2)=2x²-3x-2=0 → x=2 o x=-0.5."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Resuelve 2x² - 7x - 4 = 0. La solución positiva y entera es x = ___.",
+          "respuestaCorrecta": "4",
+          "retroalimentacion": "(2x+1)(x-4)=2x²-7x-4=0 → x=4 o x=-0.5. La entera positiva es 4."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Las soluciones de 5x² - 3x - 2 = 0 son x=1 y x=-0.4.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Δ=9+40=49. x=(3±7)/10 → x=1 o x=-0.4. Correcto."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Las soluciones de 4x² + 4x - 3 = 0 son x=0.5 y x=-1.5.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Δ=16+48=64. x=(-4±8)/8 → x=0.5 o x=-1.5. Correcto."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un taller produce x lotes de piezas; su costo neto (en miles de pesos) es 2x²−5x−3. ¿Para qué valor positivo de x el costo neto es cero?",
+          "opciones": [
+            "3",
+            "1.5",
+            "2.5",
+            "6"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "2x²-5x-3=0 → (2x+1)(x-3)=0 → x=3 (se descarta -0.5)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Resuelve: 3x² - 11x + 6 = 0",
+          "opciones": [
+            "x=3, x=2/3",
+            "x=2, x=1",
+            "x=3, x=-2/3",
+            "x=6, x=1/3"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(3x-2)(x-3)=3x²-11x+6=0 → x=3 o x=2/3."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Resuelve 2x² + x - 15 = 0. La solución negativa es x = ___.",
+          "respuestaCorrecta": "-3",
+          "retroalimentacion": "(2x-5)(x+3)=2x²+x-15=0 → x=2.5 o x=-3. La negativa es -3."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El costo de fabricar x unidades de un producto artesanal es 3x² - 14x - 5 (en cientos de pesos). Cuando el costo es cero, una de las soluciones es x = 5.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "3x²-14x-5=0 → (3x+1)(x-5)=0 → x=5 o x=-1/3. Sí, x=5 es solución."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada ecuación cuadrática (con A≠1) con sus soluciones.",
+          "columnaA": [
+            "2x² - x - 6 = 0",
+            "3x² + 2x - 8 = 0",
+            "4x² - 9x + 2 = 0"
+          ],
+          "columnaB": [
+            "x = 4/3, x = -2",
+            "x = 2, x = 1/4",
+            "x = 2, x = -1.5"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "2x²-x-6=0→x=2,-1.5; 3x²+2x-8=0→x=4/3,-2; 4x²-9x+2=0→x=2,1/4."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuáles son los valores de A, B y C en la ecuación 5x² - 2x + 9 = 0?",
+          "opciones": [
+            "A=5, B=-2, C=9",
+            "A=5, B=2, C=-9",
+            "A=-2, B=5, C=9",
+            "A=5, B=-2, C=-9"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "En Ax²+Bx+C=0, el coeficiente de x² es A=5, el de x es B=-2 y el término independiente es C=9."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 8 de 10 · Reto avanzado"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada ecuación con sus soluciones.",
+      "columnaA": [
+        "x² - 15x + 56 = 0",
+        "x² + 3x - 54 = 0",
+        "x² - 7x - 18 = 0"
+      ],
+      "columnaB": [
+        "x = 9, x = -2",
+        "x = 7, x = 8",
+        "x = -9, x = 6"
+      ],
+      "parejasCorrectas": [
+        1,
+        2,
+        0
+      ],
+      "retroalimentacion": "x² - 15x + 56 = 0 → x = 7, x = 8; x² + 3x - 54 = 0 → x = -9, x = 6; x² - 7x - 18 = 0 → x = 9, x = -2."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Un jardín rectangular tiene área de 48 m² y su largo mide 2 metros más que su ancho. ¿Cuánto mide el ancho?",
+      "opciones": [
+        "5 m",
+        "6 m",
+        "7 m",
+        "8 m"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "x(x+2)=48 → x²+2x−48=0 → (x+8)(x−6)=0 → x=6 (se descarta el valor negativo)."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Las soluciones de x² - 5x - 36 = 0 son x=9 y x=-4.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: (x-9)(x+4)=x²-5x-36=0, así que x=9 o x=-4."
+    }
+  ]
+}

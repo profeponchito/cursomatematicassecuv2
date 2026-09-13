@@ -1,0 +1,169 @@
+{
+  "id": "3S-B1-PDA01-10",
+  "grado": "3°",
+  "trimestre": "1",
+  "numero": 10,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Extensión del significado de las operaciones y sus relaciones inversas 1.10",
+  "contenido": "Extensión del significado de las operaciones y sus relaciones inversas.",
+  "pda": "Calcula potencias con exponente entero y la raíz cuadrada. Usa la notación científica.",
+  "problematizacion": {
+    "contexto": "Una empresa de telecomunicaciones en Tijuana transmite 8×10⁵ megabytes por segundo y quiere saber cuántos megabytes transmite en 3×10² segundos. Además, en un radar la señal que rebota se reduce a la mitad cada vez que choca con un obstáculo, y necesita saber qué fracción de la señal original queda tras 6 rebotes.",
+    "pregunta": "¿Cuántos megabytes transmite la empresa en 3×10² segundos, y qué fracción de la señal original queda después de 6 rebotes en los que se reduce a la mitad cada vez?"
+  },
+  "subtemas": [
+    {
+      "numero": "1.10",
+      "nivelEtiqueta": "Nivel 10 de 10 · Dominio",
+      "titulo": "Retos finales: dominio de potencias, raíces y notación científica",
+      "explicacion": "Esta última lección exige resolver problemas completos de varios pasos sin apoyo adicional, aplicando en cada uno más de una herramienta del PDA (exponentes enteros, raíz cuadrada y notación científica) en contextos de negocios, ciencia y deporte. El nivel de dominio significa identificar tú mismo qué herramienta usar primero, sin que el enunciado te lo indique directamente.",
+      "ejemplos": [
+        "Una empresa de logística reporta que su inventario de 972,000 artículos se reduce a una décima parte cada trimestre sin ventas. Si pasan 3 trimestres sin ventas: 972,000 × 10⁻³ = 972 artículos, que en notación científica es 9.72 × 10².",
+        "Un vivero tiene un terreno cuadrado de 3.61 × 10⁶ m² para sembrar árboles en cuadrícula. El lado del terreno es √3,610,000 = 1,900 m, porque 1,900 × 1,900 = 3,610,000."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una cadena de tiendas reporta ventas de 4.5 × 10⁵ pesos en cada una de 6 × 10² sucursales. ¿Cuál es el ingreso total, en notación científica?",
+          "opciones": [
+            "2.7 × 10⁸",
+            "27 × 10⁷",
+            "2.7 × 10⁷",
+            "0.27 × 10⁹"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "4.5 × 6 = 27, y 10⁵⁺² = 10⁷, entonces 27 × 10⁷ = 2.7 × 10⁸ pesos."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un estadio cuadrado ocupa un área de 7.29 × 10⁶ m². ¿Cuánto mide cada lado? ___ m.",
+          "respuestaCorrecta": "2,700",
+          "retroalimentacion": "7.29 × 10⁶ = 7,290,000, y √7,290,000 = 2,700 m."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una startup con capital de 512,000 pesos lo reduce a la mitad cada trimestre con pérdidas. Después de 7 trimestres le quedan 4,000 pesos.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "512,000 × 2⁻⁷ = 512,000 ÷ 128 = 4,000 pesos."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un antiviral reduce una población de virus a una centésima parte (10⁻²) cada día de tratamiento. Si la población inicial es 3.6 × 10⁷ y pasan 2 días de tratamiento, ¿cuál es la población final?",
+          "opciones": [
+            "3.6 × 10³",
+            "3.6 × 10⁴",
+            "36 × 10²",
+            "3.6 × 10⁵"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Dos reducciones de 10⁻² equivalen a 10⁻⁴: 3.6 × 10⁷ × 10⁻⁴ = 3.6 × 10³."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una empresa de mensajería entrega 8 × 10³ paquetes diarios durante 5 × 10² días. En total entrega ___ paquetes (en notación científica).",
+          "respuestaCorrecta": "4 × 10⁶",
+          "retroalimentacion": "8 × 5 = 40, y 10³⁺² = 10⁵, entonces 40 × 10⁵ = 4 × 10⁶ paquetes."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada problema con su resultado final.",
+          "columnaA": [
+            "Un inventario de 972,000 artículos se reduce a 10⁻³ (3 trimestres sin ventas)",
+            "Lado de un terreno cuadrado de 1.21 × 10⁶ m²",
+            "(9 × 10⁴) × (8 × 10³), normalizado"
+          ],
+          "columnaB": [
+            "7.2 × 10⁸",
+            "1,100 m",
+            "9.72 × 10²"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "972,000×10⁻³=972=9.72×10²; √1,210,000=1,100 m; (9×10⁴)×(8×10³)=72×10⁷=7.2×10⁸."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "La probabilidad de ganar cierto juego es 40⁻¹. ¿Cuál es su valor en notación científica?",
+          "opciones": [
+            "2.5 × 10⁻²",
+            "2.5 × 10⁻¹",
+            "25 × 10⁻³",
+            "2.5 × 10⁻³"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "40⁻¹ = 1/40 = 0.025 = 2.5 × 10⁻²."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El resultado de (7 × 10⁵) ÷ (2 × 10⁸) normalizado es 3.5 × 10⁻³.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "7 ÷ 2 = 3.5, y 10⁵⁻⁸ = 10⁻³, entonces el resultado es 3.5 × 10⁻³."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una reserva natural tiene 250,000 árboles. Una plaga reduce la cantidad a la mitad cada año. Después de 3 años, en notación científica, quedan ___ árboles.",
+          "respuestaCorrecta": "3.125 × 10⁴",
+          "retroalimentacion": "250,000 × 2⁻³ = 250,000 ÷ 8 = 31,250 = 3.125 × 10⁴."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un satélite mide que el área de un lago cuadrado es 1.69 × 10⁶ m². Los científicos deben reportar el perímetro del lago (4 × lado) en notación científica. ¿Cuál es el resultado?",
+          "opciones": [
+            "5.2 × 10³",
+            "5.2 × 10⁴",
+            "1.3 × 10³",
+            "52 × 10²"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "1.69 × 10⁶ = 1,690,000, √1,690,000 = 1,300 m, y el perímetro es 4 × 1,300 = 5,200 = 5.2 × 10³ m."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cómo se escribe 0.00031 en notación científica?",
+      "opciones": [
+        "3.1 × 10⁻⁴",
+        "31 × 10⁻⁵",
+        "3.1 × 10⁴",
+        "0.31 × 10⁻³"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "0.00031 = 3.1 × 10⁻⁴."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "3⁻³ = 1/27.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: 3⁻³ = 1/3³ = 1/27."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada expresión con su resultado.",
+      "columnaA": [
+        "√64",
+        "4⁻²",
+        "2,300,000"
+      ],
+      "columnaB": [
+        "2.3 × 10⁶",
+        "1/16",
+        "8"
+      ],
+      "parejasCorrectas": [
+        2,
+        1,
+        0
+      ],
+      "retroalimentacion": "√64=8; 4⁻²=1/16; 2,300,000 = 2.3×10⁶."
+    }
+  ]
+}

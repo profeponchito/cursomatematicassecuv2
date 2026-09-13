@@ -1,0 +1,156 @@
+{
+  "id": "3S-B1-PDA11-06",
+  "grado": "3°",
+  "trimestre": "3",
+  "numero": 106,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Probabilidad de la Unión de Eventos 11.6",
+  "contenido": "Azar e incertidumbre en la ocurrencia de eventos cotidianos.",
+  "pda": "Calcula la probabilidad de la unión de dos eventos, distinguiendo eventos mutuamente excluyentes de los que no lo son.",
+  "problematizacion": {
+    "contexto": "En una encuesta aplicada a los alumnos de una secundaria en Puebla, el 55% dijo que practica algún deporte, el 30% dijo que toca un instrumento musical, y el 12% dijo que hace ambas cosas. El consejo estudiantil quiere saber qué porcentaje de alumnos hace AL MENOS una de las dos actividades.",
+    "pregunta": "¿Qué porcentaje de alumnos de la secundaria practica algún deporte o toca un instrumento musical (o ambas cosas)?"
+  },
+  "subtemas": [
+    {
+      "numero": "11.6",
+      "titulo": "Encuestas y porcentajes: la unión sin fracciones de cartas",
+      "explicacion": "Hasta ahora las probabilidades se calculaban contando cartas de una baraja de 52. En la vida real, muchos datos —como los de una encuesta— ya vienen dados directamente en porcentajes, sin que tengas que contar nada: por ejemplo, '45% de los alumnos practica futbol'. Esta lección te enseña a aplicar la misma fórmula de la unión usando porcentajes o decimales en lugar de fracciones de 52, y a reconocer cuándo el porcentaje de la intersección ya viene dado en el enunciado en vez de tener que calcularlo tú.",
+      "formula": "Con porcentajes: P(A∪B) = P(A) + P(B) − P(A∩B), donde todos los valores se expresan como % (o como decimales entre 0 y 1).",
+      "ejemplos": [
+        "En una encuesta a 100 estudiantes, 45% practica futbol y 30% practica básquetbol; 12% practica ambos deportes. Como sí hay traslape, P(futbol ∪ básquetbol) = 45% + 30% − 12% = 63%.",
+        "En otra encuesta, cada estudiante eligió un solo género musical favorito: 38% eligió reguetón y 27% eligió pop. Como nadie pudo elegir los dos a la vez, estos eventos son mutuamente excluyentes: P(reguetón ∪ pop) = 38% + 27% = 65%."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una encuesta a 100 estudiantes, 45% practica futbol, 30% practica básquetbol y 12% practica ambos deportes. ¿Cuánto vale P(futbol ∪ básquetbol)?",
+          "opciones": [
+            "63%",
+            "75%",
+            "51%",
+            "87%"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(futbol ∪ básquetbol) = 45% + 30% − 12% = 63%."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Como el 12% de los estudiantes practica futbol y básquetbol a la vez, estos dos eventos NO son mutuamente excluyentes.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: si hay un porcentaje que cumple ambos eventos a la vez, no son mutuamente excluyentes."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En una encuesta, cada alumno eligió un solo género musical favorito: 38% prefiere reguetón y 27% prefiere pop (son mutuamente excluyentes). Entonces P(reguetón ∪ pop) = ___%.",
+          "respuestaCorrecta": "65",
+          "retroalimentacion": "Al ser mutuamente excluyentes, P(reguetón ∪ pop) = 38% + 27% = 65%."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una encuesta sobre transporte, cada alumno usó un solo medio para llegar a la escuela: 22% camina y 15% va en bicicleta. ¿Cuánto vale P(camina ∪ bicicleta)?",
+          "opciones": [
+            "37%",
+            "7%",
+            "33%",
+            "44%"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Al ser mutuamente excluyentes (cada quien usó un solo medio), P(camina ∪ bicicleta) = 22% + 15% = 37%."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una encuesta sobre alimentación, 52% come fruta diario, 40% come verduras diario y 25% come ambas cosas diario. ¿Cuánto vale P(fruta ∪ verduras)?",
+          "opciones": [
+            "67%",
+            "92%",
+            "17%",
+            "77%"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(fruta ∪ verduras) = 52% + 40% − 25% = 67%."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si el 70% de los alumnos usa Instagram, el 55% usa TikTok y el 40% usa ambas aplicaciones, entonces P(Instagram ∪ TikTok) = 125%.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: P(Instagram ∪ TikTok) = 70% + 55% − 40% = 85%. Un porcentaje de la unión nunca puede pasar de 100%, así que 125% ya era una señal de error."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El 70% de los alumnos usa Instagram, el 55% usa TikTok y el 40% usa ambas aplicaciones. P(Instagram ∪ TikTok) = ___%.",
+          "respuestaCorrecta": "85",
+          "retroalimentacion": "P(Instagram ∪ TikTok) = 70% + 55% − 40% = 85%."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una encuesta, 60% habla inglés, 8% habla francés y 5% habla ambos idiomas. ¿Cuánto vale P(inglés ∪ francés)?",
+          "opciones": [
+            "63%",
+            "68%",
+            "73%",
+            "55%"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(inglés ∪ francés) = 60% + 8% − 5% = 63%."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Por qué es imposible que P(A∪B) sea mayor que 100% en los resultados de una encuesta bien hecha?",
+          "opciones": [
+            "Porque un porcentaje de una población no puede pasar del 100% de esa población",
+            "Porque siempre hay que redondear los porcentajes",
+            "Porque las encuestas siempre tienen error de medición",
+            "Porque el porcentaje de la intersección siempre es 0%"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "El 100% representa a toda la población encuestada; ningún subconjunto de ella (ni su unión) puede superarlo."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación de encuesta con el valor correcto de P(A∪B).",
+          "columnaA": [
+            "Fruta (52%) y verduras (40%), ambas 25%",
+            "Camina (22%) y bicicleta (15%), mutuamente excluyentes",
+            "Inglés (60%) y francés (8%), ambos 5%"
+          ],
+          "columnaB": [
+            "37%",
+            "63%",
+            "67%"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "Fruta∪verduras: 52+40−25=67%. Camina∪bicicleta (ME): 22+15=37%. Inglés∪francés: 60+8−5=63%."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 6 de 10 · Aplicación avanzada"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "P(diamantes ∪ jota) = 16/52, porque la jota de diamantes cumple ambos eventos.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: P(diamantes ∪ jota) = 13/52 + 4/52 − 1/52 = 16/52 = 4/13."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "P(tréboles) = 13/52, P(rey) = 4/52 y P(tréboles∩rey) = 1/52 (el rey de tréboles). ¿Cuánto vale P(tréboles ∪ rey)?",
+      "opciones": [
+        "16/52",
+        "17/52",
+        "13/52",
+        "4/52"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "P(tréboles ∪ rey) = 13/52 + 4/52 − 1/52 = 16/52 = 4/13."
+    }
+  ]
+}

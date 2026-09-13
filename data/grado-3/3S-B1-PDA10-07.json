@@ -1,0 +1,138 @@
+{
+  "id": "3S-B1-PDA10-07",
+  "grado": "3°",
+  "trimestre": "3",
+  "numero": 97,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Estadística con Datos Agrupados 10.7",
+  "contenido": "Interpretación de la información a través de medidas de tendencia central y de dispersión.",
+  "pda": "Calcula medidas de tendencia central para datos agrupados en tablas de frecuencia e interpreta la desviación media de un conjunto de datos.",
+  "problematizacion": {
+    "contexto": "En la tabla de frecuencias de las edades de 70 visitantes a una exposición de arte en San Luis Potosí, ya se identificó que la clase modal es el intervalo de 20 a 25 años. El organizador del evento quiere un solo número —no un rango— que represente 'la edad más común' entre los visitantes.",
+    "pregunta": "¿Cómo se calcula la moda estimada dentro del intervalo de 20 a 25 años, comparando su frecuencia con la de los intervalos vecinos?"
+  },
+  "subtemas": [
+    {
+      "numero": "10.7",
+      "nivelEtiqueta": "Nivel 7 de 10 · Reto",
+      "titulo": "La moda estimada de datos agrupados (interpolación)",
+      "explicacion": "En el subtema 10.3 identificaste solo la clase modal, el intervalo con mayor frecuencia. Ahora calcularás un valor puntual dentro de ese intervalo —la moda estimada— usando una fórmula que compara qué tanto 'pesa' la clase modal frente a los intervalos vecinos: si el intervalo anterior tiene una frecuencia parecida a la modal, la moda se recorre hacia ese lado; si es el posterior el parecido, se recorre hacia el otro. Esta moda estimada es el valor más representativo del 'dato más común' cuando ya no tienes los datos originales.",
+      "formula": "Mo = Li + [(fmo − fant) / ((fmo − fant) + (fmo − fpost))] × A , donde Li = límite inferior de la clase modal, fmo = frecuencia de la clase modal, fant = frecuencia del intervalo anterior, fpost = frecuencia del intervalo posterior, A = amplitud del intervalo",
+      "ejemplos": [
+        "Duración de llamadas (minutos) de 45 clientes de un call center: 0-10 (f=5), 10-20 (f=12), 20-30 (f=20), 30-40 (f=8). La clase modal es 20-30 (fmo=20, Li=20, fant=12, fpost=8, A=10). Mo = 20 + [(20−12)/((20−12)+(20−8))]×10 = 20 + [8/20]×10 = 20+4 = 24 minutos.",
+        "Edades de 34 asistentes a un taller: 10-15 (f=4), 15-20 (f=9), 20-25 (f=14), 25-30 (f=7). La clase modal es 20-25 (fmo=14, Li=20, fant=9, fpost=7, A=5). Mo = 20 + [(14−9)/((14−9)+(14−7))]×5 = 20 + [5/12]×5 ≈ 20+2.08 = 22.08 años."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El tiempo de descarga (segundos) de una aplicación se midió en 40 celulares: 0-5 (f=6), 5-10 (f=10), 10-15 (f=18), 15-20 (f=6). ¿Cuál es la moda estimada de estos tiempos?",
+          "opciones": [
+            "12",
+            "10",
+            "13.3",
+            "15"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Clase modal 10-15 (fmo=18, Li=10, fant=10, fpost=6, A=5). Mo=10+[(18−10)/((18−10)+(18−6))]×5=10+[8/20]×5=10+2=12."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La edad (años) de 46 asistentes a un concierto se agrupa así: 30-40 (f=7), 40-50 (f=11), 50-60 (f=19), 60-70 (f=9). La moda estimada, redondeada a dos decimales, es ___ años.",
+          "respuestaCorrecta": "54.44",
+          "retroalimentacion": "Clase modal 50-60 (fmo=19, Li=50, fant=11, fpost=9, A=10). Mo=50+[(19−11)/((19−11)+(19−9))]×10=50+[8/18]×10≈54.44."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Las calificaciones (sobre 30 puntos) de 40 alumnos se agrupan así: 5-10 (f=3), 10-15 (f=8), 15-20 (f=14), 20-25 (f=10), 25-30 (f=5). La moda estimada de estas calificaciones es 18 puntos.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: clase modal 15-20 (fmo=14, Li=15, fant=8, fpost=10, A=5). Mo=15+[(14−8)/((14−8)+(14−10))]×5=15+[6/10]×5=15+3=18."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El ingreso mensual (en cientos de pesos) de 56 familias de una colonia se agrupa así: 0-20 (f=9), 20-40 (f=15), 40-60 (f=22), 60-80 (f=10). ¿Cuál es la moda estimada, redondeada a dos decimales?",
+          "opciones": [
+            "47.37",
+            "45.00",
+            "50.91",
+            "40.00"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Clase modal 40-60 (fmo=22, Li=40, fant=15, fpost=10, A=20). Mo=40+[(22−15)/((22−15)+(22−10))]×20≈47.37."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El nivel de colesterol (mg/dL) de 44 pacientes se agrupa así: 100-120 (f=6), 120-140 (f=13), 140-160 (f=17), 160-180 (f=8). La moda estimada, redondeada a dos decimales, es ___ mg/dL.",
+          "respuestaCorrecta": "146.15",
+          "retroalimentacion": "Clase modal 140-160 (fmo=17, Li=140, fant=13, fpost=8, A=20). Mo=140+[(17−13)/((17−13)+(17−8))]×20≈146.15."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si la frecuencia del intervalo anterior a la clase modal es igual a la frecuencia del intervalo posterior, la moda estimada queda exactamente en la marca de clase (el punto medio) de la clase modal.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: si fant=fpost, la fracción [(fmo−fant)/((fmo−fant)+(fmo−fpost))] se simplifica a 1/2, así que Mo=Li+A/2, que es justamente la marca de clase."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una fábrica registra las piezas producidas por día durante 55 días: 200-250 (f=6), 250-300 (f=11), 300-350 (f=19), 350-400 (f=15), 400-450 (f=4). ¿Cuál es la moda estimada de la producción diaria, redondeada a dos decimales?",
+          "opciones": [
+            "333.33",
+            "325.00",
+            "340.00",
+            "300.00"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Clase modal 300-350 (fmo=19, Li=300, fant=11, fpost=15, A=50). Mo=300+[(19−11)/((19−11)+(19−15))]×50≈333.33."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Las ventas semanales (miles de pesos) de 57 puestos de un mercado se agrupan así: 0-20 (f=8), 20-40 (f=15), 40-60 (f=24), 60-80 (f=10). La moda estimada, redondeada a dos decimales, es ___ miles de pesos.",
+          "respuestaCorrecta": "47.83",
+          "retroalimentacion": "Clase modal 40-60 (fmo=24, Li=40, fant=15, fpost=10, A=20). Mo=40+[(24−15)/((24−15)+(24−10))]×20≈47.83."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada tabla de frecuencias con su moda estimada (interpolada).",
+          "columnaA": [
+            "Tabla: 0-10(f=4),10-20(f=10),20-30(f=14),30-40(f=6)",
+            "Tabla: 10-20(f=5),20-30(f=8),30-40(f=16),40-50(f=9)",
+            "Tabla: 0-15(f=3),15-30(f=7),30-45(f=12),45-60(f=5)"
+          ],
+          "columnaB": [
+            "36.25",
+            "23.33",
+            "35.33"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "Tabla 1: clase modal 20-30 (fmo=14,fant=10,fpost=6,A=10): Mo=20+[4/8]×10=23.33. Tabla 2: clase modal 30-40 (fmo=16,fant=8,fpost=9,A=10): Mo=30+[8/15]×10≈35.33. Tabla 3: clase modal 30-45 (fmo=12,fant=7,fpost=5,A=15): Mo=30+[5/8]×15=36.25."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La moda estimada (interpolada) de un conjunto de datos agrupados siempre coincide con la marca de clase del intervalo modal.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: solo coincide con la marca de clase cuando la frecuencia del intervalo anterior es igual a la del posterior; en general, la moda se recorre hacia el lado donde la frecuencia vecina es más parecida a la modal."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Tabla: 0-10: f=6, 10-20: f=4, 20-30: f=12, 30-40: f=8 (n=30). La clase modal de esta tabla es 20-30.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: la mayor frecuencia es 12, en el intervalo 20-30."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Tabla: 0-15: f=4, 15-30: f=10, 30-45: f=12, 45-60: f=6 (n=32). La clase mediana de esta tabla es 15-30.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Falso: acumuladas 4, 14, 26, 32; n/2=16 se alcanza por primera vez en 26, en el intervalo 30-45, no en 15-30."
+    }
+  ]
+}

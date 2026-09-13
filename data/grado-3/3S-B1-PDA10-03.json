@@ -1,0 +1,163 @@
+{
+  "id": "3S-B1-PDA10-03",
+  "grado": "3°",
+  "trimestre": "3",
+  "numero": 93,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Estadística con Datos Agrupados 10.3",
+  "contenido": "Interpretación de la información a través de medidas de tendencia central y de dispersión.",
+  "pda": "Calcula medidas de tendencia central para datos agrupados en tablas de frecuencia e interpreta la desviación media de un conjunto de datos.",
+  "problematizacion": {
+    "contexto": "En la tabla de calificaciones agrupadas de un examen de matemáticas de 3° de secundaria en Cuernavaca (con 45 alumnos), el intervalo de 80-89 puntos es el que tiene más alumnos, con 16 de ellos. La maestra también quiere saber en qué intervalo cae la calificación 'de en medio' de todo el grupo.",
+    "pregunta": "¿Cuál es la clase modal de este examen, y cómo se identifica la clase mediana usando las frecuencias acumuladas?"
+  },
+  "subtemas": [
+    {
+      "numero": "10.3",
+      "titulo": "Clase modal y clase mediana",
+      "explicacion": "En una tabla de frecuencias agrupada, la clase modal es el intervalo con mayor frecuencia (el que contiene más datos): representa el rango de valores que más se repite. La clase mediana es el intervalo donde 'cae' el dato central: para encontrarla, se van sumando las frecuencias de arriba hacia abajo (frecuencia acumulada) hasta llegar o pasar la mitad del total de datos (n/2); el intervalo donde eso ocurre es la clase mediana. Ambas clases pueden coincidir o ser diferentes, dependiendo de cómo se distribuyan los datos en la tabla.",
+      "ejemplos": [
+        "Tabla: 0-10 (f=3), 10-20 (f=10), 20-30 (f=4), 30-40 (f=8), 40-50 (f=5). n=30. La mayor frecuencia es 10, en el intervalo 10-20: esa es la clase modal. Frecuencias acumuladas: 3, 13, 17, 25, 30. Como n/2=15 y la acumulada llega a 15 (o más) por primera vez en 17 (intervalo 20-30), la clase mediana es 20-30. En este caso, la clase modal y la clase mediana son distintas.",
+        "Tabla: 5-10 (f=6), 10-15 (f=12), 15-20 (f=9), 20-25 (f=3). n=30. La mayor frecuencia es 12, en 10-15: clase modal = 10-15. Acumuladas: 6, 18, 27, 30; n/2=15 se alcanza en 18 (intervalo 10-15), así que la clase mediana también es 10-15."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Tabla: 0-10: f=3, 10-20: f=10, 20-30: f=4, 30-40: f=8, 40-50: f=5. ¿Cuál es la clase modal?",
+          "opciones": [
+            "10-20",
+            "20-30",
+            "30-40",
+            "0-10"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "La mayor frecuencia es 10, en el intervalo 10-20."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En la tabla 0-10: f=3, 10-20: f=10, 20-30: f=4, 30-40: f=8, 40-50: f=5 (n=30), la clase mediana es ___.",
+          "respuestaCorrecta": "20-30",
+          "retroalimentacion": "Acumuladas: 3, 13, 17, 25, 30. n/2=15 se alcanza por primera vez en 17, en el intervalo 20-30."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En la tabla 5-10: f=6, 10-15: f=12, 15-20: f=9, 20-25: f=3, la clase modal y la clase mediana coinciden en el intervalo 10-15.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: la mayor frecuencia (12) está en 10-15, y las acumuladas (6, 18, 27, 30) también alcanzan n/2=15 en el intervalo 10-15."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Tabla: 0-10: f=10, 10-20: f=3, 20-30: f=4, 30-40: f=6, 40-50: f=7 (n=30). ¿Cuál es la clase modal?",
+          "opciones": [
+            "0-10",
+            "10-20",
+            "40-50",
+            "30-40"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "La mayor frecuencia es 10, en el intervalo 0-10."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En la tabla 0-10: f=10, 10-20: f=3, 20-30: f=4, 30-40: f=6, 40-50: f=7 (n=30), la clase mediana es ___.",
+          "respuestaCorrecta": "20-30",
+          "retroalimentacion": "Acumuladas: 10, 13, 17, 23, 30. n/2=15 se alcanza por primera vez en 17, en el intervalo 20-30. Nota que aquí la clase modal (0-10) y la clase mediana (20-30) son diferentes."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Tabla: 0-10: f=2, 10-20: f=5, 20-30: f=9, 30-40: f=7 (n=23). La clase modal de esta tabla es 20-30.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: la mayor frecuencia es 9, en el intervalo 20-30."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Tabla: 10-20: f=4, 20-30: f=6, 30-40: f=11, 40-50: f=7, 50-60: f=2 (n=30). ¿Cuál es la clase mediana?",
+          "opciones": [
+            "30-40",
+            "20-30",
+            "10-20",
+            "40-50"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Acumuladas: 4, 10, 21, 28, 30. n/2=15 se alcanza por primera vez en 21, en el intervalo 30-40."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Tabla: 0-15: f=4, 15-30: f=10, 30-45: f=12, 45-60: f=6 (n=32). La clase modal de esta tabla es 15-30.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: la mayor frecuencia es 12, en el intervalo 30-45, no en 15-30."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En la tabla 0-15: f=4, 15-30: f=10, 30-45: f=12, 45-60: f=6 (n=32), la clase mediana es ___.",
+          "respuestaCorrecta": "30-45",
+          "retroalimentacion": "Acumuladas: 4, 14, 26, 32. n/2=16 se alcanza por primera vez en 26, en el intervalo 30-45."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada tabla de frecuencias con su clase modal (el intervalo de mayor frecuencia).",
+          "columnaA": [
+            "Frecuencias 3,10,4,8,5 para los intervalos 0-10,10-20,20-30,30-40,40-50",
+            "Frecuencias 6,12,9,3 para los intervalos 5-10,10-15,15-20,20-25",
+            "Frecuencias 4,6,11,7,2 para los intervalos 10-20,20-30,30-40,40-50,50-60"
+          ],
+          "columnaB": [
+            "10-15",
+            "30-40",
+            "10-20"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "Tabla 1: mayor frecuencia 10, en 10-20. Tabla 2: mayor frecuencia 12, en 10-15. Tabla 3: mayor frecuencia 11, en 30-40."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 3 de 10 · Avanzado"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada intervalo con su marca de clase.",
+      "columnaA": [
+        "Intervalo 30-50",
+        "Intervalo 50-70",
+        "Intervalo 70-90"
+      ],
+      "columnaB": [
+        "80",
+        "40",
+        "60"
+      ],
+      "parejasCorrectas": [
+        1,
+        2,
+        0
+      ],
+      "retroalimentacion": "30-50: (30+50)/2=40. 50-70: (50+70)/2=60. 70-90: (70+90)/2=80."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Tabla de frecuencias — 0-10: f=8, 10-20: f=12. ¿Cuál es la media de este conjunto de datos agrupados?",
+      "opciones": [
+        "11",
+        "10",
+        "12",
+        "15"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "Marcas: 5,15. Σ(x·f) = 8(5)+12(15) = 40+180 = 220. Σf=20. media=220/20=11."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Tabla de frecuencias — 10-20: f=5, 20-30: f=15. La media de este conjunto de datos agrupados es ___.",
+      "respuestaCorrecta": "22.5",
+      "retroalimentacion": "Marcas: 15,25. Σ(x·f) = 5(15)+15(25) = 75+375 = 450. Σf=20. media=450/20=22.5."
+    }
+  ]
+}

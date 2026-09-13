@@ -1,0 +1,175 @@
+{
+  "id": "3S-B1-PDA02-09",
+  "grado": "3°",
+  "trimestre": "2",
+  "numero": 19,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Introducción al álgebra 2.9",
+  "contenido": "Introducción al álgebra.",
+  "pda": "Representa algebraicamente áreas y volúmenes de cuerpos geométricos y calcula el valor de una variable en función de las otras.",
+  "problematizacion": {
+    "contexto": "Una ferretería en Irapuato vende tres modelos de tinaco (un prisma cuadrado, un cubo y uno con altura que depende del lado), y un cliente quiere comparar cuál le conviene más según el volumen de cada uno, el precio por litro y cuánto cambia la capacidad si escala el lado del modelo más barato.",
+    "pregunta": "¿Qué comparaciones debe hacer el cliente para decidir cuál de los tres tinacos le conviene más, tomando en cuenta volumen, precio y escalamiento?"
+  },
+  "subtemas": [
+    {
+      "numero": "2.9",
+      "nivelEtiqueta": "Nivel 9 de 10 · Integración",
+      "titulo": "Problemas integradores: tinacos, cubos y presupuestos",
+      "explicacion": "Esta lección junta todo lo que has aprendido en el PDA: calcular el volumen de un prisma o cubo, despejar x² y x, razonar sobre cómo cambia el volumen al escalar el lado, y trabajar con una altura que depende del lado. Los problemas ahora tienen dos o más pasos y mezclan geometría con contextos cotidianos —comparar tinacos, convertir a litros, detectar cuál diseño rinde más—, tal como lo haría un plomero o un ingeniero al planear una instalación real.",
+      "ejemplos": [
+        "Un tinaco cuadrado tiene volumen V=845 cm³ y altura h=5 cm. Primero x²=845÷5=169, así que x=√169=13 cm. Si ese mismo tinaco se agranda duplicando su lado (x=26 cm, misma altura), su nuevo volumen sería 26²×5=3380 cm³, exactamente 4 veces el original (845×4=3380).",
+        "Un tinaco cúbico tiene arista x=9 cm: su volumen es 9³=729 cm³. Si en vez de cubo se fabrica con una altura h=x+6=15 cm (mismo lado de base), su volumen sería 9²×15=1215 cm³, es decir 486 cm³ más de capacidad que el cubo."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un tinaco cuadrado tiene volumen V=968 cm³ y altura h=8 cm. Si se decide duplicar el lado de la base manteniendo la misma altura, ¿cuál será el nuevo volumen?",
+          "opciones": [
+            "1936 cm³",
+            "3872 cm³",
+            "7744 cm³",
+            "2904 cm³"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "x²=968÷8=121→x=11. Al duplicar x=22: V'=22²×8=484×8=3872 cm³ (4 veces el original)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un cubo tiene volumen 1728 cm³, con arista de 12 cm. Si la arista se redujera a la mitad (6 cm), el nuevo volumen sería 216 cm³.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "12³=1728 cm³ y 6³=216 cm³ (1728÷8=216, porque el factor de escala es 1/2 y (1/2)³=1/8)."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un depósito tiene una altura que es el doble de su lado (h=2x) y un volumen de 686 cm³. Si x=7 cm, entonces h = ___ cm.",
+          "respuestaCorrecta": "14",
+          "retroalimentacion": "h=2x=14; verificación: V=7²×14=49×14=686 cm³, correcto."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una fábrica compara dos tinacos: el Tinaco A tiene x=10 cm y h=20 cm; el Tinaco B es un cubo de arista 14 cm. ¿Cuál tiene mayor volumen y por cuánto?",
+          "opciones": [
+            "A es mayor por 744 cm³",
+            "B es mayor por 744 cm³",
+            "Son iguales",
+            "B es mayor por 200 cm³"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "A: V=10²×20=2000 cm³. B: 14³=2744 cm³. Diferencia = 2744-2000=744 cm³, gana B."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un tinaco con volumen V=1029 cm³ y altura h=21 cm tiene un lado de base x=7 cm.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "x² = 1029÷21 = 49; x = √49 = 7 cm."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un tanque cuadrado se diseña con altura h=x+5 (5 cm más que el lado). Si x=10 cm, ¿el volumen resultante coincide con el volumen reportado de 1500 cm³?",
+          "opciones": [
+            "Sí, coincide exactamente",
+            "No, el volumen real sería 1200 cm³",
+            "No, el volumen real sería 1050 cm³",
+            "No, faltan datos"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "h = 10+5 = 15; V = 10²×15 = 100×15 = 1500 cm³. Sí coincide."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un tinaco cúbico tiene volumen 2197 cm³. Su arista mide ___ cm (pista: 13³=2197).",
+          "respuestaCorrecta": "13",
+          "retroalimentacion": "∛2197 = 13, porque 13³=2197."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Comparando un prisma con x=8 cm, h=8 cm (que en realidad es un cubo) contra otro con x=8 cm, h=16 cm, el segundo tiene el doble de volumen que el primero.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "V1=8²×8=512 cm³; V2=8²×16=1024 cm³, que es exactamente el doble de 512."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una tienda vende un tinaco con capacidad de 15,000 cm³. Si un cliente quiere el doble de capacidad manteniendo el mismo diseño (misma altura, solo cambia el lado x), ¿por cuánto debe multiplicarse aproximadamente x?",
+          "opciones": [
+            "Por 2",
+            "Por 1.41 (√2)",
+            "Por 4",
+            "Por 1.5"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Como V=x²h con h fija, para duplicar V hay que multiplicar x por √2≈1.41, no por 2."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación con su volumen correcto (algunas requieren calcular directo, otras despejar primero).",
+          "columnaA": [
+            "x=15 cm, h=8 cm (prisma)",
+            "cubo de arista 14 cm",
+            "x=9 cm, h=x+6 (altura=x+6)"
+          ],
+          "columnaB": [
+            "2744",
+            "1215",
+            "1800"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "x=15,h=8: V=225×8=1800. Cubo arista14: 14³=2744. x=9,h=15: V=81×15=1215."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Si el volumen de un prisma es V=x²h, con V=176 y h=4, ¿cuánto vale x²?",
+      "opciones": [
+        "40",
+        "44",
+        "48",
+        "36"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "x² = V/h = 176/4 = 44."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Un cubo con arista 6 cm tiene volumen 200 cm³.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "6³ = 216 cm³, no 200."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Empareja cada descripción con el volumen que le corresponde.",
+      "columnaA": [
+        "x=5, h=8",
+        "cubo de arista 5 cm",
+        "x=9, h=3"
+      ],
+      "columnaB": [
+        "125",
+        "243",
+        "200"
+      ],
+      "parejasCorrectas": [
+        2,
+        0,
+        1
+      ],
+      "retroalimentacion": "x=5,h=8: V=25×8=200. cubo arista5: 5³=125. x=9,h=3: V=81×3=243."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Si el volumen de un prisma es V=x²h, con V=180 y h=5, entonces x² = ___.",
+      "respuestaCorrecta": "36",
+      "retroalimentacion": "x² = V/h = 180/5 = 36."
+    }
+  ]
+}

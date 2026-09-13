@@ -1,0 +1,169 @@
+{
+  "id": "3S-B1-PDA03-10",
+  "grado": "3°",
+  "trimestre": "2",
+  "numero": 30,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Ecuaciones lineales y cuadráticas 3.10",
+  "contenido": "Ecuaciones lineales y cuadráticas.",
+  "pda": "Resuelve ecuaciones de la forma Ax²+Bx+C=0 por factorización y fórmula general. Resuelve problemas cuyo planteamiento es una ecuación cuadrática.",
+  "problematizacion": {
+    "contexto": "Diego trabaja en la administración de una feria en Aguascalientes y le entregan un problema completo sobre el número de boletos vendidos y el ingreso total, sin decirle qué método usar ni darle la ecuación lista; además debe comprobar su respuesta sustituyéndola de vuelta en la ecuación antes de entregar el reporte.",
+    "pregunta": "¿Cómo resuelve Diego el problema completo de la feria de principio a fin, incluyendo la comprobación de su solución?"
+  },
+  "subtemas": [
+    {
+      "numero": "3.10",
+      "titulo": "Dominio: problemas completos de principio a fin",
+      "explicacion": "Estos problemas requieren que apliques todo el proceso completo: plantear la ecuación desde el contexto, decidir el método de solución más eficiente, verificar con el discriminante si es necesario, y finalmente interpretar cuál de las soluciones matemáticas tiene sentido en la situación real. Ya no se te dice qué método usar ni se te da la ecuación lista; también aprenderás a comprobar una solución sustituyéndola directamente en la ecuación.",
+      "ejemplos": [
+        "Una fábrica de mochilas tiene una ganancia (miles de pesos) de -x² + 22x - 96 según los cientos de unidades x vendidas. Igualando a cero: multiplicamos por -1 → x² - 22x + 96 = 0 → (x-6)(x-16)=0 → x=6 o x=16. Esto significa que la fábrica no pierde dinero vendiendo entre 6 y 16 cientos de unidades.",
+        "Un salón mide (x+5) metros de largo y (x-2) metros de ancho, y su área es 98 m². (x+5)(x-2)=98 → x²+3x-10=98 → x²+3x-108=0 → (x-9)(x+12)=0 → x=9 (se descarta -12). Largo=14 m, ancho=7 m."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un terreno mide (x+6) m de largo y (x-3) m de ancho. Si su área es 220 m², ¿cuáles son sus dimensiones?",
+          "opciones": [
+            "20 m y 11 m",
+            "18 m y 9 m",
+            "22 m y 13 m",
+            "19 m y 10 m"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(x+6)(x-3)=220 → x²+3x-238=0 → (x-14)(x+17)=0 → x=14. Largo=20 m, ancho=11 m."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una empresa produce x cientos de playeras; su costo neto (miles de pesos) es 3x² - 20x + 12. Si el costo neto fue exactamente cero, la mayor cantidad de cientos de playeras producidas fue x = ___.",
+          "respuestaCorrecta": "6",
+          "retroalimentacion": "3x²-20x+12=0 → (3x-2)(x-6)=0 → x=6 o x=2/3. La mayor es 6."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un rectángulo tiene su largo igual al doble del ancho disminuido en 5 metros. Si su área es 75 m², una posible dimensión del ancho es 7.5 m.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "x(2x-5)=75 → 2x²-5x-75=0 → Δ=625 → x=(5±25)/4 → x=7.5 o x=-5. Con ancho=7.5, largo=2(7.5)-5=10 y área=75. Correcto."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Se quiere construir un jardín rectangular cuyo perímetro sea 26 m y área 50 m². Calculando el discriminante correspondiente, ¿es esto geométricamente posible con dimensiones reales?",
+          "opciones": [
+            "No es posible: el discriminante es negativo",
+            "Sí, un rectángulo de 10 m × 3 m",
+            "Sí, un rectángulo de 9 m × 4 m",
+            "Sí, pero solo con números decimales negativos"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Semiperímetro=13. x²-13x+50=0 → Δ=169-200=-31<0 → no existe ningún rectángulo real con esas medidas."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un dron de exhibición sigue una trayectoria de altura h = -2x² + 22x (metros), con x en segundos. Aparte de x=0, el dron vuelve a estar a nivel del suelo en el segundo x = ___.",
+          "respuestaCorrecta": "11",
+          "retroalimentacion": "-2x²+22x=0 → dividiendo entre -2: x²-11x=0 → x(x-11)=0 → x=0 o x=11."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación con la ecuación en forma estándar (ya simplificada) que la representa.",
+          "columnaA": [
+            "Un rectángulo con largo = ancho + 7 tiene área 170 m²",
+            "Un rectángulo con perímetro 36 m y área 80 m²",
+            "El cuadrado de un número menos 9 veces el número es igual a 112"
+          ],
+          "columnaB": [
+            "x² - 18x + 80 = 0",
+            "x² - 9x - 112 = 0",
+            "x² + 7x - 170 = 0"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "x(x+7)=170→x²+7x-170=0; semiperímetro18→x²-18x+80=0; x²-9x=112→x²-9x-112=0."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una alberca rectangular tiene un andador de concreto alrededor. El área total (alberca + andador) es (x+4)(x+2) y se sabe que mide 143 m². ¿Cuánto mide x?",
+          "opciones": [
+            "9",
+            "10",
+            "11",
+            "13"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(x+4)(x+2)=143 → x²+6x-135=0 → (x-9)(x+15)=0 → x=9 (se descarta -15)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una empresa de dulces típicos mexicanos tiene una ganancia (en miles de pesos) modelada por 2x² - 3x - 20, donde x son los kilos vendidos (en decenas). Cuando x=4, la ganancia es exactamente cero.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Sustituyendo: 2(4)²-3(4)-20 = 32-12-20 = 0. Correcto, x=4 es una solución."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Verifica: para la ecuación 3x² + x - 14 = 0, al sustituir x=2 se obtiene 3(2)²+2-14 = ___.",
+          "respuestaCorrecta": "0",
+          "retroalimentacion": "3(4)+2-14 = 12+2-14 = 0. Esto confirma que x=2 es una solución de la ecuación."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El comité de la kermés modela ahora la ganancia de un segundo puesto con la expresión 2x² − 13x + 15, donde x son las horas transcurridas. ¿En qué horas la ganancia de este puesto es exactamente cero?",
+          "opciones": [
+            "x=1.5 y x=5",
+            "x=3 y x=5",
+            "x=1 y x=6",
+            "x=2.5 y x=6"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "2x²-13x+15=0 → (2x-3)(x-5)=0 → x=1.5 o x=5."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 10 de 10 · Dominio"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Un jardín rectangular tiene área 54 m² y su largo mide 3 m más que su ancho. ¿Cuánto mide el ancho?",
+      "opciones": [
+        "5 m",
+        "6 m",
+        "7 m",
+        "9 m"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "x(x+3)=54 → x²+3x−54=0 → (x+9)(x−6)=0 → x=6 (se descarta x=-9)."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "La solución positiva de x² - 2x - 15 = 0 es x=5.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: (x-5)(x+3)=x²-2x-15=0 → x=5 o x=-3. La positiva es 5."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada ecuación con sus soluciones.",
+      "columnaA": [
+        "x² - 7x + 12 = 0",
+        "x² - 9x + 20 = 0",
+        "x² - 2x - 15 = 0"
+      ],
+      "columnaB": [
+        "x = 5, x = -3",
+        "x = 3, x = 4",
+        "x = 4, x = 5"
+      ],
+      "parejasCorrectas": [
+        1,
+        2,
+        0
+      ],
+      "retroalimentacion": "x²-7x+12=0 → x=3,4; x²-9x+20=0 → x=4,5; x²-2x-15=0 → x=5,-3."
+    }
+  ]
+}

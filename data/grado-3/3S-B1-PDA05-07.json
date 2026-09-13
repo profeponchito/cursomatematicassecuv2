@@ -1,0 +1,143 @@
+{
+  "id": "3S-B1-PDA05-07",
+  "grado": "3°",
+  "trimestre": "2",
+  "numero": 47,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Forma, espacio y medida",
+  "titulo": "Teorema de Pitágoras y Trigonometría 5.7",
+  "contenido": "Rectas y ángulos.",
+  "pda": "Aplica el Teorema de Pitágoras y las razones trigonométricas (seno, coseno, tangente) para resolver problemas de triángulos rectángulos.",
+  "problematizacion": {
+    "contexto": "En una calle de Zacatecas hay dos postes de luz de distinta altura separados por 6 metros; uno mide 5 metros y el otro 9 metros, y nadie te dice si debes usar Pitágoras o trigonometría para encontrar la distancia entre las dos puntas.",
+    "pregunta": "¿Cuál es la distancia entre las puntas de los dos postes, y qué método (Pitágoras o trigonometría) decides usar para encontrarla?"
+  },
+  "subtemas": [
+    {
+      "numero": "5.7",
+      "nivelEtiqueta": "Nivel 7 de 10 · Reto",
+      "titulo": "Elegir entre Pitágoras y trigonometría",
+      "explicacion": "El verdadero reto no es calcular, sino decidir: ¿el problema te da dos lados (usa Pitágoras) o te da un ángulo con un lado (usa una razón trigonométrica)? En esta lección los problemas no te dicen qué fórmula usar ni etiquetan los datos como 'cateto' o 'ángulo'; tú debes reconocer la situación, elegir la herramienta correcta y, en varios casos, construir el triángulo rectángulo a partir de una descripción, como la diferencia de altura entre dos postes.",
+      "ejemplos": [
+        "Dos postes de 12 m y 32 m de altura están separados por una distancia horizontal de 15 m. La diferencia de altura (20 m) y la distancia horizontal (15 m) forman los catetos de un triángulo rectángulo: la distancia entre las puntas es √(20²+15²) = √625 = 25 m.",
+        "Una cometa vuela con el hilo formando un ángulo de 45° con el suelo; si el hilo mide 10 m, la altura es sen(45°)×10 = 0.71×10 = 7.1 m (aquí se usa trigonometría porque solo conoces un lado y un ángulo)."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un excursionista camina 300 m por un sendero recto que sube con un ángulo de 30° respecto a la horizontal. ¿Qué distancia horizontal ha avanzado?",
+          "opciones": [
+            "261.0 m",
+            "150.0 m",
+            "300.0 m",
+            "87.0 m"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Como conoces la hipotenusa (300 m) y el ángulo, usa coseno: adyacente = cos(30°)×300 = 0.87×300 = 261.0 m."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un poste vertical proyecta una sombra de 15 m cuando el ángulo de elevación del sol es de 60°. Usando tan(60°)≈1.73, la altura del poste es ___ m (1 decimal).",
+          "respuestaCorrecta": "25.9",
+          "retroalimentacion": "altura = tan(60°)×15 = 1.73×15 = 25.9 m."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un bote se aleja de un faro; cuando está a 40 m de la base del faro, el ángulo de depresión desde la punta del faro es de 45°; entonces la altura del faro es de 40 m.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Como tan(45°)=1.00, altura = tan(45°)×40 = 1.00×40 = 40 m."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Dos postes verticales de 12 m y 32 m de altura están separados por una distancia horizontal de 15 m. ¿Cuál es la distancia en línea recta entre las puntas de los dos postes?",
+          "opciones": [
+            "25 m",
+            "20 m",
+            "47 m",
+            "17 m"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "La diferencia de altura es 32-12=20 m; junto con los 15 m horizontales forma un triángulo rectángulo: distancia = √(20²+15²) = √625 = 25 m."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un bote se encuentra a una distancia horizontal de 15 m de la base de un acantilado de 22 m de altura. La distancia en línea recta desde el bote hasta la punta del acantilado es ___ m (1 decimal).",
+          "respuestaCorrecta": "26.6",
+          "retroalimentacion": "distancia = √(15²+22²) = √(225+484) = √709 ≈ 26.6 m."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una cometa vuela con el hilo formando un ángulo de 45° con el suelo; si el hilo mide 10 m, la cometa está a una altura de 7.1 m del suelo.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "altura = sen(45°)×10 = 0.71×10 = 7.1 m."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un dron vuela con un ángulo de elevación de 60° respecto a su punto de despegue y su desplazamiento horizontal es de 7 m. ¿Cuál es la distancia en línea recta (hipotenusa) que ha volado?",
+          "opciones": [
+            "14.0 m",
+            "12.1 m",
+            "7.0 m",
+            "24.5 m"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Como conoces el adyacente y el ángulo, usa coseno: hipotenusa = adyacente/cos(60°) = 7/0.50 = 14.0 m."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una rampa de skate tiene un tramo con ángulo de 30° y una base horizontal de 17.4 m. Usando tan(30°)≈0.58, la altura de la rampa es ___ m (1 decimal).",
+          "respuestaCorrecta": "10.1",
+          "retroalimentacion": "altura = tan(30°)×17.4 = 0.58×17.4 ≈ 10.1 m."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un edificio de 18 m de altura proyecta una sombra de 31.2 m; entonces el ángulo de elevación del sol es mayor a 30°.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "tan(θ) = 18/31.2 ≈ 0.58, que es igual a tan(30°)≈0.58; el ángulo es aproximadamente 30°, no mayor."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación con la medida que resulta al elegir la herramienta correcta (Pitágoras o trigonometría).",
+          "columnaA": [
+            "Dos postes de 12 m y 32 m separados 15 m → distancia entre puntas",
+            "Acantilado de 22 m con un bote a 15 m de la base → distancia a la punta",
+            "Dron con 7 m de desplazamiento horizontal y ángulo de elevación de 60° → hipotenusa"
+          ],
+          "columnaB": [
+            "14.0 m",
+            "25 m",
+            "26.6 m"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "Postes: √(20²+15²)=25 m (Pitágoras). Acantilado: √(15²+22²)≈26.6 m (Pitágoras). Dron: 7/cos(60°)=14.0 m (trigonometría)."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "En un triángulo rectángulo con hipotenusa de 16 cm y un ángulo agudo de 45°, el cateto adyacente a ese ángulo mide 11.4 cm.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "adyacente = cos(45°)×16 = 0.71×16 = 11.4 cm."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "En un triángulo rectángulo con hipotenusa de 12 cm y un ángulo agudo de 60°, ¿cuánto mide el cateto opuesto a ese ángulo?",
+      "opciones": [
+        "10.4 cm",
+        "6.0 cm",
+        "12 cm",
+        "3.6 cm"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "opuesto = sen(60°)×12 = 0.87×12 = 10.4 cm."
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "id": "3S-B1-PDA05-09",
+  "grado": "3°",
+  "trimestre": "2",
+  "numero": 49,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Forma, espacio y medida",
+  "titulo": "Teorema de Pitágoras y Trigonometría 5.9",
+  "contenido": "Rectas y ángulos.",
+  "pda": "Aplica el Teorema de Pitágoras y las razones trigonométricas (seno, coseno, tangente) para resolver problemas de triángulos rectángulos.",
+  "problematizacion": {
+    "contexto": "Desde la ventana de un departamento en el piso 5 de un edificio en la Ciudad de México, Mateo ve la punta de un edificio vecino con un ángulo de elevación de 20° y la base del mismo edificio con un ángulo de depresión de 15°, estando a 30 metros de distancia horizontal del edificio vecino.",
+    "pregunta": "¿Cuál es la altura total del edificio vecino, sumando lo que se ve arriba y abajo de la ventana de Mateo?"
+  },
+  "subtemas": [
+    {
+      "numero": "5.9",
+      "nivelEtiqueta": "Nivel 9 de 10 · Integración",
+      "titulo": "Trayectorias en dos tramos y alturas combinadas",
+      "explicacion": "En esta lección los problemas ya no se resuelven con un solo cálculo: combinarás dos o más subtemas de este PDA en un mismo problema. Por ejemplo, un dron puede subir primero en línea recta con cierto ángulo y luego avanzar en horizontal (usas trigonometría y después Pitágoras), o puedes ver la punta de un edificio hacia arriba y su base hacia abajo desde una misma ventana (usas ángulo de elevación y de depresión juntos para sumar dos alturas).",
+      "ejemplos": [
+        "Un dron sube en línea recta 10 m con un ángulo de elevación de 60° (altura=sen60°×10=8.7 m, avance horizontal=cos60°×10=5.0 m) y luego continúa 7 m en horizontal en la misma dirección (horizontal total=5.0+7=12.0 m). Su distancia en línea recta al punto de despegue es √(12.0²+8.7²)=√(144+75.69)≈√219.69≈14.8 m.",
+        "Desde la ventana de un edificio ves la azotea de un edificio vecino con ángulo de elevación de 30° y su base con ángulo de depresión de 45°, a 18 m de distancia horizontal. La altura del vecino es tan(30°)×18 + tan(45°)×18 = 10.44+18.0 = 28.4 m."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un dron sube en línea recta con un ángulo de elevación de 60° hasta recorrer 10 m (hipotenusa) y luego continúa 7 m en horizontal, en la misma dirección. ¿A qué distancia en línea recta se encuentra de su punto de despegue?",
+          "opciones": [
+            "14.8 m",
+            "17.0 m",
+            "12.0 m",
+            "8.7 m"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Tramo 1: altura=sen60°×10=8.7 m, horizontal=cos60°×10=5.0 m. Horizontal total=5.0+7=12.0 m. Distancia=√(12.0²+8.7²)≈√219.69≈14.8 m."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un excursionista sube un tramo de 14 m (hipotenusa) con ángulo de 30° y luego camina 9 m más en horizontal, en la misma dirección. Su distancia en línea recta al punto de partida es ___ m (1 decimal).",
+          "respuestaCorrecta": "22.3",
+          "retroalimentacion": "Tramo 1: altura=sen30°×14=7.0 m, horizontal=cos30°×14=12.18 m. Horizontal total=12.18+9=21.18 m. Distancia=√(21.18²+7.0²)≈√497.59≈22.3 m."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un edificio mide 22 m de altura. Un dron está a 17 m de distancia horizontal de la base del edificio, volando a la misma altura que la azotea; entonces la distancia en línea recta entre el dron y la base del edificio es de aproximadamente 27.8 m.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "distancia=√(22²+17²)=√(484+289)=√773≈27.8 m."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un teleférico sube con un ángulo de elevación de 45° y recorre 34 m (hipotenusa) hasta la primera torre; después continúa con el mismo ángulo (45°) otros 20 m (hipotenusa) hasta la estación final. ¿Cuál es la altura total ganada desde el inicio hasta la estación final?",
+          "opciones": [
+            "38.3 m",
+            "54.0 m",
+            "24.1 m",
+            "14.2 m"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "altura1=sen45°×34=24.14 m; altura2=sen45°×20=14.2 m; total=24.14+14.2≈38.3 m."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Desde la ventana de un edificio ves la azotea de un edificio vecino más alto con un ángulo de elevación de 30°, y ves la base de ese mismo edificio con un ángulo de depresión de 45°. La distancia horizontal entre los dos edificios es de 18 m. La altura total del edificio vecino es ___ m (1 decimal).",
+          "respuestaCorrecta": "28.4",
+          "retroalimentacion": "altura hacia arriba=tan30°×18=10.44 m; altura hacia abajo=tan45°×18=18.0 m; total=10.44+18.0≈28.4 m."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En el problema del dron con dos tramos (60° por 10 m, luego un tramo horizontal), si el segundo tramo horizontal hubiera sido de 3 m (en vez de 7 m), la nueva distancia en línea recta sería de aproximadamente 8.9 m.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Horizontal total=5.0+3=8.0 m; distancia=√(8.0²+8.7²)=√(64+75.69)=√139.69≈11.8 m, no 8.9 m."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un excursionista sube un tramo de 20 m (hipotenusa) con ángulo de 60°, y luego camina 6 m en horizontal alejándose (en dirección opuesta a la subida). ¿Cuál es su distancia en línea recta al punto de partida?",
+          "opciones": [
+            "17.9 m",
+            "11.4 m",
+            "20.0 m",
+            "23.4 m"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Tramo1: altura=sen60°×20=17.4 m, horizontal=cos60°×20=10.0 m. Horizontal final=10.0-6=4.0 m. Distancia=√(4.0²+17.4²)=√(16+302.76)=√318.76≈17.9 m."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Desde la azotea de un edificio ves la punta de una torre vecina con un ángulo de elevación de 30°, y ves la base de esa misma torre con un ángulo de depresión de 45°. La distancia horizontal entre el edificio y la torre es de 12 m. La altura total de la torre es ___ m (1 decimal).",
+          "respuestaCorrecta": "19.0",
+          "retroalimentacion": "altura hacia arriba=tan30°×12=6.96 m; altura hacia abajo=tan45°×12=12.0 m; total=6.96+12.0≈19.0 m."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un triángulo rectángulo tiene catetos de 33 m y 56 m (hipotenusa 65 m). El seno del ángulo opuesto al cateto de 33 m es de aproximadamente 0.51.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "33²+56²=1089+3136=4225=65²; sen(θ)=33/65≈0.51."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada problema combinado con su resultado final.",
+          "columnaA": [
+            "Dron: 10 m a 60° + 7 m horizontal → distancia final",
+            "Excursionista: 14 m a 30° + 9 m horizontal → distancia final",
+            "Edificio vecino: elevación 30° y depresión 45° a 18 m → altura total"
+          ],
+          "columnaB": [
+            "28.4 m",
+            "14.8 m",
+            "22.3 m"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "Dron≈14.8 m. Excursionista≈22.3 m. Edificio vecino≈28.4 m."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "llenar_frase",
+      "frase": "Una escalera de 17 m de largo (hipotenusa) se apoya con la base a 8 m de la pared. La altura que alcanza en la pared es ___ m.",
+      "respuestaCorrecta": "15",
+      "retroalimentacion": "altura² = 17²-8² = 289-64 = 225, entonces altura = √225 = 15 m."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Un dron vuela a 41 m en línea recta (hipotenusa) del observador, con un desplazamiento horizontal de 9 m; entonces su altura es de 40 m.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "altura² = 41²-9² = 1681-81 = 1600, entonces altura = √1600 = 40 m."
+    }
+  ]
+}

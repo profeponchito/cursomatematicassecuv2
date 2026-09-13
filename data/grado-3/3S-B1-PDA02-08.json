@@ -1,0 +1,164 @@
+{
+  "id": "3S-B1-PDA02-08",
+  "grado": "3°",
+  "trimestre": "2",
+  "numero": 18,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Introducción al álgebra 2.8",
+  "contenido": "Introducción al álgebra.",
+  "pda": "Representa algebraicamente áreas y volúmenes de cuerpos geométricos y calcula el valor de una variable en función de las otras.",
+  "problematizacion": {
+    "contexto": "Un fabricante de tinacos en Celaya diseña un modelo donde, por reglamento de la fábrica, la altura siempre debe ser 4 cm más que el lado de la base cuadrada, para que la tapa encaje correctamente.",
+    "pregunta": "¿Cómo escribes el volumen del tinaco en función de una sola incógnita x, si su altura es siempre 4 cm más que el lado de la base?"
+  },
+  "subtemas": [
+    {
+      "numero": "2.8",
+      "nivelEtiqueta": "Nivel 8 de 10 · Reto avanzado",
+      "titulo": "Cuando la altura depende del lado: una sola incógnita",
+      "explicacion": "En las lecciones anteriores x y h eran datos independientes. Ahora resolverás problemas donde la altura está definida en función del lado (por ejemplo, «la altura es 3 cm más que el lado» o «la altura es el doble del lado»), así que en realidad solo hay una incógnita: x. Debes sustituir la relación dentro de V=x²×h y luego evaluar, tal como se diseñan muchos tinacos y recipientes reales, donde las proporciones entre medidas siguen una regla fija de fabricación.",
+      "formula": "Si h = x + a (o h = k×x), entonces V = x²×(x+a)  [o V = k×x³]",
+      "ejemplos": [
+        "Un tinaco tiene una altura que es 4 cm más que el lado de su base (h=x+4). Si x=6 cm, entonces h=10 cm y V=6²×10=360 cm³.",
+        "Un recipiente tiene h=2x (la altura es el doble del lado). Si x=5 cm, entonces h=10 cm y V=5²×10=250 cm³."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un tinaco tiene una altura h=x+3. Si x=8 cm, entonces h = ___ cm.",
+          "respuestaCorrecta": "11",
+          "retroalimentacion": "h = x+3 = 8+3 = 11 cm."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Siguiendo con el tinaco anterior (h=x+3, x=8 cm), ¿cuál es su volumen?",
+          "opciones": [
+            "704 cm³",
+            "768 cm³",
+            "640 cm³",
+            "352 cm³"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "h = 8+3 = 11; V = 8²×11 = 64×11 = 704 cm³."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un depósito tiene h=x+5. Si x=9 cm, su volumen es V=x²(x+5)=81×14=1134 cm³.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "h = 9+5 = 14; V = 9²×14 = 81×14 = 1134 cm³."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un recipiente tiene una altura igual al doble de su lado (h=2x). Si x=6 cm, ¿cuál es su volumen?",
+          "opciones": [
+            "216 cm³",
+            "288 cm³",
+            "432 cm³",
+            "864 cm³"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "h = 2×6 = 12; V = 6²×12 = 36×12 = 432 cm³."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un tinaco con h=3x (la altura es el triple del lado) y x=4 cm tiene volumen 192 cm³.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "h = 3×4 = 12; V = 4²×12 = 16×12 = 192 cm³."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un contenedor tiene h=x-2 (la altura es 2 cm menos que el lado). Si x=10 cm, entonces h = ___ cm.",
+          "respuestaCorrecta": "8",
+          "retroalimentacion": "h = x-2 = 10-2 = 8 cm."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Para el contenedor anterior (h=x-2, x=10 cm), ¿cuál es su volumen?",
+          "opciones": [
+            "900 cm³",
+            "800 cm³",
+            "700 cm³",
+            "640 cm³"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "h = 10-2 = 8; V = 10²×8 = 100×8 = 800 cm³."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un tinaco tiene h=x+7. Si x=5 cm, su volumen es 60 cm³.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "h = 5+7 = 12; V = 5²×12 = 25×12 = 300 cm³, no 60 cm³."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un tanque cuadrado se diseña con altura igual a la mitad del lado (h=x/2). Si x=12 cm, ¿cuál es su volumen?",
+          "opciones": [
+            "864 cm³",
+            "576 cm³",
+            "720 cm³",
+            "432 cm³"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "h = 12/2 = 6; V = 12²×6 = 144×6 = 864 cm³."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada regla de diseño con el volumen resultante, sabiendo que x=6 cm en los tres casos.",
+          "columnaA": [
+            "h=x+2",
+            "h=2x",
+            "h=x-1"
+          ],
+          "columnaB": [
+            "432",
+            "180",
+            "288"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "h=x+2=8→V=36×8=288. h=2x=12→V=36×12=432. h=x-1=5→V=36×5=180."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada descripción con su volumen.",
+      "columnaA": [
+        "x=3, h=9",
+        "cubo de arista 4 cm",
+        "x=7, h=6"
+      ],
+      "columnaB": [
+        "294",
+        "81",
+        "64"
+      ],
+      "parejasCorrectas": [
+        1,
+        2,
+        0
+      ],
+      "retroalimentacion": "x=3,h=9: V=9×9=81; cubo arista 4: 4³=64; x=7,h=6: V=49×6=294."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Un prisma con base cuadrada de lado x=8 y altura h=4 tiene volumen 256.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "V = 8²×4 = 64×4 = 256."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Un cubo tiene arista 9 cm. Su volumen es ___ cm³.",
+      "respuestaCorrecta": "729",
+      "retroalimentacion": "9³ = 729 cm³."
+    }
+  ]
+}

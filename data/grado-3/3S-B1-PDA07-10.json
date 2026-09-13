@@ -1,0 +1,172 @@
+{
+  "id": "3S-B1-PDA07-10",
+  "grado": "3°",
+  "trimestre": "3",
+  "numero": 70,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Forma, espacio y medida",
+  "titulo": "Área y Volumen de la Esfera 7.10",
+  "contenido": "Circunferencia, círculo y esfera.",
+  "pda": "Calcula el área de la superficie y el volumen de una esfera.",
+  "problematizacion": {
+    "contexto": "Una constructora en León, Guanajuato, diseña un domo hemisférico para un observatorio escolar, con 10 metros de diámetro. Necesitan calcular cuánta lámina curva se requiere, cuánto costará (a $310 el m², con 15% de descuento por compras mayores a 100 m²), y qué radio tendría que tener un domo con el doble de volumen de aire interior para un observatorio más grande.",
+    "pregunta": "¿Qué radio necesitaría el nuevo domo para que su volumen sea el doble del volumen del domo original?"
+  },
+  "subtemas": [
+    {
+      "numero": "7.10",
+      "nivelEtiqueta": "Nivel 10 de 10 · Dominio",
+      "titulo": "Reto final: diseño integral de tanques y domos esféricos",
+      "explicacion": "Esta lección combina todo lo que aprendiste sobre esferas y hemisferios: convertir diámetro a radio, calcular área y volumen, aplicar precios por unidad, trabajar con cápsulas y hemisferios, y razonar con factores de escala, todo dentro de problemas de varios pasos, como los que resuelve un ingeniero real al diseñar un tanque, domo o estructura esférica completa.",
+      "formula": "r=d÷2  |  A=4×π×r²  |  V=(4/3)×π×r³  |  V_hemisferio=(2/3)×π×r³  |  Costo=cantidad×precio unitario   (π≈3.14)",
+      "ejemplos": [
+        "Una empresa fabrica tanques esféricos de gas; un modelo tiene diámetro de 17 m. Radio: 17÷2=8.5 m. Volumen: V=(4/3)×3.14×8.5³=2571.14 m³. Si el gas para llenarlo cuesta $8 por m³, el costo total es 2571.14×8=$20,569.12.",
+        "Un domo hemisférico de una planta industrial tiene radio 11.5 m. Área curva a impermeabilizar: A=2×3.14×11.5²=830.53 m². Si el impermeabilizante cuesta $22 por m², el costo total es 830.53×22=$18,271.66."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un tanque esférico para agua tiene un diámetro de 29 m. ¿Cuál es su volumen? (primero halla el radio; usa π≈3.14)",
+          "opciones": [
+            "12763.58 m³",
+            "2640.74 m³",
+            "6381.79 m³",
+            "25527.16 m³"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "r=29÷2=14.5 m. V=(4/3)×3.14×14.5³=12763.58 m³. (2640.74 m³ es el área, no el volumen)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un tanque esférico con diámetro de 27 m, lleno de agua que cuesta $5 por m³, costará $51,503.85 en total.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: r=27÷2=13.5 m. V=(4/3)×3.14×13.5³=10300.77 m³. Costo=10300.77×5=$51,503.85."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un domo hemisférico tiene un diámetro de 19 m; su volumen de aire es ___ m³ (usa π≈3.14).",
+          "respuestaCorrecta": "1794.77",
+          "retroalimentacion": "r=19÷2=9.5 m. V_hemisferio=(2/3)×3.14×9.5³=1794.77 m³."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Llenar de helio una esfera de radio 6.5 m cuesta $20,695.68 (a $18/m³). Si se construye una esfera con el DOBLE de radio (13 m), manteniendo el mismo precio por m³, ¿aproximadamente cuánto costará llenarla?",
+          "opciones": [
+            "aproximadamente $165,565",
+            "aproximadamente $41,391",
+            "aproximadamente $82,783",
+            "aproximadamente $331,131"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Al duplicar el radio, el volumen (y por lo tanto el costo) se multiplica por 2³=8: 20,695.68×8≈$165,565 (el valor exacto es $165,565.98)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una cápsula formada por un cilindro de radio 6.5 m y altura 14 m, rematada en ambos extremos por semiesferas del mismo radio, tiene un volumen mayor a 3000 m³.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: V_cilindro=3.14×6.5²×14=1857.31 m³. V_esfera(6.5)=1149.76 m³. Total=1857.31+1149.76=3007.07 m³, que sí es mayor a 3000 m³."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Se requiere un tanque esférico que contenga 4846.59 m³ de gas, cuyo llenado cuesta $9 por m³. ¿Cuál es el radio del tanque y cuánto costará llenarlo?",
+          "opciones": [
+            "r=10.5 m, costo=$43,619.31",
+            "r=21 m, costo=$21,809.66",
+            "r=10.5 m, costo=$4,846.59",
+            "r=5.25 m, costo=$87,238.62"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "r=∛(4846.59÷4.1867)≈∛1157.53≈10.5 m. Costo=4846.59×9=$43,619.31."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si el área de la superficie de una esfera se multiplica por 25, su radio se multiplicó por 5.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: √25=5, porque el área depende de r²."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un domo esférico completo (toda la superficie de la esfera, no solo la mitad) con diámetro de 21 m se cubrirá con paneles solares que cuestan $30 por m². El costo total será $___ (usa π≈3.14).",
+          "respuestaCorrecta": "41542.20",
+          "retroalimentacion": "r=21÷2=10.5 m. A=4×3.14×10.5²=1384.74 m². Costo=1384.74×30=$41,542.20."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un tanque esférico industrial tiene un diámetro de 33 m. Debe llenarse de agua (a $6.50/m³) y su superficie exterior debe pintarse (a $40/m²). ¿Cuál es el costo TOTAL (pintura + agua)? (usa π≈3.14)",
+          "opciones": [
+            "$259,024.09",
+            "$136,778.40",
+            "$122,245.69",
+            "$518,048.18"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "r=33÷2=16.5 m. A=4×3.14×16.5²=3419.46 m². V=(4/3)×3.14×16.5³=18807.03 m³. Pintura=3419.46×40=$136,778.40. Agua=18807.03×6.5=$122,245.69. Total=$259,024.09."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada tanque esférico (dado su diámetro) con el volumen correcto (usa π≈3.14).",
+          "columnaA": [
+            "d=34 m (radio=17 m)",
+            "d=32 m (radio=16 m)",
+            "d=23 m (radio=11.5 m)"
+          ],
+          "columnaB": [
+            "6367.40 m³",
+            "20569.09 m³",
+            "17148.59 m³"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "d=34→r=17 m→V=20569.09 m³. d=32→r=16 m→V=17148.59 m³. d=23→r=11.5 m→V=6367.40 m³."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada esfera (dado su radio) con el área de su superficie correspondiente (usa π≈3.14).",
+      "columnaA": [
+        "r=2 cm",
+        "r=8 cm",
+        "r=9 cm"
+      ],
+      "columnaB": [
+        "1017.36 cm²",
+        "50.24 cm²",
+        "803.84 cm²"
+      ],
+      "parejasCorrectas": [
+        1,
+        2,
+        0
+      ],
+      "retroalimentacion": "r=2: A=50.24 cm². r=8: A=803.84 cm². r=9: A=1017.36 cm²."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada esfera (dado su radio) con su volumen correspondiente (usa π≈3.14).",
+      "columnaA": [
+        "r=4 cm",
+        "r=7 cm",
+        "r=10 cm"
+      ],
+      "columnaB": [
+        "4186.67 cm³",
+        "267.95 cm³",
+        "1436.03 cm³"
+      ],
+      "parejasCorrectas": [
+        1,
+        2,
+        0
+      ],
+      "retroalimentacion": "r=4: V=267.95 cm³. r=7: V=1436.03 cm³. r=10: V=4186.67 cm³."
+    }
+  ]
+}

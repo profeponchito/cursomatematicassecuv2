@@ -1,0 +1,169 @@
+{
+  "id": "3S-B1-PDA04-09",
+  "grado": "3°",
+  "trimestre": "2",
+  "numero": 39,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Funciones 4.9",
+  "contenido": "Funciones.",
+  "pda": "Relaciona e interpreta la variación de dos cantidades a partir de su representación tabular, gráfica y algebraica. Explora diversos procedimientos para resolver problemas de reparto proporcional.",
+  "problematizacion": {
+    "contexto": "Dos socios abrieron un puesto de jugos en Cuernavaca: pagan $300 fijos de renta del local cada mes más $4 por cada litro de fruta que compran, y al vender todo el jugo obtuvieron una utilidad que quieren repartir según lo que aportó cada quien para abrir el negocio ($1,200 y $1,800).",
+    "pregunta": "¿Cómo calculas primero el costo total del mes con la cuota fija, y después cómo repartes la utilidad entre los dos socios según su aportación inicial?"
+  },
+  "subtemas": [
+    {
+      "numero": "4.9",
+      "nivelEtiqueta": "Nivel 9 de 10 · Integración",
+      "titulo": "Negocios con cuota fija y reparto proporcional de utilidades",
+      "explicacion": "Esta lección integra dos ideas de este PDA: identificar si un costo sigue una variación directa o tiene un cargo fijo (y=k×x+b), y repartir una utilidad de forma proporcional entre varios socios cuando la aportación de cada uno no es un número redondo. Vas a resolver problemas de varios pasos que combinan ambas herramientas, como sucede en un negocio real.",
+      "formula": "Costos: y = k×x + b   ;   Reparto de utilidad: parte de cada socio = (aportación ÷ suma total) × utilidad",
+      "ejemplos": [
+        "Un puesto de tacos paga renta fija de $2,000 al mes más $15 por cada kilo de carne comprado. Si en un mes compró 140 kg de carne, gastó y=15×140+2000=2,100+2,000=$4,100 en total. Ese mes tres socios habían aportado $8,000, $12,000 y $20,000 para abrir el negocio y la utilidad fue de $6,000. Al socio de $12,000 le toca: suma=$40,000, (12000÷40000)×6000=$1,800."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Tres socios aportaron $7,000, $11,000 y $18,000 para un negocio y repartirán $3,600 de utilidad proporcionalmente. ¿Cuánto le toca al socio de $11,000?",
+          "opciones": [
+            "$1,000",
+            "$1,100",
+            "$1,200",
+            "$900"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Suma=$36,000. (11000÷36000)×3600 = $1,100."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un taller cobra $300 fijos de diagnóstico más $85 por hora de mano de obra (y=85×x+300). El costo de una reparación de 6 horas es $___.",
+          "respuestaCorrecta": "810",
+          "retroalimentacion": "y = 85×6+300 = 510+300 = $810."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un negocio de renta de bicicletas cobra $40 fijos más $18 por hora (y=18×x+40). Si un cliente pagó $184, ¿cuántas horas rentó?",
+          "opciones": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "x = (184-40)÷18 = 144÷18 = 8 horas."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En un negocio con dos socios que aportaron $9,500 y $14,500, si reparten $4,800 de utilidad proporcionalmente, al socio de $14,500 le tocan $2,900.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: suma=$24,000. (14500÷24000)×4800 = $2,900."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Tres amigas aportaron $2,400, $3,600 y $6,000 para un negocio de repostería y ganaron $1,800 de utilidad. A la que aportó $6,000 le corresponden $___.",
+          "respuestaCorrecta": "900",
+          "retroalimentacion": "Suma=$12,000. (6000÷12000)×1800 = $900."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una imprenta cobra $150 de cuota fija más $4.50 por copia (y=4.5×x+150). ¿Cuánto cuesta imprimir 220 copias?",
+          "opciones": [
+            "$1,080",
+            "$1,110",
+            "$1,140",
+            "$1,170"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "y = 4.5×220+150 = 990+150 = $1,140."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada negocio con la parte de utilidad que le corresponde.",
+          "columnaA": [
+            "Aportó $5,000 de $25,000 totales; utilidad $2,000",
+            "Aportó $8,000 de $25,000 totales; utilidad $2,000",
+            "Aportó $12,000 de $25,000 totales; utilidad $2,000"
+          ],
+          "columnaB": [
+            "$640",
+            "$400",
+            "$960"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            2
+          ],
+          "retroalimentacion": "$5,000/$25,000: (5000÷25000)×2000=$400. $8,000/$25,000: (8000÷25000)×2000=$640. $12,000/$25,000: (12000÷25000)×2000=$960."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un plan de internet cobra $299 fijos más $0.50 por GB extra (y=0.5×x+299). Si un usuario pagó $349, consumió 100 GB extra.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: x = (349-299)÷0.5 = 50÷0.5 = 100 GB."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Dos socios aportaron $13,500 y $16,500 a una papelería y reparten $9,000 de utilidad proporcionalmente. ¿Cuánto le toca al socio de $13,500?",
+          "opciones": [
+            "$3,900",
+            "$4,050",
+            "$4,200",
+            "$3,750"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Suma=$30,000. (13500÷30000)×9000 = $4,050."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un electricista cobra $250 de visita más $180 por hora. Si trabajó 5.5 horas, cobró $___ en total.",
+          "respuestaCorrecta": "1240",
+          "retroalimentacion": "y = 180×5.5+250 = 990+250 = $1,240."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "llenar_frase",
+      "frase": "Se reparten 96 dulces proporcionalmente entre 3 niños de edades 1, 3 y 4 años. Al niño de 3 años le tocan ___ dulces.",
+      "respuestaCorrecta": "36",
+      "retroalimentacion": "Suma de edades=8. (3/8)×96 = 36 dulces."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "En una variación directa, si x se reduce a la mitad, y también se reduce a la mitad.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: en variación directa la razón entre ambas cantidades siempre es constante."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada reparto proporcional con el resultado de la parte indicada.",
+      "columnaA": [
+        "$225 en razón 4:5 — parte de razón 4",
+        "$294 en razón 3:4 — parte de razón 3",
+        "$253 en razón 5:6 — parte de razón 5"
+      ],
+      "columnaB": [
+        "$115",
+        "$100",
+        "$126"
+      ],
+      "parejasCorrectas": [
+        1,
+        2,
+        0
+      ],
+      "retroalimentacion": "$225 en razón 4:5 — parte de razón 4 = $100; $294 en razón 3:4 — parte de razón 3 = $126; $253 en razón 5:6 — parte de razón 5 = $115."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Se reparten $1,200 de utilidad proporcionalmente entre dos socios que aportaron $4,000 y $8,000. Al segundo socio (el de $8,000) le corresponden $___.",
+      "respuestaCorrecta": "800",
+      "retroalimentacion": "Suma=12,000. (8000/12000)×1200 = $800."
+    }
+  ]
+}

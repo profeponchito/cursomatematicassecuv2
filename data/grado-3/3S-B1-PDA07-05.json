@@ -1,0 +1,150 @@
+{
+  "id": "3S-B1-PDA07-05",
+  "grado": "3°",
+  "trimestre": "3",
+  "numero": 65,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Forma, espacio y medida",
+  "titulo": "Área y Volumen de la Esfera 7.5",
+  "contenido": "Circunferencia, círculo y esfera.",
+  "pda": "Calcula el área de la superficie y el volumen de una esfera.",
+  "problematizacion": {
+    "contexto": "En la ficha técnica de un domo geodésico que instalarán en un parque de diversiones de Toluca, el fabricante especifica que el domo tiene 18 metros de diámetro. El ingeniero Rodolfo necesita calcular cuánta lona se requiere para cubrirlo, pero uno de sus ayudantes está a punto de sustituir el 18 directamente en la fórmula del área.",
+    "pregunta": "¿Cuál es el radio real que debe usarse en la fórmula del área del domo, y por qué sería un error usar directamente los 18 metros?"
+  },
+  "subtemas": [
+    {
+      "numero": "7.5",
+      "nivelEtiqueta": "Nivel 5 de 10 · Aplicación",
+      "titulo": "Del diámetro al radio: balones, domos y tanques esféricos",
+      "explicacion": "En la vida real casi nunca te dan directamente el radio de un objeto esférico: los fabricantes y las fichas técnicas casi siempre especifican el diámetro (la medida de un extremo a otro, pasando por el centro). Antes de aplicar cualquier fórmula debes dividir el diámetro entre 2 para obtener el radio. Un error muy común es sustituir el diámetro directamente en las fórmulas de área o volumen, lo que produce resultados varias veces mayores a los reales, porque el volumen depende de r³.",
+      "formula": "r = d ÷ 2 ; luego A = 4×π×r² y V = (4/3)×π×r³   (π ≈ 3.14)",
+      "ejemplos": [
+        "Un balón oficial de voleibol tiene diámetro de 26 cm. Su radio es 26÷2 = 13 cm. Su volumen es V = (4/3)×3.14×13³ = (4/3)×3.14×2197 = 9198.11 cm³.",
+        "Un tinaco esférico tiene diámetro de 9 m. Su radio es 9÷2 = 4.5 m. Su área de superficie es A = 4×3.14×4.5² = 4×3.14×20.25 = 254.34 m²."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un domo esférico decorativo tiene un diámetro de 28 cm. ¿Cuál es su radio?",
+          "opciones": [
+            "14 cm",
+            "28 cm",
+            "7 cm",
+            "56 cm"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "El radio es la mitad del diámetro: 28÷2 = 14 cm."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si el diámetro de una pelota es de 34 cm, su radio es de 17 cm.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: r = d÷2 = 34÷2 = 17 cm."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una boya esférica tiene un diámetro de 36 cm. ¿Cuál es su volumen? (usa π≈3.14)",
+          "opciones": [
+            "24416.64 cm³",
+            "12208.32 cm³",
+            "4069.44 cm³",
+            "48833.28 cm³"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Radio = 36÷2 = 18 cm. V = (4/3)×3.14×18³ = 24416.64 cm³. (4069.44 cm³ es el área, no el volumen; 12208.32 cm³ es solo la mitad)."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un tanque esférico tiene un diámetro de 38 m; su radio es ___ m.",
+          "respuestaCorrecta": "19",
+          "retroalimentacion": "r = d÷2 = 38÷2 = 19 m."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Si al calcular el volumen de una esfera se usa por error el diámetro completo en vez del radio (sin dividirlo entre 2), el resultado obtenido es:",
+          "opciones": [
+            "8 veces mayor al volumen real",
+            "2 veces mayor al volumen real",
+            "el volumen real, sin cambio",
+            "la mitad del volumen real"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Como el volumen depende de r³, usar el diámetro (el doble del radio) infla el resultado por 2³ = 8 veces."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una esfera con diámetro de 42 cm tiene un radio de 21 cm y un área de superficie de 5538.96 cm².",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: r=42÷2=21 cm y A=4×3.14×21²=5538.96 cm²."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El área de la superficie de una esfera con diámetro de 44 cm es ___ cm² (primero halla el radio, usa π≈3.14).",
+          "respuestaCorrecta": "6079.04",
+          "retroalimentacion": "r=44÷2=22 cm. A=4×3.14×22²=6079.04 cm²."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una pelota decorativa tiene un diámetro de 46 cm. ¿Cuál es su volumen? (usa π≈3.14)",
+          "opciones": [
+            "50939.17 cm³",
+            "6644.24 cm³",
+            "101878.34 cm³",
+            "25469.59 cm³"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "r=46÷2=23 cm. V=(4/3)×3.14×23³=50939.17 cm³. (6644.24 cm³ es el área; 25469.59 cm³ es solo la mitad del volumen)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un tanque esférico con diámetro de 48 m tiene un volumen de 57876.48 m³.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: r=48÷2=24 m. V=(4/3)×3.14×24³=57876.48 m³."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada esfera (dado su diámetro) con su radio correcto.",
+          "columnaA": [
+            "d = 32 cm",
+            "d = 17 cm",
+            "d = 27 cm"
+          ],
+          "columnaB": [
+            "13.5 cm",
+            "16 cm",
+            "8.5 cm"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "d=32→r=16 cm. d=17→r=8.5 cm. d=27→r=13.5 cm."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Una esfera A tiene radio 2 cm y una esfera B tiene radio 4 cm. ¿Cuál tiene mayor volumen y por cuánto? (usa π≈3.14)",
+      "opciones": [
+        "Esfera B, por 234.46 cm³ más",
+        "Esfera A, por 234.46 cm³ más",
+        "Esfera B, por 33.49 cm³ más",
+        "Ambas son iguales"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "V(A)=33.49 cm³, V(B)=267.95 cm³. Diferencia: 267.95-33.49 = 234.46 cm³, a favor de la esfera B."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Al duplicar el radio de una esfera, su área de superficie se multiplica por 4.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: como A depende de r², al duplicar r el área se multiplica por 2²=4. Ejemplo: A(3)=113.04 m², A(6)=452.16 m², justo 4 veces mayor."
+    }
+  ]
+}

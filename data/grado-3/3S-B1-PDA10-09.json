@@ -1,0 +1,144 @@
+{
+  "id": "3S-B1-PDA10-09",
+  "grado": "3°",
+  "trimestre": "3",
+  "numero": 99,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Estadística con Datos Agrupados 10.9",
+  "contenido": "Interpretación de la información a través de medidas de tendencia central y de dispersión.",
+  "pda": "Calcula medidas de tendencia central para datos agrupados en tablas de frecuencia e interpreta la desviación media de un conjunto de datos.",
+  "problematizacion": {
+    "contexto": "El comité de la Feria de Ciencias ya tiene por separado la media, la mediana exacta, la moda estimada y la desviación media de las edades de los 80 visitantes, pero su maestra asesora les pide entregar un solo reporte que junte las cuatro medidas y explique qué dice cada una sobre el grupo.",
+    "pregunta": "¿Cómo se interpretan juntas la media, la mediana, la moda y la desviación media en un solo reporte sobre las edades de los visitantes?"
+  },
+  "subtemas": [
+    {
+      "numero": "10.9",
+      "nivelEtiqueta": "Nivel 9 de 10 · Integración",
+      "titulo": "Reporte estadístico integral: media, mediana, moda y dispersión",
+      "explicacion": "Ya sabes calcular por separado la media, la mediana exacta, la moda estimada y la desviación media de datos agrupados. Un reporte estadístico real —como el que pide el comité de la Feria de Ciencias en el reto inicial— casi siempre necesita varias de estas medidas juntas, no una sola, para describir completamente un conjunto de datos: dónde se concentra (media, mediana, moda) y qué tan dispersos están (desviación media). Además, comparar estas medidas entre sí ya te empieza a decir algo sobre la forma de la distribución.",
+      "formula": "media = Σ(marca·f)/n ; Me = Li+[(n/2−Fant)/fme]×A ; Mo = Li+[(fmo−fant)/((fmo−fant)+(fmo−fpost))]×A ; DM = Σ[f·|marca−media|]/n",
+      "ejemplos": [
+        "Una cooperativa escolar registra sus ventas diarias (en pesos) durante 60 días de clases: 0-20 (f=6), 20-40 (f=14), 40-60 (f=20), 60-80 (f=15), 80-100 (f=5). Reporte completo: media = 49.67 pesos; mediana exacta = 50 pesos (clase mediana 40-60); moda estimada ≈ 50.91 pesos (misma clase modal 40-60); desviación media ≈ 17.11 pesos. Como media, mediana y moda son muy parecidas, la distribución de las ventas es bastante simétrica alrededor de esos 50 pesos, aunque con bastante dispersión (17.11 de desviación media).",
+        "Una fábrica de zapatos registra los pares producidos por día durante 50 días: 100-150 (f=5), 150-200 (f=12), 200-250 (f=20), 250-300 (f=9), 300-350 (f=4). Reporte completo: media = 220 pares; mediana exacta = 220 pares; moda estimada ≈ 221.05 pares; desviación media = 40.6 pares. Aquí la media y la mediana son prácticamente idénticas, lo que confirma una distribución simétrica; la fábrica produce en promedio 220 pares diarios, con una variación típica de unos 40.6 pares respecto a ese promedio."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "llenar_frase",
+          "frase": "La cooperativa escolar registra sus ventas diarias (pesos) durante 60 días: 0-20 (f=6), 20-40 (f=14), 40-60 (f=20), 60-80 (f=15), 80-100 (f=5). La media de estas ventas, redondeada a dos decimales, es ___.",
+          "respuestaCorrecta": "49.67",
+          "retroalimentacion": "Marcas: 10,30,50,70,90. media=(6·10+14·30+20·50+15·70+5·90)/60≈49.67."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Con la misma tabla de ventas de la cooperativa (0-20:f=6, 20-40:f=14, 40-60:f=20, 60-80:f=15, 80-100:f=5, n=60), ¿cuál es la mediana exacta?",
+          "opciones": [
+            "50",
+            "49.67",
+            "40",
+            "60"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "n/2=30. Acumuladas: 6,20,40,55,60. Clase mediana 40-60 (Li=40, Fant=20, fme=20, A=20). Me=40+[(30−20)/20]×20=50."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Con la misma tabla de ventas de la cooperativa, ¿cuál es la moda estimada, redondeada a dos decimales?",
+          "opciones": [
+            "50.91",
+            "50.00",
+            "49.67",
+            "45.00"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Clase modal 40-60 (fmo=20, Li=40, fant=14, fpost=15, A=20). Mo=40+[(20−14)/((20−14)+(20−15))]×20≈50.91."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La desviación media de las ventas de la cooperativa (misma tabla) es aproximadamente 17.11 pesos.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: media≈49.67. DM=[6|10−49.67|+14|30−49.67|+20|50−49.67|+15|70−49.67|+5|90−49.67|]/60≈17.11."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada medida estadística de las ventas de la cooperativa (misma tabla) con su valor.",
+          "columnaA": [
+            "Media",
+            "Mediana exacta",
+            "Moda estimada"
+          ],
+          "columnaB": [
+            "50.91",
+            "49.67",
+            "50"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "Media≈49.67, mediana=50, moda≈50.91: las tres son parecidas porque la distribución es bastante simétrica."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una fábrica de zapatos registra los pares producidos por día durante 50 días: 100-150 (f=5), 150-200 (f=12), 200-250 (f=20), 250-300 (f=9), 300-350 (f=4). La media de esta producción es ___ pares.",
+          "respuestaCorrecta": "220",
+          "retroalimentacion": "Marcas: 125,175,225,275,325. media=(5·125+12·175+20·225+9·275+4·325)/50=220."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Con la misma tabla de producción de la fábrica de zapatos, la mediana exacta también es 220 pares, igual que la media.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: n/2=25. Acumuladas: 5,17,37,46,50. Clase mediana 200-250 (Li=200, Fant=17, fme=20, A=50). Me=200+[(25−17)/20]×50=220."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Con la misma tabla de producción de la fábrica de zapatos, ¿cuál es la moda estimada, redondeada a dos decimales?",
+          "opciones": [
+            "221.05",
+            "220.00",
+            "225.00",
+            "215.00"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Clase modal 200-250 (fmo=20, Li=200, fant=12, fpost=9, A=50). Mo=200+[(20−12)/((20−12)+(20−9))]×50≈221.05."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Con la misma tabla de producción de la fábrica de zapatos, la desviación media de la producción diaria es ___ pares.",
+          "respuestaCorrecta": "40.6",
+          "retroalimentacion": "DM=[5|125−220|+12|175−220|+20|225−220|+9|275−220|+4|325−220|]/50=2030/50=40.6."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En la fábrica de zapatos, la media (220) y la mediana (220) son prácticamente iguales. ¿Qué te dice esto sobre la forma en que se distribuyen los datos de producción alrededor del centro?",
+          "opciones": [
+            "Que la distribución es bastante simétrica, sin valores muy extremos que jalen el promedio hacia un lado",
+            "Que hay un error en los cálculos, porque la media y la mediana nunca pueden coincidir",
+            "Que todos los días se produjeron exactamente 220 pares",
+            "Que la desviación media también debe valer 0"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Correcto: cuando media y mediana son muy parecidas, es señal de que la distribución no está sesgada por valores atípicos; en el subtema 10.10 verás qué pasa cuando sí los hay."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Datos: 3, 5, 5, 7, 10 (media=6). La desviación media de este conjunto es 2.0.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: distancias 3,1,1,1,4, suma=10, DM=10/5=2.0."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Datos: 2, 4, 6, 8, 10 (media=6). La desviación media de este conjunto es 1.6.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Falso: distancias 4,2,0,2,4, suma=12, DM=12/5=2.4, no 1.6."
+    }
+  ]
+}

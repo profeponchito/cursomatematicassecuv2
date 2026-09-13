@@ -1,0 +1,162 @@
+{
+  "id": "3S-B1-PDA10-08",
+  "grado": "3°",
+  "trimestre": "3",
+  "numero": 98,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Estadística con Datos Agrupados 10.8",
+  "contenido": "Interpretación de la información a través de medidas de tendencia central y de dispersión.",
+  "pda": "Calcula medidas de tendencia central para datos agrupados en tablas de frecuencia e interpreta la desviación media de un conjunto de datos.",
+  "problematizacion": {
+    "contexto": "Retomando el reto de la Feria de Ciencias, el comité organizador ya calculó la media de las edades de los 80 visitantes usando la tabla agrupada, pero todavía les falta saber qué tan dispersas están esas edades respecto al promedio, sin tener la lista original de las 80 edades individuales.",
+    "pregunta": "¿Cómo se calcula la desviación media de las edades usando las marcas de clase y las frecuencias de la tabla agrupada?"
+  },
+  "subtemas": [
+    {
+      "numero": "10.8",
+      "nivelEtiqueta": "Nivel 8 de 10 · Reto avanzado",
+      "titulo": "Desviación media de datos agrupados con marca de clase",
+      "explicacion": "En el subtema 10.4 calculaste la desviación media usando la lista completa de datos individuales. Pero eso es justo lo que NO tienes cuando los datos ya vienen agrupados en una tabla de frecuencias, como en el reto inicial de este PDA (las edades de los 80 visitantes de la Feria de Ciencias). Para resolverlo, usas la marca de clase de cada intervalo como valor representativo, multiplicas su distancia absoluta a la media por la frecuencia del intervalo (para 'contar' esa distancia tantas veces como datos hay en ese intervalo), sumas esos productos y divides entre el total de datos. Esta es la pieza que faltaba para responder por completo la pregunta planteada al inicio del PDA.",
+      "formula": "DM = Σ[f × |marca de clase − media|] / n",
+      "ejemplos": [
+        "Un puesto de mercado registra sus ventas diarias (cientos de pesos) durante 20 días: 0-10 (f=5), 10-20 (f=10), 20-30 (f=4), 30-40 (f=1). Marcas: 5,15,25,35. media = (5·5+15·10+25·4+35·1)/20 = 310/20 = 15.5. DM = [5·|5−15.5| + 10·|15−15.5| + 4·|25−15.5| + 1·|35−15.5|]/20 = [52.5+5+38+19.5]/20 = 115/20 = 5.75.",
+        "Un taller registra la edad (años) de 20 aprendices: 10-20 (f=3), 20-30 (f=9), 30-40 (f=6), 40-50 (f=2). Marcas: 15,25,35,45. media = (15·3+25·9+35·6+45·2)/20 = 570/20 = 28.5. DM = [3·|15−28.5|+9·|25−28.5|+6·|35−28.5|+2·|45−28.5|]/20 = [40.5+31.5+39+33]/20 = 144/20 = 7.2."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Las calificaciones (sobre 100 puntos) de 30 alumnos se agrupan así: 60-70 (f=4), 70-80 (f=10), 80-90 (f=14), 90-100 (f=2). Calculando primero la media y después la desviación media, ¿cuál es la desviación media de este conjunto, redondeada a dos decimales?",
+          "opciones": [
+            "7.02",
+            "5.75",
+            "10.00",
+            "8.25"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Marcas: 65,75,85,95. media=(4·65+10·75+14·85+2·95)/30≈79.67. DM=[4|65−79.67|+10|75−79.67|+14|85−79.67|+2|95−79.67|]/30≈7.02."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El tiempo de espera (minutos) de 30 pacientes en una farmacia se agrupa así: 0-5 (f=6), 5-10 (f=12), 10-15 (f=8), 15-20 (f=4). La desviación media de este conjunto de datos agrupados es ___.",
+          "respuestaCorrecta": "4",
+          "retroalimentacion": "Marcas: 2.5,7.5,12.5,17.5. media=(6·2.5+12·7.5+8·12.5+4·17.5)/30≈9.17. DM=[6|2.5−9.17|+12|7.5−9.17|+8|12.5−9.17|+4|17.5−9.17|]/30=4."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El peso (kg) de 40 costales de arroz se agrupa así: 40-50 (f=5), 50-60 (f=15), 60-70 (f=12), 70-80 (f=8). La desviación media de este conjunto es 8.25 kg.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: marcas 45,55,65,75; media=(5·45+15·55+12·65+8·75)/40=60.75. DM=[5|45−60.75|+15|55−60.75|+12|65−60.75|+8|75−60.75|]/40=8.25."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Los kilómetros recorridos en un día por 40 repartidores se agrupan así: 0-20 (f=7), 20-40 (f=13), 40-60 (f=16), 60-80 (f=4). ¿Cuál es la desviación media de este conjunto?",
+          "opciones": [
+            "15.5",
+            "12.0",
+            "10.0",
+            "20.0"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Marcas: 10,30,50,70. media=(7·10+13·30+16·50+4·70)/40=38.5. DM=[7|10−38.5|+13|30−38.5|+16|50−38.5|+4|70−38.5|]/40=15.5."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La edad (años) de 50 asistentes a una obra de teatro se agrupa así: 10-20 (f=4), 20-30 (f=10), 30-40 (f=18), 40-50 (f=12), 50-60 (f=6). La desviación media de este conjunto, redondeada a dos decimales, es ___.",
+          "respuestaCorrecta": "8.74",
+          "retroalimentacion": "Marcas: 15,25,35,45,55. media=(4·15+10·25+18·35+12·45+6·55)/50=36.2. DM=[4|15−36.2|+10|25−36.2|+18|35−36.2|+12|45−36.2|+6|55−36.2|]/50≈8.74."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Al calcular la desviación media de datos agrupados, se usa la marca de clase de cada intervalo en lugar del valor exacto de cada dato, porque ese valor exacto ya no está disponible una vez que los datos se agruparon.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: la marca de clase es el mejor valor representativo disponible para todo el intervalo."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En la fórmula DM = Σ[f × |marca de clase − media|] / n, ¿por qué se multiplica cada distancia |marca de clase − media| por la frecuencia f del intervalo?",
+          "opciones": [
+            "Porque esa distancia representa a los f datos de ese intervalo, y hay que contarla una vez por cada uno de ellos",
+            "Porque f siempre es igual a la marca de clase",
+            "Porque así se elimina la necesidad de usar valor absoluto",
+            "Porque esa multiplicación sirve para calcular la moda, no la desviación media"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Correcto: como no conoces cada dato individual, usas la marca de clase como si fuera el valor de los f datos de ese intervalo, así que su distancia a la media 'cuenta' f veces en la suma."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada tabla de frecuencias con su desviación media (redondeada a dos decimales cuando aplica).",
+          "columnaA": [
+            "Kg de material reciclado por 30 familias: 0-10(f=8),10-20(f=12),20-30(f=6),30-40(f=4)",
+            "Milímetros de lluvia en 40 días: 0-20(f=10),20-40(f=16),40-60(f=9),60-80(f=5)",
+            "Minutos de ejercicio diario de 30 personas: 0-15(f=5),15-30(f=11),30-45(f=9),45-60(f=5)"
+          ],
+          "columnaB": [
+            "15.85",
+            "12.47",
+            "8"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "Reciclaje: marcas 5,15,25,35; media=17; DM=8. Lluvia: marcas 10,30,50,70; media=34.5; DM=15.85. Ejercicio: marcas 7.5,22.5,37.5,52.5; media=29.5; DM≈12.47."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un gimnasio registra el tiempo (minutos) que permanecen entrenando 35 clientes: 20-40 (f=6), 40-60 (f=14), 60-80 (f=10), 80-100 (f=5). ¿Cuál es la desviación media de este conjunto?",
+          "opciones": [
+            "16",
+            "12",
+            "10",
+            "20"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Marcas: 30,50,70,90. media=(6·30+14·50+10·70+5·90)/35=58. DM=[6|30−58|+14|50−58|+10|70−58|+5|90−58|]/35=16."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si dos conjuntos de datos agrupados tienen medias distintas, comparar directamente sus desviaciones medias (sin convertirlas a porcentaje) siempre te dice de forma justa cuál conjunto es más disperso.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: cuando las medias son muy distintas, conviene comparar la desviación media relativa (DM entre la media, en porcentaje) para hacer una comparación justa; la comparación directa puede ser engañosa."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Tabla: 0-10: f=10, 10-20: f=3, 20-30: f=4, 30-40: f=6, 40-50: f=7 (n=30). ¿Cuál es la clase mediana?",
+      "opciones": [
+        "20-30",
+        "0-10",
+        "10-20",
+        "30-40"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "Acumuladas: 10, 13, 17, 23, 30. n/2=15 se alcanza por primera vez en 17, en el intervalo 20-30."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Calificaciones: 5, 6, 7, 8, 9 (media=7). La desviación media de este conjunto es ___.",
+      "respuestaCorrecta": "1.2",
+      "retroalimentacion": "Distancias: 2,1,0,1,2. Suma=6. DM=6/5=1.2."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Datos: 10, 12, 14, 16, 18 (media=14). ¿Cuál es la desviación media de este conjunto?",
+      "opciones": [
+        "2.4",
+        "2.0",
+        "1.6",
+        "3.0"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "Distancias: 4,2,0,2,4. Suma=12. DM=12/5=2.4."
+    }
+  ]
+}

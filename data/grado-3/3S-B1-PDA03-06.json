@@ -1,0 +1,164 @@
+{
+  "id": "3S-B1-PDA03-06",
+  "grado": "3°",
+  "trimestre": "2",
+  "numero": 26,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Ecuaciones lineales y cuadráticas 3.6",
+  "contenido": "Ecuaciones lineales y cuadráticas.",
+  "pda": "Resuelve ecuaciones de la forma Ax²+Bx+C=0 por factorización y fórmula general. Resuelve problemas cuyo planteamiento es una ecuación cuadrática.",
+  "problematizacion": {
+    "contexto": "Un criador de conejos en Puebla tiene 28 metros de malla para cercar un corral rectangular, y quiere que el área cercada sea de 48 m². Sabe el perímetro y el área que necesita, pero no las dos dimensiones del corral por separado.",
+    "pregunta": "¿Cuáles son el largo y el ancho del corral, si conoces que el perímetro es 28 m y el área debe ser 48 m²?"
+  },
+  "subtemas": [
+    {
+      "numero": "3.6",
+      "titulo": "Perímetro y área juntos: encontrar las dimensiones de un rectángulo",
+      "explicacion": "A diferencia de los problemas de área anteriores, donde ya conocías la relación entre el largo y el ancho, ahora usarás el perímetro para obtener la suma de los dos lados y el área para obtener su producto; con ambos datos planteas la ecuación x² − (suma)x + (producto) = 0, cuyas dos soluciones son precisamente el largo y el ancho. Además, descubrirás que entre todos los rectángulos con el mismo perímetro, el cuadrado es el que tiene mayor área.",
+      "formula": "Si conoces el perímetro P y el área A de un rectángulo: semiperímetro s = P/2 (= largo + ancho); entonces el largo y el ancho son las dos soluciones de x² − s·x + A = 0.",
+      "ejemplos": [
+        "Un salón tiene perímetro 50 m y área 150 m². Semiperímetro = 25. x² - 25x + 150 = 0 → (x-15)(x-10)=0 → x=15 o x=10. Dimensiones: 15 m y 10 m.",
+        "Una sala tiene perímetro 42 m y área 104 m². Semiperímetro = 21. x² - 21x + 104 = 0 → (x-13)(x-8)=0 → x=13 o x=8. Dimensiones: 13 m y 8 m."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un salón rectangular tiene perímetro de 48 m y área de 140 m². ¿Cuáles son sus dimensiones?",
+          "opciones": [
+            "14 m y 10 m",
+            "12 m y 12 m",
+            "20 m y 4 m",
+            "16 m y 8 m"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Semiperímetro=24. x²-24x+140=0 → (x-14)(x-10)=0 → 14 m y 10 m."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un patio rectangular tiene perímetro de 34 m y área de 70 m². El lado más largo mide ___ m.",
+          "respuestaCorrecta": "10",
+          "retroalimentacion": "Semiperímetro=17. x²-17x+70=0 → (x-10)(x-7)=0 → dimensiones 10 m y 7 m. El más largo es 10."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una cancha rectangular tiene perímetro de 60 m y área de 216 m². Sus dimensiones son 18 m y 12 m.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Semiperímetro=30. x²-30x+216=0 → (x-18)(x-12)=0 → 18 m y 12 m. Correcto."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una sala rectangular tiene perímetro de 44 m y área de 112 m². Sus dimensiones son 16 m y 7 m.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Semiperímetro=22. x²-22x+112=0 → (x-14)(x-8)=0 → las dimensiones reales son 14 m y 8 m (16×7=112 pero 16+7=23≠22)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un cartel rectangular tiene perímetro de 56 cm y área de 187 cm². ¿Cuáles son sus dimensiones?",
+          "opciones": [
+            "17 cm y 11 cm",
+            "14 cm y 14 cm",
+            "19 cm y 9 cm",
+            "21 cm y 7 cm"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Semiperímetro=28. x²-28x+187=0 → (x-17)(x-11)=0 → 17 cm y 11 cm."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una bodega rectangular tiene perímetro de 46 m y área de 126 m². El lado más corto mide ___ m.",
+          "respuestaCorrecta": "9",
+          "retroalimentacion": "Semiperímetro=23. x²-23x+126=0 → (x-14)(x-9)=0 → dimensiones 14 m y 9 m. El más corto es 9."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El área de una bodega rectangular es 240 m² y su perímetro es 68 m. ¿Cuáles son sus dimensiones?",
+          "opciones": [
+            "24 m y 10 m",
+            "20 m y 12 m",
+            "30 m y 8 m",
+            "17 m y 17 m"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Semiperímetro=34. x²-34x+240=0 → (x-24)(x-10)=0 → 24 m y 10 m."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada rectángulo (dado su perímetro y área) con sus dimensiones correctas.",
+          "columnaA": [
+            "Perímetro 40 m, área 96 m²",
+            "Perímetro 32 m, área 60 m²",
+            "Perímetro 52 m, área 165 m²"
+          ],
+          "columnaB": [
+            "15 m y 11 m",
+            "10 m y 6 m",
+            "12 m y 8 m"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "x²-20x+96=0→12,8; x²-16x+60=0→10,6; x²-26x+165=0→15,11."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un jardín rectangular con perímetro de 40 m alcanza su área máxima (100 m²) cuando tiene forma de cuadrado, con lado de 10 m.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Semiperímetro=20 (suma fija de largo+ancho). El producto largo×ancho es máximo cuando ambos son iguales: 10 y 10, área=100 m². Con cualquier otro par que sume 20, el área es menor."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una cancha rectangular tiene perímetro de 64 m y área de 252 m². El lado más corto mide ___ m.",
+          "respuestaCorrecta": "14",
+          "retroalimentacion": "Semiperímetro=32. x²-32x+252=0 → (x-18)(x-14)=0 → dimensiones 18 m y 14 m. El más corto es 14."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 6 de 10 · Aplicación avanzada"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Las soluciones de x² + 3x - 40 = 0 son x=5 y x=-8.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: (x-5)(x+8)=x²+3x-40=0, así que x=5 o x=-8."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Usando la fórmula general, ¿cuáles son las soluciones de x² - 11x + 24 = 0?",
+      "opciones": [
+        "x=3, x=8",
+        "x=-3, x=-8",
+        "x=4, x=6",
+        "x=2, x=12"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "x=(11±√(121-96))/2=(11±5)/2 → x=8 o x=3."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada ecuación con sus soluciones.",
+      "columnaA": [
+        "x² + 7x + 12 = 0",
+        "x² - 12x + 32 = 0",
+        "x² + 4x - 45 = 0"
+      ],
+      "columnaB": [
+        "x = 4, x = 8",
+        "x = -9, x = 5",
+        "x = -3, x = -4"
+      ],
+      "parejasCorrectas": [
+        2,
+        0,
+        1
+      ],
+      "retroalimentacion": "x²+7x+12=0 → x=-3,-4; x²-12x+32=0 → x=4,8; x²+4x-45=0 → x=-9,5."
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "id": "3S-B1-PDA11-05",
+  "grado": "3°",
+  "trimestre": "3",
+  "numero": 105,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Probabilidad de la Unión de Eventos 11.5",
+  "contenido": "Azar e incertidumbre en la ocurrencia de eventos cotidianos.",
+  "pda": "Calcula la probabilidad de la unión de dos eventos, distinguiendo eventos mutuamente excluyentes de los que no lo son.",
+  "problematizacion": {
+    "contexto": "En un juego de mesa que Damián y su hermana juegan en su casa de Torreón, lanzan dos dados y avanzan una casilla especial si la suma de los dados es 7 O si la suma es un número par. Damián dice que como hay más sumas pares que impares, debería ganar casi siempre.",
+    "pregunta": "¿Cuál es la probabilidad de que la suma de los dos dados sea 7 o sea un número par, considerando los 36 resultados posibles?"
+  },
+  "subtemas": [
+    {
+      "numero": "11.5",
+      "titulo": "Dos dados: la regla de la suma en un nuevo espacio muestral",
+      "explicacion": "Las lecciones 1 a 4 trabajaron siempre con una baraja de 52 cartas, pero la regla de la unión de eventos aplica a cualquier espacio muestral. Al lanzar dos dados hay 36 resultados posibles (cada combinación ordenada de los dos dados), así que ahora el denominador de las probabilidades cambia y las combinaciones favorables hay que contarlas nuevamente, por ejemplo listando las parejas que suman cierto valor. Esta lección te enseña a identificar si dos eventos definidos sobre la suma de los dados se traslapan comparando directamente los resultados que cumplen cada uno, y no solo por 'sentido común'.",
+      "formula": "Igual que antes: P(A∪B) = P(A) + P(B) si A y B son mutuamente excluyentes; P(A∪B) = P(A) + P(B) − P(A∩B) si no lo son. Lo nuevo es el espacio muestral: 36 resultados en vez de 52 cartas.",
+      "ejemplos": [
+        "Al lanzar dos dados hay 36 resultados posibles. El evento 'la suma es 7' se cumple en 6 de ellos: (1,6),(2,5),(3,4),(4,3),(5,2),(6,1). El evento 'la suma es 11' se cumple en 2: (5,6),(6,5). Ningún resultado da suma 7 y 11 a la vez, así que son mutuamente excluyentes: P(suma 7 ∪ suma 11) = 6/36 + 2/36 = 8/36 = 2/9.",
+        "El evento 'la suma es par' se cumple en 18 de los 36 resultados, y 'la suma es múltiplo de 5' (sumas 5 o 10) se cumple en 7. Los resultados (4,6),(5,5),(6,4) —los que suman 10— cumplen ambos eventos a la vez (10 es par y múltiplo de 5), así que esos 3 resultados son la intersección: P(par ∪ múltiplo de 5) = 18/36 + 7/36 − 3/36 = 22/36 = 11/18."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Se lanzan dos dados de 6 caras y se registra el resultado de cada uno por separado (por ejemplo, (2,5) es distinto de (5,2)). ¿Cuántos resultados posibles hay en total?",
+          "opciones": [
+            "36",
+            "12",
+            "66",
+            "21"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Hay 6 resultados posibles para el primer dado y 6 para el segundo, así que en total hay 6×6 = 36 combinaciones ordenadas."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La suma 7 se puede obtener de ___ maneras distintas al lanzar dos dados: (1,6), (2,5), (3,4), (4,3), (5,2) y (6,1).",
+          "respuestaCorrecta": "6",
+          "retroalimentacion": "Son 6 parejas ordenadas distintas las que suman 7."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Los eventos 'la suma es 7' y 'la suma es 11' son mutuamente excluyentes. ¿Cuánto vale P(suma 7 ∪ suma 11)?",
+          "opciones": [
+            "8/36",
+            "36/36",
+            "4/36",
+            "10/36"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(suma 7 ∪ suma 11) = 6/36 + 2/36 = 8/36 = 2/9."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Los eventos 'la suma es 7' y 'la suma es 11' son mutuamente excluyentes.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: ningún resultado de los 36 posibles da suma 7 y 11 al mismo tiempo."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Los eventos 'la suma es par' y 'la suma es múltiplo de 5' son mutuamente excluyentes.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: los resultados que suman 10 (como (4,6), (5,5) y (6,4)) son pares y múltiplos de 5 a la vez, así que sí se traslapan."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Con P(par) = 18/36, P(múltiplo de 5) = 7/36 y su intersección (suma = 10) = 3/36, ¿cuánto vale P(par ∪ múltiplo de 5)?",
+          "opciones": [
+            "22/36",
+            "25/36",
+            "19/36",
+            "18/36"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(par ∪ múltiplo de 5) = 18/36 + 7/36 − 3/36 = 22/36 = 11/18."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "P(la suma es par) = 18/36 y P(la suma es múltiplo de 5) = 7/36. Como estos eventos se traslapan en los resultados que suman 10, su intersección vale ___/36.",
+          "respuestaCorrecta": "3",
+          "retroalimentacion": "Las tres parejas que suman 10 —(4,6), (5,5) y (6,4)— son la intersección."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El evento A es 'el primer dado muestra 6' (6 resultados posibles) y el evento B es 'la suma es 2' (solo (1,1), 1 resultado). Como ningún resultado con primer dado 6 puede sumar 2, son mutuamente excluyentes. ¿Cuánto vale P(A ∪ B)?",
+          "opciones": [
+            "7/36",
+            "8/36",
+            "6/36",
+            "2/36"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(A ∪ B) = 6/36 + 1/36 = 7/36, porque no hay traslape entre 'primer dado 6' y 'suma 2'."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada par de eventos (al lanzar dos dados) con su clasificación.",
+          "columnaA": [
+            "la suma es 7 / la suma es 11",
+            "la suma es par / la suma es múltiplo de 5",
+            "el primer dado es 6 / la suma es 2"
+          ],
+          "columnaB": [
+            "No mutuamente excluyentes",
+            "Mutuamente excluyentes"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            1
+          ],
+          "retroalimentacion": "suma7/suma11: ningún resultado cumple ambas → mutuamente excluyentes. par/múltiplo de 5: los resultados que suman 10 cumplen ambas → no mutuamente excluyentes. primer dado 6/suma 2: imposible cumplir ambas (la suma mínima con un 6 es 7) → mutuamente excluyentes."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Al cambiar el espacio muestral de una baraja de 52 cartas a dos dados con 36 resultados, ¿qué cambia realmente en la fórmula P(A∪B) = P(A) + P(B) − P(A∩B)?",
+          "opciones": [
+            "El denominador de las probabilidades cambia, pero la lógica de la fórmula es la misma",
+            "La fórmula ya no aplica y hay que usar otra distinta",
+            "Ahora hay que multiplicar las probabilidades en lugar de sumarlas",
+            "Los eventos ya nunca pueden ser mutuamente excluyentes"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "La fórmula de la unión funciona igual sin importar cuál sea el espacio muestral; lo único que cambia es cuántos resultados totales hay y cuáles cumplen cada evento."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 5 de 10 · Aplicación"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "P(rey) = 4/52, P(corazones) = 13/52 y P(rey∩corazones) = 1/52 (el rey de corazones). ¿Cuánto vale P(rey ∪ corazones)?",
+      "opciones": [
+        "16/52",
+        "17/52",
+        "13/52",
+        "4/52"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "P(rey ∪ corazones) = 4/52 + 13/52 − 1/52 = 16/52 = 4/13."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "P(figura, es decir J-Q-K) = 12/52, P(negra) = 26/52 y P(figura∩negra) = 6/52 (las 6 figuras de tréboles y picas). Entonces P(figura ∪ negra) = ___/52.",
+      "respuestaCorrecta": "32",
+      "retroalimentacion": "P(figura ∪ negra) = 12/52 + 26/52 − 6/52 = 32/52 = 8/13."
+    }
+  ]
+}

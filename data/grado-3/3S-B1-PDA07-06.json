@@ -1,0 +1,150 @@
+{
+  "id": "3S-B1-PDA07-06",
+  "grado": "3°",
+  "trimestre": "3",
+  "numero": 66,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Forma, espacio y medida",
+  "titulo": "Área y Volumen de la Esfera 7.6",
+  "contenido": "Circunferencia, círculo y esfera.",
+  "pda": "Calcula el área de la superficie y el volumen de una esfera.",
+  "problematizacion": {
+    "contexto": "El club de astronomía de una secundaria en Querétaro construirá una maqueta esférica del planeta Júpiter de 1.2 m de radio, hueca por fuera pero rellena de aserrín compactado. Necesitan cotizar la pintura del exterior (a $95 el m²) y el aserrín para rellenarla (a $8 el m³).",
+    "pregunta": "¿Cuánto costará en total pintar la maqueta y rellenarla de aserrín?"
+  },
+  "subtemas": [
+    {
+      "numero": "7.6",
+      "nivelEtiqueta": "Nivel 6 de 10 · Aplicación avanzada",
+      "titulo": "Presupuestos con esferas: costos de pintura, relleno y llenado",
+      "explicacion": "Además de calcular el área y el volumen de una esfera, en contextos reales necesitas convertir esas medidas en dinero: multiplicando el área por un precio por unidad de superficie obtienes el costo de recubrir un objeto esférico (pintura, lona, aislante); multiplicando el volumen por un precio por unidad de capacidad obtienes el costo de llenarlo (agua, gas, arena, concreto). Elegir la fórmula correcta según lo que se compra —superficie o contenido— es la clave de esta lección.",
+      "formula": "Costo de recubrir = Área × precio por m²      Costo de llenar = Volumen × precio por m³   (π ≈ 3.14)",
+      "ejemplos": [
+        "Un tinaco esférico de radio 4.5 m se pintará con pintura anticorrosiva que cuesta $60 por m². Área: A=4×3.14×4.5²=254.34 m². Costo total: 254.34×$60 = $15,260.40.",
+        "Un globo se llenará con helio que cuesta $18 por m³; su radio es de 6.5 m. Volumen: V=(4/3)×3.14×6.5³=1149.76 m³. Costo total: 1149.76×$18 = $20,695.68."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un tinaco esférico de radio 4.5 m se pintará con pintura que cuesta $60 por m². ¿Cuánto costará pintar toda su superficie? (usa π≈3.14)",
+          "opciones": [
+            "$15,260.40",
+            "$254.34",
+            "$60.00",
+            "$30,520.80"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "A=4×3.14×4.5²=254.34 m². Costo=254.34×60=$15,260.40. (254.34 es solo el área, sin multiplicar por el precio)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Llenar un globo esférico de radio 6.5 m con helio, a $18 por m³, cuesta $20,695.68 en total.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: V=(4/3)×3.14×6.5³=1149.76 m³. Costo=1149.76×18=$20,695.68."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Cubrir con lona la superficie de una esfera de radio 8.5 m cuesta $___ si la lona cuesta $35 por m² (usa π≈3.14).",
+          "respuestaCorrecta": "31761.10",
+          "retroalimentacion": "A=4×3.14×8.5²=907.46 m². Costo=907.46×35=$31,761.10."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Rellenar de arena decorativa una esfera hueca de radio 10.5 m cuesta $12 por m³. ¿Cuál es el costo total? (usa π≈3.14)",
+          "opciones": [
+            "$58,159.08",
+            "$4,846.59",
+            "$16,616.88",
+            "$116,318.16"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "V=(4/3)×3.14×10.5³=4846.59 m³. Costo=4846.59×12=$58,159.08. ($16,616.88 resulta de usar por error el área en vez del volumen)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si el precio de la pintura baja de $60 a $50 por m² para pintar una esfera de radio 4.5 m, la empresa ahorra $2,543.40 en total.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: A=254.34 m². Ahorro=254.34×(60-50)=254.34×10=$2,543.40."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Llenar de concreto una esfera de radio 9.5 m cuesta $___ si el concreto cuesta $95 por m³ (usa π≈3.14, redondea a 2 decimales).",
+          "respuestaCorrecta": "341006.30",
+          "retroalimentacion": "V=(4/3)×3.14×9.5³=3589.54 m³. Costo=3589.54×95=$341,006.30."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un domo esférico de radio 11.5 m se cubrirá con paneles aislantes (toda la superficie de la esfera completa) que cuestan $28 por m². ¿Cuál es el costo aproximado? (usa π≈3.14)",
+          "opciones": [
+            "$46,509.68",
+            "$1,661.06",
+            "$23,254.84",
+            "$93,019.36"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "A=4×3.14×11.5²=1661.06 m². Costo=1661.06×28=$46,509.68."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El costo de llenar con agua una esfera de radio 13.5 m, a $4 por m³, es mayor a $40,000.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: V=(4/3)×3.14×13.5³=10300.77 m³. Costo=10300.77×4=$41,203.08, que sí es mayor a $40,000."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada esfera (dado su radio) con el costo de pintar su superficie completa a $20 por m² (usa π≈3.14).",
+          "columnaA": [
+            "r = 6.5 m",
+            "r = 8.5 m",
+            "r = 14.5 m"
+          ],
+          "columnaB": [
+            "$52,814.80",
+            "$10,613.20",
+            "$18,149.20"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "r=6.5: A=530.66 m², costo=$10,613.20. r=8.5: A=907.46 m², costo=$18,149.20. r=14.5: A=2640.74 m², costo=$52,814.80."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un tanque esférico de radio 10.5 m se pintará por fuera (a $22 por m²) y se llenará de agua por dentro (a $7 por m³). ¿Cuál es el costo TOTAL (pintura + agua)? (usa π≈3.14)",
+          "opciones": [
+            "$64,390.41",
+            "$30,464.28",
+            "$33,926.13",
+            "$94,854.69"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Pintura: A=1384.74 m²×22=$30,464.28. Agua: V=4846.59 m³×7=$33,926.13. Total=$30,464.28+$33,926.13=$64,390.41."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "llenar_frase",
+      "frase": "Una pelota esférica (como una de playa) tiene radio de 12 cm. Su volumen es ___ cm³ (usa π≈3.14, redondea a 2 decimales).",
+      "respuestaCorrecta": "7234.56",
+      "retroalimentacion": "V = (4/3)×3.14×12³ = (4/3)×3.14×1728 = 7234.56 cm³."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Un domo esférico tiene radio de 10 m. ¿Cuál es su área de superficie? (usa π≈3.14)",
+      "opciones": [
+        "1256 m²",
+        "4186.67 m²",
+        "2512 m²",
+        "628 m²"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "A = 4×3.14×10² = 4×3.14×100 = 1256 m². (4186.67 m³ es el volumen de ese mismo domo, no su área)."
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "id": "3S-B1-PDA06-02",
+  "grado": "3°",
+  "trimestre": "2",
+  "numero": 52,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Forma, espacio y medida",
+  "titulo": "Áreas y Volúmenes de Cuerpos Geométricos 6.2",
+  "contenido": "Construcción y propiedades de las figuras planas y cuerpos.",
+  "pda": "Calcula el área total y el volumen de prismas, pirámides y cilindros, y relaciona sus vistas con su representación tridimensional.",
+  "problematizacion": {
+    "contexto": "Una fábrica de empaques en Guadalajara produce cajas de cartón rectangulares de 40 cm de largo, 25 cm de ancho y 15 cm de altura, y necesita saber cuánto cartón exacto se usa para forrar cada caja por todos sus lados.",
+    "pregunta": "¿Cuál es el área total de la caja rectangular, sumando las áreas de sus 6 caras?"
+  },
+  "subtemas": [
+    {
+      "numero": "6.2",
+      "titulo": "Área total de prismas",
+      "explicacion": "El área total (o superficie total) de un prisma es la suma de las áreas de TODAS sus caras, tal como las ves en su desarrollo plano: las 2 bases más todas las caras laterales. Para un prisma rectangular (una caja) con largo l, ancho a y altura h, hay 3 pares de caras rectangulares iguales: la de arriba y abajo (l×a), la de al frente y atrás (l×h), y la de los dos lados (a×h). Por eso cada término se multiplica por 2.",
+      "formula": "Área total de un prisma rectangular = 2×(largo×ancho) + 2×(largo×altura) + 2×(ancho×altura)",
+      "ejemplos": [
+        "Caja de 5×4×3 cm: AT = 2(5×4) + 2(5×3) + 2(4×3) = 2(20) + 2(15) + 2(12) = 40+30+24 = 94 cm².",
+        "Caja de 8×3×2 cm: AT = 2(8×3) + 2(8×2) + 2(3×2) = 48+32+12 = 92 cm²."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el área total de una caja de 5 cm de largo, 4 cm de ancho y 3 cm de altura?",
+          "opciones": [
+            "94 cm²",
+            "60 cm²",
+            "47 cm²",
+            "120 cm²"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "AT = 2(5×4)+2(5×3)+2(4×3) = 40+30+24 = 94 cm²."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El área total de una caja de 6 cm de largo, 2 cm de ancho y 4 cm de altura es 88 cm².",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: AT = 2(6×2)+2(6×4)+2(2×4) = 24+48+16 = 88 cm²."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El área total de una caja de 8×3×2 cm es ___ cm².",
+          "respuestaCorrecta": "92",
+          "retroalimentacion": "AT = 2(8×3)+2(8×2)+2(3×2) = 48+32+12 = 92 cm²."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el área total de una caja de 7 cm de largo, 5 cm de ancho y 2 cm de altura?",
+          "opciones": [
+            "70 cm²",
+            "94 cm²",
+            "118 cm²",
+            "140 cm²"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "AT = 2(7×5)+2(7×2)+2(5×2) = 70+28+20 = 118 cm²."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El área total de un cubo de 4 cm de arista es 96 cm².",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: en un cubo las 3 dimensiones son iguales, AT = 2(4×4)+2(4×4)+2(4×4) = 3×32 = 96 cm²."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El área total de una caja de 10×3×3 cm es ___ cm².",
+          "respuestaCorrecta": "138",
+          "retroalimentacion": "AT = 2(10×3)+2(10×3)+2(3×3) = 60+60+18 = 138 cm²."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El área total de una caja de 6×6×2 cm es 130 cm².",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: AT = 2(6×6)+2(6×2)+2(6×2) = 72+24+24 = 120 cm², no 130 cm²."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el área total de una caja de 9×4×3 cm?",
+          "opciones": [
+            "108 cm²",
+            "132 cm²",
+            "150 cm²",
+            "165 cm²"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "AT = 2(9×4)+2(9×3)+2(4×3) = 72+54+24 = 150 cm²."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada caja con su área total correcta.",
+          "columnaA": [
+            "Caja 5×5×5 cm",
+            "Caja 12×2×3 cm",
+            "Caja 8×4×5 cm"
+          ],
+          "columnaB": [
+            "132 cm²",
+            "184 cm²",
+            "150 cm²"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "5×5×5: AT=3×2(25)=150 cm². 12×2×3: AT=2(24)+2(36)+2(6)=48+72+12=132 cm². 8×4×5: AT=2(32)+2(40)+2(20)=64+80+40=184 cm²."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El área total de una caja de 6×5×4 cm es ___ cm².",
+          "respuestaCorrecta": "148",
+          "retroalimentacion": "AT = 2(6×5)+2(6×4)+2(5×4) = 60+48+40 = 148 cm²."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 2 de 10 · Intermedio"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "llenar_frase",
+      "frase": "El desarrollo plano de un cilindro tiene 2 círculos y 1 ___.",
+      "respuestaCorrecta": "rectángulo",
+      "retroalimentacion": "La superficie lateral del cilindro, al desenrollarse, forma un rectángulo."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "El rectángulo del desarrollo plano de un cilindro corresponde a su superficie lateral.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: las 2 bases son los círculos, y la superficie lateral es el rectángulo."
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "id": "3S-B1-PDA07-08",
+  "grado": "3°",
+  "trimestre": "3",
+  "numero": 68,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Forma, espacio y medida",
+  "titulo": "Área y Volumen de la Esfera 7.8",
+  "contenido": "Circunferencia, círculo y esfera.",
+  "pda": "Calcula el área de la superficie y el volumen de una esfera.",
+  "problematizacion": {
+    "contexto": "En una juguetería de Puebla fabrican canicas de vidrio de dos tamaños: las normales y unas 'gigantes' cuyo radio es el doble del de las normales. Don Melquiades, el dueño, quiere saber cuántas veces más vidrio se necesita para hacer una canica gigante que una normal, sin calcular el volumen de cada una por separado.",
+    "pregunta": "Si el radio de la canica gigante es el doble del de la normal, ¿cuántas veces mayor es su volumen?"
+  },
+  "subtemas": [
+    {
+      "numero": "7.8",
+      "nivelEtiqueta": "Nivel 8 de 10 · Reto avanzado",
+      "titulo": "Razones de escala: cómo cambian área y volumen al modificar el radio",
+      "explicacion": "Ya viste que si duplicas el radio de una esfera, su volumen se vuelve 8 veces mayor. Ahora generalizamos esa idea: si el radio se multiplica por cualquier factor k, el área se multiplica por k² y el volumen por k³ (y al revés: si conoces cuántas veces cambió el volumen o el área, puedes encontrar el factor de cambio del radio sacando raíz cúbica o raíz cuadrada). Esto te permite comparar o rediseñar esferas sin recalcular todo desde cero, incluso con aumentos por porcentaje.",
+      "formula": "Si el radio ×k → Área ×k²  y  Volumen ×k³      (factor de radio = √(factor de área) = ∛(factor de volumen))",
+      "ejemplos": [
+        "Si el radio de una esfera aumenta un 50% (se multiplica por 1.5), su volumen se multiplica por 1.5³=3.375. Ejemplo: una esfera de radio 6.5 cm tiene V=1149.76 cm³; al aumentar su radio a 6.5×1.5=9.75 cm, su nuevo volumen es V=(4/3)×3.14×9.75³=3880.45 cm³, muy cercano a 1149.76×3.375=3880.44 cm³ (la pequeña diferencia es por el redondeo).",
+        "Si el área de una esfera se multiplica por 9, el radio se multiplicó por √9=3. Ejemplo: una esfera de radio 4.5 m tiene A=254.34 m²; una esfera con 9 veces más área (2289.06 m²) tiene efectivamente un radio de 4.5×3=13.5 m, y en efecto A(13.5 m)=2289.06 m²."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Si el radio de una esfera se multiplica por 4, ¿por qué factor se multiplica su volumen?",
+          "opciones": [
+            "64",
+            "16",
+            "4",
+            "8"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "El volumen depende de r³, así que el factor es 4³=64."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si el radio de una esfera se reduce a la mitad, su área de superficie se reduce a la cuarta parte.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: el área depende de r², y (1/2)²=1/4."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si el volumen de una esfera se multiplicó por 27, el radio se multiplicó por ___.",
+          "respuestaCorrecta": "3",
+          "retroalimentacion": "∛27=3, porque el volumen depende de r³."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una esfera A tiene radio r y una esfera B tiene radio 5r. ¿Cuántas veces más volumen tiene la esfera B respecto a la esfera A?",
+          "opciones": [
+            "125 veces",
+            "25 veces",
+            "5 veces",
+            "15 veces"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "El factor de volumen es 5³=125."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si el área de la superficie de una esfera se multiplica por 16, su radio se multiplicó por 4.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: √16=4, porque el área depende de r²."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una esfera de radio 6.5 cm tiene un volumen de 1149.76 cm³. Si se construye otra esfera con el doble de radio (13 cm), sin recalcular todo, ¿cuál será aproximadamente su nuevo volumen?",
+          "opciones": [
+            "aproximadamente 9198 cm³",
+            "aproximadamente 2300 cm³",
+            "aproximadamente 4599 cm³",
+            "aproximadamente 575 cm³"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Al duplicar el radio, el volumen se multiplica por 2³=8: 1149.76×8≈9198 cm³ (el valor exacto es 9198.11 cm³)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si el radio de una esfera se multiplica por 10, su volumen se multiplica por 1000.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 10³=1000."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El área de la superficie de una esfera pasó de 530.66 cm² a 4775.94 cm² al aumentar su radio. ¿Por qué factor se multiplicó el radio?",
+          "opciones": [
+            "3",
+            "9",
+            "4.5",
+            "1.5"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "El área se multiplicó por 4775.94÷530.66=9, y como el área depende de r², el factor del radio es √9=3."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si el radio de una esfera aumenta un 20% (se multiplica por 1.2), su volumen se multiplica aproximadamente por ___ (redondea a 2 decimales).",
+          "respuestaCorrecta": "1.73",
+          "retroalimentacion": "1.2³=1.728, que redondeado a 2 decimales es 1.73."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada cambio de radio con el factor por el que se multiplica el volumen.",
+          "columnaA": [
+            "Radio ×2",
+            "Radio ×3",
+            "Radio ×5"
+          ],
+          "columnaB": [
+            "125",
+            "8",
+            "27"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "Radio×2→volumen×8. Radio×3→volumen×27. Radio×5→volumen×125."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Una esfera A tiene radio 5 cm y una esfera B tiene radio 10 cm. ¿Cuánto mayor es el área de B respecto a la de A? (usa π≈3.14)",
+      "opciones": [
+        "942 cm² más",
+        "314 cm² más",
+        "1256 cm² más",
+        "628 cm² más"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "A(5)=314 cm², A(10)=1256 cm². Diferencia: 1256-314 = 942 cm²."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Si el radio de una esfera se triplica, su volumen se multiplica por 27.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: como V depende de r³, al triplicar r el volumen se multiplica por 3³=27. Ejemplo: V(2)=33.49 cm³, V(6)=904.32 cm³, aproximadamente 27 veces mayor."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Una esfera con radio de 1 cm tiene un volumen de ___ cm³ (usa π≈3.14, redondea a 2 decimales).",
+      "respuestaCorrecta": "4.19",
+      "retroalimentacion": "V = (4/3)×3.14×1³ = 4.19 cm³ (redondeado)."
+    }
+  ]
+}

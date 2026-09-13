@@ -1,0 +1,158 @@
+{
+  "id": "3S-B1-PDA05-10",
+  "grado": "3°",
+  "trimestre": "2",
+  "numero": 50,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Forma, espacio y medida",
+  "titulo": "Teorema de Pitágoras y Trigonometría 5.10",
+  "contenido": "Rectas y ángulos.",
+  "pda": "Aplica el Teorema de Pitágoras y las razones trigonométricas (seno, coseno, tangente) para resolver problemas de triángulos rectángulos.",
+  "problematizacion": {
+    "contexto": "Un piloto de avioneta que despega de una pista en Hermosillo recorre 4.5 km en línea recta antes de nivelarse, y calcula que la razón entre la altura que ganó y la distancia recorrida corresponde exactamente al valor de la tangente de uno de los ángulos notables que ya conoce.",
+    "pregunta": "¿A qué ángulo notable (30°, 45° o 60°) despegó la avioneta, y qué altura en metros ganó durante esos 4.5 km, tomando en cuenta que hay que convertir km a m?"
+  },
+  "subtemas": [
+    {
+      "numero": "5.10",
+      "nivelEtiqueta": "Nivel 10 de 10 · Dominio",
+      "titulo": "Problemas integrales de Pitágoras y trigonometría",
+      "explicacion": "Esta es la lección de dominio: combina todo lo aprendido en el PDA —ángulos notables y no notables, Pitágoras, perímetros y trayectorias en varios tramos— en problemas con más pasos y datos menos redondos, incluyendo conversión de unidades (km a m). También aprenderás a hacer el camino inverso: si conoces el valor de una razón trigonométrica, reconocer a qué ángulo notable corresponde, en vez de solo calcular con el ángulo dado.",
+      "formula": "Lectura inversa con la tabla de ángulos notables: si sen(θ)=0.50 → θ=30°; si tan(θ)=1.73 → θ=60°; si cos(θ)=0.71 → θ=45°",
+      "ejemplos": [
+        "Un excursionista sube un tramo de 18 m (hipotenusa) a 45° y luego otro de 22 m (hipotenusa) a 60°. Altura total = sen45°×18 + sen60°×22 = 12.78+19.14 = 31.9 m; horizontal total = cos45°×18 + cos60°×22 = 12.78+11.0 = 23.8 m; distancia en línea recta desde el inicio = √(23.8²+31.9²) ≈ 39.8 m.",
+        "Una rampa cumple que, por cada 12 m de longitud (hipotenusa), sube 6 m de altura, es decir sen(θ)=6/12=0.50. Como sen(30°)≈0.50, el ángulo de inclinación de la rampa es de 30°."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un dron sube en línea recta con un ángulo de elevación de 35° recorriendo 45 m (hipotenusa). Usando cos(35°)≈0.82, ¿a qué distancia horizontal se aleja del punto de despegue?",
+          "opciones": [
+            "36.9 m",
+            "25.7 m",
+            "45.0 m",
+            "36.0 m"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "horizontal = cos(35°)×45 = 0.82×45 = 36.9 m."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un ingeniero mide que el cable tensor de una torre de transmisión forma un ángulo de 65° con el suelo y mide 0.052 km de largo. Usando sen(65°)≈0.91, la altura a la que el cable llega a la torre es ___ m (1 decimal).",
+          "respuestaCorrecta": "47.3",
+          "retroalimentacion": "0.052 km=52 m; altura=sen(65°)×52=0.91×52≈47.3 m."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un excursionista sube un primer tramo de 18 m (hipotenusa) con ángulo de 45°, y luego un segundo tramo de 22 m (hipotenusa) con ángulo de 60°, ambos en la misma dirección horizontal. Su altura total ganada es de aproximadamente 31.9 m.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "altura1=sen45°×18=12.78 m; altura2=sen60°×22=19.14 m; total=12.78+19.14≈31.9 m."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Retomando al excursionista del reactivo anterior (tramo de 18 m a 45° y tramo de 22 m a 60°, misma dirección), ¿a qué distancia en línea recta se encuentra de su punto de partida al llegar a la cima?",
+          "opciones": [
+            "39.8 m",
+            "31.9 m",
+            "23.8 m",
+            "55.7 m"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "horizontal total=cos45°×18+cos60°×22=12.78+11.0=23.8 m; altura total=31.9 m; distancia=√(23.8²+31.9²)≈√1584.05≈39.8 m."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una rampa de acceso cumple que, por cada 12 m de longitud en línea recta (hipotenusa), gana exactamente 6 m de altura, es decir sen(θ)=6/12=0.50. Usando la tabla de ángulos notables, el ángulo de inclinación de la rampa es de ___ °.",
+          "respuestaCorrecta": "30",
+          "retroalimentacion": "sen(θ)=0.50 corresponde a sen(30°)≈0.50, así que θ=30°."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si en un triángulo rectángulo tan(θ) = 1.73, entonces el ángulo θ es aproximadamente 60°.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "tan(60°)≈1.73, así que θ≈60°."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una tirolesa tiene una inclinación de 20° respecto a la horizontal y una longitud total de 85 m. Usando sen(20°)≈0.34 y cos(20°)≈0.94, ¿cuál es la suma del desnivel (altura) y la distancia horizontal que recorre un pasajero?",
+          "opciones": [
+            "108.8 m",
+            "85.0 m",
+            "28.9 m",
+            "79.9 m"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "desnivel=sen(20°)×85=0.34×85=28.9 m; horizontal=cos(20°)×85=0.94×85=79.9 m; suma=28.9+79.9=108.8 m."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un terreno triangular rectángulo tiene un ángulo de 35° y una hipotenusa de 60 m. Usando sen(35°)≈0.57 y cos(35°)≈0.82, su perímetro es ___ m (1 decimal).",
+          "respuestaCorrecta": "143.4",
+          "retroalimentacion": "catetos: 0.57×60=34.2 m y 0.82×60=49.2 m; perímetro=60+34.2+49.2=143.4 m."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una torre de comunicaciones tiene un cable tensor que llega al suelo a 0.084 km de la base; si el cable mide 0.085 km, entonces la altura de la torre es de 0.013 km (13 m).",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "En metros: base=84 m, cable=85 m; altura=√(85²-84²)=√(7225-7056)=√169=13 m=0.013 km."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación de dominio con su resultado.",
+          "columnaA": [
+            "Rampa donde sen(θ)=6/12=0.50 → ángulo de inclinación",
+            "Excursionista: tramos de 18 m a 45° y 22 m a 60° → distancia recta total desde el inicio",
+            "Tirolesa de 85 m a 20° → suma del desnivel y la distancia horizontal"
+          ],
+          "columnaB": [
+            "108.8 m",
+            "30°",
+            "39.8 m"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "Rampa: θ=30°. Excursionista: ≈39.8 m. Tirolesa: 28.9+79.9=108.8 m."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Un salvavidas ve un bote con un ángulo de depresión de 60°. Si el bote está a 4 m de distancia horizontal de la base del puesto de vigilancia, ¿a qué altura está el puesto?",
+      "opciones": [
+        "6.9 m",
+        "4.0 m",
+        "2.3 m",
+        "6.0 m"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "altura = tan(60°)×4 = 1.73×4 = 6.9 m."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada situación con la altura que le corresponde.",
+      "columnaA": [
+        "Rampa (hipotenusa) de 41 m con desplazamiento horizontal de 9 m → altura",
+        "Ángulo de elevación de 30°, hipotenusa de 24 m → altura",
+        "Ángulo de depresión de 60°, distancia horizontal de 12 m → altura"
+      ],
+      "columnaB": [
+        "12.0 m",
+        "40 m",
+        "20.8 m"
+      ],
+      "parejasCorrectas": [
+        1,
+        0,
+        2
+      ],
+      "retroalimentacion": "9²+40²=81+1600=1681=41², altura=40 m. sen(30°)×24=0.50×24=12.0 m. tan(60°)×12=1.73×12=20.8 m (redondeado)."
+    }
+  ]
+}

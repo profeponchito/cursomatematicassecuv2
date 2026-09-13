@@ -1,0 +1,144 @@
+{
+  "id": "3S-B1-PDA09-06",
+  "grado": "3°",
+  "trimestre": "3",
+  "numero": 86,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Muestras y Análisis Crítico de Gráficas 9.6",
+  "contenido": "Obtención y representación de información.",
+  "pda": "Distingue población y muestra, y analiza críticamente gráficas estadísticas, incluyendo gráficas que pueden inducir a error.",
+  "problematizacion": {
+    "contexto": "Una secundaria en Saltillo tiene 300 alumnos de primer grado, 250 de segundo y 200 de tercero (750 en total), y el consejo estudiantil quiere tomar una muestra de 75 alumnos para una encuesta sobre las cooperativas escolares, cuidando que ningún grado quede sobre ni subrepresentado.",
+    "pregunta": "¿Cuántos alumnos de cada grado (1°, 2° y 3°) debería incluir la muestra estratificada de 75 alumnos, en proporción al tamaño de cada grado?"
+  },
+  "subtemas": [
+    {
+      "numero": "9.6",
+      "nivelEtiqueta": "Nivel 6 de 10 · Aplicación avanzada",
+      "titulo": "Muestreo aleatorio estratificado: repartir la muestra proporcionalmente entre grupos",
+      "explicacion": "Cuando una población tiene subgrupos (estratos) de tamaños muy distintos —como grados escolares, turnos de trabajo o regiones—, un muestreo aleatorio simple podría, por pura casualidad, dejar fuera o subrepresentar a un subgrupo pequeño. El muestreo estratificado corrige esto dividiendo la población en estratos y tomando de cada uno una cantidad de la muestra proporcional a su tamaño, para que ningún grupo quede sobre ni subrepresentado.",
+      "formula": "Muestra por estrato = (tamaño del estrato ÷ tamaño total de la población) × tamaño total de la muestra",
+      "ejemplos": [
+        "Una secundaria tiene 1,000 alumnos: 420 en 1°, 340 en 2° y 240 en 3°. Se quiere una muestra estratificada de 100 alumnos. Por regla de proporción: 1° → (420÷1,000)×100=42; 2° → (340÷1,000)×100=34; 3° → (240÷1,000)×100=24. En total: 42+34+24=100, tal como se pidió.",
+        "Una empresa tiene 750 empleados: 450 en el turno matutino y 300 en el vespertino. Para una muestra estratificada de 60 empleados: matutino → (450÷750)×60=36; vespertino → (300÷750)×60=24. Suman los 60 solicitados."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una preparatoria tiene 1,600 alumnos: 900 mujeres y 700 hombres. Se planea una muestra estratificada de 80 alumnos. ¿Cuántas mujeres debe incluir la muestra?",
+          "opciones": [
+            "45 mujeres",
+            "35 mujeres",
+            "40 mujeres",
+            "50 mujeres"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(900 ÷ 1,600) × 80 = 45 mujeres."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En un muestreo estratificado, cada subgrupo (estrato) aporta a la muestra una cantidad proporcional a su tamaño dentro de la población total.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: esa proporcionalidad es justo lo que distingue al muestreo estratificado de uno aleatorio simple."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En el muestreo estratificado, la población se divide primero en subgrupos llamados ___ antes de tomar la muestra de cada uno.",
+          "respuestaCorrecta": "estratos",
+          "retroalimentacion": "Cada uno de esos subgrupos, definidos por una característica común, se llama estrato."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un hospital tiene 2,000 pacientes: 1,200 son adultos y 800 son adultos mayores. Se toma una muestra estratificada de 150 pacientes. ¿Cuántos deben ser adultos mayores?",
+          "opciones": [
+            "60 pacientes",
+            "90 pacientes",
+            "75 pacientes",
+            "50 pacientes"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(800 ÷ 2,000) × 150 = 60 pacientes adultos mayores."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una ciudad tiene 12,000 habitantes en 3 colonias: A con 5,000, B con 4,000 y C con 3,000. Para una muestra estratificada de 240 personas, a la colonia C le corresponden 80 personas.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: (3,000 ÷ 12,000) × 240 = 60 personas, no 80."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una fábrica tiene 1,800 trabajadores: 1,080 en el área de producción y 720 en administración. Para una muestra estratificada de 100 trabajadores, al área de producción le corresponden ___ trabajadores.",
+          "respuestaCorrecta": "60",
+          "retroalimentacion": "(1,080 ÷ 1,800) × 100 = 60 trabajadores."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un club deportivo tiene 500 socios: 300 practican fútbol y 200 practican basquetbol. Se decide tomar una muestra estratificada de 50 socios. ¿Cuántos socios de basquetbol debe incluir la muestra?",
+          "opciones": [
+            "20 socios",
+            "30 socios",
+            "25 socios",
+            "15 socios"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(200 ÷ 500) × 50 = 20 socios de basquetbol."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada caso de muestreo estratificado con la cantidad correcta que corresponde al primer subgrupo mencionado.",
+          "columnaA": [
+            "Escuela de 800 alumnos: 500 en secundaria y 300 en primaria; muestra total de 40",
+            "Empresa de 900 empleados: 600 en ventas y 300 en logística; muestra total de 90",
+            "Comunidad de 2,500 personas: 1,500 adultos y 1,000 jóvenes; muestra total de 100"
+          ],
+          "columnaB": [
+            "60 empleados de ventas",
+            "25 alumnos de secundaria",
+            "60 adultos"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            2
+          ],
+          "retroalimentacion": "(500÷800)×40=25 alumnos de secundaria. (600÷900)×90=60 empleados de ventas. (1,500÷2,500)×100=60 adultos."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El muestreo estratificado es útil cuando la población tiene subgrupos de tamaños muy distintos que un muestreo aleatorio simple podría representar mal por pura casualidad.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: al fijar de antemano cuántos elementos aporta cada subgrupo, se evita que el azar deje fuera o subrepresente a un grupo pequeño."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una universidad tiene 6,000 estudiantes: 3,600 en licenciatura y 2,400 en posgrado. Se planea una muestra estratificada de 300 estudiantes. ¿Cuántos deben ser de posgrado?",
+          "opciones": [
+            "120 estudiantes",
+            "180 estudiantes",
+            "150 estudiantes",
+            "100 estudiantes"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(2,400 ÷ 6,000) × 300 = 120 estudiantes de posgrado."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "llenar_frase",
+      "frase": "Antes de aplicar una encuesta, se debe definir con claridad la variable de estudio, la población objetivo y la forma de elegir la ___.",
+      "respuestaCorrecta": "muestra",
+      "retroalimentacion": "Esos tres elementos son la base de una encuesta bien diseñada."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Una muestra elegida solo entre las personas más fáciles de contactar (por ejemplo, solo amigos y familiares) suele estar sesgada.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: elegir solo a quienes son fáciles de contactar deja fuera a mucha gente distinta, sesgando la muestra."
+    }
+  ]
+}

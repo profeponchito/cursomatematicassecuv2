@@ -1,0 +1,158 @@
+{
+  "id": "3S-B1-PDA01-05",
+  "grado": "3°",
+  "trimestre": "1",
+  "numero": 5,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Extensión del significado de las operaciones y sus relaciones inversas 1.5",
+  "contenido": "Extensión del significado de las operaciones y sus relaciones inversas.",
+  "pda": "Calcula potencias con exponente entero y la raíz cuadrada. Usa la notación científica.",
+  "problematizacion": {
+    "contexto": "En una fábrica de Toluca, una lámina de metal se lamina y su grosor se reduce a la tercera parte cada vez que pasa por el rodillo. La lámina original mide 3 cm de grosor, y el ingeniero quiere expresar en una sola potencia, sin calcular paso por paso, el grosor después de 4 pasadas.",
+    "pregunta": "¿Qué potencia con exponente negativo representa el grosor de la lámina después de pasar 4 veces por el rodillo, si cada vez se reduce a la tercera parte?"
+  },
+  "subtemas": [
+    {
+      "numero": "1.5",
+      "nivelEtiqueta": "Nivel 5 de 10 · Aplicación",
+      "titulo": "Diluciones y reducciones progresivas con exponentes negativos",
+      "explicacion": "En los subtemas anteriores calculaste exponentes negativos como fracciones aisladas; ahora los usarás para modelar procesos reales donde una cantidad se divide entre la misma base varias veces seguidas, como una dilución de laboratorio o la reducción del grosor de un material. El exponente negativo ya no es solo un ejercicio: representa cuántas veces se repitió la misma división.",
+      "formula": "Cantidad final = Cantidad inicial × baseᐨⁿ (n = número de veces que se repite la división)",
+      "ejemplos": [
+        "Un laboratorio parte de una muestra con concentración 500 mg/mL y realiza 3 diluciones seriadas 1:10 (cada una multiplica por 10⁻¹). Concentración final = 500 × 10⁻³ = 500 × 0.001 = 0.5 mg/mL.",
+        "Una tintorería diluye un colorante concentrado: parte de 240 g/L y aplica 2 diluciones 1:10. Concentración final = 240 × 10⁻² = 240 × 0.01 = 2.4 g/L."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una enfermera prepara un medicamento: parte de una concentración de 900 mg/mL y aplica 2 diluciones 1:10 seguidas. ¿Cuál es la concentración final?",
+          "opciones": [
+            "9 mg/mL",
+            "0.9 mg/mL",
+            "90 mg/mL",
+            "0.09 mg/mL"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "900 × 10⁻² = 900 × 0.01 = 9 mg/mL."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si una muestra de 1,200 mg/mL se diluye 1:10 tres veces seguidas, la concentración final es 1.2 mg/mL.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "1,200 × 10⁻³ = 1,200 × 0.001 = 1.2 mg/mL."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una solución de 650 mg/mL se diluye 1:10 una sola vez; la concentración final es ___ mg/mL.",
+          "respuestaCorrecta": "65",
+          "retroalimentacion": "650 × 10⁻¹ = 650 × 0.1 = 65 mg/mL."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Si una cantidad inicial C₀ se divide entre la misma base b un total de n veces seguidas, ¿qué expresión representa la cantidad final?",
+          "opciones": [
+            "C₀ × bⁿ",
+            "C₀ × bᐨⁿ",
+            "C₀ ÷ n",
+            "C₀ - bn"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Dividir n veces entre b equivale a multiplicar por b elevado al exponente negativo n: C₀ × bᐨⁿ."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "30⁻¹ equivale a dividir un número entre 30 una sola vez, es decir, 1/30.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Un exponente negativo -1 siempre es el recíproco simple: 30⁻¹ = 1/30."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un material reduce su grosor a una novena parte cada capa que se le retira. Si el grosor inicial es 6,561 micras, después de 4 capas quedan 6,561 × 9⁻⁴ = ___ micras.",
+          "respuestaCorrecta": "1",
+          "retroalimentacion": "9⁻⁴ = 1/9⁴ = 1/6,561, y 6,561 × 1/6,561 = 1 micra."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una máquina reduce una medida a un tercio en cada paso. Si la medida inicial es 972 unidades, ¿qué expresión representa la medida después de 5 pasos?",
+          "opciones": [
+            "972 × 3⁵",
+            "972 × 3⁻⁵",
+            "972 ÷ 5",
+            "972 × 5⁻³"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Reducir a un tercio 5 veces seguidas equivale a multiplicar por 3⁻⁵."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada exponente negativo con su valor como fracción.",
+          "columnaA": [
+            "11⁻³",
+            "12⁻³",
+            "13⁻³"
+          ],
+          "columnaB": [
+            "1/1,728",
+            "1/2,197",
+            "1/1,331"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "11⁻³ = 1/1,331; 12⁻³ = 1/1,728; 13⁻³ = 1/2,197."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un compuesto tóxico de 6,700 mg/L se diluye 1:10 tres veces seguidas. La concentración final es ___ mg/L.",
+          "respuestaCorrecta": "6.7",
+          "retroalimentacion": "6,700 × 10⁻³ = 6,700 × 0.001 = 6.7 mg/L."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "50⁻¹ = 1/50.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: cualquier número elevado a -1 es su recíproco, 50⁻¹ = 1/50."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada cantidad con su notación científica.",
+      "columnaA": [
+        "5,400,000",
+        "0.0000091",
+        "√1024"
+      ],
+      "columnaB": [
+        "32",
+        "5.4 × 10⁶",
+        "9.1 × 10⁻⁶"
+      ],
+      "parejasCorrectas": [
+        1,
+        2,
+        0
+      ],
+      "retroalimentacion": "5,400,000 = 5.4×10⁶; 0.0000091 = 9.1×10⁻⁶; √1024 = 32."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "√676 = 26.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "26 × 26 = 676."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "0.0000073 escrito en notación científica es ___.",
+      "respuestaCorrecta": "7.3 × 10⁻⁶",
+      "retroalimentacion": "0.0000073 = 7.3 × 10⁻⁶."
+    }
+  ]
+}

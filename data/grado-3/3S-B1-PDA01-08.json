@@ -1,0 +1,170 @@
+{
+  "id": "3S-B1-PDA01-08",
+  "grado": "3°",
+  "trimestre": "1",
+  "numero": 8,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Extensión del significado de las operaciones y sus relaciones inversas 1.8",
+  "contenido": "Extensión del significado de las operaciones y sus relaciones inversas.",
+  "pda": "Calcula potencias con exponente entero y la raíz cuadrada. Usa la notación científica.",
+  "problematizacion": {
+    "contexto": "Al calcular cuánta agua consumirá una fábrica en Querétaro en un año, un ingeniero multiplica dos cantidades en notación científica y obtiene como resultado 45×10⁷ litros, pero sabe que ese coeficiente no cumple la regla de la notación científica.",
+    "pregunta": "¿Cómo se normaliza 45×10⁷ para que quede correctamente escrito en notación científica, con el coeficiente entre 1 y 10?"
+  },
+  "subtemas": [
+    {
+      "numero": "1.8",
+      "nivelEtiqueta": "Nivel 8 de 10 · Reto avanzado",
+      "titulo": "Normalización de resultados en notación científica",
+      "explicacion": "En la lección anterior multiplicaste y dividiste cantidades ya en notación científica; ahora resolverás casos donde el coeficiente resultante no cumple la regla 1 ≤ a < 10 y debes normalizarlo corriendo el punto decimal y ajustando el exponente. Este paso extra ocurre todo el tiempo en cálculos reales de ciencia, ingeniería y comercio, y es indispensable dominarlo antes de combinarlo con otras operaciones.",
+      "formula": "Si el coeficiente resultante es ≥10 o <1, corre el punto decimal y suma o resta 1 al exponente hasta que 1 ≤ a < 10.",
+      "ejemplos": [
+        "(5 × 10⁴) × (4 × 10³) = 20 × 10⁷ → como 20 ≥ 10, se ajusta a 2 × 10⁸.",
+        "(2 × 10³) ÷ (4 × 10⁵) = 0.5 × 10⁻² → como 0.5 < 1, se ajusta a 5 × 10⁻³."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado correctamente normalizado de (6 × 10⁵) × (5 × 10²)?",
+          "opciones": [
+            "30 × 10⁷",
+            "3 × 10⁸",
+            "3 × 10⁷",
+            "0.3 × 10⁹"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "6 × 5 = 30 × 10⁷, y como 30 ≥ 10, se ajusta a 3 × 10⁸."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "(3 × 10²) ÷ (6 × 10⁵) normalizado es ___.",
+          "respuestaCorrecta": "5 × 10⁻⁴",
+          "retroalimentacion": "3 ÷ 6 = 0.5 × 10⁻³, y como 0.5 < 1, se ajusta a 5 × 10⁻⁴."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "(8 × 10⁵) × (5 × 10³) = 4 × 10⁹, ya normalizado.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "8 × 5 = 40 × 10⁸, y al normalizar (40 ≥ 10) queda 4 × 10⁹."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado normalizado de (9 × 10⁶) × (6 × 10⁴)?",
+          "opciones": [
+            "5.4 × 10¹¹",
+            "54 × 10¹⁰",
+            "5.4 × 10¹⁰",
+            "0.54 × 10¹²"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "9 × 6 = 54 × 10¹⁰, y al normalizar (54 ≥ 10) queda 5.4 × 10¹¹."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "(2 × 10⁴) ÷ (8 × 10⁷) normalizado es ___.",
+          "respuestaCorrecta": "2.5 × 10⁻⁴",
+          "retroalimentacion": "2 ÷ 8 = 0.25 × 10⁻³, y al normalizar (0.25 < 1) queda 2.5 × 10⁻⁴."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una empresa fabrica 4 × 10⁵ tornillos por lote y produce 9 × 10² lotes. ¿Cuántos tornillos produce en total, normalizado?",
+          "opciones": [
+            "3.6 × 10⁸",
+            "36 × 10⁷",
+            "3.6 × 10⁷",
+            "0.36 × 10⁹"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "4 × 9 = 36 × 10⁷, y al normalizar (36 ≥ 10) queda 3.6 × 10⁸ tornillos."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "(3 × 10³) ÷ (5 × 10⁶) normalizado es 6 × 10⁻⁴.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "3 ÷ 5 = 0.6 × 10⁻³, y al normalizar (0.6 < 1) queda 6 × 10⁻⁴."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada operación con su resultado normalizado.",
+          "columnaA": [
+            "(8 × 10²) × (7 × 10³)",
+            "(4 × 10³) ÷ (8 × 10⁶)",
+            "(9 × 10⁴) × (8 × 10²)"
+          ],
+          "columnaB": [
+            "5 × 10⁻⁴",
+            "7.2 × 10⁷",
+            "5.6 × 10⁶"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "(8×10²)×(7×10³)=56×10⁵=5.6×10⁶; (4×10³)÷(8×10⁶)=0.5×10⁻³=5×10⁻⁴; (9×10⁴)×(8×10²)=72×10⁶=7.2×10⁷."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado normalizado de (5 × 10⁷) × (7 × 10³)?",
+          "opciones": [
+            "3.5 × 10¹¹",
+            "35 × 10¹⁰",
+            "3.5 × 10¹⁰",
+            "0.35 × 10¹²"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "5 × 7 = 35 × 10¹⁰, y al normalizar (35 ≥ 10) queda 3.5 × 10¹¹."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "(6 × 10²) ÷ (3 × 10⁸) normalizado es ___.",
+          "respuestaCorrecta": "2 × 10⁻⁶",
+          "retroalimentacion": "6 ÷ 3 = 2 × 10⁻⁶, y como 2 ya está entre 1 y 10, no necesita más ajuste."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada expresión con su resultado.",
+      "columnaA": [
+        "10⁻3",
+        "√676",
+        "4.5 × 10⁷"
+      ],
+      "columnaB": [
+        "1/1000",
+        "número grande",
+        "26"
+      ],
+      "parejasCorrectas": [
+        0,
+        2,
+        1
+      ],
+      "retroalimentacion": "10⁻3 = 1/1000; √676 = 26; 4.5×10⁷ = número grande."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es el resultado de 6⁻2?",
+      "opciones": [
+        "1/36",
+        "36",
+        "-36",
+        "1/12"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "6⁻2 = 1/6² = 1/36."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "√576 = 24.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "24 × 24 = 576."
+    }
+  ]
+}

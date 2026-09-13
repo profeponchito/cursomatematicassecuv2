@@ -1,0 +1,150 @@
+{
+  "id": "3S-B1-PDA11-09",
+  "grado": "3°",
+  "trimestre": "3",
+  "numero": 109,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Probabilidad de la Unión de Eventos 11.9",
+  "contenido": "Azar e incertidumbre en la ocurrencia de eventos cotidianos.",
+  "pda": "Calcula la probabilidad de la unión de dos eventos, distinguiendo eventos mutuamente excluyentes de los que no lo son.",
+  "problematizacion": {
+    "contexto": "En un torneo de preguntas y respuestas en una secundaria de Mexicali, un equipo puede ganar puntos extra si acierta la pregunta de matemáticas O la de historia. Analizando rondas pasadas, el profesor calcula que la probabilidad de acertar al menos una de las dos preguntas es de 0.65.",
+    "pregunta": "¿Cuál es la probabilidad de que el equipo NO acierte ninguna de las dos preguntas (ni matemáticas ni historia)?"
+  },
+  "subtemas": [
+    {
+      "numero": "11.9",
+      "titulo": "El complemento de la unión: la probabilidad de 'ninguno de los dos'",
+      "explicacion": "Esta lección integra todo lo visto en el PDA: primero decides si dos eventos son mutuamente excluyentes o no (lección 1), después calculas P(A∪B) con la fórmula que corresponda (lecciones 2 y 3), y ahora agregas un paso nuevo: la probabilidad de que NO ocurra ni A ni B, es decir, el complemento de la unión. Como el espacio muestral completo se reparte entre 'ocurre A o B' y 'no ocurre ninguno de los dos', estos dos casos deben sumar 1 (o el 100%), así que P(ninguno) = 1 − P(A∪B).",
+      "formula": "P(ni A ni B) = 1 − P(A∪B)",
+      "ejemplos": [
+        "En una encuesta a 250 personas, 100 tienen perro (A), 70 tienen gato (B) y 25 tienen ambas mascotas. Primero la unión: P(A∪B) = 100/250 + 70/250 − 25/250 = 145/250. Como no son mutuamente excluyentes (25 personas tienen ambas), esa resta era necesaria. La probabilidad de que una persona NO tenga ninguna de las dos mascotas es P(ninguno) = 1 − 145/250 = 105/250 = 21/50.",
+        "De 500 alumnos, 220 llegan a la escuela en camión (A) y 150 caminando (B); cada alumno usa un solo medio de transporte ese día, así que A y B son mutuamente excluyentes. P(A∪B) = 220/500 + 150/500 = 370/500. La probabilidad de que un alumno llegue por otro medio (ninguno de los dos) es P(ninguno) = 1 − 370/500 = 130/500 = 13/50."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una encuesta a 250 personas, 100 tienen perro, 70 tienen gato y 25 tienen ambas mascotas. ¿Cuál es la probabilidad de que una persona NO tenga ninguna de las dos mascotas?",
+          "opciones": [
+            "105/250 (21/50)",
+            "145/250",
+            "25/250",
+            "175/250"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(A∪B) = 100/250+70/250−25/250 = 145/250. P(ninguno) = 1 − 145/250 = 105/250 = 21/50."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si el 44% de los alumnos llega en camión y el 30% camina (medios de transporte mutuamente excluyentes), entonces el 26% de los alumnos usa otro medio de transporte.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: P(camión ∪ caminando) = 44% + 30% = 74%, así que el resto, 100% − 74% = 26%, usa otro medio."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En una escuela de 180 alumnos, 60 están en el club de ciencias, 45 en el club de arte y 15 en ambos. La probabilidad de que un alumno NO esté en ninguno de los dos clubes es ___/180.",
+          "respuestaCorrecta": "90",
+          "retroalimentacion": "P(A∪B) en alumnos = 60+45−15 = 90. Ninguno = 180 − 90 = 90."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En un grupo de 400 personas, 96 nadan y 84 corren maratón; estas dos actividades no se pueden combinar en el mismo horario de entrenamiento (son mutuamente excluyentes). ¿Cuál es la probabilidad de que una persona NO practique ninguna de las dos actividades?",
+          "opciones": [
+            "220/400 (0.55)",
+            "180/400",
+            "96/400",
+            "304/400"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(A∪B) = 96/400 + 84/400 = 180/400. P(ninguno) = 1 − 180/400 = 220/400 = 0.55."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La fórmula P(ninguno) = 1 − P(A∪B) funciona sin importar si A y B son mutuamente excluyentes o no.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: el complemento del 'al menos uno' siempre es 'ninguno de los dos', sin importar cómo se haya calculado P(A∪B)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una escuela de 120 estudiantes, 50 visitan la biblioteca física, 70 usan la biblioteca digital y 30 usan ambas. ¿Qué porcentaje de estudiantes NO usa ninguna de las dos bibliotecas?",
+          "opciones": [
+            "25%",
+            "75%",
+            "40%",
+            "10%"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(A∪B) = 50/120+70/120−30/120 = 90/120 = 75%. P(ninguno) = 100% − 75% = 25%."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En un torneo de 90 atletas, 34 compiten en atletismo, 28 en natación y 10 en ambos deportes. El número de atletas que NO compite en ninguno de los dos deportes es ___.",
+          "respuestaCorrecta": "38",
+          "retroalimentacion": "Unión = 34+28−10 = 52. Ninguno = 90 − 52 = 38."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "De 150 personas encuestadas, 55 prefieren café y 40 prefieren té como bebida principal; nadie puede preferir las dos a la vez (son mutuamente excluyentes). ¿Cuál es la probabilidad de que alguien NO prefiera ninguna de las dos como bebida principal?",
+          "opciones": [
+            "55/150",
+            "95/150",
+            "15/150",
+            "105/150"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(A∪B) = 55/150+40/150 = 95/150. P(ninguno) = 1 − 95/150 = 55/150."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En el club de ciencias y arte (60 en ciencias, 45 en arte, 15 en ambos, de 180 alumnos), la probabilidad de estar en AL MENOS un club es igual a la probabilidad de NO estar en ningún club.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: P(al menos uno) = 90/180 y P(ninguno) = 90/180; en este caso particular ambas valen exactamente la mitad."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación con la probabilidad correcta de que NO ocurra ninguno de los dos eventos.",
+          "columnaA": [
+            "250 personas: perro=100, gato=70, ambas=25",
+            "120 estudiantes: biblioteca física=50, digital=70, ambas=30",
+            "90 atletas: atletismo=34, natación=28, ambos=10"
+          ],
+          "columnaB": [
+            "1/4",
+            "19/45",
+            "21/50"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "Perro/gato: 1−145/250=105/250=21/50. Bibliotecas: 1−90/120=30/120=1/4. Atletas: 1−52/90=38/90=19/45."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 9 de 10 · Integración"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "P(negra) = 26/52, P(10) = 4/52 y P(negra∩10) = 2/52 (el 10 de tréboles y el 10 de picas). ¿Cuánto vale P(negra ∪ 10)?",
+      "opciones": [
+        "28/52",
+        "30/52",
+        "26/52",
+        "4/52"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "P(negra ∪ 10) = 26/52 + 4/52 − 2/52 = 28/52 = 7/13."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "P(as ∪ roja) = 28/52.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: P(as ∪ roja) = 4/52 + 26/52 − 2/52 = 28/52 = 7/13 (el as de corazones y el as de diamantes son la intersección)."
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "id": "3S-B1-PDA04-06",
+  "grado": "3°",
+  "trimestre": "2",
+  "numero": 36,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Funciones 4.6",
+  "contenido": "Funciones.",
+  "pda": "Relaciona e interpreta la variación de dos cantidades a partir de su representación tabular, gráfica y algebraica. Explora diversos procedimientos para resolver problemas de reparto proporcional.",
+  "problematizacion": {
+    "contexto": "Andrés registró varios puntos (x,y) con lo que gasta en gasolina según los litros que carga en su moto, y su maestro le pide graficar esos puntos en un plano cartesiano para ver qué forma tienen.",
+    "pregunta": "¿Qué forma tiene la gráfica de los puntos que registró Andrés, y por qué pasa exactamente por el origen si su gasto es una variación directa?"
+  },
+  "subtemas": [
+    {
+      "numero": "4.6",
+      "nivelEtiqueta": "Nivel 6 de 10 · Aplicación avanzada",
+      "titulo": "Graficando la variación directa: la recta que nace en el origen",
+      "explicacion": "Cuando conoces varios pares (x,y) de una variación directa, puedes ubicarlos como puntos en un plano cartesiano; como la razón y÷x siempre es la misma, esos puntos quedan alineados sobre una línea recta que pasa exactamente por el origen (0,0). La inclinación de esa recta es precisamente la constante k: entre más grande es k, más inclinada (empinada) es la recta.",
+      "formula": "La gráfica de y = k×x es siempre una línea recta que pasa por el punto (0,0).",
+      "ejemplos": [
+        "Un tinaco se llena a razón constante: en 2 minutos hay 30 litros, en 5 minutos hay 75 litros. k=30÷2=15 y 75÷5=15, coinciden. Al graficar los puntos (2,30) y (5,75) junto con (0,0), quedan sobre la misma línea recta.",
+        "La gráfica de la distancia recorrida por un corredor a paso constante pasa por (0,0) y por (4,32). Su k (velocidad) es 32÷4=8 km/h; para x=6, y=8×6=48 km, así que (6,48) también está sobre esa recta."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La gráfica de cualquier variación directa siempre pasa por el punto (0,0).",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: cuando x=0, y=k×0=0 siempre."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En la gráfica de una variación directa pasan los puntos (0,0) y (3,21). ¿Cuál es la constante k?",
+          "opciones": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "k = 21÷3 = 7."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si la recta de una variación directa pasa por (0,0) y (6,45), su constante de proporcionalidad es k=___.",
+          "respuestaCorrecta": "7.5",
+          "retroalimentacion": "k = 45÷6 = 7.5."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una alberca se llena a razón constante; su gráfica (litros vs. minutos) pasa por (0,0) y (5,140). ¿Cuántos litros habrá a los 8 minutos?",
+          "opciones": [
+            "210 litros",
+            "224 litros",
+            "238 litros",
+            "216 litros"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "k = 140÷5 = 28 litros/min. A los 8 min: 28×8 = 224 litros."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si al graficar dos puntos de una tabla junto con el origen NO quedan alineados en una línea recta, entonces esa tabla no representa una variación directa.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: en una variación directa, todos los puntos (incluido el origen) deben quedar sobre la misma recta."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una gráfica, mientras más grande es la constante k de una variación directa, la recta es...",
+          "opciones": [
+            "más inclinada (empinada)",
+            "menos inclinada",
+            "siempre horizontal",
+            "siempre pasa por (1,1)"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "A mayor k, mayor es el aumento de y por cada unidad de x, así que la recta es más inclinada."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada par de puntos de una recta de variación directa (que pasa por el origen) con su constante k.",
+          "columnaA": [
+            "(0,0) y (4,34)",
+            "(0,0) y (8,52)",
+            "(0,0) y (5,37.5)"
+          ],
+          "columnaB": [
+            "6.5",
+            "8.5",
+            "7.5"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            2
+          ],
+          "retroalimentacion": "(0,0),(4,34): k=34÷4=8.5. (0,0),(8,52): k=52÷8=6.5. (0,0),(5,37.5): k=37.5÷5=7.5."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un taxi con tarifa proporcional a la distancia recorrida (sin cargo fijo) tiene una gráfica que pasa por (0,0) y por (10, 95). Su constante k (pesos por km) es ___.",
+          "respuestaCorrecta": "9.5",
+          "retroalimentacion": "k = 95÷10 = 9.5 pesos por km."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Los puntos (0,0), (2,16) y (5,40) pertenecen a la misma recta de variación directa.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 16÷2=8 y 40÷5=8, la misma k para ambos puntos."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de estos conjuntos de puntos SÍ podría representar una variación directa graficada como línea recta por el origen?",
+          "opciones": [
+            "(0,0), (2,10) y (4,20)",
+            "(0,0), (2,10) y (4,22)",
+            "(0,3), (2,10) y (4,17)",
+            "(0,0), (2,9) y (4,20)"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "En (0,0),(2,10),(4,20): k=10÷2=5 y k=20÷4=5, es constante. En las otras opciones la razón cambia o no pasa por el origen."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Pedro, Ana y Luz aportaron $1,500, $2,500 y $4,000 a un negocio y reparten $800 de utilidad proporcionalmente. ¿Cuánto le corresponde a Ana?",
+      "opciones": [
+        "$150",
+        "$200",
+        "$250",
+        "$300"
+      ],
+      "respuestaCorrecta": 2,
+      "retroalimentacion": "Suma=8,000. (2500/8000)×800 = $250."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Si al aumentar x al doble, y también aumenta al doble, se trata de una variación directa.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: ambas cantidades cambian en la misma proporción."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada reparto proporcional con el resultado de la parte indicada.",
+      "columnaA": [
+        "$189 en razón 2:7 — parte de razón 2",
+        "$260 en razón 3:10 — parte de razón 3",
+        "$228 en razón 5:7 — parte de razón 5"
+      ],
+      "columnaB": [
+        "$60",
+        "$95",
+        "$42"
+      ],
+      "parejasCorrectas": [
+        2,
+        0,
+        1
+      ],
+      "retroalimentacion": "$189 en razón 2:7 — parte de razón 2 = $42; $260 en razón 3:10 — parte de razón 3 = $60; $228 en razón 5:7 — parte de razón 5 = $95."
+    }
+  ]
+}

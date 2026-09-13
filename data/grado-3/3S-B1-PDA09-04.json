@@ -1,0 +1,143 @@
+{
+  "id": "3S-B1-PDA09-04",
+  "grado": "3°",
+  "trimestre": "3",
+  "numero": 84,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Muestras y Análisis Crítico de Gráficas 9.4",
+  "contenido": "Obtención y representación de información.",
+  "pda": "Distingue población y muestra, y analiza críticamente gráficas estadísticas, incluyendo gráficas que pueden inducir a error.",
+  "problematizacion": {
+    "contexto": "Una marca de tenis publica en redes sociales: 'el 95% de los jóvenes prefiere nuestra marca', basado en una encuesta hecha solo a quienes siguen su cuenta de Instagram. Junto al dato, muestran una gráfica de barras donde el eje vertical empieza en 80% en lugar de en 0%, haciendo ver la preferencia todavía más aplastante.",
+    "pregunta": "¿Qué dos cosas hay que revisar para decidir si el anuncio de la marca de tenis es realmente confiable?"
+  },
+  "subtemas": [
+    {
+      "numero": "9.4",
+      "titulo": "Análisis crítico combinado",
+      "explicacion": "Recuerda: una muestra es confiable cuando es representativa de la población que dice estudiar (aleatoria, diversa y del tamaño adecuado), y una gráfica es confiable cuando está bien construida (eje vertical desde cero, intervalos iguales, imágenes proporcionales). Para decidir si un dato estadístico presentado en una noticia o anuncio es confiable, hay que revisar AMBAS cosas: ¿la muestra representa realmente a la población de la que se habla?, y ¿la gráfica que acompaña los resultados los representa con justicia? Si cualquiera de las dos falla, la conclusión que se comunica puede ser engañosa, aunque la otra esté bien.",
+      "ejemplos": [
+        "Retomando el reto inicial: la encuesta de la app de streaming solo preguntó a 200 personas que ya usan esa app y dejaron reseña (no a 'los mexicanos' en general), así que la muestra está sesgada y no representa a la población que dice representar. Además, la gráfica del precio de la gasolina, con el eje empezando en $21.50, exagera visualmente un aumento real de apenas 80 centavos. Ninguno de los dos datos es confiable tal como se presentó.",
+        "Una noticia afirma que '9 de cada 10 dentistas recomiendan la pasta X', basada en una encuesta a 10 dentistas que trabajan en la misma clínica que patrocina el producto (muestra pequeña y sesgada), acompañada de una gráfica de barras con el eje Y que va de 80% a 100% (exagerando la diferencia con otras marcas): ni la muestra ni la gráfica son confiables."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una revista afirma que 'el 95% de los jóvenes prefiere hacer ejercicio al aire libre', basada en una encuesta a 40 jóvenes que asisten a un parque a correr, junto con una gráfica de barras cuyo eje Y va de 70% a 100% (no de 0% a 100%). ¿Es confiable esta conclusión?",
+          "opciones": [
+            "Sí, porque 40 personas ya son suficientes para cualquier encuesta",
+            "No, porque la muestra está sesgada (solo gente que ya va a hacer ejercicio al aire libre) y además la gráfica exagera el porcentaje al no empezar en 0%",
+            "Sí, porque la gráfica muestra correctamente el 95%",
+            "No, pero solo por el problema de la muestra; la gráfica sí es confiable"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Hay dos problemas independientes: la muestra solo incluye personas que ya hacen ejercicio al aire libre (sesgada), y la gráfica exagera el porcentaje al no empezar en 0%."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si una muestra es representativa pero la gráfica que acompaña los resultados tiene el eje Y mal construido (no empieza en cero), la conclusión que se comunica al público de todas formas puede resultar engañosa.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: aunque los datos de la muestra sean válidos, una gráfica mal construida puede comunicar una impresión exagerada o falsa de esos mismos datos."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una conclusión es totalmente confiable si la muestra es representativa, sin importar cómo se haya construido la gráfica que la acompaña.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: también hay que revisar que la gráfica esté bien construida (eje desde cero, escalas iguales, imágenes proporcionales); una gráfica engañosa puede distorsionar datos que en el fondo son correctos."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Para decidir si una noticia con datos estadísticos es confiable, hay que revisar si la muestra es ___ de la población y si la gráfica que la acompaña está bien construida.",
+          "respuestaCorrecta": "representativa",
+          "retroalimentacion": "Las dos revisiones —muestra representativa y gráfica bien construida— son necesarias para confiar en una conclusión estadística."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un canal de videos afirma que 'el 80% de las personas prefiere ver series a las películas', basado en una encuesta a 5,000 personas de diferentes edades, ciudades y hábitos de consumo elegidas al azar, mostrada en una gráfica de barras con el eje Y de 0% a 100% en intervalos iguales de 10%. ¿Es confiable esta conclusión?",
+          "opciones": [
+            "No, porque 5,000 personas es una muestra demasiado pequeña",
+            "Sí, porque la muestra es amplia, diversa y aleatoria, y la gráfica está bien construida",
+            "No, porque toda encuesta por internet es sesgada automáticamente",
+            "Sí, pero solo porque la gráfica se ve bien, sin importar la muestra"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "En este caso ambas condiciones se cumplen: la muestra es amplia, diversa y aleatoria, y la gráfica respeta un eje desde 0% con intervalos iguales."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una encuesta con una muestra pequeña y no aleatoria puede parecer más confiable de lo que realmente es si se presenta con una gráfica visualmente exagerada.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: una gráfica llamativa o exagerada puede distraer de los problemas reales que tiene la muestra en la que se basa."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un estudio dice representar 'a todos los adultos del país' pero solo entrevistó a 50 personas de una sola colonia de una sola ciudad, y presenta sus resultados en una gráfica circular (de pastel) donde las partes suman 115%. ¿Qué problemas tiene este estudio?",
+          "opciones": [
+            "Ninguno, 50 personas y una gráfica de pastel siempre son confiables",
+            "Tiene dos problemas: la muestra no es representativa de todo el país, y la gráfica tiene un error (suma más de 100%)",
+            "Solo tiene un problema: la gráfica",
+            "Solo tiene un problema: la muestra"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "La muestra es demasiado pequeña y local para representar a todo el país, y una gráfica de pastel que suma más de 100% tiene un error de construcción."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si una gráfica de pastel (circular) suma más de 100% entre sus partes, eso indica que hay un ___ en los datos o en la construcción de la gráfica.",
+          "respuestaCorrecta": "error",
+          "retroalimentacion": "Las partes de una gráfica de pastel deben sumar exactamente 100%; si no es así, hay un error que hace dudar de toda la gráfica."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Al leer una noticia con datos estadísticos, conviene preguntarse tanto '¿a quién y cómo se preguntó?' (la muestra) como '¿la gráfica representa los datos de forma justa?' (el eje, la escala, las imágenes).",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: esas dos preguntas son la base del análisis crítico de cualquier dato estadístico presentado públicamente."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada caso descrito con el diagnóstico correcto sobre su confiabilidad.",
+          "columnaA": [
+            "Muestra aleatoria de 3,000 personas de todo el país + gráfica con eje desde 0% en intervalos iguales",
+            "Muestra de 20 personas de un solo barrio para representar a todo un país + gráfica con eje desde 0%",
+            "Muestra aleatoria de 3,000 personas de todo el país + gráfica con eje que empieza en 80%"
+          ],
+          "columnaB": [
+            "Confiable: tanto la muestra como la gráfica están bien construidas",
+            "No confiable: el problema está en la muestra, que no es representativa",
+            "No confiable: el problema está en la gráfica, que exagera visualmente las diferencias"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "Cuando muestra y gráfica están bien construidas, la conclusión es confiable. Si solo falla la muestra (pero la gráfica está bien), el problema es la muestra. Si solo falla la gráfica (pero la muestra está bien), el problema es la gráfica."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 4 de 10 · Síntesis"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "llenar_frase",
+      "frase": "Cuando una imagen usada en una gráfica crece en altura Y en ancho para representar una cantidad, su ___ crece mucho más de lo que debería, exagerando la diferencia real.",
+      "respuestaCorrecta": "área",
+      "retroalimentacion": "Al crecer en dos dimensiones a la vez, el área visual crece al cuadrado, no proporcionalmente."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Una encuesta afirma representar a 'todos los adultos mexicanos' pero solo entrevistó a 30 personas en un centro comercial de una sola ciudad, en un solo horario. ¿Qué problema tiene esta muestra?",
+      "opciones": [
+        "Ninguno, 30 personas son suficientes",
+        "No es representativa: excluye a personas de otras ciudades, horarios y contextos",
+        "El problema es que se debió encuestar a niños también",
+        "El problema es que un centro comercial no tiene personas"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "Una muestra tomada en un solo lugar, ciudad y horario no puede representar a todos los adultos de un país tan diverso."
+    }
+  ]
+}

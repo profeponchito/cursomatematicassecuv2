@@ -1,0 +1,171 @@
+{
+  "id": "3S-B1-PDA06-03",
+  "grado": "3°",
+  "trimestre": "2",
+  "numero": 53,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Forma, espacio y medida",
+  "titulo": "Áreas y Volúmenes de Cuerpos Geométricos 6.3",
+  "contenido": "Construcción y propiedades de las figuras planas y cuerpos.",
+  "pda": "Calcula el área total y el volumen de prismas, pirámides y cilindros, y relaciona sus vistas con su representación tridimensional.",
+  "problematizacion": {
+    "contexto": "En un museo de ciencias de Querétaro hay una maqueta de un prisma y una pirámide con exactamente la misma base cuadrada y la misma altura, y el guía reta a los visitantes a adivinar cuántas veces cabe el volumen de la pirámide dentro del volumen del prisma.",
+    "pregunta": "¿Cuántas veces cabe el volumen de la pirámide dentro del volumen del prisma, si ambos tienen la misma base y la misma altura?"
+  },
+  "subtemas": [
+    {
+      "numero": "6.3",
+      "titulo": "Volumen de prismas, pirámides y cilindros",
+      "explicacion": "El volumen es la cantidad de espacio que ocupa un cuerpo, y se mide en unidades cúbicas (cm³, m³...). Para un PRISMA (como una caja), el volumen es el área de su base multiplicada por su altura: como la base se 'repite' en cada nivel de altura. Para una PIRÁMIDE con la misma base y altura que un prisma, el volumen es exactamente la tercera parte, porque el cuerpo se va angostando hasta terminar en un vértice. Para un CILINDRO, la base es un círculo (área = π×r²), así que su volumen es π×r²×h; en esta app usaremos siempre π≈3.14, y como resultado puede tener hasta 2 decimales.",
+      "formula": "Volumen de un prisma = Área de la base × altura\nVolumen de una pirámide = (1/3) × Área de la base × altura\nVolumen de un cilindro = π × r² × h  (usa π≈3.14)",
+      "ejemplos": [
+        "Prisma rectangular de 5×4×3 cm: V = (5×4)×3 = 20×3 = 60 cm³.",
+        "Pirámide de base cuadrada de lado 6 cm y altura 5 cm: V = (1/3)×(6×6)×5 = (1/3)×36×5 = (1/3)×180 = 60 cm³.",
+        "Cilindro de radio 3 cm y altura 4 cm: V = 3.14×3²×4 = 3.14×9×4 = 113.04 cm³."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el volumen de un prisma rectangular de 5×4×3 cm?",
+          "opciones": [
+            "60 cm³",
+            "47 cm³",
+            "72 cm³",
+            "35 cm³"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "V = (5×4)×3 = 20×3 = 60 cm³."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El volumen de un prisma rectangular de 6×3×2 cm es 36 cm³.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: V = (6×3)×2 = 18×2 = 36 cm³."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El volumen de un prisma rectangular de 9×3×4 cm es ___ cm³.",
+          "respuestaCorrecta": "108",
+          "retroalimentacion": "V = (9×3)×4 = 27×4 = 108 cm³."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el volumen de una pirámide de base cuadrada de lado 6 cm y altura 5 cm?",
+          "opciones": [
+            "36 cm³",
+            "60 cm³",
+            "180 cm³",
+            "20 cm³"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "V = (1/3)×(6×6)×5 = (1/3)×36×5 = (1/3)×180 = 60 cm³."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El volumen de una pirámide de base cuadrada de lado 9 cm y altura 4 cm es 108 cm³.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: V = (1/3)×(9×9)×4 = (1/3)×81×4 = (1/3)×324 = 108 cm³."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El volumen de una pirámide de base rectangular de 6×3 cm y altura 4 cm es ___ cm³.",
+          "respuestaCorrecta": "24",
+          "retroalimentacion": "Área de la base = 6×3 = 18 cm². V = (1/3)×18×4 = (1/3)×72 = 24 cm³."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el volumen de un cilindro de radio 3 cm y altura 4 cm (usa π≈3.14)?",
+          "opciones": [
+            "113.04 cm³",
+            "84.78 cm³",
+            "150.72 cm³",
+            "37.68 cm³"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "V = π×r²×h = 3.14×3²×4 = 3.14×9×4 = 113.04 cm³."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El volumen de un cilindro de radio 5 cm y altura 3 cm (con π≈3.14) es 235.5 cm³.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: V = 3.14×5²×3 = 3.14×25×3 = 235.5 cm³."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada cuerpo geométrico con su volumen (usa π≈3.14 para el cilindro).",
+          "columnaA": [
+            "Prisma rectangular 7×4×5 cm",
+            "Pirámide base cuadrada lado 3 cm, altura 9 cm",
+            "Cilindro radio 2 cm, altura 5 cm"
+          ],
+          "columnaB": [
+            "62.8 cm³",
+            "140 cm³",
+            "27 cm³"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "Prisma: V=(7×4)×5=140 cm³. Pirámide: V=(1/3)×(3×3)×9=(1/3)×81=27 cm³. Cilindro: V=3.14×2²×5=62.8 cm³."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el volumen de un cilindro de radio 7 cm y altura 2 cm (usa π≈3.14)?",
+          "opciones": [
+            "307.72 cm³",
+            "153.86 cm³",
+            "439.6 cm³",
+            "43.96 cm³"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "V = 3.14×7²×2 = 3.14×49×2 = 307.72 cm³."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 3 de 10 · Avanzado"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada cuerpo geométrico con las figuras que forman su desarrollo plano.",
+      "columnaA": [
+        "Cilindro",
+        "Prisma triangular",
+        "Cubo"
+      ],
+      "columnaB": [
+        "2 triángulos + 3 rectángulos",
+        "6 cuadrados",
+        "2 círculos + 1 rectángulo"
+      ],
+      "parejasCorrectas": [
+        2,
+        0,
+        1
+      ],
+      "retroalimentacion": "Cilindro: 2 círculos + 1 rectángulo. Prisma triangular: 2 triángulos + 3 rectángulos. Cubo: 6 cuadrados."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es el área total de una caja de 4×3×2 cm?",
+      "opciones": [
+        "52 cm²",
+        "36 cm²",
+        "26 cm²",
+        "44 cm²"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "AT = 2(4×3)+2(4×2)+2(3×2) = 24+16+12 = 52 cm²."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "El área total de una caja de 9×2×4 cm es 124 cm².",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: AT = 2(9×2)+2(9×4)+2(2×4) = 36+72+16 = 124 cm²."
+    }
+  ]
+}

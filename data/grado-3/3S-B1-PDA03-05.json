@@ -1,0 +1,164 @@
+{
+  "id": "3S-B1-PDA03-05",
+  "grado": "3°",
+  "trimestre": "2",
+  "numero": 25,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Ecuaciones lineales y cuadráticas 3.5",
+  "contenido": "Ecuaciones lineales y cuadráticas.",
+  "pda": "Resuelve ecuaciones de la forma Ax²+Bx+C=0 por factorización y fórmula general. Resuelve problemas cuyo planteamiento es una ecuación cuadrática.",
+  "problematizacion": {
+    "contexto": "Un vendedor de nieves en Cuernavaca dice: \"si multiplico el número de nieves que vendí por 3 pesos menos de lo que cobré por cada una, obtengo exactamente 180 pesos de ingreso\". Nadie le ha dado todavía una ecuación lista, solo tiene esa relación en palabras.",
+    "pregunta": "¿Cómo planteas la ecuación cuadrática en la forma Ax²+Bx+C=0 a partir de lo que dice el vendedor de nieves, antes de resolverla?"
+  },
+  "subtemas": [
+    {
+      "numero": "3.5",
+      "titulo": "Plantear la ecuación: de un problema verbal a la forma estándar",
+      "explicacion": "Hasta ahora resolviste ecuaciones que ya venían escritas en la forma Ax²+Bx+C=0. En esta lección tú mismo construyes esa ecuación a partir de una relación descrita con palabras (números, precios, productos), pasando todos los términos a un mismo lado antes de factorizar o usar la fórmula general. Los contextos son de la vida diaria: números, ahorro y ventas.",
+      "formula": "Para pasar cualquier relación a la forma estándar: reúne todos los términos de un lado de la igualdad y deja 0 del otro lado; después factoriza o usa la fórmula general.",
+      "ejemplos": [
+        "El cuadrado de un número disminuido en 5 veces ese número es igual a 66. Encuentra el número positivo: x² - 5x = 66 → x² - 5x - 66 = 0 → (x-11)(x+6)=0 → x=11 (se descarta -6).",
+        "El gasto en gas de una taquería (en pesos) es igual al cuadrado del número de kilos vendidos (x) más 4 veces ese número, menos 221. Si el gasto fue de cero pesos, ¿cuántos kilos vendió? x²+4x-221=0 → (x-13)(x+17)=0 → x=13 (se descarta -17)."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El cuadrado de un número más 6 veces el número es igual a 187. ¿Cuál es el número positivo?",
+          "opciones": [
+            "11",
+            "17",
+            "13",
+            "9"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "x²+6x-187=0 → (x-11)(x+17)=0 → x=11 (se descarta -17)."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El cuadrado de un número menos 7 veces el número es igual a 120. La solución mayor es x = ___.",
+          "respuestaCorrecta": "15",
+          "retroalimentacion": "x²-7x-120=0 → (x-15)(x+8)=0 → x=15 o x=-8. La mayor es 15."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un número multiplicado por el mismo número aumentado en 7 es igual a 144. Una posible solución es x = 9.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "x(x+7)=144 → x²+7x-144=0 → (x-9)(x+16)=0 → x=9 o x=-16. Sí, x=9 es solución."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un número multiplicado por el mismo número disminuido en 6 es igual a 91. Una solución es x = -7.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "x(x-6)=91 → x²-6x-91=0 → (x-13)(x+7)=0 → x=13 o x=-7. Sí, x=-7 es solución."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un número aumentado en 9 se multiplica por el mismo número, dando 190. ¿Cuáles son las soluciones?",
+          "opciones": [
+            "x=10, x=-19",
+            "x=19, x=-10",
+            "x=10, x=19",
+            "x=-10, x=-19"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "x(x+9)=190 → x²+9x-190=0 → (x-10)(x+19)=0 → x=10 o x=-19."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El cuadrado de un número menos 8 veces el número es igual a 105. La solución mayor es x = ___.",
+          "respuestaCorrecta": "15",
+          "retroalimentacion": "x²-8x-105=0 → (x-15)(x+7)=0 → x=15 o x=-7. La mayor es 15."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada planteamiento verbal con la ecuación en forma estándar que le corresponde.",
+          "columnaA": [
+            "El cuadrado de un número más 6 veces el número es 91",
+            "El producto de un número por el número aumentado en 3 es 154",
+            "El cuadrado de un número menos 4 veces el número es 117"
+          ],
+          "columnaB": [
+            "x² + 3x - 154 = 0",
+            "x² - 4x - 117 = 0",
+            "x² + 6x - 91 = 0"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "x²+6x=91→x²+6x-91=0; x(x+3)=154→x²+3x-154=0; x²-4x=117→x²-4x-117=0."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Si el cuadrado de un número menos el mismo número es igual a 210, ¿cuál es el número positivo?",
+          "opciones": [
+            "15",
+            "14",
+            "16",
+            "21"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "x²-x-210=0 → (x-15)(x+14)=0 → x=15 (se descarta -14)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El producto de dos números naturales consecutivos es 156. Uno de ellos es 12.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "x(x+1)=156 → x²+x-156=0 → (x-12)(x+13)=0 → x=12. En efecto, 12×13=156."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El producto de dos números naturales consecutivos es 210. El mayor de ellos es ___.",
+          "respuestaCorrecta": "15",
+          "retroalimentacion": "x(x+1)=210 → x²+x-210=0 → (x-14)(x+15)=0 → x=14, así que los números son 14 y 15; el mayor es 15."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 5 de 10 · Aplicación"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada ecuación con sus soluciones.",
+      "columnaA": [
+        "x² + 2x - 35 = 0",
+        "x² - 14x + 45 = 0",
+        "x² + 9x + 8 = 0"
+      ],
+      "columnaB": [
+        "x = 5, x = 9",
+        "x = -7, x = 5",
+        "x = -1, x = -8"
+      ],
+      "parejasCorrectas": [
+        1,
+        0,
+        2
+      ],
+      "retroalimentacion": "x² + 2x - 35 = 0 → x = -7, x = 5; x² - 14x + 45 = 0 → x = 5, x = 9; x² + 9x + 8 = 0 → x = -1, x = -8."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Un terreno cuadrado tiene área de 225 m². ¿Cuánto mide su lado?",
+      "opciones": [
+        "13 m",
+        "14 m",
+        "15 m",
+        "25 m"
+      ],
+      "respuestaCorrecta": 2,
+      "retroalimentacion": "x²=225 → x=15 (se descarta el valor negativo)."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Un jardín rectangular tiene área de 63 m² y su largo mide 2 metros más que su ancho. El ancho mide ___ m.",
+      "respuestaCorrecta": "7",
+      "retroalimentacion": "x(x+2)=63 → x²+2x−63=0 → (x+9)(x−7)=0 → x=7 (se descarta el valor negativo)."
+    }
+  ]
+}
