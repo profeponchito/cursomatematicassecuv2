@@ -1,0 +1,156 @@
+{
+  "id": "2S-B1-PDA08-04",
+  "grado": "2°",
+  "trimestre": "2",
+  "numero": 74,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Forma, espacio y medida",
+  "titulo": "Semejanza y Cuerpos Geométricos 8.4",
+  "contenido": "Construcción y propiedades de las figuras planas y cuerpos.",
+  "pda": "Aplica la semejanza de triángulos y el Teorema de Thales, calcula áreas de figuras compuestas y clasifica cuerpos geométricos.",
+  "problematizacion": {
+    "contexto": "En su clase de Tecnología en Puebla, Iker construyó con popotes y plastilina un cuerpo geométrico que tiene 5 caras, 5 vértices y 8 aristas, pero no recuerda si armó bien un prisma o una pirámide, ni si le faltó o sobró alguna pieza.",
+    "pregunta": "Usando la relación de Euler (C + V = A + 2), ¿el cuerpo que armó Iker está bien construido, y qué tipo de cuerpo geométrico es según el número de caras que tiene?"
+  },
+  "subtemas": [
+    {
+      "numero": "8.4",
+      "titulo": "Cuerpos geométricos: prismas y pirámides",
+      "explicacion": "Los prismas y las pirámides son cuerpos geométricos formados por caras planas. Un prisma tiene dos bases iguales y paralelas entre sí (por ejemplo, dos triángulos, dos cuadrados o dos pentágonos), unidas por caras laterales que siempre son rectángulos; se nombra según la forma de su base: prisma triangular, prisma cuadrangular, prisma pentagonal, prisma hexagonal, etc. Una pirámide, en cambio, tiene una sola base y caras laterales triangulares que convergen todas en un mismo punto llamado vértice o ápice; también se nombra según su base: pirámide triangular, pirámide cuadrangular, etc. Para cualquier cuerpo geométrico convexo se cumple la relación de Euler: el número de Caras más el número de Vértices es igual al número de Aristas más 2 (C + V = A + 2). Esta relación sirve para comprobar si un cuerpo está bien construido o para calcular un dato que falte.",
+      "formula": "C + V = A + 2",
+      "ejemplos": [
+        "Un prisma cuadrangular tiene 6 caras, 8 vértices y 12 aristas: 6+8=14 y 12+2=14, la relación de Euler se cumple.",
+        "Una pirámide pentagonal tiene una base de 5 lados: 6 caras (5 triángulos + 1 base), 6 vértices (5 de la base + el ápice) y 10 aristas (5 de la base + 5 laterales); 6+6=12=10+2."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un cuerpo geométrico tiene dos bases triangulares iguales y paralelas, unidas por 3 caras laterales rectangulares. ¿Cómo se llama?",
+          "opciones": [
+            "Pirámide triangular",
+            "Prisma triangular",
+            "Prisma cuadrangular",
+            "Pirámide cuadrangular"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Tiene dos bases (no una) y caras laterales rectangulares (no triangulares): es un prisma triangular."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un prisma cuadrangular tiene 6 caras, 8 vértices y 12 aristas.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: C+V=6+8=14=A+2=12+2=14."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una pirámide pentagonal tiene 6 caras y 6 vértices. Según la relación de Euler (C+V=A+2), tiene ___ aristas.",
+          "respuestaCorrecta": "10",
+          "retroalimentacion": "C+V=6+6=12=A+2, entonces A=12−2=10."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuántas caras tiene un prisma hexagonal?",
+          "opciones": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "2 bases hexagonales + 6 caras laterales rectangulares = 8 caras."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una pirámide cuadrangular tiene 5 caras, 5 vértices y 8 aristas.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: C+V=5+5=10=A+2=8+2=10."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un prisma pentagonal tiene 7 caras y 15 aristas. Según la relación de Euler, tiene ___ vértices.",
+          "respuestaCorrecta": "10",
+          "retroalimentacion": "C+V=A+2 → 7+V=15+2=17 → V=17−7=10."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un cuerpo tiene una sola base cuadrada y 4 caras laterales triangulares que convergen en un vértice. ¿Cómo se llama?",
+          "opciones": [
+            "Prisma cuadrangular",
+            "Pirámide triangular",
+            "Pirámide cuadrangular",
+            "Prisma pentagonal"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Una sola base (cuadrada) y caras laterales triangulares que convergen en un ápice: es una pirámide cuadrangular."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada cuerpo geométrico con su número de vértices.",
+          "columnaA": [
+            "Prisma triangular",
+            "Pirámide cuadrangular",
+            "Prisma hexagonal"
+          ],
+          "columnaB": [
+            "12",
+            "5",
+            "6"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "Prisma triangular: 6 vértices. Pirámide cuadrangular: 5 vértices. Prisma hexagonal: 12 vértices."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una pirámide triangular (tetraedro) tiene 4 caras, 4 vértices y 6 aristas, por lo que cumple la relación de Euler.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: C+V=4+4=8=A+2=6+2=8."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un cuerpo geométrico tiene 8 caras y 12 vértices. Según la relación de Euler (C+V=A+2), ¿cuántas aristas tiene?",
+          "opciones": [
+            "16",
+            "18",
+            "20",
+            "22"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "C+V=8+12=20=A+2 → A=20−2=18."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 4 de 10 · Síntesis"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Si AB=9 cm, BC=12 cm y A'B'=6 cm, entonces B'C'=8 cm.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "9/12=0.75 y 6/8=0.75, la proporción se cumple."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "AB=4 cm, BC=9 cm, B'C'=18 cm. Entonces A'B' = ___ cm.",
+      "respuestaCorrecta": "8",
+      "retroalimentacion": "A'B' = (4×18)÷9 = 8 cm."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "AB=7 cm, BC=10 cm, A'B'=14 cm. ¿Cuánto mide B'C'?",
+      "opciones": [
+        "18",
+        "20",
+        "22",
+        "24"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "B'C' = (10×14)÷7 = 20 cm."
+    }
+  ]
+}

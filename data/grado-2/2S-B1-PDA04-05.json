@@ -1,0 +1,144 @@
+{
+  "id": "2S-B1-PDA04-05",
+  "grado": "2°",
+  "trimestre": "2",
+  "numero": 35,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Regularidades y Patrones 4.5",
+  "contenido": "Regularidades y Patrones.",
+  "pda": "Representa algebraicamente una sucesión con progresión cuadrática de figuras y números.",
+  "problematizacion": {
+    "contexto": "En el auditorio de una secundaria en Saltillo, las filas de butacas crecen así: la fila 1 tiene 1×4=4 asientos, la fila 2 tiene 2×5=10, la fila 3 tiene 3×6=18, porque el ancho crece con la fila pero el largo siempre es 3 asientos más.",
+    "pregunta": "¿Cuántos asientos tendrá la fila 8, usando la expresión n(n+3)?"
+  },
+  "subtemas": [
+    {
+      "numero": "4.5",
+      "titulo": "Áreas rectangulares con progresión cuadrática: n(n+k)",
+      "explicacion": "En las lecciones anteriores viste progresiones donde el término era un múltiplo de n² o n² más o menos una constante fija. Ahora aparece un tipo distinto: expresiones donde n se multiplica por (n+k), es decir, dos cantidades que dependen de la misma posición pero no son iguales entre sí. Al desarrollar el producto obtienes n²+kn, una expresión con un término cuadrático y uno lineal juntos. Este patrón aparece en terrenos rectangulares, arreglos de sillas o estacionamientos donde una dimensión crece junto con la otra.",
+      "formula": "Si un rectángulo mide n de un lado y (n+k) del otro: Área = n×(n+k) = n² + kn",
+      "ejemplos": [
+        "Sección de jardín n=4 con ancho extra k=3: Área = n×(n+k) = 4×(4+3) = 4×7 = 28 m². Comprobación con n²+kn: 4²+3×4 = 16+12 = 28.",
+        "Arreglo de sillas: filas n=6, columnas (n+2): 6×8 = 48 sillas. Comprobación: 6²+2×6 = 36+12 = 48."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un jardín rectangular mide n metros de ancho y (n+3) metros de largo. ¿Cuál es el área de la sección n=5?",
+          "opciones": [
+            "25 m²",
+            "28 m²",
+            "40 m²",
+            "64 m²"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "5×(5+3) = 5×8 = 40 m²."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un estacionamiento tiene n filas y (n+4) cajones por fila. Para n=6, el estacionamiento tiene 60 cajones.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "6×(6+4) = 6×10 = 60 cajones. Correcto."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un huerto escolar mide n metros por (n+2) metros. Para n=7, el área es ___ m².",
+          "respuestaCorrecta": "63",
+          "retroalimentacion": "7×(7+2) = 7×9 = 63 m²."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un invernadero tiene forma rectangular con lados n y (n+5) metros. ¿Cuál es su área cuando n=8?",
+          "opciones": [
+            "64 m²",
+            "89 m²",
+            "104 m²",
+            "120 m²"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "8×(8+5) = 8×13 = 104 m²."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una cancha temporal mide n por (n+1) metros. Para n=9, su área es 90 m².",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "9×(9+1) = 9×10 = 90 m²."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un salón de eventos acomoda mesas en n filas y (n+4) columnas. Para n=10, hay ___ mesas en total.",
+          "respuestaCorrecta": "140",
+          "retroalimentacion": "10×(10+4) = 10×14 = 140 mesas."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada expresión con su valor cuando n=5.",
+          "columnaA": [
+            "n²",
+            "n×(n+3)",
+            "n×(n+1)"
+          ],
+          "columnaB": [
+            "30",
+            "25",
+            "40"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "n²=25; n×(n+3)=5×8=40; n×(n+1)=5×6=30, evaluando todas en n=5."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un vivero tiene forma rectangular de lados n y (n+6) metros. ¿Cuál es su área cuando n=4?",
+          "opciones": [
+            "16 m²",
+            "24 m²",
+            "40 m²",
+            "60 m²"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "4×(4+6) = 4×10 = 40 m²."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una plaza rectangular mide n por (n+2) metros. Para n=12, su área es 168 m².",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "12×(12+2) = 12×14 = 168 m²."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un salón mide n por (n+3) metros. Para n=9, el área es ___ m².",
+          "respuestaCorrecta": "108",
+          "retroalimentacion": "9×(9+3) = 9×12 = 108 m²."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 5 de 10 · Aplicación"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "El término 11 de la sucesión n² es 121.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: 11² = 121."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "En la sucesión n²+4, el término 6 es ___.",
+      "respuestaCorrecta": "40",
+      "retroalimentacion": "n²+4 en n=6: 36+4 = 40."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "En la sucesión 5n², el término 3 es ___.",
+      "respuestaCorrecta": "45",
+      "retroalimentacion": "5n² en n=3: 5×9 = 45."
+    }
+  ]
+}

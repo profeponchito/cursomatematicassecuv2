@@ -1,0 +1,164 @@
+{
+  "id": "2S-B1-PDA04-10",
+  "grado": "2°",
+  "trimestre": "2",
+  "numero": 40,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Regularidades y Patrones 4.10",
+  "contenido": "Regularidades y Patrones.",
+  "pda": "Representa algebraicamente una sucesión con progresión cuadrática de figuras y números.",
+  "problematizacion": {
+    "contexto": "Dos ingenieras comparan dos posibles diseños de antena satelital: el diseño A tiene un costo de instalación (en miles de pesos) modelado por 1.5n², y el diseño B por 2.2n² - 3n, donde n representa el número de soportes. Deben decidir cuál diseño conviene más si planean usar 6 soportes.",
+    "pregunta": "¿Cuál diseño de antena resulta más económico si se usan 6 soportes, comparando los valores de las dos expresiones cuadráticas?"
+  },
+  "subtemas": [
+    {
+      "numero": "4.10",
+      "titulo": "Dominio total: comparar, predecir y decidir con progresiones cuadráticas",
+      "explicacion": "En el nivel de dominio ya no basta con resolver un solo problema: hay que comparar dos progresiones cuadráticas distintas para decidir cuál conviene más, trabajar con coeficientes decimales y números menos \"redondos\", y justificar la respuesta con el procedimiento completo. Estos problemas simulan decisiones reales de negocios, ciencia y planeación, donde se debe elegir entre varias opciones con base en cálculos exactos.",
+      "formula": "Para comparar dos progresiones, evalúa ambas expresiones en el mismo valor de n y compara los resultados obtenidos.",
+      "ejemplos": [
+        "Dos empresas de eventos cobran: Empresa A: C_A(n)=8n²+40n+100; Empresa B: C_B(n)=12n²+10n+60, con n=número de invitados en decenas. Para n=5: C_A=8×25+200+100=500 pesos; C_B=12×25+50+60=410 pesos. Para n=5, conviene más la Empresa B.",
+        "El área de un terreno es A(n)=1.5n²+2n (en hectáreas), con n=etapa de expansión. Para n=8: 1.5×64+16=96+16=112 hectáreas."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Dos empresas cobran: Empresa A: C_A(n)=6n²+80; Empresa B: C_B(n)=10n²+20, con n=número de eventos. Para n=5, ¿cuál empresa cobra menos?",
+          "opciones": [
+            "Empresa A, con 230 pesos",
+            "Empresa A, con 270 pesos",
+            "Empresa B, con 230 pesos",
+            "Empresa B, con 270 pesos"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "C_A(5)=6×25+80=230. C_B(5)=10×25+20=270. La Empresa A cobra menos."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Para n=4, la expresión 2.5n²+3n da 58.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "2.5×16+3×4 = 40+12 = 52, no 58."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El área de un terreno es A(n)=1.5n²+4n (en hectáreas). Para n=6, el área es ___ hectáreas.",
+          "respuestaCorrecta": "78",
+          "retroalimentacion": "1.5×36+4×6 = 54+24 = 78."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Se comparan las sucesiones X(n)=3n²+2n y Y(n)=2n²+5n+10. ¿En cuál de estos valores de n es Y(n) mayor que X(n)?",
+          "opciones": [
+            "n=2",
+            "n=6",
+            "n=8",
+            "n=10"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "En n=2: X=16, Y=28 (Y mayor). En n=6, 8 y 10, X supera a Y (por ejemplo en n=6: X=120, Y=112)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Para n=10, la expresión 0.5n²+6n da 110.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "0.5×100+60 = 50+60 = 110."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Dos rutas de entrega cuestan R1(n)=4n²+15n y R2(n)=6n²+5, con n=número de paquetes en decenas. Para n=3, la ruta más económica cuesta ___ pesos.",
+          "respuestaCorrecta": "59",
+          "retroalimentacion": "R1(3)=4×9+45=81. R2(3)=6×9+5=59. La más económica es R2, con 59 pesos."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una alberca en construcción por etapas tiene un volumen V(n)=2.5n²+3n+1 (en m³), con n=etapa. ¿Cuál es el volumen en la etapa 4?",
+          "opciones": [
+            "45 m³",
+            "49 m³",
+            "53 m³",
+            "57 m³"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "2.5×16+3×4+1 = 40+12+1 = 53 m³."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada modelo de negocio evaluado en n=5 con su resultado.",
+          "columnaA": [
+            "M1(n)=4n²+10",
+            "M2(n)=3n²+n+20",
+            "M3(n)=5n²-2n"
+          ],
+          "columnaB": [
+            "100",
+            "115",
+            "110"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "M1(5)=100+10=110; M2(5)=75+5+20=100; M3(5)=125-10=115."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El costo de construir secciones es C(n)=7.5n²+20 pesos, con un presupuesto máximo de 500 pesos. Con ese presupuesto se pueden construir hasta 7 secciones sin excederlo.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "C(7)=7.5×49+20=387.5. C(8)=7.5×64+20=500, que aún no excede el presupuesto. En realidad se pueden construir hasta 8 secciones, no 7."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un dron agrícola cubre un área A(n)=3n²-4n+2 (en hectáreas) tras n horas de vuelo. Después de 5 horas, ha cubierto ___ hectáreas.",
+          "respuestaCorrecta": "57",
+          "retroalimentacion": "3×25-4×5+2 = 75-20+2 = 57."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 10 de 10 · Dominio"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué expresión algebraica representa la sucesión 3, 12, 27, 48...?",
+      "opciones": [
+        "3n",
+        "3n²",
+        "n²+2",
+        "2n²"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "3n²: 3(1)²=3, 3(2)²=12, 3(3)²=27, 3(4)²=48. Coincide con la sucesión."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "La expresión n²+2 en n=5 da 27.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: 5²+2 = 25+2 = 27."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada expresión algebraica con el valor de su término 3.",
+      "columnaA": [
+        "n² en n=3",
+        "2n² en n=3",
+        "n²+1 en n=3"
+      ],
+      "columnaB": [
+        "18",
+        "10",
+        "9"
+      ],
+      "parejasCorrectas": [
+        2,
+        0,
+        1
+      ],
+      "retroalimentacion": "n²: 3²=9. 2n²: 2×9=18. n²+1: 9+1=10."
+    }
+  ]
+}

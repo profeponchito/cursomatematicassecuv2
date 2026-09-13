@@ -1,0 +1,172 @@
+{
+  "id": "2S-B1-PDA01-08",
+  "grado": "2°",
+  "trimestre": "1",
+  "numero": 8,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Extensión de los números a positivos y negativos y su orden 1.8",
+  "contenido": "Extensión de los números a positivos y negativos y su orden.",
+  "pda": "Compara y ordena números con signo (enteros, fracciones y decimales) en la recta numérica y analiza en qué casos se cumple la propiedad de densidad.",
+  "problematizacion": {
+    "contexto": "En el análisis del torneo de futbol amateur de Monterrey, el estadístico registra el diferencial de goles esperados (xG) de tres equipos en la última jornada: -5/16, -0.3 y -3/8. El director técnico quiere saber qué equipo jugó peor de lo esperado, y si existe un posible diferencial entre los dos valores más bajos para comparar con un cuarto equipo.",
+    "pregunta": "¿Qué equipo tuvo el peor diferencial de xG, y qué valor podría existir entre los dos diferenciales negativos más bajos?"
+  },
+  "subtemas": [
+    {
+      "numero": "1.8",
+      "titulo": "Diferencial de goles esperados (xG) en la tabla del torneo",
+      "explicacion": "En el análisis deportivo moderno se usa el \"diferencial de goles esperados\" (xG) por partido, un número con signo que casi nunca es redondo. El reto avanzado combina la comparación de estos valores (muchos escritos como octavos o dieciseisavos) con preguntas sobre qué valor pudo existir entre dos ya conocidos, igual que haría un analista al revisar el rendimiento de varios equipos a la vez.",
+      "formula": "xG diferencial = xG a favor − xG en contra (por partido)",
+      "ejemplos": [
+        "Un analista calcula el xG diferencial por partido de 4 equipos: Tigres 0.85, Rayados -11/16, Pumas -19/16 y América 19/16. Convirtiendo: -11/16 = -0.6875 y -19/16 = -1.1875. Ordenando de menor a mayor: -1.1875 < -0.6875 < 0.85 < 1.1875.",
+        "Si un quinto equipo tuvo un xG diferencial entre el de Pumas (-1.1875) y el de Rayados (-0.6875), ¿pudo ser -1.0? Sí, porque -1.1875 < -1.0 < -0.6875."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Cuatro equipos tienen este xG diferencial por partido: Cruz Azul -0.65, Toluca 5/8, Necaxa -13/8, León -0.4. ¿Cuál es el orden correcto de menor a mayor?",
+          "opciones": [
+            "-13/8, -0.65, -0.4, 5/8",
+            "5/8, -0.4, -0.65, -13/8",
+            "-0.65, -13/8, -0.4, 5/8",
+            "-13/8, -0.4, -0.65, 5/8"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "-13/8 = -1.625 y 5/8 = 0.625. De menor a mayor: -1.625 < -0.65 < -0.4 < 0.625."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "-19/16 es menor que -1.1.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: -19/16 = -1.1875, y -1.1875 < -1.1."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "-27/16 escrito en decimal es ___.",
+          "respuestaCorrecta": "-1.6875",
+          "retroalimentacion": "-27/16 = -1.6875."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada xG diferencial dado como fracción con su forma decimal.",
+          "columnaA": [
+            "-21/8",
+            "-47/16",
+            "-3/16"
+          ],
+          "columnaB": [
+            "-0.1875",
+            "-2.9375",
+            "-2.625"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "-21/8 = -2.625; -47/16 = -2.9375; -3/16 = -0.1875."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Pachuca tiene un xG diferencial de -2.4 y Atlas de -2.35. ¿Cuál de los siguientes valores pudo tener un equipo entre ambos?",
+          "opciones": [
+            "-2.3",
+            "-2.45",
+            "-2.5",
+            "-2.38"
+          ],
+          "respuestaCorrecta": 3,
+          "retroalimentacion": "-2.38 está entre -2.4 y -2.35, ya que -2.4 < -2.38 < -2.35."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Entre los valores -0.502 y -0.501 no cabe ningún otro xG diferencial.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: por la propiedad de densidad, entre -0.502 y -0.501 existen infinitos valores posibles, por ejemplo -0.5015."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "-53/16 escrito en decimal es ___.",
+          "respuestaCorrecta": "-3.3125",
+          "retroalimentacion": "-53/16 = -3.3125."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El promedio de gol por partido (a favor menos en contra) de 4 equipos es: Monterrey -0.6, Santos 2/5, Puebla -3/4, Querétaro -0.55. ¿Cuál equipo tiene el promedio más bajo?",
+          "opciones": [
+            "Monterrey",
+            "Puebla",
+            "Querétaro",
+            "Santos"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "-3/4 = -0.75, el valor más bajo de los cuatro: -0.75 < -0.6 < -0.55 < 0.4."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "-11/8 es mayor que -1.4.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: -11/8 = -1.375, y -1.375 > -1.4."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Cada equipo tiene 4 registros de xG diferencial en el torneo. Relaciona a cada equipo con su peor registro (el valor menor).",
+          "columnaA": [
+            "Equipo A: -0.58, 3/8, -0.62, 0.1",
+            "Equipo B: -15/8, -1.2, 0, -31/16",
+            "Equipo C: -2.05, -33/16, -1.9, 1"
+          ],
+          "columnaB": [
+            "-1.9375",
+            "-2.0625",
+            "-0.62"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "Equipo A: el menor es -0.62. Equipo B: -31/16 = -1.9375 es el menor. Equipo C: -33/16 = -2.0625 es el menor."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 8 de 10 · Reto avanzado"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada par de números con la comparación correcta.",
+      "columnaA": [
+        "-8 y -3.9",
+        "5/8 y -1",
+        "-0.15 y -0.2"
+      ],
+      "columnaB": [
+        "5/8 > -1",
+        "-0.15 > -0.2",
+        "-8 < -3.9"
+      ],
+      "parejasCorrectas": [
+        2,
+        0,
+        1
+      ],
+      "retroalimentacion": "-8 < -3.9; 5/8 (0.625) > -1; -0.15 > -0.2."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "-11/8 escrito como decimal es ___.",
+      "respuestaCorrecta": "-1.375",
+      "retroalimentacion": "-11/8 = -1.375."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "-1.4 es menor que -4/3.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: -4/3 = -1.333..., y -1.4 está más a la izquierda: -1.4 < -1.333..."
+    }
+  ]
+}

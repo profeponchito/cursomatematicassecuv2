@@ -1,0 +1,158 @@
+{
+  "id": "2S-B1-PDA02-06",
+  "grado": "2°",
+  "trimestre": "1",
+  "numero": 16,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Extensión del significado de las operaciones y sus relaciones inversas 2.6",
+  "contenido": "Extensión del significado de las operaciones y sus relaciones inversas.",
+  "pda": "Comprueba y argumenta si las operaciones cumplen las propiedades conmutativa, asociativa y distributiva. Aplica criterios de divisibilidad, máximo común divisor y mínimo común múltiplo.",
+  "problematizacion": {
+    "contexto": "En una fábrica de calzado en León, una máquina cortadora hace una pausa de mantenimiento cada 15 minutos y otra máquina de costura hace su pausa cada 20 minutos; ambas iniciaron su turno exactamente a las 8:00 de la mañana.",
+    "pregunta": "¿A qué hora volverán a hacer su pausa de mantenimiento al mismo tiempo las dos máquinas?"
+  },
+  "subtemas": [
+    {
+      "numero": "2.6",
+      "titulo": "Sincronización de eventos con el mcm",
+      "explicacion": "Así como el MCD resuelve repartos, el mcm resuelve problemas de sincronización: saber cada cuánto tiempo vuelven a coincidir dos eventos que se repiten con frecuencias distintas, como camiones que salen cada cierto número de minutos o alarmas que suenan en ciclos diferentes. Aquí armarás el problema completo: identificas los periodos, calculas el mcm, y respondes en qué momento (u horario) vuelven a coincidir.",
+      "formula": "Pasos para sincronizar eventos: 1) Identifica el periodo (frecuencia) de cada evento. 2) Calcula el mcm de esos periodos. 3) El mcm es el tiempo que debe pasar para que ambos eventos vuelvan a coincidir.",
+      "ejemplos": [
+        "Dos camiones de una ruta salen de la central: uno cada 20 minutos y otro cada 24 minutos, y ambos salieron juntos a las 7:00 a.m. mcm(20,24): 20=2²×5, 24=2³×3 → mcm=2³×3×5=120. Volverán a salir juntos 120 minutos (2 horas) después, es decir, a las 9:00 a.m.",
+        "Una alarma suena cada 15 segundos y otra cada 36 segundos; si sonaron juntas al iniciar un simulacro, mcm(15,36): 15=3×5, 36=2²×3² → mcm=2²×3²×5=180. Volverán a sonar juntas 180 segundos (3 minutos) después."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Dos semáforos cambian de forma sincronizada: uno cada 40 segundos y otro cada 30 segundos. Si ambos cambiaron al mismo tiempo, ¿cada cuántos segundos vuelven a coincidir?",
+          "opciones": [
+            "70",
+            "100",
+            "120",
+            "1200"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "40=2³×5, 30=2×3×5. mcm(40,30)=2³×3×5=120 segundos."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Dos autobuses salen de la terminal, uno cada 25 minutos y otro cada 35 minutos. Si salieron juntos a las 6:00 a.m., volverán a coincidir después de ___ minutos.",
+          "respuestaCorrecta": "175",
+          "retroalimentacion": "25=5², 35=5×7. mcm(25,35)=5²×7=175 minutos."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si una luz roja parpadea cada 16 segundos y una luz azul cada 36 segundos, y ambas encendieron juntas, volverán a coincidir 144 segundos después.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 16=2⁴, 36=2²×3². mcm(16,36)=2⁴×3²=144 segundos."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Dos entrenadores citan a sus equipos cada 20 y cada 32 días, respectivamente. Si coincidieron un lunes, volverán a coincidir 320 días después.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: 20=2²×5, 32=2⁵. mcm(20,32)=2⁵×5=160 días, no 320."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una fábrica, una máquina revisa piezas cada 20 minutos y otra cada 28 minutos. Si ambas revisaron al mismo tiempo a las 9:00, ¿a qué hora volverán a coincidir?",
+          "opciones": [
+            "10:20",
+            "11:20",
+            "11:40",
+            "12:20"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "20=2²×5, 28=2²×7. mcm(20,28)=2²×5×7=140 minutos. 9:00 + 140 min (2 h 20 min) = 11:20."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Dos ciclistas dan vueltas a una pista: uno completa una vuelta cada 36 segundos y otro cada 48 segundos. Si partieron juntos de la línea de salida, volverán a coincidir en la salida después de ___ segundos.",
+          "respuestaCorrecta": "144",
+          "retroalimentacion": "36=2²×3², 48=2⁴×3. mcm(36,48)=2⁴×3²=144 segundos."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada par de periodos con el número de minutos que deben pasar para que vuelvan a coincidir (su mcm).",
+          "columnaA": [
+            "10 y 14 minutos",
+            "16 y 20 minutos",
+            "9 y 27 minutos"
+          ],
+          "columnaB": [
+            "80",
+            "27",
+            "70"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "mcm(10,14)=70; mcm(16,20)=80; mcm(9,27)=27."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Dos regaderas de riego automático se activan: una cada 45 minutos y otra cada 63 minutos. Si se activaron juntas al mediodía, ¿después de cuántos minutos se activarán juntas de nuevo?",
+          "opciones": [
+            "270",
+            "315",
+            "378",
+            "2835"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "45=3²×5, 63=3²×7. mcm(45,63)=3²×5×7=315 minutos."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un reloj despertador suena cada 27 minutos y otro cada 36 minutos. Si sonaron juntos, volverán a sonar juntos 108 minutos después.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 27=3³, 36=2²×3². mcm(27,36)=2²×3³=108 minutos."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Dos líneas de producción empacan cajas: la línea A cada 22 minutos y la línea B cada 33 minutos. Si ambas empacaron una caja al mismo tiempo, volverán a coincidir después de ___ minutos.",
+          "respuestaCorrecta": "66",
+          "retroalimentacion": "22=2×11, 33=3×11. mcm(22,33)=2×3×11=66 minutos."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 6 de 10 · Aplicación avanzada"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "(8+3)+2=8+(3+2) es un ejemplo de la propiedad distributiva.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "(8+3)+2=8+(3+2) corresponde a la propiedad asociativa, no distributiva."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "El mcm de 18 y 27 es ___.",
+      "respuestaCorrecta": "54",
+      "retroalimentacion": "18=2×3², 27=3³. mcm = 2×3³ = 54."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Empareja cada ejemplo con la propiedad matemática que representa.",
+      "columnaA": [
+        "7×(1+9)=7×1+7×9",
+        "2+8=8+2",
+        "(6+4)+3=6+(4+3)"
+      ],
+      "columnaB": [
+        "Asociativa",
+        "Distributiva",
+        "Conmutativa"
+      ],
+      "parejasCorrectas": [
+        1,
+        2,
+        0
+      ],
+      "retroalimentacion": "El primero es distributiva, el segundo conmutativa, el tercero asociativa."
+    }
+  ]
+}

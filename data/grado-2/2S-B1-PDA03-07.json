@@ -1,0 +1,154 @@
+{
+  "id": "2S-B1-PDA03-07",
+  "grado": "2°",
+  "trimestre": "1",
+  "numero": 27,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Resolución de problemas de proporcionalidad directa 3.7",
+  "contenido": "Resolución de problemas de proporcionalidad directa.",
+  "pda": "Resuelve problemas de proporcionalidad directa mediante el valor unitario, la constante de proporcionalidad y otros procedimientos.",
+  "problematizacion": {
+    "contexto": "Una compañía de taxis en Puebla cobra una bandera fija de $12 más $2 por cada kilómetro recorrido. Un pasajero afirma que el costo del viaje es directamente proporcional a los kilómetros recorridos, porque entre más kilómetros, más se paga.",
+    "pregunta": "¿Es correcto decir que el costo del viaje en taxi es directamente proporcional a los kilómetros recorridos? Justifica tu respuesta."
+  },
+  "subtemas": [
+    {
+      "numero": "3.7",
+      "nivelEtiqueta": "Nivel 7 de 10 · Reto",
+      "titulo": "¿Proporcional o no? Cuotas fijas y tarifas engañosas",
+      "explicacion": "Hasta aquí todos los problemas SÍ eran de proporcionalidad directa. El reto de esta lección es reconocer cuándo una relación NO lo es, como la renta fija del salón de usos múltiples de la problematización inicial. Regla clave: una relación es directamente proporcional solo si la razón y÷x es igual para TODOS los pares de valores y, además, cuando x = 0, también y = 0 (sin cargos fijos).",
+      "ejemplos": [
+        "Un plan de telefonía cobra $50 fijos más $2 por cada GB. Con 10 GB pagas $70 (razón 7) y con 20 GB pagas $90 (razón 4.5). Las razones son distintas → NO es proporcionalidad directa: hay una cuota fija.",
+        "La fruta a granel: 3 kg cuestan $54 (razón 18) y 6 kg cuestan $108 (razón 18). La razón es constante y con 0 kg pagarías $0 → SÍ es proporcionalidad directa."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La renta mensual del salón de usos múltiples es siempre $1,200, sin importar cuántas veces se use. La relación entre el número de usos y el costo es directamente proporcional.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: el costo NO cambia aunque cambie el número de usos, así que la razón costo÷usos no es constante entre distintos valores de uso; además al usarlo 1 vez el costo ya es $1,200 y no crece proporcionalmente."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un taxi cobra $15 de banderazo más $8 por km recorrido. Si recorres 5 km pagas $55 y si recorres 10 km pagas $95. ¿Por qué esta relación NO es directamente proporcional?",
+          "opciones": [
+            "Porque la razón costo÷km no es constante (55÷5=11 y 95÷10=9.5)",
+            "Porque el costo siempre aumenta al recorrer más distancia",
+            "Porque 10 km es exactamente el doble de 5 km",
+            "Porque el banderazo es un número impar"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "En proporcionalidad directa la razón y÷x debe ser siempre la misma; aquí cambia por el banderazo fijo de $15."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Para que una relación entre x y y sea directamente proporcional, cuando x vale 0, y debe valer ___.",
+          "respuestaCorrecta": "0",
+          "retroalimentacion": "En y = k·x, si x = 0 entonces y = k·0 = 0. Si hay un cargo fijo, y no será 0 aunque x sí lo sea."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si al comprar 2 boletos pagas $40 y al comprar 5 boletos pagas $100, la relación es directamente proporcional.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "k₁ = 40÷2 = 20 y k₂ = 100÷5 = 20. Como ambas razones son iguales y sin cargo fijo, sí es proporcional."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de las siguientes situaciones SÍ es un ejemplo de proporcionalidad directa?",
+          "opciones": [
+            "Una membresía de gimnasio: $300 de inscripción única más $150 mensuales",
+            "El precio total de la gasolina según los litros cargados, sin cargos adicionales",
+            "La edad de una persona comparada con su estatura",
+            "La renta fija de un salón, sin importar el número de eventos realizados"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "El precio de la gasolina sin cargos fijos cumple y = k·x: al doble de litros, doble de precio, y 0 litros cuestan $0."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una mensajería cobra $25 fijos por envío más $3 por km. Un envío de 5 km cuesta $40 y uno de 10 km cuesta $55. ¿La razón costo÷km es la misma en ambos envíos? Responde 'sí' o 'no': ___",
+          "respuestaCorrecta": "no",
+          "retroalimentacion": "40÷5 = 8 y 55÷10 = 5.5. Las razones son distintas porque hay un cargo fijo de $25."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación con si es o no directamente proporcional.",
+          "columnaA": [
+            "El costo del boleto de camión según la distancia, con el mismo precio por km y sin cargo fijo",
+            "La cuota de un club deportivo: $500 de inscripción más $200 mensuales",
+            "El peso total de un producto según la cantidad de piezas idénticas que compras"
+          ],
+          "columnaB": [
+            "Sí es proporcional",
+            "No es proporcional (tiene cargo fijo)"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            0
+          ],
+          "retroalimentacion": "El boleto por distancia y el peso por piezas idénticas SÍ son proporcionales (sin cargo fijo). La cuota del club NO lo es porque tiene una inscripción fija."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En una alberca, la cantidad de cloro necesaria es proporcional al volumen de agua: 200 litros necesitan 40 ml de cloro, y 500 litros necesitan 100 ml. Esta relación es directamente proporcional.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "k₁ = 40÷200 = 0.2 y k₂ = 100÷500 = 0.2. Ambas razones son iguales, así que sí es proporcional."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un mecánico cobra $350 fijos por revisión más $120 por cada hora de mano de obra. Un cliente paga $590 por 2 horas. Si otro cliente trabaja 4 horas, ¿cuánto pagará (siguiendo la misma relación, que NO es proporcional)?",
+          "opciones": [
+            "$830",
+            "$1,180",
+            "$710",
+            "$950"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Costo = 350 + 120×4 = $830. No se puede duplicar simplemente el pago de 2 horas ($590×2=$1,180) porque hay un cargo fijo que no se repite."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La renta fija de $1,200 del salón de usos múltiples NO es proporcional al número de usos porque, aunque el salón se use ___ veces, el costo sigue siendo $1,200 y no $0.",
+          "respuestaCorrecta": "0",
+          "retroalimentacion": "En proporcionalidad directa, si x=0 entonces y=0. Aquí, incluso con 0 usos planeados el costo de renta ya está fijado, lo cual rompe la condición."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "llenar_frase",
+      "frase": "Si 4 boletos de camión cuestan $52, entonces 9 boletos cuestan $___.",
+      "respuestaCorrecta": "117",
+      "retroalimentacion": "k = 52÷4 = 13 por boleto. 9×13 = $117."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Si 15 kg de naranjas cuestan $225, entonces 8 kg cuestan $120.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: k = 225÷15 = 15 por kg; 8×15 = $120."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Si 6 entradas al cine cuestan $270, ¿cuánto cuestan 11 entradas?",
+      "opciones": [
+        "$450",
+        "$495",
+        "$460",
+        "$405"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "k = 270÷6 = 45 por entrada. 11×45 = $495."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Una receta usa 4 tazas de harina para 24 galletas. Para 36 galletas se necesitan 6 tazas.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: k = 4÷24 = 1/6 de taza por galleta; 36×1/6 = 6 tazas."
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "id": "2S-B1-PDA02-09",
+  "grado": "2°",
+  "trimestre": "1",
+  "numero": 19,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Extensión del significado de las operaciones y sus relaciones inversas 2.9",
+  "contenido": "Extensión del significado de las operaciones y sus relaciones inversas.",
+  "pda": "Comprueba y argumenta si las operaciones cumplen las propiedades conmutativa, asociativa y distributiva. Aplica criterios de divisibilidad, máximo común divisor y mínimo común múltiplo.",
+  "problematizacion": {
+    "contexto": "En su cuaderno, Daniela tiene la expresión 6y + 15 y su compañero le dice que se puede escribir como el producto de un número por un paréntesis, usando el máximo común divisor de 6 y 15. También le piden comprobar si a(b+c) da el mismo resultado que ab+ac, usando b y c como cantidades desconocidas de un problema de costos.",
+    "pregunta": "¿Cómo se factoriza la expresión 6y + 15 usando el MCD de 6 y 15, y por qué a(b+c) siempre es igual a ab+ac sin importar los valores de a, b y c?"
+  },
+  "subtemas": [
+    {
+      "numero": "2.9",
+      "titulo": "Propiedades con expresiones algebraicas y factorización con el MCD",
+      "explicacion": "En esta lección integras dos ideas: primero, comprobarás las propiedades conmutativa, asociativa y distributiva ya no solo con números, sino con expresiones que incluyen una literal (letra) que representa un número cualquiera; segundo, usarás el MCD para factorizar una suma, es decir, para escribirla como el producto de un factor común por la suma de lo que queda, el proceso inverso de aplicar la distributiva. Esto conecta directamente el sentido numérico con el pensamiento algebraico.",
+      "formula": "Factorización con el MCD: si a y b tienen un factor común d = MCD(a,b), entonces a+b = d×(a÷d + b÷d).",
+      "ejemplos": [
+        "Factoriza 30+45 usando el MCD: MCD(30,45)=15. 30+45=15×(2+3)=15×5=75. Comprobación: 30+45=75. ✓",
+        "Comprueba con x=6 si 4×(x+3)=4×x+4×3 (propiedad distributiva). Sustituyendo: 4×(6+3)=4×9=36, y 4×6+4×3=24+12=36. Como ambos lados dan 36, la igualdad se cumple para x=6, mostrando que la distributiva funciona sin importar el valor de x."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si x=5, entonces 3×(x+7)=3×x+3×7 se cumple, porque ambos lados dan 36.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 3×(5+7)=3×12=36, y 3×5+3×7=15+21=36."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Al factorizar 44+66 usando el MCD, obtenemos MCD(44,66)=___.",
+          "respuestaCorrecta": "22",
+          "retroalimentacion": "44=2²×11, 66=2×3×11. MCD(44,66)=2×11=22, y en efecto 44+66=22×(2+3)=22×5=110."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la factorización correcta de 24+32 usando su MCD?",
+          "opciones": [
+            "8 × (3 + 4)",
+            "4 × (6 + 8)",
+            "16 × (1 + 2)",
+            "8 × (4 + 5)"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "MCD(24,32)=8, y 24÷8=3, 32÷8=4, así que 24+32=8×(3+4)=56. Las otras opciones usan un factor que no es el MCD o dan una suma incorrecta."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La igualdad (a+4)+9=a+(4+9) es un ejemplo de la propiedad asociativa que se cumple sin importar el valor de a.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: la propiedad asociativa de la suma garantiza que el agrupamiento de los términos no cambia el resultado, para cualquier valor de a."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si y=8, el valor de (y+3)+2 es ___, igual al valor de y+(3+2).",
+          "respuestaCorrecta": "13",
+          "retroalimentacion": "(8+3)+2=13 y 8+(3+2)=13: ambos caminos dan el mismo resultado por la propiedad asociativa."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál expresión es equivalente a 7×(n+5) para cualquier valor de n, según la propiedad distributiva?",
+          "opciones": [
+            "7n+35",
+            "7n+5",
+            "n+35",
+            "7+5n"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "7×(n+5)=7×n+7×5=7n+35."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada expresión con su resultado equivalente.",
+          "columnaA": [
+            "5×(m+6)",
+            "9×(k+2)",
+            "MCD(36,54)×(2+3)"
+          ],
+          "columnaB": [
+            "9k+18",
+            "90",
+            "5m+30"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "5×(m+6)=5m+30; 9×(k+2)=9k+18; MCD(36,54)=18, y 18×(2+3)=90 (36+54=90)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "50+80 se puede factorizar como 10×(5+8), donde 10 es el MCD de 50 y 80.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 50=2×5², 80=2⁴×5. MCD(50,80)=2×5=10, y 50÷10=5, 80÷10=8."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Si p=12, ¿cuál es el resultado de aplicar la propiedad conmutativa a la suma p+15?",
+          "opciones": [
+            "15+p, que da el mismo resultado que p+15",
+            "p−15",
+            "15×p",
+            "p+15 no tiene propiedad conmutativa"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "La propiedad conmutativa dice que el orden no altera el resultado: p+15=15+p; con p=12, ambos dan 27."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Al factorizar 63+99 usando el MCD, el resultado es ___ × (7+11).",
+          "respuestaCorrecta": "9",
+          "retroalimentacion": "63=3²×7, 99=3²×11. MCD(63,99)=3²=9, y 63÷9=7, 99÷9=11, así que 63+99=9×(7+11)=162."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 9 de 10 · Integración"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "9×(2+6)=9×2+9×6 es un ejemplo de la propiedad distributiva.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "9×(2+6)=9×2+9×6 corresponde a la propiedad distributiva."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "El MCD de 23 y 46 es 23.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: 46=2×23, así que MCD(23,46) = 23."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Empareja cada operación con el resultado que le corresponde.",
+      "columnaA": [
+        "MCD de 8 y 12",
+        "mcm de 10 y 15",
+        "MCD de 29 y 58"
+      ],
+      "columnaB": [
+        "29",
+        "4",
+        "30"
+      ],
+      "parejasCorrectas": [
+        1,
+        2,
+        0
+      ],
+      "retroalimentacion": "MCD de 8 y 12 = 4; mcm de 10 y 15 = 30; MCD de 29 y 58 = 29."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "El MCD de 16 y 24 es ___.",
+      "respuestaCorrecta": "8",
+      "retroalimentacion": "16=2⁴, 24=2³×3. MCD = 2³ = 8."
+    }
+  ]
+}

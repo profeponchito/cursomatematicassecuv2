@@ -1,0 +1,118 @@
+{
+  "id": "2S-B1-PDA04-01",
+  "grado": "2°",
+  "trimestre": "2",
+  "numero": 31,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Regularidades y Patrones 4.1",
+  "contenido": "Regularidades y Patrones.",
+  "pda": "Representa algebraicamente una sucesión con progresión cuadrática de figuras y números.",
+  "problematizacion": {
+    "contexto": "En su taller de manualidades, la maestra Beatriz pide a sus alumnos apilar servilletas de papel dobladas para hacer una decoración: en el nivel 1 usa 1 servilleta, en el nivel 2 usa 4, en el nivel 3 usa 9, y así sigue creciendo.",
+    "pregunta": "¿Cuántas servilletas se necesitarán para armar el nivel 5, sin tener que contarlas una por una?"
+  },
+  "subtemas": [
+    {
+      "numero": "4.1",
+      "titulo": "¿Qué es una progresión cuadrática?",
+      "explicacion": "En una progresión cuadrática, los términos no aumentan una cantidad constante (como en la progresión aritmética), sino que siguen un patrón relacionado con el cuadrado de la posición del término. Cuando los términos son 1, 4, 9, 16..., la expresión algebraica es n², donde n es la posición del término.",
+      "formula": "término_n = n²  (en progresiones cuadráticas simples)",
+      "ejemplos": [
+        "1²=1, 2²=4, 3²=9, 4²=16: cada término es el cuadrado de su posición.",
+        "Para el arreglo 8 de macetas: término_8 = 8² = 64 macetas."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El término 7 de la sucesión n² es 49.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 7² = 49."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El término 9 de la sucesión 2n²+2 es 164.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "2n²+2 en n=9 = 164."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El término 9 de la sucesión 2n²+1 es 160.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "2n²+1 en n=9 = 163."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El término 6 de la sucesión 2n²-1 es 71.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "2n²-1 en n=6 = 71."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El término 7 de la sucesión 2n²+1 es 99.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "2n²+1 en n=7 = 99."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El término 8 de la sucesión n² es 64.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 8² = 64."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El término 5 de la sucesión 2n²+3 es 55.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "2n²+3 en n=5: 2×25+3 = 53, no 55."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El término 6 de la sucesión n² es ___.",
+          "respuestaCorrecta": "36",
+          "retroalimentacion": "6² = 36."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El término 4 de la sucesión 2n²-3 es ___.",
+          "respuestaCorrecta": "29",
+          "retroalimentacion": "2n²-3 en n=4: 2×16-3 = 29."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el término 10 de la sucesión n²?",
+          "opciones": [
+            "90",
+            "100",
+            "110",
+            "120"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "10² = 100."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 1 de 10 · Introductorio"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "El término 10 de la sucesión n² es 100.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: 10² = 100."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "El término 5 de la sucesión 3n² es 75.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "3n² en n=5: 3×5² = 3×25 = 75."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "En la sucesión n²-1, el término 7 es ___.",
+      "respuestaCorrecta": "48",
+      "retroalimentacion": "n²-1 en n=7: 7²-1 = 49-1 = 48."
+    }
+  ]
+}

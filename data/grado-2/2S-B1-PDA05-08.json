@@ -1,0 +1,170 @@
+{
+  "id": "2S-B1-PDA05-08",
+  "grado": "2°",
+  "trimestre": "2",
+  "numero": 48,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Introducción al álgebra 5.8",
+  "contenido": "Introducción al álgebra.",
+  "pda": "Representa algebraicamente áreas que generan una expresión cuadrática. Identifica y usa las propiedades de los exponentes.",
+  "problematizacion": {
+    "contexto": "En el plano de una construcción en Cancún, el arquitecto representa el lado de una habitación como (3x+2) metros, donde x depende del tamaño final que elijan los dueños.",
+    "pregunta": "¿Qué expresión algebraica representa el área de la habitación al elevar (3x+2) al cuadrado?"
+  },
+  "subtemas": [
+    {
+      "numero": "5.8",
+      "titulo": "Cuadrado de binomio con coeficiente: planos a escala",
+      "explicacion": "En los cuadrados de binomio anteriores, el término con x tenía coeficiente 1. Ahora el lado de una construcción se representa como (ax+b), donde 'a' es un factor de escala. Al elevarlo al cuadrado, cada parte de la fórmula se ve afectada por 'a': (ax+b)² = a²x² + 2abx + b². Nota que el primer término ya no es x², sino a²x², porque también se eleva al cuadrado el coeficiente de x.",
+      "formula": "(ax+b)² = a²x² + 2abx + b²",
+      "ejemplos": [
+        "El frente de una construcción mide (2x+3) metros. Si es cuadrado, su área es (2x+3)² = 2²x² + 2(2)(3)x + 3² = 4x² + 12x + 9 metros cuadrados.",
+        "(3x+1)² = 3²x² + 2(3)(1)x + 1² = 9x² + 6x + 1."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El lado de una sala cuadrada mide (2x+5) metros. ¿Cuál es el desarrollo de (2x+5)²?",
+          "opciones": [
+            "4x²+20x+25",
+            "4x²+25",
+            "2x²+20x+25",
+            "4x²+10x+25"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(2x+5)² = 2²x² + 2(2)(5)x + 5² = 4x²+20x+25."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "(3x+2)² = 9x² + 12x + 4.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 3²=9, 2(3)(2)=12 y 2²=4, entonces (3x+2)²=9x²+12x+4."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El desarrollo de (4x+1)² es 16x² + 8x + ___.",
+          "respuestaCorrecta": "1",
+          "retroalimentacion": "El último término es b²=1²=1."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "(2x+7)² = 4x² + 14x + 49.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: el término central es 2(2)(7)=28, no 14; (2x+7)²=4x²+28x+49."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El frente cuadrado de una fachada mide (5x+1) metros. ¿Cuál es su área desarrollada?",
+          "opciones": [
+            "25x²+10x+1",
+            "5x²+10x+1",
+            "25x²+5x+1",
+            "25x²+1"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(5x+1)² = 5²x² + 2(5)(1)x + 1² = 25x²+10x+1."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El desarrollo de (2x+1)² es 4x² + ___x + 1.",
+          "respuestaCorrecta": "4",
+          "retroalimentacion": "El coeficiente central es 2(2)(1)=4."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada expresión con su desarrollo.",
+          "columnaA": [
+            "(3x+4)²",
+            "(2x+3)²",
+            "(4x+3)²"
+          ],
+          "columnaB": [
+            "4x²+12x+9",
+            "16x²+24x+9",
+            "9x²+24x+16"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "(3x+4)²=9x²+24x+16; (2x+3)²=4x²+12x+9; (4x+3)²=16x²+24x+9."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En (ax+b)², el primer término siempre es x², sin importar el valor de a.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: el primer término es a²x²; solo cuando a=1 el primer término es exactamente x²."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el desarrollo de (3x+1)²?",
+          "opciones": [
+            "9x²+6x+1",
+            "3x²+6x+1",
+            "9x²+3x+1",
+            "9x²+1"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(3x+1)² = 3²x² + 2(3)(1)x + 1² = 9x²+6x+1."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un terreno de construcción tiene lado (5x+2) metros. ¿Cuál es su área si es cuadrado?",
+          "opciones": [
+            "25x²+20x+4",
+            "5x²+20x+4",
+            "25x²+4",
+            "25x²+10x+4"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(5x+2)² = 5²x² + 2(5)(2)x + 2² = 25x²+20x+4."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 8 de 10 · Reto avanzado"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada expresión con su resultado simplificado.",
+      "columnaA": [
+        "(x+15)²",
+        "x^5×x^4",
+        "(x^4)^3"
+      ],
+      "columnaB": [
+        "x^12",
+        "x²+30x+225",
+        "x^9"
+      ],
+      "parejasCorrectas": [
+        1,
+        2,
+        0
+      ],
+      "retroalimentacion": "(x+15)²=x²+30x+225; x^5×x^4=x^9; (x^4)^3=x^12."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Simplifica: x^6 × x^9",
+      "opciones": [
+        "x^15",
+        "x^54",
+        "x^3",
+        "2x^15"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "Al multiplicar potencias de la misma base se suman los exponentes: 6+9=15."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "(x+16)² = x² + 32x + 256.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: 2(16)=32 y 16²=256, entonces (x+16)² = x²+32x+256."
+    }
+  ]
+}

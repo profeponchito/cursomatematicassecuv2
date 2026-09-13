@@ -1,0 +1,170 @@
+{
+  "id": "2S-B1-PDA05-09",
+  "grado": "2°",
+  "trimestre": "2",
+  "numero": 49,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Introducción al álgebra 5.9",
+  "contenido": "Introducción al álgebra.",
+  "pda": "Representa algebraicamente áreas que generan una expresión cuadrática. Identifica y usa las propiedades de los exponentes.",
+  "problematizacion": {
+    "contexto": "En clase de Ciencias, la maestra explica que la cantidad de medicamento que queda en el cuerpo después de cierto tiempo se representa con expresiones como x⁵÷x⁵ y x²÷x⁵, donde x es un factor de reducción por hora.",
+    "pregunta": "¿Cuál es el resultado de x⁵÷x⁵ y de x²÷x⁵, expresando el segundo con exponente negativo o como fracción?"
+  },
+  "subtemas": [
+    {
+      "numero": "5.9",
+      "titulo": "Exponentes cero y negativos: cuando el resultado se reduce",
+      "explicacion": "Si divides una potencia entre sí misma, el resultado es x⁰ = 1 (con x≠0), porque el exponente resultante es 0. Si divides una potencia entre otra de exponente mayor, el resultado da un exponente negativo, que significa 'uno entre': x⁻ⁿ = 1/xⁿ. Estas reglas amplían la propiedad de cociente de potencias que ya conoces (subtema 5.6) y aparecen al comparar cantidades que decrecen, como una dosis de medicamento que se reduce con el tiempo.",
+      "formula": "x⁰ = 1 (x≠0); x⁻ⁿ = 1/xⁿ",
+      "ejemplos": [
+        "x⁵ ÷ x⁵ = x^(5-5) = x⁰ = 1, porque cualquier cantidad entre sí misma da 1.",
+        "x² ÷ x⁵ = x^(2-5) = x⁻³ = 1/x³, porque el exponente del denominador es mayor que el del numerador."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "x^6 ÷ x^6 es igual a x^0, y x^0 = 1.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Cualquier potencia dividida entre sí misma da exponente 0 (6-6=0), y x⁰=1 para x≠0."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Al simplificar x^8 ÷ x^8 se obtiene x elevado a la ___, que equivale a 1.",
+          "respuestaCorrecta": "0",
+          "retroalimentacion": "8-8=0, y x⁰=1."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Simplifica: x² ÷ x⁵.",
+          "opciones": [
+            "1/x³",
+            "x³",
+            "1/x^10",
+            "x^7"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "2-5=-3, entonces x²÷x⁵=x⁻³=1/x³."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Al simplificar x^3 ÷ x^7 se obtiene x elevado a la ___ (usa el signo negativo).",
+          "respuestaCorrecta": "-4",
+          "retroalimentacion": "3-7=-4, entonces x^3÷x^7=x^-4."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "x^-4 es igual a 1/x^4.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: un exponente negativo indica el recíproco: x^-n = 1/x^n."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una dosis de medicamento en el cuerpo se representa por x⁴ ÷ x⁹ (la cantidad se reduce con el tiempo). ¿Cuál es el resultado simplificado?",
+          "opciones": [
+            "1/x⁵",
+            "x⁵",
+            "1/x^36",
+            "x^-36"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "4-9=-5, entonces x⁴÷x⁹=x⁻⁵=1/x⁵."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "x^-3 es un número mayor que x^3 (para x>1).",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: para x>1, x^-3=1/x³ es menor que x³, porque es una fracción con denominador grande."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada cociente de potencias con su resultado simplificado.",
+          "columnaA": [
+            "x^2÷x^8",
+            "x^7÷x^7",
+            "x^4÷x^5"
+          ],
+          "columnaB": [
+            "1/x",
+            "x^0=1",
+            "1/x^6"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "x^2÷x^8=x^-6=1/x^6; x^7÷x^7=x^0=1; x^4÷x^5=x^-1=1/x."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Al simplificar x^3 ÷ x^5 se obtiene x elevado a la ___ (usa el signo negativo).",
+          "respuestaCorrecta": "-2",
+          "retroalimentacion": "3-5=-2, entonces x^3÷x^5=x^-2=1/x²."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Integra lo aprendido: simplifica primero x²×x³ y después divide el resultado entre x⁸. ¿Qué obtienes?",
+          "opciones": [
+            "1/x³",
+            "x³",
+            "1/x^40",
+            "x^13"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Primero x²×x³=x⁵ (se suman exponentes); luego x⁵÷x⁸=x^(5-8)=x⁻³=1/x³ (se restan exponentes)."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 9 de 10 · Integración"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "llenar_frase",
+      "frase": "Al simplificar x^4 × x^10 se obtiene x elevado a la ___.",
+      "respuestaCorrecta": "14",
+      "retroalimentacion": "Se suman los exponentes: 4+10=14."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Simplifica: (x^5)^6",
+      "opciones": [
+        "x^30",
+        "x^11",
+        "x^25",
+        "x^60"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "Se multiplican los exponentes: 5×6=30."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada expresión con su resultado simplificado.",
+      "columnaA": [
+        "(x+9)²",
+        "x^3×x^8",
+        "(x^2)^9"
+      ],
+      "columnaB": [
+        "x^11",
+        "x²+18x+81",
+        "x^18"
+      ],
+      "parejasCorrectas": [
+        1,
+        0,
+        2
+      ],
+      "retroalimentacion": "(x+9)²=x²+18x+81; x^3×x^8=x^11; (x^2)^9=x^18."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "El desarrollo de (x+6)² es x² + 12x + ___.",
+      "respuestaCorrecta": "36",
+      "retroalimentacion": "El tercer término es el cuadrado del segundo: 6² = 36."
+    }
+  ]
+}

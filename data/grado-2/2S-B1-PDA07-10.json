@@ -1,0 +1,166 @@
+{
+  "id": "2S-B1-PDA07-10",
+  "grado": "2°",
+  "trimestre": "2",
+  "numero": 70,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Forma, espacio y medida",
+  "titulo": "Ángulos y Congruencia de Triángulos 7.10",
+  "contenido": "Rectas y ángulos.",
+  "pda": "Determina la suma de los ángulos internos de un polígono y aplica los criterios de congruencia de triángulos para resolver problemas.",
+  "problematizacion": {
+    "contexto": "El ayuntamiento de un municipio de Chiapas contrató a tu equipo de la escuela para revisar los planos de remodelación de la plaza principal: una fuente con forma de heptágono irregular, un puente peatonal triangular y una plazoleta hexagonal regular alrededor de un asta bandera.",
+    "pregunta": "Usando ángulos interiores, exteriores, bisectrices y congruencia de triángulos según haga falta en cada plano, ¿cómo verificarías que las tres construcciones quedan geométricamente correctas antes de que empiecen a construirlas?"
+  },
+  "subtemas": [
+    {
+      "numero": "7.10",
+      "titulo": "Proyecto integrador: plaza, puente y fuente con ángulos, congruencia y bisectrices",
+      "explicacion": "Esta lección de dominio combina, en problemas de varios pasos, todo lo aprendido en el PDA: suma de ángulos interiores y exteriores de polígonos regulares e irregulares, rectas notables (como la bisectriz) y congruencia de triángulos resuelta con ecuaciones algebraicas. Los números ya no son tan exactos ni redondos, y cada problema puede requerir dos o más cálculos encadenados antes de llegar a la respuesta final, tal como ocurre en un proyecto real de diseño o construcción.",
+      "ejemplos": [
+        "Una plaza heptagonal irregular tiene seis ángulos conocidos: 118°, 124°, 132°, 110°, 128° y 135°, que suman 747°. Como la suma total de un heptágono es (7−2)×180°=900°, el séptimo ángulo mide 900°−747°=153°; y su ángulo exterior en ese vértice es 180°−153°=27°.",
+        "Dos losas triangulares de un mismo mosaico son congruentes por ALA: un ángulo mide (2x+7.5)° y el otro (x+22.5)°. Igualando: 2x+7.5 = x+22.5 → x = 15. Ese ángulo mide 2(15)+7.5 = 37.5°."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En un puente colgante, dos triángulos de soporte son congruentes por LAL. Un lado de uno mide (3x−5) m y su correspondiente (x+11) m. ¿Cuánto vale x?",
+          "opciones": [
+            "8",
+            "7",
+            "9",
+            "6"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "3x−5 = x+11 → 2x=16 → x=8."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Con x=8, ese lado del triángulo del puente (3x−5) m mide ___ m.",
+          "respuestaCorrecta": "19",
+          "retroalimentacion": "3(8)−5 = 19 m (se confirma con 8+11=19)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una plaza tiene forma de heptágono irregular (7 lados). Seis de sus ángulos son: 118°, 124°, 132°, 110°, 128° y 135°. ¿Cuánto mide el séptimo ángulo?",
+          "opciones": [
+            "153°",
+            "150°",
+            "148°",
+            "160°"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Suma del heptágono = 900°. Conocidos suman 747°. Faltante = 900−747 = 153°."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si el ángulo interior de la plaza heptagonal irregular en uno de sus vértices es 153°, su ángulo exterior en ese mismo vértice mide 27°.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 180°−153° = 27°."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En el vértice de 118° de la plaza, se traza la bisectriz del ángulo para dividir el área en dos secciones de jardín iguales. Cada sección tiene un ángulo de ___°.",
+          "respuestaCorrecta": "59",
+          "retroalimentacion": "118° ÷ 2 = 59°."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Dos losas triangulares para un mismo mosaico octagonal son congruentes por ALA. Un ángulo correspondiente mide (2x+7.5)° y el otro (x+22.5)°. ¿Cuánto vale x?",
+          "opciones": [
+            "15",
+            "14",
+            "16",
+            "12"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "2x+7.5 = x+22.5 → x = 15."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Con x=15, el ángulo (2x+7.5)° de las losas del mosaico mide ___°.",
+          "respuestaCorrecta": "37.5",
+          "retroalimentacion": "2(15)+7.5 = 37.5° (se confirma con 15+22.5=37.5)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una fuente circular está bordeada por un polígono regular cuyo ángulo exterior mide 7.5°. ¿Cuántos lados tiene el polígono?",
+          "opciones": [
+            "48",
+            "45",
+            "40",
+            "36"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "n = 360° ÷ 7.5° = 48 lados."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si el polígono de la fuente tiene 48 lados, cada ángulo interior mide 172.5°.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 180°−7.5° = 172.5°."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada tarea del proyecto integrador con la herramienta matemática que se usa para resolverla.",
+          "columnaA": [
+            "Encontrar el ángulo interior de un polígono regular conocido el número de lados",
+            "Comprobar que dos piezas triangulares idénticas son congruentes solo con sus tres lados",
+            "Dividir a la mitad un ángulo con una bisectriz",
+            "Encontrar cuántos lados tiene un polígono regular a partir de su ángulo exterior"
+          ],
+          "columnaB": [
+            "Criterio LLL",
+            "360° ÷ ángulo exterior",
+            "[(n−2)×180°] ÷ n",
+            "ángulo ÷ 2"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            3,
+            1
+          ],
+          "retroalimentacion": "Ángulo interior regular: [(n−2)×180°]÷n. Congruencia con tres lados: LLL. Bisectriz: ángulo÷2. Lados a partir del exterior: 360°÷ángulo exterior."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 10 de 10 · Dominio"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Una mediatriz corta la base de una tienda de campaña triangular de 5.4 m exactamente en su punto medio. ¿Cuánto mide cada mitad?",
+      "opciones": [
+        "2.7 m",
+        "2.5 m",
+        "3.0 m",
+        "2.2 m"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "5.4 ÷ 2 = 2.7 m."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada polígono regular con la medida de su ángulo interior.",
+      "columnaA": [
+        "Hexágono (6 lados)",
+        "Eneágono (9 lados)",
+        "Dodecágono (12 lados)"
+      ],
+      "columnaB": [
+        "150°",
+        "120°",
+        "140°"
+      ],
+      "parejasCorrectas": [
+        1,
+        2,
+        0
+      ],
+      "retroalimentacion": "Hexágono: 720°÷6=120°. Eneágono: 1260°÷9=140°. Dodecágono: 1800°÷12=150°."
+    }
+  ]
+}

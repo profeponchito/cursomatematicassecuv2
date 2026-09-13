@@ -1,0 +1,158 @@
+{
+  "id": "2S-B1-PDA06-06",
+  "grado": "2°",
+  "trimestre": "2",
+  "numero": 56,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Ecuaciones lineales y cuadráticas 6.6",
+  "contenido": "Ecuaciones lineales y cuadráticas.",
+  "pda": "Modela y resuelve problemas cuyo planteamiento es una ecuación lineal. Resuelve problemas de porcentajes en diversas situaciones.",
+  "problematizacion": {
+    "contexto": "Dos compañías de internet en Hermosillo ofrecen planes distintos: la compañía A cobra $200 al mes más $30 por cada mes de renta anticipada, y la compañía B cobra $350 fijos más $10 por mes anticipado. Los papás de Bruno quieren saber en qué número de meses ambos planes cuestan exactamente lo mismo.",
+    "pregunta": "¿Después de cuántos meses de renta anticipada ambos planes de internet cuestan lo mismo?"
+  },
+  "subtemas": [
+    {
+      "numero": "6.6",
+      "titulo": "Ecuaciones con la variable en ambos lados",
+      "explicacion": "En las lecciones anteriores la variable aparecía solo en un lado de la ecuación. Ahora la incógnita aparece en ambos lados, como en ax + b = cx + d: para resolverla hay que reunir los términos con x en un solo lado y los números en el otro antes de despejar. Este tipo de ecuación es justo lo que se usa para comparar dos planes, tarifas o sueldos y encontrar en qué punto cuestan o rinden lo mismo.",
+      "formula": "ax + b = cx + d → (a − c)x = d − b → x = (d − b) ÷ (a − c)",
+      "ejemplos": [
+        "Un plan de telefonía A cobra $20 fijos más $5 por cada GB adicional; el plan B cobra $50 fijos más $3 por GB adicional. Para saber con cuántos GB cuestan lo mismo: 20 + 5x = 50 + 3x → 5x − 3x = 50 − 20 → 2x = 30 → x = 15. Con 15 GB adicionales, ambos planes cuestan lo mismo.",
+        "Resuelve: 7x − 10 = 4x + 20 → 7x − 4x = 20 + 10 → 3x = 30 → x = 10."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un plan de telefonía A cobra $150 fijos más $2 por cada minuto adicional; el plan B cobra $90 fijos más $5 por minuto adicional. ¿Con cuántos minutos adicionales ambos planes cuestan lo mismo?",
+          "opciones": [
+            "20 minutos",
+            "30 minutos",
+            "15 minutos",
+            "12 minutos"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "150+2x=90+5x → 60=3x → x=20."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Gimnasio Fit cobra $300 de inscripción más $50 al mes; Gimnasio Total cobra $150 de inscripción más $75 al mes. Después de x meses, el costo acumulado de ambos es igual. x = ___ meses.",
+          "respuestaCorrecta": "6",
+          "retroalimentacion": "300+50x=150+75x → 150=25x → x=6."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Resolver la ecuación 6x + 8 = 2x + 40 da x = 8.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "6x−2x=40−8 → 4x=32 → x=8. Correcto."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Resolver la ecuación 9x − 5 = 3x + 37 da x = 6.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "9x−3x=37+5 → 6x=42 → x=7, no 6."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Ana gana $2,000 fijos al mes más $30 por cada venta; Luis gana $500 fijos más $80 por cada venta. ¿Con cuántas ventas ganan la misma cantidad?",
+          "opciones": [
+            "30 ventas",
+            "25 ventas",
+            "40 ventas",
+            "20 ventas"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "2000+30x=500+80x → 1500=50x → x=30."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Resuelve: 8x − 12 = 3x + 33. x = ___.",
+          "respuestaCorrecta": "9",
+          "retroalimentacion": "8x−3x=33+12 → 5x=45 → x=9."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada ecuación con variable en ambos lados con su solución.",
+          "columnaA": [
+            "5x+6=2x+24",
+            "9x−10=4x+15",
+            "6x+8=2x+40"
+          ],
+          "columnaB": [
+            "8",
+            "6",
+            "5"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "5x+6=2x+24 → x=6; 9x−10=4x+15 → x=5; 6x+8=2x+40 → x=8."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El equipo Águilas ya lleva 34 puntos y anota 4 puntos por posesión; el equipo Halcones lleva 10 puntos y anota 7 puntos por posesión. ¿Después de cuántas posesiones tendrán la misma cantidad de puntos?",
+          "opciones": [
+            "8 posesiones",
+            "6 posesiones",
+            "10 posesiones",
+            "12 posesiones"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "34+4x=10+7x → 24=3x → x=8."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Karla tiene ahorrados $800 y ahorra $50 cada semana; su hermano tiene $200 ahorrados y ahorra $90 cada semana. Sus ahorros se igualarán en 5 semanas.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "800+50x=200+90x → 600=40x → x=15 semanas, no 5."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Resuelve: 4x + 45 = 9x − 10. x = ___.",
+          "respuestaCorrecta": "11",
+          "retroalimentacion": "45+10=9x−4x → 55=5x → x=11."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 6 de 10 · Aplicación avanzada"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "La solución de 4x + 7 = 39 es x = 9.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "4x = 32; x = 8."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Resuelve: 8x - 10 = 30. x = ___.",
+      "respuestaCorrecta": "5",
+      "retroalimentacion": "8x = 40; x = 40÷8 = 5."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada situación con su resultado.",
+      "columnaA": [
+        "Precio $150 con 40% de descuento",
+        "Precio original si final es $186 con 20% de aumento",
+        "2x + 8 = 24"
+      ],
+      "columnaB": [
+        "155",
+        "8",
+        "90"
+      ],
+      "parejasCorrectas": [
+        2,
+        0,
+        1
+      ],
+      "retroalimentacion": "150×0.60=90; 186÷1.20=155; 2x+8=24 → x=8."
+    }
+  ]
+}

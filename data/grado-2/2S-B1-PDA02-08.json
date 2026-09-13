@@ -1,0 +1,164 @@
+{
+  "id": "2S-B1-PDA02-08",
+  "grado": "2°",
+  "trimestre": "1",
+  "numero": 18,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Extensión del significado de las operaciones y sus relaciones inversas 2.8",
+  "contenido": "Extensión del significado de las operaciones y sus relaciones inversas.",
+  "pda": "Comprueba y argumenta si las operaciones cumplen las propiedades conmutativa, asociativa y distributiva. Aplica criterios de divisibilidad, máximo común divisor y mínimo común múltiplo.",
+  "problematizacion": {
+    "contexto": "En una papelería de Mexicali, el dueño tiene 36 plumas, 48 lápices y 60 borradores y quiere armar paquetes iguales para donar a tres escuelas, usando el mayor número posible de paquetes sin que sobre material.",
+    "pregunta": "¿Cuál es el mayor número de paquetes iguales que puede armar con las 36 plumas, 48 lápices y 60 borradores?"
+  },
+  "subtemas": [
+    {
+      "numero": "2.8",
+      "titulo": "MCD y mcm de tres números",
+      "explicacion": "Hasta ahora calculaste MCD y mcm de dos números; en problemas reales con más de dos elementos (tres turnos, tres proveedores, tres tipos de material) necesitas extender el mismo método a tres números: descompones los tres en factores primos y, para el MCD, tomas los factores comunes a los tres con el MENOR exponente, mientras que para el mcm tomas todos los factores que aparecen con el MAYOR exponente. Los criterios de divisibilidad de la lección anterior ayudan a descomponer más rápido números grandes.",
+      "formula": "MCD(a,b,c) = producto de los factores primos comunes a los tres números, cada uno con su menor exponente. mcm(a,b,c) = producto de todos los factores primos que aparecen en cualquiera de los tres números, cada uno con su mayor exponente.",
+      "ejemplos": [
+        "MCD(18,24,30): 18=2×3², 24=2³×3, 30=2×3×5. El único factor común a los tres es 2 (exponente mínimo 1) y 3 (exponente mínimo 1). MCD=2×3=6.",
+        "mcm(4,5,6): 4=2², 5=5, 6=2×3. Tomamos cada factor con su mayor exponente: 2²×3×5=60. mcm=60."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el MCD de 20, 28 y 44?",
+          "opciones": [
+            "2",
+            "4",
+            "8",
+            "44"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "20=2²×5, 28=2²×7, 44=2²×11. El único factor común a los tres es 2², así que MCD=4."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El mcm de 10, 15 y 18 es ___.",
+          "respuestaCorrecta": "90",
+          "retroalimentacion": "10=2×5, 15=3×5, 18=2×3². mcm=2×3²×5=90."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El MCD de 24, 40 y 56 es 8.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 24=2³×3, 40=2³×5, 56=2³×7. El único factor común a los tres es 2³=8."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El mcm de 9, 12 y 15 es 90.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: 9=3², 12=2²×3, 15=3×5. mcm=2²×3²×5=180, no 90."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un organizador de torneos tiene tres grupos de 42, 56 y 70 participantes, y quiere formar equipos del mismo tamaño en cada grupo, usando el mayor tamaño posible sin mezclar participantes de distintos grupos en un mismo equipo. ¿Cuál es el mayor tamaño de equipo posible?",
+          "opciones": [
+            "7",
+            "14",
+            "28",
+            "2"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "42=2×3×7, 56=2³×7, 70=2×5×7. El factor común a los tres es 2×7=14."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Tres alarmas suenan cada 10, 14 y 21 minutos. Si sonaron juntas a las 8:00 a.m., volverán a sonar juntas después de ___ minutos.",
+          "respuestaCorrecta": "210",
+          "retroalimentacion": "10=2×5, 14=2×7, 21=3×7. mcm=2×3×5×7=210 minutos."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada operación con su resultado.",
+          "columnaA": [
+            "MCD de 18, 24 y 30",
+            "mcm de 4, 5 y 6",
+            "MCD de 21, 35 y 49"
+          ],
+          "columnaB": [
+            "7",
+            "60",
+            "6"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "MCD(18,24,30)=6; mcm(4,5,6)=60; MCD(21,35,49)=7."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el mcm de 15, 20 y 24?",
+          "opciones": [
+            "60",
+            "90",
+            "120",
+            "360"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "15=3×5, 20=2²×5, 24=2³×3. mcm=2³×3×5=120."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Al calcular el MCD de tres números, se toman los factores primos comunes a los tres con el MAYOR exponente que aparece.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: para el MCD se toma el MENOR exponente de los factores comunes; el mayor exponente se usa para calcular el mcm."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una veterinaria recibe visitas de revisión cada 12, 16 y 20 días para tres tipos de animales distintos. Si coincidieron todas un mismo día, volverán a coincidir después de ___ días.",
+          "respuestaCorrecta": "240",
+          "retroalimentacion": "12=2²×3, 16=2⁴, 20=2²×5. mcm=2⁴×3×5=240 días."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 8 de 10 · Reto avanzado"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada operación con su resultado.",
+      "columnaA": [
+        "MCD de 20 y 50",
+        "mcm de 9 y 15",
+        "MCD de 13 y 26"
+      ],
+      "columnaB": [
+        "45",
+        "13",
+        "10"
+      ],
+      "parejasCorrectas": [
+        2,
+        0,
+        1
+      ],
+      "retroalimentacion": "MCD de 20 y 50 = 10; mcm de 9 y 15 = 45; MCD de 13 y 26 = 13."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "El mcm de 20 y 30 es ___.",
+      "respuestaCorrecta": "60",
+      "retroalimentacion": "20=2²×5, 30=2×3×5. mcm = 2²×3×5 = 60."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es el MCD de 39 y 52?",
+      "opciones": [
+        "13",
+        "3",
+        "4",
+        "1"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "39=3×13, 52=2²×13. MCD = 13."
+    }
+  ]
+}

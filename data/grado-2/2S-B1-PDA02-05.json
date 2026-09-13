@@ -1,0 +1,164 @@
+{
+  "id": "2S-B1-PDA02-05",
+  "grado": "2°",
+  "trimestre": "1",
+  "numero": 15,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Extensión del significado de las operaciones y sus relaciones inversas 2.5",
+  "contenido": "Extensión del significado de las operaciones y sus relaciones inversas.",
+  "pda": "Comprueba y argumenta si las operaciones cumplen las propiedades conmutativa, asociativa y distributiva. Aplica criterios de divisibilidad, máximo común divisor y mínimo común múltiplo.",
+  "problematizacion": {
+    "contexto": "Para la posada de su salón en una secundaria de San Luis Potosí, el comité reunió 42 dulces y 56 galletas para armar bolsitas iguales para repartir entre los invitados, sin que sobre nada y usando la mayor cantidad posible de bolsitas.",
+    "pregunta": "¿Cuántas bolsitas iguales se pueden armar, y cuántos dulces y galletas llevará cada una?"
+  },
+  "subtemas": [
+    {
+      "numero": "2.5",
+      "titulo": "Repartos equitativos: bolsitas, kits y paquetes",
+      "explicacion": "Ya sabes calcular el MCD de dos números; ahora lo usarás para resolver problemas completos de reparto, como el de las bolsitas del día del niño de la problematización: primero identificas las cantidades del contexto, luego calculas el MCD, y por último divides cada cantidad entre el MCD para saber cuánto le toca a cada grupo. Esta lección conecta la teoría con decisiones reales de organización escolar, deportiva y comercial.",
+      "formula": "Pasos para un reparto equitativo: 1) Halla el MCD de las cantidades. 2) El MCD es el mayor número de grupos o paquetes iguales que se pueden formar. 3) Divide cada cantidad entre el MCD para saber cuánto corresponde a cada grupo.",
+      "ejemplos": [
+        "Una escuela reparte 40 plumas y 56 lápices en el mayor número posible de bolsitas iguales, sin que sobre material. MCD(40,56): 40=2³×5, 56=2³×7 → MCD=2³=8. Se arman 8 bolsitas: 40÷8=5 plumas y 56÷8=7 lápices por bolsita.",
+        "Una papelería quiere armar kits iguales con 48 plumas y 72 lápices, usando el mayor número posible de kits. MCD(48,72): 48=2⁴×3, 72=2³×3² → MCD=2³×3=24. Se arman 24 kits: 48÷24=2 plumas y 72÷24=3 lápices por kit."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un entrenador tiene 32 balones y 48 conos, y quiere armar el mayor número de estaciones de entrenamiento iguales, sin que sobre material. ¿Cuántas estaciones puede armar?",
+          "opciones": [
+            "8",
+            "16",
+            "24",
+            "4"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "32=2⁵, 48=2⁴×3. MCD(32,48)=2⁴=16, así que se arman 16 estaciones (2 balones y 3 conos cada una)."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La cocina escolar tiene 60 tamales y 84 tazas de atole, y quiere servir el mayor número de mesas iguales sin que sobre nada. El mayor número de mesas que puede armar es ___.",
+          "respuestaCorrecta": "12",
+          "retroalimentacion": "60=2²×3×5, 84=2²×3×7. MCD(60,84)=2²×3=12: cada mesa recibe 5 tamales y 7 tazas de atole."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Con 50 lápices y 75 borradores, el mayor número de paquetes iguales que se pueden armar sin que sobre material es 25.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 50=2×5², 75=3×5². MCD(50,75)=5²=25, así que se arman 25 paquetes (2 lápices y 3 borradores cada uno)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una feria de ciencias hay 36 folletos y 90 stickers para repartir en el mayor número posible de mesas de exhibición iguales, sin que sobre material. ¿Cuántas mesas se pueden armar?",
+          "opciones": [
+            "6",
+            "9",
+            "18",
+            "36"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "36=2²×3², 90=2×3²×5. MCD(36,90)=2×3²=18, así que se arman 18 mesas."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Al repartir 40 camisetas y 64 gorras en el mayor número posible de bolsas iguales, cada bolsa llevará 5 camisetas y 8 gorras.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 40=2³×5, 64=2⁶. MCD(40,64)=2³=8 bolsas: 40÷8=5 camisetas y 64÷8=8 gorras por bolsa."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una tienda deportiva reparte 54 pelotas y 72 redes en el mayor número posible de cajas iguales, sin que sobre material. Cada caja llevará ___ pelotas.",
+          "respuestaCorrecta": "3",
+          "retroalimentacion": "54=2×3³, 72=2³×3². MCD(54,72)=2×3²=18 cajas: 54÷18=3 pelotas por caja (y 72÷18=4 redes)."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada par de materiales con el mayor número de paquetes iguales que se pueden armar con ellos.",
+          "columnaA": [
+            "28 memorias USB y 63 cables",
+            "40 playeras y 88 gorras",
+            "66 cuadernos y 44 plumas"
+          ],
+          "columnaB": [
+            "8",
+            "22",
+            "7"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "MCD(28,63)=7; MCD(40,88)=8; MCD(66,44)=22."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un taller de costura tiene 78 botones y 52 cierres. ¿Cuál es el mayor número de kits iguales que puede armar sin que sobre material?",
+          "opciones": [
+            "13",
+            "26",
+            "39",
+            "52"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "78=2×3×13, 52=2²×13. MCD(78,52)=2×13=26 kits (3 botones y 2 cierres cada uno)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Con 96 globos y 60 velas, el mayor número de mesas de fiesta iguales que se pueden decorar sin que sobre material es 12.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 96=2⁵×3, 60=2²×3×5. MCD(96,60)=2²×3=12 mesas."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una brigada de reforestación tiene 108 plantas de pino y 72 plantas de encino, y quiere formar el mayor número de brigadas iguales sin mezclar sobras. Cada brigada llevará ___ plantas de encino.",
+          "respuestaCorrecta": "2",
+          "retroalimentacion": "108=2²×3³, 72=2³×3². MCD(108,72)=2²×3²=36 brigadas: 72÷36=2 plantas de encino por brigada (y 108÷36=3 de pino)."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 5 de 10 · Aplicación"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada ejemplo con la propiedad que muestra.",
+      "columnaA": [
+        "8+5=5+8",
+        "(4+1)+9=4+(1+9)",
+        "6×(2+9)=6×2+6×9"
+      ],
+      "columnaB": [
+        "Distributiva",
+        "Conmutativa",
+        "Asociativa"
+      ],
+      "parejasCorrectas": [
+        1,
+        2,
+        0
+      ],
+      "retroalimentacion": "El primero es conmutativa, el segundo asociativa, el tercero distributiva."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es el MCD de 48 y 60?",
+      "opciones": [
+        "6",
+        "12",
+        "24",
+        "4"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "48=2⁴×3, 60=2²×3×5. MCD = 2²×3 = 12."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "El MCD de 20 y 35 es ___.",
+      "respuestaCorrecta": "5",
+      "retroalimentacion": "20=2²×5, 35=5×7. MCD = 5."
+    }
+  ]
+}

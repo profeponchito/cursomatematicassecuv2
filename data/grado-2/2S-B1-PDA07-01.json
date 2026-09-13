@@ -1,0 +1,144 @@
+{
+  "id": "2S-B1-PDA07-01",
+  "grado": "2°",
+  "trimestre": "2",
+  "numero": 61,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Forma, espacio y medida",
+  "titulo": "Ángulos y Congruencia de Triángulos 7.1",
+  "contenido": "Rectas y ángulos.",
+  "pda": "Determina la suma de los ángulos internos de un polígono y aplica los criterios de congruencia de triángulos para resolver problemas.",
+  "problematizacion": {
+    "contexto": "Para el mural del patio central de su secundaria en Puebla, el equipo de Artes va a pintar un marco con forma de pentágono regular (5 lados iguales) alrededor de la fuente escolar, y necesita saber cuánto debe medir cada ángulo interior antes de trazar las líneas guía.",
+    "pregunta": "¿Cuánto mide cada ángulo interior del pentágono regular, sin usar transportador?"
+  },
+  "subtemas": [
+    {
+      "numero": "7.1",
+      "titulo": "Suma de los ángulos internos de un polígono",
+      "explicacion": "Cualquier polígono se puede dividir en triángulos trazando diagonales desde uno de sus vértices; un polígono de n lados siempre queda dividido en (n − 2) triángulos. Como cada triángulo suma 180° en sus ángulos internos, la suma total de los ángulos internos del polígono es (n − 2) × 180°. Cuando el polígono es regular (todos sus lados y ángulos iguales), esa suma se reparte por igual entre sus n ángulos, así que cada ángulo interior mide [(n − 2) × 180°] ÷ n.",
+      "formula": "Suma de ángulos internos = (n − 2) × 180°   ·   Ángulo interior (regular) = [(n − 2) × 180°] ÷ n",
+      "ejemplos": [
+        "Hexágono (n=6): suma = (6−2)×180° = 4×180° = 720°. Si es regular, cada ángulo interior mide 720°÷6 = 120°.",
+        "Pentágono (n=5): suma = (5−2)×180° = 540°. Si es regular, cada ángulo interior mide 540°÷5 = 108°."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La suma de los ángulos internos de un octágono (8 lados) es 1080°.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: (8−2)×180° = 6×180° = 1080°."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La suma de los ángulos internos de un heptágono (7 lados) es 900°.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: (7−2)×180° = 5×180° = 900°."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En un decágono regular (10 lados), cada ángulo interior mide 150°.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: suma = (10−2)×180° = 1440°; cada ángulo = 1440°÷10 = 144°, no 150°."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La suma de los ángulos internos de un eneágono (9 lados) es ___°.",
+          "respuestaCorrecta": "1260",
+          "retroalimentacion": "(9−2)×180° = 7×180° = 1260°."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En un hexágono regular (6 lados), cada ángulo interior mide ___°.",
+          "respuestaCorrecta": "120",
+          "retroalimentacion": "Suma = (6−2)×180° = 720°; cada ángulo = 720°÷6 = 120°."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la suma de los ángulos internos de un dodecágono (12 lados)?",
+          "opciones": [
+            "1800°",
+            "1980°",
+            "1620°",
+            "2160°"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(12−2)×180° = 10×180° = 1800°."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En un cuadrilátero regular (4 lados), ¿cuánto mide cada ángulo interior?",
+          "opciones": [
+            "100°",
+            "90°",
+            "120°",
+            "60°"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Suma = (4−2)×180° = 360°; cada ángulo = 360°÷4 = 90°."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En un pentágono regular, cada ángulo interior mide 108°.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: (5−2)×180°÷5 = 540°÷5 = 108°."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un polígono tiene una suma de ángulos internos de 1440°. ¿Cuántos lados tiene?",
+          "opciones": [
+            "10",
+            "9",
+            "11",
+            "12"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(n−2)×180°=1440° → n−2=8 → n=10 lados."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada polígono regular con la medida de su ángulo interior.",
+          "columnaA": [
+            "Pentágono (5 lados)",
+            "Octágono (8 lados)",
+            "Decágono (10 lados)"
+          ],
+          "columnaB": [
+            "135°",
+            "144°",
+            "108°"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "Pentágono: 540°÷5=108°. Octágono: 1080°÷8=135°. Decágono: 1440°÷10=144°."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 1 de 10 · Introductorio"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es la suma de los ángulos internos de un pentágono (5 lados)?",
+      "opciones": [
+        "500°",
+        "540°",
+        "450°",
+        "600°"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "(5−2)×180° = 540°."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "En un hexágono regular, cada ángulo interior mide 100°.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Falso: 720°÷6 = 120°, no 100°."
+    }
+  ]
+}

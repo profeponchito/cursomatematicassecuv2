@@ -1,0 +1,177 @@
+{
+  "id": "2S-B1-PDA01-10",
+  "grado": "2°",
+  "trimestre": "1",
+  "numero": 10,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Extensión de los números a positivos y negativos y su orden 1.10",
+  "contenido": "Extensión de los números a positivos y negativos y su orden.",
+  "pda": "Compara y ordena números con signo (enteros, fracciones y decimales) en la recta numérica y analiza en qué casos se cumple la propiedad de densidad.",
+  "problematizacion": {
+    "contexto": "El tesorero de la cooperativa escolar de una secundaria en Aguascalientes reporta el balance neto (en miles de pesos) de cuatro meses: -7/16, -0.34, 5/8 y -0.5. Para el informe final debe expresarlos todos igual, ordenarlos del mes con mayor pérdida al de mayor ganancia, y explicar si pudo haber un balance intermedio entre los dos meses con pérdida.",
+    "pregunta": "¿Cuál fue el mes con mayor pérdida, cómo quedan ordenados los cuatro meses, y qué balance pudo tener un mes intermedio entre los dos con pérdida?"
+  },
+  "subtemas": [
+    {
+      "numero": "1.10",
+      "titulo": "Balance general de la cooperativa escolar",
+      "explicacion": "Esta lección culmina el tema en el contexto de administración de una cooperativa escolar: un reporte financiero con el balance neto de varios meses, usando números con signo en distintas formas y con cifras poco redondas (dieciseisavos y centésimas). Cada reactivo exige encadenar dos o tres habilidades a la vez —convertir, ordenar y aplicar la densidad— tal como lo haría un contador al revisar cuentas reales.",
+      "ejemplos": [
+        "El balance neto (ingresos menos gastos) de 4 meses de la cooperativa es: Papelería -227/16, Cafetería -13.6, Uniformes -14.09 y Deportes +3.5. Convirtiendo -227/16 = -14.1875. Ordenando de menor a mayor: -14.1875 < -14.09 < -13.6 < 3.5.",
+        "El contador busca un balance de corrección entre Papelería (-14.1875) y Uniformes (-14.09). ¿Puede usar -14.12? Sí, porque -14.1875 < -14.12 < -14.09."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Cinco departamentos de la cooperativa reportan estos balances netos: -227/16, -13.6, -14.09, +3.5 y -95/8. ¿Cuál es el orden correcto de menor a mayor?",
+          "opciones": [
+            "3.5, -95/8, -13.6, -14.09, -227/16",
+            "-227/16, -14.09, -13.6, -95/8, 3.5",
+            "-14.09, -227/16, -95/8, -13.6, 3.5",
+            "-95/8, -227/16, -14.09, -13.6, 3.5"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "-227/16 = -14.1875 y -95/8 = -11.875. De menor a mayor: -14.1875 < -14.09 < -13.6 < -11.875 < 3.5."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "-149/16 es menor que -9.3.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: -149/16 = -9.3125, y -9.3125 < -9.3."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "-227/16 escrito en decimal es ___.",
+          "respuestaCorrecta": "-14.1875",
+          "retroalimentacion": "-227/16 = -14.1875."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada balance dado como fracción con su forma decimal.",
+          "columnaA": [
+            "-103/16",
+            "-167/16",
+            "-39/16"
+          ],
+          "columnaB": [
+            "-2.4375",
+            "-10.4375",
+            "-6.4375"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "-103/16 = -6.4375; -167/16 = -10.4375; -39/16 = -2.4375."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El contador busca un balance de corrección entre Papelería (-14.1875) y Uniformes (-14.09). ¿Cuál de los siguientes valores es válido?",
+          "opciones": [
+            "-14.2",
+            "-14.05",
+            "-14.12",
+            "-14.19"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "-14.12 está entre -14.1875 y -14.09, ya que -14.1875 < -14.12 < -14.09. Nota: -14.19 no sirve porque es menor que -14.1875."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Entre -6.4375 y -6.43 no puede existir ningún otro balance, porque ambos ya tienen cuatro cifras decimales.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: la propiedad de densidad se cumple sin importar cuántas cifras decimales tengan los números; por ejemplo, -6.435 está entre -6.4375 y -6.43."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "-95/8 escrito en decimal es ___.",
+          "respuestaCorrecta": "-11.875",
+          "retroalimentacion": "-95/8 = -11.875."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Para detectar el peor mes, un contador ordena estos balances de menor a mayor: -227/16, -14.09, -283/20 y -13.6. ¿Cuál es el orden correcto?",
+          "opciones": [
+            "-283/20, -227/16, -14.09, -13.6",
+            "-13.6, -14.09, -283/20, -227/16",
+            "-227/16, -14.09, -283/20, -13.6",
+            "-227/16, -283/20, -14.09, -13.6"
+          ],
+          "respuestaCorrecta": 3,
+          "retroalimentacion": "-227/16 = -14.1875 y -283/20 = -14.15. De menor a mayor: -14.1875 < -14.15 < -14.09 < -13.6."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "-283/20 es mayor que -227/16.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: -283/20 = -14.15 y -227/16 = -14.1875, y -14.15 > -14.1875."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Cada departamento tiene 4 balances mensuales. Relaciona a cada departamento con su peor mes (el balance menor).",
+          "columnaA": [
+            "Departamento X: -149/16, -9.4, -37/4, 2",
+            "Departamento Y: -103/16, -6.5, -6.44, 0.9",
+            "Departamento Z: -167/16, -10.42, -83/8, 4"
+          ],
+          "columnaB": [
+            "-9.4",
+            "-6.5",
+            "-10.4375"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "Departamento X: el menor es -9.4. Departamento Y: -6.5 es el menor. Departamento Z: -167/16 = -10.4375 es el menor."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 10 de 10 · Dominio"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué número está entre -0.5 y 0?",
+      "opciones": [
+        "-1",
+        "-0.25",
+        "0.5",
+        "-0.75"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "-0.25 está entre -0.5 y 0, ya que -0.5 < -0.25 < 0."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "-3 es menor que -1/2.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: -1/2 = -0.5, y -3 está más a la izquierda: -3 < -0.5."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada par de números con la comparación correcta.",
+      "columnaA": [
+        "-9 y -4",
+        "-3 y -6",
+        "1/2 y -0.75"
+      ],
+      "columnaB": [
+        "1/2 > -0.75",
+        "-3 > -6",
+        "-9 < -4"
+      ],
+      "parejasCorrectas": [
+        2,
+        1,
+        0
+      ],
+      "retroalimentacion": "-9 < -4; -3 > -6; 1/2 (0.5) > -0.75."
+    }
+  ]
+}

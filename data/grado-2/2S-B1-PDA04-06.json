@@ -1,0 +1,156 @@
+{
+  "id": "2S-B1-PDA04-06",
+  "grado": "2°",
+  "trimestre": "2",
+  "numero": 36,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Regularidades y Patrones 4.6",
+  "contenido": "Regularidades y Patrones.",
+  "pda": "Representa algebraicamente una sucesión con progresión cuadrática de figuras y números.",
+  "problematizacion": {
+    "contexto": "Una empresa de eventos en Puebla calcula el costo total de rentar sillas para un salón con la fórmula 2n² + 15n + 300, donde n es el número de mesas rentadas, 300 es el costo fijo del salón, 15n el costo de manteles por mesa y 2n² el costo adicional por acomodo especial.",
+    "pregunta": "¿Cuál sería el costo total si se rentan 10 mesas, evaluando la expresión 2n² + 15n + 300?"
+  },
+  "subtemas": [
+    {
+      "numero": "4.6",
+      "titulo": "Trinomios cuadráticos completos en costos y producción: an²+bn+c",
+      "explicacion": "Ahora las expresiones ya no tienen solo un término cuadrático (an²) o uno cuadrático más una constante: combinan los tres elementos a la vez —an², bn y c—, cada uno con su propio coeficiente y signo. Este tipo de expresión modela situaciones donde hay una cantidad fija (c), otra que crece de forma proporcional a n (bn) y otra que crece con el cuadrado de n (an²), como ocurre en presupuestos de eventos, producción industrial o ingresos de un negocio. Para evaluarla, calculas los tres términos por separado, respetando los signos, y los sumas.",
+      "formula": "término_n = a·n² + b·n + c",
+      "ejemplos": [
+        "Costo de un banquete: C(n)=50n²+30n+100, con n=número de mesas. Para n=3: 50×3²+30×3+100 = 450+90+100 = 640 pesos.",
+        "Producción diaria de una fábrica: P(n)=2n²-5n+20, con n=día. Para n=6: 2×6²-5×6+20 = 72-30+20 = 62 unidades."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El costo de un banquete es C(n)=40n²+20n+80 pesos, donde n es el número de mesas. ¿Cuánto cuesta para n=4 mesas?",
+          "opciones": [
+            "640 pesos",
+            "720 pesos",
+            "800 pesos",
+            "880 pesos"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "40×16+20×4+80 = 640+80+80 = 800 pesos."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La producción de una fábrica es P(n)=3n²-4n+10 unidades en el día n. En el día 5 produce 65 unidades.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "3×25-20+10 = 75-20+10 = 65 unidades."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Las ganancias mensuales de un negocio son G(n)=5n²+10n-15 pesos. En el mes 4, la ganancia es ___ pesos.",
+          "respuestaCorrecta": "105",
+          "retroalimentacion": "5×16+40-15 = 80+40-15 = 105 pesos."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El costo de mantenimiento de una maquinaria es M(n)=2n²+15n+50 pesos en el año n. ¿Cuánto cuesta en el año 7?",
+          "opciones": [
+            "203 pesos",
+            "233 pesos",
+            "253 pesos",
+            "273 pesos"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "2×49+15×7+50 = 98+105+50 = 253 pesos."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Los ingresos de una tienda son I(n)=6n²-2n+8 pesos (en miles), en la semana n. En la semana 3, los ingresos son 54 mil pesos.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "6×9-6+8 = 54-6+8 = 56, no 54 mil pesos."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El costo total de un evento es T(n)=4n²+8n+12 pesos, con n invitados en decenas. Para n=5, el costo es ___ pesos.",
+          "respuestaCorrecta": "152",
+          "retroalimentacion": "4×25+40+12 = 100+40+12 = 152 pesos."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada valor de n con el resultado de C(n)=3n²+2n+5.",
+          "columnaA": [
+            "n=2",
+            "n=3",
+            "n=4"
+          ],
+          "columnaB": [
+            "38",
+            "61",
+            "21"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "C(2)=12+4+5=21; C(3)=27+6+5=38; C(4)=48+8+5=61."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El volumen de un tinaco en construcción es V(n)=n²+6n+9 (en cientos de litros), en la etapa n. ¿Cuál es el volumen en la etapa 5?",
+          "opciones": [
+            "40",
+            "55",
+            "64",
+            "70"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "25+30+9 = 64 (cientos de litros)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El costo de producción es C(n)=10n²-3n+7 pesos en la unidad n. Para n=2, el costo es 41 pesos.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "10×4-6+7 = 40-6+7 = 41 pesos."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El ingreso neto de una campaña es R(n)=7n²+n-20 pesos (n en miles), en la semana n. Para n=3, el ingreso es ___ pesos.",
+          "respuestaCorrecta": "46",
+          "retroalimentacion": "7×9+3-20 = 63+3-20 = 46 pesos."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 6 de 10 · Aplicación avanzada"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Una sucesión de figuras usa n²-2 fichas. ¿Cuántas fichas tiene la figura 6?",
+      "opciones": [
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "respuestaCorrecta": 2,
+      "retroalimentacion": "n²-2 en n=6: 36-2 = 34."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué expresión algebraica representa la sucesión 6, 9, 14, 21...?",
+      "opciones": [
+        "n²+5",
+        "2n²+1",
+        "n²+4",
+        "3n²"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "n²+5: 1+5=6, 4+5=9, 9+5=14, 16+5=21."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "El término 9 de la sucesión 2n² es 162.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "2n² en n=9: 2×81 = 162."
+    }
+  ]
+}

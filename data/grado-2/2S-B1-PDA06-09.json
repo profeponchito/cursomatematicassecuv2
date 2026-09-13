@@ -1,0 +1,175 @@
+{
+  "id": "2S-B1-PDA06-09",
+  "grado": "2°",
+  "trimestre": "2",
+  "numero": 59,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Ecuaciones lineales y cuadráticas 6.9",
+  "contenido": "Ecuaciones lineales y cuadráticas.",
+  "pda": "Modela y resuelve problemas cuyo planteamiento es una ecuación lineal. Resuelve problemas de porcentajes en diversas situaciones.",
+  "problematizacion": {
+    "contexto": "En una librería de Puebla, dos hermanos compran una mochila con 20% de descuento sobre su precio de $900, y acuerdan pagarla entre los dos de forma que uno aporte el doble que el otro.",
+    "pregunta": "¿Cuánto pagó cada hermano por la mochila, después de aplicar el descuento y plantear la ecuación del reparto?"
+  },
+  "subtemas": [
+    {
+      "numero": "6.9",
+      "titulo": "Repartos y descuentos: integrando ecuaciones y porcentajes",
+      "explicacion": "En esta lección los problemas ya no se resuelven con una sola herramienta: se combina, en un mismo planteamiento, una ecuación lineal (con variable en uno o ambos lados, o con paréntesis) y un cálculo de porcentaje (descuento, aumento o comisión). Primero hay que identificar qué operación va primero según el contexto —normalmente el porcentaje se aplica antes de repartir o comparar— y luego plantear la ecuación con la cantidad desconocida.",
+      "ejemplos": [
+        "Un restaurante reparte $350 de propinas entre 2 meseros: uno recibe el doble que el otro más un bono fijo de $20. Si x es la propina base del mesero con menos, la ecuación es x + (2x + 20) = 350 → 3x + 20 = 350 → 3x = 330 → x = 110. El mesero con menos recibió $110 y el otro 2(110)+20 = $240.",
+        "Dos plataformas cobran a un creador de contenido: la Plataforma A cobra $120 fijos más 10% de comisión sobre sus ventas x; la Plataforma B cobra $40 fijos más 20% de comisión. Para saber con qué monto de ventas cobran lo mismo: 120 + 0.10x = 40 + 0.20x → 80 = 0.10x → x = $800."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una tienda, dos hermanos reciben entre ambos $96, que es lo que quedó de un total después de aplicarle un descuento del 20%. El hermano mayor recibe el triple que el menor. ¿Cuánto dinero recibió el hermano menor?",
+          "opciones": [
+            "$24",
+            "$32",
+            "$72",
+            "$18"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "3y + y = 96 → 4y = 96 → y = 24 (el menor); el mayor recibe 3×24 = $72."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un restaurante reparte $350 de propinas entre 2 meseros: uno recibe el doble que el otro más un bono fijo de $20. Si x es la propina base del mesero con menos, la ecuación es x + (2x + 20) = 350. x = ___.",
+          "respuestaCorrecta": "110",
+          "retroalimentacion": "3x+20=350 → 3x=330 → x=110."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una tienda vende una bicicleta en $4,000 con 15% de descuento, y el dinero recaudado se reparte entre 2 socios en partes iguales. Cada socio recibe $1,700.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "4000×0.85 = $3,400; entre 2 socios = $1,700 cada uno. Correcto."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "La Plataforma A cobra a un creador $120 fijos más 10% de comisión sobre sus ventas x; la Plataforma B cobra $40 fijos más 20% de comisión sobre las mismas ventas. ¿Con qué monto de ventas ambas plataformas cobran exactamente lo mismo?",
+          "opciones": [
+            "$800",
+            "$400",
+            "$1,600",
+            "$600"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "120+0.10x=40+0.20x → 80=0.10x → x=$800."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un servicio de banquetes cobra una renta fija de $2,000 más (x + 3) pesos por cada uno de 50 platillos, donde $3 es un cargo extra por platillo especial. Si el costo total fue $6,650, el precio base x por platillo es $___.",
+          "respuestaCorrecta": "90",
+          "retroalimentacion": "50(x+3) = 6650 − 2000 = 4650 → x+3 = 93 → x = 90."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada reparto con descuento o aumento con su resultado por persona.",
+          "columnaA": [
+            "$600 con 10% de descuento, repartido entre 3 personas",
+            "$900 con 20% de aumento, repartido entre 3 personas",
+            "$750 con 12% de descuento, repartido entre 3 personas"
+          ],
+          "columnaB": [
+            "360",
+            "220",
+            "180"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "600×0.90÷3=180; 900×1.20÷3=360; 750×0.88÷3=220."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un equipo de voleibol vende 8 boletos a (x − 15) pesos cada uno, pues $15 es un descuento fijo por compra anticipada. Al recaudar el dinero se descuenta un 10% de comisión de venta, y al club le quedan $648 netos. ¿Cuál es el precio original x del boleto?",
+          "opciones": [
+            "$105",
+            "$90",
+            "$120",
+            "$99"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "0.90 × 8(x−15) = 648 → 8(x−15) = 720 → x−15 = 90 → x = 105."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La Compañía Rápido cobra $30 fijos más $8 por kilómetro. La Compañía Directo cobra $30 fijos más una tarifa por km con 8% de descuento sobre esos mismos $8. Para un viaje de 25 km, ambas compañías cobran exactamente $230.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Rápido: 30+8×25=$230. Directo: tarifa con descuento = 8×0.92=$7.36 por km, así que cobra 30+7.36×25=$214, no $230."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En una cooperativa se reparten $2,400 de ganancias entre 2 socios: al socio A le toca el doble que a B, pero antes se descontó un 5% de esos $2,400 para gastos administrativos. Si x es lo que recibe B, la ecuación es 2x + x = 2,400 × 0.95. x = ___.",
+          "respuestaCorrecta": "760",
+          "retroalimentacion": "2400×0.95 = 2,280; 3x = 2,280 → x = 760."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un video genera $x de ingresos publicitarios el primer mes. El segundo mes los ingresos aumentan 25% y el tercer mes disminuyen 20% respecto al segundo mes, quedando en $3,000. Planteando x × 1.25 × 0.80 = 3,000, ¿cuánto fue el ingreso x del primer mes?",
+          "opciones": [
+            "$3,000",
+            "$2,400",
+            "$3,750",
+            "$2,700"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "1.25 × 0.80 = 1.00, así que x = 3,000: un aumento del 25% seguido de una baja del 20% regresa al valor original."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 9 de 10 · Integración"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "llenar_frase",
+      "frase": "Un producto con 18% de descuento quedó en $164. Su precio original era $___.",
+      "respuestaCorrecta": "200",
+      "retroalimentacion": "164 = x(1 − 0.18) = 0.82x → x = 164 ÷ 0.82 = $200."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Un producto de $60 tiene 35% de aumento. ¿Cuál es su precio final?",
+      "opciones": [
+        "$81",
+        "$75",
+        "$95",
+        "$21"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "60 × (1 + 0.35) = $81."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada planteamiento con su resultado.",
+      "columnaA": [
+        "x + 6x = 49",
+        "180 × (1 − 0.15)",
+        "x × 1.25 = 110"
+      ],
+      "columnaB": [
+        "88",
+        "153",
+        "7"
+      ],
+      "parejasCorrectas": [
+        2,
+        1,
+        0
+      ],
+      "retroalimentacion": "x+6x=49 → x=7; 180×0.85=153; x×1.25=110 → x=88."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Un producto con 30% de descuento quedó en $210. Su precio original era $___.",
+      "respuestaCorrecta": "300",
+      "retroalimentacion": "210 = x × (1 − 0.30) = 0.70x → x = 210 ÷ 0.70 = $300."
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "id": "2S-B1-PDA04-08",
+  "grado": "2°",
+  "trimestre": "2",
+  "numero": 38,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Regularidades y Patrones 4.8",
+  "contenido": "Regularidades y Patrones.",
+  "pda": "Representa algebraicamente una sucesión con progresión cuadrática de figuras y números.",
+  "problematizacion": {
+    "contexto": "En su libreta, Ximena anotó una sucesión sin saber su fórmula: 2, 8, 18, 32, 50. Su maestro le sugiere calcular las diferencias entre términos consecutivos y luego las diferencias de esas diferencias para descubrir si es una progresión cuadrática.",
+    "pregunta": "¿Cómo puede Ximena usar el método de diferencias para comprobar si la sucesión 2, 8, 18, 32, 50 es cuadrática, y cuál sería su expresión algebraica?"
+  },
+  "subtemas": [
+    {
+      "numero": "4.8",
+      "titulo": "Método de diferencias: descubrir la expresión cuadrática desde una tabla de datos",
+      "explicacion": "Cuando no conoces de antemano si una sucesión es cuadrática, puedes descubrirlo calculando las diferencias entre términos consecutivos (primeras diferencias) y luego las diferencias entre esas diferencias (segundas diferencias). Si las segundas diferencias son constantes, la sucesión es cuadrática, y ese valor constante equivale al doble del coeficiente a (2a). A partir de ahí, sustituyendo los primeros términos en la expresión se pueden encontrar también b y c.",
+      "formula": "Segunda diferencia constante = 2a",
+      "ejemplos": [
+        "Sucesión: 3, 8, 17, 30, 47. Primeras diferencias: 5, 9, 13, 17. Segundas diferencias: 4, 4, 4 (constantes) → 2a=4, a=2. Sustituyendo n=1: 2+b+c=3; n=2: 8+2b+c=8. Resolviendo, b=-1, c=2. La expresión es 2n²-n+2. Comprobación en n=3: 2×9-3+2=17. ✓",
+        "Sucesión: 4, 10, 20, 34, 52. Primeras diferencias: 6, 10, 14, 18. Segundas diferencias: 4, 4, 4 → a=2. Sustituyendo, b=0, c=2. La expresión es 2n²+2. Comprobación en n=5: 2×25+2=52. ✓"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Las ventas mensuales (en unidades) de un producto son: 2, 7, 16, 29, 46. ¿Cuál es la segunda diferencia constante de esta sucesión?",
+          "opciones": [
+            "2",
+            "4",
+            "5",
+            "9"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Diferencias: 5,9,13,17. Segundas diferencias: 4,4,4."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La sucesión 5, 11, 21, 35, 53 es cuadrática porque su segunda diferencia es constante e igual a 4.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Diferencias: 6,10,14,18. Segundas diferencias: 4,4,4. Es cuadrática con a=2."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La sucesión 6, 13, 24, 39, 58 tiene segundas diferencias constantes. El coeficiente a de su expresión cuadrática es ___.",
+          "respuestaCorrecta": "2",
+          "retroalimentacion": "Diferencias: 7,11,15,19. Segundas diferencias: 4,4,4 → 2a=4, a=2."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Qué expresión genera la sucesión 1, 6, 15, 28, 45?",
+          "opciones": [
+            "2n²-n",
+            "2n²+n",
+            "n²+n",
+            "2n²-1"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "La segunda diferencia es 4 (a=2); sustituyendo los primeros términos se obtiene b=-1, c=0: 2n²-n. Comprobación n=3: 18-3=15."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La expresión de la sucesión 3, 9, 19, 33, 51 es 2n²+1.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "a=2, b=0, c=1. Comprobación n=5: 2×25+1=51."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El número de suscriptores nuevos por semana sigue la sucesión 4, 9, 18, 31, 48, que corresponde a la expresión 2n²-n+3. En la semana 6 habrá ___ suscriptores nuevos.",
+          "respuestaCorrecta": "69",
+          "retroalimentacion": "2×36-6+3 = 72-6+3 = 69."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Las entradas vendidas por día para un evento son 10, 17, 28, 43, 62, y siguen la expresión 2n²+n+7. ¿Cuántas entradas se venderán el día 6?",
+          "opciones": [
+            "79",
+            "85",
+            "91",
+            "97"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "2×36+6+7 = 72+6+7 = 85."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El área de una alberca en construcción por etapas (en m²) es 5, 14, 27, 44, 65. La segunda diferencia constante de esta sucesión es 5.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Diferencias: 9,13,17,21. Segundas diferencias: 4,4,4, no 5."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La sucesión 4, 15, 32, 55, 84 tiene segundas diferencias constantes iguales a 6. El coeficiente a de su expresión cuadrática es ___.",
+          "respuestaCorrecta": "3",
+          "retroalimentacion": "2a=6 → a=3."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada segunda diferencia constante con el coeficiente a que le corresponde (2a = segunda diferencia).",
+          "columnaA": [
+            "Segunda diferencia = 2",
+            "Segunda diferencia = 6",
+            "Segunda diferencia = 8"
+          ],
+          "columnaB": [
+            "a=1",
+            "a=4",
+            "a=3"
+          ],
+          "parejasCorrectas": [
+            0,
+            2,
+            1
+          ],
+          "retroalimentacion": "2a=2→a=1; 2a=6→a=3; 2a=8→a=4."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 8 de 10 · Reto avanzado"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Qué expresión algebraica representa la sucesión 4, 7, 12, 19...?",
+      "opciones": [
+        "n²+3",
+        "2n²",
+        "n²+2",
+        "3n²"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "n²+3: 1²+3=4, 2²+3=7, 3²+3=12, 4²+3=19. Coincide con la sucesión."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Una sucesión de figuras usa 3n² fichas. ¿Cuántas fichas tiene la figura 10?",
+      "opciones": [
+        "270",
+        "290",
+        "300",
+        "330"
+      ],
+      "respuestaCorrecta": 2,
+      "retroalimentacion": "3n² en n=10: 3×100 = 300."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "El término 11 de la sucesión n²-3 es 118.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "n²-3 en n=11: 121-3 = 118."
+    }
+  ]
+}

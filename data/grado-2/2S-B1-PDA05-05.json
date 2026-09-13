@@ -1,0 +1,162 @@
+{
+  "id": "2S-B1-PDA05-05",
+  "grado": "2°",
+  "trimestre": "2",
+  "numero": 45,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Introducción al álgebra 5.5",
+  "contenido": "Introducción al álgebra.",
+  "pda": "Representa algebraicamente áreas que generan una expresión cuadrática. Identifica y usa las propiedades de los exponentes.",
+  "problematizacion": {
+    "contexto": "La familia de Mariana tiene un terreno cuadrado de lado x metros y decide ampliarlo 6 metros de un lado y solo 2 metros del lado adyacente, para construir un cuarto extra en forma de rectángulo.",
+    "pregunta": "¿Qué expresión algebraica representa el área del terreno rectangular ya ampliado, en términos de x?"
+  },
+  "subtemas": [
+    {
+      "numero": "5.5",
+      "titulo": "Terrenos rectangulares con ampliaciones distintas por lado",
+      "explicacion": "Hasta ahora ampliabas un cuadrado la misma cantidad en los dos lados. Ahora el terreno crece cantidades distintas en cada lado, y se forma un rectángulo (x+a)(x+b). Al multiplicar término a término (propiedad distributiva) se obtienen tres partes: x², la suma de las ampliaciones multiplicada por x, y el producto de las dos ampliaciones como término independiente.",
+      "formula": "(x+a)(x+b) = x² + (a+b)x + ab",
+      "ejemplos": [
+        "Un terreno cuadrado de lado x se amplía 3 m de frente y 5 m de fondo, formando un rectángulo (x+3)(x+5). Área = x² + (3+5)x + (3)(5) = x² + 8x + 15 metros cuadrados.",
+        "Un patio de lado x crece 2 m por un lado y 7 m por el otro: (x+2)(x+7) = x² + 9x + 14 metros cuadrados."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un terreno cuadrado de lado x se amplía 4 m de frente y 6 m de fondo, formando un rectángulo (x+4)(x+6). ¿Cuál es su área?",
+          "opciones": [
+            "x²+10x+24",
+            "x²+24",
+            "x²+10x+10",
+            "x²+24x+10"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Suma de ampliaciones: 4+6=10; producto: 4×6=24, entonces (x+4)(x+6)=x²+10x+24."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "(x+3)(x+9) = x² + 12x + 27.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 3+9=12 y 3×9=27, entonces (x+3)(x+9)=x²+12x+27."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un lote de lado x se amplía 2 m de un lado y 8 m del otro: (x+2)(x+8) = x² + 10x + ___.",
+          "respuestaCorrecta": "16",
+          "retroalimentacion": "El término independiente es el producto de las ampliaciones: 2×8=16."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una cancha rectangular de entrenamiento mide (x+5) metros de largo y (x+1) metros de ancho. ¿Cuál es su área?",
+          "opciones": [
+            "x²+6x+5",
+            "x²+5x+6",
+            "x²+5",
+            "x²+6x+6"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(x+5)(x+1) = x² + (5+1)x + (5×1) = x²+6x+5."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "(x+6)(x+2) = x² + 8x + 14.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: 6+2=8 pero 6×2=12, no 14; (x+6)(x+2)=x²+8x+12."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada terreno rectangular con su área simplificada.",
+          "columnaA": [
+            "(x+3)(x+5)",
+            "(x+2)(x+7)",
+            "(x+4)(x+9)"
+          ],
+          "columnaB": [
+            "x²+13x+36",
+            "x²+8x+15",
+            "x²+9x+14"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "(x+3)(x+5)=x²+8x+15; (x+2)(x+7)=x²+9x+14; (x+4)(x+9)=x²+13x+36."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El área de un terreno (x+7)(x+3) es x² + ___x + 21.",
+          "respuestaCorrecta": "10",
+          "retroalimentacion": "El coeficiente de x es la suma de las ampliaciones: 7+3=10."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el desarrollo de (x+9)(x+5)?",
+          "opciones": [
+            "x²+14x+45",
+            "x²+45x+14",
+            "x²+14x+14",
+            "x²+45"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "9+5=14 y 9×5=45, entonces (x+9)(x+5)=x²+14x+45."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En (x+a)(x+b), el término independiente del resultado siempre es a+b.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: el término independiente es el producto a×b; la suma a+b es el coeficiente del término con x."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un huerto cuadrado de lado x crece 8 m de un lado y 4 m del otro. ¿Cuál es el área del huerto ampliado?",
+          "opciones": [
+            "x²+12x+32",
+            "x²+32x+12",
+            "x²+12x+12",
+            "x²+32"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "8+4=12 y 8×4=32, entonces (x+8)(x+4)=x²+12x+32."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 5 de 10 · Aplicación"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es el desarrollo de (x+13)²?",
+      "opciones": [
+        "x²+26x+169",
+        "x²+169",
+        "x²+13x+169",
+        "x²+26x+13"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "(x+13)² = x² + 2(13)x + 13² = x²+26x+169."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Simplifica: x^6 × x^8",
+      "opciones": [
+        "x^14",
+        "x^48",
+        "x^2",
+        "2x^14"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "Al multiplicar potencias de la misma base se suman los exponentes: 6+8=14."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "(x^4)^6 es igual a x^24.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Se multiplican los exponentes: 4×6=24."
+    }
+  ]
+}

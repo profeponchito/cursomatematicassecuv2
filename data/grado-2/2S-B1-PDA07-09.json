@@ -1,0 +1,156 @@
+{
+  "id": "2S-B1-PDA07-09",
+  "grado": "2°",
+  "trimestre": "2",
+  "numero": 69,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Forma, espacio y medida",
+  "titulo": "Ángulos y Congruencia de Triángulos 7.9",
+  "contenido": "Rectas y ángulos.",
+  "pda": "Determina la suma de los ángulos internos de un polígono y aplica los criterios de congruencia de triángulos para resolver problemas.",
+  "problematizacion": {
+    "contexto": "En el kiosco central de la plaza de un pueblo de Oaxaca, el techo tiene forma de hexágono regular y está sostenido por seis vigas que salen del centro hacia cada esquina, formando seis triángulos idénticos entre sí.",
+    "pregunta": "¿Cuánto mide cada uno de los ángulos de la base en esos triángulos formados desde el centro del kiosco hasta dos vértices consecutivos del hexágono?"
+  },
+  "subtemas": [
+    {
+      "numero": "7.9",
+      "titulo": "Polígonos regulares divididos en triángulos congruentes: domos, kioscos y vitrales",
+      "explicacion": "Esta lección integra dos ideas del PDA en un mismo problema: cuando un polígono regular se divide en triángulos iguales trazando segmentos desde su centro a cada vértice, esos triángulos son isósceles y congruentes entre sí (por LAL, ya que comparten dos radios iguales y el mismo ángulo central). El ángulo central de cada triángulo es igual al ángulo exterior del polígono (ambos valen 360° ÷ n), y sus ángulos de la base se calculan restando ese ángulo central de 180° y dividiendo entre 2.",
+      "formula": "Ángulo central = 360° ÷ n   ·   Ángulo de la base (triángulo isósceles) = (180° − ángulo central) ÷ 2",
+      "ejemplos": [
+        "Un tragaluz con forma de decágono regular (10 lados) se divide en 10 triángulos iguales trazando segmentos desde el centro a cada vértice. El ángulo central de cada triángulo mide 360°÷10=36°; como esos triángulos comparten dos radios iguales y el mismo ángulo central, son congruentes por LAL. Cada ángulo de la base mide (180°−36°)÷2 = 72°.",
+        "Un kiosco hexagonal regular se divide en 6 triángulos desde el centro. El ángulo central es 360°÷6=60°, y como los seis triángulos son isósceles con ese mismo ángulo, sus ángulos de la base miden (180°−60°)÷2=60° cada uno: son en realidad triángulos equiláteros."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un tragaluz circular está enmarcado por un decágono regular (10 lados) dividido en 10 triángulos iguales desde el centro. ¿Cuánto mide el ángulo central de cada triángulo?",
+          "opciones": [
+            "36°",
+            "45°",
+            "40°",
+            "30°"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Ángulo central = 360°÷10 = 36°."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si los dos lados que llegan al centro de cada triángulo del tragaluz (radios) son iguales entre sí en todos los triángulos, y el ángulo entre ellos también es igual (36°), esos triángulos son congruentes por el criterio ___.",
+          "respuestaCorrecta": "LAL",
+          "retroalimentacion": "Dos lados (los radios) y el ángulo comprendido entre ellos son iguales: criterio LAL."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En el mismo tragaluz decagonal, cada triángulo central es isósceles con ángulo central de 36°. ¿Cuánto mide cada ángulo de la base?",
+          "opciones": [
+            "72°",
+            "75°",
+            "70°",
+            "60°"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(180°−36°)÷2 = 72°."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un domo hexagonal regular dividido en 6 triángulos desde el centro forma triángulos equiláteros, porque el ángulo central de 60° y los dos radios iguales generan ángulos base de 60° también.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: (180°−60°)÷2=60°, así los tres ángulos del triángulo (60°,60°,60°) son iguales: es equilátero."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un kiosco con forma de octágono regular se divide en 8 triángulos iguales desde el centro. El ángulo central de cada triángulo mide ___°.",
+          "respuestaCorrecta": "45",
+          "retroalimentacion": "360°÷8 = 45°."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En el kiosco octagonal anterior, ¿cuánto mide cada ángulo de la base de esos triángulos isósceles?",
+          "opciones": [
+            "67.5°",
+            "70°",
+            "65°",
+            "72°"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(180°−45°)÷2 = 67.5°."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una plaza con forma de eneágono regular (9 lados) tiene una banca en cada vértice; el camino gira el ángulo exterior en cada esquina. Además, el terreno se dividió en 9 triángulos congruentes desde el centro por LAL. ¿Cuánto mide el ángulo exterior del eneágono y el ángulo central de cada triángulo?",
+          "opciones": [
+            "40° y 40°",
+            "45° y 40°",
+            "40° y 45°",
+            "36° y 40°"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Ambos se calculan igual: 360°÷9 = 40°. El ángulo exterior y el ángulo central de los triángulos formados desde el centro coinciden."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En cualquier polígono regular dividido en triángulos congruentes desde su centro, el ángulo central de cada triángulo es siempre igual al ángulo exterior del polígono, porque ambos se calculan como 360° ÷ n.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: las dos fórmulas son 360°÷n, así que dan el mismo resultado numérico."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un vitral con forma de dodecágono regular (12 lados) se divide en 12 triángulos congruentes desde el centro. Cada ángulo de la base de esos triángulos isósceles mide ___°.",
+          "respuestaCorrecta": "75",
+          "retroalimentacion": "Ángulo central = 360°÷12=30°; base = (180°−30°)÷2 = 75°."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada polígono regular (dividido en triángulos congruentes desde el centro) con el ángulo de la base de esos triángulos.",
+          "columnaA": [
+            "Hexágono regular (6 triángulos)",
+            "Decágono regular (10 triángulos)",
+            "Dodecágono regular (12 triángulos)"
+          ],
+          "columnaB": [
+            "72°",
+            "75°",
+            "60°"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "Hexágono: central 60°, base (180−60)÷2=60°. Decágono: central 36°, base (180−36)÷2=72°. Dodecágono: central 30°, base (180−30)÷2=75°."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 9 de 10 · Integración"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Dos triángulos usados para decorar un mismo diseño comparten dos ángulos y el lado entre ellos. ¿Qué criterio confirma que son congruentes?",
+      "opciones": [
+        "LLL",
+        "LAL",
+        "ALA",
+        "No se puede determinar"
+      ],
+      "respuestaCorrecta": 2,
+      "retroalimentacion": "Dos ángulos y el lado comprendido entre ellos: criterio ALA."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "En un pentágono regular decorativo, cada ángulo interior mide 108°.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: 540°÷5 = 108°."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "La bisectriz de un ángulo de 110° en la estructura de un puente lo divide en dos partes de ___° cada una.",
+      "respuestaCorrecta": "55",
+      "retroalimentacion": "110 ÷ 2 = 55°."
+    }
+  ]
+}

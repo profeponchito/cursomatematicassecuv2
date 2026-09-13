@@ -1,0 +1,145 @@
+{
+  "id": "2S-B1-PDA09-04",
+  "grado": "2°",
+  "trimestre": "3",
+  "numero": 84,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Forma, espacio y medida",
+  "titulo": "Arcos y Sectores Circulares 9.4",
+  "contenido": "Circunferencia, círculo y esfera.",
+  "pda": "Calcula la longitud de un arco y el área de un sector circular a partir del ángulo central.",
+  "problematizacion": {
+    "contexto": "El maestro de Matemáticas de un CBTIS en Hermosillo lleva un abanico de mano con forma de sector circular de 20 cm de radio y ángulo central de 120°, y les pide a sus alumnos calcular dos cosas distintas sobre el mismo abanico.",
+    "pregunta": "¿Cuál es la longitud del borde curvo del abanico (el arco), y cuál es el área de tela que cubre todo el sector?"
+  },
+  "subtemas": [
+    {
+      "numero": "9.4",
+      "titulo": "Aplicación combinada: arco y sector en la vida real",
+      "explicacion": "Recuerda las dos fórmulas: la longitud del arco es (ángulo÷360)×2×π×r, y el área del sector es (ángulo÷360)×π×r². Ambas parten del mismo ángulo central y el mismo radio, pero responden preguntas distintas: el arco mide una longitud (el borde curvo, en cm o m), mientras que el sector mide una superficie (el área que cubre, en cm² o m²). Identificar qué pide el problema —una distancia curva o una superficie— es la clave para elegir la fórmula correcta.",
+      "ejemplos": [
+        "Una rebanada de pizza de radio 12 cm con ángulo central de 45° tiene un arco de 9.42 cm y un área de 56.52 cm²: ambos valores se calculan con el mismo ángulo y radio, pero miden cosas distintas."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una pizza redonda de radio 12 cm se corta en 8 rebanadas iguales (ángulo central de 45° cada una). ¿Cuál es el área de una rebanada?",
+          "opciones": [
+            "56.52 cm²",
+            "45.28 cm²",
+            "62.8 cm²",
+            "50.24 cm²"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "sector=(45/360)×3.14×12² = 0.125×452.16 = 56.52 cm²."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El borde curvo (arco) de una de esas rebanadas de pizza (radio 12 cm, ángulo 45°) mide ___ cm.",
+          "respuestaCorrecta": "9.42",
+          "retroalimentacion": "arco=(45/360)×2×3.14×12 = 0.125×75.36 = 9.42 cm."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un abanico circular de radio 10 cm se abre formando un ángulo central de 120°. El área que cubre (sector) es de 104.67 cm².",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "sector=(120/360)×3.14×10² = 0.3333×314 = 104.67 cm². Correcto."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Con el mismo abanico (radio 10 cm, ángulo central de 120°), ¿cuánto mide el arco (borde curvo) que recorre?",
+          "opciones": [
+            "20.93 cm",
+            "10.47 cm",
+            "41.87 cm",
+            "31.4 cm"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "arco=(120/360)×2×3.14×10 = 0.3333×62.8 = 20.93 cm."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En una noria (rueda de la fortuna) de radio 15 m con cabinas separadas por un ángulo central de 72°, la distancia en línea curva (arco) entre dos cabinas consecutivas es de ___ m.",
+          "respuestaCorrecta": "18.84",
+          "retroalimentacion": "arco=(72/360)×2×3.14×15 = 0.2×94.2 = 18.84 m."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Para la misma noria (radio 15 m, ángulo central de 72° entre cabinas), ¿cuál es el área del sector comprendido entre dos rayos consecutivos?",
+          "opciones": [
+            "141.3 m²",
+            "70.65 m²",
+            "188.4 m²",
+            "94.2 m²"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "sector=(72/360)×3.14×15² = 0.2×706.5 = 141.3 m²."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un jardín circular de radio 8 m se divide en secciones; una de ellas tiene un ángulo central de 90°. El área de esa sección es de 50.24 m².",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "sector=(90/360)×3.14×8² = 0.25×200.96 = 50.24 m². Correcto."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El borde curvo de esa misma sección del jardín (radio 8 m, ángulo 90°) mide ___ m.",
+          "respuestaCorrecta": "12.56",
+          "retroalimentacion": "arco=(90/360)×2×3.14×8 = 0.25×50.24 = 12.56 m."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada contexto con la longitud de su arco (borde curvo).",
+          "columnaA": [
+            "Pizza: 45°, radio 12 cm",
+            "Abanico: 120°, radio 10 cm",
+            "Noria: 72°, radio 15 m",
+            "Jardín: 90°, radio 8 m"
+          ],
+          "columnaB": [
+            "18.84",
+            "12.56",
+            "20.93",
+            "9.42"
+          ],
+          "parejasCorrectas": [
+            3,
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "Pizza (45°,12): arco=9.42. Abanico (120°,10): arco=20.93. Noria (72°,15): arco=18.84. Jardín (90°,8): arco=12.56."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un parque circular de radio 20 m tiene una sección de juegos con ángulo central de 60°. ¿Cuál es el área de esa sección?",
+          "opciones": [
+            "209.33 m²",
+            "20.93 m²",
+            "418.67 m²",
+            "104.67 m²"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "sector=(60/360)×3.14×20² = 0.1667×1256 = 209.33 m²."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 4 de 10 · Síntesis"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Un sector con ángulo central de 60° y radio 12 cm tiene un arco de 12.56 cm.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "arco=(60/360)×2×3.14×12=0.1667×75.36=12.56 cm. Correcto."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Un sector con ángulo central de 90° y radio 6 cm tiene un arco de ___ cm.",
+      "respuestaCorrecta": "9.42",
+      "retroalimentacion": "arco=(90/360)×2×3.14×6=0.25×37.68=9.42 cm."
+    }
+  ]
+}

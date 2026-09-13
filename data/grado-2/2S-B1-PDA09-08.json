@@ -1,0 +1,176 @@
+{
+  "id": "2S-B1-PDA09-08",
+  "grado": "2°",
+  "trimestre": "3",
+  "numero": 88,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Forma, espacio y medida",
+  "titulo": "Arcos y Sectores Circulares 9.8",
+  "contenido": "Circunferencia, círculo y esfera.",
+  "pda": "Calcula la longitud de un arco y el área de un sector circular a partir del ángulo central.",
+  "problematizacion": {
+    "contexto": "En una alberca pública de Veracruz con forma de anillo, hay una zona circular central de 3 m de radio que no se puede usar, rodeada por el área de nado hasta un radio de 8 m; el salvavidas necesita calcular cuánta agua clorada corresponde a un sector de 90° de esa zona de nado en forma de anillo.",
+    "pregunta": "¿Cuál es el área del sector de corona circular que corresponde a ese ángulo de 90°?"
+  },
+  "subtemas": [
+    {
+      "numero": "9.8",
+      "nivelEtiqueta": "Nivel 8 de 10 · Reto avanzado",
+      "titulo": "Sector de una corona circular: el área entre dos arcos concéntricos",
+      "explicacion": "Hasta ahora todos los sectores partían de un solo círculo. Ahora aparecen DOS círculos con el mismo centro (concéntricos) pero distinto radio —como una pista con carriles, una alberca en forma de anillo o una dona—. La región entre ambos círculos, limitada por el mismo ángulo central, se llama sector de corona circular (o sector de anillo). Su área es la diferencia entre el sector del círculo grande y el sector del círculo pequeño.",
+      "formula": "área del sector de corona = (ángulo÷360) × π × (R² − r²)     donde R = radio mayor, r = radio menor",
+      "ejemplos": [
+        "Una corona circular con radio mayor R=10 cm, radio menor r=6 cm y ángulo central de 90°: área=(90÷360)×3.14×(10²−6²)=0.25×3.14×64=50.24 cm².",
+        "Con R=15 m, r=9 m y ángulo central de 120°: área=(120÷360)×3.14×(15²−9²)=0.3333×3.14×144=150.72 m²."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una pista de atletismo tiene un carril exterior de radio 30 m y un carril interior de radio 25 m. ¿Cuál es el área de la franja entre ambos carriles en un sector con ángulo central de 45°?",
+          "opciones": [
+            "107.94 m²",
+            "98.13 m²",
+            "117.75 m²",
+            "88.32 m²"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "área=(45/360)×3.14×(30²−25²)=(45/360)×3.14×275=107.94 m²."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una dona tiene un radio exterior de 8 cm y un agujero central de radio 3 cm. El área de un sector de esa dona con ángulo central de 60° es de ___ cm².",
+          "respuestaCorrecta": "28.78",
+          "retroalimentacion": "área=(60/360)×3.14×(8²−3²)=(60/360)×3.14×55=28.78 cm²."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un jardín circular de radio 12 m tiene una fuente central de radio 9 m. ¿Cuál es el área de pasto (la zona entre la fuente y el borde del jardín) en un sector con ángulo central de 100°?",
+          "opciones": [
+            "54.95 m²",
+            "65.94 m²",
+            "43.96 m²",
+            "76.86 m²"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "área=(100/360)×3.14×(12²−9²)=(100/360)×3.14×63=54.95 m²."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una arandela metálica tiene radio exterior de 7 cm y radio interior de 4 cm. El área de un sector de esa arandela con ángulo central de 150° es de ___ cm².",
+          "respuestaCorrecta": "43.17",
+          "retroalimentacion": "área=(150/360)×3.14×(7²−4²)=(150/360)×3.14×33=43.17 cm²."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una alberca en forma de anillo tiene un radio exterior de 6 m y una isla circular central de radio 2 m. El área de un sector de esa alberca con ángulo central de 270° es de 75.36 m².",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "área=(270/360)×3.14×(6²−2²)=(270/360)×3.14×32=75.36 m². Correcto."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una pista de patinaje circular tiene radio exterior de 20 m y una zona central prohibida de radio 14 m. ¿Cuál es el área patinable en un sector con ángulo central de 80°?",
+          "opciones": [
+            "142.35 m²",
+            "118.58 m²",
+            "165.97 m²",
+            "94.9 m²"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "área=(80/360)×3.14×(20²−14²)=(80/360)×3.14×204=142.35 m²."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una llanta de bicicleta tiene un radio exterior (con neumático) de 13 cm y un radio interior (del rin) de 5 cm. El área de goma visible en un sector con ángulo central de 72° es de ___ cm².",
+          "respuestaCorrecta": "90.43",
+          "retroalimentacion": "área=(72/360)×3.14×(13²−5²)=(72/360)×3.14×144=90.43 cm²."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un sistema de riego circular cubre un área en forma de anillo, con radio exterior de 9 m y radio interior (zona seca central) de 6 m. ¿Cuál es el área regada en un sector con ángulo central de 200°?",
+          "opciones": [
+            "78.5 m²",
+            "62.8 m²",
+            "94.2 m²",
+            "70.65 m²"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "área=(200/360)×3.14×(9²−6²)=(200/360)×3.14×45=78.5 m²."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si el ángulo central de un sector de corona circular es de 360° (la corona completa), su área es igual a la diferencia entre el área del círculo grande y el área del círculo pequeño. Para R=10 cm y r=6 cm, esa área completa es de 200.96 cm².",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: con 360° la fracción es 1, así que área=π×(R²−r²)=3.14×(100−36)=3.14×64=200.96 cm², igual a restar las áreas de los dos círculos completos (314−113.04=200.96)."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada corona circular (radio mayor R, radio menor r, ángulo central) con el área de su sector.",
+          "columnaA": [
+            "R=11 cm, r=7 cm, 50°",
+            "R=16 cm, r=12 cm, 63°",
+            "R=9 cm, r=5 cm, 140°",
+            "R=18 cm, r=15 cm, 200°"
+          ],
+          "columnaB": [
+            "68.38 cm²",
+            "172.7 cm²",
+            "31.4 cm²",
+            "61.54 cm²"
+          ],
+          "parejasCorrectas": [
+            2,
+            3,
+            0,
+            1
+          ],
+          "retroalimentacion": "R=11,r=7,50°: área=31.4 cm². R=16,r=12,63°: área=61.54 cm². R=9,r=5,140°: área=68.38 cm². R=18,r=15,200°: área=172.7 cm²."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es el área de un sector con ángulo central de 90° y radio 20 cm?",
+      "opciones": [
+        "314 cm²",
+        "157 cm²",
+        "628 cm²",
+        "78.5 cm²"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "sector=(90/360)×3.14×20²=0.25×1256=314 cm²."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Un sector con ángulo central de 120° y radio 10 cm tiene un área de 104.67 cm².",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "sector=(120/360)×3.14×10²=0.3333×314=104.67 cm². Correcto."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada sector (con el mismo radio de 6 cm) con el área que cubre según su ángulo central.",
+      "columnaA": [
+        "30°, r=6 cm",
+        "60°, r=6 cm",
+        "90°, r=6 cm",
+        "120°, r=6 cm"
+      ],
+      "columnaB": [
+        "37.68 cm²",
+        "9.42 cm²",
+        "28.26 cm²",
+        "18.84 cm²"
+      ],
+      "parejasCorrectas": [
+        1,
+        3,
+        2,
+        0
+      ],
+      "retroalimentacion": "Con radio fijo, el área crece proporcionalmente al ángulo: 30°=9.42 cm², 60°=18.84 cm², 90°=28.26 cm², 120°=37.68 cm²."
+    }
+  ]
+}

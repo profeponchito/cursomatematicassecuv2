@@ -1,0 +1,157 @@
+{
+  "id": "2S-B1-PDA02-07",
+  "grado": "2°",
+  "trimestre": "1",
+  "numero": 17,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Extensión del significado de las operaciones y sus relaciones inversas 2.7",
+  "contenido": "Extensión del significado de las operaciones y sus relaciones inversas.",
+  "pda": "Comprueba y argumenta si las operaciones cumplen las propiedades conmutativa, asociativa y distributiva. Aplica criterios de divisibilidad, máximo común divisor y mínimo común múltiplo.",
+  "problematizacion": {
+    "contexto": "Iker está descomponiendo el número 630 en sus factores primos para un ejercicio de su maestro, y quiere saber rápidamente, sin dividir paso a paso, si 630 es divisible entre 2, entre 3, entre 5 y entre 9, para elegir por cuáles factores empezar.",
+    "pregunta": "¿Entre cuáles de esos números (2, 3, 5 y 9) es divisible 630, usando los criterios de divisibilidad y sin hacer la división completa?"
+  },
+  "subtemas": [
+    {
+      "numero": "2.7",
+      "titulo": "Criterios de divisibilidad",
+      "explicacion": "El PDA también pide aplicar criterios de divisibilidad: reglas rápidas para saber si un número es divisible entre otro sin hacer la división completa. Estos criterios te ayudan a descomponer números grandes en factores primos más rápido, lo que hace más ágil calcular el MCD y el mcm en problemas con cifras mayores.",
+      "formula": "Criterios de divisibilidad: entre 2 (termina en cifra par o en 0); entre 3 (la suma de sus dígitos es múltiplo de 3); entre 4 (sus últimos dos dígitos forman un múltiplo de 4); entre 5 (termina en 0 o en 5); entre 6 (es divisible entre 2 y entre 3 a la vez); entre 8 (sus últimos tres dígitos forman un múltiplo de 8); entre 9 (la suma de sus dígitos es múltiplo de 9); entre 10 (termina en 0); entre 11 (la diferencia entre la suma de dígitos en posición impar y la de posición par, contando desde la derecha, es 0 o múltiplo de 11).",
+      "ejemplos": [
+        "¿498 es divisible entre 3? Suma de dígitos: 4+9+8=21, y 21 es múltiplo de 3, por lo tanto 498 sí es divisible entre 3 (498÷3=166).",
+        "¿1,364 es divisible entre 4? Sus últimos dos dígitos son 64, y 64÷4=16 es exacto, por lo tanto 1,364 sí es divisible entre 4.",
+        "¿2,728 es divisible entre 11? Desde la derecha: dígitos en posición impar 8 y 7 suman 15; dígitos en posición par 2 y 2 suman 4. Diferencia: 15−4=11, que es múltiplo de 11, por lo tanto 2,728 sí es divisible entre 11 (2,728÷11=248)."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "756 es divisible entre 9 porque la suma de sus dígitos (7+5+6=18) es múltiplo de 9.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 18 es múltiplo de 9, y en efecto 756÷9=84 exacto."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "312 es divisible entre 8 porque sus últimos tres dígitos (312) forman un múltiplo de 8.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 312÷8=39 exacto."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de los siguientes números es divisible entre 6?",
+          "opciones": [
+            "214",
+            "324",
+            "415",
+            "733"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "324 es par y la suma de sus dígitos (3+2+4=9) es múltiplo de 3, así que cumple los dos criterios (2 y 3) y es divisible entre 6."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El número 4,950 es divisible entre 11 porque la diferencia entre la suma de dígitos en posición impar y en posición par (desde la derecha) es ___.",
+          "respuestaCorrecta": "0",
+          "retroalimentacion": "Desde la derecha, los dígitos son 0,5,9,4: posiciones impares (0 y 9) suman 9; posiciones pares (5 y 4) suman 9. La diferencia es 9−9=0, múltiplo de 11 (4,950÷11=450)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "2,145 es divisible entre 5 y entre 3, pero no entre 9.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: termina en 5 (divisible entre 5); suma de dígitos 2+1+4+5=12, múltiplo de 3 pero no de 9, así que no es divisible entre 9."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál criterio permite saber que 5,896 es divisible entre 4 sin dividir el número completo?",
+          "opciones": [
+            "Que termine en 0",
+            "Que sus últimos dos dígitos (96) formen un múltiplo de 4",
+            "Que la suma de dígitos sea múltiplo de 4",
+            "Que sea un número par"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "El criterio de divisibilidad entre 4 dice que basta con revisar si los últimos dos dígitos forman un múltiplo de 4: 96÷4=24 exacto."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada número con el criterio de divisibilidad que cumple.",
+          "columnaA": [
+            "2,835",
+            "4,104",
+            "1,730"
+          ],
+          "columnaB": [
+            "Divisible entre 8",
+            "Divisible entre 10",
+            "Divisible entre 9"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "2,835: suma de dígitos 18, múltiplo de 9. 4,104: últimos tres dígitos 104, múltiplo de 8. 1,730: termina en 0, divisible entre 10."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "913 es divisible entre 11.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 913÷11=83 exacto."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Para saber si 6,318 es divisible entre 3, sumamos sus dígitos: 6+3+1+8=___, que sí es múltiplo de 3.",
+          "respuestaCorrecta": "18",
+          "retroalimentacion": "6+3+1+8=18, múltiplo de 3, así que 6,318 es divisible entre 3."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una fábrica produce 2,304 piezas y quiere empaquetarlas en cajas de 8 piezas cada una, sin que sobre ninguna. Usando el criterio de divisibilidad entre 8 (los últimos tres dígitos deben formar un múltiplo de 8), ¿es posible?",
+          "opciones": [
+            "Sí, porque 304 es múltiplo de 8",
+            "No, porque 304 no es múltiplo de 8",
+            "Sí, porque 2,304 es par",
+            "No, porque la suma de dígitos no es múltiplo de 8"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Los últimos tres dígitos son 304, y 304÷8=38 exacto, así que 2,304 sí es divisible entre 8."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 7 de 10 · Reto"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "llenar_frase",
+      "frase": "El MCD de 18 y 24 es ___.",
+      "respuestaCorrecta": "6",
+      "retroalimentacion": "18=2×3², 24=2³×3. MCD = 2×3 = 6."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es el mcm de 14 y 21?",
+      "opciones": [
+        "35",
+        "42",
+        "7",
+        "294"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "mcm(14,21) = 42."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "(6×3)×2=6×(3×2) es un ejemplo de la propiedad asociativa.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: (6×3)×2=6×(3×2) corresponde a la propiedad asociativa."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "El MCD de 17 y 29 es 1.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: 17 y 29 son números primos distintos, así que no comparten factores. MCD = 1."
+    }
+  ]
+}

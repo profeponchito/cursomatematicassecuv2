@@ -1,0 +1,147 @@
+{
+  "id": "2S-B1-PDA09-07",
+  "grado": "2°",
+  "trimestre": "3",
+  "numero": 87,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Forma, espacio y medida",
+  "titulo": "Arcos y Sectores Circulares 9.7",
+  "contenido": "Circunferencia, círculo y esfera.",
+  "pda": "Calcula la longitud de un arco y el área de un sector circular a partir del ángulo central.",
+  "problematizacion": {
+    "contexto": "Mientras espera el camión en una parada de Puebla, Renata observa el minutero de un reloj de pared, que mide 8 cm, y quiere saber qué tan lejos se mueve la punta del minutero durante los 5 minutos que tarda en llegar su camión.",
+    "pregunta": "¿Cuántos grados gira el minutero en 5 minutos, y qué distancia recorre la punta sobre su arco en ese tiempo?"
+  },
+  "subtemas": [
+    {
+      "numero": "9.7",
+      "nivelEtiqueta": "Nivel 7 de 10 · Reto",
+      "titulo": "Relojes, radares y aspersores: ángulos que nacen del tiempo",
+      "explicacion": "En muchas situaciones el ángulo central no se da directamente en grados: se obtiene a partir de cuánto tiempo ha girado algo. El minutero de un reloj gira 6° por cada minuto (porque 360°÷60 min=6°/min); un radar, un faro o un aspersor que da una vuelta completa en cierto tiempo también convierten segundos, o una fracción de vuelta, en grados. Antes de usar las fórmulas de arco o área, primero traduces esa información de tiempo a un ángulo central.",
+      "formula": "grados por minuto del minutero = 360°÷60 = 6°/min      ángulo de una fracción de vuelta = (tiempo transcurrido ÷ tiempo de una vuelta completa) × 360°",
+      "ejemplos": [
+        "El minutero de un reloj (que actúa como radio) mide 20 cm. En 25 minutos gira 25×6°=150°. La punta del minutero recorre un arco de (150÷360)×2×3.14×20 = 52.33 cm.",
+        "Un aspersor de riego con alcance de 5 m da una vuelta completa cada 60 minutos; en un ciclo de 40 minutos gira (40÷60)×360°=240°. El área regada en ese ciclo es (240÷360)×3.14×5² = 52.33 m²."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El minutero de un reloj mide 15 cm. Si observas el reloj de las 4:00 a las 4:35 (35 minutos), ¿qué distancia recorrió la punta del minutero sobre su trayectoria circular? (recuerda: 6° por minuto, usa π≈3.14)",
+          "opciones": [
+            "54.95 cm",
+            "47.1 cm",
+            "62.8 cm",
+            "39.25 cm"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "En 35 min el minutero gira 35×6°=210°. arco=(210/360)×2×3.14×15=54.95 cm."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un aspersor de jardín con radio de alcance de 3.5 m tarda 60 minutos en dar una vuelta completa. Si riega durante 40 minutos de ese ciclo, gira (40÷60)×360°=240°, y el arco que recorre el chorro de agua en su borde es de ___ m.",
+          "respuestaCorrecta": "14.65",
+          "retroalimentacion": "arco=(240/360)×2×3.14×3.5=14.65 m."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El radar de un barco da una vuelta completa cada 20 segundos. En 5 segundos gira 90° (porque 5÷20 de vuelta = 1/4 de 360°). Si el radar detecta objetos hasta 8 km de distancia, el área que barre en esos 5 segundos es de 50.24 km².",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "5/20=1/4 de vuelta=90°. área=(90/360)×3.14×8²=50.24 km². Correcto."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un aspersor riega un sector de radio 6.5 m, girando 200° en cada ciclo. ¿Cuál es el área regada por ciclo?",
+          "opciones": [
+            "73.7 m²",
+            "36.85 m²",
+            "51.59 m²",
+            "88.44 m²"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "área=(200/360)×3.14×6.5²=73.7 m²."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un faro marino gira una vuelta completa cada 15 segundos y su haz de luz alcanza 45 km. En 4 segundos, el faro gira (4÷15)×360°=96°, y la punta de su haz recorre un arco de ___ km.",
+          "respuestaCorrecta": "75.36",
+          "retroalimentacion": "arco=(96/360)×2×3.14×45=75.36 km."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El minutero de un reloj mide 12 cm. De las 7:10 a las 7:25 (15 minutos), ¿cuántos centímetros recorrió la punta del minutero?",
+          "opciones": [
+            "18.84 cm",
+            "9.42 cm",
+            "25.12 cm",
+            "37.68 cm"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "15 min×6°=90°. arco=(90/360)×2×3.14×12=18.84 cm."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El radar de una torre de control da una vuelta completa cada 10 segundos. En 3 segundos gira 108°. Si detecta aviones hasta 50 km, el arco que barre la punta de su señal en esos 3 segundos es de 94.2 km.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "3/10 de vuelta=108°. arco=(108/360)×2×3.14×50=94.2 km. Correcto."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un aspersor circular con radio de 4 m gira 5/8 de vuelta completa en cada ciclo (5/8×360°=225°). El área regada en cada ciclo es de ___ m².",
+          "respuestaCorrecta": "31.4",
+          "retroalimentacion": "área=(225/360)×3.14×4²=31.4 m²."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El minutero de un reloj mide 18 cm. De las 9:05 a las 9:32 (27 minutos), ¿qué distancia recorrió su punta?",
+          "opciones": [
+            "50.87 cm",
+            "37.68 cm",
+            "62.8 cm",
+            "44.27 cm"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "27 min×6°=162°. arco=(162/360)×2×3.14×18=50.87 cm."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona el tiempo que ha girado el minutero de un reloj con el ángulo central que corresponde (recuerda: 6° por minuto).",
+          "columnaA": [
+            "15 minutos",
+            "40 minutos",
+            "10 minutos",
+            "50 minutos"
+          ],
+          "columnaB": [
+            "300°",
+            "60°",
+            "240°",
+            "90°"
+          ],
+          "parejasCorrectas": [
+            3,
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "15 min=90°, 40 min=240°, 10 min=60°, 50 min=300° (cada minuto son 6°)."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Un sector con ángulo central de 60° y radio 9 cm tiene un área de 42.39 cm².",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "sector=(60/360)×3.14×9²=0.1667×254.34=42.39 cm². Correcto."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Un sector con ángulo central de 72° y radio 8 cm tiene un área de ___ cm².",
+      "respuestaCorrecta": "40.19",
+      "retroalimentacion": "sector=(72/360)×3.14×8²=0.2×200.96=40.19 cm²."
+    }
+  ]
+}

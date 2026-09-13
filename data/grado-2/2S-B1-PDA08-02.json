@@ -1,0 +1,156 @@
+{
+  "id": "2S-B1-PDA08-02",
+  "grado": "2°",
+  "trimestre": "2",
+  "numero": 72,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Forma, espacio y medida",
+  "titulo": "Semejanza y Cuerpos Geométricos 8.2",
+  "contenido": "Construcción y propiedades de las figuras planas y cuerpos.",
+  "pda": "Aplica la semejanza de triángulos y el Teorema de Thales, calcula áreas de figuras compuestas y clasifica cuerpos geométricos.",
+  "problematizacion": {
+    "contexto": "En un ejido de Tabasco, don Efrén quiere medir el ancho de un río para saber cuánto cable necesita para un puente colgante. Sobre la orilla traza dos líneas paralelas y las corta con dos rectas transversales que se cruzan del otro lado; en una transversal mide segmentos de 8 m y 12 m, y en la otra el segmento correspondiente al primero mide 6 m.",
+    "pregunta": "Aplicando el Teorema de Thales, ¿cuánto debe medir el segmento correspondiente al de 12 m en la segunda transversal?"
+  },
+  "subtemas": [
+    {
+      "numero": "8.2",
+      "titulo": "Teorema de Thales",
+      "explicacion": "El Teorema de Thales dice que si dos o más rectas paralelas son cortadas por dos rectas transversales, los segmentos que se forman sobre una transversal son proporcionales a los segmentos correspondientes de la otra transversal. Si sobre una transversal se marcan los puntos A, B y C, y sobre la otra los puntos correspondientes A', B' y C' (de modo que AA', BB' y CC' sean paralelas entre sí), entonces se cumple que AB/BC = A'B'/B'C'. Este teorema es muy útil para calcular distancias o longitudes que no se pueden medir directamente, como el ancho de un río, el largo de un terreno irregular o la separación entre dos calles.",
+      "formula": "AB / BC = A'B' / B'C'",
+      "ejemplos": [
+        "Si AB=3 cm, BC=5 cm y A'B'=6 cm, entonces 3/5 = 6/B'C', por lo que B'C' = (5×6)÷3 = 10 cm.",
+        "Si AB=4 cm, BC=6 cm y B'C'=15 cm, entonces A'B' = (4×15)÷6 = 10 cm."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Tres rectas paralelas son cortadas por dos transversales. En la primera transversal, AB=3 cm y BC=5 cm; en la segunda, A'B'=6 cm. Según el Teorema de Thales, ¿cuánto mide B'C'?",
+          "opciones": [
+            "8",
+            "9",
+            "10",
+            "12"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "AB/BC = A'B'/B'C' → 3/5 = 6/B'C' → B'C' = (5×6)÷3 = 10 cm."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Según el Teorema de Thales, si AB=4 cm, BC=6 cm y A'B'=10 cm, entonces B'C'=15 cm.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "4/6 = 10/15 (ambas razones son 0.667), la proporción se cumple."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Tres rectas paralelas cortan dos transversales. AB=5 cm, BC=8 cm, B'C'=16 cm. Entonces A'B' = ___ cm.",
+          "respuestaCorrecta": "10",
+          "retroalimentacion": "A'B' = (AB×B'C')÷BC = (5×16)÷8 = 10 cm."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "AB=6 cm, BC=9 cm, A'B'=8 cm. ¿Cuánto mide B'C'?",
+          "opciones": [
+            "10",
+            "11",
+            "12",
+            "14"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "B'C' = (9×8)÷6 = 12 cm."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si AB=2 cm, BC=7 cm y A'B'=6 cm, entonces B'C'=21 cm.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "2/7 = 6/21 (ambas razones son 0.2857), la proporción se cumple."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "AB=8 cm, BC=12 cm, A'B'=6 cm. Entonces B'C' = ___ cm.",
+          "respuestaCorrecta": "9",
+          "retroalimentacion": "B'C' = (12×6)÷8 = 9 cm."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "AB=3 cm, BC=4 cm, B'C'=12 cm. ¿Cuánto mide A'B'?",
+          "opciones": [
+            "6",
+            "8",
+            "9",
+            "10"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "A'B' = (3×12)÷4 = 9 cm."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada conjunto de segmentos (AB, BC, A'B') con el valor correcto de B'C', según el Teorema de Thales.",
+          "columnaA": [
+            "AB=10 cm, BC=15 cm, A'B'=8 cm",
+            "AB=4 cm, BC=10 cm, A'B'=6 cm",
+            "AB=3 cm, BC=7 cm, A'B'=6 cm"
+          ],
+          "columnaB": [
+            "14",
+            "12",
+            "15"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "10,15,8 → B'C'=12. 4,10,6 → B'C'=15. 3,7,6 → B'C'=14."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si AB=6 cm, BC=10 cm y B'C'=15 cm, entonces A'B'=9 cm.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "6/10 = 9/15 (ambas razones son 0.6), la proporción se cumple."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En un terreno, dos calles paralelas cortan dos avenidas. Sobre una avenida los segmentos miden AB=4 cm y BC=10 cm; sobre la otra, A'B'=6 cm. Aplicando el Teorema de Thales, ¿cuánto mide B'C'?",
+          "opciones": [
+            "12",
+            "13",
+            "15",
+            "18"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "B'C' = (10×6)÷4 = 15 cm."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 2 de 10 · Intermedio"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "llenar_frase",
+      "frase": "El triángulo MNP es semejante a M'N'P' con razón k=2.5 (de MNP a M'N'P'). Si MN=6 cm, entonces M'N' = ___ cm.",
+      "respuestaCorrecta": "15",
+      "retroalimentacion": "M'N' = 6 × 2.5 = 15 cm."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Dos triángulos semejantes tienen razón k=3 (chico a grande). Si el lado del triángulo grande mide 21 cm, ¿cuánto mide el lado correspondiente del chico?",
+      "opciones": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "21 ÷ 3 = 7 cm."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Si dos triángulos tienen todos sus ángulos correspondientes iguales, son semejantes aunque sus lados midan diferente.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: la semejanza depende de los ángulos iguales y los lados proporcionales, no de que midan lo mismo."
+    }
+  ]
+}

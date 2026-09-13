@@ -1,0 +1,162 @@
+{
+  "id": "2S-B1-PDA06-07",
+  "grado": "2°",
+  "trimestre": "2",
+  "numero": 57,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Ecuaciones lineales y cuadráticas 6.7",
+  "contenido": "Ecuaciones lineales y cuadráticas.",
+  "pda": "Modela y resuelve problemas cuyo planteamiento es una ecuación lineal. Resuelve problemas de porcentajes en diversas situaciones.",
+  "problematizacion": {
+    "contexto": "Una tienda departamental en Torreón aplica primero un descuento del 10% a una licuadora de $1,200, y después le agrega el 16% de IVA sobre el precio ya rebajado.",
+    "pregunta": "¿Cuál es el precio final de la licuadora después del descuento y el IVA aplicados en cadena?"
+  },
+  "subtemas": [
+    {
+      "numero": "6.7",
+      "titulo": "Descuentos y aumentos encadenados",
+      "explicacion": "Hasta ahora se aplicaba un solo cambio porcentual a un precio. Ahora se encadenan dos cambios sucesivos —por ejemplo, un descuento y luego un aumento, o dos descuentos seguidos— y cada uno se calcula sobre el resultado del anterior, nunca sobre el precio original. Esto es justo lo que ocurre cuando una tienda aplica un descuento y luego cobra IVA, o cuando un sueldo sube en años consecutivos.",
+      "formula": "precio final = precio original × factor1 × factor2, donde cada factor es (1 − descuento/100) o (1 + aumento/100)",
+      "ejemplos": [
+        "Un artículo de $500 tiene primero 20% de descuento y luego se le aplica un cupón adicional del 10% sobre el nuevo precio: 500 × 0.80 × 0.90 = 500 × 0.72 = $360.",
+        "Un salario de $6,000 aumenta 10% un año y 10% el siguiente año: 6000 × 1.10 × 1.10 = 6000 × 1.21 = $7,260 (no es un aumento del 20%, sino un poco más)."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una laptop de $12,000 tiene 15% de descuento y luego se le aplica 16% de IVA sobre el precio ya rebajado. ¿Cuál es el precio final?",
+          "opciones": [
+            "$11,832",
+            "$11,700",
+            "$12,180",
+            "$10,200"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "12000×0.85×1.16 = $11,832."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una tablet de $500 tiene primero 20% de descuento y luego un cupón adicional del 10% sobre el nuevo precio. El precio final es $___.",
+          "respuestaCorrecta": "360",
+          "retroalimentacion": "500×0.80×0.90 = $360."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un artículo de $800 sube 25% de precio y luego, sobre el nuevo precio, se le aplica un descuento del 20%. El precio final vuelve a ser $800.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "800×1.25×0.80 = 800×1.00 = $800. Correcto: con estos porcentajes el aumento y el descuento se cancelan exactamente."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un sueldo de $6,000 aumenta 10% un año y 10% el siguiente año. Al final del segundo año el sueldo es $7,260.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "6000×1.10×1.10 = $7,260. Correcto."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una tienda compra playeras a $80 cada una, las marca con un aumento del 50% para venderlas al público y luego ofrece 20% de descuento por temporada. ¿Cuál es el precio final de venta?",
+          "opciones": [
+            "$96",
+            "$100",
+            "$88",
+            "$104"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "80×1.50×0.80 = $96."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un boleto de avión de $3,000 sube 12% de precio por temporada alta y luego baja 5% por una promoción. El precio final es $___.",
+          "respuestaCorrecta": "3192",
+          "retroalimentacion": "3000×1.12×0.95 = $3,192."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación con su precio final.",
+          "columnaA": [
+            "Un artículo de $200 sube 10% y luego baja 10%",
+            "Un artículo de $400 baja 25% y luego sube 20%",
+            "Un artículo de $1,000 baja 30% y luego sube 30%"
+          ],
+          "columnaB": [
+            "910",
+            "198",
+            "360"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "200×1.10×0.90=198; 400×0.75×1.20=360; 1000×0.70×1.30=910."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una población de bacterias de 5,000 aumenta 40% en la primera hora y luego disminuye 25% en la segunda hora por falta de nutrientes. ¿Cuántas bacterias hay al final de la segunda hora?",
+          "opciones": [
+            "5,250",
+            "5,000",
+            "5,600",
+            "4,900"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "5000×1.40×0.75 = 5,250."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un producto de $250 recibe un descuento del 10% y luego otro 10% adicional sobre el nuevo precio. Esto equivale a un descuento total del 20%, así que el precio final es $200.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "250×0.90×0.90 = $202.50, no $200: dos descuentos del 10% seguidos NO equivalen a un descuento del 20%."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un terreno cuesta $150,000 y su valor sube 8% el primer año y 8% más el segundo año, sobre el nuevo valor. Su valor final es $___.",
+          "respuestaCorrecta": "174960",
+          "retroalimentacion": "150000×1.08×1.08 = $174,960."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 7 de 10 · Reto"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Un número menos el doble de sí mismo es -14 (x - 2x = -14). ¿Cuál es el número?",
+      "opciones": [
+        "14",
+        "-14",
+        "7",
+        "28"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "x - 2x = -x = -14 → x = 14."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "La solución de 10x - 15 = 45 es x = 6.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "10x = 60; x = 6."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Un artículo con 40% de descuento quedó en $90. Su precio original era $___.",
+      "respuestaCorrecta": "150",
+      "retroalimentacion": "90 = x(1 − 0.40) = 0.60x → x = 90 ÷ 0.60 = $150."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Un producto de $80 tiene 25% de aumento. ¿Cuál es su precio final?",
+      "opciones": [
+        "$100",
+        "$95",
+        "$105",
+        "$85"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "80 × (1 + 0.25) = $100."
+    }
+  ]
+}

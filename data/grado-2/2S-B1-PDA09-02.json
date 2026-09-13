@@ -1,0 +1,141 @@
+{
+  "id": "2S-B1-PDA09-02",
+  "grado": "2°",
+  "trimestre": "3",
+  "numero": 82,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Forma, espacio y medida",
+  "titulo": "Arcos y Sectores Circulares 9.2",
+  "contenido": "Circunferencia, círculo y esfera.",
+  "pda": "Calcula la longitud de un arco y el área de un sector circular a partir del ángulo central.",
+  "problematizacion": {
+    "contexto": "En el zócalo de Campeche instalaron una fuente circular decorativa con radio de 6 metros para el festival de fin de año, y quieren colocar focos de colores solo en el arco que corresponde a un ángulo central de 90°, es decir, una cuarta parte del contorno.",
+    "pregunta": "¿Qué longitud de focos deben comprar para cubrir exactamente ese arco de 90°?"
+  },
+  "subtemas": [
+    {
+      "numero": "9.2",
+      "titulo": "Longitud de arco",
+      "explicacion": "El arco es la parte curva del borde del círculo que queda comprendida dentro de un sector. Su longitud es la misma fracción del perímetro total (la circunferencia) que el ángulo central representa del círculo completo. Como la circunferencia completa mide 2×π×r, la longitud del arco se obtiene multiplicando esa fracción por 2×π×r.",
+      "formula": "arco = (ángulo ÷ 360) × 2 × π × r   (usa π ≈ 3.14)",
+      "ejemplos": [
+        "Con ángulo central de 90° y radio 8 cm: arco = (90÷360) × 2 × 3.14 × 8 = 0.25 × 50.24 = 12.56 cm.",
+        "Con ángulo central de 60° y radio 9 cm: arco = (60÷360) × 2 × 3.14 × 9 = 0.1667 × 56.52 = 9.42 cm."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un sector tiene ángulo central de 30° y radio 6 cm. ¿Cuál es la longitud de su arco? (usa π≈3.14)",
+          "opciones": [
+            "3.14 cm",
+            "6.28 cm",
+            "1.57 cm",
+            "4.71 cm"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "arco=(30/360)×2×3.14×6 = 0.0833×37.68 = 3.14 cm."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un sector con ángulo central de 45° y radio 6 cm tiene un arco de 4.71 cm.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "arco=(45/360)×2×3.14×6 = 0.125×37.68 = 4.71 cm. Correcto."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un sector con ángulo central de 60° y radio 9 cm tiene un arco de ___ cm.",
+          "respuestaCorrecta": "9.42",
+          "retroalimentacion": "arco=(60/360)×2×3.14×9 = 0.1667×56.52 = 9.42 cm."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la longitud del arco de un sector con ángulo central de 72° y radio 5 cm?",
+          "opciones": [
+            "6.28 cm",
+            "5.65 cm",
+            "7.85 cm",
+            "4.19 cm"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "arco=(72/360)×2×3.14×5 = 0.2×31.4 = 6.28 cm."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un sector con ángulo central de 90° y radio 8 cm tiene un arco de 12.56 cm.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "arco=(90/360)×2×3.14×8 = 0.25×50.24 = 12.56 cm. Correcto."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un sector con ángulo central de 120° y radio 9 cm tiene un arco de ___ cm.",
+          "respuestaCorrecta": "18.84",
+          "retroalimentacion": "arco=(120/360)×2×3.14×9 = 0.3333×56.52 = 18.84 cm."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Con ángulo central de 180° y radio 10 cm, ¿cuál es la longitud del arco (media circunferencia)?",
+          "opciones": [
+            "31.4 cm",
+            "15.7 cm",
+            "62.8 cm",
+            "20.93 cm"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "arco=(180/360)×2×3.14×10 = 0.5×62.8 = 31.4 cm."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un sector con ángulo central de 240° y radio 6 cm tiene un arco de 25.12 cm.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "arco=(240/360)×2×3.14×6 = 0.6667×37.68 = 25.12 cm. Correcto."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un sector con ángulo central de 90° y radio 15 cm tiene un arco de ___ cm.",
+          "respuestaCorrecta": "23.55",
+          "retroalimentacion": "arco=(90/360)×2×3.14×15 = 0.25×94.2 = 23.55 cm."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada sector (ángulo y radio) con la longitud de su arco.",
+          "columnaA": [
+            "45°, r=3 cm",
+            "30°, r=10 cm",
+            "120°, r=4 cm",
+            "60°, r=4 cm"
+          ],
+          "columnaB": [
+            "4.19 cm",
+            "8.37 cm",
+            "2.35 cm",
+            "5.23 cm"
+          ],
+          "parejasCorrectas": [
+            2,
+            3,
+            1,
+            0
+          ],
+          "retroalimentacion": "45°,r=3: arco=2.35 cm. 30°,r=10: arco=5.23 cm. 120°,r=4: arco=8.37 cm. 60°,r=4: arco=4.19 cm."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 2 de 10 · Intermedio"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "llenar_frase",
+      "frase": "Un ángulo central de 45° representa ___ del círculo (fracción simplificada).",
+      "respuestaCorrecta": "1/8",
+      "retroalimentacion": "45°÷360°=1/8."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Un ángulo central de 240° representa dos terceras partes (2/3) del círculo.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "240°÷360°=2/3. Correcto."
+    }
+  ]
+}

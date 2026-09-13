@@ -1,0 +1,183 @@
+{
+  "id": "2S-B1-PDA01-09",
+  "grado": "2°",
+  "trimestre": "1",
+  "numero": 9,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Extensión de los números a positivos y negativos y su orden 1.9",
+  "contenido": "Extensión de los números a positivos y negativos y su orden.",
+  "pda": "Compara y ordena números con signo (enteros, fracciones y decimales) en la recta numérica y analiza en qué casos se cumple la propiedad de densidad.",
+  "problematizacion": {
+    "contexto": "En el laboratorio de Ciencias de su secundaria en Querétaro, Emilio registra en su bitácora los cambios de presión de tres ensayos: -7/4 atm, -1.6 atm y -9/5 atm. Necesita convertir los tres valores a la misma forma, ordenarlos del cambio más negativo al menos negativo, y decir si es posible un valor entre los dos ensayos más parecidos entre sí.",
+    "pregunta": "¿Cuál fue el ensayo con el cambio de presión más negativo, y qué valor podría existir entre los dos ensayos con resultados más parecidos?"
+  },
+  "subtemas": [
+    {
+      "numero": "1.9",
+      "titulo": "Bitácora de un experimento: cambios de temperatura y presión",
+      "explicacion": "Esta lección integra en un solo problema las tres primeras habilidades del PDA: primero conviertes distintos valores a la misma forma, después los ordenas en la recta numérica y, por último, decides si entre dos de ellos existe otro valor posible (densidad). A diferencia de las lecciones anteriores, que trabajaban una habilidad a la vez, aquí cada reactivo puede exigirte dos o tres pasos seguidos, como ocurre al analizar datos reales de laboratorio.",
+      "ejemplos": [
+        "Durante un experimento, un termómetro registra estos cambios respecto a la temperatura inicial: -3 3/8 °C, -2.9 °C, -7/2 °C y +1.6 °C. Paso 1 (convertir): -3 3/8 = -3.375 y -7/2 = -3.5. Paso 2 (ordenar): -3.5 < -3.375 < -2.9 < 1.6. Paso 3 (densidad): ¿hay otro cambio posible entre -3.5 y -3.375? Sí, por ejemplo -3.44, porque -3.5 < -3.44 < -3.375.",
+        "En otra etapa se registra la variación de presión: -0.08 atm, -1/16 atm, -0.095 atm y 0.02 atm. Convirtiendo -1/16 = -0.0625, el orden de menor a mayor queda: -0.095 < -0.08 < -0.0625 < 0.02."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un experimento registra estas variaciones de temperatura: -4 5/8 °C, -4.7 °C, -9/2 °C y +2 °C. ¿Cuál es el orden correcto de menor a mayor?",
+          "opciones": [
+            "-4.7, -4 5/8, -9/2, 2",
+            "-4.7, -9/2, -4 5/8, 2",
+            "-9/2, -4 5/8, -4.7, 2",
+            "2, -4 5/8, -9/2, -4.7"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "-4 5/8 = -4.625 y -9/2 = -4.5. De menor a mayor: -4.7 < -4.625 < -4.5 < 2."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La variación -4.625 °C (equivalente a -4 5/8 °C) es menor que -4.5 °C (equivalente a -9/2 °C).",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: -4.625 está más a la izquierda que -4.5, así que -4.625 < -4.5."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "-9/2 °C escrito en decimal es ___ °C.",
+          "respuestaCorrecta": "-4.5",
+          "retroalimentacion": "-9/2 = -4.5."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Se registraron las variaciones -4.7 °C y -4.625 °C (esta última equivalente a -4 5/8 °C). ¿Cuál de las siguientes pudo registrarse también entre ambas?",
+          "opciones": [
+            "-4.8 °C",
+            "-4.5 °C",
+            "-4.66 °C",
+            "-4.72 °C"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "-4.66 °C está entre -4.7 °C y -4.625 °C, ya que -4.7 < -4.66 < -4.625."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada variación de presión dada como fracción con su forma decimal.",
+          "columnaA": [
+            "-1/16 atm",
+            "-5/16 atm",
+            "-13/16 atm"
+          ],
+          "columnaB": [
+            "-0.8125",
+            "-0.0625",
+            "-0.3125"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "-1/16 = -0.0625; -5/16 = -0.3125; -13/16 = -0.8125."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Entre las variaciones -0.095 atm y -0.09 atm no existe ninguna otra variación posible de presión.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: por la propiedad de densidad, entre -0.095 atm y -0.09 atm existen infinitos valores posibles, por ejemplo -0.093 atm."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "-9/16 atm escrito en decimal es ___ atm.",
+          "respuestaCorrecta": "-0.5625",
+          "retroalimentacion": "-9/16 = -0.5625."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Cuatro lecturas de presión son: -0.18 atm, -3/16 atm, -0.17 atm y -5/32 atm. ¿Cuál es el orden correcto de mayor a menor (de la menos negativa a la más negativa)?",
+          "opciones": [
+            "-3/16, -0.18, -0.17, -5/32",
+            "-0.17, -5/32, -3/16, -0.18",
+            "-5/32, -3/16, -0.17, -0.18",
+            "-5/32, -0.17, -0.18, -3/16"
+          ],
+          "respuestaCorrecta": 3,
+          "retroalimentacion": "-3/16 = -0.1875 y -5/32 = -0.15625. De mayor a menor: -0.15625 > -0.17 > -0.18 > -0.1875."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Aunque -3.375 °C y -3.5 °C ya tienen varias cifras decimales, todavía es posible encontrar una variación de temperatura entre ambas.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: la propiedad de densidad se cumple sin importar cuántas cifras decimales tengan los números; por ejemplo, -3.44 está entre -3.5 y -3.375."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Cada etapa del experimento tiene 4 registros. Relaciona cada etapa con su registro más negativo.",
+          "columnaA": [
+            "Etapa 1 (temperatura): -19/8, -2.4, -2/5, 1",
+            "Etapa 2 (presión): -0.55, -9/16, -0.5, 0.3",
+            "Etapa 3 (temperatura): -57/8, -7.2, -71/10, 0"
+          ],
+          "columnaB": [
+            "-0.5625",
+            "-2.4",
+            "-7.2"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            2
+          ],
+          "retroalimentacion": "Etapa 1: el más negativo es -2.4. Etapa 2: -9/16 = -0.5625 es el más negativo. Etapa 3: -7.2 es el más negativo."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 9 de 10 · Integración"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Ordena de menor a mayor: 2, -0.25, -5, 3/4",
+      "opciones": [
+        "-5, -0.25, 3/4, 2",
+        "2, 3/4, -0.25, -5",
+        "-0.25, -5, 3/4, 2",
+        "3/4, -0.25, -5, 2"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "3/4 = 0.75. De menor a mayor: -5 < -0.25 < 0.75 < 2."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Entre -8.13 y -8.12 no existe ningún otro número.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Falso: por la propiedad de densidad, entre -8.13 y -8.12 existen infinitos números, por ejemplo -8.125."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Empareja cada par de números con la comparación que le corresponde.",
+      "columnaA": [
+        "-10 y -6.5",
+        "3/8 y -2",
+        "-0.45 y -0.5"
+      ],
+      "columnaB": [
+        "-0.45 > -0.5",
+        "3/8 > -2",
+        "-10 < -6.5"
+      ],
+      "parejasCorrectas": [
+        2,
+        1,
+        0
+      ],
+      "retroalimentacion": "-10 < -6.5; 3/8 (0.375) > -2; -0.45 > -0.5."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "-5/2 escrito como decimal es ___.",
+      "respuestaCorrecta": "-2.5",
+      "retroalimentacion": "-5/2 = -2.5."
+    }
+  ]
+}

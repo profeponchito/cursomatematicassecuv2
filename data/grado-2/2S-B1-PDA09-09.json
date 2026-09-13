@@ -1,0 +1,153 @@
+{
+  "id": "2S-B1-PDA09-09",
+  "grado": "2°",
+  "trimestre": "3",
+  "numero": 89,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Forma, espacio y medida",
+  "titulo": "Arcos y Sectores Circulares 9.9",
+  "contenido": "Circunferencia, círculo y esfera.",
+  "pda": "Calcula la longitud de un arco y el área de un sector circular a partir del ángulo central.",
+  "problematizacion": {
+    "contexto": "En la feria de León, la rueda de la fortuna donde subiste tiene 12 cabinas repartidas uniformemente, un radio de 10 metros y tarda 3 minutos en dar una vuelta completa.",
+    "pregunta": "¿Cuánto tiempo tarda la rueda en mover una sola cabina hasta la posición de la siguiente, y a qué velocidad, en metros por minuto, se desplaza una cabina sobre el borde de la rueda?"
+  },
+  "subtemas": [
+    {
+      "numero": "9.9",
+      "nivelEtiqueta": "Nivel 9 de 10 · Integración",
+      "titulo": "La rueda de la fortuna: velocidad, tiempo y ángulo central juntos",
+      "explicacion": "Esta lección regresa al reto de la problematización del PDA —la rueda de la fortuna— pero ahora integra todo lo aprendido: la fracción de vuelta que representa el ángulo entre cabinas (9.1), la longitud del arco que recorre una cabina (9.2), el área de un sector entre dos rayos (9.3), y ahora además el TIEMPO y la VELOCIDAD. Si sabes cuánto tarda la rueda en dar una vuelta completa, puedes calcular cuánto tarda en mover una sola cabina, o qué tan rápido (en metros por minuto o por segundo) se desplaza.",
+      "formula": "velocidad = distancia (arco) ÷ tiempo         tiempo de una fracción de vuelta = (ángulo÷360) × tiempo de la vuelta completa",
+      "ejemplos": [
+        "Una rueda de la fortuna tiene 12 cabinas repartidas uniformemente y radio de 9 m. El ángulo entre cabinas consecutivas es 360°÷12=30°, y la distancia (arco) que recorre una cabina en ese giro es (30÷360)×2×3.14×9=4.71 m.",
+        "Esa misma rueda (radio 9 m) da una vuelta completa en 3 minutos. Su circunferencia total es 2×3.14×9=56.52 m, así que su velocidad es 56.52÷3=18.84 m/min. Como cada uno de los 12 tramos entre cabinas representa 1/12 de la vuelta, el tiempo entre una cabina y la siguiente es 3÷12=0.25 min = 15 segundos."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una rueda de la fortuna con 8 cabinas uniformes y radio de 14 m da una vuelta completa en 4 minutos. ¿Cuántos segundos tarda en mover una cabina hasta la posición de la siguiente?",
+          "opciones": [
+            "30 segundos",
+            "24 segundos",
+            "45 segundos",
+            "20 segundos"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "El ángulo entre cabinas es 360°÷8=45°, es decir 1/8 de vuelta. Tiempo=4 min÷8=0.5 min=30 s."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Para esa misma rueda (8 cabinas, radio 14 m), la distancia curva (arco) que recorre una cabina al pasar a la posición de la siguiente es de ___ m.",
+          "respuestaCorrecta": "10.99",
+          "retroalimentacion": "arco=(45/360)×2×3.14×14=10.99 m."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "La rueda de la fortuna de la feria (10 cabinas uniformes, radio 9 m) da una vuelta completa en 5 minutos. ¿Cuántos segundos tarda en mover una cabina hasta la posición de abordaje de la siguiente?",
+          "opciones": [
+            "30 segundos",
+            "36 segundos",
+            "50 segundos",
+            "18 segundos"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "El ángulo entre cabinas es 360°÷10=36°, es decir 1/10 de vuelta. Tiempo=5 min÷10=0.5 min=30 s."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Para esa misma rueda (radio 9 m, ángulo de 36° entre cabinas), el área del sector comprendido entre dos rayos consecutivos es de ___ m².",
+          "respuestaCorrecta": "25.43",
+          "retroalimentacion": "área=(36/360)×3.14×9²=25.43 m²."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una rueda de la fortuna con 15 cabinas uniformes y radio de 10 m da una vuelta completa en 6 minutos (360 segundos). El ángulo entre cabinas consecutivas es de 24°, y cada cabina tarda 24 segundos en llegar a la posición de la siguiente.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "360°÷15=24°=1/15 de vuelta. 360 s÷15=24 s. Correcto."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Esa rueda (vuelta completa en 6 minutos) gira a una velocidad angular de 60° por minuto (360°÷6 min). ¿Cuántos segundos tarda en girar 96°?",
+          "opciones": [
+            "96 segundos",
+            "80 segundos",
+            "60 segundos",
+            "112 segundos"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "96°÷60°/min=1.6 min=1.6×60=96 segundos."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El radar de un aeropuerto da una vuelta completa cada 12 segundos (30° por segundo) y detecta aviones hasta 50 km. En 1 segundo, la punta de su señal recorre un arco de ___ km.",
+          "respuestaCorrecta": "26.17",
+          "retroalimentacion": "arco=(30/360)×2×3.14×50=26.17 km."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Cuatro ruedas de la fortuna distintas tienen un ángulo de 40° entre cabinas consecutivas, pero diferente radio. Relaciona cada radio con la distancia (arco) que recorre una cabina.",
+          "columnaA": [
+            "radio 6 m",
+            "radio 10 m",
+            "radio 15 m",
+            "radio 20 m"
+          ],
+          "columnaB": [
+            "10.47 m",
+            "4.19 m",
+            "13.96 m",
+            "6.98 m"
+          ],
+          "parejasCorrectas": [
+            1,
+            3,
+            0,
+            2
+          ],
+          "retroalimentacion": "r=6: arco=4.19 m. r=10: arco=6.98 m. r=15: arco=10.47 m. r=20: arco=13.96 m (todos con ángulo=40°)."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un automóvil toma una curva circular de radio 40 m que abarca un ángulo central de 54°. El arco (la distancia curva) que recorre el automóvil al tomar la curva es de ___ m.",
+          "respuestaCorrecta": "37.68",
+          "retroalimentacion": "arco=(54/360)×2×3.14×40=37.68 m."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Ese mismo automóvil toma la curva (arco de 37.68 m) a una velocidad constante de 15 m/s. ¿Cuánto tiempo tarda en recorrer la curva completa?",
+          "opciones": [
+            "2.51 segundos",
+            "2.01 segundos",
+            "3.02 segundos",
+            "1.88 segundos"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "tiempo=distancia÷velocidad=37.68÷15=2.51 segundos."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Una pizza de radio 15 cm se corta en 6 rebanadas iguales (ángulo central de 60°). ¿Cuál es el área de una rebanada?",
+      "opciones": [
+        "117.75 cm²",
+        "70.65 cm²",
+        "141.3 cm²",
+        "58.88 cm²"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "sector=(60/360)×3.14×15²=0.1667×706.5=117.75 cm²."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Un abanico de radio 12 cm se abre formando un ángulo central de 90°. El arco que recorre su borde mide ___ cm.",
+      "respuestaCorrecta": "18.84",
+      "retroalimentacion": "arco=(90/360)×2×3.14×12=0.25×75.36=18.84 cm."
+    }
+  ]
+}
