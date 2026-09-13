@@ -1,0 +1,149 @@
+{
+  "id": "3S-B1-PDA11-04",
+  "grado": "3°",
+  "trimestre": "3",
+  "numero": 104,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Probabilidad de la Unión de Eventos 11.4",
+  "contenido": "Azar e incertidumbre en la ocurrencia de eventos cotidianos.",
+  "pda": "Calcula la probabilidad de la unión de dos eventos, distinguiendo eventos mutuamente excluyentes de los que no lo son.",
+  "problematizacion": {
+    "contexto": "El comité de la kermés de Oaxaca prepara un tercer juego con una ruleta numerada del 1 al 10, donde ganas si cae en un número primo O en un número mayor que 7. Antes de anunciar las reglas, Lupita necesita decidir si estos dos eventos se traslapan o no, para saber qué fórmula usar.",
+    "pregunta": "¿Los eventos 'número primo' y 'número mayor que 7' en la ruleta del 1 al 10 son mutuamente excluyentes o no, y cuál es la probabilidad de ganar con cualquiera de los dos?"
+  },
+  "subtemas": [
+    {
+      "numero": "11.4",
+      "titulo": "Síntesis y aplicación",
+      "explicacion": "Antes de calcular la probabilidad de una unión, primero decide si los eventos son mutuamente excluyentes o no. Pregúntate: ¿existe algún resultado que cumpla los dos eventos a la vez? Si NO existe ninguno, son mutuamente excluyentes y usas P(A∪B) = P(A) + P(B). Si SÍ existe al menos uno, no son mutuamente excluyentes y debes restar esa intersección: P(A∪B) = P(A) + P(B) − P(A∩B). Saltarte este primer paso es el error más común: sumar directo cuando los eventos se traslapan da un resultado inflado, porque las cartas que cumplen ambos eventos quedarían contadas dos veces.",
+      "formula": "P(A∪B) = P(A) + P(B)  si A y B son mutuamente excluyentes  |  P(A∪B) = P(A) + P(B) − P(A∩B)  si no lo son",
+      "ejemplos": [
+        "Retomando el reto inicial: 'as' y 'rey' son mutuamente excluyentes (ninguna carta es ambas cosas), así que P(as ∪ rey) = 4/52 + 4/52 = 8/52 = 2/13. En cambio, 'roja' y 'as' no son mutuamente excluyentes (el as de corazones y el as de diamantes son ambas cosas), así que hay que restar esa intersección: P(roja ∪ as) = 26/52 + 4/52 − 2/52 = 28/52 = 7/13."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Los eventos 'sacar un as' y 'sacar un rey' son mutuamente excluyentes. ¿Cuánto vale P(as ∪ rey)?",
+          "opciones": [
+            "8/52",
+            "16/52",
+            "4/52",
+            "2/52"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Al ser mutuamente excluyentes, P(as ∪ rey) = 4/52 + 4/52 = 8/52 = 2/13."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Los eventos 'sacar una carta roja' y 'sacar un as' NO son mutuamente excluyentes, porque hay ases rojos. ¿Cuánto vale P(roja ∪ as)?",
+          "opciones": [
+            "28/52",
+            "30/52",
+            "26/52",
+            "4/52"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Al no ser mutuamente excluyentes, se resta la intersección: P(roja ∪ as) = 26/52 + 4/52 − 2/52 = 28/52 = 7/13."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Los eventos 'sacar una jota' y 'sacar una reina' son mutuamente excluyentes, por lo que P(jota ∪ reina) = 8/52.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: ninguna carta es jota y reina a la vez, así que P(jota ∪ reina) = 4/52 + 4/52 = 8/52 = 2/13."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Los eventos 'sacar un rey' y 'sacar una carta de picas' NO son mutuamente excluyentes, porque existe el rey de picas. Por eso P(rey ∪ picas) = ___/52.",
+          "respuestaCorrecta": "16",
+          "retroalimentacion": "P(rey ∪ picas) = 4/52 + 13/52 − 1/52 = 16/52 = 4/13."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Los eventos 'sacar una carta roja' y 'sacar una carta negra' son mutuamente excluyentes (y además cubren toda la baraja), por lo que P(roja ∪ negra) = 52/52 = 1.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: ninguna carta es roja y negra a la vez, y entre las dos cubren las 52 cartas, así que P(roja ∪ negra) = 26/52 + 26/52 = 52/52 = 1."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Los eventos 'sacar una carta de figura (J,Q,K)' y 'sacar una carta roja' NO son mutuamente excluyentes. ¿Cuánto vale P(figura ∪ roja)?",
+          "opciones": [
+            "32/52",
+            "30/52",
+            "38/52",
+            "12/52"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(figura ∪ roja) = 12/52 + 26/52 − 6/52 = 32/52 = 8/13 (6 figuras rojas: J, Q y K de corazones y de diamantes)."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Los eventos 'sacar un 5' y 'sacar un 2' son mutuamente excluyentes, así que P(5 ∪ 2) = ___/52.",
+          "respuestaCorrecta": "8",
+          "retroalimentacion": "P(5 ∪ 2) = 4/52 + 4/52 = 8/52 = 2/13."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Los eventos 'sacar una carta de diamantes' y 'sacar un rey' son mutuamente excluyentes.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: el rey de diamantes cumple ambos eventos a la vez, así que no son mutuamente excluyentes; P(diamantes ∪ rey) = 13/52 + 4/52 − 1/52 = 16/52."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Los eventos 'sacar una carta de tréboles' y 'sacar una carta de picas' son mutuamente excluyentes. ¿Cuánto vale P(tréboles ∪ picas)?",
+          "opciones": [
+            "26/52",
+            "39/52",
+            "13/52",
+            "52/52"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(tréboles ∪ picas) = 13/52 + 13/52 = 26/52 = 1/2."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada par de eventos con el valor correcto de P(A∪B).",
+          "columnaA": [
+            "Múltiplo de 3 (3,6,9) ∪ carta negra",
+            "as ∪ rey",
+            "carta roja ∪ as"
+          ],
+          "columnaB": [
+            "8/52",
+            "32/52",
+            "28/52"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            2
+          ],
+          "retroalimentacion": "mult3∪negra (no ME): 12/52+26/52-6/52=32/52. as∪rey (ME): 4/52+4/52=8/52. roja∪as (no ME): 26/52+4/52-2/52=28/52."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 4 de 10 · Síntesis"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "P(rey) = 4/52 y P(9) = 4/52, y son mutuamente excluyentes. ¿Cuánto vale P(rey ∪ 9)?",
+      "opciones": [
+        "8/52",
+        "16/52",
+        "4/52",
+        "2/52"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "P(rey ∪ 9) = 4/52 + 4/52 = 8/52 = 2/13."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Los eventos 'sacar una reina' y 'sacar una carta negra' NO son mutuamente excluyentes, y P(reina ∪ negra) = 28/52.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: la reina de tréboles y la reina de picas cumplen ambos eventos, así que P(reina ∪ negra) = 4/52 + 26/52 − 2/52 = 28/52."
+    }
+  ]
+}

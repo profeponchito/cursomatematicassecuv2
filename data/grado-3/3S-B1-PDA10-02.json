@@ -1,0 +1,138 @@
+{
+  "id": "3S-B1-PDA10-02",
+  "grado": "3°",
+  "trimestre": "3",
+  "numero": 92,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Estadística con Datos Agrupados 10.2",
+  "contenido": "Interpretación de la información a través de medidas de tendencia central y de dispersión.",
+  "pda": "Calcula medidas de tendencia central para datos agrupados en tablas de frecuencia e interpreta la desviación media de un conjunto de datos.",
+  "problematizacion": {
+    "contexto": "El profesor de deportes de Tijuana ya tiene la tabla de frecuencias con los tiempos agrupados de los 60 corredores y sus marcas de clase calculadas. Ahora quiere saber el tiempo PROMEDIO de todos los corredores, pero ya no cuenta con la lista original de los 60 tiempos exactos.",
+    "pregunta": "¿Cómo se calcula la media (promedio) de los tiempos usando la tabla de frecuencias agrupada, si solo tienes las marcas de clase y las frecuencias?"
+  },
+  "subtemas": [
+    {
+      "numero": "10.2",
+      "titulo": "Media de datos agrupados",
+      "explicacion": "Para calcular la media (promedio) de datos ya agrupados en una tabla de frecuencias no puedes simplemente sumar y dividir entre el número de datos, porque ya no conoces el valor exacto de cada uno. En su lugar, usas la marca de clase de cada intervalo como valor representativo, la multiplicas por la frecuencia de ese intervalo (así 'pesas' cada intervalo según cuántos datos contiene) y sumas esos productos para todos los intervalos. Ese total se divide entre la suma de todas las frecuencias, es decir, el número total de datos.",
+      "formula": "media = Σ(marca de clase × frecuencia) / Σ frecuencias",
+      "ejemplos": [
+        "Tabla: 0-10 (f=4), 10-20 (f=6), 20-30 (f=5), 30-40 (f=5). Marcas de clase: 5, 15, 25, 35. Σ(x·f) = 4(5)+6(15)+5(25)+5(35) = 20+90+125+175 = 410. Σf = 4+6+5+5 = 20. media = 410/20 = 20.5.",
+        "Tabla: 0-10 (f=5), 10-20 (f=10), 20-30 (f=5). Marcas: 5, 15, 25. Σ(x·f) = 25+150+125 = 300. Σf = 20. media = 300/20 = 15."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Tabla de frecuencias — 10-20: f=3, 20-30: f=7, 30-40: f=5, 40-50: f=5. ¿Cuál es la media de este conjunto de datos agrupados?",
+          "opciones": [
+            "31",
+            "30",
+            "25",
+            "35"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Marcas: 15,25,35,45. Σ(x·f) = 3(15)+7(25)+5(35)+5(45) = 45+175+175+225 = 620. Σf = 20. media = 620/20 = 31."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Tabla de frecuencias — 20-30: f=4, 30-40: f=8, 40-50: f=8. La media de este conjunto de datos agrupados es ___.",
+          "respuestaCorrecta": "37",
+          "retroalimentacion": "Marcas: 25,35,45. Σ(x·f) = 4(25)+8(35)+8(45) = 100+280+360 = 740. Σf = 20. media = 740/20 = 37."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En la tabla 0-20: f=6, 20-40: f=9, 40-60: f=5, la media de los datos agrupados es 29.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Marcas: 10,30,50. Σ(x·f) = 6(10)+9(30)+5(50) = 60+270+250 = 580. Σf = 20. media = 580/20 = 29."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Tabla de frecuencias — 10-20: f=2, 20-30: f=10, 30-40: f=8. ¿Cuál es la media de este conjunto de datos agrupados?",
+          "opciones": [
+            "28",
+            "25",
+            "30",
+            "26"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Marcas: 15,25,35. Σ(x·f) = 2(15)+10(25)+8(35) = 30+250+280 = 560. Σf = 20. media = 560/20 = 28."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Tabla de frecuencias — 0-10: f=6, 10-20: f=8, 20-30: f=4, 30-40: f=2. La media de este conjunto de datos agrupados es ___.",
+          "respuestaCorrecta": "16",
+          "retroalimentacion": "Marcas: 5,15,25,35. Σ(x·f) = 6(5)+8(15)+4(25)+2(35) = 30+120+100+70 = 320. Σf = 20. media = 320/20 = 16."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En la tabla 10-20: f=6, 20-30: f=6, 30-40: f=8, la media de los datos agrupados es 24.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: marcas 15,25,35. Σ(x·f) = 6(15)+6(25)+8(35) = 90+150+280 = 520. Σf = 20. media = 520/20 = 26, no 24."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Tabla de frecuencias — 20-40: f=5, 40-60: f=10, 60-80: f=5. ¿Cuál es la media de este conjunto de datos agrupados?",
+          "opciones": [
+            "50",
+            "45",
+            "55",
+            "60"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Marcas: 30,50,70. Σ(x·f) = 5(30)+10(50)+5(70) = 150+500+350 = 1000. Σf = 20. media = 1000/20 = 50."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Retomando la tabla del ejemplo (0-10: f=4, 10-20: f=6, 20-30: f=5, 30-40: f=5): antes de dividir entre el total de frecuencias, la suma Σ(marca de clase × frecuencia) vale ___.",
+          "respuestaCorrecta": "410",
+          "retroalimentacion": "Σ(x·f) = 4(5)+6(15)+5(25)+5(35) = 20+90+125+175 = 410."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En la tabla del ejemplo (0-10: f=4, 10-20: f=6, 20-30: f=5, 30-40: f=5), la media de los datos agrupados es 20.5.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: Σ(x·f) = 410, Σf = 20, media = 410/20 = 20.5."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada tabla de frecuencias con su media.",
+          "columnaA": [
+            "0-10: f=5, 10-20: f=10, 20-30: f=5",
+            "0-10: f=8, 10-20: f=12",
+            "10-20: f=5, 20-30: f=15"
+          ],
+          "columnaB": [
+            "22.5",
+            "15",
+            "11"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "Tabla 1: (5·5+10·15+5·25)/20=300/20=15. Tabla 2: (8·5+12·15)/20=220/20=11. Tabla 3: (5·15+15·25)/20=450/20=22.5."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 2 de 10 · Intermedio"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "La marca de clase del intervalo 45-65 es 55.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: (45+65)/2 = 55."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "La marca de clase del intervalo 90-110 es 95.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Falso: (90+110)/2 = 100, no 95."
+    }
+  ]
+}

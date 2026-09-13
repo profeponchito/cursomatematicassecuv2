@@ -1,0 +1,164 @@
+{
+  "id": "3S-B1-PDA09-09",
+  "grado": "3°",
+  "trimestre": "3",
+  "numero": 89,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Muestras y Análisis Crítico de Gráficas 9.9",
+  "contenido": "Obtención y representación de información.",
+  "pda": "Distingue población y muestra, y analiza críticamente gráficas estadísticas, incluyendo gráficas que pueden inducir a error.",
+  "problematizacion": {
+    "contexto": "Una revista de espectáculos publica un estudio: encuestó a 80 personas que compraron boletos VIP de un concierto (de un total de 12,000 asistentes) preguntando si el precio del boleto 'valió la pena', y acompaña el resultado con una gráfica de barras cuyo eje vertical empieza en 60% en lugar de 0%.",
+    "pregunta": "¿El muestreo de este estudio es representativo de todos los asistentes al concierto, y qué tanto distorsiona la gráfica el resultado que se presenta?"
+  },
+  "subtemas": [
+    {
+      "numero": "9.9",
+      "nivelEtiqueta": "Nivel 9 de 10 · Integración",
+      "titulo": "Casos integrados: evaluar el muestreo y calcular la distorsión de la gráfica en un mismo estudio",
+      "explicacion": "Un estudio real debe juzgarse en dos frentes independientes a la vez, y ahora con números concretos: si el muestreo (aleatorio, estratificado o sistemático) se aplicó correctamente y de forma proporcional, y cuánto distorsiona la gráfica que acompaña los resultados (el factor de exageración que ya sabes calcular). Un estudio puede fallar en uno, en ambos o en ninguno de los dos frentes, y en esta lección practicarás diagnosticar y calcular ambas cosas dentro de un mismo caso, integrando lo visto en 9.2, 9.6 y 9.7 (muestreo) con lo visto en 9.3 y 9.8 (gráficas).",
+      "formula": "Estimación poblacional = (frecuencia ÷ muestra) × población. Muestra por estrato = (estrato ÷ población) × muestra. Factor de exageración = valor inicial ÷ (valor inicial − inicio del eje)",
+      "ejemplos": [
+        "Una cadena de gimnasios con 4 sucursales (900, 700, 500 y 400 socios; total 2,500) quiere estimar cuántos de sus 2,500 socios usan la app móvil, y encuesta una muestra estratificada proporcional de 250 socios. A la sucursal de 900 socios le correspondería (900÷2,500)×250=90 encuestados, pero en realidad el estudio solo encuestó a 40 de esa sucursal: la muestra subrepresenta a la sucursal más grande, y el estudio pierde validez sin importar qué tan bien construida esté la gráfica que presente los resultados.",
+        "Un reporte de satisfacción usa una muestra aleatoria bien diseñada de 600 personas (representativa), pero presenta el resultado —que subió de 32% a 40%— en una gráfica con eje que empieza en 28%. Factor de exageración = 32÷(32−28)=8. Aquí la muestra está bien, pero la gráfica sí tiene un problema real y calculable."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una empresa con 4,000 empleados (2,400 en oficinas y 1,600 en planta) toma una muestra estratificada proporcional de 100 empleados. A los empleados de planta les corresponden proporcionalmente 40 en la muestra. De esos 40, 30 dijeron estar satisfechos con las prestaciones. ¿Cuántos de los 1,600 empleados de planta se estima que están satisfechos?",
+          "opciones": [
+            "1,200 empleados",
+            "900 empleados",
+            "1,600 empleados",
+            "750 empleados"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "30 ÷ 40 = 0.75 (75%). Estimación: 0.75 × 1,600 = 1,200 empleados de planta."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si una muestra estratificada no respeta la proporción correcta entre estratos (por ejemplo, toma muy pocos elementos de un grupo grande), la estimación poblacional calculada a partir de ella puede no ser confiable, sin importar qué tan bien construida esté la gráfica que presente los resultados.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: un problema en el diseño de la muestra no se corrige con una gráfica bien hecha; son dos frentes independientes."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un ayuntamiento con 9,000 habitantes en 3 colonias (4,500 / 3,000 / 1,500) hace una muestra estratificada de 180 personas. A la colonia de 1,500 habitantes le corresponden ___ personas en la muestra.",
+          "respuestaCorrecta": "30",
+          "retroalimentacion": "(1,500 ÷ 9,000) × 180 = 30 personas."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una encuesta representativa (muestra aleatoria de 600 personas de una ciudad de 30,000 habitantes, bien diseñada) mide el apoyo a una ciclovía antes y después de una campaña: subió de 32% a 40%. El resultado se presenta en una gráfica de barras con eje que empieza en 28% (en vez de 0%). ¿Cuál es el factor de exageración de esta gráfica?",
+          "opciones": [
+            "8",
+            "25",
+            "200",
+            "4"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Factor = 32 ÷ (32 − 28) = 32 ÷ 4 = 8."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En el caso de la ciclovía anterior, aunque la muestra sea representativa y confiable, la gráfica sigue teniendo un problema real: exagera 8 veces el aumento verdadero del apoyo.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: una muestra confiable no vuelve confiable a una gráfica mal construida; ambos aspectos se evalúan por separado."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una fábrica textil produce 7,200 prendas a la semana y usa un muestreo sistemático con k=50 para inspeccionar 144 prendas. De esas 144 prendas inspeccionadas, 18 tienen algún defecto. ¿Cuántas prendas defectuosas se estima que hay en el total de 7,200 producidas esa semana?",
+          "opciones": [
+            "900 prendas",
+            "720 prendas",
+            "1,000 prendas",
+            "450 prendas"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "18 ÷ 144 = 0.125 (12.5%). Estimación: 0.125 × 7,200 = 900 prendas."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El muestreo sistemático del caso anterior sería problemático si el defecto ocurriera siempre en la máquina que interviene exactamente cada 50 prendas, porque entonces la muestra podría no representar bien al resto de la producción.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: si k=50 coincide con un patrón de periodicidad ligado al defecto, la muestra estaría sesgada aunque el procedimiento parezca correcto."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada caso con el diagnóstico correcto sobre dónde está su problema (si lo tiene).",
+          "columnaA": [
+            "Muestra aleatoria bien diseñada + gráfica con eje desde 0%",
+            "Muestra estratificada mal proporcionada (subrepresenta un grupo grande) + gráfica bien construida",
+            "Muestra aleatoria bien diseñada + gráfica con eje recortado con factor de exageración de 10"
+          ],
+          "columnaB": [
+            "El problema está en la gráfica, no en la muestra",
+            "No hay ningún problema: estudio confiable",
+            "El problema está en la muestra, no en la gráfica"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "Muestra y gráfica bien hechas: sin problema. Muestra mal proporcionada + gráfica bien hecha: el problema es la muestra. Muestra bien hecha + gráfica con factor 10: el problema es la gráfica."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una asociación de 15,000 socios en 3 regiones (7,500 / 5,000 / 2,500) toma una muestra estratificada de 300 socios. A la región de 5,000 socios le corresponden ___ socios en la muestra.",
+          "respuestaCorrecta": "100",
+          "retroalimentacion": "(5,000 ÷ 15,000) × 300 = 100 socios."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una cadena de restaurantes toma una muestra estratificada proporcional de 400 clientes en total; una sucursal con 2,000 de los 20,000 clientes frecuentes de la cadena (10% del total) debería aportar 40 clientes, pero solo se encuestó a 10 clientes de ahí. Además, los resultados de satisfacción (que subieron de 55% a 60%) se presentan en una gráfica con eje que empieza en 50%. ¿Cuáles son los dos problemas de este estudio?",
+          "opciones": [
+            "La muestra subrepresenta a una sucursal grande (10 en vez de 40 encuestados) Y la gráfica exagera el aumento con un factor de 11",
+            "Solo hay un problema: la muestra",
+            "Solo hay un problema: la gráfica",
+            "No hay ningún problema, ambos aspectos están bien"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "La sucursal debía aportar 40 encuestados y solo aportó 10 (muestra subrepresentada). Además, factor de exageración = 55÷(55−50)=11."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada término con su definición.",
+      "columnaA": [
+        "Población",
+        "Muestra",
+        "Gráfica engañosa"
+      ],
+      "columnaB": [
+        "Representación visual que puede llevar a conclusiones equivocadas por su diseño",
+        "Conjunto completo de elementos que interesa estudiar",
+        "Subconjunto de la población que se estudia realmente"
+      ],
+      "parejasCorrectas": [
+        1,
+        2,
+        0
+      ],
+      "retroalimentacion": "Población: el conjunto completo de interés. Muestra: el subconjunto realmente estudiado. Gráfica engañosa: una representación visual que puede inducir a conclusiones equivocadas."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Una marca de cereal afirma que '9 de cada 10 niños lo prefieren', basada en una encuesta a 10 niños que son hijos de empleados de la marca. ¿Qué problema tiene esta muestra?",
+      "opciones": [
+        "Ninguno, 10 niños son suficientes",
+        "Es una muestra muy pequeña y sesgada (hijos de empleados de la misma marca)",
+        "El problema es que se preguntó a niños y no a adultos",
+        "El problema es que el cereal no se puede estudiar con encuestas"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "Una muestra de solo 10 personas, además ligadas a la propia marca, no puede representar la preferencia de 'los niños' en general."
+    }
+  ]
+}

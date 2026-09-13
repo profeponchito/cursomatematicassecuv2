@@ -1,0 +1,150 @@
+{
+  "id": "3S-B1-PDA10-06",
+  "grado": "3°",
+  "trimestre": "3",
+  "numero": 96,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Estadística con Datos Agrupados 10.6",
+  "contenido": "Interpretación de la información a través de medidas de tendencia central y de dispersión.",
+  "pda": "Calcula medidas de tendencia central para datos agrupados en tablas de frecuencia e interpreta la desviación media de un conjunto de datos.",
+  "problematizacion": {
+    "contexto": "En la tabla de frecuencias de los sueldos semanales (agrupados en rangos) de los 50 empleados de una maquiladora en Reynosa, ya se identificó que la clase mediana es el intervalo de $1,800 a $2,000 pesos. La gerente de recursos humanos necesita un número preciso, no solo un rango, para su reporte anual.",
+    "pregunta": "¿Cómo se calcula el valor exacto (estimado) de la mediana dentro del intervalo de $1,800 a $2,000, usando la fórmula de interpolación?"
+  },
+  "subtemas": [
+    {
+      "numero": "10.6",
+      "nivelEtiqueta": "Nivel 6 de 10 · Aplicación avanzada",
+      "titulo": "La mediana exacta de datos agrupados (interpolación)",
+      "explicacion": "En el subtema 10.3 aprendiste a identificar solo la clase mediana, es decir, el intervalo donde 'cae' el dato central. Ahora aprenderás a estimar el valor exacto de la mediana dentro de ese intervalo, usando una fórmula de interpolación que supone que los datos se distribuyen de manera uniforme dentro de la clase mediana. Esto es útil en reportes reales donde necesitas dar un número preciso —por ejemplo, 'la mediana de edad fue 25.4 años'— y no solo un rango de valores.",
+      "formula": "Me = Li + [(n/2 − Fant) / fme] × A , donde Li = límite inferior de la clase mediana, Fant = frecuencia acumulada antes de la clase mediana, fme = frecuencia de la clase mediana, A = amplitud del intervalo",
+      "ejemplos": [
+        "Una clínica registra el tiempo de espera (minutos) de 30 pacientes: 0-10 (f=4), 10-20 (f=6), 20-30 (f=10), 30-40 (f=6), 40-50 (f=4). n=30, n/2=15. Frecuencias acumuladas: 4, 10, 20, 26, 30. La acumulada alcanza 15 por primera vez en 20 (intervalo 20-30): esa es la clase mediana, con Li=20, Fant=10, fme=10, A=10. Me = 20 + [(15−10)/10]×10 = 20+5 = 25 minutos.",
+        "La altura (cm) de 40 plantines de tomate: 0-5 (f=5), 5-10 (f=9), 10-15 (f=16), 15-20 (f=10). n=40, n/2=20. Acumuladas: 5,14,30,40. La clase mediana es 10-15 (Li=10, Fant=14, fme=16, A=5). Me = 10 + [(20−14)/16]×5 = 10 + 1.875 = 11.88 cm aproximadamente."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una prueba con 40 atletas se registran sus tiempos de reacción (en centésimas de segundo): 20-25 (f=6), 25-30 (f=14), 30-35 (f=12), 35-40 (f=8). ¿Cuál es la mediana exacta de estos tiempos?",
+          "opciones": [
+            "30",
+            "28",
+            "32",
+            "25"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "n=40, n/2=20. Acumuladas: 6,20,32,40. La clase mediana es 25-30 (Li=25, Fant=6, fme=14, A=5). Me=25+[(20−6)/14]×5=25+5=30."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Los sueldos semanales (en cientos de pesos) de 50 trabajadores se agrupan así: 20-25 (f=8), 25-30 (f=17), 30-35 (f=15), 35-40 (f=10). La mediana exacta de estos sueldos es ___ (en cientos de pesos).",
+          "respuestaCorrecta": "30",
+          "retroalimentacion": "n=50, n/2=25. Acumuladas: 8,25,40,50. Clase mediana 25-30 (Li=25, Fant=8, fme=17, A=5). Me=25+[(25−8)/17]×5=25+5=30."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El consumo semanal de agua (litros) de 30 familias se agrupa así: 0-100 (f=5), 100-200 (f=10), 200-300 (f=9), 300-400 (f=6). La mediana exacta de este conjunto es 200 litros.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: n=30, n/2=15. Acumuladas: 5,15,24,30. La clase mediana es 100-200 (Li=100, Fant=5, fme=10, A=100). Me=100+[(15−5)/10]×100=100+100=200."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una prueba de ciclismo, la distancia recorrida (km) por 30 ciclistas en una hora se agrupa así: 0-8 (f=5), 8-16 (f=16), 16-24 (f=9). ¿Cuál es la mediana exacta de las distancias?",
+          "opciones": [
+            "13",
+            "12",
+            "14",
+            "8"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "n=30, n/2=15. Acumuladas: 5,21,30. Clase mediana 8-16 (Li=8, Fant=5, fme=16, A=8). Me=8+[(15−5)/16]×8=8+5=13."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Las calificaciones (escala 5-10) de 45 alumnos en un examen se agrupan así: 5-6 (f=4), 6-7 (f=9), 7-8 (f=17), 8-9 (f=10), 9-10 (f=5). La mediana exacta, redondeada a dos decimales, es ___.",
+          "respuestaCorrecta": "7.56",
+          "retroalimentacion": "n=45, n/2=22.5. Acumuladas: 4,13,30,40,45. Clase mediana 7-8 (Li=7, Fant=13, fme=17, A=1). Me=7+[(22.5−13)/17]×1≈7.56."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El pago por hora (en pesos) de 35 trabajadores independientes se agrupa así: 60-70 (f=6), 70-80 (f=13), 80-90 (f=11), 90-100 (f=5). ¿Cuál es la mediana exacta, redondeada a dos decimales?",
+          "opciones": [
+            "78.85",
+            "75.00",
+            "80.00",
+            "70.77"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "n=35, n/2=17.5. Acumuladas: 6,19,30,35. Clase mediana 70-80 (Li=70, Fant=6, fme=13, A=10). Me=70+[(17.5−6)/13]×10≈78.85."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El tiempo de entrega (en días) de 25 pedidos hechos en línea se agrupa así: 1-3 (f=5), 3-5 (f=9), 5-7 (f=7), 7-9 (f=4). La mediana exacta de estos tiempos es aproximadamente 4.67 días.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: n=25, n/2=12.5. Acumuladas: 5,14,21,25. Clase mediana 3-5 (Li=3, Fant=5, fme=9, A=2). Me=3+[(12.5−5)/9]×2≈4.67."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La fórmula de la mediana interpolada para datos agrupados supone que, dentro del intervalo de la clase mediana, los datos están distribuidos de manera uniforme.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: por eso se reparte proporcionalmente la distancia que falta para llegar a n/2 dentro del ancho del intervalo (la amplitud A)."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada tabla de frecuencias con su mediana exacta (interpolada).",
+          "columnaA": [
+            "Tabla: 0-10(f=3), 10-20(f=6), 20-30(f=9), 30-40(f=2)",
+            "Tabla: 0-4(f=2), 4-8(f=5), 8-12(f=10), 12-16(f=3)",
+            "Tabla: 50-60(f=4), 60-70(f=8), 70-80(f=20), 80-90(f=8)"
+          ],
+          "columnaB": [
+            "74",
+            "9.2",
+            "21.11"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "Tabla 1: n=20,n/2=10, acumuladas 3,9,18,20, clase mediana 20-30, Me=20+[(10−9)/9]×10≈21.11. Tabla 2: n=20,n/2=10, acumuladas 2,7,17,20, clase mediana 8-12, Me=8+[(10−7)/10]×4=9.2. Tabla 3: n=40,n/2=20, acumuladas 4,12,32,40, clase mediana 70-80, Me=70+[(20−12)/20]×10=74."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una fábrica registra las piezas producidas por día durante 50 días: 100-150 (f=5), 150-200 (f=10), 200-250 (f=18), 250-300 (f=12), 300-350 (f=5). ¿Cuál es la mediana exacta de la producción diaria, redondeada a dos decimales?",
+          "opciones": [
+            "227.78",
+            "225.00",
+            "230.00",
+            "200.00"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "n=50, n/2=25. Acumuladas: 5,15,33,45,50. Clase mediana 200-250 (Li=200, Fant=15, fme=18, A=50). Me=200+[(25−15)/18]×50≈227.78."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Tabla: 10-20: f=8, 20-30: f=5, 30-40: f=10, 40-50: f=7 (n=30). ¿Cuál es la clase modal?",
+      "opciones": [
+        "30-40",
+        "10-20",
+        "20-30",
+        "40-50"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "La mayor frecuencia es 10, en el intervalo 30-40."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "En la tabla 10-20: f=8, 20-30: f=5, 30-40: f=10, 40-50: f=7 (n=30), la clase mediana es ___.",
+      "respuestaCorrecta": "30-40",
+      "retroalimentacion": "Acumuladas: 8, 13, 23, 30. n/2=15 se alcanza por primera vez en 23, en el intervalo 30-40."
+    }
+  ]
+}

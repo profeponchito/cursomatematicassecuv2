@@ -1,0 +1,150 @@
+{
+  "id": "3S-B1-PDA11-03",
+  "grado": "3°",
+  "trimestre": "3",
+  "numero": 103,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Probabilidad de la Unión de Eventos 11.3",
+  "contenido": "Azar e incertidumbre en la ocurrencia de eventos cotidianos.",
+  "pda": "Calcula la probabilidad de la unión de dos eventos, distinguiendo eventos mutuamente excluyentes de los que no lo son.",
+  "problematizacion": {
+    "contexto": "En otro juego de la kermés se reparten boletos numerados del 1 al 20, y ganas un premio si tu boleto es par O si es mayor que 15. Beto, que vendió los boletos, se da cuenta de que algunos números —como el 16, 18 y 20— cumplen las dos condiciones a la vez.",
+    "pregunta": "¿Cuál es la probabilidad de ganar (sacar un número par o mayor que 15) en este juego de boletos del 1 al 20?"
+  },
+  "subtemas": [
+    {
+      "numero": "11.3",
+      "titulo": "Eventos NO excluyentes",
+      "explicacion": "Cuando dos eventos A y B SÍ pueden ocurrir juntos (no son mutuamente excluyentes), sumar P(A) + P(B) cuenta dos veces los resultados que cumplen ambas condiciones a la vez —su intersección, A∩B—. Para corregir esto, hay que restarla una vez: P(A∪B) = P(A) + P(B) − P(A∩B). Por ejemplo, 'sacar una carta roja' y 'sacar un as' se traslapan en 2 cartas (el as de corazones y el as de diamantes), así que esas 2 cartas hay que restarlas para no contarlas dos veces.",
+      "formula": "Si A y B pueden ocurrir juntos: P(A∪B) = P(A) + P(B) − P(A∩B)",
+      "ejemplos": [
+        "P(roja) = 26/52, P(as) = 4/52, P(roja∩as) = 2/52 (el as de corazones y el as de diamantes). P(roja∪as) = 26/52 + 4/52 − 2/52 = 28/52 = 7/13.",
+        "P(rey) = 4/52, P(picas) = 13/52, P(rey∩picas) = 1/52 (el rey de picas). P(rey∪picas) = 4/52 + 13/52 − 1/52 = 16/52 = 4/13."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "P(roja) = 26/52, P(as) = 4/52 y P(roja∩as) = 2/52 (el as de corazones y el as de diamantes). ¿Cuánto vale P(roja ∪ as)?",
+          "opciones": [
+            "28/52",
+            "30/52",
+            "26/52",
+            "4/52"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(roja ∪ as) = 26/52 + 4/52 − 2/52 = 28/52 = 7/13."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "P(rey) = 4/52, P(picas) = 13/52 y P(rey∩picas) = 1/52 (el rey de picas). Entonces P(rey ∪ picas) = ___/52.",
+          "respuestaCorrecta": "16",
+          "retroalimentacion": "P(rey ∪ picas) = 4/52 + 13/52 − 1/52 = 16/52 = 4/13."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Como la reina de corazones y la reina de diamantes cumplen 'sacar una reina' y 'sacar una carta roja' a la vez, P(reina ∪ roja) = 28/52.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: P(reina ∪ roja) = 4/52 + 26/52 − 2/52 = 28/52 = 7/13."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "P(negra) = 26/52, P(jota) = 4/52 y P(negra∩jota) = 2/52 (la jota de tréboles y la jota de picas). ¿Cuánto vale P(negra ∪ jota)?",
+          "opciones": [
+            "28/52",
+            "30/52",
+            "24/52",
+            "26/52"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(negra ∪ jota) = 26/52 + 4/52 − 2/52 = 28/52 = 7/13."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "P(as) = 4/52, P(negra) = 26/52 y P(as∩negra) = 2/52 (el as de tréboles y el as de picas). Entonces P(as ∪ negra) = ___/52.",
+          "respuestaCorrecta": "28",
+          "retroalimentacion": "P(as ∪ negra) = 4/52 + 26/52 − 2/52 = 28/52 = 7/13."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Como la jota, la reina y el rey de corazones y de diamantes cumplen 'sacar una carta de figura' y 'sacar una carta roja' a la vez (6 cartas en total), P(figura ∪ roja) = 30/52.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: P(figura ∪ roja) = 12/52 + 26/52 − 6/52 = 32/52, no 30/52."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "P(par, es decir 2-4-6-8-10) = 20/52, P(negra) = 26/52 y P(par∩negra) = 10/52 (las 5 cartas pares de tréboles y las 5 de picas). ¿Cuánto vale P(par ∪ negra)?",
+          "opciones": [
+            "36/52",
+            "30/52",
+            "46/52",
+            "20/52"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(par ∪ negra) = 20/52 + 26/52 − 10/52 = 36/52 = 9/13."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Como el as de corazones cumple 'sacar un as' y 'sacar una carta de corazones' a la vez, P(as ∪ corazones) = 16/52.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: P(as ∪ corazones) = 4/52 + 13/52 − 1/52 = 16/52 = 4/13."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "P(rey) = 4/52, P(roja) = 26/52 y P(rey∩roja) = 2/52 (el rey de corazones y el rey de diamantes). Entonces P(rey ∪ roja) = ___/52.",
+          "respuestaCorrecta": "28",
+          "retroalimentacion": "P(rey ∪ roja) = 4/52 + 26/52 − 2/52 = 28/52 = 7/13."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada par de eventos (que sí pueden ocurrir juntos) con el valor correcto de P(A∪B).",
+          "columnaA": [
+            "diamantes ∪ reina",
+            "figura (J,Q,K) ∪ roja",
+            "carta par (2,4,6,8,10) ∪ negra"
+          ],
+          "columnaB": [
+            "36/52",
+            "32/52",
+            "16/52"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "diamantes∪reina: 13/52+4/52-1/52=16/52. figura∪roja: 12/52+26/52-6/52=32/52. par∪negra: 20/52+26/52-10/52=36/52."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 3 de 10 · Avanzado"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "P(as) = 4/52 y P(10) = 4/52, y son mutuamente excluyentes. ¿Cuánto vale P(as ∪ 10)?",
+      "opciones": [
+        "8/52",
+        "16/52",
+        "4/52",
+        "2/52"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "P(as ∪ 10) = 4/52 + 4/52 = 8/52 = 2/13."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "P(jota) = 4/52 y P(3) = 4/52, y son mutuamente excluyentes. Entonces P(jota ∪ 3) = ___/52.",
+      "respuestaCorrecta": "8",
+      "retroalimentacion": "P(jota ∪ 3) = 4/52 + 4/52 = 8/52 = 2/13."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Como 'sacar una carta de corazones' y 'sacar una carta de diamantes' son mutuamente excluyentes, P(corazones ∪ diamantes) = 26/52, es decir, 1/2.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: P(corazones ∪ diamantes) = 13/52 + 13/52 = 26/52 = 1/2."
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "id": "3S-B1-PDA10-05",
+  "grado": "3°",
+  "trimestre": "3",
+  "numero": 95,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Estadística con Datos Agrupados 10.5",
+  "contenido": "Interpretación de la información a través de medidas de tendencia central y de dispersión.",
+  "pda": "Calcula medidas de tendencia central para datos agrupados en tablas de frecuencia e interpreta la desviación media de un conjunto de datos.",
+  "problematizacion": {
+    "contexto": "Un entrenador de natación en Ensenada tiene los tiempos, en segundos, de 30 nadadores en una prueba de 50 metros libres: el más rápido en 28 segundos y el más lento en 52 segundos. Quiere organizarlos en una tabla de frecuencias con 6 intervalos del mismo tamaño para analizarlos después.",
+    "pregunta": "¿Cuál es el rango de los tiempos y cuál debe ser la amplitud de cada uno de los 6 intervalos?"
+  },
+  "subtemas": [
+    {
+      "numero": "10.5",
+      "nivelEtiqueta": "Nivel 5 de 10 · Aplicación",
+      "titulo": "Construyendo tablas de frecuencia: rango y amplitud de clase",
+      "explicacion": "Hasta ahora trabajaste con tablas de frecuencia agrupada ya construidas. En la vida real —un entrenador, una tienda o una fábrica— normalmente tú mismo debes organizar los datos crudos en una tabla: calculas el rango (la diferencia entre el dato máximo y el mínimo), decides o te indican en cuántos intervalos dividirlo, y calculas la amplitud de cada intervalo para que todos midan lo mismo. Esta habilidad es el paso que falta antes de poder aplicar todo lo que aprendiste en los subtemas 10.1 a 10.4.",
+      "formula": "amplitud de clase = (dato máximo − dato mínimo) / número de intervalos",
+      "ejemplos": [
+        "Un entrenador registra los tiempos (en segundos) de 20 corredores en una prueba de 100 m: el más rápido corrió en 11.2 s y el más lento en 15.6 s. Si quiere organizar los datos en 4 intervalos, el rango es 15.6 − 11.2 = 4.4 s, y la amplitud de cada intervalo es 4.4 ÷ 4 = 1.1 s. Los intervalos quedarían: 11.2-12.3, 12.3-13.4, 13.4-14.5 y 14.5-15.6.",
+        "Una tienda registra sus ventas diarias (en cientos de pesos) durante 30 días: la venta mínima fue 12 y la máxima 52. Si decide usar 5 intervalos, el rango es 52 − 12 = 40, y la amplitud de cada intervalo es 40 ÷ 5 = 8. Los intervalos quedarían: 12-20, 20-28, 28-36, 36-44 y 44-52."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un estudio registra la edad (en años) de 25 empleados de una empresa: el menor tiene 22 años y el mayor 58. Si se desea organizar estos datos en 6 intervalos de igual amplitud, ¿cuál es la amplitud de cada intervalo?",
+          "opciones": [
+            "6",
+            "7",
+            "5",
+            "36"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Rango = 58 − 22 = 36. Amplitud = 36 ÷ 6 = 6."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Los tiempos de entrega de un servicio de paquetería van de 8 a 48 minutos. Si se agrupan en 5 intervalos de igual amplitud, la amplitud de cada intervalo es ___ minutos.",
+          "respuestaCorrecta": "8",
+          "retroalimentacion": "Rango = 48 − 8 = 40. Amplitud = 40 ÷ 5 = 8."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Las calificaciones de un grupo van de 60 a 100 puntos. Si se agrupan en 4 intervalos de igual amplitud, la amplitud de cada intervalo es 8 puntos.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: rango = 100 − 60 = 40, amplitud = 40 ÷ 4 = 10, no 8."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El peso (en kg) de 40 costales de café en un beneficio va de 45 a 105 kg. Si el encargado decide usar 6 intervalos de igual amplitud, ¿cuál sería el primer intervalo, empezando en el valor mínimo?",
+          "opciones": [
+            "45-55",
+            "45-105",
+            "45-50",
+            "40-50"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Rango = 105 − 45 = 60. Amplitud = 60 ÷ 6 = 10. El primer intervalo va del mínimo (45) hasta 45+10 = 55."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una fábrica registra la duración (en horas) de 50 focos LED antes de fundirse: el de menor duración llegó a 500 horas y el de mayor a 1700 horas. Si se agrupan en 4 intervalos de igual amplitud, la amplitud de cada intervalo es ___ horas.",
+          "respuestaCorrecta": "300",
+          "retroalimentacion": "Rango = 1700 − 500 = 1200. Amplitud = 1200 ÷ 4 = 300."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si el dato mínimo de un conjunto es 15, el máximo es 95, y se agrupan en 8 intervalos de igual amplitud, la amplitud de cada intervalo es 10.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: rango = 95 − 15 = 80, amplitud = 80 ÷ 8 = 10."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Las estaturas (en cm) de 30 jugadores juveniles de basquetbol van de 158 a 194 cm. Si el profesor decide agruparlas en 6 intervalos de igual amplitud, ¿cuál es la amplitud de cada intervalo?",
+          "opciones": [
+            "6",
+            "4",
+            "8",
+            "36"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Rango = 194 − 158 = 36. Amplitud = 36 ÷ 6 = 6."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El rango de un conjunto de datos es 54 y se quiere organizar en 6 intervalos de igual amplitud. La amplitud de cada intervalo es ___.",
+          "respuestaCorrecta": "9",
+          "retroalimentacion": "Amplitud = 54 ÷ 6 = 9."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada conjunto de datos (mínimo, máximo, número de intervalos) con la amplitud de intervalo que le corresponde.",
+          "columnaA": [
+            "Mínimo 10, máximo 70, 6 intervalos",
+            "Mínimo 25, máximo 65, 5 intervalos",
+            "Mínimo 100, máximo 160, 5 intervalos"
+          ],
+          "columnaB": [
+            "12",
+            "10",
+            "8"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "Caso 1: (70−10)/6=10. Caso 2: (65−25)/5=8. Caso 3: (160−100)/5=12."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Si el dato mínimo de un conjunto es 30 y la amplitud de cada intervalo es 12, el primer intervalo es 30-42. ¿Cuál sería el segundo intervalo de la tabla?",
+          "opciones": [
+            "42-54",
+            "30-54",
+            "42-42",
+            "54-66"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Cada intervalo suma la amplitud (12) al límite superior anterior: 42+12=54, entonces el segundo intervalo es 42-54."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "En la tabla 0-10: f=10, 10-20: f=6, 20-30: f=4, la media de los datos agrupados es 15.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Falso: marcas 5,15,25. Σ(x·f)=10(5)+6(15)+4(25)=50+90+100=240. Σf=20. media=240/20=12, no 15."
+    },
+    {
+      "tipo": "relacionar_columnas",
+      "instruccion": "Relaciona cada tabla de frecuencias con su media.",
+      "columnaA": [
+        "0-20: f=4, 20-40: f=10, 40-60: f=6",
+        "10-25: f=5, 25-40: f=10, 40-55: f=5",
+        "0-10: f=10, 10-20: f=6, 20-30: f=4"
+      ],
+      "columnaB": [
+        "32.5",
+        "12",
+        "32"
+      ],
+      "parejasCorrectas": [
+        2,
+        0,
+        1
+      ],
+      "retroalimentacion": "Tabla 1: (4·10+10·30+6·50)/20=640/20=32. Tabla 2: (5·17.5+10·32.5+5·47.5)/20=650/20=32.5. Tabla 3: (10·5+6·15+4·25)/20=240/20=12."
+    }
+  ]
+}

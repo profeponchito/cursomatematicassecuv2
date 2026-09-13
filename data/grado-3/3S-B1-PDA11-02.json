@@ -1,0 +1,144 @@
+{
+  "id": "3S-B1-PDA11-02",
+  "grado": "3°",
+  "trimestre": "3",
+  "numero": 102,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Probabilidad de la Unión de Eventos 11.2",
+  "contenido": "Azar e incertidumbre en la ocurrencia de eventos cotidianos.",
+  "pda": "Calcula la probabilidad de la unión de dos eventos, distinguiendo eventos mutuamente excluyentes de los que no lo son.",
+  "problematizacion": {
+    "contexto": "En el juego de dados de la kermés de Oaxaca, Lupita ya confirmó que sacar un 2 y sacar un 5 no pueden ocurrir juntos en una sola tirada. Ahora quiere saber, antes de que lleguen más jugadores, qué tan probable es ganar CUALQUIERA de los dos premios en una sola tirada.",
+    "pregunta": "¿Cuál es la probabilidad de sacar un 2 o un 5 en una sola tirada de un dado de seis caras?"
+  },
+  "subtemas": [
+    {
+      "numero": "11.2",
+      "titulo": "Regla de la suma (mutuamente excluyentes)",
+      "explicacion": "Cuando dos eventos A y B son mutuamente excluyentes, la probabilidad de que ocurra A o B (su unión, A∪B) es simplemente la suma de sus probabilidades por separado, porque no hay ningún resultado que se esté contando dos veces. Con una baraja de 52 cartas: P(as) = 4/52 y P(rey) = 4/52; como ningún as es rey, P(as ∪ rey) = 4/52 + 4/52 = 8/52 = 2/13.",
+      "formula": "Si A y B son mutuamente excluyentes: P(A∪B) = P(A) + P(B)",
+      "ejemplos": [
+        "P(as) = 4/52. P(rey) = 4/52. Como son mutuamente excluyentes, P(as ∪ rey) = 4/52 + 4/52 = 8/52 = 2/13.",
+        "P(tréboles) = 13/52. P(corazones) = 13/52. Como ninguna carta es de los dos palos a la vez, P(tréboles ∪ corazones) = 13/52 + 13/52 = 26/52 = 1/2."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Se saca una carta. P(as) = 4/52 y P(rey) = 4/52, y son mutuamente excluyentes. ¿Cuánto vale P(as ∪ rey)?",
+          "opciones": [
+            "8/52",
+            "16/52",
+            "4/52",
+            "2/52"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(as ∪ rey) = 4/52 + 4/52 = 8/52 = 2/13."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "P(reina) = 4/52 y P(jota) = 4/52, y son mutuamente excluyentes. Entonces P(reina ∪ jota) = ___/52.",
+          "respuestaCorrecta": "8",
+          "retroalimentacion": "P(reina ∪ jota) = 4/52 + 4/52 = 8/52 = 2/13."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Como 'sacar un rey' y 'sacar una reina' son mutuamente excluyentes, P(rey ∪ reina) = 8/52.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: P(rey ∪ reina) = 4/52 + 4/52 = 8/52 = 2/13."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "P(picas) = 13/52 y P(diamantes) = 13/52, y ninguna carta es de los dos palos a la vez. ¿Cuánto vale P(picas ∪ diamantes)?",
+          "opciones": [
+            "26/52",
+            "13/52",
+            "39/52",
+            "1/4"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(picas ∪ diamantes) = 13/52 + 13/52 = 26/52 = 1/2."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "P(as) = 4/52 y P(jota) = 4/52, y son mutuamente excluyentes. Entonces P(as ∪ jota) = ___/52.",
+          "respuestaCorrecta": "8",
+          "retroalimentacion": "P(as ∪ jota) = 4/52 + 4/52 = 8/52 = 2/13."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Como 'sacar un 5' y 'sacar un 7' son mutuamente excluyentes, P(5 ∪ 7) = 8/52, es decir, 2/13.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: P(5 ∪ 7) = 4/52 + 4/52 = 8/52 = 2/13."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "P(2) = 4/52 y P(10) = 4/52, y son mutuamente excluyentes. ¿Cuánto vale P(2 ∪ 10)?",
+          "opciones": [
+            "8/52",
+            "4/52",
+            "16/52",
+            "10/52"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "P(2 ∪ 10) = 4/52 + 4/52 = 8/52 = 2/13."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Como 'sacar un as' y 'sacar una reina' son mutuamente excluyentes, P(as ∪ reina) = 6/52.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: P(as ∪ reina) = 4/52 + 4/52 = 8/52, no 6/52."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "P(jota) = 4/52 y P(rey) = 4/52, y son mutuamente excluyentes. Entonces P(jota ∪ rey) = ___/52.",
+          "respuestaCorrecta": "8",
+          "retroalimentacion": "P(jota ∪ rey) = 4/52 + 4/52 = 8/52 = 2/13."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada par de eventos mutuamente excluyentes con el valor de P(A∪B).",
+          "columnaA": [
+            "as ∪ rey",
+            "tréboles ∪ corazones",
+            "carta roja ∪ carta negra"
+          ],
+          "columnaB": [
+            "52/52",
+            "26/52",
+            "8/52"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "as∪rey: 4/52+4/52=8/52. tréboles∪corazones: 13/52+13/52=26/52. roja∪negra: 26/52+26/52=52/52 (cubren toda la baraja)."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 2 de 10 · Intermedio"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál de los siguientes pares de eventos es mutuamente excluyente?",
+      "opciones": [
+        "Sacar una jota y sacar un 3",
+        "Sacar una carta de tréboles y sacar un rey",
+        "Sacar una carta roja y sacar una reina",
+        "Sacar una carta negra y sacar un as"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "Ninguna carta es jota y 3 a la vez, así que sí son mutuamente excluyentes. Las otras tres opciones se traslapan."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Los eventos 'sacar una carta de picas' y 'sacar una carta de diamantes' ___ mutuamente excluyentes.",
+      "respuestaCorrecta": "son",
+      "retroalimentacion": "Ninguna carta pertenece a dos palos a la vez, así que sí son mutuamente excluyentes."
+    }
+  ]
+}

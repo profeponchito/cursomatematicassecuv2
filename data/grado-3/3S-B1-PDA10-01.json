@@ -1,0 +1,144 @@
+{
+  "id": "3S-B1-PDA10-01",
+  "grado": "3°",
+  "trimestre": "3",
+  "numero": 91,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Estadística con Datos Agrupados 10.1",
+  "contenido": "Interpretación de la información a través de medidas de tendencia central y de dispersión.",
+  "pda": "Calcula medidas de tendencia central para datos agrupados en tablas de frecuencia e interpreta la desviación media de un conjunto de datos.",
+  "problematizacion": {
+    "contexto": "En el torneo de atletismo de una secundaria en Tijuana, el profesor de deportes agrupó los tiempos de los 60 corredores en la carrera de 100 metros en intervalos: de 13 a 14 segundos, de 14 a 15 segundos, etc. Antes de calcular cualquier promedio, necesita un valor representativo de cada intervalo.",
+    "pregunta": "¿Cuál es la marca de clase del intervalo de 13 a 14 segundos?"
+  },
+  "subtemas": [
+    {
+      "numero": "10.1",
+      "titulo": "Marca de clase",
+      "explicacion": "Cuando los datos se agrupan en intervalos (por ejemplo, edades de 10-20, 20-30, etc.), se pierde el valor exacto de cada dato individual. Para poder trabajar con el intervalo como si fuera un solo número, se usa un valor representativo llamado marca de clase: el punto medio del intervalo. Se calcula sumando el límite inferior y el límite superior del intervalo y dividiendo entre 2. La marca de clase es la base de todos los cálculos que siguen (media, desviación media, etc.) cuando los datos ya vienen agrupados.",
+      "formula": "marca de clase = (límite inferior + límite superior) / 2",
+      "ejemplos": [
+        "En la tabla de edades del reto inicial, el intervalo 10-20 años tiene marca de clase = (10+20)/2 = 15 años: ese es el valor que representará a todos los visitantes de ese rango al hacer los cálculos.",
+        "El intervalo 30-40 tiene marca de clase = (30+40)/2 = 35."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la marca de clase del intervalo 20-30?",
+          "opciones": [
+            "25",
+            "20",
+            "30",
+            "50"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "marca de clase = (20+30)/2 = 25."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La marca de clase del intervalo 40-50 es 45.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: (40+50)/2 = 45."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La marca de clase del intervalo 0-10 es ___.",
+          "respuestaCorrecta": "5",
+          "retroalimentacion": "(0+10)/2 = 5."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la marca de clase del intervalo 50-70?",
+          "opciones": [
+            "60",
+            "55",
+            "65",
+            "120"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "marca de clase = (50+70)/2 = 60."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La marca de clase del intervalo 15-25 es 19.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: (15+25)/2 = 20, no 19."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La marca de clase del intervalo 60-80 es ___.",
+          "respuestaCorrecta": "70",
+          "retroalimentacion": "(60+80)/2 = 70."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la marca de clase del intervalo 5-15?",
+          "opciones": [
+            "10",
+            "5",
+            "15",
+            "20"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "marca de clase = (5+15)/2 = 10."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La marca de clase del intervalo 100-120 es 110.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: (100+120)/2 = 110."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada intervalo con su marca de clase.",
+          "columnaA": [
+            "Intervalo 0-20",
+            "Intervalo 20-40",
+            "Intervalo 40-60"
+          ],
+          "columnaB": [
+            "50",
+            "10",
+            "30"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "0-20: (0+20)/2=10. 20-40: (20+40)/2=30. 40-60: (40+60)/2=50."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La marca de clase del intervalo 25-35 es ___.",
+          "respuestaCorrecta": "30",
+          "retroalimentacion": "(25+35)/2 = 30."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 1 de 10 · Introductorio"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "llenar_frase",
+      "frase": "La marca de clase del intervalo 70-90 es ___.",
+      "respuestaCorrecta": "80",
+      "retroalimentacion": "(70+90)/2 = 80."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es la marca de clase del intervalo 8-16?",
+      "opciones": [
+        "12",
+        "8",
+        "16",
+        "24"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "marca de clase = (8+16)/2 = 12."
+    }
+  ]
+}

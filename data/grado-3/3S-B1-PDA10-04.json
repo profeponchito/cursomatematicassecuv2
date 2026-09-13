@@ -1,0 +1,150 @@
+{
+  "id": "3S-B1-PDA10-04",
+  "grado": "3°",
+  "trimestre": "3",
+  "numero": 94,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Estadística con Datos Agrupados 10.4",
+  "contenido": "Interpretación de la información a través de medidas de tendencia central y de dispersión.",
+  "pda": "Calcula medidas de tendencia central para datos agrupados en tablas de frecuencia e interpreta la desviación media de un conjunto de datos.",
+  "problematizacion": {
+    "contexto": "Un entrenador de básquetbol en Culiacán anotó los puntos que metió Sofía en sus últimos 5 partidos: 12, 15, 9, 18 y 11 puntos. Quiere saber qué tan parejo o irregular ha sido su desempeño, comparando cada partido con su promedio.",
+    "pregunta": "¿Cuál es la desviación media de los puntos de Sofía en esos 5 partidos, usando la distancia de cada partido a su promedio?"
+  },
+  "subtemas": [
+    {
+      "numero": "10.4",
+      "titulo": "Desviación media",
+      "explicacion": "La desviación media mide qué tan alejados están, en promedio, los datos respecto a su media. Para calcularla: 1) obtienes la distancia de cada dato a la media, usando valor absoluto |xi − media| para que las distancias no se cancelen entre sí (una distancia siempre es positiva, sin importar si el dato quedó por arriba o por abajo de la media); 2) sumas todas esas distancias; 3) divides esa suma entre el número total de datos (n). Un valor de desviación media bajo indica que los datos están muy cerca de la media, es decir, poca dispersión; un valor alto indica que los datos están más dispersos, más alejados de la media en promedio.",
+      "formula": "DM = Σ|xi − media| / n",
+      "ejemplos": [
+        "Calificaciones: 6, 7, 8, 9, 10, con media = 8. Distancias absolutas: |6-8|=2, |7-8|=1, |8-8|=0, |9-8|=1, |10-8|=2. Suma = 6. DM = 6/5 = 1.2: en promedio, cada calificación se aleja 1.2 puntos de la media.",
+        "Edades de un grupo: 12, 13, 13, 14, 18, con media = 14. Distancias absolutas: 2, 1, 1, 0, 4. Suma = 8. DM = 8/5 = 1.6."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "llenar_frase",
+          "frase": "Goles anotados en 5 partidos: 1, 2, 2, 3, 7 (media=3). La suma de las distancias absolutas (Σ|xi−media|) de este conjunto es ___.",
+          "respuestaCorrecta": "8",
+          "retroalimentacion": "|1-3|+|2-3|+|2-3|+|3-3|+|7-3| = 2+1+1+0+4 = 8."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Goles anotados en 5 partidos: 1, 2, 2, 3, 7 (media=3, Σ|xi−media|=8). ¿Cuál es la desviación media de este conjunto de datos?",
+          "opciones": [
+            "1.6",
+            "1.2",
+            "2.0",
+            "0.8"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "DM = 8/5 = 1.6."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Pesos en kg de 5 alumnos: 48, 50, 52, 54, 56 (media=52). La desviación media de este conjunto es 2.4.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: distancias 4,2,0,2,4, suma=12, DM=12/5=2.4."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Edades: 12, 13, 13, 14, 18 (media=14). La suma de las distancias absolutas de este conjunto es ___.",
+          "respuestaCorrecta": "8",
+          "retroalimentacion": "|12-14|+|13-14|+|13-14|+|14-14|+|18-14| = 2+1+1+0+4 = 8."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Edades: 12, 13, 13, 14, 18 (media=14, Σ|xi−media|=8). ¿Cuál es la desviación media de este conjunto de datos?",
+          "opciones": [
+            "1.6",
+            "1.2",
+            "2.4",
+            "0.8"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "DM = 8/5 = 1.6."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Temperaturas registradas: 18, 20, 22, 24, 26 (media=22). La desviación media de este conjunto es 1.8.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: distancias 4,2,0,2,4, suma=12, DM=12/5=2.4, no 1.8."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Calificaciones: 6, 7, 8, 9, 10 (media=8). ¿Cuál es la desviación media de este conjunto de datos?",
+          "opciones": [
+            "1.2",
+            "1.6",
+            "2.0",
+            "0.8"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Distancias: 2,1,0,1,2. Suma=6. DM=6/5=1.2."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un valor alto de desviación media indica que los datos están muy cerca de la media.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: un valor alto de desviación media indica justo lo contrario, que los datos están más dispersos, más alejados de la media en promedio."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El conjunto A tiene desviación media = 1.2 y el conjunto B tiene desviación media = 3.5. ¿Cuál conjunto tiene datos más dispersos respecto a su media?",
+          "opciones": [
+            "El conjunto B",
+            "El conjunto A",
+            "Ambos igual de dispersos",
+            "No se puede saber con esos datos"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Entre mayor es la desviación media, más dispersos están los datos respecto a su media; 3.5 > 1.2, así que el conjunto B es más disperso."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada conjunto de datos con su desviación media.",
+          "columnaA": [
+            "Calificaciones 6,7,8,9,10 (media=8)",
+            "Edades 12,13,13,14,18 (media=14)",
+            "Temperaturas 18,20,22,24,26 (media=22)"
+          ],
+          "columnaB": [
+            "2.4",
+            "1.2",
+            "1.6"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "Calificaciones: DM=6/5=1.2. Edades: DM=8/5=1.6. Temperaturas: DM=12/5=2.4."
+        }
+      ],
+      "nivelEtiqueta": "Nivel 4 de 10 · Síntesis"
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "En la tabla 0-10: f=7, 10-20: f=8, 20-30: f=5, la media de los datos agrupados es 14.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: marcas 5,15,25. Σ(x·f)=7(5)+8(15)+5(25)=35+120+125=280. Σf=20. media=280/20=14."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Tabla de frecuencias — 10-30: f=6, 30-50: f=10, 50-70: f=4. ¿Cuál es la media de este conjunto de datos agrupados?",
+      "opciones": [
+        "38",
+        "35",
+        "40",
+        "45"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "Marcas: 20,40,60. Σ(x·f) = 6(20)+10(40)+4(60) = 120+400+240 = 760. Σf=20. media=760/20=38."
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "id": "3S-B1-PDA09-05",
+  "grado": "3°",
+  "trimestre": "3",
+  "numero": 85,
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Análisis de datos y probabilidad",
+  "titulo": "Muestras y Análisis Crítico de Gráficas 9.5",
+  "contenido": "Obtención y representación de información.",
+  "pda": "Distingue población y muestra, y analiza críticamente gráficas estadísticas, incluyendo gráficas que pueden inducir a error.",
+  "problematizacion": {
+    "contexto": "En una muestra de 150 alumnos de una secundaria de Tuxtla Gutiérrez, que tiene en total 1,200 alumnos inscritos, 90 dijeron que usan el transporte escolar todos los días. El director quiere saber, aproximadamente, cuántos alumnos de TODA la escuela usan el transporte escolar.",
+    "pregunta": "Si la muestra es representativa, ¿aproximadamente cuántos de los 1,200 alumnos de toda la escuela usan el transporte escolar todos los días?"
+  },
+  "subtemas": [
+    {
+      "numero": "9.5",
+      "nivelEtiqueta": "Nivel 5 de 10 · Aplicación",
+      "titulo": "Estimar el total de una población a partir de un porcentaje muestral",
+      "explicacion": "Hasta ahora solo evaluábamos si una muestra era representativa; ahora, suponiendo que sí lo es, aprenderás a usarla para algo muy práctico: proyectar un resultado obtenido en la muestra hacia toda la población, mediante una proporción directa (regla de tres). Esto es justo lo que hacen empresas, gobiernos e investigadores cuando dicen 'se estima que X millones de personas...': parten de un dato pequeño (la muestra) y lo escalan al tamaño real de la población que les interesa.",
+      "formula": "Estimación en la población = (frecuencia obtenida en la muestra ÷ tamaño de la muestra) × tamaño de la población",
+      "ejemplos": [
+        "Una tienda departamental encuesta a una muestra aleatoria de 240 de sus 9,600 clientes registrados, y 156 dicen preferir recibir promociones por WhatsApp en vez de correo electrónico. Proporción en la muestra: 156 ÷ 240 = 0.65 (65%). Estimación para toda la clientela: 0.65 × 9,600 = 6,240 clientes que preferirían WhatsApp.",
+        "En una encuesta aleatoria a 180 de los 4,500 habitantes de un pueblo, 45 dijeron que usan bicicleta como transporte principal. Proporción: 45 ÷ 180 = 0.25 (25%). Estimación: 0.25 × 4,500 = 1,125 habitantes que usan bicicleta como transporte principal."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un gimnasio tiene 1,350 socios. En una muestra aleatoria de 90 socios, 63 dicen entrenar en la mañana. ¿Cuántos de los 1,350 socios se estima que entrenan en la mañana?",
+          "opciones": [
+            "945 socios",
+            "630 socios",
+            "1,350 socios",
+            "90 socios"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "63 ÷ 90 = 0.7 (70%). Estimación: 0.7 × 1,350 = 945 socios."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si en una muestra aleatoria de 300 personas, 90 prefieren refresco light, la estimación para una población de 6,000 personas es de 1,800 personas.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 90 ÷ 300 = 0.3 (30%); 0.3 × 6,000 = 1,800 personas."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Para estimar cuántas personas de toda una población compartirían cierto resultado a partir de una muestra, se multiplica la proporción obtenida en la muestra por el tamaño de la ___.",
+          "respuestaCorrecta": "población",
+          "retroalimentacion": "La proporción muestral se escala multiplicándola por el tamaño total de la población que se quiere representar."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una clínica atiende a 1,600 pacientes. En una muestra aleatoria de 200 pacientes, 46 tienen presión alta. ¿Cuántos de los 1,600 pacientes se estima que tienen presión alta?",
+          "opciones": [
+            "368 pacientes",
+            "46 pacientes",
+            "200 pacientes",
+            "736 pacientes"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "46 ÷ 200 = 0.23 (23%). Estimación: 0.23 × 1,600 = 368 pacientes."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una escuela tiene 980 alumnos. En una muestra aleatoria de 140 alumnos, 112 dicen usar mochila con ruedas. La estimación para toda la escuela es de 686 alumnos.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: 112 ÷ 140 = 0.8 (80%); 0.8 × 980 = 784 alumnos, no 686."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En una empresa de 2,400 empleados se encuestó a una muestra aleatoria de 320 empleados, de los cuales 208 dijeron preferir horario flexible. La estimación de empleados de toda la empresa que preferirían horario flexible es de ___ empleados.",
+          "respuestaCorrecta": "1560",
+          "retroalimentacion": "208 ÷ 320 = 0.65 (65%); 0.65 × 2,400 = 1,560 empleados."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El club de fans de un equipo de beisbol tiene 2,750 aficionados registrados. En una muestra aleatoria de 250 de ellos, 175 asistieron a más de 5 juegos en el año. ¿Cuántos de los 2,750 aficionados se estima que asistieron a más de 5 juegos?",
+          "opciones": [
+            "1,925 aficionados",
+            "1,750 aficionados",
+            "2,750 aficionados",
+            "875 aficionados"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "175 ÷ 250 = 0.7 (70%). Estimación: 0.7 × 2,750 = 1,925 aficionados."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada muestra con la estimación correcta para su población.",
+          "columnaA": [
+            "Muestra de 100 de 5,000 clientes; 40 prefieren la app móvil",
+            "Muestra de 150 de 3,000 alumnos; 105 usan transporte escolar",
+            "Muestra de 80 de 2,200 vecinos; 20 asisten a las juntas vecinales"
+          ],
+          "columnaB": [
+            "2,000 clientes estimados",
+            "550 vecinos estimados",
+            "2,100 alumnos estimados"
+          ],
+          "parejasCorrectas": [
+            0,
+            2,
+            1
+          ],
+          "retroalimentacion": "40÷100=0.4×5,000=2,000. 105÷150=0.7×3,000=2,100. 20÷80=0.25×2,200=550."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La fórmula para estimar un total poblacional a partir de una muestra es: (tamaño de la muestra ÷ frecuencia en la muestra) × tamaño de la población.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: la fórmula correcta es (frecuencia en la muestra ÷ tamaño de la muestra) × tamaño de la población; el orden de la división está invertido en el enunciado."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una cadena de cafeterías tiene 18,000 clientes frecuentes registrados en su app de lealtad. En una muestra aleatoria de 450 clientes, 315 dicen que comprarían un nuevo producto de temporada. ¿Cuántos de los 18,000 clientes se estima que comprarían el nuevo producto?",
+          "opciones": [
+            "12,600 clientes",
+            "6,300 clientes",
+            "15,750 clientes",
+            "9,000 clientes"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "315 ÷ 450 = 0.7 (70%). Estimación: 0.7 × 18,000 = 12,600 clientes."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Una gráfica de pastel (circular) cuyas partes suman 100% está construida correctamente en ese aspecto.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: las partes de una gráfica de pastel deben sumar exactamente 100%."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál de estas es la población objetivo si un estudio busca conocer 'las calificaciones promedio de todos los alumnos de 3° de secundaria del estado'?",
+      "opciones": [
+        "Solo los alumnos de una escuela",
+        "Todos los alumnos de 3° de secundaria del estado",
+        "Solo los alumnos con las mejores calificaciones",
+        "Los maestros de 3° de secundaria"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "La población objetivo es el conjunto completo que el estudio dice representar: todos los alumnos de 3° del estado."
+    }
+  ]
+}
