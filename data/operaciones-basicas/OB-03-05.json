@@ -1,0 +1,104 @@
+{
+  "id": "OB-03-05",
+  "grado": "Operaciones Básicas",
+  "numero": 21,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Resta con préstamo (algoritmo en columna) — Momento 5/8",
+  "contenido": "El algoritmo escrito de la resta de naturales cuando el minuendo requiere 'pedir prestado' a la siguiente posición, incluyendo préstamo a través de ceros.",
+  "pda": "Aplica el algoritmo de la resta en columna, identificando y registrando correctamente el préstamo entre posiciones, incluso a través de ceros.",
+  "problematizacion": {
+    "contexto": "En la tienda de abarrotes del señor Refugio hay 604 piezas de pan de dulce registradas en el inventario de la mañana. Durante el día se vendieron 237 piezas entre clientes que pasan camino al trabajo y a la escuela.",
+    "pregunta": "¿Cuántas piezas de pan le quedan al señor Refugio en el inventario al final del día?"
+  },
+  "subtemas": [
+    {
+      "numero": "3.5",
+      "nivelEtiqueta": "Nivel 5 de 8 · Aplicación",
+      "titulo": "Préstamo cuando hay un cero en el camino",
+      "explicacion": "Cuando la posición del minuendo de la que se necesita pedir prestado es 0, ese cero no tiene nada que prestar. En ese caso, el préstamo debe ir un paso más allá, a la siguiente posición hacia la izquierda: esa posición le presta 1 a la que tiene el cero, el cero se convierte en 10, y de ahí sí puede prestarle a la columna original. Este es el primer paso para dominar el préstamo 'a través de ceros'.",
+      "formula": "Si la posición que debería prestar es 0, pide prestado un paso más a la izquierda; el 0 se vuelve 10 y de ahí presta.",
+      "ejemplos": [
+        "En 604 - 237: las unidades piden prestado, pero las decenas son 0. Se pide prestado a las centenas (6→5), las decenas se vuelven 10 y prestan 1 a las unidades (quedan en 9). Unidades: 14-7=7; decenas: 9-3=6; centenas: 5-2=3. Resultado: 367."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "604"
+            },
+            {
+              "valor": "237",
+              "signo": "-"
+            },
+            {
+              "valor": "367",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "604 - 237 = 367. Como las decenas del minuendo son 0, no se puede prestar directamente: se pide prestado a las centenas (6→5), las decenas se vuelven 10, prestan 1 a las unidades (quedan en 9) y unidades: 14-7=7. Decenas: 9-3=6. Centenas: 5-2=3."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En 406 - 178, ¿por qué no se puede pedir prestado directamente en las decenas?",
+          "opciones": [
+            "Porque las decenas ya son mayores que las unidades",
+            "Porque el dígito de las decenas es 0 y no tiene nada que prestar",
+            "Porque las centenas son impares",
+            "Porque 178 tiene más cifras que 406"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Las decenas de 406 son 0: un 0 no puede prestar nada, así que el préstamo tiene que ir hasta las centenas."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Cuando el dígito de las decenas del minuendo es 0 y se necesita pedir prestado, hay que ir a pedir prestado a las centenas.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: un 0 no tiene nada que prestar, así que el préstamo avanza una posición más hacia la izquierda."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En 802 - 465, como las decenas son 0, al pedir prestado a las centenas, las decenas se convierten en ___ antes de prestarle 1 a las unidades.",
+          "respuestaCorrecta": "10",
+          "retroalimentacion": "Las centenas prestan 1 a las decenas: el 0 se convierte en 10; de ahí, las decenas prestan 1 a las unidades y quedan en 9."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada resta con el tipo de préstamo que necesita.",
+          "columnaA": [
+            "703 - 258",
+            "643 - 217",
+            "900 - 456"
+          ],
+          "columnaB": [
+            "Sí, préstamo a través de cero",
+            "No, préstamo directo (sin pasar por cero)",
+            "No se necesita pedir prestado"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            0
+          ],
+          "retroalimentacion": "En 703-258 y 900-456 las decenas son 0 y el préstamo debe atravesarlas; en 643-217 las decenas (4) prestan directo, sin pasar por ningún cero."
+        }
+      ]
+    }
+  ]
+}

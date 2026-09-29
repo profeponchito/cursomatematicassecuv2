@@ -1,0 +1,106 @@
+{
+  "id": "OB-12-05",
+  "grado": "Operaciones Básicas",
+  "numero": 93,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma y resta en la vida cotidiana — Momento 5/8",
+  "contenido": "Suma y resta aplicadas a situaciones cotidianas: dinero, medidas y tiempo.",
+  "pda": "Resuelve problemas cotidianos de dinero, medidas y tiempo que requieren sumar o restar números naturales o decimales.",
+  "problematizacion": {
+    "contexto": "Ximena vende pulseras los fines de semana en el tianguis de su colonia para juntar dinero y comprarle un regalo a su papá. Cada semana apunta en una libreta cuánto vendió y cuánto llevaba ahorrado antes.",
+    "pregunta": "¿Qué operación le ayuda a Ximena a saber cuánto dinero tiene ahorrado en total después de una venta?"
+  },
+  "subtemas": [
+    {
+      "numero": "12.5",
+      "nivelEtiqueta": "Nivel 5 de 8 · Aplicación",
+      "titulo": "Sumar y restar precios con centavos",
+      "explicacion": "En las compras reales, los precios casi siempre incluyen centavos, como $24.50 o $189.90. Sumar y restar estas cantidades sigue la misma lógica que los decimales de medidas, pero aplicada al dinero: se alinean los pesos con los pesos y los centavos con los centavos. Este momento te pide aplicar lo aprendido para calcular totales, descuentos y cambios con centavos, situaciones muy comunes al pagar en una tienda o un puesto.",
+      "formula": "Total o cambio con centavos: alinea pesos con pesos y centavos con centavos",
+      "ejemplos": [
+        "Compras algo de $65.75 y algo de $12.40. Total: 65.75 + 12.40 = 78.15 pesos."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En el mercado, Rodrigo compra chiles por $24.50 y cilantro por $8.75. ¿Cuánto pagó en total?",
+          "opciones": [
+            "$33.25",
+            "$32.25",
+            "$33.75",
+            "$34.25"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "24.50 + 8.75 = 33.25 pesos en total."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si pagas $156.80 por el súper con un billete de $200, tu cambio es mayor a $50.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "200 − 156.80 = 43.20 pesos, y 43.20 no es mayor a 50."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una playera cuesta $189.90 y tiene un descuento de $35.45. El precio con descuento es de $___ pesos.",
+          "respuestaCorrecta": "154.45",
+          "retroalimentacion": "189.90 − 35.45 = 154.45 pesos con descuento."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada operación de precios con su resultado correcto.",
+          "columnaA": [
+            "$45.60 + $12.35",
+            "$78.00 − $23.45",
+            "$99.99 − $49.99"
+          ],
+          "columnaB": [
+            "$54.55",
+            "$57.95",
+            "$50.00",
+            "$60.00"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            2
+          ],
+          "retroalimentacion": "45.60 + 12.35 = 57.95; 78.00 − 23.45 = 54.55; 99.99 − 49.99 = 50.00."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "50.00"
+            },
+            {
+              "valor": "18.35",
+              "signo": "-"
+            },
+            {
+              "valor": "31.65",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              3,
+              4
+            ],
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "50.00 − 18.35 = 31.65: se pide prestado en los centésimos y en las decenas."
+        }
+      ]
+    }
+  ]
+}

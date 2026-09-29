@@ -1,0 +1,109 @@
+{
+  "id": "OB-05-01",
+  "grado": "Operaciones Básicas",
+  "numero": 33,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma y resta de decimales alineando el punto — Momento 1/8",
+  "contenido": "Suma y resta de números decimales, cuidando alinear el punto decimal antes de operar columna por columna.",
+  "pda": "Suma y resta números decimales alineando correctamente el punto decimal, relacionando el procedimiento con el de los números naturales.",
+  "problematizacion": {
+    "contexto": "En el mercado de Toluca, doña Remedios acomoda su puesto de frutas desde temprano. Un cliente le pide 3.2 kg de manzana y 1.4 kg de pera para preparar una ensalada de frutas para su familia.",
+    "pregunta": "¿Aproximadamente cuántos kilogramos de fruta se lleva el cliente en total?"
+  },
+  "subtemas": [
+    {
+      "numero": "5.1",
+      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
+      "titulo": "Alinear el punto en sumas sencillas",
+      "explicacion": "Para sumar decimales, primero se acomodan los números uno debajo del otro alineando el punto decimal, igual que se alinean las unidades, decenas y centenas en los números naturales. Cada columna se suma por separado empezando por la derecha. Cuando ambos números tienen una sola cifra después del punto, la suma es directa, sin necesidad de agregar ceros ni de llevar nada a la siguiente columna.",
+      "formula": "Alinea el punto → suma columna por columna de derecha a izquierda",
+      "ejemplos": [
+        "3.2 + 1.4: se alinean los puntos; en los décimos 2+4=6 y en las unidades 3+1=4, entonces 3.2 + 1.4 = 4.6",
+        "5.1 + 2.3 = 7.4 porque 1+3=4 en los décimos y 5+2=7 en las unidades"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Si alineas el punto decimal, ¿cuánto es 5.2 + 3.6?",
+          "opciones": [
+            "8.8",
+            "8.9",
+            "88",
+            "5.86"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Alineando el punto: 2+6=8 en los décimos y 5+3=8 en las unidades, así que 5.2 + 3.6 = 8.8."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "6.3 + 1.5 = 7.8",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: alineando el punto, 3+5=8 en los décimos y 6+1=7 en las unidades, entonces 6.3 + 1.5 = 7.8."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Al alinear el punto decimal, 7.4 + 2.3 = ___",
+          "respuestaCorrecta": "9.7",
+          "retroalimentacion": "7.4 + 2.3 = 9.7: 4+3=7 en los décimos y 7+2=9 en las unidades."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "4.2"
+            },
+            {
+              "valor": "3.5",
+              "signo": "+"
+            },
+            {
+              "valor": "7.7",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0,
+              2
+            ]
+          ],
+          "retroalimentacion": "4.2 + 3.5 = 7.7: los décimos 2+5=7 y las unidades 4+3=7."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "5.4"
+            },
+            {
+              "valor": "1.2",
+              "signo": "+"
+            },
+            {
+              "valor": "6.6",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              2
+            ],
+            []
+          ],
+          "retroalimentacion": "5.4 + 1.2 = 6.6: recuerda que las unidades 5+1=6 y los décimos 4+2=6."
+        }
+      ]
+    }
+  ]
+}

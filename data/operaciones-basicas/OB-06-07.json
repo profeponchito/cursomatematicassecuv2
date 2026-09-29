@@ -1,0 +1,100 @@
+{
+  "id": "OB-06-07",
+  "grado": "Operaciones Básicas",
+  "numero": 47,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma y resta de decimales con acarreo y préstamo — Momento 7/8",
+  "contenido": "Suma y resta de decimales en casos donde el acarreo o el préstamo ocurren entre posiciones decimales, incluyendo decimales con distinta cantidad de cifras.",
+  "pda": "Aplica el algoritmo de suma y resta a números decimales con distinta cantidad de cifras decimales, completando con ceros cuando sea necesario.",
+  "problematizacion": {
+    "contexto": "En el taller mecánico de don Refugio se mide con precisión el aceite que queda en varios recipientes chicos antes de rellenar el tanque de un cliente, combinando lo que hay en tres envases distintos.",
+    "pregunta": "Si don Refugio junta 2.35 litros, 1.8 litros y 0.475 litros de tres envases distintos, ¿cuántos litros de aceite tiene en total para el cliente?"
+  },
+  "subtemas": [
+    {
+      "numero": "6.7",
+      "nivelEtiqueta": "Nivel 7 de 8 · Reto",
+      "titulo": "Cadenas de tres o más decimales con acarreo y préstamo",
+      "explicacion": "Cuando hay tres o más números decimales en una misma operación (varias sumas seguidas, o una resta con varios términos), se acomodan todos con el punto alineado, completando con ceros al mismo número de cifras decimales, y se opera de arriba a abajo en cada columna. Los acarreos y préstamos pueden encadenarse: un préstamo puede obligar a pedir otro préstamo en la siguiente columna, como al restar de un número con ceros (por ejemplo 15.00).",
+      "formula": "Alinea todos los números con la misma cantidad de cifras decimales y suma o resta de arriba a abajo, columna por columna.",
+      "ejemplos": [
+        "2.35 + 1.8 + 0.475: se completan como 2.350, 1.800 y 0.475. Milésimos: 0+0+5=5. Centésimos: 5+0+7=12, se escribe 2 y se lleva 1. Décimos: 3+8+4+1=16, se escribe 6 y se lleva 1. Unidades: 2+1+0+1=4. Resultado: 4.625.",
+        "15 − 1.34 − 2.5: se piensa como 15.00. Primero 15.00−1.34=13.66 (con préstamo en cadena desde los centésimos). Después 13.66−2.50=11.16."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "2.350"
+            },
+            {
+              "valor": "1.800",
+              "signo": "+"
+            },
+            {
+              "valor": "0.475",
+              "signo": "+"
+            },
+            {
+              "valor": "4.625",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              2
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "2.350 + 1.800 + 0.475 = 4.625. Milésimos: 0+0+5=5. Centésimos: 5+0+7=12 (se lleva 1). Décimos: 3+8+4+1=16 (se lleva 1). Unidades: 2+1+0+1=4."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un tinaco tenía 15 litros. Se sacan 1.34 litros para un balde y después 2.5 litros más para regar plantas. ¿Cuántos litros quedan en el tinaco?",
+          "opciones": [
+            "11.16 L",
+            "12.16 L",
+            "11.26 L",
+            "10.16 L"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "15.00 − 1.34 = 13.66 (con préstamo en cadena desde los centésimos, porque 15.00 tiene ceros). Después 13.66 − 2.50 = 11.16 litros."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado de 6.4 + 2.75 + 0.325?",
+          "opciones": [
+            "9.375",
+            "9.475",
+            "9.575",
+            "8.475"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Se completan como 6.400, 2.750 y 0.325. Milésimos: 0+0+5=5. Centésimos: 0+5+2=7. Décimos: 4+7+3=14, se escribe 4 y se lleva 1. Unidades: 6+2+0+1=9. Resultado: 9.475."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Al restar 20 − 4.6 − 3.75, como 20 no tiene cifras decimales escritas, el préstamo se encadena a través de varias columnas de ceros.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Verdadero. 20.00 − 4.60 = 15.40, y 15.40 − 3.75 = 11.65. El primer préstamo (en los décimos) obliga a pedir prestado también en las unidades, porque ambas cifras de 20 son cero."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "3.125 + 4.9 + 1.08 = ___ (completa cada número hasta los milésimos antes de sumar)",
+          "respuestaCorrecta": "9.105",
+          "retroalimentacion": "Se completan como 3.125, 4.900 y 1.080. Milésimos: 5+0+0=5. Centésimos: 2+0+8=10, se escribe 0 y se lleva 1. Décimos: 1+9+0+1=11, se escribe 1 y se lleva 1. Unidades: 3+4+1+1=9. Resultado: 9.105."
+        }
+      ]
+    }
+  ]
+}

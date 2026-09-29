@@ -1,0 +1,91 @@
+{
+  "id": "OB-37-07",
+  "grado": "Operaciones Básicas",
+  "numero": 295,
+  "categoria": "potencias_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Raíz cúbica de cubos perfectos — Momento 7/8",
+  "contenido": "Cálculo de la raíz cúbica exacta de números que son cubos perfectos, como operación inversa de elevar al cubo.",
+  "pda": "Calcula la raíz cúbica exacta de cubos perfectos, reconociéndola como la operación inversa de elevar al cubo.",
+  "problematizacion": {
+    "contexto": "Renata, estudiante de oceanografía, revisa los datos de un sensor que su equipo dejó caer en una fosa marina cerca de Acapulco. En sus notas encontró que, al elevar al cubo la profundidad relativa registrada por el sensor (respecto al nivel del mar, tomado como cero), el resultado fue -512.",
+    "pregunta": "¿Cuál es la profundidad relativa del sensor si su valor elevado al cubo es -512?"
+  },
+  "subtemas": [
+    {
+      "numero": "37.7",
+      "nivelEtiqueta": "Nivel 7 de 8 · Reto",
+      "titulo": "Raíces cúbicas de números negativos",
+      "explicacion": "A diferencia de la raíz cuadrada, la raíz cúbica de un número negativo sí existe y es un número negativo real, porque un número negativo multiplicado tres veces por sí mismo da otro número negativo. Por ejemplo, (-2) × (-2) × (-2) = -8, así que ∛(-8) = -2. En este momento vas a calcular raíces cúbicas de cubos perfectos negativos, reconociendo que el signo de la raíz siempre coincide con el signo del número original.",
+      "ejemplos": [
+        "∛(-27) = -3, porque (-3) × (-3) × (-3) = -27.",
+        "∛(-125) = -5, porque (-5) × (-5) × (-5) = -125."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la raíz cúbica de -8?",
+          "opciones": [
+            "-2",
+            "2",
+            "-4",
+            "4"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(-2) × (-2) × (-2) = -8, entonces ∛(-8) = -2."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "∛(-27) = -3, porque (-3) × (-3) × (-3) = -27.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: (-3)³ = -27."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "∛(-125) = ___",
+          "respuestaCorrecta": "-5",
+          "retroalimentacion": "(-5) × (-5) × (-5) = -125, entonces ∛(-125) = -5."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "A diferencia de la raíz cuadrada, la raíz cúbica de un número negativo...",
+          "opciones": [
+            "no existe en los números reales",
+            "siempre da un resultado positivo",
+            "es un número real negativo",
+            "siempre es igual a cero"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "La raíz cúbica de un número negativo sí existe y es negativa, porque un número negativo elevado al cubo se mantiene negativo."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada cubo perfecto negativo con su raíz cúbica.",
+          "columnaA": [
+            "-8",
+            "-64",
+            "-343",
+            "-1000"
+          ],
+          "columnaB": [
+            "-2",
+            "-4",
+            "-7",
+            "-10",
+            "-5"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "retroalimentacion": "-8=(-2)³, -64=(-4)³, -343=(-7)³ y -1000=(-10)³."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "id": "OB-05-06",
+  "grado": "Operaciones Básicas",
+  "numero": 38,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma y resta de decimales alineando el punto — Momento 6/8",
+  "contenido": "Suma y resta de números decimales, cuidando alinear el punto decimal antes de operar columna por columna.",
+  "pda": "Suma y resta números decimales alineando correctamente el punto decimal, relacionando el procedimiento con el de los números naturales.",
+  "problematizacion": {
+    "contexto": "El carpintero Tomás mide una tabla de 5.4 m de largo para armar un librero. Antes de cortarla, marca que debe descontar 2.35 m que usará para otro mueble que le encargaron.",
+    "pregunta": "¿Cuántos metros de tabla le quedarán a Tomás después de ese corte?"
+  },
+  "subtemas": [
+    {
+      "numero": "5.6",
+      "nivelEtiqueta": "Nivel 6 de 8 · Avanzado",
+      "titulo": "Restar decimales con distinta cantidad de cifras",
+      "explicacion": "Igual que en la suma, si los números tienen distinta cantidad de cifras decimales hay que completar con ceros antes de restar. Por ejemplo, 5.4 se escribe como 5.40 para poder restarle 2.35 columna por columna, incluso si hace falta pedir prestado en alguna de las columnas.",
+      "formula": "Completa con ceros a la derecha, alinea el punto y resta pidiendo prestado si hace falta",
+      "ejemplos": [
+        "5.4 - 2.35: se escribe 5.40; se pide prestado en centésimos y décimos; resultado 3.05",
+        "6.2 - 1.75 = 4.45, completando 6.2 como 6.20 antes de restar"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Resta completando con cero: 5.4 - 2.35 = ?",
+          "opciones": [
+            "3.05",
+            "3.15",
+            "2.95",
+            "3.5"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "5.4 se completa como 5.40: en los centésimos se pide prestado (10-5=5), en décimos 3-3=0 (tras prestar), en unidades 5-2=3, entonces 5.4 - 2.35 = 3.05."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "6.2 - 1.75 = 4.45",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 6.2 se completa como 6.20; pidiendo prestado en centésimos y décimos, 6.20 - 1.75 = 4.45."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "8.5 - 3.62 = ___",
+          "respuestaCorrecta": "4.88",
+          "retroalimentacion": "8.5 se completa como 8.50; pidiendo prestado, 8.50 - 3.62 = 4.88."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada resta con su resultado correcto.",
+          "columnaA": [
+            "4.6 - 1.25",
+            "7.3 - 2.15",
+            "5.0 - 0.45",
+            "9.4 - 3.6"
+          ],
+          "columnaB": [
+            "5.15",
+            "3.35",
+            "5.8",
+            "4.55",
+            "4.35"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            3,
+            2
+          ],
+          "retroalimentacion": "4.6-1.25=3.35, 7.3-2.15=5.15, 5.0-0.45=4.55 y 9.4-3.6=5.8."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "5.40"
+            },
+            {
+              "valor": "2.35",
+              "signo": "-"
+            },
+            {
+              "valor": "3.05",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0,
+              2,
+              3
+            ]
+          ],
+          "retroalimentacion": "5.4 se escribe como 5.40; pidiendo prestado en centésimos y décimos, 5.40 - 2.35 = 3.05."
+        }
+      ]
+    }
+  ]
+}

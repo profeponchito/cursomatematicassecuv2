@@ -1,0 +1,73 @@
+{
+  "id": "OB-09-07",
+  "grado": "Operaciones Básicas",
+  "numero": 71,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma y resta de números con signo (mismo signo) — Momento 7/8",
+  "contenido": "Suma y resta de números enteros con signo cuando ambos números tienen el mismo signo.",
+  "pda": "Suma y resta números enteros con el mismo signo, relacionando la regla con la suma de valores absolutos.",
+  "problematizacion": {
+    "contexto": "Un grupo de alpinistas parte de su campamento base en el Pico de Orizaba. En la mañana desciende 120 m para revisar el equipo, luego 95 m más por mal clima, y finalmente 60 m adicionales para evitar una zona de riesgo, lo que les tomó 2 horas extra de camino.",
+    "pregunta": "Sin contar el tiempo extra (que no afecta la altura), ¿cuál es el desplazamiento total del grupo respecto al campamento base?"
+  },
+  "subtemas": [
+    {
+      "numero": "9.7",
+      "nivelEtiqueta": "Nivel 7 de 8 · Reto",
+      "titulo": "Sumas y restas encadenadas del mismo signo",
+      "explicacion": "En este momento el reto es reconocer que una fila de restas seguidas (por ejemplo, -15 - 8 - 6) representa que un número negativo se aleja más y más de cero en la misma dirección, exactamente igual que si fueran puras sumas de negativos. Además, algunos problemas incluyen datos que no son necesarios para la operación: debes identificar solamente los números que realmente se suman o restan.",
+      "formula": "(-a) - b - c = -(a + b + c)",
+      "ejemplos": [
+        "Ejemplo: -15 - 8 - 6. Cada resta aleja más el resultado de cero en la dirección negativa, así que sumamos los valores absolutos: 15 + 8 + 6 = 29, y el resultado es -29."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "-15 - 8 - 6 = ?",
+          "opciones": [
+            "-29",
+            "-1",
+            "1",
+            "29"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Las tres restas se alejan en la misma dirección: 15 + 8 + 6 = 29, con signo negativo: -29."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "-12.5 - 3.25 - 1.75 = ___",
+          "respuestaCorrecta": "-17.5",
+          "retroalimentacion": "12.5 + 3.25 + 1.75 = 17.5, y el resultado conserva el signo negativo: -17.5."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Al calcular -20 - 15 - 10, el resultado es -45, porque las tres cantidades 'se alejan' en la misma dirección negativa.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 20 + 15 + 10 = 45, con signo negativo: -45."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un alpinista desciende desde su campamento base: primero baja 120 m, luego baja 95 m y después baja 60 m más para evitar una zona de riesgo (esto último le toma 2 horas extra). ¿Cuál es su desplazamiento total respecto al campamento base?",
+          "opciones": [
+            "-275 m",
+            "-215 m",
+            "215 m",
+            "275 m"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "El tiempo (2 horas) no afecta la altura. Sumamos los tres descensos: 120 + 95 + 60 = 275, con signo negativo: -275 m."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "-8.4 - 2.6 - 5 = ___",
+          "respuestaCorrecta": "-16",
+          "retroalimentacion": "8.4 + 2.6 + 5 = 16, y el resultado conserva el signo negativo: -16."
+        }
+      ]
+    }
+  ]
+}

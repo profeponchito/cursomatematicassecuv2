@@ -1,0 +1,122 @@
+{
+  "id": "OB-05-07",
+  "grado": "Operaciones Básicas",
+  "numero": 39,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma y resta de decimales alineando el punto — Momento 7/8",
+  "contenido": "Suma y resta de números decimales, cuidando alinear el punto decimal antes de operar columna por columna.",
+  "pda": "Suma y resta números decimales alineando correctamente el punto decimal, relacionando el procedimiento con el de los números naturales.",
+  "problematizacion": {
+    "contexto": "En la cocina de una telesecundaria de Chiapas, la cocinera Rosaura prepara el desayuno escolar. Empieza con 8.5 kg de arroz, agrega 2.3 kg más porque llegaron alumnos de otro grupo, y después aparta 4.15 kg para mandarlos a otro plantel.",
+    "pregunta": "¿Cuántos kilogramos de arroz le quedan disponibles a Rosaura para su grupo?"
+  },
+  "subtemas": [
+    {
+      "numero": "5.7",
+      "nivelEtiqueta": "Nivel 7 de 8 · Reto",
+      "titulo": "Combinar sumas y restas de decimales",
+      "explicacion": "En algunos problemas hay que sumar y restar varios números decimales seguidos, con distinta cantidad de cifras. Conviene alinear todos los números por el punto decimal en una sola columna vertical y resolver de arriba hacia abajo, en el orden en que aparecen, completando con ceros donde haga falta antes de operar cada columna.",
+      "formula": "Alinea todos los números por el punto y opera de arriba hacia abajo, en orden",
+      "ejemplos": [
+        "8.5 + 2.3 - 4.15: primero 8.5+2.3=10.8, luego 10.8-4.15=6.65",
+        "6.0 - 1.25 + 3.4: primero 6.0-1.25=4.75, luego 4.75+3.4=8.15"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Resuelve en orden, de izquierda a derecha: 8.5 + 2.3 - 4.15 = ?",
+          "opciones": [
+            "6.65",
+            "6.95",
+            "6.55",
+            "7.65"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Primero 8.5+2.3=10.8, y luego 10.8-4.15=6.65."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "6.0 - 1.25 + 3.4 = 8.15",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: primero 6.0-1.25=4.75, y luego 4.75+3.4=8.15."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "9.2 - 3.15 + 1.4 = ___",
+          "respuestaCorrecta": "7.45",
+          "retroalimentacion": "Primero 9.2-3.15=6.05, y luego 6.05+1.4=7.45."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "8.50"
+            },
+            {
+              "valor": "2.30",
+              "signo": "+"
+            },
+            {
+              "valor": "4.15",
+              "signo": "-"
+            },
+            {
+              "valor": "6.65",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [],
+            [
+              0,
+              2,
+              3
+            ]
+          ],
+          "retroalimentacion": "8.50 + 2.30 - 4.15: primero 8.50+2.30=10.80, luego 10.80-4.15=6.65."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "9.20"
+            },
+            {
+              "valor": "3.15",
+              "signo": "-"
+            },
+            {
+              "valor": "1.40",
+              "signo": "+"
+            },
+            {
+              "valor": "7.45",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ],
+            []
+          ],
+          "retroalimentacion": "9.20 - 3.15 + 1.40: primero 9.20-3.15=6.05, luego 6.05+1.40=7.45."
+        }
+      ]
+    }
+  ]
+}

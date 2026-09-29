@@ -1,0 +1,106 @@
+{
+  "id": "OB-01-07",
+  "grado": "Operaciones Básicas",
+  "numero": 7,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma y resta de naturales sin llevar — Momento 7/8",
+  "contenido": "Suma y resta de números naturales cuando ninguna columna requiere acarreo ni préstamo.",
+  "pda": "Resuelve sumas y restas de números naturales identificando el valor posicional de cada cifra, sin necesidad de acarreo ni préstamo.",
+  "problematizacion": {
+    "contexto": "Don Refugio es carpintero y tiene un tablón con 8756 milímetros de largo. Para hacer el marco de una puerta corta un primer tramo de 3421 milímetros y anota en su libreta cuánto le queda antes de seguir cortando.",
+    "pregunta": "¿Cuántos milímetros de tablón le quedan a Don Refugio si resta 3421 a los 8756 milímetros originales, columna por columna?"
+  },
+  "subtemas": [
+    {
+      "numero": "1.7",
+      "nivelEtiqueta": "Nivel 7 de 8 · Reto",
+      "titulo": "Restar números de cuatro cifras y restas encadenadas",
+      "explicacion": "El reto de este momento tiene dos partes: primero, restar números de cuatro cifras (unidades de millar, centenas, decenas y unidades) sin pedir prestado en ninguna columna; segundo, resolver restas encadenadas, es decir, restar dos veces seguidas para saber lo que queda después de dos descuentos. La clave sigue siendo la misma: cada columna se resuelve por separado y la cifra de arriba siempre alcanza para restar la de abajo.",
+      "formula": "millares - millares, centenas - centenas, decenas - decenas, unidades - unidades",
+      "ejemplos": [
+        "8756 - 3421: unidades 6-1=5, decenas 5-2=3, centenas 7-4=3, millares 8-3=5 → 5335",
+        "986 - 322 = 664; 664 - 143 = 521 (resta encadenada)"
+      ],
+      "puntosPorReactivo": 14,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "8756"
+            },
+            {
+              "valor": "3421",
+              "signo": "-"
+            },
+            {
+              "valor": "5335",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          "retroalimentacion": "8756 - 3421 = 5335: millares 8-3=5, centenas 7-4=3, decenas 5-2=3, unidades 6-1=5. Ninguna cifra de abajo es mayor que la de arriba."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "De 986 tortillas se vendieron 322 en la mañana y 143 en la tarde. ¿Cuántas tortillas quedaron?",
+          "opciones": [
+            "531",
+            "511",
+            "665",
+            "521"
+          ],
+          "respuestaCorrecta": 3,
+          "retroalimentacion": "986 - 322 = 664; 664 - 143 = 521. Dos restas seguidas, ninguna necesita pedir prestado."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "7658 - 3214 = 4444",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Es verdadero. Unidades 8-4=4, decenas 5-1=4, centenas 6-2=4, millares 7-3=4 → 4444."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "5847 - ___ = 2635",
+          "respuestaCorrecta": "3212",
+          "retroalimentacion": "5847 - 2635 = 3212. Comprobación: unidades 7-5=2, decenas 4-3=1, centenas 8-6=2, millares 5-2=3 → 3212."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada resta de cuatro cifras con su resultado.",
+          "columnaA": [
+            "6789 - 2345",
+            "4567 - 1234",
+            "9876 - 5431"
+          ],
+          "columnaB": [
+            "4444",
+            "3333",
+            "4445",
+            "2222"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "6789-2345=4444, 4567-1234=3333 y 9876-5431=4445, restando cada columna por separado."
+        }
+      ]
+    }
+  ]
+}

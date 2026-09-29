@@ -1,0 +1,95 @@
+{
+  "id": "OB-06-04",
+  "grado": "Operaciones Básicas",
+  "numero": 44,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma y resta de decimales con acarreo y préstamo — Momento 4/8",
+  "contenido": "Suma y resta de decimales en casos donde el acarreo o el préstamo ocurren entre posiciones decimales, incluyendo decimales con distinta cantidad de cifras.",
+  "pda": "Aplica el algoritmo de suma y resta a números decimales con distinta cantidad de cifras decimales, completando con ceros cuando sea necesario.",
+  "problematizacion": {
+    "contexto": "La ruta de camión 'Bosques–Centro' cobra pasaje distinto según el tramo. El chofer Don Efraín lleva la cuenta de cuánto ha recibido en monedas después de dos paradas, usando pesos con centavos.",
+    "pregunta": "Si en la primera parada juntó $6.70 y en la segunda $2.38 más, ¿cuánto dinero lleva Don Efraín después de esas dos paradas?"
+  },
+  "subtemas": [
+    {
+      "numero": "6.4",
+      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
+      "titulo": "Sumar decimales con distinta cantidad de cifras",
+      "explicacion": "No siempre los dos números tienen la misma cantidad de cifras decimales. Cuando uno tiene décimos y el otro décimos y centésimos, se completa con un cero a la derecha el número más corto, sin cambiar su valor (3.25 vale lo mismo que 3.250... por eso 1.4 se puede pensar como 1.40). Así todas las columnas quedan alineadas y se suma normalmente, llevando cuando haga falta.",
+      "formula": "Completa con ceros a la derecha el número con menos cifras decimales, alinea el punto y suma columna por columna.",
+      "ejemplos": [
+        "3.25 + 1.4: se completa 1.4 como 1.40. Centésimos: 5+0=5. Décimos: 2+4=6. Unidades: 3+1=4. Resultado: 4.65.",
+        "8.4 + 3.65: se completa 8.4 como 8.40. Centésimos: 0+5=5. Décimos: 4+6=10, se escribe 0 y se lleva 1. Unidades: 8+3+1=12. Resultado: 12.05."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "3.25"
+            },
+            {
+              "valor": "1.40",
+              "signo": "+"
+            },
+            {
+              "valor": "4.65",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              3
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "1.4 se completa con un cero: 1.40. Centésimos: 5+0=5. Décimos: 2+4=6. Unidades: 3+1=4. Resultado: 4.65."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Don Efraín juntó $6.70 en la primera parada y $2.38 en la segunda. ¿Cuánto lleva en total?",
+          "opciones": [
+            "$9.08",
+            "$8.08",
+            "$9.18",
+            "$6.108"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Se completa 6.7 como 6.70. Centésimos: 0+8=8. Décimos: 7+3=10, se escribe 0 y se lleva 1. Unidades: 6+2+1=9. Resultado: $9.08."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la forma correcta de alinear 12.5 + 4.75 antes de sumar?",
+          "opciones": [
+            "12.50 + 4.75",
+            "12.5 + 47.5",
+            "125.0 + 4.75",
+            "1.25 + 4.75"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "12.5 tiene solo un decimal, por eso se completa con un cero a la derecha (12.50) para igualar las cifras decimales de 4.75, sin cambiar su valor."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "5.62 + 7.5 es lo mismo que sumar 5.62 + 7.50, porque agregar un cero a la derecha de un decimal no cambia su valor.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Verdadero. 5.62 + 7.50 = 13.12: centésimos 2+0=2, décimos 6+5=11 (se lleva 1), unidades 5+7+1=13."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "9.8 + 6.45 = ___ (completa 9.8 con un cero antes de sumar)",
+          "respuestaCorrecta": "16.25",
+          "retroalimentacion": "9.8 se completa como 9.80. Centésimos: 0+5=5. Décimos: 8+4=12, se escribe 2 y se lleva 1. Unidades: 9+6+1=16. Resultado: 16.25."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "id": "OB-19-08",
+  "grado": "Operaciones Básicas",
+  "numero": 152,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "División exacta de naturales (algoritmo en columna) — Momento 8/8",
+  "contenido": "El algoritmo escrito de la división de naturales cuando el residuo final es cero.",
+  "pda": "Aplica el algoritmo de la división larga con números naturales en casos donde la división es exacta.",
+  "problematizacion": {
+    "contexto": "Para la fiesta patronal, doña Estela preparó tamales y los repartió en charolas iguales para varios puestos de venta, combinando repartos con cocientes que tienen cero y divisores de dos cifras.",
+    "pregunta": "Aplicando todo lo que sabes de la división exacta, ¿cuántos tamales puso doña Estela en cada charola si repartió 6090 tamales en 15 charolas iguales?"
+  },
+  "subtemas": [
+    {
+      "numero": "19.8",
+      "nivelEtiqueta": "Nivel 8 de 8 · Integración",
+      "titulo": "Integración: todo tipo de divisiones exactas",
+      "explicacion": "En este último momento combinas todo lo aprendido sobre la división exacta: dividendos de tres y cuatro cifras, divisores de una y dos cifras, cocientes que incluyen ceros, y la comprobación por multiplicación. Resolver estos retos te prepara para reconocer y aplicar el algoritmo de la división en columna en cualquier situación donde el residuo final sea cero.",
+      "formula": "dividendo = divisor × cociente (residuo = 0)",
+      "ejemplos": [
+        "6090 ÷ 15: siguiendo el algoritmo completo, con cuidado en las cifras y en los ceros del cociente, se obtiene 406. Comprobación: 406 × 15 = 6090.",
+        "2448 ÷ 24: aplicando el algoritmo se obtiene 102, un cociente con cero en las decenas. Comprobación: 102 × 24 = 2448."
+      ],
+      "puntosPorReactivo": 30,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "6090 ÷ 15 = ?",
+          "opciones": [
+            "406",
+            "460",
+            "416",
+            "146"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "6090 ÷ 15 = 406, porque 406 × 15 = 6090 (cociente con cero en las decenas)."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "5200 ÷ 25 = ___",
+          "respuestaCorrecta": "208",
+          "retroalimentacion": "5200 ÷ 25 = 208, porque 208 × 25 = 5200."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "2448 ÷ 24 = 102, y el cociente tiene un cero en el lugar de las decenas.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Verdadero. 102 × 24 = 2448, y en 102 el dígito de las decenas es 0."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "406"
+            },
+            {
+              "valor": "15",
+              "signo": "×"
+            },
+            {
+              "valor": "2030"
+            },
+            {
+              "valor": "4060"
+            },
+            {
+              "valor": "6090",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              0
+            ],
+            []
+          ],
+          "retroalimentacion": "Esto verifica que 6090 ÷ 15 = 406, porque 406 × 15 = 6090 (406×5=2030 y 406×10=4060, que sumados dan 6090). Observa que el cociente 406 tiene un 0 en las decenas."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada división, con divisor de una o dos cifras, con su cociente.",
+          "columnaA": [
+            "639 ÷ 9",
+            "816 ÷ 8",
+            "1288 ÷ 14",
+            "3626 ÷ 37"
+          ],
+          "columnaB": [
+            "102",
+            "92",
+            "71",
+            "98"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1,
+            3
+          ],
+          "retroalimentacion": "639 ÷ 9 = 71, 816 ÷ 8 = 102 (cero en las decenas), 1288 ÷ 14 = 92 y 3626 ÷ 37 = 98."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "9384 ÷ 46 = ?",
+      "opciones": [
+        "204",
+        "214",
+        "194",
+        "224"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "9384 ÷ 46 = 204, porque 204 × 46 = 9384 (cero en las decenas del cociente)."
+    },
+    {
+      "tipo": "algoritmo_columnas",
+      "operacion": "multiplicacion",
+      "filas": [
+        {
+          "valor": "305"
+        },
+        {
+          "valor": "23",
+          "signo": "×"
+        },
+        {
+          "valor": "915"
+        },
+        {
+          "valor": "6100"
+        },
+        {
+          "valor": "7015",
+          "esResultado": true
+        }
+      ],
+      "ocultos": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [],
+        [
+          1
+        ],
+        [
+          0
+        ]
+      ],
+      "retroalimentacion": "Esto verifica que 7015 ÷ 23 = 305, porque 305 × 23 = 7015 (305×3=915 y 305×20=6100, que sumados dan 7015). El cociente 305 combina divisor de dos cifras con cero en las decenas."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Si 134 × 27 = 3618, entonces 3618 ÷ 27 = ___.",
+      "respuestaCorrecta": "134",
+      "retroalimentacion": "Como 134 × 27 = 3618, la división 3618 ÷ 27 tiene que dar exactamente 134."
+    }
+  ]
+}

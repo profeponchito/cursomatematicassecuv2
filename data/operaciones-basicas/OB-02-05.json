@@ -1,0 +1,109 @@
+{
+  "id": "OB-02-05",
+  "grado": "Operaciones Básicas",
+  "numero": 13,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma con acarreo (algoritmo en columna) — Momento 5/8",
+  "contenido": "El algoritmo escrito de la suma de naturales cuando una o más columnas superan 9 y hay que 'llevar' al siguiente orden.",
+  "pda": "Aplica el algoritmo de la suma en columna, identificando y registrando correctamente el acarreo entre posiciones.",
+  "problematizacion": {
+    "contexto": "Doña Lupita vende tacos en su puesto del mercado. El sábado vendió 458 pesos y el domingo, que hubo más gente, vendió 367 pesos.",
+    "pregunta": "¿Cuánto vendió Doña Lupita entre el sábado y el domingo, sumando ambos días?"
+  },
+  "subtemas": [
+    {
+      "numero": "2.5",
+      "nivelEtiqueta": "Nivel 5 de 8 · Aplicación",
+      "titulo": "Doble acarreo en cadena",
+      "explicacion": "Aquí sube la dificultad: además del acarreo de unidades a decenas, ahora también habrá acarreo de decenas a centenas en la misma suma. Es importante hacerlo en orden y no perder el hilo: primero resuelves unidades y anotas su acarreo, luego sumas decenas MÁS ese acarreo y anotas el nuevo acarreo si aparece, y por último sumas centenas más el acarreo que venga de decenas. Un acarreo puede \"jalar\" a otro, como una cadena.",
+      "formula": "El acarreo de una columna se suma en la siguiente; puede repetirse columna tras columna.",
+      "ejemplos": [
+        "458 + 367: unidades 8+7=15 (escribe 5, lleva 1); decenas 5+6+1=12 (escribe 2, lleva 1); centenas 4+3+1=8; resultado 825."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "458"
+            },
+            {
+              "valor": "367",
+              "signo": "+"
+            },
+            {
+              "valor": "825",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "458 + 367: unidades 8+7=15 (se escribe 5, se lleva 1); decenas 5+6+1=12 (se escribe 2, se lleva 1); centenas 4+3+1=8. El resultado es 825."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "276"
+            },
+            {
+              "valor": "189",
+              "signo": "+"
+            },
+            {
+              "valor": "465",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              2
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "276 + 189: unidades 6+9=15 (se escribe 5, se lleva 1); decenas 7+8+1=16 (se escribe 6, se lleva 1); centenas 2+1+1=4. El resultado es 465."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En 549 + 286, la columna de las decenas da 4 + 8 + 1 (el acarreo de las unidades) = 13; se escribe 3 y se lleva ___ a las centenas.",
+          "respuestaCorrecta": "1",
+          "retroalimentacion": "Unidades: 9+6=15, se lleva 1. Decenas: 4+8+1=13, se escribe 3 y se lleva 1. Centenas: 5+2+1=8. El resultado es 835."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado de 635 + 278?",
+          "opciones": [
+            "893",
+            "903",
+            "913",
+            "923"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Unidades 5+8=13 (se lleva 1); decenas 3+7+1=11 (se lleva 1); centenas 6+2+1=9. El resultado es 913."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En 748 + 169, hay acarreo tanto en las unidades como en las decenas.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Verdadero: unidades 8+9=17 (se lleva 1); decenas 4+6+1=11 (se lleva 1 otra vez); centenas 7+1+1=9. El resultado es 917."
+        }
+      ]
+    }
+  ]
+}

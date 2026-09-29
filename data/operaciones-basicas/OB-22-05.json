@@ -1,0 +1,89 @@
+{
+  "id": "OB-22-05",
+  "grado": "Operaciones Básicas",
+  "numero": 173,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "División de decimales — Momento 5/8",
+  "contenido": "División de números decimales, incluyendo dividir un decimal entre un natural y ajustar el divisor para trabajar con números enteros.",
+  "pda": "Divide números decimales, transformando el divisor decimal en un número entero cuando es necesario.",
+  "problematizacion": {
+    "contexto": "En su taller de costura en Puebla, la señora Aurora corta piezas de listón de la misma longitud decimal a partir de un rollo, y necesita saber cuántas piezas completas obtiene dividiendo la longitud total del rollo entre la longitud de cada pieza.",
+    "pregunta": "¿Qué haces primero con el punto decimal del divisor antes de dividir la longitud del rollo entre la longitud de cada pieza?"
+  },
+  "subtemas": [
+    {
+      "numero": "22.5",
+      "nivelEtiqueta": "Nivel 5 de 8 · Aplicación",
+      "titulo": "Divisor decimal: conviértelo en número entero",
+      "explicacion": "Cuando el divisor también tiene punto decimal, el primer paso es transformarlo en un número entero. Para lograrlo, recorres el punto decimal del divisor hacia la derecha hasta que desaparezca, y recorres el punto del dividendo exactamente la misma cantidad de lugares (esto equivale a multiplicar ambos números por 10, 100, etc.). En este momento el dividendo tiene la misma cantidad de cifras decimales que el divisor, así que al recorrer el punto en ambos, los dos se vuelven números enteros de manera exacta.",
+      "formula": "Recorre el punto del divisor hasta hacerlo entero; recorre el punto del dividendo el mismo número de lugares",
+      "ejemplos": [
+        "3.6 ÷ 1.2: ambos tienen una cifra decimal, así que se recorre el punto un lugar en los dos (multiplicar por 10): 36 ÷ 12 = 3. Entonces 3.6 ÷ 1.2 = 3.",
+        "4.8 ÷ 0.6: se recorre el punto un lugar en ambos: 48 ÷ 6 = 8. Entonces 4.8 ÷ 0.6 = 8."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 3.6 ÷ 1.2?",
+          "opciones": [
+            "3",
+            "0.3",
+            "30",
+            "1.3"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Se recorre el punto un lugar en ambos números: 36 ÷ 12 = 3. Entonces 3.6 ÷ 1.2 = 3."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "4.8 ÷ 0.6 = ___",
+          "respuestaCorrecta": "8",
+          "retroalimentacion": "Se recorre el punto un lugar en ambos: 48 ÷ 6 = 8. Entonces 4.8 ÷ 0.6 = 8."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "9.6 ÷ 1.6 = 6",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: al recorrer el punto un lugar en ambos, 96 ÷ 16 = 6."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 8.75 ÷ 1.25?",
+          "opciones": [
+            "7",
+            "0.7",
+            "70",
+            "6.5"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Se recorre el punto dos lugares en ambos (multiplicar por 100): 875 ÷ 125 = 7."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada división con su cociente, después de convertir el divisor en número entero.",
+          "columnaA": [
+            "12.6 ÷ 4.2",
+            "15 ÷ 2.5",
+            "22.4 ÷ 3.2"
+          ],
+          "columnaB": [
+            "3",
+            "6",
+            "7",
+            "4"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "12.6 ÷ 4.2 = 3; 15 ÷ 2.5 = 6; 22.4 ÷ 3.2 = 7. La opción 4 no corresponde a ninguna de estas tres."
+        }
+      ]
+    }
+  ]
+}

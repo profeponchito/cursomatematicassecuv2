@@ -1,0 +1,95 @@
+{
+  "id": "OB-06-06",
+  "grado": "Operaciones Básicas",
+  "numero": 46,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma y resta de decimales con acarreo y préstamo — Momento 6/8",
+  "contenido": "Suma y resta de decimales en casos donde el acarreo o el préstamo ocurren entre posiciones decimales, incluyendo decimales con distinta cantidad de cifras.",
+  "pda": "Aplica el algoritmo de suma y resta a números decimales con distinta cantidad de cifras decimales, completando con ceros cuando sea necesario.",
+  "problematizacion": {
+    "contexto": "Sofía ahorra su domingo en una alcancía de barro y anota cada movimiento en una libreta: lo que mete y lo que a veces saca prestado para el camión, con precisión hasta los centavos y hasta fracciones más pequeñas cuando junta monedas de diferentes valores.",
+    "pregunta": "Si Sofía tenía 5.08 (en cientos de peso) ahorrados y agrega 1.925 más de una alcancía chica, ¿cuánto suma en total, aproximadamente?"
+  },
+  "subtemas": [
+    {
+      "numero": "6.6",
+      "nivelEtiqueta": "Nivel 6 de 8 · Avanzado",
+      "titulo": "Sumas y restas con centésimos y milésimos",
+      "explicacion": "En este momento las cifras decimales llegan hasta los milésimos (tres lugares después del punto) y mezclarás sumas con restas. La técnica es la misma: completar con ceros hasta igualar las cifras decimales, alinear el punto y operar columna por columna, llevando o pidiendo prestado según se necesite en cada columna, de derecha a izquierda.",
+      "formula": "Iguala las cifras decimales con ceros (hasta milésimos si hace falta) y opera de derecha a izquierda.",
+      "ejemplos": [
+        "4.125 + 2.75: se completa 2.75 como 2.750. Milésimos: 5+0=5. Centésimos: 2+5=7. Décimos: 1+7=8. Unidades: 4+2=6. Resultado: 6.875.",
+        "9.6 − 3.275: se completa 9.6 como 9.600. Milésimos: 0 es menor que 5, se pide prestado en cadena hasta las décimas. Resultado: 6.325."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "4.125"
+            },
+            {
+              "valor": "2.750",
+              "signo": "+"
+            },
+            {
+              "valor": "6.875",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              4
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "2.75 se completa como 2.750. Milésimos: 5+0=5. Centésimos: 2+5=7. Décimos: 1+7=8. Unidades: 4+2=6. Resultado: 6.875."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 9.6 − 3.275?",
+          "opciones": [
+            "6.425",
+            "6.325",
+            "6.225",
+            "7.325"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "9.6 se completa como 9.600 y se pide prestado en cadena: milésimos 10−5=5, centésimos 9(prestado)−7=2, décimos 5(prestado)−2=3, unidades 8(prestado)−3=6. Resultado: 6.325."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Sofía tenía $5.08 y agrega $1.925. ¿Cuánto tiene en total?",
+          "opciones": [
+            "$7.005",
+            "$6.985",
+            "$7.105",
+            "$6.005"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "5.08 se completa como 5.080. Milésimos: 0+5=5. Centésimos: 8+2=10, se escribe 0 y se lleva 1. Décimos: 0+9+1=10, se escribe 0 y se lleva 1. Unidades: 5+1+1=7. Resultado: 7.005."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Para restar 12.4 − 7.635, primero hay que completar 12.4 con ceros hasta los milésimos, quedando como 12.400.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Verdadero. 12.400 − 7.635 = 4.765, pidiendo prestado en cadena desde los milésimos hasta los décimos."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "3.475 + 4.6 = ___ (recuerda completar 4.6 con ceros hasta los milésimos)",
+          "respuestaCorrecta": "8.075",
+          "retroalimentacion": "4.6 se completa como 4.600. Milésimos: 5+0=5. Centésimos: 7+0=7. Décimos: 4+6=10, se escribe 0 y se lleva 1. Unidades: 3+4+1=8. Resultado: 8.075."
+        }
+      ]
+    }
+  ]
+}

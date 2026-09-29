@@ -1,0 +1,106 @@
+{
+  "id": "OB-44-01",
+  "grado": "Operaciones Básicas",
+  "numero": 345,
+  "categoria": "integracion",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Repaso integrador de operaciones básicas — Momento 1/8",
+  "contenido": "Repaso final que mezcla suma, resta, multiplicación, división, potencias y raíces en distintos tipos de número (naturales, decimales, fracciones, con signo), como cierre del apartado.",
+  "pda": "Resuelve problemas variados que integran suma, resta, multiplicación, división, potencias y raíces como repaso final del apartado.",
+  "problematizacion": {
+    "contexto": "En la papelería de la escuela Benito Juárez, la encargada Sofía prepara el pedido de útiles para el nuevo ciclo escolar. Debe sumar los cuadernos que llegaron en dos cajas distintas, calcular cuántos lápices sobraron después de venderlos y organizar paquetes de colores en grupos iguales.",
+    "pregunta": "Si en la primera caja llegaron 180 cuadernos y en la segunda 145, ¿cuántos cuadernos tiene Sofía en total antes de acomodarlos en el estante?"
+  },
+  "subtemas": [
+    {
+      "numero": "44.1",
+      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
+      "titulo": "Las cuatro operaciones con números naturales",
+      "explicacion": "En este momento repasamos las cuatro operaciones básicas -suma, resta, multiplicación y división- trabajando con números naturales, una operación a la vez. La idea es recordar el procedimiento de cada una antes de combinarlas más adelante. Presta atención al acomodo de las cifras por unidades, decenas y centenas, sobre todo cuando hay que \"llevar\" en la suma o \"pedir prestado\" en la resta.",
+      "formula": "suma: a + b · resta: a - b · multiplicación: a × b · división: a ÷ b",
+      "ejemplos": [
+        "48 + 27 = 75 (7+8=15, se escribe 5 y se lleva 1; luego 4+2+1=7)",
+        "96 ÷ 8 = 12, porque 12 × 8 = 96"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 356 + 278?",
+          "opciones": [
+            "624",
+            "634",
+            "644",
+            "734"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "356 + 278 = 634: se suman unidades, decenas y centenas llevando cuando es necesario."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "812 - 365 = 447",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 812 - 365 = 447. Se pide prestado en unidades y en decenas."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "23 × 14 = ___",
+          "respuestaCorrecta": "322",
+          "retroalimentacion": "23 × 14 = 322: puedes descomponer 14 en 10 + 4 y sumar 23×10=230 más 23×4=92."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "483"
+            },
+            {
+              "valor": "259",
+              "signo": "+"
+            },
+            {
+              "valor": "742",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "483 + 259 = 742: en las unidades 3+9=12, se escribe 2 y se lleva 1; en las decenas 8+5+1=14, se escribe 4 y se lleva 1; en las centenas 4+2+1=7."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada multiplicación con su resultado correcto.",
+          "columnaA": [
+            "12 × 12",
+            "9 × 9",
+            "15 × 6"
+          ],
+          "columnaB": [
+            "144",
+            "81",
+            "90",
+            "108"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "12×12=144, 9×9=81 y 15×6=90."
+        }
+      ]
+    }
+  ]
+}

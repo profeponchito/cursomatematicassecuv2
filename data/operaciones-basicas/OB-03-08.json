@@ -1,0 +1,157 @@
+{
+  "id": "OB-03-08",
+  "grado": "Operaciones Básicas",
+  "numero": 24,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Resta con préstamo (algoritmo en columna) — Momento 8/8",
+  "contenido": "El algoritmo escrito de la resta de naturales cuando el minuendo requiere 'pedir prestado' a la siguiente posición, incluyendo préstamo a través de ceros.",
+  "pda": "Aplica el algoritmo de la resta en columna, identificando y registrando correctamente el préstamo entre posiciones, incluso a través de ceros.",
+  "problematizacion": {
+    "contexto": "Doña Mari atiende una fonda económica cerca de una zona de oficinas. Al abrir el negocio contó 60000 centavos en monedas y billetes chicos para dar cambio, y a lo largo del día gastó parte de ese dinero en comprar ingredientes para la comida corrida.",
+    "pregunta": "Si doña Mari gastó 24689 centavos en ingredientes, ¿cuánto dinero de ese fondo inicial le queda disponible, y cómo podría comprobar que su cuenta está bien hecha?"
+  },
+  "subtemas": [
+    {
+      "numero": "3.8",
+      "nivelEtiqueta": "Nivel 8 de 8 · Integración",
+      "titulo": "Cierre: resolver y comprobar restas con préstamo",
+      "explicacion": "Para cerrar el tema, no solo se trata de resolver restas con distintos tipos de préstamo, sino también de comprobar que el resultado sea correcto. Una forma sencilla de comprobar una resta es sumar el resultado más el sustraendo: si esa suma da el minuendo original, la resta está bien hecha. Este momento integra números con uno o varios ceros, préstamos encadenados y la comprobación por suma, todo lo que se practicó en los momentos anteriores.",
+      "formula": "Comprobación: resultado + sustraendo = minuendo.",
+      "ejemplos": [
+        "En 60000 - 24689 = 35311: para comprobar, se suma 35311 + 24689, y el resultado debe ser 60000."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "60000"
+            },
+            {
+              "valor": "24689",
+              "signo": "-"
+            },
+            {
+              "valor": "35311",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1,
+              2,
+              3,
+              4
+            ],
+            [
+              0
+            ],
+            []
+          ],
+          "retroalimentacion": "60000 - 24689 = 35311. Los cuatro últimos dígitos del minuendo son 0, así que el préstamo viaja desde las decenas de millar hasta las unidades: cada posición intermedia queda en 9 antes de restar. Unidades: 10-9=1, decenas: 9-8=1, centenas: 9-6=3, millares: 9-4=5, decenas de millar: 5-2=3."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Para comprobar que 5218 - 1739 = 3479 está bien resuelta, ¿qué operación debes hacer?",
+          "opciones": [
+            "3479 - 1739 y ver si da 5218",
+            "3479 + 1739 y ver si da 5218",
+            "1739 + 5218 y ver si da 3479",
+            "5218 + 1739 y ver si da 3479"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "La comprobación de una resta es sumar el resultado más el sustraendo: 3479 + 1739 = 5218, que es el minuendo original."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Para comprobar el resultado de una resta, se puede sumar el resultado más el sustraendo; si da el minuendo, la resta está bien hecha.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: resultado + sustraendo debe ser igual al minuendo original; es la forma más rápida de comprobar una resta."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si 8005 - 3247 = 4758, entonces para comprobarlo se calcula 4758 + 3247, que debe dar ___.",
+          "respuestaCorrecta": "8005",
+          "retroalimentacion": "4758 + 3247 = 8005, que es justo el minuendo original; eso confirma que la resta está bien hecha."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada resta con su resultado correcto.",
+          "columnaA": [
+            "9004 - 3567",
+            "742 - 385",
+            "63204 - 41738"
+          ],
+          "columnaB": [
+            "357",
+            "5437",
+            "21466",
+            "4892"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            2
+          ],
+          "retroalimentacion": "9004-3567=5437, 742-385=357 y 63204-41738=21466; las tres requieren préstamo, algunas a través de ceros."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "algoritmo_columnas",
+      "operacion": "resta",
+      "filas": [
+        {
+          "valor": "70000"
+        },
+        {
+          "valor": "38562",
+          "signo": "-"
+        },
+        {
+          "valor": "31438",
+          "esResultado": true
+        }
+      ],
+      "ocultos": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0
+        ],
+        [
+          4
+        ]
+      ],
+      "retroalimentacion": "70000 - 38562 = 31438. Tres ceros consecutivos obligan al préstamo a viajar desde las decenas de millar hasta las unidades. Unidades: 10-2=8, decenas: 9-6=3, centenas: 9-5=4, millares: 9-8=1, decenas de millar: 6-3=3."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Un cajero necesita calcular cuánto cambio dar: el cliente pagó con un billete de 500 pesos una compra de 286 pesos. ¿Cuál es el vuelto correcto?",
+      "opciones": [
+        "214 pesos",
+        "314 pesos",
+        "224 pesos",
+        "204 pesos"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "500 - 286 = 214: las unidades piden prestado, las decenas son 0 y el préstamo viaja hasta las centenas."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Calcula: 900500 - 456789 = ___.",
+      "respuestaCorrecta": "443711",
+      "retroalimentacion": "900500 - 456789 = 443711. Es una resta con varios préstamos encadenados, incluyendo ceros, igual que las que ya dominas."
+    }
+  ]
+}

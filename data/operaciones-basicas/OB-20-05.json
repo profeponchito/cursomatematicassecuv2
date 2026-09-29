@@ -1,0 +1,89 @@
+{
+  "id": "OB-20-05",
+  "grado": "Operaciones Básicas",
+  "numero": 157,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "División con residuo — Momento 5/8",
+  "contenido": "División de naturales donde el resultado deja un residuo distinto de cero, e interpretación de ese residuo según el contexto.",
+  "pda": "Aplica el algoritmo de la división larga identificando e interpretando el residuo en distintos contextos.",
+  "problematizacion": {
+    "contexto": "En un puesto de dulces típicos de Michoacán, la señora Carmen tiene 130 pesos en monedas de diez pesos... en realidad tiene 130 pesos en total y quiere repartirlos entre 12 empleados como propina, dando la misma cantidad a cada uno.",
+    "pregunta": "Después de darle a cada empleado la misma cantidad de pesos, ¿qué debería hacer la señora Carmen con el dinero que le sobre?"
+  },
+  "subtemas": [
+    {
+      "numero": "20.5",
+      "nivelEtiqueta": "Nivel 5 de 8 · Aplicación",
+      "titulo": "¿Qué significa el residuo aquí?",
+      "explicacion": "Calcular el residuo es solo la mitad del trabajo: lo importante es saber qué representa en la vida real. Cuando repartes objetos, dinero o materiales en partes iguales, el residuo casi siempre es lo que queda sin poder repartirse en otra parte completa, ya sea porque no alcanza, porque se guarda para después o porque se necesita resolver de otra manera. En este momento practicarás interpretar el residuo dentro de una situación, no solo calcularlo.",
+      "ejemplos": [
+        "95 dulces entre 8 niños: cociente 11 (dulces por niño), residuo 7 (dulces que sobran sin repartir, porque ya no alcanzan para dar uno más a cada quien)."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Se reparten 95 dulces entre 8 niños en partes iguales. Después de dar 11 dulces a cada uno, ¿qué representa el residuo de esta división?",
+          "opciones": [
+            "Los dulces que sobraron sin repartir",
+            "El número de niños",
+            "El total de dulces",
+            "La cantidad que le tocó a cada niño"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "8×11=88, y 95-88=7. El residuo (7) son los dulces que no alcanzaron para repartirse otra vez."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Al repartir 95 dulces entre 8 niños en partes iguales, a cada niño le tocan 11 dulces y sobran ___ dulces.",
+          "respuestaCorrecta": "7",
+          "retroalimentacion": "8×11=88, y 95-88=7."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si se reparten 130 pesos entre 12 personas en partes iguales, a cada una le tocan 10 pesos y sobran 10 pesos sin repartir.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "12×10=120, y 130-120=10. Es verdadero: sobran 10 pesos que no alcanzan para dar uno más a cada persona."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un vendedor tiene 84 lápices y arma paquetes de 9. Arma 9 paquetes completos. ¿Cuántos lápices le quedan sueltos?",
+          "opciones": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "9×9=81, y 84-81=3. Le quedan 3 lápices sueltos."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación con lo que representa su residuo.",
+          "columnaA": [
+            "205 ÷ 15 (grupos de 15 personas)",
+            "95 ÷ 8 (dulces entre niños)",
+            "130 ÷ 12 (pesos entre personas)",
+            "84 ÷ 9 (lápices en paquetes)"
+          ],
+          "columnaB": [
+            "pesos sobrantes: 10",
+            "lápices sueltos: 3",
+            "personas sin grupo completo: 10",
+            "dulces sobrantes: 7"
+          ],
+          "parejasCorrectas": [
+            2,
+            3,
+            0,
+            1
+          ],
+          "retroalimentacion": "205÷15=13 r10; 95÷8=11 r7; 130÷12=10 r10; 84÷9=9 r3."
+        }
+      ]
+    }
+  ]
+}

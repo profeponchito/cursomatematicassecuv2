@@ -1,0 +1,91 @@
+{
+  "id": "OB-11-05",
+  "grado": "Operaciones Básicas",
+  "numero": 85,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Estimación y redondeo antes de sumar y restar — Momento 5/8",
+  "contenido": "Estimación del resultado de una suma o resta mediante redondeo, para desarrollar sentido numérico antes del cálculo exacto.",
+  "pda": "Estima el resultado de sumas y restas mediante redondeo, y lo usa para verificar si un cálculo exacto es razonable.",
+  "problematizacion": {
+    "contexto": "Don Efraín atiende una tienda de abarrotes en Mérida. Antes de dar el cambio exacto a un cliente que compró 92 pesos en mercancía y pagó con un billete de 200 pesos, Efraín calcula una diferencia aproximada redondeando ambas cantidades a la decena o centena más cercana, para revisar rápido si trae suficiente cambio en la caja.",
+    "pregunta": "¿Cuál sería la estimación rápida del cambio que debe preparar don Efraín, redondeando antes de restar?"
+  },
+  "subtemas": [
+    {
+      "numero": "11.5",
+      "nivelEtiqueta": "Nivel 5 de 8 · Aplicación",
+      "titulo": "Estimar restas redondeando a la decena o centena",
+      "explicacion": "Estimar una resta funciona igual que estimar una suma: se redondea el minuendo y el sustraendo a la decena o a la centena más cercana, según el tamaño de los números, y luego se restan los valores ya redondeados. Esta estimación es muy útil para calcular cambios de dinero, diferencias de distancia o de tiempo de forma rápida. Es importante redondear ambos números con el mismo criterio (decena o centena) para que la comparación sea justa.",
+      "formula": "Estimación de la resta = (minuendo redondeado) − (sustraendo redondeado)",
+      "ejemplos": [
+        "Estimar 86 − 34 redondeando a la decena: 86→90, 34→30. Estimación: 90 − 30 = 60.",
+        "Estimar 573 − 248 redondeando a la centena: 573→600, 248→200. Estimación: 600 − 200 = 400."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Estima 92 − 47 redondeando cada número a la decena más cercana.",
+          "opciones": [
+            "30",
+            "40",
+            "50",
+            "45"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "92 se redondea a 90 y 47 se redondea a 50. La estimación es 90 − 50 = 40."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Redondeando a la centena, 618 − 253 se estima en ___.",
+          "respuestaCorrecta": "300",
+          "retroalimentacion": "618 se redondea a 600 y 253 se redondea a 300. La estimación es 600 − 300 = 300."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Al redondear 745 y 289 a la centena más cercana y restarlos, la estimación es 500.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: 745 se redondea a 700 y 289 se redondea a 300. La estimación correcta es 700 − 300 = 400, no 500."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la mejor estimación de 81 − 26 redondeando cada número a la decena?",
+          "opciones": [
+            "40",
+            "50",
+            "55",
+            "60"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "81 se redondea a 80 y 26 se redondea a 30. La estimación es 80 − 30 = 50."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada resta con su estimación (usa decena para números de 2 cifras y centena para números de 3 cifras).",
+          "columnaA": [
+            "96 − 38",
+            "584 − 217",
+            "73 − 19",
+            "829 − 341"
+          ],
+          "columnaB": [
+            "50",
+            "60",
+            "400",
+            "500"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0,
+            3
+          ],
+          "retroalimentacion": "96−38→100−40=60; 584−217→600−200=400; 73−19→70−20=50; 829−341→800−300=500."
+        }
+      ]
+    }
+  ]
+}

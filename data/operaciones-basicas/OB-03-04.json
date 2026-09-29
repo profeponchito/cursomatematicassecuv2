@@ -1,0 +1,106 @@
+{
+  "id": "OB-03-04",
+  "grado": "Operaciones Básicas",
+  "numero": 20,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Resta con préstamo (algoritmo en columna) — Momento 4/8",
+  "contenido": "El algoritmo escrito de la resta de naturales cuando el minuendo requiere 'pedir prestado' a la siguiente posición, incluyendo préstamo a través de ceros.",
+  "pda": "Aplica el algoritmo de la resta en columna, identificando y registrando correctamente el préstamo entre posiciones, incluso a través de ceros.",
+  "problematizacion": {
+    "contexto": "Don Genaro maneja un camión foráneo entre dos ciudades. El odómetro marcaba 8324 kilómetros al iniciar el mes, y el mecánico anotó que, sin contar un tramo ya registrado de 1567 kilómetros, faltaba calcular el resto del recorrido.",
+    "pregunta": "¿Cuántos kilómetros le faltan por registrar a don Genaro si se resta 8324 - 1567?"
+  },
+  "subtemas": [
+    {
+      "numero": "3.4",
+      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
+      "titulo": "Préstamos encadenados en cuatro cifras",
+      "explicacion": "Con números de cuatro cifras, el mismo patrón de préstamo se repite en más columnas: unidades, decenas, centenas y millares. Puede haber varios préstamos encadenados, uno tras otro, sin que ninguno de los dígitos del minuendo sea cero todavía. La clave sigue siendo la misma: resolver de derecha a izquierda y actualizar cada dígito antes de pasar a la siguiente columna.",
+      "formula": "Cuatro columnas, mismo procedimiento: unidades, decenas, centenas, millares, de derecha a izquierda.",
+      "ejemplos": [
+        "En 8324 - 1567: unidades 4<7 piden prestado (14-7=7); decenas quedan en 1, y 1<6 piden prestado (11-6=5); centenas quedan en 2, y 2<5 piden prestado (12-5=7); millares: (8-1)-1=6. Resultado: 6757."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "8324"
+            },
+            {
+              "valor": "1567",
+              "signo": "-"
+            },
+            {
+              "valor": "6757",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0,
+              2
+            ],
+            [
+              1
+            ],
+            [
+              3
+            ]
+          ],
+          "retroalimentacion": "8324 - 1567 = 6757. Hay tres préstamos encadenados: unidades (14-7=7), decenas (11-6=5), centenas (12-5=7); en millares queda 7-1=6."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuántas veces se pide prestado al resolver 7241 - 3586?",
+          "opciones": [
+            "1 vez",
+            "2 veces",
+            "3 veces",
+            "4 veces"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Se pide prestado en las unidades, las decenas y las centenas: 7241 - 3586 = 3655, con tres préstamos encadenados."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En una resta de cuatro cifras, el préstamo puede afectar a más de dos posiciones si los dígitos del minuendo son pequeños.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: si varias columnas del minuendo tienen dígitos menores que los del sustraendo, el préstamo se repite en cada una."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En 6543 - 2789, la resta de las centenas queda como ___ - 7 (ya con el préstamo incluido).",
+          "respuestaCorrecta": "14",
+          "retroalimentacion": "Las centenas de 6543 son 5; al prestar 1 a las decenas quedan en 4, y como 4 es menor que 7 se vuelve a pedir prestado: 14 - 7 = 7."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada resta con cuántas veces se pide prestado.",
+          "columnaA": [
+            "5432 - 1211",
+            "7364 - 2159",
+            "9642 - 3785"
+          ],
+          "columnaB": [
+            "0 veces",
+            "1 vez",
+            "2 veces",
+            "3 veces"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            3
+          ],
+          "retroalimentacion": "5432-1211 no pide prestado; 7364-2159 pide prestado una vez; 9642-3785 pide prestado tres veces."
+        }
+      ]
+    }
+  ]
+}

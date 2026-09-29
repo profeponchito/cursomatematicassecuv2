@@ -1,0 +1,74 @@
+{
+  "id": "OB-21-04",
+  "grado": "Operaciones Básicas",
+  "numero": 164,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "División entre decenas, centenas y potencias de 10 — Momento 4/8",
+  "contenido": "División de un número entre 10, 100, 1000 y sus múltiplos, identificando el patrón inverso al de la multiplicación por potencias de 10.",
+  "pda": "Divide números naturales entre potencias de 10 y sus múltiplos, reconociendo el patrón que sigue el resultado.",
+  "problematizacion": {
+    "contexto": "Una empresa de autobuses foráneos debe trasladar a 840 pasajeros de Puebla a la Ciudad de México, usando camiones que tienen capacidad para 20 asientos cada uno.",
+    "pregunta": "¿Cuántos camiones de 20 asientos necesita la empresa para trasladar a los 840 pasajeros?"
+  },
+  "subtemas": [
+    {
+      "numero": "21.4",
+      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
+      "titulo": "Dividir entre múltiplos de 10, 100 y 1000",
+      "explicacion": "Muchos divisores no son exactamente 10, 100 o 1000, sino múltiplos de ellos, como 20, 300 o 4000. Para dividir entre estos números se puede separar el divisor en la potencia de 10 y el dígito que sobra: primero se divide entre la potencia de 10 (quitando o corriendo ceros, como ya aprendiste) y después ese resultado se divide entre el dígito restante. Esta estrategia convierte un problema aparentemente difícil en dos pasos que ya conoces.",
+      "formula": "número ÷ (d × 10ⁿ) = (número ÷ 10ⁿ) ÷ d",
+      "ejemplos": [
+        "840 ÷ 20: primero 840 ÷ 10 = 84, y después 84 ÷ 2 = 42. Comprobación: 42 × 20 = 840.",
+        "6300 ÷ 300: primero 6300 ÷ 100 = 63, y después 63 ÷ 3 = 21. Comprobación: 21 × 300 = 6300."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 840 ÷ 20?",
+          "opciones": [
+            "42",
+            "4.2",
+            "420",
+            "84"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "840 ÷ 10 = 84, y 84 ÷ 2 = 42. Comprobación: 42 × 20 = 840."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "6300 ÷ 300 = ___",
+          "respuestaCorrecta": "21",
+          "retroalimentacion": "6300 ÷ 100 = 63, y 63 ÷ 3 = 21. Comprobación: 21 × 300 = 6300."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "4000 ÷ 2000 = 2",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Verdadero. 4000 ÷ 1000 = 4, y 4 ÷ 2 = 2. Comprobación: 2 × 2000 = 4000."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 9000 ÷ 300?",
+          "opciones": [
+            "3",
+            "30",
+            "300",
+            "90"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "9000 ÷ 100 = 90, y 90 ÷ 3 = 30. Comprobación: 30 × 300 = 9000."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "12000 ÷ 4000 = ___",
+          "respuestaCorrecta": "3",
+          "retroalimentacion": "12000 ÷ 1000 = 12, y 12 ÷ 4 = 3. Comprobación: 3 × 4000 = 12000."
+        }
+      ]
+    }
+  ]
+}

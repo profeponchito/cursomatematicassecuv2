@@ -1,0 +1,97 @@
+{
+  "id": "OB-04-04",
+  "grado": "Operaciones Básicas",
+  "numero": 28,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma y resta de naturales grandes por posición — Momento 4/8",
+  "contenido": "Suma y resta de números de varias cifras (miles, decenas de mil), reforzando el valor posicional como base del algoritmo.",
+  "pda": "Suma y resta números naturales de varias cifras, descomponiendo cada número por su valor posicional (unidades, decenas, centenas, miles).",
+  "problematizacion": {
+    "contexto": "Don Efrén maneja un camión de mudanzas en Monterrey. Su camión salió de la bodega cargado con 8,756 kilogramos entre todas las cajas, y en la primera entrega bajó cajas que pesaban 3,421 kilogramos en total.",
+    "pregunta": "¿Cuántos kilogramos de carga le quedan al camión de Don Efrén después de esa entrega?"
+  },
+  "subtemas": [
+    {
+      "numero": "4.4",
+      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
+      "titulo": "Restar en columnas sin pedir prestado",
+      "explicacion": "La resta también se acomoda en columnas alineadas por posición, pero de arriba hacia abajo: el minuendo (el número mayor) va arriba y el sustraendo (el que se quita) va abajo. En este momento, en cada columna el dígito de arriba siempre es mayor o igual que el de abajo, así que todavía no necesitas pedir prestado: solo restas cada columna por separado.",
+      "formula": "Alinear por posición y restar columna por columna, de derecha a izquierda",
+      "ejemplos": [
+        "8,756 - 3,421: unidades 6-1=5, decenas 5-2=3, centenas 7-4=3, millares 8-3=5. Resultado: 5,335."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "8756"
+            },
+            {
+              "valor": "3421",
+              "signo": "-"
+            },
+            {
+              "valor": "5335",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          "retroalimentacion": "8,756 - 3,421 = 5,335. En todas las columnas el dígito de arriba es mayor o igual al de abajo, así que no hace falta pedir prestado."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "6,489 - 2,156 = ?",
+          "opciones": [
+            "4,233",
+            "4,333",
+            "4,343",
+            "4,323"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Unidades 9-6=3, decenas 8-5=3, centenas 4-1=3, millares 6-2=4. Resultado: 4,333."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "9,647 - 3,215 = 6,432.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: unidades 7-5=2, decenas 4-1=3, centenas 6-2=4, millares 9-3=6. Resultado: 6,432."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "7,586 - 2,364 = ___.",
+          "respuestaCorrecta": "5222",
+          "retroalimentacion": "Unidades 6-4=2, decenas 8-6=2, centenas 5-3=2, millares 7-2=5. Resultado: 5,222."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una bodega tenía 5,978 cajas registradas y sacó 2,145 para reparto. ¿Cuántas cajas quedan en la bodega?",
+          "opciones": [
+            "3,733",
+            "3,823",
+            "3,833",
+            "3,843"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "5,978 - 2,145 = 3,833: unidades 8-5=3, decenas 7-4=3, centenas 9-1=8, millares 5-2=3."
+        }
+      ]
+    }
+  ]
+}

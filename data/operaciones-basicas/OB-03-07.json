@@ -1,0 +1,107 @@
+{
+  "id": "OB-03-07",
+  "grado": "Operaciones Básicas",
+  "numero": 23,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Resta con préstamo (algoritmo en columna) — Momento 7/8",
+  "contenido": "El algoritmo escrito de la resta de naturales cuando el minuendo requiere 'pedir prestado' a la siguiente posición, incluyendo préstamo a través de ceros.",
+  "pda": "Aplica el algoritmo de la resta en columna, identificando y registrando correctamente el préstamo entre posiciones, incluso a través de ceros.",
+  "problematizacion": {
+    "contexto": "El maestro Herminio es carpintero y compró una lámina grande de madera de 90003 centímetros cuadrados para hacer varios muebles. Para un pedido de closets usó una superficie de 45678 centímetros cuadrados de esa lámina.",
+    "pregunta": "¿Cuántos centímetros cuadrados de madera le quedan al maestro Herminio para otros trabajos?"
+  },
+  "subtemas": [
+    {
+      "numero": "3.7",
+      "nivelEtiqueta": "Nivel 7 de 8 · Reto",
+      "titulo": "Números grandes con préstamos y ceros combinados",
+      "explicacion": "En este momento los números tienen cinco cifras y combinan todo lo aprendido: préstamos simples, encadenados y a través de ceros, a veces varios en la misma resta. Resolver estos casos exige ir columna por columna sin saltarse pasos, y también revisar el trabajo de otras personas para detectar en qué paso pudo haber un error. Es un buen momento para poner a prueba todo lo que ya dominas del algoritmo de la resta.",
+      "formula": "Mismo procedimiento, más columnas: revisa cada una de derecha a izquierda, sin adelantarte.",
+      "ejemplos": [
+        "En 90003 - 45678: las decenas, centenas y millares del minuendo son 0. El préstamo viaja desde las decenas de millar (9→8) hasta las unidades, y cada posición intermedia queda en 9 antes de restar. Resultado: 44325."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "90003"
+            },
+            {
+              "valor": "45678",
+              "signo": "-"
+            },
+            {
+              "valor": "44325",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1,
+              2,
+              3
+            ],
+            [
+              4
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "90003 - 45678 = 44325. Hay tres ceros consecutivos (millares, centenas y decenas) que no pueden prestar directamente: el préstamo viaja desde las decenas de millar (9→8) hasta las unidades, dejando 9-9-9 en las posiciones intermedias antes de restar. Unidades: 13-8=5, decenas: 9-7=2, centenas: 9-6=3, millares: 9-5=4, decenas de millar: 8-4=4."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un alumno calculó 50004 - 26789 y obtuvo 24215, pero se equivocó. ¿Cuál fue su error más probable?",
+          "opciones": [
+            "Olvidó pedir prestado en las unidades",
+            "No hizo que el préstamo atravesara los ceros correctamente",
+            "Sumó en lugar de restar",
+            "Escribió mal el resultado final, pero el procedimiento fue correcto"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "El resultado correcto es 50004 - 26789 = 23215. El error más común en estos casos es no llevar bien la cuenta de cuánto queda en cada cero que el préstamo atraviesa."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Entre más ceros consecutivos tenga el minuendo en las posiciones donde se necesita pedir prestado, más lejos debe 'viajar' el préstamo.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: el préstamo avanza una posición por cada cero que encuentra, hasta hallar una cifra distinta de cero."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En 70004 - 32456, después de que el préstamo atraviesa los tres ceros, las unidades pasan de 4 a ___ antes de restar 6.",
+          "respuestaCorrecta": "14",
+          "retroalimentacion": "Las unidades reciben el préstamo final: 4 + 10 = 14, y entonces 14 - 6 = 8; el resultado completo es 70004 - 32456 = 37548."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada resta con cuántos ceros consecutivos debe atravesar el préstamo.",
+          "columnaA": [
+            "80002 - 34567",
+            "63504 - 21369",
+            "45230 - 12456"
+          ],
+          "columnaB": [
+            "0 ceros",
+            "1 cero",
+            "2 ceros",
+            "3 ceros"
+          ],
+          "parejasCorrectas": [
+            3,
+            1,
+            0
+          ],
+          "retroalimentacion": "80002-34567 atraviesa 3 ceros seguidos; 63504-21369 atraviesa 1 cero; 45230-12456 no atraviesa ningún cero, aunque pide prestado varias veces."
+        }
+      ]
+    }
+  ]
+}

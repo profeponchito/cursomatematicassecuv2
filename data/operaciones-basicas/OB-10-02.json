@@ -1,0 +1,91 @@
+{
+  "id": "OB-10-02",
+  "grado": "Operaciones Básicas",
+  "numero": 74,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma y resta de números con signo (signos distintos) — Momento 2/8",
+  "contenido": "Suma y resta de números enteros con signo cuando los números tienen signos distintos, incluyendo la resta como suma del opuesto.",
+  "pda": "Suma y resta números enteros con signos distintos, aplicando la regla de signos y la resta como suma del opuesto.",
+  "problematizacion": {
+    "contexto": "Doña Rosa tiene un puesto de frutas en el mercado sobre ruedas de su colonia. Cada día anota cuánto gana en ventas y cuánto debe pagar por el transporte de la mercancía, usando números negativos para los gastos.",
+    "pregunta": "Si un día vendió el equivalente a 34 (positivo) y debió pagar 52 (negativo) de transporte, ¿su balance de ese día fue favorable o desfavorable?"
+  },
+  "subtemas": [
+    {
+      "numero": "10.2",
+      "nivelEtiqueta": "Nivel 2 de 8 · Básico",
+      "titulo": "Sumas de signos distintos con números de dos cifras",
+      "explicacion": "Ahora aplicarás la misma regla de signos distintos, pero con números más grandes, de dos cifras. Recuerda: identifica cuál número tiene mayor valor absoluto, resta los valores absolutos (el mayor menos el menor) y coloca el signo del número con mayor valor absoluto. Trabajar con números de dos cifras te ayuda a automatizar el procedimiento sin depender de contar con los dedos o dibujar una recta numérica completa.",
+      "formula": "a + (-b), con |a| ≠ |b|: resultado = (mayor valor absoluto − menor valor absoluto), con el signo del número de mayor valor absoluto.",
+      "ejemplos": [
+        "-23 + 15: valores absolutos 23 y 15; 23 > 15, entonces el resultado es negativo: 23 - 15 = 8, así que -23 + 15 = -8.",
+        "34 + (-52): valores absolutos 34 y 52; 52 > 34, entonces el resultado es negativo: 52 - 34 = 18, así que 34 + (-52) = -18."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "-23 + 15 = ?",
+          "opciones": [
+            "8",
+            "-38",
+            "38",
+            "-8"
+          ],
+          "respuestaCorrecta": 3,
+          "retroalimentacion": "Valores absolutos 23 y 15; 23 > 15, resultado negativo: 23 - 15 = 8, entonces -23 + 15 = -8."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "34 + (-52) = ?",
+          "opciones": [
+            "-18",
+            "18",
+            "-86",
+            "86"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Valores absolutos 34 y 52; 52 > 34, resultado negativo: 52 - 34 = 18, entonces 34 + (-52) = -18."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El resultado de -47 + 30 es ___.",
+          "respuestaCorrecta": "-17",
+          "retroalimentacion": "Valores absolutos 47 y 30; 47 > 30, resultado negativo: 47 - 30 = 17, entonces -47 + 30 = -17."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "-19 + 40 = 19.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: -19 + 40 = 21, no 19. Se restan los valores absolutos (40 - 19 = 21) y se usa el signo del mayor, que es positivo."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada suma con su resultado correcto.",
+          "columnaA": [
+            "-25 + 40",
+            "36 + (-50)",
+            "-18 + 18",
+            "-60 + 22"
+          ],
+          "columnaB": [
+            "-14",
+            "0",
+            "-38",
+            "15"
+          ],
+          "parejasCorrectas": [
+            3,
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "-25 + 40 = 15; 36 + (-50) = -14; -18 + 18 = 0; -60 + 22 = -38."
+        }
+      ]
+    }
+  ]
+}

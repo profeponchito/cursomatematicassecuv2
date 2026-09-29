@@ -1,0 +1,91 @@
+{
+  "id": "OB-10-06",
+  "grado": "Operaciones Básicas",
+  "numero": 78,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma y resta de números con signo (signos distintos) — Momento 6/8",
+  "contenido": "Suma y resta de números enteros con signo cuando los números tienen signos distintos, incluyendo la resta como suma del opuesto.",
+  "pda": "Suma y resta números enteros con signos distintos, aplicando la regla de signos y la resta como suma del opuesto.",
+  "problematizacion": {
+    "contexto": "Un albañil lleva el control de material de una obra: registra las varillas que le entregan, las que se usan en un día y las que le regresan de una entrega anterior, todo en una sola libreta de números con signo.",
+    "pregunta": "Si recibe 80 varillas, usa 60 en el día y le regresan otras del almacén, ¿cómo calcularía el total que le queda disponible al final?"
+  },
+  "subtemas": [
+    {
+      "numero": "10.6",
+      "nivelEtiqueta": "Nivel 6 de 8 · Avanzado",
+      "titulo": "Cadenas de tres términos con signos distintos",
+      "explicacion": "Cuando una expresión tiene tres o más términos con signos distintos, resuélvela de izquierda a derecha, un paso a la vez: primero opera los dos primeros números y guarda ese resultado, después combínalo con el siguiente término. No hace falta ningún truco especial, solo aplicar la regla de signos distintos las veces que sea necesario, con cuidado de no perder el signo en cada paso.",
+      "formula": "(a ± b) ± c: resuelve de izquierda a derecha, un paso a la vez.",
+      "ejemplos": [
+        "-35 + 80 - 62: primero -35 + 80 = 45; después 45 - 62 = -17.",
+        "120 - 145 + 38: primero 120 - 145 = -25; después -25 + 38 = 13."
+      ],
+      "puntosPorReactivo": 20,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "-35 + 80 - 62 = ?",
+          "opciones": [
+            "17",
+            "-177",
+            "177",
+            "-17"
+          ],
+          "respuestaCorrecta": 3,
+          "retroalimentacion": "-35 + 80 = 45; 45 - 62 = -17."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "120 - 145 + 38 = ?",
+          "opciones": [
+            "13",
+            "-13",
+            "-303",
+            "303"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "120 - 145 = -25; -25 + 38 = 13."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "-96 + 150 - 40 = ___.",
+          "respuestaCorrecta": "14",
+          "retroalimentacion": "-96 + 150 = 54; 54 - 40 = 14."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "68 - 200 + 95 = -27.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: 68 - 200 = -132; -132 + 95 = -37, no -27."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada cadena de operaciones con su resultado.",
+          "columnaA": [
+            "-50 + 130 - 60",
+            "90 - 160 + 40",
+            "-18 - 45 + 80",
+            "150 - 90 - 80"
+          ],
+          "columnaB": [
+            "-30",
+            "17",
+            "20",
+            "-20"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1,
+            3
+          ],
+          "retroalimentacion": "-50+130-60=20; 90-160+40=-30; -18-45+80=17; 150-90-80=-20."
+        }
+      ]
+    }
+  ]
+}

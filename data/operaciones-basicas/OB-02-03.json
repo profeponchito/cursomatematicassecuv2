@@ -1,0 +1,105 @@
+{
+  "id": "OB-02-03",
+  "grado": "Operaciones Básicas",
+  "numero": 11,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma con acarreo (algoritmo en columna) — Momento 3/8",
+  "contenido": "El algoritmo escrito de la suma de naturales cuando una o más columnas superan 9 y hay que 'llevar' al siguiente orden.",
+  "pda": "Aplica el algoritmo de la suma en columna, identificando y registrando correctamente el acarreo entre posiciones.",
+  "problematizacion": {
+    "contexto": "El camión de la ruta 12 hace su recorrido por la mañana y por la tarde. Según el chofer, en el recorrido matutino subieron 246 pasajeros y en el vespertino subieron 38 pasajeros más.",
+    "pregunta": "¿Cuántos pasajeros subieron al camión de la ruta 12 durante todo el día, sumando ambos recorridos?"
+  },
+  "subtemas": [
+    {
+      "numero": "2.3",
+      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
+      "titulo": "Acarreo con números de tres cifras",
+      "explicacion": "El mismo procedimiento del acarreo funciona sin importar cuántas cifras tenga el número: siempre empiezas por las unidades y avanzas hacia la izquierda. En este momento vas a sumar un número de tres cifras con uno de dos cifras, y seguirá habiendo un solo acarreo, de unidades a decenas. La columna de las centenas simplemente se copia o se suma sin recibir ningún acarreo extra, porque el resultado de la columna de las decenas no llega a 10.",
+      "formula": "Alinea los números por la derecha (unidades bajo unidades) y suma columna por columna, de derecha a izquierda.",
+      "ejemplos": [
+        "246 + 38: unidades 6 + 8 = 14, se escribe 4 y se lleva 1; decenas 4 + 3 + 1 = 8; centenas 2 + 0 = 2; resultado 284."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "246"
+            },
+            {
+              "valor": "38",
+              "signo": "+"
+            },
+            {
+              "valor": "284",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "246 + 38: unidades 6 + 8 = 14, se escribe 4 y se lleva 1; decenas 4 + 3 + 1 = 8; centenas 2. El resultado es 284."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "357"
+            },
+            {
+              "valor": "26",
+              "signo": "+"
+            },
+            {
+              "valor": "383",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "357 + 26: unidades 7 + 6 = 13, se escribe 3 y se lleva 1; decenas 5 + 2 + 1 = 8; centenas 3. El resultado es 383."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En 428 + 45, la columna de las unidades da 8 + 5 = 13; se escribe 3 y se lleva ___ a las decenas.",
+          "respuestaCorrecta": "1",
+          "retroalimentacion": "8 + 5 = 13: se escribe 3 y se lleva 1. Decenas: 2 + 4 + 1 = 7. Centenas: 4. El resultado es 473."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado de 519 + 37?",
+          "opciones": [
+            "546",
+            "556",
+            "566",
+            "545"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Unidades 9 + 7 = 16, se escribe 6 y se lleva 1; decenas 1 + 3 + 1 = 5; centenas 5. El resultado es 556."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Al sumar 634 + 28, la columna de las centenas también necesita acarreo.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: unidades 4 + 8 = 12 (se lleva 1), decenas 3 + 2 + 1 = 6 (no llega a 10), así que las centenas solo copian el 6 de 634 y el resultado es 662, sin acarreo extra."
+        }
+      ]
+    }
+  ]
+}

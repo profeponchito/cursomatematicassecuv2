@@ -1,0 +1,88 @@
+{
+  "id": "OB-39-07",
+  "grado": "Operaciones Básicas",
+  "numero": 311,
+  "categoria": "potencias_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Potencias y raíces en la vida cotidiana — Momento 7/8",
+  "contenido": "Potencias y raíces aplicadas a situaciones cotidianas: área de cuadrados, volumen de cubos, crecimiento repetido.",
+  "pda": "Resuelve problemas cotidianos de área y volumen que requieren calcular una potencia o una raíz.",
+  "problematizacion": {
+    "contexto": "En el laboratorio de la escuela, la maestra de ciencias muestra bajo el microscopio un cultivo de bacterias que se duplica cada hora, empezando con una sola bacteria en la placa de cultivo.",
+    "pregunta": "Si el cultivo se duplica cada hora, ¿cuántas veces la cantidad inicial habrá después de 5 horas?"
+  },
+  "subtemas": [
+    {
+      "numero": "39.7",
+      "nivelEtiqueta": "Nivel 7 de 8 · Reto",
+      "titulo": "Potencias fuera de la geometría: crecimiento repetido",
+      "explicacion": "Las potencias no solo sirven para áreas y volúmenes: también representan un crecimiento repetido, cuando una cantidad se multiplica por el mismo factor varias veces seguidas. Si una cantidad se multiplica por un factor f, y eso ocurre n veces seguidas, el resultado es fⁿ veces la cantidad inicial. Aquí el exponente ya no se limita a 2 o 3, depende de cuántas veces se repite el crecimiento. En este momento vas a calcular ese tipo de crecimiento en situaciones que no son de área ni de volumen.",
+      "formula": "cantidad final = (factor de crecimiento) elevado al número de veces que se repite",
+      "ejemplos": [
+        "Si una bacteria se duplica cada hora (factor 2) y pasan 4 horas, hay 2⁴ = 16 veces la cantidad inicial",
+        "Si algo se triplica 3 veces seguidas, el resultado es 3³ = 27 veces la cantidad inicial"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una bacteria se duplica cada hora. Después de 5 horas, ¿cuántas veces la cantidad inicial hay?",
+          "opciones": [
+            "10",
+            "16",
+            "32",
+            "25"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Se duplica 5 veces seguidas: 2⁵ = 32 veces la cantidad inicial."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si una cantidad se triplica 4 veces seguidas (3⁴), el resultado es ___ veces la cantidad inicial.",
+          "respuestaCorrecta": "81",
+          "retroalimentacion": "3⁴ = 3×3×3×3 = 81."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si una plaga de insectos se multiplica por 5 cada semana, después de 2 semanas hay 5² = 25 veces la cantidad inicial.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "5² = 25, así que sí hay 25 veces la cantidad inicial."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un rumor se comparte y cada persona se lo cuenta a 3 personas nuevas. Si esto se repite en 3 rondas seguidas, ¿a cuántas veces la cantidad inicial de personas llega?",
+          "opciones": [
+            "9",
+            "27",
+            "81",
+            "12"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Se multiplica por 3 en 3 rondas seguidas: 3³ = 27 veces la cantidad inicial."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación de crecimiento repetido con la potencia que la representa.",
+          "columnaA": [
+            "Se duplica 3 veces seguidas",
+            "Se triplica 2 veces seguidas",
+            "Se duplica 4 veces seguidas"
+          ],
+          "columnaB": [
+            "3²",
+            "2⁴",
+            "2³"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "Duplicar 3 veces es 2³=8, triplicar 2 veces es 3²=9 y duplicar 4 veces es 2⁴=16."
+        }
+      ]
+    }
+  ]
+}

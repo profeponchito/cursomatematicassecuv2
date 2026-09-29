@@ -1,0 +1,105 @@
+{
+  "id": "OB-03-03",
+  "grado": "Operaciones Básicas",
+  "numero": 19,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Resta con préstamo (algoritmo en columna) — Momento 3/8",
+  "contenido": "El algoritmo escrito de la resta de naturales cuando el minuendo requiere 'pedir prestado' a la siguiente posición, incluyendo préstamo a través de ceros.",
+  "pda": "Aplica el algoritmo de la resta en columna, identificando y registrando correctamente el préstamo entre posiciones, incluso a través de ceros.",
+  "problematizacion": {
+    "contexto": "El equipo de basquetbol de la escuela Tepeyac acumuló 832 puntos en todo el torneo, y el equipo rival, uno de los más fuertes de la zona, acumuló 456 puntos en el mismo periodo.",
+    "pregunta": "¿Por cuántos puntos de diferencia terminó arriba el equipo Tepeyac al final del torneo?"
+  },
+  "subtemas": [
+    {
+      "numero": "3.3",
+      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
+      "titulo": "Préstamo dos veces seguidas",
+      "explicacion": "A veces, después de pedir prestado en las unidades, la columna de las decenas también queda 'corta' y hay que pedir prestado otra vez, ahora a las centenas. Este doble préstamo es un paso más de dificultad: hay que ir columna por columna, sin adelantarse, actualizando cada dígito antes de decidir si se necesita un nuevo préstamo. Practicar este patrón con calma evita errores cuando los números sean más grandes.",
+      "formula": "Resuelve una columna a la vez; si una columna prestó, actualiza su dígito ANTES de comparar la siguiente.",
+      "ejemplos": [
+        "En 832 - 456: unidades (2<6) piden prestado: 12-6=6; decenas quedan en 2, y 2<5 piden prestado otra vez: 12-5=7; centenas: (8-1)-4=3. Resultado: 376."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "832"
+            },
+            {
+              "valor": "456",
+              "signo": "-"
+            },
+            {
+              "valor": "376",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              2
+            ],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "832 - 456 = 376. Se pide prestado dos veces: en las unidades (12-6=6) y en las decenas (12-5=7); en las centenas queda 7-4=3."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En 723 - 456, después de pedir prestado en las unidades, ¿qué operación se hace en las decenas?",
+          "opciones": [
+            "2 - 5, sin pedir prestado",
+            "1 - 5, sin pedir prestado",
+            "11 - 5, pidiendo prestado a las centenas",
+            "12 - 5, pidiendo prestado a las centenas"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Al prestar 1 a las unidades, las decenas bajan de 2 a 1. Como 1 es menor que 5, se vuelve a pedir prestado: 11 - 5 = 6."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Es posible que en una resta de tres cifras se necesite pedir prestado más de una vez.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Así es: si dos o más columnas quedan con el dígito de arriba menor que el de abajo, cada una pide su propio préstamo."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En 941 - 578, las centenas finales se obtienen calculando 9 - 1 (por el préstamo) - 5, lo cual da ___.",
+          "respuestaCorrecta": "3",
+          "retroalimentacion": "941 - 578 = 363. En las centenas, al 9 se le resta 1 porque prestó a las decenas, y luego se resta 5: 9-1-5=3."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada resta con cuántas veces se pide prestado.",
+          "columnaA": [
+            "615 - 342",
+            "958 - 213",
+            "624 - 359"
+          ],
+          "columnaB": [
+            "0 veces",
+            "1 vez",
+            "2 veces",
+            "3 veces"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            2
+          ],
+          "retroalimentacion": "615-342 pide prestado una vez; 958-213 no pide prestado; 624-359 pide prestado dos veces seguidas."
+        }
+      ]
+    }
+  ]
+}

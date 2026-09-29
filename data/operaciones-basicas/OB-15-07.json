@@ -1,0 +1,89 @@
+{
+  "id": "OB-15-07",
+  "grado": "Operaciones Básicas",
+  "numero": 119,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Multiplicación por decenas, centenas y potencias de 10 — Momento 7/8",
+  "contenido": "Multiplicación de un número por 10, 100, 1000 y por múltiplos de estas potencias, identificando el patrón de correr el punto/agregar ceros.",
+  "pda": "Multiplica números naturales por potencias de 10 y sus múltiplos, reconociendo el patrón que sigue el resultado.",
+  "problematizacion": {
+    "contexto": "Un carpintero de Michoacán corta tiras de madera de 0.75 metros de largo cada una para hacer marcos de fotos, y un cliente le encargó un pedido grande para una boda.",
+    "pregunta": "Si el carpintero necesita cortar 40 tiras de 0.75 metros cada una, ¿aproximadamente cuántos metros de madera va a necesitar en total?"
+  },
+  "subtemas": [
+    {
+      "numero": "15.7",
+      "nivelEtiqueta": "Nivel 7 de 8 · Reto",
+      "titulo": "Multiplicar decimales por múltiplos de potencias de 10",
+      "explicacion": "Este momento combina las dos estrategias que ya dominas: para multiplicar un decimal por un múltiplo como 20, 300 o 4000, primero multiplicas el decimal por el dígito significativo (por ejemplo, el 2 de 20, o el 3 de 300) y después recorres el punto decimal según los ceros que tenga el múltiplo. Es importante hacer los dos pasos en orden: primero la multiplicación del decimal por el dígito, y después el corrimiento del punto. Este tipo de cálculo aparece seguido en situaciones de dinero, medidas y precios.",
+      "formula": "decimal × (dígito seguido de ceros) = (decimal × dígito), recorriendo el punto según los ceros",
+      "ejemplos": [
+        "4.2 × 20: primero 4.2 × 2 = 8.4, y como 20 tiene un cero, recorro el punto un lugar: 4.2 × 20 = 84.",
+        "1.5 × 300: primero 1.5 × 3 = 4.5, y como 300 tiene dos ceros, recorro el punto dos lugares: 1.5 × 300 = 450."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "4.2 × 20 = ?",
+          "opciones": [
+            "84",
+            "8.4",
+            "840",
+            "42"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "4.2 × 2 = 8.4, y como 20 tiene un cero, 4.2 × 20 = 84."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "1.5 × 300 = ___.",
+          "respuestaCorrecta": "450",
+          "retroalimentacion": "1.5 × 3 = 4.5, y como 300 tiene dos ceros, 1.5 × 300 = 450."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "0.75 × 40 = 30",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 0.75 × 4 = 3, y como 40 tiene un cero, 0.75 × 40 = 30."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "3.6 × 200 = ?",
+          "opciones": [
+            "720",
+            "72",
+            "7200",
+            "360"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "3.6 × 2 = 7.2, y como 200 tiene dos ceros, 3.6 × 200 = 720."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada multiplicación con su resultado.",
+          "columnaA": [
+            "2.25 × 4000",
+            "0.5 × 60",
+            "1.2 × 500"
+          ],
+          "columnaB": [
+            "9000",
+            "30",
+            "600",
+            "3000"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "2.25 × 4000 = 9000, 0.5 × 60 = 30 y 1.2 × 500 = 600: multiplica por el dígito y recorre el punto según los ceros."
+        }
+      ]
+    }
+  ]
+}

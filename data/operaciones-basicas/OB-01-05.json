@@ -1,0 +1,104 @@
+{
+  "id": "OB-01-05",
+  "grado": "Operaciones Básicas",
+  "numero": 5,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma y resta de naturales sin llevar — Momento 5/8",
+  "contenido": "Suma y resta de números naturales cuando ninguna columna requiere acarreo ni préstamo.",
+  "pda": "Resuelve sumas y restas de números naturales identificando el valor posicional de cada cifra, sin necesidad de acarreo ni préstamo.",
+  "problematizacion": {
+    "contexto": "Itzel guarda su domingo en una alcancía. En enero metió 214 pesos y en febrero, con lo que le sobró de la feria del pueblo, metió 165 pesos más. Quiere saber cuánto lleva ahorrado para comprarse unos tenis.",
+    "pregunta": "¿Itzel debe sumar o restar 214 y 165 para saber cuánto dinero ha ahorrado en total?"
+  },
+  "subtemas": [
+    {
+      "numero": "1.5",
+      "nivelEtiqueta": "Nivel 5 de 8 · Aplicación",
+      "titulo": "Elegir si un problema se resuelve con suma o con resta",
+      "explicacion": "En la vida diaria no siempre dice 'suma esto' o 'resta esto': hay que leer la situación y decidir qué operación conviene. Si se juntan o se agregan cantidades, se suma; si se quita, se gasta o se reparte una parte, se resta. En este momento seguimos trabajando con números de tres cifras sin llevar ni pedir prestado, pero ahora el reto es identificar la operación correcta antes de calcular.",
+      "ejemplos": [
+        "Si Itzel ahorra 214 pesos y luego 165 más, se suma: 214 + 165 = 379",
+        "Si un puesto tenía 385 mangos y vendió 143, se resta: 385 - 143 = 242"
+      ],
+      "puntosPorReactivo": 12,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "342",
+              "signo": "+"
+            },
+            {
+              "valor": "156",
+              "signo": "+"
+            },
+            {
+              "valor": "498",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [
+              1
+            ],
+            []
+          ],
+          "retroalimentacion": "342 + 156 = 498: unidades 2+6=8, decenas 4+5=9, centenas 3+1=4. Ninguna columna llega a 10."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un puesto de frutas tenía 385 mangos y vendió 143. ¿Cuántos mangos le quedan?",
+          "opciones": [
+            "528",
+            "232",
+            "252",
+            "242"
+          ],
+          "respuestaCorrecta": 3,
+          "retroalimentacion": "Como se venden mangos, se resta: 385 - 143 = 242 (unidades 5-3=2, decenas 8-4=4, centenas 3-1=2)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si Marisol ahorró 214 pesos en enero y 165 en febrero, en total ahorró 379 pesos.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Es verdadero: como se junta lo ahorrado, se suma. 214 + 165 = 379 (unidades 4+5=9, decenas 1+6=7, centenas 2+1=3)."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un autobús llevaba 468 pasajeros y bajaron 236 en una parada; ahora lleva ___ pasajeros.",
+          "respuestaCorrecta": "232",
+          "retroalimentacion": "Como los pasajeros bajan, se resta: 468 - 236 = 232 (unidades 8-6=2, decenas 6-3=3, centenas 4-2=2)."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada operación con su resultado correcto.",
+          "columnaA": [
+            "253 + 134",
+            "576 - 322",
+            "410 + 287"
+          ],
+          "columnaB": [
+            "387",
+            "254",
+            "697",
+            "512"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "253+134=387, 576-322=254 y 410+287=697, calculando cada columna sin llevar ni pedir prestado."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "OB-12-06",
+  "grado": "Operaciones Básicas",
+  "numero": 94,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma y resta en la vida cotidiana — Momento 6/8",
+  "contenido": "Suma y resta aplicadas a situaciones cotidianas: dinero, medidas y tiempo.",
+  "pda": "Resuelve problemas cotidianos de dinero, medidas y tiempo que requieren sumar o restar números naturales o decimales.",
+  "problematizacion": {
+    "contexto": "Toño entrena futbol tres veces por semana y su entrenador le pide llegar puntual. Un día checa la hora en que empieza el calentamiento y la hora en que termina el partido de práctica para saber cuánto tiempo estuvo entrenando.",
+    "pregunta": "¿Qué operación con las horas le permite a Toño saber cuánto tiempo duró su entrenamiento completo?"
+  },
+  "subtemas": [
+    {
+      "numero": "12.6",
+      "nivelEtiqueta": "Nivel 6 de 8 · Avanzado",
+      "titulo": "Sumar y restar horas y minutos",
+      "explicacion": "El tiempo no se cuenta en base 10 como el dinero: cada hora tiene 60 minutos, no 100. Por eso, al sumar horas y minutos, si los minutos llegan a 60 o más, se convierten en una hora extra y el resto se queda como minutos. Al restar, si no alcanzan los minutos, se le pide prestada una hora completa (60 minutos) a la columna de horas. Calcular duraciones y horas de término es una aplicación muy común de la suma y la resta en la vida diaria: horarios, entrenamientos, transporte y eventos.",
+      "formula": "60 minutos = 1 hora (usa esta conversión al sumar o restar tiempo)",
+      "ejemplos": [
+        "Una clase empieza a las 3:20 pm y dura 1 hora 50 minutos. Termina a las 5:10 pm, porque 20 + 50 = 70 minutos = 1 hora con 10 minutos extra."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un partido de futbol empieza a las 4:45 pm y dura 1 hora con 50 minutos. ¿A qué hora termina?",
+          "opciones": [
+            "6:35 pm",
+            "6:25 pm",
+            "6:45 pm",
+            "5:35 pm"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "45 + 50 = 95 min = 1 h 35 min; 4:45 pm + 1 h 35 min = 6:35 pm."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si un tren sale a las 9:20 am y el viaje dura 2 horas 50 minutos, llega después de las 12:00 pm.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "9:20 am + 2 h 50 min = 12:10 pm, que es después de las 12:00 pm."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Karina empezó a estudiar a las 6:15 pm y terminó a las 8:05 pm. Estudió ___ minutos en total.",
+          "respuestaCorrecta": "110",
+          "retroalimentacion": "De 6:15 pm a 8:05 pm pasan 1 hora 50 minutos, es decir, 110 minutos."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada suma o resta de tiempo con su resultado correcto.",
+          "columnaA": [
+            "3:40 + 1:35",
+            "7:10 − 2:25",
+            "5:50 + 0:45"
+          ],
+          "columnaB": [
+            "6:35",
+            "4:45",
+            "5:15",
+            "5:35"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "3:40 + 1:35 = 5:15; 7:10 − 2:25 = 4:45; 5:50 + 0:45 = 6:35."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Iván llegó al gimnasio a las 5:10 pm y se fue a las 6:55 pm. ¿Cuánto tiempo estuvo?",
+          "opciones": [
+            "1 hora 45 min",
+            "1 hora 35 min",
+            "2 horas 5 min",
+            "1 hora 15 min"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "De 5:10 pm a 6:55 pm pasa 1 hora con 45 minutos."
+        }
+      ]
+    }
+  ]
+}

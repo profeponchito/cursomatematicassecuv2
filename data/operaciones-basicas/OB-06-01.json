@@ -1,0 +1,95 @@
+{
+  "id": "OB-06-01",
+  "grado": "Operaciones Básicas",
+  "numero": 41,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma y resta de decimales con acarreo y préstamo — Momento 1/8",
+  "contenido": "Suma y resta de decimales en casos donde el acarreo o el préstamo ocurren entre posiciones decimales, incluyendo decimales con distinta cantidad de cifras.",
+  "pda": "Aplica el algoritmo de suma y resta a números decimales con distinta cantidad de cifras decimales, completando con ceros cuando sea necesario.",
+  "problematizacion": {
+    "contexto": "Doña Rosa vende fruta en su puesto del mercado sobre ruedas. Cada mañana anota en su libreta cuántos kilos de manzana y de pera vendió, con una cifra decimal, para llevar el control de su báscula.",
+    "pregunta": "Si el lunes vendió 2.3 kg de manzana y 1.4 kg de pera, ¿aproximadamente cuántos kilos de fruta vendió en total ese día?"
+  },
+  "subtemas": [
+    {
+      "numero": "6.1",
+      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
+      "titulo": "Sumar decimos alineando el punto decimal",
+      "explicacion": "Para sumar números decimales primero se alinea el punto decimal de todos los números, uno debajo del otro. Cuando los dos números tienen la misma cantidad de cifras después del punto, se suma columna por columna igual que con números enteros: unidades con unidades, décimos con décimos. En este momento ninguna columna llega a 10, así que todavía no necesitas 'llevar' nada a la siguiente columna.",
+      "formula": "Alinea el punto decimal y suma columna por columna, de derecha a izquierda.",
+      "ejemplos": [
+        "6.4 + 1.3: se alinean los puntos (6.4 y 1.3). Décimos: 4+3=7. Unidades: 6+1=7. Resultado: 7.7.",
+        "23.5 + 12.4: Décimos: 5+4=9. Unidades: 3+2=5, y decenas 2+1=3. Resultado: 35.9."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "2.3"
+            },
+            {
+              "valor": "1.4",
+              "signo": "+"
+            },
+            {
+              "valor": "3.7",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "2.3 + 1.4 = 3.7. Décimos: 3+4=7. Unidades: 2+1=3. No hubo que llevar nada, ninguna columna llegó a 10."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado de 12.4 + 3.2?",
+          "opciones": [
+            "15.6",
+            "15.5",
+            "16.6",
+            "14.6"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Se alinean los puntos: décimos 4+2=6, unidades 2+3=5, decenas 1. El resultado es 15.6."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Doña Rosa vendió 5.1 kg de manzana y 2.6 kg de pera. ¿Cuántos kilos vendió en total?",
+          "opciones": [
+            "7.6 kg",
+            "7.7 kg",
+            "8.7 kg",
+            "7.5 kg"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Décimos: 1+6=7. Unidades: 5+2=7. En total son 7.7 kg."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "0.5 + 0.3 = 0.8",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Verdadero. Sumando los décimos: 5+3=8, y no hay unidades enteras, así que el resultado es 0.8."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "4.2 + 3.1 = ___",
+          "respuestaCorrecta": "7.3",
+          "retroalimentacion": "Unidades: 4+3=7. Décimos: 2+1=3. El resultado es 7.3."
+        }
+      ]
+    }
+  ]
+}

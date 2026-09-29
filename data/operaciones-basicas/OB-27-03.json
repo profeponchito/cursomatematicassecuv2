@@ -1,0 +1,96 @@
+{
+  "id": "OB-27-03",
+  "grado": "Operaciones Básicas",
+  "numero": 211,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Multiplicación y división en la vida cotidiana — Momento 3/8",
+  "contenido": "Multiplicación y división aplicadas a situaciones cotidianas: repartos, precios unitarios, escalas y recetas.",
+  "pda": "Resuelve problemas cotidianos de reparto, precio unitario y proporciones sencillas usando multiplicación y división.",
+  "problematizacion": {
+    "contexto": "En la tienda de abarrotes del barrio, Toño quiere comprar plumas para el nuevo ciclo escolar y ve dos presentaciones distintas: una bolsa con varias plumas por un precio total, y plumas sueltas con precio individual.",
+    "pregunta": "¿Cómo puede saber Toño cuál opción le conviene más comprar?"
+  },
+  "subtemas": [
+    {
+      "numero": "27.3",
+      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
+      "titulo": "Precio unitario: ¿cuánto cuesta uno solo?",
+      "explicacion": "El precio unitario es lo que cuesta UNA sola pieza cuando se conoce el precio de un paquete completo, y se calcula dividiendo el precio total entre la cantidad de piezas. Este cálculo es muy útil para comparar ofertas y decidir qué opción conviene más al comprar. Por ejemplo, si un paquete de 4 plumas cuesta $60, cada pluma cuesta 60 ÷ 4 = $15. Comparar precios unitarios, en vez de solo precios totales, evita comprar de más o pagar más caro por lo mismo.",
+      "formula": "precio unitario = precio total ÷ cantidad de piezas",
+      "ejemplos": [
+        "Un paquete de 4 plumas cuesta $60, así que cada pluma cuesta 60 ÷ 4 = $15.",
+        "Comprobación con multiplicación: $15 por pluma × 4 plumas = $60, que es el precio del paquete."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En la papelería, un paquete de 4 plumas cuesta $60. ¿Cuánto cuesta cada pluma?",
+          "opciones": [
+            "$12",
+            "$15",
+            "$18",
+            "$20"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "60 ÷ 4 = $15 por pluma."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si 5 kilos de manzana cuestan $75 en total, el precio de 1 kilo es de $___.",
+          "respuestaCorrecta": "15",
+          "retroalimentacion": "75 ÷ 5 = $15 por kilo."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si 3 boletos de camión cuestan $54 en total, entonces cada boleto cuesta $18.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 54 ÷ 3 = $18 por boleto."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una bolsa de 6 panes cuesta $48. En otra tienda venden cada pan suelto a $9. ¿Qué opción conviene más?",
+          "opciones": [
+            "La bolsa, porque cada pan sale en $8",
+            "El pan suelto, porque cuesta $9",
+            "Cuestan exactamente lo mismo",
+            "No se puede saber sin más datos"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "48 ÷ 6 = $8 por pan en la bolsa, que es menos que los $9 del pan suelto, así que la bolsa conviene más."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "90"
+            },
+            {
+              "valor": "3",
+              "signo": "×"
+            },
+            {
+              "valor": "270",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "retroalimentacion": "Esto verifica que 270 ÷ 3 = 90, porque 90 × 3 = 270: cada llanta de ese paquete de 3 cuesta $90."
+        }
+      ]
+    }
+  ]
+}

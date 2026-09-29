@@ -1,0 +1,109 @@
+{
+  "id": "OB-05-02",
+  "grado": "Operaciones Básicas",
+  "numero": 34,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma y resta de decimales alineando el punto — Momento 2/8",
+  "contenido": "Suma y resta de números decimales, cuidando alinear el punto decimal antes de operar columna por columna.",
+  "pda": "Suma y resta números decimales alineando correctamente el punto decimal, relacionando el procedimiento con el de los números naturales.",
+  "problematizacion": {
+    "contexto": "En una telesecundaria de Guanajuato, Bruno anota cada semana cuántos kilómetros camina de su casa a la escuela para un reto de activación física. El lunes caminó 3.7 km y el martes 2.6 km.",
+    "pregunta": "¿Cuántos kilómetros caminó Bruno en total esos dos días?"
+  },
+  "subtemas": [
+    {
+      "numero": "5.2",
+      "nivelEtiqueta": "Nivel 2 de 8 · Básico",
+      "titulo": "Sumar decimales llevando",
+      "explicacion": "Cuando la suma de los dígitos de una columna da 10 o más, se escribe solo la cifra de las unidades de ese resultado y se \"lleva\" 1 a la columna siguiente hacia la izquierda, tal como ocurre al sumar números naturales. Esto puede pasar tanto en la columna de los décimos como en la de las unidades. Conviene revisar cada columna después de sumarla para saber si hay que llevar algo a la de al lado.",
+      "formula": "Si una columna suma 10 o más, escribe la cifra de las unidades y lleva 1 a la izquierda",
+      "ejemplos": [
+        "3.7 + 2.6: 7+6=13, se escribe 3 y se lleva 1; luego 3+2+1=6; resultado 6.3",
+        "4.8 + 1.5: 8+5=13, se escribe 3 y se lleva 1; luego 4+1+1=6; resultado 6.3"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Suma llevando: 3.7 + 2.6 = ?",
+          "opciones": [
+            "6.3",
+            "5.13",
+            "6.13",
+            "5.3"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "7+6=13: se escribe 3 en los décimos y se lleva 1 a las unidades; 3+2+1=6, entonces 3.7 + 2.6 = 6.3."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "4.8 + 1.5 = 6.3",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 8+5=13, se escribe 3 y se lleva 1; 4+1+1=6, entonces 4.8 + 1.5 = 6.3."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "5.6 + 2.7 = ___",
+          "respuestaCorrecta": "8.3",
+          "retroalimentacion": "6+7=13, se escribe 3 y se lleva 1 a las unidades: 5+2+1=8, entonces 5.6 + 2.7 = 8.3."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "3.7"
+            },
+            {
+              "valor": "2.6",
+              "signo": "+"
+            },
+            {
+              "valor": "6.3",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0,
+              2
+            ]
+          ],
+          "retroalimentacion": "3.7 + 2.6 = 6.3: 7+6=13 (se lleva 1), y 3+2+1=6."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "4.8"
+            },
+            {
+              "valor": "1.5",
+              "signo": "+"
+            },
+            {
+              "valor": "6.3",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [
+              0
+            ],
+            []
+          ],
+          "retroalimentacion": "4.8 + 1.5 = 6.3: 8+5=13 se lleva 1 a las unidades, y 4+1+1=6."
+        }
+      ]
+    }
+  ]
+}

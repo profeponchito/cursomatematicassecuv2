@@ -1,0 +1,89 @@
+{
+  "id": "OB-38-04",
+  "grado": "Operaciones Básicas",
+  "numero": 300,
+  "categoria": "potencias_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Relación entre potencias y raíces — Momento 4/8",
+  "contenido": "La raíz como operación inversa de la potencia, verificando una raíz al elevar el resultado a la potencia correspondiente.",
+  "pda": "Explica y verifica la relación inversa entre potencias y raíces, comprobando una raíz al elevarla a la potencia correspondiente.",
+  "problematizacion": {
+    "contexto": "La inmobiliaria 'Valle Alto' vende un terreno cuadrado de 625 metros cuadrados en las afueras de Guadalajara, y el agente asegura que cada lado mide 25 metros.",
+    "pregunta": "¿Cómo puede la familia interesada comprobar, sin medir con cinta métrica, que 25 metros por lado sí da 625 metros cuadrados de terreno?"
+  },
+  "subtemas": [
+    {
+      "numero": "38.4",
+      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
+      "titulo": "Comprobando raíces con números más grandes",
+      "explicacion": "Cuando los números son más grandes, conviene comprobar la raíz con más cuidado, multiplicando con calma para no confundir resultados parecidos, como 400 y 441. El procedimiento no cambia: se eleva el resultado propuesto a la potencia correspondiente y se compara con el número original. En este momento vas a comprobar raíces cuadradas de números de tres cifras y raíces cúbicas de números de hasta cuatro cifras.",
+      "formula": "La comprobación (elevar a la potencia) funciona igual sin importar el tamaño de los números",
+      "ejemplos": [
+        "√900 = 30 porque 30 × 30 = 900.",
+        "∛1728 = 12 porque 12 × 12 × 12 = 1728."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la raíz cuadrada de 441?",
+          "opciones": [
+            "19",
+            "20",
+            "21",
+            "22"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "21 × 21 = 441, por eso √441 = 21."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "√400 = 21 se comprueba correctamente porque 21 × 21 = 400.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: 21 × 21 = 441, no 400. La raíz cuadrada de 400 es 20, porque 20 × 20 = 400."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si 12 × 12 × 12 = 1728, entonces ∛1728 = ___.",
+          "respuestaCorrecta": "12",
+          "retroalimentacion": "La raíz cúbica de 1728 es 12, porque 12³ = 1728."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada raíz con la multiplicación que la comprueba.",
+          "columnaA": [
+            "√729",
+            "√900",
+            "∛1000"
+          ],
+          "columnaB": [
+            "12 × 12 × 12 = 1728",
+            "10 × 10 × 10 = 1000",
+            "27 × 27 = 729",
+            "30 × 30 = 900"
+          ],
+          "parejasCorrectas": [
+            2,
+            3,
+            1
+          ],
+          "retroalimentacion": "√729 = 27 (27×27=729), √900 = 30 (30×30=900), ∛1000 = 10 (10×10×10=1000)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la raíz cúbica de 8000?",
+          "opciones": [
+            "18",
+            "19",
+            "20",
+            "21"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "20 × 20 × 20 = 8000, por eso ∛8000 = 20."
+        }
+      ]
+    }
+  ]
+}

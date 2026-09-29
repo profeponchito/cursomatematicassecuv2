@@ -1,0 +1,107 @@
+{
+  "id": "OB-05-05",
+  "grado": "Operaciones Básicas",
+  "numero": 37,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma y resta de decimales alineando el punto — Momento 5/8",
+  "contenido": "Suma y resta de números decimales, cuidando alinear el punto decimal antes de operar columna por columna.",
+  "pda": "Suma y resta números decimales alineando correctamente el punto decimal, relacionando el procedimiento con el de los números naturales.",
+  "problematizacion": {
+    "contexto": "En una tienda de abarrotes de Guanajuato, Mariana compra 4.3 kg de frijol y 2.15 kg de lenteja para la despensa de la semana.",
+    "pregunta": "¿Cuántos kilogramos de granos compró Mariana en total?"
+  },
+  "subtemas": [
+    {
+      "numero": "5.5",
+      "nivelEtiqueta": "Nivel 5 de 8 · Aplicación",
+      "titulo": "Sumar decimales con distinta cantidad de cifras",
+      "explicacion": "A veces un número decimal tiene más cifras después del punto que el otro; por ejemplo, 4.3 y 2.15. Para alinear el punto correctamente, se completa con un cero a la derecha del número más corto (4.30) sin cambiar su valor, y así ambos números quedan con la misma cantidad de cifras decimales antes de sumar columna por columna.",
+      "formula": "Completa con ceros a la derecha para igualar las cifras decimales, luego suma",
+      "ejemplos": [
+        "4.3 + 2.15: se escribe 4.3 como 4.30; 0+5=5 centésimos, 3+1=4 décimos, 4+2=6 unidades; resultado 6.45",
+        "1.6 + 0.25 = 1.85, completando 1.6 como 1.60 antes de sumar"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Suma completando con cero: 4.3 + 2.15 = ?",
+          "opciones": [
+            "6.45",
+            "6.35",
+            "6.18",
+            "24.5"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "4.3 se completa como 4.30: 0+5=5 centésimos, 3+1=4 décimos, 4+2=6 unidades, entonces 4.3 + 2.15 = 6.45."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "1.6 + 0.25 = 1.85",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 1.6 se completa como 1.60; 0+5=5, 6+2=8, 1+0=1, entonces 1.6 + 0.25 = 1.85."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "3.7 + 1.24 = ___",
+          "respuestaCorrecta": "4.94",
+          "retroalimentacion": "3.7 se completa como 3.70: 0+4=4 centésimos, 7+2=9 décimos, 3+1=4 unidades, entonces 3.7 + 1.24 = 4.94."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada suma con su resultado correcto.",
+          "columnaA": [
+            "2.5 + 0.36",
+            "4.1 + 2.05",
+            "0.8 + 1.15",
+            "3.4 + 2.6"
+          ],
+          "columnaB": [
+            "1.95",
+            "6.15",
+            "2.86",
+            "6.00",
+            "5.95"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0,
+            3
+          ],
+          "retroalimentacion": "2.5+0.36=2.86, 4.1+2.05=6.15, 0.8+1.15=1.95 y 3.4+2.6=6.00 (ambos con un decimal, sin necesidad de completar con cero)."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "4.30"
+            },
+            {
+              "valor": "2.15",
+              "signo": "+"
+            },
+            {
+              "valor": "6.45",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0,
+              2,
+              3
+            ]
+          ],
+          "retroalimentacion": "4.3 se escribe como 4.30 para alinear los centésimos: 0+5=5, 3+1=4, 4+2=6, entonces 4.30 + 2.15 = 6.45."
+        }
+      ]
+    }
+  ]
+}

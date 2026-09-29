@@ -1,0 +1,89 @@
+{
+  "id": "OB-38-07",
+  "grado": "Operaciones Básicas",
+  "numero": 303,
+  "categoria": "potencias_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Relación entre potencias y raíces — Momento 7/8",
+  "contenido": "La raíz como operación inversa de la potencia, verificando una raíz al elevar el resultado a la potencia correspondiente.",
+  "pda": "Explica y verifica la relación inversa entre potencias y raíces, comprobando una raíz al elevarla a la potencia correspondiente.",
+  "problematizacion": {
+    "contexto": "En un rancho cerca de Zacatecas, don Heriberto quiere cercar un terreno cuadrado de 200 metros cuadrados de superficie, pero no encuentra una calculadora para saber exactamente cuánto mide cada lado.",
+    "pregunta": "¿Entre qué dos números enteros de metros debe estar el lado del terreno de don Heriberto, si su área es de 200 metros cuadrados?"
+  },
+  "subtemas": [
+    {
+      "numero": "38.7",
+      "nivelEtiqueta": "Nivel 7 de 8 · Reto",
+      "titulo": "Acotando raíces que no son exactas",
+      "explicacion": "No todos los números tienen una raíz cuadrada o cúbica exacta, pero la misma idea de comprobar con la potencia sirve para saber entre qué dos números enteros se encuentra la raíz. Por ejemplo, para saber entre qué enteros está la raíz cuadrada de 50, se buscan dos cuadrados consecutivos que lo encierren: 7 × 7 = 49 y 8 × 8 = 64, y como 49 < 50 < 64, la raíz cuadrada de 50 está entre 7 y 8. Este mismo razonamiento funciona con raíces cúbicas usando cubos consecutivos. En este momento vas a acotar raíces no exactas entre dos números enteros usando la comprobación por potencias.",
+      "formula": "Si a² < b < (a+1)², entonces la raíz cuadrada de b está entre a y a+1",
+      "ejemplos": [
+        "√90 está entre 9 y 10, porque 9 × 9 = 81 y 10 × 10 = 100, y 81 < 90 < 100.",
+        "∛100 está entre 4 y 5, porque 4 × 4 × 4 = 64 y 5 × 5 × 5 = 125, y 64 < 100 < 125."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Entre qué dos números enteros está la raíz cuadrada de 50?",
+          "opciones": [
+            "6 y 7",
+            "7 y 8",
+            "8 y 9",
+            "9 y 10"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "7 × 7 = 49 y 8 × 8 = 64; como 49 < 50 < 64, la raíz está entre 7 y 8."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La raíz cuadrada de 90 está entre 9 y 10, porque 9 × 9 = 81 y 10 × 10 = 100, y 81 < 90 < 100.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto, esa es la comprobación con cuadrados consecutivos."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La raíz cuadrada de 300 está entre 17 y ___, porque 17 × 17 = 289 y 18 × 18 = 324.",
+          "respuestaCorrecta": "18",
+          "retroalimentacion": "Como 289 < 300 < 324, la raíz cuadrada de 300 está entre 17 y 18."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada raíz no exacta con el par de enteros consecutivos que la acotan.",
+          "columnaA": [
+            "√128",
+            "∛100",
+            "√960"
+          ],
+          "columnaB": [
+            "30 y 31",
+            "6 y 7",
+            "4 y 5",
+            "11 y 12"
+          ],
+          "parejasCorrectas": [
+            3,
+            2,
+            0
+          ],
+          "retroalimentacion": "√128 está entre 11 y 12 (121 y 144); ∛100 está entre 4 y 5 (64 y 125); √960 está entre 30 y 31 (900 y 961)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Qué par de cubos consecutivos comprueba que la raíz cúbica de 200 está entre 5 y 6?",
+          "opciones": [
+            "5 × 5 = 25 y 6 × 6 = 36",
+            "5 × 5 × 5 = 125 y 6 × 6 × 6 = 216",
+            "5 + 5 + 5 = 15 y 6 + 6 + 6 = 18",
+            "5 × 6 = 30 y 6 × 5 = 30"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "125 < 200 < 216, por eso la raíz cúbica de 200 está entre 5 y 6."
+        }
+      ]
+    }
+  ]
+}

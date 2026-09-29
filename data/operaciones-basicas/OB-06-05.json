@@ -1,0 +1,125 @@
+{
+  "id": "OB-06-05",
+  "grado": "Operaciones Básicas",
+  "numero": 45,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma y resta de decimales con acarreo y préstamo — Momento 5/8",
+  "contenido": "Suma y resta de decimales en casos donde el acarreo o el préstamo ocurren entre posiciones decimales, incluyendo decimales con distinta cantidad de cifras.",
+  "pda": "Aplica el algoritmo de suma y resta a números decimales con distinta cantidad de cifras decimales, completando con ceros cuando sea necesario.",
+  "problematizacion": {
+    "contexto": "En la tienda de abarrotes 'La Esperanza', el señor Gumaro pesa arroz y azúcar en una báscula digital que da el peso con dos cifras decimales, y descuenta lo que ya se llevó un cliente de un costal grande.",
+    "pregunta": "Si un costal tenía 15.3 kg de arroz y se vendieron 6.75 kg, ¿cuántos kilos de arroz le quedan al señor Gumaro en ese costal?"
+  },
+  "subtemas": [
+    {
+      "numero": "6.5",
+      "nivelEtiqueta": "Nivel 5 de 8 · Aplicación",
+      "titulo": "Restar decimales con distinta cantidad de cifras",
+      "explicacion": "Cuando restas decimales con distinta cantidad de cifras, primero completas con ceros el número con menos cifras decimales, igual que en la suma. Después restas columna por columna y pides prestado cuando el dígito de arriba es menor que el de abajo. Es común tener que pedir prestado en más de una columna seguida.",
+      "formula": "Completa con ceros a la derecha, alinea el punto y resta pidiendo prestado cuando haga falta.",
+      "ejemplos": [
+        "8.5 − 3.24: se completa 8.5 como 8.50. Centésimos: 0 es menor que 4, se pide prestado: 10−4=6. Décimos: 4 (ya prestado)−2=2. Unidades: 8−3=5. Resultado: 5.26.",
+        "20 − 8.45: se piensa como 20.00. Centésimos: 0−5, se pide prestado: 10−5=5. Décimos: 9(prestado)−4=5. Unidades: 9(prestado)−8=1. Decenas: 1. Resultado: 11.55."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "8.50"
+            },
+            {
+              "valor": "3.24",
+              "signo": "-"
+            },
+            {
+              "valor": "5.26",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              3
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "8.5 se completa como 8.50. Centésimos: 0 es menor que 4, se pide prestado: 10−4=6. Décimos: 4−2=2. Unidades: 8−3=5. Resultado: 5.26."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "20.00"
+            },
+            {
+              "valor": "8.45",
+              "signo": "-"
+            },
+            {
+              "valor": "11.55",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              4
+            ],
+            [
+              2
+            ],
+            []
+          ],
+          "retroalimentacion": "20 se piensa como 20.00. Centésimos: se pide prestado, 10−5=5. Décimos: 9(prestado)−4=5. Unidades: 9(prestado)−8=1. Decenas: 1−0=1. Resultado: 11.55."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto arroz le queda al señor Gumaro si tenía 15.3 kg y vendió 6.75 kg?",
+          "opciones": [
+            "9.45 kg",
+            "8.55 kg",
+            "8.45 kg",
+            "9.55 kg"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "15.3 se completa como 15.30. Centésimos: 0 es menor que 5, se pide prestado: 10−5=5. Décimos: 2(prestado)−7, se pide prestado otra vez: 12−7=5. Unidades: 4(prestado)−6, se pide prestado a las decenas: 14−6=8. Resultado: 8.55 kg."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada resta con su resultado correcto.",
+          "columnaA": [
+            "7.2 − 4.65",
+            "12.6 − 5.85",
+            "9.1 − 3.48"
+          ],
+          "columnaB": [
+            "6.75",
+            "5.62",
+            "2.55",
+            "2.45"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "7.2−4.65=2.55; 12.6−5.85=6.75; 9.1−3.48=5.62. En las tres se completa con un cero y se pide prestado en al menos una columna."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "6.4 − 2.75 = ___",
+          "respuestaCorrecta": "3.65",
+          "retroalimentacion": "6.4 se completa como 6.40. Centésimos: 0 es menor que 5, se pide prestado: 10−5=5. Décimos: 3(prestado)−7, se pide prestado otra vez: 13−7=6. Unidades: 5(prestado)−2=3. Resultado: 3.65."
+        }
+      ]
+    }
+  ]
+}

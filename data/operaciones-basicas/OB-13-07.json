@@ -1,0 +1,95 @@
+{
+  "id": "OB-13-07",
+  "grado": "Operaciones Básicas",
+  "numero": 103,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Multiplicación de un dígito (tablas y cálculo mental) — Momento 7/8",
+  "contenido": "Multiplicación de un número de varias cifras por un solo dígito, apoyada en las tablas de multiplicar.",
+  "pda": "Multiplica números naturales por un dígito usando las tablas de multiplicar y estrategias de cálculo mental.",
+  "problematizacion": {
+    "contexto": "En una panadería de Oaxaca, cada pieza de pan de yema cuesta $4.50 pesos. Una maestra encarga 3 piezas para llevar a la sala de maestros y quiere saber cuánto va a pagar antes de llegar a la caja.",
+    "pregunta": "¿Cuánto debe pagar la maestra por las 3 piezas de pan si cada una cuesta $4.50?"
+  },
+  "subtemas": [
+    {
+      "numero": "13.7",
+      "nivelEtiqueta": "Nivel 7 de 8 · Reto",
+      "titulo": "Multiplicar decimales por un dígito",
+      "explicacion": "Multiplicar un número con punto decimal por un dígito se hace igual que con números enteros, ignorando el punto durante el cálculo. Al final, cuentas cuántas cifras había después del punto decimal en el número original y colocas el punto esa misma cantidad de lugares desde la derecha en el resultado. Por ejemplo, si el factor decimal tiene una cifra después del punto, el resultado también llevará una cifra después del punto. Esta regla funciona porque multiplicar por un dígito entero no cambia cuántos decimales tiene el número, solo su tamaño.",
+      "formula": "multiplica como si fueran enteros; el resultado lleva las mismas cifras decimales que el factor decimal",
+      "ejemplos": [
+        "4.5×3: 45×3=135, y como 4.5 tiene una cifra decimal, el resultado lleva una: 13.5.",
+        "2.7×6: 27×6=162, y como 2.7 tiene una cifra decimal, el resultado es 16.2."
+      ],
+      "puntosPorReactivo": 25,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "4.5"
+            },
+            {
+              "valor": "3",
+              "signo": "×"
+            },
+            {
+              "valor": "13.5",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0,
+              1,
+              3
+            ]
+          ],
+          "retroalimentacion": "4.5×3: se multiplica 45×3=135 y se coloca el punto una cifra desde la derecha (porque 4.5 tiene una cifra decimal), resultado 13.5."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 2.7×6?",
+          "opciones": [
+            "16.2",
+            "15.2",
+            "17.2",
+            "16.8"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "27×6=162, y como 2.7 tiene una cifra decimal, el resultado es 16.2."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "0.8×5 es igual a 4.5.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: 8×5=40, y como 0.8 tiene una cifra decimal, el resultado es 4.0 (es decir, 4), no 4.5."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "1.6×7 = ___",
+          "respuestaCorrecta": "11.2",
+          "retroalimentacion": "16×7=112, y como 1.6 tiene una cifra decimal, el resultado es 11.2."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 2.3×4?",
+          "opciones": [
+            "9.2",
+            "8.2",
+            "9.4",
+            "12.2"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "23×4=92, y como 2.3 tiene una cifra decimal, el resultado es 9.2."
+        }
+      ]
+    }
+  ]
+}

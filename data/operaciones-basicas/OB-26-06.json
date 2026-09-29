@@ -1,0 +1,73 @@
+{
+  "id": "OB-26-06",
+  "grado": "Operaciones Básicas",
+  "numero": 206,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Múltiplos y factores — Momento 6/8",
+  "contenido": "Identificación de múltiplos y factores de un número, como puente natural entre la multiplicación/división y el álgebra.",
+  "pda": "Identifica múltiplos y factores de un número natural, y los usa para resolver problemas sencillos de divisibilidad.",
+  "problematizacion": {
+    "contexto": "En la panadería 'El Buen Pan', un horno saca charolas de conchas cada cierto número de minutos y otro horno saca charolas de bolillos en otro intervalo distinto. La panadera quiere saber cada cuántos minutos ambos hornos terminan una charola al mismo tiempo, para organizar el empaquetado.",
+    "pregunta": "¿Qué tendría que calcular la panadera con los dos intervalos de tiempo para saber cuándo coinciden los hornos?"
+  },
+  "subtemas": [
+    {
+      "numero": "26.6",
+      "nivelEtiqueta": "Nivel 6 de 8 · Avanzado",
+      "titulo": "Múltiplos comunes y mínimo común múltiplo",
+      "explicacion": "Un múltiplo común de dos números aparece en la lista de múltiplos de ambos al mismo tiempo. El mínimo común múltiplo (mcm) es el más pequeño de esos múltiplos comunes (sin contar el 0). Para encontrarlo, se pueden listar los múltiplos de cada número hasta encontrar el primero que coincide en ambas listas. Este concepto es útil, por ejemplo, para saber cada cuánto tiempo coinciden dos eventos que se repiten en ciclos distintos.",
+      "formula": "mcm(a,b) = el menor número que es múltiplo de a y de b a la vez",
+      "ejemplos": [
+        "Múltiplos de 4: 4, 8, 12, 16, 20... Múltiplos de 6: 6, 12, 18, 24... El primer múltiplo común es 12, así que mcm(4,6) = 12."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "llenar_frase",
+          "frase": "El mínimo común múltiplo de 3 y 5 es ___.",
+          "respuestaCorrecta": "15",
+          "retroalimentacion": "Como 3 y 5 no comparten factores (además del 1), su mcm es simplemente 3 × 5 = 15."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el mcm de 4 y 6?",
+          "opciones": [
+            "10",
+            "12",
+            "24",
+            "48"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Múltiplos de 4: 4,8,12... Múltiplos de 6: 6,12... El primero que coincide es 12."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "24 es un múltiplo común de 6 y 8.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "24 ÷ 6 = 4 y 24 ÷ 8 = 3, ambas exactas, así que 24 sí es múltiplo común de 6 y 8."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el mcm de 2 y 9?",
+          "opciones": [
+            "11",
+            "18",
+            "2",
+            "9"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "2 y 9 no comparten factores además del 1, así que su mcm es 2 × 9 = 18."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El primer múltiplo común (distinto de 0) de 5 y 7 es ___.",
+          "respuestaCorrecta": "35",
+          "retroalimentacion": "5 y 7 no comparten factores, así que su mcm es 5 × 7 = 35."
+        }
+      ]
+    }
+  ]
+}

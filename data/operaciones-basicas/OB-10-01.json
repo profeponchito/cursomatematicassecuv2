@@ -1,0 +1,91 @@
+{
+  "id": "OB-10-01",
+  "grado": "Operaciones Básicas",
+  "numero": 73,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma y resta de números con signo (signos distintos) — Momento 1/8",
+  "contenido": "Suma y resta de números enteros con signo cuando los números tienen signos distintos, incluyendo la resta como suma del opuesto.",
+  "pda": "Suma y resta números enteros con signos distintos, aplicando la regla de signos y la resta como suma del opuesto.",
+  "problematizacion": {
+    "contexto": "En el recreo, Iker juega un juego de tablero pintado en el patio de su escuela. Cada turno puede avanzar o retroceder casillas según lo que marque el dado especial. Empieza en la casilla cero.",
+    "pregunta": "Si avanza 7 casillas y luego retrocede 3, ¿en qué parte del tablero se imagina que terminó, más cerca o más lejos del inicio?"
+  },
+  "subtemas": [
+    {
+      "numero": "10.1",
+      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
+      "titulo": "Sumar números con distinto signo (números pequeños)",
+      "explicacion": "Cuando sumas dos números con signos distintos, uno positivo y otro negativo, el resultado toma el signo del número que tiene mayor valor absoluto (el que está más lejos del cero). Para encontrar el resultado, resta el valor absoluto menor al valor absoluto mayor y coloca el signo del número más grande. Piensa en una recta numérica: te mueves a la derecha con el número positivo y a la izquierda con el negativo, y el punto donde terminas es tu resultado. Con números pequeños puedes incluso dibujar la recta para comprobarlo.",
+      "formula": "Si |a| > |b|: a + (-b) toma el signo de a, y su valor es |a| - |b|.",
+      "ejemplos": [
+        "7 + (-3): los valores absolutos son 7 y 3; como 7 > 3, el resultado es positivo: 7 - 3 = 4, entonces 7 + (-3) = 4.",
+        "-8 + 5: los valores absolutos son 8 y 5; como 8 > 5, el resultado es negativo: 8 - 5 = 3, entonces -8 + 5 = -3."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado de 7 + (-3)?",
+          "opciones": [
+            "-4",
+            "10",
+            "4",
+            "-10"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Los valores absolutos son 7 y 3; como 7 > 3, el resultado es positivo: 7 - 3 = 4."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado de -8 + 5?",
+          "opciones": [
+            "3",
+            "-3",
+            "-13",
+            "13"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Los valores absolutos son 8 y 5; como 8 > 5, el resultado es negativo: 8 - 5 = 3, entonces -8 + 5 = -3."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El resultado de -6 + 9 es positivo, porque 9 tiene mayor valor absoluto que 6.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: -6 + 9 = 3, es positivo porque 9 (el valor absoluto mayor) es positivo."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Para sumar -10 + 4, primero se restan los valores absolutos: 10 - 4 = ___.",
+          "respuestaCorrecta": "6",
+          "retroalimentacion": "10 - 4 = 6; como el 10 es negativo y tiene mayor valor absoluto, el resultado final es -6."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada suma con su resultado correcto.",
+          "columnaA": [
+            "8 + (-2)",
+            "-9 + 3",
+            "-5 + 5",
+            "-4 + 11"
+          ],
+          "columnaB": [
+            "-6",
+            "7",
+            "6",
+            "0"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            3,
+            1
+          ],
+          "retroalimentacion": "8 + (-2) = 6; -9 + 3 = -6; -5 + 5 = 0; -4 + 11 = 7."
+        }
+      ]
+    }
+  ]
+}

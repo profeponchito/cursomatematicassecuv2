@@ -1,0 +1,89 @@
+{
+  "id": "OB-07-04",
+  "grado": "Operaciones Básicas",
+  "numero": 52,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma y resta de fracciones con el mismo denominador — Momento 4/8",
+  "contenido": "Suma y resta de fracciones homogéneas (mismo denominador), sumando o restando solo los numeradores.",
+  "pda": "Suma y resta fracciones con el mismo denominador, comprendiendo por qué el denominador no cambia en la operación.",
+  "problematizacion": {
+    "contexto": "En el mercado de Oaxaca, don Ricardo empaca naranjas en bolsas divididas en 9 porciones iguales para venderlas por partes a distintos clientes. Un cliente compró 5 porciones de una bolsa y, más tarde, regresó a comprar 4 porciones más de esa misma bolsa dividida en 9.",
+    "pregunta": "¿Cuántas bolsas completas de naranjas terminó comprando ese cliente en total?"
+  },
+  "subtemas": [
+    {
+      "numero": "7.4",
+      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
+      "titulo": "Cuando el resultado es un número entero",
+      "explicacion": "A veces, al sumar o restar los numeradores, el resultado es exactamente igual al denominador o un múltiplo de él, y entonces la fracción representa un número entero completo, como 1, 2 o 3. También puede pasar que al restar dos fracciones iguales el numerador quede en cero, y entonces el resultado es 0. Reconocer estos casos es importante porque una fracción como 9/9 no se queda como fracción: se escribe simplemente como 1.",
+      "formula": "Si el numerador resultante es múltiplo del denominador, el resultado es un número entero.",
+      "ejemplos": [
+        "5/8 + 3/8 = 8/8 = 1.",
+        "7/7 - 7/7 = 0/7 = 0."
+      ],
+      "puntosPorReactivo": 15,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "5/9 + 4/9 = ?",
+          "opciones": [
+            "1",
+            "9",
+            "1/9",
+            "2"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "5+4=9, y como el numerador 9 es igual al denominador 9, el resultado es exactamente 1 entero."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "8/8 - 8/8 = ___",
+          "respuestaCorrecta": "0",
+          "retroalimentacion": "8-8=0, así que el resultado es 0/8, que equivale a 0."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "6/6 + 6/6 = 2, porque 12/6 equivale a 2 enteros.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 6+6=12, y 12/6 es un múltiplo exacto del denominador, así que equivale a 2."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "13/5 - 3/5 = ?",
+          "opciones": [
+            "2",
+            "3",
+            "10/25",
+            "1/2"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "13-3=10, entonces 10/5, y como 10 es múltiplo de 5, el resultado es exactamente 2."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada operación con el número entero que resulta.",
+          "columnaA": [
+            "6/6 + 12/6",
+            "10/2 - 6/2",
+            "7/7 - 7/7"
+          ],
+          "columnaB": [
+            "3",
+            "2",
+            "0",
+            "1"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "6/6+12/6=18/6=3; 10/2-6/2=4/2=2; 7/7-7/7=0/7=0. En los tres casos el numerador es múltiplo del denominador (o cero)."
+        }
+      ]
+    }
+  ]
+}

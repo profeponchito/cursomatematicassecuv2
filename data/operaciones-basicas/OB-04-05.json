@@ -1,0 +1,105 @@
+{
+  "id": "OB-04-05",
+  "grado": "Operaciones Básicas",
+  "numero": 29,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma y resta de naturales grandes por posición — Momento 5/8",
+  "contenido": "Suma y resta de números de varias cifras (miles, decenas de mil), reforzando el valor posicional como base del algoritmo.",
+  "pda": "Suma y resta números naturales de varias cifras, descomponiendo cada número por su valor posicional (unidades, decenas, centenas, miles).",
+  "problematizacion": {
+    "contexto": "Fernanda ahorra en su alcancía para comprarse una bicicleta. Ya llevaba juntados $6,352 pesos, pero tuvo un gasto urgente y sacó $1,127 pesos para apoyar en su casa.",
+    "pregunta": "¿Cuánto dinero le queda ahorrado a Fernanda después de ese gasto?"
+  },
+  "subtemas": [
+    {
+      "numero": "4.5",
+      "nivelEtiqueta": "Nivel 5 de 8 · Aplicación",
+      "titulo": "Restar pidiendo prestado en una posición",
+      "explicacion": "A veces el dígito de arriba es más chico que el de abajo en una columna, y ahí no puedes restar directamente: le 'pides prestada' una decena completa a la columna de la izquierda, que baja 1 y le suma 10 al dígito de la columna donde restas. Este momento agrega esa única dificultad nueva sobre la resta sin acarreo que ya dominas: pedir prestado una sola vez por operación.",
+      "formula": "Si el dígito de arriba es menor: pide prestado 1 a la columna izquierda (+10 a la columna actual, -1 a la izquierda)",
+      "ejemplos": [
+        "6,352 - 1,127: en las unidades 2 es menor que 7, así que se pide prestado: 12-7=5. Las decenas quedan en 4 (se prestó 1 de 5): 4-2=2. Centenas 3-1=2. Millares 6-1=5. Resultado: 5,225."
+      ],
+      "puntosPorReactivo": 12,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "6352"
+            },
+            {
+              "valor": "1127",
+              "signo": "-"
+            },
+            {
+              "valor": "5225",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [
+              3
+            ],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "6,352 - 1,127 = 5,225. En las unidades, 2 es menor que 7: se pide prestado a las decenas, quedando 12-7=5, y las decenas bajan de 5 a 4 antes de restar 4-2=2."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Fernanda también tenía $4,251 pesos guardados en otro sobre y de ahí pagó $1,183 pesos de una consulta médica. ¿Cuánto le quedó en ese sobre?",
+          "opciones": [
+            "$3,168",
+            "$2,968",
+            "$3,068",
+            "$3,078"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "4,251 - 1,183 = 3,068. En las unidades 1 es menor que 3, se pide prestado; el préstamo se arrastra hasta las decenas y centenas."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "5,342 - 2,175 = 3,167.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: al restar 2 de las unidades del 5,342 hay que pedir prestado varias veces; el resultado final es 3,167."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "8,415 - 3,246 = ___.",
+          "respuestaCorrecta": "5169",
+          "retroalimentacion": "Se pide prestado en más de una columna: el resultado de 8,415 - 3,246 es 5,169."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación de ahorro con el resultado correcto de la resta.",
+          "columnaA": [
+            "Tenía $6,352 y gastó $1,127",
+            "Tenía $8,415 y gastó $3,246",
+            "Tenía $5,342 y gastó $2,175"
+          ],
+          "columnaB": [
+            "$5,225",
+            "$3,167",
+            "$5,169",
+            "$2,890"
+          ],
+          "parejasCorrectas": [
+            0,
+            2,
+            1
+          ],
+          "retroalimentacion": "6,352-1,127=5,225; 8,415-3,246=5,169; 5,342-2,175=3,167. El $2,890 no corresponde a ninguna de las tres restas."
+        }
+      ]
+    }
+  ]
+}

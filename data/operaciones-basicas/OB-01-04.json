@@ -1,0 +1,104 @@
+{
+  "id": "OB-01-04",
+  "grado": "Operaciones Básicas",
+  "numero": 4,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma y resta de naturales sin llevar — Momento 4/8",
+  "contenido": "Suma y resta de números naturales cuando ninguna columna requiere acarreo ni préstamo.",
+  "pda": "Resuelve sumas y restas de números naturales identificando el valor posicional de cada cifra, sin necesidad de acarreo ni préstamo.",
+  "problematizacion": {
+    "contexto": "La chofer Rosa maneja el camión de la ruta 5. A las siete de la mañana salió de la base con 579 boletos en su rollo. Durante el primer tramo del recorrido vendió 234 boletos a los pasajeros que subieron.",
+    "pregunta": "¿Cuántos boletos le quedan a Rosa en el rollo si resta 234 a los 579 boletos, columna por columna y sin pedir prestado?"
+  },
+  "subtemas": [
+    {
+      "numero": "1.4",
+      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
+      "titulo": "Restar números de tres cifras sin pedir prestado",
+      "explicacion": "Al restar números de tres cifras se revisan tres columnas: unidades, decenas y centenas. En este momento, en cada columna la cifra de arriba siempre alcanza para restar la de abajo, así que puedes resolver cada columna de forma independiente sin pedir nada prestado a la columna vecina. Es la misma idea del momento anterior, solo que ahora con una cifra más.",
+      "formula": "centenas - centenas, decenas - decenas, unidades - unidades",
+      "ejemplos": [
+        "579 - 234: unidades 9-4=5, decenas 7-3=4, centenas 5-2=3 → 345",
+        "685 - 243: unidades 5-3=2, decenas 8-4=4, centenas 6-2=4 → 442"
+      ],
+      "puntosPorReactivo": 12,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "579"
+            },
+            {
+              "valor": "234",
+              "signo": "-"
+            },
+            {
+              "valor": "345",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [
+              0
+            ],
+            []
+          ],
+          "retroalimentacion": "579 - 234 = 345: unidades 9-4=5, decenas 7-3=4, centenas 5-2=3. Ninguna cifra de abajo es mayor que la de arriba."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 685 - 243?",
+          "opciones": [
+            "432",
+            "442",
+            "452",
+            "928"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "685 - 243 = 442. Unidades 5-3=2, decenas 8-4=4, centenas 6-2=4."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "396 - 152 = 244",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Es verdadero. Unidades 6-2=4, decenas 9-5=4, centenas 3-1=2 → 244."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "758 - ___ = 536",
+          "respuestaCorrecta": "222",
+          "retroalimentacion": "758 - 536 = 222. Comprobación: 758 - 222: unidades 8-2=6, decenas 5-2=3, centenas 7-2=5 → 536."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada resta de tres cifras con su resultado.",
+          "columnaA": [
+            "487 - 256",
+            "639 - 514",
+            "825 - 603"
+          ],
+          "columnaB": [
+            "231",
+            "125",
+            "222",
+            "310"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "487-256=231, 639-514=125 y 825-603=222, restando cada columna sin pedir prestado."
+        }
+      ]
+    }
+  ]
+}

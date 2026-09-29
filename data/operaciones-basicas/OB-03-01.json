@@ -1,0 +1,103 @@
+{
+  "id": "OB-03-01",
+  "grado": "Operaciones Básicas",
+  "numero": 17,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Resta con préstamo (algoritmo en columna) — Momento 1/8",
+  "contenido": "El algoritmo escrito de la resta de naturales cuando el minuendo requiere 'pedir prestado' a la siguiente posición, incluyendo préstamo a través de ceros.",
+  "pda": "Aplica el algoritmo de la resta en columna, identificando y registrando correctamente el préstamo entre posiciones, incluso a través de ceros.",
+  "problematizacion": {
+    "contexto": "Doña Elena vende fruta en un puesto del mercado sobre ruedas. Al final de la mañana anota cuánto tenía en la caja chica y cuánto gastó en reponer mercancía, para saber cuánto le queda disponible.",
+    "pregunta": "Si Doña Elena empezó el día con 54 pesos en la caja chica y gastó 19 pesos en bolsas y etiquetas, ¿tuvo que 'pedir prestado' en algún paso al calcular cuánto le queda?"
+  },
+  "subtemas": [
+    {
+      "numero": "3.1",
+      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
+      "titulo": "¿Cuándo hay que pedir prestado?",
+      "explicacion": "En la resta, cada dígito del minuendo se resta con el dígito de la misma posición en el sustraendo. Si el dígito de arriba (minuendo) es menor que el de abajo (sustraendo) en una posición, no se puede restar directamente: hay que 'pedir prestada' una unidad a la posición inmediata de la izquierda. Al pedir prestado, ese dígito de la izquierda disminuye en 1, y al dígito de la derecha se le suman 10 unidades antes de restar. Reconocer cuándo ocurre esta situación es el primer paso para dominar la resta en columna.",
+      "formula": "Si dígito de arriba < dígito de abajo → se suman 10 al de arriba y se resta 1 al vecino izquierdo.",
+      "ejemplos": [
+        "En 54 - 19: como 4 < 9, se pide prestado: las unidades quedan en 14 - 9 = 5, y las decenas en (5-1) - 1 = 3, entonces 54 - 19 = 35."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de estas restas necesita 'pedir prestado' porque el dígito de las unidades de arriba es menor que el de abajo?",
+          "opciones": [
+            "58 - 23",
+            "42 - 17",
+            "76 - 31",
+            "89 - 45"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "En 42 - 17, las unidades son 2 y 7: como 2 es menor que 7, hay que pedir prestado. En las otras opciones, el dígito de arriba ya es mayor o igual, así que no hace falta."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En 63 - 28, para restar las unidades (3 - 8) se necesita pedir prestado a las decenas.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: como 3 es menor que 8, no se puede restar directo; se pide prestado 1 decena, y la resta de unidades se convierte en 13 - 8 = 5."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En 54 - 19, como 4 es menor que 9, se pide prestado 1 decena y las unidades se convierten en ___.",
+          "respuestaCorrecta": "14",
+          "retroalimentacion": "Al pedir prestada una decena, se le suman 10 a las unidades: 4 + 10 = 14, y entonces 14 - 9 = 5."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "72"
+            },
+            {
+              "valor": "38",
+              "signo": "-"
+            },
+            {
+              "valor": "34",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "72 - 38 = 34. En las unidades, 2 es menor que 8, así que se pide prestado: 12 - 8 = 4. En las decenas, (7-1) - 3 = 3."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada resta con su resultado correcto.",
+          "columnaA": [
+            "45 - 18",
+            "82 - 39",
+            "76 - 29"
+          ],
+          "columnaB": [
+            "27",
+            "43",
+            "47",
+            "36"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "45-18=27, 82-39=43 y 76-29=47; las tres piden prestado porque el dígito de las unidades de arriba es menor."
+        }
+      ]
+    }
+  ]
+}

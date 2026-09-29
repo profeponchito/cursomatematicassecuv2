@@ -1,0 +1,107 @@
+{
+  "id": "OB-20-04",
+  "grado": "Operaciones Básicas",
+  "numero": 156,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "División con residuo — Momento 4/8",
+  "contenido": "División de naturales donde el resultado deja un residuo distinto de cero, e interpretación de ese residuo según el contexto.",
+  "pda": "Aplica el algoritmo de la división larga identificando e interpretando el residuo en distintos contextos.",
+  "problematizacion": {
+    "contexto": "Una empresa de transporte escolar en Puebla tiene 275 estudiantes que deben trasladarse en camionetas de 8 asientos cada una, en su ruta de regreso a casa.",
+    "pregunta": "¿Cuántas camionetas completamente llenas de 8 asientos se necesitan y cuántos estudiantes quedarían sin lugar en una camioneta llena?"
+  },
+  "subtemas": [
+    {
+      "numero": "20.4",
+      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
+      "titulo": "Dividendos de tres cifras",
+      "explicacion": "Ya dominas la relación entre dividendo, divisor, cociente y residuo con números pequeños; ahora aplicarás el algoritmo de la división larga con dividendos de tres cifras, siempre entre un divisor de una cifra. El procedimiento es el mismo: divides cifra por cifra de izquierda a derecha, bajando la siguiente cifra cada vez, hasta que ya no queden más. También aprenderás a comprobar una división usando la multiplicación: cociente × divisor debe dar un número al que, sumándole el residuo, se obtiene el dividendo original.",
+      "formula": "dividendo = divisor × cociente + residuo (residuo < divisor)",
+      "ejemplos": [
+        "275 ÷ 8: el algoritmo da cociente 34 y residuo 3. Se comprueba con 34×8=272, y 272+3=275."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Al dividir 187 entre 5, el cociente es 37. ¿Cuál es el residuo?",
+          "opciones": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "5×37=185, y 187-185=2. El residuo es 2."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "239 ÷ 6 tiene cociente 39 y residuo 5.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "6×39=234, y 239-234=5. Es verdadero."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "314 ÷ 7 = 44 con residuo ___.",
+          "respuestaCorrecta": "6",
+          "retroalimentacion": "7×44=308, y 314-308=6."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "34"
+            },
+            {
+              "valor": "8",
+              "signo": "×"
+            },
+            {
+              "valor": "272",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              0
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "34 × 8 = 272, esto verifica que 275 ÷ 8 = 34, porque 272 + 3 (el residuo) = 275."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada división de tres cifras con su residuo correcto.",
+          "columnaA": [
+            "187 ÷ 5",
+            "239 ÷ 6",
+            "314 ÷ 7",
+            "163 ÷ 9"
+          ],
+          "columnaB": [
+            "6",
+            "1",
+            "2",
+            "5"
+          ],
+          "parejasCorrectas": [
+            2,
+            3,
+            0,
+            1
+          ],
+          "retroalimentacion": "187÷5=37 r2; 239÷6=39 r5; 314÷7=44 r6; 163÷9=18 r1."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "OB-33-04",
+  "grado": "Operaciones Básicas",
+  "numero": 260,
+  "categoria": "potencias_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Potencias con signo (exponente par e impar) — Momento 4/8",
+  "contenido": "Potencias de una base negativa, distinguiendo el signo del resultado según si el exponente es par o impar.",
+  "pda": "Calcula potencias de base negativa, determinando el signo del resultado según la paridad del exponente.",
+  "problematizacion": {
+    "contexto": "La contadora Fernanda revisa el estado de cuenta de un pequeño negocio y encuentra una fórmula en una hoja de cálculo escrita como -6^2. Un compañero asegura que eso es lo mismo que (-6)^2, pero ella sospecha que hay un error de captura que puede cambiar el resultado del reporte.",
+    "pregunta": "¿Fernanda tiene razón en desconfiar, o -6^2 y (-6)^2 dan exactamente el mismo número?"
+  },
+  "subtemas": [
+    {
+      "numero": "33.4",
+      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
+      "titulo": "La trampa del signo: -a^n contra (-a)^n",
+      "explicacion": "Ahora viene una distinción muy importante: -2^2 y (-2)^2 NO siempre son lo mismo. En -2^2 el exponente solo eleva al 2, y el signo negativo se aplica hasta el final, así que -2^2 = -(2^2) = -4. En cambio, en (-2)^2 el paréntesis incluye el signo dentro de la base, así que (-2)^2 = 4. Para exponentes impares ambas formas coinciden, pero para exponentes pares dan resultados distintos, así que hay que fijarse muy bien en los paréntesis.",
+      "formula": "-a^n = -(a^n)     pero     (-a)^n = (-a)×(-a)×...(n veces)",
+      "ejemplos": [
+        "-2^2 = -(2^2) = -4, mientras que (-2)^2 = 4",
+        "-2^3 = -(2^3) = -8 y (-2)^3 = -8 (aquí sí coinciden, porque el exponente es impar)"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto vale -5^2 (sin paréntesis alrededor del 5)?",
+          "opciones": [
+            "25",
+            "-25",
+            "10",
+            "-10"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "-5^2 = -(5^2) = -25. El signo menos queda fuera y se aplica al final."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "(-6)^2 y -6^2 dan el mismo resultado.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: (-6)^2 = 36 (positivo) porque el paréntesis incluye el signo, mientras que -6^2 = -36 (negativo)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto vale (-3)^3?",
+          "opciones": [
+            "27",
+            "-27",
+            "9",
+            "-9"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "(-3)^3 = -27, porque el exponente 3 es impar."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "-3^3 (sin paréntesis) = ___",
+          "respuestaCorrecta": "-27",
+          "retroalimentacion": "-3^3 = -(3^3) = -27. Aquí coincide con (-3)^3 porque el exponente es impar."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada expresión con su resultado correcto.",
+          "columnaA": [
+            "-2^2",
+            "(-2)^2",
+            "-2^3",
+            "(-2)^3"
+          ],
+          "columnaB": [
+            "4",
+            "-4",
+            "-8",
+            "8"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            2,
+            2
+          ],
+          "retroalimentacion": "-2^2=-4, (-2)^2=4; en cambio -2^3 y (-2)^3 coinciden en -8 porque el exponente es impar."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "OB-42-02",
+  "grado": "Operaciones Básicas",
+  "numero": 330,
+  "categoria": "integracion",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Operaciones combinadas con números naturales — Momento 2/8",
+  "contenido": "Resolución de expresiones que combinan suma, resta, multiplicación, división, potencias y raíces con números naturales, aplicando la jerarquía de operaciones.",
+  "pda": "Resuelve expresiones numéricas combinadas con números naturales aplicando correctamente la jerarquía de operaciones.",
+  "problematizacion": {
+    "contexto": "El profesor Ángel organiza un torneo relámpago de basquetbol en la escuela secundaria. Cada equipo gana puntos por canasta, pierde puntos por faltas y suma puntos extra por asistencia. Para llevar el marcador, Ángel debe combinar varias operaciones en una sola cuenta.",
+    "pregunta": "Si en el marcador hay que multiplicar canastas por puntos, dividir puntos de asistencia entre jugadores y luego sumar y restar el resultado, ¿en qué orden conviene resolver esas operaciones?"
+  },
+  "subtemas": [
+    {
+      "numero": "42.2",
+      "nivelEtiqueta": "Nivel 2 de 8 · Básico",
+      "titulo": "Tres operaciones combinadas sin paréntesis",
+      "explicacion": "Ahora las expresiones tienen tres operaciones en lugar de dos, mezclando sumas, restas, multiplicaciones y divisiones sin paréntesis. La regla no cambia: primero se resuelven todas las multiplicaciones y divisiones, en el orden en que aparecen de izquierda a derecha, y después todas las sumas y restas, también de izquierda a derecha. Conviene subrayar primero las multiplicaciones y divisiones antes de empezar a calcular, para no perder ninguna. Este paso agrega solo una dificultad nueva sobre el momento anterior: más términos en la misma expresión.",
+      "formula": "Multiplicaciones y divisiones (izquierda a derecha) → sumas y restas (izquierda a derecha)",
+      "ejemplos": [
+        "10 + 2 × 5 - 3 = 10 + 10 - 3 = 17 (se multiplica primero, luego se suma y se resta en orden)",
+        "16 ÷ 2 + 4 × 3 = 8 + 12 = 20 (hay dos multiplicaciones/divisiones, ambas se resuelven antes que la suma)"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado de 6 + 4 × 3 - 5?",
+          "opciones": [
+            "13",
+            "25",
+            "7",
+            "17"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Se multiplica primero: 4 × 3 = 12. Luego, de izquierda a derecha: 6 + 12 = 18, y 18 - 5 = 13."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado de 20 ÷ 4 + 3 × 2?",
+          "opciones": [
+            "11",
+            "23",
+            "10",
+            "16"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Se resuelven las dos operaciones de multiplicación/división primero: 20 ÷ 4 = 5 y 3 × 2 = 6. Después se suma: 5 + 6 = 11."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En la expresión 9 × 2 - 6 ÷ 3, hay que resolver primero la multiplicación y la división (en el orden en que aparecen) y al final la resta.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Verdadero: 9 × 2 = 18 y 6 ÷ 3 = 2. Al final se resta: 18 - 2 = 16."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El resultado de 7 + 3 × 5 - 8 es ___.",
+          "respuestaCorrecta": "14",
+          "retroalimentacion": "Se multiplica primero: 3 × 5 = 15. Luego: 7 + 15 = 22, y 22 - 8 = 14."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada expresión con su resultado correcto.",
+          "columnaA": [
+            "24 ÷ 6 + 5 × 2",
+            "10 × 3 - 12 ÷ 4",
+            "8 + 9 ÷ 3 - 2"
+          ],
+          "columnaB": [
+            "9",
+            "14",
+            "27",
+            "20"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "24÷6 + 5×2 = 4 + 10 = 14; 10×3 - 12÷4 = 30 - 3 = 27; 8 + 9÷3 - 2 = 8 + 3 - 2 = 9."
+        }
+      ]
+    }
+  ]
+}

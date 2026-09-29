@@ -1,0 +1,109 @@
+{
+  "id": "OB-05-03",
+  "grado": "Operaciones Básicas",
+  "numero": 35,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma y resta de decimales alineando el punto — Momento 3/8",
+  "contenido": "Suma y resta de números decimales, cuidando alinear el punto decimal antes de operar columna por columna.",
+  "pda": "Suma y resta números decimales alineando correctamente el punto decimal, relacionando el procedimiento con el de los números naturales.",
+  "problematizacion": {
+    "contexto": "Diego entrena atletismo por las tardes en una pista de Guadalajara. El sábado corrió 7.8 km y el domingo corrió 3.5 km, un poco menos porque le dolía una rodilla.",
+    "pregunta": "¿Cuántos kilómetros más corrió Diego el sábado que el domingo?"
+  },
+  "subtemas": [
+    {
+      "numero": "5.3",
+      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
+      "titulo": "Restar decimales sin pedir prestado",
+      "explicacion": "Para restar decimales se alinea el punto igual que en la suma, y se resta columna por columna de derecha a izquierda. Cuando en cada columna el dígito de arriba es mayor o igual que el de abajo, no hace falta pedir prestado, igual que en la resta de números naturales.",
+      "formula": "Alinea el punto → resta columna por columna cuando el de arriba es mayor",
+      "ejemplos": [
+        "7.8 - 3.5: 8-5=3 en los décimos, 7-3=4 en las unidades; resultado 4.3",
+        "9.6 - 4.2 = 5.4 porque 6-2=4 y 9-4=5"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Resta alineando el punto: 7.8 - 3.5 = ?",
+          "opciones": [
+            "4.3",
+            "4.4",
+            "43",
+            "3.4"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Alineando el punto: 8-5=3 en los décimos y 7-3=4 en las unidades, entonces 7.8 - 3.5 = 4.3."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "9.6 - 4.2 = 5.4",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 6-2=4 en los décimos y 9-4=5 en las unidades, entonces 9.6 - 4.2 = 5.4."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "8.9 - 6.3 = ___",
+          "respuestaCorrecta": "2.6",
+          "retroalimentacion": "9-3=6 en los décimos y 8-6=2 en las unidades, entonces 8.9 - 6.3 = 2.6."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "7.8"
+            },
+            {
+              "valor": "3.5",
+              "signo": "-"
+            },
+            {
+              "valor": "4.3",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0,
+              2
+            ]
+          ],
+          "retroalimentacion": "7.8 - 3.5 = 4.3: como en cada columna el de arriba es mayor, no hace falta pedir prestado."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "9.6"
+            },
+            {
+              "valor": "4.2",
+              "signo": "-"
+            },
+            {
+              "valor": "5.4",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [
+              0
+            ],
+            []
+          ],
+          "retroalimentacion": "9.6 - 4.2 = 5.4: 6-2=4 en los décimos y 9-4=5 en las unidades."
+        }
+      ]
+    }
+  ]
+}

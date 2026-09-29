@@ -1,0 +1,146 @@
+{
+  "id": "OB-14-08",
+  "grado": "Operaciones Básicas",
+  "numero": 112,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Multiplicación de varios dígitos (algoritmo en columna) — Momento 8/8",
+  "contenido": "El algoritmo escrito de la multiplicación cuando ambos factores tienen dos o más cifras, usando productos parciales.",
+  "pda": "Aplica el algoritmo de la multiplicación en columna con factores de dos o más cifras, sumando correctamente los productos parciales.",
+  "problematizacion": {
+    "contexto": "La panadería 'El Buen Pan' empaca sus piezas de pan dulce en charolas de 36 piezas cada una. Para surtir el pedido del fin de semana, el panadero preparó 28 charolas completamente llenas.",
+    "pregunta": "¿Cuántas piezas de pan dulce se hornearon en total para el fin de semana?"
+  },
+  "subtemas": [
+    {
+      "numero": "14.8",
+      "nivelEtiqueta": "Nivel 8 de 8 · Integración",
+      "titulo": "Repaso integrador de la multiplicación en columna",
+      "explicacion": "Ya practicaste el algoritmo de la multiplicación en columna con un solo dígito, con acarreos, con multiplicador de dos y tres cifras usando productos parciales, y con números decimales. Ahora aplicarás todo junto: reconocerás cuántos productos parciales necesitas, sumarás correctamente llevando lo que corresponda y colocarás el punto decimal cuando el problema lo requiera.",
+      "ejemplos": [
+        "47×36: 47×6=282 (parcial 1); 47×3=141→1410 (parcial 2); 282+1410=1692",
+        "4.8×1.5: se multiplica 48×15=720; 1+1=2 cifras decimales → 7.20 → 7.2"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado de 47 × 36?",
+          "opciones": [
+            "1682",
+            "1692",
+            "1702",
+            "1592"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "47×6=282 (parcial 1); 47×3=141→1410 (parcial 2); 282+1410=1692."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "63 × 214 = 13482",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "63×4=252; 63×1=63→630; 63×2=126→12600; 252+630+12600=13482. Es correcto."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El resultado de 4.8 × 1.5 es ___",
+          "respuestaCorrecta": "7.2",
+          "retroalimentacion": "48×15=720; 1+1=2 cifras decimales → 7.2."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "58"
+            },
+            {
+              "valor": "326",
+              "signo": "×"
+            },
+            {
+              "valor": "348"
+            },
+            {
+              "valor": "1160"
+            },
+            {
+              "valor": "17400"
+            },
+            {
+              "valor": "18908",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              2
+            ],
+            [
+              2
+            ],
+            [
+              2
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "retroalimentacion": "58×326=18908: 58×6=348; 58×2=116→1160; 58×3=174→17400; 348+1160+17400=18908."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada multiplicación con su resultado correcto.",
+          "columnaA": [
+            "24×36",
+            "4.5×3",
+            "125×8"
+          ],
+          "columnaB": [
+            "1000",
+            "864",
+            "13.5",
+            "900"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "24×36=864; 4.5×3=13.5; 125×8=1000."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es el resultado de 76 × 48?",
+      "opciones": [
+        "3548",
+        "3648",
+        "3748",
+        "3638"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "76×8=608 (parcial 1); 76×4=304→3040 (parcial 2); 608+3040=3648."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "213 × 34 = 7242",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "213×4=852; 213×3=639→6390; 852+6390=7242. Es correcto."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "El resultado de 3.8 × 2.5 es ___",
+      "respuestaCorrecta": "9.5",
+      "retroalimentacion": "38×25=950; 1+1=2 cifras decimales → 9.50, es decir 9.5."
+    }
+  ]
+}

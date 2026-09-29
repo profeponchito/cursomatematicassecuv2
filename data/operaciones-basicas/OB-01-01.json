@@ -1,0 +1,105 @@
+{
+  "id": "OB-01-01",
+  "grado": "Operaciones Básicas",
+  "numero": 1,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma y resta de naturales sin llevar — Momento 1/8",
+  "contenido": "Suma y resta de números naturales cuando ninguna columna requiere acarreo ni préstamo.",
+  "pda": "Resuelve sumas y restas de números naturales identificando el valor posicional de cada cifra, sin necesidad de acarreo ni préstamo.",
+  "problematizacion": {
+    "contexto": "La profesora Beatriz organiza la biblioteca del salón. En el librero de la izquierda hay 34 libros de cuentos y en el de la derecha 25 libros de ciencias. Quiere anotar en su lista cuántos libros tiene en total antes de pedir más al director.",
+    "pregunta": "¿Cómo puede la profesora Beatriz sumar 34 y 25 columna por columna, sin llevar nada, para saber el total de libros?"
+  },
+  "subtemas": [
+    {
+      "numero": "1.1",
+      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
+      "titulo": "Sumar unidades con unidades, decenas con decenas",
+      "explicacion": "Cuando sumamos dos números de dos cifras, cada columna se suma por separado: primero las unidades con las unidades, luego las decenas con las decenas. En este momento, la suma de cada columna siempre da 9 o menos, así que nunca necesitas 'llevar' nada a la columna siguiente. Fijarte en el valor posicional (qué cifra son unidades y cuál son decenas) te ayuda a acomodar los números uno debajo del otro sin confundirte.",
+      "formula": "decenas + decenas, unidades + unidades (sin acarreo)",
+      "ejemplos": [
+        "34 + 25: unidades 4+5=9, decenas 3+2=5 → 59",
+        "42 + 37: unidades 2+7=9, decenas 4+3=7 → 79"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "34",
+              "signo": "+"
+            },
+            {
+              "valor": "25",
+              "signo": "+"
+            },
+            {
+              "valor": "59",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "34 + 25 = 59: en las unidades 4+5=9, y en las decenas 3+2=5. Ninguna columna pasa de 9, así que no se lleva nada."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado de 42 + 37?",
+          "opciones": [
+            "79",
+            "89",
+            "69",
+            "719"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "42 + 37 = 79. Unidades: 2+7=9. Decenas: 4+3=7. Se acomodan las cifras: 79."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "51 + 28 = 79",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Es verdadero. Unidades: 1+8=9. Decenas: 5+2=7. El resultado es 79."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "23 + ___ = 68",
+          "respuestaCorrecta": "45",
+          "retroalimentacion": "68 - 23 = 45. Comprobación: 23 + 45: unidades 3+5=8, decenas 2+4=6 → 68."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada suma con su resultado correcto.",
+          "columnaA": [
+            "14 + 15",
+            "32 + 46",
+            "60 + 19"
+          ],
+          "columnaB": [
+            "29",
+            "78",
+            "79",
+            "93"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "14+15=29, 32+46=78 y 60+19=79. En los tres casos ninguna columna llega a 10."
+        }
+      ]
+    }
+  ]
+}

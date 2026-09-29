@@ -1,0 +1,91 @@
+{
+  "id": "OB-11-01",
+  "grado": "Operaciones Básicas",
+  "numero": 81,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Estimación y redondeo antes de sumar y restar — Momento 1/8",
+  "contenido": "Estimación del resultado de una suma o resta mediante redondeo, para desarrollar sentido numérico antes del cálculo exacto.",
+  "pda": "Estima el resultado de sumas y restas mediante redondeo, y lo usa para verificar si un cálculo exacto es razonable.",
+  "problematizacion": {
+    "contexto": "En el mercado de Tlacolula, Oaxaca, doña Rosa vende chiles y especias, y quiere calcular rápido sus ventas del día sin usar calculadora. Para eso, redondea cada precio a la decena más cercana antes de sumar mentalmente. Un cliente acaba de comprar un manojo de chiles secos que cuesta 47 pesos.",
+    "pregunta": "¿A qué decena se redondea el precio de 47 pesos que pagó el cliente de doña Rosa?"
+  },
+  "subtemas": [
+    {
+      "numero": "11.1",
+      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
+      "titulo": "Redondeo a la decena más cercana",
+      "explicacion": "Redondear un número a la decena más cercana significa expresarlo como el múltiplo de 10 más próximo. Para hacerlo, se observa la cifra de las unidades: si es 5 o más, la decena sube al siguiente múltiplo de 10; si es menor a 5, la decena se queda igual. Este es el primer paso para poder estimar resultados antes de sumar o restar con exactitud. Dominar este redondeo te permite calcular cantidades aproximadas rápidamente, sin hacer la cuenta completa.",
+      "formula": "Si la cifra de las unidades ≥ 5, sube a la decena siguiente; si es < 5, la decena se queda igual.",
+      "ejemplos": [
+        "Redondear 47 a la decena más cercana: la cifra de las unidades es 7 (≥5), así que 47 se redondea a 50.",
+        "Redondear 82 a la decena más cercana: la cifra de las unidades es 2 (<5), así que 82 se redondea a 80."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿A qué decena más cercana se redondea 63?",
+          "opciones": [
+            "50",
+            "60",
+            "70",
+            "65"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "La cifra de las unidades de 63 es 3, que es menor a 5, así que la decena se queda igual: 63 se redondea a 60."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "36 redondeado a la decena más cercana es 40.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: la cifra de las unidades de 36 es 6, que es 5 o más, así que la decena sube y 36 se redondea a 40."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El número 124 redondeado a la decena más cercana es ___.",
+          "respuestaCorrecta": "120",
+          "retroalimentacion": "La cifra de las unidades de 124 es 4, menor a 5, así que la decena se queda igual: 124 se redondea a 120."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Redondea 95 a la decena más cercana.",
+          "opciones": [
+            "90",
+            "100",
+            "95",
+            "110"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "La cifra de las unidades de 95 es 5, así que la decena sube: 95 se redondea a 100."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada número con su redondeo a la decena más cercana.",
+          "columnaA": [
+            "28",
+            "51",
+            "74",
+            "19"
+          ],
+          "columnaB": [
+            "20",
+            "30",
+            "50",
+            "70"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            3,
+            0
+          ],
+          "retroalimentacion": "28→30 (unidad 8≥5), 51→50 (unidad 1<5), 74→70 (unidad 4<5), 19→20 (unidad 9≥5)."
+        }
+      ]
+    }
+  ]
+}

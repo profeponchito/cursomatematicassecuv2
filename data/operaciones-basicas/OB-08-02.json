@@ -1,0 +1,89 @@
+{
+  "id": "OB-08-02",
+  "grado": "Operaciones Básicas",
+  "numero": 58,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma y resta de fracciones con distinto denominador — Momento 2/8",
+  "contenido": "Suma y resta de fracciones heterogéneas, usando el mínimo común múltiplo para igualar denominadores antes de operar.",
+  "pda": "Suma y resta fracciones con distinto denominador, calculando un común denominador antes de operar los numeradores.",
+  "problematizacion": {
+    "contexto": "Doña Rosa tiene una panadería en Puebla. Una receta de pan de dulce le pide 1/2 kg de harina y otra receta parecida le pide 1/3 kg. Doña Rosa quiere comparar cuál receta usa más harina, pero para eso necesita escribir ambas cantidades con el mismo denominador, por ejemplo en sextos.",
+    "pregunta": "Si conviertes 1/2 a sextos, ¿qué numerador le queda a la fracción equivalente?"
+  },
+  "subtemas": [
+    {
+      "numero": "8.2",
+      "nivelEtiqueta": "Nivel 2 de 8 · Básico",
+      "titulo": "Convertir a fracciones equivalentes",
+      "explicacion": "El siguiente paso, antes de sumar o restar, es transformar cada fracción en una fracción equivalente que tenga el denominador común que ya elegiste. Para hacerlo, multiplicas el numerador y el denominador de la fracción original por el mismo número, el que se necesita para llegar al denominador común. Esto no cambia el valor de la fracción, solo cambia la forma en que está escrita. Practicar esta conversión es indispensable antes de sumar o restar fracciones con distinto denominador.",
+      "formula": "a/b = (a × k) / (b × k), donde k es el número que convierte b en el denominador común",
+      "ejemplos": [
+        "Para convertir 1/2 a sextos: 6 ÷ 2 = 3, entonces multiplicas numerador y denominador por 3: 1×3/2×3 = 3/6.",
+        "Para convertir 1/4 a doceavos: 12 ÷ 4 = 3, entonces 1×3/4×3 = 3/12."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "llenar_frase",
+          "frase": "1/2 convertida a sextos (denominador 6) es ___/6.",
+          "respuestaCorrecta": "3",
+          "retroalimentacion": "6 ÷ 2 = 3, así que multiplicas 1 y 2 por 3: 1/2 = 3/6."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Al convertir 1/3 a sextos, ¿qué numerador equivalente le corresponde?",
+          "opciones": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "6 ÷ 3 = 2, entonces multiplicas 1 y 3 por 2: 1/3 = 2/6."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "3/4 es equivalente a 9/12.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Verdadero. 12 ÷ 4 = 3, y al multiplicar numerador y denominador por 3: 3×3/4×3 = 9/12."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada fracción con su equivalente de denominador 12.",
+          "columnaA": [
+            "1/4",
+            "1/3",
+            "1/6"
+          ],
+          "columnaB": [
+            "3/12",
+            "4/12",
+            "2/12",
+            "6/12"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "1/4 = 3/12, 1/3 = 4/12 y 1/6 = 2/12, multiplicando cada fracción por el factor que completa el denominador 12."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál fracción equivale a 2/5 con denominador 20?",
+          "opciones": [
+            "6/20",
+            "8/20",
+            "10/20",
+            "4/20"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "20 ÷ 5 = 4, entonces multiplicas 2 y 5 por 4: 2/5 = 8/20."
+        }
+      ]
+    }
+  ]
+}

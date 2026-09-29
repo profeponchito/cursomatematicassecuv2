@@ -1,0 +1,120 @@
+{
+  "id": "OB-02-04",
+  "grado": "Operaciones Básicas",
+  "numero": 12,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma con acarreo (algoritmo en columna) — Momento 4/8",
+  "contenido": "El algoritmo escrito de la suma de naturales cuando una o más columnas superan 9 y hay que 'llevar' al siguiente orden.",
+  "pda": "Aplica el algoritmo de la suma en columna, identificando y registrando correctamente el acarreo entre posiciones.",
+  "problematizacion": {
+    "contexto": "En el estadio municipal se jugó un partido de futbol amistoso. La taquilla reportó que se vendieron 452 boletos de sol y 139 boletos de sombra para el mismo partido.",
+    "pregunta": "¿Cuántos boletos se vendieron en total para ese partido, sumando ambas secciones?"
+  },
+  "subtemas": [
+    {
+      "numero": "2.4",
+      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
+      "titulo": "Acarreo entre centenas: dos sumandos grandes",
+      "explicacion": "En este momento ambos números tienen tres cifras. El procedimiento no cambia: sigue siendo un solo acarreo, de unidades a decenas, pero ahora tienes una columna más para acomodar con cuidado. Alinear bien las unidades, decenas y centenas de cada número es clave para no equivocarte; si un número tiene menos cifras que otro, se acomoda por la derecha, como si las casillas vacías de la izquierda fueran cero.",
+      "formula": "Alinea unidades con unidades, decenas con decenas, centenas con centenas, y suma de derecha a izquierda.",
+      "ejemplos": [
+        "452 + 139: unidades 2 + 9 = 11, se escribe 1 y se lleva 1; decenas 5 + 3 + 1 = 9; centenas 4 + 1 = 5; resultado 591."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "452"
+            },
+            {
+              "valor": "139",
+              "signo": "+"
+            },
+            {
+              "valor": "591",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "452 + 139: unidades 2 + 9 = 11, se escribe 1 y se lleva 1; decenas 5 + 3 + 1 = 9; centenas 4 + 1 = 5. El resultado es 591."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "267"
+            },
+            {
+              "valor": "318",
+              "signo": "+"
+            },
+            {
+              "valor": "585",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "267 + 318: unidades 7 + 8 = 15, se escribe 5 y se lleva 1; decenas 6 + 1 + 1 = 8; centenas 2 + 3 = 5. El resultado es 585."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado de 145 + 238?",
+          "opciones": [
+            "373",
+            "383",
+            "393",
+            "473"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Unidades 5 + 8 = 13, se escribe 3 y se lleva 1; decenas 4 + 3 + 1 = 8; centenas 1 + 2 = 3. El resultado es 383."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En 356 + 127, la columna de las decenas da 5 + 2 + 1 = 8, por lo que no hay acarreo hacia las centenas.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Verdadero: unidades 6 + 7 = 13 (se lleva 1), decenas 5 + 2 + 1 = 8 (no llega a 10), centenas 3 + 1 = 4. El resultado es 483."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada suma con su resultado correcto.",
+          "columnaA": [
+            "452 + 139",
+            "267 + 318",
+            "214 + 178"
+          ],
+          "columnaB": [
+            "591",
+            "585",
+            "392",
+            "483"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "452 + 139 = 591; 267 + 318 = 585; 214 + 178 = 392 (unidades 4+8=12 se lleva 1, decenas 1+7+1=9, centenas 2+1=3)."
+        }
+      ]
+    }
+  ]
+}

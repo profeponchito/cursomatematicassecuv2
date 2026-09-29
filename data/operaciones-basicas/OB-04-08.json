@@ -1,0 +1,173 @@
+{
+  "id": "OB-04-08",
+  "grado": "Operaciones Básicas",
+  "numero": 32,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma y resta de naturales grandes por posición — Momento 8/8",
+  "contenido": "Suma y resta de números de varias cifras (miles, decenas de mil), reforzando el valor posicional como base del algoritmo.",
+  "pda": "Suma y resta números naturales de varias cifras, descomponiendo cada número por su valor posicional (unidades, decenas, centenas, miles).",
+  "problematizacion": {
+    "contexto": "Doña Lupe pone un puesto de tacos en la feria gastronómica de su pueblo, en Oaxaca. El sábado vendió $67,824 pesos y el domingo $28,956 pesos más; de esas ganancias, gastó $38,924 pesos en pagar a sus ayudantes y reponer insumos para la próxima feria.",
+    "pregunta": "¿Cuánto dinero le quedó a doña Lupe después de sumar las ventas del fin de semana y descontar ese gasto?"
+  },
+  "subtemas": [
+    {
+      "numero": "4.8",
+      "nivelEtiqueta": "Nivel 8 de 8 · Integración",
+      "titulo": "Integración final: suma y resta de naturales grandes",
+      "explicacion": "Este es el cierre del tema: vas a combinar todo lo aprendido en los siete momentos anteriores en un mismo bloque de problemas. Se trata de números grandes, con acarreo y préstamo en varias columnas, y de decidir tú mismo cuándo sumar y cuándo restar dentro de situaciones de varios pasos, apoyándote siempre en el valor posicional como base del algoritmo.",
+      "formula": "Valor posicional + acarreo/préstamo + elegir la operación correcta en cada paso",
+      "ejemplos": [
+        "Un puesto de tacos vendió $67,824 el sábado y $28,956 el domingo: 67,824 + 28,956 = 96,780 en el fin de semana. Si de ahí se gastaron $38,924 en insumos: 96,780 - 38,924 = 57,856 de ganancia neta."
+      ],
+      "puntosPorReactivo": 15,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "67824"
+            },
+            {
+              "valor": "28956",
+              "signo": "+"
+            },
+            {
+              "valor": "96780",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1,
+              4
+            ],
+            [
+              2
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          "retroalimentacion": "67,824 + 28,956 = 96,780. Doña Lupe vendió esto en total entre el sábado y el domingo."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "96780"
+            },
+            {
+              "valor": "38924",
+              "signo": "-"
+            },
+            {
+              "valor": "57856",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          "retroalimentacion": "96,780 - 38,924 = 57,856. Esa es la ganancia neta de doña Lupe después de pagar a sus ayudantes y reponer insumos."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Doña Lupe vendió $67,824 el sábado y $28,956 el domingo, y luego gastó $38,924 en insumos. ¿Cuánto dinero le quedó?",
+          "opciones": [
+            "$56,856",
+            "$57,856",
+            "$58,856",
+            "$57,756"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Primero se suman las ventas (67,824+28,956=96,780) y después se resta el gasto (96,780-38,924=57,856)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Otro puesto de la feria vendió $84,005 y gastó $37,648 en insumos, así que le quedaron $46,357 de ganancia.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 84,005 - 37,648 = 46,357."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un puesto de aguas frescas vendió $53,247 y recibió un apoyo extra de $28,965 para comprar más hielo. En total tiene ___ pesos.",
+          "respuestaCorrecta": "82212",
+          "retroalimentacion": "53,247 + 28,965 = 82,212."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Un rancho tenía 91,002 kilogramos de maíz almacenado y vendió 46,738 kilogramos. ¿Cuántos kilogramos le quedan?",
+      "opciones": [
+        "44,164",
+        "44,264",
+        "44,364",
+        "45,264"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "91,002 - 46,738 = 44,264, pidiendo prestado en varias columnas seguidas por los ceros de 91,002."
+    },
+    {
+      "tipo": "algoritmo_columnas",
+      "operacion": "suma",
+      "filas": [
+        {
+          "valor": "38475"
+        },
+        {
+          "valor": "27658"
+        },
+        {
+          "valor": "15230",
+          "signo": "+"
+        },
+        {
+          "valor": "81363",
+          "esResultado": true
+        }
+      ],
+      "ocultos": [
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "retroalimentacion": "38,475 + 27,658 + 15,230 = 81,363. Con tres números se suma igual, columna por columna, llevando cuando haga falta."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Una cooperativa agrícola tenía $120,000 ahorrados, gastó $45,678 en semillas y después vendió su cosecha por $18,965 adicionales. Al final le quedaron ___ pesos.",
+      "respuestaCorrecta": "93287",
+      "retroalimentacion": "Primero 120,000 - 45,678 = 74,322 (después del gasto en semillas), y luego 74,322 + 18,965 = 93,287 (con la venta de la cosecha)."
+    }
+  ]
+}

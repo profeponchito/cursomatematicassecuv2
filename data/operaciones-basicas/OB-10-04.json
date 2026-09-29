@@ -1,0 +1,91 @@
+{
+  "id": "OB-10-04",
+  "grado": "Operaciones Básicas",
+  "numero": 76,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma y resta de números con signo (signos distintos) — Momento 4/8",
+  "contenido": "Suma y resta de números enteros con signo cuando los números tienen signos distintos, incluyendo la resta como suma del opuesto.",
+  "pda": "Suma y resta números enteros con signos distintos, aplicando la regla de signos y la resta como suma del opuesto.",
+  "problematizacion": {
+    "contexto": "Un camión de mudanzas sube y baja un elevador de carga entre los pisos de un edificio en construcción, transportando material. El operador anota cada movimiento como positivo (sube) o negativo (baja) respecto al piso donde empezó.",
+    "pregunta": "Si el elevador sube 78 y luego baja 45 respecto al nivel de inicio, ¿en qué nivel aproximado quedó el material?"
+  },
+  "subtemas": [
+    {
+      "numero": "10.4",
+      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
+      "titulo": "Combinar sumas y restas de signos distintos hasta 100",
+      "explicacion": "En este momento resolverás expresiones con sumas y restas de números de hasta tres cifras, todos con signos distintos entre los términos. El procedimiento sigue siendo el mismo: identifica los valores absolutos, resta el menor del mayor y coloca el signo del número dominante. Trabajar con cantidades más grandes te prepara para aplicar esta regla en situaciones reales con cifras más realistas, como las que verás en los siguientes momentos.",
+      "formula": "a + (-b) o a - b, con |a| ≠ |b|: resultado = mayor valor absoluto − menor valor absoluto, con el signo del término dominante.",
+      "ejemplos": [
+        "-45 + 78: valores absolutos 45 y 78; 78 > 45, resultado positivo: 78 - 45 = 33, entonces -45 + 78 = 33.",
+        "62 - 95: valores absolutos 62 y 95; 95 > 62, resultado negativo: 95 - 62 = 33, entonces 62 - 95 = -33."
+      ],
+      "puntosPorReactivo": 15,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "-45 + 78 = ?",
+          "opciones": [
+            "33",
+            "-33",
+            "123",
+            "-123"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Valores absolutos 45 y 78; 78 > 45, resultado positivo: 78 - 45 = 33."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "62 - 95 = ?",
+          "opciones": [
+            "33",
+            "-157",
+            "157",
+            "-33"
+          ],
+          "respuestaCorrecta": 3,
+          "retroalimentacion": "62 - 95 = 62 + (-95); valores absolutos 62 y 95; 95 > 62, resultado negativo: 95 - 62 = 33, entonces -33."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "-88 + 53 = ___.",
+          "respuestaCorrecta": "-35",
+          "retroalimentacion": "Valores absolutos 88 y 53; 88 > 53, resultado negativo: 88 - 53 = 35, entonces -88 + 53 = -35."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "100 - 136 = -46.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: 100 - 136 = -36, no -46. Valores absolutos 100 y 136; 136 - 100 = 36, con signo negativo."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada operación con su resultado correcto.",
+          "columnaA": [
+            "-70 + 99",
+            "54 - 80",
+            "-120 + 45",
+            "38 - 90"
+          ],
+          "columnaB": [
+            "-75",
+            "-52",
+            "29",
+            "-26"
+          ],
+          "parejasCorrectas": [
+            2,
+            3,
+            0,
+            1
+          ],
+          "retroalimentacion": "-70 + 99 = 29; 54 - 80 = -26; -120 + 45 = -75; 38 - 90 = -52."
+        }
+      ]
+    }
+  ]
+}

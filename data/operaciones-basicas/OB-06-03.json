@@ -1,0 +1,110 @@
+{
+  "id": "OB-06-03",
+  "grado": "Operaciones Básicas",
+  "numero": 43,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma y resta de decimales con acarreo y préstamo — Momento 3/8",
+  "contenido": "Suma y resta de decimales en casos donde el acarreo o el préstamo ocurren entre posiciones decimales, incluyendo decimales con distinta cantidad de cifras.",
+  "pda": "Aplica el algoritmo de suma y resta a números decimales con distinta cantidad de cifras decimales, completando con ceros cuando sea necesario.",
+  "problematizacion": {
+    "contexto": "En la pista de atletismo del municipio, el entrenador Ismael cronometra con un cronómetro digital a dos corredores en los 100 metros planos, para comparar sus tiempos de esta semana.",
+    "pregunta": "Si Luis corrió en 14.2 segundos y Karla en 5.8 segundos menos que el tiempo que tardaría en recorrer el doble de distancia, ¿qué operación con decimales necesita hacer el entrenador para comparar avances?"
+  },
+  "subtemas": [
+    {
+      "numero": "6.3",
+      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
+      "titulo": "Restar decimales pidiendo prestado en los décimos",
+      "explicacion": "En la resta de decimales también se alinea el punto y se resta columna por columna. Cuando el décimo de arriba (el minuendo) es más chico que el décimo de abajo (el sustraendo), se pide prestada 1 unidad entera, que se convierte en 10 décimos extra para poder restar esa columna. Es el mismo préstamo que ya conoces con números enteros, aplicado a la parte decimal.",
+      "formula": "Si el décimo de arriba es menor que el de abajo, pide prestada 1 unidad (=10 décimos) a la columna de enteros.",
+      "ejemplos": [
+        "5.2 − 1.7: en los décimos, 2 es menor que 7, así que se pide prestado: 12−7=5. En las unidades: 5−1(ya con el préstamo)−1=3. Resultado: 3.5.",
+        "6.0 − 2.5: en los décimos, 0 es menor que 5, se pide prestado: 10−5=5. En las unidades: 6−1−2=3. Resultado: 3.5."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "5.2"
+            },
+            {
+              "valor": "1.7",
+              "signo": "-"
+            },
+            {
+              "valor": "3.5",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "5.2 − 1.7 = 3.5. En los décimos se pide prestado: 12−7=5. En las unidades: 5−1(préstamo)−1=3."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "23.1"
+            },
+            {
+              "valor": "9.4",
+              "signo": "-"
+            },
+            {
+              "valor": "13.7",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              3
+            ],
+            [
+              0
+            ],
+            []
+          ],
+          "retroalimentacion": "23.1 − 9.4 = 13.7. Décimos: se pide prestado, 11−4=7. Unidades: 2 (ya prestada 1)−9, se vuelve a pedir prestado a las decenas: 12−9=3. Decenas: 2−1(préstamo)−0=1."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 8.3 − 4.6?",
+          "opciones": [
+            "4.3",
+            "3.7",
+            "3.3",
+            "4.7"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Décimos: 3 es menor que 6, se pide prestado: 13−6=7. Unidades: 8−1−4=3. El resultado es 3.7."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Para resolver 14.2 − 5.8, es necesario pedir prestada una unidad entera para poder restar los décimos.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Verdadero. Como 2 es menor que 8 en los décimos, se pide prestado 1 a las unidades: 12−8=4, y las unidades quedan 14−1−5=8. El resultado es 8.4."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "10.3 − 4.7 = ___",
+          "respuestaCorrecta": "5.6",
+          "retroalimentacion": "Décimos: 3 es menor que 7, se pide prestado: 13−7=6. Unidades: 10−1−4=5. Resultado: 5.6."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "OB-42-03",
+  "grado": "Operaciones Básicas",
+  "numero": 331,
+  "categoria": "integracion",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Operaciones combinadas con números naturales — Momento 3/8",
+  "contenido": "Resolución de expresiones que combinan suma, resta, multiplicación, división, potencias y raíces con números naturales, aplicando la jerarquía de operaciones.",
+  "pda": "Resuelve expresiones numéricas combinadas con números naturales aplicando correctamente la jerarquía de operaciones.",
+  "problematizacion": {
+    "contexto": "Don Efrén maneja una ruta de camión urbano en Puebla. En cada parada suben y bajan pasajeros, y la empresa le pide reportar el total de pasajeros multiplicando por el número de vueltas que da en el día. Para que el reporte salga correcto, Don Efrén debe sumar primero los pasajeros que suben en una parada antes de multiplicar por las vueltas.",
+    "pregunta": "Si Don Efrén necesita sumar primero los pasajeros de una parada y después multiplicar ese total por el número de vueltas, ¿qué símbolo debe usar para indicar que la suma se hace antes que la multiplicación?"
+  },
+  "subtemas": [
+    {
+      "numero": "42.3",
+      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
+      "titulo": "Paréntesis: cambiar el orden de las operaciones",
+      "explicacion": "Los paréntesis sirven para indicar qué operación se debe resolver primero, incluso si normalmente le tocaría el turno después. Todo lo que está dentro de un paréntesis se resuelve antes que cualquier operación fuera de él. Una vez resuelto lo que está adentro, el resultado se usa como si fuera un solo número y se sigue la jerarquía normal (multiplicación/división y luego suma/resta) con el resto de la expresión. Por eso, la misma combinación de números puede dar resultados distintos si se agregan o quitan paréntesis.",
+      "formula": "( ) primero → multiplicación/división → suma/resta",
+      "ejemplos": [
+        "(7 + 2) × 3 = 9 × 3 = 27 (se suma dentro del paréntesis antes de multiplicar)",
+        "18 - (5 + 1) × 2 = 18 - 6 × 2 = 18 - 12 = 6"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado de (8 + 3) × 4?",
+          "opciones": [
+            "44",
+            "20",
+            "15",
+            "32"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "El paréntesis se resuelve primero: 8 + 3 = 11. Después se multiplica: 11 × 4 = 44."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado de 20 - (4 + 2) × 3?",
+          "opciones": [
+            "2",
+            "54",
+            "38",
+            "12"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Primero el paréntesis: 4 + 2 = 6. Luego la multiplicación: 6 × 3 = 18. Al final la resta: 20 - 18 = 2."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La expresión (5 + 3) × 2 da el mismo resultado que 5 + 3 × 2.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso. (5 + 3) × 2 = 8 × 2 = 16, mientras que 5 + 3 × 2 = 5 + 6 = 11. El paréntesis cambia el orden y por eso cambia el resultado."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El resultado de (10 - 4) ÷ 3 + 5 es ___.",
+          "respuestaCorrecta": "7",
+          "retroalimentacion": "Primero el paréntesis: 10 - 4 = 6. Luego la división: 6 ÷ 3 = 2. Al final la suma: 2 + 5 = 7."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El resultado de 6 × (9 - 5) es ___.",
+          "respuestaCorrecta": "24",
+          "retroalimentacion": "Primero el paréntesis: 9 - 5 = 4. Después se multiplica: 6 × 4 = 24."
+        }
+      ]
+    }
+  ]
+}

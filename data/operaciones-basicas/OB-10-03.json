@@ -1,0 +1,92 @@
+{
+  "id": "OB-10-03",
+  "grado": "Operaciones Básicas",
+  "numero": 75,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma y resta de números con signo (signos distintos) — Momento 3/8",
+  "contenido": "Suma y resta de números enteros con signo cuando los números tienen signos distintos, incluyendo la resta como suma del opuesto.",
+  "pda": "Suma y resta números enteros con signos distintos, aplicando la regla de signos y la resta como suma del opuesto.",
+  "problematizacion": {
+    "contexto": "En una ferretería del centro, el encargado del almacén registra cada movimiento de tornillos en una libreta: las entradas de mercancía las anota como número positivo y las salidas por venta como número negativo.",
+    "pregunta": "Si un lunes entraron 12 cajas y ese mismo día salieron 20 por ventas, ¿cómo escribirías esa resta como una suma para calcular el inventario del día?"
+  },
+  "subtemas": [
+    {
+      "numero": "10.3",
+      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
+      "titulo": "La resta como suma del opuesto",
+      "explicacion": "Toda resta se puede convertir en una suma si cambias el signo del segundo número y usas el signo de más: a - b es lo mismo que a + (-b). Esta idea es muy útil porque te permite usar la misma regla de signos distintos que ya conoces, en lugar de aprender un procedimiento nuevo para restar. Ojo: si el número que restas ya es negativo, su opuesto es positivo, por lo que restar un negativo equivale a sumar un positivo.",
+      "formula": "a - b = a + (-b)  |  a - (-b) = a + b",
+      "ejemplos": [
+        "9 - 14 se reescribe como 9 + (-14); como 14 tiene mayor valor absoluto, el resultado es negativo: 14 - 9 = 5, entonces 9 - 14 = -5.",
+        "-20 - (-8) se reescribe como -20 + 8; como 20 tiene mayor valor absoluto, el resultado es negativo: 20 - 8 = 12, entonces -20 - (-8) = -12."
+      ],
+      "puntosPorReactivo": 15,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Al escribir 9 - 14 como suma, ¿cuál expresión es correcta?",
+          "opciones": [
+            "9 + 14",
+            "9 + (-14)",
+            "-9 + (-14)",
+            "-9 + 14"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Restar es lo mismo que sumar el opuesto: 9 - 14 = 9 + (-14)."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "9 - 14 = 9 + (-14) = ___.",
+          "respuestaCorrecta": "-5",
+          "retroalimentacion": "Valores absolutos 9 y 14; 14 > 9, resultado negativo: 14 - 9 = 5, entonces 9 + (-14) = -5."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "-6 - 5 escrito como suma del opuesto es:",
+          "opciones": [
+            "-6 + 5",
+            "6 + (-5)",
+            "-6 + (-5)",
+            "6+5"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "El opuesto de 5 es -5, así que -6 - 5 = -6 + (-5)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "-20 - (-8) es lo mismo que -20 + 8.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: restar un número negativo equivale a sumar su opuesto, que es positivo: -20 - (-8) = -20 + 8 = -12."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada resta con su equivalente escrita como suma del opuesto.",
+          "columnaA": [
+            "12 - 20",
+            "-15 - 7",
+            "-9 - (-4)",
+            "30 - 45"
+          ],
+          "columnaB": [
+            "-15 + (-7)",
+            "12 + (-20)",
+            "-9 + 4",
+            "30 + (-45)",
+            "-9 + (-4)"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            2,
+            3
+          ],
+          "retroalimentacion": "12 - 20 = 12 + (-20); -15 - 7 = -15 + (-7); -9 - (-4) = -9 + 4; 30 - 45 = 30 + (-45)."
+        }
+      ]
+    }
+  ]
+}

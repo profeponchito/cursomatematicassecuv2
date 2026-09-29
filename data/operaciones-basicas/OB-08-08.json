@@ -1,0 +1,114 @@
+{
+  "id": "OB-08-08",
+  "grado": "Operaciones Básicas",
+  "numero": 64,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma y resta de fracciones con distinto denominador — Momento 8/8",
+  "contenido": "Suma y resta de fracciones heterogéneas, usando el mínimo común múltiplo para igualar denominadores antes de operar.",
+  "pda": "Suma y resta fracciones con distinto denominador, calculando un común denominador antes de operar los numeradores.",
+  "problematizacion": {
+    "contexto": "En una cooperativa de reciclaje de Querétaro, un grupo de trabajadores pesa el material que recolectan durante tres días distintos: cartón, PET y aluminio, cada uno registrado en fracciones o números mixtos de tonelada. El encargado, don Fidel, necesita sumar y restar estos registros para saber cuánto material neto se llevó el camión recolector al final de la semana.",
+    "pregunta": "Si un día se recolectaron 2 1/2 toneladas, otro día 1 1/3 toneladas más, y se descontó 1/6 de tonelada que resultó ser basura no reciclable, ¿cuántas toneladas netas se reportan en total?"
+  },
+  "subtemas": [
+    {
+      "numero": "8.8",
+      "nivelEtiqueta": "Nivel 8 de 8 · Integración",
+      "titulo": "Reto integrador de suma y resta de fracciones",
+      "explicacion": "Llegaste al momento más exigente del tema: aquí se combinan números mixtos, tres términos en una misma expresión y problemas de contexto real, todo en un mismo ejercicio. La estrategia sigue siendo la misma que aprendiste desde el momento 1: identifica los denominadores, encuentra su mcm, convierte cada fracción (o número mixto ya transformado a impropia) y después realiza las sumas y restas en orden. Revisar cada paso con calma es la clave para no perderte en expresiones más largas.",
+      "ejemplos": [
+        "2 1/2 + 1 1/3 - 1/6: se convierten a impropias (5/2 y 4/3), se busca el mcm de 2, 3 y 6 (que es 6), se reescriben como 15/6 + 8/6 - 1/6 = 22/6 = 3 2/3.",
+        "3 1/4 - 1 5/6 + 1/2: convirtiendo a impropias (13/4 y 11/6) y usando mcm(4,6,2)=12, la expresión queda 39/12 - 22/12 + 6/12 = 23/12 = 1 11/12."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un albañil ocupó 2 1/2 sacos de cemento el lunes, 1 1/3 sacos el martes, y devolvió al proveedor 1/6 de saco que le sobró sin usar. ¿Cuántos sacos de cemento usó en total?",
+          "opciones": [
+            "3 2/3",
+            "4",
+            "3 1/3",
+            "3 5/6"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "2 1/2=5/2 y 1 1/3=4/3. mcm(2,3,6)=6: 5/2=15/6, 4/3=8/6, 1/6=1/6. Operando: 15/6+8/6-1/6=22/6=3 2/3."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una quesería vendió 3/4 kg de queso en la mañana y 1/3 kg al mediodía, pero por una merma se descontaron 1/6 kg. En total vendió ___ kg de queso.",
+          "respuestaCorrecta": "11/12",
+          "retroalimentacion": "mcm(4,3,6)=12: 3/4=9/12, 1/3=4/12, 1/6=2/12. Operando: 9/12+4/12-2/12=11/12 kg."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "2 1/4 + 1 1/2 - 3/4 = 3.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Verdadero. 2 1/4=9/4 y 1 1/2=3/2. mcm(4,2)=4, entonces 3/2=6/4: 9/4+6/4-3/4=12/4=3."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Para resolver correctamente 1 2/3 - 1/2 + 1/4, ¿cuál es el mcm de los denominadores 3, 2 y 4?",
+          "opciones": [
+            "6",
+            "9",
+            "12",
+            "24"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "12 es el menor número que es múltiplo de 3, de 2 y de 4 al mismo tiempo, así que mcm(3,2,4)=12."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada expresión integradora con su resultado correcto.",
+          "columnaA": [
+            "3 1/2 - 1 1/4 + 1/2",
+            "1 1/3 + 2/3 - 1/2",
+            "4/5 + 1/2 - 3/10"
+          ],
+          "columnaB": [
+            "2 3/4",
+            "1 1/2",
+            "1",
+            "2 1/4"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "3 1/2-1 1/4+1/2=2 3/4, 1 1/3+2/3-1/2=1 1/2 y 4/5+1/2-3/10=1, convirtiendo mixtos a impropias y usando el mcm de cada trío de denominadores."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Calcula: 3 1/5 - 1 2/3 + 1/2",
+      "opciones": [
+        "2 1/30",
+        "2 1/15",
+        "1 29/30",
+        "2 11/30"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "3 1/5=16/5 y 1 2/3=5/3. mcm(5,3,2)=30: 16/5=96/30, 5/3=50/30, 1/2=15/30. Operando: 96/30-50/30+15/30=61/30=2 1/30."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Resuelve: 4/9 + 5/6 - 1/3 = ___ (mínima expresión).",
+      "respuestaCorrecta": "17/18",
+      "retroalimentacion": "mcm(9,6,3)=18: 4/9=8/18, 5/6=15/18, 1/3=6/18. Operando: 8/18+15/18-6/18=17/18."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "2 3/4 + 1 5/6 - 2 1/3 = 2 1/4.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Verdadero. 2 3/4=11/4, 1 5/6=11/6, 2 1/3=7/3. mcm(4,6,3)=12: 11/4=33/12, 11/6=22/12, 7/3=28/12. Operando: 33/12+22/12-28/12=27/12=2 1/4."
+    }
+  ]
+}

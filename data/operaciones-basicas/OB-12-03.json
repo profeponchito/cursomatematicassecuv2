@@ -1,0 +1,105 @@
+{
+  "id": "OB-12-03",
+  "grado": "Operaciones Básicas",
+  "numero": 91,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma y resta en la vida cotidiana — Momento 3/8",
+  "contenido": "Suma y resta aplicadas a situaciones cotidianas: dinero, medidas y tiempo.",
+  "pda": "Resuelve problemas cotidianos de dinero, medidas y tiempo que requieren sumar o restar números naturales o decimales.",
+  "problematizacion": {
+    "contexto": "Regina es la presidenta de la cooperativa escolar y cada semana anota cuánto vendieron de tacos y cuánto gastaron en ingredientes. El viernes hicieron una venta especial y ella quiere saber cuánto ganó realmente la cooperativa ese día.",
+    "pregunta": "¿Qué necesita hacer Regina con las ventas y los gastos para conocer la ganancia del día?"
+  },
+  "subtemas": [
+    {
+      "numero": "12.3",
+      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
+      "titulo": "Combinar sumas y restas de dinero en varios pasos",
+      "explicacion": "Muchas situaciones cotidianas no se resuelven con una sola operación, sino con una suma y una resta juntas: por ejemplo, cuando gastas dinero y luego te dan más, o cuando calculas una ganancia restando los gastos de las ventas. En estos casos conviene resolver las operaciones en el orden en que ocurren los hechos, paso por paso. También practicamos el algoritmo escrito con acarreo (cuando una columna suma más de 9) y con préstamo (cuando no alcanza para restar y se pide prestado a la columna siguiente).",
+      "formula": "Resultado final = resuelve paso 1, luego usa ese resultado en el paso 2",
+      "ejemplos": [
+        "Tenías $200, gastaste $80 y te regalaron $50. Primero: 200 − 80 = 120. Después: 120 + 50 = 170 pesos."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Sofía tenía $340. Gastó $125 en el mercado y luego le dieron $60 de domingo su abuela. ¿Cuánto dinero tiene ahora?",
+          "opciones": [
+            "$275",
+            "$265",
+            "$285",
+            "$215"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "340 − 125 = 215; 215 + 60 = 275 pesos."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si tienes $500, gastas $180 y luego gastas otros $95, te quedan más de $200.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "500 − 180 = 320; 320 − 95 = 225, y 225 sí es más de 200."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un puesto de tacos vendió $860 el sábado y $945 el domingo, pero tuvo $215 de gastos en ingredientes. La ganancia de esos dos días fue de $___ pesos.",
+          "respuestaCorrecta": "1590",
+          "retroalimentacion": "860 + 945 = 1805; 1805 − 215 = 1590 pesos de ganancia."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "487"
+            },
+            {
+              "valor": "265",
+              "signo": "+"
+            },
+            {
+              "valor": "752",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [
+              1
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "487 + 265 = 752, llevando una decena y una centena."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada operación con su resultado correcto.",
+          "columnaA": [
+            "$340 − $125",
+            "$180 + $95",
+            "$500 − $260"
+          ],
+          "columnaB": [
+            "$275",
+            "$150",
+            "$215",
+            "$240"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            3
+          ],
+          "retroalimentacion": "340 − 125 = 215; 180 + 95 = 275; 500 − 260 = 240."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "OB-37-04",
+  "grado": "Operaciones Básicas",
+  "numero": 292,
+  "categoria": "potencias_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Raíz cúbica de cubos perfectos — Momento 4/8",
+  "contenido": "Cálculo de la raíz cúbica exacta de números que son cubos perfectos, como operación inversa de elevar al cubo.",
+  "pda": "Calcula la raíz cúbica exacta de cubos perfectos, reconociéndola como la operación inversa de elevar al cubo.",
+  "problematizacion": {
+    "contexto": "En el puerto de Veracruz, un contenedor de carga con forma de cubo tiene un volumen de 64000 dm³. El encargado de logística necesita calcular la longitud de la arista del contenedor para saber si cabe en el espacio disponible dentro de la bodega del barco.",
+    "pregunta": "¿Cuánto mide la arista del contenedor si su volumen es de 64000 dm³?"
+  },
+  "subtemas": [
+    {
+      "numero": "37.4",
+      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
+      "titulo": "Raíces cúbicas de múltiplos de diez",
+      "explicacion": "Cuando un cubo perfecto termina en varios ceros, su raíz cúbica suele ser un múltiplo exacto de diez. Esto pasa porque al elevar un múltiplo de diez al cubo, los ceros también se multiplican: (a0)³ = a³ seguido de tres ceros. Reconocer este patrón te permite calcular raíces cúbicas de números grandes casi de inmediato, sin necesidad de tantear cifra por cifra. Es un atajo útil para cubos perfectos como 8000, 27000 o 125000.",
+      "formula": "∛(a × 1000) = ∛a × 10, si a es cubo perfecto",
+      "ejemplos": [
+        "∛8000: como 8 = 2³, entonces ∛8000 = 2 × 10 = 20.",
+        "∛125000: como 125 = 5³, entonces ∛125000 = 5 × 10 = 50."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la raíz cúbica de 8000?",
+          "opciones": [
+            "20",
+            "200",
+            "80",
+            "2"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "8 = 2³, así que 8000 = 20³ y ∛8000 = 20."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "∛27000 = ___",
+          "respuestaCorrecta": "30",
+          "retroalimentacion": "27 = 3³, así que 27000 = 30³ y ∛27000 = 30."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "∛64000 = 40, porque 40 × 40 × 40 = 64000.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 40³ = 64000."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la raíz cúbica de 125000?",
+          "opciones": [
+            "40",
+            "45",
+            "50",
+            "55"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "125 = 5³, así que 125000 = 50³ y ∛125000 = 50."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada cubo perfecto con su raíz cúbica.",
+          "columnaA": [
+            "8000",
+            "27000",
+            "64000",
+            "216000"
+          ],
+          "columnaB": [
+            "20",
+            "30",
+            "40",
+            "50",
+            "60"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "retroalimentacion": "8000=20³, 27000=30³, 64000=40³ y 216000=60³; el 50 no tenía pareja aquí."
+        }
+      ]
+    }
+  ]
+}

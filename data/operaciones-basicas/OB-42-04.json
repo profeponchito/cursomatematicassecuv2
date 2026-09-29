@@ -1,0 +1,89 @@
+{
+  "id": "OB-42-04",
+  "grado": "Operaciones Básicas",
+  "numero": 332,
+  "categoria": "integracion",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Operaciones combinadas con números naturales — Momento 4/8",
+  "contenido": "Resolución de expresiones que combinan suma, resta, multiplicación, división, potencias y raíces con números naturales, aplicando la jerarquía de operaciones.",
+  "pda": "Resuelve expresiones numéricas combinadas con números naturales aplicando correctamente la jerarquía de operaciones.",
+  "problematizacion": {
+    "contexto": "Doña Carmen tiene una tienda de abarrotes en su colonia. Para calcular cuánto debe pagar por una caja de refrescos, primero tiene que elevar al cuadrado el número de paquetes que forman un arreglo especial, y después sumar o restar cargos por flete. Si se equivoca en el orden, el precio que cobra a sus clientes sale mal.",
+    "pregunta": "Si en la cuenta de Doña Carmen aparece una potencia junto con una suma, ¿cuál de las dos operaciones debe resolver primero?"
+  },
+  "subtemas": [
+    {
+      "numero": "42.4",
+      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
+      "titulo": "Potencias dentro de operaciones combinadas",
+      "explicacion": "A la jerarquía de operaciones se agrega ahora un nivel más arriba de la multiplicación y la división: las potencias. Una potencia como 2³ significa multiplicar la base por sí misma tantas veces como indique el exponente, y ese resultado se calcula antes de multiplicar, dividir, sumar o restar con los demás números de la expresión (a menos que un paréntesis diga lo contrario). Es un error común restar o sumar antes de resolver la potencia, así que conviene identificar primero dónde está el exponente. Con esta regla, la jerarquía completa hasta este momento queda: potencias, luego multiplicación y división, y al final suma y resta.",
+      "formula": "Potencias → multiplicación/división → suma/resta",
+      "ejemplos": [
+        "4 + 3² = 4 + 9 = 13 (se eleva al cuadrado antes de sumar)",
+        "2 × 3² - 5 = 2 × 9 - 5 = 18 - 5 = 13"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado de 3 + 2³?",
+          "opciones": [
+            "11",
+            "25",
+            "64",
+            "9"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Primero se resuelve la potencia: 2³ = 2 × 2 × 2 = 8. Después se suma: 3 + 8 = 11."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado de 5 × 2² - 4?",
+          "opciones": [
+            "16",
+            "36",
+            "6",
+            "46"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Primero la potencia: 2² = 4. Luego la multiplicación: 5 × 4 = 20. Al final la resta: 20 - 4 = 16."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En la expresión 10 - 3², primero se debe restar y después elevar al cuadrado.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso. La potencia se resuelve antes que la resta: 3² = 9, y luego 10 - 9 = 1."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El resultado de 2³ + 5 × 3 es ___.",
+          "respuestaCorrecta": "23",
+          "retroalimentacion": "Primero la potencia: 2³ = 8. Luego la multiplicación: 5 × 3 = 15. Al final la suma: 8 + 15 = 23."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada expresión con su resultado correcto.",
+          "columnaA": [
+            "4² - 6",
+            "2 + 3²",
+            "20 - 2³"
+          ],
+          "columnaB": [
+            "10",
+            "11",
+            "12",
+            "14"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "4² - 6 = 16 - 6 = 10; 2 + 3² = 2 + 9 = 11; 20 - 2³ = 20 - 8 = 12."
+        }
+      ]
+    }
+  ]
+}

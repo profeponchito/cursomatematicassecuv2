@@ -1,0 +1,106 @@
+{
+  "id": "OB-13-04",
+  "grado": "Operaciones Básicas",
+  "numero": 100,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Multiplicación de un dígito (tablas y cálculo mental) — Momento 4/8",
+  "contenido": "Multiplicación de un número de varias cifras por un solo dígito, apoyada en las tablas de multiplicar.",
+  "pda": "Multiplica números naturales por un dígito usando las tablas de multiplicar y estrategias de cálculo mental.",
+  "problematizacion": {
+    "contexto": "Un taller de costura en Puebla confecciona uniformes escolares. Cada semana logran terminar 234 uniformes, y la dueña quiere calcular cuántos uniformes se producen en 3 semanas para cumplir un pedido grande.",
+    "pregunta": "¿Cuántos uniformes en total puede entregar el taller si mantiene el mismo ritmo durante 3 semanas?"
+  },
+  "subtemas": [
+    {
+      "numero": "13.4",
+      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
+      "titulo": "Multiplicar números de tres cifras",
+      "explicacion": "El mismo procedimiento que usaste con dos cifras funciona con tres: multiplicas de derecha a izquierda (unidades, decenas, centenas) y llevas cuando el producto de una columna es 10 o más. La diferencia es que ahora puede haber más de un acarreo en la misma operación, así que hay que llevar la cuenta con cuidado columna por columna. Escribir el número en columnas alineadas por su valor posicional evita errores. Con práctica, este procedimiento sirve para números de cualquier cantidad de cifras.",
+      "formula": "unidades → decenas → centenas, llevando cuando el producto de la columna es ≥10",
+      "ejemplos": [
+        "234×3: unidades 4×3=12 (anota 2, lleva 1); decenas 3×3=9+1=10 (anota 0, lleva 1); centenas 2×3=6+1=7 → 702.",
+        "156×4: unidades 6×4=24 (anota 4, lleva 2); decenas 5×4=20+2=22 (anota 2, lleva 2); centenas 1×4=4+2=6 → 624."
+      ],
+      "puntosPorReactivo": 15,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "234"
+            },
+            {
+              "valor": "3",
+              "signo": "×"
+            },
+            {
+              "valor": "702",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0,
+              1,
+              2
+            ]
+          ],
+          "retroalimentacion": "234×3 = 702: unidades 4×3=12 (anota 2, lleva 1), decenas 3×3=9+1=10 (anota 0, lleva 1), centenas 2×3=6+1=7, resultado 702."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 156×4?",
+          "opciones": [
+            "624",
+            "614",
+            "634",
+            "724"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "156×4 = 624: unidades 6×4=24 (anota 4, lleva 2), decenas 5×4=20+2=22 (anota 2, lleva 2), centenas 1×4=4+2=6, resultado 624."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "417×6 es igual a 2,502.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: unidades 7×6=42, decenas 1×6=6+4=10, centenas 4×6=24+1=25, resultado 2,502."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "328×5 = ___",
+          "respuestaCorrecta": "1640",
+          "retroalimentacion": "328×5 = 1,640: unidades 8×5=40, decenas 2×5=10+4=14, centenas 3×5=15+1=16, resultado 1,640."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada multiplicación de tres cifras con su resultado.",
+          "columnaA": [
+            "289×3",
+            "134×6",
+            "245×4",
+            "372×2"
+          ],
+          "columnaB": [
+            "744",
+            "804",
+            "867",
+            "980"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            3,
+            0
+          ],
+          "retroalimentacion": "289×3=867, 134×6=804, 245×4=980 y 372×2=744."
+        }
+      ]
+    }
+  ]
+}

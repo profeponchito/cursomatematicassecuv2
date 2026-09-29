@@ -1,0 +1,74 @@
+{
+  "id": "OB-25-03",
+  "grado": "Operaciones Básicas",
+  "numero": 195,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Estimación antes de multiplicar y dividir — Momento 3/8",
+  "contenido": "Estimación del resultado de una multiplicación o división mediante redondeo, para verificar si un cálculo exacto es razonable.",
+  "pda": "Estima el resultado de multiplicaciones y divisiones mediante redondeo y lo usa para verificar la razonabilidad de un cálculo.",
+  "problematizacion": {
+    "contexto": "El entrenador de un equipo de beisbol juvenil inscribió a 213 niños en la liga municipal y quiere formar equipos de 9 integrantes cada uno antes de organizar los entrenamientos.",
+    "pregunta": "Usando un número compatible cercano a 213 que se divida exacto entre 9, ¿aproximadamente cuántos equipos completos se podrían formar?"
+  },
+  "subtemas": [
+    {
+      "numero": "25.3",
+      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
+      "titulo": "Números compatibles para estimar una división",
+      "explicacion": "Para estimar una división, redondear el dividendo a la decena o centena más cercana no siempre funciona, porque el resultado podría no salir exacto y complicarse. En su lugar usamos 'números compatibles': un número cercano al dividendo original que SÍ se pueda dividir exactamente entre el divisor. Buscar ese número compatible requiere pensar en las tablas de multiplicar del divisor y elegir el múltiplo más cercano al número real. Esta estrategia te da una estimación clara y fácil de calcular mentalmente.",
+      "formula": "estimación ≈ (número compatible) ÷ divisor",
+      "ejemplos": [
+        "Para estimar 182 ÷ 6: buscamos un múltiplo de 6 cercano a 182; 180 es múltiplo de 6 (6 × 30 = 180), así que la estimación es 180 ÷ 6 = 30.",
+        "Para estimar 356 ÷ 9: el múltiplo de 9 más cercano es 360 (9 × 40 = 360), así que la estimación es 360 ÷ 9 = 40."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Para estimar 182 ÷ 6, buscamos un número compatible cercano a 182 que se divida exacto entre 6. ¿Cuál conviene usar?",
+          "opciones": [
+            "180",
+            "175",
+            "190",
+            "200"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "180 es múltiplo de 6 (6 × 30 = 180) y está muy cerca de 182, así que 180 ÷ 6 = 30 es una buena estimación."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Para estimar 243 ÷ 8, usamos el número compatible 240 (cercano a 243) porque se divide exacto: 240 ÷ 8 = ___.",
+          "respuestaCorrecta": "30",
+          "retroalimentacion": "240 ÷ 8 = 30. El resultado exacto de 243 ÷ 8 es 30.375, muy cerca de la estimación."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Para estimar 356 ÷ 9, Marisol usó el número compatible 360 y calculó 360 ÷ 9 = 40. Verdadero o falso: 40 es una buena estimación de 356 ÷ 9.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Verdadero. El resultado exacto de 356 ÷ 9 es aproximadamente 39.6, muy cercano a 40."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál número compatible conviene usar para estimar 271 ÷ 9?",
+          "opciones": [
+            "270",
+            "265",
+            "280",
+            "300"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "270 es múltiplo de 9 (9 × 30 = 270) y es el más cercano a 271, así que la estimación es 30."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Para estimar 415 ÷ 7, el número compatible más cercano es 420, porque 420 ÷ 7 = ___.",
+          "respuestaCorrecta": "60",
+          "retroalimentacion": "420 ÷ 7 = 60. El resultado exacto de 415 ÷ 7 es aproximadamente 59.3, muy cerca de la estimación."
+        }
+      ]
+    }
+  ]
+}

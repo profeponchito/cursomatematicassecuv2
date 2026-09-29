@@ -1,0 +1,89 @@
+{
+  "id": "OB-34-05",
+  "grado": "Operaciones Básicas",
+  "numero": 269,
+  "categoria": "potencias_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Producto y cociente de potencias de igual base — Momento 5/8",
+  "contenido": "Las propiedades básicas de las potencias: producto de potencias de igual base (se suman exponentes) y cociente de potencias de igual base (se restan exponentes).",
+  "pda": "Aplica las propiedades del producto y el cociente de potencias de la misma base para simplificar expresiones sencillas.",
+  "problematizacion": {
+    "contexto": "En una papelería del centro de Puebla, el inventario de cuadernos se organiza en paquetes: cada paquete grande contiene 5x^4 cuadernos y llegan al mismo tiempo 3x^2 paquetes iguales para surtir la tienda.",
+    "pregunta": "Si multiplicas 3x^2 por 5x^4 para saber el total de cuadernos que llegaron, ¿cuál es la expresión simplificada?"
+  },
+  "subtemas": [
+    {
+      "numero": "34.5",
+      "nivelEtiqueta": "Nivel 5 de 8 · Aplicación",
+      "titulo": "Potencias con coeficiente numérico",
+      "explicacion": "Muchas veces una potencia va acompañada de un coeficiente, es decir, un número que la multiplica por fuera, como en 3x^2. Al multiplicar dos términos de este tipo con la misma base literal, multiplicas los coeficientes entre sí y, por separado, sumas los exponentes de la base. En la división, divides los coeficientes y restas los exponentes de la base.",
+      "formula": "(c·a^m)·(d·a^n) = (c·d)·a^(m+n)  |  (c·a^m)÷(d·a^n) = (c÷d)·a^(m-n)",
+      "ejemplos": [
+        "3x^2 · 5x^4 = 15x^6",
+        "20y^7 ÷ 4y^3 = 5y^4"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Simplifica 3x^2 · 5x^4.",
+          "opciones": [
+            "15x^6",
+            "8x^6",
+            "15x^8",
+            "8x^8"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Se multiplican los coeficientes (3×5=15) y se suman los exponentes (2+4=6): resultado 15x^6."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Simplifica 20y^7 ÷ 4y^3.",
+          "opciones": [
+            "5y^4",
+            "16y^4",
+            "5y^10",
+            "16y^10"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Se dividen los coeficientes (20÷4=5) y se restan los exponentes (7-3=4): resultado 5y^4."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Al simplificar 6a^3 · 2a^5 obtienes 12a^8.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 6×2=12 y 3+5=8, entonces 6a^3 · 2a^5 = 12a^8."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Al simplificar 18b^9 ÷ 3b^2, el coeficiente del resultado es ___.",
+          "respuestaCorrecta": "6",
+          "retroalimentacion": "Se dividen los coeficientes: 18 ÷ 3 = 6. Los exponentes dan 9-2=7, así que el resultado completo es 6b^7."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada expresión con coeficiente y potencia con su resultado simplificado.",
+          "columnaA": [
+            "4m^2 · 3m^3",
+            "24n^8 ÷ 6n^2",
+            "2p^4 · 5p^1"
+          ],
+          "columnaB": [
+            "12m^5",
+            "4n^6",
+            "10p^5",
+            "6m^6"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "4×3=12 y 2+3=5 → 12m^5; 24÷6=4 y 8-2=6 → 4n^6; 2×5=10 y 4+1=5 → 10p^5."
+        }
+      ]
+    }
+  ]
+}

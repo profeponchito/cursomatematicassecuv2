@@ -1,0 +1,74 @@
+{
+  "id": "OB-17-07",
+  "grado": "Operaciones Básicas",
+  "numero": 135,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Multiplicación de fracciones — Momento 7/8",
+  "contenido": "Multiplicación de fracciones, multiplicando numeradores entre sí y denominadores entre sí, simplificando el resultado.",
+  "pda": "Multiplica fracciones y simplifica el resultado a su expresión más simple.",
+  "problematizacion": {
+    "contexto": "En 2.º B están diseñando un mural para el patio de la escuela. El boceto mide 2 1/2 metros de largo, y la maestra de Artes pidió que la versión final sea 1 2/3 veces más grande que el boceto para que se vea bien desde lejos.",
+    "pregunta": "¿Qué multiplicación de números mixtos permite calcular el largo del mural final?"
+  },
+  "subtemas": [
+    {
+      "numero": "17.7",
+      "nivelEtiqueta": "Nivel 7 de 8 · Reto",
+      "titulo": "Multiplicación de números mixtos",
+      "explicacion": "Para multiplicar dos números mixtos (un entero junto con una fracción, como 1 1/2), primero debes convertir cada uno en una fracción impropia: multiplicas el entero por el denominador y le sumas el numerador, y el resultado va sobre el mismo denominador. Después multiplicas las dos fracciones impropias como ya sabes hacerlo, simplificas, y si quieres puedes volver a expresar el resultado como número mixto. Nunca multipliques directamente la parte entera con la parte entera y la fracción con la fracción por separado: eso da un resultado incorrecto.",
+      "formula": "w n/d → (w×d+n)/d, luego multiplica las fracciones impropias como siempre",
+      "ejemplos": [
+        "1 1/2 × 2 1/3 = 3/2 × 7/3 = 21/6 = 3 entero 1/2",
+        "1 3/4 × 1 1/3 = 7/4 × 4/3 = 28/12 = 2 entero 1/3"
+      ],
+      "puntosPorReactivo": 25,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "1 1/2 × 2 1/3 = ?",
+          "opciones": [
+            "3 entero 1/6",
+            "3 entero 1/2",
+            "21/6 sin convertir",
+            "2 entero 5/6"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Conviertes: 1 1/2 = 3/2, y 2 1/3 = 7/3. Multiplicas: 3/2 × 7/3 = 21/6, que simplificado es 7/2, es decir 3 entero 1/2."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "1 3/4 × 1 1/3 = ?",
+          "opciones": [
+            "2 entero 1/3",
+            "2 entero 4/12 sin simplificar",
+            "1 entero 1/3",
+            "3 entero 1/12"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Conviertes: 1 3/4 = 7/4, y 1 1/3 = 4/3. Multiplicas: 7/4 × 4/3 = 28/12, que simplificado es 7/3, es decir 2 entero 1/3."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "1 1/4 × 2 2/5 da exactamente un número entero: 3.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Conviertes: 1 1/4 = 5/4, y 2 2/5 = 12/5. Multiplicas: 5/4 × 12/5 = 60/20 = 3, un entero exacto sin parte fraccionaria."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "2 1/2 × 1 2/3 = 25/6, que como número mixto es ___",
+          "respuestaCorrecta": "4 entero 1/6",
+          "retroalimentacion": "Conviertes: 2 1/2 = 5/2, y 1 2/3 = 5/3. Multiplicas: 5/2 × 5/3 = 25/6. Como 25 entre 6 da 4 y sobran 1, el número mixto es 4 entero 1/6."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Para multiplicar 1 1/2 × 2 1/3 puedes multiplicar directamente 1 × 2 (las partes enteras) y 1/2 × 1/3 (las partes fraccionarias) por separado, y sumar ambos resultados.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Eso NO funciona. Primero debes convertir cada número mixto en fracción impropia (1 1/2 = 3/2 y 2 1/3 = 7/3) y multiplicar esas fracciones completas: 3/2 × 7/3 = 21/6."
+        }
+      ]
+    }
+  ]
+}

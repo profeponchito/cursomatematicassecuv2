@@ -1,0 +1,97 @@
+{
+  "id": "OB-12-04",
+  "grado": "Operaciones Básicas",
+  "numero": 92,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma y resta en la vida cotidiana — Momento 4/8",
+  "contenido": "Suma y resta aplicadas a situaciones cotidianas: dinero, medidas y tiempo.",
+  "pda": "Resuelve problemas cotidianos de dinero, medidas y tiempo que requieren sumar o restar números naturales o decimales.",
+  "problematizacion": {
+    "contexto": "Don Emilio es carpintero y está construyendo un librero para la biblioteca de la escuela. Necesita unir varios tablones de madera de distintas medidas y también pesar la lámina que va a usar para la base.",
+    "pregunta": "¿Qué operaciones necesita hacer Don Emilio para saber la medida total de los tablones unidos?"
+  },
+  "subtemas": [
+    {
+      "numero": "12.4",
+      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
+      "titulo": "Sumar y restar medidas con números decimales",
+      "explicacion": "Las medidas de longitud, peso o capacidad casi nunca son números enteros exactos: por eso aparecen los decimales, como 2.5 metros o 1.75 kilogramos. Para sumar o restar decimales hay que alinear el punto decimal, igual que se alinean las unidades, decenas y centenas en los números enteros. Si a una cantidad le faltan cifras decimales, se puede completar con ceros sin que cambie su valor. Este momento agrega el reto de trabajar con decimales sobre lo que ya sabes de suma y resta.",
+      "formula": "Alinea el punto decimal antes de sumar o restar",
+      "ejemplos": [
+        "Un listón mide 3.4 m y le cortan 1.15 m. Quedan: 3.40 − 1.15 = 2.25 metros."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un carpintero une un tablón de 2.5 m con otro de 1.8 m. ¿Cuántos metros mide la unión total?",
+          "opciones": [
+            "4.3 m",
+            "3.3 m",
+            "4.7 m",
+            "3.7 m"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "2.5 + 1.8 = 4.3 metros en total."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si una receta necesita 1.75 kg de harina y ya tienes 0.9 kg, te faltan más de 1 kg.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "1.75 − 0.9 = 0.85 kg, y 0.85 no es más de 1 kg."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un tinaco tiene 850.5 litros de agua y se usan 275.2 litros para regar el jardín. Quedan ___ litros.",
+          "respuestaCorrecta": "575.3",
+          "retroalimentacion": "850.5 − 275.2 = 575.3 litros restantes."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "12.60"
+            },
+            {
+              "valor": "8.75",
+              "signo": "+"
+            },
+            {
+              "valor": "21.35",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              3
+            ],
+            [
+              0
+            ],
+            [
+              0,
+              4
+            ]
+          ],
+          "retroalimentacion": "12.60 + 8.75 = 21.35 metros de tablón en total, alineando décimas y centésimas."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un costal de arroz pesa 3.2 kg y el de frijol pesa 1.65 kg menos. ¿Cuánto pesa el costal de frijol?",
+          "opciones": [
+            "1.55 kg",
+            "1.65 kg",
+            "1.45 kg",
+            "4.85 kg"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "3.2 − 1.65 = 1.55 kg pesa el costal de frijol."
+        }
+      ]
+    }
+  ]
+}

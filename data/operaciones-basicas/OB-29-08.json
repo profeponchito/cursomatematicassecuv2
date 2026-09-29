@@ -1,0 +1,116 @@
+{
+  "id": "OB-29-08",
+  "grado": "Operaciones Básicas",
+  "numero": 232,
+  "categoria": "potencias_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Significado de la potencia (multiplicación repetida) — Momento 8/8",
+  "contenido": "La potencia como una multiplicación repetida de un mismo factor (base), identificando base y exponente.",
+  "pda": "Interpreta una potencia como la multiplicación repetida de su base, e identifica base y exponente en una expresión.",
+  "problematizacion": {
+    "contexto": "En el laboratorio de la telesecundaria de Pátzcuaro, la profesora Xóchitl mostró a sus alumnos un cultivo de bacterias que se duplica cada hora, empezando con una sola bacteria, y les pidió calcular cuántas habría después de 5 duplicaciones usando potencias.",
+    "pregunta": "¿Qué potencia representa el número total de bacterias después de que el cultivo se duplicó 5 veces?"
+  },
+  "subtemas": [
+    {
+      "numero": "29.8",
+      "nivelEtiqueta": "Nivel 8 de 8 · Integración",
+      "titulo": "Integra todo: identifica, expande, calcula y aplica",
+      "explicacion": "Llegó el momento de unir todo lo que has practicado sobre el significado de la potencia: identificar la base y el exponente, expandir la potencia en su multiplicación repetida, calcular su valor y distinguirla de una multiplicación simple, ahora dentro de situaciones reales. Muchos fenómenos de la vida diaria, como la duplicación de bacterias o el doblado repetido de una hoja de papel, se representan naturalmente con potencias porque el mismo factor se repite una y otra vez. Leer bien el contexto te dirá cuál número es la base (lo que se repite) y cuál es el exponente (cuántas veces se repite).",
+      "ejemplos": [
+        "Si una bacteria se duplica 5 veces empezando en 1, el total se calcula como 2^5 = 32 (la base es 2 porque se duplica, y el exponente es 5 porque ocurre 5 veces).",
+        "Si una hoja se dobla a la mitad 4 veces, el número de capas es 2^4 = 16 (la base es 2 por cada doblez a la mitad, y el exponente es 4 por el número de dobleces)."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una bacteria se duplica cada hora. Si empieza siendo 1 y se duplica 5 veces, ¿qué potencia representa el total de bacterias?",
+          "opciones": [
+            "5^2",
+            "2^5",
+            "2×5",
+            "5×2"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "La base es 2 porque cada hora se duplica (se multiplica por 2), y el exponente es 5 porque eso ocurre 5 veces: 2^5."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "2^5 tiene un valor de ___ bacterias.",
+          "respuestaCorrecta": "32",
+          "retroalimentacion": "2^5 = 2×2×2×2×2 = 32 bacterias."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En el problema de las bacterias, la base es 5 porque el cultivo se duplicó 5 veces.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso. La base es 2 (lo que se repite al duplicarse); el 5 es el exponente, porque indica cuántas veces ocurre la duplicación."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un profesor dobla una hoja de papel por la mitad 4 veces. El número de capas resultantes es 2^4. ¿Cuántas capas son?",
+          "opciones": [
+            "8",
+            "16",
+            "24",
+            "32"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "2^4 = 2×2×2×2 = 16 capas de papel."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada expresión con su resultado correcto; recuerda distinguir potencias de multiplicaciones simples.",
+          "columnaA": [
+            "5^3",
+            "5×3",
+            "2^4",
+            "4×2"
+          ],
+          "columnaB": [
+            "8",
+            "125",
+            "15",
+            "16"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            3,
+            0
+          ],
+          "retroalimentacion": "5^3 = 125, 5×3 = 15, 2^4 = 16 y 4×2 = 8. Las potencias y las multiplicaciones simples con los mismos números dan resultados distintos."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Un tablero de ajedrez tiene 64 casillas. Si en la primera casilla se coloca 1 grano de arroz y la cantidad se duplica en cada casilla siguiente, ¿qué potencia representa los granos en la casilla número 11 (la duplicación ocurrió 10 veces)?",
+      "opciones": [
+        "2^10",
+        "10^2",
+        "2×10",
+        "10^10"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "La base es 2 porque la cantidad se duplica en cada casilla, y el exponente es 10 porque eso ocurre 10 veces: 2^10."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "El valor de 2^10 es ___ granos de arroz.",
+      "respuestaCorrecta": "1024",
+      "retroalimentacion": "2^10 = 2×2×2×2×2×2×2×2×2×2 = 1024 granos de arroz."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "7^0 es igual a 0.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Falso. Cualquier base distinta de cero elevada al exponente 0 es igual a 1, así que 7^0 = 1, no 0."
+    }
+  ]
+}

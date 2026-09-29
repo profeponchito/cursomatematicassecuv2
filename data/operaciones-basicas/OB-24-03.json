@@ -1,0 +1,103 @@
+{
+  "id": "OB-24-03",
+  "grado": "Operaciones Básicas",
+  "numero": 187,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "División de números con signo — Momento 3/8",
+  "contenido": "División de números enteros con signo, aplicando la misma regla de signos que en la multiplicación.",
+  "pda": "Divide números enteros con signo aplicando correctamente la regla de los signos.",
+  "problematizacion": {
+    "contexto": "Un chofer de camión foráneo en la ruta México-Querétaro gastó $204 de más en diésel debido a un desvío por obras en la carretera. Debe reportar ese gasto extra dividido entre las 17 vueltas que dio ese mes, para llevar el control de sus gastos por viaje.",
+    "pregunta": "¿Cómo escribirías esta situación como una división de números con signo?"
+  },
+  "subtemas": [
+    {
+      "numero": "24.3",
+      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
+      "titulo": "Divide paso a paso: signo y magnitud por separado",
+      "explicacion": "Para no confundirte con números más grandes, conviene resolver la división en dos pasos claros: primero determina el signo del resultado usando la regla de los signos, y después calcula la división de los valores absolutos como si fueran números positivos. Aquí empiezas a trabajar con divisores de dos cifras, y también puedes comprobar tu resultado multiplicando el cociente por el divisor: si el producto te devuelve el dividendo (en valor absoluto), la división fue correcta.",
+      "formula": "Paso 1: decide el signo · Paso 2: divide los valores absolutos · Comprobación: cociente × divisor = dividendo",
+      "ejemplos": [
+        "-156 ÷ 12: signos diferentes, el resultado será negativo; 156 ÷ 12 = 13, entonces -156 ÷ 12 = -13.",
+        "Comprobación: 13 × 12 = 156, así que el resultado -13 es correcto para -156 ÷ 12."
+      ],
+      "puntosPorReactivo": 15,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "-156 ÷ 12 = ?",
+          "opciones": [
+            "-13",
+            "13",
+            "-14",
+            "14"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "156 ÷ 12 = 13; signos diferentes, así que el resultado es -13."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "-204 ÷ (-17) = ___",
+          "respuestaCorrecta": "12",
+          "retroalimentacion": "204 ÷ 17 = 12; signos iguales, así que el resultado es positivo: 12."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "180 ÷ (-15) = -12",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 180 ÷ 15 = 12 y, como los signos son diferentes, el resultado es -12."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "15"
+            },
+            {
+              "valor": "15",
+              "signo": "×"
+            },
+            {
+              "valor": "75"
+            },
+            {
+              "valor": "150"
+            },
+            {
+              "valor": "225",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [],
+            [],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "Esto verifica que 225 ÷ 15 = 15, porque 15 × 15 = 225. Como el dividendo -225 es negativo y el divisor 15 es positivo, el cociente real es -225 ÷ 15 = -15."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "-196 ÷ 14 = ?",
+          "opciones": [
+            "-14",
+            "14",
+            "-13",
+            "13"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "196 ÷ 14 = 14; signos diferentes, así que el resultado es -14."
+        }
+      ]
+    }
+  ]
+}

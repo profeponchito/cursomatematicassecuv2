@@ -1,0 +1,110 @@
+{
+  "id": "OB-13-03",
+  "grado": "Operaciones Básicas",
+  "numero": 99,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Multiplicación de un dígito (tablas y cálculo mental) — Momento 3/8",
+  "contenido": "Multiplicación de un número de varias cifras por un solo dígito, apoyada en las tablas de multiplicar.",
+  "pda": "Multiplica números naturales por un dígito usando las tablas de multiplicar y estrategias de cálculo mental.",
+  "problematizacion": {
+    "contexto": "El equipo de futbol de una secundaria de Querétaro va a jugar un torneo fuera de la ciudad. El entrenador reserva 3 camionetas y en cada una caben 47 kilos de equipo deportivo (balones, uniformes y agua) para el viaje completo del equipo.",
+    "pregunta": "¿Cuántos kilos de equipo puede transportar el entrenador en total usando las 3 camionetas llenas?"
+  },
+  "subtemas": [
+    {
+      "numero": "13.3",
+      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
+      "titulo": "Multiplicar llevando (con acarreo)",
+      "explicacion": "Cuando al multiplicar las unidades el resultado es 10 o más, no cabe una sola cifra en esa columna: se escribe la unidad del producto y se \"lleva\" la decena para sumarla al siguiente producto (el de las decenas). Este acarreo es el mismo que usas al sumar, pero aquí nace de una multiplicación. Es importante sumar lo que llevas ANTES de anotar el resultado de la siguiente columna, no después. Practicar esto con números de dos cifras te prepara para números más grandes.",
+      "formula": "unidad × factor = producto; si ≥10, se anota la unidad y se lleva la decena a la siguiente columna",
+      "ejemplos": [
+        "47×3: unidades 7×3=21, se escribe 1 y se lleva 2; decenas 4×3=12, más el 2 que se llevaba = 14 → resultado 141.",
+        "56×4: unidades 6×4=24, se escribe 4 y se lleva 2; decenas 5×4=20, más 2 = 22 → resultado 224."
+      ],
+      "puntosPorReactivo": 15,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "47"
+            },
+            {
+              "valor": "3",
+              "signo": "×"
+            },
+            {
+              "valor": "141",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0,
+              1,
+              2
+            ]
+          ],
+          "retroalimentacion": "47×3 = 141: unidades 7×3=21 (se anota 1, se lleva 2), decenas 4×3=12+2=14, resultado 141."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 56×4?",
+          "opciones": [
+            "224",
+            "214",
+            "234",
+            "204"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "56×4 = 224: unidades 6×4=24 (se anota 4, se lleva 2), decenas 5×4=20+2=22, resultado 224."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "68×5 es igual a 340.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: unidades 8×5=40 (se anota 0, se lleva 4), decenas 6×5=30+4=34, resultado 340."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "39×6 = ___",
+          "respuestaCorrecta": "234",
+          "retroalimentacion": "39×6 = 234: unidades 9×6=54 (se anota 4, se lleva 5), decenas 3×6=18+5=23, resultado 234."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "27"
+            },
+            {
+              "valor": "4",
+              "signo": "×"
+            },
+            {
+              "valor": "108",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "27×4 = 108: unidades 7×4=28 (se anota 8, se lleva 2), decenas 2×4=8+2=10, resultado 108."
+        }
+      ]
+    }
+  ]
+}

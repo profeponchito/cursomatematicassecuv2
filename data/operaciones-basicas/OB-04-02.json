@@ -1,0 +1,96 @@
+{
+  "id": "OB-04-02",
+  "grado": "Operaciones Básicas",
+  "numero": 26,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma y resta de naturales grandes por posición — Momento 2/8",
+  "contenido": "Suma y resta de números de varias cifras (miles, decenas de mil), reforzando el valor posicional como base del algoritmo.",
+  "pda": "Suma y resta números naturales de varias cifras, descomponiendo cada número por su valor posicional (unidades, decenas, centenas, miles).",
+  "problematizacion": {
+    "contexto": "El profesor Iván organiza la colecta de útiles escolares de su secundaria en Querétaro. Un salón donó cuadernos y libretas que llegaron en dos cajas separadas, y necesita saber cuántos artículos hay en total antes de acomodarlos en el estante.",
+    "pregunta": "¿Qué operación debe hacer el profesor Iván para saber el total de artículos donados entre las dos cajas?"
+  },
+  "subtemas": [
+    {
+      "numero": "4.2",
+      "nivelEtiqueta": "Nivel 2 de 8 · Básico",
+      "titulo": "Sumar en columnas sin acarreo",
+      "explicacion": "Ahora que reconoces el valor posicional, vas a aplicarlo en el algoritmo escrito de la suma: se acomodan los números uno debajo del otro alineando unidades con unidades, decenas con decenas, y así sucesivamente, y se suma cada columna de derecha a izquierda. En este momento ninguna columna pasa de 9, así que todavía no necesitas 'llevar' nada: es el paso perfecto para dominar el acomodo antes de complicarlo.",
+      "formula": "Alinear por posición y sumar columna por columna, de derecha a izquierda",
+      "ejemplos": [
+        "4,213 + 1,252: unidades 3+2=5, decenas 1+5=6, centenas 2+2=4, millares 4+1=5. Resultado: 5,465."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "4213"
+            },
+            {
+              "valor": "1252",
+              "signo": "+"
+            },
+            {
+              "valor": "5465",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              3
+            ],
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "4,213 + 1,252 = 5,465. Como ninguna columna suma más de 9, cada dígito del resultado sale directo de sumar esa columna."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una papelería vendió 3,124 lápices en marzo y 2,653 en abril. ¿Cuántos lápices vendió en total entre los dos meses?",
+          "opciones": [
+            "5,677",
+            "5,777",
+            "5,877",
+            "5,767"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "3,124 + 2,653 = 5,777: unidades 4+3=7, decenas 2+5=7, centenas 1+6=7, millares 3+2=5."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "6,542 + 1,236 = 7,778.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: unidades 2+6=8, decenas 4+3=7, centenas 5+2=7, millares 6+1=7, así que el resultado es 7,778."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "2,315 + 4,201 = ___.",
+          "respuestaCorrecta": "6516",
+          "retroalimentacion": "Sumando columna por columna: unidades 5+1=6, decenas 1+0=1, centenas 3+2=5, millares 2+4=6. El resultado es 6,516."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una tienda de abarrotes tenía 5,123 productos en la bodega y recibió un pedido de 3,646 productos más. ¿Cuántos productos hay ahora en total?",
+          "opciones": [
+            "8,669",
+            "8,759",
+            "8,769",
+            "8,779"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "5,123 + 3,646 = 8,769: unidades 3+6=9, decenas 2+4=6, centenas 1+6=7, millares 5+3=8."
+        }
+      ]
+    }
+  ]
+}

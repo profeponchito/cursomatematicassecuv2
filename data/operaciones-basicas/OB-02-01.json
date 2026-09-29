@@ -1,0 +1,105 @@
+{
+  "id": "OB-02-01",
+  "grado": "Operaciones Básicas",
+  "numero": 9,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma con acarreo (algoritmo en columna) — Momento 1/8",
+  "contenido": "El algoritmo escrito de la suma de naturales cuando una o más columnas superan 9 y hay que 'llevar' al siguiente orden.",
+  "pda": "Aplica el algoritmo de la suma en columna, identificando y registrando correctamente el acarreo entre posiciones.",
+  "problematizacion": {
+    "contexto": "Don Rafael atiende una pequeña tienda de abarrotes en su colonia. Cada tarde anota en un cuaderno cuánto vendió en la mañana y cuánto en la tarde para saber el total del día. Hoy vendió 27 pesos en refrescos por la mañana y 15 pesos más por la tarde.",
+    "pregunta": "Si Don Rafael suma esas dos cantidades en columna, ¿en qué columna tiene que \"llevar\" un dígito a la siguiente?"
+  },
+  "subtemas": [
+    {
+      "numero": "2.1",
+      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
+      "titulo": "¿Qué es \"llevar\" en la suma?",
+      "explicacion": "Cuando sumas dos números en columna, trabajas de derecha a izquierda, empezando por las unidades. Si la suma de una columna llega a 10 o más, no puedes escribir dos dígitos en esa columna: escribes solo el dígito de las unidades de ese resultado parcial y \"llevas\" o acarreas el otro dígito a la siguiente columna, sumándolo ahí. Ese dígito que se traslada se llama acarreo. Practicar a identificarlo es la base de todo el algoritmo de la suma.",
+      "formula": "Si una columna suma ≥ 10: escribe la unidad, lleva la decena a la siguiente columna.",
+      "ejemplos": [
+        "27 + 15: unidades 7 + 5 = 12, se escribe 2 y se lleva 1; decenas 2 + 1 + 1(acarreo) = 4; resultado 42."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "27"
+            },
+            {
+              "valor": "15",
+              "signo": "+"
+            },
+            {
+              "valor": "42",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "27 + 15: en las unidades, 7 + 5 = 12, se escribe 2 y se lleva 1 a las decenas; 2 + 1 + 1 = 4. El resultado es 42."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "38"
+            },
+            {
+              "valor": "24",
+              "signo": "+"
+            },
+            {
+              "valor": "62",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "38 + 24: en las unidades, 8 + 4 = 12, se escribe 2 y se lleva 1; en las decenas, 3 + 2 + 1 = 6. El resultado es 62."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Al sumar 46 + 27, ¿cuál es el dígito que se \"lleva\" a las decenas?",
+          "opciones": [
+            "0",
+            "1",
+            "2",
+            "3"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "En las unidades, 6 + 7 = 13. Se escribe 3 y se lleva 1 a las decenas: 4 + 2 + 1 = 7. El resultado es 73."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Al sumar 53 + 19, la columna de las unidades no genera acarreo, porque 3 + 9 = 12.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Es falso: 3 + 9 = 12 es mayor o igual que 10, así que sí hay acarreo. Se escribe 2 y se lleva 1 a las decenas: 5 + 1 + 1 = 7. El resultado es 72."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En la suma 68 + 25, la columna de las unidades da 8 + 5 = 13, así que se escribe 3 y se lleva ___ a la columna de las decenas.",
+          "respuestaCorrecta": "1",
+          "retroalimentacion": "8 + 5 = 13: se escribe 3 y se lleva 1. En las decenas, 6 + 2 + 1 = 9. El resultado es 93."
+        }
+      ]
+    }
+  ]
+}

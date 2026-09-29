@@ -1,0 +1,105 @@
+{
+  "id": "OB-01-03",
+  "grado": "Operaciones Básicas",
+  "numero": 3,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma y resta de naturales sin llevar — Momento 3/8",
+  "contenido": "Suma y resta de números naturales cuando ninguna columna requiere acarreo ni préstamo.",
+  "pda": "Resuelve sumas y restas de números naturales identificando el valor posicional de cada cifra, sin necesidad de acarreo ni préstamo.",
+  "problematizacion": {
+    "contexto": "Don Efraín tiene un puesto de verduras en el mercado sobre ruedas. El lunes acomodó 123 kilos de tomate en su primer pedido y el miércoles le llegaron 245 kilos más para reponer lo que se había vendido.",
+    "pregunta": "¿Cuántos kilos de tomate ha recibido Don Efraín en total si suma 123 y 245 columna por columna, sin que ninguna columna llegue a 10?"
+  },
+  "subtemas": [
+    {
+      "numero": "1.3",
+      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
+      "titulo": "Sumar centenas, decenas y unidades en números de tres cifras",
+      "explicacion": "Ahora los números tienen tres cifras: centenas, decenas y unidades. La forma de sumar no cambia, solo se agrega una columna más a la izquierda. Se acomodan los números en su lugar (centenas debajo de centenas, decenas debajo de decenas, unidades debajo de unidades) y se suma cada columna por separado, siempre y cuando ninguna columna sume 10 o más.",
+      "formula": "centenas + centenas, decenas + decenas, unidades + unidades",
+      "ejemplos": [
+        "123 + 245: unidades 3+5=8, decenas 2+4=6, centenas 1+2=3 → 368",
+        "312 + 456: unidades 2+6=8, decenas 1+5=6, centenas 3+4=7 → 768"
+      ],
+      "puntosPorReactivo": 12,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "123",
+              "signo": "+"
+            },
+            {
+              "valor": "245",
+              "signo": "+"
+            },
+            {
+              "valor": "368",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              2
+            ],
+            []
+          ],
+          "retroalimentacion": "123 + 245 = 368: unidades 3+5=8, decenas 2+4=6, centenas 1+2=3. Ninguna columna llega a 10."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado de 312 + 456?",
+          "opciones": [
+            "768",
+            "878",
+            "758",
+            "668"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "312 + 456 = 768. Unidades 2+6=8, decenas 1+5=6, centenas 3+4=7."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "234 + 512 = 746",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Es verdadero. Unidades 4+2=6, decenas 3+1=4, centenas 2+5=7 → 746."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "150 + ___ = 380",
+          "respuestaCorrecta": "230",
+          "retroalimentacion": "380 - 150 = 230. Comprobación: 150 + 230: unidades 0+0=0, decenas 5+3=8, centenas 1+2=3 → 380."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada suma de tres cifras con su resultado.",
+          "columnaA": [
+            "121 + 335",
+            "203 + 146",
+            "410 + 280"
+          ],
+          "columnaB": [
+            "456",
+            "349",
+            "690",
+            "512"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "121+335=456, 203+146=349 y 410+280=690, sumando cada columna por separado."
+        }
+      ]
+    }
+  ]
+}
