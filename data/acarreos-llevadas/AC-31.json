@@ -1,0 +1,306 @@
+{
+  "id": "AC-31",
+  "grado": "Acarreos y Llevadas",
+  "numero": 31,
+  "categoria": "acarreo_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Verificación de divisiones con números decimales",
+  "contenido": "Comprobación de divisiones exactas con cociente o dividendo decimal, mediante multiplicación inversa ubicando correctamente el punto decimal.",
+  "pda": "Verifica divisiones con decimales comprobando el producto cociente por divisor y la posición del punto decimal.",
+  "problematizacion": {
+    "contexto": "En la papelería de la esquina, don Refugio reparte el costo total de una caja de plumones entre los estudiantes de un equipo y obtiene un cociente con decimales. Antes de cobrarle a cada quien, quiere estar seguro de que no se equivocó al dividir.",
+    "pregunta": "¿Cómo puede don Refugio comprobar, con una sola multiplicación, que su división con decimales está bien hecha?"
+  },
+  "subtemas": [
+    {
+      "numero": "6",
+      "nivelEtiqueta": "Nivel 6 de 9 · Aplicación",
+      "titulo": "Verificación de divisiones con números decimales",
+      "explicacion": "Cuando divides y el resultado (cociente) o el dividendo tienen punto decimal, puedes comprobar que la división está bien hecha multiplicando el cociente por el divisor: si el resultado es igual al dividendo, la división es correcta. Lo importante es ubicar bien el punto decimal en el producto: cuentas las cifras decimales que tiene el cociente y colocas esa misma cantidad de cifras decimales en el resultado de la multiplicación. Esta comprobación funciona porque dividir y multiplicar son operaciones inversas: si 'dividendo ÷ divisor = cociente', entonces 'cociente × divisor = dividendo'. Practicar este acomodo te ayuda a detectar errores comunes, como olvidar un acarreo o mover el punto decimal al lugar equivocado.",
+      "formula": "dividendo ÷ divisor = cociente  se comprueba con  cociente × divisor = dividendo",
+      "ejemplos": [
+        "23.5 ÷ 5 = 4.7 se comprueba así: 4.7 × 5. Multiplicas 7 × 5 = 35, escribes 5 y llevas 3; luego 4 × 5 = 20, más el 3 que llevabas = 23. El resultado es 23.5, exactamente el dividendo, así que la división es correcta.",
+        "37.4 ÷ 2 = 18.7 se comprueba con 18.7 × 2: 7 × 2 = 14, escribes 4 y llevas 1; 8 × 2 = 16, más 1 = 17, escribes 7 y llevas 1; 1 × 2 = 2, más 1 = 3. Se obtiene 37.4, que coincide con el dividendo."
+      ],
+      "puntosPorReactivo": 16,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "4.7"
+            },
+            {
+              "valor": "5",
+              "signo": "×"
+            },
+            {
+              "valor": "23.5",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 23.5 ÷ 5 = 4.7, porque 4.7 × 5 = 23.5."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "3.6"
+            },
+            {
+              "valor": "4",
+              "signo": "×"
+            },
+            {
+              "valor": "14.4",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              0,
+              3
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 14.4 ÷ 4 = 3.6, porque 3.6 × 4 = 14.4."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "7.5"
+            },
+            {
+              "valor": "3",
+              "signo": "×"
+            },
+            {
+              "valor": "22.5",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [],
+            []
+          ],
+          "retroalimentacion": "Esto comprueba que 22.5 ÷ 3 = 7.5, porque 7.5 × 3 = 22.5."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "2.9"
+            },
+            {
+              "valor": "6",
+              "signo": "×"
+            },
+            {
+              "valor": "17.4",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              0,
+              3
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 17.4 ÷ 6 = 2.9, porque 2.9 × 6 = 17.4."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "6.4"
+            },
+            {
+              "valor": "7",
+              "signo": "×"
+            },
+            {
+              "valor": "44.8",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0,
+              2
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 44.8 ÷ 7 = 6.4, porque 6.4 × 7 = 44.8."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "18.7"
+            },
+            {
+              "valor": "2",
+              "signo": "×"
+            },
+            {
+              "valor": "37.4",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              3
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 37.4 ÷ 2 = 18.7, porque 18.7 × 2 = 37.4."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "9.3"
+            },
+            {
+              "valor": "8",
+              "signo": "×"
+            },
+            {
+              "valor": "74.4",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 74.4 ÷ 8 = 9.3, porque 9.3 × 8 = 74.4."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "5.7"
+            },
+            {
+              "valor": "9",
+              "signo": "×"
+            },
+            {
+              "valor": "51.3",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0,
+              2
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 51.3 ÷ 9 = 5.7, porque 5.7 × 9 = 51.3."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "24.6"
+            },
+            {
+              "valor": "3",
+              "signo": "×"
+            },
+            {
+              "valor": "73.8",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [
+              3
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 73.8 ÷ 3 = 24.6, porque 24.6 × 3 = 73.8."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "13.9"
+            },
+            {
+              "valor": "4",
+              "signo": "×"
+            },
+            {
+              "valor": "55.6",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 55.6 ÷ 4 = 13.9, porque 13.9 × 4 = 55.6."
+        }
+      ]
+    }
+  ]
+}

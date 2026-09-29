@@ -1,0 +1,292 @@
+{
+  "id": "AC-35",
+  "grado": "Acarreos y Llevadas",
+  "numero": 35,
+  "categoria": "acarreo_potencias",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Cuadrados de números de una cifra",
+  "contenido": "Cálculo de cuadrados (n²) de números de una cifra mediante la multiplicación de un número por sí mismo.",
+  "pda": "Calcula cuadrados de números de una cifra reconociendo cuándo el producto genera acarreo.",
+  "problematizacion": {
+    "contexto": "En un taller de cerámica en Puebla, una artesana corta azulejos cuadrados para decorar una mesa. Cada azulejo mide un número entero de centímetros por lado (entre 4 y 9 cm), y ella necesita saber cuántos centímetros cuadrados de material usa por cada azulejo antes de cortar la loseta completa.",
+    "pregunta": "¿Cómo puede calcular rápidamente el área de cada azulejo cuadrado usando la multiplicación del lado por sí mismo?"
+  },
+  "subtemas": [
+    {
+      "numero": "1",
+      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
+      "titulo": "Cuadrados de números de una cifra",
+      "explicacion": "Elevar al cuadrado un número de una cifra significa multiplicarlo por sí mismo: n² = n × n. Cuando la base es 4, 5, 6, 7, 8 o 9, el resultado siempre tiene dos cifras, porque el producto rebasa las unidades. Ahí aparece el acarreo: la parte del producto que no cabe en las unidades se convierte en la cifra de las decenas del resultado. Por ejemplo, en 7 × 7 = 49, el 4 de las decenas nace precisamente de ese acarreo. Practicar estos cuadrados ayuda a reconocer de memoria los productos más usados y a entender por qué el resultado \"crece\" de una cifra a dos.",
+      "formula": "n² = n × n (para n de 4 a 9, el resultado siempre tiene dos cifras por el acarreo)",
+      "ejemplos": [
+        "6² = 6 × 6 = 36: el producto pasa de 9, así que se genera un acarreo y el resultado queda con dos cifras: 3 en las decenas y 6 en las unidades.",
+        "9² = 9 × 9 = 81: como 9 × 9 es mucho mayor que 9, la decena que se forma por el acarreo se escribe como el 8 de 81."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "4"
+            },
+            {
+              "valor": "4",
+              "signo": "×"
+            },
+            {
+              "valor": "16",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            []
+          ],
+          "retroalimentacion": "4 × 4 = 16, así que 4² = 16. Como 4 × 4 pasa de 9, se genera un acarreo: se escribe 6 en las unidades y el 1 de las decenas nace de ese acarreo."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "5"
+            },
+            {
+              "valor": "5",
+              "signo": "×"
+            },
+            {
+              "valor": "25",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            []
+          ],
+          "retroalimentacion": "5 × 5 = 25, así que 5² = 25. El producto rebasa las unidades (es mayor que 9), por lo que hay acarreo: queda 5 en las unidades y 2 en las decenas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "6"
+            },
+            {
+              "valor": "6",
+              "signo": "×"
+            },
+            {
+              "valor": "36",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "6 × 6 = 36, así que 6² = 36. Al multiplicar 6 × 6 se genera un acarreo porque el producto pasa de 9: la cifra de las decenas es 3 y la de las unidades es 6."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "7"
+            },
+            {
+              "valor": "7",
+              "signo": "×"
+            },
+            {
+              "valor": "49",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "7 × 7 = 49, así que 7² = 49. Aquí ocurre un acarreo: como 7 × 7 es mayor que 9, la decena que se forma se escribe como el 4 de 49."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "8"
+            },
+            {
+              "valor": "8",
+              "signo": "×"
+            },
+            {
+              "valor": "64",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "8 × 8 = 64, así que 8² = 64. El acarreo aparece porque el producto de 8 × 8 supera las unidades: se anota 4 en las unidades y la decena que se lleva se escribe como el 6 de 64."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "9"
+            },
+            {
+              "valor": "9",
+              "signo": "×"
+            },
+            {
+              "valor": "81",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "9 × 9 = 81, así que 9² = 81. Al ser 9 × 9 mayor que 9, hay acarreo hacia las decenas: se escribe 1 en las unidades y 8 en las decenas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "4"
+            },
+            {
+              "valor": "4",
+              "signo": "×"
+            },
+            {
+              "valor": "16",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0,
+              1
+            ]
+          ],
+          "retroalimentacion": "4 × 4 = 16, así que 4² = 16. Como el producto pasa de 9, hay acarreo: la cifra de las decenas (1) se forma al pasar de las unidades a un nuevo lugar."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "6"
+            },
+            {
+              "valor": "6",
+              "signo": "×"
+            },
+            {
+              "valor": "36",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "6 × 6 = 36, así que 6² = 36. El producto rebasa las unidades y genera acarreo: por eso aparece un 3 en las decenas de 36."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "7"
+            },
+            {
+              "valor": "7",
+              "signo": "×"
+            },
+            {
+              "valor": "49",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "7 × 7 = 49, así que 7² = 49. Hay acarreo porque 7 × 7 no cabe en una sola cifra: la decena que se lleva se escribe como el 4 de 49."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "9"
+            },
+            {
+              "valor": "9",
+              "signo": "×"
+            },
+            {
+              "valor": "81",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0,
+              1
+            ]
+          ],
+          "retroalimentacion": "9 × 9 = 81, así que 9² = 81. El acarreo se nota en que la decena (8) se forma al pasar de las unidades, ya que 9 × 9 es mayor que 9."
+        }
+      ]
+    }
+  ]
+}

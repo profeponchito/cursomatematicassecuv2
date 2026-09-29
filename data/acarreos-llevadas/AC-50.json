@@ -1,0 +1,386 @@
+{
+  "id": "AC-50",
+  "grado": "Acarreos y Llevadas",
+  "numero": 50,
+  "categoria": "acarreo_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Integración: raíces cuadradas y cúbicas con distintos niveles de acarreo",
+  "contenido": "Verificación de raíces cuadradas y cúbicas de distintos tamaños, incluyendo un caso decimal, integrando todos los tipos de acarreo del tema.",
+  "pda": "Verifica raíces cuadradas y cúbicas integrando todos los tipos de acarreo trabajados en el tema.",
+  "problematizacion": {
+    "contexto": "En la feria de ciencias de tu escuela, un compañero presume que puede calcular raíces sin calculadora: dice que un tinaco cúbico de 1728 litros mide 12 decímetros por lado, y que un terreno cuadrado de 13225 m² mide 115 m por lado. Antes de creerle, quieres comprobar sus dos afirmaciones con el algoritmo de multiplicación en columnas.",
+    "pregunta": "¿Cómo usas la multiplicación en columnas, cuidando los acarreos, para verificar si esas raíces (una cúbica y una cuadrada) que presume tu compañero son correctas?"
+  },
+  "subtemas": [
+    {
+      "numero": "8",
+      "nivelEtiqueta": "Nivel 8 de 8 · Integración",
+      "titulo": "Integración: raíces cuadradas y cúbicas con distintos niveles de acarreo",
+      "explicacion": "En este tema cierras el bloque de raíces combinando la verificación de raíces cuadradas de dos y tres cifras con la de raíces cúbicas de una y dos cifras, incluyendo un caso con radicando decimal. Para comprobar una raíz cuadrada multiplicas la raíz por sí misma: raíz × raíz = radicando. Para comprobar una raíz cúbica primero necesitas la raíz al cuadrado, y ese resultado se vuelve a multiplicar por la raíz: raíz² × raíz = radicando. Cuando el multiplicador tiene dos o más cifras, escribes un producto parcial por cada una de sus cifras, recorriendo cada uno un lugar hacia la izquierda, y al final los sumas en columna para obtener el radicando. En el caso decimal multiplicas como si los factores fueran números enteros y colocas el punto decimal solo en el resultado final, contando cuántas cifras decimales suman entre los dos factores. En todos los casos debes estar atento a los acarreos, tanto al multiplicar cifra por cifra como al sumar los productos parciales en columna, porque una cifra que 'se lleva' mal cambia por completo el resultado.",
+      "formula": "Raíz cuadrada: raíz × raíz = radicando · Raíz cúbica: raíz² × raíz = radicando (usa raíz² ya calculada como uno de los factores).",
+      "ejemplos": [
+        "Para comprobar que √1936 = 44, multiplicas 44 × 44: primero 44 × 4 = 176 (hay acarreo: 4 × 4 = 16, se escribe 6 y se llevan 1, luego 4 × 4 + 1 = 17); después 44 × 4 en las decenas, recorrido un lugar, da 1760. Sumando 176 + 1760 = 1936 queda comprobado que la raíz cuadrada de 1936 es 44.",
+        "Para comprobar que la raíz cúbica de 216 es 6, primero calculas 6² = 36 y luego multiplicas 36 × 6 (hay dos acarreos seguidos: 6 × 6 = 36, se llevan 3, y 3 × 6 + 3 = 21), lo que da 216. Como 36 × 6 = 216, queda comprobado que la raíz cúbica de 216 es 6."
+      ],
+      "puntosPorReactivo": 20,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "27"
+            },
+            {
+              "valor": "27",
+              "signo": "×"
+            },
+            {
+              "valor": "189"
+            },
+            {
+              "valor": "540"
+            },
+            {
+              "valor": "729",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [],
+            [
+              1
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "27 × 27 = 729, así que la raíz cuadrada de 729 es 27. Al multiplicar 27 × 7 hay dos acarreos seguidos (7 × 7 = 49, se escribe 9 y se llevan 4; luego 2 × 7 + 4 = 18), por eso el primer producto parcial es 189; en 27 × 2 (en las decenas) también hay acarreo (7 × 2 = 14, se lleva 1), por eso el segundo parcial recorrido es 540. Sumando 189 + 540 = 729 se confirma la raíz."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "44"
+            },
+            {
+              "valor": "44",
+              "signo": "×"
+            },
+            {
+              "valor": "176"
+            },
+            {
+              "valor": "1760"
+            },
+            {
+              "valor": "1936",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              1
+            ],
+            [
+              1
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "44 × 44 = 1936, así que la raíz cuadrada de 1936 es 44. En 44 × 4 hay acarreo (4 × 4 = 16, se escribe 6 y se llevan 1; luego 4 × 4 + 1 = 17), por eso el primer parcial es 176; el segundo parcial recorrido (44 × 4 en las decenas) es 1760, con el mismo acarreo. Sumando 176 + 1760 = 1936 se confirma la raíz."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "38"
+            },
+            {
+              "valor": "38",
+              "signo": "×"
+            },
+            {
+              "valor": "304"
+            },
+            {
+              "valor": "1140"
+            },
+            {
+              "valor": "1444",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [],
+            [
+              1
+            ],
+            []
+          ],
+          "retroalimentacion": "38 × 38 = 1444, así que la raíz cuadrada de 1444 es 38. En 38 × 8 hay dos acarreos seguidos (8 × 8 = 64, se llevan 6; luego 3 × 8 + 6 = 30), por eso el primer parcial es 304; el segundo parcial recorrido (38 × 3 en las decenas) es 1140. Sumando 304 + 1140 = 1444 se confirma la raíz."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "115"
+            },
+            {
+              "valor": "115",
+              "signo": "×"
+            },
+            {
+              "valor": "575"
+            },
+            {
+              "valor": "1150"
+            },
+            {
+              "valor": "11500"
+            },
+            {
+              "valor": "13225",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [],
+            [
+              1
+            ],
+            [],
+            [],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "115 × 115 = 13225, así que la raíz cuadrada de 13225 es 115. En 115 × 5 hay acarreo (5 × 5 = 25, se escribe 5 y se llevan 2; luego 1 × 5 + 2 = 7), por eso el primer parcial es 575; el segundo parcial (115 × 1 en las decenas) es 1150 y el tercero (115 × 1 en las centenas) es 11500. Al sumar 575 + 1150 + 11500 = 13225 aparecen acarreos al alinear las columnas, y así se confirma la raíz."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "116"
+            },
+            {
+              "valor": "116",
+              "signo": "×"
+            },
+            {
+              "valor": "696"
+            },
+            {
+              "valor": "1160"
+            },
+            {
+              "valor": "11600"
+            },
+            {
+              "valor": "13456",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              1
+            ],
+            [
+              0
+            ],
+            [],
+            [
+              1
+            ],
+            []
+          ],
+          "retroalimentacion": "116 × 116 = 13456, así que la raíz cuadrada de 13456 es 116. En 116 × 6 hay acarreo (6 × 6 = 36, se escribe 6 y se llevan 3; luego 1 × 6 + 3 = 9), por eso el primer parcial es 696; el segundo parcial (116 × 1 en las decenas) es 1160 y el tercero (116 × 1 en las centenas) es 11600. Al sumar 696 + 1160 + 11600 = 13456 aparecen acarreos al alinear las columnas, confirmando la raíz."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "36"
+            },
+            {
+              "valor": "6",
+              "signo": "×"
+            },
+            {
+              "valor": "216",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "6² = 36, y 36 × 6 = 216, así que la raíz cúbica de 216 es 6. Al multiplicar hay dos acarreos seguidos: 6 × 6 = 36 (se escribe 6 y se llevan 3) y luego 3 × 6 + 3 = 21 (se escribe 21 al frente), por eso 36 × 6 = 216."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "64"
+            },
+            {
+              "valor": "8",
+              "signo": "×"
+            },
+            {
+              "valor": "512",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "8² = 64, y 64 × 8 = 512, así que la raíz cúbica de 512 es 8. Al multiplicar hay dos acarreos seguidos: 4 × 8 = 32 (se escribe 2 y se llevan 3) y luego 6 × 8 + 3 = 51 (se escribe 51 al frente), por eso 64 × 8 = 512."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "144"
+            },
+            {
+              "valor": "12",
+              "signo": "×"
+            },
+            {
+              "valor": "288"
+            },
+            {
+              "valor": "1440"
+            },
+            {
+              "valor": "1728",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [],
+            [
+              1
+            ],
+            [],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "12² = 144, y 144 × 12 = 1728, así que la raíz cúbica de 1728 es 12. El primer parcial 144 × 2 = 288 no tiene acarreo, pero al sumar 288 + 1440 sí hay un acarreo en la columna de las decenas (8 + 4 = 12, se escribe 2 y se lleva 1), por eso el resultado es 1728."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "225"
+            },
+            {
+              "valor": "15",
+              "signo": "×"
+            },
+            {
+              "valor": "1125"
+            },
+            {
+              "valor": "2250"
+            },
+            {
+              "valor": "3375",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              1
+            ],
+            [
+              1
+            ],
+            [],
+            []
+          ],
+          "retroalimentacion": "15² = 225, y 225 × 15 = 3375, así que la raíz cúbica de 3375 es 15. En 225 × 5 hay varios acarreos seguidos (5 × 5 = 25, luego 2 × 5 + 2 = 12, luego 2 × 5 + 1 = 11), por eso ese parcial es 1125; el segundo parcial (225 × 1 en las decenas) es 2250. Sumando 1125 + 2250 = 3375 se confirma la raíz."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "3.4"
+            },
+            {
+              "valor": "3.4",
+              "signo": "×"
+            },
+            {
+              "valor": "136"
+            },
+            {
+              "valor": "1020"
+            },
+            {
+              "valor": "11.56",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [],
+            [],
+            [
+              1
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "3.4 × 3.4 = 11.56, así que la raíz cuadrada de 11.56 es 3.4. Al multiplicar 34 × 4 hay dos acarreos seguidos (4 × 4 = 16, luego 3 × 4 + 1 = 13), por eso el primer parcial es 136; en 34 × 3 (en las decenas) también hay dos acarreos (4 × 3 = 12, luego 3 × 3 + 1 = 10), por eso el segundo parcial recorrido es 1020. Como cada factor tiene 1 cifra decimal, el resultado junta 2: 11.56."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "id": "AC-26",
+  "grado": "Acarreos y Llevadas",
+  "numero": 26,
+  "categoria": "acarreo_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Verificación de divisiones exactas de dos cifras entre una cifra",
+  "contenido": "Comprobación de divisiones exactas mediante su multiplicación inversa (cociente × divisor = dividendo), con dividendo de dos cifras.",
+  "pda": "Verifica divisiones exactas de dos cifras entre una cifra comprobando que cociente por divisor reproduce el dividendo.",
+  "problematizacion": {
+    "contexto": "En la tienda escolar de la cooperativa, don Refugio repartió 72 paletas en partes iguales entre 8 cajas para llevarlas a la kermés. Antes de cerrar las cajas quiere estar seguro de que repartió bien y no le van a faltar paletas a la hora de vender.",
+    "pregunta": "¿Cómo puede don Refugio comprobar, usando una multiplicación, que 72 ÷ 8 realmente da 9 paletas por caja?"
+  },
+  "subtemas": [
+    {
+      "numero": "1",
+      "nivelEtiqueta": "Nivel 1 de 9 · Introductorio",
+      "titulo": "Verificación de divisiones exactas de dos cifras entre una cifra",
+      "explicacion": "Cuando divides un número de dos cifras entre un número de una cifra y el resultado es exacto, puedes comprobar que no te equivocaste multiplicando el cociente por el divisor: si el resultado es el dividendo original, la división está bien hecha. Esta comprobación es en realidad una multiplicación de dos números de una cifra, y como el resultado tiene dos cifras, siempre se genera un acarreo hacia las decenas, igual que cuando multiplicas cualquier par de dígitos grandes. Practicar esta verificación te ayuda a detectar errores en tus divisiones sin tener que repetir todo el reparto, y además refuerza tus tablas de multiplicar. En cada reactivo verás el cociente y el divisor ya multiplicados en forma de algoritmo vertical, y deberás completar las casillas vacías para reconstruir la operación completa.",
+      "formula": "cociente × divisor = dividendo",
+      "ejemplos": [
+        "18 ÷ 2 = 9 se comprueba así: 9 × 2 = 18. Al multiplicar 9 por 2 obtienes 18, un número de dos cifras: el 1 de las decenas es el acarreo que surge de multiplicar 9 × 2.",
+        "56 ÷ 7 = 8 se comprueba así: 8 × 7 = 56. Como 8 × 7 = 56, el dígito de las decenas (5) nace del acarreo de esa multiplicación, confirmando que la división original era correcta."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "9"
+            },
+            {
+              "valor": "2",
+              "signo": "×"
+            },
+            {
+              "valor": "18",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 18 ÷ 2 = 9, porque 9 × 2 = 18: el divisor oculto es 2 y la decena del resultado (1) viene del acarreo de esa multiplicación."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "8"
+            },
+            {
+              "valor": "3",
+              "signo": "×"
+            },
+            {
+              "valor": "24",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 24 ÷ 3 = 8, porque 8 × 3 = 24: el cociente oculto es 8 y la decena del resultado (2) es el acarreo de multiplicar 8 × 3."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "7"
+            },
+            {
+              "valor": "4",
+              "signo": "×"
+            },
+            {
+              "valor": "28",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0,
+              1
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 28 ÷ 4 = 7, porque 7 × 4 = 28: el 2 (decenas) es el acarreo que se genera al multiplicar 7 × 4, y el 8 (unidades) completa el resultado."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "6"
+            },
+            {
+              "valor": "5",
+              "signo": "×"
+            },
+            {
+              "valor": "30",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            []
+          ],
+          "retroalimentacion": "Esto comprueba que 30 ÷ 5 = 6, porque 6 × 5 = 30: el divisor oculto es 5, y esa multiplicación produce un acarreo de 3 hacia las decenas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "7"
+            },
+            {
+              "valor": "6",
+              "signo": "×"
+            },
+            {
+              "valor": "42",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            []
+          ],
+          "retroalimentacion": "Esto comprueba que 42 ÷ 6 = 7, porque 7 × 6 = 42: el cociente oculto es 7, y al multiplicarlo por 6 se genera un acarreo de 4 hacia las decenas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "8"
+            },
+            {
+              "valor": "7",
+              "signo": "×"
+            },
+            {
+              "valor": "56",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 56 ÷ 7 = 8, porque 8 × 7 = 56: la decena oculta (5) es justamente el acarreo que se produce al multiplicar 8 × 7."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "9"
+            },
+            {
+              "valor": "8",
+              "signo": "×"
+            },
+            {
+              "valor": "72",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 72 ÷ 8 = 9, porque 9 × 8 = 72: la unidad oculta (2) se obtiene después de que la multiplicación 9 × 8 genera un acarreo de 7 hacia las decenas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "6"
+            },
+            {
+              "valor": "9",
+              "signo": "×"
+            },
+            {
+              "valor": "54",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            []
+          ],
+          "retroalimentacion": "Esto comprueba que 54 ÷ 9 = 6, porque 6 × 9 = 54: el divisor oculto es 9, y esa multiplicación produce un acarreo de 5 hacia las decenas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "9"
+            },
+            {
+              "valor": "3",
+              "signo": "×"
+            },
+            {
+              "valor": "27",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 27 ÷ 3 = 9, porque 9 × 3 = 27: el cociente oculto es 9 y la decena del resultado (2) es el acarreo de multiplicar 9 × 3."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "9"
+            },
+            {
+              "valor": "7",
+              "signo": "×"
+            },
+            {
+              "valor": "63",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 63 ÷ 7 = 9, porque 9 × 7 = 63: la unidad oculta (3) aparece después de que la multiplicación 9 × 7 genera un acarreo de 6 hacia las decenas."
+        }
+      ]
+    }
+  ]
+}

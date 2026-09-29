@@ -1,0 +1,372 @@
+{
+  "id": "AC-04",
+  "grado": "Acarreos y Llevadas",
+  "numero": 4,
+  "categoria": "acarreo_suma",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma de tres sumandos con acarreo",
+  "contenido": "Suma de tres números naturales de dos o tres cifras, donde sumar más de dos cantidades por columna también puede generar acarreo.",
+  "pda": "Resuelve sumas de tres sumandos aplicando el acarreo cuando la suma de una columna (con tres cifras) supera 9.",
+  "problematizacion": {
+    "contexto": "En la cooperativa escolar de una secundaria en Puebla, tres alumnos llevan la caja del día: uno cuenta las monedas de las tortas, otro el dinero de los jugos y otro el de las frituras. Al final del turno deben juntar las tres cantidades para reportarlas en la bitácora de ventas.",
+    "pregunta": "¿Cómo pueden sumar las tres cantidades en columna sin perder ningún peso al hacer los acarreos?"
+  },
+  "subtemas": [
+    {
+      "numero": "4",
+      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
+      "titulo": "Suma de tres sumandos con acarreo",
+      "explicacion": "Cuando sumas tres números en columna, primero sumas los tres dígitos de las unidades, luego los de las decenas y así sucesivamente, siempre de derecha a izquierda. Con tres sumandos es muy común que el total de una columna llegue a 10, 20 o incluso más, porque ahora hay tres cifras que se acumulan y no solo dos. Cuando eso pasa, escribes únicamente el dígito de las unidades de ese resultado parcial y \"llevas\" el resto (puede ser 1 o hasta 2) como acarreo a la siguiente columna, sumándolo junto con los tres dígitos de esa columna. Este acarreo se repite en cada columna donde el total sea 10 o más, hasta terminar con la columna de mayor valor. Practicar este tipo de suma te prepara para sumar listas más largas de números sin perder el hilo del acarreo.",
+      "formula": "Suma columna por columna de derecha a izquierda: si el total de una columna (los tres dígitos más el acarreo que traigas) es 10 o más, escribe solo la cifra de las unidades de ese total y lleva la cifra de las decenas a la siguiente columna.",
+      "ejemplos": [
+        "En una tienda de abarrotes se registran tres compras del día: $174, $259 y $368. Para saber el total, se suman en columna: en las unidades, 4 + 9 + 8 = 21, se escribe 1 y se llevan 2; en las decenas, 7 + 5 + 6 + 2 = 20, se escribe 0 y se llevan 2; en las centenas, 1 + 2 + 3 + 2 = 8. El total es $801.",
+        "Otro ejemplo: 87 + 96 + 58. En las unidades, 7 + 6 + 8 = 21, se escribe 1 y se llevan 2; en las decenas, 8 + 9 + 5 + 2 = 24, se escribe 4 y se llevan 2 a las centenas, donde solo queda escribir ese 2. El resultado es 241."
+      ],
+      "puntosPorReactivo": 14,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "267",
+              "signo": "+"
+            },
+            {
+              "valor": "158",
+              "signo": "+"
+            },
+            {
+              "valor": "346",
+              "signo": "+"
+            },
+            {
+              "valor": "771",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              2
+            ],
+            [
+              1
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "267 + 158 + 346 = 771: en las unidades, 7 + 8 + 6 = 21, se escribe 1 y se llevan 2; en las decenas, 6 + 5 + 4 + 2 = 17, se escribe 7 y se lleva 1; en las centenas, 2 + 1 + 3 + 1 = 7."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "45",
+              "signo": "+"
+            },
+            {
+              "valor": "38",
+              "signo": "+"
+            },
+            {
+              "valor": "29",
+              "signo": "+"
+            },
+            {
+              "valor": "112",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "45 + 38 + 29 = 112: en las unidades, 5 + 8 + 9 = 22, se escribe 2 y se llevan 2; en las decenas, 4 + 3 + 2 + 2 = 11, se escribe 1 y se lleva 1; ese 1 pasa directo a las centenas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "156",
+              "signo": "+"
+            },
+            {
+              "valor": "289",
+              "signo": "+"
+            },
+            {
+              "valor": "347",
+              "signo": "+"
+            },
+            {
+              "valor": "792",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [
+              1
+            ],
+            [
+              0
+            ],
+            []
+          ],
+          "retroalimentacion": "156 + 289 + 347 = 792: en las unidades, 6 + 9 + 7 = 22, se escribe 2 y se llevan 2; en las decenas, 5 + 8 + 4 + 2 = 19, se escribe 9 y se lleva 1; en las centenas, 1 + 2 + 3 + 1 = 7."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "63",
+              "signo": "+"
+            },
+            {
+              "valor": "58",
+              "signo": "+"
+            },
+            {
+              "valor": "79",
+              "signo": "+"
+            },
+            {
+              "valor": "200",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              1
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "63 + 58 + 79 = 200: en las unidades, 3 + 8 + 9 = 20, se escribe 0 y se llevan 2; en las decenas, 6 + 5 + 7 + 2 = 20, se escribe 0 y se llevan 2; esas 2 decenas pasan a las centenas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "482",
+              "signo": "+"
+            },
+            {
+              "valor": "375",
+              "signo": "+"
+            },
+            {
+              "valor": "198",
+              "signo": "+"
+            },
+            {
+              "valor": "1055",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              2
+            ],
+            [
+              1
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "482 + 375 + 198 = 1055: en las unidades, 2 + 5 + 8 = 15, se escribe 5 y se lleva 1; en las decenas, 8 + 7 + 9 + 1 = 25, se escribe 5 y se llevan 2; en las centenas, 4 + 3 + 1 + 2 = 10, se escribe 0 y se lleva 1 a los millares."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "38",
+              "signo": "+"
+            },
+            {
+              "valor": "47",
+              "signo": "+"
+            },
+            {
+              "valor": "86",
+              "signo": "+"
+            },
+            {
+              "valor": "171",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [
+              1
+            ],
+            []
+          ],
+          "retroalimentacion": "38 + 47 + 86 = 171: en las unidades, 8 + 7 + 6 = 21, se escribe 1 y se llevan 2; en las decenas, 3 + 4 + 8 + 2 = 17, se escribe 7 y se lleva 1 a las centenas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "356",
+              "signo": "+"
+            },
+            {
+              "valor": "178",
+              "signo": "+"
+            },
+            {
+              "valor": "264",
+              "signo": "+"
+            },
+            {
+              "valor": "798",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [
+              2
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "356 + 178 + 264 = 798: en las unidades, 6 + 8 + 4 = 18, se escribe 8 y se lleva 1; en las decenas, 5 + 7 + 6 + 1 = 19, se escribe 9 y se lleva 1; en las centenas, 3 + 1 + 2 + 1 = 7."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "58",
+              "signo": "+"
+            },
+            {
+              "valor": "67",
+              "signo": "+"
+            },
+            {
+              "valor": "45",
+              "signo": "+"
+            },
+            {
+              "valor": "170",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "58 + 67 + 45 = 170: en las unidades, 8 + 7 + 5 = 20, se escribe 0 y se llevan 2; en las decenas, 5 + 6 + 4 + 2 = 17, se escribe 7 y se lleva 1 a las centenas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "245",
+              "signo": "+"
+            },
+            {
+              "valor": "367",
+              "signo": "+"
+            },
+            {
+              "valor": "489",
+              "signo": "+"
+            },
+            {
+              "valor": "1101",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [
+              1
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "245 + 367 + 489 = 1101: en las unidades, 5 + 7 + 9 = 21, se escribe 1 y se llevan 2; en las decenas, 4 + 6 + 8 + 2 = 20, se escribe 0 y se llevan 2; en las centenas, 2 + 3 + 4 + 2 = 11, se escribe 1 y se lleva 1 a los millares."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "76",
+              "signo": "+"
+            },
+            {
+              "valor": "85",
+              "signo": "+"
+            },
+            {
+              "valor": "49",
+              "signo": "+"
+            },
+            {
+              "valor": "210",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              1
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "76 + 85 + 49 = 210: en las unidades, 6 + 5 + 9 = 20, se escribe 0 y se llevan 2; en las decenas, 7 + 8 + 4 + 2 = 21, se escribe 1 y se llevan 2 a las centenas."
+        }
+      ]
+    }
+  ]
+}

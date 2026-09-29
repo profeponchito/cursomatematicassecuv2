@@ -1,0 +1,408 @@
+{
+  "id": "AC-42",
+  "grado": "Acarreos y Llevadas",
+  "numero": 42,
+  "categoria": "acarreo_potencias",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Integración: potencias grandes con múltiples acarreos",
+  "contenido": "Cálculo de cuadrados y cubos de números de dos cifras, y de la potencia cuarta, combinando todos los casos de acarreo del tema.",
+  "pda": "Calcula potencias variadas integrando todos los tipos de acarreo trabajados en el tema.",
+  "problematizacion": {
+    "contexto": "En un taller de carpinteria en Puebla se organizan piezas cuadradas de madera en arreglos que crecen como potencias: un modulo de 34 x 34 piezas para un piso, otro que necesita el cubo de 23 para calcular un volumen de cajas apiladas, y uno mas grande que multiplica 12 elevado a la cuarta para estimar bloques en un patron repetido. El encargado revisa las cuentas escritas en columnas antes de cortar el material, porque un digito mal acarreado significa piezas de mas o de menos.",
+    "pregunta": "Si al comprobar una de estas potencias con una multiplicacion en columnas olvidas un acarreo, ¿que problema le puede causar al carpintero al calcular cuantas piezas necesita?"
+  },
+  "subtemas": [
+    {
+      "numero": "8",
+      "nivelEtiqueta": "Nivel 8 de 8 · Integración",
+      "titulo": "Integracion: potencias grandes con multiples acarreos",
+      "explicacion": "En este tema integras todo lo que ya sabes sobre el acarreo al calcular potencias: elevar al cuadrado, al cubo y hasta a la cuarta potencia numeros de dos cifras. Recuerda que una potencia siempre se puede comprobar con una multiplicacion: el cuadrado se verifica con base x base, el cubo con base^2 x base, y la cuarta potencia con base^2 x base^2. Como el multiplicador tiene dos o mas cifras, necesitas escribir los productos parciales (uno por cada digito del multiplicador) y sumarlos con su corrimiento de posicion. En cada producto parcial puede aparecer acarreo cuando el producto de dos digitos pasa de 9, y al sumar los productos parciales tambien puede haber acarreo entre columnas. Completar las casillas vacias de estos algoritmos te obliga a reconstruir mentalmente cada acarreo, sin saltarte ningun paso.",
+      "formula": "base^2 = base x base; base^3 = base^2 x base; base^4 = base^2 x base^2 (multiplicacion con productos parciales)",
+      "ejemplos": [
+        "34^2: se comprueba con 34 x 34. El primer producto parcial es 34 x 4 = 136, el segundo es 34 x 3 = 102 (desplazado una posicion). Al sumar 136 + 1020 = 1156, asi que 34^2 = 1156.",
+        "23^3: primero 23^2 = 529, y luego 529 x 23 verifica el cubo. El primer producto parcial es 529 x 3 = 1587 y el segundo es 529 x 2 = 1058 (desplazado). Sumando, 1587 + 10580 = 12167, asi que 23^3 = 12167."
+      ],
+      "puntosPorReactivo": 20,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "34"
+            },
+            {
+              "valor": "34",
+              "signo": "×"
+            },
+            {
+              "valor": "136"
+            },
+            {
+              "valor": "1020"
+            },
+            {
+              "valor": "1156",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0
+            ],
+            [
+              0
+            ],
+            [
+              3
+            ]
+          ],
+          "retroalimentacion": "34 x 34 = 1156, asi que 34^2 = 1156. Al multiplicar 34 x 4 hay acarreo de las unidades a las decenas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "67"
+            },
+            {
+              "valor": "67",
+              "signo": "×"
+            },
+            {
+              "valor": "469"
+            },
+            {
+              "valor": "4020"
+            },
+            {
+              "valor": "4489",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0
+            ],
+            [
+              0
+            ],
+            [
+              3
+            ]
+          ],
+          "retroalimentacion": "67 x 67 = 4489, asi que 67^2 = 4489. El primer producto parcial 469 y el segundo 402 (desplazado) se suman con acarreo para llegar a 4489."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "58"
+            },
+            {
+              "valor": "58",
+              "signo": "×"
+            },
+            {
+              "valor": "464"
+            },
+            {
+              "valor": "2900"
+            },
+            {
+              "valor": "3364",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0
+            ],
+            [
+              0
+            ],
+            [
+              3
+            ]
+          ],
+          "retroalimentacion": "58 x 58 = 3364, asi que 58^2 = 3364. Al sumar los productos parciales 464 y 290 (desplazado) se genera acarreo en la columna de las decenas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "89"
+            },
+            {
+              "valor": "89",
+              "signo": "×"
+            },
+            {
+              "valor": "801"
+            },
+            {
+              "valor": "7120"
+            },
+            {
+              "valor": "7921",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0
+            ],
+            [
+              0
+            ],
+            [
+              3
+            ]
+          ],
+          "retroalimentacion": "89 x 89 = 7921, asi que 89^2 = 7921. 9 x 9 = 81 genera acarreo hacia la columna de las decenas del primer producto parcial."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "529"
+            },
+            {
+              "valor": "23",
+              "signo": "×"
+            },
+            {
+              "valor": "1587"
+            },
+            {
+              "valor": "10580"
+            },
+            {
+              "valor": "12167",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0
+            ],
+            [
+              0
+            ],
+            [
+              4
+            ]
+          ],
+          "retroalimentacion": "529 x 23 = 12167, asi que 23^3 = 12167 (23^2 = 529 y 529 x 23 = 12167). 9 x 3 = 27 produce acarreo hacia las decenas del primer producto parcial."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "2025"
+            },
+            {
+              "valor": "45",
+              "signo": "×"
+            },
+            {
+              "valor": "10125"
+            },
+            {
+              "valor": "81000"
+            },
+            {
+              "valor": "91125",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0
+            ],
+            [
+              4
+            ],
+            []
+          ],
+          "retroalimentacion": "2025 x 45 = 91125, asi que 45^3 = 91125 (45^2 = 2025 y 2025 x 45 = 91125). Multiplicar 2025 x 5 genera acarreo entre varias columnas del primer producto parcial."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "3844"
+            },
+            {
+              "valor": "62",
+              "signo": "×"
+            },
+            {
+              "valor": "7688"
+            },
+            {
+              "valor": "230640"
+            },
+            {
+              "valor": "238328",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0
+            ],
+            [
+              0
+            ],
+            [
+              5
+            ]
+          ],
+          "retroalimentacion": "3844 x 62 = 238328, asi que 62^3 = 238328 (62^2 = 3844 y 3844 x 62 = 238328). 4 x 8 = 32 en el primer producto parcial produce acarreo hacia la columna de las decenas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "6084"
+            },
+            {
+              "valor": "78",
+              "signo": "×"
+            },
+            {
+              "valor": "48672"
+            },
+            {
+              "valor": "425880"
+            },
+            {
+              "valor": "474552",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0
+            ],
+            [
+              0
+            ],
+            [
+              5
+            ]
+          ],
+          "retroalimentacion": "6084 x 78 = 474552, asi que 78^3 = 474552 (78^2 = 6084 y 6084 x 78 = 474552). 4 x 8 = 32 en el primer producto parcial genera acarreo hacia las decenas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "144"
+            },
+            {
+              "valor": "144",
+              "signo": "×"
+            },
+            {
+              "valor": "576"
+            },
+            {
+              "valor": "5760"
+            },
+            {
+              "valor": "14400"
+            },
+            {
+              "valor": "20736",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0
+            ],
+            [
+              0
+            ],
+            [
+              0
+            ],
+            []
+          ],
+          "retroalimentacion": "144 x 144 = 20736, asi que 12^4 = 20736 (12^2 = 144 y 144 x 144 = 20736). 4 x 4 = 16 genera acarreo hacia la columna de las decenas en el primer producto parcial."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "256"
+            },
+            {
+              "valor": "256",
+              "signo": "×"
+            },
+            {
+              "valor": "1536"
+            },
+            {
+              "valor": "12800"
+            },
+            {
+              "valor": "51200"
+            },
+            {
+              "valor": "65536",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0
+            ],
+            [
+              0
+            ],
+            [
+              4
+            ],
+            []
+          ],
+          "retroalimentacion": "256 x 256 = 65536, asi que 16^4 = 65536 (16^2 = 256 y 256 x 256 = 65536). 6 x 6 = 36 genera acarreo hacia la columna de las decenas en el primer producto parcial."
+        }
+      ]
+    }
+  ]
+}

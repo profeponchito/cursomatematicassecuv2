@@ -1,0 +1,386 @@
+{
+  "id": "AC-33",
+  "grado": "Acarreos y Llevadas",
+  "numero": 33,
+  "categoria": "acarreo_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Verificación de divisiones de números grandes",
+  "contenido": "Comprobación de divisiones exactas de números de cuatro o cinco cifras entre un divisor de dos cifras, con productos parciales y acarreo múltiple.",
+  "pda": "Verifica divisiones de números grandes comprobando el producto (con parciales) del cociente por el divisor.",
+  "problematizacion": {
+    "contexto": "En la papelería de don Refugio, en Toluca, llegó un pedido de 4408 lápices que se repartieron en cajas iguales de 58 lápices cada una. El encargado del almacén dividió y obtuvo 76 cajas, pero antes de anotarlo en el inventario quiere estar seguro de que no se equivocó.",
+    "pregunta": "¿Cómo puede el encargado comprobar, usando una multiplicación con productos parciales, que 4408 ÷ 58 = 76 es correcto?"
+  },
+  "subtemas": [
+    {
+      "numero": "8",
+      "nivelEtiqueta": "Nivel 8 de 9 · Reto",
+      "titulo": "Verificación de divisiones de números grandes",
+      "explicacion": "Cuando divides un número grande entre un divisor de dos cifras, puedes comprobar que tu resultado es correcto multiplicando el cociente por el divisor: si esa multiplicación te devuelve el dividendo, la división está bien hecha. Como el divisor tiene dos cifras, esta multiplicación de comprobación se hace por productos parciales: primero multiplicas el cociente por las unidades del divisor, luego por las decenas (recorriendo un lugar hacia la izquierda), y al final sumas ambos productos parciales. En este proceso es muy común que se generen acarreos dentro de cada producto parcial, así que hay que llevarlos con cuidado para que la comprobación cierre exactamente con el dividendo original.",
+      "formula": "cociente × divisor = dividendo (usando productos parciales cuando el divisor tiene dos cifras)",
+      "ejemplos": [
+        "Comprobar que 156 ÷ 4 = 39: como 39 × 4 = 156, la división es correcta.",
+        "Comprobar que 4408 ÷ 58 = 76: se multiplica 76 × 8 = 608 (producto parcial 1), luego 76 × 5 = 380, que recorrido un lugar se escribe 3800 (producto parcial 2); al sumar 608 + 3800 = 4408, se confirma que 76 × 58 = 4408 y por lo tanto 4408 ÷ 58 = 76."
+      ],
+      "puntosPorReactivo": 19,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "76"
+            },
+            {
+              "valor": "58",
+              "signo": "×"
+            },
+            {
+              "valor": "608"
+            },
+            {
+              "valor": "3800"
+            },
+            {
+              "valor": "4408",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [],
+            [
+              1,
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba la division 4408 ÷ 58 = 76, porque 76 × 58 = 4408. Se multiplica 76 por las unidades del divisor (8): 76 × 8 = 608. Luego se multiplica 76 por las decenas del divisor (5), recorriendo un lugar: 76 × 5 = 380, escrito como 3800. Al sumar los productos parciales 608 + 3800 se obtiene 4408."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "95"
+            },
+            {
+              "valor": "47",
+              "signo": "×"
+            },
+            {
+              "valor": "665"
+            },
+            {
+              "valor": "3800"
+            },
+            {
+              "valor": "4465",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [],
+            [
+              3
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba la division 4465 ÷ 47 = 95, porque 95 × 47 = 4465. Se multiplica 95 por las unidades del divisor (7): 95 × 7 = 665. Luego se multiplica 95 por las decenas del divisor (4), recorriendo un lugar: 95 × 4 = 380, escrito como 3800. Al sumar los productos parciales 665 + 3800 se obtiene 4465."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "28"
+            },
+            {
+              "valor": "69",
+              "signo": "×"
+            },
+            {
+              "valor": "252"
+            },
+            {
+              "valor": "1680"
+            },
+            {
+              "valor": "1932",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0
+            ],
+            [
+              0
+            ],
+            []
+          ],
+          "retroalimentacion": "Esto comprueba la division 1932 ÷ 69 = 28, porque 28 × 69 = 1932. Se multiplica 28 por las unidades del divisor (9): 28 × 9 = 252. Luego se multiplica 28 por las decenas del divisor (6), recorriendo un lugar: 28 × 6 = 168, escrito como 1680. Al sumar los productos parciales 252 + 1680 se obtiene 1932."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "40"
+            },
+            {
+              "valor": "65",
+              "signo": "×"
+            },
+            {
+              "valor": "200"
+            },
+            {
+              "valor": "2400"
+            },
+            {
+              "valor": "2600",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              1
+            ],
+            [
+              0
+            ],
+            []
+          ],
+          "retroalimentacion": "Esto comprueba la division 2600 ÷ 65 = 40, porque 40 × 65 = 2600. Se multiplica 40 por las unidades del divisor (5): 40 × 5 = 200. Luego se multiplica 40 por las decenas del divisor (6), recorriendo un lugar: 40 × 6 = 240, escrito como 2400. Al sumar los productos parciales 200 + 2400 se obtiene 2600."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "474"
+            },
+            {
+              "valor": "86",
+              "signo": "×"
+            },
+            {
+              "valor": "2844"
+            },
+            {
+              "valor": "37920"
+            },
+            {
+              "valor": "40764",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [],
+            [
+              0,
+              4
+            ],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba la division 40764 ÷ 86 = 474, porque 474 × 86 = 40764. Se multiplica 474 por las unidades del divisor (6): 474 × 6 = 2844. Luego se multiplica 474 por las decenas del divisor (8), recorriendo un lugar: 474 × 8 = 3792, escrito como 37920. Al sumar los productos parciales 2844 + 37920 se obtiene 40764."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "697"
+            },
+            {
+              "valor": "74",
+              "signo": "×"
+            },
+            {
+              "valor": "2788"
+            },
+            {
+              "valor": "48790"
+            },
+            {
+              "valor": "51578",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [],
+            [
+              0,
+              1
+            ],
+            []
+          ],
+          "retroalimentacion": "Esto comprueba la division 51578 ÷ 74 = 697, porque 697 × 74 = 51578. Se multiplica 697 por las unidades del divisor (4): 697 × 4 = 2788. Luego se multiplica 697 por las decenas del divisor (7), recorriendo un lugar: 697 × 7 = 4879, escrito como 48790. Al sumar los productos parciales 2788 + 48790 se obtiene 51578."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "532"
+            },
+            {
+              "valor": "85",
+              "signo": "×"
+            },
+            {
+              "valor": "2660"
+            },
+            {
+              "valor": "42560"
+            },
+            {
+              "valor": "45220",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [],
+            [
+              1,
+              3
+            ],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba la division 45220 ÷ 85 = 532, porque 532 × 85 = 45220. Se multiplica 532 por las unidades del divisor (5): 532 × 5 = 2660. Luego se multiplica 532 por las decenas del divisor (8), recorriendo un lugar: 532 × 8 = 4256, escrito como 42560. Al sumar los productos parciales 2660 + 42560 se obtiene 45220."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "291"
+            },
+            {
+              "valor": "26",
+              "signo": "×"
+            },
+            {
+              "valor": "1746"
+            },
+            {
+              "valor": "5820"
+            },
+            {
+              "valor": "7566",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [],
+            [],
+            [
+              0,
+              2
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba la division 7566 ÷ 26 = 291, porque 291 × 26 = 7566. Se multiplica 291 por las unidades del divisor (6): 291 × 6 = 1746. Luego se multiplica 291 por las decenas del divisor (2), recorriendo un lugar: 291 × 2 = 582, escrito como 5820. Al sumar los productos parciales 1746 + 5820 se obtiene 7566."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "751"
+            },
+            {
+              "valor": "42",
+              "signo": "×"
+            },
+            {
+              "valor": "1502"
+            },
+            {
+              "valor": "30040"
+            },
+            {
+              "valor": "31542",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [],
+            [
+              2
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba la division 31542 ÷ 42 = 751, porque 751 × 42 = 31542. Se multiplica 751 por las unidades del divisor (2): 751 × 2 = 1502. Luego se multiplica 751 por las decenas del divisor (4), recorriendo un lugar: 751 × 4 = 3004, escrito como 30040. Al sumar los productos parciales 1502 + 30040 se obtiene 31542."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "121"
+            },
+            {
+              "valor": "57",
+              "signo": "×"
+            },
+            {
+              "valor": "847"
+            },
+            {
+              "valor": "6050"
+            },
+            {
+              "valor": "6897",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              2
+            ],
+            [],
+            [
+              0,
+              1
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba la division 6897 ÷ 57 = 121, porque 121 × 57 = 6897. Se multiplica 121 por las unidades del divisor (7): 121 × 7 = 847. Luego se multiplica 121 por las decenas del divisor (5), recorriendo un lugar: 121 × 5 = 605, escrito como 6050. Al sumar los productos parciales 847 + 6050 se obtiene 6897."
+        }
+      ]
+    }
+  ]
+}

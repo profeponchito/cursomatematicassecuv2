@@ -1,0 +1,309 @@
+{
+  "id": "AC-46",
+  "grado": "Acarreos y Llevadas",
+  "numero": 46,
+  "categoria": "acarreo_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Raíz cúbica exacta de números pequeños",
+  "contenido": "Verificación de raíces cúbicas exactas de números pequeños, multiplicando el cuadrado de la raíz (dado) por la raíz misma.",
+  "pda": "Verifica raíces cúbicas de números pequeños comprobando que raíz² × raíz reproduce el radicando.",
+  "problematizacion": {
+    "contexto": "En el taller de carpintería de la escuela, el maestro pide construir cajas de madera en forma de cubo para guardar herramientas. Para que el volumen sea exacto, cada alumno debe calcular cuánto debe medir la arista de la caja a partir del volumen que le asignaron, y comprobar su resultado antes de cortar la madera.",
+    "pregunta": "¿Cómo puedes comprobar, sin dudar, que la arista que calculaste es realmente la raíz cúbica exacta del volumen de tu caja?"
+  },
+  "subtemas": [
+    {
+      "numero": "4",
+      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
+      "titulo": "Verifica la raíz cúbica: raíz² × raíz",
+      "explicacion": "Para comprobar que un número es la raíz cúbica exacta de otro, se multiplica el cuadrado de la raíz (raíz²) por la raíz misma; si el resultado reproduce exactamente el radicando, la raíz es correcta. Por ejemplo, si dices que la raíz cúbica de 343 es 7, compruebas que 49 (que es 7²) multiplicado por 7 da 343. En esta multiplicación de un número de dos cifras por uno de una cifra casi siempre hay acarreo: al multiplicar las unidades el resultado puede pasar de 9, así que se escribe la cifra de las unidades y se \"lleva\" la cifra de las decenas para sumarla al siguiente producto. Practicar esto refuerza tanto la multiplicación con acarreo como el sentido de qué significa una raíz cúbica.",
+      "formula": "raíz² × raíz = radicando",
+      "ejemplos": [
+        "Raíz cúbica de 125: la raíz es 5, su cuadrado es 25. Se multiplica 25 × 5: unidades 5×5=25, se escribe 5 y se lleva 2; decenas 2×5=10, más el 2 que se llevó = 12, se escribe 12. Resultado: 125. Como 25 × 5 = 125, la raíz cúbica de 125 es 5.",
+        "Raíz cúbica de 216: la raíz es 6, su cuadrado es 36. Se multiplica 36 × 6: unidades 6×6=36, se escribe 6 y se lleva 3; decenas 3×6=18, más el 3 que se llevó = 21. Resultado: 216. Como 36 × 6 = 216, la raíz cúbica de 216 es 6."
+      ],
+      "puntosPorReactivo": 14,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "9"
+            },
+            {
+              "valor": "3",
+              "signo": "×"
+            },
+            {
+              "valor": "27",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "9 × 3 = 27, así que la raíz cúbica de 27 es 3 (porque 3² = 9 y 9 × 3 = 27)."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "16"
+            },
+            {
+              "valor": "4",
+              "signo": "×"
+            },
+            {
+              "valor": "64",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              0
+            ],
+            []
+          ],
+          "retroalimentacion": "16 × 4 = 64, así que la raíz cúbica de 64 es 4 (porque 4² = 16 y 16 × 4 = 64)."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "25"
+            },
+            {
+              "valor": "5",
+              "signo": "×"
+            },
+            {
+              "valor": "125",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              0,
+              2
+            ]
+          ],
+          "retroalimentacion": "25 × 5 = 125, así que la raíz cúbica de 125 es 5 (porque 5² = 25 y 25 × 5 = 125)."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "36"
+            },
+            {
+              "valor": "6",
+              "signo": "×"
+            },
+            {
+              "valor": "216",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [
+              0,
+              1
+            ]
+          ],
+          "retroalimentacion": "36 × 6 = 216, así que la raíz cúbica de 216 es 6 (porque 6² = 36 y 36 × 6 = 216)."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "49"
+            },
+            {
+              "valor": "7",
+              "signo": "×"
+            },
+            {
+              "valor": "343",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              0
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "49 × 7 = 343, así que la raíz cúbica de 343 es 7 (porque 7² = 49 y 49 × 7 = 343)."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "64"
+            },
+            {
+              "valor": "8",
+              "signo": "×"
+            },
+            {
+              "valor": "512",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0,
+              1,
+              2
+            ]
+          ],
+          "retroalimentacion": "64 × 8 = 512, así que la raíz cúbica de 512 es 8 (porque 8² = 64 y 64 × 8 = 512)."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "81"
+            },
+            {
+              "valor": "9",
+              "signo": "×"
+            },
+            {
+              "valor": "729",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0,
+              1
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "81 × 9 = 729, así que la raíz cúbica de 729 es 9 (porque 9² = 81 y 81 × 9 = 729)."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "16"
+            },
+            {
+              "valor": "4",
+              "signo": "×"
+            },
+            {
+              "valor": "64",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "16 × 4 = 64: se confirma otra vez que la raíz cúbica de 64 es 4, porque 4² = 16 y 16 × 4 = 64."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "25"
+            },
+            {
+              "valor": "5",
+              "signo": "×"
+            },
+            {
+              "valor": "125",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "25 × 5 = 125: se confirma otra vez que la raíz cúbica de 125 es 5, porque 5² = 25 y 25 × 5 = 125."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "36"
+            },
+            {
+              "valor": "6",
+              "signo": "×"
+            },
+            {
+              "valor": "216",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              0
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "36 × 6 = 216: se confirma otra vez que la raíz cúbica de 216 es 6, porque 6² = 36 y 36 × 6 = 216."
+        }
+      ]
+    }
+  ]
+}

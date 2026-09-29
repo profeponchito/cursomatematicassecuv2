@@ -1,0 +1,306 @@
+{
+  "id": "AC-27",
+  "grado": "Acarreos y Llevadas",
+  "numero": 27,
+  "categoria": "acarreo_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Verificación de divisiones exactas de tres cifras entre una cifra",
+  "contenido": "Comprobación de divisiones exactas de tres cifras entre una cifra mediante su multiplicación inversa, con acarreo en la comprobación.",
+  "pda": "Verifica divisiones exactas de tres cifras entre una cifra comprobando el producto cociente por divisor.",
+  "problematizacion": {
+    "contexto": "En la papelería de doña Rosa se repartieron 156 lápices en partes iguales entre 4 paquetes para venderlos a los alumnos de la telesecundaria. Rosa hizo la división rápidamente pero quiere estar segura de no haberse equivocado antes de etiquetar los paquetes.",
+    "pregunta": "¿Cómo puede Rosa comprobar, usando una multiplicación, que repartió correctamente los 156 lápices en 4 paquetes de 39?"
+  },
+  "subtemas": [
+    {
+      "numero": "2",
+      "nivelEtiqueta": "Nivel 2 de 9 · Básico",
+      "titulo": "Verificación de divisiones exactas de tres cifras entre una cifra",
+      "explicacion": "Cuando divides un número de tres cifras entre un número de una cifra y la división es exacta, puedes comprobar tu resultado multiplicando el cociente por el divisor: si obtienes de nuevo el dividendo, la división está bien hecha. Esta comprobación es en realidad una multiplicación normal, así que aquí practicamos el acarreo que aparece al multiplicar un número de dos cifras (el cociente) por un número de una cifra (el divisor). El acarreo ocurre cuando el producto de una columna es 10 o más: el dígito de las unidades de ese producto se escribe y la decena que sobra se suma a la siguiente columna. Dominar este acarreo te permite confiar en tus divisiones sin necesitar una calculadora.",
+      "formula": "cociente × divisor = dividendo",
+      "ejemplos": [
+        "Para comprobar que 156 ÷ 4 = 39, multiplicamos 39 × 4: primero 9 × 4 = 36, escribimos 6 y llevamos 3; luego 3 × 4 = 12, más el 3 que llevábamos = 15, escribimos 15. El resultado es 156, igual al dividendo original, así que la división es correcta.",
+        "Para comprobar que 201 ÷ 3 = 67, multiplicamos 67 × 3: 7 × 3 = 21, escribimos 1 y llevamos 2; luego 6 × 3 = 18, más el 2 que llevábamos = 20, escribimos 20. El resultado es 201, igual al dividendo, así que la división es correcta."
+      ],
+      "puntosPorReactivo": 11,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "39"
+            },
+            {
+              "valor": "4",
+              "signo": "×"
+            },
+            {
+              "valor": "156",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [
+              0,
+              1
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 156 ÷ 4 = 39, porque 39 × 4 = 156 (hay acarreo en unidades al multiplicar)."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "67"
+            },
+            {
+              "valor": "3",
+              "signo": "×"
+            },
+            {
+              "valor": "201",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              0
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 201 ÷ 3 = 67, porque 67 × 3 = 201 (hay acarreo en decenas y unidades al multiplicar)."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "58"
+            },
+            {
+              "valor": "6",
+              "signo": "×"
+            },
+            {
+              "valor": "348",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 348 ÷ 6 = 58, porque 58 × 6 = 348 (hay acarreo en unidades al multiplicar)."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "73"
+            },
+            {
+              "valor": "7",
+              "signo": "×"
+            },
+            {
+              "valor": "511",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 511 ÷ 7 = 73, porque 73 × 7 = 511 (hay acarreo en unidades al multiplicar)."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "46"
+            },
+            {
+              "valor": "9",
+              "signo": "×"
+            },
+            {
+              "valor": "414",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 414 ÷ 9 = 46, porque 46 × 9 = 414 (hay acarreo en unidades al multiplicar)."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "84"
+            },
+            {
+              "valor": "5",
+              "signo": "×"
+            },
+            {
+              "valor": "420",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 420 ÷ 5 = 84, porque 84 × 5 = 420 (hay acarreo en unidades al multiplicar)."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "29"
+            },
+            {
+              "valor": "8",
+              "signo": "×"
+            },
+            {
+              "valor": "232",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [
+              0,
+              1
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 232 ÷ 8 = 29, porque 29 × 8 = 232 (hay acarreo en unidades al multiplicar)."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "63"
+            },
+            {
+              "valor": "4",
+              "signo": "×"
+            },
+            {
+              "valor": "252",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              0
+            ],
+            []
+          ],
+          "retroalimentacion": "Esto comprueba que 252 ÷ 4 = 63, porque 63 × 4 = 252 (hay acarreo en unidades al multiplicar)."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "91"
+            },
+            {
+              "valor": "6",
+              "signo": "×"
+            },
+            {
+              "valor": "546",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0,
+              1,
+              2
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 546 ÷ 6 = 91, porque 91 × 6 = 546 (hay acarreo en unidades y decenas al multiplicar)."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "37"
+            },
+            {
+              "valor": "9",
+              "signo": "×"
+            },
+            {
+              "valor": "333",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0,
+              1
+            ],
+            [],
+            []
+          ],
+          "retroalimentacion": "Esto comprueba que 333 ÷ 9 = 37, porque 37 × 9 = 333 (hay acarreo en unidades y decenas al multiplicar)."
+        }
+      ]
+    }
+  ]
+}

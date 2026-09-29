@@ -1,0 +1,398 @@
+{
+  "id": "AC-48",
+  "grado": "Acarreos y Llevadas",
+  "numero": 48,
+  "categoria": "acarreo_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Raíz cúbica de números más grandes con acarreo",
+  "contenido": "Verificación de raíces cúbicas exactas de números de dos cifras, multiplicando el cuadrado de la raíz (dado, con parciales) por la raíz.",
+  "pda": "Verifica raíces cúbicas de números más grandes sosteniendo acarreo múltiple en la comprobación.",
+  "problematizacion": {
+    "contexto": "En un taller de carpintería de Puebla, don Refugio fabrica cajas de almacenamiento en forma de cubo para una ferretería. Antes de cortar la madera, calcula el volumen multiplicando el cuadrado de la arista por la arista misma, para asegurarse de que la medida que eligió sí produce el volumen exacto que le pidió el cliente.",
+    "pregunta": "¿Cómo puede don Refugio comprobar, usando productos parciales, que la arista que eligió sí genera el volumen cúbico exacto que le encargaron?"
+  },
+  "subtemas": [
+    {
+      "numero": "6",
+      "nivelEtiqueta": "Nivel 6 de 8 · Avanzado",
+      "titulo": "Verificación de raíz cúbica con multiplicación de dos cifras",
+      "explicacion": "Cuando ya sabes cuál es la raíz cúbica de un número, puedes comprobarla multiplicando el cuadrado de la raíz por la raíz misma: si raíz² × raíz da exactamente el radicando, la raíz es correcta. Como la raíz tiene dos cifras, esa multiplicación se resuelve por productos parciales: primero multiplicas el cuadrado de la raíz por las unidades de la raíz, después por las decenas (ese segundo producto se recorre un lugar a la izquierda), y al final sumas los dos productos parciales. En raíces más grandes es normal que se acumule más de un acarreo, tanto al multiplicar como al sumar, así que hay que llevarlo con cuidado columna por columna. Practicar esta comprobación te ayuda a confiar en tus cálculos de raíces cúbicas y a dominar el acarreo en multiplicaciones de varias cifras.",
+      "formula": "Comprobación: raíz² × raíz = radicando (por productos parciales: raíz²×unidades y raíz²×decenas recorrido un lugar; se suman ambos).",
+      "ejemplos": [
+        "Para comprobar que la raíz cúbica de 2197 es 13: primero 13² = 169. Multiplicas por productos parciales: 169×3 = 507 (llevando acarreo en unidades y decenas) y 169×1 recorrido un lugar = 1690. Sumas 507 + 1690 = 2197, coincide con el radicando, así que 13³ = 2197.",
+        "Con la raíz 22: 22² = 484. Los productos parciales son 484×2 = 968 y 484×2 recorrido un lugar = 9680. Al sumar 968 + 9680 = 10648 se arrastra acarreo en varias columnas seguidas, y así se confirma que la raíz cúbica de 10648 es 22."
+      ],
+      "puntosPorReactivo": 17,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "144"
+            },
+            {
+              "valor": "12",
+              "signo": "×"
+            },
+            {
+              "valor": "288"
+            },
+            {
+              "valor": "1440"
+            },
+            {
+              "valor": "1728",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              2
+            ],
+            [],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "12² = 144; 144 × 12 = 1728 (144×2=288, 144×1 recorrido=1440, suma con acarreo en las decenas). Así se comprueba que la raíz cúbica de 1728 es 12."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "169"
+            },
+            {
+              "valor": "13",
+              "signo": "×"
+            },
+            {
+              "valor": "507"
+            },
+            {
+              "valor": "1690"
+            },
+            {
+              "valor": "2197",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              1
+            ],
+            [
+              0
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "13² = 169; 169 × 13 = 2197 (169×3=507 con acarreo en unidades y decenas; 169×1 recorrido=1690). Así se comprueba que la raíz cúbica de 2197 es 13."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "196"
+            },
+            {
+              "valor": "14",
+              "signo": "×"
+            },
+            {
+              "valor": "784"
+            },
+            {
+              "valor": "1960"
+            },
+            {
+              "valor": "2744",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [
+              2
+            ],
+            [],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "14² = 196; 196 × 14 = 2744 (196×4=784 con acarreo en unidades y decenas; 196×1 recorrido=1960, y la suma también lleva acarreo). Así se comprueba que la raíz cúbica de 2744 es 14."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "225"
+            },
+            {
+              "valor": "15",
+              "signo": "×"
+            },
+            {
+              "valor": "1125"
+            },
+            {
+              "valor": "2250"
+            },
+            {
+              "valor": "3375",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [
+              3
+            ],
+            [],
+            []
+          ],
+          "retroalimentacion": "15² = 225; 225 × 15 = 3375 (225×5=1125 con acarreo en las tres posiciones; 225×1 recorrido=2250). Así se comprueba que la raíz cúbica de 3375 es 15."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "256"
+            },
+            {
+              "valor": "16",
+              "signo": "×"
+            },
+            {
+              "valor": "1536"
+            },
+            {
+              "valor": "2560"
+            },
+            {
+              "valor": "4096",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [],
+            [],
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "16² = 256; 256 × 16 = 4096 (256×6=1536 con acarreo múltiple; 256×1 recorrido=2560, y la suma final vuelve a llevar acarreo). Así se comprueba que la raíz cúbica de 4096 es 16."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "289"
+            },
+            {
+              "valor": "17",
+              "signo": "×"
+            },
+            {
+              "valor": "2023"
+            },
+            {
+              "valor": "2890"
+            },
+            {
+              "valor": "4913",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "17² = 289; 289 × 17 = 4913 (289×7=2023 con fuerte acarreo en cada posición; 289×1 recorrido=2890). Así se comprueba que la raíz cúbica de 4913 es 17."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "324"
+            },
+            {
+              "valor": "18",
+              "signo": "×"
+            },
+            {
+              "valor": "2592"
+            },
+            {
+              "valor": "3240"
+            },
+            {
+              "valor": "5832",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              3
+            ],
+            [
+              2
+            ],
+            []
+          ],
+          "retroalimentacion": "18² = 324; 324 × 18 = 5832 (324×8=2592 con acarreo en unidades, decenas y centenas; 324×1 recorrido=3240). Así se comprueba que la raíz cúbica de 5832 es 18."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "361"
+            },
+            {
+              "valor": "19",
+              "signo": "×"
+            },
+            {
+              "valor": "3249"
+            },
+            {
+              "valor": "3610"
+            },
+            {
+              "valor": "6859",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [],
+            []
+          ],
+          "retroalimentacion": "19² = 361; 361 × 19 = 6859 (361×9=3249 con acarreo en decenas y centenas; 361×1 recorrido=3610). Así se comprueba que la raíz cúbica de 6859 es 19."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "441"
+            },
+            {
+              "valor": "21",
+              "signo": "×"
+            },
+            {
+              "valor": "441"
+            },
+            {
+              "valor": "8820"
+            },
+            {
+              "valor": "9261",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [],
+            [
+              1
+            ],
+            [],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "21² = 441; 441 × 21 = 9261 (441×1=441; 441×2 recorrido=8820; al sumar 441+8820 hay acarreo en las centenas: 4+8=12). Así se comprueba que la raíz cúbica de 9261 es 21."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "484"
+            },
+            {
+              "valor": "22",
+              "signo": "×"
+            },
+            {
+              "valor": "968"
+            },
+            {
+              "valor": "9680"
+            },
+            {
+              "valor": "10648",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              1
+            ],
+            [
+              1
+            ],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "22² = 484; 484 × 22 = 10648 (484×2=968 con acarreo; 484×2 recorrido=9680; y al sumar 968+9680 se arrastra acarreo en tres columnas seguidas). Así se comprueba que la raíz cúbica de 10648 es 22."
+        }
+      ]
+    }
+  ]
+}

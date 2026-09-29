@@ -1,0 +1,307 @@
+{
+  "id": "AC-37",
+  "grado": "Acarreos y Llevadas",
+  "numero": 37,
+  "categoria": "acarreo_potencias",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Cubos de números pequeños",
+  "contenido": "Cálculo de cubos (n³) de números pequeños, construidos como el cuadrado ya calculado multiplicado una vez más por la base.",
+  "pda": "Calcula cubos de números pequeños multiplicando el cuadrado del número por el número mismo.",
+  "problematizacion": {
+    "contexto": "En un taller de carpintería de Querétaro fabrican cajas de madera con forma de cubo para guardar herramientas, todas con el mismo largo, ancho y alto. El maestro carpintero ya calculó el área de una cara de cada caja (el cuadrado del lado) y ahora necesita saber cuánta madera cúbica ocupa cada caja completa para cotizar el material.",
+    "pregunta": "¿Cómo puede el carpintero usar el área de una cara (lado al cuadrado) para calcular el volumen completo de la caja (lado al cubo)?"
+  },
+  "subtemas": [
+    {
+      "numero": "3",
+      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
+      "titulo": "Cubos de números pequeños: multiplica el cuadrado por la base",
+      "explicacion": "El cubo de un número (n³) se obtiene multiplicando ese número por sí mismo tres veces, pero en la práctica es más fácil hacerlo en dos pasos: primero obtienes el cuadrado (n²) y después multiplicas ese resultado una vez más por la base original. Por ejemplo, para calcular 4³ no multiplicas 4×4×4 de un jalón, sino que usas el cuadrado que ya conoces (4²=16) y lo multiplicas por 4. Al hacer esa multiplicación entre un número de una o dos cifras y la base, casi siempre aparece un acarreo: cuando el producto de una columna da diez o más, escribes la cifra de las unidades y 'llevas' la cifra restante a la siguiente columna. Completar las casillas vacías de este algoritmo te obliga a reconstruir cada acarreo con cuidado en vez de solo memorizar el resultado final. Dominar este paso es clave porque los cubos aparecen constantemente al calcular volúmenes de cajas, dados y recipientes cúbicos.",
+      "formula": "base² (ya calculado) × base = base³",
+      "ejemplos": [
+        "Para calcular 4³: ya sabemos que 4²=16. Multiplicamos 16×4: primero 6×4=24, se escribe 4 y se lleva 2; luego 1×4+2=6. El resultado es 64, así que 4³=64.",
+        "Para calcular 7³: ya sabemos que 7²=49. Multiplicamos 49×7: primero 9×7=63, se escribe 3 y se lleva 6; luego 4×7+6=34. El resultado es 343, así que 7³=343."
+      ],
+      "puntosPorReactivo": 13,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "9"
+            },
+            {
+              "valor": "3",
+              "signo": "×"
+            },
+            {
+              "valor": "27",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "3²=9, y 9×3=27, así que 3³=27. Al multiplicar 9×3 obtienes un número de dos cifras: escribes el 7 y llevas 2 para formar las decenas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "16"
+            },
+            {
+              "valor": "4",
+              "signo": "×"
+            },
+            {
+              "valor": "64",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "4²=16, y 16×4=64, así que 4³=64. Al multiplicar 6×4=24 escribes 4 y llevas 2; luego 1×4+2=6."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "25"
+            },
+            {
+              "valor": "5",
+              "signo": "×"
+            },
+            {
+              "valor": "125",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [
+              0,
+              1
+            ]
+          ],
+          "retroalimentacion": "5²=25, y 25×5=125, así que 5³=125. Al multiplicar 5×5=25 escribes 5 y llevas 2; luego 2×5+2=12."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "36"
+            },
+            {
+              "valor": "6",
+              "signo": "×"
+            },
+            {
+              "valor": "216",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              0
+            ],
+            []
+          ],
+          "retroalimentacion": "6²=36, y 36×6=216, así que 6³=216. Al multiplicar 6×6=36 escribes 6 y llevas 3; luego 3×6+3=21."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "49"
+            },
+            {
+              "valor": "7",
+              "signo": "×"
+            },
+            {
+              "valor": "343",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              0
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "7²=49, y 49×7=343, así que 7³=343. Al multiplicar 9×7=63 escribes 3 y llevas 6; luego 4×7+6=34."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "64"
+            },
+            {
+              "valor": "8",
+              "signo": "×"
+            },
+            {
+              "valor": "512",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "8²=64, y 64×8=512, así que 8³=512. Al multiplicar 4×8=32 escribes 2 y llevas 3; luego 6×8+3=51."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "81"
+            },
+            {
+              "valor": "9",
+              "signo": "×"
+            },
+            {
+              "valor": "729",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              0
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "9²=81, y 81×9=729, así que 9³=729. Al multiplicar 8×9=72 llevas 7 para formar las centenas del resultado."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "25"
+            },
+            {
+              "valor": "5",
+              "signo": "×"
+            },
+            {
+              "valor": "125",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "Recuerda: 5²=25 y 25×5=125, por eso 5³=125. Verifica el acarreo: 5×5=25 (llevas 2), y 2×5+2=12."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "49"
+            },
+            {
+              "valor": "7",
+              "signo": "×"
+            },
+            {
+              "valor": "343",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "7²=49 y 49×7=343, por eso 7³=343. Verifica el acarreo: 9×7=63 (llevas 6), y 4×7+6=34."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "81"
+            },
+            {
+              "valor": "9",
+              "signo": "×"
+            },
+            {
+              "valor": "729",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "9²=81 y 81×9=729, por eso 9³=729. Verifica el acarreo: 8×9=72 (llevas 7) al multiplicar las decenas."
+        }
+      ]
+    }
+  ]
+}

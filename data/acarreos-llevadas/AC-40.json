@@ -1,0 +1,390 @@
+{
+  "id": "AC-40",
+  "grado": "Acarreos y Llevadas",
+  "numero": 40,
+  "categoria": "acarreo_potencias",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Potencias con acarreo múltiple en cada multiplicación",
+  "contenido": "Cálculo de cuadrados y cubos de números de dos cifras con acarreo en dos o más posiciones distintas de la multiplicación.",
+  "pda": "Calcula potencias de números de dos cifras sosteniendo acarreo múltiple en toda la operación.",
+  "problematizacion": {
+    "contexto": "En un taller de block y tabicón en Puebla, el encargado quiere calcular cuántas piezas caben en tarimas cuadradas y en contenedores cúbicos de distintos tamaños para hacer su pedido de material. Para no equivocarse en el conteo, necesita elevar al cuadrado y al cubo varias medidas de dos cifras sin perder ningún acarreo en el camino.",
+    "pregunta": "¿Cómo puedes usar la multiplicación en columnas para calcular con exactitud n² y n³ de un número de dos cifras, sin perder ningún acarreo?"
+  },
+  "subtemas": [
+    {
+      "numero": "6",
+      "nivelEtiqueta": "Nivel 6 de 8 · Avanzado",
+      "titulo": "Potencias con acarreo múltiple: cuadrados y cubos de números de dos cifras",
+      "explicacion": "Cuando elevas al cuadrado o al cubo un número de dos cifras, en realidad estás haciendo una multiplicación normal, pero con la particularidad de que el multiplicador también tiene dos cifras. Eso obliga a calcular dos productos parciales (uno por las unidades y otro por las decenas del segundo factor) y después sumarlos, recorriendo el segundo producto un lugar hacia la izquierda. En cada uno de esos pasos —al multiplicar dígito por dígito y al sumar los productos parciales— puede aparecer un acarreo, y en este tema siempre aparece en al menos dos momentos distintos. Para el cubo, primero se obtiene el cuadrado del número y ese resultado se vuelve a multiplicar por el número original, así que hay que sostener el acarreo con cifras todavía más grandes. Completar cada casilla exige llevar el acarreo con mucho cuidado, dígito por dígito, sin saltarte ningún paso.",
+      "formula": "n² = n × n; n³ = n² × n (el resultado de n² se usa como uno de los factores para calcular n³)",
+      "ejemplos": [
+        "17² = 17 × 17: primero 17 × 7 = 119 (acarreo de las unidades a las decenas y de las decenas a las centenas), luego 17 × 1 decena = 170, y al sumar 119 + 170 = 289, así que 17² = 289.",
+        "13³ = 13² × 13 = 169 × 13: primero 169 × 3 = 507 (con acarreo), luego 169 × 1 decena = 1690, y al sumar 507 + 1690 = 2197, así que 13³ = 2197."
+      ],
+      "puntosPorReactivo": 17,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "15"
+            },
+            {
+              "valor": "15",
+              "signo": "×"
+            },
+            {
+              "valor": "75"
+            },
+            {
+              "valor": "150"
+            },
+            {
+              "valor": "225",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [],
+            [],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "15 × 15 = 225, así que 15² = 225. Al multiplicar por las unidades (5) y por las decenas (1) del segundo 15, y al sumar los productos parciales 75 + 150, se generan acarreos en más de una posición."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "17"
+            },
+            {
+              "valor": "17",
+              "signo": "×"
+            },
+            {
+              "valor": "119"
+            },
+            {
+              "valor": "170"
+            },
+            {
+              "valor": "289",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [
+              2
+            ],
+            [
+              0
+            ],
+            []
+          ],
+          "retroalimentacion": "17 × 17 = 289, así que 17² = 289. Al multiplicar por las unidades (7) y por las decenas (1) del segundo 17, y al sumar los productos parciales 119 + 170, se generan acarreos en más de una posición."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "19"
+            },
+            {
+              "valor": "19",
+              "signo": "×"
+            },
+            {
+              "valor": "171"
+            },
+            {
+              "valor": "190"
+            },
+            {
+              "valor": "361",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [],
+            [],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "19 × 19 = 361, así que 19² = 361. Al multiplicar por las unidades (9) y por las decenas (1) del segundo 19, y al sumar los productos parciales 171 + 190, se generan acarreos en más de una posición."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "24"
+            },
+            {
+              "valor": "24",
+              "signo": "×"
+            },
+            {
+              "valor": "96"
+            },
+            {
+              "valor": "480"
+            },
+            {
+              "valor": "576",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0
+            ],
+            [
+              2
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "24 × 24 = 576, así que 24² = 576. Al multiplicar por las unidades (4) y por las decenas (2) del segundo 24, y al sumar los productos parciales 96 + 480, se generan acarreos en más de una posición."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "26"
+            },
+            {
+              "valor": "26",
+              "signo": "×"
+            },
+            {
+              "valor": "156"
+            },
+            {
+              "valor": "520"
+            },
+            {
+              "valor": "676",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0
+            ],
+            [
+              1
+            ],
+            []
+          ],
+          "retroalimentacion": "26 × 26 = 676, así que 26² = 676. Al multiplicar por las unidades (6) y por las decenas (2) del segundo 26, y al sumar los productos parciales 156 + 520, se generan acarreos en más de una posición."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "169"
+            },
+            {
+              "valor": "13",
+              "signo": "×"
+            },
+            {
+              "valor": "507"
+            },
+            {
+              "valor": "1690"
+            },
+            {
+              "valor": "2197",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "13² × 13 = 2197, así que 13³ = 2197. Se parte de 13² = 169 y se multiplica de nuevo por 13: los acarreos aparecen al multiplicar por las unidades y por las decenas de 13, y también al sumar los productos parciales 507 + 1690."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "256"
+            },
+            {
+              "valor": "16",
+              "signo": "×"
+            },
+            {
+              "valor": "1536"
+            },
+            {
+              "valor": "2560"
+            },
+            {
+              "valor": "4096",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [
+              0
+            ],
+            [],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "16² × 16 = 4096, así que 16³ = 4096. Se parte de 16² = 256 y se multiplica de nuevo por 16: los acarreos aparecen al multiplicar por las unidades y por las decenas de 16, y también al sumar los productos parciales 1536 + 2560."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "324"
+            },
+            {
+              "valor": "18",
+              "signo": "×"
+            },
+            {
+              "valor": "2592"
+            },
+            {
+              "valor": "3240"
+            },
+            {
+              "valor": "5832",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [],
+            [
+              3
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "18² × 18 = 5832, así que 18³ = 5832. Se parte de 18² = 324 y se multiplica de nuevo por 18: los acarreos aparecen al multiplicar por las unidades y por las decenas de 18, y también al sumar los productos parciales 2592 + 3240."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "484"
+            },
+            {
+              "valor": "22",
+              "signo": "×"
+            },
+            {
+              "valor": "968"
+            },
+            {
+              "valor": "9680"
+            },
+            {
+              "valor": "10648",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [
+              1
+            ],
+            [],
+            [],
+            []
+          ],
+          "retroalimentacion": "22² × 22 = 10648, así que 22³ = 10648. Se parte de 22² = 484 y se multiplica de nuevo por 22: los acarreos aparecen al multiplicar por las unidades y por las decenas de 22, y también al sumar los productos parciales 968 + 9680."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "729"
+            },
+            {
+              "valor": "27",
+              "signo": "×"
+            },
+            {
+              "valor": "5103"
+            },
+            {
+              "valor": "14580"
+            },
+            {
+              "valor": "19683",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              3
+            ],
+            [],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "27² × 27 = 19683, así que 27³ = 19683. Se parte de 27² = 729 y se multiplica de nuevo por 27: los acarreos aparecen al multiplicar por las unidades y por las decenas de 27, y también al sumar los productos parciales 5103 + 14580."
+        }
+      ]
+    }
+  ]
+}

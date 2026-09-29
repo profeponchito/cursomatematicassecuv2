@@ -1,0 +1,351 @@
+{
+  "id": "AC-34",
+  "grado": "Acarreos y Llevadas",
+  "numero": 34,
+  "categoria": "acarreo_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Integración: comprobación de divisiones con acarreos múltiples",
+  "contenido": "Comprobación de divisiones exactas de distintos tamaños (con divisor de una o dos cifras, enteras o decimales), integrando todos los casos de acarreo del tema.",
+  "pda": "Verifica divisiones integrando todos los tipos de acarreo trabajados en el tema, en distintos tamaños de dividendo y divisor.",
+  "problematizacion": {
+    "contexto": "En la cooperativa escolar de tu secundaria repartieron en partes iguales el dinero de una venta entre los integrantes del comité, y cada quien recibió una cantidad exacta, sin sobrar ni faltar un peso. Antes de anotar el resultado en el reporte para la dirección, quieren estar seguros de que la división se hizo bien.",
+    "pregunta": "Sin volver a dividir, ¿cómo puedes comprobar con una sola multiplicación que el reparto fue exacto?"
+  },
+  "subtemas": [
+    {
+      "numero": "9",
+      "nivelEtiqueta": "Nivel 9 de 9 · Integración",
+      "titulo": "Integración: comprobación de divisiones con acarreos múltiples",
+      "explicacion": "Este es el tema final del bloque de acarreos en la división: aquí juntas todo lo que ya practicaste. Cualquier división exacta se puede comprobar con una multiplicación: cociente × divisor = dividendo. No importa si el divisor tiene una o dos cifras, si el cociente tiene una, dos o tres cifras, o si hay un punto decimal de por medio; la comprobación siempre se escribe como un algoritmo vertical de multiplicación. Cuando el divisor tiene dos cifras, la multiplicación se resuelve con dos productos parciales (uno por cada cifra del divisor) que después se suman para obtener el dividendo. Presta mucha atención a los acarreos: son justo el paso que debes reconstruir cuando una casilla del algoritmo está oculta. Si el cociente o el dividendo llevan punto decimal, los productos parciales se escriben como números enteros y el punto se coloca solo hasta el final, contando las cifras decimales de los factores.",
+      "formula": "cociente × divisor = dividendo",
+      "ejemplos": [
+        "48 ÷ 5 = 9.6 se comprueba con 9.6 × 5 = 48.0: como el divisor es de una cifra, multiplicas directo: 5 × 6 = 30, escribes 0 y llevas 3; 5 × 9 = 45 + 3 = 48; el punto se coloca según las cifras decimales de 9.6, dando 48.0.",
+        "23 × 16 = 368 comprueba que 368 ÷ 16 = 23: como el divisor tiene dos cifras, se calculan dos productos parciales (23 × 6 = 138 y 23 × 10 = 230) y se suman: 138 + 230 = 368."
+      ],
+      "puntosPorReactivo": 20,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "27"
+            },
+            {
+              "valor": "6",
+              "signo": "×"
+            },
+            {
+              "valor": "162",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              0,
+              2
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 162 ÷ 6 = 27, porque 27 × 6 = 162. Al multiplicar 6 × 7 = 42 se escribe el 2 y se lleva 4; luego 6 × 2 = 12 + 4 = 16, de ahí el 162."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "139"
+            },
+            {
+              "valor": "7",
+              "signo": "×"
+            },
+            {
+              "valor": "973",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 973 ÷ 7 = 139, porque 139 × 7 = 973. Hay dos acarreos seguidos: 7 × 9 = 63 (se lleva 6), 7 × 3 = 21 + 6 = 27 (se lleva 2), y 7 × 1 = 7 + 2 = 9."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "23"
+            },
+            {
+              "valor": "8",
+              "signo": "×"
+            },
+            {
+              "valor": "184",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0,
+              1
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 184 ÷ 23 = 8, porque 8 × 23 = 184. Al multiplicar 8 × 3 = 24 se escribe el 4 y se lleva 2; luego 8 × 2 = 16 + 2 = 18, de ahí el 184."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "34"
+            },
+            {
+              "valor": "27",
+              "signo": "×"
+            },
+            {
+              "valor": "238"
+            },
+            {
+              "valor": "680"
+            },
+            {
+              "valor": "918",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 918 ÷ 27 = 34, porque 34 × 27 = 918. El primer producto parcial es 34 × 7 = 238 (con acarreo: 7 × 4 = 28, se lleva 2), el segundo es 34 × 20 = 680, y al sumarlos da 918."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "156"
+            },
+            {
+              "valor": "34",
+              "signo": "×"
+            },
+            {
+              "valor": "624"
+            },
+            {
+              "valor": "4680"
+            },
+            {
+              "valor": "5304",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [
+              0
+            ],
+            [],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 5304 ÷ 34 = 156, porque 156 × 34 = 5304. El primer producto parcial 156 × 4 = 624 lleva dos acarreos seguidos; el segundo es 156 × 30 = 4680; sumados dan 5304."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "4.7"
+            },
+            {
+              "valor": "8",
+              "signo": "×"
+            },
+            {
+              "valor": "37.6",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [],
+            [
+              0,
+              1
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 37.6 ÷ 8 = 4.7, porque 4.7 × 8 = 37.6. Multiplicas como si fueran enteros (47 × 8 = 376, con acarreo: 8 × 7 = 56, se lleva 5) y luego colocas el punto una cifra antes del final, porque 4.7 tiene un decimal."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "246"
+            },
+            {
+              "valor": "9",
+              "signo": "×"
+            },
+            {
+              "valor": "2214",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [
+              0
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 2214 ÷ 9 = 246, porque 246 × 9 = 2214. Hay acarreos en cada paso: 9 × 6 = 54 (se lleva 5), 9 × 4 = 36 + 5 = 41 (se lleva 4), y 9 × 2 = 18 + 4 = 22."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "12"
+            },
+            {
+              "valor": "45",
+              "signo": "×"
+            },
+            {
+              "valor": "60"
+            },
+            {
+              "valor": "480"
+            },
+            {
+              "valor": "540",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [
+              0
+            ],
+            [],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 540 ÷ 45 = 12, porque 12 × 45 = 540. El primer producto parcial 12 × 5 = 60 ya lleva un acarreo (5 × 2 = 10); el segundo es 12 × 40 = 480; sumados dan 540."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "3.4"
+            },
+            {
+              "valor": "13",
+              "signo": "×"
+            },
+            {
+              "valor": "102"
+            },
+            {
+              "valor": "340"
+            },
+            {
+              "valor": "44.2",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [
+              0
+            ],
+            [],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 44.2 ÷ 13 = 3.4, porque 3.4 × 13 = 44.2. Multiplicas 34 × 13 como enteros (34 × 3 = 102, con acarreo; 34 × 10 = 340; suma 442) y colocas el punto una cifra antes del final por el decimal de 3.4."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "68"
+            },
+            {
+              "valor": "4",
+              "signo": "×"
+            },
+            {
+              "valor": "272",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              0
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 272 ÷ 4 = 68, porque 68 × 4 = 272. Al multiplicar 4 × 8 = 32 se escribe el 2 y se lleva 3; luego 4 × 6 = 24 + 3 = 27, de ahí el 272."
+        }
+      ]
+    }
+  ]
+}

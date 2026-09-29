@@ -1,0 +1,310 @@
+{
+  "id": "AC-12",
+  "grado": "Acarreos y Llevadas",
+  "numero": 12,
+  "categoria": "acarreo_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Resta con varios ceros seguidos en el minuendo",
+  "contenido": "Resta donde el minuendo tiene dos o más ceros consecutivos, extendiendo el préstamo en cascada a través de todos ellos.",
+  "pda": "Resuelve restas con múltiples ceros consecutivos en el minuendo aplicando el préstamo en cascada de forma extendida.",
+  "problematizacion": {
+    "contexto": "En una tienda de abarrotes de Puebla, la dueña tenía $4002 pesos guardados en la caja al iniciar la semana. Después de pagar a un proveedor de refrescos y otros gastos, tuvo que descontar $1358 pesos de esa cantidad.",
+    "pregunta": "¿Cuánto dinero le quedó en la caja después de ese pago, y en qué cifras del minuendo tuvo que 'romper' los ceros para poder restar?"
+  },
+  "subtemas": [
+    {
+      "numero": "4",
+      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
+      "titulo": "Resta con varios ceros seguidos en el minuendo",
+      "explicacion": "Cuando el minuendo tiene dos o más ceros seguidos, como en 4002 o 7005, y necesitas pedir prestado a partir de las unidades, el préstamo no se detiene en la primera cifra: como esa cifra vecina también es cero, no tiene nada que prestar, así que ella misma debe pedir prestado a la siguiente, y así sucesivamente hasta llegar a una cifra que sí tenga un valor disponible. Esto se llama préstamo en cascada. En la práctica, cada cero que 'recibe' el préstamo se convierte primero en un 10 imaginario, presta 1 a su vecino de la derecha y se queda como 9, y esto se repite cifra por cifra hacia la izquierda hasta que el préstamo llega a una cifra distinta de cero, que sí puede prestar 1 y bajar en una unidad. Es un procedimiento que exige mucho orden: si te saltas un paso o pides prestado a la cifra equivocada, el resultado completo se descuadra. Practicar este tipo de resta te prepara para restar con confianza sin importar cuántos ceros consecutivos aparezcan en el minuendo.",
+      "formula": "Si una cifra del minuendo es 0 y necesita prestar, se convierte en 9 (recibe el préstamo, presta 1 a la derecha) y pide prestado 1 a la cifra de su izquierda; el préstamo avanza en cascada hasta encontrar una cifra distinta de cero.",
+      "ejemplos": [
+        "4002 − 1358: en las unidades, 2 es menor que 8, así que se pide prestado. La cifra de las decenas es 0, así que se convierte en 9 y pide prestado a las centenas. La cifra de las centenas también es 0, así que se convierte en 9 y pide prestado a las millares. La cifra de las millares, 4, presta 1 y queda en 3. Ahora se resta columna por columna con los valores ya ajustados (3 | 9 | 9 | 12) menos (1 | 3 | 5 | 8), y el resultado es 2644.",
+        "7005 − 869: en las unidades, 5 es menor que 9, se pide prestado. La decena es 0, se vuelve 9 y presta a la centena. La centena también es 0, se vuelve 9 y presta a la millar. La millar, 7, presta 1 y queda en 6. El resultado es 6136."
+      ],
+      "puntosPorReactivo": 14,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "4002"
+            },
+            {
+              "valor": "1358",
+              "signo": "-"
+            },
+            {
+              "valor": "2644",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [
+              1
+            ],
+            [
+              3
+            ]
+          ],
+          "retroalimentacion": "4002 − 1358 = 2644. Para restar en las unidades (2 − 8) se pide prestado; como la decena es 0, se convierte en 9 y a su vez pide prestado a la centena (también 0, se vuelve 9), que finalmente pide prestado a las millares. El préstamo cruzó los dos ceros seguidos antes de llegar a una cifra que sí podía prestar."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "7005"
+            },
+            {
+              "valor": "869",
+              "signo": "-"
+            },
+            {
+              "valor": "6136",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "7005 − 869 = 6136. En las unidades, 5 es menor que 9, así que se pide prestado; la decena y la centena del minuendo son 0, por lo que ambas se convierten en 9 en cascada antes de que la millar (7) preste 1 y quede en 6."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "5003"
+            },
+            {
+              "valor": "1247",
+              "signo": "-"
+            },
+            {
+              "valor": "3756",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              3,
+              0
+            ],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "5003 − 1247 = 3756. La unidad 3 es menor que 7, así que se pide prestado; el préstamo atraviesa los dos ceros centrales (decena y centena) convirtiéndolos en 9, hasta tomar 1 de la millar, que baja de 5 a 4."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "8006"
+            },
+            {
+              "valor": "2789",
+              "signo": "-"
+            },
+            {
+              "valor": "5217",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              3
+            ],
+            [],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "8006 − 2789 = 5217. La unidad 6 es menor que 9 y se pide prestado; como la decena y la centena valen 0, ambas se vuelven 9 en cadena antes de llegar a la millar (8), que presta 1 y queda en 7."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "3004"
+            },
+            {
+              "valor": "158",
+              "signo": "-"
+            },
+            {
+              "valor": "2846",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [
+              3,
+              0
+            ]
+          ],
+          "retroalimentacion": "3004 − 158 = 2846. En las unidades 4 es menor que 8, se pide prestado; la decena y la centena son 0 y se convierten en 9 una tras otra hasta llegar a la millar (3), que presta 1 y queda en 2."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "9008"
+            },
+            {
+              "valor": "3459",
+              "signo": "-"
+            },
+            {
+              "valor": "5549",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            []
+          ],
+          "retroalimentacion": "9008 − 3459 = 5549. La unidad 8 es menor que 9, se pide prestado; los dos ceros centrales pasan a valer 9 en cascada antes de que la millar (9) preste 1 y quede en 8."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "6001"
+            },
+            {
+              "valor": "578",
+              "signo": "-"
+            },
+            {
+              "valor": "5423",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              3
+            ],
+            [
+              1
+            ],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "6001 − 578 = 5423. La unidad 1 es menor que 8, se pide prestado; la decena y la centena, ambas en 0, se convierten en 9 en cadena hasta tomar 1 de la millar (6), que baja a 5."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "4007"
+            },
+            {
+              "valor": "2689",
+              "signo": "-"
+            },
+            {
+              "valor": "1318",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "4007 − 2689 = 1318. La unidad 7 es menor que 9, se pide prestado; los dos ceros centrales se vuelven 9 en cascada uno tras otro antes de que la millar (4) preste 1 y quede en 3."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "7002"
+            },
+            {
+              "valor": "985",
+              "signo": "-"
+            },
+            {
+              "valor": "6017",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              2
+            ],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "7002 − 985 = 6017. La unidad 2 es menor que 5, se pide prestado; la decena y la centena, en 0, se convierten en 9 en cascada hasta llegar a la millar (7), que presta 1 y queda en 6."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "5006"
+            },
+            {
+              "valor": "4237",
+              "signo": "-"
+            },
+            {
+              "valor": "769",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              3
+            ],
+            [
+              0
+            ],
+            []
+          ],
+          "retroalimentacion": "5006 − 4237 = 769. La unidad 6 es menor que 7, se pide prestado; los dos ceros centrales pasan a 9 en cadena hasta tomar 1 de la millar (5), que baja a 4; como 4 − 4 = 0, el resultado ya no lleva esa cifra al frente y queda como 769."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,297 @@
+{
+  "id": "AC-15",
+  "grado": "Acarreos y Llevadas",
+  "numero": 15,
+  "categoria": "acarreo_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Resta de números grandes con préstamo encadenado",
+  "contenido": "Resta de números de cinco cifras con préstamo encadenado a través de tres o más columnas consecutivas.",
+  "pda": "Resuelve restas de números grandes manejando préstamos encadenados de larga extensión.",
+  "problematizacion": {
+    "contexto": "En una central de abasto de la Ciudad de México, un bodeguero anota en un pizarrón las cantidades grandes de mercancía que entran y salen cada semana, y para saber lo que queda en existencia tiene que restar números de cinco cifras que casi siempre requieren varios préstamos seguidos.",
+    "pregunta": "¿Cómo puede el bodeguero restar esas cantidades tan grandes sin equivocarse cuando el préstamo se repite en varias columnas consecutivas?"
+  },
+  "subtemas": [
+    {
+      "numero": "7",
+      "nivelEtiqueta": "Nivel 7 de 8 · Reto",
+      "titulo": "Resta de números grandes con préstamo encadenado",
+      "explicacion": "En este tema vas a restar números de cinco cifras donde el préstamo no ocurre solo una vez, sino que se repite en tres, cuatro o incluso más columnas seguidas. Esto pasa cuando, al pedir prestado 1 a la columna de la izquierda para completar una resta, esa columna se queda sin suficiente valor para su propia resta y también tiene que pedir prestado a la siguiente, y así sucesivamente. No hace falta que el minuendo tenga ceros para que esto suceda: basta con que varias cifras del sustraendo, columna tras columna, sean mayores que las del minuendo. La clave para no perderte es resolver de derecha a izquierda, columna por columna, y anotar con cuidado cada vez que pides prestado, para no olvidar restarle 1 a la siguiente cifra del minuendo antes de compararla con el sustraendo.",
+      "formula": "Resta columna por columna de derecha a izquierda; si la cifra del minuendo (ya con el préstamo descontado) es menor que la del sustraendo, pide prestado 1 a la columna de la izquierda y suma 10 a la cifra actual antes de restar.",
+      "ejemplos": [
+        "63152 - 27486: en unidades 2-6 pide prestado y queda 12-6=6; en decenas (5-1=4)-8 vuelve a pedir prestado y queda 14-8=6; en centenas (1-1=0)-4 vuelve a pedir prestado y queda 10-4=6; en millares (3-1=2)-7 vuelve a pedir prestado y queda 12-7=5; en decenas de millar (6-1=5)-2=3. El resultado es 35666, con préstamo encadenado durante cuatro columnas seguidas.",
+        "81435 - 22576: unidades 5-6 pide prestado (15-6=9); decenas (3-1=2)-7 pide prestado (12-7=5); centenas (4-1=3)-5 pide prestado (13-5=8); millares (1-1=0)-2 pide prestado (10-2=8); decenas de millar (8-1=7)-2=5. El resultado es 58859: el préstamo se encadenó en cuatro columnas consecutivas sin que el minuendo tuviera ningún cero."
+      ],
+      "puntosPorReactivo": 19,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "62252"
+            },
+            {
+              "valor": "20553",
+              "signo": "-"
+            },
+            {
+              "valor": "41699",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              3
+            ],
+            [],
+            [
+              2,
+              4
+            ]
+          ],
+          "retroalimentacion": "62252 - 20553 = 41699: el préstamo se encadena durante tres o más columnas seguidas, en las centenas, decenas y unidades, porque cada vez que se le quita 1 a una columna para prestarlo a la de la derecha, esa misma columna vuelve a quedar corta frente a su cifra del sustraendo y también tiene que pedir prestado a la siguiente."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "73635"
+            },
+            {
+              "valor": "26870",
+              "signo": "-"
+            },
+            {
+              "valor": "46765",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "73635 - 26870 = 46765: el préstamo se encadena durante tres o más columnas seguidas, en las unidades de millar, centenas y decenas, porque cada vez que se le quita 1 a una columna para prestarlo a la de la derecha, esa misma columna vuelve a quedar corta frente a su cifra del sustraendo y también tiene que pedir prestado a la siguiente."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "93322"
+            },
+            {
+              "valor": "38479",
+              "signo": "-"
+            },
+            {
+              "valor": "54843",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "93322 - 38479 = 54843: el préstamo se encadena durante tres o más columnas seguidas, en las unidades de millar, centenas, decenas y unidades, porque cada vez que se le quita 1 a una columna para prestarlo a la de la derecha, esa misma columna vuelve a quedar corta frente a su cifra del sustraendo y también tiene que pedir prestado a la siguiente."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "89442"
+            },
+            {
+              "valor": "45477",
+              "signo": "-"
+            },
+            {
+              "valor": "43965",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [],
+            [
+              3
+            ]
+          ],
+          "retroalimentacion": "89442 - 45477 = 43965: el préstamo se encadena durante tres o más columnas seguidas, en las centenas, decenas y unidades, porque cada vez que se le quita 1 a una columna para prestarlo a la de la derecha, esa misma columna vuelve a quedar corta frente a su cifra del sustraendo y también tiene que pedir prestado a la siguiente."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "92447"
+            },
+            {
+              "valor": "14457",
+              "signo": "-"
+            },
+            {
+              "valor": "77990",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              1,
+              2,
+              3
+            ]
+          ],
+          "retroalimentacion": "92447 - 14457 = 77990: el préstamo se encadena durante tres o más columnas seguidas, en las unidades de millar, centenas y decenas, porque cada vez que se le quita 1 a una columna para prestarlo a la de la derecha, esa misma columna vuelve a quedar corta frente a su cifra del sustraendo y también tiene que pedir prestado a la siguiente."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "81435"
+            },
+            {
+              "valor": "22576",
+              "signo": "-"
+            },
+            {
+              "valor": "58859",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "81435 - 22576 = 58859: el préstamo se encadena durante tres o más columnas seguidas, en las unidades de millar, centenas, decenas y unidades, porque cada vez que se le quita 1 a una columna para prestarlo a la de la derecha, esa misma columna vuelve a quedar corta frente a su cifra del sustraendo y también tiene que pedir prestado a la siguiente."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "54534"
+            },
+            {
+              "valor": "12669",
+              "signo": "-"
+            },
+            {
+              "valor": "41865",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              4
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "retroalimentacion": "54534 - 12669 = 41865: el préstamo se encadena durante tres o más columnas seguidas, en las centenas, decenas y unidades, porque cada vez que se le quita 1 a una columna para prestarlo a la de la derecha, esa misma columna vuelve a quedar corta frente a su cifra del sustraendo y también tiene que pedir prestado a la siguiente."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "74626"
+            },
+            {
+              "valor": "37892",
+              "signo": "-"
+            },
+            {
+              "valor": "36734",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1,
+              2
+            ],
+            [],
+            []
+          ],
+          "retroalimentacion": "74626 - 37892 = 36734: el préstamo se encadena durante tres o más columnas seguidas, en las unidades de millar, centenas y decenas, porque cada vez que se le quita 1 a una columna para prestarlo a la de la derecha, esa misma columna vuelve a quedar corta frente a su cifra del sustraendo y también tiene que pedir prestado a la siguiente."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "54141"
+            },
+            {
+              "valor": "17856",
+              "signo": "-"
+            },
+            {
+              "valor": "36285",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            []
+          ],
+          "retroalimentacion": "54141 - 17856 = 36285: el préstamo se encadena durante tres o más columnas seguidas, en las unidades de millar, centenas, decenas y unidades, porque cada vez que se le quita 1 a una columna para prestarlo a la de la derecha, esa misma columna vuelve a quedar corta frente a su cifra del sustraendo y también tiene que pedir prestado a la siguiente."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "62136"
+            },
+            {
+              "valor": "31837",
+              "signo": "-"
+            },
+            {
+              "valor": "30299",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          "retroalimentacion": "62136 - 31837 = 30299: el préstamo se encadena durante tres o más columnas seguidas, en las centenas, decenas y unidades, porque cada vez que se le quita 1 a una columna para prestarlo a la de la derecha, esa misma columna vuelve a quedar corta frente a su cifra del sustraendo y también tiene que pedir prestado a la siguiente."
+        }
+      ]
+    }
+  ]
+}

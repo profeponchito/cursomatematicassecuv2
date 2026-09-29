@@ -1,0 +1,347 @@
+{
+  "id": "AC-08",
+  "grado": "Acarreos y Llevadas",
+  "numero": 8,
+  "categoria": "acarreo_suma",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Integración: sumas grandes con acarreos múltiples y encadenados",
+  "contenido": "Suma de números naturales de cuatro o cinco cifras, o de tres sumandos, combinando acarreos simples, encadenados y de cifra nueva.",
+  "pda": "Resuelve sumas complejas integrando todos los tipos de acarreo trabajados en el tema.",
+  "problematizacion": {
+    "contexto": "En una cooperativa escolar de Puebla, el comité de alumnos junta el dinero recaudado en tres actividades: una kermés, una rifa y la venta de playeras del equipo de la escuela. Cada actividad dejó una cantidad de varias cifras y, al sumarlas todas en el pizarrón para el reporte final, varias columnas se llenaron de números 'que se llevan' uno tras otro.",
+    "pregunta": "¿Cómo puede el comité asegurarse de no perder ningún acarreo al sumar las tres cantidades y obtener el total correcto para su reporte?"
+  },
+  "subtemas": [
+    {
+      "numero": "8",
+      "nivelEtiqueta": "Nivel 8 de 8 · Integración",
+      "titulo": "Integración: sumas grandes con acarreos múltiples y encadenados",
+      "explicacion": "En este tema vas a resolver sumas de números grandes (de tres, cuatro o hasta cinco cifras, con dos o tres sumandos) donde tienes que aplicar TODO lo que ya practicaste sobre el acarreo: a veces se lleva 1 en una sola columna, a veces el acarreo de una columna provoca otro acarreo en la columna siguiente (acarreo encadenado), y a veces al sumar tres números en una misma columna se llevan 2 en lugar de 1. Además, cuando el acarreo de la columna más a la izquierda no tiene otra columna de sumandos con la cual combinarse, ese acarreo se convierte en una cifra nueva del resultado. La clave para no perderte es ir columna por columna de derecha a izquierda, sumar siempre lo que 'se lleva' de la columna anterior, y anotar con cuidado cuánto se lleva a la siguiente. Practicar estas sumas integradas te prepara para operar con cualquier cantidad de cifras sin equivocarte.",
+      "formula": "Suma columna por columna de derecha a izquierda; si el total de una columna (incluyendo lo que se lleva) es 10 o más, escribe solo la cifra de las unidades y lleva el resto a la siguiente columna; si el acarreo final ya no tiene columna de sumandos, se escribe como cifra nueva del resultado.",
+      "ejemplos": [
+        "2678 + 1547: unidades 8+7=15, se escribe 5 y se lleva 1; decenas 7+4+1=12, se escribe 2 y se lleva 1; centenas 6+5+1=12, se escribe 2 y se lleva 1; millares 2+1+1=4. El resultado es 4225, con tres acarreos encadenados seguidos.",
+        "6748 + 3862: unidades 8+2=10, se lleva 1; decenas 4+6+1=11, se lleva 1; centenas 7+8+1=16, se lleva 1; millares 6+3+1=10, se escribe 0 y se lleva 1, pero ya no hay más sumandos en esa posición, así que ese 1 se escribe como una cifra nueva: el resultado es 10610, con cinco cifras en vez de cuatro."
+      ],
+      "puntosPorReactivo": 20,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "2678",
+              "signo": "+"
+            },
+            {
+              "valor": "1547",
+              "signo": "+"
+            },
+            {
+              "valor": "4225",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [
+              3
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "2678 + 1547 = 4225: en unidades 8+7=15 (se lleva 1), en decenas 7+4+1=12 (se lleva 1) y en centenas 6+5+1=12 (se lleva 1); son tres acarreos encadenados seguidos."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "38495",
+              "signo": "+"
+            },
+            {
+              "valor": "27618",
+              "signo": "+"
+            },
+            {
+              "valor": "66113",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [
+              4
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "38495 + 27618 = 66113: los acarreos se encadenan desde las unidades (5+8=13) hasta las unidades de millar (8+7+1=16), cuatro columnas seguidas llevan 1 a la siguiente."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "456",
+              "signo": "+"
+            },
+            {
+              "valor": "278",
+              "signo": "+"
+            },
+            {
+              "valor": "189",
+              "signo": "+"
+            },
+            {
+              "valor": "923",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [
+              1
+            ],
+            [
+              0
+            ],
+            []
+          ],
+          "retroalimentacion": "456 + 278 + 189 = 923: en unidades 6+8+9=23 (se escribe 3 y se llevan 2), en decenas 5+7+8+2=22 (se escribe 2 y se llevan 2); dos acarreos seguidos forman una cadena."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "3487",
+              "signo": "+"
+            },
+            {
+              "valor": "2965",
+              "signo": "+"
+            },
+            {
+              "valor": "6452",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              2
+            ],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "3487 + 2965 = 6452: unidades 7+5=12, decenas 8+6+1=15, centenas 4+9+1=14; los acarreos se encadenan en tres columnas consecutivas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "6748",
+              "signo": "+"
+            },
+            {
+              "valor": "3862",
+              "signo": "+"
+            },
+            {
+              "valor": "10610",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              3
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "6748 + 3862 = 10610: el acarreo llega hasta la columna de millares (6+3+1=10) y como ya no hay otra columna de sumandos, ese acarreo forma una cifra nueva: la decena de millar del resultado."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "47285",
+              "signo": "+"
+            },
+            {
+              "valor": "38916",
+              "signo": "+"
+            },
+            {
+              "valor": "86201",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              3
+            ],
+            [
+              2
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "47285 + 38916 = 86201: los acarreos se encadenan desde las unidades hasta las unidades de millar, cuatro columnas seguidas llevan 1 a la siguiente."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "12678",
+              "signo": "+"
+            },
+            {
+              "valor": "9456",
+              "signo": "+"
+            },
+            {
+              "valor": "7834",
+              "signo": "+"
+            },
+            {
+              "valor": "29968",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [
+              3
+            ],
+            [
+              2
+            ],
+            []
+          ],
+          "retroalimentacion": "12678 + 9456 + 7834 = 29968: al sumar tres números, en unidades 8+6+4=18, en decenas 7+5+3+1=16 y en centenas 6+4+8+1=19; los acarreos se encadenan en varias columnas seguidas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "387",
+              "signo": "+"
+            },
+            {
+              "valor": "495",
+              "signo": "+"
+            },
+            {
+              "valor": "882",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "387 + 495 = 882: en unidades 7+5=12 (se lleva 1) y en decenas 8+9+1=18 (se lleva 1); son dos acarreos seguidos, una cadena corta."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "4256",
+              "signo": "+"
+            },
+            {
+              "valor": "3178",
+              "signo": "+"
+            },
+            {
+              "valor": "2489",
+              "signo": "+"
+            },
+            {
+              "valor": "9923",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              3
+            ],
+            [
+              1
+            ],
+            [
+              0
+            ],
+            []
+          ],
+          "retroalimentacion": "4256 + 3178 + 2489 = 9923: en unidades 6+8+9=23 (se llevan 2) y en decenas 5+7+8+2=22 (se llevan 2); dos columnas seguidas generan acarreo."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "68471",
+              "signo": "+"
+            },
+            {
+              "valor": "27649",
+              "signo": "+"
+            },
+            {
+              "valor": "96120",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              4
+            ],
+            [
+              1
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "68471 + 27649 = 96120: los acarreos se encadenan por las cinco columnas (unidades a decenas de millar) y, aunque aquí no agrega cifra nueva, muestra la integración completa de acarreos múltiples."
+        }
+      ]
+    }
+  ]
+}

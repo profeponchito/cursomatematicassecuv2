@@ -1,0 +1,392 @@
+{
+  "id": "AC-22",
+  "grado": "Acarreos y Llevadas",
+  "numero": 22,
+  "categoria": "acarreo_mult",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Multiplicación de dos cifras por dos cifras con acarreo en los productos parciales",
+  "contenido": "Multiplicación de dos números de dos cifras donde AMBOS productos parciales requieren acarreo antes de sumarlos.",
+  "pda": "Resuelve multiplicaciones de dos cifras por dos cifras manejando acarreo en cada uno de los productos parciales.",
+  "problematizacion": {
+    "contexto": "En un taller de costura de Oaxaca se preparan pedidos para tiendas de ropa: cada caja lleva cierto número de piezas y se arman varias cajas iguales para completar un pedido grande. Para saber cuántas piezas se producirán en total, la encargada multiplica el número de piezas por caja por el número de cajas, y ambos números tienen dos cifras.",
+    "pregunta": "¿Cómo puedes usar los productos parciales, cuidando cada acarreo, para calcular el total de piezas del pedido?"
+  },
+  "subtemas": [
+    {
+      "numero": "6",
+      "nivelEtiqueta": "Nivel 6 de 9 · Aplicación",
+      "titulo": "Multiplicación de dos cifras por dos cifras con acarreo en ambos productos parciales",
+      "explicacion": "Cuando multiplicas dos números de dos cifras, obtienes primero dos productos parciales: uno al multiplicar por las unidades del segundo factor y otro al multiplicar por sus decenas. En cada uno de esos productos parciales puede aparecer un acarreo, igual que cuando multiplicas por un solo dígito: si el producto de dos dígitos es mayor o igual a 10, se escribe la unidad y se 'lleva' la decena al siguiente paso de la multiplicación. El segundo producto parcial se recorre un lugar hacia la izquierda porque en realidad se está multiplicando por decenas, no por unidades. Al final, esos dos productos parciales (ya con su acarreo resuelto) se suman para obtener el resultado total, y esa suma también puede llevar su propio acarreo. Dominar este proceso te permite resolver multiplicaciones grandes sin perder ningún acarreo en el camino.",
+      "formula": "producto = (multiplicando × unidades del multiplicador) + (multiplicando × decenas del multiplicador) recorrido un lugar",
+      "ejemplos": [
+        "27 × 34: 27 × 4 = 108 (7×4=28, se anota 8 y se lleva 2; 2×4+2=10). Luego 27 × 3 = 81, recorrido queda 810 (7×3=21, se anota 1 y se lleva 2; 2×3+2=8). Se suma 108 + 810 = 918.",
+        "45 × 67: 45 × 7 = 315 (5×7=35, se anota 5 y se lleva 3; 4×7+3=31). Luego 45 × 6 = 270, recorrido queda 2700 (5×6=30, se anota 0 y se lleva 3; 4×6+3=27). Se suma 315 + 2700 = 3015, y aquí la suma también lleva un acarreo."
+      ],
+      "puntosPorReactivo": 16,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "27"
+            },
+            {
+              "valor": "34",
+              "signo": "×"
+            },
+            {
+              "valor": "108"
+            },
+            {
+              "valor": "810"
+            },
+            {
+              "valor": "918",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              2
+            ],
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "27 × 34: primero 27 × 4 = 108 (7 × 4 = 28, se anota 8 y se lleva 2; 2 × 4 + 2 = 10). Luego 27 × 3 = 81, que se recorre un lugar a la izquierda y se escribe 810 (7 × 3 = 21, se anota 1 y se lleva 2; 2 × 3 + 2 = 8). Se suman los dos productos parciales: 108 + 810 = 918."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "38"
+            },
+            {
+              "valor": "46",
+              "signo": "×"
+            },
+            {
+              "valor": "228"
+            },
+            {
+              "valor": "1520"
+            },
+            {
+              "valor": "1748",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              1
+            ],
+            [
+              0
+            ],
+            [],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "38 × 46: primero 38 × 6 = 228 (8 × 6 = 48, se anota 8 y se lleva 4; 3 × 6 + 4 = 22). Luego 38 × 4 = 152, que se recorre un lugar a la izquierda y se escribe 1520 (8 × 4 = 32, se anota 2 y se lleva 3; 3 × 4 + 3 = 15). Se suman los dos productos parciales: 228 + 1520 = 1748."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "56"
+            },
+            {
+              "valor": "27",
+              "signo": "×"
+            },
+            {
+              "valor": "392"
+            },
+            {
+              "valor": "1120"
+            },
+            {
+              "valor": "1512",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              2
+            ],
+            [
+              1
+            ],
+            []
+          ],
+          "retroalimentacion": "56 × 27: primero 56 × 7 = 392 (6 × 7 = 42, se anota 2 y se lleva 4; 5 × 7 + 4 = 39). Luego 56 × 2 = 112, que se recorre un lugar a la izquierda y se escribe 1120 (6 × 2 = 12, se anota 2 y se lleva 1; 5 × 2 + 1 = 11). Se suman los dos productos parciales: 392 + 1120 = 1512."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "68"
+            },
+            {
+              "valor": "39",
+              "signo": "×"
+            },
+            {
+              "valor": "612"
+            },
+            {
+              "valor": "2040"
+            },
+            {
+              "valor": "2652",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              1
+            ],
+            [],
+            [
+              3
+            ]
+          ],
+          "retroalimentacion": "68 × 39: primero 68 × 9 = 612 (8 × 9 = 72, se anota 2 y se lleva 7; 6 × 9 + 7 = 61). Luego 68 × 3 = 204, que se recorre un lugar a la izquierda y se escribe 2040 (8 × 3 = 24, se anota 4 y se lleva 2; 6 × 3 + 2 = 20). Se suman los dos productos parciales: 612 + 2040 = 2652."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "45"
+            },
+            {
+              "valor": "67",
+              "signo": "×"
+            },
+            {
+              "valor": "315"
+            },
+            {
+              "valor": "2700"
+            },
+            {
+              "valor": "3015",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [],
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "45 × 67: primero 45 × 7 = 315 (5 × 7 = 35, se anota 5 y se lleva 3; 4 × 7 + 3 = 31). Luego 45 × 6 = 270, que se recorre un lugar a la izquierda y se escribe 2700 (5 × 6 = 30, se anota 0 y se lleva 3; 4 × 6 + 3 = 27). Se suman los dos productos parciales: 315 + 2700 = 3015."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "73"
+            },
+            {
+              "valor": "58",
+              "signo": "×"
+            },
+            {
+              "valor": "584"
+            },
+            {
+              "valor": "3650"
+            },
+            {
+              "valor": "4234",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [
+              0
+            ],
+            [],
+            []
+          ],
+          "retroalimentacion": "73 × 58: primero 73 × 8 = 584 (3 × 8 = 24, se anota 4 y se lleva 2; 7 × 8 + 2 = 58). Luego 73 × 5 = 365, que se recorre un lugar a la izquierda y se escribe 3650 (3 × 5 = 15, se anota 5 y se lleva 1; 7 × 5 + 1 = 36). Se suman los dos productos parciales: 584 + 3650 = 4234."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "89"
+            },
+            {
+              "valor": "26",
+              "signo": "×"
+            },
+            {
+              "valor": "534"
+            },
+            {
+              "valor": "1780"
+            },
+            {
+              "valor": "2314",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              1
+            ],
+            [
+              1
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "89 × 26: primero 89 × 6 = 534 (9 × 6 = 54, se anota 4 y se lleva 5; 8 × 6 + 5 = 53). Luego 89 × 2 = 178, que se recorre un lugar a la izquierda y se escribe 1780 (9 × 2 = 18, se anota 8 y se lleva 1; 8 × 2 + 1 = 17). Se suman los dos productos parciales: 534 + 1780 = 2314."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "54"
+            },
+            {
+              "valor": "78",
+              "signo": "×"
+            },
+            {
+              "valor": "432"
+            },
+            {
+              "valor": "3780"
+            },
+            {
+              "valor": "4212",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [],
+            [
+              2
+            ],
+            []
+          ],
+          "retroalimentacion": "54 × 78: primero 54 × 8 = 432 (4 × 8 = 32, se anota 2 y se lleva 3; 5 × 8 + 3 = 43). Luego 54 × 7 = 378, que se recorre un lugar a la izquierda y se escribe 3780 (4 × 7 = 28, se anota 8 y se lleva 2; 5 × 7 + 2 = 37). Se suman los dos productos parciales: 432 + 3780 = 4212."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "92"
+            },
+            {
+              "valor": "37",
+              "signo": "×"
+            },
+            {
+              "valor": "644"
+            },
+            {
+              "valor": "2760"
+            },
+            {
+              "valor": "3404",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [],
+            [],
+            [
+              3
+            ]
+          ],
+          "retroalimentacion": "92 × 37: primero 92 × 7 = 644 (2 × 7 = 14, se anota 4 y se lleva 1; 9 × 7 + 1 = 64). Luego 92 × 3 = 276, que se recorre un lugar a la izquierda y se escribe 2760 (2 × 3 = 6, se anota 6 y se lleva 0; 9 × 3 + 0 = 27). Se suman los dos productos parciales: 644 + 2760 = 3404."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "66"
+            },
+            {
+              "valor": "49",
+              "signo": "×"
+            },
+            {
+              "valor": "594"
+            },
+            {
+              "valor": "2640"
+            },
+            {
+              "valor": "3234",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [
+              0
+            ],
+            [],
+            [
+              1
+            ],
+            []
+          ],
+          "retroalimentacion": "66 × 49: primero 66 × 9 = 594 (6 × 9 = 54, se anota 4 y se lleva 5; 6 × 9 + 5 = 59). Luego 66 × 4 = 264, que se recorre un lugar a la izquierda y se escribe 2640 (6 × 4 = 24, se anota 4 y se lleva 2; 6 × 4 + 2 = 26). Se suman los dos productos parciales: 594 + 2640 = 3234."
+        }
+      ]
+    }
+  ]
+}

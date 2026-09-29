@@ -1,0 +1,391 @@
+{
+  "id": "AC-39",
+  "grado": "Acarreos y Llevadas",
+  "numero": 39,
+  "categoria": "acarreo_potencias",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Potencia cuarta construida paso a paso",
+  "contenido": "Cálculo de la potencia cuarta (n⁴) de un número pequeño, multiplicando su cuadrado por sí mismo.",
+  "pda": "Calcula la potencia cuarta de un número pequeño multiplicando su cuadrado por su propio cuadrado.",
+  "problematizacion": {
+    "contexto": "En la feria de matemáticas de una secundaria de Guadalajara, un equipo diseña un mosaico decorativo cuadrado. Primero arma un cuadrito de lado n baldosas, que en total usa n² baldositas pequeñas. Después deciden construir un mosaico gigante cuyo lado, medido en baldositas, sea igual a ese número n² (es decir, el lado del mosaico grande mide tantas baldositas como baldositas tenía el cuadrito pequeño).",
+    "pregunta": "Si el cuadrito pequeño tiene lado n = 4 (por lo que su área es 4² = 16 baldositas), ¿cuántas baldositas necesita el mosaico gigante cuyo lado mide 16 baldositas?"
+  },
+  "subtemas": [
+    {
+      "numero": "5",
+      "nivelEtiqueta": "Nivel 5 de 8 · Aplicación",
+      "titulo": "Potencia cuarta: (base²) × (base²) = base⁴",
+      "explicacion": "La potencia cuarta de un número (n⁴) se puede calcular en dos pasos: primero se obtiene el cuadrado del número (n²), y después ese cuadrado se multiplica por sí mismo, es decir, n⁴ = n² × n². Cuando n² ya tiene dos cifras (como 16, 25 o 36), esa multiplicación se resuelve con productos parciales: se multiplica el número completo por la cifra de las unidades del otro factor, luego por la cifra de las decenas (recorriendo un lugar a la izquierda, como si tuviera un cero al final), y al final se suman ambos productos parciales. En varios de estos productos aparece acarreo, es decir, cuando el producto de dos cifras da 10 o más, esa decena extra se \"lleva\" y se suma al siguiente producto. Dominar este acarreo dentro de los productos parciales es indispensable para construir potencias cuartas correctamente sin calculadora.",
+      "formula": "n⁴ = n² × n², resuelto con productos parciales cuando n² tiene dos cifras",
+      "ejemplos": [
+        "3⁴: primero 3²=9. Después 9×9=81 (9×9=81 directo, ya que 9 es de una sola cifra). Por lo tanto, 3⁴=81.",
+        "4⁴: primero 4²=16. Después 16×16: primer producto parcial 16×6=96 (6×6=36, se escribe 6 y se lleva 3; 1×6=6+3=9); segundo producto parcial 16×1=16, recorrido un lugar (160). Se suman: 96+160=256. Por lo tanto, 4⁴=256."
+      ],
+      "puntosPorReactivo": 16,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "16"
+            },
+            {
+              "valor": "16",
+              "signo": "×"
+            },
+            {
+              "valor": "96"
+            },
+            {
+              "valor": "160"
+            },
+            {
+              "valor": "256",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "16 × 16 = 256: 16×6=96 (6×6=36, se escribe 6 y se lleva 3; 1×6=6+3=9), 16×1=16 recorrido un lugar (160); 96+160=256. Como 4²=16, entonces 4⁴ = 16×16 = 256."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "16"
+            },
+            {
+              "valor": "16",
+              "signo": "×"
+            },
+            {
+              "valor": "96"
+            },
+            {
+              "valor": "160"
+            },
+            {
+              "valor": "256",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [],
+            [
+              0,
+              1
+            ],
+            []
+          ],
+          "retroalimentacion": "16 × 16 = 256: el primer producto parcial (16×6=96) exige acarreo de 3 decenas; el segundo (16×1=16) se recorre un lugar y queda 160. Sumando, 96+160=256, y como 4²=16, 4⁴=256."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "16"
+            },
+            {
+              "valor": "16",
+              "signo": "×"
+            },
+            {
+              "valor": "96"
+            },
+            {
+              "valor": "160"
+            },
+            {
+              "valor": "256",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [],
+            [
+              1,
+              2
+            ],
+            []
+          ],
+          "retroalimentacion": "16 × 16 = 256: 16×6=96 (con acarreo de 3), 16×1=16 recorrido un lugar (160), y 96+160=256. Así, 4⁴ = 4²×4² = 16×16 = 256."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "25"
+            },
+            {
+              "valor": "25",
+              "signo": "×"
+            },
+            {
+              "valor": "125"
+            },
+            {
+              "valor": "500"
+            },
+            {
+              "valor": "625",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [],
+            [
+              0,
+              1
+            ],
+            []
+          ],
+          "retroalimentacion": "25 × 25 = 625: 25×5=125 (5×5=25, se escribe 5 y se lleva 2; 2×5=10+2=12), 25×2=50 recorrido un lugar (500); 125+500=625. Como 5²=25, entonces 5⁴ = 25×25 = 625."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "25"
+            },
+            {
+              "valor": "25",
+              "signo": "×"
+            },
+            {
+              "valor": "125"
+            },
+            {
+              "valor": "500"
+            },
+            {
+              "valor": "625",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              1
+            ],
+            [],
+            [],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "25 × 25 = 625: el primer producto parcial (25×5=125) necesita acarreo de 2 al multiplicar; el segundo (25×2=50) se recorre un lugar (500). La suma 125+500=625 confirma que 5⁴=625."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "25"
+            },
+            {
+              "valor": "25",
+              "signo": "×"
+            },
+            {
+              "valor": "125"
+            },
+            {
+              "valor": "500"
+            },
+            {
+              "valor": "625",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [
+              0
+            ],
+            [
+              2
+            ],
+            []
+          ],
+          "retroalimentacion": "25 × 25 = 625: 25×5=125 (con acarreo), 25×2=50 recorrido un lugar (500), y 125+500=625. Así, 5⁴ = 5²×5² = 25×25 = 625."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "36"
+            },
+            {
+              "valor": "36",
+              "signo": "×"
+            },
+            {
+              "valor": "216"
+            },
+            {
+              "valor": "1080"
+            },
+            {
+              "valor": "1296",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              0
+            ],
+            [
+              3
+            ],
+            []
+          ],
+          "retroalimentacion": "36 × 36 = 1296: 36×6=216 (6×6=36, se escribe 6 y se lleva 3; 3×6=18+3=21), 36×3=108 recorrido un lugar (1080); 216+1080=1296. Como 6²=36, entonces 6⁴ = 36×36 = 1296."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "36"
+            },
+            {
+              "valor": "36",
+              "signo": "×"
+            },
+            {
+              "valor": "216"
+            },
+            {
+              "valor": "1080"
+            },
+            {
+              "valor": "1296",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [],
+            [],
+            []
+          ],
+          "retroalimentacion": "36 × 36 = 1296: el primer producto parcial (36×6=216) tiene acarreo de 3; el segundo (36×3=108) se recorre un lugar (1080). Sumando, 216+1080=1296, así que 6⁴=1296."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "36"
+            },
+            {
+              "valor": "36",
+              "signo": "×"
+            },
+            {
+              "valor": "216"
+            },
+            {
+              "valor": "1080"
+            },
+            {
+              "valor": "1296",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              1
+            ],
+            [],
+            [
+              2
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "36 × 36 = 1296: 36×6=216 (con acarreo de 3), 36×3=108 recorrido un lugar (1080), y 216+1080=1296. Así, 6⁴ = 6²×6² = 36×36 = 1296."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "36"
+            },
+            {
+              "valor": "36",
+              "signo": "×"
+            },
+            {
+              "valor": "216"
+            },
+            {
+              "valor": "1080"
+            },
+            {
+              "valor": "1296",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              1
+            ],
+            [],
+            [
+              2
+            ],
+            []
+          ],
+          "retroalimentacion": "36 × 36 = 1296: 36×6=216 (acarreo de 3 al multiplicar unidades), 36×3=108 recorrido un lugar (1080), y su suma 216+1080=1296 confirma que 6⁴=1296."
+        }
+      ]
+    }
+  ]
+}

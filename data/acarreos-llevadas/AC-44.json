@@ -1,0 +1,381 @@
+{
+  "id": "AC-44",
+  "grado": "Acarreos y Llevadas",
+  "numero": 44,
+  "categoria": "acarreo_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Raíz cuadrada exacta de números de tres cifras con acarreo",
+  "contenido": "Verificación de raíces cuadradas exactas de números de tres cifras, con productos parciales y acarreo en la comprobación.",
+  "pda": "Verifica raíces cuadradas de números de tres cifras comprobando el producto (con parciales) de la raíz por sí misma.",
+  "problematizacion": {
+    "contexto": "En el taller de carpintería de la escuela, el profesor pidió cortar una plancha cuadrada de madera cuya área debe medir exactamente 289 centímetros cuadrados. Un alumno propone que el lado mida 17 centímetros, pero antes de cortar la madera hay que estar seguros de que el cálculo es correcto.",
+    "pregunta": "¿Cómo puedes comprobar, multiplicando por productos parciales, que 17 es realmente la raíz cuadrada exacta de 289?"
+  },
+  "subtemas": [
+    {
+      "numero": "2",
+      "nivelEtiqueta": "Nivel 2 de 8 · Básico",
+      "titulo": "Verifica la raíz cuadrada con productos parciales",
+      "explicacion": "Para comprobar que una raíz cuadrada es correcta, multiplicamos la raíz por sí misma y revisamos que el resultado sea igual al radicando. Como la raíz tiene dos cifras, la multiplicación se hace por productos parciales: primero se multiplica por las unidades de la raíz y luego por las decenas, recorriendo este segundo producto un lugar a la izquierda. Al multiplicar una cifra por otra puede pasar que el resultado tenga dos cifras; entonces se escribe la unidad y se lleva la decena como acarreo al siguiente dígito. Sumar después los dos productos parciales también puede generar un acarreo. Dominar este acarreo te permite confirmar rápidamente si una raíz cuadrada exacta está bien calculada.",
+      "formula": "raíz × raíz = radicando (verificando con productos parciales y su acarreo)",
+      "ejemplos": [
+        "Para verificar que la raíz cuadrada de 225 es 15, se multiplica 15 × 15: 15 × 5 = 75 (con acarreo, porque 5 × 5 = 25, se escribe 5 y se lleva 2), y 15 × 1 = 15 recorrido un lugar, es decir 150. Al sumar 75 + 150 = 225, se confirma que 15 es la raíz cuadrada exacta de 225.",
+        "Para verificar que la raíz cuadrada de 361 es 19, se multiplica 19 × 19: 19 × 9 = 171 (con acarreos, porque 9 × 9 = 81 se lleva 8, y 9 × 1 + 8 = 17), y 19 × 1 = 19 recorrido, es decir 190. Al sumar 171 + 190 = 361, se confirma que 19 es la raíz cuadrada exacta de 361."
+      ],
+      "puntosPorReactivo": 11,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "14"
+            },
+            {
+              "valor": "14",
+              "signo": "×"
+            },
+            {
+              "valor": "56"
+            },
+            {
+              "valor": "140"
+            },
+            {
+              "valor": "196",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [
+              0
+            ],
+            [],
+            [],
+            []
+          ],
+          "retroalimentacion": "14 × 14 = 196, así que la raíz cuadrada de 196 es 14. Al multiplicar 14 × 4 hay acarreo: se escribe la unidad y se lleva la decena al siguiente producto parcial."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "15"
+            },
+            {
+              "valor": "15",
+              "signo": "×"
+            },
+            {
+              "valor": "75"
+            },
+            {
+              "valor": "150"
+            },
+            {
+              "valor": "225",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              1
+            ],
+            [
+              0
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "15 × 15 = 225, así que la raíz cuadrada de 225 es 15. Al multiplicar 15 × 5 hay acarreo: se escribe la unidad y se lleva la decena al siguiente producto parcial."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "16"
+            },
+            {
+              "valor": "16",
+              "signo": "×"
+            },
+            {
+              "valor": "96"
+            },
+            {
+              "valor": "160"
+            },
+            {
+              "valor": "256",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [],
+            [
+              0
+            ],
+            []
+          ],
+          "retroalimentacion": "16 × 16 = 256, así que la raíz cuadrada de 256 es 16. Al multiplicar 16 × 6 hay acarreo: se escribe la unidad y se lleva la decena al siguiente producto parcial."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "17"
+            },
+            {
+              "valor": "17",
+              "signo": "×"
+            },
+            {
+              "valor": "119"
+            },
+            {
+              "valor": "170"
+            },
+            {
+              "valor": "289",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [],
+            [
+              2
+            ],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "17 × 17 = 289, así que la raíz cuadrada de 289 es 17. Al multiplicar 17 × 7 hay acarreo: se escribe la unidad y se lleva la decena al siguiente producto parcial."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "18"
+            },
+            {
+              "valor": "18",
+              "signo": "×"
+            },
+            {
+              "valor": "144"
+            },
+            {
+              "valor": "180"
+            },
+            {
+              "valor": "324",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              0
+            ],
+            [],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "18 × 18 = 324, así que la raíz cuadrada de 324 es 18. Al multiplicar 18 × 8 hay acarreo: se escribe la unidad y se lleva la decena al siguiente producto parcial."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "19"
+            },
+            {
+              "valor": "19",
+              "signo": "×"
+            },
+            {
+              "valor": "171"
+            },
+            {
+              "valor": "190"
+            },
+            {
+              "valor": "361",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [],
+            [
+              0
+            ],
+            []
+          ],
+          "retroalimentacion": "19 × 19 = 361, así que la raíz cuadrada de 361 es 19. Al multiplicar 19 × 9 hay acarreo: se escribe la unidad y se lleva la decena al siguiente producto parcial."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "24"
+            },
+            {
+              "valor": "24",
+              "signo": "×"
+            },
+            {
+              "valor": "96"
+            },
+            {
+              "valor": "480"
+            },
+            {
+              "valor": "576",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              1
+            ],
+            [
+              0
+            ],
+            [],
+            []
+          ],
+          "retroalimentacion": "24 × 24 = 576, así que la raíz cuadrada de 576 es 24. Al multiplicar 24 × 4 hay acarreo: se escribe la unidad y se lleva la decena al siguiente producto parcial."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "25"
+            },
+            {
+              "valor": "25",
+              "signo": "×"
+            },
+            {
+              "valor": "125"
+            },
+            {
+              "valor": "500"
+            },
+            {
+              "valor": "625",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0,
+              2
+            ],
+            [
+              1
+            ],
+            []
+          ],
+          "retroalimentacion": "25 × 25 = 625, así que la raíz cuadrada de 625 es 25. Al multiplicar 25 × 5 y 25 × 2 (decenas) hay acarreo: se escribe la unidad y se lleva la decena al siguiente producto parcial."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "26"
+            },
+            {
+              "valor": "26",
+              "signo": "×"
+            },
+            {
+              "valor": "156"
+            },
+            {
+              "valor": "520"
+            },
+            {
+              "valor": "676",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [],
+            [
+              0
+            ],
+            []
+          ],
+          "retroalimentacion": "26 × 26 = 676, así que la raíz cuadrada de 676 es 26. Al multiplicar 26 × 6 y 26 × 2 (decenas) hay acarreo: se escribe la unidad y se lleva la decena al siguiente producto parcial."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "27"
+            },
+            {
+              "valor": "27",
+              "signo": "×"
+            },
+            {
+              "valor": "189"
+            },
+            {
+              "valor": "540"
+            },
+            {
+              "valor": "729",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [],
+            [],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "27 × 27 = 729, así que la raíz cuadrada de 729 es 27. Al multiplicar 27 × 7 y 27 × 2 (decenas) hay acarreo: se escribe la unidad y se lleva la decena al siguiente producto parcial."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,306 @@
+{
+  "id": "AC-16",
+  "grado": "Acarreos y Llevadas",
+  "numero": 16,
+  "categoria": "acarreo_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Integración: restas con préstamos múltiples y ceros en cascada",
+  "contenido": "Resta de números de cuatro o cinco cifras combinando préstamos simples, encadenados y en cascada a través de ceros.",
+  "pda": "Resuelve restas complejas integrando todos los tipos de préstamo trabajados en el tema.",
+  "problematizacion": {
+    "contexto": "Una tienda de abarrotes en Puebla tenía en su corte de caja $70,020 pesos al inicio de la quincena. Durante quince días se hicieron pagos a proveedores, renta y nómina que sumaron $34,567 pesos, y el dueño necesita saber exactamente cuánto dinero le queda para reponer mercancía.",
+    "pregunta": "¿Cuánto dinero le queda al dueño de la tienda después de esos pagos, y en qué columnas tuvo que pedir prestado para calcularlo?"
+  },
+  "subtemas": [
+    {
+      "numero": "8",
+      "nivelEtiqueta": "Nivel 8 de 8 · Integración",
+      "titulo": "Integración: restas con préstamos múltiples y ceros en cascada",
+      "explicacion": "En este tema vas a integrar todo lo que has practicado sobre el préstamo en la resta: préstamos simples, préstamos encadenados (uno tras otro en columnas seguidas) y préstamos en cascada, que ocurren cuando el minuendo tiene uno o varios ceros seguidos y el préstamo tiene que \"saltar\" a través de ellos hasta encontrar una cifra distinta de cero. Recuerda la regla: si la cifra de arriba es menor que la de abajo, se pide prestada una unidad a la columna de la izquierda, que baja su valor en 1 y le entrega 10 unidades a la columna actual. Cuando esa columna de la izquierda es un 0, no tiene nada que prestar, así que ella misma debe pedir prestado a la siguiente columna, convirtiéndose en 9 y pasando el préstamo más lejos, a veces varias columnas seguidas. Dominar este mecanismo te permite resolver con seguridad cualquier resta de números grandes, sin importar cuántos ceros o préstamos encadenados aparezcan.",
+      "formula": "Si la cifra del minuendo es menor que la del sustraendo, pide 1 prestado a la columna de la izquierda; si esa columna es 0, conviértela en 9 y sigue pidiendo prestado una columna más a la izquierda.",
+      "ejemplos": [
+        "5000 - 2734: en las unidades, 0 < 4, así que se pide prestado a las decenas; pero las decenas son 0, así que piden prestado a las centenas; las centenas también son 0, así que piden prestado a las unidades de millar. El 5 baja a 4, la centena se vuelve 9, la decena se vuelve 9 y la unidad recibe 10, quedando 10-4=6. Se repite el proceso en cada columna hasta obtener 5000 - 2734 = 2266.",
+        "7421 - 3856: en las unidades, 1 < 6, se pide prestado a las decenas (2 se vuelve 1, unidades quedan 11-6=5); en las decenas, 1 < 5, se pide prestado a las centenas (4 se vuelve 3, decenas quedan 11-5=6); en las centenas, 3 < 8, se pide prestado a las unidades de millar (7 se vuelve 6, centenas quedan 13-8=5). Así, sin ningún cero de por medio, el préstamo se encadena en tres columnas seguidas: 7421 - 3856 = 3565."
+      ],
+      "puntosPorReactivo": 20,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "50000"
+            },
+            {
+              "valor": "23456",
+              "signo": "-"
+            },
+            {
+              "valor": "26544",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              1
+            ],
+            [
+              3
+            ]
+          ],
+          "retroalimentacion": "50000 - 23456 = 26544: como el minuendo tiene ceros en cascada, para pedir prestado en la columna de las centenas hay que ir pidiendo prestado desde la columna de las decenas de millar, pasando por todos los ceros intermedios."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "84325"
+            },
+            {
+              "valor": "47968",
+              "signo": "-"
+            },
+            {
+              "valor": "36357",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [],
+            [
+              0,
+              4
+            ]
+          ],
+          "retroalimentacion": "84325 - 47968 = 36357: el préstamo se encadena de las unidades hacia las decenas de millar, sin que haya ningún cero en el minuendo que lo complique."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "6003"
+            },
+            {
+              "valor": "1875",
+              "signo": "-"
+            },
+            {
+              "valor": "4128",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "6003 - 1875 = 4128: al restar las decenas, la columna del minuendo tiene un 0, así que el préstamo debe venir desde las centenas, que también son 0, y termina llegando hasta las unidades de millar."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "7421"
+            },
+            {
+              "valor": "3856",
+              "signo": "-"
+            },
+            {
+              "valor": "3565",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0,
+              3
+            ],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "7421 - 3856 = 3565: se pide prestado en unidades, decenas y centenas de forma encadenada; el minuendo no tiene ningún cero."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "40008"
+            },
+            {
+              "valor": "15679",
+              "signo": "-"
+            },
+            {
+              "valor": "24329",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [
+              4
+            ]
+          ],
+          "retroalimentacion": "40008 - 15679 = 24329: para restar las unidades hay que pedir prestado desde las decenas de millar, atravesando en cascada las centenas y decenas, que son cero."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "5000"
+            },
+            {
+              "valor": "2734",
+              "signo": "-"
+            },
+            {
+              "valor": "2266",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [
+              0
+            ],
+            [
+              3
+            ]
+          ],
+          "retroalimentacion": "5000 - 2734 = 2266: el 5 de las unidades de millar debe prestar a través de tres ceros seguidos hasta llegar a las unidades."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "93214"
+            },
+            {
+              "valor": "58637",
+              "signo": "-"
+            },
+            {
+              "valor": "34577",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "93214 - 58637 = 34577: el préstamo se encadena en varias columnas seguidas, sin ceros en el minuendo."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "8253"
+            },
+            {
+              "valor": "4587",
+              "signo": "-"
+            },
+            {
+              "valor": "3666",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              3
+            ],
+            [
+              1
+            ],
+            []
+          ],
+          "retroalimentacion": "8253 - 4587 = 3666: al pedir prestado en las unidades, la resta de decenas también necesita préstamo, y así se encadena hasta las centenas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "70020"
+            },
+            {
+              "valor": "34567",
+              "signo": "-"
+            },
+            {
+              "valor": "35453",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [
+              4
+            ],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "70020 - 34567 = 35453: el minuendo tiene dos ceros seguidos (centenas y decenas), así que el préstamo de las unidades atraviesa ambos en cascada."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "6251"
+            },
+            {
+              "valor": "2894",
+              "signo": "-"
+            },
+            {
+              "valor": "3357",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              2
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "6251 - 2894 = 3357: el préstamo pasa de las unidades a las decenas y de ahí a las centenas, en cadena, sin ceros en el minuendo."
+        }
+      ]
+    }
+  ]
+}

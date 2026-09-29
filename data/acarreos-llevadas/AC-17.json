@@ -1,0 +1,291 @@
+{
+  "id": "AC-17",
+  "grado": "Acarreos y Llevadas",
+  "numero": 17,
+  "categoria": "acarreo_mult",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Multiplicación de una cifra por una cifra con acarreo simple",
+  "contenido": "Multiplicación de dos números de una sola cifra cuyo producto es de dos cifras, como base de las tablas de multiplicar con acarreo hacia la siguiente posición cuando se usa en operaciones más grandes.",
+  "pda": "Resuelve multiplicaciones de una cifra por una cifra reconociendo cuándo el producto genera una cifra de acarreo.",
+  "problematizacion": {
+    "contexto": "En el mercado de Toluca, don Efrén acomoda naranjas en bolsitas para venderlas más rápido durante la temporada de posadas. Cada bolsita lleva siempre la misma cantidad de naranjas, y un cliente le pide varias bolsitas iguales para repartir en su colonia.",
+    "pregunta": "¿Cuántas naranjas debe empacar don Efrén en total, y qué cifra de esa cantidad sería la que se acarrea si tuviera que sumarla dentro de una cuenta más grande?"
+  },
+  "subtemas": [
+    {
+      "numero": "1",
+      "nivelEtiqueta": "Nivel 1 de 9 · Introductorio",
+      "titulo": "Multiplicación de una cifra por una cifra con acarreo simple",
+      "explicacion": "Cuando multiplicas dos números de una sola cifra (por ejemplo, de las tablas del 5 al 9), a veces el resultado tiene una sola cifra y a veces tiene dos. Cuando el producto llega a 10 o más, aparece una cifra de las decenas: esa cifra es justo la que se \"acarrea\" o \"se lleva\" cuando esta multiplicación forma parte de una cuenta más grande, con números de varias cifras. Por eso, antes de multiplicar números grandes, es indispensable reconocer de memoria qué productos de las tablas superan las unidades y cuál es su cifra de decenas. En este tema practicarás exactamente eso: multiplicar dos cifras del 5 al 9 e identificar con claridad la cifra de las unidades y la cifra de las decenas (el futuro acarreo) del resultado.",
+      "formula": "Si a × b ≥ 10, el producto tiene dos cifras: la de las decenas (el acarreo) y la de las unidades.",
+      "ejemplos": [
+        "5 × 5 = 25: la cifra de las unidades es 5 y la cifra de las decenas es 2; ese 2 sería el número que se acarrea si esta multiplicación apareciera dentro de una cuenta más grande.",
+        "9 × 9 = 81: la cifra de las unidades es 1 y la cifra de las decenas es 8; memorizar que 9 × 9 llega a 81 evita errores de acarreo en multiplicaciones de varias cifras."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "5"
+            },
+            {
+              "valor": "6",
+              "signo": "×"
+            },
+            {
+              "valor": "30",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            []
+          ],
+          "retroalimentacion": "5 × 6 = 30. La cifra de las decenas del resultado (3) es la que se acarrearía si esta multiplicación formara parte de una operación más grande."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "5"
+            },
+            {
+              "valor": "7",
+              "signo": "×"
+            },
+            {
+              "valor": "35",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            []
+          ],
+          "retroalimentacion": "5 × 7 = 35. El producto tiene dos cifras: 3 de decenas (el futuro acarreo) y 5 de unidades."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "5"
+            },
+            {
+              "valor": "8",
+              "signo": "×"
+            },
+            {
+              "valor": "40",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "5 × 8 = 40. Aquí la cifra de las unidades es 0 y la de las decenas es 4; ese 4 sería el acarreo en una cuenta más grande."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "5"
+            },
+            {
+              "valor": "9",
+              "signo": "×"
+            },
+            {
+              "valor": "45",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "5 × 9 = 45. La cifra de las decenas, 4, es la que se acarrea; la de las unidades, 5, se queda en su lugar."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "6"
+            },
+            {
+              "valor": "7",
+              "signo": "×"
+            },
+            {
+              "valor": "42",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "6 × 7 = 42. El 4 de las decenas es el que se acarrearía y el 2 de las unidades se escribe directamente en el resultado."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "6"
+            },
+            {
+              "valor": "8",
+              "signo": "×"
+            },
+            {
+              "valor": "48",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "6 × 8 = 48. La cifra de las decenas (4) es el acarreo; recuerda esta tabla porque aparece mucho en multiplicaciones más grandes."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "6"
+            },
+            {
+              "valor": "9",
+              "signo": "×"
+            },
+            {
+              "valor": "54",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0,
+              1
+            ]
+          ],
+          "retroalimentacion": "6 × 9 = 54. El resultado completo tiene dos cifras: 5 de decenas (el acarreo) y 4 de unidades."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "7"
+            },
+            {
+              "valor": "8",
+              "signo": "×"
+            },
+            {
+              "valor": "56",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            []
+          ],
+          "retroalimentacion": "7 × 8 = 56. La cifra de las decenas, 5, sería la que se acarrea si este producto formara parte de una cuenta más grande."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "7"
+            },
+            {
+              "valor": "9",
+              "signo": "×"
+            },
+            {
+              "valor": "63",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "7 × 9 = 63. El 6 de las decenas es el acarreo y el 3 de las unidades se escribe tal cual en el resultado."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "8"
+            },
+            {
+              "valor": "9",
+              "signo": "×"
+            },
+            {
+              "valor": "72",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "8 × 9 = 72. La cifra de las decenas (7) es el acarreo; esta es una de las tablas más grandes entre una cifra y otra cifra."
+        }
+      ]
+    }
+  ]
+}
