@@ -1,0 +1,104 @@
+{
+  "id": "OB-14-05",
+  "grado": "Operaciones Básicas",
+  "numero": 109,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Multiplicación de varios dígitos (algoritmo en columna) — Momento 5/8",
+  "contenido": "El algoritmo escrito de la multiplicación cuando ambos factores tienen dos o más cifras, usando productos parciales.",
+  "pda": "Aplica el algoritmo de la multiplicación en columna con factores de dos o más cifras, sumando correctamente los productos parciales.",
+  "problematizacion": {
+    "contexto": "Una línea de camiones foráneos tiene autobuses con 47 asientos cada uno. La empresa cuenta con 23 unidades en su flotilla y todas salen llenas en la temporada vacacional.",
+    "pregunta": "¿Cuántos pasajeros caben en total si todos los camiones van llenos?"
+  },
+  "subtemas": [
+    {
+      "numero": "14.5",
+      "nivelEtiqueta": "Nivel 5 de 8 · Aplicación",
+      "titulo": "Multiplicador de dos cifras con acarreo en los parciales",
+      "explicacion": "Ahora los productos parciales sí requieren llevar, igual que al multiplicar por un solo dígito: si algún producto de cifras es 10 o más, se escribe la cifra de unidades y se lleva la de decenas a la siguiente columna de ese mismo producto parcial. Al final, los dos productos parciales se suman como siempre para obtener el resultado.",
+      "ejemplos": [
+        "47×23: 47×3=141 (parcial 1, con acarreo); 47×2=94→940 (parcial 2, recorrido); 141+940=1081",
+        "58×14: 58×4=232 (parcial 1); 58×1=58→580 (parcial 2); 232+580=812"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado de 36 × 24?",
+          "opciones": [
+            "844",
+            "864",
+            "874",
+            "854"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "36×4=144 (parcial 1); 36×2=72→720 (parcial 2); 144+720=864."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En 65×13, el producto parcial 65×3 es ___",
+          "respuestaCorrecta": "195",
+          "retroalimentacion": "65×3=195 (5×3=15 escribe 5 lleva 1; 6×3=18+1=19)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "84 × 12 = 1008",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "84×2=168 (parcial 1); 84×1=84→840 (parcial 2); 168+840=1008. Es correcto."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "47"
+            },
+            {
+              "valor": "23",
+              "signo": "×"
+            },
+            {
+              "valor": "141"
+            },
+            {
+              "valor": "940"
+            },
+            {
+              "valor": "1081",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              2
+            ],
+            [
+              1
+            ],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "47×23=1081: 47×3=141 (parcial 1); 47×2=94→940 (parcial 2, recorrido); 141+940=1081."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado de 39 × 22?",
+          "opciones": [
+            "848",
+            "858",
+            "868",
+            "878"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "39×2=78 (parcial 1); 39×2=78→780 (parcial 2); 78+780=858."
+        }
+      ]
+    }
+  ]
+}

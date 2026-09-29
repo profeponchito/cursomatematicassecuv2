@@ -1,0 +1,94 @@
+{
+  "id": "OB-28-03",
+  "grado": "Operaciones Básicas",
+  "numero": 219,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Encuentra el error: multiplicación y división — Momento 3/8",
+  "contenido": "Identificación del paso exacto donde una multiplicación o división ya resuelta contiene un error, como forma de reforzar el algoritmo desde la revisión.",
+  "pda": "Identifica errores en algoritmos de multiplicación y división ya resueltos, explicando en qué paso ocurre el error.",
+  "problematizacion": {
+    "contexto": "Don Refugio maneja una camioneta de reparto y necesita acomodar cajas de refresco en partes iguales entre varias camionetas para no sobrecargar ninguna. Su ayudante hizo las divisiones en una hoja, pero Don Refugio siempre las comprueba multiplicando antes de cargar el camión.",
+    "pregunta": "¿Por qué multiplicar el cociente por el divisor le sirve a Don Refugio para saber si una división está bien resuelta, sin tener que repetirla?"
+  },
+  "subtemas": [
+    {
+      "numero": "28.3",
+      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
+      "titulo": "Revisar una división exacta con la multiplicación inversa",
+      "explicacion": "La forma más confiable de revisar una división ya resuelta es 'deshacerla': multiplicar el cociente por el divisor y comprobar que el resultado sea igual al dividendo. Si no coincide, el cociente tiene un error. En este momento vas a practicar divisiones exactas (sin residuo) de un número de dos o tres cifras entre una cifra, usando siempre esta comprobación por multiplicación para decidir si el cociente dado es correcto.",
+      "formula": "cociente × divisor = dividendo (en una división exacta, sin residuo)",
+      "ejemplos": [
+        "162 ÷ 9: se propone el cociente 18. Comprobación: 18 × 9 = 162. Coincide, así que 18 es correcto.",
+        "162 ÷ 9 = 17 (propuesto). Comprobación: 17 × 9 = 153, que no es igual a 162, así que 17 es un cociente incorrecto."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Ya resuelto: 216 ÷ 6 = 34. ¿Cuál es el cociente correcto?",
+          "opciones": [
+            "32",
+            "34",
+            "36",
+            "38"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Comprobación: 36 × 6 = 216. El cociente correcto es 36; 34 × 6 = 204, que no coincide."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "245 ÷ 7 = 36 está resuelto correctamente.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Es falso: 36 × 7 = 252, no 245. El cociente correcto es 35, porque 35 × 7 = 245."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "23"
+            },
+            {
+              "valor": "8",
+              "signo": "×"
+            },
+            {
+              "valor": "184",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0,
+              1
+            ]
+          ],
+          "retroalimentacion": "23 × 8 = 184, esto verifica que 184 ÷ 8 = 23. Las cifras que faltaban en el resultado son 1 (centenas) y 8 (decenas)."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La división 312 ÷ 8 = 41 tiene un error; el cociente correcto es ___.",
+          "respuestaCorrecta": "39",
+          "retroalimentacion": "Comprobación: 39 × 8 = 312. El cociente correcto es 39; 41 × 8 = 328, que no coincide."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Ya resuelto: 189 ÷ 9 = 22. ¿Cuál es el cociente correcto?",
+          "opciones": [
+            "19",
+            "20",
+            "21",
+            "22"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Comprobación: 21 × 9 = 189. El cociente correcto es 21; 22 × 9 = 198, que no coincide."
+        }
+      ]
+    }
+  ]
+}

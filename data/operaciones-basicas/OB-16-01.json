@@ -1,0 +1,104 @@
+{
+  "id": "OB-16-01",
+  "grado": "Operaciones Básicas",
+  "numero": 121,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Multiplicación de decimales — Momento 1/8",
+  "contenido": "Multiplicación de números decimales, calculando el producto como si fueran enteros y colocando el punto según el total de cifras decimales.",
+  "pda": "Multiplica números decimales, determinando correctamente la posición del punto decimal en el resultado.",
+  "problematizacion": {
+    "contexto": "En el mercado sobre ruedas de Iztapalapa, don Refugio vende manojos de cilantro para las salsas. Cada manojo cuesta $2.30 y una señora quiere comprar 4 manojos para su puesto de tacos.",
+    "pregunta": "¿Aproximadamente cuánto va a pagar la señora por los 4 manojos de cilantro?"
+  },
+  "subtemas": [
+    {
+      "numero": "16.1",
+      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
+      "titulo": "Decimal por un solo dígito",
+      "explicacion": "Para multiplicar un número decimal por un número entero de una cifra, multiplica como si ambos fueran enteros, sin fijarte en el punto. Al final, cuenta cuántas cifras decimales tiene el número decimal original: ese es el número de cifras decimales que llevará el resultado, contadas desde la derecha. Por ejemplo, si el decimal tiene una cifra después del punto, el resultado también llevará una.",
+      "formula": "decimal × entero: multiplica como enteros y coloca el punto contando las cifras decimales del factor decimal.",
+      "ejemplos": [
+        "2.3 × 4: multiplica 23 × 4 = 92; como 2.3 tiene 1 cifra decimal, el resultado es 9.2.",
+        "1.5 × 3: multiplica 15 × 3 = 45; como 1.5 tiene 1 cifra decimal, el resultado es 4.5."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 2.3 × 4?",
+          "opciones": [
+            "8.2",
+            "9.2",
+            "9.4",
+            "12.2"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "23 × 4 = 92, y como 2.3 tiene una cifra decimal, el resultado es 9.2."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "1.5 × 3 = 4.5",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "15 × 3 = 45, y como 1.5 tiene una cifra decimal, el resultado correcto es 4.5."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "0.6 × 5 = ___",
+          "respuestaCorrecta": "3.0",
+          "retroalimentacion": "6 × 5 = 30, y como 0.6 tiene una cifra decimal, el resultado es 3.0."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "3.2"
+            },
+            {
+              "valor": "3",
+              "signo": "×"
+            },
+            {
+              "valor": "9.6",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "3.2 × 3 = 9.6: 32 × 3 = 96, y con una cifra decimal en 3.2, el resultado lleva una cifra decimal."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada multiplicación con su resultado correcto.",
+          "columnaA": [
+            "1.2 × 2",
+            "2.1 × 3",
+            "4.1 × 2"
+          ],
+          "columnaB": [
+            "6.3",
+            "2.4",
+            "8.2",
+            "7.2"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            2
+          ],
+          "retroalimentacion": "1.2×2=2.4, 2.1×3=6.3 y 4.1×2=8.2; todas conservan una cifra decimal en el resultado."
+        }
+      ]
+    }
+  ]
+}

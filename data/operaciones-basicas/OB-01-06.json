@@ -1,0 +1,112 @@
+{
+  "id": "OB-01-06",
+  "grado": "Operaciones Básicas",
+  "numero": 6,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma y resta de naturales sin llevar — Momento 6/8",
+  "contenido": "Suma y resta de números naturales cuando ninguna columna requiere acarreo ni préstamo.",
+  "pda": "Resuelve sumas y restas de números naturales identificando el valor posicional de cada cifra, sin necesidad de acarreo ni préstamo.",
+  "problematizacion": {
+    "contexto": "En la miscelánea 'La Esquina', el señor Gómez recibió tres cajas de refrescos en la misma semana: una con 123 botellas, otra con 215 y una tercera con 341. Antes de acomodarlas en el refrigerador quiere saber cuántas botellas tiene en total.",
+    "pregunta": "¿Cuántas botellas recibió en total el señor Gómez si suma las tres cajas (123, 215 y 341) al mismo tiempo, columna por columna?"
+  },
+  "subtemas": [
+    {
+      "numero": "1.6",
+      "nivelEtiqueta": "Nivel 6 de 8 · Avanzado",
+      "titulo": "Sumar tres números a la vez y números de cuatro cifras",
+      "explicacion": "Hasta ahora sumaste solo dos números; en este momento subes un peldaño: sumarás tres números al mismo tiempo, y también aparecerán números de cuatro cifras (unidades de millar). La regla no cambia: se acomodan las cifras del mismo valor posicional en la misma columna y se suma todo lo de esa columna de una sola vez, siempre que el total de la columna no llegue a 10.",
+      "formula": "suma de varias columnas a la vez, sin que ninguna pase de 9",
+      "ejemplos": [
+        "123 + 215 + 341: unidades 3+5+1=9, decenas 2+1+4=7, centenas 1+2+3=6 → 679",
+        "1203 + 2145: unidades 3+5=8, decenas 0+4=4, centenas 2+1=3, millares 1+2=3 → 3348"
+      ],
+      "puntosPorReactivo": 14,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "123",
+              "signo": "+"
+            },
+            {
+              "valor": "215",
+              "signo": "+"
+            },
+            {
+              "valor": "341",
+              "signo": "+"
+            },
+            {
+              "valor": "679",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ],
+            []
+          ],
+          "retroalimentacion": "123 + 215 + 341 = 679: unidades 3+5+1=9, decenas 2+1+4=7, centenas 1+2+3=6. Ninguna columna llega a 10."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado de 1203 + 2145?",
+          "opciones": [
+            "3448",
+            "3338",
+            "3358",
+            "3348"
+          ],
+          "respuestaCorrecta": 3,
+          "retroalimentacion": "1203 + 2145 = 3348. Unidades 3+5=8, decenas 0+4=4, centenas 2+1=3, millares 1+2=3."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "231 + 342 + 116 = 689",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Es verdadero. Unidades 1+2+6=9, decenas 3+4+1=8, centenas 2+3+1=6 → 689."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "310 + 220 + ___ = 649",
+          "respuestaCorrecta": "119",
+          "retroalimentacion": "310 + 220 = 530; 649 - 530 = 119. Comprobación: unidades 0+0+9=9, decenas 1+2+1=4, centenas 3+2+1=6 → 649."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada suma con su resultado correcto.",
+          "columnaA": [
+            "112 + 213 + 341",
+            "2032 + 1345",
+            "121 + 214 + 352"
+          ],
+          "columnaB": [
+            "666",
+            "3377",
+            "687",
+            "759"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "112+213+341=666, 2032+1345=3377 y 121+214+352=687, sumando cada columna a la vez."
+        }
+      ]
+    }
+  ]
+}

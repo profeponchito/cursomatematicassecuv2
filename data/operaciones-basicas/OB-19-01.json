@@ -1,0 +1,91 @@
+{
+  "id": "OB-19-01",
+  "grado": "Operaciones Básicas",
+  "numero": 145,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "División exacta de naturales (algoritmo en columna) — Momento 1/8",
+  "contenido": "El algoritmo escrito de la división de naturales cuando el residuo final es cero.",
+  "pda": "Aplica el algoritmo de la división larga con números naturales en casos donde la división es exacta.",
+  "problematizacion": {
+    "contexto": "Karla, la maestra de segundo grado, repartió 36 cuadernos entre sus 4 equipos de trabajo, dando la misma cantidad a cada equipo y sin que sobrara ninguno. Todos los equipos quedaron conformes porque nadie recibió menos que los demás.",
+    "pregunta": "¿Cómo se le llama a una división, como la que hizo Karla, en la que el reparto es exacto y no sobra nada?"
+  },
+  "subtemas": [
+    {
+      "numero": "19.1",
+      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
+      "titulo": "¿Qué es una división exacta?",
+      "explicacion": "Una división es exacta cuando, al repartir un total en partes iguales, no sobra nada: el residuo es igual a cero. Los elementos de la división son el dividendo (lo que se reparte), el divisor (entre cuántos se reparte), el cociente (el resultado del reparto) y el residuo (lo que sobra). Si multiplicas el cociente por el divisor debes obtener exactamente el dividendo. Reconocer estos términos es el primer paso para dominar el algoritmo de la división en columna.",
+      "formula": "dividendo = divisor × cociente (residuo = 0 en una división exacta)",
+      "ejemplos": [
+        "36 ÷ 4: el dividendo es 36 y el divisor es 4. Como 4 × 9 = 36, el cociente es 9 y el residuo es 0, así que la división es exacta.",
+        "17 ÷ 5: como 5 × 3 = 15 y sobran 2, el residuo es 2 (no es cero), así que esta división NO es exacta."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el residuo de una división EXACTA?",
+          "opciones": [
+            "0",
+            "1",
+            "El mismo valor que el divisor",
+            "Un número decimal"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Correcto: en una división exacta el residuo siempre es 0, porque no sobra nada al repartir."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En la división 20 ÷ 5, el residuo es 0, así que es una división exacta.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Verdadero. 5 × 4 = 20, no sobra nada, por lo tanto el residuo es 0 y la división es exacta."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En la división 18 ÷ 3 = 6, el número 18 se llama ___.",
+          "respuestaCorrecta": "dividendo",
+          "retroalimentacion": "El dividendo es el número total que se va a repartir; en este caso, 18."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada término de la división con su definición.",
+          "columnaA": [
+            "Dividendo",
+            "Divisor",
+            "Cociente",
+            "Residuo"
+          ],
+          "columnaB": [
+            "El número que se reparte",
+            "El número entre el que se reparte",
+            "El resultado del reparto",
+            "Lo que sobra después de repartir"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "retroalimentacion": "Dividendo: lo que se reparte. Divisor: entre cuántos se reparte. Cociente: el resultado. Residuo: lo que sobra."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de estas divisiones es exacta?",
+          "opciones": [
+            "23 ÷ 4",
+            "24 ÷ 4",
+            "25 ÷ 4",
+            "26 ÷ 4"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "24 ÷ 4 = 6 exacto (4 × 6 = 24, residuo 0). Las otras tres dejan un residuo distinto de cero."
+        }
+      ]
+    }
+  ]
+}

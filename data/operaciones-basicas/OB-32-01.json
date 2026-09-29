@@ -1,0 +1,89 @@
+{
+  "id": "OB-32-01",
+  "grado": "Operaciones Básicas",
+  "numero": 249,
+  "categoria": "potencias_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Potencias de base fraccionaria — Momento 1/8",
+  "contenido": "Cálculo de potencias cuya base es una fracción, elevando numerador y denominador al exponente indicado.",
+  "pda": "Calcula potencias de base fraccionaria, elevando por separado numerador y denominador.",
+  "problematizacion": {
+    "contexto": "En la escuela secundaria técnica de Chalco, la maestra Renata pide a su grupo forrar unas baldosas cuadradas del laboratorio de cómputo. Cada baldosa mide una fracción de metro por lado, y para saber cuánta lámina de vinil necesitan hay que calcular el área de cada una.",
+    "pregunta": "¿Cómo se calcula el área de una baldosa cuadrada si su lado mide (2/5) de metro?"
+  },
+  "subtemas": [
+    {
+      "numero": "32.1",
+      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
+      "titulo": "El cuadrado de una fracción",
+      "explicacion": "Cuando una fracción se eleva al cuadrado, se elevan por separado el numerador y el denominador y después se escribe el resultado como una nueva fracción. Es decir, (a/b)² = a²/b². No se multiplica la fracción completa por 2, ni se suma consigo misma: se calcula el cuadrado de arriba y el cuadrado de abajo. Este momento solo trabaja con fracciones positivas menores que 1 y exponente 2, para fijar bien la idea antes de complicarla.",
+      "formula": "(a/b)² = a²/b²",
+      "ejemplos": [
+        "(2/3)² = 2²/3² = 4/9",
+        "(3/4)² = 3²/4² = 9/16"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "(1/2)² = ?",
+          "opciones": [
+            "1/4",
+            "2/4",
+            "1/2",
+            "2/2"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Se eleva el numerador (1²=1) y el denominador (2²=4) por separado: (1/2)² = 1/4."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "(3/5)² = ?",
+          "opciones": [
+            "9/25",
+            "6/10",
+            "9/10",
+            "6/25"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "3² = 9 y 5² = 25, así que (3/5)² = 9/25. No se multiplica la fracción por 2."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Para calcular (2/3)² se eleva el numerador y el denominador cada uno al cuadrado por separado.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: (2/3)² = 2²/3² = 4/9. Numerador y denominador se elevan de forma independiente."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "(4/5)² = ___",
+          "respuestaCorrecta": "16/25",
+          "retroalimentacion": "4² = 16 y 5² = 25, entonces (4/5)² = 16/25."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada potencia con su resultado correcto.",
+          "columnaA": [
+            "(1/2)²",
+            "(1/4)²",
+            "(3/4)²"
+          ],
+          "columnaB": [
+            "1/4",
+            "9/16",
+            "1/16",
+            "3/8"
+          ],
+          "parejasCorrectas": [
+            0,
+            2,
+            1
+          ],
+          "retroalimentacion": "(1/2)²=1/4, (1/4)²=1/16 y (3/4)²=9/16: siempre se elevan numerador y denominador por separado."
+        }
+      ]
+    }
+  ]
+}

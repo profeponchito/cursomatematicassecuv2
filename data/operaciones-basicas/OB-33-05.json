@@ -1,0 +1,73 @@
+{
+  "id": "OB-33-05",
+  "grado": "Operaciones Básicas",
+  "numero": 261,
+  "categoria": "potencias_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Potencias con signo (exponente par e impar) — Momento 5/8",
+  "contenido": "Potencias de una base negativa, distinguiendo el signo del resultado según si el exponente es par o impar.",
+  "pda": "Calcula potencias de base negativa, determinando el signo del resultado según la paridad del exponente.",
+  "problematizacion": {
+    "contexto": "Karla y su primo Toño juegan una tarde de domingo un juego de mesa inventado por ellos: cada vez que la ficha cae en la casilla del rayo, el puntaje actual se multiplica por -2. Llevan varias rondas y quieren predecir si van a terminar ganando o perdiendo puntos.",
+    "pregunta": "Si la ficha de Karla cae 3 veces seguidas en la casilla del rayo, ¿su puntaje terminará en positivo o en negativo?"
+  },
+  "subtemas": [
+    {
+      "numero": "33.5",
+      "nivelEtiqueta": "Nivel 5 de 8 · Aplicación",
+      "titulo": "Aplica la regla del signo en un juego",
+      "explicacion": "En este momento vas a usar la regla de signos de las potencias con base negativa dentro de un contexto: un juego de mesa donde una casilla especial multiplica el puntaje por -2 cada vez que caes en ella. El número de veces que caes en esa casilla funciona como el exponente, así que puedes anticipar el signo del resultado antes de calcular el valor exacto.",
+      "ejemplos": [
+        "Si caes 3 veces en la casilla, el efecto acumulado es (-2)^3 = -8",
+        "Si caes 4 veces, el efecto acumulado es (-2)^4 = 16"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Cada vez que caes en la casilla especial tu puntaje se multiplica por -2. Si caes 3 veces seguidas, el efecto total es (-2)^3. ¿Cuánto es?",
+          "opciones": [
+            "8",
+            "-8",
+            "6",
+            "-6"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "(-2)^3 = -8. El exponente 3 es impar, así que el efecto es negativo."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si en vez de 3 veces caes 4 veces en esa casilla, el efecto sería (-2)^4 = ___",
+          "respuestaCorrecta": "16",
+          "retroalimentacion": "(-2)^4 = 16, positivo porque 4 es par."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En otro juego, las penalizaciones se calculan como (-3)^2 y ese resultado es negativo.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: (-3)^2 = 9, que es positivo, porque el exponente 2 es par."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Si esas mismas penalizaciones se calcularan como (-3)^3, ¿cuál sería el resultado?",
+          "opciones": [
+            "27",
+            "-27",
+            "9",
+            "-9"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "(-3)^3 = -27, negativo porque el exponente 3 es impar."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Con 5 caídas en la casilla del rayo, el efecto acumulado es (-2)^5 = ___",
+          "respuestaCorrecta": "-32",
+          "retroalimentacion": "(-2)^5 = -32, negativo porque el exponente 5 es impar."
+        }
+      ]
+    }
+  ]
+}

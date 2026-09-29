@@ -1,0 +1,89 @@
+{
+  "id": "OB-32-04",
+  "grado": "Operaciones Básicas",
+  "numero": 252,
+  "categoria": "potencias_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Potencias de base fraccionaria — Momento 4/8",
+  "contenido": "Cálculo de potencias cuya base es una fracción, elevando numerador y denominador al exponente indicado.",
+  "pda": "Calcula potencias de base fraccionaria, elevando por separado numerador y denominador.",
+  "problematizacion": {
+    "contexto": "Emiliano lleva el control de su alcancía digital en una app familiar. Algunos meses gasta más de lo que ahorra, y su tía le explica que para modelar variaciones fraccionarias repetidas (como pérdidas que se repiten) a veces se usan bases negativas elevadas a distintos exponentes.",
+    "pregunta": "Si un ahorro cambia en (-1/4) cada mes y ese cambio se eleva al cuadrado para un cálculo estadístico, ¿el resultado será positivo o negativo?"
+  },
+  "subtemas": [
+    {
+      "numero": "32.4",
+      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
+      "titulo": "El signo en potencias de fracciones negativas",
+      "explicacion": "Cuando la base es una fracción negativa, la regla de signos de las potencias sigue aplicando igual que con números enteros: si el exponente es par, el resultado es positivo; si el exponente es impar, el resultado conserva el signo negativo. El procedimiento numérico es el mismo: se eleva el valor absoluto del numerador y del denominador, y al final se decide el signo según el exponente.",
+      "formula": "(-a/b)ⁿ es positivo si n es par, y negativo si n es impar",
+      "ejemplos": [
+        "(-1/2)² = 1/4 (exponente par, resultado positivo)",
+        "(-2/3)³ = -8/27 (exponente impar, resultado negativo)"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "(-1/2)² = ?",
+          "opciones": [
+            "1/4",
+            "-1/4",
+            "1/2",
+            "-1/2"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Exponente par: el resultado es positivo. 1² = 1 y 2² = 4, entonces (-1/2)² = 1/4."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "(-2/3)³ = ?",
+          "opciones": [
+            "-8/27",
+            "8/27",
+            "-6/9",
+            "6/27"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Exponente impar: el resultado conserva el signo negativo. 2³=8 y 3³=27, entonces (-2/3)³ = -8/27."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una fracción negativa elevada a un exponente par siempre da un resultado positivo.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: los signos negativos se cancelan de dos en dos, así que un exponente par siempre produce un resultado positivo."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "(-3/4)² = ___",
+          "respuestaCorrecta": "9/16",
+          "retroalimentacion": "Exponente par: resultado positivo. 3²=9 y 4²=16, entonces (-3/4)² = 9/16."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada potencia con su resultado, poniendo atención al signo.",
+          "columnaA": [
+            "(-1/5)²",
+            "(-1/5)³",
+            "(-2/5)²"
+          ],
+          "columnaB": [
+            "1/25",
+            "-1/125",
+            "4/25",
+            "-4/125"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "(-1/5)²=1/25 (positivo, exponente par), (-1/5)³=-1/125 (negativo, exponente impar) y (-2/5)²=4/25 (positivo)."
+        }
+      ]
+    }
+  ]
+}

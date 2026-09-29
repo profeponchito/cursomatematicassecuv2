@@ -1,0 +1,89 @@
+{
+  "id": "OB-17-05",
+  "grado": "Operaciones Básicas",
+  "numero": 133,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Multiplicación de fracciones — Momento 5/8",
+  "contenido": "Multiplicación de fracciones, multiplicando numeradores entre sí y denominadores entre sí, simplificando el resultado.",
+  "pda": "Multiplica fracciones y simplifica el resultado a su expresión más simple.",
+  "problematizacion": {
+    "contexto": "Alejandro está ahorrando para comprarse tenis nuevos. Cada semana logra guardar una cantidad equivalente a 7/3 de lo que gastaba antes en refrescos, y esta semana solo pudo ahorrar 4/5 de esa cantidad porque tuvo un gasto extra en la escuela.",
+    "pregunta": "¿Cómo se expresaría como número mixto la cantidad relativa que Alejandro ahorró esta semana?"
+  },
+  "subtemas": [
+    {
+      "numero": "17.5",
+      "nivelEtiqueta": "Nivel 5 de 8 · Aplicación",
+      "titulo": "El resultado como número mixto",
+      "explicacion": "Cuando el resultado de una multiplicación es una fracción impropia (numerador mayor que el denominador), normalmente conviene expresarlo también como número mixto: un entero más una fracción propia. Para convertirlo, divides el numerador entre el denominador; el cociente es la parte entera, y el residuo sobre el mismo denominador es la parte fraccionaria. Practica primero multiplicar y simplificar como siempre, y hasta el final conviertes el resultado a número mixto.",
+      "formula": "n/d (con n>d) = cociente entero + residuo/d",
+      "ejemplos": [
+        "5/4 × 3/2 = 15/8 = 1 entero 7/8",
+        "8/5 × 3/2 = 24/10 = 12/5 = 2 entero 2/5"
+      ],
+      "puntosPorReactivo": 20,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "7/3 × 4/5 = ?, expresado como número mixto",
+          "opciones": [
+            "1 entero 1/15",
+            "1 entero 13/15",
+            "2 entero 2/15",
+            "28/15 sin convertir"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "7×4=28 y 3×5=15, entonces 28/15. Como 28 entre 15 da 1 y sobran 13, el número mixto es 1 entero 13/15."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "9/4 × 2/3 = ?, expresado como número mixto",
+          "opciones": [
+            "1 entero 1/2",
+            "3/2 sin convertir",
+            "2 entero 1/2",
+            "18/12 sin simplificar"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "9×2=18 y 4×3=12, entonces 18/12 = 3/2 simplificado. Como 3 entre 2 da 1 y sobra 1, el número mixto es 1 entero 1/2."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "5/2 × 7/4 = 35/8, que como número mixto se escribe 4 entero 3/8.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "5×7=35 y 2×4=8, entonces 35/8. Como 35 entre 8 da 4 y sobran 3, el número mixto es 4 entero 3/8."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "5/4 × 3/2 = 15/8, que como número mixto es ___",
+          "respuestaCorrecta": "1 entero 7/8",
+          "retroalimentacion": "15 entre 8 da 1 y sobran 7, por lo que 15/8 equivale a 1 entero 7/8."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada fracción impropia (ya simplificada) con su número mixto correcto.",
+          "columnaA": [
+            "15/8",
+            "28/15",
+            "3/2"
+          ],
+          "columnaB": [
+            "1 entero 7/8",
+            "1 entero 13/15",
+            "1 entero 1/2",
+            "3 entero 1/4"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "15/8 = 1 entero 7/8 · 28/15 = 1 entero 13/15 · 3/2 = 1 entero 1/2. En los tres casos divides el numerador entre el denominador."
+        }
+      ]
+    }
+  ]
+}

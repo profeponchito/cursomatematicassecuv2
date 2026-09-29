@@ -1,0 +1,89 @@
+{
+  "id": "OB-23-07",
+  "grado": "Operaciones Básicas",
+  "numero": 183,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "División de fracciones — Momento 7/8",
+  "contenido": "División de fracciones mediante la multiplicación por el recíproco (fracción inversa) del divisor.",
+  "pda": "Divide fracciones multiplicando por el recíproco del divisor, y simplifica el resultado.",
+  "problematizacion": {
+    "contexto": "Para la feria de ciencias de su secundaria en Tijuana, un equipo de alumnos instaló un tinaco que llegó a 5/6 de su capacidad de agua. Necesitan repartir esa agua en frascos de experimento que usan solo una pequeña fracción de la capacidad del tinaco cada uno, para que todos los equipos tengan la misma cantidad.",
+    "pregunta": "¿Cuántos frascos de 1/12 de tinaco se pueden llenar con los 5/6 de tinaco disponibles?"
+  },
+  "subtemas": [
+    {
+      "numero": "23.7",
+      "nivelEtiqueta": "Nivel 7 de 8 · Reto",
+      "titulo": "División de fracciones con números más grandes",
+      "explicacion": "En este momento vas a dividir fracciones con numeradores y denominadores más grandes, donde conviene simplificar antes de multiplicar, no solo al final. Esta técnica se llama cancelación cruzada: si un número del numerador de una fracción comparte factor común con un número del denominador de la otra, se pueden simplificar antes de multiplicar para trabajar con números más pequeños. El resultado final es exactamente el mismo que si multiplicas primero y simplificas después, pero el camino es más corto y hay menos riesgo de error. También vas a interpretar problemas donde tú decides qué fracción se divide entre cuál.",
+      "formula": "a/b ÷ c/d = a/b × d/c (cancela factores comunes antes de multiplicar si puedes)",
+      "ejemplos": [
+        "9/16 ÷ 3/8 = 9/16 × 8/3: puedes cancelar el 8 con el 16 (queda 2 en el denominador) y el 3 con el 9 (queda 3 en el numerador), y obtienes 3/2 directamente.",
+        "11/15 ÷ 22/45 = 11/15 × 45/22 = 495/330, que simplificado es 3/2."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un tinaco tiene 5/6 de su capacidad llena de agua y se reparte en partes de 1/12 de tinaco cada una. ¿Cuántas partes se obtienen?",
+          "opciones": [
+            "10",
+            "6/5",
+            "1/10",
+            "5/72"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "5/6 ÷ 1/12 = 5/6 × 12/1 = 60/6 = 10 partes."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "7/8 ÷ 5/12 = ___ (fracción simplificada).",
+          "respuestaCorrecta": "21/10",
+          "retroalimentacion": "7/8 ÷ 5/12 = 7/8 × 12/5 = 84/40, que simplificado es 21/10."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Para dividir 9/16 entre 3/8, conviene simplificar antes de multiplicar: en 9/16 × 8/3 se puede cancelar el 8 con el 16 y el 3 con el 9 antes de multiplicar.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: cancelar factores comunes antes de multiplicar (8 con 16, y 3 con 9) da el mismo resultado, 3/2, con números más pequeños."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "11/15 ÷ 22/45 = ?",
+          "opciones": [
+            "3/2",
+            "2/3",
+            "495/330",
+            "1"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "11/15 ÷ 22/45 = 11/15 × 45/22 = 495/330, que simplificado es 3/2."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada división con su resultado, simplificando antes de multiplicar cuando sea posible.",
+          "columnaA": [
+            "12/25 ÷ 4/5",
+            "14/27 ÷ 7/9",
+            "10/21 ÷ 5/14"
+          ],
+          "columnaB": [
+            "3/5",
+            "2/3",
+            "4/3",
+            "2"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "12/25 ÷ 4/5 = 3/5; 14/27 ÷ 7/9 = 2/3; 10/21 ÷ 5/14 = 4/3."
+        }
+      ]
+    }
+  ]
+}

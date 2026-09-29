@@ -1,0 +1,105 @@
+{
+  "id": "OB-24-06",
+  "grado": "Operaciones Básicas",
+  "numero": 190,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "División de números con signo — Momento 6/8",
+  "contenido": "División de números enteros con signo, aplicando la misma regla de signos que en la multiplicación.",
+  "pda": "Divide números enteros con signo aplicando correctamente la regla de los signos.",
+  "problematizacion": {
+    "contexto": "Una panadería en Oaxaca tuvo una merma de $1,725 en insumos que se echaron a perder durante el mes, repartida entre las 75 charolas de pan que resultaron afectadas. El gerente quiere saber el promedio de pérdida por charola antes de ajustar el presupuesto del siguiente mes.",
+    "pregunta": "¿Qué división con signo representa la pérdida promedio por charola?"
+  },
+  "subtemas": [
+    {
+      "numero": "24.6",
+      "nivelEtiqueta": "Nivel 6 de 8 · Avanzado",
+      "titulo": "División de números grandes con signo",
+      "explicacion": "En este momento trabajarás con dividendos de cuatro cifras y divisores de dos cifras, siempre con división exacta. La estrategia es la misma de siempre, pero ahora te conviene apoyarte en la multiplicación para comprobar tu resultado: si cociente × divisor te devuelve el dividendo en valor absoluto, tu división está bien hecha. Sigue aplicando la regla de los signos con cuidado, sobre todo cuando ambos números son negativos.",
+      "formula": "Comprobación de una división: cociente × divisor = dividendo (en valor absoluto)",
+      "ejemplos": [
+        "-1148 ÷ 41: signos diferentes, resultado negativo; 1148 ÷ 41 = 28, entonces -1148 ÷ 41 = -28.",
+        "Comprobación de -2408 ÷ 43: 56 × 43 = 2408, así que -2408 ÷ 43 = -56."
+      ],
+      "puntosPorReactivo": 20,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "-1148 ÷ 41 = ?",
+          "opciones": [
+            "-28",
+            "28",
+            "-27",
+            "27"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "1148 ÷ 41 = 28; signos diferentes, así que el resultado es -28."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "-1725 ÷ (-75) = ___",
+          "respuestaCorrecta": "23",
+          "retroalimentacion": "1725 ÷ 75 = 23; signos iguales, así que el resultado es positivo: 23."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "1296 ÷ (-36) = -36",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 1296 ÷ 36 = 36 y, como los signos son diferentes, el resultado es -36."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "56"
+            },
+            {
+              "valor": "43",
+              "signo": "×"
+            },
+            {
+              "valor": "168"
+            },
+            {
+              "valor": "2240"
+            },
+            {
+              "valor": "2408",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [
+              0
+            ],
+            [],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "Esto verifica que 2408 ÷ 43 = 56, porque 56 × 43 = 2408. Como el dividendo -2408 es negativo y el divisor 43 es positivo, el cociente real es -2408 ÷ 43 = -56."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "-2600 ÷ (-50) = ?",
+          "opciones": [
+            "52",
+            "-52",
+            "50",
+            "-50"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "2600 ÷ 50 = 52; signos iguales, así que el resultado es positivo: 52."
+        }
+      ]
+    }
+  ]
+}

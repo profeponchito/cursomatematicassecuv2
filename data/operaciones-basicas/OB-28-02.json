@@ -1,0 +1,94 @@
+{
+  "id": "OB-28-02",
+  "grado": "Operaciones Básicas",
+  "numero": 218,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Encuentra el error: multiplicación y división — Momento 2/8",
+  "contenido": "Identificación del paso exacto donde una multiplicación o división ya resuelta contiene un error, como forma de reforzar el algoritmo desde la revisión.",
+  "pda": "Identifica errores en algoritmos de multiplicación y división ya resueltos, explicando en qué paso ocurre el error.",
+  "problematizacion": {
+    "contexto": "En la escuela, Emiliano terminó su tarea de multiplicaciones verticales y se la prestó a su compañera de banca para que la revisara antes de entregarla. Ella encontró que varias operaciones tenían el resultado correcto en las unidades, pero mal en las decenas o centenas.",
+    "pregunta": "¿Qué tendría que revisar la compañera de Emiliano para encontrar en qué paso exacto se equivocó, sin rehacer toda la multiplicación desde cero?"
+  },
+  "subtemas": [
+    {
+      "numero": "28.2",
+      "nivelEtiqueta": "Nivel 2 de 8 · Básico",
+      "titulo": "El acarreo olvidado: multiplicación de dos cifras por una",
+      "explicacion": "Al multiplicar un número de dos cifras por uno de una cifra, el error más común ya no es confundir una tabla, sino olvidar sumar el acarreo (lo que 'se lleva') a las decenas. Para encontrar este tipo de error hay que revisar paso a paso: primero las unidades, guardar lo que se lleva, y después las decenas sumando ese acarreo. En este momento vas a identificar exactamente en qué paso se perdió el acarreo y a completar algoritmos verticales donde faltan algunas cifras.",
+      "formula": "unidades × factor = cifra + (lo que se lleva); decenas × factor + lo que se llevó = siguiente cifra",
+      "ejemplos": [
+        "26 × 3: unidades 6 × 3 = 18, se escribe 8 y se llevan 1; decenas 2 × 3 = 6, más el 1 que se llevaba = 7. Resultado: 78.",
+        "Si alguien calculó 26 × 3 = 68, el error está en que no sumó el acarreo 1 a las decenas (6 en vez de 7)."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Ya resuelto: 38 × 4 = 122. ¿Dónde está el error?",
+          "opciones": [
+            "No hay error, 122 es correcto",
+            "El error está en las unidades: 8 × 4 se calculó mal",
+            "El error está en las decenas: no se sumó el acarreo de las unidades",
+            "El error está en el orden de las cifras del resultado"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "8 × 4 = 32 (se escribe 2 y se lleva 3). En las decenas, 3 × 4 = 12, y faltó sumar el acarreo 3, por lo que el resultado correcto es 152."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "56 × 3 = 158 está resuelto correctamente.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Es falso: 6 × 3 = 18 (se lleva 1), y 5 × 3 = 15 + 1 = 16, así que el resultado correcto es 168, no 158."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La multiplicación 64 × 5 = 300 tiene un error; el resultado correcto es ___.",
+          "respuestaCorrecta": "320",
+          "retroalimentacion": "4 × 5 = 20 (se lleva 2); 6 × 5 = 30 + 2 = 32. El resultado correcto es 320."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "47"
+            },
+            {
+              "valor": "6",
+              "signo": "×"
+            },
+            {
+              "valor": "282",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0,
+              1
+            ]
+          ],
+          "retroalimentacion": "47 × 6 = 282: unidades 7 × 6 = 42 (se lleva 4), decenas 4 × 6 = 24 + 4 = 28. Las cifras que faltaban en el resultado son 2 (centenas) y 8 (decenas)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Ya resuelto: 73 × 8 = 544. ¿Cuál es el resultado correcto?",
+          "opciones": [
+            "554",
+            "584",
+            "548",
+            "540"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "3 × 8 = 24 (se lleva 2); 7 × 8 = 56 + 2 = 58. El resultado correcto es 584."
+        }
+      ]
+    }
+  ]
+}

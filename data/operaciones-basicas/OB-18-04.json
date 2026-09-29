@@ -1,0 +1,102 @@
+{
+  "id": "OB-18-04",
+  "grado": "Operaciones Básicas",
+  "numero": 140,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Multiplicación de números con signo — Momento 4/8",
+  "contenido": "Multiplicación de números enteros con signo, aplicando la regla de signos (positivo × positivo, positivo × negativo, negativo × negativo).",
+  "pda": "Multiplica números enteros con signo aplicando correctamente la regla de los signos.",
+  "problematizacion": {
+    "contexto": "En una tienda de abarrotes de Guadalajara, el dueño hace un ajuste de inventario: por cada caja de refresco que resultó dañada durante el traslado, descuenta un número fijo de piezas de su reporte, y tiene que multiplicar ese descuento por el número de cajas afectadas en todo el mes.",
+    "pregunta": "Si el número de piezas dañadas por caja y el número de cajas afectadas son ambos cantidades grandes, ¿por qué conviene organizar la multiplicación en columnas?"
+  },
+  "subtemas": [
+    {
+      "numero": "18.4",
+      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
+      "titulo": "Multiplicación de dos cifras por dos cifras con signo",
+      "explicacion": "Cuando ambos factores tienen dos cifras, conviene usar el algoritmo de multiplicación en columnas para calcular el valor absoluto: se obtienen los productos parciales (multiplicando por las unidades y luego por las decenas del segundo factor) y se suman. Una vez que tienes ese resultado, aplicas la regla de signos como en los momentos anteriores para saber si la respuesta final es positiva o negativa. Separar el cálculo del valor absoluto y la decisión del signo evita errores.",
+      "formula": "Multiplica en columnas los valores absolutos y después aplica la regla de signos al total.",
+      "ejemplos": [
+        "23 × 14 (valores absolutos): 23 × 4 = 92, 23 × 10 = 230, 92 + 230 = 322. Como (-23) × 14 tiene signos distintos, el resultado es -322."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "23"
+            },
+            {
+              "valor": "14",
+              "signo": "×"
+            },
+            {
+              "valor": "92"
+            },
+            {
+              "valor": "230"
+            },
+            {
+              "valor": "322",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [],
+            [],
+            [
+              0,
+              1,
+              2
+            ]
+          ],
+          "retroalimentacion": "23 × 14 = 322 (92 de 23×4, más 230 de 23×10). Como el problema real es (-23) × 14, con signos distintos, el resultado con signo es -322."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado de (-23) × 14?",
+          "opciones": [
+            "-322",
+            "322",
+            "-37",
+            "37"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "23 × 14 = 322, y como los signos son distintos, el resultado es -322."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "(-31) × (-12) = ___",
+          "respuestaCorrecta": "372",
+          "retroalimentacion": "31 × 12 = 372, y como los dos factores son negativos (mismo signo), el resultado es positivo: 372."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "(-45) × 20 = -900",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto. 45 × 20 = 900, y como los signos son distintos, el resultado es -900."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado de 18 × (-25)?",
+          "opciones": [
+            "-450",
+            "450",
+            "-43",
+            "43"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "18 × 25 = 450, y como los signos son distintos, el resultado es -450."
+        }
+      ]
+    }
+  ]
+}

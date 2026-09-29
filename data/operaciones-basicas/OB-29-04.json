@@ -1,0 +1,74 @@
+{
+  "id": "OB-29-04",
+  "grado": "Operaciones Básicas",
+  "numero": 228,
+  "categoria": "potencias_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Significado de la potencia (multiplicación repetida) — Momento 4/8",
+  "contenido": "La potencia como una multiplicación repetida de un mismo factor (base), identificando base y exponente.",
+  "pda": "Interpreta una potencia como la multiplicación repetida de su base, e identifica base y exponente en una expresión.",
+  "problematizacion": {
+    "contexto": "Doña Carmela vende rebozos en su puesto de artesanías en Oaxaca y, para calcular cuántos hilos necesita, multiplica 9×9×9×9×9 porque usa el mismo grosor de hilo en cinco vueltas idénticas alrededor del telar.",
+    "pregunta": "¿Cómo puede escribir doña Carmela la operación 9×9×9×9×9 usando notación de potencia?"
+  },
+  "subtemas": [
+    {
+      "numero": "29.4",
+      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
+      "titulo": "De la multiplicación repetida a la potencia",
+      "explicacion": "También puedes hacer el proceso al revés: si tienes una multiplicación donde el mismo factor se repite varias veces, puedes escribirla como una potencia. La base es el factor que se repite y el exponente es el número de veces que aparece. Sin embargo, esto solo funciona cuando TODOS los factores son exactamente iguales; si los factores son distintos, esa multiplicación no se puede escribir como una sola potencia.",
+      "formula": "b × b × ... × b (n veces) = b^n",
+      "ejemplos": [
+        "8×8×8×8 tiene al 8 repetido cuatro veces, así que se escribe como 8^4.",
+        "6×6×7 no se puede escribir como una sola potencia porque los factores no son todos iguales."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cómo se escribe 9×9×9×9×9 como potencia?",
+          "opciones": [
+            "9^5",
+            "5^9",
+            "9×5",
+            "45"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "El 9 se repite 5 veces, así que la base es 9 y el exponente es 5: 9^5."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cómo se escribe 7×7×7 como potencia?",
+          "opciones": [
+            "3^7",
+            "7^3",
+            "21",
+            "7×3"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "El 7 se repite 3 veces, así que la base es 7 y el exponente es 3: 7^3."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "4×4×4×4 se puede escribir como 4^4.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Verdadero. El factor 4 se repite cuatro veces, así que la base es 4 y el exponente es 4."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "5×5×6 se puede escribir como una sola potencia porque hay tres factores.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso. Para escribirla como potencia, todos los factores deben ser iguales; aquí el 6 es distinto del 5, así que no se puede."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "10×10×10×10×10×10 se escribe como 10^___.",
+          "respuestaCorrecta": "6",
+          "retroalimentacion": "El 10 se repite 6 veces, así que el exponente es 6: 10^6."
+        }
+      ]
+    }
+  ]
+}

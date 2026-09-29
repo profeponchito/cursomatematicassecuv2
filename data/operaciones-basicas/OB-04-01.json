@@ -1,0 +1,108 @@
+{
+  "id": "OB-04-01",
+  "grado": "Operaciones Básicas",
+  "numero": 25,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma y resta de naturales grandes por posición — Momento 1/8",
+  "contenido": "Suma y resta de números de varias cifras (miles, decenas de mil), reforzando el valor posicional como base del algoritmo.",
+  "pda": "Suma y resta números naturales de varias cifras, descomponiendo cada número por su valor posicional (unidades, decenas, centenas, miles).",
+  "problematizacion": {
+    "contexto": "Doña Rosa acomoda etiquetas de precio en su puesto de jitomates en el mercado de Toluca. Escribió el precio de una caja como $4,586 pesos, pero uno de sus dígitos se despintó y ya no sabe qué lugar ocupaba. Su hija le ayuda a repasar el valor de cada posición antes de volver a escribir la etiqueta.",
+    "pregunta": "Si el dígito despintado estaba en las centenas, ¿qué tanto pudo haber cambiado el precio real de la caja?"
+  },
+  "subtemas": [
+    {
+      "numero": "4.1",
+      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
+      "titulo": "El valor de cada dígito según su posición",
+      "explicacion": "Cada dígito de un número natural vale distinto según el lugar donde está escrito: no es lo mismo un 5 en las unidades que un 5 en las centenas. Para sumar o restar números grandes sin equivocarte, primero necesitas reconocer con seguridad qué valor tiene cada posición: unidades, decenas, centenas y millares (miles). Esta idea es la base de todo el algoritmo que usarás en los siguientes momentos.",
+      "formula": "Unidades x1, Decenas x10, Centenas x100, Millares x1000",
+      "ejemplos": [
+        "En el número 4,586: el 4 vale 4,000 (millares), el 5 vale 500 (centenas), el 8 vale 80 (decenas) y el 6 vale 6 (unidades).",
+        "5,842 se descompone como 5,000 + 800 + 40 + 2, porque el 5 está en los millares, el 8 en las centenas, el 4 en las decenas y el 2 en las unidades."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En el número 4,586, ¿qué valor representa el dígito 5?",
+          "opciones": [
+            "5 unidades",
+            "50 decenas",
+            "500 (centenas)",
+            "5,000 (millares)"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "El 5 está en el tercer lugar contando desde la derecha, es decir, en las centenas, así que vale 500."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En el número 7,239, el dígito 2 representa 200.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: en 7,239 el 2 está en las centenas (7 mil, 2 cientos, 3 decenas, 9 unidades), así que vale 200."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El número 5,842 se puede descomponer como 5,000 + 800 + 40 + ___.",
+          "respuestaCorrecta": "2",
+          "retroalimentacion": "El último dígito, el 2, está en las unidades, así que la descomposición se completa sumando 2."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada posición del número con el valor por el que se multiplica su dígito.",
+          "columnaA": [
+            "Unidades",
+            "Decenas",
+            "Centenas",
+            "Millares (miles)"
+          ],
+          "columnaB": [
+            "x1",
+            "x1000",
+            "x10",
+            "x100"
+          ],
+          "parejasCorrectas": [
+            0,
+            2,
+            3,
+            1
+          ],
+          "retroalimentacion": "Unidades = x1, Decenas = x10, Centenas = x100, Millares = x1000: cada posición vale diez veces más que la anterior."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "213"
+            },
+            {
+              "valor": "352",
+              "signo": "+"
+            },
+            {
+              "valor": "565",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "213 + 352 = 565. Cada columna se suma por separado: centenas con centenas, decenas con decenas y unidades con unidades, sin mezclar posiciones."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "id": "OB-16-07",
+  "grado": "Operaciones Básicas",
+  "numero": 127,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Multiplicación de decimales — Momento 7/8",
+  "contenido": "Multiplicación de números decimales, calculando el producto como si fueran enteros y colocando el punto según el total de cifras decimales.",
+  "pda": "Multiplica números decimales, determinando correctamente la posición del punto decimal en el resultado.",
+  "problematizacion": {
+    "contexto": "Un taller mecánico cobra $12.75 por cada litro de aceite especial para motor, y hoy un cliente pidió surtir 24 litros para toda su flotilla de camionetas repartidoras.",
+    "pregunta": "¿Cuánto deberá pagar el cliente en total por el aceite?"
+  },
+  "subtemas": [
+    {
+      "numero": "16.7",
+      "nivelEtiqueta": "Nivel 7 de 8 · Reto",
+      "titulo": "Multiplicaciones con números grandes",
+      "explicacion": "En este reto combinas todo lo aprendido: el factor decimal puede tener una o dos cifras decimales, y el otro factor tiene dos cifras o más. Multiplica por partes (productos parciales) como en cualquier multiplicación grande, súmalos, y al final coloca el punto contando las cifras decimales del factor decimal. Ir por pasos, escribiendo cada producto parcial con cuidado, evita errores cuando los números tienen muchas cifras.",
+      "formula": "Multiplica por partes (productos parciales), suma, y coloca el punto contando las cifras decimales del factor decimal.",
+      "ejemplos": [
+        "14.5 × 23: 145 × 3 = 435, 145 × 20 = 2900, súmalos: 435+2900=3335; con 1 cifra decimal, el resultado es 333.5.",
+        "12.75 × 24: 1275 × 4 = 5100, 1275 × 20 = 25500, súmalos: 5100+25500=30600; con 2 cifras decimales, el resultado es 306.00."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 12.75 × 24?",
+          "opciones": [
+            "306.00",
+            "305.00",
+            "30.60",
+            "288.00"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "1275 × 24 = 30600 (1275×4=5100, 1275×20=25500); con dos cifras decimales, el resultado es 306.00."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "6.25 × 18 = 112.50",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "625 × 18 = 11250; con dos cifras decimales, el resultado correcto es 112.50."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "9.15 × 12 = ___",
+          "respuestaCorrecta": "109.80",
+          "retroalimentacion": "915 × 12 = 10980; con dos cifras decimales, el resultado es 109.80."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "14.5"
+            },
+            {
+              "valor": "23",
+              "signo": "×"
+            },
+            {
+              "valor": "435"
+            },
+            {
+              "valor": "2900"
+            },
+            {
+              "valor": "333.5",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [],
+            [],
+            [
+              4
+            ]
+          ],
+          "retroalimentacion": "145 × 23 = 3335 (145×3=435, 145×20=2900, 435+2900=3335); con una cifra decimal en 14.5, el resultado es 333.5."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada multiplicación con su resultado.",
+          "columnaA": [
+            "8.40 × 15",
+            "11.25 × 16",
+            "7.60 × 13"
+          ],
+          "columnaB": [
+            "126.00",
+            "180.00",
+            "98.80",
+            "150.00"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "Verifica cada producto multiplicando por partes y colocando el punto según las cifras decimales del factor decimal."
+        }
+      ]
+    }
+  ]
+}

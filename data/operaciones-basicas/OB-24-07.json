@@ -1,0 +1,89 @@
+{
+  "id": "OB-24-07",
+  "grado": "Operaciones Básicas",
+  "numero": 191,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "División de números con signo — Momento 7/8",
+  "contenido": "División de números enteros con signo, aplicando la misma regla de signos que en la multiplicación.",
+  "pda": "Divide números enteros con signo aplicando correctamente la regla de los signos.",
+  "problematizacion": {
+    "contexto": "En un torneo de juegos de mesa en Monterrey, Marco perdió fichas en varias rondas: primero perdió fichas de forma constante durante varias rondas seguidas y luego su pérdida total se repartió entre las 6 rondas finales para calcular su promedio de fichas perdidas por ronda, antes de la premiación.",
+    "pregunta": "Si conoces la pérdida total y el número de rondas, ¿qué operación con signo usarías para hallar el promedio por ronda?"
+  },
+  "subtemas": [
+    {
+      "numero": "24.7",
+      "nivelEtiqueta": "Nivel 7 de 8 · Reto",
+      "titulo": "Divisiones dentro de expresiones con signo",
+      "explicacion": "Ahora la división con signo aparece combinada con otras operaciones o como parte de un valor desconocido. Cuando tengas una cadena de operaciones, resuélvela de izquierda a derecha aplicando la regla de los signos en cada paso, sin saltarte ninguno. Cuando falte un número en una división (por ejemplo, ___ ÷ x = resultado), puedes despejarlo multiplicando el resultado por el número conocido, igual que harías para comprobar una división normal.",
+      "formula": "En una cadena de operaciones, resuelve de izquierda a derecha; para despejar en a ÷ b = c, recuerda que a = b × c",
+      "ejemplos": [
+        "(-8) × (-9) ÷ (-6): primero (-8) × (-9) = 72 (signos iguales); luego 72 ÷ (-6) = -12 (signos diferentes).",
+        "Si -204 ÷ x = 12, entonces x = -204 ÷ 12 = -17, porque -17 × 12 = -204."
+      ],
+      "puntosPorReactivo": 25,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Si -204 ÷ x = 12, ¿cuál es el valor de x?",
+          "opciones": [
+            "-17",
+            "17",
+            "-12",
+            "12"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "x = -204 ÷ 12 = -17, porque -17 × 12 = -204."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "(-8) × (-9) ÷ (-6) = ___",
+          "respuestaCorrecta": "-12",
+          "retroalimentacion": "(-8) × (-9) = 72 (signos iguales); 72 ÷ (-6) = -12 (signos diferentes)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "(-360 ÷ 15) ÷ (-4) = 6",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: -360 ÷ 15 = -24, y -24 ÷ (-4) = 6 (signos iguales)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Si y ÷ (-13) = -19, ¿cuál es el valor de y?",
+          "opciones": [
+            "247",
+            "-247",
+            "266",
+            "-266"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "y = (-19) × (-13) = 247, porque el producto de dos negativos es positivo."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada expresión con su resultado.",
+          "columnaA": [
+            "(-72 ÷ 8) × (-3)",
+            "150 ÷ (-25) ÷ (-2)",
+            "(-6) × 7 ÷ (-2)"
+          ],
+          "columnaB": [
+            "27",
+            "3",
+            "21",
+            "-3"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "(-72 ÷ 8) × (-3) = (-9) × (-3) = 27; 150 ÷ (-25) ÷ (-2) = (-6) ÷ (-2) = 3; (-6) × 7 ÷ (-2) = (-42) ÷ (-2) = 21."
+        }
+      ]
+    }
+  ]
+}

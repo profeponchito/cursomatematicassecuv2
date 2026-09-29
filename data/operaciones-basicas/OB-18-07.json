@@ -1,0 +1,95 @@
+{
+  "id": "OB-18-07",
+  "grado": "Operaciones Básicas",
+  "numero": 143,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Multiplicación de números con signo — Momento 7/8",
+  "contenido": "Multiplicación de números enteros con signo, aplicando la regla de signos (positivo × positivo, positivo × negativo, negativo × negativo).",
+  "pda": "Multiplica números enteros con signo aplicando correctamente la regla de los signos.",
+  "problematizacion": {
+    "contexto": "Una inversionista de Querétaro revisa el reporte de una casa de cambio: el valor de una divisa bajó una cantidad con decimales cada día durante varios días seguidos, y ella necesita multiplicar esa baja diaria por el número de días para saber el cambio total en su cuenta.",
+    "pregunta": "Si el valor de la divisa baja la misma cantidad decimal cada día, ¿qué operación con signo permite calcular el cambio total después de varios días?"
+  },
+  "subtemas": [
+    {
+      "numero": "18.7",
+      "nivelEtiqueta": "Nivel 7 de 8 · Reto",
+      "titulo": "Multiplicación de decimales con signo",
+      "explicacion": "La regla de signos y el procedimiento de dos pasos funcionan exactamente igual cuando los factores tienen punto decimal: multiplicas los valores absolutos (usando el algoritmo de multiplicación decimal, contando las cifras decimales de ambos factores para ubicar el punto en el resultado) y después aplicas la regla de signos. No dejes que el punto decimal te distraiga de decidir primero si el resultado será positivo o negativo.",
+      "formula": "Multiplica como si no hubiera punto decimal, cuenta las cifras decimales de ambos factores y colócalas en el resultado; luego aplica la regla de signos.",
+      "ejemplos": [
+        "3.2 × 1.5 (valores absolutos): 32 × 5 = 160, 32 × 10 = 320, 160+320=480, con 2 cifras decimales → 4.80. Como (-3.2) × 1.5 tiene signos distintos, el resultado es -4.8."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "3.2"
+            },
+            {
+              "valor": "1.5",
+              "signo": "×"
+            },
+            {
+              "valor": "160"
+            },
+            {
+              "valor": "320"
+            },
+            {
+              "valor": "4.8",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [],
+            [],
+            [
+              0,
+              2
+            ]
+          ],
+          "retroalimentacion": "3.2 × 1.5 = 4.8 (160 de 32×5, más 320 de 32×10, con dos cifras decimales entre ambos factores). Como el problema es (-3.2) × 1.5, con signos distintos, el resultado con signo es -4.8."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "(-2.5) × 4 = ___",
+          "respuestaCorrecta": "-10",
+          "retroalimentacion": "2.5 × 4 = 10, y como los signos son distintos, el resultado es -10."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado de (-1.2) × (-3)?",
+          "opciones": [
+            "3.6",
+            "-3.6",
+            "4.2",
+            "-4.2"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "1.2 × 3 = 3.6, y como los dos factores son negativos (mismo signo), el resultado es positivo: 3.6."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "(-0.5) × (-0.5) = 0.25",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto. 0.5 × 0.5 = 0.25, y como los dos factores son negativos (mismo signo), el resultado es positivo: 0.25."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "6.4 × (-2) = ___",
+          "respuestaCorrecta": "-12.8",
+          "retroalimentacion": "6.4 × 2 = 12.8, y como los signos son distintos, el resultado es -12.8."
+        }
+      ]
+    }
+  ]
+}

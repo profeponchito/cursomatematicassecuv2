@@ -1,0 +1,88 @@
+{
+  "id": "OB-22-04",
+  "grado": "Operaciones Básicas",
+  "numero": 172,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "División de decimales — Momento 4/8",
+  "contenido": "División de números decimales, incluyendo dividir un decimal entre un natural y ajustar el divisor para trabajar con números enteros.",
+  "pda": "Divide números decimales, transformando el divisor decimal en un número entero cuando es necesario.",
+  "problematizacion": {
+    "contexto": "En los entrenamientos de atletismo de la escuela, el profesor Iván reparte una pista de longitud conocida en un número exacto de tramos iguales para que el equipo practique relevos, aunque la longitud de cada tramo no siempre sea un número entero de metros.",
+    "pregunta": "¿Cómo encuentras la longitud exacta de cada tramo si al dividir metros entre tramos el resultado no es un número entero?"
+  },
+  "subtemas": [
+    {
+      "numero": "22.4",
+      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
+      "titulo": "De número natural a cociente decimal",
+      "explicacion": "En este momento el dividendo es un número natural (sin punto decimal), pero al dividir no siempre da un resultado exacto en números enteros. Cuando después de bajar todas las cifras del dividendo todavía sobra residuo, colocas un punto decimal en el cociente y agregas un cero al residuo para seguir dividiendo, igual que aprendiste con los decimales. Es la misma idea del momento anterior, pero ahora partes de un número natural en vez de uno que ya tenía decimales.",
+      "ejemplos": [
+        "9 ÷ 4: 9 ÷ 4 = 2 y sobran 1; como no es exacto, se pone punto decimal en el cociente y se agrega un cero al residuo (10 ÷ 4 = 2, sobran 2); se agrega otro cero (20 ÷ 4 = 5, sobra 0). El resultado es 9 ÷ 4 = 2.25.",
+        "7 ÷ 2: 7 ÷ 2 = 3 y sobra 1; con punto decimal y un cero en el residuo, 10 ÷ 2 = 5, así que 7 ÷ 2 = 3.5."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 9 ÷ 4?",
+          "opciones": [
+            "2.5",
+            "2.25",
+            "2.4",
+            "20.25"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "9 ÷ 4 = 2 con residuo 1; agregando punto decimal y ceros al residuo se llega a 9 ÷ 4 = 2.25."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "15 ÷ 8 = ___",
+          "respuestaCorrecta": "1.875",
+          "retroalimentacion": "15 ÷ 8 = 1 con residuo 7; agregando ceros al residuo se llega a 15 ÷ 8 = 1.875."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "7 ÷ 2 = 3.5",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 7 ÷ 2 = 3 con residuo 1; agregando un cero, 10 ÷ 2 = 5, así que 7 ÷ 2 = 3.5."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada división de naturales con su cociente decimal.",
+          "columnaA": [
+            "13 ÷ 4",
+            "11 ÷ 2",
+            "17 ÷ 4"
+          ],
+          "columnaB": [
+            "3.25",
+            "5.5",
+            "4.25",
+            "2.25"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "13 ÷ 4 = 3.25; 11 ÷ 2 = 5.5; 17 ÷ 4 = 4.25. La opción 2.25 no corresponde a ninguna de estas tres."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 21 ÷ 4?",
+          "opciones": [
+            "5.25",
+            "5.2",
+            "5.5",
+            "52.5"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "21 ÷ 4 = 5 con residuo 1; agregando ceros al residuo se llega a 21 ÷ 4 = 5.25."
+        }
+      ]
+    }
+  ]
+}

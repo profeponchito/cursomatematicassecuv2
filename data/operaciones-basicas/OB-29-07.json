@@ -1,0 +1,90 @@
+{
+  "id": "OB-29-07",
+  "grado": "Operaciones Básicas",
+  "numero": 231,
+  "categoria": "potencias_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Significado de la potencia (multiplicación repetida) — Momento 7/8",
+  "contenido": "La potencia como una multiplicación repetida de un mismo factor (base), identificando base y exponente.",
+  "pda": "Interpreta una potencia como la multiplicación repetida de su base, e identifica base y exponente en una expresión.",
+  "problematizacion": {
+    "contexto": "En un taller mecánico de Monterrey, el aprendiz Toño encontró una tabla en su cuaderno con las potencias de 4: 4^3=64, 4^2=16, 4^1=4, pero la última fila, 4^0, estaba manchada de aceite y no se podía leer.",
+    "pregunta": "Siguiendo el patrón de la tabla de Toño, ¿qué número debería ir en la fila de 4^0?"
+  },
+  "subtemas": [
+    {
+      "numero": "29.7",
+      "nivelEtiqueta": "Nivel 7 de 8 · Reto",
+      "titulo": "Casos especiales: exponente 1 y exponente 0",
+      "explicacion": "Observa lo que pasa cuando el exponente baja de uno en uno: cada vez que el exponente disminuye en 1, el resultado se divide entre la base. Siguiendo ese patrón hasta el final, cuando el exponente es 1 el resultado es simplemente la base (porque ya no hay ninguna multiplicación repetida que hacer), y cuando el exponente es 0 el resultado siempre es 1 (para cualquier base distinta de cero). Estos dos casos especiales son parte del mismo significado de multiplicación repetida, solo que llevados a su límite.",
+      "ejemplos": [
+        "5^3 = 125, 5^2 = 25, 5^1 = 5, 5^0 = 1 (cada vez se divide el resultado anterior entre 5).",
+        "4^2 = 16, 4^1 = 4, 4^0 = 1 (cada vez se divide el resultado anterior entre 4)."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Siguiendo el patrón 4^3=64, 4^2=16, 4^1=4, ¿cuánto vale 4^0?",
+          "opciones": [
+            "0",
+            "1",
+            "4",
+            "16"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Cada vez que el exponente baja 1, el resultado se divide entre la base (4÷4=1); por eso 4^0 = 1."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Cualquier número (distinto de cero) elevado a la potencia 0 es igual a 1.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Verdadero. Es una regla general: toda base distinta de cero elevada al exponente 0 da como resultado 1."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "7^1 = ___.",
+          "respuestaCorrecta": "7",
+          "retroalimentacion": "Cuando el exponente es 1, no hay ninguna multiplicación repetida que hacer: el resultado es la misma base, 7."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Observa el patrón: 6^3=216, 6^2=36, 6^1=___. ¿Qué número completa la secuencia?",
+          "opciones": [
+            "1",
+            "6",
+            "36",
+            "216"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "36÷6=6, así que 6^1 = 6, que es la propia base."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada potencia de base 9 con su valor correcto.",
+          "columnaA": [
+            "9^0",
+            "9^1",
+            "9^2",
+            "9^3"
+          ],
+          "columnaB": [
+            "81",
+            "1",
+            "729",
+            "9"
+          ],
+          "parejasCorrectas": [
+            1,
+            3,
+            0,
+            2
+          ],
+          "retroalimentacion": "9^0 = 1, 9^1 = 9, 9^2 = 81 y 9^3 = 729. Nota cómo cada resultado se obtiene multiplicando el anterior por 9."
+        }
+      ]
+    }
+  ]
+}

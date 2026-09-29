@@ -1,0 +1,141 @@
+{
+  "id": "OB-20-08",
+  "grado": "Operaciones Básicas",
+  "numero": 160,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "División con residuo — Momento 8/8",
+  "contenido": "División de naturales donde el resultado deja un residuo distinto de cero, e interpretación de ese residuo según el contexto.",
+  "pda": "Aplica el algoritmo de la división larga identificando e interpretando el residuo en distintos contextos.",
+  "problematizacion": {
+    "contexto": "Una jornada comunitaria de reciclaje en Oaxaca reunió a 674 voluntarios, quienes deben formarse en filas de 25 personas para recibir su gafete antes de comenzar la actividad.",
+    "pregunta": "¿Cuántas filas completas de 25 personas se forman y qué se hace con las personas que quedan en la última fila incompleta?"
+  },
+  "subtemas": [
+    {
+      "numero": "20.8",
+      "nivelEtiqueta": "Nivel 8 de 8 · Integración",
+      "titulo": "Integración: domina la división con residuo",
+      "explicacion": "Este es el momento más completo del tema: combinarás todo lo aprendido, calcular cociente y residuo con divisores de dos cifras, comprobar tus resultados con la multiplicación, e interpretar correctamente si el residuo se reporta tal cual o si obliga a redondear hacia arriba según el contexto. Lee cada situación con cuidado antes de decidir qué tipo de respuesta se pide.",
+      "formula": "dividendo = divisor × cociente + residuo (residuo < divisor)",
+      "ejemplos": [
+        "807 ÷ 24: el algoritmo da cociente 33 y residuo 15. Se comprueba con 24×33=792 (72+720), y 792+15=807."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una feria comunitaria recibe 674 personas y las organiza en filas de 25 para entrar a un evento. ¿Cuántas filas completas de 25 se forman y cuántas personas quedan en una fila incompleta?",
+          "opciones": [
+            "25 filas y sobran 24",
+            "26 filas y sobran 24",
+            "26 filas y sobran 25",
+            "27 filas y sobran 0"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "25×26=650, y 674-650=24. Se forman 26 filas completas y sobran 24 personas en una fila incompleta."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "913 ÷ 34 tiene cociente 26 y residuo 29.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "34×26=884, y 913-884=29. Es verdadero."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Para saber cuántos autobuses de 45 asientos se necesitan para trasladar a 502 voluntarios, se calcula 502 ÷ 45 = 11 con residuo 7, por lo que en total se necesitan ___ autobuses.",
+          "respuestaCorrecta": "12",
+          "retroalimentacion": "45×11=495, y 502-495=7. Esos 7 voluntarios que sobran también necesitan transporte, así que se requiere un autobús más: 12 en total."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "24"
+            },
+            {
+              "valor": "33",
+              "signo": "×"
+            },
+            {
+              "valor": "72"
+            },
+            {
+              "valor": "720"
+            },
+            {
+              "valor": "792",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [
+              0
+            ],
+            [],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "24 × 33 = 792 (72 + 720), esto verifica que 807 ÷ 24 = 33, porque 792 + 15 (el residuo) = 807."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada división con su cociente y residuo correctos.",
+          "columnaA": [
+            "674 ÷ 25",
+            "913 ÷ 34",
+            "502 ÷ 45",
+            "807 ÷ 24"
+          ],
+          "columnaB": [
+            "cociente 33, residuo 15",
+            "cociente 26, residuo 24",
+            "cociente 11, residuo 7",
+            "cociente 26, residuo 29"
+          ],
+          "parejasCorrectas": [
+            1,
+            3,
+            2,
+            0
+          ],
+          "retroalimentacion": "674÷25=26 r24; 913÷34=26 r29; 502÷45=11 r7; 807÷24=33 r15."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Una jornada de reciclaje junta 1265 kg de papel y los reparte en costales de 37 kg para su venta. ¿Cuántos costales completos se llenan y cuántos kg sobran?",
+      "opciones": [
+        "33 costales y sobran 44",
+        "34 costales y sobran 7",
+        "34 costales y sobran 44",
+        "35 costales y sobran 0"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "37×34=1258, y 1265-1258=7. Se llenan 34 costales y sobran 7 kg."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "1507 ÷ 42 = 35 con residuo ___.",
+      "respuestaCorrecta": "37",
+      "retroalimentacion": "42×35=1470, y 1507-1470=37."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Al dividir 2340 entre 56, el cociente es 41 y el residuo es 44.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "56×41=2296, y 2340-2296=44. Es verdadero."
+    }
+  ]
+}

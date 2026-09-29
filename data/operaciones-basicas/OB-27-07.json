@@ -1,0 +1,103 @@
+{
+  "id": "OB-27-07",
+  "grado": "Operaciones Básicas",
+  "numero": 215,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Multiplicación y división en la vida cotidiana — Momento 7/8",
+  "contenido": "Multiplicación y división aplicadas a situaciones cotidianas: repartos, precios unitarios, escalas y recetas.",
+  "pda": "Resuelve problemas cotidianos de reparto, precio unitario y proporciones sencillas usando multiplicación y división.",
+  "problematizacion": {
+    "contexto": "En el mercado sobre ruedas del domingo, Marisol ayuda a su mamá a comparar precios de fruta y verdura, donde casi todo se vende por kilogramo y los precios incluyen centavos.",
+    "pregunta": "Si el kilogramo de jitomate cuesta $18.50 y Marisol necesita comprar 3.5 kg, ¿aproximadamente cuánto van a pagar?"
+  },
+  "subtemas": [
+    {
+      "numero": "27.7",
+      "nivelEtiqueta": "Nivel 7 de 8 · Reto",
+      "titulo": "Multiplicar y dividir con decimales en el dinero real",
+      "explicacion": "El dinero casi siempre se maneja con decimales (pesos con centavos), así que multiplicar y dividir cantidades decimales es indispensable para calcular compras, precios por kilogramo o precios por litro con precisión. Al multiplicar decimales, se opera igual que con números enteros y al final se cuenta el total de cifras decimales de ambos factores para colocar el punto en el resultado. Al dividir, conviene pensar en el precio unitario tal como en momentos anteriores, solo que ahora la respuesta puede tener centavos. Usar exactamente los decimales dados (sin redondear de más) evita errores en cuentas de dinero real.",
+      "formula": "En una multiplicación de decimales, cifras decimales del resultado = cifras decimales del factor 1 + cifras decimales del factor 2",
+      "ejemplos": [
+        "0.5 × 4.2: se multiplica 5 × 42 = 210 y como hay 1 + 1 = 2 cifras decimales en total, el resultado es 2.10.",
+        "$37.50 entre 2.5 litros: 37.50 ÷ 2.5 = $15.00 por litro."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El kilogramo de jitomate cuesta $18.50. Si Marisol compra 3.5 kg, ¿cuánto paga en total?",
+          "opciones": [
+            "$61.25",
+            "$63.00",
+            "$64.75",
+            "$66.50"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "18.50 × 3.5 = $64.75."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un refresco de 2.5 litros cuesta $37.50. El precio por litro es de $___.",
+          "respuestaCorrecta": "15",
+          "retroalimentacion": "37.50 ÷ 2.5 = $15.00 por litro."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "0.5 × 4.2 = 2.1",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 5 × 42 = 210, y como hay 2 cifras decimales en total entre los factores, el resultado es 2.10."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "6.4"
+            },
+            {
+              "valor": "3",
+              "signo": "×"
+            },
+            {
+              "valor": "19.2",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0,
+              3
+            ]
+          ],
+          "retroalimentacion": "6.4 × 3 = 19.2: se multiplica 64 × 3 = 192 y, como el 6.4 tiene 1 cifra decimal, el resultado lleva 1 cifra decimal."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada operación con decimales con su resultado correcto.",
+          "columnaA": [
+            "$52.50 ÷ 3.5 kg",
+            "4.2 × $12.50",
+            "$0.75 × 8"
+          ],
+          "columnaB": [
+            "$6.00",
+            "$15.00",
+            "$52.50",
+            "$8.40"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "52.50 ÷ 3.5 = $15.00, 4.2 × 12.50 = $52.50 y 0.75 × 8 = $6.00. El \"$8.40\" era una opción extra que no corresponde a ninguna operación."
+        }
+      ]
+    }
+  ]
+}

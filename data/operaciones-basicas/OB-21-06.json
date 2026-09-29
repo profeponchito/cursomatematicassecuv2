@@ -1,0 +1,74 @@
+{
+  "id": "OB-21-06",
+  "grado": "Operaciones Básicas",
+  "numero": 166,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "División entre decenas, centenas y potencias de 10 — Momento 6/8",
+  "contenido": "División de un número entre 10, 100, 1000 y sus múltiplos, identificando el patrón inverso al de la multiplicación por potencias de 10.",
+  "pda": "Divide números naturales entre potencias de 10 y sus múltiplos, reconociendo el patrón que sigue el resultado.",
+  "problematizacion": {
+    "contexto": "Un electricista de Monterrey compró un rollo de 35.8 metros de cable y necesita cortarlo en 10 tramos iguales para surtir a 10 clientes distintos en un mismo día.",
+    "pregunta": "¿Cuántos metros de cable le corresponden a cada cliente si el rollo se reparte entre los 10 clientes en partes iguales?"
+  },
+  "subtemas": [
+    {
+      "numero": "21.6",
+      "nivelEtiqueta": "Nivel 6 de 8 · Avanzado",
+      "titulo": "Decimales entre potencias de 10",
+      "explicacion": "El patrón de correr el punto decimal hacia la izquierda también aplica cuando el número que se divide ya es decimal, no solo cuando es entero. Se cuenta la misma cantidad de lugares que ceros tiene la potencia de 10 (1 para 10, 2 para 100, 3 para 1000), y si el número no alcanza cifras suficientes, se agregan ceros a la izquierda del punto o después de él. El resultado siempre es un número más pequeño que el original.",
+      "formula": "35.8 ÷ 10 = 3.58 ; 4.2 ÷ 100 = 0.042",
+      "ejemplos": [
+        "35.8 ÷ 10: corremos el punto un lugar a la izquierda y queda 3.58. Comprobación: 3.58 × 10 = 35.8.",
+        "4.2 ÷ 100: corremos el punto dos lugares a la izquierda, agregando un cero, y queda 0.042. Comprobación: 0.042 × 100 = 4.2."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 35.8 ÷ 10?",
+          "opciones": [
+            "0.358",
+            "3.58",
+            "35.80",
+            "358"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Corremos el punto un lugar a la izquierda en 35.8 y queda 3.58. Comprobación: 3.58 × 10 = 35.8."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "4.2 ÷ 100 = ___",
+          "respuestaCorrecta": "0.042",
+          "retroalimentacion": "Corremos el punto dos lugares a la izquierda en 4.2, agregando un cero, y queda 0.042. Comprobación: 0.042 × 100 = 4.2."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "6.5 ÷ 1000 = 0.0065",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Verdadero. Corremos el punto tres lugares a la izquierda en 6.5, agregando dos ceros, y queda 0.0065."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 128.4 ÷ 100?",
+          "opciones": [
+            "1.284",
+            "12.84",
+            "0.1284",
+            "1284"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Corremos el punto dos lugares a la izquierda en 128.4 y queda 1.284. Comprobación: 1.284 × 100 = 128.4."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "9.07 ÷ 10 = ___",
+          "respuestaCorrecta": "0.907",
+          "retroalimentacion": "Corremos el punto un lugar a la izquierda en 9.07 y queda 0.907. Comprobación: 0.907 × 10 = 9.07."
+        }
+      ]
+    }
+  ]
+}

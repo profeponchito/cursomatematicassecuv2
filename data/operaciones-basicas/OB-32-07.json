@@ -1,0 +1,88 @@
+{
+  "id": "OB-32-07",
+  "grado": "Operaciones Básicas",
+  "numero": 255,
+  "categoria": "potencias_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Potencias de base fraccionaria — Momento 7/8",
+  "contenido": "Cálculo de potencias cuya base es una fracción, elevando numerador y denominador al exponente indicado.",
+  "pda": "Calcula potencias de base fraccionaria, elevando por separado numerador y denominador.",
+  "problematizacion": {
+    "contexto": "Un ingeniero de tránsito en Guadalajara modela cómo disminuye la velocidad de un camión en cada tramo de una zona escolar, multiplicando repetidamente por una fracción menor que 1. Antes de programar el modelo en su computadora, quiere entender cómo cambia el resultado según el número de tramos (el exponente).",
+    "pregunta": "Si la velocidad se reduce por un factor de (4/5) en cada tramo, ¿el resultado después de 4 tramos será mayor o menor que después de 2 tramos?"
+  },
+  "subtemas": [
+    {
+      "numero": "32.7",
+      "nivelEtiqueta": "Nivel 7 de 8 · Reto",
+      "titulo": "Comparar y razonar con potencias de fracciones",
+      "explicacion": "Cuando la base es una fracción propia (menor que 1), entre más grande sea el exponente, más pequeño se vuelve el resultado; esto es diferente a lo que pasa con números enteros mayores que 1. Este momento pide razonar sobre el tamaño relativo de distintas potencias de fracciones, además de calcularlas con exponentes más grandes (hasta 4), como preparación para resolver problemas donde hay que comparar resultados sin calcular todo por fuerza bruta.",
+      "formula": "Si 0 < a/b < 1, entonces a mayor exponente, menor es el resultado",
+      "ejemplos": [
+        "(3/4)² = 9/16 = 0.5625, pero (3/4)⁴ = 81/256 ≈ 0.316: el resultado bajó al subir el exponente"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de las siguientes potencias tiene el resultado MAYOR?",
+          "opciones": [
+            "(3/4)²",
+            "(3/4)⁴",
+            "(1/2)²",
+            "(2/3)⁴"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(3/4)² = 9/16 = 0.5625 es la mayor de las cuatro; entre más grande el exponente sobre una fracción propia, más chico se vuelve el resultado."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "(5/6)⁴ = ?",
+          "opciones": [
+            "625/1296",
+            "20/24",
+            "625/24",
+            "20/1296"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "5⁴ = 625 y 6⁴ = 1296, entonces (5/6)⁴ = 625/1296."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Entre más grande sea el exponente aplicado a una fracción propia (menor que 1), el resultado se hace más pequeño.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: al multiplicar varias veces un número menor que 1 por sí mismo, el resultado se va acercando a cero."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "(2/5)⁴ = ___",
+          "respuestaCorrecta": "16/625",
+          "retroalimentacion": "2⁴ = 16 y 5⁴ = 625, entonces (2/5)⁴ = 16/625."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada potencia con su resultado correcto.",
+          "columnaA": [
+            "(1/2)⁴",
+            "(3/5)³",
+            "(4/5)²"
+          ],
+          "columnaB": [
+            "1/16",
+            "27/125",
+            "16/25",
+            "9/25"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "(1/2)⁴=1/16, (3/5)³=27/125 y (4/5)²=16/25."
+        }
+      ]
+    }
+  ]
+}

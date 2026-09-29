@@ -1,0 +1,89 @@
+{
+  "id": "OB-25-02",
+  "grado": "Operaciones Básicas",
+  "numero": 194,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Estimación antes de multiplicar y dividir — Momento 2/8",
+  "contenido": "Estimación del resultado de una multiplicación o división mediante redondeo, para verificar si un cálculo exacto es razonable.",
+  "pda": "Estima el resultado de multiplicaciones y divisiones mediante redondeo y lo usa para verificar la razonabilidad de un cálculo.",
+  "problematizacion": {
+    "contexto": "En la kermés de la escuela, el comité de padres de familia vende boletos de rifa en talonarios. Cada talonario tiene 36 boletos y se repartieron 24 talonarios entre distintos grupos.",
+    "pregunta": "Redondeando 36 y 24 a la decena más cercana, ¿cuál es una buena estimación del total de boletos repartidos?"
+  },
+  "subtemas": [
+    {
+      "numero": "25.2",
+      "nivelEtiqueta": "Nivel 2 de 8 · Básico",
+      "titulo": "Redondea los dos factores en una multiplicación",
+      "explicacion": "Cuando ambos factores de una multiplicación tienen dos cifras, la estimación se vuelve más útil porque hacer la cuenta exacta mentalmente es más difícil. En este momento vas a redondear LOS DOS factores a la decena más cercana antes de multiplicar. Recuerda la regla del redondeo: si la cifra de las unidades es 5 o más, la decena sube uno; si es menor que 5, la decena se queda igual. Una vez redondeados ambos factores, multiplicarlos es mucho más sencillo y te da una estimación razonable del resultado real.",
+      "formula": "estimación ≈ (factor redondeado) × (factor redondeado)",
+      "ejemplos": [
+        "Para estimar 32 × 48: redondeamos 32 a 30 y 48 a 50, y calculamos 30 × 50 = 1500. El resultado exacto es 1536, muy cercano a la estimación.",
+        "Para estimar 63 × 21: redondeamos 63 a 60 y 21 a 20, y calculamos 60 × 20 = 1200."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Para estimar 32 × 48, se redondean ambos factores a la decena más cercana: 30 y 50. ¿Cuál es la estimación?",
+          "opciones": [
+            "1200",
+            "1500",
+            "1800",
+            "1350"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "30 × 50 = 1500. El resultado exacto de 32 × 48 es 1536, muy cerca de la estimación."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "63 × 21 se estima redondeando a 60 y 20: 60 × 20 = ___.",
+          "respuestaCorrecta": "1200",
+          "retroalimentacion": "60 × 20 = 1200. El resultado exacto de 63 × 21 es 1323."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Beto quiere estimar 34 × 57. Redondeó 34 a 40 y 57 a 60, y calculó 40 × 60 = 2400. Verdadero o falso: Beto redondeó correctamente el número 34 a la decena más cercana.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso. 34 está a 4 unidades de 30 y a 6 unidades de 40, así que la decena más cercana es 30, no 40."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la estimación de 58 × 23 redondeando ambos factores a la decena más cercana?",
+          "opciones": [
+            "1000",
+            "1200",
+            "1400",
+            "1100"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "58 se redondea a 60 y 23 a 20: 60 × 20 = 1200. El resultado exacto es 1334."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada multiplicación con su estimación, redondeando ambos factores a la decena más cercana.",
+          "columnaA": [
+            "41 × 62",
+            "29 × 72",
+            "19 × 51"
+          ],
+          "columnaB": [
+            "1000",
+            "2100",
+            "2400",
+            "3000"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "41×62 → 40×60=2400; 29×72 → 30×70=2100; 19×51 → 20×50=1000."
+        }
+      ]
+    }
+  ]
+}

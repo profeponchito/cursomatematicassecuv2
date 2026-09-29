@@ -1,0 +1,95 @@
+{
+  "id": "OB-22-03",
+  "grado": "Operaciones Básicas",
+  "numero": 171,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "División de decimales — Momento 3/8",
+  "contenido": "División de números decimales, incluyendo dividir un decimal entre un natural y ajustar el divisor para trabajar con números enteros.",
+  "pda": "Divide números decimales, transformando el divisor decimal en un número entero cuando es necesario.",
+  "problematizacion": {
+    "contexto": "En una gasolinera sobre la carretera a Toluca, un grupo de amigos que viajan en un solo coche quiere repartir en partes iguales el costo de la gasolina que llenaron, aunque el resultado no dé un número exacto de un solo decimal.",
+    "pregunta": "Si el residuo no llega a cero al dividir, ¿qué debes hacer para seguir encontrando cifras decimales del cociente?"
+  },
+  "subtemas": [
+    {
+      "numero": "22.3",
+      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
+      "titulo": "Cuando sobra residuo: se agrega un cero",
+      "explicacion": "A veces, al dividir un decimal entre un natural, después de bajar todas las cifras del dividendo todavía queda un residuo distinto de cero. En ese caso no te detienes: agregas un cero al residuo (como si el dividendo tuviera una cifra decimal más, que vale cero) y sigues dividiendo. Puedes repetir este paso varias veces hasta que el residuo llegue a cero. Por eso el cociente puede terminar con más cifras decimales de las que tenía el dividendo original.",
+      "ejemplos": [
+        "7.5 ÷ 4: 75 ÷ 4 = 18 y sobran 3; se agrega un cero al residuo (30 ÷ 4 = 7, sobran 2); se agrega otro cero (20 ÷ 4 = 5, sobra 0). El cociente completo es 7.5 ÷ 4 = 1.875.",
+        "5.4 ÷ 8: 54 ÷ 8 = 6 y sobran 6; agregando ceros al residuo se sigue dividiendo hasta llegar a 5.4 ÷ 8 = 0.675."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 7.5 ÷ 4?",
+          "opciones": [
+            "1.75",
+            "1.875",
+            "18.75",
+            "1.85"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "75 ÷ 4 = 18 con residuo 3; agregando ceros al residuo se sigue dividiendo hasta 7.5 ÷ 4 = 1.875."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "5.4 ÷ 8 = ___",
+          "respuestaCorrecta": "0.675",
+          "retroalimentacion": "54 ÷ 8 = 6 con residuo 6; agregando ceros al residuo se llega a 5.4 ÷ 8 = 0.675."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "3.5 ÷ 4 = 0.875",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 35 ÷ 4 = 8 con residuo 3; agregando ceros al residuo se llega a 3.5 ÷ 4 = 0.875."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 1.5 ÷ 4?",
+          "opciones": [
+            "0.375",
+            "3.75",
+            "0.35",
+            "0.475"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "15 ÷ 4 = 3 con residuo 3; agregando ceros al residuo se llega a 1.5 ÷ 4 = 0.375."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "1.125"
+            },
+            {
+              "valor": "4",
+              "signo": "×"
+            },
+            {
+              "valor": "4.500",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0,
+              2,
+              3,
+              4
+            ]
+          ],
+          "retroalimentacion": "1.125 × 4 = 4.500, es decir 4.5. Esto verifica que 4.5 ÷ 4 = 1.125."
+        }
+      ]
+    }
+  ]
+}

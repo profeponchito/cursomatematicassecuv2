@@ -1,0 +1,88 @@
+{
+  "id": "OB-26-04",
+  "grado": "Operaciones Básicas",
+  "numero": 204,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Múltiplos y factores — Momento 4/8",
+  "contenido": "Identificación de múltiplos y factores de un número, como puente natural entre la multiplicación/división y el álgebra.",
+  "pda": "Identifica múltiplos y factores de un número natural, y los usa para resolver problemas sencillos de divisibilidad.",
+  "problematizacion": {
+    "contexto": "La entrenadora Lupe quiere acomodar a su equipo de voleibol en filas iguales para el calentamiento, probando distintos acomodos: una fila con todos, dos filas, tres filas, y así hasta encontrar todas las formas posibles sin que sobre ningún jugador.",
+    "pregunta": "¿Qué necesita conocer la entrenadora Lupe del número total de jugadores para encontrar todos los acomodos posibles?"
+  },
+  "subtemas": [
+    {
+      "numero": "26.4",
+      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
+      "titulo": "Encontrar todos los factores de un número",
+      "explicacion": "Para hallar todos los factores de un número, se prueba dividirlo entre 1, 2, 3, 4... y cada vez que la división sea exacta, el divisor y el cociente forman una pareja de factores. Por ejemplo, en 24: 1×24, 2×12, 3×8 y 4×6 son parejas que multiplicadas dan 24. Este método ordenado evita que se te escape algún factor, sobre todo en números con muchos divisores.",
+      "formula": "Si n ÷ d es exacto, entonces d y (n ÷ d) son una pareja de factores de n",
+      "ejemplos": [
+        "Factores de 24: 1×24, 2×12, 3×8, 4×6 → la lista completa es 1, 2, 3, 4, 6, 8, 12, 24."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada número con la lista completa de sus factores.",
+          "columnaA": [
+            "Factores de 15",
+            "Factores de 16",
+            "Factores de 21"
+          ],
+          "columnaB": [
+            "1, 2, 4, 8, 16",
+            "1, 3, 5, 15",
+            "1, 3, 7, 21",
+            "1, 2, 3, 6"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            2
+          ],
+          "retroalimentacion": "15 → 1,3,5,15 · 16 → 1,2,4,8,16 · 21 → 1,3,7,21. La opción 1,2,3,6 (factores de 6) es un distractor."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuántos factores tiene el número 18?",
+          "opciones": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Los factores de 18 son 1, 2, 3, 6, 9 y 18: en total, 6 factores."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En la pareja de factores de 28: 4 × ___ = 28.",
+          "respuestaCorrecta": "7",
+          "retroalimentacion": "28 ÷ 4 = 7, así que la pareja de factores es 4 y 7."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "9 es uno de los factores de 36.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "36 ÷ 9 = 4 exactamente, así que 9 sí es factor de 36."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el factor más grande de 20, sin contar el mismo 20?",
+          "opciones": [
+            "4",
+            "5",
+            "10",
+            "20"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Los factores de 20 son 1, 2, 4, 5, 10 y 20; sin contar el 20, el más grande es 10."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "id": "OB-01-08",
+  "grado": "Operaciones Básicas",
+  "numero": 8,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma y resta de naturales sin llevar — Momento 8/8",
+  "contenido": "Suma y resta de números naturales cuando ninguna columna requiere acarreo ni préstamo.",
+  "pda": "Resuelve sumas y restas de números naturales identificando el valor posicional de cada cifra, sin necesidad de acarreo ni préstamo.",
+  "problematizacion": {
+    "contexto": "Doña Consuelo prepara tamales para la kermés de la escuela. En su lista de compras anota que necesita 3124 gramos de masa para el primer lote y 4523 gramos más para el segundo lote, y después debe descontar lo que ya tiene guardado en la alacena.",
+    "pregunta": "¿Cuántos gramos de masa necesita Doña Consuelo en total si suma 3124 y 4523 columna por columna, antes de restar lo que ya tiene guardado?"
+  },
+  "subtemas": [
+    {
+      "numero": "1.8",
+      "nivelEtiqueta": "Nivel 8 de 8 · Integración",
+      "titulo": "Cierre: sumas y restas combinadas de cuatro cifras",
+      "explicacion": "Este es el cierre del tema: combinarás todo lo practicado en los siete momentos anteriores en un solo tipo de reto. Habrá sumas, restas y hasta operaciones encadenadas (varios pasos seguidos) con números de hasta cuatro cifras, siempre sin llevar ni pedir prestado. Lo importante es leer bien cada columna, decidir si toca sumar o restar, y resolver con calma paso por paso.",
+      "formula": "combinación de suma y resta por columnas, sin acarreo ni préstamo",
+      "ejemplos": [
+        "3124 + 4523: unidades 4+3=7, decenas 2+2=4, centenas 1+5=6, millares 3+4=7 → 7647",
+        "8765 - 1243 - 3201: primero 8765-1243=7522, luego 7522-3201=4321"
+      ],
+      "puntosPorReactivo": 15,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "3124",
+              "signo": "+"
+            },
+            {
+              "valor": "4523",
+              "signo": "+"
+            },
+            {
+              "valor": "7647",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              3
+            ],
+            [
+              2
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "3124 + 4523 = 7647: unidades 4+3=7, decenas 2+2=4, centenas 1+5=6, millares 3+4=7. Ninguna columna llega a 10."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una tienda tenía 6789 artículos, vendió 2145 y después recibió un pedido de 1203 artículos más. ¿Cuántos artículos tiene ahora?",
+          "opciones": [
+            "5837",
+            "5947",
+            "4644",
+            "5847"
+          ],
+          "respuestaCorrecta": 3,
+          "retroalimentacion": "6789 - 2145 = 4644; 4644 + 1203 = 5847. Primero se resta lo vendido y luego se suma lo recibido."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En una carrera, 2431 personas corrieron 5 km y 3256 corrieron 10 km; en total participaron 5687 personas.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Es verdadero: se suman los dos grupos. 2431 + 3256 = 5687 (unidades 1+6=7, decenas 3+5=8, centenas 4+2=6, millares 2+3=5)."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "8765 - 1243 - ___ = 4321",
+          "respuestaCorrecta": "3201",
+          "retroalimentacion": "8765 - 1243 = 7522; 7522 - 4321 = 3201. Comprobación: 7522 - 3201 = 4321, sin pedir prestado en ningún paso."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada operación combinada con su resultado correcto.",
+          "columnaA": [
+            "3214 + 4213",
+            "8657 - 2314",
+            "1230 + 2568 + 1101"
+          ],
+          "columnaB": [
+            "7427",
+            "6343",
+            "4899",
+            "5555"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "3214+4213=7427, 8657-2314=6343 y 1230+2568+1101=4899, resolviendo cada columna sin llevar ni pedir prestado."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "algoritmo_columnas",
+      "operacion": "suma",
+      "filas": [
+        {
+          "valor": "1234",
+          "signo": "+"
+        },
+        {
+          "valor": "2143",
+          "signo": "+"
+        },
+        {
+          "valor": "3211",
+          "signo": "+"
+        },
+        {
+          "valor": "6588",
+          "esResultado": true
+        }
+      ],
+      "ocultos": [
+        [
+          0
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        []
+      ],
+      "retroalimentacion": "1234 + 2143 + 3211 = 6588: unidades 4+3+1=8, decenas 3+4+1=8, centenas 2+1+2=5, millares 1+2+3=6."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Un almacén recibió 4123 kg de arroz, envió 1012 kg a una tienda y luego 2010 kg a otra. Después recibió 1234 kg más. ¿Cuántos kilogramos tiene ahora?",
+      "opciones": [
+        "2325",
+        "2345",
+        "1101",
+        "2335"
+      ],
+      "respuestaCorrecta": 3,
+      "retroalimentacion": "4123-1012=3111; 3111-2010=1101; 1101+1234=2335. Tres pasos seguidos, ninguno necesita llevar ni pedir prestado."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "5124 + 3241 - 2160 = 6205",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Es verdadero. 5124 + 3241 = 8365; 8365 - 2160 = 6205, sin acarreo en la suma ni préstamo en la resta."
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "id": "OB-28-05",
+  "grado": "Operaciones Básicas",
+  "numero": 221,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Encuentra el error: multiplicación y división — Momento 5/8",
+  "contenido": "Identificación del paso exacto donde una multiplicación o división ya resuelta contiene un error, como forma de reforzar el algoritmo desde la revisión.",
+  "pda": "Identifica errores en algoritmos de multiplicación y división ya resueltos, explicando en qué paso ocurre el error.",
+  "problematizacion": {
+    "contexto": "En la papelería del barrio, el señor Huerta recibe un pedido grande de cuadernos: cierto número de paquetes, cada uno con varias decenas de piezas. Para saber el costo total multiplica precio por cantidad usando multiplicadores de dos cifras, y siempre revisa sus productos parciales antes de cobrar.",
+    "pregunta": "Si la suma final de un pedido no coincide con lo que esperaba el señor Huerta, ¿en qué dos lugares distintos podría estar el error?"
+  },
+  "subtemas": [
+    {
+      "numero": "28.5",
+      "nivelEtiqueta": "Nivel 5 de 8 · Aplicación",
+      "titulo": "Productos parciales: dónde se esconde el error con multiplicadores de dos cifras",
+      "explicacion": "Cuando el multiplicador tiene dos cifras, la multiplicación se resuelve en varios productos parciales (uno por cada cifra del multiplicador) que después se suman. Un error puede estar en cualquiera de los productos parciales, o en la suma final que los junta, así que hay que revisar cada parte por separado. En este momento vas a identificar en cuál de esos pasos ocurrió el error: el primer producto parcial, el segundo, o la suma total.",
+      "formula": "resultado = (número × cifra de unidades del multiplicador) + (número × cifra de decenas del multiplicador)",
+      "ejemplos": [
+        "24 × 13: producto parcial 1 = 24 × 3 = 72; producto parcial 2 = 24 × 10 = 240; suma = 72 + 240 = 312.",
+        "Si alguien escribió 24 × 13 = 302, pero sus productos parciales 72 y 240 están bien, el error está en la suma final (72 + 240 = 312, no 302)."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "34"
+            },
+            {
+              "valor": "26",
+              "signo": "×"
+            },
+            {
+              "valor": "204"
+            },
+            {
+              "valor": "680"
+            },
+            {
+              "valor": "884",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "34 × 26 = 884. El primer producto parcial es 34 × 6 = 204 (falta la cifra de las centenas, 2); el segundo es 34 × 20 = 680 (falta la cifra de las decenas, 8); y su suma da 884 (falta la cifra de las unidades, 4)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Ya resuelto: 42 × 13. Productos parciales: 42 × 3 = 126, 42 × 10 = 410, suma = 536. ¿En qué paso está el error?",
+          "opciones": [
+            "En el primer producto parcial: 42 × 3",
+            "En el segundo producto parcial: 42 × 10",
+            "En la suma de los productos parciales",
+            "No hay ningún error"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "42 × 3 = 126 está bien, pero 42 × 10 = 420, no 410. El resultado correcto de 42 × 13 es 126 + 420 = 546."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En la multiplicación 25 × 38, el producto parcial 25 × 8 = 200 es correcto.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Es correcto: 25 × 8 = 200. El otro producto parcial es 25 × 30 = 750, y la suma total es 950."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En la multiplicación 51 × 22, el segundo producto parcial es 51 × 20 y su valor correcto es ___.",
+          "respuestaCorrecta": "1020",
+          "retroalimentacion": "51 × 20 = 1020. Sumado al primer producto parcial (51 × 2 = 102), el resultado total de 51 × 22 es 1122."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Ya resuelto: 63 × 15 = 855. Los productos parciales fueron 63 × 5 = 315 y 63 × 10 = 630. ¿Dónde está el error?",
+          "opciones": [
+            "No hay error, 855 es el resultado correcto",
+            "El primer producto parcial (315) está mal",
+            "El segundo producto parcial (630) está mal",
+            "Los productos parciales son correctos, pero la suma final debería ser 945"
+          ],
+          "respuestaCorrecta": 3,
+          "retroalimentacion": "63 × 5 = 315 y 63 × 10 = 630 son correctos, pero 315 + 630 = 945, no 855. El error está en la suma final."
+        }
+      ]
+    }
+  ]
+}

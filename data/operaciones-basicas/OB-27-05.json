@@ -1,0 +1,74 @@
+{
+  "id": "OB-27-05",
+  "grado": "Operaciones Básicas",
+  "numero": 213,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Multiplicación y división en la vida cotidiana — Momento 5/8",
+  "contenido": "Multiplicación y división aplicadas a situaciones cotidianas: repartos, precios unitarios, escalas y recetas.",
+  "pda": "Resuelve problemas cotidianos de reparto, precio unitario y proporciones sencillas usando multiplicación y división.",
+  "problematizacion": {
+    "contexto": "El entrenador Beto prepara equipos para un torneo relámpago de voleibol en la unidad deportiva. Tiene un número de jugadores inscritos que no siempre se puede repartir en partes exactamente iguales.",
+    "pregunta": "Si se inscribieron 45 jugadores y cada equipo debe tener 7 integrantes, ¿cuántos equipos completos puede armar el entrenador Beto?"
+  },
+  "subtemas": [
+    {
+      "numero": "27.5",
+      "nivelEtiqueta": "Nivel 5 de 8 · Aplicación",
+      "titulo": "División con residuo: ¿qué hacemos con lo que sobra?",
+      "explicacion": "No todas las divisiones son exactas: a veces, al repartir en partes iguales, sobra una cantidad que ya no alcanza para formar otra parte completa; a eso se le llama residuo o resto. En la vida real hay que decidir qué hacer con ese resto según la situación: a veces solo se informa cuánto sobró, y otras veces hay que redondear hacia arriba (por ejemplo, si sobran personas y se necesita un vehículo más para transportarlas a todas). Identificar si el resto se descarta, se reporta o exige una unidad extra es tan importante como calcular la división misma.",
+      "formula": "dividendo = (cociente × divisor) + residuo",
+      "ejemplos": [
+        "50 lápices entre 8 alumnos: 50 ÷ 8 = 6 lápices para cada quien y sobran 2 (porque 6 × 8 = 48 y 50 − 48 = 2).",
+        "29 personas en camionetas de 6 asientos: caben 4 camionetas llenas (24 personas) y sobran 5, así que se necesita una quinta camioneta."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una maestra tiene 50 lápices y quiere repartirlos entre 8 alumnos por igual. ¿Cuántos lápices completos recibe cada alumno y cuántos sobran?",
+          "opciones": [
+            "6 lápices y sobran 2",
+            "7 lápices y sobra 1",
+            "6 lápices y sobran 4",
+            "8 lápices y sobra 1"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "50 ÷ 8 = 6 con residuo 2, porque 6 × 8 = 48 y 50 − 48 = 2."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "37 tamales se reparten entre 5 amigos, dando el mismo número entero de tamales a cada quien. Sobran ___ tamales.",
+          "respuestaCorrecta": "2",
+          "retroalimentacion": "37 ÷ 5 = 7 con residuo 2, porque 7 × 5 = 35 y 37 − 35 = 2."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si 29 personas se transportan en camionetas de 6 asientos, se necesitan 5 camionetas para que a nadie le falte lugar.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 4 camionetas llevan 24 personas y sobran 5 personas, así que se necesita una quinta camioneta aunque no vaya llena."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una fábrica de galletas empaca 100 galletas en bolsas de 12. ¿Cuántas bolsas completas llena y cuántas galletas le sobran?",
+          "opciones": [
+            "8 bolsas y sobran 4",
+            "9 bolsas y sobran 0",
+            "8 bolsas y sobran 8",
+            "7 bolsas y sobran 16"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "100 ÷ 12 = 8 con residuo 4, porque 8 × 12 = 96 y 100 − 96 = 4."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un entrenador tiene 45 jugadores y arma equipos de 7 integrantes. ¿Cuántos equipos completos puede armar, sin contar a los jugadores que sobran? ___ equipos.",
+          "respuestaCorrecta": "6",
+          "retroalimentacion": "45 ÷ 7 = 6 con residuo 3, así que se arman 6 equipos completos y sobran 3 jugadores."
+        }
+      ]
+    }
+  ]
+}

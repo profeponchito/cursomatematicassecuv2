@@ -1,0 +1,104 @@
+{
+  "id": "OB-14-02",
+  "grado": "Operaciones Básicas",
+  "numero": 106,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Multiplicación de varios dígitos (algoritmo en columna) — Momento 2/8",
+  "contenido": "El algoritmo escrito de la multiplicación cuando ambos factores tienen dos o más cifras, usando productos parciales.",
+  "pda": "Aplica el algoritmo de la multiplicación en columna con factores de dos o más cifras, sumando correctamente los productos parciales.",
+  "problematizacion": {
+    "contexto": "En la papelería escolar cada paquete trae 47 lápices de colores. La maestra Lupita necesita surtir 3 salones distintos y compra un paquete completo para cada uno.",
+    "pregunta": "¿Cuántos lápices de colores compró en total la maestra Lupita?"
+  },
+  "subtemas": [
+    {
+      "numero": "14.2",
+      "nivelEtiqueta": "Nivel 2 de 8 · Básico",
+      "titulo": "Multiplicar por un solo dígito, llevando",
+      "explicacion": "Cuando el producto de una columna es 10 o más, se escribe solo la cifra de las unidades de ese producto y se 'lleva' la cifra de las decenas a la siguiente columna, sumándola al producto siguiente. Es el mismo acarreo que ya conoces de la suma, pero aplicado a los productos de cada columna.",
+      "formula": "si cifra×cifra ≥ 10, escribe la unidad y lleva la decena a la siguiente columna",
+      "ejemplos": [
+        "47×3: unidades 7×3=21, escribe 1 y lleva 2; decenas 4×3=12+2=14 → 47×3=141",
+        "58×6: unidades 8×6=48, escribe 8 y lleva 4; decenas 5×6=30+4=34 → 58×6=348"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado de 56 × 4?",
+          "opciones": [
+            "224",
+            "254",
+            "204",
+            "244"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Unidades 6×4=24, escribe 4 y lleva 2; decenas 5×4=20+2=22 → 224."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "38 × 5 = ___",
+          "respuestaCorrecta": "190",
+          "retroalimentacion": "Unidades 8×5=40, escribe 0 y lleva 4; decenas 3×5=15+4=19 → 190."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "67 × 4 = 268",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Unidades 7×4=28, escribe 8 y lleva 2; decenas 6×4=24+2=26 → 268. Es correcto."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "47"
+            },
+            {
+              "valor": "3",
+              "signo": "×"
+            },
+            {
+              "valor": "141",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "47×3=141: unidades 7×3=21 (escribe 1, lleva 2); decenas 4×3=12+2=14, escribe 4 y lleva 1 a las centenas, quedando 141."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada multiplicación con su resultado correcto.",
+          "columnaA": [
+            "29×3",
+            "64×5",
+            "78×4"
+          ],
+          "columnaB": [
+            "312",
+            "87",
+            "200",
+            "320"
+          ],
+          "parejasCorrectas": [
+            1,
+            3,
+            0
+          ],
+          "retroalimentacion": "29×3=87; 64×5=320; 78×4=312."
+        }
+      ]
+    }
+  ]
+}

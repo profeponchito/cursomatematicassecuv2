@@ -1,0 +1,88 @@
+{
+  "id": "OB-25-07",
+  "grado": "Operaciones Básicas",
+  "numero": 199,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Estimación antes de multiplicar y dividir — Momento 7/8",
+  "contenido": "Estimación del resultado de una multiplicación o división mediante redondeo, para verificar si un cálculo exacto es razonable.",
+  "pda": "Estima el resultado de multiplicaciones y divisiones mediante redondeo y lo usa para verificar la razonabilidad de un cálculo.",
+  "problematizacion": {
+    "contexto": "Un maestro de obra recibió un pedido de 3,215 varillas de acero, que debe repartir en partes iguales entre 7 cuadrillas de trabajo antes de empezar el día.",
+    "pregunta": "Usando un número compatible cercano a 3,215, ¿aproximadamente cuántas varillas le tocarán a cada cuadrilla?"
+  },
+  "subtemas": [
+    {
+      "numero": "25.7",
+      "nivelEtiqueta": "Nivel 7 de 8 · Reto",
+      "titulo": "Elige la mejor estrategia de estimación con números grandes",
+      "explicacion": "Con números grandes (de miles), redondear a la decena ya no sirve de mucho: conviene redondear a la centena o al millar más cercano, según qué tan preciso necesites que sea tu estimación. Redondear a la centena suele dar una estimación más ajustada; redondear al millar es más rápido pero menos preciso. Para divisiones con números grandes, seguimos usando números compatibles, buscando un múltiplo cercano del divisor. En este nivel vas a decidir qué tipo de redondeo o qué número compatible conviene más en cada caso.",
+      "ejemplos": [
+        "Para estimar 2,847 × 6: redondeando a la centena (2800) obtenemos 6 × 2800 = 16800, muy cerca del resultado exacto 17082.",
+        "Para estimar 7,215 ÷ 9: el número compatible más cercano es 7200 (9 × 800 = 7200), así que la estimación es 800."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Para estimar 2847 × 6 redondeando 2847 a la centena más cercana (2800), la estimación es 6 × 2800 = ___.",
+          "opciones": [
+            "16200",
+            "16800",
+            "17400",
+            "18000"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "6 × 2800 = 16800. El resultado exacto de 2847 × 6 es 17082, muy cerca de la estimación."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Para estimar 5,437 ÷ 8, el número compatible más cercano es 5,432 (porque 5432 ÷ 8 = 679 es exacto). Escribe la estimación: 5432 ÷ 8 = ___.",
+          "respuestaCorrecta": "679",
+          "retroalimentacion": "5432 ÷ 8 = 679. El resultado exacto de 5437 ÷ 8 es aproximadamente 679.6, muy cerca de la estimación."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Para estimar 3,912 × 4, Kevin redondeó 3912 al millar más cercano (4000) y obtuvo 4 × 4000 = 16000. El resultado exacto es 15648. Verdadero o falso: la estimación por millar (16000) es más precisa que si hubiera redondeado a la centena más cercana (3900, con 4 × 3900 = 15600).",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso. La diferencia con el millar es de 352 (16000 − 15648), mientras que con la centena es de solo 48 (15600 − 15648): redondear a la centena da una estimación más precisa."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Quieres estimar 7,215 ÷ 9. ¿Cuál número compatible conviene más?",
+          "opciones": [
+            "7200",
+            "7000",
+            "7290",
+            "7100"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "7200 es múltiplo de 9 (9 × 800 = 7200) y es el más cercano a 7215, así que la estimación es 800."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada operación con el resultado de su mejor estimación.",
+          "columnaA": [
+            "6,318 ÷ 7",
+            "4,835 × 3",
+            "9,120 ÷ 8"
+          ],
+          "columnaB": [
+            "1140",
+            "14400",
+            "900",
+            "15000"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "6318÷7 → compatible 6300÷7=900; 4835×3 → redondeo a centena 4800×3=14400; 9120÷8 → ya es exacto, 9120÷8=1140."
+        }
+      ]
+    }
+  ]
+}

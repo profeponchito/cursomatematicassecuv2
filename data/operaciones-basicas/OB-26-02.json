@@ -1,0 +1,74 @@
+{
+  "id": "OB-26-02",
+  "grado": "Operaciones Básicas",
+  "numero": 202,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Múltiplos y factores — Momento 2/8",
+  "contenido": "Identificación de múltiplos y factores de un número, como puente natural entre la multiplicación/división y el álgebra.",
+  "pda": "Identifica múltiplos y factores de un número natural, y los usa para resolver problemas sencillos de divisibilidad.",
+  "problematizacion": {
+    "contexto": "En el taller de manualidades de la escuela, el profesor Iván tiene 20 fichas de cartón y quiere repartirlas en equipos, dando a cada equipo la misma cantidad exacta de fichas, sin que sobre ni falte ninguna.",
+    "pregunta": "¿En cuántos equipos podría repartir el profesor Iván sus 20 fichas sin que sobre ninguna?"
+  },
+  "subtemas": [
+    {
+      "numero": "26.2",
+      "nivelEtiqueta": "Nivel 2 de 8 · Básico",
+      "titulo": "¿Qué es un factor?",
+      "explicacion": "Un factor (también llamado divisor) de un número es aquel que lo divide exactamente, sin dejar residuo. Los factores siempre aparecen en parejas cuyo producto es el número original: por ejemplo, 3 y 4 son factores de 12 porque 3 × 4 = 12. Todo número natural tiene, al menos, dos factores seguros: el 1 y él mismo. Para comprobar si un número es factor de otro, basta con dividir y verificar que el residuo sea 0.",
+      "formula": "d es factor de n si n ÷ d tiene residuo 0",
+      "ejemplos": [
+        "Los factores de 12 son 1, 2, 3, 4, 6 y 12, porque 1×12=12, 2×6=12 y 3×4=12.",
+        "7 es factor de 42 porque 42 ÷ 7 = 6, una división exacta."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de estos números es factor de 20?",
+          "opciones": [
+            "3",
+            "4",
+            "6",
+            "7"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "20 ÷ 4 = 5, una división exacta, así que 4 sí es factor de 20."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "7 es factor de 42.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "42 ÷ 7 = 6 exactamente, por lo tanto 7 es factor de 42."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "5 es factor de 32.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "32 ÷ 5 = 6.4, no es una división exacta, así que 5 no es factor de 32."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si 9 × 6 = 54, entonces 9 y 6 son ___ de 54.",
+          "respuestaCorrecta": "factores",
+          "retroalimentacion": "Cuando dos números se multiplican y dan un tercero, ambos son factores (o divisores) de ese resultado."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuáles son TODOS los factores de 10?",
+          "opciones": [
+            "1, 2, 5, 10",
+            "1, 5, 10",
+            "2, 5, 10",
+            "1, 2, 10"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "10 se divide exactamente entre 1, 2, 5 y 10; esos son todos sus factores."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "OB-15-04",
+  "grado": "Operaciones Básicas",
+  "numero": 116,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Multiplicación por decenas, centenas y potencias de 10 — Momento 4/8",
+  "contenido": "Multiplicación de un número por 10, 100, 1000 y por múltiplos de estas potencias, identificando el patrón de correr el punto/agregar ceros.",
+  "pda": "Multiplica números naturales por potencias de 10 y sus múltiplos, reconociendo el patrón que sigue el resultado.",
+  "problematizacion": {
+    "contexto": "Una empresa de transporte foráneo en Puebla tiene una flotilla de camiones que viajan todos los días entre Puebla y la Ciudad de México. Cada camión hace 10 viajes redondos completos al mes.",
+    "pregunta": "Si en cada viaje suben siempre los mismos 34 pasajeros, ¿aproximadamente cuántos pasajeros transportó ese camión en sus 10 viajes del mes?"
+  },
+  "subtemas": [
+    {
+      "numero": "15.4",
+      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
+      "titulo": "Multiplicar números más grandes por 10, 100 y 1000",
+      "explicacion": "El mismo patrón que ya conoces también funciona con números de tres o más cifras: al multiplicar por 10 se agrega un cero, por 100 se agregan dos ceros y por 1000 se agregan tres ceros, sin importar qué tan grande sea el número original. Es importante fijarte bien en cuántos ceros tiene la potencia de 10 para no equivocarte al agregar los ceros al resultado. Esta habilidad es muy útil para hacer cálculos rápidos con cantidades grandes, como en compras al mayoreo o en cuentas de dinero.",
+      "formula": "número grande × 10ⁿ = número grande con n ceros agregados a la derecha",
+      "ejemplos": [
+        "125 × 10: se agrega un cero, entonces 125 × 10 = 1250.",
+        "58 × 1000: se agregan tres ceros, entonces 58 × 1000 = 58000."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "125 × 10 = ?",
+          "opciones": [
+            "1250",
+            "12500",
+            "125",
+            "1025"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "125 × 10 = 1250, se agrega un cero."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "340 × 100 = ___.",
+          "respuestaCorrecta": "34000",
+          "retroalimentacion": "340 × 100 = 34000, se agregan dos ceros."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "58 × 1000 = 5800",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Es falso: 58 × 1000 = 58000, se agregan tres ceros, no dos."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "900 × 10 = ?",
+          "opciones": [
+            "9000",
+            "900",
+            "90000",
+            "9900"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "900 × 10 = 9000, se agrega un cero."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "00275"
+            },
+            {
+              "valor": "00100",
+              "signo": "×"
+            },
+            {
+              "valor": "27500",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [
+              1
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "275 × 100 = 27500: se agregan dos ceros al 275, porque 100 tiene dos ceros."
+        }
+      ]
+    }
+  ]
+}

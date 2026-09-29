@@ -1,0 +1,116 @@
+{
+  "id": "OB-19-07",
+  "grado": "Operaciones Básicas",
+  "numero": 151,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "División exacta de naturales (algoritmo en columna) — Momento 7/8",
+  "contenido": "El algoritmo escrito de la división de naturales cuando el residuo final es cero.",
+  "pda": "Aplica el algoritmo de la división larga con números naturales en casos donde la división es exacta.",
+  "problematizacion": {
+    "contexto": "El campesino Anselmo cosechó 4671 kilogramos de maíz y los repartió en costales de 27 kilogramos cada uno para llevarlos al mercado del pueblo.",
+    "pregunta": "¿Cómo puede Anselmo comprobar, usando una multiplicación, si el número de costales que calculó fue el correcto?"
+  },
+  "subtemas": [
+    {
+      "numero": "19.7",
+      "nivelEtiqueta": "Nivel 7 de 8 · Reto",
+      "titulo": "Comprobar la división exacta con la multiplicación",
+      "explicacion": "La forma más segura de saber si una división es exacta es comprobarla: multiplicas el cociente que obtuviste por el divisor y, si el resultado es igual al dividendo original, la división fue exacta y está bien hecha. Este paso es especialmente útil con números grandes y divisores de dos cifras, donde es fácil equivocarse en alguna resta del algoritmo. Comprobar tu trabajo es parte de resolver bien un problema, no un paso opcional.",
+      "formula": "Si cociente × divisor = dividendo, la división es exacta y está bien hecha.",
+      "ejemplos": [
+        "Si el cociente de 4671 ÷ 27 es 173, lo compruebas así: 173 × 27 = 4671. Como coincide con el dividendo, la división es correcta y exacta.",
+        "Si al multiplicar 108 × 39 obtienes 4212 y ese era el dividendo original, entonces 4212 ÷ 39 = 108 es una división exacta."
+      ],
+      "puntosPorReactivo": 25,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El cociente de 4671 ÷ 27 se comprobó así: 173 × 27 = 4671. ¿Qué significa este resultado?",
+          "opciones": [
+            "Que la división es exacta, porque el producto coincide con el dividendo",
+            "Que sobra un residuo de 27",
+            "Que la división no se puede comprobar",
+            "Que el divisor está mal escrito"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Correcto: como 173 × 27 = 4671 coincide exactamente con el dividendo, la división 4671 ÷ 27 = 173 es exacta."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Alguien comprobó que 4212 ÷ 39 = 108 multiplicando 108 × 39 y obtuvo 4212, así que la comprobación confirma que la división es exacta.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Verdadero. 108 × 39 = 4212, el producto coincide con el dividendo, así que la comprobación es correcta."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si 156 × 24 = 3744, entonces 3744 ÷ 24 = ___.",
+          "respuestaCorrecta": "156",
+          "retroalimentacion": "Como 156 × 24 = 3744, la división 3744 ÷ 24 tiene que dar 156 exacto."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "219"
+            },
+            {
+              "valor": "34",
+              "signo": "×"
+            },
+            {
+              "valor": "876"
+            },
+            {
+              "valor": "6570"
+            },
+            {
+              "valor": "7446",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              1
+            ],
+            [
+              0
+            ],
+            []
+          ],
+          "retroalimentacion": "Esto verifica que 7446 ÷ 34 = 219, porque 219 × 34 = 7446 (219×4=876 y 219×30=6570, que sumados dan 7446)."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada división con su cociente correcto (hay una opción de más que no se usa).",
+          "columnaA": [
+            "2924 ÷ 68",
+            "1938 ÷ 19",
+            "5185 ÷ 61"
+          ],
+          "columnaB": [
+            "102",
+            "85",
+            "120",
+            "43"
+          ],
+          "parejasCorrectas": [
+            3,
+            0,
+            1
+          ],
+          "retroalimentacion": "2924 ÷ 68 = 43, 1938 ÷ 19 = 102 (cociente con cero en las decenas) y 5185 ÷ 61 = 85. El 120 no corresponde a ninguna."
+        }
+      ]
+    }
+  ]
+}

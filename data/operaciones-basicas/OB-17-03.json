@@ -1,0 +1,74 @@
+{
+  "id": "OB-17-03",
+  "grado": "Operaciones Básicas",
+  "numero": 131,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Multiplicación de fracciones — Momento 3/8",
+  "contenido": "Multiplicación de fracciones, multiplicando numeradores entre sí y denominadores entre sí, simplificando el resultado.",
+  "pda": "Multiplica fracciones y simplifica el resultado a su expresión más simple.",
+  "problematizacion": {
+    "contexto": "El equipo de fútbol de la secundaria entrena todos los días. Su entrenador, el profe Nayarit, indicó que cada jugador debe tomar 2/3 de litro de agua por cada uno de los 4 tiempos de entrenamiento que tienen hoy, para no deshidratarse con el calor.",
+    "pregunta": "¿Qué operación permite calcular cuántos litros de agua tomará cada jugador en total durante los 4 tiempos?"
+  },
+  "subtemas": [
+    {
+      "numero": "17.3",
+      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
+      "titulo": "Fracción por número entero",
+      "explicacion": "Cuando multiplicas una fracción por un número entero, puedes escribir el entero como una fracción con denominador 1 (por ejemplo, 4 = 4/1) y multiplicar igual que siempre: numerador por numerador, denominador por denominador. Como el denominador del entero es 1, en realidad solo multiplicas el numerador de la fracción por ese número entero, y el denominador se queda igual. Al final, recuerda simplificar si es posible; a veces el resultado incluso se convierte en un entero exacto.",
+      "formula": "a/b × c = (a×c)/b",
+      "ejemplos": [
+        "3/4 × 6 = 3/4 × 6/1 = 18/4 = 9/2",
+        "1/3 × 6 = 1/3 × 6/1 = 6/3 = 2"
+      ],
+      "puntosPorReactivo": 15,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "2/3 × 4 = ?",
+          "opciones": [
+            "6/3",
+            "8/3",
+            "8/7",
+            "2/12"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Escribes 4 como 4/1: 2/3 × 4/1 = 8/3. El numerador 3 y el 1 del denominador no comparten más divisores, así que 8/3 ya es el resultado."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "3/5 × 2 = ?",
+          "opciones": [
+            "6/5",
+            "5/3",
+            "3/10",
+            "6/10"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "3/5 × 2/1 = 6/5. El numerador 6 y el denominador 5 no tienen divisores en común, así que 6/5 ya es el resultado."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "5/6 × 3 es lo mismo que 5/6 × 3/1, y su resultado simplificado es 5/2.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "5×3=15 y 6×1=6, entonces 15/6; dividiendo entre 3 se simplifica a 5/2."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "2/7 × 7 = ___ (da un número entero exacto)",
+          "respuestaCorrecta": "2",
+          "retroalimentacion": "2/7 × 7/1 = 14/7, y 14 entre 7 es exactamente 2. El 7 del denominador y el 7 del entero se \"cancelan\"."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Al multiplicar cualquier fracción propia por un número entero, el resultado siempre es menor que ese número entero.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Como la fracción es menor que 1 (propia), al multiplicarla por el entero el resultado siempre queda por debajo del entero original; por ejemplo 3/4 × 6 = 4.5, que es menor que 6."
+        }
+      ]
+    }
+  ]
+}

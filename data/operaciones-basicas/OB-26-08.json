@@ -1,0 +1,105 @@
+{
+  "id": "OB-26-08",
+  "grado": "Operaciones Básicas",
+  "numero": 208,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Múltiplos y factores — Momento 8/8",
+  "contenido": "Identificación de múltiplos y factores de un número, como puente natural entre la multiplicación/división y el álgebra.",
+  "pda": "Identifica múltiplos y factores de un número natural, y los usa para resolver problemas sencillos de divisibilidad.",
+  "problematizacion": {
+    "contexto": "En la feria del pueblo, la tienda de la señora Carmela recibe un pedido de refrescos y de bolsas de frituras para revender en paquetes especiales, mientras que en la plaza principal dos juegos mecánicos encienden sus luces con distinto ritmo cada noche.",
+    "pregunta": "¿Qué tipo de cálculo (repartir en partes iguales o encontrar cuándo coinciden ciclos) usarías para cada una de esas dos situaciones de la feria?"
+  },
+  "subtemas": [
+    {
+      "numero": "26.8",
+      "nivelEtiqueta": "Nivel 8 de 8 · Integración",
+      "titulo": "Resolviendo problemas de divisibilidad",
+      "explicacion": "Con múltiplos, factores, mcm y MCD ya puedes resolver problemas reales de divisibilidad. Cuando quieras repartir cosas distintas en la mayor cantidad de grupos iguales, usa el MCD. Cuando quieras saber cada cuándo coinciden eventos que se repiten en ciclos diferentes, usa el mcm. Y cuando necesites decidir si una cantidad se puede acomodar exactamente en cierto tamaño de paquete, revisa si es múltiplo (o si el paquete es factor) de esa cantidad. Identificar qué pregunta el problema es la clave para elegir la herramienta correcta.",
+      "ejemplos": [
+        "Repartir 24 plumones y 36 hojas en el mayor número de paquetes iguales: se usa el MCD(24,36) = 12, así que se pueden armar 12 paquetes.",
+        "Dos alarmas suenan cada 15 y cada 20 minutos: para saber cuándo vuelven a coincidir se usa el mcm(15,20) = 60 minutos."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una maestra tiene 24 lápices y 36 borradores y quiere hacer paquetes idénticos sin que sobre nada, usando la mayor cantidad de paquetes posible. ¿Cuántos paquetes puede hacer?",
+          "opciones": [
+            "6",
+            "8",
+            "12",
+            "18"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "El MCD de 24 y 36 es 12: se pueden armar 12 paquetes, cada uno con 2 lápices y 3 borradores."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Dos autobuses salen de la central: uno cada 15 minutos y otro cada 20 minutos. Si ambos salen juntos a las 7:00 a. m., ¿después de cuántos minutos volverán a salir juntos?",
+          "opciones": [
+            "35",
+            "45",
+            "60",
+            "75"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "El mcm de 15 y 20 es 60: volverán a coincidir 60 minutos después, es decir, a las 8:00 a. m."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si un número es múltiplo de 9, entonces también es múltiplo de 3.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Como 9 = 3 × 3, todo múltiplo de 9 se puede reagrupar como múltiplo de 3 también."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un panadero empaqueta 18 panes en bolsas iguales, sin que sobre ninguno. Si usa bolsas de 6 panes, necesita ___ bolsas.",
+          "respuestaCorrecta": "3",
+          "retroalimentacion": "18 ÷ 6 = 3 bolsas exactas."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de las siguientes afirmaciones sobre el número 45 es correcta?",
+          "opciones": [
+            "Es primo",
+            "Es múltiplo de 5 y de 9",
+            "No tiene el factor 3",
+            "Es divisible entre 2"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "45 = 5 × 9, así que es múltiplo de ambos números a la vez; además es compuesto, tiene el factor 3 y no es divisible entre 2."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "En un torneo, un silbato suena cada 8 minutos y otro cada 12 minutos. Si sonaron juntos al iniciar, ¿cada cuántos minutos vuelven a sonar juntos?",
+      "opciones": [
+        "16",
+        "20",
+        "24",
+        "96"
+      ],
+      "respuestaCorrecta": 2,
+      "retroalimentacion": "El mcm de 8 y 12 es 24: ambos silbatos vuelven a coincidir cada 24 minutos."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Se quieren repartir 48 chocolates y 60 caramelos en bolsas iguales, con la mayor cantidad de bolsas posible sin que sobre nada. Se pueden armar ___ bolsas.",
+      "respuestaCorrecta": "12",
+      "retroalimentacion": "El MCD de 48 y 60 es 12: se arman 12 bolsas, cada una con 4 chocolates y 5 caramelos."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "El número 84 es divisible entre 2, 3 y 7 al mismo tiempo.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "84 ÷ 2 = 42, 84 ÷ 3 = 28 y 84 ÷ 7 = 12; las tres divisiones son exactas."
+    }
+  ]
+}

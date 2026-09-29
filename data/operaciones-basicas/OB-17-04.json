@@ -1,0 +1,74 @@
+{
+  "id": "OB-17-04",
+  "grado": "Operaciones Básicas",
+  "numero": 132,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Multiplicación de fracciones — Momento 4/8",
+  "contenido": "Multiplicación de fracciones, multiplicando numeradores entre sí y denominadores entre sí, simplificando el resultado.",
+  "pda": "Multiplica fracciones y simplifica el resultado a su expresión más simple.",
+  "problematizacion": {
+    "contexto": "Un camión de transporte urbano recorre normalmente 5/4 de la ruta completa cuando hace su vuelta extendida hasta la terminal. El chofer, don Casimiro, quiere calcular qué fracción de la ruta cubre si además avanza solo 3/4 de esa vuelta extendida por un desvío.",
+    "pregunta": "¿Qué multiplicación de fracciones representa la distancia que recorrió don Casimiro con el desvío?"
+  },
+  "subtemas": [
+    {
+      "numero": "17.4",
+      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
+      "titulo": "Multiplicar por una fracción mayor que 1",
+      "explicacion": "Hasta ahora multiplicabas dos fracciones propias (menores que 1). En este momento, una de las dos fracciones es impropia, es decir, su numerador es mayor que su denominador (como 5/4 o 7/5), lo que significa que representa un valor mayor que 1. El procedimiento no cambia: sigues multiplicando numeradores entre sí y denominadores entre sí, y simplificas al final si se puede. Lo nuevo es que el resultado puede quedar como fracción impropia, y eso es perfectamente válido, aunque en el siguiente momento aprenderás a convertirlo a número mixto.",
+      "formula": "a/b × c/d = (a×c)/(b×d), aunque c/d sea mayor que 1",
+      "ejemplos": [
+        "3/8 × 5/2 = (3×5)/(8×2) = 15/16",
+        "2/3 × 5/4 = (2×5)/(3×4) = 10/12 = 5/6"
+      ],
+      "puntosPorReactivo": 15,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "3/4 × 7/5 = ?",
+          "opciones": [
+            "20/9",
+            "21/20",
+            "10/9",
+            "21/9"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "3×7=21 y 4×5=20, entonces 21/20. El numerador 21 y el denominador 20 no comparten divisores, así que 21/20 ya es el resultado (una fracción impropia, mayor que 1)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "5/6 × 4/3 = ?",
+          "opciones": [
+            "10/9",
+            "9/18",
+            "20/18",
+            "4/9"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "5×4=20 y 6×3=18, entonces 20/18; dividiendo entre 2 se simplifica a 10/9."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "2/5 × 9/4 da como resultado 9/10, que es menor que 1 aunque 9/4 sea una fracción impropia.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "2×9=18 y 5×4=20, entonces 18/20 = 9/10 simplificado. Aunque uno de los factores sea mayor que 1, el resultado puede seguir siendo menor que 1 si el otro factor es lo bastante pequeño."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "4/7 × 3/2 ya simplificado es ___",
+          "respuestaCorrecta": "6/7",
+          "retroalimentacion": "4×3=12 y 7×2=14, entonces 12/14; dividiendo entre 2 se simplifica a 6/7."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Cuando multiplicas una fracción propia por una fracción impropia, el resultado siempre es mayor que 1.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Depende de qué tan grande sea cada factor. Por ejemplo, en el primer ejemplo de este momento, 3/8 × 5/2 = 15/16, que es menor que 1, aunque 5/2 sea impropia."
+        }
+      ]
+    }
+  ]
+}

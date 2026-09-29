@@ -1,0 +1,73 @@
+{
+  "id": "OB-26-07",
+  "grado": "Operaciones Básicas",
+  "numero": 207,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Múltiplos y factores — Momento 7/8",
+  "contenido": "Identificación de múltiplos y factores de un número, como puente natural entre la multiplicación/división y el álgebra.",
+  "pda": "Identifica múltiplos y factores de un número natural, y los usa para resolver problemas sencillos de divisibilidad.",
+  "problematizacion": {
+    "contexto": "Ximena ahorra en dos alcancías distintas: en una lleva 20 monedas de un peso y en otra 30 monedas de cinco pesos. Quiere repartir todas sus monedas entre varios sobres, con la misma cantidad exacta de monedas de cada tipo en cada sobre, usando la mayor cantidad de sobres posible.",
+    "pregunta": "¿Qué debe encontrar Ximena entre el 20 y el 30 para saber en cuántos sobres puede repartir sus monedas?"
+  },
+  "subtemas": [
+    {
+      "numero": "26.7",
+      "nivelEtiqueta": "Nivel 7 de 8 · Reto",
+      "titulo": "Factores comunes y máximo común divisor",
+      "explicacion": "Los factores comunes de dos números son aquellos que aparecen en la lista de factores de ambos al mismo tiempo. El máximo común divisor (MCD) es el más grande de esos factores comunes. Para encontrarlo, se listan todos los factores de cada número y se identifica el mayor que se repite en ambas listas. El MCD sirve, por ejemplo, para repartir objetos distintos en el mayor número posible de grupos iguales.",
+      "formula": "MCD(a,b) = el mayor número que es factor de a y de b a la vez",
+      "ejemplos": [
+        "Factores de 12: 1,2,3,4,6,12. Factores de 18: 1,2,3,6,9,18. Comunes: 1,2,3,6. El MCD es 6."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "llenar_frase",
+          "frase": "El máximo común divisor de 12 y 18 es ___.",
+          "respuestaCorrecta": "6",
+          "retroalimentacion": "Los factores comunes de 12 y 18 son 1,2,3,6; el mayor es 6."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el MCD de 20 y 30?",
+          "opciones": [
+            "5",
+            "10",
+            "15",
+            "20"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Los factores comunes de 20 y 30 incluyen 1,2,5,10; el mayor de todos es 10."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El MCD de 9 y 16 es 1 (son primos entre sí).",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "9 y 16 no comparten ningún factor además del 1, así que su MCD es 1."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuáles son los factores comunes de 16 y 24?",
+          "opciones": [
+            "1, 2, 4, 8",
+            "1, 2, 4",
+            "1, 4, 8",
+            "2, 4, 8, 16"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Factores de 16: 1,2,4,8,16. Factores de 24: 1,2,3,4,6,8,12,24. Los comunes son 1,2,4,8."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El MCD de 15 y 25 es ___.",
+          "respuestaCorrecta": "5",
+          "retroalimentacion": "Los factores comunes de 15 y 25 son 1 y 5; el mayor es 5."
+        }
+      ]
+    }
+  ]
+}

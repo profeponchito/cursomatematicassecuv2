@@ -1,0 +1,74 @@
+{
+  "id": "OB-31-04",
+  "grado": "Operaciones Básicas",
+  "numero": 244,
+  "categoria": "potencias_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Potencias de base decimal — Momento 4/8",
+  "contenido": "Cálculo de potencias cuya base es un número decimal.",
+  "pda": "Calcula potencias de base decimal, relacionando el procedimiento con la multiplicación de decimales.",
+  "problematizacion": {
+    "contexto": "En una cancha de básquetbol de Monterrey, el entrenador quiere delimitar con cinta adhesiva un área cuadrada de calentamiento para su equipo. El plano indica que el lado del cuadrado debe medir 0.15 metros a escala en el dibujo.",
+    "pregunta": "¿Cuál sería el área a escala de ese cuadrado según el plano del entrenador?"
+  },
+  "subtemas": [
+    {
+      "numero": "31.4",
+      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
+      "titulo": "Potencias de decimales con dos cifras",
+      "explicacion": "El siguiente peldaño es trabajar con decimales que tienen dos cifras después del punto, como 0.12 o 0.25. La regla no cambia: se multiplica la base por sí misma, pero ahora hay que tener más cuidado al contar las cifras decimales del resultado. Si la base tiene 2 cifras decimales y el exponente es 2, el resultado tendrá 2 + 2 = 4 cifras decimales, porque cada factor aporta sus propias cifras decimales a la multiplicación.",
+      "formula": "cifras decimales del resultado = (cifras decimales de la base) × (exponente)",
+      "ejemplos": [
+        "0.12² = 0.12 × 0.12 = 0.0144 (2 + 2 = 4 cifras decimales)",
+        "0.25² = 0.25 × 0.25 = 0.0625"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "0.12² = ?",
+          "opciones": [
+            "0.0144",
+            "0.144",
+            "0.024",
+            "0.0024"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "0.12 × 0.12 = 0.0144."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "0.25² = ___",
+          "respuestaCorrecta": "0.0625",
+          "retroalimentacion": "0.25 × 0.25 = 0.0625."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "0.15² es igual a 0.225.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso. 0.15 × 0.15 = 0.0225, no 0.225. Cuidado con el lugar del punto decimal."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuántas cifras decimales tendrá el resultado de 0.11²?",
+          "opciones": [
+            "2",
+            "4",
+            "3",
+            "1"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "0.11 tiene 2 cifras decimales; al elevarlo al cuadrado se suman: 2 + 2 = 4 cifras decimales (0.0121)."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "0.14² = ___",
+          "respuestaCorrecta": "0.0196",
+          "retroalimentacion": "0.14 × 0.14 = 0.0196."
+        }
+      ]
+    }
+  ]
+}

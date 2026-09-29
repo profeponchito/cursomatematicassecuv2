@@ -1,0 +1,108 @@
+{
+  "id": "OB-19-03",
+  "grado": "Operaciones Básicas",
+  "numero": 147,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "División exacta de naturales (algoritmo en columna) — Momento 3/8",
+  "contenido": "El algoritmo escrito de la división de naturales cuando el residuo final es cero.",
+  "pda": "Aplica el algoritmo de la división larga con números naturales en casos donde la división es exacta.",
+  "problematizacion": {
+    "contexto": "Don Refugio maneja un camión foráneo y en una semana vendió 936 boletos, la misma cantidad cada uno de los 8 días que trabajó.",
+    "pregunta": "¿Cuántos boletos vendió Don Refugio cada día, usando el algoritmo de la división en columna?"
+  },
+  "subtemas": [
+    {
+      "numero": "19.3",
+      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
+      "titulo": "Algoritmo en columna: 3 cifras entre 1 cifra",
+      "explicacion": "Para dividir un número de tres cifras entre un número de una cifra, el algoritmo en columna se hace bajando las cifras del dividendo una por una, de izquierda a derecha. En cada paso divides, multiplicas, restas y bajas la siguiente cifra, hasta que ya no queden cifras por bajar. Si al final el residuo es 0, la división es exacta. Puedes comprobar tu resultado multiplicando el cociente por el divisor: debe darte de nuevo el dividendo.",
+      "formula": "cociente × divisor = dividendo (comprobación)",
+      "ejemplos": [
+        "936 ÷ 8: 9 entre 8 da 1 (sobra 1); bajas el 3 y formas 13, entre 8 da 1 (sobra 5); bajas el 6 y formas 56, entre 8 da 7 exacto. Cociente: 117.",
+        "672 ÷ 6: 6 entre 6 da 1; bajas el 7, entre 6 da 1 (sobra 1); bajas el 2 y formas 12, entre 6 da 2 exacto. Cociente: 112."
+      ],
+      "puntosPorReactivo": 15,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Al dividir 936 ÷ 8 con el algoritmo en columna, ¿cuál es el cociente?",
+          "opciones": [
+            "107",
+            "117",
+            "127",
+            "113"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "936 ÷ 8 = 117, porque 117 × 8 = 936."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "672 ÷ 6 = ___",
+          "respuestaCorrecta": "112",
+          "retroalimentacion": "672 ÷ 6 = 112, porque 112 × 6 = 672."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En la división 848 ÷ 4, el cociente es 212.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Verdadero. 212 × 4 = 848, la división es exacta."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "145"
+            },
+            {
+              "valor": "3",
+              "signo": "×"
+            },
+            {
+              "valor": "435",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "Esto verifica que 435 ÷ 3 = 145, porque 145 × 3 = 435."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada división de 3 cifras entre 1 cifra con su cociente.",
+          "columnaA": [
+            "824 ÷ 8",
+            "963 ÷ 9",
+            "728 ÷ 8",
+            "846 ÷ 6"
+          ],
+          "columnaB": [
+            "107",
+            "91",
+            "141",
+            "103"
+          ],
+          "parejasCorrectas": [
+            3,
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "824 ÷ 8 = 103, 963 ÷ 9 = 107, 728 ÷ 8 = 91 y 846 ÷ 6 = 141."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "OB-33-03",
+  "grado": "Operaciones Básicas",
+  "numero": 259,
+  "categoria": "potencias_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Potencias con signo (exponente par e impar) — Momento 3/8",
+  "contenido": "Potencias de una base negativa, distinguiendo el signo del resultado según si el exponente es par o impar.",
+  "pda": "Calcula potencias de base negativa, determinando el signo del resultado según la paridad del exponente.",
+  "problematizacion": {
+    "contexto": "En el torneo de voleibol de la escuela, el entrenador Ramírez usa un sistema de puntos especiales: cada ronda extra multiplica el marcador acumulado por -2. Los jugadores quieren saber, antes de que termine el partido, si van a terminar con marcador positivo o negativo.",
+    "pregunta": "Si el partido tiene un número impar de rondas extra, ¿el marcador final será positivo o negativo?"
+  },
+  "subtemas": [
+    {
+      "numero": "33.3",
+      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
+      "titulo": "La regla del signo según la paridad del exponente",
+      "explicacion": "Después de calcular varias potencias de base negativa, ya puedes notar el patrón: si el exponente es par, el resultado es positivo; si el exponente es impar, el resultado es negativo. Esto ocurre porque los signos negativos se van cancelando de dos en dos: cada par de factores negativos multiplicados da un factor positivo, y si sobra uno sin pareja, el resultado final queda negativo.",
+      "formula": "Si n es par: (-a)^n > 0.  Si n es impar: (-a)^n < 0.",
+      "ejemplos": [
+        "(-3)^4 = 81 (el exponente 4 es par → resultado positivo)",
+        "(-5)^3 = -125 (el exponente 3 es impar → resultado negativo)"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si el exponente de una base negativa es par, el resultado siempre es positivo.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: con exponente par, los signos negativos se cancelan por completo."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es (-3)^4?",
+          "opciones": [
+            "-81",
+            "81",
+            "-12",
+            "12"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "(-3)^4 = 81, positivo porque 4 es par."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "(-2)^6 = ___",
+          "respuestaCorrecta": "64",
+          "retroalimentacion": "(-2)^6 = 64, positivo porque 6 es par."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada potencia con su resultado.",
+          "columnaA": [
+            "(-5)^3",
+            "(-1)^7",
+            "(-2)^7",
+            "(-4)^4"
+          ],
+          "columnaB": [
+            "-1",
+            "-125",
+            "256",
+            "-128",
+            "1"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            3,
+            2
+          ],
+          "retroalimentacion": "(-5)^3=-125, (-1)^7=-1, (-2)^7=-128 y (-4)^4=256."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de estos exponentes hace que (-2) elevado a esa potencia dé un resultado NEGATIVO?",
+          "opciones": [
+            "2",
+            "4",
+            "6",
+            "7"
+          ],
+          "respuestaCorrecta": 3,
+          "retroalimentacion": "7 es impar, así que (-2)^7 es negativo. Los exponentes 2, 4 y 6 son pares."
+        }
+      ]
+    }
+  ]
+}

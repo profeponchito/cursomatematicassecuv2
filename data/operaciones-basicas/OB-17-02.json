@@ -1,0 +1,89 @@
+{
+  "id": "OB-17-02",
+  "grado": "Operaciones Básicas",
+  "numero": 130,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Multiplicación de fracciones — Momento 2/8",
+  "contenido": "Multiplicación de fracciones, multiplicando numeradores entre sí y denominadores entre sí, simplificando el resultado.",
+  "pda": "Multiplica fracciones y simplifica el resultado a su expresión más simple.",
+  "problematizacion": {
+    "contexto": "Don Efraín vende fruta en su puesto del mercado sobre ruedas. Le quedan 3/4 de una caja de mangos, y hoy vendió 2/3 de lo que le quedaba a una señora que preparaba ensalada de frutas para una posada.",
+    "pregunta": "¿Qué fracción de la caja original de mangos vendió don Efraín a la señora?"
+  },
+  "subtemas": [
+    {
+      "numero": "17.2",
+      "nivelEtiqueta": "Nivel 2 de 8 · Básico",
+      "titulo": "Simplifica el resultado",
+      "explicacion": "Ya sabes multiplicar numeradores entre sí y denominadores entre sí. Ahora vas a notar que, muchas veces, el resultado NO queda en su mínima expresión: numerador y denominador comparten un divisor común. Para simplificar, divides ambos entre su máximo común divisor (MCD) hasta que ya no se pueda reducir más. Siempre revisa tu resultado final: si numerador y denominador todavía tienen un factor en común, falta un paso.",
+      "formula": "a/b × c/d = (a×c)/(b×d), luego divide numerador y denominador entre su MCD",
+      "ejemplos": [
+        "4/5 × 5/8 = 20/40 = 1/2 (se dividió entre 20)",
+        "6/8 × 2/3 = 12/24 = 1/2 (se dividió entre 12)"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "2/3 × 3/4 = ?",
+          "opciones": [
+            "6/12",
+            "1/2",
+            "5/7",
+            "3/4"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "2×3=6 y 3×4=12, entonces 6/12; como 6 y 12 se dividen entre 6, queda simplificado en 1/2."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "3/4 × 2/9 = ?",
+          "opciones": [
+            "1/6",
+            "5/13",
+            "6/36",
+            "2/3"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "3×2=6 y 4×9=36, es decir 6/36; dividiendo entre 6 se simplifica a 1/6."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Al multiplicar 5/6 × 3/10 se obtiene 15/60, que simplificado a su mínima expresión es 1/4.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "5×3=15 y 6×10=60; 15/60 se puede dividir entre 15, y el resultado simplificado es 1/4."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "4/9 × 3/8 ya simplificado es ___",
+          "respuestaCorrecta": "1/6",
+          "retroalimentacion": "4×3=12 y 9×8=72, entonces 12/72; dividiendo entre 12 se llega a 1/6."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada multiplicación con su resultado YA simplificado.",
+          "columnaA": [
+            "3/8 × 4/9",
+            "5/12 × 4/5",
+            "2/9 × 3/8"
+          ],
+          "columnaB": [
+            "1/6",
+            "1/3",
+            "1/12",
+            "2/5"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "3/8×4/9=12/72=1/6 · 5/12×4/5=20/60=1/3 · 2/9×3/8=6/72=1/12. Siempre revisa si el resultado se puede reducir más."
+        }
+      ]
+    }
+  ]
+}

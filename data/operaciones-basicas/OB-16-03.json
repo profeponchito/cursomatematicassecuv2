@@ -1,0 +1,104 @@
+{
+  "id": "OB-16-03",
+  "grado": "Operaciones Básicas",
+  "numero": 123,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Multiplicación de decimales — Momento 3/8",
+  "contenido": "Multiplicación de números decimales, calculando el producto como si fueran enteros y colocando el punto según el total de cifras decimales.",
+  "pda": "Multiplica números decimales, determinando correctamente la posición del punto decimal en el resultado.",
+  "problematizacion": {
+    "contexto": "En el entrenamiento de atletismo de la secundaria, la entrenadora Beatriz mide que Karina recorre 4.25 kilómetros en cada sesión de resistencia y esta semana entrenó 6 veces.",
+    "pregunta": "¿Aproximadamente cuántos kilómetros recorrió Karina esta semana en total?"
+  },
+  "subtemas": [
+    {
+      "numero": "16.3",
+      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
+      "titulo": "Decimales con dos cifras después del punto",
+      "explicacion": "Cuando el número decimal tiene dos cifras después del punto, el procedimiento es el mismo: multiplica como si fueran enteros, ignorando el punto, y después cuenta las cifras decimales del factor decimal para colocar el punto en el resultado. Como ahora hay dos cifras decimales en el factor, el resultado también llevará dos cifras decimales contadas desde la derecha. Ten cuidado de no perder ningún dígito al pasar el número completo a la multiplicación.",
+      "formula": "decimal con 2 cifras decimales × entero: multiplica como enteros y separa 2 cifras decimales en el resultado.",
+      "ejemplos": [
+        "4.25 × 6: 425 × 6 = 2550; como 4.25 tiene 2 cifras decimales, el resultado es 25.50.",
+        "3.12 × 4: 312 × 4 = 1248; como 3.12 tiene 2 cifras decimales, el resultado es 12.48."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 4.25 × 6?",
+          "opciones": [
+            "24.50",
+            "25.50",
+            "25.05",
+            "26.50"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "425 × 6 = 2550; con dos cifras decimales, el resultado es 25.50."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "3.12 × 4 = 12.48",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "312 × 4 = 1248; con dos cifras decimales, el resultado correcto es 12.48."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "2.15 × 3 = ___",
+          "respuestaCorrecta": "6.45",
+          "retroalimentacion": "215 × 3 = 645; con dos cifras decimales, el resultado es 6.45."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "1.24"
+            },
+            {
+              "valor": "4",
+              "signo": "×"
+            },
+            {
+              "valor": "4.96",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "124 × 4 = 496; con dos cifras decimales en 1.24, el resultado es 4.96."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada multiplicación con su resultado.",
+          "columnaA": [
+            "2.34 × 5",
+            "1.08 × 7",
+            "3.45 × 2"
+          ],
+          "columnaB": [
+            "11.70",
+            "7.56",
+            "6.90",
+            "9.24"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "2.34×5=11.70, 1.08×7=7.56 y 3.45×2=6.90; todos conservan dos cifras decimales."
+        }
+      ]
+    }
+  ]
+}

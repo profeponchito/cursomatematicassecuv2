@@ -1,0 +1,74 @@
+{
+  "id": "OB-18-01",
+  "grado": "Operaciones Básicas",
+  "numero": 137,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Multiplicación de números con signo — Momento 1/8",
+  "contenido": "Multiplicación de números enteros con signo, aplicando la regla de signos (positivo × positivo, positivo × negativo, negativo × negativo).",
+  "pda": "Multiplica números enteros con signo aplicando correctamente la regla de los signos.",
+  "problematizacion": {
+    "contexto": "Doña Refugio vende mangos en su puesto del mercado de Toluca. Cada caja que vende le representa una ganancia (número positivo) y cada caja que se le echa a perder le representa una pérdida (número negativo). Ella quiere entender rápido si, al repetir varias veces una ganancia o una pérdida, el resultado total crece o baja.",
+    "pregunta": "Si Doña Refugio pierde dinero varias veces seguidas por cajas echadas a perder, ¿el resultado total sube o baja?"
+  },
+  "subtemas": [
+    {
+      "numero": "18.1",
+      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
+      "titulo": "La regla de los signos al multiplicar",
+      "explicacion": "Cuando multiplicas dos números con signo, primero decides el signo del resultado y después multiplicas los valores como si fueran positivos. Si los dos factores tienen el MISMO signo (ambos positivos o ambos negativos), el resultado es positivo. Si los factores tienen signos DIFERENTES (uno positivo y otro negativo), el resultado es negativo. Esta regla funciona siempre, sin importar qué tan grandes sean los números.",
+      "formula": "(+)×(+) = +   (-)×(-) = +   (+)×(-) = -   (-)×(+) = -",
+      "ejemplos": [
+        "5 × 3 = 15 (mismo signo, positivo)",
+        "(-5) × (-3) = 15 (mismo signo, positivo) y (-5) × 3 = -15 (signos distintos, negativo)"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el signo del resultado de (-5) × (-3)?",
+          "opciones": [
+            "Positivo",
+            "Negativo",
+            "Cero",
+            "No se puede saber"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Los dos factores son negativos, es decir, tienen el mismo signo, así que el resultado es positivo: (-5) × (-3) = 15."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El producto de un número positivo por uno negativo siempre es negativo.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto. Cuando los dos factores tienen signos distintos, el resultado siempre es negativo."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Al multiplicar dos números con el mismo signo, el resultado siempre es ___.",
+          "respuestaCorrecta": "positivo",
+          "retroalimentacion": "Mismo signo (positivo con positivo, o negativo con negativo) da como resultado un número positivo."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado de 6 × (-2)?",
+          "opciones": [
+            "-12",
+            "12",
+            "-8",
+            "8"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Signos distintos (positivo y negativo): el resultado es negativo. 6 × 2 = 12, entonces 6 × (-2) = -12."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El producto de (-4) × (-4) es -16.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso. Mismo signo (negativo con negativo) da resultado positivo: (-4) × (-4) = 16, no -16."
+        }
+      ]
+    }
+  ]
+}

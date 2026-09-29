@@ -1,0 +1,90 @@
+{
+  "id": "OB-19-05",
+  "grado": "Operaciones Básicas",
+  "numero": 149,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "División exacta de naturales (algoritmo en columna) — Momento 5/8",
+  "contenido": "El algoritmo escrito de la división de naturales cuando el residuo final es cero.",
+  "pda": "Aplica el algoritmo de la división larga con números naturales en casos donde la división es exacta.",
+  "problematizacion": {
+    "contexto": "La tienda 'El Ahorro' recibió un pedido de 432 refrescos que hay que acomodar en cajas, metiendo 12 refrescos en cada caja.",
+    "pregunta": "¿Cuántas cajas se necesitan para acomodar los 432 refrescos, si ahora el divisor tiene dos cifras?"
+  },
+  "subtemas": [
+    {
+      "numero": "19.5",
+      "nivelEtiqueta": "Nivel 5 de 8 · Aplicación",
+      "titulo": "Divisor de dos cifras: primeros pasos",
+      "explicacion": "Cuando el divisor tiene dos cifras, el algoritmo funciona igual, pero necesitas estimar cuántas veces cabe el divisor completo en el grupo de cifras que vas formando del dividendo. Conviene pensar en múltiplos redondos del divisor para tantear el cociente antes de multiplicar y restar. Con práctica, esta estimación se vuelve más rápida y precisa, y sigue siendo válido comprobar multiplicando el cociente por el divisor.",
+      "ejemplos": [
+        "432 ÷ 12: 43 entre 12 da 3 (porque 12×3=36 y 12×4=48 ya se pasa); sobran 7; bajas el 2 y formas 72, entre 12 da 6 exacto. Cociente: 36.",
+        "585 ÷ 15: 58 entre 15 da 3 (15×3=45); sobran 13; bajas el 5 y formas 135, entre 15 da 9 exacto. Cociente: 39."
+      ],
+      "puntosPorReactivo": 20,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "432 ÷ 12 = ?",
+          "opciones": [
+            "34",
+            "36",
+            "38",
+            "32"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "432 ÷ 12 = 36, porque 36 × 12 = 432."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "585 ÷ 15 = ___",
+          "respuestaCorrecta": "39",
+          "retroalimentacion": "585 ÷ 15 = 39, porque 39 × 15 = 585."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "768 ÷ 24 = 34",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso. 768 ÷ 24 = 32 (32 × 24 = 768), no 34."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada división entre un divisor de dos cifras con su cociente.",
+          "columnaA": [
+            "918 ÷ 27",
+            "720 ÷ 18",
+            "432 ÷ 12",
+            "585 ÷ 15"
+          ],
+          "columnaB": [
+            "36",
+            "39",
+            "40",
+            "34"
+          ],
+          "parejasCorrectas": [
+            3,
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "918 ÷ 27 = 34, 720 ÷ 18 = 40, 432 ÷ 12 = 36 y 585 ÷ 15 = 39."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de estas divisiones NO es exacta?",
+          "opciones": [
+            "450 ÷ 15",
+            "460 ÷ 15",
+            "475 ÷ 19",
+            "640 ÷ 16"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "460 ÷ 15 = 30 y sobran 10 (15 × 30 = 450, no 460), así que no es exacta. Las demás sí lo son."
+        }
+      ]
+    }
+  ]
+}

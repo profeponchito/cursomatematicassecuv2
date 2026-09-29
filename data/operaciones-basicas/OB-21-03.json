@@ -1,0 +1,74 @@
+{
+  "id": "OB-21-03",
+  "grado": "Operaciones Básicas",
+  "numero": 163,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "División entre decenas, centenas y potencias de 10 — Momento 3/8",
+  "contenido": "División de un número entre 10, 100, 1000 y sus múltiplos, identificando el patrón inverso al de la multiplicación por potencias de 10.",
+  "pda": "Divide números naturales entre potencias de 10 y sus múltiplos, reconociendo el patrón que sigue el resultado.",
+  "problematizacion": {
+    "contexto": "Un club de atletismo de Querétaro organizó una carrera de relevos de 47 km, dividida en 10 tramos iguales para 10 corredores distintos que se van turnando el recorrido.",
+    "pregunta": "¿Aproximadamente cuántos kilómetros corre cada atleta si el recorrido de 47 km se divide en 10 tramos iguales?"
+  },
+  "subtemas": [
+    {
+      "numero": "21.3",
+      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
+      "titulo": "Cuando no hay ceros suficientes: corre el punto decimal",
+      "explicacion": "No todos los números terminan en cero, así que no siempre se puede 'quitar un cero' para dividir entre 10, 100 o 1000. En esos casos, el mismo patrón se aplica corriendo el punto decimal hacia la izquierda: un lugar si se divide entre 10, dos lugares si se divide entre 100, y tres si se divide entre 1000. Cuando el número no tiene suficientes cifras, se agregan ceros a la izquierda para completar el corrimiento. Es el mismo patrón de siempre, solo que ahora el resultado es decimal en vez de entero.",
+      "formula": "÷10 → recorre el punto 1 lugar a la izquierda; ÷100 → 2 lugares; ÷1000 → 3 lugares",
+      "ejemplos": [
+        "47 ÷ 10: como 47 no tiene un cero al final, corremos el punto un lugar a la izquierda y queda 4.7. Comprobación: 4.7 × 10 = 47.",
+        "583 ÷ 100: corremos el punto dos lugares a la izquierda y queda 5.83. Comprobación: 5.83 × 100 = 583."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 47 ÷ 10?",
+          "opciones": [
+            "0.47",
+            "4.7",
+            "47.0",
+            "470"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "47 no termina en cero, así que corremos el punto un lugar a la izquierda: 4.7. Comprobación: 4.7 × 10 = 47."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "583 ÷ 100 = ___",
+          "respuestaCorrecta": "5.83",
+          "retroalimentacion": "Corremos el punto dos lugares a la izquierda en 583 y queda 5.83. Comprobación: 5.83 × 100 = 583."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "9 ÷ 10 = 0.9",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Verdadero. Como 9 no tiene cifras enteras de sobra, se agrega un cero antes: 0.9. Comprobación: 0.9 × 10 = 9."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 125 ÷ 1000?",
+          "opciones": [
+            "1.25",
+            "0.125",
+            "12.5",
+            "0.0125"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Corremos el punto tres lugares a la izquierda en 125 y, como faltan cifras, agregamos un cero: 0.125. Comprobación: 0.125 × 1000 = 125."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "36 ÷ 10 = ___",
+          "respuestaCorrecta": "3.6",
+          "retroalimentacion": "Corremos el punto un lugar a la izquierda en 36 y queda 3.6. Comprobación: 3.6 × 10 = 36."
+        }
+      ]
+    }
+  ]
+}

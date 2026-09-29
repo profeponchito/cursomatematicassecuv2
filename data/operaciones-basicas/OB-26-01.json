@@ -1,0 +1,74 @@
+{
+  "id": "OB-26-01",
+  "grado": "Operaciones Básicas",
+  "numero": 201,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Múltiplos y factores — Momento 1/8",
+  "contenido": "Identificación de múltiplos y factores de un número, como puente natural entre la multiplicación/división y el álgebra.",
+  "pda": "Identifica múltiplos y factores de un número natural, y los usa para resolver problemas sencillos de divisibilidad.",
+  "problematizacion": {
+    "contexto": "Doña Rosa vende tamales en el mercado de su colonia y los acomoda en bolsas de a 6 para venderlos más rápido. Cada mañana prepara distintas cantidades de tamales, pero siempre en bolsas completas, sin dejar ninguno suelto.",
+    "pregunta": "¿Qué cantidades de tamales podría haber preparado Doña Rosa si siempre usa bolsas completas de 6?"
+  },
+  "subtemas": [
+    {
+      "numero": "26.1",
+      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
+      "titulo": "¿Qué es un múltiplo?",
+      "explicacion": "Un múltiplo de un número se obtiene multiplicándolo por 1, 2, 3, 4... (cualquier número natural). Por ejemplo, los múltiplos de 4 son 4, 8, 12, 16, 20... y así sin fin, porque siempre hay un múltiplo más grande. Para saber si un número es múltiplo de otro, revisa si existe un entero que, multiplicado por el primero, dé exactamente el segundo. Otra forma rápida es dividir: si la división es exacta (residuo 0), entonces sí es múltiplo.",
+      "formula": "n es múltiplo de d si n = d × k, para algún número natural k",
+      "ejemplos": [
+        "12 es múltiplo de 3 porque 3 × 4 = 12 (aquí k = 4).",
+        "15 NO es múltiplo de 4 porque no existe un entero k tal que 4 × k = 15 (4 × 3 = 12 y 4 × 4 = 16, 15 queda entre ambos)."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "18 es múltiplo de 6.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 6 × 3 = 18, así que 18 sí es múltiplo de 6."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "20 es múltiplo de 7.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "7 × 2 = 14 y 7 × 3 = 21; 20 queda entre esos dos, así que no es múltiplo de 7."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de los siguientes números es múltiplo de 9?",
+          "opciones": [
+            "45",
+            "50",
+            "58",
+            "62"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "45 es múltiplo de 9 porque 9 × 5 = 45. Los demás no dan un resultado exacto al dividirlos entre 9."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El quinto múltiplo de 8 es ___.",
+          "respuestaCorrecta": "40",
+          "retroalimentacion": "Se obtiene multiplicando 8 × 5 = 40."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de estos números NO es múltiplo de 5?",
+          "opciones": [
+            "30",
+            "45",
+            "52",
+            "60"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "52 no termina en 0 o 5 y, al dividirlo entre 5, no da un resultado exacto; por eso no es múltiplo de 5."
+        }
+      ]
+    }
+  ]
+}

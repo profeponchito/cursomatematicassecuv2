@@ -1,0 +1,91 @@
+{
+  "id": "OB-20-01",
+  "grado": "Operaciones Básicas",
+  "numero": 153,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "División con residuo — Momento 1/8",
+  "contenido": "División de naturales donde el resultado deja un residuo distinto de cero, e interpretación de ese residuo según el contexto.",
+  "pda": "Aplica el algoritmo de la división larga identificando e interpretando el residuo en distintos contextos.",
+  "problematizacion": {
+    "contexto": "En la escuela secundaria, la maestra Lupe tiene 17 lápices de colores y quiere repartirlos en partes iguales entre 5 equipos de trabajo, sin partir ningún lápiz.",
+    "pregunta": "¿Crees que todos los equipos recibirán exactamente la misma cantidad sin que sobre ningún lápiz?"
+  },
+  "subtemas": [
+    {
+      "numero": "20.1",
+      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
+      "titulo": "¿Sobra algo? Reconociendo el residuo",
+      "explicacion": "No todas las divisiones son exactas: a veces, después de repartir en partes iguales, queda una cantidad que ya no alcanza para formar otro grupo completo. A esa cantidad que sobra se le llama residuo. El residuo siempre debe ser menor que el divisor, porque si fuera igual o mayor, todavía se podría formar otro grupo. En este momento solo identificarás si una división deja residuo y cuánto sobra, con números pequeños.",
+      "formula": "dividendo = divisor × cociente + residuo (residuo < divisor)",
+      "ejemplos": [
+        "17 ÷ 5: caben 3 veces (5×3=15) y sobran 17-15=2, entonces cociente=3, residuo=2.",
+        "18 ÷ 3: caben exactamente 6 veces (3×6=18), no sobra nada, residuo=0."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Si repartes 17 canicas entre 5 amigos en partes iguales, ¿cuántas canicas sobran?",
+          "opciones": [
+            "0",
+            "1",
+            "2",
+            "3"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "5×3=15, y 17-15=2. A cada amigo le tocan 3 canicas y sobran 2."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Al dividir 22 entre 4, el residuo es 2.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "4×5=20, y 22-20=2. El cociente es 5 y el residuo es 2, así que es verdadero."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Al dividir 25 entre 6, el cociente es 4 y el residuo es ___.",
+          "respuestaCorrecta": "1",
+          "retroalimentacion": "6×4=24, y 25-24=1. El residuo es 1."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de estas divisiones NO es exacta (deja residuo)?",
+          "opciones": [
+            "20 ÷ 4",
+            "18 ÷ 3",
+            "19 ÷ 3",
+            "24 ÷ 6"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "20÷4, 18÷3 y 24÷6 son exactas. En cambio 19÷3=6 con residuo 1, porque 3×6=18 y sobra 1."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada división con el residuo que le corresponde.",
+          "columnaA": [
+            "14 ÷ 4",
+            "23 ÷ 5",
+            "11 ÷ 2",
+            "29 ÷ 8"
+          ],
+          "columnaB": [
+            "1",
+            "5",
+            "2",
+            "3"
+          ],
+          "parejasCorrectas": [
+            2,
+            3,
+            0,
+            1
+          ],
+          "retroalimentacion": "14÷4=3 r2; 23÷5=4 r3; 11÷2=5 r1; 29÷8=3 r5."
+        }
+      ]
+    }
+  ]
+}

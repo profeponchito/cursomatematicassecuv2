@@ -1,0 +1,89 @@
+{
+  "id": "OB-20-07",
+  "grado": "Operaciones Básicas",
+  "numero": 159,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "División con residuo — Momento 7/8",
+  "contenido": "División de naturales donde el resultado deja un residuo distinto de cero, e interpretación de ese residuo según el contexto.",
+  "pda": "Aplica el algoritmo de la división larga identificando e interpretando el residuo en distintos contextos.",
+  "problematizacion": {
+    "contexto": "Para la fiesta de graduación de tercero de secundaria en Guadalajara, el comité organizador preparó 177 empanadas para acomodarlas en charolas de 9 piezas cada una antes de servirlas a los invitados.",
+    "pregunta": "Si la última charola no queda completamente llena, ¿cuántas charolas en total se necesitan usar para acomodar todas las empanadas?"
+  },
+  "subtemas": [
+    {
+      "numero": "20.7",
+      "nivelEtiqueta": "Nivel 7 de 8 · Reto",
+      "titulo": "Cuando el residuo obliga a redondear",
+      "explicacion": "En muchas situaciones reales, aunque la división deje residuo, ese resto de personas, objetos o materiales todavía necesita un lugar: una mesa, un plato, una caja. En esos casos no basta con reportar el residuo, hay que decidir si se necesita un contenedor o grupo adicional para todo lo que sobra, aunque no quede lleno. A esto se le llama redondear hacia arriba (usar el cociente más 1), y es distinto de simplemente ignorar el residuo.",
+      "ejemplos": [
+        "130 invitados en mesas de 8: 130÷8=16 con residuo 2. Como sobran 2 personas sin mesa, se necesita una mesa más: en total, 17 mesas."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En una graduación hay 130 invitados y cada mesa tiene espacio para 8 personas. ¿Cuántas mesas se necesitan como mínimo para que todos tengan asiento?",
+          "opciones": [
+            "16",
+            "17",
+            "18",
+            "15"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "130÷8=16 con residuo 2. Las 2 personas que sobran también necesitan mesa, así que se requieren 17 mesas en total."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "95 tacos se acomodan en platos de 6 tacos cada uno. Se llenan 15 platos completos y queda un plato con ___ tacos.",
+          "respuestaCorrecta": "5",
+          "retroalimentacion": "6×15=90, y 95-90=5. El plato incompleto lleva 5 tacos."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si se necesitan repartir 250 refrescos en cajas de 12, se llenan 20 cajas completas y sobran 10 refrescos que requieren una caja adicional aunque no vaya llena.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "12×20=240, y 250-240=10. Es verdadero: esos 10 refrescos sobrantes necesitan una caja más."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una cocina prepara 177 empanadas y las acomoda en charolas de 9. ¿Cuántas charolas necesita usar en total, considerando que la última puede no estar llena?",
+          "opciones": [
+            "19",
+            "20",
+            "21",
+            "18"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "9×19=171, y 177-171=6. Se necesitan 19 charolas llenas más 1 charola con las 6 empanadas restantes: 20 charolas en total."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación con el número mínimo de contenedores necesarios, incluyendo el que queda incompleto.",
+          "columnaA": [
+            "130 invitados, mesas de 8",
+            "95 tacos, platos de 6",
+            "250 refrescos, cajas de 12",
+            "177 empanadas, charolas de 9"
+          ],
+          "columnaB": [
+            "20",
+            "16",
+            "21",
+            "17"
+          ],
+          "parejasCorrectas": [
+            3,
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "130÷8=16 r2→17 mesas; 95÷6=15 r5→16 platos; 250÷12=20 r10→21 cajas; 177÷9=19 r6→20 charolas."
+        }
+      ]
+    }
+  ]
+}

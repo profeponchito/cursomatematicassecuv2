@@ -1,0 +1,121 @@
+{
+  "id": "OB-27-08",
+  "grado": "Operaciones Básicas",
+  "numero": 216,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Multiplicación y división en la vida cotidiana — Momento 8/8",
+  "contenido": "Multiplicación y división aplicadas a situaciones cotidianas: repartos, precios unitarios, escalas y recetas.",
+  "pda": "Resuelve problemas cotidianos de reparto, precio unitario y proporciones sencillas usando multiplicación y división.",
+  "problematizacion": {
+    "contexto": "La cocina económica del barrio organiza el menú para una posada comunitaria y necesita calcular con precisión cuánta carne comprar y cómo repartir el gasto entre las familias que colaboran, sin que se les pase la cantidad ni el presupuesto.",
+    "pregunta": "Si la receta base de pozole rinde 8 porciones con 2 kg de carne, ¿cuánta carne necesita la cocina para preparar pozole para 60 personas de la posada?"
+  },
+  "subtemas": [
+    {
+      "numero": "27.8",
+      "nivelEtiqueta": "Nivel 8 de 8 · Integración",
+      "titulo": "Problemas integradores: todo junto en un solo reto",
+      "explicacion": "Este momento reúne todo lo practicado en el tema: reconocer cuándo multiplicar o dividir, calcular precios unitarios, escalar cantidades, interpretar residuos y trabajar con decimales, a veces combinando dos o más de estas habilidades en un mismo problema. Los problemas de la vida real casi nunca avisan qué operación usar: hay que leer con cuidado, identificar los datos, decidir el orden de las operaciones y comprobar que el resultado tenga sentido para la situación. Resolver este tipo de retos integradores es la mejor forma de comprobar que el manejo de multiplicación y división en situaciones cotidianas ya quedó dominado.",
+      "ejemplos": [
+        "Una receta para 8 porciones usa 2 kg de carne: por porción es 2 ÷ 8 = 0.25 kg; para 60 porciones se necesitan 0.25 × 60 = 15 kg.",
+        "250 cuadernos en paquetes de 15: 250 ÷ 15 = 16 paquetes completos (16 × 15 = 240) y sobran 250 − 240 = 10 cuadernos."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una cocina económica prepara 8 porciones de pozole con 2 kg de carne. Si van a preparar pozole para una posada de 60 personas (1 porción por persona), ¿cuántos kilogramos de carne necesitan?",
+          "opciones": [
+            "12 kg",
+            "15 kg",
+            "18 kg",
+            "20 kg"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Por porción: 2 ÷ 8 = 0.25 kg. Para 60 porciones: 0.25 × 60 = 15 kg."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una tienda compra 24 cajas de refresco a $180 cada una; cada caja trae 12 refrescos y se venden por unidad a $18 cada uno. Si vende todos los refrescos de las 24 cajas, obtiene un total de $___ en ventas (24 cajas × 12 refrescos × $18).",
+          "respuestaCorrecta": "5184",
+          "retroalimentacion": "24 × 12 = 288 refrescos en total; 288 × 18 = $5184 en ventas."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si 5 albañiles tardan 20 días en construir una barda, entonces 10 albañiles (el doble de obreros) tardarían 10 días en construir la misma barda, trabajando al mismo ritmo.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: el trabajo total es el mismo (5 × 20 = 100 \"albañil-días\"); con el doble de albañiles, 100 ÷ 10 = 10 días."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una papelería recibe 250 cuadernos para repartir en paquetes de 15 hacia varias escuelas. ¿Cuántos paquetes completos arma y cuántos cuadernos le sobran?",
+          "opciones": [
+            "16 paquetes y sobran 10",
+            "15 paquetes y sobran 25",
+            "16 paquetes y sobran 0",
+            "17 paquetes y faltan 5"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "250 ÷ 15 = 16 con residuo 10, porque 16 × 15 = 240 y 250 − 240 = 10."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "8.75"
+            },
+            {
+              "valor": "6",
+              "signo": "×"
+            },
+            {
+              "valor": "52.50",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          "retroalimentacion": "8.75 × 6 = 52.50: es el costo de 6 kg de un producto a $8.75 el kilogramo (875 × 6 = 5250, y con 2 cifras decimales queda 52.50)."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Una fonda prepara agua de horchata: por cada tanda usa 500 g de arroz molido y rinde 20 vasos. Si quieren preparar 60 vasos para una fiesta, ¿cuántos gramos de arroz molido necesitan, manteniendo la misma proporción?",
+      "opciones": [
+        "1200 g",
+        "1400 g",
+        "1500 g",
+        "1600 g"
+      ],
+      "respuestaCorrecta": 2,
+      "retroalimentacion": "Por vaso: 500 ÷ 20 = 25 g. Para 60 vasos: 25 × 60 = 1500 g."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Una fábrica textil corta 18 metros de tela en pedazos de 0.75 m cada uno para hacer fundas. ¿Cuántas fundas completas puede cortar? ___ fundas.",
+      "respuestaCorrecta": "24",
+      "retroalimentacion": "18 ÷ 0.75 = 24 fundas completas, sin que sobre tela."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Un tinaco de 900 litros se llena con una manguera que aporta 12.5 litros por minuto; tardará 72 minutos en llenarse por completo.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: 900 ÷ 12.5 = 72 minutos exactos."
+    }
+  ]
+}

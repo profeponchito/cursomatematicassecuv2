@@ -1,0 +1,83 @@
+{
+  "id": "OB-18-02",
+  "grado": "Operaciones Básicas",
+  "numero": 138,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Multiplicación de números con signo — Momento 2/8",
+  "contenido": "Multiplicación de números enteros con signo, aplicando la regla de signos (positivo × positivo, positivo × negativo, negativo × negativo).",
+  "pda": "Multiplica números enteros con signo aplicando correctamente la regla de los signos.",
+  "problematizacion": {
+    "contexto": "En la escuela secundaria técnica número 12, el profesor de matemáticas organiza un juego de preguntas rápidas. Cada respuesta correcta suma puntos positivos y cada respuesta incorrecta resta puntos negativos, y algunas rondas valen doble o triple.",
+    "pregunta": "Si un equipo falla varias rondas seguidas que valen puntos negativos, ¿su puntaje total sube o baja?"
+  },
+  "subtemas": [
+    {
+      "numero": "18.2",
+      "nivelEtiqueta": "Nivel 2 de 8 · Básico",
+      "titulo": "Multiplicaciones de una cifra con signo",
+      "explicacion": "Ahora que conoces la regla de los signos, vas a calcular el resultado completo (no solo el signo) de multiplicaciones entre números de una sola cifra. El procedimiento tiene dos pasos: primero multiplica los valores absolutos (los números sin signo) como ya sabes hacerlo, y después coloca el signo que le corresponde según la regla. Practicar esto con números pequeños te ayuda a automatizar el proceso antes de usar números más grandes.",
+      "formula": "Paso 1: multiplica los valores absolutos.  Paso 2: aplica la regla de signos al resultado.",
+      "ejemplos": [
+        "(-7) × 4: valor absoluto 7 × 4 = 28; signos distintos → (-7) × 4 = -28",
+        "(-9) × (-6): valor absoluto 9 × 6 = 54; mismo signo → (-9) × (-6) = 54"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "llenar_frase",
+          "frase": "(-7) × 4 = ___",
+          "respuestaCorrecta": "-28",
+          "retroalimentacion": "7 × 4 = 28, y como los signos son distintos, el resultado es negativo: -28."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "(-9) × (-6) = ___",
+          "respuestaCorrecta": "54",
+          "retroalimentacion": "9 × 6 = 54, y como los dos factores son negativos (mismo signo), el resultado es positivo: 54."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado de 8 × (-5)?",
+          "opciones": [
+            "-40",
+            "40",
+            "-13",
+            "13"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "8 × 5 = 40, y como los signos son distintos, el resultado es -40."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada multiplicación con su resultado correcto.",
+          "columnaA": [
+            "(-3) × 5",
+            "(-6) × (-2)",
+            "7 × (-4)"
+          ],
+          "columnaB": [
+            "-15",
+            "12",
+            "-28",
+            "15"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "(-3)×5=-15 (signos distintos); (-6)×(-2)=12 (mismo signo); 7×(-4)=-28 (signos distintos)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "(-8) × (-3) = 24",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto. 8 × 3 = 24 y, como los dos factores son negativos, el resultado es positivo: 24."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "OB-22-01",
+  "grado": "Operaciones Básicas",
+  "numero": 169,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "División de decimales — Momento 1/8",
+  "contenido": "División de números decimales, incluyendo dividir un decimal entre un natural y ajustar el divisor para trabajar con números enteros.",
+  "pda": "Divide números decimales, transformando el divisor decimal en un número entero cuando es necesario.",
+  "problematizacion": {
+    "contexto": "En la papelería de la Secundaria Técnica 84, la profesora Norma compró varios paquetes idénticos de cartulinas para el periódico mural y quiere saber cuánto costó cada paquete si conoce el total pagado y el número exacto de paquetes.",
+    "pregunta": "¿Qué operación te permite saber el costo de cada paquete si divides el total pagado (con decimales) entre el número de paquetes?"
+  },
+  "subtemas": [
+    {
+      "numero": "22.1",
+      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
+      "titulo": "Decimal entre natural: el punto va con el punto",
+      "explicacion": "Cuando divides un número decimal entre un número natural, primero divides igual que si fueran números enteros, sin fijarte en el punto. Al terminar, colocas el punto decimal en el cociente justo arriba de donde está el punto del dividendo. El divisor, al ser un número natural, no se mueve ni se transforma. Este primer paso es el más sencillo: el cociente tiene exactamente la misma cantidad de cifras decimales que el dividendo.",
+      "formula": "decimal ÷ natural: divide como enteros y baja el punto igual que en el dividendo",
+      "ejemplos": [
+        "8.4 ÷ 4: divide como si fuera 84 ÷ 4 = 21; como 8.4 tiene una cifra decimal, el cociente también la lleva: 8.4 ÷ 4 = 2.1.",
+        "9.6 ÷ 2: 96 ÷ 2 = 48; se coloca el punto una posición desde la derecha: 9.6 ÷ 2 = 4.8."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 8.4 ÷ 4?",
+          "opciones": [
+            "0.21",
+            "2.1",
+            "21",
+            "2.01"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "84 ÷ 4 = 21; como el dividendo tiene una cifra decimal, el cociente también: 8.4 ÷ 4 = 2.1."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "6.9 ÷ 3 = ___",
+          "respuestaCorrecta": "2.3",
+          "retroalimentacion": "69 ÷ 3 = 23; se coloca el punto una cifra desde la derecha: 6.9 ÷ 3 = 2.3."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "9.6 ÷ 2 = 4.8",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 96 ÷ 2 = 48, y con el punto en su lugar queda 4.8."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 4.5 ÷ 5?",
+          "opciones": [
+            "9",
+            "0.9",
+            "0.09",
+            "1.9"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "45 ÷ 5 = 9; como 4.5 tiene una cifra decimal, el cociente queda 0.9."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "7.2 ÷ 6 = ___",
+          "respuestaCorrecta": "1.2",
+          "retroalimentacion": "72 ÷ 6 = 12; con el punto en su lugar, 7.2 ÷ 6 = 1.2."
+        }
+      ]
+    }
+  ]
+}

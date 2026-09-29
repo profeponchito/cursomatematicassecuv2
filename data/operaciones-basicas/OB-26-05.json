@@ -1,0 +1,83 @@
+{
+  "id": "OB-26-05",
+  "grado": "Operaciones Básicas",
+  "numero": 205,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Múltiplos y factores — Momento 5/8",
+  "contenido": "Identificación de múltiplos y factores de un número, como puente natural entre la multiplicación/división y el álgebra.",
+  "pda": "Identifica múltiplos y factores de un número natural, y los usa para resolver problemas sencillos de divisibilidad.",
+  "problematizacion": {
+    "contexto": "El carpintero don Efrén corta tablas largas en pedazos iguales para hacer bancos. Antes de cortar, calcula entre cuántos pedazos puede dividir cada tabla sin que sobre madera, y nota que algunas medidas solo se pueden dividir de una forma, mientras que otras tienen varias opciones.",
+    "pregunta": "¿Por qué algunas medidas de tabla le dan a don Efrén más opciones de corte exacto que otras?"
+  },
+  "subtemas": [
+    {
+      "numero": "26.5",
+      "nivelEtiqueta": "Nivel 5 de 8 · Aplicación",
+      "titulo": "Números primos y compuestos",
+      "explicacion": "Un número primo tiene exactamente dos factores: el 1 y él mismo (por ejemplo, 7, cuyos únicos factores son 1 y 7). Un número compuesto tiene más de dos factores, porque se puede formar multiplicando otros números además de 1 y él mismo. El número 1 es un caso especial: no es primo ni compuesto, porque solo tiene un factor. Contar los factores de un número es la forma más segura de clasificarlo.",
+      "formula": "Primo = exactamente 2 factores · Compuesto = más de 2 factores",
+      "ejemplos": [
+        "17 es primo porque sus únicos factores son 1 y 17.",
+        "21 es compuesto porque tiene los factores 1, 3, 7 y 21 (más de dos)."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "29 es un número primo.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Los únicos factores de 29 son 1 y 29, así que es primo."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "27 es un número primo.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "27 tiene los factores 1, 3, 9 y 27 (más de dos), así que es compuesto, no primo."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de estos números es compuesto?",
+          "opciones": [
+            "23",
+            "31",
+            "33",
+            "41"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "33 = 3 × 11, tiene más de dos factores. Los otros tres son primos."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El número 1 no es primo ni compuesto porque tiene solo ___ factor.",
+          "respuestaCorrecta": "1",
+          "retroalimentacion": "El 1 únicamente tiene un factor (él mismo), por eso queda fuera de ambas categorías."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada número con su clasificación correcta.",
+          "columnaA": [
+            "19",
+            "35",
+            "2",
+            "49"
+          ],
+          "columnaB": [
+            "Primo",
+            "Compuesto"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "retroalimentacion": "19 y 2 son primos (solo 1 y ellos mismos como factores); 35 = 5×7 y 49 = 7×7 son compuestos."
+        }
+      ]
+    }
+  ]
+}

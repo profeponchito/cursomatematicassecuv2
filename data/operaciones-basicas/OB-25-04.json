@@ -1,0 +1,74 @@
+{
+  "id": "OB-25-04",
+  "grado": "Operaciones Básicas",
+  "numero": 196,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Estimación antes de multiplicar y dividir — Momento 4/8",
+  "contenido": "Estimación del resultado de una multiplicación o división mediante redondeo, para verificar si un cálculo exacto es razonable.",
+  "pda": "Estima el resultado de multiplicaciones y divisiones mediante redondeo y lo usa para verificar la razonabilidad de un cálculo.",
+  "problematizacion": {
+    "contexto": "Una empresa maquiladora debe trasladar a 341 trabajadores del turno matutino a la planta, en camionetas que caben 6 personas cada una. Mientras tanto, en el almacén hay que repartir 436 cascos de seguridad entre 8 cuadrillas de mantenimiento.",
+    "pregunta": "Redondeando 341 a la decena más cercana, ¿aproximadamente cuántas camionetas de 6 asientos se necesitan para trasladar a los 341 trabajadores?"
+  },
+  "subtemas": [
+    {
+      "numero": "25.4",
+      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
+      "titulo": "Estima multiplicaciones y divisiones con números de tres cifras",
+      "explicacion": "Ya sabes estimar multiplicaciones y divisiones por separado; ahora vas a practicar ambas en el mismo momento, con números de tres cifras. Para las multiplicaciones, redondea el número más grande a la centena más cercana. Para las divisiones, busca un número compatible cercano al dividendo que se divida exacto entre el divisor. Reconocer qué operación tienes enfrente y aplicar la estrategia correcta es la clave de este nivel.",
+      "formula": "multiplicación: factor × (redondeo a la centena) · división: (compatible) ÷ divisor",
+      "ejemplos": [
+        "Para estimar 6 × 294: redondeamos 294 a 300 y calculamos 6 × 300 = 1800 (el resultado exacto es 1764).",
+        "Para estimar 515 ÷ 8: el compatible más cercano es 512 (8 × 64 = 512), así que la estimación es 512 ÷ 8 = 64."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Para estimar 6 × 294, redondeamos 294 a la centena más cercana. ¿Cuál es la estimación?",
+          "opciones": [
+            "1700",
+            "1800",
+            "1900",
+            "1600"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "294 se redondea a 300, y 6 × 300 = 1800. El resultado exacto es 1764."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Para estimar 515 ÷ 8, usamos el compatible 512 (512 ÷ 8 = 64 es exacto): 512 ÷ 8 = ___.",
+          "respuestaCorrecta": "64",
+          "retroalimentacion": "512 ÷ 8 = 64. El resultado exacto de 515 ÷ 8 es 64.375, muy cerca de la estimación."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Para estimar 7 × 386, Jorge redondeó 386 a 400 y calculó 7 × 400 = 2800. Verdadero o falso: 2800 es una estimación razonable de 7 × 386 (cuyo resultado exacto es 2702).",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Verdadero. La diferencia entre 2800 y 2702 es de solo 98, así que la estimación es razonable."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál número compatible conviene para estimar 626 ÷ 7?",
+          "opciones": [
+            "630",
+            "600",
+            "650",
+            "700"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "630 es múltiplo de 7 (7 × 90 = 630) y es el más cercano a 626, así que la estimación es 90."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Para estimar 9 × 512, redondeamos 512 a la centena más cercana (500) y multiplicamos: 9 × 500 = ___.",
+          "respuestaCorrecta": "4500",
+          "retroalimentacion": "9 × 500 = 4500. El resultado exacto de 9 × 512 es 4608, cercano a la estimación."
+        }
+      ]
+    }
+  ]
+}

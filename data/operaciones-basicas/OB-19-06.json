@@ -1,0 +1,117 @@
+{
+  "id": "OB-19-06",
+  "grado": "Operaciones Básicas",
+  "numero": 150,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "División exacta de naturales (algoritmo en columna) — Momento 6/8",
+  "contenido": "El algoritmo escrito de la división de naturales cuando el residuo final es cero.",
+  "pda": "Aplica el algoritmo de la división larga con números naturales en casos donde la división es exacta.",
+  "problematizacion": {
+    "contexto": "Lupita quiere ahorrar para un viaje y guardó 2688 pesos en monedas dentro de sobres, metiendo la misma cantidad de pesos en cada uno de 24 sobres.",
+    "pregunta": "¿Cuántos pesos guardó Lupita en cada sobre?"
+  },
+  "subtemas": [
+    {
+      "numero": "19.6",
+      "nivelEtiqueta": "Nivel 6 de 8 · Avanzado",
+      "titulo": "Dividendos más grandes, divisor de dos cifras",
+      "explicacion": "El mismo algoritmo de la división en columna se aplica a dividendos de cuatro cifras: solo hay que repetir el proceso de bajar cifras una vez más. Entre más cifras tiene el dividendo, más importante es comprobar el resultado multiplicando el cociente por el divisor, sobre todo cuando el divisor tiene dos cifras y hay más posibilidades de equivocarse en alguna resta.",
+      "ejemplos": [
+        "2688 ÷ 24: 26 entre 24 da 1; sobra 2; bajas el 8 y formas 28, entre 24 da 1; sobra 4; bajas el 8 y formas 48, entre 24 da 2 exacto. Cociente: 112.",
+        "3915 ÷ 15: 39 entre 15 da 2; sobra 9; bajas el 1 y formas 91, entre 15 da 6; sobra 1; bajas el 5 y formas 15, entre 15 da 1 exacto. Cociente: 261."
+      ],
+      "puntosPorReactivo": 20,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "2688 ÷ 24 = ?",
+          "opciones": [
+            "102",
+            "112",
+            "122",
+            "132"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "2688 ÷ 24 = 112, porque 112 × 24 = 2688."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "3915 ÷ 15 = ___",
+          "respuestaCorrecta": "261",
+          "retroalimentacion": "3915 ÷ 15 = 261, porque 261 × 15 = 3915."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "4384 ÷ 32 = 137",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Verdadero. 137 × 32 = 4384, la división es exacta."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "137"
+            },
+            {
+              "valor": "32",
+              "signo": "×"
+            },
+            {
+              "valor": "274"
+            },
+            {
+              "valor": "4110"
+            },
+            {
+              "valor": "4384",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              1
+            ],
+            [
+              0
+            ],
+            []
+          ],
+          "retroalimentacion": "Esto verifica que 4384 ÷ 32 = 137, porque 137 × 32 = 4384 (137×2=274 y 137×30=4110, que sumados dan 4384)."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada división de 4 cifras entre 2 cifras con su cociente.",
+          "columnaA": [
+            "6072 ÷ 24",
+            "4158 ÷ 18",
+            "4300 ÷ 25",
+            "4284 ÷ 36"
+          ],
+          "columnaB": [
+            "172",
+            "119",
+            "253",
+            "231"
+          ],
+          "parejasCorrectas": [
+            2,
+            3,
+            0,
+            1
+          ],
+          "retroalimentacion": "6072 ÷ 24 = 253, 4158 ÷ 18 = 231, 4300 ÷ 25 = 172 y 4284 ÷ 36 = 119."
+        }
+      ]
+    }
+  ]
+}

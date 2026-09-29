@@ -1,0 +1,74 @@
+{
+  "id": "OB-31-07",
+  "grado": "Operaciones Básicas",
+  "numero": 247,
+  "categoria": "potencias_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Potencias de base decimal — Momento 7/8",
+  "contenido": "Cálculo de potencias cuya base es un número decimal.",
+  "pda": "Calcula potencias de base decimal, relacionando el procedimiento con la multiplicación de decimales.",
+  "problematizacion": {
+    "contexto": "Un ingeniero de transporte en Guadalajara estudia cómo se va reduciendo la concentración de un colorante de prueba cada vez que se diluye la mezcla a la mitad (0.5) dentro del sistema de tuberías de una planta, repitiendo el proceso varias veces seguidas.",
+    "pregunta": "¿Qué le pasa al resultado de 0.5 elevado a exponentes cada vez más grandes, según lo que observa el ingeniero en la dilución?"
+  },
+  "subtemas": [
+    {
+      "numero": "31.7",
+      "nivelEtiqueta": "Nivel 7 de 8 · Reto",
+      "titulo": "Exponentes mayores y el patrón que se achica",
+      "explicacion": "Ahora usaremos exponentes más grandes, como 4, sobre bases decimales menores que 1. Aquí aparece un patrón importante: cuando la base es un decimal entre 0 y 1, entre mayor sea el exponente, MÁS PEQUEÑO se vuelve el resultado, porque cada multiplicación adicional achica el número (multiplicar por algo menor que 1 reduce la cantidad). Esto es al revés de lo que pasa con números enteros mayores que 1, donde las potencias crecen. Reconocer este patrón te ayuda a estimar resultados sin calcular todo de inmediato.",
+      "formula": "Si 0 < base < 1, entonces a mayor exponente, menor es el resultado",
+      "ejemplos": [
+        "0.5¹ = 0.5, 0.5² = 0.25, 0.5³ = 0.125, 0.5⁴ = 0.0625 (va disminuyendo)",
+        "0.2⁴ = 0.2 × 0.2 × 0.2 × 0.2 = 0.0016"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "0.5⁴ = ?",
+          "opciones": [
+            "0.0625",
+            "0.625",
+            "0.00625",
+            "2"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "0.5 × 0.5 × 0.5 × 0.5 = 0.0625."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Al elevar 0.5 a exponentes cada vez mayores (2, 3, 4...), el resultado se hace cada vez más pequeño.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 0.5² = 0.25, 0.5³ = 0.125, 0.5⁴ = 0.0625; el número disminuye."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "0.2⁴ = ___",
+          "respuestaCorrecta": "0.0016",
+          "retroalimentacion": "0.2 × 0.2 × 0.2 × 0.2 = 0.0016."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de estas potencias tiene el resultado MÁS PEQUEÑO?",
+          "opciones": [
+            "0.5²",
+            "0.5³",
+            "0.5⁴",
+            "0.5¹"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "0.5⁴ = 0.0625 es el más pequeño, porque entre mayor el exponente, más se achica un decimal menor que 1."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "0.1⁴ = ___",
+          "respuestaCorrecta": "0.0001",
+          "retroalimentacion": "0.1 × 0.1 × 0.1 × 0.1 = 0.0001."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "id": "OB-32-08",
+  "grado": "Operaciones Básicas",
+  "numero": 256,
+  "categoria": "potencias_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Potencias de base fraccionaria — Momento 8/8",
+  "contenido": "Cálculo de potencias cuya base es una fracción, elevando numerador y denominador al exponente indicado.",
+  "pda": "Calcula potencias de base fraccionaria, elevando por separado numerador y denominador.",
+  "problematizacion": {
+    "contexto": "En una planta de reciclaje de Monterrey, la ingeniera Dalia integra en un solo reporte mensual variaciones fraccionarias positivas y negativas, algunas expresadas como números mixtos, para estimar el comportamiento de la producción en distintos escenarios elevados a distintas potencias.",
+    "pregunta": "Si una variación de (-1 1/2) se eleva al cuadrado dentro del reporte, ¿el resultado que debe registrar Dalia será positivo o negativo?"
+  },
+  "subtemas": [
+    {
+      "numero": "32.8",
+      "nivelEtiqueta": "Nivel 8 de 8 · Integración",
+      "titulo": "Integración: signo, números mixtos y exponentes grandes",
+      "explicacion": "Este momento integra todo lo trabajado en el tema: convertir números mixtos a fracción impropia, aplicar la regla de signos según el exponente sea par o impar, simplificar el resultado a su mínima expresión y elevar tanto a exponentes de 2 como de 3 o 4. Es el cierre del repaso de potencias de base fraccionaria, combinando en un mismo problema varias de las dificultades que viste por separado en los momentos anteriores.",
+      "formula": "(a/b)ⁿ = aⁿ/bⁿ (convirtiendo números mixtos antes y simplificando al final)",
+      "ejemplos": [
+        "-1 2/3 = -5/3, entonces (-1 2/3)³ = (-5/3)³ = -125/27",
+        "(-2/6)² = 4/36, que simplificado es 1/9"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Convierte -1 2/3 a fracción impropia y calcula (-1 2/3)³. ¿Cuál es el resultado?",
+          "opciones": [
+            "-125/27",
+            "125/27",
+            "-15/9",
+            "15/9"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "-1 2/3 = -5/3. Como el exponente es impar, el resultado es negativo: (-5/3)³ = -125/27."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "(-3/4)⁴ = ?",
+          "opciones": [
+            "81/256",
+            "-81/256",
+            "12/16",
+            "-12/16"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Exponente par: el resultado es positivo. 3⁴=81 y 4⁴=256, entonces (-3/4)⁴ = 81/256."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "(2 1/2)³ simplificado a fracción impropia primero da (5/2)³ = 125/8.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 2 1/2 = 5/2, y 5³=125, 2³=8, entonces (5/2)³ = 125/8."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Simplifica el resultado de (-2/6)² a su mínima expresión: ___",
+          "respuestaCorrecta": "1/9",
+          "retroalimentacion": "(-2/6)² = 4/36, que simplificado (dividiendo entre 4) da 1/9."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada potencia integradora con su resultado correcto.",
+          "columnaA": [
+            "(-1 1/2)²",
+            "(3 1/3)²",
+            "(-2/3)³"
+          ],
+          "columnaB": [
+            "9/4",
+            "100/9",
+            "-8/27",
+            "25/9"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "-1 1/2=-3/2 → 9/4 (positivo); 3 1/3=10/3 → 100/9; (-2/3)³=-8/27 (negativo, exponente impar)."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Calcula (-1 3/4)⁴. ¿Cuál es el resultado?",
+      "opciones": [
+        "2401/256",
+        "-2401/256",
+        "343/64",
+        "-343/64"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "-1 3/4 = -7/4. Exponente par: resultado positivo. 7⁴=2401 y 4⁴=256, entonces (-7/4)⁴ = 2401/256."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "(3 2/5)² = ___",
+      "respuestaCorrecta": "289/25",
+      "retroalimentacion": "3 2/5 = 17/5. Entonces (17/5)² = 289/25."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "(-5/6)³ es mayor que (-5/6)².",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Falso: (-5/6)³ = -125/216 (negativo) y (-5/6)² = 25/36 (positivo). Un número negativo nunca es mayor que uno positivo."
+    }
+  ]
+}

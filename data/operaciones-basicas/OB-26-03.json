@@ -1,0 +1,68 @@
+{
+  "id": "OB-26-03",
+  "grado": "Operaciones Básicas",
+  "numero": 203,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Múltiplos y factores — Momento 3/8",
+  "contenido": "Identificación de múltiplos y factores de un número, como puente natural entre la multiplicación/división y el álgebra.",
+  "pda": "Identifica múltiplos y factores de un número natural, y los usa para resolver problemas sencillos de divisibilidad.",
+  "problematizacion": {
+    "contexto": "El camión de la ruta escolar pasa por varias paradas y el chofer, don Beto, quiere saber rápido, sin dividir en papel, en cuáles números de casas puede dejar volantes de una rifa que solo entrega en casas con número par.",
+    "pregunta": "¿Cómo puede saber don Beto, con solo mirar el último dígito, si el número de una casa es par?"
+  },
+  "subtemas": [
+    {
+      "numero": "26.3",
+      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
+      "titulo": "Reglas rápidas de divisibilidad",
+      "explicacion": "Las reglas de divisibilidad son atajos para saber si un número es múltiplo de otro sin tener que dividir. Un número es divisible entre 2 si su último dígito es par (0,2,4,6,8); es divisible entre 5 si termina en 0 o 5; es divisible entre 10 si termina en 0. Para saber si un número es divisible entre 3, se suman todas sus cifras: si esa suma es múltiplo de 3, el número original también lo es.",
+      "formula": "Divisible entre 3 si la suma de sus dígitos es múltiplo de 3",
+      "ejemplos": [
+        "246 es divisible entre 2 porque termina en 6, que es par.",
+        "153 es divisible entre 3 porque 1+5+3 = 9, y 9 es múltiplo de 3."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "384 es divisible entre 2.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Termina en 4, que es un dígito par, así que sí es divisible entre 2."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "735 es divisible entre 5.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Termina en 5, por lo tanto es divisible entre 5."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de estos números es divisible entre 3?",
+          "opciones": [
+            "124",
+            "231",
+            "502",
+            "815"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "2+3+1 = 6, y 6 es múltiplo de 3, así que 231 es divisible entre 3. Los otros no cumplen la regla."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un número es divisible entre 10 si termina en ___.",
+          "respuestaCorrecta": "0",
+          "retroalimentacion": "Todos los múltiplos de 10 terminan en cero."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "621 es divisible entre 3.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "6+2+1 = 9, y 9 es múltiplo de 3, así que 621 también lo es."
+        }
+      ]
+    }
+  ]
+}

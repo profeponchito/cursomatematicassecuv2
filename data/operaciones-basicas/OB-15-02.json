@@ -1,0 +1,89 @@
+{
+  "id": "OB-15-02",
+  "grado": "Operaciones Básicas",
+  "numero": 114,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Multiplicación por decenas, centenas y potencias de 10 — Momento 2/8",
+  "contenido": "Multiplicación de un número por 10, 100, 1000 y por múltiplos de estas potencias, identificando el patrón de correr el punto/agregar ceros.",
+  "pda": "Multiplica números naturales por potencias de 10 y sus múltiplos, reconociendo el patrón que sigue el resultado.",
+  "problematizacion": {
+    "contexto": "En la papelería de la Secundaria Técnica número 14, el profesor de matemáticas compró paquetes de lápices para regalar a sus alumnos más destacados del bimestre. Cada paquete grande trae 100 lápices.",
+    "pregunta": "Si el profesor compró 4 paquetes grandes, ¿cuántos lápices compró en total?"
+  },
+  "subtemas": [
+    {
+      "numero": "15.2",
+      "nivelEtiqueta": "Nivel 2 de 8 · Básico",
+      "titulo": "Multiplicar por 100 y por 1000",
+      "explicacion": "Multiplicar por 100 agrega dos ceros al número original, y multiplicar por 1000 agrega tres ceros. El patrón es el mismo que al multiplicar por 10, solo que ahora cada cifra se recorre dos o tres lugares hacia la izquierda en el valor posicional. Cuantos más ceros tenga la potencia de 10, más lugares se recorren las cifras y más ceros se agregan al resultado. Este patrón te permite resolver estas multiplicaciones de forma mental, sin hacer cuentas largas.",
+      "formula": "número × 100 = número con dos ceros agregados; número × 1000 = número con tres ceros agregados",
+      "ejemplos": [
+        "7 × 100: se agregan dos ceros, entonces 7 × 100 = 700.",
+        "9 × 1000: se agregan tres ceros, entonces 9 × 1000 = 9000."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "7 × 100 = ?",
+          "opciones": [
+            "70",
+            "700",
+            "7000",
+            "710"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Se agregan dos ceros: 7 × 100 = 700."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "23 × 100 = ___.",
+          "respuestaCorrecta": "2300",
+          "retroalimentacion": "23 × 100 = 2300, se agregan dos ceros al 23."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "9 × 1000 = 900",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Es falso: 9 × 1000 = 9000, se agregan tres ceros, no dos."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "15 × 1000 = ?",
+          "opciones": [
+            "15000",
+            "1500",
+            "150000",
+            "1050"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "15 × 1000 = 15000, se agregan tres ceros al 15."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada multiplicación con su resultado.",
+          "columnaA": [
+            "8 × 100",
+            "4 × 1000",
+            "6 × 1000"
+          ],
+          "columnaB": [
+            "800",
+            "4000",
+            "6000",
+            "600"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "8 × 100 = 800 (dos ceros); 4 × 1000 = 4000 y 6 × 1000 = 6000 (tres ceros)."
+        }
+      ]
+    }
+  ]
+}

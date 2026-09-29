@@ -1,0 +1,73 @@
+{
+  "id": "OB-22-06",
+  "grado": "Operaciones Básicas",
+  "numero": 174,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "División de decimales — Momento 6/8",
+  "contenido": "División de números decimales, incluyendo dividir un decimal entre un natural y ajustar el divisor para trabajar con números enteros.",
+  "pda": "Divide números decimales, transformando el divisor decimal en un número entero cuando es necesario.",
+  "problematizacion": {
+    "contexto": "En una tienda de abarrotes en Guanajuato, don Efraín recibe un costal de arroz y necesita repartirlo en bolsas de un peso decimal fijo para venderlas por separado, aunque el peso del costal y el de cada bolsa no tengan la misma cantidad de cifras decimales.",
+    "pregunta": "¿Qué debes hacer si al recorrer el punto decimal del divisor te faltan cifras en el dividendo para completar el corrimiento?"
+  },
+  "subtemas": [
+    {
+      "numero": "22.6",
+      "nivelEtiqueta": "Nivel 6 de 8 · Avanzado",
+      "titulo": "Cuando el dividendo también necesita ceros extra",
+      "explicacion": "Ahora el dividendo y el divisor no tienen la misma cantidad de cifras decimales. Recorres el punto del divisor hasta hacerlo entero, y recorres el punto del dividendo esa misma cantidad de lugares; pero si al dividendo le faltan cifras, agregas ceros a la derecha para completar el corrimiento. Este paso combina lo que ya sabes: convertir el divisor en entero (momento anterior) y agregar ceros cuando faltan cifras (momento 3), ahora aplicado antes de empezar a dividir.",
+      "ejemplos": [
+        "3.5 ÷ 0.25: el divisor tiene dos cifras decimales, así que se recorre el punto dos lugares en ambos; como 3.5 solo tiene una cifra decimal, se le agrega un cero: 3.50 se convierte en 350, y 0.25 en 25. Entonces 3.5 ÷ 0.25 = 350 ÷ 25 = 14.",
+        "6 ÷ 1.5: el divisor tiene una cifra decimal; se agrega un cero al dividendo natural: 6.0 se convierte en 60, y 1.5 en 15. Entonces 6 ÷ 1.5 = 60 ÷ 15 = 4."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 3.5 ÷ 0.25?",
+          "opciones": [
+            "1.4",
+            "14",
+            "140",
+            "0.14"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Se agrega un cero al dividendo (3.50) y se recorre el punto dos lugares en ambos: 350 ÷ 25 = 14."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "6 ÷ 1.5 = ___",
+          "respuestaCorrecta": "4",
+          "retroalimentacion": "Se agrega un cero al dividendo natural (6.0) y se recorre el punto un lugar en ambos: 60 ÷ 15 = 4."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "4.8 ÷ 0.15 = 32",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: se agrega un cero al dividendo (4.80) y se recorren dos lugares en ambos: 480 ÷ 15 = 32."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 2.5 ÷ 1.25?",
+          "opciones": [
+            "2",
+            "0.2",
+            "20",
+            "1.25"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Se agrega un cero al dividendo (2.50) y se recorren dos lugares en ambos: 250 ÷ 125 = 2."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "9 ÷ 0.36 = ___",
+          "respuestaCorrecta": "25",
+          "retroalimentacion": "Se agregan dos ceros al dividendo natural (9.00) y se recorren dos lugares en ambos: 900 ÷ 36 = 25."
+        }
+      ]
+    }
+  ]
+}

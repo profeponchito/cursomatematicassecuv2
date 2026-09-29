@@ -1,0 +1,92 @@
+{
+  "id": "OB-33-01",
+  "grado": "Operaciones Básicas",
+  "numero": 257,
+  "categoria": "potencias_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Potencias con signo (exponente par e impar) — Momento 1/8",
+  "contenido": "Potencias de una base negativa, distinguiendo el signo del resultado según si el exponente es par o impar.",
+  "pda": "Calcula potencias de base negativa, determinando el signo del resultado según la paridad del exponente.",
+  "problematizacion": {
+    "contexto": "La profesora Lupita escribe en el pizarrón el número (-2) y le pone un exponente pequeño para que la clase observe qué pasa con el signo del resultado. Varios alumnos creen que el resultado siempre será negativo porque la base lo es.",
+    "pregunta": "¿Cuál crees que sea el signo del resultado de (-2) elevado al cuadrado?"
+  },
+  "subtemas": [
+    {
+      "numero": "33.1",
+      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
+      "titulo": "¿Qué pasa cuando la base es negativa?",
+      "explicacion": "Recuerda que una potencia es una multiplicación repetida: la base se multiplica por sí misma tantas veces como indica el exponente. Cuando la base negativa va entre paréntesis, como en (-3)^2, el exponente afecta a todo el número, incluido su signo. En este primer momento solo trabajaremos con exponentes 2 y 3 para observar con calma qué signo resulta en cada caso.",
+      "formula": "(-a)^n = (-a) × (-a) × ... (n veces)",
+      "ejemplos": [
+        "(-3)^2 = (-3) × (-3) = 9",
+        "(-2)^3 = (-2) × (-2) × (-2) = -8"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es (-3)^2?",
+          "opciones": [
+            "-9",
+            "9",
+            "-6",
+            "6"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "(-3)^2 = (-3) × (-3) = 9. Multiplicar dos números negativos da un resultado positivo."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "(-2)^3 es igual a -8.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: (-2)^3 = (-2)×(-2)×(-2) = 4×(-2) = -8."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "(-4)^2 = ___",
+          "respuestaCorrecta": "16",
+          "retroalimentacion": "(-4)^2 = (-4)×(-4) = 16."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En la potencia (-5)^3, ¿cuál es la base?",
+          "opciones": [
+            "5",
+            "-5",
+            "3",
+            "-3"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "La base es todo el número entre paréntesis: -5. El exponente es 3."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada potencia con su resultado correcto.",
+          "columnaA": [
+            "(-2)^2",
+            "(-2)^3",
+            "(-3)^2",
+            "(-1)^5"
+          ],
+          "columnaB": [
+            "-8",
+            "9",
+            "4",
+            "-1",
+            "1"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1,
+            3
+          ],
+          "retroalimentacion": "(-2)^2=4, (-2)^3=-8, (-3)^2=9 y (-1)^5=-1."
+        }
+      ]
+    }
+  ]
+}

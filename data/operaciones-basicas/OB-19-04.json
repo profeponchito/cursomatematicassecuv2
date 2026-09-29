@@ -1,0 +1,96 @@
+{
+  "id": "OB-19-04",
+  "grado": "Operaciones Básicas",
+  "numero": 148,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "División exacta de naturales (algoritmo en columna) — Momento 4/8",
+  "contenido": "El algoritmo escrito de la división de naturales cuando el residuo final es cero.",
+  "pda": "Aplica el algoritmo de la división larga con números naturales en casos donde la división es exacta.",
+  "problematizacion": {
+    "contexto": "En la panadería 'La Espiga', el panadero Tomás acomodó 824 piezas de pan en charolas, poniendo la misma cantidad en cada una de las 4 charolas que tenía disponibles esa mañana.",
+    "pregunta": "¿Cuántas piezas de pan puso Tomás en cada charola? (cuidado: el cociente tiene un cero)."
+  },
+  "subtemas": [
+    {
+      "numero": "19.4",
+      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
+      "titulo": "Cuando el cociente lleva un cero",
+      "explicacion": "A veces, al bajar una cifra del dividendo, el número que se forma es menor que el divisor y no alcanza para dividir; en ese caso se escribe un 0 en el cociente en ese lugar y se baja la siguiente cifra sin hacer otra resta. Ese cero es una cifra real del cociente y no se puede omitir ni saltar. Reconocer cuándo aparece te ayuda a no perder cifras ni cometer errores de valor posicional.",
+      "ejemplos": [
+        "824 ÷ 4: 8 entre 4 da 2; bajas el 2 y, como 2 entre 4 no alcanza, se escribe 0 en el cociente y se baja la siguiente cifra; bajas el 4 y formas 24, entre 4 da 6. Cociente: 206.",
+        "918 ÷ 9: 9 entre 9 da 1; bajas el 1 y, como 1 entre 9 no alcanza, se escribe 0 en el cociente; bajas el 8 y formas 18, entre 9 da 2. Cociente: 102."
+      ],
+      "puntosPorReactivo": 15,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Al dividir 824 ÷ 4, ¿cuál es el cociente?",
+          "opciones": [
+            "206",
+            "260",
+            "216",
+            "26"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "824 ÷ 4 = 206. El 0 aparece en las decenas porque 2 (lo que se baja después del primer paso) no alcanza para dividir entre 4."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "918 ÷ 9 = ___",
+          "respuestaCorrecta": "102",
+          "retroalimentacion": "918 ÷ 9 = 102, con un 0 en las decenas del cociente."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "848 ÷ 8 = 106, y ese cociente tiene un cero en el lugar de las decenas.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Verdadero. 106 × 8 = 848, y en 106 el dígito de las decenas es 0."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "103"
+            },
+            {
+              "valor": "9",
+              "signo": "×"
+            },
+            {
+              "valor": "927",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [
+              0
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "Esto verifica que 927 ÷ 9 = 103, porque 103 × 9 = 927. Cuidado: el cociente 103 lleva un 0 en las decenas."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el cociente de 636 ÷ 6?",
+          "opciones": [
+            "16",
+            "106",
+            "160",
+            "601"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "636 ÷ 6 = 106, con un 0 en las decenas del cociente."
+        }
+      ]
+    }
+  ]
+}
