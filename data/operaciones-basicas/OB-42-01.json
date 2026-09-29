@@ -1,0 +1,83 @@
+{
+  "id": "OB-42-01",
+  "grado": "Operaciones Básicas",
+  "numero": 329,
+  "categoria": "integracion",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Operaciones combinadas con números naturales — Momento 1/8",
+  "contenido": "Resolución de expresiones que combinan suma, resta, multiplicación, división, potencias y raíces con números naturales, aplicando la jerarquía de operaciones.",
+  "pda": "Resuelve expresiones numéricas combinadas con números naturales aplicando correctamente la jerarquía de operaciones.",
+  "problematizacion": {
+    "contexto": "Doña Rosa vende mangos en su puesto del mercado de Tlacolula. Ya tenía apartadas algunas bolsas vendidas y hoy además vendió varias bolsas nuevas a un mismo precio. Para saber cuánto dinero juntó en total, tiene que sumar y multiplicar en la misma cuenta.",
+    "pregunta": "Si Doña Rosa necesita sumar lo que ya tenía apartado y multiplicar el precio de una bolsa por las bolsas nuevas que vendió, ¿qué operación debe resolver primero: la multiplicación o la suma?"
+  },
+  "subtemas": [
+    {
+      "numero": "42.1",
+      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
+      "titulo": "Multiplicación y división antes que suma y resta",
+      "explicacion": "Cuando una expresión combina solo dos operaciones, como una multiplicación (o división) junto con una suma (o resta), no se resuelve de izquierda a derecha como se lee. Primero se resuelve la multiplicación o la división, y hasta el final la suma o la resta. Esta regla se llama jerarquía de operaciones y evita que cada persona obtenga un resultado distinto para la misma expresión. Practicar este orden con expresiones cortas es la base para combinar más operaciones en los siguientes momentos.",
+      "formula": "Multiplicación y división primero, suma y resta al final",
+      "ejemplos": [
+        "4 + 6 × 3 = 4 + 18 = 22 (se multiplica primero, aunque la suma esté escrita antes)",
+        "20 - 12 ÷ 4 = 20 - 3 = 17 (se divide primero y después se resta)"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado de 8 + 3 × 4?",
+          "opciones": [
+            "44",
+            "20",
+            "35",
+            "12"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Primero se multiplica: 3 × 4 = 12, y después se suma: 8 + 12 = 20. Si sumas primero (8 + 3 = 11) y luego multiplicas por 4, obtienes el resultado incorrecto 44."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En la expresión 20 - 4 × 2, se debe resolver primero la resta porque aparece a la izquierda.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso. Aunque la resta se lee primero, la jerarquía de operaciones indica que la multiplicación se resuelve antes: 20 - (4 × 2) = 20 - 8 = 12."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El resultado de 5 × 6 + 2 es ___.",
+          "respuestaCorrecta": "32",
+          "retroalimentacion": "Se multiplica primero: 5 × 6 = 30, y luego se suma: 30 + 2 = 32."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El resultado de 15 ÷ 3 + 4 es ___.",
+          "respuestaCorrecta": "9",
+          "retroalimentacion": "Se divide primero: 15 ÷ 3 = 5, y luego se suma: 5 + 4 = 9."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada expresión con su resultado correcto.",
+          "columnaA": [
+            "6 + 2 × 3",
+            "18 ÷ 3 + 5",
+            "7 × 2 - 4"
+          ],
+          "columnaB": [
+            "10",
+            "11",
+            "12",
+            "15"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "6 + 2×3 = 6 + 6 = 12; 18 ÷ 3 + 5 = 6 + 5 = 11; 7×2 - 4 = 14 - 4 = 10."
+        }
+      ]
+    }
+  ]
+}

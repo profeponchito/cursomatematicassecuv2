@@ -1,0 +1,89 @@
+{
+  "id": "OB-08-01",
+  "grado": "Operaciones Básicas",
+  "numero": 57,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma y resta de fracciones con distinto denominador — Momento 1/8",
+  "contenido": "Suma y resta de fracciones heterogéneas, usando el mínimo común múltiplo para igualar denominadores antes de operar.",
+  "pda": "Suma y resta fracciones con distinto denominador, calculando un común denominador antes de operar los numeradores.",
+  "problematizacion": {
+    "contexto": "En la clase de Ciencias, Valeria y Emilio miden cuánto creció una planta de frijol en una semana usando reglas distintas. La regla de Valeria marca el crecimiento como 1/3 de centímetro y la de Emilio como 1/4 de centímetro. La maestra les explica que no pueden comparar esas medidas tal como están, porque están escritas en partes de tamaño diferente.",
+    "pregunta": "¿Cuál es el menor número que puede servir como denominador común para comparar 1/3 y 1/4?"
+  },
+  "subtemas": [
+    {
+      "numero": "8.1",
+      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
+      "titulo": "¿Por qué necesitamos un denominador común?",
+      "explicacion": "Cuando dos fracciones tienen denominadores distintos, no puedes sumar ni restar los numeradores directamente porque representan partes de tamaño diferente. Antes de operar necesitas encontrar un denominador común, es decir, un número que sea múltiplo de ambos denominadores. El más práctico es el mínimo común múltiplo (mcm), porque es el más pequeño de todos los múltiplos comunes y evita trabajar con números innecesariamente grandes. Para hallarlo puedes listar los múltiplos de cada denominador hasta encontrar el primero que se repita en ambas listas.",
+      "formula": "mcm(a, b) = el menor número que es múltiplo de a y de b",
+      "ejemplos": [
+        "Múltiplos de 3: 3, 6, 9, 12, 15... Múltiplos de 4: 4, 8, 12, 16... El primero que se repite es 12, así que mcm(3, 4) = 12.",
+        "Múltiplos de 2: 2, 4, 6, 8... Múltiplos de 3: 3, 6, 9... El primero en común es 6, así que mcm(2, 3) = 6."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el mcm de 3 y 4?",
+          "opciones": [
+            "7",
+            "12",
+            "24",
+            "16"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Los múltiplos de 3 son 3, 6, 9, 12... y los de 4 son 4, 8, 12... El primero que coincide es 12, así que mcm(3, 4) = 12."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Para sumar 1/3 + 1/4 puedes sumar directamente los numeradores y los denominadores, como en 2/7.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso. Las fracciones con distinto denominador representan partes de tamaño diferente, así que primero hay que igualar los denominadores antes de sumar los numeradores."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El mcm de 4 y 6 es ___.",
+          "respuestaCorrecta": "12",
+          "retroalimentacion": "Múltiplos de 4: 4, 8, 12... Múltiplos de 6: 6, 12... El primero en común es 12."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada par de denominadores con su mínimo común múltiplo.",
+          "columnaA": [
+            "2 y 3",
+            "4 y 6",
+            "4 y 5"
+          ],
+          "columnaB": [
+            "6",
+            "12",
+            "20",
+            "15"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "mcm(2,3)=6, mcm(4,6)=12 y mcm(4,5)=20, porque son los menores números que aparecen en ambas listas de múltiplos."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Por qué NO se puede sumar 2/5 + 1/3 tal como están escritas?",
+          "opciones": [
+            "Porque una fracción es más grande que la otra",
+            "Porque tienen denominadores distintos y representan partes de tamaño diferente",
+            "Porque los numeradores son impares",
+            "Porque no se pueden sumar fracciones nunca"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Los denominadores distintos significan que las partes en las que se dividió el entero son de tamaño diferente, por eso se necesita un denominador común antes de sumar."
+        }
+      ]
+    }
+  ]
+}

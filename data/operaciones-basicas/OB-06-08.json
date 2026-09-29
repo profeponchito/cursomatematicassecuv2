@@ -1,0 +1,136 @@
+{
+  "id": "OB-06-08",
+  "grado": "Operaciones Básicas",
+  "numero": 48,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma y resta de decimales con acarreo y préstamo — Momento 8/8",
+  "contenido": "Suma y resta de decimales en casos donde el acarreo o el préstamo ocurren entre posiciones decimales, incluyendo decimales con distinta cantidad de cifras.",
+  "pda": "Aplica el algoritmo de suma y resta a números decimales con distinta cantidad de cifras decimales, completando con ceros cuando sea necesario.",
+  "problematizacion": {
+    "contexto": "En la taquería 'El Buen Sazón', don Panchito atiende a los clientes y suma en la cuenta cada platillo que piden; algunos pagan con billete y él calcula el cambio a mano antes de usar la calculadora, para no equivocarse.",
+    "pregunta": "Si una familia consumió platillos por $3.50, $2.75 y $4.20, y pagó con un billete de $20, ¿cuánto cambio aproximado debe entregar don Panchito?"
+  },
+  "subtemas": [
+    {
+      "numero": "6.8",
+      "nivelEtiqueta": "Nivel 8 de 8 · Integración",
+      "titulo": "Integra sumas y restas de decimales en un solo problema",
+      "explicacion": "Para cerrar el tema vas a resolver situaciones donde se combinan, en un mismo problema, sumas y restas de decimales con distinta cantidad de cifras: por ejemplo, sumar varios gastos y luego calcular el cambio de un pago, o sumar y restar cantidades seguidas. La clave sigue siendo la misma en cada paso: alinear el punto decimal, completar con ceros cuando haga falta, y llevar o pedir prestado columna por columna.",
+      "formula": "Resuelve un paso a la vez: primero suma lo que se pide, después resta, siempre alineando el punto decimal.",
+      "ejemplos": [
+        "Una cuenta de $3.50 + $2.75 + $4.20 = $10.45. Si se paga con un billete de $20, el cambio es 20.00 − 10.45 = $9.55.",
+        "38.5 + 12.75 − 9.3: primero 38.50 + 12.75 = 51.25, después 51.25 − 9.30 = 41.95."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una familia consumió $3.50 + $2.75 + $4.20 en la taquería. ¿Cuál fue el total de la cuenta?",
+          "opciones": [
+            "$10.35",
+            "$10.45",
+            "$9.45",
+            "$10.55"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "3.50+2.75=6.25, y 6.25+4.20=10.45. El total de la cuenta es $10.45."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Si la cuenta fue de $10.45 y la familia pagó con un billete de $20, ¿cuánto cambio le toca recibir?",
+          "opciones": [
+            "$9.55",
+            "$9.45",
+            "$10.55",
+            "$8.55"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "20.00 − 10.45 = 9.55, pidiendo prestado en cadena porque 20 no tiene cifras decimales escritas. El cambio es $9.55."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "38.5 + 12.75 − 9.3 = ___",
+          "respuestaCorrecta": "41.95",
+          "retroalimentacion": "Primero 38.50 + 12.75 = 51.25. Después 51.25 − 9.30 = 41.95."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "15.4 − 6.75 + 2.35 = 11.00",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Verdadero. Primero 15.40 − 6.75 = 8.65, y después 8.65 + 2.35 = 11.00."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación de la taquería con su resultado correcto.",
+          "columnaA": [
+            "Cuenta de $6.25 + $8.50 + $3.75",
+            "Cambio de pagar esa cuenta con $30",
+            "Cuenta de $3.50 + $2.75 + $4.20"
+          ],
+          "columnaB": [
+            "$10.45",
+            "$18.50",
+            "$11.50",
+            "$9.55"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "6.25+8.50+3.75=18.50; el cambio de pagar eso con $30 es 30.00−18.50=11.50; y 3.50+2.75+4.20=10.45."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "algoritmo_columnas",
+      "operacion": "resta",
+      "filas": [
+        {
+          "valor": "45.00"
+        },
+        {
+          "valor": "18.65",
+          "signo": "-"
+        },
+        {
+          "valor": "26.35",
+          "esResultado": true
+        }
+      ],
+      "ocultos": [
+        [
+          3
+        ],
+        [],
+        [
+          1
+        ]
+      ],
+      "retroalimentacion": "45.00 − 18.65 = 26.35, pidiendo prestado en cadena desde los centésimos porque 45 no tiene cifras decimales. Ese resultado, 26.35, menos 7.4 más, da 45 − 18.65 − 7.4 = 18.95 en total si se resta también el segundo gasto."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Don Panchito tenía $45 en caja, pagó $18.65 de insumos y después $7.40 más de gas. ¿Cuánto le queda en caja?",
+      "opciones": [
+        "$18.95",
+        "$19.95",
+        "$18.05",
+        "$17.95"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "45.00 − 18.65 = 26.35, y 26.35 − 7.40 = 18.95. Le quedan $18.95 en caja."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "9.375 + 4.6 − 2.875 = ___",
+      "respuestaCorrecta": "11.1",
+      "retroalimentacion": "Primero 9.375 + 4.600 = 13.975. Después 13.975 − 2.875 = 11.100, que se escribe como 11.1."
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "OB-36-03",
+  "grado": "Operaciones Básicas",
+  "numero": 283,
+  "categoria": "potencias_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Raíz cuadrada aproximada — Momento 3/8",
+  "contenido": "Estimación de la raíz cuadrada de números que no son cuadrados perfectos, ubicándola entre dos enteros consecutivos.",
+  "pda": "Estima la raíz cuadrada de un número que no es cuadrado perfecto, ubicándola entre dos números enteros consecutivos.",
+  "problematizacion": {
+    "contexto": "En una terminal de autobuses de Puebla, el chofer necesita acomodar 63 maletas en un compartimento que se organiza como una cuadrícula cuadrada, y quiere calcular a ojo cuántas maletas caben por lado.",
+    "pregunta": "¿La raíz cuadrada de 63 está más cerca de 7 o de 8?"
+  },
+  "subtemas": [
+    {
+      "numero": "36.3",
+      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
+      "titulo": "¿Más cerca de cuál? Afina tu estimación",
+      "explicacion": "Ya sabes ubicar la raíz cuadrada entre dos enteros consecutivos; ahora vas a decidir a cuál de los dos se parece más. Para eso, calcula el punto medio entre los dos cuadrados perfectos que forman el intervalo: si el número original está por debajo del punto medio, la raíz está más cerca del entero menor; si está por arriba, está más cerca del entero mayor. Por ejemplo, entre 49 y 64 el punto medio es 56.5; como 63 es mayor que 56.5, √63 está más cerca de 8 que de 7. Esta estrategia te da una estimación más fina sin necesitar calculadora.",
+      "formula": "Punto medio = (a² + (a+1)²) ÷ 2",
+      "ejemplos": [
+        "Para √63: el intervalo es 49 y 64, cuyo punto medio es (49+64)÷2=56.5. Como 63>56.5, √63 está más cerca de 8 que de 7.",
+        "Para √45: el intervalo es 36 y 49, punto medio (36+49)÷2=42.5. Como 45>42.5, √45 está más cerca de 7 que de 6."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "√52 está más cerca de:",
+          "opciones": [
+            "7",
+            "7.5",
+            "8",
+            "9"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "El intervalo de 52 es 49 y 64, con punto medio 56.5. Como 52<56.5, √52 está más cerca de 7."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "√63 está más cerca de:",
+          "opciones": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "El intervalo de 63 es 49 y 64, con punto medio 56.5. Como 63>56.5, √63 está más cerca de 8."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La raíz cuadrada de 45 está más cerca de 7 que de 6.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: el intervalo de 45 es 36 y 49, con punto medio 42.5. Como 45>42.5, √45 está más cerca de 7."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La raíz cuadrada de 95 está más cerca de ___ que de 9.",
+          "respuestaCorrecta": "10",
+          "retroalimentacion": "El intervalo de 95 es 81 y 100, con punto medio 90.5. Como 95>90.5, √95 está más cerca de 10."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada número con el entero al que su raíz cuadrada se acerca más.",
+          "columnaA": [
+            "105",
+            "130",
+            "150",
+            "190"
+          ],
+          "columnaB": [
+            "10",
+            "11",
+            "12",
+            "14",
+            "13"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "retroalimentacion": "√105 está más cerca de 10 (punto medio 110.5); √130 más cerca de 11 (punto medio 132.5); √150 más cerca de 12 (punto medio 156.5); √190 más cerca de 14 (punto medio 182.5)."
+        }
+      ]
+    }
+  ]
+}

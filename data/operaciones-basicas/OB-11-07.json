@@ -1,0 +1,91 @@
+{
+  "id": "OB-11-07",
+  "grado": "Operaciones Básicas",
+  "numero": 87,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Estimación y redondeo antes de sumar y restar — Momento 7/8",
+  "contenido": "Estimación del resultado de una suma o resta mediante redondeo, para desarrollar sentido numérico antes del cálculo exacto.",
+  "pda": "Estima el resultado de sumas y restas mediante redondeo, y lo usa para verificar si un cálculo exacto es razonable.",
+  "problematizacion": {
+    "contexto": "En un taller mecánico de Monterrey, el aprendiz Iván anotó en su libreta cuánto debía cobrar por dos reparaciones: 428 pesos y 351 pesos, y sumó 779 pesos en total. Antes de entregarle la cuenta al cliente, su jefe le pide que revise si ese resultado es razonable usando una estimación rápida por redondeo.",
+    "pregunta": "¿Cómo puede Iván usar el redondeo para comprobar si 779 pesos es un resultado razonable?"
+  },
+  "subtemas": [
+    {
+      "numero": "11.7",
+      "nivelEtiqueta": "Nivel 7 de 8 · Reto",
+      "titulo": "Usar la estimación para revisar si un cálculo es razonable",
+      "explicacion": "La estimación no solo sirve para anticipar un resultado, también para revisar si una respuesta ya calculada tiene sentido. Se redondea cada número de la operación, se calcula la estimación, y se compara con el resultado exacto que se obtuvo: si son parecidos, el cálculo probablemente es correcto; si son muy distintos, es señal de que hay un error que conviene revisar con cuidado. Esta comparación no reemplaza la comprobación exacta, pero ayuda a detectar errores grandes rápidamente, como una cifra mal copiada o un dígito de más o de menos.",
+      "formula": "Si |resultado exacto − estimación redondeada| es grande, el cálculo probablemente tiene un error.",
+      "ejemplos": [
+        "Alguien calculó 347 + 216 = 563. Estimando: 347→300, 216→200, estimación = 500. Como 563 está cerca de 500, el resultado parece razonable.",
+        "Alguien calculó 582 − 199 = 483. Estimando: 582→600, 199→200, estimación = 400. Como 483 está cerca de 400, el resultado parece razonable, aunque conviene revisarlo con más cuidado si se necesita exactitud."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Alguien calculó 428 + 351 = 779. Estimando (redondeando a la centena: 400 + 400 = 800), ¿el resultado exacto es razonable?",
+          "opciones": [
+            "Sí, es razonable, está cerca de la estimación",
+            "No, porque un resultado razonable nunca puede ser menor que la estimación",
+            "No es razonable, la estimación indica que debería ser menor a 500",
+            "No se puede saber sin la estimación"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "La estimación es 800 y el resultado exacto es 779; la diferencia es de solo 21, así que el resultado sí parece razonable."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Alguien calculó 613 − 258 = 455. Redondeando a la centena (600 − 300 = 300), el resultado parece razonable porque está cerca de la estimación.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: la estimación es 300 y 455 está muy lejos de ella (diferencia de 155). De hecho, el resultado exacto de 613 − 258 es 355, no 455: hay un error en el cálculo."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Alguien calculó 742 + 189 = 931. Redondeando a la centena (700 + 200 = 900), la diferencia entre el resultado y la estimación es de ___ unidades.",
+          "respuestaCorrecta": "31",
+          "retroalimentacion": "El resultado exacto es 931 y la estimación es 900; la diferencia es 931 − 900 = 31, un valor pequeño que indica que el resultado es razonable."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un compañero calculó 905 − 468 = 437 y no está seguro si es correcto. Redondeando a la centena (900 − 500 = 400), ¿qué puedes concluir?",
+          "opciones": [
+            "Sí, el resultado parece razonable porque está cerca de la estimación",
+            "No es razonable porque debería ser menor a 300",
+            "No es razonable porque debería ser mayor a 800",
+            "No se pueden estimar restas de tres cifras"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "La estimación es 400 y el resultado exacto es 437; la diferencia es de solo 37, así que el resultado sí parece razonable."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada operación con su estimación, redondeando cada número a la centena más cercana.",
+          "columnaA": [
+            "563 + 219",
+            "874 − 326",
+            "251 + 436",
+            "782 − 459"
+          ],
+          "columnaB": [
+            "300",
+            "600",
+            "700",
+            "800"
+          ],
+          "parejasCorrectas": [
+            3,
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "563+219→600+200=800; 874−326→900−300=600; 251+436→300+400=700; 782−459→800−500=300."
+        }
+      ]
+    }
+  ]
+}

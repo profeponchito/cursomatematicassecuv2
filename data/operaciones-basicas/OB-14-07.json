@@ -1,0 +1,96 @@
+{
+  "id": "OB-14-07",
+  "grado": "Operaciones Básicas",
+  "numero": 111,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Multiplicación de varios dígitos (algoritmo en columna) — Momento 7/8",
+  "contenido": "El algoritmo escrito de la multiplicación cuando ambos factores tienen dos o más cifras, usando productos parciales.",
+  "pda": "Aplica el algoritmo de la multiplicación en columna con factores de dos o más cifras, sumando correctamente los productos parciales.",
+  "problematizacion": {
+    "contexto": "En el tianguis, el kilogramo de tortillas cuesta 23.50 pesos. Fernanda va a comprar 2.5 kilogramos para la comida familiar del domingo.",
+    "pregunta": "Aproximadamente, ¿cuánto pagará Fernanda en total por las tortillas?"
+  },
+  "subtemas": [
+    {
+      "numero": "14.7",
+      "nivelEtiqueta": "Nivel 7 de 8 · Reto",
+      "titulo": "Multiplicación en columna con números decimales",
+      "explicacion": "Para multiplicar decimales en columna, se ignoran los puntos y se multiplica como si fueran números enteros. Al terminar, se cuenta el total de cifras decimales que tenían los dos factores originales y se coloca el punto decimal en el resultado contando esa cantidad de cifras de derecha a izquierda. Si el multiplicador tiene dos o más cifras, los productos parciales también se escriben como enteros, sin punto.",
+      "formula": "cifras decimales del resultado = cifras decimales del factor 1 + cifras decimales del factor 2",
+      "ejemplos": [
+        "4.2×3.6: se multiplica 42×36=1512; los factores tienen 1+1=2 cifras decimales → 15.12",
+        "2.3×1.4: se multiplica 23×14=322; los factores tienen 1+1=2 cifras decimales → 3.22"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado de 3.2 × 2.4?",
+          "opciones": [
+            "7.58",
+            "7.68",
+            "7.78",
+            "76.8"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "32×24=768; los dos factores tienen 1+1=2 cifras decimales → 7.68."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "5.1 × 1.3 = ___",
+          "respuestaCorrecta": "6.63",
+          "retroalimentacion": "51×13=663; 1+1=2 cifras decimales → 6.63."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "2.6 × 3.2 = 8.32",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "26×32=832; 1+1=2 cifras decimales → 8.32. Es correcto."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "6.3"
+            },
+            {
+              "valor": "4",
+              "signo": "×"
+            },
+            {
+              "valor": "25.2",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              0,
+              3
+            ]
+          ],
+          "retroalimentacion": "6.3×4: se multiplica 63×4=252 y se coloca el punto decimal contando 1 cifra decimal del factor original (6.3) → 25.2."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado de 3.4 × 2.1?",
+          "opciones": [
+            "7.04",
+            "7.14",
+            "7.24",
+            "71.4"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "34×21=714; 1+1=2 cifras decimales → 7.14."
+        }
+      ]
+    }
+  ]
+}

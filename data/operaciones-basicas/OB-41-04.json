@@ -1,0 +1,74 @@
+{
+  "id": "OB-41-04",
+  "grado": "Operaciones Básicas",
+  "numero": 324,
+  "categoria": "integracion",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Jerarquía de operaciones — Momento 4/8",
+  "contenido": "El orden correcto para resolver una expresión con varias operaciones: potencias y raíces, multiplicación y división, suma y resta, y el papel de los paréntesis.",
+  "pda": "Aplica la jerarquía de operaciones (paréntesis, potencias/raíces, multiplicación/división, suma/resta) para resolver expresiones numéricas.",
+  "problematizacion": {
+    "contexto": "Don Chuy es albañil y está colocando baldosas cuadradas en un patio. Para saber cuánto mide el lado de cada baldosa a partir de su área, usa raíces cuadradas, y luego suma o multiplica esas medidas con otras cantidades de la obra.",
+    "pregunta": "Si don Chuy calcula √16 + 5 para saber cuántos ladrillos de borde necesita, ¿qué debe resolver primero: la raíz o la suma?"
+  },
+  "subtemas": [
+    {
+      "numero": "41.4",
+      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
+      "titulo": "Las raíces se resuelven al mismo nivel que las potencias",
+      "explicacion": "Las raíces cuadradas, como √16, ocupan el mismo lugar que las potencias en la jerarquía de operaciones: se resuelven después de los paréntesis, pero antes que la multiplicación, la división, la suma y la resta. En una expresión que combina raíces con otras operaciones, primero se calcula el valor exacto de la raíz y después se continúa con el resto. En este momento solo se usarán raíces exactas (de números que sí tienen raíz cuadrada entera), para enfocarte en el orden y no en el cálculo de la raíz.",
+      "formula": "1) ( )  →  2) potencias y raíces  →  3) × y ÷  →  4) + y −",
+      "ejemplos": [
+        "√16 + 5: primero √16 = 4, y luego 4 + 5 = 9.",
+        "√9 + 2³: primero √9 = 3 y 2³ = 8, y luego 3 + 8 = 11."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es √16 + 5?",
+          "opciones": [
+            "9",
+            "21",
+            "20",
+            "4"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Primero √16 = 4, y luego 4 + 5 = 9. Sumar dentro de la raíz (16+5=21) sería un error, pues la raíz solo afecta al 16."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 20 − √25 × 2?",
+          "opciones": [
+            "10",
+            "30",
+            "15",
+            "0"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Primero √25 = 5, luego 5 × 2 = 10, y al final 20 − 10 = 10. Restar antes de multiplicar (20−5=15, ×2=30) es un error de orden."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El resultado de √9 + 2³ es 11.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: √9 = 3 y 2³ = 8, y 3 + 8 = 11. Tanto la raíz como la potencia se resuelven antes de la suma."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "3² + √4 = ___",
+          "respuestaCorrecta": "11",
+          "retroalimentacion": "Primero 3² = 9 y √4 = 2, y luego 9 + 2 = 11."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En una expresión sin paréntesis, las raíces se resuelven al mismo nivel que las potencias, antes que la multiplicación.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: potencias y raíces comparten el mismo lugar en la jerarquía, justo después de los paréntesis."
+        }
+      ]
+    }
+  ]
+}

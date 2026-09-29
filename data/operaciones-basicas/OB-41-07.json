@@ -1,0 +1,80 @@
+{
+  "id": "OB-41-07",
+  "grado": "Operaciones Básicas",
+  "numero": 327,
+  "categoria": "integracion",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Jerarquía de operaciones — Momento 7/8",
+  "contenido": "El orden correcto para resolver una expresión con varias operaciones: potencias y raíces, multiplicación y división, suma y resta, y el papel de los paréntesis.",
+  "pda": "Aplica la jerarquía de operaciones (paréntesis, potencias/raíces, multiplicación/división, suma/resta) para resolver expresiones numéricas.",
+  "problematizacion": {
+    "contexto": "En una nevería, el congelador marca temperaturas bajo cero y sube o baja varios grados durante el día según se abre o se cierra la puerta. Para llevar el registro, el encargado anota operaciones con números negativos y potencias.",
+    "pregunta": "¿Por qué −3² y (−3)² no representan la misma temperatura, aunque parezcan la misma operación?"
+  },
+  "subtemas": [
+    {
+      "numero": "41.7",
+      "nivelEtiqueta": "Nivel 7 de 8 · Reto",
+      "titulo": "Signos negativos dentro de la jerarquía",
+      "explicacion": "Cuando aparecen números negativos, hay que tener cuidado especial con las potencias: −3² no es lo mismo que (−3)². En −3², la potencia solo afecta al 3 (el resultado es −9), porque el signo no está dentro de un paréntesis. En (−3)², el paréntesis incluye el signo, así que se eleva al cuadrado el número −3 completo (el resultado es 9). El resto de la jerarquía (paréntesis, potencias/raíces, ×÷, +−) funciona igual que antes, solo que ahora los números pueden ser negativos.",
+      "formula": "−a² = −(a²)   pero   (−a)² = (−a)×(−a)",
+      "ejemplos": [
+        "−3²: se eleva 3 al cuadrado y luego se aplica el signo: −(3²) = −9.",
+        "(−3)²: el paréntesis incluye el signo, así que (−3)×(−3) = 9."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es −3²?",
+          "opciones": [
+            "-9",
+            "9",
+            "-6",
+            "6"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Se eleva primero 3² = 9, y luego se aplica el signo negativo: −9. El signo no está dentro de un paréntesis, así que no se eleva junto con el 3."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es (−3)²?",
+          "opciones": [
+            "9",
+            "-9",
+            "6",
+            "-6"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Aquí el paréntesis incluye el signo: (−3) × (−3) = 9, porque menos por menos da más."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "−2² y (−2)² dan el mismo resultado.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: −2² = −4 (se eleva el 2 y luego se aplica el signo), mientras que (−2)² = 4 (se eleva el −2 completo)."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "10 − (−3) × 2 = ___",
+          "respuestaCorrecta": "16",
+          "retroalimentacion": "Primero (−3) × 2 = −6, y luego 10 − (−6) = 10 + 6 = 16."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es −5 + 3 × (−2)²?",
+          "opciones": [
+            "7",
+            "-8",
+            "-11",
+            "121"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Primero (−2)² = 4, luego 3 × 4 = 12, y al final −5 + 12 = 7."
+        }
+      ]
+    }
+  ]
+}

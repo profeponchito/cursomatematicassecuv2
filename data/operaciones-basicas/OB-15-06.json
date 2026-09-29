@@ -1,0 +1,89 @@
+{
+  "id": "OB-15-06",
+  "grado": "Operaciones Básicas",
+  "numero": 118,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Multiplicación por decenas, centenas y potencias de 10 — Momento 6/8",
+  "contenido": "Multiplicación de un número por 10, 100, 1000 y por múltiplos de estas potencias, identificando el patrón de correr el punto/agregar ceros.",
+  "pda": "Multiplica números naturales por potencias de 10 y sus múltiplos, reconociendo el patrón que sigue el resultado.",
+  "problematizacion": {
+    "contexto": "En una alcancía familiar en Oaxaca, cada integrante aporta 3.5 pesos diarios como parte de un reto de ahorro que vieron en redes sociales.",
+    "pregunta": "Si el reto dura 10 días y cada quien aporta siempre lo mismo, ¿cuánto habrá ahorrado una sola persona al finalizar los 10 días?"
+  },
+  "subtemas": [
+    {
+      "numero": "15.6",
+      "nivelEtiqueta": "Nivel 6 de 8 · Avanzado",
+      "titulo": "Multiplicar decimales por 10, 100 y 1000",
+      "explicacion": "Cuando multiplicas un número decimal por 10, 100 o 1000, el patrón cambia un poco: en vez de agregar ceros, el punto decimal se recorre hacia la derecha tantos lugares como ceros tenga la potencia de 10. Por 10 se recorre un lugar, por 100 dos lugares y por 1000 tres lugares. Si al recorrer el punto ya no quedan cifras decimales, se agregan ceros para completar los lugares que falten. Este patrón es una versión del mismo principio de valor posicional que usaste con números naturales.",
+      "formula": "decimal × 10ⁿ = se recorre el punto n lugares a la derecha",
+      "ejemplos": [
+        "3.5 × 10: el punto se recorre un lugar a la derecha, entonces 3.5 × 10 = 35.",
+        "0.6 × 1000: el punto se recorre tres lugares (se agregan ceros si faltan), entonces 0.6 × 1000 = 600."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "3.5 × 10 = ?",
+          "opciones": [
+            "35",
+            "3.5",
+            "0.35",
+            "350"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "3.5 × 10 = 35: el punto se recorre un lugar a la derecha."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "2.47 × 100 = ___.",
+          "respuestaCorrecta": "247",
+          "retroalimentacion": "2.47 × 100 = 247: el punto se recorre dos lugares a la derecha."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "0.6 × 1000 = 600",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: el punto se recorre tres lugares y se agregan ceros: 0.6 × 1000 = 600."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "12.3 × 10 = ?",
+          "opciones": [
+            "123",
+            "1.23",
+            "12.30",
+            "1230"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "12.3 × 10 = 123: el punto se recorre un lugar a la derecha."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada multiplicación con su resultado.",
+          "columnaA": [
+            "0.08 × 100",
+            "0.9 × 10",
+            "1.5 × 1000"
+          ],
+          "columnaB": [
+            "8",
+            "9",
+            "1500",
+            "0.8"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "0.08 × 100 = 8, 0.9 × 10 = 9 y 1.5 × 1000 = 1500: recorre el punto según los ceros de la potencia."
+        }
+      ]
+    }
+  ]
+}

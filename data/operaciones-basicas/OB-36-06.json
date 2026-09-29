@@ -1,0 +1,92 @@
+{
+  "id": "OB-36-06",
+  "grado": "Operaciones Básicas",
+  "numero": 286,
+  "categoria": "potencias_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Raíz cuadrada aproximada — Momento 6/8",
+  "contenido": "Estimación de la raíz cuadrada de números que no son cuadrados perfectos, ubicándola entre dos enteros consecutivos.",
+  "pda": "Estima la raíz cuadrada de un número que no es cuadrado perfecto, ubicándola entre dos números enteros consecutivos.",
+  "problematizacion": {
+    "contexto": "Un estadio de fútbol en Monterrey planea instalar un mosaico cuadrado gigante en el centro del campo, hecho con 620 losetas pequeñas acomodadas en cuadrícula cuadrada.",
+    "pregunta": "¿A qué número entero se acerca más la raíz cuadrada de 620 (el lado de la cuadrícula en losetas)?"
+  },
+  "subtemas": [
+    {
+      "numero": "36.6",
+      "nivelEtiqueta": "Nivel 6 de 8 · Avanzado",
+      "titulo": "Estimar raíces con números más grandes",
+      "explicacion": "La misma estrategia para estimar raíces cuadradas funciona igual de bien con números más grandes, aunque a veces parezca más difícil. Solo necesitas encontrar los cuadrados perfectos vecinos (por ejemplo, 22²=484 y 23²=529 para ubicar 500) y luego decidir, con el punto medio, a cuál entero se acerca más la raíz. Trabajar con números de tres o cuatro cifras te obliga a recordar más cuadrados perfectos, pero el procedimiento es idéntico al que ya dominas.",
+      "formula": "Punto medio = (a² + (a+1)²) ÷ 2",
+      "ejemplos": [
+        "Para 500: como 22²=484 y 23²=529, y 484<500<529, entonces √500 está entre 22 y 23; el punto medio es (484+529)÷2=506.5, y como 500<506.5, √500 está más cerca de 22.",
+        "Para 840: como 28²=784 y 29²=841, y 784<840<841, √840 está entre 28 y 29; el punto medio es (784+841)÷2=812.5, y como 840>812.5, √840 está más cerca de 29."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Entre qué dos enteros está √500?",
+          "opciones": [
+            "20 y 21",
+            "21 y 22",
+            "22 y 23",
+            "23 y 24"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "484<500<529, y como 484=22² y 529=23², entonces 22<√500<23."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿A qué entero se acerca más √620?",
+          "opciones": [
+            "23",
+            "24",
+            "25",
+            "26"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "El intervalo de 620 es 576 (24²) y 625 (25²), con punto medio 600.5. Como 620>600.5, √620 está más cerca de 25."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La raíz cuadrada de 840 está más cerca de 29 que de 28.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: el intervalo de 840 es 784 (28²) y 841 (29²), con punto medio 812.5. Como 840>812.5, √840 está más cerca de 29."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La raíz cuadrada de 999 está entre 31 y ___.",
+          "respuestaCorrecta": "32",
+          "retroalimentacion": "961<999<1024, y como 961=31² y 1024=32², entonces 31<√999<32."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada número con el entero al que su raíz cuadrada se acerca más.",
+          "columnaA": [
+            "730",
+            "600",
+            "950",
+            "1200"
+          ],
+          "columnaB": [
+            "27",
+            "24",
+            "31",
+            "35",
+            "29"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "retroalimentacion": "√730 se acerca más a 27 (punto medio 756.5); √600 a 24 (punto medio 600.5); √950 a 31 (punto medio 930.5); √1200 a 35 (punto medio 1190.5)."
+        }
+      ]
+    }
+  ]
+}

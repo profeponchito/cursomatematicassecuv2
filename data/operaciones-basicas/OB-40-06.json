@@ -1,0 +1,92 @@
+{
+  "id": "OB-40-06",
+  "grado": "Operaciones Básicas",
+  "numero": 318,
+  "categoria": "potencias_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Encuentra el error: potencias y raíces — Momento 6/8",
+  "contenido": "Identificación del paso exacto donde el cálculo de una potencia o raíz ya resuelto contiene un error, como forma de reforzar el concepto desde la revisión.",
+  "pda": "Identifica errores en cálculos de potencias y raíces ya resueltos, explicando en qué paso ocurre el error.",
+  "problematizacion": {
+    "contexto": "En la panadería La Espiga de Oaxaca, la repostera Xóchitl calcula cuántos ingredientes necesita usando una fórmula con potencias y raíces para escalar una receta según el número de charolas. Uno de sus aprendices resolvió la fórmula en el orden equivocado y el resultado no cuadró con la receta real.",
+    "pregunta": "¿Qué operación debe resolverse primero en una expresión que combina una potencia y una suma?"
+  },
+  "subtemas": [
+    {
+      "numero": "40.6",
+      "nivelEtiqueta": "Nivel 6 de 8 · Avanzado",
+      "titulo": "Jerarquía de operaciones con potencias y raíces",
+      "explicacion": "Cuando una expresión combina sumas, restas, potencias y raíces, primero se resuelven las potencias y raíces, y hasta después las sumas y restas, a menos que haya paréntesis que indiquen otro orden. Un error común es sumar o restar primero los números que están junto a una potencia o raíz, alterando por completo el resultado final. Para detectar el error hay que ubicar en qué paso se rompió el orden correcto.",
+      "formula": "Potencias y raíces antes que sumas y restas (salvo paréntesis)",
+      "ejemplos": [
+        "3² + 4 se resuelve primero la potencia: 9 + 4 = 13 (correcto). El error 3² + 4 = 3 × (2+4) = 18 rompe el orden.",
+        "√16 + 5 = 4 + 5 = 9 (correcto, primero la raíz)."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Para resolver 2³ + 5, un aprendiz escribió: 2³ + 5 = 2 × (3+5) = 16. ¿Cuál fue su error?",
+          "opciones": [
+            "Debió resolver primero la potencia 2³=8, y luego sumar 5, dando 13",
+            "El resultado 16 es correcto",
+            "Debió sumar primero 3+5 y ese resultado usarlo como exponente",
+            "Olvidó multiplicar por 2 al final"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Primero se resuelve la potencia: 2³=8. Después se suma: 8+5=13. El orden de operaciones no permite sumar el exponente con otro número."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En la expresión √9 + 7, primero se debe calcular la raíz y luego sumar: √9 + 7 = 3 + 7 = 10.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: las raíces se resuelven antes que la suma, así que √9+7 = 3+7 = 10."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En una expresión sin paréntesis que combina una potencia y una resta, primero se resuelve la ___.",
+          "respuestaCorrecta": "potencia",
+          "retroalimentacion": "Las potencias (y raíces) se resuelven antes que las sumas y restas, salvo que haya paréntesis que indiquen otro orden."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de estos procedimientos para resolver 5² - 4 está correctamente resuelto?",
+          "opciones": [
+            "5² - 4 = 5 × (2-4) = -10",
+            "5² - 4 = 25 - 4 = 21",
+            "5² - 4 = (5-4)² = 1",
+            "5² - 4 = 10 - 4 = 6"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Primero se calcula la potencia 5²=25, y después se resta 4: 25-4=21."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada expresión con su resultado correcto, respetando el orden de operaciones.",
+          "columnaA": [
+            "3² + 1",
+            "√25 - 2",
+            "2³ - 1",
+            "√49 + 2"
+          ],
+          "columnaB": [
+            "7",
+            "10",
+            "9",
+            "3",
+            "5"
+          ],
+          "parejasCorrectas": [
+            1,
+            3,
+            0,
+            2
+          ],
+          "retroalimentacion": "3²+1=9+1=10; √25-2=5-2=3; 2³-1=8-1=7; √49+2=7+2=9. Siempre resuelve primero la potencia o raíz."
+        }
+      ]
+    }
+  ]
+}

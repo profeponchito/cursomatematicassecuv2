@@ -1,0 +1,74 @@
+{
+  "id": "OB-17-06",
+  "grado": "Operaciones Básicas",
+  "numero": 134,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Multiplicación de fracciones — Momento 6/8",
+  "contenido": "Multiplicación de fracciones, multiplicando numeradores entre sí y denominadores entre sí, simplificando el resultado.",
+  "pda": "Multiplica fracciones y simplifica el resultado a su expresión más simple.",
+  "problematizacion": {
+    "contexto": "Una carpintera, la maestra Ceci, corta una tabla en tres pasos para hacer una repisa: primero usa 2/3 de la tabla original, luego usa 3/5 de ese pedazo para ajustarlo al hueco de la pared, y por último recorta 1/2 de esa pieza para nivelarla.",
+    "pregunta": "¿Qué fracción de la tabla original quedó en la repisa final, después de los tres cortes?"
+  },
+  "subtemas": [
+    {
+      "numero": "17.6",
+      "nivelEtiqueta": "Nivel 6 de 8 · Avanzado",
+      "titulo": "Encadena tres fracciones",
+      "explicacion": "El mismo procedimiento de multiplicar numeradores entre sí y denominadores entre sí funciona sin importar cuántas fracciones multipliques a la vez: con tres fracciones, multiplicas los tres numeradores para obtener el numerador final, y los tres denominadores para obtener el denominador final. Es buena idea simplificar al final, o incluso ir cancelando factores comunes antes de multiplicar todo, para trabajar con números más pequeños. El orden en que multipliques las fracciones no cambia el resultado.",
+      "formula": "a/b × c/d × e/g = (a×c×e)/(b×d×g)",
+      "ejemplos": [
+        "1/2 × 2/3 × 3/4 = (1×2×3)/(2×3×4) = 6/24 = 1/4",
+        "2/5 × 5/6 × 3/4 = (2×5×3)/(5×6×4) = 30/120 = 1/4"
+      ],
+      "puntosPorReactivo": 20,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "1/2 × 2/3 × 3/4 = ?",
+          "opciones": [
+            "1/4",
+            "6/24 sin simplificar",
+            "1/3",
+            "2/9"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "1×2×3=6 y 2×3×4=24, entonces 6/24; dividiendo entre 6 se simplifica a 1/4."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "2/3 × 3/5 × 1/2 = ?",
+          "opciones": [
+            "1/6",
+            "1/5",
+            "6/30 sin simplificar",
+            "2/5"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "2×3×1=6 y 3×5×2=30, entonces 6/30; dividiendo entre 6 se simplifica a 1/5."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "3/4 × 2/5 × 5/6 da como resultado, ya simplificado, 1/4.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "3×2×5=30 y 4×5×6=120, entonces 30/120; dividiendo entre 30 se simplifica a 1/4."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "1/3 × 3/4 × 2/5 ya simplificado es ___",
+          "respuestaCorrecta": "1/10",
+          "retroalimentacion": "1×3×2=6 y 3×4×5=60, entonces 6/60; dividiendo entre 6 se simplifica a 1/10."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En una multiplicación de tres fracciones, cambiar el orden de los factores puede cambiar el resultado final.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "El orden de los factores no altera el producto: multiplicar 2/3 × 3/5 × 1/2 da el mismo resultado que 1/2 × 2/3 × 3/5."
+        }
+      ]
+    }
+  ]
+}

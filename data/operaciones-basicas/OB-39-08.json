@@ -1,0 +1,114 @@
+{
+  "id": "OB-39-08",
+  "grado": "Operaciones Básicas",
+  "numero": 312,
+  "categoria": "potencias_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Potencias y raíces en la vida cotidiana — Momento 8/8",
+  "contenido": "Potencias y raíces aplicadas a situaciones cotidianas: área de cuadrados, volumen de cubos, crecimiento repetido.",
+  "pda": "Resuelve problemas cotidianos de área y volumen que requieren calcular una potencia o una raíz.",
+  "problematizacion": {
+    "contexto": "En la Feria de Ciencias y Matemáticas de la escuela, distintos equipos presentan sus stands: uno mide el área de mesas cuadradas de exhibición, otro calcula el volumen de cajas cúbicas de un programa de reciclaje, y otro simula el crecimiento de una población de insectos en un terrario.",
+    "pregunta": "Si el stand de reciclaje usa cajas cúbicas de arista 7 dm y el de población parte de 3 insectos que se cuadriplican cada semana, ¿qué cálculo hace falta en cada caso: una potencia o una raíz?"
+  },
+  "subtemas": [
+    {
+      "numero": "39.8",
+      "nivelEtiqueta": "Nivel 8 de 8 · Integración",
+      "titulo": "Integración: área, volumen, crecimiento y raíces que no son exactas",
+      "explicacion": "En este último momento se integran todas las ideas del tema: calcular potencias para hallar áreas, volúmenes o crecimientos repetidos, y calcular raíces exactas para regresar del área al lado o del volumen a la arista. Además, se agrega una idea nueva: no todos los números tienen raíz cuadrada exacta, pero siempre se puede estimar entre qué dos números enteros consecutivos se encuentra, comparando con los cuadrados perfectos más cercanos. Por ejemplo, √90 está entre 9 y 10 porque 9²=81 y 10²=100, y 81<90<100.",
+      "formula": "√n está entre a y b si a² < n < b²",
+      "ejemplos": [
+        "√90 está entre 9 y 10, porque 9²=81, 10²=100 y 81<90<100",
+        "El volumen de un cubo de arista 5 cm es 5³ = 125 cm³"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El stand de reciclaje usa cajas cúbicas de arista 7 dm. ¿Cuál es su volumen?",
+          "opciones": [
+            "49 dm³",
+            "147 dm³",
+            "343 dm³",
+            "21 dm³"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Volumen = arista³ = 7³ = 343 dm³."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El área de una mesa cuadrada del stand es 169 dm². Cada lado mide ___ dm.",
+          "respuestaCorrecta": "13",
+          "retroalimentacion": "√169 = 13, porque 13² = 169."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La raíz cuadrada de 50 está entre 7 y 8.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "7²=49 y 8²=64. Como 49<50<64, entonces √50 está entre 7 y 8."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un stand simula una población que parte de 3 insectos y se cuadriplica cada semana. Después de 2 semanas, ¿cuántas veces la cantidad inicial hay?",
+          "opciones": [
+            "8",
+            "12",
+            "16",
+            "64"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Se cuadriplica 2 veces seguidas: 4² = 16 veces la cantidad inicial."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada raíz cuadrada no exacta con el par de enteros consecutivos entre los que se encuentra.",
+          "columnaA": [
+            "√20",
+            "√75",
+            "√10"
+          ],
+          "columnaB": [
+            "3 y 4",
+            "4 y 5",
+            "8 y 9"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "√20 está entre 4 y 5 (16<20<25); √75 está entre 8 y 9 (64<75<81); √10 está entre 3 y 4 (9<10<16)."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Una caja cúbica de reciclaje tiene un volumen de 512 dm³. ¿Cuánto mide su arista?",
+      "opciones": [
+        "6 dm",
+        "7 dm",
+        "8 dm",
+        "9 dm"
+      ],
+      "respuestaCorrecta": 2,
+      "retroalimentacion": "∛512 = 8, porque 8³ = 512."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Una población de bacterias inicia con 2 y se duplica cada hora. Después de 6 horas, hay ___ veces la cantidad inicial.",
+      "respuestaCorrecta": "64",
+      "retroalimentacion": "Se duplica 6 veces seguidas: 2⁶ = 64 veces la cantidad inicial."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "La raíz cuadrada de 200 está entre 14 y 15.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "14²=196 y 15²=225. Como 196<200<225, entonces √200 está entre 14 y 15."
+    }
+  ]
+}

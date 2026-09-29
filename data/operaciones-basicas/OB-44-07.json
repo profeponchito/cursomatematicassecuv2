@@ -1,0 +1,74 @@
+{
+  "id": "OB-44-07",
+  "grado": "Operaciones Básicas",
+  "numero": 351,
+  "categoria": "integracion",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Repaso integrador de operaciones básicas — Momento 7/8",
+  "contenido": "Repaso final que mezcla suma, resta, multiplicación, división, potencias y raíces en distintos tipos de número (naturales, decimales, fracciones, con signo), como cierre del apartado.",
+  "pda": "Resuelve problemas variados que integran suma, resta, multiplicación, división, potencias y raíces como repaso final del apartado.",
+  "problematizacion": {
+    "contexto": "En un taller mecánico de Puebla, el mecánico Rodrigo calcula el costo de una reparación combinando el precio de una refacción con un cargo extra de mano de obra que depende de una potencia, según qué tan compleja fue la falla del coche.",
+    "pregunta": "Si el taller cobra $50 de refacción más 2 veces el cuadrado de 3 horas de mano de obra, ¿cuál sería aproximadamente el costo total antes de impuestos?"
+  },
+  "subtemas": [
+    {
+      "numero": "44.7",
+      "nivelEtiqueta": "Nivel 7 de 8 · Reto",
+      "titulo": "Jerarquía de operaciones: expresiones combinadas",
+      "explicacion": "En este momento combinamos varias operaciones en una sola expresión, así que necesitamos respetar la jerarquía de operaciones: primero lo que está entre paréntesis, después potencias y raíces, luego multiplicaciones y divisiones, y al final sumas y restas, de izquierda a derecha. Este orden evita ambigüedades y es el mismo que usan las calculadoras científicas.",
+      "formula": "Paréntesis → potencias y raíces → multiplicación y división → suma y resta",
+      "ejemplos": [
+        "3 + 2 × 5^2 = 3 + 2 × 25 = 3 + 50 = 53",
+        "(8 - 2) × √9 - 4 = 6 × 3 - 4 = 18 - 4 = 14"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 4 + 3 × 2^3?",
+          "opciones": [
+            "28",
+            "56",
+            "22",
+            "20"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Primero la potencia: 2^3=8; luego la multiplicación: 3×8=24; al final la suma: 4+24=28."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "10 - 2^2 × 2 = 16",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: primero 2^2=4, luego 4×2=8, y por último 10-8=2, no 16."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "√25 + 3 × (-2) = ___",
+          "respuestaCorrecta": "-1",
+          "retroalimentacion": "√25=5; 3×(-2)=-6; 5+(-6)=-1."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "(6 - 1)^2 ÷ 5 = ___",
+          "respuestaCorrecta": "5",
+          "retroalimentacion": "Primero el paréntesis: 6-1=5; luego la potencia: 5^2=25; al final la división: 25÷5=5."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 2 × (3 + √16) - 5?",
+          "opciones": [
+            "9",
+            "13",
+            "5",
+            "19"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "√16=4; dentro del paréntesis 3+4=7; luego 2×7=14; al final 14-5=9."
+        }
+      ]
+    }
+  ]
+}

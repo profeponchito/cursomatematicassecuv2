@@ -1,0 +1,116 @@
+{
+  "id": "OB-33-08",
+  "grado": "Operaciones Básicas",
+  "numero": 264,
+  "categoria": "potencias_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Potencias con signo (exponente par e impar) — Momento 8/8",
+  "contenido": "Potencias de una base negativa, distinguiendo el signo del resultado según si el exponente es par o impar.",
+  "pda": "Calcula potencias de base negativa, determinando el signo del resultado según la paridad del exponente.",
+  "problematizacion": {
+    "contexto": "La doctora Renata, bióloga, registra en su laboratorio variaciones de temperatura de un experimento usando potencias de base negativa: unas fórmulas llevan paréntesis y otras no, y una sola confusión de signo podría hacerle reportar un resultado equivocado a su equipo.",
+    "pregunta": "Antes de entregar su reporte, ¿qué necesita revisar Renata para asegurarse de que el signo de cada resultado sea el correcto?"
+  },
+  "subtemas": [
+    {
+      "numero": "33.8",
+      "nivelEtiqueta": "Nivel 8 de 8 · Integración",
+      "titulo": "Integra todo: signo, valor exacto y contexto",
+      "explicacion": "Este es el momento integrador del tema: combinarás en los mismos reactivos la identificación del signo por paridad, el cálculo del valor exacto, la trampa de los paréntesis (-a^n contra (-a)^n) y las potencias de fracciones o decimales negativos, tal como podrían aparecer mezcladas en una situación real.",
+      "ejemplos": [
+        "(-4)^5 = -1024 (exponente impar → negativo)",
+        "-4^2 = -16 pero (-4)^2 = 16 (el paréntesis cambia el resultado)"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es (-4)^5?",
+          "opciones": [
+            "1024",
+            "-1024",
+            "20",
+            "-20"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "(-4)^5 = -1024, negativo porque el exponente 5 es impar."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada expresión con su resultado correcto.",
+          "columnaA": [
+            "-4^2",
+            "(-4)^2",
+            "(-2)^8",
+            "(-1/2)^4"
+          ],
+          "columnaB": [
+            "16",
+            "-16",
+            "256",
+            "1/16"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            2,
+            3
+          ],
+          "retroalimentacion": "-4^2=-16, (-4)^2=16, (-2)^8=256 y (-1/2)^4=1/16."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "(-3)^2 + (-2)^3 = ___",
+          "respuestaCorrecta": "1",
+          "retroalimentacion": "(-3)^2 = 9 y (-2)^3 = -8, entonces 9 + (-8) = 1."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "-4^2 y (-4)^2 valen lo mismo.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: -4^2 = -16 y (-4)^2 = 16; el paréntesis cambia el resultado porque el exponente es par."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una medición de laboratorio se calcula como (-2)^8 micras de variación. ¿Cuál es el signo de esa variación?",
+          "opciones": [
+            "Positivo",
+            "Negativo",
+            "Cero",
+            "Depende del instrumento"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "8 es par, así que (-2)^8 es positivo (su valor exacto es 256)."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuánto es (-2)^8?",
+      "opciones": [
+        "256",
+        "-256",
+        "16",
+        "-16"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "(-2)^8 = 256, positivo porque el exponente 8 es par."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "(-5)^3 - (-5)^2 = ___",
+      "respuestaCorrecta": "-150",
+      "retroalimentacion": "(-5)^3 = -125 y (-5)^2 = 25, entonces -125 - 25 = -150."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Entre -4^2 y (-4)^2, el segundo es mayor.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: -4^2 = -16 y (-4)^2 = 16, así que (-4)^2 es mayor."
+    }
+  ]
+}

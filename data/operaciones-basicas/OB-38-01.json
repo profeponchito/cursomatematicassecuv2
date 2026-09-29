@@ -1,0 +1,89 @@
+{
+  "id": "OB-38-01",
+  "grado": "Operaciones Básicas",
+  "numero": 297,
+  "categoria": "potencias_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Relación entre potencias y raíces — Momento 1/8",
+  "contenido": "La raíz como operación inversa de la potencia, verificando una raíz al elevar el resultado a la potencia correspondiente.",
+  "pda": "Explica y verifica la relación inversa entre potencias y raíces, comprobando una raíz al elevarla a la potencia correspondiente.",
+  "problematizacion": {
+    "contexto": "En la tienda escolar de la secundaria, Mariana acomoda azulejos cuadrados para decorar un mural. Cada azulejo cubre exactamente 1 metro cuadrado y ella sabe que el mural completo mide 64 metros cuadrados en forma de cuadrado perfecto. Antes de cortar más azulejos, quiere confirmar cuánto mide cada lado del mural.",
+    "pregunta": "¿Qué número, al elevarlo al cuadrado, comprueba que el lado del mural mide 8 metros?"
+  },
+  "subtemas": [
+    {
+      "numero": "38.1",
+      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
+      "titulo": "La raíz deshace la potencia",
+      "explicacion": "La raíz cuadrada de un número es la operación inversa de elevarlo al cuadrado: si conoces el resultado de una raíz, puedes comprobarlo elevando ese resultado al cuadrado y viendo si regresas al número original. Por ejemplo, la raíz cuadrada de 49 es 7 porque 7 × 7 = 49. Esta comprobación funciona siempre: potencia y raíz del mismo grado se cancelan entre sí. En este momento practicarás esa comprobación con raíces cuadradas de números pequeños y conocidos.",
+      "formula": "Si a² = b, entonces √b = a",
+      "ejemplos": [
+        "√81 = 9 porque 9 × 9 = 81, y como sí da 81, la raíz es correcta.",
+        "√36 = 6 porque 6 × 6 = 36; se comprueba elevando 6 al cuadrado."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la raíz cuadrada de 49?",
+          "opciones": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "7 × 7 = 49, por eso √49 = 7."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Para comprobar que √36 = 6, basta con calcular 6 × 6 y ver si el resultado es 36.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: elevar el resultado al cuadrado es la forma de comprobar una raíz cuadrada."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si 9 × 9 = 81, entonces √81 = ___.",
+          "respuestaCorrecta": "9",
+          "retroalimentacion": "La raíz cuadrada de 81 es 9, porque 9² = 81."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada raíz con la multiplicación que la comprueba.",
+          "columnaA": [
+            "√25",
+            "√64",
+            "√100"
+          ],
+          "columnaB": [
+            "5 × 5 = 25",
+            "6 × 6 = 36",
+            "8 × 8 = 64",
+            "10 × 10 = 100"
+          ],
+          "parejasCorrectas": [
+            0,
+            2,
+            3
+          ],
+          "retroalimentacion": "√25 = 5 (5×5=25), √64 = 8 (8×8=64), √100 = 10 (10×10=100)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál operación comprueba que √16 = 4?",
+          "opciones": [
+            "4 + 4",
+            "4 × 4",
+            "4 × 2",
+            "4 × 4 × 4"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "4 × 4 = 16, así se comprueba que la raíz cuadrada de 16 es 4."
+        }
+      ]
+    }
+  ]
+}

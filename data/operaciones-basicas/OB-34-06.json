@@ -1,0 +1,89 @@
+{
+  "id": "OB-34-06",
+  "grado": "Operaciones Básicas",
+  "numero": 270,
+  "categoria": "potencias_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Producto y cociente de potencias de igual base — Momento 6/8",
+  "contenido": "Las propiedades básicas de las potencias: producto de potencias de igual base (se suman exponentes) y cociente de potencias de igual base (se restan exponentes).",
+  "pda": "Aplica las propiedades del producto y el cociente de potencias de la misma base para simplificar expresiones sencillas.",
+  "problematizacion": {
+    "contexto": "En una cooperativa escolar de ahorro, el fondo de este mes se reporta como 9^5 pesos (en fichas de valor) y, al revisar el registro, el fondo del mes pasado también fue de 9^5 pesos exactamente, con las mismas fichas.",
+    "pregunta": "Si divides el fondo de este mes (9^5) entre el fondo del mes pasado (9^5), ¿qué potencia obtienes y qué te dice ese resultado sobre el ahorro de la cooperativa?"
+  },
+  "subtemas": [
+    {
+      "numero": "34.6",
+      "nivelEtiqueta": "Nivel 6 de 8 · Avanzado",
+      "titulo": "Exponente cero y exponente negativo",
+      "explicacion": "Cuando en un cociente de potencias de igual base los dos exponentes son iguales, el resultado es esa base elevada a 0, y cualquier número distinto de cero elevado a 0 vale 1. Si en cambio el exponente de arriba es menor que el de abajo, el resultado es un exponente negativo, que significa 'uno entre esa potencia': a^-n = 1/a^n. La regla de restar exponentes sigue siendo la misma, solo que ahora el resultado puede salir en 0 o en negativo.",
+      "formula": "a^m ÷ a^m = a^0 = 1  |  a^m ÷ a^n (con n > m) = a^(m-n) = 1/a^(n-m)",
+      "ejemplos": [
+        "7^4 ÷ 7^4 = 7^0 = 1",
+        "2^3 ÷ 2^5 = 2^-2 = 1/2^2 = 1/4"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Simplifica 9^5 ÷ 9^5.",
+          "opciones": [
+            "9^0 = 1",
+            "9^10",
+            "9^25",
+            "0"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Los exponentes son iguales: 5 - 5 = 0, y cualquier base distinta de cero elevada a 0 vale 1."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Simplifica 2^3 ÷ 2^5.",
+          "opciones": [
+            "2^-2 = 1/4",
+            "2^-2 = 1/2",
+            "2^2 = 4",
+            "2^8"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Se restan los exponentes: 3 - 5 = -2, y 2^-2 = 1/2^2 = 1/4."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "4^2 ÷ 4^5 es igual a 4^3.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: al restar los exponentes da 2 - 5 = -3, no +3. El resultado correcto es 4^-3 = 1/4^3."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Cualquier número (distinto de cero) elevado a la potencia 0 es igual a ___.",
+          "respuestaCorrecta": "1",
+          "retroalimentacion": "Por definición, a^0 = 1 siempre que a sea distinto de cero."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada cociente de potencias con su resultado simplificado.",
+          "columnaA": [
+            "8^6 ÷ 8^6",
+            "5^2 ÷ 5^6",
+            "3^4 ÷ 3^4"
+          ],
+          "columnaB": [
+            "8^0 = 1",
+            "5^-4 = 1/625",
+            "3^0 = 1",
+            "5^4 = 625"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "8^6÷8^6=8^0=1; 5^2÷5^6=5^-4=1/625; 3^4÷3^4=3^0=1."
+        }
+      ]
+    }
+  ]
+}

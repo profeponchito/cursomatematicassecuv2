@@ -1,0 +1,87 @@
+{
+  "id": "OB-18-06",
+  "grado": "Operaciones Básicas",
+  "numero": 142,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Multiplicación de números con signo — Momento 6/8",
+  "contenido": "Multiplicación de números enteros con signo, aplicando la regla de signos (positivo × positivo, positivo × negativo, negativo × negativo).",
+  "pda": "Multiplica números enteros con signo aplicando correctamente la regla de los signos.",
+  "problematizacion": {
+    "contexto": "Un electricista de Mérida calcula el costo final de un trabajo aplicando varios descuentos y recargos seguidos: primero un descuento por cliente frecuente, luego un recargo por urgencia, y así sucesivamente, cada uno representado como un factor con su propio signo dentro de la misma operación.",
+    "pregunta": "Si un trabajo tiene un número impar de descuentos aplicados como factores negativos, ¿el resultado final de la operación es positivo o negativo?"
+  },
+  "subtemas": [
+    {
+      "numero": "18.6",
+      "nivelEtiqueta": "Nivel 6 de 8 · Avanzado",
+      "titulo": "Multiplicación con tres o más factores con signo",
+      "explicacion": "Cuando multiplicas tres o más números con signo, puedes calcular el signo final sin hacer toda la cuenta: solo cuenta cuántos factores son negativos. Si el número de factores negativos es PAR (0, 2, 4...), el resultado es positivo; si es IMPAR (1, 3, 5...), el resultado es negativo. Después multiplicas todos los valores absolutos normalmente para obtener el número final. Esta estrategia es más rápida y evita confusiones cuando hay varios signos negativos juntos.",
+      "formula": "Número par de factores negativos → resultado positivo. Número impar de factores negativos → resultado negativo.",
+      "ejemplos": [
+        "(-2) × (-3) × (-4): tres factores negativos (impar) → resultado negativo; 2×3×4=24, entonces el resultado es -24."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el signo del resultado de (-2) × (-3) × (-4)?",
+          "opciones": [
+            "Negativo",
+            "Positivo",
+            "Cero",
+            "No se puede saber"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Hay tres factores negativos, un número impar, así que el resultado es negativo: -24."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "(-2) × 5 × (-3) = ___",
+          "respuestaCorrecta": "30",
+          "retroalimentacion": "Hay dos factores negativos (par), así que el resultado es positivo: 2×5×3=30."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El producto de cuatro números negativos siempre es negativo.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso. Cuatro es un número par de factores negativos, así que el resultado siempre es positivo."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado de (-1) × (-1) × (-1) × 6?",
+          "opciones": [
+            "-6",
+            "6",
+            "-3",
+            "3"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Hay tres factores negativos (impar), así que el resultado es negativo: 1×1×1×6=6, entonces -6."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada multiplicación con el signo de su resultado.",
+          "columnaA": [
+            "(-3) × (-2) × (-1)",
+            "(-4) × 5 × (-2)",
+            "2 × (-3) × 4"
+          ],
+          "columnaB": [
+            "Negativo",
+            "Positivo",
+            "Cero"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            0
+          ],
+          "retroalimentacion": "(-3)×(-2)×(-1) tiene 3 negativos → negativo. (-4)×5×(-2) tiene 2 negativos → positivo. 2×(-3)×4 tiene 1 negativo → negativo."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "id": "OB-04-07",
+  "grado": "Operaciones Básicas",
+  "numero": 31,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma y resta de naturales grandes por posición — Momento 7/8",
+  "contenido": "Suma y resta de números de varias cifras (miles, decenas de mil), reforzando el valor posicional como base del algoritmo.",
+  "pda": "Suma y resta números naturales de varias cifras, descomponiendo cada número por su valor posicional (unidades, decenas, centenas, miles).",
+  "problematizacion": {
+    "contexto": "Don Beto es dueño de la tienda de abarrotes 'La Esperanza', en Puebla. Su inventario vale $58,340 pesos, un fin de semana vendió mercancía por $23,675 pesos y el lunes le llegó un pedido nuevo por $12,480 pesos.",
+    "pregunta": "¿Cuánto vale el inventario de la tienda de Don Beto después de la venta y del pedido nuevo?"
+  },
+  "subtemas": [
+    {
+      "numero": "4.7",
+      "nivelEtiqueta": "Nivel 7 de 8 · Reto",
+      "titulo": "Decidir entre sumar y restar en un mismo problema",
+      "explicacion": "En este momento el reto ya no es solo calcular bien, sino decidir qué operación conviene usar en cada parte de una situación: a veces hay que sumar y luego restar (o al revés) para llegar a la respuesta final. Vas a resolver problemas de dos pasos con números grandes, aplicando todo lo que ya dominas de acarreo y préstamo, pero ahora leyendo con cuidado qué pide cada parte del problema.",
+      "formula": "Identifica cada acción del problema (entra/sale, gana/pierde) y elige suma o resta para cada paso",
+      "ejemplos": [
+        "Una tienda tenía $58,340 en inventario, vendió $23,675 y luego recibió un pedido de $12,480. Primero se resta lo vendido: 58,340 - 23,675 = 34,665. Después se suma el pedido nuevo: 34,665 + 12,480 = 47,145."
+      ],
+      "puntosPorReactivo": 15,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El inventario de Don Beto valía $58,340. Vendió $23,675 y después recibió mercancía por $12,480. ¿Cuánto vale el inventario ahora?",
+          "opciones": [
+            "$46,145",
+            "$47,145",
+            "$48,145",
+            "$47,245"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Primero 58,340 - 23,675 = 34,665 (lo que quedó tras la venta), y luego 34,665 + 12,480 = 47,145 (con el pedido nuevo)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Para resolver 'tenía $58,340, vendí $23,675 y me llegaron $12,480 más', la operación correcta es sumar los tres números entre sí.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: vender significa que el dinero sale (se resta) y que llegue mercancía significa que entra (se suma); no se suman los tres números por igual."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "71,523 - 38,659 = ___.",
+          "respuestaCorrecta": "32864",
+          "retroalimentacion": "Con varios préstamos encadenados, 71,523 - 38,659 = 32,864."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "71523"
+            },
+            {
+              "valor": "38659",
+              "signo": "-"
+            },
+            {
+              "valor": "32864",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              4
+            ]
+          ],
+          "retroalimentacion": "71,523 - 38,659 = 32,864. Casi todas las columnas necesitan préstamo, así que conviene ir de derecha a izquierda sin saltarse ninguna."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación de la tienda con la operación que le corresponde.",
+          "columnaA": [
+            "Llegó un camión con mercancía nueva",
+            "Se vendieron productos durante el día",
+            "Se devolvió mercancía dañada al proveedor"
+          ],
+          "columnaB": [
+            "Se suma al inventario",
+            "Se resta del inventario",
+            "No afecta el inventario"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            1
+          ],
+          "retroalimentacion": "Lo que entra al inventario se suma; lo que sale (venta o devolución al proveedor) se resta."
+        }
+      ]
+    }
+  ]
+}

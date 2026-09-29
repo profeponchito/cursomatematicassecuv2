@@ -1,0 +1,89 @@
+{
+  "id": "OB-34-04",
+  "grado": "Operaciones Básicas",
+  "numero": 268,
+  "categoria": "potencias_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Producto y cociente de potencias de igual base — Momento 4/8",
+  "contenido": "Las propiedades básicas de las potencias: producto de potencias de igual base (se suman exponentes) y cociente de potencias de igual base (se restan exponentes).",
+  "pda": "Aplica las propiedades del producto y el cociente de potencias de la misma base para simplificar expresiones sencillas.",
+  "problematizacion": {
+    "contexto": "En la central camionera de Toluca, la línea 'Trans-Valle' organiza su flotilla: cada autobús circula x rutas foráneas al día, y la empresa tiene x² autobuses circulando con ese mismo patrón, repartidos en x³ terminales del Estado de México con la misma organización.",
+    "pregunta": "Si multiplicas x² autobuses por cada una de las x³ terminales, ¿qué potencia de x representa el total de autobuses en esas terminales?"
+  },
+  "subtemas": [
+    {
+      "numero": "34.4",
+      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
+      "titulo": "Producto y cociente con base literal",
+      "explicacion": "Las propiedades del producto y el cociente de potencias de igual base también funcionan cuando la base es una literal, es decir, una letra que representa un número, como x, y o z. La regla no cambia en absoluto: sigues sumando los exponentes en el producto y restándolos en el cociente, solo que ahora la base se escribe con letra en vez de número.",
+      "formula": "x^m · x^n = x^(m+n)  |  y^m ÷ y^n = y^(m-n)",
+      "ejemplos": [
+        "x^3 · x^5 = x^8",
+        "y^7 ÷ y^2 = y^5"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Simplifica x^4 · x^3.",
+          "opciones": [
+            "x^7",
+            "x^12",
+            "x^4",
+            "x^3"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Se suman los exponentes porque la base x es la misma: 4 + 3 = 7, entonces x^4 · x^3 = x^7."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Simplifica y^9 ÷ y^4.",
+          "opciones": [
+            "y^5",
+            "y^13",
+            "y^36",
+            "y^4"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Se restan los exponentes porque la base y es la misma: 9 - 4 = 5, entonces y^9 ÷ y^4 = y^5."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "z^6 ÷ z^2 es igual a z^4.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 6 - 2 = 4, entonces z^6 ÷ z^2 = z^4."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Al simplificar a^5 · a^3, obtienes a elevado a la ___.",
+          "respuestaCorrecta": "8",
+          "retroalimentacion": "Se suman los exponentes: 5 + 3 = 8, entonces a^5 · a^3 = a^8."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada expresión con base literal con su resultado simplificado.",
+          "columnaA": [
+            "b^2 · b^6",
+            "b^9 ÷ b^3",
+            "b^7 ÷ b^2"
+          ],
+          "columnaB": [
+            "b^8",
+            "b^6",
+            "b^5",
+            "b^10"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "b^2·b^6=b^8 (se suma), b^9÷b^3=b^6 (se resta), b^7÷b^2=b^5 (se resta)."
+        }
+      ]
+    }
+  ]
+}

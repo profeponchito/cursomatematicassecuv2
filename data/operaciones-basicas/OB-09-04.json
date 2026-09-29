@@ -1,0 +1,73 @@
+{
+  "id": "OB-09-04",
+  "grado": "Operaciones Básicas",
+  "numero": 68,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma y resta de números con signo (mismo signo) — Momento 4/8",
+  "contenido": "Suma y resta de números enteros con signo cuando ambos números tienen el mismo signo.",
+  "pda": "Suma y resta números enteros con el mismo signo, relacionando la regla con la suma de valores absolutos.",
+  "problematizacion": {
+    "contexto": "Un montacargas en una mina de Zacatecas se encuentra a 12 metros bajo el nivel de la superficie. Para llegar a una nueva veta, el operador debe bajarlo 9 metros más.",
+    "pregunta": "Si la posición bajo la superficie se resta como si fuera un descenso adicional, ¿a qué profundidad queda el montacargas?"
+  },
+  "subtemas": [
+    {
+      "numero": "9.4",
+      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
+      "titulo": "Restar un positivo de un negativo",
+      "explicacion": "Ahora agregamos una dificultad nueva: una resta que, en realidad, se comporta igual que la suma de dos números con el mismo signo. Cuando a un número negativo le restas un número positivo, te alejas todavía más de cero en la dirección negativa; es exactamente lo mismo que sumar dos negativos, porque restar un positivo equivale a sumar su negativo: (-a) - (+b) = (-a) + (-b).",
+      "formula": "(-a) - (+b) = -(a + b)",
+      "ejemplos": [
+        "Ejemplo: -12 - 9. Esto equivale a -12 + -9, así que sumamos los valores absolutos: 12 + 9 = 21, y el resultado lleva signo negativo: -12 - 9 = -21."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "-12 - 9 = ?",
+          "opciones": [
+            "-21",
+            "-3",
+            "3",
+            "21"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "-12 - 9 equivale a -12 + -9 = -(12+9) = -21."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "-25 - 14 = ___",
+          "respuestaCorrecta": "-39",
+          "retroalimentacion": "-25 - 14 equivale a -25 + -14 = -(25+14) = -39."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "-30 - 8 es lo mismo que -30 + -8, y su resultado es -38.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: restar 8 a -30 equivale a sumarle -8, y 30 + 8 = 38, con signo negativo: -38."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "-17 - 19 = ?",
+          "opciones": [
+            "-36",
+            "-2",
+            "2",
+            "36"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "-17 - 19 equivale a -17 + -19 = -(17+19) = -36."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "-33 - 6 = ___",
+          "respuestaCorrecta": "-39",
+          "retroalimentacion": "-33 - 6 equivale a -33 + -6 = -(33+6) = -39."
+        }
+      ]
+    }
+  ]
+}

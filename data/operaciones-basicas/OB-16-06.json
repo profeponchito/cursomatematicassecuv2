@@ -1,0 +1,102 @@
+{
+  "id": "OB-16-06",
+  "grado": "Operaciones Básicas",
+  "numero": 126,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Multiplicación de decimales — Momento 6/8",
+  "contenido": "Multiplicación de números decimales, calculando el producto como si fueran enteros y colocando el punto según el total de cifras decimales.",
+  "pda": "Multiplica números decimales, determinando correctamente la posición del punto decimal en el resultado.",
+  "problematizacion": {
+    "contexto": "El jardinero del fraccionamiento prepara una mezcla fumigante para las plantas: por cada 0.4 litros de agua debe agregar 0.09 litros de producto concentrado, y hoy necesita preparar varias mezclas para cubrir todo el jardín.",
+    "pregunta": "¿Cuánto concentrado necesitará si prepara el doble de esa mezcla base?"
+  },
+  "subtemas": [
+    {
+      "numero": "16.6",
+      "nivelEtiqueta": "Nivel 6 de 8 · Avanzado",
+      "titulo": "Cuando hay que agregar ceros",
+      "explicacion": "A veces el producto de los dígitos, sin punto, tiene MENOS cifras que la cantidad de cifras decimales que se deben separar. En esos casos hay que agregar uno o más ceros a la izquierda del número (antes del primer dígito) para completar las cifras decimales que corresponden, antes de colocar el punto. Es un paso que se olvida fácilmente, así que conviene contar con mucho cuidado las cifras decimales antes de escribir el resultado final.",
+      "formula": "Si el producto entero tiene menos cifras que las decimales requeridas, completa con ceros a la izquierda antes de poner el punto.",
+      "ejemplos": [
+        "0.08 × 0.3: 8 × 3 = 24; se necesitan 2+1=3 cifras decimales, pero 24 solo tiene 2 cifras, así que se agrega un cero: 0.024.",
+        "0.05 × 0.4: 5 × 4 = 20; se necesitan 2+1=3 cifras decimales, y 20 tiene 2 cifras, se agrega un cero: 0.020, es decir 0.02."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 0.08 × 0.3?",
+          "opciones": [
+            "0.24",
+            "0.024",
+            "0.0024",
+            "2.4"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "8 × 3 = 24; se necesitan 3 cifras decimales (2+1), así que se agrega un cero: 0.024."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "0.05 × 0.4 = 0.2",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "5 × 4 = 20; se necesitan 3 cifras decimales (2+1), y 20 solo tiene 2, así que se agrega un cero: el resultado correcto es 0.020, es decir 0.02, no 0.2."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "0.06 × 0.5 = ___",
+          "respuestaCorrecta": "0.03",
+          "retroalimentacion": "6 × 5 = 30; se necesitan 3 cifras decimales (2+1); se agrega un cero: 0.030, es decir 0.03."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "0.09"
+            },
+            {
+              "valor": "0.2",
+              "signo": "×"
+            },
+            {
+              "valor": "0.018",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "9 × 2 = 18, pero se necesitan 3 cifras decimales (2 de 0.09 + 1 de 0.2), así que se agrega un cero antes: 0.018."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada multiplicación con su resultado.",
+          "columnaA": [
+            "0.07 × 0.4",
+            "0.04 × 0.3",
+            "0.09 × 0.5"
+          ],
+          "columnaB": [
+            "0.028",
+            "0.012",
+            "0.045",
+            "0.056"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "0.07×0.4=0.028, 0.04×0.3=0.012 y 0.09×0.5=0.045; en los tres casos se completan las cifras decimales con ceros."
+        }
+      ]
+    }
+  ]
+}

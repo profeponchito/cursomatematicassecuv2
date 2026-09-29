@@ -1,0 +1,91 @@
+{
+  "id": "OB-13-06",
+  "grado": "Operaciones Básicas",
+  "numero": 102,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Multiplicación de un dígito (tablas y cálculo mental) — Momento 6/8",
+  "contenido": "Multiplicación de un número de varias cifras por un solo dígito, apoyada en las tablas de multiplicar.",
+  "pda": "Multiplica números naturales por un dígito usando las tablas de multiplicar y estrategias de cálculo mental.",
+  "problematizacion": {
+    "contexto": "Un taller mecánico en Monterrey compra refacciones al mayoreo. Cada caja de bujías cuesta $700 pesos y el dueño necesita comprar 8 cajas para surtir el taller durante el semestre, calculando rápido el gasto total antes de ir al banco.",
+    "pregunta": "¿Cómo puede el dueño calcular mentalmente el costo total de las 8 cajas usando el hecho de que 700 tiene dos ceros?"
+  },
+  "subtemas": [
+    {
+      "numero": "13.6",
+      "nivelEtiqueta": "Nivel 6 de 8 · Avanzado",
+      "titulo": "Multiplicar por múltiplos de 10, 100 y 1000, y estimar",
+      "explicacion": "Cuando uno de los factores termina en ceros (como 300, 4000 o 90), puedes multiplicar solamente los dígitos distintos de cero y después agregar al resultado la misma cantidad de ceros que tenía el número original. Esta idea también sirve para estimar: si un número no es exactamente redondo pero está cerca de uno (como 398, cercano a 400), puedes redondearlo, multiplicar el número redondo y obtener un resultado aproximado muy útil para calcular rápido o revisar si una respuesta tiene sentido. Una estimación no sustituye al cálculo exacto, pero te ayuda a detectar errores grandes.",
+      "formula": "(dígitos distintos de cero) × factor, y después se agregan los ceros que tenía el número original",
+      "ejemplos": [
+        "8×700: multiplicas 8×7=56 y agregas los dos ceros de 700 → 5,600.",
+        "6×398 (estimación): redondeas 398 a 400, calculas 6×400=2,400, que está muy cerca del resultado real (2,388)."
+      ],
+      "puntosPorReactivo": 20,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 8×700?",
+          "opciones": [
+            "5600",
+            "5060",
+            "560",
+            "56000"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "8×7=56, y como 700 tiene dos ceros, el resultado es 5,600."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "6×4000 = ___",
+          "respuestaCorrecta": "24000",
+          "retroalimentacion": "6×4=24, y como 4000 tiene tres ceros, el resultado es 24,000."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "9×90 es igual a 810.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 9×9=81, y 90 tiene un cero, entonces 9×90=810."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Para estimar 6×398 redondeando 398 al múltiplo de 100 más cercano (400), ¿cuál es la estimación?",
+          "opciones": [
+            "2400",
+            "2388",
+            "2500",
+            "2340"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "6×400=2,400 es la estimación; el resultado exacto (6×398=2,388) queda muy cerca de esa estimación."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada multiplicación con su resultado.",
+          "columnaA": [
+            "5×6000",
+            "7×90",
+            "4×800",
+            "8×3000"
+          ],
+          "columnaB": [
+            "630",
+            "3200",
+            "24000",
+            "30000"
+          ],
+          "parejasCorrectas": [
+            3,
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "5×6000=30,000; 7×90=630; 4×800=3,200; 8×3000=24,000."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "OB-43-01",
+  "grado": "Operaciones Básicas",
+  "numero": 337,
+  "categoria": "integracion",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Operaciones combinadas con números con signo — Momento 1/8",
+  "contenido": "Resolución de expresiones que combinan las cuatro operaciones y potencias con números enteros con signo, aplicando la jerarquía de operaciones y la regla de signos a la vez.",
+  "pda": "Resuelve expresiones numéricas combinadas con números con signo, aplicando la jerarquía de operaciones y la regla de signos.",
+  "problematizacion": {
+    "contexto": "Don Efraín anota cada día lo que gana o pierde en su tienda de abarrotes: los días buenos apunta el número en verde y los días malos en rojo, en cientos de pesos. Esta semana anotó: lunes perdió 8, martes ganó 5, miércoles perdió 12 y jueves ganó 3.",
+    "pregunta": "¿Qué expresión con signos representa el balance de Don Efraín de lunes a jueves?"
+  },
+  "subtemas": [
+    {
+      "numero": "43.1",
+      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
+      "titulo": "Sumas y restas encadenadas con signo",
+      "explicacion": "Cuando sumas y restas varios números con signo uno tras otro, resuelves de izquierda a derecha, acumulando el resultado paso a paso. Recuerda que restar un número equivale a sumar su opuesto, y que dos signos negativos seguidos se comportan distinto a uno positivo seguido de uno negativo. En este primer momento no hay multiplicaciones ni paréntesis: solo se trata de acomodar los signos en una fila de sumas y restas. Dominar esto primero te da una base firme antes de mezclar más operaciones en los siguientes momentos.",
+      "formula": "a − b + c − d = resultado (se resuelve de izquierda a derecha)",
+      "ejemplos": [
+        "-7 + 10 - 4 = 3 - 4 = -1 (primero -7+10=3, luego 3-4=-1)",
+        "5 - 9 + 2 = -4 + 2 = -2 (primero 5-9=-4, luego -4+2=-2)"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es -8 + 5 - 12 + 3?",
+          "opciones": [
+            "-22",
+            "-12",
+            "-2",
+            "8"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Vas sumando en orden: -8+5=-3; -3-12=-15; -15+3=-12."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "15 − 20 + 6 − 9 = ___",
+          "respuestaCorrecta": "-8",
+          "retroalimentacion": "15-20=-5; -5+6=1; 1-9=-8."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El resultado de -6 - 4 + 10 - 1 es 1.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Cuidado: -6-4=-10; -10+10=0; 0-1=-1, no 1."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "7 - 13 + 2 - 5 = ?",
+          "opciones": [
+            "-9",
+            "9",
+            "-3",
+            "17"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "7-13=-6; -6+2=-4; -4-5=-9."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "-10 + 15 - 3 - 2 = ___",
+          "respuestaCorrecta": "0",
+          "retroalimentacion": "-10+15=5; 5-3=2; 2-2=0."
+        }
+      ]
+    }
+  ]
+}

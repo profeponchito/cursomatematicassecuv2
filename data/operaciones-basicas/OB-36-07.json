@@ -1,0 +1,92 @@
+{
+  "id": "OB-36-07",
+  "grado": "Operaciones Básicas",
+  "numero": 287,
+  "categoria": "potencias_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Raíz cuadrada aproximada — Momento 7/8",
+  "contenido": "Estimación de la raíz cuadrada de números que no son cuadrados perfectos, ubicándola entre dos enteros consecutivos.",
+  "pda": "Estima la raíz cuadrada de un número que no es cuadrado perfecto, ubicándola entre dos números enteros consecutivos.",
+  "problematizacion": {
+    "contexto": "En una tienda de abarrotes de Veracruz, don Efraín compara dos exhibidores cuadrados de mercancía: uno tiene capacidad para 99 productos acomodados en cuadrícula y otro para 64.",
+    "pregunta": "¿Cuál de los dos exhibidores tiene el lado (raíz cuadrada) más grande: el de 99 productos o el de 64?"
+  },
+  "subtemas": [
+    {
+      "numero": "36.7",
+      "nivelEtiqueta": "Nivel 7 de 8 · Reto",
+      "titulo": "Comparar y ordenar raíces cuadradas",
+      "explicacion": "Cuando necesitas comparar dos o más raíces cuadradas sin usar calculadora, no hace falta estimarlas por separado: basta con comparar los números que están dentro de la raíz. Como la raíz cuadrada crece de forma constante conforme crece el número, si m > n entonces √m > √n siempre. Esto te permite ordenar varias raíces cuadradas de menor a mayor con solo mirar los números originales, sin calcular ningún decimal.",
+      "formula": "Si m > n, entonces √m > √n",
+      "ejemplos": [
+        "Para comparar √99 y √64: como 99>64, entonces √99>√64, sin necesidad de calcular ninguna de las dos.",
+        "Para ordenar 175, 150 y 190 de menor a mayor: como 150<175<190, entonces √150<√175<√190."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de las siguientes raíces cuadradas es la mayor?",
+          "opciones": [
+            "√50",
+            "√63",
+            "√45",
+            "√38"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "La raíz cuadrada crece junto con el número: como 63 es el mayor de los cuatro números, √63 es la raíz mayor."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de las siguientes raíces cuadradas es la menor?",
+          "opciones": [
+            "√90",
+            "√72",
+            "√105",
+            "√84"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Como 72 es el menor de los cuatro números, √72 es la raíz menor."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "√130 es mayor que √110.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: como 130>110, entonces √130>√110."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Al ordenar de menor a mayor las raíces de 175, 150 y 190, la raíz cuadrada más pequeña corresponde al número ___.",
+          "respuestaCorrecta": "150",
+          "retroalimentacion": "Como 150 es el menor de los tres números, √150 es la raíz más pequeña."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada par de raíces cuadradas con la que resulta mayor.",
+          "columnaA": [
+            "√56 y √81",
+            "√99 y √64",
+            "√120 y √145",
+            "√230 y √205"
+          ],
+          "columnaB": [
+            "√81",
+            "√99",
+            "√145",
+            "√230",
+            "√205"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "retroalimentacion": "En cada pareja, la raíz mayor corresponde siempre al número más grande dentro de la raíz: 81>56, 99>64, 145>120 y 230>205."
+        }
+      ]
+    }
+  ]
+}

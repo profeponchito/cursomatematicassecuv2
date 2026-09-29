@@ -1,0 +1,74 @@
+{
+  "id": "OB-41-03",
+  "grado": "Operaciones Básicas",
+  "numero": 323,
+  "categoria": "integracion",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Jerarquía de operaciones — Momento 3/8",
+  "contenido": "El orden correcto para resolver una expresión con varias operaciones: potencias y raíces, multiplicación y división, suma y resta, y el papel de los paréntesis.",
+  "pda": "Aplica la jerarquía de operaciones (paréntesis, potencias/raíces, multiplicación/división, suma/resta) para resolver expresiones numéricas.",
+  "problematizacion": {
+    "contexto": "El entrenador Beto organiza un torneo de fútbol por eliminación. Para explicar a su equipo cuántos partidos se juegan en cada ronda, usa potencias de 2 mezcladas con sumas en el pizarrón del vestidor.",
+    "pregunta": "En la expresión 3 + 2², ¿qué se debe calcular primero: la suma 3 + 2, o la potencia 2²?"
+  },
+  "subtemas": [
+    {
+      "numero": "41.3",
+      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
+      "titulo": "Las potencias entran a la jerarquía",
+      "explicacion": "Además de los paréntesis y de la multiplicación/división, las expresiones numéricas pueden incluir potencias, como 2² o 5³. Las potencias se resuelven antes que la multiplicación, la división, la suma y la resta (pero después de lo que esté entre paréntesis). Esto significa que en una expresión como 3 + 2², primero se eleva 2 al cuadrado y hasta el final se suma. Ignorar este orden es uno de los errores más comunes al resolver expresiones.",
+      "formula": "1) ( )  →  2) potencias  →  3) × y ÷  →  4) + y −",
+      "ejemplos": [
+        "3 + 2²: primero 2² = 4, y luego 3 + 4 = 7.",
+        "5 × 2²: primero 2² = 4, y luego 5 × 4 = 20."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 3 + 2²?",
+          "opciones": [
+            "7",
+            "25",
+            "6",
+            "5"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Primero se calcula la potencia: 2² = 4, y luego 3 + 4 = 7. Sumar antes (3+2=5) y elevar después daría 25, que es incorrecto."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 5 × 2²?",
+          "opciones": [
+            "20",
+            "100",
+            "10",
+            "9"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Primero 2² = 4, y luego 5 × 4 = 20. Multiplicar antes (5×2=10) y elevar después daría 100, que es incorrecto."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En la expresión 10 − 3², lo primero que se debe calcular es 3².",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: la potencia se resuelve antes que la resta. 3² = 9, y luego 10 − 9 = 1."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "4² − 6 = ___",
+          "respuestaCorrecta": "10",
+          "retroalimentacion": "Primero 4² = 16, y luego 16 − 6 = 10."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El resultado de 2 + 3² es 25.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: primero 3² = 9, y luego 2 + 9 = 11, no 25. Sumar 2+3 antes de elevar al cuadrado es el error común."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "OB-36-04",
+  "grado": "Operaciones Básicas",
+  "numero": 284,
+  "categoria": "potencias_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Raíz cuadrada aproximada — Momento 4/8",
+  "contenido": "Estimación de la raíz cuadrada de números que no son cuadrados perfectos, ubicándola entre dos enteros consecutivos.",
+  "pda": "Estima la raíz cuadrada de un número que no es cuadrado perfecto, ubicándola entre dos números enteros consecutivos.",
+  "problematizacion": {
+    "contexto": "En un taller de costura en Mérida, la dueña necesita cortar un mantel cuadrado con un área de 95 decímetros cuadrados y quiere saber cuánto medirá aproximadamente cada lado, con un decimal, para ajustar la tela sin desperdiciar material.",
+    "pregunta": "¿Cuál es la aproximación con un decimal de la raíz cuadrada de 95 (el lado del mantel)?"
+  },
+  "subtemas": [
+    {
+      "numero": "36.4",
+      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
+      "titulo": "Estimar con un decimal: acércate más",
+      "explicacion": "Para afinar todavía más la estimación, puedes calcular una aproximación con un decimal usando la posición proporcional del número dentro del intervalo. La fórmula es √n ≈ a + (n − a²) ÷ ((a+1)² − a²), donde a es el entero menor del intervalo. Esta fracción indica qué tan 'adentro' está el número entre los dos cuadrados perfectos, y se suma al entero menor. Por ejemplo, para √45: a=6, entonces (45−36)÷(49−36) = 9÷13 ≈ 0.69, así que √45 ≈ 6.7. Es una aproximación práctica, no el valor exacto de calculadora, pero muy cercana.",
+      "formula": "√n ≈ a + (n − a²) ÷ ((a+1)² − a²)",
+      "ejemplos": [
+        "Para √45: a=6, (45−36)÷(49−36)=9÷13≈0.69, entonces √45≈6.7.",
+        "Para √70: a=8, (70−64)÷(81−64)=6÷17≈0.35, entonces √70≈8.4."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la mejor aproximación con un decimal de √45?",
+          "opciones": [
+            "6.5",
+            "6.7",
+            "6.9",
+            "7.1"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "a=6, (45−36)÷(49−36)=9÷13≈0.69, así que √45≈6.7."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la mejor aproximación con un decimal de √70?",
+          "opciones": [
+            "8.1",
+            "8.4",
+            "8.6",
+            "8.9"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "a=8, (70−64)÷(81−64)=6÷17≈0.35, así que √70≈8.4."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Usando la aproximación con un decimal, √95 ≈ ___.",
+          "respuestaCorrecta": "9.7",
+          "retroalimentacion": "a=9, (95−81)÷(100−81)=14÷19≈0.74, así que √95≈9.7."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La aproximación con un decimal de √130 es 11.4.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: a=11, (130−121)÷(144−121)=9÷23≈0.39, así que √130≈11.4."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada número con su aproximación con un decimal.",
+          "columnaA": [
+            "55",
+            "150",
+            "205",
+            "275"
+          ],
+          "columnaB": [
+            "7.4",
+            "12.2",
+            "14.3",
+            "16.6",
+            "9.5"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "retroalimentacion": "√55≈7.4; √150≈12.2; √205≈14.3; √275≈16.6, siguiendo la fórmula de aproximación proporcional."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "OB-36-05",
+  "grado": "Operaciones Básicas",
+  "numero": 285,
+  "categoria": "potencias_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Raíz cuadrada aproximada — Momento 5/8",
+  "contenido": "Estimación de la raíz cuadrada de números que no son cuadrados perfectos, ubicándola entre dos enteros consecutivos.",
+  "pda": "Estima la raíz cuadrada de un número que no es cuadrado perfecto, ubicándola entre dos números enteros consecutivos.",
+  "problematizacion": {
+    "contexto": "Un electricista en Tijuana está instalando paneles solares cuadrados pequeños en el techo de una fábrica; en total caben 205 paneles organizados en una cuadrícula cuadrada para cubrir el espacio disponible.",
+    "pregunta": "¿Entre qué dos enteros consecutivos se ubica el número de paneles por lado, si en total hay 205?"
+  },
+  "subtemas": [
+    {
+      "numero": "36.5",
+      "nivelEtiqueta": "Nivel 5 de 8 · Aplicación",
+      "titulo": "Raíces aproximadas en la vida diaria",
+      "explicacion": "Las raíces cuadradas aproximadas aparecen todo el tiempo en situaciones reales: calcular el lado de un terreno cuadrado a partir de su área, acomodar objetos en una cuadrícula o repartir un espacio en partes iguales. En este momento vas a leer problemas breves, identificar el número relevante (casi siempre un área o una cantidad total) y aplicar lo que ya sabes: ubicar su raíz cuadrada entre dos enteros consecutivos. El reto aquí no es la raíz en sí, sino reconocer qué número del problema debes usar.",
+      "ejemplos": [
+        "Un patio cuadrado de 84 m² de área: como 81<84<100, su lado mide entre 9 y 10 metros.",
+        "Una cuadrícula con 140 fichas: como 121<140<144, el lado de esa cuadrícula tiene entre 11 y 12 fichas."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un terreno cuadrado en una comunidad rural de Chiapas mide 84 metros cuadrados de superficie. ¿Entre qué dos números enteros está la medida aproximada de cada lado?",
+          "opciones": [
+            "7 y 8",
+            "8 y 9",
+            "9 y 10",
+            "10 y 11"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "81<84<100, y como 81=9² y 100=10², el lado mide entre 9 y 10 metros."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una alberca cuadrada para un club deportivo de Monterrey tiene un área de 140 m². ¿Entre qué dos enteros se ubica la longitud de cada lado?",
+          "opciones": [
+            "10 y 11",
+            "11 y 12",
+            "12 y 13",
+            "13 y 14"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "121<140<144, y como 121=11² y 144=12², el lado mide entre 11 y 12 metros."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si una cocina cuadrada tiene 155 baldosas en total organizadas en cuadrícula, el lado de esa cuadrícula (en baldosas) está entre 12 y 13.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 144<155<169, y como 144=12² y 169=13², el lado está entre 12 y 13 baldosas."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un panadero en Puebla hace charolas cuadradas para acomodar 168 piezas de pan en cuadrícula; el lado de esa cuadrícula está entre 12 y ___.",
+          "respuestaCorrecta": "13",
+          "retroalimentacion": "144<168<169, y como 144=12² y 169=13², el lado está entre 12 y 13."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación con el par de enteros entre los que se ubica el lado de su cuadrícula.",
+          "columnaA": [
+            "Huerto de 110 m²",
+            "Salón con 183 sillas en cuadrícula",
+            "Cancha con 230 losetas",
+            "Alberca de 305 m²"
+          ],
+          "columnaB": [
+            "10 y 11",
+            "13 y 14",
+            "15 y 16",
+            "17 y 18",
+            "11 y 12"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "retroalimentacion": "110 está entre 10² y 11²; 183 entre 13² y 14²; 230 entre 15² y 16²; 305 entre 17² y 18²."
+        }
+      ]
+    }
+  ]
+}

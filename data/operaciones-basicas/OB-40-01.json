@@ -1,0 +1,92 @@
+{
+  "id": "OB-40-01",
+  "grado": "Operaciones Básicas",
+  "numero": 313,
+  "categoria": "potencias_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Encuentra el error: potencias y raíces — Momento 1/8",
+  "contenido": "Identificación del paso exacto donde el cálculo de una potencia o raíz ya resuelto contiene un error, como forma de reforzar el concepto desde la revisión.",
+  "pda": "Identifica errores en cálculos de potencias y raíces ya resueltos, explicando en qué paso ocurre el error.",
+  "problematizacion": {
+    "contexto": "La maestra Refugio revisó los exámenes de matemáticas de secundaria en Puebla. Al calificar la pregunta sobre potencias, encontró que varios alumnos confundieron el exponente con un multiplicador directo de la base.",
+    "pregunta": "¿Qué error cometen los alumnos que escriben 5² = 10 en lugar de 5² = 25?"
+  },
+  "subtemas": [
+    {
+      "numero": "40.1",
+      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
+      "titulo": "El significado de la potencia",
+      "explicacion": "Una potencia indica cuántas veces se multiplica la base por sí misma; el exponente NO se multiplica por la base, funciona como un contador de multiplicaciones. Un error muy común al revisar potencias resueltas es confundir b elevado a n con b por n (multiplicar la base por el exponente) en lugar de multiplicar la base n veces por sí misma. Para detectar este error basta con desarrollar la multiplicación completa y comparar con el resultado dado.",
+      "formula": "b^n = b × b × ... × b (n veces)",
+      "ejemplos": [
+        "4³ = 4 × 4 × 4 = 64 (correcto). Un error típico sería escribir 4³ = 4 × 3 = 12, confundiendo la potencia con una multiplicación simple.",
+        "2⁵ = 2×2×2×2×2 = 32 (correcto). El error 2⁵ = 2×5 = 10 confunde el exponente con un factor."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Julián resolvió 5² = 10. ¿Cuál fue su error?",
+          "opciones": [
+            "Multiplicó 5 × 2 en lugar de 5 × 5",
+            "Sumó 5 + 5 en lugar de multiplicar",
+            "Calculó bien, 5² sí es 10",
+            "Multiplicó 5 × 5 × 2"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "5² significa 5 × 5 = 25. Julián multiplicó la base por el exponente (5×2=10) en vez de multiplicar la base por sí misma."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "6³ = 18 está bien calculado.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "6³ = 6×6×6 = 216. El resultado 18 vendría de multiplicar 6×3, que no es lo que indica una potencia."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En la potencia 7², la base 7 se multiplica por sí misma ___ veces.",
+          "respuestaCorrecta": "2",
+          "retroalimentacion": "El exponente 2 indica que la base se multiplica dos veces por sí misma: 7×7=49."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de estas potencias está resuelta correctamente?",
+          "opciones": [
+            "2⁴ = 8",
+            "2⁴ = 16",
+            "2⁴ = 6",
+            "2⁴ = 24"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "2⁴ = 2×2×2×2 = 16."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada potencia con su resultado correcto.",
+          "columnaA": [
+            "3²",
+            "4²",
+            "2³",
+            "5²"
+          ],
+          "columnaB": [
+            "9",
+            "16",
+            "8",
+            "25",
+            "10"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "retroalimentacion": "3²=9, 4²=16, 2³=8 y 5²=25. Ninguno se calcula multiplicando la base por el exponente."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "OB-40-04",
+  "grado": "Operaciones Básicas",
+  "numero": 316,
+  "categoria": "potencias_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Encuentra el error: potencias y raíces — Momento 4/8",
+  "contenido": "Identificación del paso exacto donde el cálculo de una potencia o raíz ya resuelto contiene un error, como forma de reforzar el concepto desde la revisión.",
+  "pda": "Identifica errores en cálculos de potencias y raíces ya resueltos, explicando en qué paso ocurre el error.",
+  "problematizacion": {
+    "contexto": "En un club de matemáticas de Guanajuato juegan una tabla de mesa donde cada casilla de penalización eleva los puntos negativos de un jugador a una potencia según el dado. Fernanda sacó -2 puntos y le tocó elevarlos al cuadrado, pero su equipo no se pone de acuerdo en el signo del resultado.",
+    "pregunta": "¿El resultado de elevar un número negativo a una potencia siempre es negativo?"
+  },
+  "subtemas": [
+    {
+      "numero": "40.4",
+      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
+      "titulo": "El signo en potencias de base negativa",
+      "explicacion": "Cuando la base de una potencia es negativa, el signo del resultado depende de si el exponente es par o impar: si es par, el resultado es positivo porque los signos negativos se cancelan por pares; si es impar, el resultado conserva el signo negativo. Un error muy común es no fijarse en la paridad del exponente y poner siempre el mismo signo, o quitar el signo negativo cuando no correspondía. Además, la raíz cuadrada de un número negativo no tiene solución con los números que se usan en secundaria.",
+      "formula": "(-b)^par = positivo ; (-b)^impar = negativo",
+      "ejemplos": [
+        "(-2)⁴ = (-2)×(-2)×(-2)×(-2) = 16 (positivo, porque el exponente 4 es par). Un error sería escribir (-2)⁴ = -16.",
+        "(-3)³ = (-3)×(-3)×(-3) = -27 (negativo, porque el exponente 3 es impar)."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un alumno calculó (-2)⁴ = -16. ¿Cuál es su error?",
+          "opciones": [
+            "El exponente es par, así que el resultado debe ser positivo: 16",
+            "Olvidó que -2 × -2 = -4",
+            "El resultado correcto es -8",
+            "No hay ningún error"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(-2)⁴ tiene 4 factores negativos, un número par, así que los signos se cancelan por pares y el resultado es positivo: 16, no -16."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "(-3)³ = -27 está bien calculado.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "El exponente 3 es impar, así que el resultado conserva el signo negativo: (-3)×(-3)×(-3) = -27."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si la base de una potencia es negativa y el exponente es ___ (par o impar), el resultado siempre es positivo.",
+          "respuestaCorrecta": "par",
+          "retroalimentacion": "Con exponente par, los signos negativos se agrupan de dos en dos y se cancelan, dando un resultado positivo."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de estas potencias está mal resuelta?",
+          "opciones": [
+            "(-1)⁵ = -1",
+            "(-2)² = 4",
+            "(-5)² = -25",
+            "(-2)³ = -8"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "(-5)² = (-5)×(-5) = 25, no -25. El exponente 2 es par, así que el resultado debe ser positivo."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada potencia con su resultado correcto (cuidando el signo).",
+          "columnaA": [
+            "(-2)⁴",
+            "(-2)⁵",
+            "(-3)²",
+            "(-1)³"
+          ],
+          "columnaB": [
+            "-32",
+            "16",
+            "9",
+            "-1",
+            "-9"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            2,
+            3
+          ],
+          "retroalimentacion": "(-2)⁴=16, (-2)⁵=-32, (-3)²=9, (-1)³=-1. Revisa la paridad del exponente para saber el signo."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "OB-08-05",
+  "grado": "Operaciones Básicas",
+  "numero": 61,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma y resta de fracciones con distinto denominador — Momento 5/8",
+  "contenido": "Suma y resta de fracciones heterogéneas, usando el mínimo común múltiplo para igualar denominadores antes de operar.",
+  "pda": "Suma y resta fracciones con distinto denominador, calculando un común denominador antes de operar los numeradores.",
+  "problematizacion": {
+    "contexto": "En un tianguis de Guadalajara, don Pancho vende frutos secos por kilogramo. Una clienta le compra 2/3 de kg de cacahuate y luego regresa por 1/4 de kg más del mismo producto, porque se le olvidó pedir suficiente para toda la familia. Don Pancho necesita saber cuánto le vendió en total a esa clienta para anotarlo en su libreta de ventas.",
+    "pregunta": "¿Cuántos kilogramos de cacahuate le vendió don Pancho a la clienta en total, sumando 2/3 + 1/4?"
+  },
+  "subtemas": [
+    {
+      "numero": "8.5",
+      "nivelEtiqueta": "Nivel 5 de 8 · Aplicación",
+      "titulo": "Fracciones en la vida diaria",
+      "explicacion": "Sumar y restar fracciones con distinto denominador no es solo un ejercicio de papel: aparece todo el tiempo en recetas de cocina, medidas de tela, distancias recorridas y muchas otras situaciones cotidianas. En este momento aplicarás lo que ya dominas, sumas y restas con el mcm, para resolver problemas planteados con palabras. Lo importante es primero identificar si el problema pide sumar o restar, y después seguir el mismo procedimiento de siempre: mcm, conversión y operación.",
+      "ejemplos": [
+        "Ana usa 2/3 de taza de harina y después 1/4 de taza más: en total usa 2/3+1/4 = 8/12+3/12 = 11/12 de taza.",
+        "Un listón mide 3/5 m y se cortan 1/10 m: queda 3/5-1/10 = 6/10-1/10 = 5/10 = 1/2 m de listón."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Ana usó 2/3 de taza de harina y luego 1/4 de taza más. ¿Cuánta harina usó en total?",
+          "opciones": [
+            "11/12 de taza",
+            "3/7 de taza",
+            "5/12 de taza",
+            "7/12 de taza"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "mcm(3,4)=12: 2/3=8/12 y 1/4=3/12. Sumando: 8/12+3/12=11/12 de taza."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un listón mide 3/5 m y se cortan 1/10 m. Queda ___ m de listón (en su mínima expresión).",
+          "respuestaCorrecta": "1/2",
+          "retroalimentacion": "mcm(5,10)=10: 3/5=6/10. Restando: 6/10-1/10=5/10, que simplificado es 1/2."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si Luis corre 1/2 km y luego 1/3 km más, en total corre 5/6 km.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Verdadero. mcm(2,3)=6: 1/2=3/6 y 1/3=2/6. Sumando: 3/6+2/6=5/6 km."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un tinaco tiene 3/4 de su capacidad llena y se usan 1/6 para regar el jardín. ¿Qué fracción de agua queda?",
+          "opciones": [
+            "7/12",
+            "2/12",
+            "5/12",
+            "1/2"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "mcm(4,6)=12: 3/4=9/12 y 1/6=2/12. Restando: 9/12-2/12=7/12."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación con el resultado que le corresponde.",
+          "columnaA": [
+            "Harina: 2/3 + 1/4",
+            "Listón: 3/5 - 1/10",
+            "Carrera: 1/2 + 1/3"
+          ],
+          "columnaB": [
+            "11/12",
+            "1/2",
+            "5/6",
+            "3/4"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "La harina suma 11/12, el listón restante es 1/2 y la carrera suma 5/6, cada una usando el mcm de sus denominadores."
+        }
+      ]
+    }
+  ]
+}

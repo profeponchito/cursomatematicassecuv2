@@ -1,0 +1,89 @@
+{
+  "id": "OB-35-06",
+  "grado": "Operaciones Básicas",
+  "numero": 278,
+  "categoria": "potencias_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Raíz cuadrada de cuadrados perfectos — Momento 6/8",
+  "contenido": "Cálculo de la raíz cuadrada exacta de números que son cuadrados perfectos, como operación inversa de elevar al cuadrado.",
+  "pda": "Calcula la raíz cuadrada exacta de cuadrados perfectos, reconociéndola como la operación inversa de elevar al cuadrado.",
+  "problematizacion": {
+    "contexto": "En una fábrica textil de León, Guanajuato, el encargado de empaque debe acomodar 1156 playeras dobladas en una tarima, formando una base cuadrada perfecta antes de envolverla con plástico.",
+    "pregunta": "¿Cuántas playeras debe poner el encargado en cada lado de la base cuadrada?"
+  },
+  "subtemas": [
+    {
+      "numero": "35.6",
+      "nivelEtiqueta": "Nivel 6 de 8 · Avanzado",
+      "titulo": "Raíces apoyándote en números redondos",
+      "explicacion": "Para números más grandes, una estrategia útil es apoyarte en cuadrados 'redondos' que ya conoces, como 30 × 30 = 900, y comparar qué tan lejos está tu número de ese punto de referencia. Si el número es un poco menor a 900, su raíz será un poco menor a 30; si es mayor, la raíz será mayor a 30. Esta estrategia de anclaje te ayuda a no adivinar al azar cuando los números crecen.",
+      "formula": "Compara n con un cuadrado conocido cercano (como 30² = 900) para estimar y luego confirmar √n",
+      "ejemplos": [
+        "Como 30 × 30 = 900, si buscamos √1024, probamos con números un poco mayores a 30: 32 × 32 = 1024. Entonces √1024 = 32.",
+        "Como 900 es 30², y 676 es menor, probamos con un número menor a 30: 26 × 26 = 676. Entonces √676 = 26."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la raíz cuadrada de 900?",
+          "opciones": [
+            "28",
+            "29",
+            "30",
+            "31"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "√900 = 30, porque 30 × 30 = 900."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La raíz cuadrada de 676 es ___.",
+          "respuestaCorrecta": "26",
+          "retroalimentacion": "√676 = 26, porque 26 × 26 = 676."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La raíz cuadrada de 1024 es 32, porque 32 × 32 = 1024.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 32 × 32 = 1024, así que √1024 = 32."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la raíz cuadrada de 1225?",
+          "opciones": [
+            "33",
+            "34",
+            "35",
+            "36"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "√1225 = 35, porque 35 × 35 = 1225."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada número con su raíz cuadrada.",
+          "columnaA": [
+            "784",
+            "1156",
+            "1089"
+          ],
+          "columnaB": [
+            "28",
+            "30",
+            "33",
+            "34"
+          ],
+          "parejasCorrectas": [
+            0,
+            3,
+            2
+          ],
+          "retroalimentacion": "√784 = 28, √1156 = 34 y √1089 = 33."
+        }
+      ]
+    }
+  ]
+}

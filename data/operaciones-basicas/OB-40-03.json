@@ -1,0 +1,92 @@
+{
+  "id": "OB-40-03",
+  "grado": "Operaciones Básicas",
+  "numero": 315,
+  "categoria": "potencias_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Encuentra el error: potencias y raíces — Momento 3/8",
+  "contenido": "Identificación del paso exacto donde el cálculo de una potencia o raíz ya resuelto contiene un error, como forma de reforzar el concepto desde la revisión.",
+  "pda": "Identifica errores en cálculos de potencias y raíces ya resueltos, explicando en qué paso ocurre el error.",
+  "problematizacion": {
+    "contexto": "El entrenador Bermúdez del equipo de baloncesto de una secundaria en Monterrey quiere saber cuánto mide el lado de la cancha de entrenamiento, que tiene forma cuadrada y un área de 81 metros cuadrados. Uno de los alumnos auxiliares calculó la raíz cuadrada, pero el entrenador quiere que otro alumno revise si el cálculo está bien hecho.",
+    "pregunta": "¿Cómo se puede comprobar si una raíz cuadrada está bien calculada sin usar calculadora?"
+  },
+  "subtemas": [
+    {
+      "numero": "40.3",
+      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
+      "titulo": "Raíces cuadradas: comprobar elevando al cuadrado",
+      "explicacion": "La raíz cuadrada de un número es el valor que, multiplicado por sí mismo, da ese número; la mejor forma de comprobar si una raíz está bien resuelta es elevar al cuadrado el resultado propuesto y ver si coincide con el radicando original. Un error común es confundir la raíz con un número cercano, por ejemplo decir que la raíz de 49 es 6 en lugar de 7, porque 6 al cuadrado está cerca pero no es igual. Para localizar el error basta con probar: si el cuadrado del resultado dado no coincide con el número original, ahí está la falla.",
+      "formula": "Si √a = b, entonces b² debe ser igual a a",
+      "ejemplos": [
+        "√64 = 8, porque 8² = 64 (correcto). Si alguien dijera √64 = 7, el error se detecta porque 7² = 49, que no es 64.",
+        "√81 = 9, porque 9² = 81 (correcto)."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un alumno dice que √49 = 6. ¿Cómo se demuestra que está mal?",
+          "opciones": [
+            "Porque 6² = 36, y no 49",
+            "Porque 6² = 49, así que sí está bien",
+            "Porque 49 no tiene raíz cuadrada exacta",
+            "Porque 6 × 2 = 12, y no 49"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "6² = 36, no 49. La raíz cuadrada correcta de 49 es 7, porque 7² = 49."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "√100 = 10 está bien calculado, porque 10² = 100.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 10×10=100, así que √100 = 10."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Para comprobar que √36 = 6 es correcto, se calcula 6² y se compara con ___.",
+          "respuestaCorrecta": "36",
+          "retroalimentacion": "6² = 36, que es exactamente el número del que se sacó la raíz, así que la raíz está bien calculada."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de estas raíces cuadradas está mal resuelta?",
+          "opciones": [
+            "√25 = 5",
+            "√121 = 11",
+            "√144 = 11",
+            "√9 = 3"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "11² = 121, no 144. La raíz cuadrada correcta de 144 es 12, porque 12² = 144."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada raíz cuadrada con su valor correcto.",
+          "columnaA": [
+            "√49",
+            "√64",
+            "√121",
+            "√16"
+          ],
+          "columnaB": [
+            "8",
+            "11",
+            "4",
+            "7",
+            "9"
+          ],
+          "parejasCorrectas": [
+            3,
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "√49=7, √64=8, √121=11 y √16=4. Comprueba elevando cada resultado al cuadrado."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "OB-41-06",
+  "grado": "Operaciones Básicas",
+  "numero": 326,
+  "categoria": "integracion",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Jerarquía de operaciones — Momento 6/8",
+  "contenido": "El orden correcto para resolver una expresión con varias operaciones: potencias y raíces, multiplicación y división, suma y resta, y el papel de los paréntesis.",
+  "pda": "Aplica la jerarquía de operaciones (paréntesis, potencias/raíces, multiplicación/división, suma/resta) para resolver expresiones numéricas.",
+  "problematizacion": {
+    "contexto": "En la ruta de microbuses de su barrio, el chofer Toño lleva el control de cuántos pasajeros suben y bajan en cada parada. Para calcular cuántos boletos vendió en la vuelta completa, agrupa varias operaciones dentro de paréntesis y corchetes.",
+    "pregunta": "En 2 × [(3 + 2)² − 10], ¿qué se debe resolver primero: lo que está dentro del paréntesis, o lo que rodea al corchete?"
+  },
+  "subtemas": [
+    {
+      "numero": "41.6",
+      "nivelEtiqueta": "Nivel 6 de 8 · Avanzado",
+      "titulo": "Corchetes: paréntesis dentro de paréntesis",
+      "explicacion": "Cuando una expresión ya tiene un paréntesis y necesita otro nivel de agrupación alrededor, se usan corchetes [ ]. La regla no cambia: siempre se resuelve primero lo más interno (el paréntesis) y después lo que lo encierra (el corchete). Esto permite escribir expresiones más largas sin perder claridad sobre qué se calcula primero. Los corchetes aparecen seguido en problemas donde se combinan varios pasos, como en compras, repartos o construcciones.",
+      "formula": "1) ( ) más interno  →  2) [ ] que lo encierra  →  3) potencias/raíces  →  4) × y ÷  →  5) + y −",
+      "ejemplos": [
+        "2 × [(3 + 2)² − 10]: primero (3+2)=5, luego 5²=25, después 25−10=15 (dentro del corchete), y al final 2×15=30.",
+        "50 − [(2 + 3) × 4]: primero (2+3)=5, luego 5×4=20 (dentro del corchete), y al final 50−20=30."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 2 × [(3 + 2)² − 10]?",
+          "opciones": [
+            "30",
+            "40",
+            "15",
+            "50"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Primero (3+2)=5, luego 5²=25, después 25−10=15 dentro del corchete, y al final 2×15=30."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es [(10 − 4) × 2] + 3²?",
+          "opciones": [
+            "21",
+            "66",
+            "12",
+            "11"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Dentro del corchete: (10−4)=6, luego 6×2=12. Fuera, 3²=9. Al final, 12+9=21."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El resultado de 50 − [(2 + 3) × 4] es 30.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: dentro del corchete, (2+3)=5 y luego 5×4=20; al final 50−20=30."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "[(6 + 2) ÷ 2]² = ___",
+          "respuestaCorrecta": "16",
+          "retroalimentacion": "Dentro del corchete: (6+2)=8, luego 8÷2=4; y al final 4²=16."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Cuando hay paréntesis dentro de corchetes, se resuelve primero lo que está dentro de los corchetes y después los paréntesis.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: es al revés. Siempre se resuelve primero lo más interno (el paréntesis) y después lo que lo encierra (el corchete)."
+        }
+      ]
+    }
+  ]
+}

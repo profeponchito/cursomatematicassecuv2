@@ -1,0 +1,89 @@
+{
+  "id": "OB-33-06",
+  "grado": "Operaciones Básicas",
+  "numero": 262,
+  "categoria": "potencias_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Potencias con signo (exponente par e impar) — Momento 6/8",
+  "contenido": "Potencias de una base negativa, distinguiendo el signo del resultado según si el exponente es par o impar.",
+  "pda": "Calcula potencias de base negativa, determinando el signo del resultado según la paridad del exponente.",
+  "problematizacion": {
+    "contexto": "Doña Chela prepara salsas para su puesto de comida y anota en su libreta cómo varía la cantidad de chile que usa: cada ajuste que hace equivale a multiplicar por -1/2 la variación anterior, para representar que unas veces sube el picor y otras baja.",
+    "pregunta": "Si Doña Chela aplica ese ajuste de -1/2 tres veces seguidas, ¿la variación final será positiva o negativa?"
+  },
+  "subtemas": [
+    {
+      "numero": "33.6",
+      "nivelEtiqueta": "Nivel 6 de 8 · Avanzado",
+      "titulo": "Potencias de fracciones y decimales negativos",
+      "explicacion": "La regla de signos que ya conoces (par = positivo, impar = negativo) funciona exactamente igual cuando la base negativa es una fracción o un número decimal, no solo un entero. Lo único que cambia es que ahora, además de cuidar el signo, tienes que multiplicar fracciones o decimales con cuidado para obtener el valor correcto.",
+      "formula": "(-a/b)^n sigue la misma regla de signo que (-entero)^n",
+      "ejemplos": [
+        "(-1/2)^3 = (-1/2)×(-1/2)×(-1/2) = -1/8",
+        "(-0.5)^2 = (-0.5)×(-0.5) = 0.25"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es (-1/2)^3?",
+          "opciones": [
+            "1/8",
+            "-1/8",
+            "3/2",
+            "-3/2"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "(-1/2)^3 = (-1/2)×(-1/2)×(-1/2) = -1/8, negativo porque el exponente 3 es impar."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "(-0.5)^2 = ___",
+          "respuestaCorrecta": "0.25",
+          "retroalimentacion": "(-0.5)^2 = (-0.5)×(-0.5) = 0.25, positivo porque el exponente 2 es par."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "(-2/3)^2 es igual a 4/9.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: (-2/3)^2 = (-2/3)×(-2/3) = 4/9."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es (-1.5)^2?",
+          "opciones": [
+            "-2.25",
+            "2.25",
+            "-3",
+            "3"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "(-1.5)^2 = (-1.5)×(-1.5) = 2.25, positivo porque el exponente 2 es par."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada potencia con su resultado correcto.",
+          "columnaA": [
+            "(-1/4)^3",
+            "(-0.2)^3",
+            "(-1/2)^3"
+          ],
+          "columnaB": [
+            "-0.008",
+            "-1/64",
+            "1/64",
+            "-1/8"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            3
+          ],
+          "retroalimentacion": "(-1/4)^3=-1/64, (-0.2)^3=-0.008 y (-1/2)^3=-1/8."
+        }
+      ]
+    }
+  ]
+}

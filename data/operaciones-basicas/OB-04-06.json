@@ -1,0 +1,117 @@
+{
+  "id": "OB-04-06",
+  "grado": "Operaciones Básicas",
+  "numero": 30,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma y resta de naturales grandes por posición — Momento 6/8",
+  "contenido": "Suma y resta de números de varias cifras (miles, decenas de mil), reforzando el valor posicional como base del algoritmo.",
+  "pda": "Suma y resta números naturales de varias cifras, descomponiendo cada número por su valor posicional (unidades, decenas, centenas, miles).",
+  "problematizacion": {
+    "contexto": "El taller de costura de doña Carmen, en León, vendió $34,568 pesos en enero y $19,875 pesos en febrero, entre uniformes escolares y arreglos de ropa.",
+    "pregunta": "¿Aproximadamente cuánto vendió el taller de doña Carmen entre esos dos meses juntos?"
+  },
+  "subtemas": [
+    {
+      "numero": "4.6",
+      "nivelEtiqueta": "Nivel 6 de 8 · Avanzado",
+      "titulo": "Números de cinco cifras con varios acarreos o préstamos",
+      "explicacion": "Ya sabes llevar y pedir prestado una vez; ahora vas a trabajar con números de decenas de mil (cinco cifras) donde el acarreo o el préstamo puede repetirse en más de una columna dentro de la misma operación. La lógica es exactamente la misma que ya conoces: solo hay que aplicarla varias veces seguidas, columna por columna, sin saltarte ninguna.",
+      "formula": "El acarreo o el préstamo se repiten cada vez que la columna lo necesita, uno a la vez",
+      "ejemplos": [
+        "27,486 + 15,749: unidades 6+9=15 (escribe 5, lleva 1); decenas 8+4+1=13 (escribe 3, lleva 1); centenas 4+7+1=12 (escribe 2, lleva 1); millares 7+5+1=13 (escribe 3, lleva 1); decenas de millar 2+1+1=4. Resultado: 43,235."
+      ],
+      "puntosPorReactivo": 14,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "27486"
+            },
+            {
+              "valor": "15749",
+              "signo": "+"
+            },
+            {
+              "valor": "43235",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1,
+              4
+            ],
+            [
+              2
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          "retroalimentacion": "27,486 + 15,749 = 43,235. El acarreo se repite en casi todas las columnas: unidades, decenas, centenas y millares, uno tras otro."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "52003"
+            },
+            {
+              "valor": "18759",
+              "signo": "-"
+            },
+            {
+              "valor": "33244",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          "retroalimentacion": "52,003 - 18,759 = 33,244. Como hay varios ceros en 52,003, el préstamo tiene que pasar por varias columnas antes de poder restar."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El taller de doña Carmen vendió $34,568 en enero y $19,875 en febrero. ¿Cuánto vendió en total entre los dos meses?",
+          "opciones": [
+            "$53,443",
+            "$54,443",
+            "$54,343",
+            "$54,543"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "34,568 + 19,875 = 54,443. El acarreo se repite en las unidades, decenas y centenas."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "46,275 + 28,647 = 74,922.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: sumando con varios acarreos seguidos, 46,275 + 28,647 = 74,922."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "63,412 - 27,586 = ___.",
+          "respuestaCorrecta": "35826",
+          "retroalimentacion": "Con varios préstamos encadenados, 63,412 - 27,586 = 35,826."
+        }
+      ]
+    }
+  ]
+}

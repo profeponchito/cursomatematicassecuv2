@@ -1,0 +1,91 @@
+{
+  "id": "OB-11-03",
+  "grado": "Operaciones Básicas",
+  "numero": 83,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Estimación y redondeo antes de sumar y restar — Momento 3/8",
+  "contenido": "Estimación del resultado de una suma o resta mediante redondeo, para desarrollar sentido numérico antes del cálculo exacto.",
+  "pda": "Estima el resultado de sumas y restas mediante redondeo, y lo usa para verificar si un cálculo exacto es razonable.",
+  "problematizacion": {
+    "contexto": "En la central camionera de Guadalajara, Karina va a comprar dos boletos de autobús para visitar a su abuela: uno cuesta 29 pesos y otro 34 pesos. Antes de pagar, quiere saber aproximadamente cuánto llevará, redondeando los precios a la decena más cercana.",
+    "pregunta": "¿Cuál es la estimación rápida de lo que pagará Karina por los dos boletos?"
+  },
+  "subtemas": [
+    {
+      "numero": "11.3",
+      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
+      "titulo": "Estimar sumas redondeando a la decena",
+      "explicacion": "Para estimar una suma, primero redondea cada sumando a la decena más cercana y luego súmalos. El resultado es una aproximación rápida del total real, útil para saber si la respuesta que obtendrás al sumar con exactitud tiene sentido. Esta técnica no sustituye el cálculo exacto, pero te da una idea del tamaño esperado del resultado antes de hacer las cuentas con todos los dígitos.",
+      "formula": "Estimación de la suma = (sumando 1 redondeado) + (sumando 2 redondeado)",
+      "ejemplos": [
+        "Estimar 38 + 24: 38 se redondea a 40, 24 se redondea a 20. Estimación: 40 + 20 = 60.",
+        "Estimar 67 + 52: 67 se redondea a 70, 52 se redondea a 50. Estimación: 70 + 50 = 120."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Estima 29 + 34 redondeando cada número a la decena más cercana.",
+          "opciones": [
+            "50",
+            "60",
+            "70",
+            "63"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "29 se redondea a 30 y 34 se redondea a 30. La estimación es 30 + 30 = 60."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Redondeando a la decena, 47 + 22 se estima en ___.",
+          "respuestaCorrecta": "70",
+          "retroalimentacion": "47 se redondea a 50 y 22 se redondea a 20. La estimación es 50 + 20 = 70."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Al redondear 53 y 38 a la decena más cercana y sumarlos, la estimación es 90.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 53 se redondea a 50 y 38 se redondea a 40. La estimación es 50 + 40 = 90."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la mejor estimación de 61 + 27 redondeando cada número a la decena?",
+          "opciones": [
+            "80",
+            "85",
+            "90",
+            "100"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "61 se redondea a 60 y 27 se redondea a 30. La estimación es 60 + 30 = 90."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada suma con su estimación, redondeando ambos sumandos a la decena más cercana.",
+          "columnaA": [
+            "19 + 42",
+            "76 + 15",
+            "33 + 48",
+            "64 + 29"
+          ],
+          "columnaB": [
+            "60",
+            "80",
+            "90",
+            "100"
+          ],
+          "parejasCorrectas": [
+            0,
+            3,
+            1,
+            2
+          ],
+          "retroalimentacion": "19+42→20+40=60; 76+15→80+20=100; 33+48→30+50=80; 64+29→60+30=90."
+        }
+      ]
+    }
+  ]
+}

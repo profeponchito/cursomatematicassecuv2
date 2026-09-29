@@ -1,0 +1,73 @@
+{
+  "id": "OB-13-05",
+  "grado": "Operaciones Básicas",
+  "numero": 101,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Multiplicación de un dígito (tablas y cálculo mental) — Momento 5/8",
+  "contenido": "Multiplicación de un número de varias cifras por un solo dígito, apoyada en las tablas de multiplicar.",
+  "pda": "Multiplica números naturales por un dígito usando las tablas de multiplicar y estrategias de cálculo mental.",
+  "problematizacion": {
+    "contexto": "En una tienda de abarrotes de barrio, don Refugio no siempre tiene calculadora a la mano y necesita dar el total al cliente rápido. Un cliente lleva 8 paquetes de galletas que cuestan $99 pesos cada uno, y don Refugio calcula el total mentalmente antes de que el cliente saque su cartera.",
+    "pregunta": "¿Cómo puede don Refugio usar el redondeo (pensar en $100 en vez de $99) para calcular el total de forma rápida y luego ajustarlo?"
+  },
+  "subtemas": [
+    {
+      "numero": "13.5",
+      "nivelEtiqueta": "Nivel 5 de 8 · Aplicación",
+      "titulo": "Cálculo mental: redondear y descomponer",
+      "explicacion": "Para multiplicar rápido sin lápiz y papel, sirve romper el número en partes más fáciles. Una estrategia es descomponer: separar el número en decenas y unidades, multiplicar cada parte por separado y sumar los resultados. Otra estrategia es redondear: si un número está muy cerca de una decena o centena completa, multiplicas por el número redondo y luego ajustas (sumando o restando lo que faltaba). Estas dos estrategias son atajos válidos que dan exactamente el mismo resultado que el algoritmo escrito, solo que más rápido para ciertos números.",
+      "ejemplos": [
+        "8×99 (redondeo): 99 está a 1 de 100, entonces 8×100=800, y se resta 8×1=8 → 800-8=792.",
+        "7×34 (descomposición): 34=30+4, entonces 7×30=210 y 7×4=28, se suman → 210+28=238."
+      ],
+      "puntosPorReactivo": 20,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Usando redondeo, ¿cuál es el resultado de 8×99?",
+          "opciones": [
+            "792",
+            "802",
+            "782",
+            "800"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "8×99 = 8×100 − 8 = 800 − 8 = 792."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Para 5×203: primero 5×200=1000, luego 5×3=15, entonces 5×203 = ___",
+          "respuestaCorrecta": "1015",
+          "retroalimentacion": "5×203 = 1000 + 15 = 1,015. Descomponer 203 en 200+3 facilita el cálculo."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "9×98 se puede calcular como 9×100 menos 9×2, y el resultado es 882.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 9×100=900, 9×2=18, 900−18=882, que es lo mismo que 9×98."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la forma correcta de descomponer 7×34 para calcularlo mentalmente?",
+          "opciones": [
+            "7×30 + 7×4",
+            "7×3 + 7×4",
+            "7×30 + 4",
+            "7 + 30×4"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "34 = 30+4, así que 7×34 = 7×30 + 7×4 = 210+28 = 238."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "6×48 = 6×50 − 6×___ = 300 − 12 = 288",
+          "respuestaCorrecta": "2",
+          "retroalimentacion": "48 está a 2 de 50, entonces 6×48 = 6×50 − 6×2 = 300 − 12 = 288."
+        }
+      ]
+    }
+  ]
+}

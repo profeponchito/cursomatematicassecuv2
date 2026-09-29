@@ -1,0 +1,124 @@
+{
+  "id": "OB-02-07",
+  "grado": "Operaciones Básicas",
+  "numero": 15,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma con acarreo (algoritmo en columna) — Momento 7/8",
+  "contenido": "El algoritmo escrito de la suma de naturales cuando una o más columnas superan 9 y hay que 'llevar' al siguiente orden.",
+  "pda": "Aplica el algoritmo de la suma en columna, identificando y registrando correctamente el acarreo entre posiciones.",
+  "problematizacion": {
+    "contexto": "Una familia está ahorrando para un viaje. El papá guardó 456 pesos en la alcancía y la mamá guardó 789 pesos más el fin de semana pasado.",
+    "pregunta": "¿Cuánto llevan ahorrado entre los dos, sumando lo que guardó cada uno?"
+  },
+  "subtemas": [
+    {
+      "numero": "2.7",
+      "nivelEtiqueta": "Nivel 7 de 8 · Reto",
+      "titulo": "Cuando el acarreo crea una cifra nueva",
+      "explicacion": "En este momento el acarreo se repite en todas las columnas, una tras otra, hasta que aparece una cifra completamente nueva que ninguno de los dos números tenía. Por ejemplo, al sumar dos números de tres cifras, el resultado puede terminar teniendo cuatro cifras, porque el último acarreo \"crea\" una posición de millares que antes no existía. Sigue el mismo orden de siempre, columna por columna, sin saltarte ninguna, y al final revisa que el acarreo de la última columna quede escrito como una cifra nueva al frente del resultado.",
+      "formula": "Si el acarreo de la columna más a la izquierda es 1 o más, forma una cifra nueva al inicio del resultado.",
+      "ejemplos": [
+        "456 + 789: unidades 6+9=15 (lleva 1); decenas 5+8+1=14 (lleva 1); centenas 4+7+1=12 (lleva 1, crea millar); resultado 1245."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "456"
+            },
+            {
+              "valor": "789",
+              "signo": "+"
+            },
+            {
+              "valor": "1245",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "Unidades: 6+9=15 (lleva 1). Decenas: 5+8+1=14 (lleva 1). Centenas: 4+7+1=12, se escribe 2 y se lleva 1, que forma el millar. El resultado es 1245."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "678"
+            },
+            {
+              "valor": "345",
+              "signo": "+"
+            },
+            {
+              "valor": "1023",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [
+              3
+            ]
+          ],
+          "retroalimentacion": "Unidades: 8+5=13 (lleva 1). Decenas: 7+4+1=12 (lleva 1). Centenas: 6+3+1=10, se escribe 0 y se lleva 1, que forma el millar. El resultado es 1023."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado de 587 + 469?",
+          "opciones": [
+            "1046",
+            "1056",
+            "1066",
+            "1156"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Unidades 7+9=16 (lleva 1); decenas 8+6+1=15 (lleva 1); centenas 5+4+1=10, se escribe 0 y se lleva 1, formando el millar. El resultado es 1056."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Al sumar 758 + 693, el acarreo llega hasta formar una nueva cifra de millar.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Verdadero: unidades 8+3=11 (lleva 1); decenas 5+9+1=15 (lleva 1); centenas 7+6+1=14, se escribe 4 y se lleva 1, formando el millar. El resultado es 1451."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada suma con su resultado correcto.",
+          "columnaA": [
+            "456 + 789",
+            "678 + 345",
+            "6789 + 5432"
+          ],
+          "columnaB": [
+            "1245",
+            "1023",
+            "12221",
+            "1451"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "456+789=1245; 678+345=1023; 6789+5432=12221, donde el acarreo se repite en las cuatro columnas y crea una nueva cifra de decena de millar."
+        }
+      ]
+    }
+  ]
+}

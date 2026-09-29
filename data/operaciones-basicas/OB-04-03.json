@@ -1,0 +1,107 @@
+{
+  "id": "OB-04-03",
+  "grado": "Operaciones Básicas",
+  "numero": 27,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma y resta de naturales grandes por posición — Momento 3/8",
+  "contenido": "Suma y resta de números de varias cifras (miles, decenas de mil), reforzando el valor posicional como base del algoritmo.",
+  "pda": "Suma y resta números naturales de varias cifras, descomponiendo cada número por su valor posicional (unidades, decenas, centenas, miles).",
+  "problematizacion": {
+    "contexto": "El equipo de béisbol Los Venados, de Culiacán, lleva un marcador acumulado entre dos jornadas del torneo. En la primera jornada anotaron 1,247 puntos de estadística acumulada de la temporada, y en la segunda sumaron 1,362 puntos más entre todos los jugadores.",
+    "pregunta": "¿Aproximadamente cuántos puntos acumulados tiene el equipo después de las dos jornadas?"
+  },
+  "subtemas": [
+    {
+      "numero": "4.3",
+      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
+      "titulo": "Sumar llevando una decena a la siguiente posición",
+      "explicacion": "Cuando una columna suma 10 o más, no cabe un solo dígito en ese lugar: se escribe únicamente la cifra de las unidades de ese resultado parcial y se 'lleva' 1 a la siguiente columna hacia la izquierda, porque esa decena completa pertenece a la posición de al lado. Este momento agrega justo esa dificultad nueva: aprender a llevar, una sola vez por operación, sobre el algoritmo que ya dominas.",
+      "formula": "Si una columna suma 10 o más: escribe la unidad, lleva 1 a la columna izquierda",
+      "ejemplos": [
+        "1,247 + 1,362: unidades 7+2=9 (sin acarreo). Decenas 4+6=10, se escribe 0 y se lleva 1 a las centenas. Centenas 2+3+1=6. Millares 1+1=2. Resultado: 2,609."
+      ],
+      "puntosPorReactivo": 12,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "1247"
+            },
+            {
+              "valor": "1362",
+              "signo": "+"
+            },
+            {
+              "valor": "2609",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          "retroalimentacion": "1,247 + 1,362 = 2,609. En las decenas, 4+6=10: se escribe 0 y se lleva 1 a las centenas, por eso las centenas dan 2+3+1=6."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "3,126 + 2,158 = ?",
+          "opciones": [
+            "5,184",
+            "5,284",
+            "5,294",
+            "5,274"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "En las unidades 6+8=14: se escribe 4 y se lleva 1. Decenas 2+5+1=8. Centenas 1+1=2. Millares 3+2=5. Resultado: 5,284."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "4,568 + 1,347 = 5,915.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: unidades 8+7=15 (escribe 5, lleva 1), decenas 6+4+1=11 (escribe 1, lleva 1), centenas 5+3+1=9, millares 4+1=5. Resultado: 5,915."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "2,384 + 1,247 = ___.",
+          "respuestaCorrecta": "3631",
+          "retroalimentacion": "Unidades 4+7=11 (escribe 1, lleva 1), decenas 8+4+1=13 (escribe 3, lleva 1), centenas 3+2+1=6, millares 2+1=3. Resultado: 3,631."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada paso de la suma 1,247 + 1,362 con lo que ocurre en esa columna.",
+          "columnaA": [
+            "Unidades (7+2)",
+            "Decenas (4+6)",
+            "Centenas (2+3+1)",
+            "Millares (1+1)"
+          ],
+          "columnaB": [
+            "10, se escribe 0 y se lleva 1",
+            "2",
+            "9, sin acarreo",
+            "6"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            3,
+            1
+          ],
+          "retroalimentacion": "Unidades da 9 sin acarreo; decenas da 10 y se lleva 1; centenas, con ese acarreo, da 6; millares da 2. Junto forman 2,609."
+        }
+      ]
+    }
+  ]
+}

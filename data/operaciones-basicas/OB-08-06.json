@@ -1,0 +1,89 @@
+{
+  "id": "OB-08-06",
+  "grado": "Operaciones Básicas",
+  "numero": 62,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma y resta de fracciones con distinto denominador — Momento 6/8",
+  "contenido": "Suma y resta de fracciones heterogéneas, usando el mínimo común múltiplo para igualar denominadores antes de operar.",
+  "pda": "Suma y resta fracciones con distinto denominador, calculando un común denominador antes de operar los numeradores.",
+  "problematizacion": {
+    "contexto": "El maestro carpintero Rubén, en su taller de Michoacán, tiene una tabla de 1 1/2 metros y necesita unirla con otra de 2 1/3 metros para hacer una repisa larga. Antes de cortar cualquier madera de más, Rubén necesita saber la longitud total que tendrá la repisa terminada.",
+    "pregunta": "Sumando 1 1/2 + 2 1/3, ¿cuántos metros medirá la repisa completa?"
+  },
+  "subtemas": [
+    {
+      "numero": "8.6",
+      "nivelEtiqueta": "Nivel 6 de 8 · Avanzado",
+      "titulo": "Fracciones mixtas con distinto denominador",
+      "explicacion": "Un número mixto, como 2 1/3, combina un entero con una fracción. Para sumar o restar números mixtos con distinto denominador, primero hay que convertir cada uno en una fracción impropia (numerador mayor que el denominador), usando la fórmula que multiplica el entero por el denominador y suma el numerador. Después sigues exactamente el mismo procedimiento de siempre: mcm, conversión a fracciones equivalentes y la operación. Si quieres, al final puedes regresar el resultado a número mixto.",
+      "formula": "a b/c = (a × c + b) / c, para convertir un número mixto a fracción impropia",
+      "ejemplos": [
+        "1 1/2 se convierte en (1×2+1)/2 = 3/2. Entonces 1 1/2 + 2 1/3 = 3/2 + 7/3 = 9/6+14/6 = 23/6 = 3 5/6.",
+        "2 1/4 se convierte en (2×4+1)/4 = 9/4. Entonces 2 1/4 - 1 1/2 = 9/4 - 3/2 = 9/4-6/4 = 3/4."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "1 1/2 + 2 1/3 = ?",
+          "opciones": [
+            "3 5/6",
+            "3 1/6",
+            "4 1/6",
+            "3 2/3"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "1 1/2=3/2 y 2 1/3=7/3. mcm(2,3)=6: 3/2=9/6 y 7/3=14/6. Sumando: 9/6+14/6=23/6=3 5/6."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "2 1/4 - 1 1/2 = ___ (como fracción simple).",
+          "respuestaCorrecta": "3/4",
+          "retroalimentacion": "2 1/4=9/4 y 1 1/2=3/2. mcm(4,2)=4: 3/2=6/4. Restando: 9/4-6/4=3/4."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "3 1/3 + 1 1/4 = 4 7/12.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Verdadero. 3 1/3=10/3 y 1 1/4=5/4. mcm(3,4)=12: 10/3=40/12 y 5/4=15/12. Sumando: 40/12+15/12=55/12=4 7/12."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Para sumar 2 1/2 + 1 1/3, ¿cuál es el primer paso correcto?",
+          "opciones": [
+            "Sumar solo los enteros y olvidar las fracciones",
+            "Convertir cada número mixto en fracción impropia",
+            "Sumar 2+1 y 1/2+1/3 sin convertir",
+            "Restar los denominadores"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "El primer paso es convertir cada número mixto en fracción impropia; después se sigue el procedimiento normal de mcm y conversión."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada operación de números mixtos con su resultado.",
+          "columnaA": [
+            "1 1/2 + 2 1/3",
+            "2 1/4 - 1 1/2",
+            "2 1/2 - 1 1/3"
+          ],
+          "columnaB": [
+            "3 5/6",
+            "3/4",
+            "1 1/6",
+            "2 1/6"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "1 1/2+2 1/3=3 5/6, 2 1/4-1 1/2=3/4 y 2 1/2-1 1/3=1 1/6, convirtiendo cada mixto a fracción impropia antes de operar."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "OB-39-06",
+  "grado": "Operaciones Básicas",
+  "numero": 310,
+  "categoria": "potencias_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Potencias y raíces en la vida cotidiana — Momento 6/8",
+  "contenido": "Potencias y raíces aplicadas a situaciones cotidianas: área de cuadrados, volumen de cubos, crecimiento repetido.",
+  "pda": "Resuelve problemas cotidianos de área y volumen que requieren calcular una potencia o una raíz.",
+  "problematizacion": {
+    "contexto": "Don Tomás es albañil y está construyendo una fuente con base cuadrada y un tinaco cúbico para una unidad habitacional en Puebla, así que necesita hacer cálculos de área y de volumen en el mismo día de trabajo.",
+    "pregunta": "Si la base cuadrada de la fuente mide 6 m de lado y el tinaco cúbico tiene un volumen de 125 m³, ¿qué operación usarías para cada dato: potencia o raíz?"
+  },
+  "subtemas": [
+    {
+      "numero": "39.6",
+      "nivelEtiqueta": "Nivel 6 de 8 · Avanzado",
+      "titulo": "¿Potencia o raíz? Área y volumen combinados",
+      "explicacion": "En los problemas reales primero hay que decidir qué dato conoces y qué dato buscas. Si conoces el lado o la arista y buscas el área o el volumen, calculas una potencia (elevas al cuadrado o al cubo). Si conoces el área o el volumen y buscas el lado o la arista, calculas una raíz (cuadrada o cúbica). En este momento vas a practicar ambos casos mezclados, para cuadrados y para cubos.",
+      "ejemplos": [
+        "Si conoces el lado de una base cuadrada (6 m), calculas el área con una potencia: 6² = 36 m²",
+        "Si conoces el volumen de un cubo (125 m³), calculas la arista con una raíz: ∛125 = 5 m"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "La base cuadrada de la fuente mide 6 m de lado. ¿Cuál es su área?",
+          "opciones": [
+            "12 m²",
+            "18 m²",
+            "36 m²",
+            "62 m²"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Se conoce el lado, así que se calcula una potencia: 6² = 36 m²."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El tinaco cúbico tiene un volumen de 125 m³. ¿Cuánto mide su arista?",
+          "opciones": [
+            "5 m",
+            "15 m",
+            "25 m",
+            "41.6 m"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Se conoce el volumen, así que se calcula una raíz cúbica: ∛125 = 5 m."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si el área de la base cuadrada de la fuente es 49 m², entonces el lado mide 7 m.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Se conoce el área, así que se calcula una raíz cuadrada: √49 = 7 m."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si la arista del tinaco cúbico mide 4 m, su volumen es ___ m³.",
+          "respuestaCorrecta": "64",
+          "retroalimentacion": "Se conoce la arista, así que se calcula una potencia: 4³ = 64 m³."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada dato conocido con la operación que usarías para resolverlo.",
+          "columnaA": [
+            "Conoces el lado del cuadrado y buscas el área",
+            "Conoces el área del cuadrado y buscas el lado",
+            "Conoces la arista del cubo y buscas el volumen",
+            "Conoces el volumen del cubo y buscas la arista"
+          ],
+          "columnaB": [
+            "Elevar al cuadrado",
+            "Raíz cuadrada",
+            "Elevar al cubo",
+            "Raíz cúbica"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "retroalimentacion": "Si conoces la medida más pequeña (lado o arista) elevas al cuadrado o al cubo; si conoces el área o el volumen, calculas la raíz correspondiente."
+        }
+      ]
+    }
+  ]
+}

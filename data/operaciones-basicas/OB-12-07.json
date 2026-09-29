@@ -1,0 +1,106 @@
+{
+  "id": "OB-12-07",
+  "grado": "Operaciones Básicas",
+  "numero": 95,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma y resta en la vida cotidiana — Momento 7/8",
+  "contenido": "Suma y resta aplicadas a situaciones cotidianas: dinero, medidas y tiempo.",
+  "pda": "Resuelve problemas cotidianos de dinero, medidas y tiempo que requieren sumar o restar números naturales o decimales.",
+  "problematizacion": {
+    "contexto": "Ale es parte del comité que organiza la kermés de la escuela. Tiene que calcular el dinero que se necesita para los materiales, el tiempo que tomará armar los puestos y las distancias que los alumnos deben recorrer para llevar las mesas del almacén al patio.",
+    "pregunta": "Si Ale necesita sumar varios gastos y luego restar un descuento que le dieron en la papelería, ¿qué operaciones está combinando?"
+  },
+  "subtemas": [
+    {
+      "numero": "12.7",
+      "nivelEtiqueta": "Nivel 7 de 8 · Reto",
+      "titulo": "Problemas de varios pasos con dinero, medidas y tiempo",
+      "explicacion": "En la vida real, los problemas casi nunca vienen ordenados ni te dicen exactamente qué operación usar: hay que leer con cuidado, identificar los datos y decidir si toca sumar, restar o combinar ambas operaciones en varios pasos. Este momento junta lo que ya sabes de dinero con centavos, medidas decimales y tiempo en horas y minutos, dentro de un mismo problema o de una situación con más de dos datos. La clave es ir resolviendo por partes, en el orden en que ocurren los hechos, sin perder de vista qué unidad estás manejando en cada paso.",
+      "formula": "Lee, identifica los datos, decide la operación de cada paso y resuelve en orden",
+      "ejemplos": [
+        "Un taller cobra $220.00 de mano de obra y $95.50 de refacciones, con un descuento de $30.00. Total: 220.00 + 95.50 = 315.50; luego 315.50 − 30.00 = 285.50 pesos."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un taller cobra $185.50 por mano de obra más $340.75 por refacciones, pero da un descuento de $60.25. ¿Cuánto paga el cliente en total?",
+          "opciones": [
+            "$466.00",
+            "$526.25",
+            "$405.75",
+            "$486.50"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "185.50 + 340.75 = 526.25; 526.25 − 60.25 = 466.00 pesos."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un corredor recorre 3.75 km el lunes, 2.4 km el martes y 5 km el miércoles. Si su meta semanal en esos tres días es de 12 km, la alcanza.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "3.75 + 2.4 + 5 = 11.15 km, y 11.15 no llega a los 12 km de meta."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una obra de teatro dura 1 hora 25 minutos en el primer acto y 55 minutos en el segundo acto, con un intermedio de 15 minutos. La función completa dura ___ minutos.",
+          "respuestaCorrecta": "155",
+          "retroalimentacion": "85 + 55 + 15 = 155 minutos en total."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "74.80"
+            },
+            {
+              "valor": "18.65",
+              "signo": "+"
+            },
+            {
+              "valor": "93.45",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [
+              3
+            ],
+            [
+              0,
+              4
+            ]
+          ],
+          "retroalimentacion": "74.80 + 18.65 = 93.45 kilogramos en total."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada operación con su resultado correcto.",
+          "columnaA": [
+            "$620.00 − $145.50",
+            "3.8 m + 2.65 m",
+            "4:20 + 1:50"
+          ],
+          "columnaB": [
+            "6.45",
+            "$474.50",
+            "6:10",
+            "5:70"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            2
+          ],
+          "retroalimentacion": "620.00 − 145.50 = 474.50; 3.8 + 2.65 = 6.45; 4:20 + 1:50 = 6:10 (5:70 no existe porque los minutos no llegan a 60)."
+        }
+      ]
+    }
+  ]
+}

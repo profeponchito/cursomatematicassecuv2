@@ -1,0 +1,74 @@
+{
+  "id": "OB-43-05",
+  "grado": "Operaciones Básicas",
+  "numero": 341,
+  "categoria": "integracion",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Operaciones combinadas con números con signo — Momento 5/8",
+  "contenido": "Resolución de expresiones que combinan las cuatro operaciones y potencias con números enteros con signo, aplicando la jerarquía de operaciones y la regla de signos a la vez.",
+  "pda": "Resuelve expresiones numéricas combinadas con números con signo, aplicando la jerarquía de operaciones y la regla de signos.",
+  "problematizacion": {
+    "contexto": "La familia Torres junta lo que cada quien aporta a la alcancía familiar y luego resta lo que deben pagar de una deuda pendiente. Para calcular cuánto les queda, primero suman lo que aportaron entre todos y después multiplican ese total según el acuerdo del mes.",
+    "pregunta": "Si tres hermanos aportan cantidades que suman -3 (por un préstamo) y ese resultado se multiplica por -4 al acordar el descuento del mes, ¿qué expresión con paréntesis representa la operación completa?"
+  },
+  "subtemas": [
+    {
+      "numero": "43.5",
+      "nivelEtiqueta": "Nivel 5 de 8 · Aplicación",
+      "titulo": "Paréntesis dentro de operaciones combinadas",
+      "explicacion": "Los paréntesis indican qué operación debes resolver primero, sin importar si es una suma, resta, multiplicación o división: siempre se atiende primero lo que está dentro de ellos. Después de resolver el paréntesis, aplicas la jerarquía normal (multiplicación/división antes que suma/resta) con el número que resultó. Fíjate bien en el signo que está afuera del paréntesis, porque multiplica o divide a todo lo que había dentro.",
+      "formula": "1° dentro del paréntesis → 2° × y ÷ → 3° + y −",
+      "ejemplos": [
+        "(-3 + 5) × (-4): primero -3+5=2, luego 2×(-4) = -8",
+        "-2 × (7 − 10) + 6: primero 7-10=-3, luego -2×(-3)=6, luego 6+6=12"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "(-3 + 5) × (-4) = ?",
+          "opciones": [
+            "-8",
+            "8",
+            "-2",
+            "2"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "-3+5=2; 2×(-4)=-8."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "-2 × (7 − 10) + 6 = ___",
+          "respuestaCorrecta": "12",
+          "retroalimentacion": "7-10=-3; -2×(-3)=6; 6+6=12."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El resultado de (10 − 15) ÷ (-1) − 3 es 2.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "10-15=-5; -5÷(-1)=5; 5-3=2. Es correcto."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "-6 + (4 − 9) × (-2) = ?",
+          "opciones": [
+            "4",
+            "-4",
+            "14",
+            "-14"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "4-9=-5; -5×(-2)=10; -6+10=4."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "(8 − 3) × (-2) − (10 − 14) = ___",
+          "respuestaCorrecta": "-6",
+          "retroalimentacion": "8-3=5; 5×(-2)=-10; 10-14=-4; -10-(-4)=-6."
+        }
+      ]
+    }
+  ]
+}

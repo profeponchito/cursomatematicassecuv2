@@ -1,0 +1,89 @@
+{
+  "id": "OB-15-01",
+  "grado": "Operaciones Básicas",
+  "numero": 113,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Multiplicación por decenas, centenas y potencias de 10 — Momento 1/8",
+  "contenido": "Multiplicación de un número por 10, 100, 1000 y por múltiplos de estas potencias, identificando el patrón de correr el punto/agregar ceros.",
+  "pda": "Multiplica números naturales por potencias de 10 y sus múltiplos, reconociendo el patrón que sigue el resultado.",
+  "problematizacion": {
+    "contexto": "En el mercado de Toluca, doña Rosa vende manojos de cilantro. Cada manojo cuesta 1 peso y ella acomoda sus manojos en charolas de 10 para venderlos más rápido.",
+    "pregunta": "Si doña Rosa acomoda 8 charolas completas, ¿cuántos manojos de cilantro tiene en total?"
+  },
+  "subtemas": [
+    {
+      "numero": "15.1",
+      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
+      "titulo": "Multiplicar un número por 10",
+      "explicacion": "Cuando multiplicas cualquier número natural por 10, el resultado es ese mismo número pero con un cero agregado a la derecha. Esto pasa porque multiplicar por 10 mueve cada cifra un lugar hacia la izquierda en el valor posicional: las unidades se vuelven decenas, las decenas se vuelven centenas, y así sucesivamente. No necesitas hacer la multiplicación larga: basta con agregar un cero al final del número original. Este patrón funciona para cualquier número natural, sin importar cuántas cifras tenga.",
+      "formula": "número × 10 = número con un cero agregado a la derecha",
+      "ejemplos": [
+        "7 × 10: se agrega un cero al 7, entonces 7 × 10 = 70.",
+        "25 × 10: se agrega un cero al 25, entonces 25 × 10 = 250."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 6 × 10?",
+          "opciones": [
+            "16",
+            "60",
+            "600",
+            "6"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Para multiplicar 6 × 10 solo agregas un cero: 6 × 10 = 60."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "34 × 10 = 340",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 34 × 10 = 340, se agrega un cero al 34."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Para multiplicar 8 por 10, solo agregamos un ___ a la derecha del número.",
+          "respuestaCorrecta": "cero",
+          "retroalimentacion": "Multiplicar por 10 agrega un cero a la derecha: 8 × 10 = 80."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "45 × 10 = ?",
+          "opciones": [
+            "450",
+            "45",
+            "4500",
+            "405"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "45 × 10 = 450, porque se agrega un cero al 45."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada multiplicación con su resultado.",
+          "columnaA": [
+            "7 × 10",
+            "12 × 10",
+            "100 × 10"
+          ],
+          "columnaB": [
+            "70",
+            "120",
+            "1000",
+            "700"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "7 × 10 = 70, 12 × 10 = 120 y 100 × 10 = 1000: en los tres casos se agrega un cero."
+        }
+      ]
+    }
+  ]
+}

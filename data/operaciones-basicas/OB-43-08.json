@@ -1,0 +1,100 @@
+{
+  "id": "OB-43-08",
+  "grado": "Operaciones Básicas",
+  "numero": 344,
+  "categoria": "integracion",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Operaciones combinadas con números con signo — Momento 8/8",
+  "contenido": "Resolución de expresiones que combinan las cuatro operaciones y potencias con números enteros con signo, aplicando la jerarquía de operaciones y la regla de signos a la vez.",
+  "pda": "Resuelve expresiones numéricas combinadas con números con signo, aplicando la jerarquía de operaciones y la regla de signos.",
+  "problematizacion": {
+    "contexto": "El equipo de robótica de la Secundaria 12 programó un robot explorador para una feria de ciencias. El robot suma y resta puntos según los obstáculos que sortea, eleva al cuadrado ciertas mediciones de sensores y saca raíces cuadradas para calibrar la distancia real, todo en una sola fórmula que el equipo debe calcular a mano antes de programarla.",
+    "pregunta": "Si la fórmula del robot es (-3)² − √16 ÷ (-2) + 5, ¿qué resultado final debe esperar el equipo antes de programarlo?"
+  },
+  "subtemas": [
+    {
+      "numero": "43.8",
+      "nivelEtiqueta": "Nivel 8 de 8 · Integración",
+      "titulo": "Integración total: las cuatro operaciones, potencias y raíces",
+      "explicacion": "Este es el reto final: expresiones que combinan paréntesis, potencias, raíces cuadradas, multiplicaciones, divisiones, sumas y restas de números con signo, todo junto. La jerarquía completa es: primero paréntesis (resolviendo lo que esté dentro de ellos), luego potencias y raíces que queden sueltas, después multiplicaciones y divisiones de izquierda a derecha, y por último sumas y restas de izquierda a derecha. Ve resolviendo la expresión por pasos, anotando cada resultado parcial, y aplica la regla de signos en cada paso.",
+      "formula": "Paréntesis → Potencias/Raíces → × y ÷ → + y −",
+      "ejemplos": [
+        "(-3)² − √16 ÷ (-2) + 5: (-3)²=9; √16÷(-2)=4÷(-2)=-2; 9−(−2)+5 = 9+2+5 = 16",
+        "(-18) ÷ (-3) + (-2)² − √25: (-18)÷(-3)=6; (-2)²=4; √25=5; 6+4−5=5"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "(-3)² − √16 ÷ (-2) + 5 = ?",
+          "opciones": [
+            "16",
+            "6",
+            "-16",
+            "2"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(-3)²=9; √16÷(-2)=4÷(-2)=-2; 9-(-2)+5=9+2+5=16."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "(-2)³ + √49 − (10 − 15) = ___",
+          "respuestaCorrecta": "4",
+          "retroalimentacion": "(-2)³=-8; √49=7; 10-15=-5; -8+7-(-5)=4."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "(-18) ÷ (-3) + (-2)² − √25 es igual a 5.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "(-18)÷(-3)=6; (-2)²=4; √25=5; 6+4-5=5. Es correcto."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "( -4 + (-3)² ) × √9 − (-6) = ?",
+          "opciones": [
+            "21",
+            "15",
+            "9",
+            "27"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "-4+(-3)²=-4+9=5; 5×√9=5×3=15; 15-(-6)=21."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "√64 − (-3)² + (5 − 9) × (-2) = ___",
+          "respuestaCorrecta": "7",
+          "retroalimentacion": "√64=8; (-3)²=9; 5-9=-4; -4×(-2)=8; 8-9+8=7."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "( (-3)² − √16 ) × (-2) + (-7) = ?",
+      "opciones": [
+        "-17",
+        "17",
+        "3",
+        "-3"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "(-3)²=9; √16=4; 9-4=5; 5×(-2)=-10; -10+(-7)=-17."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "(-2)³ − ( (-9) + √36 ) × (-4) − 5 = ___",
+      "respuestaCorrecta": "-25",
+      "retroalimentacion": "(-2)³=-8; -9+√36=-9+6=-3; -3×(-4)=12; -8-12-5=-25."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "√81 + (-2)⁴ − ( (-5) − 3 ) ÷ (-4) + (-6) es igual a 17.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "√81=9; (-2)⁴=16; (-5)-3=-8; -8÷(-4)=2; 9+16-2+(-6)=17. Es correcto."
+    }
+  ]
+}

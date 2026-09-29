@@ -1,0 +1,88 @@
+{
+  "id": "OB-39-04",
+  "grado": "Operaciones Básicas",
+  "numero": 308,
+  "categoria": "potencias_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Potencias y raíces en la vida cotidiana — Momento 4/8",
+  "contenido": "Potencias y raíces aplicadas a situaciones cotidianas: área de cuadrados, volumen de cubos, crecimiento repetido.",
+  "pda": "Resuelve problemas cotidianos de área y volumen que requieren calcular una potencia o una raíz.",
+  "problematizacion": {
+    "contexto": "La escuela secundaria 'Benito Juárez' quiere pintar un mural cuadrado en la fachada para festejar su aniversario, y el espacio disponible en la pared tiene un área de 64 m².",
+    "pregunta": "¿Cuánto debe medir cada lado del mural para que quede exactamente cuadrado y ocupe los 64 m² disponibles?"
+  },
+  "subtemas": [
+    {
+      "numero": "39.4",
+      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
+      "titulo": "La raíz cuadrada: del área al lado",
+      "explicacion": "La raíz cuadrada es la operación inversa de elevar al cuadrado: si el área de un cuadrado es igual a lado², entonces el lado se obtiene calculando lado = √Área. Por eso, para hallar la raíz cuadrada de un número basta preguntarse: '¿qué número multiplicado por sí mismo me da esta cantidad?'. En este momento vas a usar la raíz cuadrada para encontrar el lado de un cuadrado cuando ya conoces su área, siempre con números que dan una raíz exacta.",
+      "formula": "lado = √Área",
+      "ejemplos": [
+        "Si el área es 49 m², el lado es √49 = 7 m, porque 7² = 49",
+        "Si el área es 100 cm², el lado es √100 = 10 cm, porque 10² = 100"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El área de un mural cuadrado es 81 m². ¿Cuánto mide cada lado?",
+          "opciones": [
+            "8 m",
+            "9 m",
+            "40.5 m",
+            "18 m"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "√81 = 9, porque 9² = 81."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si un patio cuadrado tiene un área de 121 m², cada lado mide ___ m.",
+          "respuestaCorrecta": "11",
+          "retroalimentacion": "√121 = 11, porque 11² = 121."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si el área de un cuadrado es 36 cm², entonces su lado mide 6 cm.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "√36 = 6, porque 6² = 36."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la raíz cuadrada de 144?",
+          "opciones": [
+            "11",
+            "12",
+            "14",
+            "72"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "√144 = 12, porque 12² = 144."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada área con la medida del lado del cuadrado correspondiente.",
+          "columnaA": [
+            "Área 25 m²",
+            "Área 49 m²",
+            "Área 100 m²"
+          ],
+          "columnaB": [
+            "10 m",
+            "7 m",
+            "5 m"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "√25=5, √49=7 y √100=10."
+        }
+      ]
+    }
+  ]
+}

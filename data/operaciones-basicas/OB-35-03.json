@@ -1,0 +1,89 @@
+{
+  "id": "OB-35-03",
+  "grado": "Operaciones Básicas",
+  "numero": 275,
+  "categoria": "potencias_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Raíz cuadrada de cuadrados perfectos — Momento 3/8",
+  "contenido": "Cálculo de la raíz cuadrada exacta de números que son cuadrados perfectos, como operación inversa de elevar al cuadrado.",
+  "pda": "Calcula la raíz cuadrada exacta de cuadrados perfectos, reconociéndola como la operación inversa de elevar al cuadrado.",
+  "problematizacion": {
+    "contexto": "En un taller de carpintería en Guadalajara, el maestro carpintero corta 36 azulejos cuadrados idénticos para forrar una mesa cuadrada, y quiere confirmar cuántos azulejos van por lado antes de empezar a pegarlos.",
+    "pregunta": "¿Cómo puede el carpintero comprobar que 6 azulejos por lado son los correctos para cubrir los 36 azulejos?"
+  },
+  "subtemas": [
+    {
+      "numero": "35.3",
+      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
+      "titulo": "Estrategia: verificar la raíz multiplicando",
+      "explicacion": "Una forma segura de encontrar o comprobar una raíz cuadrada es pensar en la tabla de multiplicar: te preguntas qué número, multiplicado por sí mismo, da el resultado buscado, y después confirmas multiplicándolo. Esta estrategia de verificación evita errores, sobre todo cuando el número que se te ocurre primero no es el correcto. Practicarás encontrar la raíz y también comprobarla con la multiplicación inversa.",
+      "formula": "√n = a se comprueba haciendo a × a y viendo si el resultado es n",
+      "ejemplos": [
+        "Para verificar que √81 = 9, multiplicamos 9 × 9 = 81. Como coincide, la raíz es correcta.",
+        "Para verificar que √100 = 10, multiplicamos 10 × 10 = 100. Coincide, así que es correcta."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Para saber la raíz cuadrada de 64, piensas: ¿qué número multiplicado por sí mismo da 64?",
+          "opciones": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "8 × 8 = 64, así que √64 = 8."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Para verificar que la raíz cuadrada de 81 es 9, comprobamos que 9 × ___ = 81.",
+          "respuestaCorrecta": "9",
+          "retroalimentacion": "9 × 9 = 81, así que la raíz cuadrada de 81 sí es 9."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Para calcular la raíz cuadrada de 100, basta con encontrar el número que multiplicado por sí mismo dé 100; ese número es 20.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: 20 × 20 = 400, no 100. El número correcto es 10, porque 10 × 10 = 100."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la raíz cuadrada de 36, sabiendo que buscas un número que multiplicado por sí mismo dé 36?",
+          "opciones": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "6 × 6 = 36, así que √36 = 6."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada cuadrado perfecto con la multiplicación que lo comprueba.",
+          "columnaA": [
+            "25",
+            "49",
+            "16"
+          ],
+          "columnaB": [
+            "4×4",
+            "5×5",
+            "6×6",
+            "7×7"
+          ],
+          "parejasCorrectas": [
+            1,
+            3,
+            0
+          ],
+          "retroalimentacion": "25 se comprueba con 5×5, 49 con 7×7 y 16 con 4×4."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "OB-33-07",
+  "grado": "Operaciones Básicas",
+  "numero": 263,
+  "categoria": "potencias_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Potencias con signo (exponente par e impar) — Momento 7/8",
+  "contenido": "Potencias de una base negativa, distinguiendo el signo del resultado según si el exponente es par o impar.",
+  "pda": "Calcula potencias de base negativa, determinando el signo del resultado según la paridad del exponente.",
+  "problematizacion": {
+    "contexto": "El ingeniero Iván programa un dron de reparto que ajusta su altura según una fórmula con potencias de base negativa, pensada para que el dron oscile antes de estabilizarse en la entrega. Antes de ejecutar el vuelo, Iván revisa en la pantalla varios exponentes distintos para confirmar si el ajuste final subirá o bajará el dron.",
+    "pregunta": "Si el exponente que va a usar el dron en su próximo ajuste es 10, ¿el ajuste hará que el dron suba (positivo) o baje (negativo)?"
+  },
+  "subtemas": [
+    {
+      "numero": "33.7",
+      "nivelEtiqueta": "Nivel 7 de 8 · Reto",
+      "titulo": "Predice el signo con exponentes grandes",
+      "explicacion": "Con exponentes grandes ya no conviene multiplicar todo a mano: primero decide el signo del resultado usando la paridad del exponente (par = positivo, impar = negativo), y después, si hace falta el valor exacto, calcula la potencia. También practicarás combinar dos potencias de base negativa en una sola operación, como una suma o una resta.",
+      "formula": "Sin importar qué tan grande sea n: par → resultado positivo, impar → resultado negativo.",
+      "ejemplos": [
+        "(-1)^100 = 1, porque 100 es par",
+        "(-1)^101 = -1, porque 101 es impar"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Sin calcular el valor exacto, ¿qué signo tendrá (-2)^10?",
+          "opciones": [
+            "Positivo",
+            "Negativo",
+            "Cero",
+            "No se puede saber"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "10 es par, así que (-2)^10 es positivo (su valor exacto es 1024)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "(-3)^7 da un resultado positivo.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: 7 es impar, así que (-3)^7 es negativo (su valor exacto es -2187)."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "(-1)^101 = ___",
+          "respuestaCorrecta": "-1",
+          "retroalimentacion": "(-1)^101 = -1, porque 101 es impar."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es (-2)^3 + (-2)^2?",
+          "opciones": [
+            "-4",
+            "4",
+            "-12",
+            "12"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(-2)^3 = -8 y (-2)^2 = 4. Entonces -8 + 4 = -4."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "(-3)^2 - (-3)^3 es igual a 36.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: (-3)^2 = 9 y (-3)^3 = -27, entonces 9 - (-27) = 9 + 27 = 36."
+        }
+      ]
+    }
+  ]
+}

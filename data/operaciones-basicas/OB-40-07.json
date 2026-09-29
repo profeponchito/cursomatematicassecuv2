@@ -1,0 +1,92 @@
+{
+  "id": "OB-40-07",
+  "grado": "Operaciones Básicas",
+  "numero": 319,
+  "categoria": "potencias_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Encuentra el error: potencias y raíces — Momento 7/8",
+  "contenido": "Identificación del paso exacto donde el cálculo de una potencia o raíz ya resuelto contiene un error, como forma de reforzar el concepto desde la revisión.",
+  "pda": "Identifica errores en cálculos de potencias y raíces ya resueltos, explicando en qué paso ocurre el error.",
+  "problematizacion": {
+    "contexto": "El maestro albañil Cirilo está colocando una loseta cuadrada en un patio en Mérida y necesita saber, sin calculadora, entre qué dos medidas enteras está el lado de una loseta cuya área es de 50 centímetros cuadrados, para pedir el material correcto.",
+    "pregunta": "¿Entre qué dos números enteros consecutivos se encuentra una raíz cuadrada que no es exacta?"
+  },
+  "subtemas": [
+    {
+      "numero": "40.7",
+      "nivelEtiqueta": "Nivel 7 de 8 · Reto",
+      "titulo": "Estimar raíces que no son exactas",
+      "explicacion": "Muchos números no tienen raíz cuadrada exacta porque no son cuadrados perfectos, pero se puede estimar entre qué dos números enteros consecutivos se encuentra la raíz, buscando los cuadrados perfectos más cercanos por arriba y por abajo. Un error común es afirmar que la raíz de un número no perfecto es exactamente un entero, o ubicarla entre un par de enteros equivocado. Para comprobar una estimación, se eleva al cuadrado cada extremo propuesto y se verifica que el número quede entre ambos.",
+      "formula": "Si a² < n < b², entonces a < √n < b",
+      "ejemplos": [
+        "√50 está entre 7 y 8, porque 7²=49 y 8²=64, y 49<50<64 (correcto). Un error sería decir que √50 = 7 exactamente.",
+        "√20 está entre 4 y 5, porque 4²=16 y 5²=25, y 16<20<25."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un ayudante dice que √50 = 7 exactamente. ¿Cuál es su error?",
+          "opciones": [
+            "50 no es un cuadrado perfecto; √50 está entre 7 y 8, pero no es exactamente 7 (7²=49)",
+            "7² = 50, así que sí está bien",
+            "El número 50 no tiene raíz cuadrada",
+            "Debió usar 50² en lugar de √50"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "7²=49, no 50. Como 49<50<64, la raíz de 50 está entre 7 y 8, pero no es un número entero exacto."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "√30 está entre 5 y 6, porque 5²=25 y 6²=36, y 25<30<36.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 25<30<36, así que √30 está entre 5 y 6."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Como 8²=64 y 9²=81, y 64<70<81, la raíz cuadrada de 70 está entre 8 y ___.",
+          "respuestaCorrecta": "9",
+          "retroalimentacion": "70 está entre los cuadrados perfectos 64 (8²) y 81 (9²), así que √70 está entre 8 y 9."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de estas estimaciones de raíz cuadrada NO es correcta?",
+          "opciones": [
+            "√40 está entre 6 y 7",
+            "√90 está entre 9 y 10",
+            "√10 está entre 2 y 3",
+            "√99 está entre 9 y 10"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "√10 en realidad está entre 3 y 4, porque 3²=9 y 4²=16, y 9<10<16. No está entre 2 y 3, porque 2²=4 y 3²=9, y 10 no está entre 4 y 9."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada raíz cuadrada no exacta con el par de números enteros consecutivos entre los que se encuentra.",
+          "columnaA": [
+            "√45",
+            "√60",
+            "√15",
+            "√85"
+          ],
+          "columnaB": [
+            "4 y 5",
+            "7 y 8",
+            "9 y 10",
+            "6 y 7",
+            "3 y 4"
+          ],
+          "parejasCorrectas": [
+            3,
+            1,
+            4,
+            2
+          ],
+          "retroalimentacion": "√45 está entre 6 y 7 (36<45<49); √60 está entre 7 y 8 (49<60<64); √15 está entre 3 y 4 (9<15<16); √85 está entre 9 y 10 (81<85<100)."
+        }
+      ]
+    }
+  ]
+}

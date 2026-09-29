@@ -1,0 +1,106 @@
+{
+  "id": "OB-44-02",
+  "grado": "Operaciones Básicas",
+  "numero": 346,
+  "categoria": "integracion",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Repaso integrador de operaciones básicas — Momento 2/8",
+  "contenido": "Repaso final que mezcla suma, resta, multiplicación, división, potencias y raíces en distintos tipos de número (naturales, decimales, fracciones, con signo), como cierre del apartado.",
+  "pda": "Resuelve problemas variados que integran suma, resta, multiplicación, división, potencias y raíces como repaso final del apartado.",
+  "problematizacion": {
+    "contexto": "Don Herminio vende fruta a granel en el mercado sobre ruedas de su colonia. Cada mañana pesa la fruta en su báscula y anota el precio por kilogramo, que casi siempre trae decimales, para no cobrar de más ni de menos a sus clientas.",
+    "pregunta": "Si una clienta compra 2.5 kg de manzana y 1.8 kg de plátano, ¿cuántos kilogramos de fruta se lleva en total?"
+  },
+  "subtemas": [
+    {
+      "numero": "44.2",
+      "nivelEtiqueta": "Nivel 2 de 8 · Básico",
+      "titulo": "Suma, resta, multiplicación y división con decimales",
+      "explicacion": "Ahora practicamos las mismas cuatro operaciones, pero con números decimales. La clave es alinear el punto decimal en la suma y la resta, y contar correctamente las cifras decimales al multiplicar o dividir. Un descuido en el acomodo del punto puede cambiar por completo el resultado, así que revisa siempre cuántos decimales debe llevar tu respuesta.",
+      "formula": "En la multiplicación de decimales, el resultado lleva tantas cifras decimales como la suma de las cifras decimales de los factores.",
+      "ejemplos": [
+        "4.5 + 3.27 = 7.77 (se alinean los puntos decimales antes de sumar)",
+        "12.6 ÷ 3 = 4.2"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 8.4 + 5.75?",
+          "opciones": [
+            "13.15",
+            "14.15",
+            "14.05",
+            "13.25"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "8.4 se escribe 8.40 para alinear los decimales: 8.40 + 5.75 = 14.15."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "9.6 - 3.45 = 6.15",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 9.60 - 3.45 = 6.15."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "3.2 × 1.5 = ___",
+          "respuestaCorrecta": "4.8",
+          "retroalimentacion": "32 × 15 = 480; como hay una cifra decimal en cada factor (2 en total), el resultado es 4.80, es decir 4.8."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "12.75"
+            },
+            {
+              "valor": "34.60",
+              "signo": "+"
+            },
+            {
+              "valor": "47.35",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [
+              4
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "12.75 + 34.60 = 47.35: se suma cada columna alineando el punto decimal, sin ocultar dos cifras de la misma columna."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada operación con decimales con su resultado.",
+          "columnaA": [
+            "7.2 ÷ 4",
+            "0.6 × 5",
+            "5.4 ÷ 6"
+          ],
+          "columnaB": [
+            "0.9",
+            "3.0",
+            "4.2",
+            "1.8"
+          ],
+          "parejasCorrectas": [
+            3,
+            1,
+            0
+          ],
+          "retroalimentacion": "7.2÷4=1.8, 0.6×5=3.0 y 5.4÷6=0.9."
+        }
+      ]
+    }
+  ]
+}

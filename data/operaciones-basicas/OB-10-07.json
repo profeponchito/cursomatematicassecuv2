@@ -1,0 +1,91 @@
+{
+  "id": "OB-10-07",
+  "grado": "Operaciones Básicas",
+  "numero": 79,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma y resta de números con signo (signos distintos) — Momento 7/8",
+  "contenido": "Suma y resta de números enteros con signo cuando los números tienen signos distintos, incluyendo la resta como suma del opuesto.",
+  "pda": "Suma y resta números enteros con signos distintos, aplicando la regla de signos y la resta como suma del opuesto.",
+  "problematizacion": {
+    "contexto": "Una nutrióloga en un centro de salud comunitario registra el balance calórico diario de sus pacientes: las calorías consumidas de más las anota como positivas y las que se queman de más con ejercicio como negativas, todo con cifras decimales por los gramos de cada alimento.",
+    "pregunta": "Si un paciente registra un exceso de 12.3 unidades por la mañana y un déficit de 8.5 por la tarde, ¿su balance del día se acerca más a positivo o a negativo?"
+  },
+  "subtemas": [
+    {
+      "numero": "10.7",
+      "nivelEtiqueta": "Nivel 7 de 8 · Reto",
+      "titulo": "Signos distintos con números decimales",
+      "explicacion": "La regla de signos distintos funciona exactamente igual con números decimales: identifica los valores absolutos (ahora con punto decimal), resta el menor del mayor alineando las cifras decimales, y coloca el signo del número con mayor valor absoluto. Presta especial atención a alinear correctamente los decimales al restar, para no cometer errores de valor posicional.",
+      "formula": "a + (-b), con decimales: alinea el punto decimal, resta los valores absolutos y coloca el signo del mayor.",
+      "ejemplos": [
+        "-8.5 + 12.3: valores absolutos 8.5 y 12.3; 12.3 > 8.5, resultado positivo: 12.3 - 8.5 = 3.8, entonces -8.5 + 12.3 = 3.8.",
+        "15.75 - 22.4: valores absolutos 15.75 y 22.4; 22.4 > 15.75, resultado negativo: 22.4 - 15.75 = 6.65, entonces 15.75 - 22.4 = -6.65."
+      ],
+      "puntosPorReactivo": 20,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "-8.5 + 12.3 = ?",
+          "opciones": [
+            "-3.8",
+            "3.8",
+            "20.8",
+            "-20.8"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Valores absolutos 8.5 y 12.3; 12.3 > 8.5, resultado positivo: 12.3 - 8.5 = 3.8."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "15.75 - 22.4 = ?",
+          "opciones": [
+            "6.65",
+            "-38.15",
+            "-6.65",
+            "38.15"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Valores absolutos 15.75 y 22.4; 22.4 > 15.75, resultado negativo: 22.4 - 15.75 = 6.65, entonces -6.65."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "-19.6 + 7.25 = ___.",
+          "respuestaCorrecta": "-12.35",
+          "retroalimentacion": "Valores absolutos 19.6 y 7.25; 19.6 > 7.25, resultado negativo: 19.6 - 7.25 = 12.35, entonces -12.35."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "-4.8 - (-3.15) escrito como suma del opuesto es -4.8 + 3.15, y su resultado es -1.65.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: restar -3.15 equivale a sumar su opuesto, 3.15; -4.8 + 3.15 = -1.65."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada operación decimal con su resultado.",
+          "columnaA": [
+            "-6.4 + 9.1",
+            "20.5 - 33.75",
+            "-14.2 + 5.9",
+            "8.6 - 15.05"
+          ],
+          "columnaB": [
+            "-8.3",
+            "2.7",
+            "-6.45",
+            "-13.25"
+          ],
+          "parejasCorrectas": [
+            1,
+            3,
+            0,
+            2
+          ],
+          "retroalimentacion": "-6.4+9.1=2.7; 20.5-33.75=-13.25; -14.2+5.9=-8.3; 8.6-15.05=-6.45."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "id": "OB-16-05",
+  "grado": "Operaciones Básicas",
+  "numero": 125,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Multiplicación de decimales — Momento 5/8",
+  "contenido": "Multiplicación de números decimales, calculando el producto como si fueran enteros y colocando el punto según el total de cifras decimales.",
+  "pda": "Multiplica números decimales, determinando correctamente la posición del punto decimal en el resultado.",
+  "problematizacion": {
+    "contexto": "En la tienda de abarrotes 'La Esperanza', doña Marisol vende queso panela a $4.50 el kilogramo, y un cliente le pidió que le pesara 2.25 kilogramos para su negocio de tortas.",
+    "pregunta": "¿Cuánto debe pagar el cliente por el queso, sin contar impuestos?"
+  },
+  "subtemas": [
+    {
+      "numero": "16.5",
+      "nivelEtiqueta": "Nivel 5 de 8 · Aplicación",
+      "titulo": "Decimales con distinta cantidad de cifras",
+      "explicacion": "Los dos factores pueden tener un número diferente de cifras decimales: por ejemplo, uno con una cifra y otro con dos. La regla sigue igual: multiplica como enteros y SUMA las cifras decimales de ambos factores, aunque no coincidan entre sí, para saber cuántas cifras decimales separar en el resultado. Esto es muy común en situaciones de compra y venta, donde los precios no siempre tienen la misma cantidad de decimales.",
+      "formula": "Suma las cifras decimales de ambos factores, aunque sean distintas, para colocar el punto del resultado.",
+      "ejemplos": [
+        "4.5 × 2.25: 45 × 225 = 10125; 4.5 tiene 1 cifra decimal y 2.25 tiene 2, en total 3; el resultado es 10.125.",
+        "3.5 × 1.25: 35 × 125 = 4375; 1 + 2 = 3 cifras decimales; el resultado es 4.375."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 4.5 × 2.25?",
+          "opciones": [
+            "10.125",
+            "9.125",
+            "10.250",
+            "11.125"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "45 × 225 = 10125; con 1+2=3 cifras decimales en total, el resultado es 10.125."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "3.5 × 1.25 = 4.375",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "35 × 125 = 4375; con 1+2=3 cifras decimales, el resultado correcto es 4.375."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "1.5 × 2.13 = ___",
+          "respuestaCorrecta": "3.195",
+          "retroalimentacion": "15 × 213 = 3195; con 1+2=3 cifras decimales, el resultado es 3.195."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "3.4"
+            },
+            {
+              "valor": "2.5",
+              "signo": "×"
+            },
+            {
+              "valor": "170"
+            },
+            {
+              "valor": "680"
+            },
+            {
+              "valor": "8.50",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [],
+            [],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "34 × 25 = 850 (34×5=170, 34×20=680, 170+680=850); con 1+1=2 cifras decimales, el resultado es 8.50."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada multiplicación con su resultado.",
+          "columnaA": [
+            "2.6 × 1.35",
+            "5.5 × 1.12",
+            "1.4 × 3.15"
+          ],
+          "columnaB": [
+            "3.510",
+            "6.160",
+            "4.410",
+            "5.250"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "2.6×1.35=3.510, 5.5×1.12=6.160 y 1.4×3.15=4.410; en cada caso se suman las cifras decimales de ambos factores."
+        }
+      ]
+    }
+  ]
+}

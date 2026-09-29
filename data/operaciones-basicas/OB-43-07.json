@@ -1,0 +1,74 @@
+{
+  "id": "OB-43-07",
+  "grado": "Operaciones Básicas",
+  "numero": 343,
+  "categoria": "integracion",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Operaciones combinadas con números con signo — Momento 7/8",
+  "contenido": "Resolución de expresiones que combinan las cuatro operaciones y potencias con números enteros con signo, aplicando la jerarquía de operaciones y la regla de signos a la vez.",
+  "pda": "Resuelve expresiones numéricas combinadas con números con signo, aplicando la jerarquía de operaciones y la regla de signos.",
+  "problematizacion": {
+    "contexto": "El buzo Adrián registra profundidades en sus inmersiones cerca de un arrecife de Veracruz. Para calcular la presión que siente su equipo, a veces necesita sacar la raíz cuadrada de una medición y combinarla con otros datos, siempre cuidando si el número dentro de la raíz puede ser negativo o no.",
+    "pregunta": "Si Adrián necesita calcular √36 antes de restarle otra medición, ¿qué debe verificar primero antes de sacar esa raíz?"
+  },
+  "subtemas": [
+    {
+      "numero": "43.7",
+      "nivelEtiqueta": "Nivel 7 de 8 · Reto",
+      "titulo": "Raíces cuadradas con signo en la mezcla",
+      "explicacion": "La raíz cuadrada de un número positivo tiene resultado positivo (por ejemplo √16 = 4), pero la raíz cuadrada de un número negativo NO existe dentro de los números que conoces hasta ahora, porque ningún número elevado al cuadrado da negativo. El signo que está AFUERA del símbolo de raíz sí se conserva y se aplica al final, como en -√25 = -5. En una expresión combinada, resuelve primero lo que está dentro de paréntesis y raíces, luego las potencias, después las multiplicaciones y divisiones, y al final las sumas y restas.",
+      "formula": "√(positivo) = positivo   √(negativo) = no existe   −√a = −(√a)",
+      "ejemplos": [
+        "√16 + (-3)²: primero √16=4 y (-3)²=9, luego 4+9=13",
+        "-√25 + 8: primero √25=5, luego el signo de afuera da -5, luego -5+8=3"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "√16 + (-3)² = ?",
+          "opciones": [
+            "13",
+            "-13",
+            "7",
+            "-5"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "√16=4; (-3)²=9; 4+9=13."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "-√25 + 8 = ___",
+          "respuestaCorrecta": "3",
+          "retroalimentacion": "√25=5; el signo de afuera da -5; -5+8=3."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "√36 ÷ (-2) − 4 es igual a -7.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "√36=6; 6÷(-2)=-3; -3-4=-7. Es correcto."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "(-2)² − √9 × 3 = ?",
+          "opciones": [
+            "-5",
+            "13",
+            "5",
+            "-13"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(-2)²=4; √9=3; 3×3=9; 4-9=-5."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "√(-9) tiene solución y es igual a -3.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "No existe ningún número que, elevado al cuadrado, dé -9; por eso √(-9) no tiene solución con los números que conoces."
+        }
+      ]
+    }
+  ]
+}

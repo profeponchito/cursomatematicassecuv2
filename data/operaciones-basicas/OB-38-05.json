@@ -1,0 +1,89 @@
+{
+  "id": "OB-38-05",
+  "grado": "Operaciones Básicas",
+  "numero": 301,
+  "categoria": "potencias_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Relación entre potencias y raíces — Momento 5/8",
+  "contenido": "La raíz como operación inversa de la potencia, verificando una raíz al elevar el resultado a la potencia correspondiente.",
+  "pda": "Explica y verifica la relación inversa entre potencias y raíces, comprobando una raíz al elevarla a la potencia correspondiente.",
+  "problematizacion": {
+    "contexto": "El maestro albañil Anselmo terminó de pintar un patio cuadrado en una casa de Mérida y midió que tiene 324 metros cuadrados de superficie. Le dijo al dueño que cada lado del patio mide 18 metros, pero el dueño quiere estar seguro antes de pagar el material extra.",
+    "pregunta": "¿Qué cálculo le permite a Anselmo demostrarle al dueño que un lado de 18 metros sí corresponde a 324 metros cuadrados de patio?"
+  },
+  "subtemas": [
+    {
+      "numero": "38.5",
+      "nivelEtiqueta": "Nivel 5 de 8 · Aplicación",
+      "titulo": "Aplicando la comprobación a áreas y volúmenes",
+      "explicacion": "En situaciones reales, el área de un terreno cuadrado o el volumen de una caja cúbica se relacionan con su lado o arista mediante una potencia, así que para comprobar que ese lado o arista es correcto se usa la raíz inversa. Si un terreno cuadrado tiene 324 metros cuadrados y alguien dice que el lado mide 18 metros, se comprueba calculando 18 × 18 y viendo si da 324. Lo mismo aplica a una caja cúbica: si el volumen es 1331 centímetros cúbicos y se dice que la arista mide 11 centímetros, se comprueba con 11 × 11 × 11. En este momento vas a aplicar esta comprobación a problemas de áreas y volúmenes de la vida diaria.",
+      "formula": "Área = lado²  ·  Volumen = arista³ (ambos se comprueban con la raíz inversa)",
+      "ejemplos": [
+        "Un patio cuadrado de 256 m²: se propone lado 16 m, y 16 × 16 = 256, la comprobación es correcta.",
+        "Una caja cúbica de 1331 cm³: se propone arista 11 cm, y 11 × 11 × 11 = 1331, la comprobación es correcta."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un terreno cuadrado mide 256 m² de área. ¿Cuánto mide cada lado?",
+          "opciones": [
+            "14 m",
+            "15 m",
+            "16 m",
+            "17 m"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "16 × 16 = 256, por eso el lado mide 16 m."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una caja cúbica con volumen de 1000 cm³ tiene arista de 10 cm, porque 10 × 10 × 10 = 1000.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto, 10 × 10 × 10 = 1000 cm³."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un terreno cuadrado de 900 m² tiene lado de ___ metros, porque 30 × 30 = 900.",
+          "respuestaCorrecta": "30",
+          "retroalimentacion": "El lado mide 30 metros, porque 30² = 900."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada figura con la comprobación que confirma la medida de su lado o arista.",
+          "columnaA": [
+            "Terreno cuadrado de 441 m², lado 21 m",
+            "Caja cúbica de 512 cm³, arista 8 cm",
+            "Terreno cuadrado de 169 m², lado 13 m"
+          ],
+          "columnaB": [
+            "13 × 13 = 169",
+            "12 × 12 = 144",
+            "8 × 8 × 8 = 512",
+            "21 × 21 = 441"
+          ],
+          "parejasCorrectas": [
+            3,
+            2,
+            0
+          ],
+          "retroalimentacion": "441 se comprueba con 21×21, 512 con 8×8×8, y 169 con 13×13."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una caja de regalo cúbica tiene un volumen de 1728 cm³. Si se afirma que la arista mide 12 cm, ¿qué operación lo comprueba?",
+          "opciones": [
+            "12 + 12 + 12",
+            "12 × 12",
+            "12 × 12 × 12",
+            "12 × 3"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "12 × 12 × 12 = 1728, la comprobación es correcta."
+        }
+      ]
+    }
+  ]
+}

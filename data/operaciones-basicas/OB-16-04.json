@@ -1,0 +1,110 @@
+{
+  "id": "OB-16-04",
+  "grado": "Operaciones Básicas",
+  "numero": 124,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Multiplicación de decimales — Momento 4/8",
+  "contenido": "Multiplicación de números decimales, calculando el producto como si fueran enteros y colocando el punto según el total de cifras decimales.",
+  "pda": "Multiplica números decimales, determinando correctamente la posición del punto decimal en el resultado.",
+  "problematizacion": {
+    "contexto": "El camión de carga que va de Puebla a Cholula gasta 3.2 litros de diésel por cada kilómetro recorrido en subida, y hoy el chofer debe recorrer una ruta que equivale a 1.5 veces la distancia habitual por un desvío.",
+    "pregunta": "¿Qué cantidad aproximada de diésel gastará el camión en la ruta de hoy?"
+  },
+  "subtemas": [
+    {
+      "numero": "16.4",
+      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
+      "titulo": "Multiplicar dos números decimales",
+      "explicacion": "Ahora los DOS factores son decimales. La regla no cambia: multiplica ambos números como si fueran enteros (sin puntos) y después suma las cifras decimales de AMBOS factores para saber cuántas cifras decimales lleva el resultado. Por ejemplo, si un factor tiene una cifra decimal y el otro también tiene una, el resultado llevará dos cifras decimales en total.",
+      "formula": "decimal × decimal: multiplica como enteros y suma las cifras decimales de los DOS factores para colocar el punto.",
+      "ejemplos": [
+        "3.2 × 1.5: 32 × 15 = 480; 3.2 tiene 1 cifra decimal y 1.5 tiene 1, en total 2; el resultado es 4.80.",
+        "1.3 × 2.5: 13 × 25 = 325; 1 + 1 = 2 cifras decimales; el resultado es 3.25."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 3.2 × 1.5?",
+          "opciones": [
+            "4.80",
+            "3.70",
+            "4.50",
+            "48.0"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "32 × 15 = 480; sumando las cifras decimales de ambos factores (1+1=2), el resultado es 4.80."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "2.4 × 1.2 = 2.88",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "24 × 12 = 288; con dos cifras decimales en total, el resultado correcto es 2.88."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "1.3 × 2.5 = ___",
+          "respuestaCorrecta": "3.25",
+          "retroalimentacion": "13 × 25 = 325; con dos cifras decimales en total, el resultado es 3.25."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "2.3"
+            },
+            {
+              "valor": "1.4",
+              "signo": "×"
+            },
+            {
+              "valor": "92"
+            },
+            {
+              "valor": "230"
+            },
+            {
+              "valor": "3.22",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [],
+            [],
+            [
+              3
+            ]
+          ],
+          "retroalimentacion": "23 × 14 = 322 (23×4=92, 23×10=230, 92+230=322); sumando las cifras decimales de 2.3 y 1.4 (1+1=2), el resultado es 3.22."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada multiplicación con su resultado.",
+          "columnaA": [
+            "4.2 × 1.3",
+            "1.8 × 2.2",
+            "4.4 × 1.2"
+          ],
+          "columnaB": [
+            "5.46",
+            "3.96",
+            "5.28",
+            "4.62"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "En cada caso se suman las cifras decimales de ambos factores: 4.2×1.3=5.46, 1.8×2.2=3.96, 4.4×1.2=5.28."
+        }
+      ]
+    }
+  ]
+}

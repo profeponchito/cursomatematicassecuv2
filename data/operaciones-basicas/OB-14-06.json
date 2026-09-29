@@ -1,0 +1,110 @@
+{
+  "id": "OB-14-06",
+  "grado": "Operaciones Básicas",
+  "numero": 110,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Multiplicación de varios dígitos (algoritmo en columna) — Momento 6/8",
+  "contenido": "El algoritmo escrito de la multiplicación cuando ambos factores tienen dos o más cifras, usando productos parciales.",
+  "pda": "Aplica el algoritmo de la multiplicación en columna con factores de dos o más cifras, sumando correctamente los productos parciales.",
+  "problematizacion": {
+    "contexto": "Una tienda de abarrotes recibe un pedido grande de refrescos: cada caja trae 24 botellas y el camión repartidor entregó 142 cajas completas para surtir la bodega.",
+    "pregunta": "¿Cuántas botellas de refresco llegaron en total a la tienda?"
+  },
+  "subtemas": [
+    {
+      "numero": "14.6",
+      "nivelEtiqueta": "Nivel 6 de 8 · Avanzado",
+      "titulo": "Multiplicador de tres cifras: tres productos parciales",
+      "explicacion": "Cuando el multiplicador tiene tres cifras, se generan tres productos parciales: uno por las unidades, otro por las decenas (recorrido un lugar) y otro por las centenas (recorrido dos lugares, es decir, con dos ceros al final). El procedimiento dentro de cada producto parcial es igual al que ya conoces, incluyendo los acarreos; al final se suman los tres productos parciales.",
+      "ejemplos": [
+        "36×213: 36×3=108 (parcial 1); 36×1=36→360 (parcial 2); 36×2=72→7200 (parcial 3); 108+360+7200=7668",
+        "24×142: 24×2=48 (parcial 1); 24×4=96→960 (parcial 2); 24×1=24→2400 (parcial 3); 48+960+2400=3408"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado de 18 × 123?",
+          "opciones": [
+            "2204",
+            "2214",
+            "2224",
+            "2314"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "18×3=54 (parcial 1); 18×2=36→360 (parcial 2); 18×1=18→1800 (parcial 3); 54+360+1800=2214."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En 27×314, el tercer producto parcial (27×3 recorrido dos lugares) es ___",
+          "respuestaCorrecta": "8100",
+          "retroalimentacion": "27×3=81; recorrido dos lugares (centenas del multiplicador) queda en 8100."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "45 × 212 = 9540",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "45×2=90 (parcial 1); 45×1=45→450 (parcial 2); 45×2=90→9000 (parcial 3); 90+450+9000=9540. Es correcto."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "36"
+            },
+            {
+              "valor": "213",
+              "signo": "×"
+            },
+            {
+              "valor": "108"
+            },
+            {
+              "valor": "360"
+            },
+            {
+              "valor": "7200"
+            },
+            {
+              "valor": "7668",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              2
+            ],
+            [
+              1
+            ],
+            [
+              1
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "36×213=7668: 36×3=108; 36×1=36→360; 36×2=72→7200; 108+360+7200=7668."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado de 52 × 134?",
+          "opciones": [
+            "6958",
+            "6968",
+            "6978",
+            "6868"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "52×4=208 (parcial 1); 52×3=156→1560 (parcial 2); 52×1=52→5200 (parcial 3); 208+1560+5200=6968."
+        }
+      ]
+    }
+  ]
+}

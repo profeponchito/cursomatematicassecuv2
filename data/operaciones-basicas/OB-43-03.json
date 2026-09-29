@@ -1,0 +1,74 @@
+{
+  "id": "OB-43-03",
+  "grado": "Operaciones Básicas",
+  "numero": 339,
+  "categoria": "integracion",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Operaciones combinadas con números con signo — Momento 3/8",
+  "contenido": "Resolución de expresiones que combinan las cuatro operaciones y potencias con números enteros con signo, aplicando la jerarquía de operaciones y la regla de signos a la vez.",
+  "pda": "Resuelve expresiones numéricas combinadas con números con signo, aplicando la jerarquía de operaciones y la regla de signos.",
+  "problematizacion": {
+    "contexto": "El entrenador Beltrán lleva el conteo de goles de su equipo en el torneo. Cada diferencia de goles se multiplica por el número de partidos jugados, y al final se restan los puntos que perdieron por una sanción de la liga.",
+    "pregunta": "Si el equipo tuvo una diferencia de -2 goles por partido en 4 partidos, y además se restaron 3 puntos por la sanción, ¿qué expresión combinada usarías para calcular su puntaje?"
+  },
+  "subtemas": [
+    {
+      "numero": "43.3",
+      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
+      "titulo": "Una multiplicación o división mezclada con sumas y restas",
+      "explicacion": "Cuando una expresión tiene una multiplicación o división junto con sumas y restas, la jerarquía de operaciones indica que primero resuelves la multiplicación o división, y solo al final sumas o restas. Aquí ya usarás la regla de signos que repasaste en el momento anterior, combinada con el orden en que se resuelven las operaciones. Todavía no hay paréntesis: basta con detectar cuál es la multiplicación o división y resolverla primero, dejando la suma o resta para el último paso.",
+      "formula": "Primero × o ÷ , después + o −",
+      "ejemplos": [
+        "-3 + 4 × (-2): primero 4×(-2) = -8, luego -3 + (-8) = -11",
+        "10 − 2 × (-5): primero 2×(-5) = -10, luego 10 − (−10) = 20"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "-3 + 4 × (-2) = ?",
+          "opciones": [
+            "-11",
+            "4",
+            "-2",
+            "11"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Primero 4×(-2)=-8; luego -3+(-8)=-11."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "10 − 2 × (-5) = ___",
+          "respuestaCorrecta": "20",
+          "retroalimentacion": "Primero 2×(-5)=-10; luego 10-(-10)=20."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El resultado de -20 ÷ 4 + 6 es 1.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "-20÷4=-5; -5+6=1. Es correcto."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "8 + (-18) ÷ (-3) = ?",
+          "opciones": [
+            "14",
+            "-14",
+            "2",
+            "-2"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(-18)÷(-3)=6; 8+6=14."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "-5 × 3 − 4 = ___",
+          "respuestaCorrecta": "-19",
+          "retroalimentacion": "-5×3=-15; -15-4=-19."
+        }
+      ]
+    }
+  ]
+}

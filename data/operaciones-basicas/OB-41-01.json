@@ -1,0 +1,74 @@
+{
+  "id": "OB-41-01",
+  "grado": "Operaciones Básicas",
+  "numero": 321,
+  "categoria": "integracion",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Jerarquía de operaciones — Momento 1/8",
+  "contenido": "El orden correcto para resolver una expresión con varias operaciones: potencias y raíces, multiplicación y división, suma y resta, y el papel de los paréntesis.",
+  "pda": "Aplica la jerarquía de operaciones (paréntesis, potencias/raíces, multiplicación/división, suma/resta) para resolver expresiones numéricas.",
+  "problematizacion": {
+    "contexto": "Doña Refugio atiende un puesto de frutas en el mercado sobre ruedas de su colonia. Cada mañana anota en un cuaderno cuántas piezas vende y cuánto le queda de mercancía, mezclando compras y ventas en la misma cuenta.",
+    "pregunta": "Si Doña Refugio anota '8 + 2 × 3' para saber cuántas piezas de fruta le quedan, ¿por qué operación debe empezar para que la cuenta sea correcta?"
+  },
+  "subtemas": [
+    {
+      "numero": "41.1",
+      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
+      "titulo": "Multiplicación y división antes que suma y resta",
+      "explicacion": "Cuando una expresión no tiene paréntesis, no se resuelve simplemente de izquierda a derecha. Primero se realizan todas las multiplicaciones y divisiones, en el orden en que aparecen, y hasta el final se hacen las sumas y restas. Esta regla evita que el mismo cálculo tenga varios resultados según quién lo resuelva. Es la base de toda la jerarquía de operaciones que verás en este tema.",
+      "formula": "1) × y ÷  →  2) + y −",
+      "ejemplos": [
+        "8 + 2 × 3: primero 2 × 3 = 6, y luego 8 + 6 = 14 (no se suma 8 + 2 primero).",
+        "15 − 3 × 4: primero 3 × 4 = 12, y luego 15 − 12 = 3."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 8 + 2 × 3?",
+          "opciones": [
+            "14",
+            "30",
+            "10",
+            "6"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Primero se hace 2 × 3 = 6, y después 8 + 6 = 14. Si sumaras primero (8+2=10) y luego multiplicaras, obtendrías 30, que es incorrecto."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En la expresión 15 − 3 × 4, lo primero que se debe calcular es 3 × 4.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: sin paréntesis, la multiplicación se resuelve antes que la resta. 3 × 4 = 12, y luego 15 − 12 = 3."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si una expresión no tiene paréntesis, la multiplicación y la división se resuelven ___ que la suma y la resta.",
+          "respuestaCorrecta": "antes",
+          "retroalimentacion": "La multiplicación y la división siempre se calculan antes que la suma y la resta cuando no hay paréntesis de por medio."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 20 − 4 × 3?",
+          "opciones": [
+            "8",
+            "48",
+            "12",
+            "16"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "4 × 3 = 12 se calcula primero, y luego 20 − 12 = 8. Restar primero (20−4=16) y después multiplicar da un resultado incorrecto (48)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El resultado de 5 + 6 ÷ 2 es 11.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: primero se hace 6 ÷ 2 = 3, y luego 5 + 3 = 8, no 11. Sumar 5+6 antes de dividir es el error común."
+        }
+      ]
+    }
+  ]
+}

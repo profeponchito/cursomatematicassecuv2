@@ -1,0 +1,92 @@
+{
+  "id": "OB-37-05",
+  "grado": "Operaciones Básicas",
+  "numero": 293,
+  "categoria": "potencias_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Raíz cúbica de cubos perfectos — Momento 5/8",
+  "contenido": "Cálculo de la raíz cúbica exacta de números que son cubos perfectos, como operación inversa de elevar al cubo.",
+  "pda": "Calcula la raíz cúbica exacta de cubos perfectos, reconociéndola como la operación inversa de elevar al cubo.",
+  "problematizacion": {
+    "contexto": "El club deportivo Atlas de Guadalajara va a construir una alberca con forma de cubo para un torneo de clavados, con una capacidad exacta de 1000 m³ de agua. Los ingenieros necesitan calcular la medida de cada arista antes de vaciar el concreto de los muros.",
+    "pregunta": "¿Cuánto debe medir cada arista de la alberca para que su volumen sea de 1000 m³?"
+  },
+  "subtemas": [
+    {
+      "numero": "37.5",
+      "nivelEtiqueta": "Nivel 5 de 8 · Aplicación",
+      "titulo": "De volumen a arista: aplicaciones",
+      "explicacion": "En situaciones reales, la raíz cúbica sirve para pasar de un volumen conocido a la medida de la arista de un objeto cúbico, como una alberca, un tinaco o una caja. Si conoces el volumen de un cuerpo cúbico y ese volumen es un cubo perfecto, la raíz cúbica te da directamente la longitud de cada lado. Este momento aplica lo aprendido a problemas cotidianos donde el resultado numérico ya es un cubo perfecto conocido.",
+      "formula": "arista = ∛volumen",
+      "ejemplos": [
+        "Una caja cúbica con volumen de 512 cm³ tiene una arista de ∛512 = 8 cm.",
+        "Un tinaco cúbico con 1000 litros de capacidad tiene una arista de ∛1000 = 10 dm."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una alberca cúbica tiene un volumen de 512 m³. ¿Cuánto mide cada arista?",
+          "opciones": [
+            "6 m",
+            "7 m",
+            "8 m",
+            "9 m"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "∛512 = 8, porque 8 × 8 × 8 = 512."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un tinaco cúbico contiene 729 litros de agua (1 litro = 1 dm³). La arista mide ___ dm.",
+          "respuestaCorrecta": "9",
+          "retroalimentacion": "∛729 = 9, porque 9 × 9 × 9 = 729."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si una caja cúbica tiene un volumen de 1000 cm³, su arista mide 100 cm.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: ∛1000 = 10, así que la arista mide 10 cm, no 100 cm."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un contenedor cúbico de carga tiene un volumen de 343 m³. ¿Cuál es la medida de su arista?",
+          "opciones": [
+            "5 m",
+            "6 m",
+            "7 m",
+            "8 m"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "∛343 = 7, porque 7 × 7 × 7 = 343."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada volumen cúbico con la medida de su arista.",
+          "columnaA": [
+            "216 m³",
+            "512 m³",
+            "729 m³",
+            "1000 m³"
+          ],
+          "columnaB": [
+            "6 m",
+            "7 m",
+            "8 m",
+            "9 m",
+            "10 m"
+          ],
+          "parejasCorrectas": [
+            0,
+            2,
+            3,
+            4
+          ],
+          "retroalimentacion": "216=6³, 512=8³, 729=9³ y 1000=10³; el 7 no tenía pareja aquí."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "OB-12-01",
+  "grado": "Operaciones Básicas",
+  "numero": 89,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma y resta en la vida cotidiana — Momento 1/8",
+  "contenido": "Suma y resta aplicadas a situaciones cotidianas: dinero, medidas y tiempo.",
+  "pda": "Resuelve problemas cotidianos de dinero, medidas y tiempo que requieren sumar o restar números naturales o decimales.",
+  "problematizacion": {
+    "contexto": "Mariana va a la papelería 'Los Pinos' antes de que empiecen las clases porque necesita comprar varios materiales para el ciclo escolar. Tiene un presupuesto que le dio su mamá y quiere aprovecharlo bien. En el mostrador hay cuadernos, lápices, colores y mochilas con distintos precios.",
+    "pregunta": "Si Mariana quiere comprar un cuaderno y una mochila, ¿qué operación necesita hacer para saber cuánto va a pagar en total?"
+  },
+  "subtemas": [
+    {
+      "numero": "12.1",
+      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
+      "titulo": "Sumar cantidades de dinero en compras sencillas",
+      "explicacion": "Cuando compras dos o más cosas, para saber cuánto vas a pagar en total tienes que sumar el precio de cada artículo. Esta suma se hace igual que con cualquier número: alineando las cantidades de derecha a izquierda, empezando por las unidades. En la vida diaria usamos esta suma constantemente, ya sea en la tienda, la papelería o el mercado. Lo importante en este primer momento es identificar cuándo una situación te pide sumar y hacerlo con orden.",
+      "formula": "Total a pagar = precio 1 + precio 2 + ...",
+      "ejemplos": [
+        "Compras un jugo de $15 y una fruta de $9. Como quieres saber cuánto pagas en total, sumas: 15 + 9 = 24 pesos."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Ana compra un cuaderno de $45 y un lápiz de $12. ¿Cuánto pagó en total?",
+          "opciones": [
+            "$57",
+            "$33",
+            "$47",
+            "$67"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "45 + 12 = 57 pesos, sumando el precio del cuaderno y el del lápiz."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si compras algo de $120 y algo de $35, en total gastaste más de $150.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "120 + 35 = 155 pesos, y 155 sí es más de 150."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un boleto de camión cuesta $18 y otro cuesta $24. Entre los dos boletos se pagan $___ pesos.",
+          "respuestaCorrecta": "42",
+          "retroalimentacion": "18 + 24 = 42 pesos en total por los dos boletos."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "246"
+            },
+            {
+              "valor": "137",
+              "signo": "+"
+            },
+            {
+              "valor": "383",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [
+              1
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "246 + 137 = 383: un casco de $246 más unos guantes de $137 dan un total de $383."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Luis compró una mochila de $310 y una lonchera de $45. ¿Cuánto pagó en total?",
+          "opciones": [
+            "$355",
+            "$265",
+            "$345",
+            "$365"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "310 + 45 = 355 pesos por los dos artículos juntos."
+        }
+      ]
+    }
+  ]
+}

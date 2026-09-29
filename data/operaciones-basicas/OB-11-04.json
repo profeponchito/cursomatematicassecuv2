@@ -1,0 +1,91 @@
+{
+  "id": "OB-11-04",
+  "grado": "Operaciones Básicas",
+  "numero": 84,
+  "categoria": "suma_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Estimación y redondeo antes de sumar y restar — Momento 4/8",
+  "contenido": "Estimación del resultado de una suma o resta mediante redondeo, para desarrollar sentido numérico antes del cálculo exacto.",
+  "pda": "Estima el resultado de sumas y restas mediante redondeo, y lo usa para verificar si un cálculo exacto es razonable.",
+  "problematizacion": {
+    "contexto": "En el estadio de futbol de Toluca, el organizador de un torneo escolar quiere calcular aproximadamente cuántos espectadores hubo en dos partidos consecutivos: al primero asistieron 468 personas y al segundo 219. Antes de buscar el dato exacto en boletería, redondea cada cantidad a la centena más cercana.",
+    "pregunta": "¿Cuál es la estimación rápida del total de espectadores en los dos partidos?"
+  },
+  "subtemas": [
+    {
+      "numero": "11.4",
+      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
+      "titulo": "Estimar sumas de números grandes redondeando a la centena",
+      "explicacion": "Cuando los sumandos tienen tres cifras o más, conviene redondear cada uno a la centena más cercana antes de sumar, para obtener una estimación rápida sin manejar tantos dígitos. Esta estrategia es especialmente útil al estimar gastos, distancias o cantidades grandes de la vida diaria, incluso cuando hay más de dos sumandos. Igual que antes, primero se redondea cada número y después se suman los valores ya redondeados.",
+      "formula": "Estimación = suma de cada número redondeado a la centena más cercana",
+      "ejemplos": [
+        "Estimar 384 + 257: 384 se redondea a 400, 257 se redondea a 300. Estimación: 400 + 300 = 700.",
+        "Estimar 512 + 260 + 145: 512→500, 260→300, 145→100. Estimación: 500 + 300 + 100 = 900."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Estima 468 + 219 redondeando cada número a la centena más cercana.",
+          "opciones": [
+            "600",
+            "650",
+            "700",
+            "800"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "468 se redondea a 500 y 219 se redondea a 200. La estimación es 500 + 200 = 700."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Redondeando a la centena, 731 + 156 se estima en ___.",
+          "respuestaCorrecta": "900",
+          "retroalimentacion": "731 se redondea a 700 y 156 se redondea a 200. La estimación es 700 + 200 = 900."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Al redondear 342 y 275 a la centena más cercana y sumarlos, la estimación es 600.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 342 se redondea a 300 y 275 se redondea a 300. La estimación es 300 + 300 = 600."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la mejor estimación de 189 + 224 + 308 redondeando cada número a la centena?",
+          "opciones": [
+            "600",
+            "700",
+            "800",
+            "900"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "189→200, 224→200 y 308→300. La estimación es 200 + 200 + 300 = 700."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada suma con su estimación, redondeando cada número a la centena más cercana.",
+          "columnaA": [
+            "452 + 318",
+            "674 + 151",
+            "233 + 540",
+            "895 + 142"
+          ],
+          "columnaB": [
+            "700",
+            "800",
+            "900",
+            "1000"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0,
+            3
+          ],
+          "retroalimentacion": "452+318→500+300=800; 674+151→700+200=900; 233+540→200+500=700; 895+142→900+100=1000."
+        }
+      ]
+    }
+  ]
+}

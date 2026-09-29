@@ -1,0 +1,92 @@
+{
+  "id": "OB-36-01",
+  "grado": "Operaciones Básicas",
+  "numero": 281,
+  "categoria": "potencias_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Raíz cuadrada aproximada — Momento 1/8",
+  "contenido": "Estimación de la raíz cuadrada de números que no son cuadrados perfectos, ubicándola entre dos enteros consecutivos.",
+  "pda": "Estima la raíz cuadrada de un número que no es cuadrado perfecto, ubicándola entre dos números enteros consecutivos.",
+  "problematizacion": {
+    "contexto": "En la feria de un pueblo de Oaxaca se está armando un templete cuadrado para el evento cultural, cubierto con losetas cuadradas iguales acomodadas en cuadrícula. Doña Refugio, encargada del montaje, cuenta 50 losetas en total y quiere saber, a grandes rasgos, cuántas caben por lado.",
+    "pregunta": "¿Entre qué dos cuadrados perfectos consecutivos se encuentra el número total de losetas (50)?"
+  },
+  "subtemas": [
+    {
+      "numero": "36.1",
+      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
+      "titulo": "Vecinos cuadrados: ¿entre qué cuadrados perfectos cae un número?",
+      "explicacion": "Un cuadrado perfecto es el resultado de multiplicar un número entero por sí mismo, como 4×4=16 o 7×7=49. Muchos números no son cuadrados perfectos, pero siempre se pueden ubicar entre dos cuadrados perfectos consecutivos. Por ejemplo, 20 no es cuadrado perfecto, pero está entre 16 (4²) y 25 (5²). Antes de estimar raíces cuadradas, primero hay que dominar esta ubicación entre cuadrados vecinos. En este momento vas a practicar solo eso: encontrar el cuadrado perfecto justo antes y justo después de un número dado.",
+      "formula": "a² < n < (a+1)²",
+      "ejemplos": [
+        "20 no es cuadrado perfecto. Los cuadrados perfectos cercanos son 16 (4×4) y 25 (5×5), y como 16<20<25, el número 20 está entre esos dos cuadrados perfectos.",
+        "50 está entre 49 (7×7) y 64 (8×8), porque 49<50<64."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Entre qué par de cuadrados perfectos se ubica el número 20?",
+          "opciones": [
+            "9 y 16",
+            "16 y 25",
+            "25 y 36",
+            "36 y 49"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "16 es 4² y 25 es 5². Como 16<20<25, el 20 está entre esos dos cuadrados perfectos."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Entre qué par de cuadrados perfectos se ubica el número 50?",
+          "opciones": [
+            "36 y 49",
+            "49 y 64",
+            "64 y 81",
+            "81 y 100"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "49 es 7² y 64 es 8². Como 49<50<64, el 50 está entre esos dos cuadrados perfectos."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El número 45 está entre los cuadrados perfectos 36 y 49.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 36 es 6² y 49 es 7², y 36<45<49."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El número 90 está entre los cuadrados perfectos ___ y 100.",
+          "respuestaCorrecta": "81",
+          "retroalimentacion": "81 es 9² y 100 es 10². Como 81<90<100, el cuadrado perfecto anterior a 90 es 81."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada número con el par de cuadrados perfectos entre los que se ubica.",
+          "columnaA": [
+            "30",
+            "70",
+            "120",
+            "10"
+          ],
+          "columnaB": [
+            "25 y 36",
+            "64 y 81",
+            "100 y 121",
+            "9 y 16",
+            "16 y 25"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "retroalimentacion": "30 está entre 25 (5²) y 36 (6²); 70 está entre 64 (8²) y 81 (9²); 120 está entre 100 (10²) y 121 (11²); 10 está entre 9 (3²) y 16 (4²)."
+        }
+      ]
+    }
+  ]
+}
