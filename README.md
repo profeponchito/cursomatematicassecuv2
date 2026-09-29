@@ -8,11 +8,15 @@ mini-actividad gamificada de 5 o 10 preguntas —en una o dos rondas—, con
 puntos y estrellas), un resultado global por PDA, y constancias
 descargables con fecha, hora y código QR de verificación. Incluye además
 "Ejercítate", un apartado de 40 temas de práctica libre disponible para
-cualquier alumno de cualquier grado, y "Operaciones Básicas" (Paso 28), un
-segundo apartado independiente de repaso enfocado únicamente en suma,
-resta, multiplicación, división, potencias y raíces: 44 temas × 8
-"momentos" de dificultad progresiva (352 series con su propio resultado y
-su propia constancia cada una) — ver "Paso 28" más abajo.
+cualquier alumno de cualquier grado, "Operaciones Básicas" (Paso 28,
+reestructurado en el Paso 29), un segundo apartado independiente de repaso
+enfocado únicamente en suma, resta, multiplicación, división, potencias y
+raíces: 44 temas × 4 módulos de dificultad progresiva (176 módulos de 10
+reactivos cada uno, con su propio resultado y su propia constancia), y
+"Acarreos y Llevadas" (Paso 29), un tercer apartado dedicado exclusivamente
+a practicar el acarreo/préstamo con reactivos de "completa las casillas":
+50 temas (uno por operación — suma, resta, multiplicación, división,
+potencias y raíces) — ver "Paso 29" más abajo.
 
 ## Estado del proyecto
 
@@ -86,16 +90,29 @@ y lógica de gamificación que un grado real, solo con su propia carpeta de
 datos (`data/ejercitate/`) y su propio color de acento — ver `data/README.md`
 para el detalle de esta arquitectura y el listado completo de los 40 temas.
 
-"Operaciones Básicas" (Paso 28) es un segundo pseudo-grado, con la misma
-arquitectura que Ejercítate y su propio color de acento (vino/rosa),
-agrupado en 4 bloques (suma y resta, multiplicación y división, potencias
-y raíces, integración). A diferencia de Ejercítate (4 subtemas por tema en
-un solo archivo), cada uno de sus 44 temas se divide en **8 "momentos"**
-independientes — mismo diseño que las 380 series de grado desde el Paso
-27 — cada uno con su propia problematización, su propia mini-actividad de
-5 reactivos y su propia constancia al terminarlo: **352 series en total**.
-Ni Ejercítate ni los PDAs de grado se modificaron para agregar este
-apartado — ver "Paso 28" en `data/README.md` para el detalle completo.
+"Operaciones Básicas" (Paso 28, reestructurado en el Paso 29) es un segundo
+pseudo-grado, con la misma arquitectura que Ejercítate y su propio color de
+acento (vino/rosa), agrupado en 4 bloques (suma y resta, multiplicación y
+división, potencias y raíces, integración). A diferencia de Ejercítate (4
+subtemas por tema en un solo archivo), cada uno de sus 44 temas se divide
+en **4 "módulos"** independientes — cada uno con su propia problematización,
+10 reactivos (dos rondas de 5, Paso 16) y su propia constancia al
+terminarlo: **176 módulos en total**. Ni Ejercítate ni los PDAs de grado se
+modificaron para agregar este apartado ni para reestructurarlo — ver "Paso
+28" y "Paso 29" en `data/README.md` para el detalle completo.
+
+"Acarreos y Llevadas" (Paso 29) es un tercer pseudo-grado, con su propio
+color de acento (cian), agrupado en 6 bloques — uno por operación (suma,
+resta, multiplicación, división, potencias, raíces). Es un apartado de
+práctica muy específica: sus 50 temas usan **exclusivamente** reactivos de
+tipo "completa las casillas" (`algoritmo_columnas`), con dificultad
+progresiva dentro de cada bloque. División, potencias y raíces se
+representan mediante su verificación/construcción multiplicativa
+(cociente × divisor = dividendo; base × base = base²; raíz × raíz =
+radicando), reutilizando el mismo motor sin cambios de código. Cada tema
+tiene 1 solo módulo de 10 reactivos (dos rondas de 5) y su propia
+constancia al terminarlo — ver "Paso 29" en `data/README.md` para el
+detalle completo.
 
 La interfaz tiene un diseño visual propio e intuitivo: tipografía Baloo 2
 para encabezados e Inter para texto, marca índigo/violeta en la navegación,
@@ -143,7 +160,8 @@ mate-nem/
 │   ├── grado-2/                   ✅ 6 PDAs completos — Trimestre 1 (4 subtemas núcleo + práctica extra de 34 c/u)
 │   ├── grado-3/                   ✅ 4 PDAs completos — Trimestre 1 (4 subtemas núcleo + práctica extra de 34 c/u)
 │   ├── ejercitate/                ✅ 40 temas — básicos/intermedios/avanzados/estadística (EJ-01…40)
-│   └── operaciones-basicas/       ✅ 44 temas × 8 momentos — suma_resta/mult_div/potencias_raices/integracion (OB-01-01…OB-44-08)
+│   ├── operaciones-basicas/       ✅ 44 temas × 4 módulos — suma_resta/mult_div/potencias_raices/integracion (OB-01-01…OB-44-04), 176 en total
+│   └── acarreos-llevadas/         ✅ 50 temas × 1 módulo — solo algoritmo_columnas — suma/resta/mult/div/potencias/raíces (AC-01…AC-50)
 └── backend/
     └── google-apps-script/
         ├── Code.gs                ✅ incluido — Web Endpoint (doPost/doGet)
@@ -214,6 +232,7 @@ el sitio ya se sirve por `https://`.
 26. ✅ Cada PDA de 10 lecciones se dividió en 3 series más cortas (Paso 26). El docente vio el camino de 42 pasos que dejó el Paso 25 y pidió más PDAs pero más cortos cada uno, renombrando por ejemplo "Expresión de fracciones 1.1", "1.2". Se dividió mecánicamente cada uno de los 38 PDAs curriculares en 3 series (Serie A: las 4 lecciones núcleo — Introductorio/Intermedio/Avanzado/Síntesis; Serie B: 3 lecciones de aplicación; Serie C: 3 lecciones de reto/dominio), sin tocar ningún subtema, reactivo ni explicación existente — solo se repartió la `practicaExtra` proporcionalmente entre las 3 y se recalculó el `nivelEtiqueta` de cada lección sobre el total local de su serie. Cada serie recibió además su propia problematización nueva (114 en total, redactadas por 3 agentes — uno por grado — ligadas específicamente a las lecciones de esa serie), y su título quedó con el sufijo "N.1"/"N.2"/"N.3" que pidió el docente (p. ej. "Expresión de fracciones como decimales... 1.1"). Los 38 PDAs se convirtieron en **114 series** (42 en 1°, 39 en 2°, 33 en 3°); el motor de la app no necesitó ningún cambio (ya soportaba cualquier número de subtemas desde el Paso 14). Validado contra el esquema (0 errores) y contra el conteo exacto de reactivos originales (ningún reactivo se perdió ni se duplicó). Probado de punta a punta con Playwright: conteo de tarjetas por trimestre en los 3 grados, y un recorrido completo de una serie corta confirmando que ahora toma 14-18 pasos (antes 42) hasta el resultado global — 0 errores.
 27. ✅ Cada lección se volvió su propia serie independiente, con su propia constancia (Paso 27). Antes de que el docente subiera siquiera el Paso 26 (sus capturas seguían mostrando el sitio viejo), pidió ir más allá: separar las series en constancias por lección — aclarado con el mensaje "separalas en lecciones". Se volvió a dividir mecánicamente cada uno de los 38 PDAs curriculares, esta vez en **10 series de 1 sola lección cada una** (no 3 series de 3-4 como en el Paso 26), partiendo de nuevo de los 38 PDAs originales de 10 lecciones del Paso 25 para no arrastrar metadatos ya recalculados. Cada lección conserva su teoría y sus reactivos sin tocar, su `nivelEtiqueta` se dejó igual que en el Paso 25 (sobre la escala de 10, no recalculado a "1 de 1", para no perder el contexto de dificultad), su `practicaExtra` se repartió en 10 partes proporcionales, y recibió su propia problematización nueva (380 en total, redactadas por 6 agentes en paralelo — 2 por grado). Los 38 PDAs (114 series del Paso 26) se convirtieron en **380 series** (140 en 1°, 130 en 2°, 110 en 3°); el motor de la app no necesitó ningún cambio de código. Validado contra el esquema (0 errores) y contra el conteo exacto de reactivos originales (0 discrepancias). Probado de punta a punta con Playwright: conteo de tarjetas por trimestre en los 3 grados (10× el número de PDAs originales), un recorrido completo de una lección individual confirmando "Paso 1 de 5" o "Paso 1 de 6" según la lección (antes 42 para el PDA completo), y verificación de que cada lección genera su propia constancia independiente con su propio título y folio — 0 errores.
 28. ✅ Apartado nuevo "Operaciones Básicas": 44 temas × 8 momentos de suma/resta, multiplicación/división y potencias/raíces (Paso 28). El docente pidió, sin modificar nada del proyecto ya construido, agregar un apartado propio (como Ejercítate) dedicado únicamente a repasar operaciones básicas con carga cognitiva progresiva (chunking) y variedad de formatos de reactivo, incluyendo llenar espacios, relación de columnas y opción múltiple, con 5-10 momentos por tema y al menos 40 temas en total. Tras aclarar 4 decisiones de diseño con el docente (apartado propio en vez de sumarse a las categorías de Ejercítate; cada momento como su propia serie con su propia constancia, igual que las 380 series de grado desde el Paso 27; una lista de 44 temas propuesta y aprobada; 8 momentos fijos por tema), se propusieron y aprobaron los 44 temas (12 de suma y resta, 16 de multiplicación y división, 12 de potencias y raíces, 4 de integración) y se generó el contenido de sus 352 momentos (44 × 8) con agentes en paralelo, cada uno verificando su propia aritmética con Python (`Decimal` para decimales, `Fraction` para fracciones) antes de entregar. El motor solo necesitó cambios **aditivos**: se generalizaron los mecanismos que antes eran exclusivos de Ejercítate (`PSEUDOGRADOS`/`PSEUDOGRADOS_AGRUPADOS`, `categoriasDe_`, `caminoAgrupado_`) para que ahora sirvan a dos pseudo-grados agrupados en vez de uno solo, sin cambiar el comportamiento de Ejercítate ni de los grados 1°/2°/3° (confirmado con `node --check` y por revisión de que no quedó ninguna referencia a los nombres antiguos específicos de Ejercítate). Los 352 archivos generados (`data/operaciones-basicas/`, id `OB-01-01`…`OB-44-08`) se validaron contra el esquema (0 errores), sin columnas de `algoritmo_columnas` con más de una casilla oculta (2 casos encontrados y corregidos), y con los 4 bloques temáticos sumando exactamente 352 momentos (96+128+96+32). Probado de punta a punta con Playwright: las tarjetas de Ejercítate y de Operaciones Básicas conviven en la selección de grado, la lista agrupada muestra los 4 bloques con sus 352 enlaces, un recorrido completo de un momento (`OB-01-01`) llega a su resultado y genera su propia constancia, y los grados 1°/2°/3° y Ejercítate se probaron intactos — ver "Paso 28" en `data/README.md` para el detalle completo.
-29. ⏳ Página de verificación de folios (`verificar.html`) enlazada desde el QR.
-30. ⏳ Desplegar el Web Endpoint real, configurar `WEBHOOK_URL` y subir a GitHub Pages.
-31. ⏳ Pruebas en dispositivos móviles reales.
+29. ✅ Operaciones Básicas reestructurado (8 momentos → 4 módulos, 176 en total) + apartado nuevo "Acarreos y Llevadas" (50 temas, solo algoritmo_columnas) (Paso 29). El docente probó Operaciones Básicas (Paso 28) y lo encontró bien pero muy corto: cada momento solo tenía 5 reactivos y quería al menos 10 pasos reales por módulo, con más bloques de 5 preguntas antes de la constancia; pidió además reducir los 352 momentos a la mitad juntando temas. Se confirmó (motor sin cambios de código) que un solo subtema con 10 reactivos ya se renderiza como 2 rondas de 5 desde el Paso 16, así que la solución fue puramente de datos: se fusionaron mecánicamente los 8 momentos de cada uno de los 44 temas en pares (1+2, 3+4, 5+6, 7+8), concatenando explicación/contexto/ejemplos/reactivos de cada par, tomando el máximo de puntos/estrellas y reescalando `nivelEtiqueta` a 4 niveles fijos (Introductorio/Intermedio/Avanzado/Integración) — sin regenerar contenido ni volver a correr el pipeline original. Resultado: **176 módulos** (44 × 4), cada uno con 10 reactivos verificados. En el mismo mensaje, el docente pidió un tercer apartado, "Acarreos" o "Llevadas": práctica exclusiva de acarreo/préstamo, únicamente con reactivos de "completa las casillas" (`algoritmo_columnas`), separado por las 6 operaciones básicas (suma, resta, multiplicación, división, potencias, raíz), con la misma progresión de menor a mayor dificultad, 10 pasos por tema y ~50 temas en total. Tras aclarar 4 decisiones de diseño (fusión en pares confirmada; solo `algoritmo_columnas` en el nuevo apartado; 6 categorías separadas, una por operación, en vez de 3 pares; división/potencias/raíces representadas mediante su verificación multiplicativa — cociente × divisor = dividendo, base × base = base², raíz × raíz = radicando), se diseñaron 50 temas (8 suma, 8 resta, 9 multiplicación, 9 división, 8 potencias, 8 raíces) con guía numérica propia por tema, generados con agentes en paralelo (con recuperación ante un límite de tasa de la API a mitad de lote) siguiendo un prompt dedicado que exige la regla crítica de `algoritmo_columnas`: cada columna (posición de derecha a izquierda entre todas las filas, ignorando el punto decimal) admite como máximo una casilla oculta. Una verificación independiente propia (no las auto-verificaciones de los agentes) — esquema, tipo de reactivo, unicidad de columna y reverificación aritmética con `Decimal` — encontró y corrigió 5 problemas reales: dos errores de tipeo de signo ("x" en vez de "×") en 20 reactivos, un índice de casilla fuera de rango, dos colisiones de columna, y un error sistémico en los 10 reactivos de un tema de potencias (productos parciales de la multiplicación en columnas sin su corrimiento de posición). Ni Ejercítate ni los PDAs de grado se modificaron ni se movieron, confirmado con Playwright de punta a punta: las 3 tarjetas de pseudo-grado conviven en la selección, Operaciones Básicas muestra sus 4 bloques y exactamente 176 enlaces, Acarreos y Llevadas muestra sus 6 bloques y exactamente 50 enlaces, un recorrido completo de un módulo de cada apartado llega a su resultado y genera constancia, y los grados 1°/2°/3° y Ejercítate siguen intactos — ver "Paso 29" en `data/README.md` para el detalle completo.
+30. ⏳ Página de verificación de folios (`verificar.html`) enlazada desde el QR.
+31. ⏳ Desplegar el Web Endpoint real, configurar `WEBHOOK_URL` y subir a GitHub Pages.
+32. ⏳ Pruebas en dispositivos móviles reales.

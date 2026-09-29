@@ -95,13 +95,53 @@ export function descargarComoPDF(idElemento = 'constancia', nombreArchivo = 'con
     return;
   }
 
-  html2pdf().set({
-    margin: 0.4,
-    filename: nombreArchivo,
-    image: { type: 'jpeg', quality: 0.98 },
-    html2canvas: { scale: 2 },
-    jsPDF: { unit: 'in', format: 'letter', orientation: 'landscape' }
-  }).from(elemento).save();
+  // html2canvas (versión antigua, la que trae empaquetada html2pdf 0.10.1)
+  // no sabe dibujar texto con degradado (background-clip: text + color:
+  // transparent) — lo pintaría invisible. Esta clase cambia el nombre del
+  // alumno a un color sólido solo mientras dura la exportación (ver
+  // ".constancia--exportando" en styles.css); la vista en pantalla nunca
+  // se toca.
+  elemento.classList.add('constancia--exportando');
+  const quitarClase = () => elemento.classList.remove('constancia--exportando');
+
+  // Si la tipografía (Google Fonts, 'Inter'/'Baloo 2') todavía no había
+  // terminado de descargarse, html2canvas medía el texto centrado con la
+  // tipografía de reserva y lo dibujaba desalineado (se veía ligeramente
+  // salido del marco). document.fonts.ready espera a que las fuentes ya
+  // estén listas antes de capturar. Si el navegador no soporta esta API,
+  // se sigue de inmediato (Promise.resolve()).
+  const fuentesListas = (document.fonts && document.fonts.ready) || Promise.resolve();
+
+  fuentesListas.then(() => generarPDF_(elemento, nombreArchivo, quitarClase));
+}
+
+function generarPDF_(elemento, nombreArchivo, quitarClase) {
+  html2pdf()
+    .set({
+      margin: 0.4,
+      filename: nombreArchivo,
+      image: { type: 'jpeg', quality: 0.98 },
+      html2canvas: {
+        scale: 2,
+        useCORS: true,
+        backgroundColor: '#ffffff',
+        scrollX: 0,
+        scrollY: 0,
+        // Sin estas dos líneas, html2canvas calcula mal el recorte de la
+        // captura (usa el ancho/alto de TODA la ventana en vez del propio
+        // elemento) y el PDF resultante sale en blanco, aunque la vista
+        // previa en pantalla se vea perfectamente bien.
+        windowWidth: elemento.scrollWidth,
+        windowHeight: elemento.scrollHeight
+      },
+      jsPDF: { unit: 'in', format: 'letter', orientation: 'landscape' }
+    })
+    .from(elemento)
+    .save()
+    .then(quitarClase, (error) => {
+      console.error('[constancia] No se pudo generar el PDF:', error);
+      quitarClase();
+    });
 }
 
 function escapeHTML_(texto = '') {

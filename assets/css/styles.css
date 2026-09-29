@@ -412,3 +412,26 @@ h1, h2, h3, .font-heading {
     box-shadow: none;
   }
 }
+
+/* Usada solo mientras constancia.js genera el PDF (ver descargarComoPDF
+ * en assets/js/constancia.js). html2canvas no soporta texto con
+ * degradado (background-clip: text + color: transparent): lo captura
+ * invisible. Este color sólido se aplica solo un instante, durante la
+ * exportación, y nunca se ve en pantalla. */
+.constancia--exportando .constancia__nombre {
+  background: none;
+  -webkit-background-clip: initial;
+  background-clip: initial;
+  color: #4f46e5;
+}
+
+/* La misma versión antigua de html2canvas mide mal el ancho de los
+ * párrafos centrados que mezclan texto normal y <strong> (por ejemplo,
+ * "de <strong>1°</strong> de secundaria, grupo <strong>A</strong>...") y
+ * los dibuja un poco corridos hacia la izquierda del marco. Este
+ * colchón extra, solo durante la exportación, evita que ese texto se
+ * vea "pegado" o saliéndose del borde del diploma en el PDF. */
+.constancia--exportando .constancia__marco {
+  padding-left: calc(clamp(20px, 5vw, 48px) + 28px);
+  padding-right: calc(clamp(20px, 5vw, 48px) + 28px);
+}
