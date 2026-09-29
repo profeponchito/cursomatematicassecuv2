@@ -11,18 +11,18 @@
     },
     "grado": {
       "type": "string",
-      "enum": ["1°", "2°", "3°", "Ejercítate", "Operaciones Básicas"],
-      "description": "'Ejercítate' y 'Operaciones Básicas' son pseudo-grados de práctica libre: no pertenecen a la ruta curricular de ningún grado en particular. 'Ejercítate' vive en data/ejercitate/ (40 temas, cada uno con 4 subtemas en un solo archivo). 'Operaciones Básicas' (Paso 28) vive en data/operaciones-basicas/: 44 temas de suma/resta, multiplicación/división y potencias/raíces, cada uno dividido en 8 'momentos' — archivos independientes de 1 solo subtema, mismo diseño que las series de grado desde el Paso 27 (su propio resultado y su propia constancia por momento). Ambos pseudo-grados requieren además el campo 'categoria'."
+      "enum": ["1°", "2°", "3°", "Ejercítate", "Operaciones Básicas", "Acarreos y Llevadas"],
+      "description": "'Ejercítate', 'Operaciones Básicas' y 'Acarreos y Llevadas' son pseudo-grados de práctica libre: no pertenecen a la ruta curricular de ningún grado en particular. 'Ejercítate' vive en data/ejercitate/ (40 temas, cada uno con 4 subtemas en un solo archivo). 'Operaciones Básicas' (Paso 28, reestructurado en el Paso 29) vive en data/operaciones-basicas/: 44 temas de suma/resta, multiplicación/división y potencias/raíces, cada uno dividido en 4 'módulos' — archivos independientes de 1 solo subtema con 10 reactivos (dos rondas de 5, Paso 16), mismo diseño que las series de grado desde el Paso 27 (su propio resultado y su propia constancia por módulo). 'Acarreos y Llevadas' (Paso 29) vive en data/acarreos-llevadas/: ~50 temas, uno por operación (suma/resta/multiplicación/división/potencias/raíces), SOLO con reactivos tipo 'algoritmo_columnas' ('completa las casillas'), cada uno con 1 solo módulo de 10 reactivos (dos rondas de 5). Los tres pseudo-grados requieren además el campo 'categoria'."
     },
     "trimestre": { "type": "string", "enum": ["1", "2", "3"] },
     "numero": {
       "type": "integer",
-      "description": "Número de tema/serie dentro de su (pseudo-)grado (1, 2, 3…), en el orden en que se recorren en el camino. Se muestra en la interfaz como 'Tema N'. Para 'Ejercítate' llega hasta 40; para 'Operaciones Básicas' llega hasta 352 (44 temas × 8 momentos)."
+      "description": "Número de tema/serie dentro de su (pseudo-)grado (1, 2, 3…), en el orden en que se recorren en el camino. Se muestra en la interfaz como 'Tema N'. Para 'Ejercítate' llega hasta 40; para 'Operaciones Básicas' llega hasta 176 (44 temas × 4 módulos, desde el Paso 29); para 'Acarreos y Llevadas' llega hasta ~50 (Paso 29)."
     },
     "categoria": {
       "type": "string",
-      "enum": ["basico", "intermedio", "avanzado", "estadistica", "suma_resta", "mult_div", "potencias_raices", "integracion"],
-      "description": "Agrupa el tema en uno de los caminos de su pseudo-grado. Para grado='Ejercítate': básico/intermedio/avanzado/estadística (4 caminos). Para grado='Operaciones Básicas' (Paso 28): suma_resta/mult_div/potencias_raices/integracion (4 bloques, 12+16+12+4 = 44 temas)."
+      "enum": ["basico", "intermedio", "avanzado", "estadistica", "suma_resta", "mult_div", "potencias_raices", "integracion", "acarreo_suma", "acarreo_resta", "acarreo_mult", "acarreo_div", "acarreo_potencias", "acarreo_raices"],
+      "description": "Agrupa el tema en uno de los caminos de su pseudo-grado. Para grado='Ejercítate': básico/intermedio/avanzado/estadística (4 caminos). Para grado='Operaciones Básicas' (Paso 28): suma_resta/mult_div/potencias_raices/integracion (4 bloques, 12+16+12+4 = 44 temas). Para grado='Acarreos y Llevadas' (Paso 29): acarreo_suma/acarreo_resta/acarreo_mult/acarreo_div/acarreo_potencias/acarreo_raices (6 caminos, uno por operación, de menor a mayor dificultad dentro de cada uno)."
     },
     "campoFormativo": { "type": "string", "const": "Saberes y Pensamiento Científico" },
     "eje": { "type": "string" },
@@ -55,7 +55,7 @@
           },
           "nivelEtiqueta": {
             "type": "string",
-            "description": "Etiqueta fija de nivel/dificultad a mostrar en vez de calcularla por índice (ver nivelChip_ en app.js) — necesaria en cualquier PDA de un solo subtema (Paso 15: 'tarjeta dividida'; Paso 27: series de grado; Paso 28: momentos de 'Operaciones Básicas'), donde el índice dentro del arreglo (siempre 0) no revela la posición real del subtema en su tema de origen. Formato idéntico al que generaría el motor, ej. 'Nivel 3 de 4 · Avanzado' o 'Repaso 2 de 3'. Los momentos de 'Operaciones Básicas' usan la escala fija de 8 niveles del Paso 28: 'Nivel N de 8 · <etiqueta>' con etiquetas Introductorio/Básico/Guiado/Intermedio/Aplicación/Avanzado/Reto/Integración. Si se omite, la etiqueta se calcula por índice/longitud del arreglo como de costumbre."
+            "description": "Etiqueta fija de nivel/dificultad a mostrar en vez de calcularla por índice (ver nivelChip_ en app.js) — necesaria en cualquier PDA de un solo subtema (Paso 15: 'tarjeta dividida'; Paso 27: series de grado; Paso 28/29: módulos de 'Operaciones Básicas' y 'Acarreos/Llevadas'), donde el índice dentro del arreglo (siempre 0) no revela la posición real del subtema en su tema de origen. Formato idéntico al que generaría el motor, ej. 'Nivel 3 de 4 · Avanzado' o 'Repaso 2 de 3'. Los módulos de 'Operaciones Básicas' usan la escala fija de 4 niveles del Paso 29: 'Nivel N de 4 · <etiqueta>' con etiquetas Introductorio/Intermedio/Avanzado/Integración (cada módulo trae 10 reactivos, dos rondas de 5)."
           },
           "titulo": { "type": "string" },
           "explicacion": { "type": "string", "description": "Explicación del subtema, más desarrollada que una síntesis breve. El subtema 4 ('Síntesis y aplicación') recapitula las ideas clave de los subtemas 1-3." },
