@@ -11,18 +11,18 @@
     },
     "grado": {
       "type": "string",
-      "enum": ["1°", "2°", "3°", "Ejercítate"],
-      "description": "'Ejercítate' identifica un tema de práctica libre (pseudo-grado): no pertenece a la ruta curricular de ningún grado en particular, vive en data/ejercitate/ en vez de data/grado-N/, y requiere además el campo 'categoria'."
+      "enum": ["1°", "2°", "3°", "Ejercítate", "Operaciones Básicas"],
+      "description": "'Ejercítate' y 'Operaciones Básicas' son pseudo-grados de práctica libre: no pertenecen a la ruta curricular de ningún grado en particular. 'Ejercítate' vive en data/ejercitate/ (40 temas, cada uno con 4 subtemas en un solo archivo). 'Operaciones Básicas' (Paso 28) vive en data/operaciones-basicas/: 44 temas de suma/resta, multiplicación/división y potencias/raíces, cada uno dividido en 8 'momentos' — archivos independientes de 1 solo subtema, mismo diseño que las series de grado desde el Paso 27 (su propio resultado y su propia constancia por momento). Ambos pseudo-grados requieren además el campo 'categoria'."
     },
     "trimestre": { "type": "string", "enum": ["1", "2", "3"] },
     "numero": {
       "type": "integer",
-      "description": "Número de tema dentro de su grado (1, 2, 3…), en el orden en que se recorren los PDAs de ese grado. Se muestra en la interfaz como 'Tema N'. Para 'Ejercítate', es el número 1-36 de la lista del usuario."
+      "description": "Número de tema/serie dentro de su (pseudo-)grado (1, 2, 3…), en el orden en que se recorren en el camino. Se muestra en la interfaz como 'Tema N'. Para 'Ejercítate' llega hasta 40; para 'Operaciones Básicas' llega hasta 352 (44 temas × 8 momentos)."
     },
     "categoria": {
       "type": "string",
-      "enum": ["basico", "intermedio", "avanzado", "estadistica"],
-      "description": "Solo para grado='Ejercítate': agrupa el tema en uno de los 4 caminos de la pantalla de Ejercítate (básicos/intermedios/avanzados/estadística y probabilidad)."
+      "enum": ["basico", "intermedio", "avanzado", "estadistica", "suma_resta", "mult_div", "potencias_raices", "integracion"],
+      "description": "Agrupa el tema en uno de los caminos de su pseudo-grado. Para grado='Ejercítate': básico/intermedio/avanzado/estadística (4 caminos). Para grado='Operaciones Básicas' (Paso 28): suma_resta/mult_div/potencias_raices/integracion (4 bloques, 12+16+12+4 = 44 temas)."
     },
     "campoFormativo": { "type": "string", "const": "Saberes y Pensamiento Científico" },
     "eje": { "type": "string" },
@@ -55,7 +55,7 @@
           },
           "nivelEtiqueta": {
             "type": "string",
-            "description": "Etiqueta fija de nivel/dificultad a mostrar en vez de calcularla por índice (ver nivelChip_ en app.js) — solo necesaria en PDAs 'tarjeta dividida' de un solo subtema (Paso 15), donde el índice dentro del arreglo (siempre 0) no revela la posición real del subtema en su PDA de origen. Formato idéntico al que generaría el motor, ej. 'Nivel 3 de 4 · Avanzado' o 'Repaso 2 de 3'. Si se omite, la etiqueta se calcula por índice/longitud del arreglo como de costumbre."
+            "description": "Etiqueta fija de nivel/dificultad a mostrar en vez de calcularla por índice (ver nivelChip_ en app.js) — necesaria en cualquier PDA de un solo subtema (Paso 15: 'tarjeta dividida'; Paso 27: series de grado; Paso 28: momentos de 'Operaciones Básicas'), donde el índice dentro del arreglo (siempre 0) no revela la posición real del subtema en su tema de origen. Formato idéntico al que generaría el motor, ej. 'Nivel 3 de 4 · Avanzado' o 'Repaso 2 de 3'. Los momentos de 'Operaciones Básicas' usan la escala fija de 8 niveles del Paso 28: 'Nivel N de 8 · <etiqueta>' con etiquetas Introductorio/Básico/Guiado/Intermedio/Aplicación/Avanzado/Reto/Integración. Si se omite, la etiqueta se calcula por índice/longitud del arreglo como de costumbre."
           },
           "titulo": { "type": "string" },
           "explicacion": { "type": "string", "description": "Explicación del subtema, más desarrollada que una síntesis breve. El subtema 4 ('Síntesis y aplicación') recapitula las ideas clave de los subtemas 1-3." },
