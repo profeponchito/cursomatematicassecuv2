@@ -1,0 +1,92 @@
+{
+  "id": "OB-43-06",
+  "grado": "Operaciones Básicas",
+  "numero": 342,
+  "categoria": "integracion",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Operaciones combinadas con números con signo — Momento 6/8",
+  "contenido": "Resolución de expresiones que combinan las cuatro operaciones y potencias con números enteros con signo, aplicando la jerarquía de operaciones y la regla de signos a la vez.",
+  "pda": "Resuelve expresiones numéricas combinadas con números con signo, aplicando la jerarquía de operaciones y la regla de signos.",
+  "problematizacion": {
+    "contexto": "La ingeniera Karla calcula profundidades en una obra: cada nivel de excavación se eleva al cuadrado para estimar la presión del terreno, y el resultado se combina con otras mediciones que pueden ser positivas o negativas según estén arriba o abajo del nivel del suelo.",
+    "pregunta": "Si un nivel de excavación está a -3 metros y ese valor se eleva al cuadrado para el cálculo de presión, ¿qué potencia con signo debe usar la ingeniera Karla?"
+  },
+  "subtemas": [
+    {
+      "numero": "43.6",
+      "nivelEtiqueta": "Nivel 6 de 8 · Avanzado",
+      "titulo": "Potencias con signo dentro de la expresión",
+      "explicacion": "Una potencia con base negativa da resultado positivo si el exponente es par, y negativo si el exponente es impar; por eso (-2)² = 4, pero (-2)³ = -8. Ten mucho cuidado con la diferencia entre (-2)² (el signo entra a la potencia porque está dentro del paréntesis) y -2² (el signo se aplica DESPUÉS de elevar, así que -2² = -4). En la jerarquía de operaciones, las potencias se resuelven antes que las multiplicaciones, divisiones, sumas y restas, pero después de los paréntesis.",
+      "formula": "Paréntesis → Potencias → × y ÷ → + y −",
+      "ejemplos": [
+        "(-3)² + 5: primero (-3)²=9 (exponente par, base entre paréntesis), luego 9+5=14",
+        "-2² − 4: el signo no está dentro de la potencia, así que -2²=-(2²)=-4; luego -4-4=-8"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "(-3)² + 5 = ?",
+          "opciones": [
+            "14",
+            "-4",
+            "-14",
+            "4"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(-3)²=9 porque el exponente es par; 9+5=14."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "-2² − 4 es igual a -8.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "El signo no está dentro de la potencia: -2²=-(2²)=-4; -4-4=-8. Es correcto."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "(-2)³ × 3 = ___",
+          "respuestaCorrecta": "-24",
+          "retroalimentacion": "(-2)³=-8 (exponente impar); -8×3=-24."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "10 − (-1)⁴ × 6 = ?",
+          "opciones": [
+            "4",
+            "16",
+            "-4",
+            "-16"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(-1)⁴=1 (exponente par); 1×6=6; 10-6=4."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada potencia con signo con su resultado correcto.",
+          "columnaA": [
+            "(-5)²",
+            "(-3)²",
+            "(-2)³",
+            "(-1)⁴"
+          ],
+          "columnaB": [
+            "25",
+            "9",
+            "-8",
+            "1",
+            "-9"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "retroalimentacion": "(-5)²=25; (-3)²=9; (-2)³=-8; (-1)⁴=1."
+        }
+      ]
+    }
+  ]
+}

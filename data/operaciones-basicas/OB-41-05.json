@@ -1,0 +1,80 @@
+{
+  "id": "OB-41-05",
+  "grado": "Operaciones Básicas",
+  "numero": 325,
+  "categoria": "integracion",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Jerarquía de operaciones — Momento 5/8",
+  "contenido": "El orden correcto para resolver una expresión con varias operaciones: potencias y raíces, multiplicación y división, suma y resta, y el papel de los paréntesis.",
+  "pda": "Aplica la jerarquía de operaciones (paréntesis, potencias/raíces, multiplicación/división, suma/resta) para resolver expresiones numéricas.",
+  "problematizacion": {
+    "contexto": "Sofía trabaja los sábados en la papelería de su tío. Cuando un cliente compra varios productos y paga con un billete grande, ella tiene que calcular el cambio combinando multiplicación y resta en una sola operación, y a veces con precios que incluyen centavos.",
+    "pregunta": "Si Sofía anota 50 − 3 × 12.50 para dar el cambio de una compra, ¿qué debe multiplicar antes de restar?"
+  },
+  "subtemas": [
+    {
+      "numero": "41.5",
+      "nivelEtiqueta": "Nivel 5 de 8 · Aplicación",
+      "titulo": "Expresiones completas: paréntesis, potencias, raíces y más",
+      "explicacion": "Ahora vas a combinar en una sola expresión paréntesis, potencias o raíces, multiplicación o división, y suma o resta, todo junto. La forma de resolverlas no cambia: primero lo que está entre paréntesis, después potencias y raíces, luego multiplicaciones y divisiones, y al final sumas y restas. Ir marcando con un número el orden en que resolverás cada parte antes de calcular ayuda a no saltarte ningún paso. Esta jerarquía también se aplica a situaciones con dinero, como calcular cambios o totales de compra.",
+      "formula": "1) ( )  →  2) potencias y raíces  →  3) × y ÷  →  4) + y −",
+      "ejemplos": [
+        "(3 + 1)² − 5: primero (3+1)=4, luego 4²=16, y al final 16−5=11.",
+        "2 × (6 − 2)² ÷ 4: primero (6−2)=4, luego 4²=16, después 2×16=32, y al final 32÷4=8."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es (3 + 1)² − 5?",
+          "opciones": [
+            "11",
+            "16",
+            "1",
+            "-1"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Primero (3+1)=4 por el paréntesis, luego 4²=16, y al final 16−5=11."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 2 × (6 − 2)² ÷ 4?",
+          "opciones": [
+            "8",
+            "16",
+            "32",
+            "4"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Primero (6−2)=4, luego 4²=16, después 2×16=32, y al final 32÷4=8."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El resultado de 10 + (2 + 3)² ÷ 5 es 15.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: (2+3)=5, luego 5²=25, después 25÷5=5, y al final 10+5=15."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "(7 − 4)² + √9 = ___",
+          "respuestaCorrecta": "12",
+          "retroalimentacion": "Primero (7−4)=3, luego 3²=9, y √9=3; al final 9+3=12."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Sofía compra 3 plumones a $12.50 cada uno y paga con un billete de $50. El cambio se calcula como 50 − 3 × 12.50. ¿Cuánto es el cambio?",
+          "opciones": [
+            "$12.50",
+            "$37.50",
+            "$50.00",
+            "$0.00"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Primero 3 × 12.50 = 37.50 (el costo total), y luego 50 − 37.50 = 12.50 de cambio."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "OB-22-07",
+  "grado": "Operaciones Básicas",
+  "numero": 175,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "División de decimales — Momento 7/8",
+  "contenido": "División de números decimales, incluyendo dividir un decimal entre un natural y ajustar el divisor para trabajar con números enteros.",
+  "pda": "Divide números decimales, transformando el divisor decimal en un número entero cuando es necesario.",
+  "problematizacion": {
+    "contexto": "En un puesto de tacos en el tianguis de los domingos, tres socios reparten en partes iguales la ganancia del día, y el resultado exacto en pesos no siempre cae en un número entero de centavos.",
+    "pregunta": "¿Qué cifra decimal debes observar para decidir si redondeas hacia arriba o dejas igual el reparto en centavos de cada socio?"
+  },
+  "subtemas": [
+    {
+      "numero": "22.7",
+      "nivelEtiqueta": "Nivel 7 de 8 · Reto",
+      "titulo": "Aplicaciones con dinero y redondeo a centésimos",
+      "explicacion": "En la vida diaria, sobre todo con dinero, casi siempre trabajamos con dos cifras decimales (los centavos). Cuando divides una cantidad de dinero y el cociente tiene más de dos cifras decimales, debes redondearlo a centésimos: observas la cifra de las milésimas y, si es 5 o más, subes en uno la cifra de las centésimas; si es menor que 5, la dejas igual. No todas las divisiones necesitan redondeo: cuando el cociente ya termina exacto en centésimas o antes, se deja tal cual.",
+      "formula": "Redondeo: si la milésima es 5 o más, sube la centésima; si es menor que 5, la centésima no cambia",
+      "ejemplos": [
+        "$27.50 ÷ 4 personas = 6.875; la milésima es 5, así que la centésima sube de 7 a 8: el resultado redondeado es $6.88.",
+        "$45.75 ÷ 6 = 7.625; la milésima es 5, la centésima sube de 2 a 3: el resultado redondeado es $7.63."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Se reparten $27.50 entre 4 personas. Redondeado a centésimos, ¿cuánto le toca a cada una?",
+          "opciones": [
+            "$6.87",
+            "$6.88",
+            "$6.80",
+            "$6.90"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "27.50 ÷ 4 = 6.875; la milésima es 5, así que la centésima sube: $6.88."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "15.6 ÷ 4 da exactamente 3.9, sin necesidad de redondear.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 15.6 ÷ 4 = 3.9 exacto, el residuo llega a cero sin pasar de una cifra decimal."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "8.3 ÷ 3, redondeado a centésimos, es ___",
+          "respuestaCorrecta": "2.77",
+          "retroalimentacion": "8.3 ÷ 3 = 2.7666...; la milésima es 6 (mayor que 5), así que la centésima sube de 6 a 7: 2.77."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "19 ÷ 8, redondeado a centésimos, es:",
+          "opciones": [
+            "2.37",
+            "2.38",
+            "2.40",
+            "2.35"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "19 ÷ 8 = 2.375; la milésima es 5, así que la centésima sube de 7 a 8: 2.38."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "45.75 ÷ 6, redondeado a centésimos, es ___",
+          "respuestaCorrecta": "7.63",
+          "retroalimentacion": "45.75 ÷ 6 = 7.625; la milésima es 5, así que la centésima sube de 2 a 3: 7.63."
+        }
+      ]
+    }
+  ]
+}

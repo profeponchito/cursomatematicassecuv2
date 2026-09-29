@@ -1,0 +1,74 @@
+{
+  "id": "OB-21-01",
+  "grado": "Operaciones Básicas",
+  "numero": 161,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "División entre decenas, centenas y potencias de 10 — Momento 1/8",
+  "contenido": "División de un número entre 10, 100, 1000 y sus múltiplos, identificando el patrón inverso al de la multiplicación por potencias de 10.",
+  "pda": "Divide números naturales entre potencias de 10 y sus múltiplos, reconociendo el patrón que sigue el resultado.",
+  "problematizacion": {
+    "contexto": "En el tianguis de los sábados, doña Rosa vende dulces por mayoreo. Compró 350 dulces surtidos y quiere empacarlos en bolsitas de 10 dulces cada una para venderlas más fácil a los niños del barrio.",
+    "pregunta": "¿Cuántas bolsitas de 10 dulces puede armar doña Rosa con sus 350 dulces?"
+  },
+  "subtemas": [
+    {
+      "numero": "21.1",
+      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
+      "titulo": "Dividir entre 10: quitar un cero",
+      "explicacion": "Cuando un número termina en cero, dividirlo entre 10 es muy sencillo: basta con quitar el último cero. Esto pasa porque dividir entre 10 es la operación inversa de multiplicar por 10, y al multiplicar por 10 se agrega un cero al final. Por eso, si multiplicar hace crecer el número corriendo el punto un lugar a la derecha, dividir entre 10 lo hace más chico corriendo el punto un lugar a la izquierda. Este patrón funciona con cualquier número que termine en uno o más ceros.",
+      "formula": "número ÷ 10 = número sin su último cero (si termina en 0)",
+      "ejemplos": [
+        "80 ÷ 10: como 80 termina en cero, lo quitamos y queda 8. Comprobación: 8 × 10 = 80.",
+        "450 ÷ 10: quitamos el último cero de 450 y queda 45. Comprobación: 45 × 10 = 450."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 80 ÷ 10?",
+          "opciones": [
+            "7",
+            "8",
+            "80",
+            "800"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "80 termina en un cero; al quitarlo queda 8. Comprobación: 8 × 10 = 80."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "350 ÷ 10 = ___",
+          "respuestaCorrecta": "35",
+          "retroalimentacion": "Quitamos el último cero de 350 y queda 35. Comprobación: 35 × 10 = 350."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "600 ÷ 10 = 60",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Verdadero. Al quitar el último cero de 600 queda 60, y 60 × 10 = 600."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado de 1000 ÷ 10?",
+          "opciones": [
+            "10",
+            "100",
+            "1000",
+            "10000"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "1000 tiene tres ceros; al quitar solo el último queda 100. Comprobación: 100 × 10 = 1000."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "840 ÷ 10 = ___",
+          "respuestaCorrecta": "84",
+          "retroalimentacion": "Quitamos el último cero de 840 y queda 84. Comprobación: 84 × 10 = 840."
+        }
+      ]
+    }
+  ]
+}

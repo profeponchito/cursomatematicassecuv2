@@ -1,0 +1,91 @@
+{
+  "id": "OB-37-06",
+  "grado": "Operaciones Básicas",
+  "numero": 294,
+  "categoria": "potencias_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Raíz cúbica de cubos perfectos — Momento 6/8",
+  "contenido": "Cálculo de la raíz cúbica exacta de números que son cubos perfectos, como operación inversa de elevar al cubo.",
+  "pda": "Calcula la raíz cúbica exacta de cubos perfectos, reconociéndola como la operación inversa de elevar al cubo.",
+  "problematizacion": {
+    "contexto": "La repostera Lupita prepara gelatinas en moldes con forma de cubo para una fiesta infantil. Uno de sus moldes especiales tiene un volumen de 3.375 litros, y ella quiere saber la medida exacta del molde en decímetros para comprar uno igual la próxima vez.",
+    "pregunta": "¿Cuánto mide la arista de ese molde, en decímetros, si su volumen es de 3.375 litros?"
+  },
+  "subtemas": [
+    {
+      "numero": "37.6",
+      "nivelEtiqueta": "Nivel 6 de 8 · Avanzado",
+      "titulo": "Raíces cúbicas de números decimales",
+      "explicacion": "Los cubos perfectos también pueden ser números decimales, cuando el número que se elevó al cubo ya era decimal. Por ejemplo, 0.5 al cubo da 0.125, así que ∛0.125 = 0.5. Para verificarlo con seguridad conviene usar fracciones o el valor exacto en lugar de aproximaciones, para no arrastrar errores de redondeo. En este momento vas a reconocer raíces cúbicas de cubos perfectos decimales sencillos, con una sola cifra decimal en la raíz.",
+      "ejemplos": [
+        "∛0.008 = 0.2, porque 0.2 × 0.2 × 0.2 = 0.008.",
+        "∛1.331 = 1.1, porque 1.1 × 1.1 × 1.1 = 1.331."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la raíz cúbica de 0.008?",
+          "opciones": [
+            "0.02",
+            "0.2",
+            "0.4",
+            "0.8"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "0.2 × 0.2 × 0.2 = 0.008, entonces ∛0.008 = 0.2."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "∛0.125 = ___",
+          "respuestaCorrecta": "0.5",
+          "retroalimentacion": "0.5 × 0.5 × 0.5 = 0.125, entonces ∛0.125 = 0.5."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "∛1.331 = 1.1, porque 1.1 × 1.1 × 1.1 = 1.331.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 1.1³ = 1.331."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la raíz cúbica de 3.375?",
+          "opciones": [
+            "1.3",
+            "1.4",
+            "1.5",
+            "1.6"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "1.5 × 1.5 × 1.5 = 3.375, entonces ∛3.375 = 1.5."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada cubo perfecto decimal con su raíz cúbica.",
+          "columnaA": [
+            "0.001",
+            "0.027",
+            "0.125",
+            "1.331"
+          ],
+          "columnaB": [
+            "0.1",
+            "0.3",
+            "0.5",
+            "1.1",
+            "0.2"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "retroalimentacion": "0.001=0.1³, 0.027=0.3³, 0.125=0.5³ y 1.331=1.1³."
+        }
+      ]
+    }
+  ]
+}

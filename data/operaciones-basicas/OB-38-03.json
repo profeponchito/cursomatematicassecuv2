@@ -1,0 +1,89 @@
+{
+  "id": "OB-38-03",
+  "grado": "Operaciones Básicas",
+  "numero": 299,
+  "categoria": "potencias_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Relación entre potencias y raíces — Momento 3/8",
+  "contenido": "La raíz como operación inversa de la potencia, verificando una raíz al elevar el resultado a la potencia correspondiente.",
+  "pda": "Explica y verifica la relación inversa entre potencias y raíces, comprobando una raíz al elevarla a la potencia correspondiente.",
+  "problematizacion": {
+    "contexto": "El entrenador Ismael quiere formar a los 144 jugadores de su escuela de fútbol en un bloque cuadrado perfecto para la foto del equipo, con el mismo número de filas que de columnas.",
+    "pregunta": "¿Cuántas filas (y columnas) debe usar el entrenador para que el bloque cuadrado tenga exactamente 144 jugadores?"
+  },
+  "subtemas": [
+    {
+      "numero": "38.3",
+      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
+      "titulo": "Comprobación guiada: ¿cuadrado o cubo?",
+      "explicacion": "Antes de comprobar una raíz, primero hay que fijarse en su índice: si es raíz cuadrada (índice 2) se comprueba elevando al cuadrado, y si es raíz cúbica (índice 3) se comprueba elevando al cubo. El procedimiento siempre tiene tres pasos: identificar el índice de la raíz, elevar el resultado propuesto a esa potencia, y comparar el resultado con el número original. En este momento vas a seguir esos tres pasos con raíces cuadradas de números de dos cifras y raíces cúbicas un poco más grandes que antes.",
+      "formula": "Paso 1: identifica el índice → Paso 2: eleva el resultado a esa potencia → Paso 3: compara",
+      "ejemplos": [
+        "√169: el índice es 2, se propone 13, y 13 × 13 = 169, coincide, la raíz es correcta.",
+        "∛512: el índice es 3, se propone 8, y 8 × 8 × 8 = 512, coincide, la raíz es correcta."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la raíz cuadrada de 169?",
+          "opciones": [
+            "11",
+            "12",
+            "13",
+            "14"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "13 × 13 = 169, por eso √169 = 13."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Para comprobar que √196 = 14, el primer paso es identificar que el índice de la raíz es 2.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Sí: como es raíz cuadrada su índice es 2, por eso se comprueba elevando al cuadrado."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si el índice de una raíz es 3, para comprobarla hay que elevar el resultado al ___.",
+          "respuestaCorrecta": "cubo",
+          "retroalimentacion": "Índice 3 significa raíz cúbica, se comprueba elevando al cubo."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Qué operación comprueba que ∛729 = 9?",
+          "opciones": [
+            "9 × 9",
+            "9 × 9 × 9",
+            "9 × 3",
+            "9 + 9 + 9"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "9 × 9 × 9 = 729, por eso ∛729 = 9."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada raíz con el paso 2 de su comprobación (elevar el resultado propuesto a la potencia indicada por el índice).",
+          "columnaA": [
+            "√121",
+            "√225",
+            "∛343"
+          ],
+          "columnaB": [
+            "12 × 12 = 144",
+            "7 × 7 × 7 = 343",
+            "11 × 11 = 121",
+            "15 × 15 = 225"
+          ],
+          "parejasCorrectas": [
+            2,
+            3,
+            1
+          ],
+          "retroalimentacion": "√121 = 11 (11×11=121), √225 = 15 (15×15=225), ∛343 = 7 (7×7×7=343)."
+        }
+      ]
+    }
+  ]
+}

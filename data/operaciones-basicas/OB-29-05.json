@@ -1,0 +1,90 @@
+{
+  "id": "OB-29-05",
+  "grado": "Operaciones Básicas",
+  "numero": 229,
+  "categoria": "potencias_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Significado de la potencia (multiplicación repetida) — Momento 5/8",
+  "contenido": "La potencia como una multiplicación repetida de un mismo factor (base), identificando base y exponente.",
+  "pda": "Interpreta una potencia como la multiplicación repetida de su base, e identifica base y exponente en una expresión.",
+  "problematizacion": {
+    "contexto": "En un examen, Fernanda escribió que 3^5 y 3×5 daban el mismo resultado porque 'llevan los mismos números', y su compañero Emiliano no estaba seguro de si eso era correcto antes de entregar su hoja.",
+    "pregunta": "¿Fernanda tiene razón en que 3^5 y 3×5 dan el mismo resultado?"
+  },
+  "subtemas": [
+    {
+      "numero": "29.5",
+      "nivelEtiqueta": "Nivel 5 de 8 · Aplicación",
+      "titulo": "No confundas la potencia con una multiplicación simple",
+      "explicacion": "Un error muy común es confundir b^n (una potencia) con b×n (una multiplicación simple de dos números), pero significan cosas totalmente distintas y casi siempre dan resultados muy diferentes. En b^n, la base se multiplica por sí misma n veces; en b×n, simplemente se multiplican dos números distintos una sola vez. Siempre que veas un exponente, revisa que estás multiplicando la base por sí misma y no multiplicándola una sola vez por el número del exponente.",
+      "ejemplos": [
+        "2^5 = 32 (el 2 multiplicado por sí mismo 5 veces), pero 2×5 = 10 (una sola multiplicación).",
+        "4^3 = 64 (el 4 multiplicado por sí mismo 3 veces), pero 4×3 = 12 (una sola multiplicación)."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el valor de 3^5?",
+          "opciones": [
+            "15",
+            "81",
+            "125",
+            "243"
+          ],
+          "respuestaCorrecta": 3,
+          "retroalimentacion": "3^5 = 3×3×3×3×3 = 243. No es lo mismo que 3×5, que solo da 15."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado de 3×5 (multiplicación simple, no potencia)?",
+          "opciones": [
+            "8",
+            "15",
+            "35",
+            "243"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "3×5 es una multiplicación simple de dos factores distintos y da 15, muy diferente de 3^5 = 243."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "2^4 es igual a ___ (no lo confundas con 2×4, que da 8).",
+          "respuestaCorrecta": "16",
+          "retroalimentacion": "2^4 = 2×2×2×2 = 16, mientras que 2×4 es una multiplicación simple que da 8."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "5^2 y 5×2 dan el mismo resultado.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso. 5^2 = 5×5 = 25, mientras que 5×2 = 10; son resultados diferentes."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada expresión con su resultado correcto.",
+          "columnaA": [
+            "4^3",
+            "4×3",
+            "6^2",
+            "6×3"
+          ],
+          "columnaB": [
+            "36",
+            "64",
+            "18",
+            "12"
+          ],
+          "parejasCorrectas": [
+            1,
+            3,
+            0,
+            2
+          ],
+          "retroalimentacion": "4^3 = 64, 4×3 = 12, 6^2 = 36 y 6×3 = 18. Fíjate cómo la potencia y la multiplicación simple dan resultados distintos aunque usen los mismos números."
+        }
+      ]
+    }
+  ]
+}

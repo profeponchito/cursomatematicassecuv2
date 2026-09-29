@@ -1,0 +1,74 @@
+{
+  "id": "OB-25-01",
+  "grado": "Operaciones Básicas",
+  "numero": 193,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Estimación antes de multiplicar y dividir — Momento 1/8",
+  "contenido": "Estimación del resultado de una multiplicación o división mediante redondeo, para verificar si un cálculo exacto es razonable.",
+  "pda": "Estima el resultado de multiplicaciones y divisiones mediante redondeo y lo usa para verificar la razonabilidad de un cálculo.",
+  "problematizacion": {
+    "contexto": "Don Refugio surte la tienda de abarrotes de su colonia y compró 8 cajas de refresco, cada una con 24 botellas. Antes de contarlas una por una, quiere saber más o menos cuántas botellas tiene en total.",
+    "pregunta": "Si redondeas 24 a la decena más cercana (20), ¿aproximadamente cuántas botellas compró Don Refugio en total?"
+  },
+  "subtemas": [
+    {
+      "numero": "25.1",
+      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
+      "titulo": "Redondea un factor para estimar un producto",
+      "explicacion": "Estimar significa calcular un resultado aproximado, rápido y sin calculadora, redondeando los números antes de operar. En este primer paso vas a redondear solo uno de los dos factores (el de dos cifras) a la decena más cercana, dejando el otro número tal cual. Después multiplicas mentalmente los números para obtener una estimación cercana al resultado exacto. Esta habilidad te sirve para saber, de un vistazo, si un cálculo tiene sentido antes de resolverlo con calculadora.",
+      "formula": "estimación ≈ factor × (factor redondeado a la decena)",
+      "ejemplos": [
+        "Para estimar 6 × 48: redondeamos 48 a la decena más cercana (50) y calculamos 6 × 50 = 300. El resultado exacto es 288, así que 300 es una buena estimación.",
+        "Para estimar 9 × 31: redondeamos 31 a 30 y calculamos 9 × 30 = 270."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Para estimar 6 × 48, se redondea 48 a la decena más cercana. ¿Cuál es la mejor estimación?",
+          "opciones": [
+            "280",
+            "300",
+            "240",
+            "320"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "48 se redondea a 50, y 6 × 50 = 300. El resultado exacto es 288, muy cerca de la estimación."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "9 × 31 se estima redondeando 31 a la decena más cercana (30) y multiplicando: 9 × 30 = ___.",
+          "respuestaCorrecta": "270",
+          "retroalimentacion": "9 × 30 = 270. El resultado exacto de 9 × 31 es 279, así que 270 es una buena estimación."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Para estimar 7 × 62, redondeamos 62 a 60 y calculamos 7 × 60 = 420. Verdadero o falso: 420 es una buena estimación de 7 × 62.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Verdadero. El resultado exacto de 7 × 62 es 434, y 420 está muy cerca de ese valor."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la estimación de 4 × 77, redondeando 77 a la decena más cercana?",
+          "opciones": [
+            "280",
+            "320",
+            "350",
+            "300"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "77 se redondea a 80, y 4 × 80 = 320. El resultado exacto es 308."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Para estimar 5 × 19, redondeamos 19 a la decena más cercana (20) y multiplicamos: 5 × 20 = ___.",
+          "respuestaCorrecta": "100",
+          "retroalimentacion": "5 × 20 = 100. El resultado exacto de 5 × 19 es 95, muy cerca de la estimación."
+        }
+      ]
+    }
+  ]
+}

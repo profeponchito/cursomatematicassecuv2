@@ -1,0 +1,115 @@
+{
+  "id": "OB-38-08",
+  "grado": "Operaciones Básicas",
+  "numero": 304,
+  "categoria": "potencias_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Relación entre potencias y raíces — Momento 8/8",
+  "contenido": "La raíz como operación inversa de la potencia, verificando una raíz al elevar el resultado a la potencia correspondiente.",
+  "pda": "Explica y verifica la relación inversa entre potencias y raíces, comprobando una raíz al elevarla a la potencia correspondiente.",
+  "problematizacion": {
+    "contexto": "En la ferretería 'La Escuadra' de Morelia, el encargado Rodrigo debe entregar dos pedidos el mismo día: un piso cuadrado de 529 azulejos para una tienda y una torre de cajas cúbicas para una obra, donde cada caja debe tener un volumen de 2197 centímetros cúbicos.",
+    "pregunta": "¿Qué dos comprobaciones (una de raíz cuadrada y otra de raíz cúbica) necesita hacer Rodrigo antes de facturar los pedidos?"
+  },
+  "subtemas": [
+    {
+      "numero": "38.8",
+      "nivelEtiqueta": "Nivel 8 de 8 · Integración",
+      "titulo": "Integración: potencias y raíces en cualquier situación",
+      "explicacion": "Ya conoces la relación inversa entre potencias y raíces para cuadrados, cubos y raíces cuartas, y también sabes acotar raíces que no son exactas. La regla general es que, si el índice de la raíz es n, la comprobación consiste en elevar el resultado propuesto a la potencia n y comparar con el número original. En este momento vas a combinar todo lo aprendido: raíces exactas de distintos índices y raíces acotadas entre dos enteros, decidiendo en cada caso qué potencia usar para comprobar.",
+      "formula": "Regla general: si la raíz de índice n de b es a, entonces a elevado a la n es igual a b",
+      "ejemplos": [
+        "Raíz cúbica de 2197 = 13, porque 13 × 13 × 13 = 2197.",
+        "Raíz cuadrada de 529 = 23, porque 23 × 23 = 529; ambas comprobaciones usan la misma idea: elevar a la potencia del índice."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la raíz cuadrada de 529?",
+          "opciones": [
+            "21",
+            "22",
+            "23",
+            "24"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "23 × 23 = 529, por eso √529 = 23."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la raíz cúbica de 2197?",
+          "opciones": [
+            "11",
+            "12",
+            "13",
+            "14"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "13 × 13 × 13 = 2197, por eso ∛2197 = 13."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La raíz cuarta de 1296 es 6, porque 6 × 6 × 6 × 6 = 1296.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto, 6 × 6 × 6 × 6 = 1296."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si 19 × 19 = 361, entonces la raíz cuadrada de 361 = ___.",
+          "respuestaCorrecta": "19",
+          "retroalimentacion": "La raíz cuadrada de 361 es 19, porque 19² = 361."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada raíz con su comprobación correcta (algunas son exactas y otras solo se acotan entre dos enteros).",
+          "columnaA": [
+            "Raíz cuadrada de 676",
+            "Raíz cúbica de 2744",
+            "Raíz cuadrada de 200 (no exacta)"
+          ],
+          "columnaB": [
+            "está entre 13 y 14",
+            "14 × 14 × 14 = 2744",
+            "está entre 14 y 15, porque 14 × 14 = 196 y 15 × 15 = 225",
+            "26 × 26 = 676"
+          ],
+          "parejasCorrectas": [
+            3,
+            1,
+            2
+          ],
+          "retroalimentacion": "√676 = 26 (26×26=676); ∛2744 = 14 (14×14×14=2744); √200 no es exacta, está entre 14 y 15 porque 196 < 200 < 225."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Un almacén cúbico tiene un volumen de 8000 m³. Si se afirma que la arista mide 20 m, ¿qué operación lo comprueba?",
+      "opciones": [
+        "20 × 20",
+        "20 × 20 × 20",
+        "20 × 3",
+        "20 × 4"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "20 × 20 × 20 = 8000, la comprobación es correcta."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "La raíz cuarta de 1024 es 5, porque 5 × 5 × 5 × 5 = 1024.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Falso: 5 × 5 × 5 × 5 = 625, no 1024. De hecho 1024 no es una potencia cuarta exacta de un entero pequeño: está entre 5⁴ = 625 y 6⁴ = 1296."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "La raíz cúbica de 3375 es ___, porque 15 × 15 × 15 = 3375.",
+      "respuestaCorrecta": "15",
+      "retroalimentacion": "La raíz cúbica de 3375 es 15, porque 15³ = 3375."
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "OB-42-08",
+  "grado": "Operaciones Básicas",
+  "numero": 336,
+  "categoria": "integracion",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Operaciones combinadas con números naturales — Momento 8/8",
+  "contenido": "Resolución de expresiones que combinan suma, resta, multiplicación, división, potencias y raíces con números naturales, aplicando la jerarquía de operaciones.",
+  "pda": "Resuelve expresiones numéricas combinadas con números naturales aplicando correctamente la jerarquía de operaciones.",
+  "problematizacion": {
+    "contexto": "El comité organizador de la feria de ciencias de una secundaria de Querétaro necesita calcular cuántos premios puede comprar con lo recaudado en la venta de boletos. La fórmula que usan combina paréntesis, corchetes, una potencia, una raíz cuadrada y varias sumas, restas, multiplicaciones y divisiones, todo en una sola expresión.",
+    "pregunta": "Si la fórmula del comité mezcla corchetes, potencias, raíces y las cuatro operaciones básicas, ¿en qué orden general deben resolverla, del primer paso al último?"
+  },
+  "subtemas": [
+    {
+      "numero": "42.8",
+      "nivelEtiqueta": "Nivel 8 de 8 · Integración",
+      "titulo": "Integración total: todas las operaciones combinadas",
+      "explicacion": "Este último momento reúne todo lo trabajado en el tema: paréntesis, corchetes, potencias, raíces, multiplicación, división, suma y resta, todo dentro de la misma expresión. La jerarquía completa se aplica siempre en este orden: primero los signos de agrupación de adentro hacia afuera (paréntesis y luego corchetes), después las potencias y raíces, luego las multiplicaciones y divisiones de izquierda a derecha, y al final las sumas y restas de izquierda a derecha. La estrategia más segura es ir resolviendo la expresión por partes, marcando cada resultado parcial antes de continuar, en vez de intentar calcular todo de un solo vistazo. Dominar este orden permite resolver con confianza cualquier expresión numérica combinada con números naturales.",
+      "formula": "Agrupación (adentro hacia afuera) → potencias y raíces → × ÷ → + −",
+      "ejemplos": [
+        "5 + [(2 + 1)² - √4] × 2 = 5 + [3² - 2] × 2 = 5 + [9 - 2] × 2 = 5 + 7 × 2 = 5 + 14 = 19",
+        "[18 ÷ (√9 × 3)] + 2³ = [18 ÷ (3 × 3)] + 8 = [18 ÷ 9] + 8 = 2 + 8 = 10"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado de 3 + 2 × [4² - √9] ÷ 2?",
+          "opciones": [
+            "16",
+            "29",
+            "13",
+            "22"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Dentro del corchete: 4² = 16 y √9 = 3, entonces 16 - 3 = 13. Después, de izquierda a derecha: 2 × 13 = 26, y 26 ÷ 2 = 13. Al final: 3 + 13 = 16."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado de [(5 + 3)² - 2⁴] ÷ √16?",
+          "opciones": [
+            "12",
+            "48",
+            "16",
+            "6"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Primero el paréntesis: 5 + 3 = 8. Luego las potencias: 8² = 64 y 2⁴ = 16. Dentro del corchete: 64 - 16 = 48. La raíz: √16 = 4. Al final: 48 ÷ 4 = 12."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En la expresión 10 + [3 × (4 + 2)² - 5], el paréntesis interno (4 + 2) se resuelve antes que la potencia, y la potencia antes que la multiplicación.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Verdadero: primero 4 + 2 = 6, luego 6² = 36, después 3 × 36 = 108, luego 108 - 5 = 103, y al final 10 + 103 = 113."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El resultado de 2³ + [18 ÷ (√9 × 2)] es ___.",
+          "respuestaCorrecta": "11",
+          "retroalimentacion": "Dentro del paréntesis: √9 = 3, y 3 × 2 = 6. Dentro del corchete: 18 ÷ 6 = 3. La potencia: 2³ = 8. Al final: 8 + 3 = 11."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El resultado de [(7 - 2) × 4] ÷ 2 + 3² es ___.",
+          "respuestaCorrecta": "19",
+          "retroalimentacion": "Primero el paréntesis: 7 - 2 = 5. Dentro del corchete: 5 × 4 = 20. Luego: 20 ÷ 2 = 10. La potencia: 3² = 9. Al final: 10 + 9 = 19."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es el resultado de [(2 + 3)² - √16] × 2 ÷ 3?",
+      "opciones": [
+        "14",
+        "42",
+        "21",
+        "7"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "Primero el paréntesis: 2 + 3 = 5. Potencia: 5² = 25. Raíz: √16 = 4. Dentro del corchete: 25 - 4 = 21. Luego: 21 × 2 = 42, y 42 ÷ 3 = 14."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "El resultado de 5 + 2 × [(6 - 2)² ÷ 4 + √9] es ___.",
+      "respuestaCorrecta": "19",
+      "retroalimentacion": "Paréntesis: 6 - 2 = 4. Potencia: 4² = 16. Raíz: √9 = 3. Dentro del corchete: 16 ÷ 4 = 4, y 4 + 3 = 7. Luego: 2 × 7 = 14. Al final: 5 + 14 = 19."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "En una expresión con varios corchetes anidados, siempre se resuelve primero el nivel de agrupación más interno.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Verdadero. Sin importar cuántos niveles de agrupación tenga una expresión, siempre se avanza de adentro hacia afuera."
+    }
+  ]
+}

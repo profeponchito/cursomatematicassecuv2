@@ -1,0 +1,96 @@
+{
+  "id": "OB-27-06",
+  "grado": "Operaciones Básicas",
+  "numero": 214,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Multiplicación y división en la vida cotidiana — Momento 6/8",
+  "contenido": "Multiplicación y división aplicadas a situaciones cotidianas: repartos, precios unitarios, escalas y recetas.",
+  "pda": "Resuelve problemas cotidianos de reparto, precio unitario y proporciones sencillas usando multiplicación y división.",
+  "problematizacion": {
+    "contexto": "Un grupo de excursionistas de la secundaria planea una caminata y usa un mapa turístico donde las distancias reales aparecen reducidas a una escala fija, además de organizar cuadrillas de trabajo para armar el campamento.",
+    "pregunta": "Si en el mapa la ruta mide 8 centímetros y cada centímetro representa 5 kilómetros reales, ¿qué tan larga es la caminata en la realidad?"
+  },
+  "subtemas": [
+    {
+      "numero": "27.6",
+      "nivelEtiqueta": "Nivel 6 de 8 · Avanzado",
+      "titulo": "Dos operaciones en un solo problema: multiplicar y dividir juntos",
+      "explicacion": "Muchos problemas cotidianos no se resuelven con una sola operación, sino con dos pasos: primero se divide para encontrar una cantidad \"por unidad\" (por persona, por centímetro, por obrero) y después se multiplica para escalarla a la situación que se pregunta, o al revés. Este tipo de razonamiento aparece al escalar recetas, leer escalas de mapas o repartir compras entre varios grupos. La clave es identificar qué operación va primero: si se necesita un valor unitario, se divide primero; si ya se tiene el total y solo falta repartirlo, se multiplica primero y se divide después.",
+      "formula": "cantidad por unidad = total ÷ unidades conocidas; luego: resultado = cantidad por unidad × unidades buscadas",
+      "ejemplos": [
+        "Una receta para 4 personas usa 300 g de arroz: por persona es 300 ÷ 4 = 75 g; para 10 personas se necesitan 75 × 10 = 750 g.",
+        "En un mapa, 1 cm representa 5 km reales; si dos ciudades están a 8 cm en el mapa, la distancia real es 8 × 5 = 40 km."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una receta para 4 personas usa 300 g de arroz. ¿Cuántos gramos de arroz se necesitan para 10 personas, manteniendo la misma proporción?",
+          "opciones": [
+            "700 g",
+            "720 g",
+            "750 g",
+            "800 g"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Por persona: 300 ÷ 4 = 75 g. Para 10 personas: 75 × 10 = 750 g."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En un mapa, 1 cm representa 5 km reales. Si dos ciudades están a 8 cm de distancia en el mapa, la distancia real entre ellas es de ___ km.",
+          "respuestaCorrecta": "40",
+          "retroalimentacion": "8 cm × 5 km por cada cm = 40 km reales."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si 6 obreros construyen un muro en 12 días trabajando al mismo ritmo, entonces 12 obreros (el doble) tardarían la mitad del tiempo: 6 días.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: la cantidad de trabajo total es la misma (6 × 12 = 72 \"obrero-días\"); con el doble de obreros, 72 ÷ 12 = 6 días."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una cooperativa escolar compra 15 cajas de jugo con 24 piezas cada una y las reparte por igual entre 9 salones. ¿Cuántas piezas de jugo recibe cada salón?",
+          "opciones": [
+            "36",
+            "38",
+            "40",
+            "42"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Total de piezas: 15 × 24 = 360. Por salón: 360 ÷ 9 = 40 piezas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "40"
+            },
+            {
+              "valor": "9",
+              "signo": "×"
+            },
+            {
+              "valor": "360",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "retroalimentacion": "Esto verifica que 360 ÷ 9 = 40, porque 40 × 9 = 360: es la comprobación de las piezas de jugo por salón."
+        }
+      ]
+    }
+  ]
+}

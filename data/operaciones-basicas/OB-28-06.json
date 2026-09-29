@@ -1,0 +1,96 @@
+{
+  "id": "OB-28-06",
+  "grado": "Operaciones Básicas",
+  "numero": 222,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Encuentra el error: multiplicación y división — Momento 6/8",
+  "contenido": "Identificación del paso exacto donde una multiplicación o división ya resuelta contiene un error, como forma de reforzar el algoritmo desde la revisión.",
+  "pda": "Identifica errores en algoritmos de multiplicación y división ya resueltos, explicando en qué paso ocurre el error.",
+  "problematizacion": {
+    "contexto": "El entrenador Iván organiza un torneo escolar de futbol y necesita repartir el total de jugadores inscritos en equipos de un mismo tamaño, o repartir los balones disponibles entre las canchas. Antes de anunciar los equipos, comprueba cada división para no dejar jugadores fuera por error de cálculo.",
+    "pregunta": "¿Qué comprobación puede hacer el entrenador Iván para saber si el número de equipos que calculó realmente reparte a todos los jugadores?"
+  },
+  "subtemas": [
+    {
+      "numero": "28.6",
+      "nivelEtiqueta": "Nivel 6 de 8 · Avanzado",
+      "titulo": "Divisores de dos cifras: cuando el cociente estimado no alcanza",
+      "explicacion": "Al dividir entre un número de dos cifras, el error más frecuente es estimar mal el cociente: elegirlo demasiado grande (el producto se pasa del dividendo) o demasiado chico (sobra más de lo que debería). La forma más rápida de revisar es, otra vez, multiplicar el cociente propuesto por el divisor y comparar contra el dividendo. En este momento vas a aplicar esa comprobación a divisiones exactas con divisor de dos cifras, donde el margen de error al estimar es mayor.",
+      "formula": "cociente × divisor = dividendo (comprobación); si el producto se pasa o se queda corto, el cociente propuesto está mal",
+      "ejemplos": [
+        "748 ÷ 22: se propone 34. Comprobación: 34 × 22 = 748. Coincide, es correcto.",
+        "748 ÷ 22 = 32 (propuesto). Comprobación: 32 × 22 = 704, que no llega a 748, así que el cociente 32 se quedó corto; el correcto es 34."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Ya resuelto: 782 ÷ 34 = 24. ¿Cuál es el cociente correcto?",
+          "opciones": [
+            "22",
+            "23",
+            "24",
+            "25"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Comprobación: 23 × 34 = 782. El cociente correcto es 23; 24 × 34 = 816, que se pasa del dividendo."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "936 ÷ 26 = 36 está resuelto correctamente.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Es correcto: 36 × 26 = 936."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La división 675 ÷ 27 = 24 tiene un error; el cociente correcto es ___.",
+          "respuestaCorrecta": "25",
+          "retroalimentacion": "Comprobación: 25 × 27 = 675. El cociente correcto es 25; 24 × 27 = 648, que se queda corto."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "23"
+            },
+            {
+              "valor": "24",
+              "signo": "×"
+            },
+            {
+              "valor": "552",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              0,
+              2
+            ]
+          ],
+          "retroalimentacion": "23 × 24 = 552, esto verifica que 552 ÷ 24 = 23. Faltaban la cifra de las decenas de 23 (el 2) y las cifras de las centenas y unidades de 552 (5 y 2)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Ya resuelto: 891 ÷ 33 = 26. ¿Cuál es el error?",
+          "opciones": [
+            "No hay error, 26 es correcto",
+            "El cociente correcto es 27",
+            "El cociente correcto es 29",
+            "El cociente correcto es 24"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "26 × 33 = 858, que no llega a 891. El cociente correcto es 27, porque 27 × 33 = 891."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "OB-21-07",
+  "grado": "Operaciones Básicas",
+  "numero": 167,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "División entre decenas, centenas y potencias de 10 — Momento 7/8",
+  "contenido": "División de un número entre 10, 100, 1000 y sus múltiplos, identificando el patrón inverso al de la multiplicación por potencias de 10.",
+  "pda": "Divide números naturales entre potencias de 10 y sus múltiplos, reconociendo el patrón que sigue el resultado.",
+  "problematizacion": {
+    "contexto": "Un panadero de Puebla horneó una gran masa de pan dulce que pesó 186 kg en total y debe repartirla en partes exactamente iguales entre 20 tiendas distintas de la zona.",
+    "pregunta": "¿Cuántos kilogramos de pan le tocan a cada una de las 20 tiendas si la masa se reparte en partes iguales?"
+  },
+  "subtemas": [
+    {
+      "numero": "21.7",
+      "nivelEtiqueta": "Nivel 7 de 8 · Reto",
+      "titulo": "Reto: múltiplos de 10 con resultado decimal",
+      "explicacion": "Este momento combina los dos retos anteriores: dividir entre un múltiplo de una potencia de 10 (como 20, 300 o 900) cuando además el resultado no es un número entero, sino decimal. La estrategia sigue siendo la misma: primero se divide entre la potencia de 10 (moviendo el punto), y después ese resultado se divide entre el dígito que sobra del divisor. Verificar el resultado multiplicándolo de vuelta por el divisor es la mejor forma de estar seguro de que el cociente es correcto.",
+      "formula": "número ÷ (d × 10ⁿ) = (número ÷ 10ⁿ) ÷ d ; se comprueba con cociente × divisor = dividendo",
+      "ejemplos": [
+        "186 ÷ 20: primero 186 ÷ 10 = 18.6, y después 18.6 ÷ 2 = 9.3. Comprobación: 9.3 × 20 = 186.",
+        "45 ÷ 300: primero 45 ÷ 100 = 0.45, y después 0.45 ÷ 3 = 0.15. Comprobación: 0.15 × 300 = 45."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 186 ÷ 20?",
+          "opciones": [
+            "9.3",
+            "93",
+            "0.93",
+            "18.6"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "186 ÷ 10 = 18.6, y 18.6 ÷ 2 = 9.3. Comprobación: 9.3 × 20 = 186."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "45 ÷ 300 = ___",
+          "respuestaCorrecta": "0.15",
+          "retroalimentacion": "45 ÷ 100 = 0.45, y 0.45 ÷ 3 = 0.15. Comprobación: 0.15 × 300 = 45."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "930 ÷ 400 = 2.325",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Verdadero. 930 ÷ 100 = 9.3, y 9.3 ÷ 4 = 2.325. Comprobación: 2.325 × 400 = 930."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado de 63 ÷ 900?",
+          "opciones": [
+            "0.7",
+            "0.07",
+            "0.007",
+            "7"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "63 ÷ 100 = 0.63, y 0.63 ÷ 9 = 0.07. Comprobación: 0.07 × 900 = 63."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "252 ÷ 40 = ___",
+          "respuestaCorrecta": "6.3",
+          "retroalimentacion": "252 ÷ 10 = 25.2, y 25.2 ÷ 4 = 6.3. Comprobación: 6.3 × 40 = 252."
+        }
+      ]
+    }
+  ]
+}

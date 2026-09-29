@@ -1,0 +1,89 @@
+{
+  "id": "OB-34-03",
+  "grado": "Operaciones Básicas",
+  "numero": 267,
+  "categoria": "potencias_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Producto y cociente de potencias de igual base — Momento 3/8",
+  "contenido": "Las propiedades básicas de las potencias: producto de potencias de igual base (se suman exponentes) y cociente de potencias de igual base (se restan exponentes).",
+  "pda": "Aplica las propiedades del producto y el cociente de potencias de la misma base para simplificar expresiones sencillas.",
+  "problematizacion": {
+    "contexto": "El torneo eliminatorio de futbol rápido de una liga de Guadalajara arranca con 2^6 equipos inscritos. En la primera ronda se juegan todos los partidos y de cada 2 equipos avanza solo 1, así que el número de equipos que avanza equivale a dividir entre 2^1.",
+    "pregunta": "¿Cuántos equipos avanzan a la segunda ronda, expresado como una sola potencia de base 2?"
+  },
+  "subtemas": [
+    {
+      "numero": "34.3",
+      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
+      "titulo": "Reconocer cuándo sumar y cuándo restar",
+      "explicacion": "Ahora combinamos las dos reglas en el mismo conjunto de ejercicios: si ves un signo de multiplicación entre potencias de igual base, sumas los exponentes; si ves un signo de división, los restas. Antes de simplificar, identifica primero qué operación aparece: ese es el nuevo reto de este momento, no confundir una regla con la otra.",
+      "formula": "a^m · a^n = a^(m+n)  |  a^m ÷ a^n = a^(m-n)",
+      "ejemplos": [
+        "2^4 · 2^3 = 2^7",
+        "9^5 ÷ 9^2 = 9^3"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Simplifica 6^4 · 6^2.",
+          "opciones": [
+            "6^6",
+            "6^8",
+            "6^2",
+            "36^6"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Es una multiplicación de potencias de igual base, así que se suman los exponentes: 4 + 2 = 6."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Simplifica 8^7 ÷ 8^3.",
+          "opciones": [
+            "8^4",
+            "8^10",
+            "8^2",
+            "8^21"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Es una división de potencias de igual base, así que se restan los exponentes: 7 - 3 = 4."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En 3^5 ÷ 3^2 el resultado es 3^3, y en 3^5 · 3^2 el resultado es 3^7.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: en la división se restan los exponentes (5-2=3) y en la multiplicación se suman (5+2=7)."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En 7^6 ÷ 7^4, el exponente del resultado es ___.",
+          "respuestaCorrecta": "2",
+          "retroalimentacion": "Es una división de potencias de igual base: 6 - 4 = 2, entonces 7^6 ÷ 7^4 = 7^2."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada operación (identifica si es producto o cociente) con su resultado.",
+          "columnaA": [
+            "4^3 · 4^2",
+            "4^6 ÷ 4^2",
+            "4^5 · 4^1"
+          ],
+          "columnaB": [
+            "4^5",
+            "4^4",
+            "4^6",
+            "4^9"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "4^3·4^2=4^5 (se suma), 4^6÷4^2=4^4 (se resta), 4^5·4^1=4^6 (se suma)."
+        }
+      ]
+    }
+  ]
+}

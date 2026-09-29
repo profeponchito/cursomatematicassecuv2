@@ -1,0 +1,89 @@
+{
+  "id": "OB-32-05",
+  "grado": "Operaciones Básicas",
+  "numero": 253,
+  "categoria": "potencias_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Potencias de base fraccionaria — Momento 5/8",
+  "contenido": "Cálculo de potencias cuya base es una fracción, elevando numerador y denominador al exponente indicado.",
+  "pda": "Calcula potencias de base fraccionaria, elevando por separado numerador y denominador.",
+  "problematizacion": {
+    "contexto": "El carpintero Refugio, de un taller en Pátzcuaro, construye mesas cuadradas cuyo lado es más largo que un metro, así que lo expresa como una fracción impropia. Antes de cortar la madera necesita calcular el área total de la cubierta.",
+    "pregunta": "¿Cuál es el área de una mesa cuadrada cuyo lado mide (5/4) de metro?"
+  },
+  "subtemas": [
+    {
+      "numero": "32.5",
+      "nivelEtiqueta": "Nivel 5 de 8 · Aplicación",
+      "titulo": "Potencias de fracciones mayores que 1",
+      "explicacion": "Todo lo aprendido funciona igual cuando la fracción es mayor que 1 (fracción impropia, con numerador mayor que el denominador): se sigue elevando numerador y denominador por separado. La diferencia es que el resultado también será mayor que 1, porque la base ya era mayor que 1. Este momento aplica la potencia de fracciones a situaciones donde la medida original supera la unidad completa.",
+      "formula": "(a/b)ⁿ = aⁿ/bⁿ, incluso cuando a > b",
+      "ejemplos": [
+        "(5/2)² = 25/4",
+        "(4/3)² = 16/9"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un terreno de maqueta mide (5/2) km de lado. Si el área se calcula como (5/2)², ¿cuánto da?",
+          "opciones": [
+            "25/4",
+            "10/4",
+            "25/2",
+            "10/2"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "5² = 25 y 2² = 4, entonces (5/2)² = 25/4."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "(7/3)² = ?",
+          "opciones": [
+            "49/9",
+            "14/6",
+            "49/6",
+            "14/9"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "7² = 49 y 3² = 9, así que (7/3)² = 49/9."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "(3/2)³ = 27/8.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 3³ = 27 y 2³ = 8, entonces (3/2)³ = 27/8."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "(4/3)² = ___",
+          "respuestaCorrecta": "16/9",
+          "retroalimentacion": "4² = 16 y 3² = 9, entonces (4/3)² = 16/9."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada potencia de fracción impropia con su resultado.",
+          "columnaA": [
+            "(5/4)²",
+            "(3/2)²",
+            "(7/2)²"
+          ],
+          "columnaB": [
+            "25/16",
+            "9/4",
+            "49/4",
+            "21/8"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "(5/4)²=25/16, (3/2)²=9/4 y (7/2)²=49/4."
+        }
+      ]
+    }
+  ]
+}

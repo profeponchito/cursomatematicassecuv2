@@ -1,0 +1,89 @@
+{
+  "id": "OB-31-03",
+  "grado": "Operaciones Básicas",
+  "numero": 243,
+  "categoria": "potencias_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Potencias de base decimal — Momento 3/8",
+  "contenido": "Cálculo de potencias cuya base es un número decimal.",
+  "pda": "Calcula potencias de base decimal, relacionando el procedimiento con la multiplicación de decimales.",
+  "problematizacion": {
+    "contexto": "En una panadería de Guanajuato, el panadero Don Efrén hace moldes cúbicos de pan de elote. Uno de sus moldes tiene una arista de 0.5 metros y necesita calcular cuánta masa cabe adentro, para lo cual primero debe obtener el volumen del cubo.",
+    "pregunta": "¿Qué potencia debe calcular Don Efrén para saber el volumen del molde cúbico de 0.5 m de arista?"
+  },
+  "subtemas": [
+    {
+      "numero": "31.3",
+      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
+      "titulo": "Cubos de decimales de una cifra",
+      "explicacion": "Ahora subimos un peldaño: en lugar de elevar al cuadrado, elevaremos decimales de una cifra al cubo (exponente 3). El procedimiento se hace en dos pasos guiados: primero se multiplica la base por sí misma para obtener el cuadrado, y después ese resultado se vuelve a multiplicar por la base una vez más. Por ejemplo, para 0.4³ primero calculamos 0.4 × 0.4 = 0.16, y luego 0.16 × 0.4 = 0.064. Cada multiplicación de decimales suma sus cifras decimales al resultado.",
+      "formula": "base³ = (base × base) × base",
+      "ejemplos": [
+        "0.2³: primero 0.2 × 0.2 = 0.04, luego 0.04 × 0.2 = 0.008",
+        "0.5³: primero 0.5 × 0.5 = 0.25, luego 0.25 × 0.5 = 0.125"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "0.2³ = ?",
+          "opciones": [
+            "0.008",
+            "0.08",
+            "0.8",
+            "0.006"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "0.2 × 0.2 = 0.04, y 0.04 × 0.2 = 0.008."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "0.5³ = ___",
+          "respuestaCorrecta": "0.125",
+          "retroalimentacion": "0.5 × 0.5 = 0.25, y 0.25 × 0.5 = 0.125."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "0.4³ es igual a 0.064.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 0.4 × 0.4 = 0.16, y 0.16 × 0.4 = 0.064."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "0.3³ = ?",
+          "opciones": [
+            "0.027",
+            "0.27",
+            "0.9",
+            "0.009"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "0.3 × 0.3 = 0.09, y 0.09 × 0.3 = 0.027."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada potencia con su resultado.",
+          "columnaA": [
+            "0.1³",
+            "0.2³",
+            "0.5³"
+          ],
+          "columnaB": [
+            "0.001",
+            "0.125",
+            "0.008",
+            "0.01"
+          ],
+          "parejasCorrectas": [
+            0,
+            2,
+            1
+          ],
+          "retroalimentacion": "0.1³ = 0.001; 0.2³ = 0.008; 0.5³ = 0.125."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "OB-37-02",
+  "grado": "Operaciones Básicas",
+  "numero": 290,
+  "categoria": "potencias_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Raíz cúbica de cubos perfectos — Momento 2/8",
+  "contenido": "Cálculo de la raíz cúbica exacta de números que son cubos perfectos, como operación inversa de elevar al cubo.",
+  "pda": "Calcula la raíz cúbica exacta de cubos perfectos, reconociéndola como la operación inversa de elevar al cubo.",
+  "problematizacion": {
+    "contexto": "En el mercado de Jamaica, la señora Refugio empaca mangos en cajas de madera con forma de cubo para acomodarlas mejor en su puesto. Una de sus cajas tiene un volumen de 343 dm³ y ella quiere saber cuánto mide cada lado para pedir una caja del mismo tamaño la próxima temporada.",
+    "pregunta": "¿Cuánto debe medir la arista de la caja para que su volumen sea de 343 dm³?"
+  },
+  "subtemas": [
+    {
+      "numero": "37.2",
+      "nivelEtiqueta": "Nivel 2 de 8 · Básico",
+      "titulo": "Calcula raíces cúbicas de dos cifras",
+      "explicacion": "Ahora vas a calcular directamente la raíz cúbica de cubos perfectos un poco más grandes, entre 200 y 1000. Para hacerlo sin calculadora conviene memorizar los cubos de los números del 1 al 10, ya que todos estos resultados aparecen en esa lista. La estrategia es recordar qué número, al multiplicarse tres veces por sí mismo, da exactamente el número que te preguntan. Con práctica, reconocerás estos cubos perfectos casi de memoria.",
+      "formula": "∛(a³) = a",
+      "ejemplos": [
+        "∛216 = 6, porque 6 × 6 × 6 = 216.",
+        "∛1000 = 10, porque 10 × 10 × 10 = 1000."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la raíz cúbica de 216?",
+          "opciones": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "6 × 6 × 6 = 216, entonces ∛216 = 6."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "∛343 = ___",
+          "respuestaCorrecta": "7",
+          "retroalimentacion": "7 × 7 × 7 = 343, así que ∛343 = 7."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La raíz cúbica de 512 es 9.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: 9 × 9 × 9 = 729, no 512. En realidad 8 × 8 × 8 = 512, así que ∛512 = 8."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es ∛1000?",
+          "opciones": [
+            "10",
+            "100",
+            "30",
+            "1000"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "10 × 10 × 10 = 1000, entonces ∛1000 = 10."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada cubo perfecto con su raíz cúbica.",
+          "columnaA": [
+            "216",
+            "343",
+            "512",
+            "729"
+          ],
+          "columnaB": [
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "retroalimentacion": "216=6³, 343=7³, 512=8³ y 729=9³."
+        }
+      ]
+    }
+  ]
+}

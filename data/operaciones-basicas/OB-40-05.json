@@ -1,0 +1,92 @@
+{
+  "id": "OB-40-05",
+  "grado": "Operaciones Básicas",
+  "numero": 317,
+  "categoria": "potencias_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Encuentra el error: potencias y raíces — Momento 5/8",
+  "contenido": "Identificación del paso exacto donde el cálculo de una potencia o raíz ya resuelto contiene un error, como forma de reforzar el concepto desde la revisión.",
+  "pda": "Identifica errores en cálculos de potencias y raíces ya resueltos, explicando en qué paso ocurre el error.",
+  "problematizacion": {
+    "contexto": "En una bodega de abarrotes en Guadalajara, el encargado don Aurelio apila cajas cúbicas para calcular cuántas latas caben usando potencias. Al combinar dos cálculos de potencias de la misma base, uno de sus empleados multiplicó los exponentes en lugar de sumarlos.",
+    "pregunta": "¿Qué se hace con los exponentes al multiplicar dos potencias que tienen la misma base?"
+  },
+  "subtemas": [
+    {
+      "numero": "40.5",
+      "nivelEtiqueta": "Nivel 5 de 8 · Aplicación",
+      "titulo": "Multiplicar potencias de la misma base",
+      "explicacion": "Cuando se multiplican dos potencias que tienen la misma base, los exponentes se SUMAN, no se multiplican: b elevado a m por b elevado a n es igual a b elevado a (m+n). También hay que recordar que cualquier base distinta de cero elevada a la potencia 0 es igual a 1, y que una base elevada a la potencia 1 es ella misma. Un error frecuente es multiplicar los exponentes en lugar de sumarlos, o pensar que la potencia 0 vale 0 en vez de 1.",
+      "formula": "b^m × b^n = b^(m+n) ; b^0 = 1 (b≠0)",
+      "ejemplos": [
+        "2³ × 2² = 2^(3+2) = 2⁵ = 32 (correcto). Un error sería sumar las bases: 2³×2² no es 4⁵.",
+        "5⁰ = 1 (correcto, no 0). Cualquier número distinto de cero elevado a la potencia 0 vale 1."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Para resolver 2³ × 2², un empleado escribió 2³ × 2² = 2⁶ = 64. ¿Cuál fue su error?",
+          "opciones": [
+            "Multiplicó los exponentes (3×2) en lugar de sumarlos; el resultado correcto es 2⁵ = 32",
+            "Sumó las bases en lugar de multiplicarlas",
+            "El resultado 64 es correcto",
+            "Olvidó que la base debe cambiar a 4"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Al multiplicar potencias de igual base, los exponentes se SUMAN: 3+2=5, entonces 2³×2²=2⁵=32, no 2⁶=64."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "9⁰ = 1 es correcto.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Cualquier base distinta de cero elevada a la potencia 0 es igual a 1, así que 9⁰ = 1."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Al multiplicar 3² × 3⁴, el resultado se escribe como 3 elevado a la suma de los exponentes, es decir 3 elevado a ___.",
+          "respuestaCorrecta": "6",
+          "retroalimentacion": "3²×3⁴ = 3^(2+4) = 3⁶, porque los exponentes de la misma base se suman."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de estas igualdades es correcta?",
+          "opciones": [
+            "4⁰ = 0",
+            "4⁰ = 4",
+            "4⁰ = 1",
+            "4⁰ = 40"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Cualquier número distinto de cero elevado a la potencia 0 es igual a 1."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada operación con su resultado correcto.",
+          "columnaA": [
+            "2² × 2³",
+            "5¹ × 5⁰",
+            "3² × 3²",
+            "10⁰"
+          ],
+          "columnaB": [
+            "32",
+            "1",
+            "81",
+            "5",
+            "10"
+          ],
+          "parejasCorrectas": [
+            0,
+            3,
+            2,
+            1
+          ],
+          "retroalimentacion": "2²×2³=2⁵=32; 5¹×5⁰=5¹=5; 3²×3²=3⁴=81; 10⁰=1. Suma los exponentes de igual base y recuerda que cualquier base a la 0 es 1."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "id": "OB-28-08",
+  "grado": "Operaciones Básicas",
+  "numero": 224,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Encuentra el error: multiplicación y división — Momento 8/8",
+  "contenido": "Identificación del paso exacto donde una multiplicación o división ya resuelta contiene un error, como forma de reforzar el algoritmo desde la revisión.",
+  "pda": "Identifica errores en algoritmos de multiplicación y división ya resueltos, explicando en qué paso ocurre el error.",
+  "problematizacion": {
+    "contexto": "La profesora Alicia organiza una excursión escolar: primero calcula cuánto material necesita multiplicando por el número de alumnos, y después divide el costo total entre el número de familias que van a cooperar. Antes de anunciar la cuota, siempre revisa las dos operaciones juntas, porque un error en la primera arrastra un error en la segunda.",
+    "pregunta": "Si la cuota final que anuncia la profesora Alicia resulta incorrecta, ¿cómo puede saber si el error viene de la multiplicación inicial, de la división final, o de ambas?"
+  },
+  "subtemas": [
+    {
+      "numero": "28.8",
+      "nivelEtiqueta": "Nivel 8 de 8 · Integración",
+      "titulo": "Procedimientos completos: encuentra el error en dos pasos combinados",
+      "explicacion": "Para cerrar el tema, vas a revisar procedimientos completos que combinan una multiplicación y una división (a veces con decimales) en una sola situación, como se resolverían en la vida real. El error puede estar en cualquiera de los pasos, así que hay que comprobar cada uno por separado antes de aceptar el resultado final. Esta es la habilidad más integradora: usar todas las comprobaciones que ya practicaste (tablas, acarreo, cociente por divisor, residuo menor que divisor, tamaño del punto decimal) para auditar un procedimiento de principio a fin.",
+      "formula": "revisa cada paso por separado: primero la multiplicación (o división) inicial, después el paso siguiente que depende de ella",
+      "ejemplos": [
+        "Procedimiento: 15 × 12 = 180, y 180 ÷ 9 = 20. Comprobación: 15 × 12 = 180 (correcto) y 20 × 9 = 180 (correcto). El procedimiento completo está bien.",
+        "Procedimiento: 15 × 12 = 180, y 180 ÷ 9 = 18. Comprobación: 18 × 9 = 162, que no es 180, así que el error está en el segundo paso; el cociente correcto es 20."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Se calculó: 27 × 15 = 405, y luego 405 ÷ 9 = 55. ¿En qué paso está el error?",
+          "opciones": [
+            "En la multiplicación (27 × 15)",
+            "En la división (405 ÷ 9)",
+            "En ambos pasos",
+            "No hay ningún error"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "27 × 15 = 405 es correcto. Pero 405 ÷ 9 = 45, no 55 (comprobación: 45 × 9 = 405, mientras que 55 × 9 = 495)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "36 × 12 = 432 y 432 ÷ 6 = 72 son ambos correctos.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Es correcto: 36 × 12 = 432, y comprobando la división, 72 × 6 = 432."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada operación ya resuelta con si está correcta o con cuál es su error.",
+          "columnaA": [
+            "48 × 13 = 624",
+            "245 ÷ 5 = 43",
+            "6.4 × 2.5 = 160"
+          ],
+          "columnaB": [
+            "Correcta",
+            "Error: el resultado correcto es 49",
+            "Error: el punto decimal está mal, el resultado correcto es 16",
+            "Error: el resultado correcto es 62.4"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "48 × 13 = 624 es correcta. 245 ÷ 5 = 49, no 43 (49 × 5 = 245). Y 6.4 × 2.5 = 16.0, no 160: el punto decimal se recorrió un lugar de más."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En el procedimiento 9.6 ÷ 4 × 3, primero se calculó 9.6 ÷ 4 = 24 (paso con error) y ese resultado se multiplicó después por 3. El cociente correcto de 9.6 ÷ 4 es ___.",
+          "respuestaCorrecta": "2.4",
+          "retroalimentacion": "9.6 ÷ 4 = 2.4, porque 9 ÷ 4 es un poco más de 2. El 24 tenía el punto decimal mal colocado."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Ya resuelto en dos pasos: 23 × 8 = 184, y 184 ÷ 4 = 47. ¿Qué paso tiene el error?",
+          "opciones": [
+            "En la multiplicación (23 × 8)",
+            "En la división (184 ÷ 4)",
+            "En ambos pasos",
+            "No hay ningún error"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "23 × 8 = 184 es correcto. Pero 184 ÷ 4 = 46, no 47 (comprobación: 46 × 4 = 184, mientras que 47 × 4 = 188)."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Procedimiento ya resuelto: 56 × 34 = 1904, y 1904 ÷ 28 = 71. ¿Está bien resuelto todo el procedimiento?",
+      "opciones": [
+        "Sí, todo es correcto",
+        "El error está en la multiplicación",
+        "El error está en la división; el cociente correcto es 68",
+        "El error está en la división; el cociente correcto es 65"
+      ],
+      "respuestaCorrecta": 2,
+      "retroalimentacion": "56 × 34 = 1904 es correcto. Pero 1904 ÷ 28 = 68, no 71 (comprobación: 68 × 28 = 1904)."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "La operación 12.5 × 4.8 = 6.0 tiene un error de colocación del punto decimal; el resultado correcto es ___.",
+      "respuestaCorrecta": "60",
+      "retroalimentacion": "125 × 48 = 6000, y hay 1 + 1 = 2 cifras decimales en total, así que el resultado correcto es 60.00, es decir 60."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "En la división 3675 ÷ 25, el cociente 147 es correcto, y se comprueba porque 147 × 25 = 3675 exactamente.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Es correcto: 147 × 25 = 3675, así que 3675 ÷ 25 = 147."
+    }
+  ]
+}

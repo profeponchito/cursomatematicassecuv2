@@ -1,0 +1,118 @@
+{
+  "id": "OB-36-08",
+  "grado": "Operaciones Básicas",
+  "numero": 288,
+  "categoria": "potencias_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Raíz cuadrada aproximada — Momento 8/8",
+  "contenido": "Estimación de la raíz cuadrada de números que no son cuadrados perfectos, ubicándola entre dos enteros consecutivos.",
+  "pda": "Estima la raíz cuadrada de un número que no es cuadrado perfecto, ubicándola entre dos números enteros consecutivos.",
+  "problematizacion": {
+    "contexto": "Para la feria de las ciencias de una secundaria en Querétaro, un equipo de alumnos construye una base cuadrada para un cohete de globos con 205 fichas de cartón acomodadas en cuadrícula, y deben reportar en su ficha técnica la medida aproximada del lado, con un decimal.",
+    "pregunta": "¿Cuál es la aproximación con un decimal de la raíz cuadrada de 205 (el lado de la base, en fichas)?"
+  },
+  "subtemas": [
+    {
+      "numero": "36.8",
+      "nivelEtiqueta": "Nivel 8 de 8 · Integración",
+      "titulo": "Todo junto: domina la raíz cuadrada aproximada",
+      "explicacion": "Llegaste al momento final de este tema: aquí vas a combinar todo lo que practicaste — ubicar la raíz entre dos enteros, decidir a cuál se acerca más y calcular una aproximación con un decimal — dentro de problemas de la vida cotidiana. Cada reactivo puede pedirte un paso distinto de este proceso, así que primero identifica qué te están preguntando exactamente antes de responder. Dominar estos pasos juntos es la meta de todo el tema de raíz cuadrada aproximada.",
+      "formula": "a < √n < a+1  ·  punto medio = (a²+(a+1)²)÷2  ·  √n ≈ a + (n−a²)÷((a+1)²−a²)",
+      "ejemplos": [
+        "Para 205 fichas: como 196<205<225, √205 está entre 14 y 15; el punto medio es (196+225)÷2=210.5, y como 205<210.5, está más cerca de 14; su aproximación con un decimal es 14+(205−196)÷(225−196)=14+9÷29≈14.3.",
+        "Para 260 piezas: como 256<260<289, √260 está entre 16 y 17, y como el punto medio es 272.5 y 260<272.5, está más cerca de 16."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un panadero en Guanajuato acomoda 155 conchas en una charola cuadrada organizada en cuadrícula. ¿Cuál afirmación sobre la raíz cuadrada de 155 es correcta?",
+          "opciones": [
+            "Está entre 11 y 12, más cerca de 12",
+            "Está entre 12 y 13, más cerca de 12",
+            "Está entre 12 y 13, más cerca de 13",
+            "Está entre 13 y 14, más cerca de 13"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "144<155<169, así que √155 está entre 12 y 13; el punto medio es 156.5 y como 155<156.5, está más cerca de 12."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una cooperativa agrícola en Sinaloa organiza 205 costales de semilla en una base cuadrada. ¿Cuál es la mejor aproximación con un decimal de la raíz cuadrada de 205?",
+          "opciones": [
+            "13.8",
+            "14.1",
+            "14.3",
+            "14.7"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "a=14, (205−196)÷(225−196)=9÷29≈0.31, así que √205≈14.3."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una tienda de artesanías en Chiapas exhibe 260 piezas en un aparador cuadrado; la raíz cuadrada de 260 está más cerca de 16 que de 17.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: el intervalo de 260 es 256 (16²) y 289 (17²), con punto medio 272.5. Como 260<272.5, √260 está más cerca de 16."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En un taller mecánico de Toluca se ordenan 330 tornillos en una charola cuadrada. La raíz cuadrada de 330 está entre 18 y ___.",
+          "respuestaCorrecta": "19",
+          "retroalimentacion": "324<330<361, y como 324=18² y 361=19², entonces 18<√330<19."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación con el entero al que se acerca más la raíz cuadrada de su cantidad.",
+          "columnaA": [
+            "230 artesanías (Oaxaca)",
+            "275 piezas de cerámica (Puebla)",
+            "340 metros² (rancho jalisciense)",
+            "390 boletos (kermés poblana)"
+          ],
+          "columnaB": [
+            "15",
+            "17",
+            "18",
+            "20",
+            "16"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "retroalimentacion": "√230 se acerca más a 15 (punto medio 240.5); √275 a 17 (punto medio 272.5); √340 a 18 (punto medio 342.5); √390 a 20 (punto medio 380.5)."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Una fábrica de mosaicos en León, Guanajuato, organiza 620 piezas cuadradas en una base cuadrada de exhibición. Selecciona la afirmación correcta sobre √620.",
+      "opciones": [
+        "Está entre 23 y 24, más cerca de 24",
+        "Está entre 24 y 25, más cerca de 24",
+        "Está entre 24 y 25, más cerca de 25",
+        "Está entre 25 y 26, más cerca de 25"
+      ],
+      "respuestaCorrecta": 2,
+      "retroalimentacion": "576<620<625, así que √620 está entre 24 y 25; el punto medio es 600.5 y como 620>600.5, está más cerca de 25."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "En una cooperativa de tejido en Chiapas se cuentan 840 hilos organizados en una trama cuadrada. La aproximación con un decimal de la raíz cuadrada de 840 es ___.",
+      "respuestaCorrecta": "29.0",
+      "retroalimentacion": "a=28, (840−784)÷(841−784)=56÷57≈0.98, así que √840≈29.0: está prácticamente pegada al siguiente entero."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Un organizador de eventos en la Ciudad de México acomoda 999 sillas en una cuadrícula cuadrada para un concierto; la raíz cuadrada de 999 está entre 31 y 32, más cerca de 32.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: 961<999<1024, así que √999 está entre 31 y 32; el punto medio es 992.5 y como 999>992.5, está más cerca de 32."
+    }
+  ]
+}

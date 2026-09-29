@@ -1,0 +1,88 @@
+{
+  "id": "OB-39-05",
+  "grado": "Operaciones Básicas",
+  "numero": 309,
+  "categoria": "potencias_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Potencias y raíces en la vida cotidiana — Momento 5/8",
+  "contenido": "Potencias y raíces aplicadas a situaciones cotidianas: área de cuadrados, volumen de cubos, crecimiento repetido.",
+  "pda": "Resuelve problemas cotidianos de área y volumen que requieren calcular una potencia o una raíz.",
+  "problematizacion": {
+    "contexto": "La empresa 'Mudanzas Rápido' transporta objetos frágiles en cajas cúbicas de cartón reforzado, y para elegir el camión adecuado necesita saber cuánto mide la arista de cada caja según el volumen que indica su etiqueta.",
+    "pregunta": "Si una caja cúbica tiene un volumen de 64 dm³ marcado en la etiqueta, ¿cuánto mide la arista de esa caja?"
+  },
+  "subtemas": [
+    {
+      "numero": "39.5",
+      "nivelEtiqueta": "Nivel 5 de 8 · Aplicación",
+      "titulo": "La raíz cúbica: del volumen a la arista",
+      "explicacion": "Del mismo modo que la raíz cuadrada deshace el cuadrado de un número, la raíz cúbica deshace el cubo: si el volumen de un cuerpo cúbico es igual a arista³, entonces la arista se obtiene calculando arista = ∛Volumen. Para hallar una raíz cúbica hay que preguntarse: '¿qué número multiplicado por sí mismo tres veces me da esta cantidad?'. En este momento vas a usar la raíz cúbica para encontrar la arista de una caja cúbica cuando ya conoces su volumen, siempre con números exactos.",
+      "formula": "arista = ∛Volumen",
+      "ejemplos": [
+        "Si el volumen es 27 cm³, la arista es ∛27 = 3 cm, porque 3³ = 27",
+        "Si el volumen es 125 cm³, la arista es ∛125 = 5 cm, porque 5³ = 125"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una caja cúbica tiene un volumen de 216 cm³. ¿Cuánto mide su arista?",
+          "opciones": [
+            "5 cm",
+            "6 cm",
+            "36 cm",
+            "72 cm"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "∛216 = 6, porque 6³ = 216."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una caja cúbica con un volumen de 8 dm³ tiene una arista de ___ dm.",
+          "respuestaCorrecta": "2",
+          "retroalimentacion": "∛8 = 2, porque 2³ = 8."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si el volumen de una caja cúbica es 1000 cm³, entonces su arista mide 10 cm.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "∛1000 = 10, porque 10³ = 1000."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la raíz cúbica de 125?",
+          "opciones": [
+            "4",
+            "5",
+            "15",
+            "25"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "∛125 = 5, porque 5³ = 125."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada volumen con la arista de la caja cúbica correspondiente.",
+          "columnaA": [
+            "Volumen 27 cm³",
+            "Volumen 64 cm³",
+            "Volumen 343 cm³"
+          ],
+          "columnaB": [
+            "7 cm",
+            "4 cm",
+            "3 cm"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "∛27=3, ∛64=4 y ∛343=7."
+        }
+      ]
+    }
+  ]
+}

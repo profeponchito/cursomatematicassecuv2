@@ -1,0 +1,91 @@
+{
+  "id": "OB-37-03",
+  "grado": "Operaciones Básicas",
+  "numero": 291,
+  "categoria": "potencias_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Raíz cúbica de cubos perfectos — Momento 3/8",
+  "contenido": "Cálculo de la raíz cúbica exacta de números que son cubos perfectos, como operación inversa de elevar al cubo.",
+  "pda": "Calcula la raíz cúbica exacta de cubos perfectos, reconociéndola como la operación inversa de elevar al cubo.",
+  "problematizacion": {
+    "contexto": "En la escuela secundaria técnica, la maestra Miriam repartió a sus alumnos cubos de unicel de distintos tamaños para un proyecto de geometría. Uno de los cubos tiene un volumen de 1331 cm³, y los alumnos deben encontrar la medida de la arista sin usar calculadora, solo con tanteo ordenado.",
+    "pregunta": "¿Cuánto mide la arista de ese cubo de unicel si su volumen es 1331 cm³?"
+  },
+  "subtemas": [
+    {
+      "numero": "37.3",
+      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
+      "titulo": "El método de tanteo guiado",
+      "explicacion": "Para números más grandes conviene usar un método guiado: primero ubicas entre qué dos cubos de decena cae el número (por ejemplo, entre 10³=1000 y 20³=8000), y luego pruebas con números de esa década hasta encontrar el que funciona exactamente. Este tanteo funciona porque los cubos perfectos crecen de forma ordenada: si un número está entre 1000 y 8000, su raíz cúbica está entre 10 y 20. Practicar este método te ayuda a no depender solo de la memorización.",
+      "ejemplos": [
+        "Para ∛1331: como 1331 está entre 1000 (10³) y 8000 (20³), pruebas con 11: 11×11×11 = 1331. Entonces ∛1331 = 11.",
+        "Para ∛2744: pruebas con 14: 14×14×14 = 2744. Entonces ∛2744 = 14."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Para hallar ∛1331 ubicas que está entre 10³=1000 y 20³=8000. Al probar con 11, obtienes 11×11×11=1331. ¿Cuál es la raíz cúbica de 1331?",
+          "opciones": [
+            "10",
+            "11",
+            "12",
+            "13"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "11 × 11 × 11 = 1331, entonces ∛1331 = 11."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si sabes que 12 × 12 × 12 = 1728, entonces ∛1728 = ___.",
+          "respuestaCorrecta": "12",
+          "retroalimentacion": "12³ = 1728, así que ∛1728 = 12."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Para calcular ∛2197 basta con comprobar que 13 × 13 × 13 = 2197.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 13 × 13 × 13 = 2197, así que ∛2197 = 13."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la raíz cúbica de 2744?",
+          "opciones": [
+            "13",
+            "14",
+            "15",
+            "16"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "14 × 14 × 14 = 2744, entonces ∛2744 = 14."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada cubo perfecto con su raíz cúbica.",
+          "columnaA": [
+            "1331",
+            "1728",
+            "2197",
+            "2744"
+          ],
+          "columnaB": [
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "retroalimentacion": "1331=11³, 1728=12³, 2197=13³ y 2744=14³."
+        }
+      ]
+    }
+  ]
+}

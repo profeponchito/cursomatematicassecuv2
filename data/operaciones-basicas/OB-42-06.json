@@ -1,0 +1,74 @@
+{
+  "id": "OB-42-06",
+  "grado": "Operaciones Básicas",
+  "numero": 334,
+  "categoria": "integracion",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Operaciones combinadas con números naturales — Momento 6/8",
+  "contenido": "Resolución de expresiones que combinan suma, resta, multiplicación, división, potencias y raíces con números naturales, aplicando la jerarquía de operaciones.",
+  "pda": "Resuelve expresiones numéricas combinadas con números naturales aplicando correctamente la jerarquía de operaciones.",
+  "problematizacion": {
+    "contexto": "En una pastelería de barrio, la repostera prepara charolas cuadradas de pastel para un pedido grande. Para calcular cuántas porciones cuadradas caben, necesita elevar al cuadrado un número de cortes, sacar una raíz para verificar una medida y todavía sumar o restar el sobrante de masa.",
+    "pregunta": "Si en la misma cuenta hay un paréntesis, una potencia y una raíz, ¿cuál de los tres se debe resolver primero?"
+  },
+  "subtemas": [
+    {
+      "numero": "42.6",
+      "nivelEtiqueta": "Nivel 6 de 8 · Avanzado",
+      "titulo": "Potencias, raíces y paréntesis en la misma expresión",
+      "explicacion": "En este momento se integran las tres reglas anteriores en una sola expresión: paréntesis, potencias y raíces. El orden para resolver cualquier expresión combinada es: primero lo que está dentro de los paréntesis, después las potencias y raíces (en el orden en que aparezcan), y al final la multiplicación, la división, la suma y la resta. Cuando una raíz cuadrada encierra una suma o una resta, como en √(9 + 16), primero se resuelve la operación de adentro y después se saca la raíz del resultado. Practicar esta combinación prepara el terreno para trabajar con corchetes en el siguiente momento.",
+      "formula": "( ) → potencias y raíces → × ÷ → + −",
+      "ejemplos": [
+        "(2 + 2)² - √9 = 4² - 3 = 16 - 3 = 13",
+        "√(4 + 5) + 3² = √9 + 9 = 3 + 9 = 12"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado de (3 + 1)² - √25?",
+          "opciones": [
+            "11",
+            "9",
+            "21",
+            "6"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Primero el paréntesis: 3 + 1 = 4. Luego la potencia: 4² = 16. Luego la raíz: √25 = 5. Al final la resta: 16 - 5 = 11."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado de √(9 + 16) + 2³?",
+          "opciones": [
+            "13",
+            "10",
+            "20",
+            "18"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Primero se resuelve dentro de la raíz: 9 + 16 = 25, y √25 = 5. Luego la potencia: 2³ = 8. Al final la suma: 5 + 8 = 13."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En (6 - 2)² + √9, el paréntesis se resuelve antes que la potencia y la raíz.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Verdadero. Primero 6 - 2 = 4, luego 4² = 16 y √9 = 3, y al final 16 + 3 = 19."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El resultado de 2 × (5 - 2)² es ___.",
+          "respuestaCorrecta": "18",
+          "retroalimentacion": "Primero el paréntesis: 5 - 2 = 3. Luego la potencia: 3² = 9. Al final la multiplicación: 2 × 9 = 18."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El resultado de √49 - (3 + 1) es ___.",
+          "respuestaCorrecta": "3",
+          "retroalimentacion": "Primero la raíz: √49 = 7. Luego el paréntesis: 3 + 1 = 4. Al final la resta: 7 - 4 = 3."
+        }
+      ]
+    }
+  ]
+}

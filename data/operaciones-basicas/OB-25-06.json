@@ -1,0 +1,74 @@
+{
+  "id": "OB-25-06",
+  "grado": "Operaciones Básicas",
+  "numero": 198,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Estimación antes de multiplicar y dividir — Momento 6/8",
+  "contenido": "Estimación del resultado de una multiplicación o división mediante redondeo, para verificar si un cálculo exacto es razonable.",
+  "pda": "Estima el resultado de multiplicaciones y divisiones mediante redondeo y lo usa para verificar la razonabilidad de un cálculo.",
+  "problematizacion": {
+    "contexto": "En el mercado, doña Lupe vende papa a $14.30 el kilo. Un cliente quiere comprar 7 kilos y doña Lupe calcula rápido cuánto cobrar, sin usar calculadora.",
+    "pregunta": "Redondeando $14.30 al peso entero más cercano, ¿aproximadamente cuánto debe cobrar doña Lupe por los 7 kilos de papa?"
+  },
+  "subtemas": [
+    {
+      "numero": "25.6",
+      "nivelEtiqueta": "Nivel 6 de 8 · Avanzado",
+      "titulo": "Estima multiplicaciones y divisiones con decimales",
+      "explicacion": "En la vida diaria, muchas cantidades vienen en decimales: precios, medidas de peso o distancias. Para estimar con decimales, primero redondeamos el número decimal al entero más cercano (por ejemplo, $18.75 se redondea a $19) y después hacemos la multiplicación o división con esos números enteros, que son más fáciles de manejar mentalmente. Esta estrategia es muy útil cuando vas al mercado o revisas un ticket de compra.",
+      "formula": "estimación ≈ (decimal redondeado al entero) × factor · o ÷ divisor",
+      "ejemplos": [
+        "Para estimar 4 × $18.75: redondeamos 18.75 a 19 y calculamos 4 × 19 = 76. El resultado exacto es 75, muy cercano.",
+        "Para estimar 24.8 ÷ 5: redondeamos 24.8 a 25 y calculamos 25 ÷ 5 = 5."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Para estimar 4 × $18.75, se redondea $18.75 al peso más cercano ($19). ¿Cuál es la estimación?",
+          "opciones": [
+            "72",
+            "76",
+            "80",
+            "68"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "4 × 19 = 76. El resultado exacto de 4 × 18.75 es 75, muy cerca de la estimación."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Para estimar 6 × $12.40, redondeamos $12.40 al peso más cercano ($12) y calculamos: 6 × 12 = ___.",
+          "respuestaCorrecta": "72",
+          "retroalimentacion": "6 × 12 = 72. El resultado exacto de 6 × 12.40 es 74.40, cercano a la estimación."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Para estimar 24.8 ÷ 5, Rocío redondeó 24.8 a 25 y calculó 25 ÷ 5 = 5. Verdadero o falso: 5 es una buena estimación de 24.8 ÷ 5.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Verdadero. El resultado exacto de 24.8 ÷ 5 es 4.96, muy cerca de 5."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la mejor estimación de 3 × $45.60, redondeando al peso entero más cercano?",
+          "opciones": [
+            "120",
+            "138",
+            "150",
+            "130"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "45.60 se redondea a 46, y 3 × 46 = 138. El resultado exacto es 136.80."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Para estimar 39.5 ÷ 4, redondeamos 39.5 a 40 y calculamos: 40 ÷ 4 = ___.",
+          "respuestaCorrecta": "10",
+          "retroalimentacion": "40 ÷ 4 = 10. El resultado exacto de 39.5 ÷ 4 es 9.875, muy cerca de la estimación."
+        }
+      ]
+    }
+  ]
+}

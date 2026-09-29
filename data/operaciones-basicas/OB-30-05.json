@@ -1,0 +1,86 @@
+{
+  "id": "OB-30-05",
+  "grado": "Operaciones Básicas",
+  "numero": 237,
+  "categoria": "potencias_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Cálculo de potencias de naturales (cuadrados y cubos) — Momento 5/8",
+  "contenido": "Cálculo de potencias de números naturales, con énfasis en cuadrados y cubos de uso frecuente.",
+  "pda": "Calcula potencias de números naturales, incluyendo cuadrados y cubos perfectos comunes.",
+  "problematizacion": {
+    "contexto": "Una empresa de mudanzas en Monterrey necesita calcular cuánto espacio de estacionamiento cuadrado usarán sus camiones y cuánta carga cabe en un contenedor cúbico. El encargado de logística está revisando las medidas antes de armar la ruta del día.",
+    "pregunta": "Si el contenedor cúbico tiene 4 metros de arista, ¿cuánto espacio aproximado ocupará dentro del camión?"
+  },
+  "subtemas": [
+    {
+      "numero": "30.5",
+      "nivelEtiqueta": "Nivel 5 de 8 · Aplicación",
+      "titulo": "Cuadrados y cubos en área y volumen",
+      "explicacion": "Los cuadrados sirven para calcular el área de superficies cuadradas: si un lado mide n unidades, el área es n². Los cubos sirven para calcular el volumen de cuerpos cúbicos: si la arista mide n unidades, el volumen es n³. En este momento aplicarás estas ideas a situaciones cotidianas, como un patio cuadrado o una caja cúbica de mudanza.",
+      "formula": "Área del cuadrado = lado² ; Volumen del cubo = arista³",
+      "ejemplos": [
+        "Un terreno cuadrado de 12 m de lado tiene un área de 12² = 144 m²",
+        "Una caja cúbica de 3 m de arista tiene un volumen de 3³ = 27 m³"
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un patio cuadrado mide 11 m por lado. ¿Cuál es su área?",
+          "opciones": [
+            "22 m²",
+            "121 m²",
+            "33 m²",
+            "111 m²"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Área = 11² = 121 m²."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una caja cúbica de mudanza tiene aristas de 4 m. ¿Cuál es su volumen?",
+          "opciones": [
+            "16 m³",
+            "12 m³",
+            "64 m³",
+            "48 m³"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Volumen = 4³ = 64 m³."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Para hallar el área de un cuadrado de 9 m de lado se calcula 9³.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: el área usa el cuadrado (9² = 81 m²). El cubo (9³) se usa para volumen, no para área."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El área de una cancha cuadrada de 15 m de lado es ___ m².",
+          "respuestaCorrecta": "225",
+          "retroalimentacion": "15² = 225 m²."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada medida con la potencia que usarías para calcularla.",
+          "columnaA": [
+            "Área de un cuadrado",
+            "Volumen de un cubo"
+          ],
+          "columnaB": [
+            "arista³",
+            "lado²",
+            "perímetro × 4"
+          ],
+          "parejasCorrectas": [
+            1,
+            0
+          ],
+          "retroalimentacion": "El área se calcula con lado² y el volumen con arista³."
+        }
+      ]
+    }
+  ]
+}

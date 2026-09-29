@@ -1,0 +1,74 @@
+{
+  "id": "OB-28-01",
+  "grado": "Operaciones Básicas",
+  "numero": 217,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Encuentra el error: multiplicación y división — Momento 1/8",
+  "contenido": "Identificación del paso exacto donde una multiplicación o división ya resuelta contiene un error, como forma de reforzar el algoritmo desde la revisión.",
+  "pda": "Identifica errores en algoritmos de multiplicación y división ya resueltos, explicando en qué paso ocurre el error.",
+  "problematizacion": {
+    "contexto": "Lupita vende fruta en su puesto del mercado sobre ruedas. Cada caja trae la misma cantidad de piezas y, para saber cuánta fruta tiene en total, multiplica el número de cajas por las piezas de cada una. Hoy su hijo le ayudó a hacer las cuentas en una libreta, pero Lupita sospecha que algunas están mal.",
+    "pregunta": "¿Cómo puede Lupita saber, sin volver a contar la fruta, si una multiplicación de la libreta tiene un error?"
+  },
+  "subtemas": [
+    {
+      "numero": "28.1",
+      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
+      "titulo": "Errores evidentes en las tablas de multiplicar",
+      "explicacion": "Cuando alguien resuelve una multiplicación de una sola cifra, un error casi siempre significa que se confundió de tabla o recordó mal un resultado. Para detectarlo no hace falta repetir toda la cuenta: basta con comparar el resultado dado contra la tabla de multiplicar correspondiente. En este momento vas a revisar multiplicaciones ya resueltas de una cifra por una o dos cifras y decidir si el resultado escrito es el correcto. Es el primer paso para 'leer' una operación con ojo crítico antes de aceptarla como verdadera.",
+      "formula": "Si a × b = c está bien resuelto, entonces c debe coincidir exactamente con la tabla de multiplicar de a (o de b).",
+      "ejemplos": [
+        "Revisa: 6 × 7 = 40. Como la tabla del 6 dice que 6 × 7 = 42, el resultado 40 tiene un error; el correcto es 42.",
+        "Revisa: 8 × 9 = 72. La tabla del 8 confirma que 8 × 9 = 72, así que esta multiplicación está bien resuelta."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Reactivo ya resuelto: 7 × 8 = 54. ¿Cuál es el resultado correcto de esta multiplicación?",
+          "opciones": [
+            "63",
+            "48",
+            "56",
+            "64"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "7 × 8 = 56. Quien la resolvió probablemente confundió esta tabla con la del 6 o del 9."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "9 × 6 = 54 está resuelto correctamente.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Es correcto: la tabla del 9 confirma que 9 × 6 = 54."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Reactivo ya resuelto: 8 × 5 = 35. ¿Cuál es el resultado correcto?",
+          "opciones": [
+            "35",
+            "40",
+            "45",
+            "30"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "8 × 5 = 40. El 35 corresponde a 7 × 5, no a 8 × 5."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La multiplicación 6 × 7 = 36 tiene un error; el resultado correcto es ___.",
+          "respuestaCorrecta": "42",
+          "retroalimentacion": "6 × 7 = 42. El 36 corresponde a 6 × 6, por eso parece un error común."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "5 × 9 = 40 está resuelto correctamente.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Es falso: 5 × 9 = 45, no 40."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "id": "OB-22-08",
+  "grado": "Operaciones Básicas",
+  "numero": 176,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "División de decimales — Momento 8/8",
+  "contenido": "División de números decimales, incluyendo dividir un decimal entre un natural y ajustar el divisor para trabajar con números enteros.",
+  "pda": "Divide números decimales, transformando el divisor decimal en un número entero cuando es necesario.",
+  "problematizacion": {
+    "contexto": "En un ejido cercano a Celaya, el encargado del sistema de riego debe repartir el agua almacenada en un tanque entre distintos surcos de cultivo, combinando cantidades decimales de litros por minuto y tiempos de riego que no siempre son números enteros.",
+    "pregunta": "¿Qué pasos sigues, en orden, para dividir dos cantidades decimales cuando tanto el dividendo como el divisor tienen punto decimal?"
+  },
+  "subtemas": [
+    {
+      "numero": "22.8",
+      "nivelEtiqueta": "Nivel 8 de 8 · Integración",
+      "titulo": "Integración: todos los casos de división con decimales",
+      "explicacion": "Este último momento junta todo lo que has practicado: dividir un decimal entre un natural, agregar ceros cuando el residuo no llega a cero, y transformar un divisor decimal en entero recorriendo el punto en ambos números (con las cifras del mismo tamaño o distinto). Antes de dividir, siempre revisa primero si el divisor tiene punto decimal; si lo tiene, conviértelo en entero recorriendo el punto en los dos números, agregando ceros al dividendo si hace falta. Después aplica el algoritmo de división normal, agregando ceros al residuo hasta que termine o hasta donde te pidan.",
+      "ejemplos": [
+        "56.25 ÷ 2.5: el divisor tiene una cifra decimal, se recorre el punto un lugar en ambos: 562.5 ÷ 25 = 22.5.",
+        "8 ÷ 0.32: el divisor tiene dos cifras decimales; se agregan dos ceros al dividendo natural (8.00) y se recorren dos lugares en ambos: 800 ÷ 32 = 25."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 56.25 ÷ 2.5?",
+          "opciones": [
+            "2.25",
+            "22.5",
+            "225",
+            "2.025"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Se recorre el punto un lugar en ambos: 562.5 ÷ 25 = 22.5."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "8 ÷ 0.32 = ___",
+          "respuestaCorrecta": "25",
+          "retroalimentacion": "Se agregan dos ceros al dividendo (8.00) y se recorren dos lugares en ambos: 800 ÷ 32 = 25."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "14.4 ÷ 1.6 = 9",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: se recorre el punto un lugar en ambos, 144 ÷ 16 = 9."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada división de decimales con su cociente correcto.",
+          "columnaA": [
+            "31.5 ÷ 4.5",
+            "84 ÷ 0.4",
+            "6.72 ÷ 0.8"
+          ],
+          "columnaB": [
+            "7",
+            "210",
+            "8.4",
+            "9"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "31.5 ÷ 4.5 = 7; 84 ÷ 0.4 = 210; 6.72 ÷ 0.8 = 8.4. La opción 9 no corresponde a ninguna de estas tres."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "6.125"
+            },
+            {
+              "valor": "8",
+              "signo": "×"
+            },
+            {
+              "valor": "49.000",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0,
+              1,
+              3,
+              4,
+              5
+            ]
+          ],
+          "retroalimentacion": "6.125 × 8 = 49.000, es decir 49. Esto verifica que 49 ÷ 8 = 6.125."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuánto es 156 ÷ 0.48?",
+      "opciones": [
+        "32.5",
+        "325",
+        "3.25",
+        "3250"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "Se agregan dos ceros al dividendo (156.00) y se recorren dos lugares en ambos: 15600 ÷ 48 = 325."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "37.5 ÷ 1.25 = ___",
+      "respuestaCorrecta": "30",
+      "retroalimentacion": "Se agrega un cero al dividendo (37.50) y se recorren dos lugares en ambos: 3750 ÷ 125 = 30."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "9.408 ÷ 2.4 = 3.92",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: se recorre el punto un lugar en ambos (94.08 ÷ 24) y al dividir se obtiene 3.92."
+    }
+  ]
+}

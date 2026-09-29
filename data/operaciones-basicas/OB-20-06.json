@@ -1,0 +1,104 @@
+{
+  "id": "OB-20-06",
+  "grado": "Operaciones Básicas",
+  "numero": 158,
+  "categoria": "mult_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "División con residuo — Momento 6/8",
+  "contenido": "División de naturales donde el resultado deja un residuo distinto de cero, e interpretación de ese residuo según el contexto.",
+  "pda": "Aplica el algoritmo de la división larga identificando e interpretando el residuo en distintos contextos.",
+  "problematizacion": {
+    "contexto": "En una panadería de barrio, el panadero Don Efrén horneó 742 bolillos y quiere empacarlos en bolsas de 33 piezas para venderlas a las tiendas de abarrotes de la colonia.",
+    "pregunta": "¿Cuántas bolsas de 33 bolillos podrá empacar Don Efrén y cuántos bolillos le quedarán sin empacar en una bolsa completa?"
+  },
+  "subtemas": [
+    {
+      "numero": "20.6",
+      "nivelEtiqueta": "Nivel 6 de 8 · Avanzado",
+      "titulo": "Divisores de dos cifras",
+      "explicacion": "El algoritmo de la división larga funciona igual aunque el divisor tenga dos cifras; solo hay que ir probando con más cuidado cuántas veces cabe el divisor completo en cada parte del dividendo. Practicarás divisiones donde tanto el dividendo (de tres cifras) como el divisor (de dos cifras) son más grandes, y seguirás comprobando tus resultados con la multiplicación cociente × divisor.",
+      "formula": "dividendo = divisor × cociente + residuo (residuo < divisor)",
+      "ejemplos": [
+        "437 ÷ 24: 24×18=432, y 437-432=5, entonces cociente=18, residuo=5."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "437 panes se empacan en cajas de 24. ¿Cuántas cajas completas se llenan y cuántos panes sobran?",
+          "opciones": [
+            "17 cajas y sobran 29",
+            "18 cajas y sobran 5",
+            "19 cajas y sobran 0",
+            "18 cajas y sobran 29"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "24×18=432, y 437-432=5. Se llenan 18 cajas y sobran 5 panes."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "528 ÷ 17 tiene cociente 31 y residuo 1.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "17×31=527, y 528-527=1. Es verdadero."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "615 ÷ 27 = 22 con residuo ___.",
+          "respuestaCorrecta": "21",
+          "retroalimentacion": "27×22=594, y 615-594=21."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "33"
+            },
+            {
+              "valor": "22",
+              "signo": "×"
+            },
+            {
+              "valor": "66"
+            },
+            {
+              "valor": "660"
+            },
+            {
+              "valor": "726",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [
+              0
+            ],
+            [],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "33 × 22 = 726 (66 + 660), esto verifica que 742 ÷ 33 = 22, porque 726 + 16 (el residuo) = 742."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el residuo de 853 ÷ 29?",
+          "opciones": [
+            "10",
+            "11",
+            "12",
+            "13"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "29×29=841, y 853-841=12. El residuo es 12."
+        }
+      ]
+    }
+  ]
+}

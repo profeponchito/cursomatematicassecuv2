@@ -1,0 +1,118 @@
+{
+  "id": "OB-37-08",
+  "grado": "Operaciones Básicas",
+  "numero": 296,
+  "categoria": "potencias_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Raíz cúbica de cubos perfectos — Momento 8/8",
+  "contenido": "Cálculo de la raíz cúbica exacta de números que son cubos perfectos, como operación inversa de elevar al cubo.",
+  "pda": "Calcula la raíz cúbica exacta de cubos perfectos, reconociéndola como la operación inversa de elevar al cubo.",
+  "problematizacion": {
+    "contexto": "Don Herminio tiene un pequeño taller de reciclaje y debe cotizar contenedores cúbicos de distintos tamaños para tres clientes: uno pide un contenedor grande de superficie, otro un tanque de instalación subterránea (registrado con signo negativo por quedar bajo el nivel del suelo) y otro un molde decimal para piezas pequeñas.",
+    "pregunta": "Si el contenedor subterráneo tiene un volumen registrado de -1728 por estar bajo el nivel del suelo, ¿cuánto mide su arista?"
+  },
+  "subtemas": [
+    {
+      "numero": "37.8",
+      "nivelEtiqueta": "Nivel 8 de 8 · Integración",
+      "titulo": "Integra todo: grandes, negativos y decimales",
+      "explicacion": "Este último momento junta todo lo que has practicado sobre raíces cúbicas de cubos perfectos: números grandes, decimales y negativos, en distintos contextos. La clave sigue siendo la misma en todos los casos: encontrar el número que, multiplicado tres veces por sí mismo, reproduce exactamente el valor original. Resolver estos reactivos con seguridad significa que ya dominas la raíz cúbica como operación inversa de elevar al cubo, sin importar el tipo de número involucrado.",
+      "formula": "∛(a³) = a, para cualquier a (entero, decimal o negativo)",
+      "ejemplos": [
+        "∛1728 = 12, porque 12 × 12 × 12 = 1728.",
+        "∛(-0.064) = -0.4, porque (-0.4) × (-0.4) × (-0.4) = -0.064."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una empresa recicladora vende cubos de unicel para embalaje. Uno de ellos tiene un volumen de 1728 cm³. ¿Cuánto mide su arista?",
+          "opciones": [
+            "11 cm",
+            "12 cm",
+            "13 cm",
+            "14 cm"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "∛1728 = 12, porque 12 × 12 × 12 = 1728."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "∛(-0.064) = -0.4, porque (-0.4) × (-0.4) × (-0.4) = -0.064.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: (-0.4)³ = -0.064."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "∛15625 = ___",
+          "respuestaCorrecta": "25",
+          "retroalimentacion": "25 × 25 × 25 = 15625, entonces ∛15625 = 25."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En un modelo donde el signo negativo indica profundidad bajo el nivel de referencia, un tanque subterráneo tiene un volumen registrado de -1000. ¿Cuál es su raíz cúbica?",
+          "opciones": [
+            "-10",
+            "10",
+            "-100",
+            "100"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(-10) × (-10) × (-10) = -1000, entonces ∛(-1000) = -10."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada cubo perfecto con su raíz cúbica.",
+          "columnaA": [
+            "1728",
+            "-343",
+            "0.027",
+            "15625"
+          ],
+          "columnaB": [
+            "-7",
+            "0.3",
+            "12",
+            "25",
+            "7"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1,
+            3
+          ],
+          "retroalimentacion": "1728=12³, -343=(-7)³, 0.027=0.3³ y 15625=25³."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Una constructora necesita un tanque cúbico de almacenamiento con capacidad de 27000 litros (1 litro = 1 dm³). ¿Cuánto debe medir la arista, en dm?",
+      "opciones": [
+        "27 dm",
+        "30 dm",
+        "33 dm",
+        "300 dm"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "27000 = 30³, entonces ∛27000 = 30 dm."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "∛(-2744) = ___",
+      "respuestaCorrecta": "-14",
+      "retroalimentacion": "(-14) × (-14) × (-14) = -2744, entonces ∛(-2744) = -14."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "∛64000 y ∛(-64000) tienen el mismo valor absoluto pero signos distintos: 40 y -40.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: 40³ = 64000 y (-40)³ = -64000, así que ambos resultados tienen valor absoluto 40 pero signo opuesto."
+    }
+  ]
+}

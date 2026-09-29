@@ -1,0 +1,108 @@
+{
+  "id": "OB-44-08",
+  "grado": "Operaciones Básicas",
+  "numero": 352,
+  "categoria": "integracion",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Repaso integrador de operaciones básicas — Momento 8/8",
+  "contenido": "Repaso final que mezcla suma, resta, multiplicación, división, potencias y raíces en distintos tipos de número (naturales, decimales, fracciones, con signo), como cierre del apartado.",
+  "pda": "Resuelve problemas variados que integran suma, resta, multiplicación, división, potencias y raíces como repaso final del apartado.",
+  "problematizacion": {
+    "contexto": "Camila tiene un puesto de tacos los fines de semana y lleva un registro de sus ganancias y gastos. También aprovecha charolas cuadradas para acomodar sus salsas y necesita calcular medidas y costos combinando varias operaciones a la vez.",
+    "pregunta": "Si Camila gana $850 el sábado y $620 el domingo, pero gasta $310 en ingredientes para ambos días, ¿cuánto le queda de ganancia neta del fin de semana?"
+  },
+  "subtemas": [
+    {
+      "numero": "44.8",
+      "nivelEtiqueta": "Nivel 8 de 8 · Integración",
+      "titulo": "Problemas integradores: todo lo del repaso en un solo reto",
+      "explicacion": "Este es el cierre del apartado: aquí integramos suma, resta, multiplicación, división, potencias y raíces dentro de problemas con contexto, combinando además números naturales, decimales, fracciones y con signo. Lee cada situación con calma, identifica qué operaciones necesitas y en qué orden aplicarlas, y resuelve paso a paso como en el momento anterior.",
+      "ejemplos": [
+        "Si un terreno cuadrado mide 100 m² de área, su lado mide √100=10 m, y su perímetro es 4×10=40 m.",
+        "Si ganas $60 y gastas 2^2 × 5 pesos, te quedan 60-20=40 pesos."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un terreno cuadrado tiene un área de 169 m². Si se construye una barda alrededor de todo el terreno y se descuenta 15 m de esa longitud total para dejar una entrada sin barda, ¿cuántos metros de barda se necesitan?",
+          "opciones": [
+            "37",
+            "52",
+            "67",
+            "41"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "El lado mide √169=13 m; el perímetro es 4×13=52 m; al descontar la entrada: 52-15=37 m."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un cubo tiene un volumen de 125 cm³. Si su arista se eleva al cuadrado y al resultado se le suma 4, se obtiene 29.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: la arista es ∛125=5; 5^2=25; 25+4=29."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un joven ahorra $2.5 diarios. En una semana ahorra el doble de lo que ahorra en un día, más lo que acumula en otros 6 días normales. En total ahorra ___ pesos.",
+          "respuestaCorrecta": "20",
+          "retroalimentacion": "El doble de un día: 2×2.5=5; seis días normales: 6×2.5=15; en total 5+15=20 pesos."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En un torneo, un equipo pierde 3 puntos de penalización, gana 2^3 puntos por superar un reto y pierde √16 puntos por una falta. ¿Cuántos puntos tiene en total? ___",
+          "respuestaCorrecta": "1",
+          "retroalimentacion": "-3 + 2^3 - √16 = -3 + 8 - 4 = 1 punto."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada expresión combinada con su resultado.",
+          "columnaA": [
+            "√81 + 2^2",
+            "(-5) + 3 × 4",
+            "10 ÷ 2 + 3^2"
+          ],
+          "columnaB": [
+            "7",
+            "14",
+            "13",
+            "20"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "√81+2^2=9+4=13; -5+3×4=-5+12=7; 10÷2+3^2=5+9=14."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuánto es (2 + 3)^2 - √49 × 2?",
+      "opciones": [
+        "11",
+        "36",
+        "3",
+        "39"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "(2+3)^2=25; √49×2=7×2=14; 25-14=11."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Una alberca rectangular mide 2.5 m de ancho y su largo es el triple del ancho. Si al área total se le resta el área de un cuadrado cuyo lado es √4, ¿cuántos m² de agua caben en la alberca? ___",
+      "respuestaCorrecta": "14.75",
+      "retroalimentacion": "Largo: 3×2.5=7.5 m; área de la alberca: 2.5×7.5=18.75 m²; lado del cuadrado: √4=2, su área es 2^2=4; 18.75-4=14.75 m²."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Si a = -2 y b = 3, entonces a^3 + b^2 - √25 = -6.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Falso: a^3=-8, b^2=9, √25=5; entonces -8+9-5=-4, no -6."
+    }
+  ]
+}
