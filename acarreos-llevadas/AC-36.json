@@ -1,0 +1,385 @@
+{
+  "id": "AC-36",
+  "grado": "Acarreos y Llevadas",
+  "numero": 36,
+  "categoria": "acarreo_potencias",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Cuadrados de números de dos cifras con acarreo",
+  "contenido": "Cálculo de cuadrados (n²) de números de dos cifras, con acarreo en los productos parciales de la multiplicación.",
+  "pda": "Calcula cuadrados de números de dos cifras manejando acarreo en los productos parciales.",
+  "problematizacion": {
+    "contexto": "En una escuela secundaria de Oaxaca, el grupo de tercero está diseñando un mural cuadrado para el patio, y cada lado se medirá en baldosas de un metro. El profesor de Artes pide calcular exactamente cuántas baldosas cuadradas se necesitarán según el tamaño del lado que elijan, para no pedir de más ni de menos material a la ferretería.",
+    "pregunta": "Si el mural cuadrado mide 27 baldosas por lado, ¿cuántas baldosas se necesitan en total para cubrirlo?"
+  },
+  "subtemas": [
+    {
+      "numero": "2",
+      "nivelEtiqueta": "Nivel 2 de 8 · Básico",
+      "titulo": "Cuadrados de números de dos cifras con acarreo",
+      "explicacion": "Elevar al cuadrado un número de dos cifras significa multiplicarlo por sí mismo. Como el multiplicador tiene dos cifras (unidades y decenas), el algoritmo se resuelve con productos parciales: primero se multiplica el número completo por la cifra de las unidades, después por la cifra de las decenas (este segundo producto se recorre un lugar a la izquierda, como si tuviera un cero al final), y al final se suman ambos productos parciales. En varias de estas multiplicaciones aparece acarreo: cuando un producto de una sola cifra por otra da 10 o más, esa decena extra se \"lleva\" y se suma al siguiente producto. Practicar este acarreo dentro de los productos parciales es clave para calcular cuadrados correctamente sin usar calculadora.",
+      "formula": "n² = n × n, resuelto con productos parciales cuando n tiene dos cifras",
+      "ejemplos": [
+        "17²: 17×17. Primer producto parcial: 17×7=119 (7×7=49, se escribe 9 y se lleva 4; 1×7=7+4=11). Segundo producto parcial: 17×1=17, recorrido un lugar (170). Se suman: 119+170=289. Por lo tanto, 17²=289.",
+        "15²: 15×15. Primer producto parcial: 15×5=75 (5×5=25, se escribe 5 y se lleva 2; 1×5=5+2=7). Segundo producto parcial: 15×1=15, recorrido un lugar (150). Se suman: 75+150=225. Por lo tanto, 15²=225."
+      ],
+      "puntosPorReactivo": 11,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "14"
+            },
+            {
+              "valor": "14",
+              "signo": "×"
+            },
+            {
+              "valor": "56"
+            },
+            {
+              "valor": "140"
+            },
+            {
+              "valor": "196",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              1
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "14 × 14 = 196: 14×4=56 (4×4=16, se escribe 6 y se lleva 1), 14×1=14 recorrido un lugar (140); 56+140=196. Así, 14²=196."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "16"
+            },
+            {
+              "valor": "16",
+              "signo": "×"
+            },
+            {
+              "valor": "96"
+            },
+            {
+              "valor": "160"
+            },
+            {
+              "valor": "256",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              1
+            ],
+            [],
+            [
+              1
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "16 × 16 = 256: 16×6=96 (6×6=36, se escribe 6 y se lleva 3), 16×1=16 recorrido un lugar (160); 96+160=256. Así, 16²=256."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "18"
+            },
+            {
+              "valor": "18",
+              "signo": "×"
+            },
+            {
+              "valor": "144"
+            },
+            {
+              "valor": "180"
+            },
+            {
+              "valor": "324",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              1,
+              2
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "18 × 18 = 324: 18×8=144 (8×8=64, se escribe 4 y se lleva 6; 1×8=8+6=14), 18×1=18 recorrido un lugar (180); 144+180=324. Así, 18²=324."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "19"
+            },
+            {
+              "valor": "19",
+              "signo": "×"
+            },
+            {
+              "valor": "171"
+            },
+            {
+              "valor": "190"
+            },
+            {
+              "valor": "361",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0,
+              1
+            ],
+            [],
+            []
+          ],
+          "retroalimentacion": "19 × 19 = 361: 19×9=171 (9×9=81, se escribe 1 y se lleva 8; 1×9=9+8=17), 19×1=19 recorrido un lugar (190); 171+190=361. Así, 19²=361."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "24"
+            },
+            {
+              "valor": "24",
+              "signo": "×"
+            },
+            {
+              "valor": "96"
+            },
+            {
+              "valor": "480"
+            },
+            {
+              "valor": "576",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [],
+            [],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "24 × 24 = 576: 24×4=96 (4×4=16, se escribe 6 y se lleva 1), 24×2=48 recorrido un lugar (480); 96+480=576. Así, 24²=576."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "25"
+            },
+            {
+              "valor": "25",
+              "signo": "×"
+            },
+            {
+              "valor": "125"
+            },
+            {
+              "valor": "500"
+            },
+            {
+              "valor": "625",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0,
+              2
+            ],
+            [],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "25 × 25 = 625: 25×5=125 (5×5=25, se escribe 5 y se lleva 2; 2×5=10+2=12), 25×2=50 recorrido un lugar (500); 125+500=625. Así, 25²=625."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "26"
+            },
+            {
+              "valor": "26",
+              "signo": "×"
+            },
+            {
+              "valor": "156"
+            },
+            {
+              "valor": "520"
+            },
+            {
+              "valor": "676",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              1
+            ],
+            [],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "26 × 26 = 676: 26×6=156 (6×6=36, se escribe 6 y se lleva 3; 2×6=12+3=15), 26×2=52 recorrido un lugar (520); 156+520=676. Así, 26²=676."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "27"
+            },
+            {
+              "valor": "27",
+              "signo": "×"
+            },
+            {
+              "valor": "189"
+            },
+            {
+              "valor": "540"
+            },
+            {
+              "valor": "729",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0,
+              2
+            ],
+            [],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "27 × 27 = 729: 27×7=189 (7×7=49, se escribe 9 y se lleva 4; 2×7=14+4=18), 27×2=54 recorrido un lugar (540); 189+540=729. Así, 27²=729."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "28"
+            },
+            {
+              "valor": "28",
+              "signo": "×"
+            },
+            {
+              "valor": "224"
+            },
+            {
+              "valor": "560"
+            },
+            {
+              "valor": "784",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [],
+            [
+              0
+            ],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "28 × 28 = 784: 28×8=224 (8×8=64, se escribe 4 y se lleva 6; 2×8=16+6=22), 28×2=56 recorrido un lugar (560); 224+560=784. Así, 28²=784."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "29"
+            },
+            {
+              "valor": "29",
+              "signo": "×"
+            },
+            {
+              "valor": "261"
+            },
+            {
+              "valor": "580"
+            },
+            {
+              "valor": "841",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              1,
+              2
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "29 × 29 = 841: 29×9=261 (9×9=81, se escribe 1 y se lleva 8; 2×9=18+8=26), 29×2=58 recorrido un lugar (580); 261+580=841. Así, 29²=841."
+        }
+      ]
+    }
+  ]
+}

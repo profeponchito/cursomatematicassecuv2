@@ -1,0 +1,313 @@
+{
+  "id": "AC-11",
+  "grado": "Acarreos y Llevadas",
+  "numero": 11,
+  "categoria": "acarreo_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Resta con un cero en el minuendo (préstamo en cascada)",
+  "contenido": "Resta donde el minuendo tiene un cero en una posición intermedia, obligando a un préstamo en cascada desde la cifra de mayor valor.",
+  "pda": "Resuelve restas con ceros en el minuendo aplicando el préstamo en cascada correctamente (ej. 500-238).",
+  "problematizacion": {
+    "contexto": "En una tiendita de abarrotes en Puebla, doña Marisol solo tiene un billete de 500 pesos para dar cambio y un cliente compra productos que suman 238 pesos. Ella necesita calcular rápido, sin calculadora, cuánto cambio debe entregar.",
+    "pregunta": "¿Cómo calcula doña Marisol el cambio exacto de 500 - 238 cuando el billete no tiene decenas que prestar directamente?"
+  },
+  "subtemas": [
+    {
+      "numero": "3",
+      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
+      "titulo": "Resta con cero en las decenas: préstamo en cascada",
+      "explicacion": "Cuando en el minuendo la cifra de las decenas es 0 y necesitas pedir prestado para restar en las unidades, no puedes tomarlo directo de las decenas porque no hay nada ahí. Por eso el préstamo viaja en cascada: primero se le pide 1 a las centenas (esa cifra baja 1 unidad y las decenas se convierten en 9), y luego, con esas decenas ya disponibles, se presta 1 a las unidades. Este doble paso es el que hace difícil este tipo de resta, así que conviene escribirlo por pasos en lugar de hacerlo de memoria. Practicar este patrón te prepara para restas con varios ceros seguidos, como 1000 menos algo.",
+      "formula": "Si la cifra de decenas del minuendo es 0 y hace falta prestar: pide 1 a las centenas (bajan 1, las decenas se vuelven 9), y de esas 9 decenas presta 1 a las unidades (las decenas quedan en 8).",
+      "ejemplos": [
+        "500 - 238: las decenas son 0. Se pide prestado 1 a las centenas (500 se piensa como 4 centenas y 10 decenas); de esas 10 decenas se presta 1 a las unidades (quedan 9 decenas y 10 unidades). Unidades: 10-8=2. Decenas: 9-3=6. Centenas: 4-2=2. Resultado: 262.",
+        "405 - 168: las decenas también son 0. Para restar 5-8 en las unidades se pide prestado a las centenas (4 baja a 3, las decenas se vuelven 9) y luego de esas decenas a las unidades (15-8=7, decenas 9-6=3, centenas 3-1=2). Resultado: 237."
+      ],
+      "puntosPorReactivo": 13,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "500"
+            },
+            {
+              "valor": "238",
+              "signo": "-"
+            },
+            {
+              "valor": "262",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "500 - 238 = 262: como las decenas del minuendo son 0, primero se pide prestado 1 a las centenas (500 queda como 4 centenas, 10 decenas); de esas 10 decenas se presta 1 a las unidades (quedan 9 decenas y 10 unidades). Unidades: 10-8=2. Decenas: 9-3=6. Centenas: 4-2=2. Resultado: 262."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "600"
+            },
+            {
+              "valor": "347",
+              "signo": "-"
+            },
+            {
+              "valor": "253",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "600 - 347 = 253: las decenas son 0, así que se pide prestado en cascada: primero a las centenas y luego de esas decenas (ya conseguidas) a las unidades. Unidades: 10-7=3. Decenas: 9-4=5. Centenas: 5-3=2. Resultado: 253."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "700"
+            },
+            {
+              "valor": "456",
+              "signo": "-"
+            },
+            {
+              "valor": "244",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [
+              0
+            ],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "700 - 456 = 244: el 0 de las decenas obliga a pedir prestado primero a las centenas (700 se piensa como 6 centenas y 10 decenas) y después de esas decenas a las unidades. Unidades: 10-6=4. Decenas: 9-5=4. Centenas: 6-4=2. Resultado: 244."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "800"
+            },
+            {
+              "valor": "273",
+              "signo": "-"
+            },
+            {
+              "valor": "527",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [
+              0
+            ],
+            []
+          ],
+          "retroalimentacion": "800 - 273 = 527: como las decenas valen 0, se toma 1 prestado de las centenas (queda 7 centenas y 10 decenas) y luego 1 de esas decenas para las unidades. Unidades: 10-3=7. Decenas: 9-7=2. Centenas: 7-2=5. Resultado: 527."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "900"
+            },
+            {
+              "valor": "385",
+              "signo": "-"
+            },
+            {
+              "valor": "515",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0,
+              2
+            ],
+            [],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "900 - 385 = 515: el cero de las decenas hace que el préstamo pase primero por las centenas (900 = 8 centenas y 10 decenas) y luego por las decenas hacia las unidades. Unidades: 10-5=5. Decenas: 9-8=1. Centenas: 8-3=5. Resultado: 515."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "405"
+            },
+            {
+              "valor": "168",
+              "signo": "-"
+            },
+            {
+              "valor": "237",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [
+              0
+            ],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "405 - 168 = 237: aunque el minuendo no termina en cero, sus decenas sí son 0, así que para restar en las unidades (5-8) se pide prestado en cascada: primero a las centenas y después a las decenas. Unidades: 15-8=7. Decenas: 9-6=3. Centenas: 3-1=2. Resultado: 237."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "302"
+            },
+            {
+              "valor": "145",
+              "signo": "-"
+            },
+            {
+              "valor": "157",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              2
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "302 - 145 = 157: las decenas del minuendo son 0, entonces el préstamo para las unidades (2-5) viaja primero por las centenas y luego por las decenas. Unidades: 12-5=7. Decenas: 9-4=5. Centenas: 2-1=1. Resultado: 157."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "604"
+            },
+            {
+              "valor": "267",
+              "signo": "-"
+            },
+            {
+              "valor": "337",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            []
+          ],
+          "retroalimentacion": "604 - 267 = 337: el 0 en las decenas obliga a pedir prestado en cascada para poder restar 4-7 en las unidades. Unidades: 14-7=7. Decenas: 9-6=3. Centenas: 5-2=3. Resultado: 337."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "803"
+            },
+            {
+              "valor": "456",
+              "signo": "-"
+            },
+            {
+              "valor": "347",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [
+              1
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "803 - 456 = 347: como las decenas son 0, el préstamo para las unidades (3-6) pasa primero por las centenas y luego por las decenas. Unidades: 13-6=7. Decenas: 9-5=4. Centenas: 7-4=3. Resultado: 347."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "501"
+            },
+            {
+              "valor": "234",
+              "signo": "-"
+            },
+            {
+              "valor": "267",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "501 - 234 = 267: las decenas del minuendo valen 0, así que para restar en unidades (1-4) el préstamo se toma primero de las centenas y después de las decenas. Unidades: 11-4=7. Decenas: 9-3=6. Centenas: 4-2=2. Resultado: 267."
+        }
+      ]
+    }
+  ]
+}

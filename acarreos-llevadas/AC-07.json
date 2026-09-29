@@ -1,0 +1,308 @@
+{
+  "id": "AC-07",
+  "grado": "Acarreos y Llevadas",
+  "numero": 7,
+  "categoria": "acarreo_suma",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma de números decimales con acarreo",
+  "contenido": "Suma de números decimales (con una o dos cifras decimales) donde ocurre acarreo tanto en la parte decimal como en la parte entera.",
+  "pda": "Resuelve sumas de números decimales aplicando el acarreo correctamente entre la parte decimal y la entera.",
+  "problematizacion": {
+    "contexto": "En el mercado sobre ruedas de Toluca, don Efrén vende fruta a granel y anota en su libreta el peso de cada bolsa en kilogramos usando decimales, por ejemplo 12.7 kg de manzana y 8.6 kg de naranja en una misma entrega. Al final del día suma varias de estas cantidades para saber cuánta fruta despachó en total, y a veces el total en kilogramos enteros le sale mayor de lo que esperaba.",
+    "pregunta": "¿Por qué al sumar los decimales de dos bolsas de fruta el número de kilogramos enteros del total puede aumentar, aunque ninguna bolsa por separado llegue a ese peso?"
+  },
+  "subtemas": [
+    {
+      "numero": "7",
+      "nivelEtiqueta": "Nivel 7 de 8 · Reto",
+      "titulo": "Suma de números decimales con acarreo",
+      "explicacion": "Para sumar números decimales primero alineas el punto decimal de los dos sumandos, como si las columnas de enteros y de decimales formaran una sola escalera de posiciones. Sumas de derecha a izquierda igual que con números enteros: si el total de una columna llega a 10 o más, escribes solo la cifra de las unidades de ese total y \"llevas\" 1 a la siguiente columna hacia la izquierda. Este acarreo puede nacer en la columna decimal más a la derecha (centésimos o décimos) y seguir viajando columna por columna hasta cruzar el punto decimal, sumándose entonces a las unidades enteras. Por eso el acarreo no distingue entre parte decimal y parte entera: es el mismo mecanismo, solo que el punto decimal va contigo cuando bajas el resultado. Un error común es olvidar ese acarreo justo al cruzar el punto, lo que hace que el resultado entero quede una unidad más chico de lo correcto. Practicar este tipo de suma te prepara para manejar dinero, medidas y cualquier cantidad con centavos o fracciones de unidad sin perder cifras en el camino.",
+      "formula": "Alinea el punto decimal, suma cada columna de derecha a izquierda anotando el acarreo, y coloca el punto en el resultado justo debajo de los puntos de los sumandos.",
+      "ejemplos": [
+        "9.4 + 6.8: en los décimos, 4 + 8 = 12, se escribe 2 y se lleva 1. En las unidades, 9 + 6 + 1 (el acarreo) = 16, se escribe 6 y se lleva 1 a las decenas. En las decenas, 0 + 0 + 1 = 1. El resultado es 16.2: el acarreo cruzó el punto decimal y aumentó las unidades.",
+        "23.85 + 8.79: en los centésimos, 5 + 9 = 14, se escribe 4 y se lleva 1. En los décimos, 8 + 7 + 1 = 16, se escribe 6 y se lleva 1, cruzando el punto decimal. En las unidades, 3 + 8 + 1 = 12, se escribe 2 y se lleva 1 a las decenas. En las decenas, 2 + 0 + 1 = 3. El resultado es 32.64."
+      ],
+      "puntosPorReactivo": 19,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "12.7"
+            },
+            {
+              "valor": "8.6",
+              "signo": "+"
+            },
+            {
+              "valor": "21.3",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              2
+            ],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "12.7 + 8.6 = 21.3: en los décimos 7 + 6 = 13, se escribe 3 y se lleva 1; ese acarreo cruza el punto decimal y en las unidades 2 + 8 + 1 = 11, se escribe 1 y se lleva 1 a las decenas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "25.8"
+            },
+            {
+              "valor": "47.5",
+              "signo": "+"
+            },
+            {
+              "valor": "73.3",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              3
+            ]
+          ],
+          "retroalimentacion": "25.8 + 47.5 = 73.3: en los décimos 8 + 5 = 13, se escribe 3 y se lleva 1; en las unidades 5 + 7 + 1 = 13, se escribe 3 y se lleva 1; en las decenas 2 + 4 + 1 = 7."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "6.9"
+            },
+            {
+              "valor": "5.8",
+              "signo": "+"
+            },
+            {
+              "valor": "12.7",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "6.9 + 5.8 = 12.7: en los décimos 9 + 8 = 17, se escribe 7 y se lleva 1; ese acarreo cruza el punto decimal y en las unidades 6 + 5 + 1 = 12, se escribe 2 y se lleva 1, formando una nueva cifra de decenas: 1."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "138.4"
+            },
+            {
+              "valor": "76.9",
+              "signo": "+"
+            },
+            {
+              "valor": "215.3",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [
+              3
+            ],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "138.4 + 76.9 = 215.3: en los décimos 4 + 9 = 13, se escribe 3 y se lleva 1; en las unidades 8 + 6 + 1 = 15, se escribe 5 y se lleva 1; en las decenas 3 + 7 + 1 = 11, se escribe 1 y se lleva 1 a las centenas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "94.6"
+            },
+            {
+              "valor": "8.7",
+              "signo": "+"
+            },
+            {
+              "valor": "103.3",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "94.6 + 8.7 = 103.3: en los décimos 6 + 7 = 13, se escribe 3 y se lleva 1; en las unidades 4 + 8 + 1 = 13, se escribe 3 y se lleva 1; en las decenas 9 + 0 + 1 = 10, se escribe 0 y se lleva 1, formando una nueva cifra de centenas: 1."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "12.68"
+            },
+            {
+              "valor": "8.57",
+              "signo": "+"
+            },
+            {
+              "valor": "21.25",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              4
+            ],
+            [
+              2
+            ],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "12.68 + 8.57 = 21.25: en los centésimos 8 + 7 = 15, se escribe 5 y se lleva 1; en los décimos 6 + 5 + 1 = 12, se escribe 2 y se lleva 1; ese acarreo cruza el punto decimal y en las unidades 2 + 8 + 1 = 11, se escribe 1 y se lleva 1 a las decenas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "45.79"
+            },
+            {
+              "valor": "26.86",
+              "signo": "+"
+            },
+            {
+              "valor": "72.65",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              4
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "45.79 + 26.86 = 72.65: en los centésimos 9 + 6 = 15, se escribe 5 y se lleva 1; en los décimos 7 + 8 + 1 = 16, se escribe 6 y se lleva 1; en las unidades 5 + 6 + 1 = 12, se escribe 2 y se lleva 1 a las decenas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "7.85"
+            },
+            {
+              "valor": "6.79",
+              "signo": "+"
+            },
+            {
+              "valor": "14.64",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              3
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "7.85 + 6.79 = 14.64: en los centésimos 5 + 9 = 14, se escribe 4 y se lleva 1; en los décimos 8 + 7 + 1 = 16, se escribe 6 y se lleva 1; en las unidades 7 + 6 + 1 = 14, se escribe 4 y se lleva 1, formando una nueva cifra de decenas: 1."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "158.36"
+            },
+            {
+              "valor": "74.89",
+              "signo": "+"
+            },
+            {
+              "valor": "233.25",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              5
+            ],
+            [],
+            []
+          ],
+          "retroalimentacion": "158.36 + 74.89 = 233.25: en los centésimos 6 + 9 = 15, se escribe 5 y se lleva 1; en los décimos 3 + 8 + 1 = 12, se escribe 2 y se lleva 1; en las unidades 8 + 4 + 1 = 13, se escribe 3 y se lleva 1; en las decenas 5 + 7 + 1 = 13, se escribe 3 y se lleva 1 a las centenas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "9.68"
+            },
+            {
+              "valor": "3.79",
+              "signo": "+"
+            },
+            {
+              "valor": "13.47",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [
+              0
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "9.68 + 3.79 = 13.47: en los centésimos 8 + 9 = 17, se escribe 7 y se lleva 1; en los décimos 6 + 7 + 1 = 14, se escribe 4 y se lleva 1; ese acarreo cruza el punto decimal y en las unidades 9 + 3 + 1 = 13, se escribe 3 y se lleva 1, formando una nueva cifra de decenas: 1."
+        }
+      ]
+    }
+  ]
+}

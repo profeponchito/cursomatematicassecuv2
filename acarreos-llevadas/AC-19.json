@@ -1,0 +1,304 @@
+{
+  "id": "AC-19",
+  "grado": "Acarreos y Llevadas",
+  "numero": 19,
+  "categoria": "acarreo_mult",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Multiplicación de dos cifras por una cifra con acarreo múltiple",
+  "contenido": "Multiplicación de un número de dos cifras por un número de una cifra, con acarreo en ambas posiciones del cálculo.",
+  "pda": "Resuelve multiplicaciones de dos cifras por una cifra manejando acarreos en cascada dentro del mismo producto.",
+  "problematizacion": {
+    "contexto": "En una tienda de abarrotes de barrio, doña Lupe empaca refrescos en cajas de dos cifras de piezas para venderlas por mayoreo a varias tiendas pequeñas de la colonia. Cada tienda le pide varias cajas iguales, y ella necesita saber rápido cuántas piezas totales debe entregar sin perder ninguna 'llevada' en sus cuentas.",
+    "pregunta": "¿Cómo puedes multiplicar en columnas para calcular el total de piezas sin equivocarte en los acarreos?"
+  },
+  "subtemas": [
+    {
+      "numero": "3",
+      "nivelEtiqueta": "Nivel 3 de 9 · Guiado",
+      "titulo": "Multiplicación de dos cifras por una cifra con acarreo múltiple",
+      "explicacion": "Cuando multiplicas un número de dos cifras por un número de una cifra, a veces el resultado de cada columna es mayor que 9 y no cabe en una sola casilla. En esos casos anotas solo el dígito de las unidades de ese producto parcial y 'llevas' el resto hacia la siguiente posición, sumándolo al producto de la columna vecina antes de multiplicar. En este tema el acarreo ocurre dos veces seguidas: primero al multiplicar las unidades y luego otra vez al multiplicar las decenas (ya con el acarreo anterior sumado), por lo que el resultado final crece hasta tener tres cifras. Practicar este acarreo en cascada te ayuda a no perder ninguna 'llevada' en el camino.",
+      "formula": "Unidades × multiplicador = cifra + acarreo; (Decenas × multiplicador) + acarreo = nueva cifra + nuevo acarreo",
+      "ejemplos": [
+        "27 × 8: unidades 7 × 8 = 56, se anota 6 y se lleva 5; decenas 2 × 8 = 16, más el 5 que llevabas, da 21, se anota 1 y se lleva 2 a las centenas. Resultado: 216.",
+        "19 × 8: unidades 9 × 8 = 72, se anota 2 y se lleva 7; decenas 1 × 8 = 8, más el 7 que llevabas, da 15, se anota 5 y se lleva 1 a las centenas. Resultado: 152."
+      ],
+      "puntosPorReactivo": 12,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "12"
+            },
+            {
+              "valor": "9",
+              "signo": "×"
+            },
+            {
+              "valor": "108",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              0
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "12 × 9 = 108: al multiplicar 2 × 9 = 18 se anota 8 y se lleva 1; luego 1 × 9 = 9, más el 1 que llevabas, da 10, se anota 0 y se lleva 1 a las centenas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "13"
+            },
+            {
+              "valor": "8",
+              "signo": "×"
+            },
+            {
+              "valor": "104",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "13 × 8 = 104: 3 × 8 = 24, se anota 4 y se lleva 2; 1 × 8 = 8, más el 2 que llevabas, da 10, se anota 0 y se lleva 1 a las centenas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "15"
+            },
+            {
+              "valor": "7",
+              "signo": "×"
+            },
+            {
+              "valor": "105",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            []
+          ],
+          "retroalimentacion": "15 × 7 = 105: 5 × 7 = 35, se anota 5 y se lleva 3; 1 × 7 = 7, más el 3 que llevabas, da 10, se anota 0 y se lleva 1 a las centenas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "17"
+            },
+            {
+              "valor": "6",
+              "signo": "×"
+            },
+            {
+              "valor": "102",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "17 × 6 = 102: 7 × 6 = 42, se anota 2 y se lleva 4; 1 × 6 = 6, más el 4 que llevabas, da 10, se anota 0 y se lleva 1 a las centenas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "19"
+            },
+            {
+              "valor": "8",
+              "signo": "×"
+            },
+            {
+              "valor": "152",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [
+              0,
+              1
+            ]
+          ],
+          "retroalimentacion": "19 × 8 = 152: 9 × 8 = 72, se anota 2 y se lleva 7; 1 × 8 = 8, más el 7 que llevabas, da 15, se anota 5 y se lleva 1 a las centenas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "23"
+            },
+            {
+              "valor": "9",
+              "signo": "×"
+            },
+            {
+              "valor": "207",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              0
+            ],
+            []
+          ],
+          "retroalimentacion": "23 × 9 = 207: 3 × 9 = 27, se anota 7 y se lleva 2; 2 × 9 = 18, más el 2 que llevabas, da 20, se anota 0 y se lleva 2 a las centenas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "26"
+            },
+            {
+              "valor": "7",
+              "signo": "×"
+            },
+            {
+              "valor": "182",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0,
+              2
+            ]
+          ],
+          "retroalimentacion": "26 × 7 = 182: 6 × 7 = 42, se anota 2 y se lleva 4; 2 × 7 = 14, más el 4 que llevabas, da 18, se anota 8 y se lleva 1 a las centenas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "27"
+            },
+            {
+              "valor": "8",
+              "signo": "×"
+            },
+            {
+              "valor": "216",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0,
+              1
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "27 × 8 = 216: 7 × 8 = 56, se anota 6 y se lleva 5; 2 × 8 = 16, más el 5 que llevabas, da 21, se anota 1 y se lleva 2 a las centenas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "29"
+            },
+            {
+              "valor": "6",
+              "signo": "×"
+            },
+            {
+              "valor": "174",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "29 × 6 = 174: 9 × 6 = 54, se anota 4 y se lleva 5; 2 × 6 = 12, más el 5 que llevabas, da 17, se anota 7 y se lleva 1 a las centenas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "34"
+            },
+            {
+              "valor": "9",
+              "signo": "×"
+            },
+            {
+              "valor": "306",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [
+              0,
+              1
+            ]
+          ],
+          "retroalimentacion": "34 × 9 = 306: 4 × 9 = 36, se anota 6 y se lleva 3; 3 × 9 = 27, más el 3 que llevabas, da 30, se anota 0 y se lleva 3 a las centenas."
+        }
+      ]
+    }
+  ]
+}

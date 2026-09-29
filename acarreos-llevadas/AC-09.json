@@ -1,0 +1,294 @@
+{
+  "id": "AC-09",
+  "grado": "Acarreos y Llevadas",
+  "numero": 9,
+  "categoria": "acarreo_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Resta de dos cifras con un préstamo simple",
+  "contenido": "Resta de números naturales de dos cifras donde la cifra de las unidades del sustraendo es mayor que la del minuendo, requiriendo pedir prestado a las decenas.",
+  "pda": "Resuelve restas de dos cifras aplicando correctamente el préstamo de decenas a unidades.",
+  "problematizacion": {
+    "contexto": "En el tianguis del pueblo, doña Rosa vende elotes y anota en su libreta cuánto dinero tenía al empezar el día y cuánto gastó en comprar más mazorcas. Al final de la tarde quiere saber cuánto dinero le queda, pero varias de sus restas le piden prestar una decena y se le complica hacerlo bien.",
+    "pregunta": "¿Cómo le explicarías a doña Rosa, paso a paso, que debe pedir prestada una decena cuando las unidades no alcanzan para restar?"
+  },
+  "subtemas": [
+    {
+      "numero": "1",
+      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
+      "titulo": "Resta de dos cifras con un préstamo simple",
+      "explicacion": "Cuando restas dos números de dos cifras, a veces la cifra de las unidades del sustraendo es mayor que la del minuendo, y no puedes quitar directamente. En ese caso pides prestada 1 decena al número de decenas del minuendo: esa decena se convierte en 10 unidades y se suma a las unidades que ya tenías. Así logras restar las unidades sin problema, pero debes recordar que el número de decenas del minuendo ya bajó en 1 antes de restar las decenas del sustraendo. Este préstamo se hace una sola vez en este tipo de reactivos, porque la resta de decenas (ya reducida) siempre alcanza para quitar las decenas del sustraendo. Practicar este paso te ayuda a entender por qué el algoritmo de la resta \"funciona\" y no solo a copiarlo de memoria.",
+      "ejemplos": [
+        "45 - 18: las unidades son 5 y 8; como 5 es menor que 8, pides prestada 1 decena al 4, y el 5 se convierte en 15. Entonces 15 - 8 = 7 en las unidades, y como ya usaste una decena, quedan 3 decenas: 3 - 1 = 2. El resultado es 27.",
+        "96 - 58: las unidades son 6 y 8; como 6 es menor que 8, pides prestada 1 decena al 9, y el 6 se convierte en 16. Entonces 16 - 8 = 8 en las unidades, y las decenas quedan en 8 (porque 9 bajó a 8 al prestar): 8 - 5 = 3. El resultado es 38."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "52"
+            },
+            {
+              "valor": "27",
+              "signo": "-"
+            },
+            {
+              "valor": "25",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              1
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "52 - 27 = 25: como 2 unidades no alcanzan para quitar 7, se pide prestada 1 decena al 5, quedando 12 unidades; 12 - 7 = 5, y las decenas 4 (ya prestadas) menos 2 dan 2. Por eso el resultado es 25."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "41"
+            },
+            {
+              "valor": "15",
+              "signo": "-"
+            },
+            {
+              "valor": "26",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "41 - 15 = 26: como 1 unidad no alcanza para quitar 5, se pide prestada 1 decena al 4, quedando 11 unidades; 11 - 5 = 6, y las decenas 3 (ya prestadas) menos 1 dan 2. Por eso el resultado es 26."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "73"
+            },
+            {
+              "valor": "46",
+              "signo": "-"
+            },
+            {
+              "valor": "27",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [
+              0
+            ],
+            []
+          ],
+          "retroalimentacion": "73 - 46 = 27: como 3 unidades no alcanzan para quitar 6, se pide prestada 1 decena al 7, quedando 13 unidades; 13 - 6 = 7, y las decenas 6 (ya prestadas) menos 4 dan 2. Por eso el resultado es 27."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "83"
+            },
+            {
+              "valor": "49",
+              "signo": "-"
+            },
+            {
+              "valor": "34",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              1
+            ],
+            []
+          ],
+          "retroalimentacion": "83 - 49 = 34: como 3 unidades no alcanzan para quitar 9, se pide prestada 1 decena al 8, quedando 13 unidades; 13 - 9 = 4, y las decenas 7 (ya prestadas) menos 4 dan 3. Por eso el resultado es 34."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "91"
+            },
+            {
+              "valor": "38",
+              "signo": "-"
+            },
+            {
+              "valor": "53",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "91 - 38 = 53: como 1 unidad no alcanza para quitar 8, se pide prestada 1 decena al 9, quedando 11 unidades; 11 - 8 = 3, y las decenas 8 (ya prestadas) menos 3 dan 5. Por eso el resultado es 53."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "62"
+            },
+            {
+              "valor": "19",
+              "signo": "-"
+            },
+            {
+              "valor": "43",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            []
+          ],
+          "retroalimentacion": "62 - 19 = 43: como 2 unidades no alcanzan para quitar 9, se pide prestada 1 decena al 6, quedando 12 unidades; 12 - 9 = 3, y las decenas 5 (ya prestadas) menos 1 dan 4. Por eso el resultado es 43."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "55"
+            },
+            {
+              "valor": "27",
+              "signo": "-"
+            },
+            {
+              "valor": "28",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "55 - 27 = 28: como 5 unidades no alcanzan para quitar 7, se pide prestada 1 decena al primer 5, quedando 15 unidades; 15 - 7 = 8, y las decenas 4 (ya prestadas) menos 2 dan 2. Por eso el resultado es 28."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "71"
+            },
+            {
+              "valor": "36",
+              "signo": "-"
+            },
+            {
+              "valor": "35",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            []
+          ],
+          "retroalimentacion": "71 - 36 = 35: como 1 unidad no alcanza para quitar 6, se pide prestada 1 decena al 7, quedando 11 unidades; 11 - 6 = 5, y las decenas 6 (ya prestadas) menos 3 dan 3. Por eso el resultado es 35."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "82"
+            },
+            {
+              "valor": "46",
+              "signo": "-"
+            },
+            {
+              "valor": "36",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0,
+              1
+            ]
+          ],
+          "retroalimentacion": "82 - 46 = 36: como 2 unidades no alcanzan para quitar 6, se pide prestada 1 decena al 8, quedando 12 unidades; 12 - 6 = 6, y las decenas 7 (ya prestadas) menos 4 dan 3. Por eso el resultado es 36."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "31"
+            },
+            {
+              "valor": "14",
+              "signo": "-"
+            },
+            {
+              "valor": "17",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            []
+          ],
+          "retroalimentacion": "31 - 14 = 17: como 1 unidad no alcanza para quitar 4, se pide prestada 1 decena al 3, quedando 11 unidades; 11 - 4 = 7, y las decenas 2 (ya prestadas) menos 1 dan 1. Por eso el resultado es 17."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "id": "AC-43",
+  "grado": "Acarreos y Llevadas",
+  "numero": 43,
+  "categoria": "acarreo_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Raíz cuadrada exacta de números de dos cifras",
+  "contenido": "Verificación de raíces cuadradas exactas de números de dos cifras mediante la multiplicación de la raíz por sí misma.",
+  "pda": "Verifica raíces cuadradas exactas de números de dos cifras comprobando que raíz × raíz reproduce el radicando.",
+  "problematizacion": {
+    "contexto": "En una escuela secundaria de Puebla, el equipo de mantenimiento va a colocar losetas cuadradas nuevas en un patio también cuadrado. El profesor de Matemáticas les dice que el patio mide 49 m² y les pide comprobar, antes de comprar el material, cuánto mide cada lado sin usar calculadora.",
+    "pregunta": "¿Cómo puedes comprobar, usando solo una multiplicación, que el lado del patio realmente mide 7 metros?"
+  },
+  "subtemas": [
+    {
+      "numero": "1",
+      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
+      "titulo": "Raíz cuadrada exacta: comprueba con raíz × raíz",
+      "explicacion": "El radicando es el número que está dentro del símbolo de raíz, y la raíz cuadrada es el número que, multiplicado por sí mismo, reproduce exactamente ese radicando. Para verificar que una raíz cuadrada es correcta no necesitas más que una multiplicación: si raíz × raíz = radicando, la raíz está bien. En este tema trabajarás raíces de una sola cifra (del 4 al 9) cuyo cuadrado siempre tiene dos cifras, por ejemplo 7 × 7 = 49. Al multiplicar un dígito por sí mismo y obtener un resultado de dos cifras, se genera una cifra de decenas que no estaba en ninguno de los factores: ese es el acarreo que debes vigilar al completar las casillas. Practicar esta verificación te prepara para comprobar raíces más grandes y para reconocer de memoria los cuadrados perfectos del 16 al 81.",
+      "formula": "raíz × raíz = radicando  (si el producto coincide, la raíz cuadrada es correcta)",
+      "ejemplos": [
+        "√36 = 6 se verifica así: 6 × 6 = 36. Como el producto reproduce el radicando, la raíz es correcta; nota que el 3 de las decenas de 36 surge de multiplicar un solo dígito por sí mismo.",
+        "√81 = 9 se verifica así: 9 × 9 = 81. El producto 81 tiene dos cifras aunque 9 es de una sola cifra, por eso aparece la cifra de las decenas (8) como resultado de ese acarreo."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "4"
+            },
+            {
+              "valor": "4",
+              "signo": "×"
+            },
+            {
+              "valor": "16",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            []
+          ],
+          "retroalimentacion": "4 × 4 = 16, así que la raíz cuadrada de 16 es 4. Los dos factores son iguales a la raíz que buscas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "5"
+            },
+            {
+              "valor": "5",
+              "signo": "×"
+            },
+            {
+              "valor": "25",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            []
+          ],
+          "retroalimentacion": "5 × 5 = 25, así que la raíz cuadrada de 25 es 5. Recuerda que ambos factores de la multiplicación de verificación son siempre el mismo número."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "6"
+            },
+            {
+              "valor": "6",
+              "signo": "×"
+            },
+            {
+              "valor": "36",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "6 × 6 = 36, así que la raíz cuadrada de 36 es 6. La cifra de las decenas (3) aparece por el acarreo al multiplicar 6 por 6."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "7"
+            },
+            {
+              "valor": "7",
+              "signo": "×"
+            },
+            {
+              "valor": "49",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "7 × 7 = 49, así que la raíz cuadrada de 49 es 7. La cifra de las unidades del resultado también forma parte de la comprobación."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "8"
+            },
+            {
+              "valor": "8",
+              "signo": "×"
+            },
+            {
+              "valor": "64",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "8 × 8 = 64, así que la raíz cuadrada de 64 es 8. Al multiplicar 8 por sí mismo se genera la cifra de las decenas (6), producto del acarreo."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "9"
+            },
+            {
+              "valor": "9",
+              "signo": "×"
+            },
+            {
+              "valor": "81",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "9 × 9 = 81, así que la raíz cuadrada de 81 es 9. El 8 de las decenas nace del acarreo al multiplicar 9 por 9."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "6"
+            },
+            {
+              "valor": "6",
+              "signo": "×"
+            },
+            {
+              "valor": "36",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0,
+              1
+            ]
+          ],
+          "retroalimentacion": "6 × 6 = 36, así que la raíz cuadrada de 36 es 6. Completa las dos cifras del resultado: la de las decenas viene del acarreo y la de las unidades cierra la multiplicación."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "7"
+            },
+            {
+              "valor": "7",
+              "signo": "×"
+            },
+            {
+              "valor": "49",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            []
+          ],
+          "retroalimentacion": "7 × 7 = 49, así que la raíz cuadrada de 49 es 7. El primer factor debe ser exactamente la raíz que estás comprobando."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "8"
+            },
+            {
+              "valor": "8",
+              "signo": "×"
+            },
+            {
+              "valor": "64",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            []
+          ],
+          "retroalimentacion": "8 × 8 = 64, así que la raíz cuadrada de 64 es 8. El segundo factor repite el mismo valor que el primero, porque estás verificando una raíz cuadrada."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "9"
+            },
+            {
+              "valor": "9",
+              "signo": "×"
+            },
+            {
+              "valor": "81",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "9 × 9 = 81, así que la raíz cuadrada de 81 es 9. La cifra de las unidades del producto confirma que 9 × 9 reproduce exactamente el radicando."
+        }
+      ]
+    }
+  ]
+}

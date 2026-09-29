@@ -1,0 +1,373 @@
+{
+  "id": "AC-45",
+  "grado": "Acarreos y Llevadas",
+  "numero": 45,
+  "categoria": "acarreo_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Raíz cuadrada de números de cuatro cifras",
+  "contenido": "Verificación de raíces cuadradas exactas de números de cuatro cifras, con acarreo múltiple en los productos parciales.",
+  "pda": "Verifica raíces cuadradas de números de cuatro cifras sosteniendo acarreo múltiple en toda la comprobación.",
+  "problematizacion": {
+    "contexto": "En una cooperativa de Guanajuato, un grupo de alumnos de secundaria va a forrar con láminas de cartón reciclado el piso de un salón de usos múltiples que es perfectamente cuadrado y mide 3136 metros cuadrados en total, según el plano de la escuela. Antes de cortar el material, necesitan saber cuánto mide cada lado del salón sin usar calculadora, solo con lápiz y papel.",
+    "pregunta": "¿Cómo puedes comprobar, multiplicando por productos parciales, que el lado del salón mide 56 metros?"
+  },
+  "subtemas": [
+    {
+      "numero": "3",
+      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
+      "titulo": "Raíz cuadrada de cuatro cifras: verificación con productos parciales y acarreo múltiple",
+      "explicacion": "Cuando el radicando tiene cuatro cifras, su raíz cuadrada exacta es un número de dos cifras, así que para comprobarla ya no basta una sola multiplicación de un dígito: hay que multiplicar la raíz por las unidades del segundo factor y, por separado, por sus decenas, recorriendo ese segundo producto un lugar a la izquierda. Cada uno de esos dos productos parciales puede generar su propio acarreo, porque al multiplicar dos dígitos el resultado suele tener más de una cifra y esa cifra extra se suma a la siguiente columna. Al final, los dos productos parciales se suman entre sí, y esa suma también puede llevar acarreo, hasta reproducir exactamente el radicando de cuatro cifras. Dominar este proceso te permite verificar de memoria si una raíz cuadrada de dos cifras es correcta, sin necesidad de calculadora.",
+      "formula": "raíz × raíz = radicando (parcial de unidades + parcial de decenas recorrido, con acarreo en ambos)",
+      "ejemplos": [
+        "Para comprobar que la raíz cuadrada de 1521 es 39: 39 × 9 = 351 (parcial de unidades, con acarreo porque 9×9=81); 39 × 3 = 117, recorrido un lugar se escribe 1170 (parcial de decenas, también con acarreo porque 9×3=27); al sumar 351 + 1170 = 1521, se confirma que 39² = 1521.",
+        "Para comprobar que la raíz cuadrada de 4624 es 68: 68 × 8 = 544 (parcial de unidades, con acarreo porque 8×8=64); 68 × 6 = 408, recorrido un lugar se escribe 4080 (parcial de decenas, con acarreo porque 8×6=48); al sumar 544 + 4080 = 4624, se confirma que 68² = 4624."
+      ],
+      "puntosPorReactivo": 13,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "39"
+            },
+            {
+              "valor": "39",
+              "signo": "×"
+            },
+            {
+              "valor": "351"
+            },
+            {
+              "valor": "1170"
+            },
+            {
+              "valor": "1521",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [],
+            [],
+            []
+          ],
+          "retroalimentacion": "La raíz cuadrada de 1521 es 39, porque 39 × 39 = 1521. Primero se multiplica 39 por las unidades del segundo factor (9): 39 × 9 = 351 (con acarreo). Luego se multiplica 39 por las decenas (3), recorriendo un lugar a la izquierda: 39 × 3 = 117, escrito como 1170 (también con acarreo). Al sumar los productos parciales 351 + 1170 se obtiene 1521, así que la raíz de 1521 sí es 39."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "47"
+            },
+            {
+              "valor": "47",
+              "signo": "×"
+            },
+            {
+              "valor": "329"
+            },
+            {
+              "valor": "1880"
+            },
+            {
+              "valor": "2209",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              1
+            ],
+            [],
+            [],
+            []
+          ],
+          "retroalimentacion": "La raíz cuadrada de 2209 es 47, porque 47 × 47 = 2209. Primero se multiplica 47 por las unidades del segundo factor (7): 47 × 7 = 329 (con acarreo). Luego se multiplica 47 por las decenas (4), recorriendo un lugar a la izquierda: 47 × 4 = 188, escrito como 1880 (también con acarreo). Al sumar los productos parciales 329 + 1880 se obtiene 2209, así que la raíz de 2209 sí es 47."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "56"
+            },
+            {
+              "valor": "56",
+              "signo": "×"
+            },
+            {
+              "valor": "336"
+            },
+            {
+              "valor": "2800"
+            },
+            {
+              "valor": "3136",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0
+            ],
+            [],
+            []
+          ],
+          "retroalimentacion": "La raíz cuadrada de 3136 es 56, porque 56 × 56 = 3136. Primero se multiplica 56 por las unidades del segundo factor (6): 56 × 6 = 336 (con acarreo). Luego se multiplica 56 por las decenas (5), recorriendo un lugar a la izquierda: 56 × 5 = 280, escrito como 2800 (también con acarreo). Al sumar los productos parciales 336 + 2800 se obtiene 3136, así que la raíz de 3136 sí es 56."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "68"
+            },
+            {
+              "valor": "68",
+              "signo": "×"
+            },
+            {
+              "valor": "544"
+            },
+            {
+              "valor": "4080"
+            },
+            {
+              "valor": "4624",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [],
+            [
+              2
+            ],
+            []
+          ],
+          "retroalimentacion": "La raíz cuadrada de 4624 es 68, porque 68 × 68 = 4624. Primero se multiplica 68 por las unidades del segundo factor (8): 68 × 8 = 544 (con acarreo). Luego se multiplica 68 por las decenas (6), recorriendo un lugar a la izquierda: 68 × 6 = 408, escrito como 4080 (también con acarreo). Al sumar los productos parciales 544 + 4080 se obtiene 4624, así que la raíz de 4624 sí es 68."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "74"
+            },
+            {
+              "valor": "74",
+              "signo": "×"
+            },
+            {
+              "valor": "296"
+            },
+            {
+              "valor": "5180"
+            },
+            {
+              "valor": "5476",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [],
+            [],
+            [
+              3
+            ]
+          ],
+          "retroalimentacion": "La raíz cuadrada de 5476 es 74, porque 74 × 74 = 5476. Primero se multiplica 74 por las unidades del segundo factor (4): 74 × 4 = 296 (con acarreo). Luego se multiplica 74 por las decenas (7), recorriendo un lugar a la izquierda: 74 × 7 = 518, escrito como 5180 (también con acarreo). Al sumar los productos parciales 296 + 5180 se obtiene 5476, así que la raíz de 5476 sí es 74."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "83"
+            },
+            {
+              "valor": "83",
+              "signo": "×"
+            },
+            {
+              "valor": "249"
+            },
+            {
+              "valor": "6640"
+            },
+            {
+              "valor": "6889",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [],
+            [],
+            [
+              1,
+              3
+            ]
+          ],
+          "retroalimentacion": "La raíz cuadrada de 6889 es 83, porque 83 × 83 = 6889. Primero se multiplica 83 por las unidades del segundo factor (3): 83 × 3 = 249 (con acarreo). Luego se multiplica 83 por las decenas (8), recorriendo un lugar a la izquierda: 83 × 8 = 664, escrito como 6640 (también con acarreo). Al sumar los productos parciales 249 + 6640 se obtiene 6889, así que la raíz de 6889 sí es 83."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "92"
+            },
+            {
+              "valor": "92",
+              "signo": "×"
+            },
+            {
+              "valor": "184"
+            },
+            {
+              "valor": "8280"
+            },
+            {
+              "valor": "8464",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [],
+            [],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "La raíz cuadrada de 8464 es 92, porque 92 × 92 = 8464. Primero se multiplica 92 por las unidades del segundo factor (2): 92 × 2 = 184 (con acarreo). Luego se multiplica 92 por las decenas (9), recorriendo un lugar a la izquierda: 92 × 9 = 828, escrito como 8280 (también con acarreo). Al sumar los productos parciales 184 + 8280 se obtiene 8464, así que la raíz de 8464 sí es 92."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "46"
+            },
+            {
+              "valor": "46",
+              "signo": "×"
+            },
+            {
+              "valor": "276"
+            },
+            {
+              "valor": "1840"
+            },
+            {
+              "valor": "2116",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [
+              2
+            ],
+            [],
+            []
+          ],
+          "retroalimentacion": "La raíz cuadrada de 2116 es 46, porque 46 × 46 = 2116. Primero se multiplica 46 por las unidades del segundo factor (6): 46 × 6 = 276 (con acarreo). Luego se multiplica 46 por las decenas (4), recorriendo un lugar a la izquierda: 46 × 4 = 184, escrito como 1840 (también con acarreo). Al sumar los productos parciales 276 + 1840 se obtiene 2116, así que la raíz de 2116 sí es 46."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "58"
+            },
+            {
+              "valor": "58",
+              "signo": "×"
+            },
+            {
+              "valor": "464"
+            },
+            {
+              "valor": "2900"
+            },
+            {
+              "valor": "3364",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              1
+            ],
+            [
+              0
+            ],
+            []
+          ],
+          "retroalimentacion": "La raíz cuadrada de 3364 es 58, porque 58 × 58 = 3364. Primero se multiplica 58 por las unidades del segundo factor (8): 58 × 8 = 464 (con acarreo). Luego se multiplica 58 por las decenas (5), recorriendo un lugar a la izquierda: 58 × 5 = 290, escrito como 2900 (también con acarreo). Al sumar los productos parciales 464 + 2900 se obtiene 3364, así que la raíz de 3364 sí es 58."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "67"
+            },
+            {
+              "valor": "67",
+              "signo": "×"
+            },
+            {
+              "valor": "469"
+            },
+            {
+              "valor": "4020"
+            },
+            {
+              "valor": "4489",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              2
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "La raíz cuadrada de 4489 es 67, porque 67 × 67 = 4489. Primero se multiplica 67 por las unidades del segundo factor (7): 67 × 7 = 469 (con acarreo). Luego se multiplica 67 por las decenas (6), recorriendo un lugar a la izquierda: 67 × 6 = 402, escrito como 4020 (también con acarreo). Al sumar los productos parciales 469 + 4020 se obtiene 4489, así que la raíz de 4489 sí es 67."
+        }
+      ]
+    }
+  ]
+}

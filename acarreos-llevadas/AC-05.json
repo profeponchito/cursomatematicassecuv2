@@ -1,0 +1,310 @@
+{
+  "id": "AC-05",
+  "grado": "Acarreos y Llevadas",
+  "numero": 5,
+  "categoria": "acarreo_suma",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma con acarreo que agrega una cifra nueva al resultado",
+  "contenido": "Suma de números de dos o tres cifras donde el acarreo de la última columna hace que el resultado tenga una cifra más que los sumandos.",
+  "pda": "Resuelve sumas donde el acarreo final agrega una nueva cifra de mayor valor posicional al resultado.",
+  "problematizacion": {
+    "contexto": "En la tiendita escolar de la secundaria, Doña Lupe anota en un cuaderno cuánto vendió en la mañana y cuánto en la tarde para sacar el total del día. Un martes vendió 89 pesos en la mañana y 45 pesos en la tarde; al sumar las columnas de su cuaderno, el resultado le salió con una cifra más de las que tenían los dos montos por separado, y por un momento pensó que se había equivocado.",
+    "pregunta": "¿Por qué el total del día de Doña Lupe puede tener una cifra más que cualquiera de las dos ventas que sumó?"
+  },
+  "subtemas": [
+    {
+      "numero": "5",
+      "nivelEtiqueta": "Nivel 5 de 8 · Aplicación",
+      "titulo": "Suma con acarreo que agrega una cifra nueva al resultado",
+      "explicacion": "Cuando sumas dos números, a veces el acarreo de la columna con mayor valor posicional (la de más a la izquierda) es tan grande que el resultado necesita una cifra más que los números originales. Esto pasa porque, al sumar esa última columna junto con el acarreo que viene de la columna anterior, el total llega a 10 o más, así que hay que \"llevar\" una unidad a una posición nueva que antes no existía. Por ejemplo, si sumas dos números de dos cifras, el resultado puede terminar teniendo tres cifras; si sumas dos números de tres cifras, el resultado puede terminar teniendo cuatro. Esta cifra nueva siempre aparece en la posición inmediata a la izquierda de la última columna sumada, y casi siempre vale 1, porque proviene de un acarreo. Practicar este caso te ayuda a no perder de vista que el acarreo final no se pierde: se escribe como una cifra más del resultado.",
+      "ejemplos": [
+        "89 + 45: en las unidades, 9 + 5 = 14, se escribe 4 y se lleva 1 a las decenas. En las decenas, 8 + 4 + 1 (el acarreo) = 13, que es 10 o más, así que se escribe 3 y el 1 que se lleva ya no tiene una columna de centenas en los sumandos, por lo que se escribe directamente como una cifra nueva: el resultado es 134, con tres cifras en vez de dos.",
+        "620 + 480: en las unidades, 0 + 0 = 0. En las decenas, 2 + 8 = 10, se escribe 0 y se lleva 1 a las centenas. En las centenas, 6 + 4 + 1 (el acarreo) = 11, que es 10 o más, así que se escribe 1 y el otro 1 se convierte en una cifra nueva de millar: el resultado es 1100, con cuatro cifras en vez de tres."
+      ],
+      "puntosPorReactivo": 16,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "89"
+            },
+            {
+              "valor": "45",
+              "signo": "+"
+            },
+            {
+              "valor": "134",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [
+              0
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "89 + 45 = 134: en las unidades 9 + 5 = 14, se escribe 4 y se lleva 1; en las decenas 8 + 4 + 1 = 13, se escribe 3 y se lleva 1, que se convierte en una nueva cifra de centenas: 1."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "68"
+            },
+            {
+              "valor": "57",
+              "signo": "+"
+            },
+            {
+              "valor": "125",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [
+              0,
+              1
+            ]
+          ],
+          "retroalimentacion": "68 + 57 = 125: en las unidades 8 + 7 = 15, se escribe 5 y se lleva 1; en las decenas 6 + 5 + 1 = 12, se escribe 2 y se lleva 1, que forma la nueva cifra de centenas: 1."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "93"
+            },
+            {
+              "valor": "48",
+              "signo": "+"
+            },
+            {
+              "valor": "141",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "retroalimentacion": "93 + 48 = 141: en las unidades 3 + 8 = 11, se escribe 1 y se lleva 1; en las decenas 9 + 4 + 1 = 14, se escribe 4 y se lleva 1, que agrega la nueva cifra de centenas: 1."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "76"
+            },
+            {
+              "valor": "59",
+              "signo": "+"
+            },
+            {
+              "valor": "135",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            []
+          ],
+          "retroalimentacion": "76 + 59 = 135: en las unidades 6 + 9 = 15, se escribe 5 y se lleva 1; en las decenas 7 + 5 + 1 = 13, se escribe 3 y se lleva 1, que crea la nueva cifra de centenas: 1."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "84"
+            },
+            {
+              "valor": "67",
+              "signo": "+"
+            },
+            {
+              "valor": "151",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0,
+              1
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "84 + 67 = 151: en las unidades 4 + 7 = 11, se escribe 1 y se lleva 1; en las decenas 8 + 6 + 1 = 15, se escribe 5 y se lleva 1, que se convierte en la nueva cifra de centenas: 1."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "620"
+            },
+            {
+              "valor": "480",
+              "signo": "+"
+            },
+            {
+              "valor": "1100",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [
+              1
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "620 + 480 = 1100: en las centenas 6 + 4 = 10 (más el acarreo de las decenas), se escribe 1 y se lleva 1, formando una nueva cifra de millares: 1."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "750"
+            },
+            {
+              "valor": "380",
+              "signo": "+"
+            },
+            {
+              "valor": "1130",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0,
+              1
+            ]
+          ],
+          "retroalimentacion": "750 + 380 = 1130: en las centenas 7 + 3 = 10 (más el acarreo de las decenas), se escribe 1 y se lleva 1, que agrega la nueva cifra de millares: 1."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "845"
+            },
+            {
+              "valor": "290",
+              "signo": "+"
+            },
+            {
+              "valor": "1135",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              2
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "845 + 290 = 1135: en las centenas 8 + 2 = 10 (más el acarreo de las decenas), se escribe 1 y se lleva 1, formando la nueva cifra de millares: 1."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "578"
+            },
+            {
+              "valor": "640",
+              "signo": "+"
+            },
+            {
+              "valor": "1218",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [
+              3
+            ]
+          ],
+          "retroalimentacion": "578 + 640 = 1218: en las centenas 5 + 6 = 11 (más el acarreo de las decenas), se escribe 2 y se lleva 1, que crea la nueva cifra de millares: 1."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "690"
+            },
+            {
+              "valor": "435",
+              "signo": "+"
+            },
+            {
+              "valor": "1125",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1,
+              2
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "690 + 435 = 1125: en las centenas 6 + 4 = 10 (más el acarreo de las decenas), se escribe 1 y se lleva 1, formando la nueva cifra de millares: 1."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,305 @@
+{
+  "id": "AC-24",
+  "grado": "Acarreos y Llevadas",
+  "numero": 24,
+  "categoria": "acarreo_mult",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Multiplicación con números decimales",
+  "contenido": "Multiplicación de un número decimal por un número entero de una cifra, o de dos decimales pequeños entre sí, ubicando el punto decimal en el resultado.",
+  "pda": "Resuelve multiplicaciones con decimales aplicando el acarreo en los dígitos y ubicando correctamente el punto decimal en el resultado.",
+  "problematizacion": {
+    "contexto": "En una papelería de barrio, un cuaderno profesional cuesta $23.4 pesos con descuento por mayoreo. Un maestro necesita comprar cuadernos para sus 3 grupos y quiere saber cuánto pagará en total antes de ir a la tienda, para llevar el dinero exacto.",
+    "pregunta": "¿Cómo puedes multiplicar un precio con punto decimal por la cantidad de cuadernos sin perder ninguna cifra ni equivocarte al colocar el punto?"
+  },
+  "subtemas": [
+    {
+      "numero": "8",
+      "nivelEtiqueta": "Nivel 8 de 9 · Reto",
+      "titulo": "Multiplicación con números decimales",
+      "explicacion": "Cuando multiplicas un número decimal por un número entero, primero multiplicas como si no hubiera punto decimal, es decir, tratas ambos factores como números enteros y aplicas el acarreo normal de la multiplicación. El punto decimal NO se coloca durante el proceso, sino hasta el final, en la fila del resultado. Para saber dónde va, cuentas cuántas cifras decimales tenía el factor decimal original y colocas el punto esa misma cantidad de lugares contando desde la derecha del resultado. Si el resultado no tiene suficientes dígitos para completar ese conteo, se agregan ceros a la izquierda antes de poner el punto. El acarreo funciona exactamente igual que en la multiplicación de enteros: si un producto parcial de dígitos es 10 o más, se escribe la cifra de las unidades y se lleva la decena a la siguiente columna. Dominar este orden —multiplicar primero, ubicar el punto al final— evita el error más común de este tema: poner el punto decimal a la mitad del procedimiento.",
+      "formula": "cifras decimales del resultado = cifras decimales del factor 1 + cifras decimales del factor 2",
+      "ejemplos": [
+        "3.6 × 4: se multiplica 36 × 4 = 144 (6×4=24, se escribe 4 y se lleva 2; 3×4=12, más el 2 que se llevaba, da 14). El factor 3.6 tiene 1 cifra decimal, así que en el resultado se cuenta 1 lugar desde la derecha: 14.4.",
+        "4.25 × 6: se multiplica 425 × 6 = 2550 (5×6=30, se escribe 0 y se lleva 3; 2×6=12 más 3 que se llevaba es 15, se escribe 5 y se lleva 1; 4×6=24 más 1 que se llevaba es 25). El factor 4.25 tiene 2 cifras decimales, así que se cuentan 2 lugares desde la derecha: 25.50."
+      ],
+      "puntosPorReactivo": 19,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "3.6"
+            },
+            {
+              "valor": "4",
+              "signo": "×"
+            },
+            {
+              "valor": "14.4",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "3.6 × 4 = 14.4. Multiplicando como enteros: 36 × 4 = 144 (6×4=24, se lleva 2; 3×4=12+2=14). Como 3.6 tiene 1 cifra decimal, el punto se coloca 1 lugar desde la derecha del resultado: 14.4."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "7.8"
+            },
+            {
+              "valor": "3",
+              "signo": "×"
+            },
+            {
+              "valor": "23.4",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              0
+            ],
+            []
+          ],
+          "retroalimentacion": "7.8 × 3 = 23.4. Multiplicando como enteros: 78 × 3 = 234 (8×3=24, se lleva 2; 7×3=21+2=23). El factor 7.8 tiene 1 cifra decimal, así que el punto se coloca 1 lugar desde la derecha: 23.4."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "4.25"
+            },
+            {
+              "valor": "6",
+              "signo": "×"
+            },
+            {
+              "valor": "25.50",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              3
+            ],
+            [],
+            [
+              0,
+              1
+            ]
+          ],
+          "retroalimentacion": "4.25 × 6 = 25.50. Multiplicando como enteros: 425 × 6 = 2550 (5×6=30, se lleva 3; 2×6=12+3=15, se lleva 1; 4×6=24+1=25). El factor 4.25 tiene 2 cifras decimales, así que el punto se coloca 2 lugares desde la derecha: 25.50."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "12.3"
+            },
+            {
+              "valor": "7",
+              "signo": "×"
+            },
+            {
+              "valor": "86.1",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "12.3 × 7 = 86.1. Multiplicando como enteros: 123 × 7 = 861 (3×7=21, se lleva 2; 2×7=14+2=16, se lleva 1; 1×7=7+1=8). El factor 12.3 tiene 1 cifra decimal, así que el punto se coloca 1 lugar desde la derecha: 86.1."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "2.47"
+            },
+            {
+              "valor": "5",
+              "signo": "×"
+            },
+            {
+              "valor": "12.35",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              0
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "2.47 × 5 = 12.35. Multiplicando como enteros: 247 × 5 = 1235 (7×5=35, se lleva 3; 4×5=20+3=23, se lleva 2; 2×5=10+2=12). El factor 2.47 tiene 2 cifras decimales, así que el punto se coloca 2 lugares desde la derecha: 12.35."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "63.4"
+            },
+            {
+              "valor": "2",
+              "signo": "×"
+            },
+            {
+              "valor": "126.8",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "63.4 × 2 = 126.8. Multiplicando como enteros: 634 × 2 = 1268 (4×2=8; 3×2=6; 6×2=12, se escribe 2 y se lleva 1, que forma una nueva cifra a la izquierda). El factor 63.4 tiene 1 cifra decimal, así que el punto se coloca 1 lugar desde la derecha: 126.8."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "8.19"
+            },
+            {
+              "valor": "3",
+              "signo": "×"
+            },
+            {
+              "valor": "24.57",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2,
+              3
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "8.19 × 3 = 24.57. Multiplicando como enteros: 819 × 3 = 2457 (9×3=27, se lleva 2; 1×3=3+2=5; 8×3=24). El factor 8.19 tiene 2 cifras decimales, así que el punto se coloca 2 lugares desde la derecha: 24.57."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "45.6"
+            },
+            {
+              "valor": "8",
+              "signo": "×"
+            },
+            {
+              "valor": "364.8",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              0
+            ],
+            []
+          ],
+          "retroalimentacion": "45.6 × 8 = 364.8. Multiplicando como enteros: 456 × 8 = 3648 (6×8=48, se lleva 4; 5×8=40+4=44, se lleva 4; 4×8=32+4=36). El factor 45.6 tiene 1 cifra decimal, así que el punto se coloca 1 lugar desde la derecha: 364.8."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "9.34"
+            },
+            {
+              "valor": "6",
+              "signo": "×"
+            },
+            {
+              "valor": "56.04",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [],
+            [
+              0,
+              1
+            ]
+          ],
+          "retroalimentacion": "9.34 × 6 = 56.04. Multiplicando como enteros: 934 × 6 = 5604 (4×6=24, se lleva 2; 3×6=18+2=20, se lleva 2; 9×6=54+2=56). El factor 9.34 tiene 2 cifras decimales, así que el punto se coloca 2 lugares desde la derecha; como el resultado sin punto es 5604, queda 56.04."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "5.63"
+            },
+            {
+              "valor": "4",
+              "signo": "×"
+            },
+            {
+              "valor": "22.52",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            []
+          ],
+          "retroalimentacion": "5.63 × 4 = 22.52. Multiplicando como enteros: 563 × 4 = 2252 (3×4=12, se lleva 1; 6×4=24+1=25, se lleva 2; 5×4=20+2=22). El factor 5.63 tiene 2 cifras decimales, así que el punto se coloca 2 lugares desde la derecha: 22.52."
+        }
+      ]
+    }
+  ]
+}

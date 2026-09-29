@@ -1,0 +1,376 @@
+{
+  "id": "AC-23",
+  "grado": "Acarreos y Llevadas",
+  "numero": 23,
+  "categoria": "acarreo_mult",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Multiplicación de tres cifras por dos cifras",
+  "contenido": "Multiplicación de un número de tres cifras por uno de dos cifras, con dos productos parciales de tres-cuatro cifras cada uno.",
+  "pda": "Resuelve multiplicaciones de tres cifras por dos cifras integrando acarreo en ambos productos parciales y en su suma.",
+  "problematizacion": {
+    "contexto": "En una fábrica de calzado en León, Guanajuato, empacan pares de zapatos en cajas para enviarlas a varias tiendas. Cada caja grande contiene cierta cantidad fija de pares, y el encargado de almacén necesita calcular cuántos pares se envían en total cuando el pedido incluye muchas cajas, con una cantidad de cajas que ya llega a dos cifras.",
+    "pregunta": "¿Cómo calcula el encargado, sin perder ningún acarreo, el total de pares de zapatos cuando multiplica una cantidad de tres cifras por una de dos cifras?"
+  },
+  "subtemas": [
+    {
+      "numero": "7",
+      "nivelEtiqueta": "Nivel 7 de 9 · Avanzado",
+      "titulo": "Multiplicación de tres cifras por dos cifras",
+      "explicacion": "Cuando multiplicas un número de tres cifras por uno de dos cifras, el algoritmo se hace en dos pasos: primero multiplicas el número completo por la cifra de las unidades del multiplicador (producto parcial 1), y luego por la cifra de las decenas, recorriendo el resultado un lugar hacia la izquierda (producto parcial 2). En cada uno de esos dos productos parciales puede aparecer acarreo, igual que en una multiplicación por una sola cifra. Al final, sumas los dos productos parciales en columna, y esa suma también puede generar su propio acarreo. Por eso este tipo de multiplicación exige sostener el acarreo en tres momentos distintos: en el primer parcial, en el segundo parcial y en la suma final. Completar las casillas vacías te obliga a reconstruir cada uno de esos acarreos.",
+      "formula": "multiplicando × unidades = parcial 1; multiplicando × decenas (recorrido un lugar) = parcial 2; parcial 1 + parcial 2 = resultado",
+      "ejemplos": [
+        "267 × 34: parcial 1 = 267 × 4 = 1068 (con acarreo); parcial 2 = 267 × 3 = 801, recorrido un lugar = 8010 (con acarreo); suma 1068 + 8010 = 9078 (con acarreo en la suma).",
+        "446 × 64: parcial 1 = 446 × 4 = 1784 (con acarreo); parcial 2 = 446 × 6 = 2676, recorrido un lugar = 26760 (con acarreo); suma 1784 + 26760 = 28544 (con acarreo en la suma)."
+      ],
+      "puntosPorReactivo": 18,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "489"
+            },
+            {
+              "valor": "29",
+              "signo": "×"
+            },
+            {
+              "valor": "4401"
+            },
+            {
+              "valor": "9780"
+            },
+            {
+              "valor": "14181",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [],
+            [],
+            [
+              2,
+              3
+            ]
+          ],
+          "retroalimentacion": "489 × 29 = 14181: primero 489 × 9 = 4401 (producto parcial de las unidades, con acarreo); luego 489 × 2 = 978 y se recorre un lugar a la izquierda para escribir 9780 (producto parcial de las decenas, también con acarreo); al sumar 4401 + 9780 también hay acarreo y se obtiene 14181."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "717"
+            },
+            {
+              "valor": "34",
+              "signo": "×"
+            },
+            {
+              "valor": "2868"
+            },
+            {
+              "valor": "21510"
+            },
+            {
+              "valor": "24378",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0
+            ],
+            [
+              3,
+              4
+            ],
+            []
+          ],
+          "retroalimentacion": "717 × 34 = 24378: primero 717 × 4 = 2868 (producto parcial de las unidades, con acarreo); luego 717 × 3 = 2151 y se recorre un lugar a la izquierda para escribir 21510 (producto parcial de las decenas, también con acarreo); al sumar 2868 + 21510 también hay acarreo y se obtiene 24378."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "181"
+            },
+            {
+              "valor": "52",
+              "signo": "×"
+            },
+            {
+              "valor": "362"
+            },
+            {
+              "valor": "9050"
+            },
+            {
+              "valor": "9412",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [],
+            [
+              0
+            ],
+            []
+          ],
+          "retroalimentacion": "181 × 52 = 9412: primero 181 × 2 = 362 (producto parcial de las unidades, con acarreo); luego 181 × 5 = 905 y se recorre un lugar a la izquierda para escribir 9050 (producto parcial de las decenas, también con acarreo); al sumar 362 + 9050 también hay acarreo y se obtiene 9412."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "746"
+            },
+            {
+              "valor": "94",
+              "signo": "×"
+            },
+            {
+              "valor": "2984"
+            },
+            {
+              "valor": "67140"
+            },
+            {
+              "valor": "70124",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0,
+              2
+            ],
+            [],
+            [],
+            [],
+            []
+          ],
+          "retroalimentacion": "746 × 94 = 70124: primero 746 × 4 = 2984 (producto parcial de las unidades, con acarreo); luego 746 × 9 = 6714 y se recorre un lugar a la izquierda para escribir 67140 (producto parcial de las decenas, también con acarreo); al sumar 2984 + 67140 también hay acarreo y se obtiene 70124."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "634"
+            },
+            {
+              "valor": "89",
+              "signo": "×"
+            },
+            {
+              "valor": "5706"
+            },
+            {
+              "valor": "50720"
+            },
+            {
+              "valor": "56426",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [],
+            [],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "634 × 89 = 56426: primero 634 × 9 = 5706 (producto parcial de las unidades, con acarreo); luego 634 × 8 = 5072 y se recorre un lugar a la izquierda para escribir 50720 (producto parcial de las decenas, también con acarreo); al sumar 5706 + 50720 también hay acarreo y se obtiene 56426."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "957"
+            },
+            {
+              "valor": "43",
+              "signo": "×"
+            },
+            {
+              "valor": "2871"
+            },
+            {
+              "valor": "38280"
+            },
+            {
+              "valor": "41151",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [
+              1
+            ],
+            [],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "957 × 43 = 41151: primero 957 × 3 = 2871 (producto parcial de las unidades, con acarreo); luego 957 × 4 = 3828 y se recorre un lugar a la izquierda para escribir 38280 (producto parcial de las decenas, también con acarreo); al sumar 2871 + 38280 también hay acarreo y se obtiene 41151."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "863"
+            },
+            {
+              "valor": "27",
+              "signo": "×"
+            },
+            {
+              "valor": "6041"
+            },
+            {
+              "valor": "17260"
+            },
+            {
+              "valor": "23301",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [],
+            [
+              1,
+              4
+            ],
+            []
+          ],
+          "retroalimentacion": "863 × 27 = 23301: primero 863 × 7 = 6041 (producto parcial de las unidades, con acarreo); luego 863 × 2 = 1726 y se recorre un lugar a la izquierda para escribir 17260 (producto parcial de las decenas, también con acarreo); al sumar 6041 + 17260 también hay acarreo y se obtiene 23301."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "285"
+            },
+            {
+              "valor": "82",
+              "signo": "×"
+            },
+            {
+              "valor": "570"
+            },
+            {
+              "valor": "22800"
+            },
+            {
+              "valor": "23370",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [],
+            [
+              1
+            ],
+            []
+          ],
+          "retroalimentacion": "285 × 82 = 23370: primero 285 × 2 = 570 (producto parcial de las unidades, con acarreo); luego 285 × 8 = 2280 y se recorre un lugar a la izquierda para escribir 22800 (producto parcial de las decenas, también con acarreo); al sumar 570 + 22800 también hay acarreo y se obtiene 23370."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "614"
+            },
+            {
+              "valor": "67",
+              "signo": "×"
+            },
+            {
+              "valor": "4298"
+            },
+            {
+              "valor": "36840"
+            },
+            {
+              "valor": "41138",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [],
+            [],
+            [
+              0,
+              4
+            ]
+          ],
+          "retroalimentacion": "614 × 67 = 41138: primero 614 × 7 = 4298 (producto parcial de las unidades, con acarreo); luego 614 × 6 = 3684 y se recorre un lugar a la izquierda para escribir 36840 (producto parcial de las decenas, también con acarreo); al sumar 4298 + 36840 también hay acarreo y se obtiene 41138."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "495"
+            },
+            {
+              "valor": "69",
+              "signo": "×"
+            },
+            {
+              "valor": "4455"
+            },
+            {
+              "valor": "29700"
+            },
+            {
+              "valor": "34155",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0,
+              1
+            ],
+            [],
+            [],
+            [],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "495 × 69 = 34155: primero 495 × 9 = 4455 (producto parcial de las unidades, con acarreo); luego 495 × 6 = 2970 y se recorre un lugar a la izquierda para escribir 29700 (producto parcial de las decenas, también con acarreo); al sumar 4455 + 29700 también hay acarreo y se obtiene 34155."
+        }
+      ]
+    }
+  ]
+}

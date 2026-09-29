@@ -1,0 +1,306 @@
+{
+  "id": "AC-13",
+  "grado": "Acarreos y Llevadas",
+  "numero": 13,
+  "categoria": "acarreo_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Resta de tres y cuatro cifras con múltiples préstamos",
+  "contenido": "Resta de números de tres o cuatro cifras con préstamo en al menos tres columnas distintas, sin ceros involucrados.",
+  "pda": "Resuelve restas de varias cifras manejando múltiples préstamos independientes a lo largo de la operación.",
+  "problematizacion": {
+    "contexto": "Doña Reyna tiene una tienda de abarrotes en Puebla y al final del mes revisa cuánto le queda de su capital inicial después de pagar a sus proveedores. Anota el capital con el que empezó el mes y la cantidad que gastó en mercancía, ambas cantidades con varias cifras.",
+    "pregunta": "¿Cuánto dinero le queda a Doña Reyna después de restar sus gastos del capital con el que empezó?"
+  },
+  "subtemas": [
+    {
+      "numero": "5",
+      "nivelEtiqueta": "Nivel 5 de 8 · Aplicación",
+      "titulo": "Resta con varios préstamos encadenados (3 y 4 cifras)",
+      "explicacion": "Cuando restamos números de tres o cuatro cifras, a veces una sola columna no alcanza y hay que pedir prestado más de una vez a lo largo de toda la operación. Cada préstamo le quita 1 a la cifra de la izquierda antes de comparar esa columna, así que si esa cifra ya era pequeña, también tendrá que pedir prestado a la siguiente, formando una cadena de préstamos. En este tema el minuendo nunca tiene ceros, así que siempre hay una cifra disponible para prestar, pero eso no significa que sea automático: hay que restar 1 real a cada cifra prestadora antes de decidir si esa columna también necesita pedir prestado. La clave es resolver de derecha a izquierda, columna por columna, sin saltarte ninguna.",
+      "ejemplos": [
+        "6432 - 2578: unidades 2-8 pide prestado (12-8=4); decenas 3-1=2, y 2-7 vuelve a pedir prestado (12-7=5); centenas 4-1=3, y 3-5 vuelve a pedir prestado (13-5=8); millares 6-1=5, 5-2=3. Resultado: 3854.",
+        "534 - 178: unidades 4-8 pide prestado (14-8=6); decenas 3-1=2, y 2-7 vuelve a pedir prestado (12-7=5); centenas 5-1=4, 4-1=3. Resultado: 356."
+      ],
+      "puntosPorReactivo": 16,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "8212"
+            },
+            {
+              "valor": "269",
+              "signo": "-"
+            },
+            {
+              "valor": "7943",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "8212 - 269 = 7943: se pide prestado en unidades (12-9), en decenas (0 despues de prestar, se pide otra vez) y en centenas (1 despues de prestar, se pide otra vez a los millares)."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "2352"
+            },
+            {
+              "valor": "496",
+              "signo": "-"
+            },
+            {
+              "valor": "1856",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0,
+              2
+            ],
+            [],
+            [
+              3
+            ]
+          ],
+          "retroalimentacion": "2352 - 496 = 1856: hay prestamo encadenado en unidades, decenas y centenas porque 496 tiene cifras mayores que las de 2352 en esas posiciones."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "4258"
+            },
+            {
+              "valor": "799",
+              "signo": "-"
+            },
+            {
+              "valor": "3459",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0,
+              2
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "4258 - 799 = 3459: al restar 9 de 8 se pide prestado, y ese prestamo se repite en decenas y centenas por las cifras altas de 799."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "9344"
+            },
+            {
+              "valor": "4989",
+              "signo": "-"
+            },
+            {
+              "valor": "4355",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [
+              3
+            ],
+            []
+          ],
+          "retroalimentacion": "9344 - 4989 = 4355: unidades, decenas y centenas requieren prestamo porque 4989 tiene 8, 9 y 9 en esas posiciones."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "6951"
+            },
+            {
+              "valor": "4997",
+              "signo": "-"
+            },
+            {
+              "valor": "1954",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              3
+            ],
+            [
+              1
+            ],
+            []
+          ],
+          "retroalimentacion": "6951 - 4997 = 1954: se pide prestado tres veces seguidas (unidades, decenas y centenas) porque 4997 casi iguala a 6951 en esas cifras."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "7333"
+            },
+            {
+              "valor": "969",
+              "signo": "-"
+            },
+            {
+              "valor": "6364",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "7333 - 969 = 6364: unidades, decenas y centenas piden prestado porque 969 tiene cifras grandes frente a las de 7333."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "8751"
+            },
+            {
+              "valor": "3773",
+              "signo": "-"
+            },
+            {
+              "valor": "4978",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              2
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "8751 - 3773 = 4978: el prestamo se repite en unidades, decenas y centenas al comparar cada cifra de 8751 con la de 3773."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "3213"
+            },
+            {
+              "valor": "539",
+              "signo": "-"
+            },
+            {
+              "valor": "2674",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              3
+            ],
+            [],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "3213 - 539 = 2674: se necesita prestamo en unidades, decenas y centenas porque 539 tiene cifras mayores en esas posiciones."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "6135"
+            },
+            {
+              "valor": "268",
+              "signo": "-"
+            },
+            {
+              "valor": "5867",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [
+              2
+            ],
+            []
+          ],
+          "retroalimentacion": "6135 - 268 = 5867: hay tres prestamos seguidos (unidades, decenas y centenas) al restar 268 de 6135."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "8663"
+            },
+            {
+              "valor": "1774",
+              "signo": "-"
+            },
+            {
+              "valor": "6889",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0,
+              3
+            ],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "8663 - 1774 = 6889: unidades, decenas y centenas requieren prestamo porque cada cifra de 1774 es mayor que la correspondiente de 8663."
+        }
+      ]
+    }
+  ]
+}

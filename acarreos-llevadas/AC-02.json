@@ -1,0 +1,315 @@
+{
+  "id": "AC-02",
+  "grado": "Acarreos y Llevadas",
+  "numero": 2,
+  "categoria": "acarreo_suma",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma de tres cifras con un acarreo simple",
+  "contenido": "Suma de números naturales de tres cifras con un único acarreo, en la columna de unidades o de decenas.",
+  "pda": "Resuelve sumas de números de tres cifras localizando la única columna que genera acarreo.",
+  "problematizacion": {
+    "contexto": "En la papelería de doña Rosa, en Puebla, llegan dos cajas con útiles escolares: una con 234 lápices y otra con 118 lápices, para surtir el pedido de una escuela secundaria antes del inicio de clases.",
+    "pregunta": "¿Cuántos lápices en total debe registrar doña Rosa en su inventario si junta las dos cajas?"
+  },
+  "subtemas": [
+    {
+      "numero": "2",
+      "nivelEtiqueta": "Nivel 2 de 8 · Básico",
+      "titulo": "Suma de tres cifras con un acarreo simple",
+      "explicacion": "Cuando sumas dos números de tres cifras, a veces al sumar los dígitos de una columna el resultado es 10 o más. Eso significa que esa columna genera un acarreo: se escribe solo la cifra de las unidades y se \"lleva\" 1 a la columna de la izquierda, sumándolo junto con los dígitos de esa siguiente columna. En este tema solo hay UNA columna (unidades o decenas) que produce ese acarreo; las demás columnas suman 9 o menos y no necesitan llevar nada. Identificar con precisión en qué columna ocurre el acarreo es la clave para completar correctamente las casillas vacías del algoritmo.",
+      "formula": "Si la suma de una columna es 10 o más, escribe la cifra de las unidades y lleva 1 a la columna siguiente (izquierda).",
+      "ejemplos": [
+        "234 + 118: unidades 4+8=12, se escribe 2 y se lleva 1; decenas 3+1(llevada)+1=5; centenas 2+1=3. Resultado: 352.",
+        "253 + 161: unidades 3+1=4; decenas 5+6=11, se escribe 1 y se lleva 1; centenas 2+1(llevada)+1=4. Resultado: 414."
+      ],
+      "puntosPorReactivo": 11,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "234",
+              "signo": "+"
+            },
+            {
+              "valor": "118",
+              "signo": "+"
+            },
+            {
+              "valor": "352",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [
+              1
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "234 + 118 = 352: solo las unidades (4+8=12) generan acarreo; decenas y centenas suman 9 o menos."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "345",
+              "signo": "+"
+            },
+            {
+              "valor": "127",
+              "signo": "+"
+            },
+            {
+              "valor": "472",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "345 + 127 = 472: el acarreo ocurre únicamente en las unidades (5+7=12)."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "456",
+              "signo": "+"
+            },
+            {
+              "valor": "136",
+              "signo": "+"
+            },
+            {
+              "valor": "592",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0,
+              2
+            ],
+            []
+          ],
+          "retroalimentacion": "456 + 136 = 592: las unidades (6+6=12) son la única columna con acarreo."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "523",
+              "signo": "+"
+            },
+            {
+              "valor": "219",
+              "signo": "+"
+            },
+            {
+              "valor": "742",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "523 + 219 = 742: unidades 3+9=12 producen el único acarreo del algoritmo."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "618",
+              "signo": "+"
+            },
+            {
+              "valor": "205",
+              "signo": "+"
+            },
+            {
+              "valor": "823",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "618 + 205 = 823: unidades 8+5=13 generan el acarreo; las demás columnas no llevan nada."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "253",
+              "signo": "+"
+            },
+            {
+              "valor": "161",
+              "signo": "+"
+            },
+            {
+              "valor": "414",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "253 + 161 = 414: las decenas (5+6=11) son la única columna con acarreo."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "372",
+              "signo": "+"
+            },
+            {
+              "valor": "283",
+              "signo": "+"
+            },
+            {
+              "valor": "655",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [
+              1
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "372 + 283 = 655: el acarreo aparece solo en las decenas (7+8=15)."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "481",
+              "signo": "+"
+            },
+            {
+              "valor": "294",
+              "signo": "+"
+            },
+            {
+              "valor": "775",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "481 + 294 = 775: decenas 8+9=17 producen el único acarreo."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "164",
+              "signo": "+"
+            },
+            {
+              "valor": "252",
+              "signo": "+"
+            },
+            {
+              "valor": "416",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            []
+          ],
+          "retroalimentacion": "164 + 252 = 416: las decenas (6+5=11) son la única columna que lleva."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "273",
+              "signo": "+"
+            },
+            {
+              "valor": "381",
+              "signo": "+"
+            },
+            {
+              "valor": "654",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "273 + 381 = 654: decenas 7+8=15 generan el único acarreo del algoritmo."
+        }
+      ]
+    }
+  ]
+}

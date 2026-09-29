@@ -1,0 +1,299 @@
+{
+  "id": "AC-28",
+  "grado": "Acarreos y Llevadas",
+  "numero": 28,
+  "categoria": "acarreo_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Verificación con cociente de dos cifras y acarreo múltiple",
+  "contenido": "Comprobación de divisiones con cociente de dos cifras entre un divisor de una cifra, con acarreo en ambas posiciones del producto de verificación.",
+  "pda": "Verifica divisiones con cociente de dos cifras manejando acarreo múltiple en la comprobación.",
+  "problematizacion": {
+    "contexto": "En la papelería de la esquina, don Refugio repartió una caja de 245 lápices en partes iguales entre los 5 salones de la escuela y le tocaron 49 lápices a cada salón. Antes de anotarlo en su libreta de inventario, quiere confirmar que la cuenta esté bien hecha.",
+    "pregunta": "¿Cómo puede don Refugio comprobar, multiplicando, que repartir 245 lápices entre 5 salones sí da exactamente 49 lápices por salón?"
+  },
+  "subtemas": [
+    {
+      "numero": "3",
+      "nivelEtiqueta": "Nivel 3 de 9 · Guiado",
+      "titulo": "Verificación con cociente de dos cifras y acarreo múltiple",
+      "explicacion": "Cuando compruebas una división multiplicando el cociente por el divisor, en realidad estás haciendo una multiplicación normal, y ahí también puede aparecer el acarreo. Si el cociente tiene dos cifras, primero multiplicas el divisor por la cifra de las unidades del cociente; si ese producto es 10 o más, anotas solo el dígito de las unidades y llevas el resto a la columna de las decenas. Después multiplicas el divisor por la cifra de las decenas del cociente, le sumas lo que llevabas, y si ese nuevo resultado también es 10 o más, la cifra que sobra pasa a las centenas del dividendo. En este tema el acarreo ocurre en las DOS posiciones del producto, así que llevas dos veces antes de terminar la comprobación. Si al final el número que obtienes coincide exactamente con el dividendo original, la división quedó bien resuelta.",
+      "ejemplos": [
+        "Comprobar que 380 ÷ 5 = 76: multiplicas 6 × 5 = 30, escribes 0 y llevas 3 a las decenas; luego 7 × 5 = 35, le sumas el 3 que llevabas y da 38, escribes 8 y llevas 3 a las centenas; como no hay más cifras, esas 3 se escriben directo. El resultado es 380, así que la división es correcta.",
+        "Comprobar que 552 ÷ 6 = 92: multiplicas 2 × 6 = 12, escribes 2 y llevas 1 a las decenas; luego 9 × 6 = 54, le sumas el 1 que llevabas y da 55, escribes 5 y llevas 5 a las centenas, que se escriben directo. El resultado es 552, así que 92 sí es el cociente correcto."
+      ],
+      "puntosPorReactivo": 12,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "49"
+            },
+            {
+              "valor": "5",
+              "signo": "×"
+            },
+            {
+              "valor": "245",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 245 ÷ 5 = 49, porque 49 × 5 = 245. Al multiplicar 9 × 5 = 45 escribes 5 y llevas 4; luego 4 × 5 + 4 = 24, escribes 4 y llevas 2 a las centenas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "53"
+            },
+            {
+              "valor": "5",
+              "signo": "×"
+            },
+            {
+              "valor": "265",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 265 ÷ 5 = 53, porque 53 × 5 = 265. Al multiplicar 3 × 5 = 15 escribes 5 y llevas 1; luego 5 × 5 + 1 = 26, escribes 6 y llevas 2 a las centenas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "18"
+            },
+            {
+              "valor": "6",
+              "signo": "×"
+            },
+            {
+              "valor": "108",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            []
+          ],
+          "retroalimentacion": "Esto comprueba que 108 ÷ 6 = 18, porque 18 × 6 = 108. Al multiplicar 8 × 6 = 48 escribes 8 y llevas 4; luego 1 × 6 + 4 = 10, escribes 0 y llevas 1 a las centenas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "37"
+            },
+            {
+              "valor": "6",
+              "signo": "×"
+            },
+            {
+              "valor": "222",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              0
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 222 ÷ 6 = 37, porque 37 × 6 = 222. Al multiplicar 7 × 6 = 42 escribes 2 y llevas 4; luego 3 × 6 + 4 = 22, escribes 2 y llevas 2 a las centenas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "82"
+            },
+            {
+              "valor": "7",
+              "signo": "×"
+            },
+            {
+              "valor": "574",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 574 ÷ 7 = 82, porque 82 × 7 = 574. Al multiplicar 2 × 7 = 14 escribes 4 y llevas 1; luego 8 × 7 + 1 = 57, escribes 7 y llevas 5 a las centenas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "62"
+            },
+            {
+              "valor": "7",
+              "signo": "×"
+            },
+            {
+              "valor": "434",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 434 ÷ 7 = 62, porque 62 × 7 = 434. Al multiplicar 2 × 7 = 14 escribes 4 y llevas 1; luego 6 × 7 + 1 = 43, escribes 3 y llevas 4 a las centenas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "66"
+            },
+            {
+              "valor": "8",
+              "signo": "×"
+            },
+            {
+              "valor": "528",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [
+              0,
+              1
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 528 ÷ 8 = 66, porque 66 × 8 = 528. Al multiplicar 6 × 8 = 48 escribes 8 y llevas 4; luego 6 × 8 + 4 = 52, escribes 2 y llevas 5 a las centenas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "67"
+            },
+            {
+              "valor": "8",
+              "signo": "×"
+            },
+            {
+              "valor": "536",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            []
+          ],
+          "retroalimentacion": "Esto comprueba que 536 ÷ 8 = 67, porque 67 × 8 = 536. Al multiplicar 7 × 8 = 56 escribes 6 y llevas 5; luego 6 × 8 + 5 = 53, escribes 3 y llevas 5 a las centenas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "33"
+            },
+            {
+              "valor": "9",
+              "signo": "×"
+            },
+            {
+              "valor": "297",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 297 ÷ 9 = 33, porque 33 × 9 = 297. Al multiplicar 3 × 9 = 27 escribes 7 y llevas 2; luego 3 × 9 + 2 = 29, escribes 9 y llevas 2 a las centenas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "16"
+            },
+            {
+              "valor": "9",
+              "signo": "×"
+            },
+            {
+              "valor": "144",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0,
+              1
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 144 ÷ 9 = 16, porque 16 × 9 = 144. Al multiplicar 6 × 9 = 54 escribes 4 y llevas 5; luego 1 × 9 + 5 = 14, escribes 4 y llevas 1 a las centenas."
+        }
+      ]
+    }
+  ]
+}

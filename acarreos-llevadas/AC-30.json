@@ -1,0 +1,386 @@
+{
+  "id": "AC-30",
+  "grado": "Acarreos y Llevadas",
+  "numero": 30,
+  "categoria": "acarreo_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Verificación de divisiones entre un divisor de dos cifras",
+  "contenido": "Comprobación de divisiones exactas entre un divisor de dos cifras, mediante la multiplicación inversa con productos parciales.",
+  "pda": "Verifica divisiones entre un divisor de dos cifras comprobando el producto (con parciales) del cociente por el divisor.",
+  "problematizacion": {
+    "contexto": "En una tienda de abarrotes en Puebla, el dueño repartió 726 piezas de pan entre 11 canastas para surtir a distintos puestos del mercado, y anotó que le tocaban 66 piezas por canasta. Antes de entregar el pedido quiere estar seguro de que no se equivocó al dividir, porque si falta pan en alguna canasta tendrá quejas de sus clientes.",
+    "pregunta": "¿Cómo puede comprobar, multiplicando, que 66 piezas por canasta en 11 canastas realmente dan las 726 piezas repartidas?"
+  },
+  "subtemas": [
+    {
+      "numero": "5",
+      "nivelEtiqueta": "Nivel 5 de 9 · Consolidación",
+      "titulo": "Verificación de divisiones entre un divisor de dos cifras",
+      "explicacion": "Cuando divides entre un número de dos cifras, puedes comprobar si tu resultado es correcto multiplicando el cociente por el divisor: si esa multiplicación te devuelve exactamente el dividendo, la división está bien hecha. Como el cociente también tiene dos cifras, la multiplicación de verificación se hace por productos parciales: primero multiplicas el divisor por las unidades del cociente, después por las decenas (recorriendo ese segundo producto un lugar a la izquierda), y al final sumas ambos productos parciales. En esa suma es donde aparecen los acarreos que debes vigilar con cuidado, porque un acarreo mal llevado hace que la comprobación falle aunque la división original estuviera bien planteada. Practicar esta verificación te ayuda a confiar en tus resultados sin depender de la calculadora.",
+      "formula": "cociente × divisor = dividendo (con productos parciales si el cociente tiene dos cifras)",
+      "ejemplos": [
+        "Para comprobar 726 ÷ 11 = 66: multiplicas 66 × 11 por productos parciales. 66 × 1 (unidades) = 66; 66 × 1 (decenas, recorrido un lugar) = 660. Sumas 66 + 660 = 726, con acarreo en las decenas: coincide con el dividendo, así que la división es correcta.",
+        "Para comprobar 4446 ÷ 57 = 78: multiplicas 78 × 57 por parciales. 57 × 8 (unidades) = 456; 57 × 7 (decenas, recorrido) = 3990. Sumas 456 + 3990 = 4446, con acarreo en decenas y en centenas: el resultado coincide con el dividendo, la división queda verificada."
+      ],
+      "puntosPorReactivo": 15,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "11"
+            },
+            {
+              "valor": "66",
+              "signo": "×"
+            },
+            {
+              "valor": "66"
+            },
+            {
+              "valor": "660"
+            },
+            {
+              "valor": "726",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [],
+            [],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 726 ÷ 11 = 66, porque 66 × 11 = 726: se suman los productos parciales 66 + 660 y hay acarreo en las decenas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "39"
+            },
+            {
+              "valor": "11",
+              "signo": "×"
+            },
+            {
+              "valor": "39"
+            },
+            {
+              "valor": "390"
+            },
+            {
+              "valor": "429",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [
+              0
+            ],
+            [],
+            [],
+            []
+          ],
+          "retroalimentacion": "Esto comprueba que 429 ÷ 39 = 11, porque 11 × 39 = 429: al sumar 39 + 390 hay acarreo en las decenas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "49"
+            },
+            {
+              "valor": "16",
+              "signo": "×"
+            },
+            {
+              "valor": "294"
+            },
+            {
+              "valor": "490"
+            },
+            {
+              "valor": "784",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [],
+            [
+              2
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 784 ÷ 49 = 16, porque 16 × 49 = 784: al sumar los parciales 294 + 490 hay acarreo en las decenas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "27"
+            },
+            {
+              "valor": "27",
+              "signo": "×"
+            },
+            {
+              "valor": "189"
+            },
+            {
+              "valor": "540"
+            },
+            {
+              "valor": "729",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              1
+            ],
+            [],
+            [],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 729 ÷ 27 = 27, porque 27 × 27 = 729: al sumar 189 + 540 hay acarreo en las decenas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "57"
+            },
+            {
+              "valor": "78",
+              "signo": "×"
+            },
+            {
+              "valor": "456"
+            },
+            {
+              "valor": "3990"
+            },
+            {
+              "valor": "4446",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [
+              1
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 4446 ÷ 57 = 78, porque 78 × 57 = 4446: al sumar 456 + 3990 hay acarreo en las decenas y en las centenas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "52"
+            },
+            {
+              "valor": "58",
+              "signo": "×"
+            },
+            {
+              "valor": "416"
+            },
+            {
+              "valor": "2600"
+            },
+            {
+              "valor": "3016",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [],
+            [
+              3
+            ],
+            []
+          ],
+          "retroalimentacion": "Esto comprueba que 3016 ÷ 52 = 58, porque 58 × 52 = 3016: al sumar 416 + 2600 hay acarreo en las centenas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "58"
+            },
+            {
+              "valor": "63",
+              "signo": "×"
+            },
+            {
+              "valor": "174"
+            },
+            {
+              "valor": "3480"
+            },
+            {
+              "valor": "3654",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [],
+            [],
+            [
+              3
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 3654 ÷ 58 = 63, porque 63 × 58 = 3654: al sumar 174 + 3480 hay acarreo en las decenas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "92"
+            },
+            {
+              "valor": "13",
+              "signo": "×"
+            },
+            {
+              "valor": "276"
+            },
+            {
+              "valor": "920"
+            },
+            {
+              "valor": "1196",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              2
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 1196 ÷ 92 = 13, porque 13 × 92 = 1196: al sumar 276 + 920 hay acarreo en las centenas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "24"
+            },
+            {
+              "valor": "75",
+              "signo": "×"
+            },
+            {
+              "valor": "120"
+            },
+            {
+              "valor": "1680"
+            },
+            {
+              "valor": "1800",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              1
+            ],
+            [],
+            [
+              1
+            ],
+            []
+          ],
+          "retroalimentacion": "Esto comprueba que 1800 ÷ 24 = 75, porque 75 × 24 = 1800: al sumar 120 + 1680 hay acarreo en las decenas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "95"
+            },
+            {
+              "valor": "67",
+              "signo": "×"
+            },
+            {
+              "valor": "665"
+            },
+            {
+              "valor": "5700"
+            },
+            {
+              "valor": "6365",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [
+              0
+            ],
+            [],
+            [],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 6365 ÷ 95 = 67, porque 67 × 95 = 6365: al sumar 665 + 5700 hay acarreo en las centenas."
+        }
+      ]
+    }
+  ]
+}

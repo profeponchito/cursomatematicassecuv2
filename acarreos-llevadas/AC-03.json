@@ -1,0 +1,309 @@
+{
+  "id": "AC-03",
+  "grado": "Acarreos y Llevadas",
+  "numero": 3,
+  "categoria": "acarreo_suma",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma con acarreo encadenado en dos columnas seguidas",
+  "contenido": "Suma de números de tres cifras donde el acarreo de una columna provoca, a su vez, un segundo acarreo en la columna siguiente.",
+  "pda": "Resuelve sumas de tres cifras reconociendo cómo un acarreo puede encadenarse a la columna vecina.",
+  "problematizacion": {
+    "contexto": "En una tiendita de abarrotes en Puebla, doña Carmen anota en su libreta cuánto gastan sus clientes en dos compras del día para saber si conviene surtir más mercancía. Casi siempre suma cantidades de tres cifras, en pesos, y varias veces el resultado la sorprende porque las decenas 'se le pasan' de golpe.",
+    "pregunta": "¿Cómo puedes sumar dos cantidades de tres cifras sin perder de vista el acarreo que salta de las unidades a las decenas y de ahí a las centenas?"
+  },
+  "subtemas": [
+    {
+      "numero": "3",
+      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
+      "titulo": "Suma con acarreo encadenado en dos columnas seguidas",
+      "explicacion": "Cuando sumas dos números de tres cifras, a veces el acarreo no se queda solo en una columna: al sumar las unidades obtienes 10 o más, así que 'llevas 1' a las decenas; pero si en las decenas ese 1 que llevas hace que la suma también pase de 9, entonces tienes que llevar otro 1 a las centenas. A esto se le llama acarreo encadenado, porque un acarreo provoca otro en la columna vecina. Es muy importante no olvidar sumar el 1 que llevas antes de decidir si esa columna también se pasa de 9. Si te saltas ese paso, el resultado en las decenas y en las centenas queda mal aunque las unidades estén correctas. Practicar este tipo de suma te ayuda a hacer cuentas exactas cuando trabajas con dinero, medidas o cualquier cantidad de tres cifras.",
+      "formula": "Si unidades ≥ 10, llevas 1 a decenas; si (decenas + ese 1) ≥ 10, llevas otro 1 a centenas.",
+      "ejemplos": [
+        "148 + 167: unidades 8+7=15, escribes 5 y llevas 1. Decenas 4+6+1(que llevabas)=11, escribes 1 y llevas 1 a centenas. Centenas 1+1+1(que llevabas)=3. Resultado: 315.",
+        "236 + 189: unidades 6+9=15, escribes 5 y llevas 1. Decenas 3+8+1=12, escribes 2 y llevas 1. Centenas 2+1+1=4. Resultado: 425."
+      ],
+      "puntosPorReactivo": 13,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "148"
+            },
+            {
+              "valor": "167",
+              "signo": "+"
+            },
+            {
+              "valor": "315",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [
+              1
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "148 + 167 = 315: unidades 8+7=15 (llevas 1), decenas 4+6+1=11 (llevas otro 1), centenas 1+1+1=3. Dos acarreos encadenados."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "236"
+            },
+            {
+              "valor": "189",
+              "signo": "+"
+            },
+            {
+              "valor": "425",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              2
+            ],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "236 + 189 = 425: unidades 6+9=15 (llevas 1), decenas 3+8+1=12 (llevas otro 1 a centenas), centenas 2+1+1=4."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "359"
+            },
+            {
+              "valor": "274",
+              "signo": "+"
+            },
+            {
+              "valor": "633",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0,
+              1
+            ],
+            [],
+            []
+          ],
+          "retroalimentacion": "359 + 274 = 633: unidades 9+4=13 (llevas 1), decenas 5+7+1=13 (llevas otro 1), centenas 3+2+1=6. El acarreo se encadena dos veces."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "427"
+            },
+            {
+              "valor": "385",
+              "signo": "+"
+            },
+            {
+              "valor": "812",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              1
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "retroalimentacion": "427 + 385 = 812: unidades 7+5=12 (llevas 1), decenas 2+8+1=11 (llevas otro 1), centenas 4+3+1=8."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "258"
+            },
+            {
+              "valor": "164",
+              "signo": "+"
+            },
+            {
+              "valor": "422",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "258 + 164 = 422: unidades 8+4=12 (llevas 1), decenas 5+6+1=12 (llevas otro 1), centenas 2+1+1=4."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "268"
+            },
+            {
+              "valor": "153",
+              "signo": "+"
+            },
+            {
+              "valor": "421",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "268 + 153 = 421: unidades 8+3=11 (llevas 1), decenas 6+5+1=12 (llevas otro 1), centenas 2+1+1=4."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "378"
+            },
+            {
+              "valor": "256",
+              "signo": "+"
+            },
+            {
+              "valor": "634",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              2
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "378 + 256 = 634: unidades 8+6=14 (llevas 1), decenas 7+5+1=13 (llevas otro 1), centenas 3+2+1=6."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "456"
+            },
+            {
+              "valor": "287",
+              "signo": "+"
+            },
+            {
+              "valor": "743",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "456 + 287 = 743: unidades 6+7=13 (llevas 1), decenas 5+8+1=14 (llevas otro 1), centenas 4+2+1=7. Un acarreo lleva al otro."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "279"
+            },
+            {
+              "valor": "364",
+              "signo": "+"
+            },
+            {
+              "valor": "643",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "279 + 364 = 643: unidades 9+4=13 (llevas 1), decenas 7+6+1=14 (llevas otro 1), centenas 2+3+1=6."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "348"
+            },
+            {
+              "valor": "276",
+              "signo": "+"
+            },
+            {
+              "valor": "624",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1,
+              2
+            ],
+            [
+              0
+            ],
+            []
+          ],
+          "retroalimentacion": "348 + 276 = 624: unidades 8+6=14 (llevas 1), decenas 4+7+1=12 (llevas otro 1), centenas 3+2+1=6. Dos columnas seguidas con acarreo."
+        }
+      ]
+    }
+  ]
+}

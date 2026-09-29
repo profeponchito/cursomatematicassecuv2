@@ -1,0 +1,303 @@
+{
+  "id": "AC-01",
+  "grado": "Acarreos y Llevadas",
+  "numero": 1,
+  "categoria": "acarreo_suma",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma de dos cifras con un acarreo a las decenas",
+  "contenido": "Suma de dos números naturales de dos cifras en la que la suma de las unidades es 10 o más, generando un acarreo hacia las decenas.",
+  "pda": "Resuelve sumas de números de dos cifras identificando y aplicando correctamente el acarreo de unidades a decenas.",
+  "problematizacion": {
+    "contexto": "En la papelería de la esquina, Fernanda vende cuadernos y lápices. Un día vendió 27 cuadernos por la mañana y 35 más por la tarde. Quiere anotar en su libreta de ventas el total del día antes de cerrar la tienda.",
+    "pregunta": "¿Qué acarreo se genera al sumar las unidades de 27 y 35, y cuántos cuadernos vendió Fernanda en total ese día?"
+  },
+  "subtemas": [
+    {
+      "numero": "1",
+      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
+      "titulo": "Suma de dos cifras con un acarreo a las decenas",
+      "explicacion": "Cuando sumas dos números de dos cifras, primero sumas las unidades y luego las decenas. Si la suma de las unidades llega a 10 o más, no puedes escribir dos dígitos en esa columna: escribes solo el dígito de las unidades del resultado y \"te llevas\" 1 a la columna de las decenas. Ese 1 que te llevas se llama acarreo y se suma junto con los dígitos de las decenas de ambos números. En este tema, el acarreo siempre es de valor 1, y la suma de las decenas más ese acarreo nunca pasa de 9, así que el resultado se queda en dos cifras. Practicar este acarreo es la base para sumar números más grandes sin equivocarte.",
+      "formula": "Unidades + Unidades ≥ 10 → se escribe el dígito de unidades del resultado y se suma 1 (acarreo) a la columna de las decenas",
+      "ejemplos": [
+        "27 + 35: unidades 7 + 5 = 12, se escribe 2 y se lleva 1 a las decenas; decenas 2 + 3 + 1(acarreo) = 6; resultado 62.",
+        "48 + 26: unidades 8 + 6 = 14, se escribe 4 y se lleva 1; decenas 4 + 2 + 1(acarreo) = 7; resultado 74."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "27",
+              "signo": "+"
+            },
+            {
+              "valor": "35",
+              "signo": "+"
+            },
+            {
+              "valor": "62",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            []
+          ],
+          "retroalimentacion": "27 + 35 = 62: en las unidades, 7 + 5 = 12, se escribe 2 y se lleva 1 a las decenas; en las decenas, 2 + 3 + 1(acarreo) = 6."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "48",
+              "signo": "+"
+            },
+            {
+              "valor": "26",
+              "signo": "+"
+            },
+            {
+              "valor": "74",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [
+              0
+            ],
+            []
+          ],
+          "retroalimentacion": "48 + 26 = 74: en las unidades, 8 + 6 = 14, se escribe 4 y se lleva 1 a las decenas; en las decenas, 4 + 2 + 1(acarreo) = 7."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "19",
+              "signo": "+"
+            },
+            {
+              "valor": "43",
+              "signo": "+"
+            },
+            {
+              "valor": "62",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0,
+              1
+            ]
+          ],
+          "retroalimentacion": "19 + 43 = 62: en las unidades, 9 + 3 = 12, se escribe 2 y se lleva 1 a las decenas; en las decenas, 1 + 4 + 1(acarreo) = 6."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "56",
+              "signo": "+"
+            },
+            {
+              "valor": "17",
+              "signo": "+"
+            },
+            {
+              "valor": "73",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            []
+          ],
+          "retroalimentacion": "56 + 17 = 73: en las unidades, 6 + 7 = 13, se escribe 3 y se lleva 1 a las decenas; en las decenas, 5 + 1 + 1(acarreo) = 7."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "38",
+              "signo": "+"
+            },
+            {
+              "valor": "29",
+              "signo": "+"
+            },
+            {
+              "valor": "67",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              1
+            ],
+            []
+          ],
+          "retroalimentacion": "38 + 29 = 67: en las unidades, 8 + 9 = 17, se escribe 7 y se lleva 1 a las decenas; en las decenas, 3 + 2 + 1(acarreo) = 6."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "64",
+              "signo": "+"
+            },
+            {
+              "valor": "18",
+              "signo": "+"
+            },
+            {
+              "valor": "82",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "64 + 18 = 82: en las unidades, 4 + 8 = 12, se escribe 2 y se lleva 1 a las decenas; en las decenas, 6 + 1 + 1(acarreo) = 8."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "45",
+              "signo": "+"
+            },
+            {
+              "valor": "37",
+              "signo": "+"
+            },
+            {
+              "valor": "82",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "45 + 37 = 82: en las unidades, 5 + 7 = 12, se escribe 2 y se lleva 1 a las decenas; en las decenas, 4 + 3 + 1(acarreo) = 8."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "29",
+              "signo": "+"
+            },
+            {
+              "valor": "16",
+              "signo": "+"
+            },
+            {
+              "valor": "45",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "29 + 16 = 45: en las unidades, 9 + 6 = 15, se escribe 5 y se lleva 1 a las decenas; en las decenas, 2 + 1 + 1(acarreo) = 4."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "57",
+              "signo": "+"
+            },
+            {
+              "valor": "24",
+              "signo": "+"
+            },
+            {
+              "valor": "81",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            []
+          ],
+          "retroalimentacion": "57 + 24 = 81: en las unidades, 7 + 4 = 11, se escribe 1 y se lleva 1 a las decenas; en las decenas, 5 + 2 + 1(acarreo) = 8."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "36",
+              "signo": "+"
+            },
+            {
+              "valor": "49",
+              "signo": "+"
+            },
+            {
+              "valor": "85",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "36 + 49 = 85: en las unidades, 6 + 9 = 15, se escribe 5 y se lleva 1 a las decenas; en las decenas, 3 + 4 + 1(acarreo) = 8."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,301 @@
+{
+  "id": "AC-18",
+  "grado": "Acarreos y Llevadas",
+  "numero": 18,
+  "categoria": "acarreo_mult",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Multiplicación de dos cifras por una cifra con un acarreo",
+  "contenido": "Multiplicación de un número de dos cifras por un número de una cifra, con acarreo en una sola posición del producto.",
+  "pda": "Resuelve multiplicaciones de dos cifras por una cifra aplicando correctamente un acarreo entre posiciones.",
+  "problematizacion": {
+    "contexto": "En una tienda de abarrotes de barrio, don Refugio acomoda las cajas de refresco en la bodega. Cada caja trae 24 botellas y hoy le llegaron 8 cajas nuevas para surtir el estante.",
+    "pregunta": "Si don Refugio quiere saber cuantas botellas de refresco tiene en total con las 8 cajas nuevas, que multiplicacion tiene que resolver y cuidando bien el acarreo entre las unidades y las decenas?"
+  },
+  "subtemas": [
+    {
+      "numero": "2",
+      "nivelEtiqueta": "Nivel 2 de 9 · Básico",
+      "titulo": "Multiplicacion de dos cifras por una cifra con un acarreo",
+      "explicacion": "Cuando multiplicas un numero de dos cifras por un numero de una cifra, primero multiplicas las unidades y despues las decenas, tal como en el algoritmo vertical que usas en tu cuaderno. Si el producto de las unidades da 10 o mas, no puedes escribir las dos cifras en la misma casilla: escribes solo la cifra de las unidades del resultado parcial y llevas la otra cifra (el acarreo) para sumarla al producto de las decenas. Este acarreo es exactamente lo mismo que haces al sumar, pero aqui nace de una multiplicacion en vez de una suma directa. Olvidar el acarreo es el error mas comun en este tipo de ejercicios, por eso conviene anotarlo siempre en una esquina antes de multiplicar las decenas. Practicar este paso te prepara para multiplicar numeros mas grandes, donde pueden aparecer varios acarreos seguidos.",
+      "formula": "unidades del multiplicando x multiplicador = cifra de unidades + acarreo; (decenas del multiplicando x multiplicador) + acarreo = resto del resultado",
+      "ejemplos": [
+        "17 x 6: primero 7 x 6 = 42, escribes el 2 y llevas 4. Despues 1 x 6 = 6, mas el acarreo 4 = 10, lo escribes completo porque ya no hay mas cifras que sumar. Resultado: 102.",
+        "24 x 8: primero 4 x 8 = 32, escribes el 2 y llevas 3. Despues 2 x 8 = 16, mas el acarreo 3 = 19. Resultado: 192."
+      ],
+      "puntosPorReactivo": 11,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "17"
+            },
+            {
+              "valor": "6",
+              "signo": "×"
+            },
+            {
+              "valor": "102",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "17 x 6 = 102: 7 x 6 = 42, se escribe 2 y se lleva 4; 1 x 6 = 6, mas el acarreo 4 = 10, se escribe 10."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "24"
+            },
+            {
+              "valor": "8",
+              "signo": "×"
+            },
+            {
+              "valor": "192",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0,
+              1
+            ]
+          ],
+          "retroalimentacion": "24 x 8 = 192: 4 x 8 = 32, se escribe 2 y se lleva 3; 2 x 8 = 16, mas el acarreo 3 = 19, se escribe 19."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "38"
+            },
+            {
+              "valor": "4",
+              "signo": "×"
+            },
+            {
+              "valor": "152",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "38 x 4 = 152: 8 x 4 = 32, se escribe 2 y se lleva 3; 3 x 4 = 12, mas el acarreo 3 = 15, se escribe 15."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "46"
+            },
+            {
+              "valor": "7",
+              "signo": "×"
+            },
+            {
+              "valor": "322",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "46 x 7 = 322: 6 x 7 = 42, se escribe 2 y se lleva 4; 4 x 7 = 28, mas el acarreo 4 = 32, se escribe 32."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "53"
+            },
+            {
+              "valor": "9",
+              "signo": "×"
+            },
+            {
+              "valor": "477",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0,
+              1,
+              2
+            ]
+          ],
+          "retroalimentacion": "53 x 9 = 477: 3 x 9 = 27, se escribe 7 y se lleva 2; 5 x 9 = 45, mas el acarreo 2 = 47, se escribe 47."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "29"
+            },
+            {
+              "valor": "5",
+              "signo": "×"
+            },
+            {
+              "valor": "145",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              0
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "29 x 5 = 145: 9 x 5 = 45, se escribe 5 y se lleva 4; 2 x 5 = 10, mas el acarreo 4 = 14, se escribe 14."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "67"
+            },
+            {
+              "valor": "3",
+              "signo": "×"
+            },
+            {
+              "valor": "201",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "67 x 3 = 201: 7 x 3 = 21, se escribe 1 y se lleva 2; 6 x 3 = 18, mas el acarreo 2 = 20, se escribe 20."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "14"
+            },
+            {
+              "valor": "9",
+              "signo": "×"
+            },
+            {
+              "valor": "126",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "14 x 9 = 126: 4 x 9 = 36, se escribe 6 y se lleva 3; 1 x 9 = 9, mas el acarreo 3 = 12, se escribe 12."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "75"
+            },
+            {
+              "valor": "6",
+              "signo": "×"
+            },
+            {
+              "valor": "450",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0,
+              1
+            ],
+            [],
+            []
+          ],
+          "retroalimentacion": "75 x 6 = 450: 5 x 6 = 30, se escribe 0 y se lleva 3; 7 x 6 = 42, mas el acarreo 3 = 45, se escribe 45."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "86"
+            },
+            {
+              "valor": "4",
+              "signo": "×"
+            },
+            {
+              "valor": "344",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "retroalimentacion": "86 x 4 = 344: 6 x 4 = 24, se escribe 4 y se lleva 2; 8 x 4 = 32, mas el acarreo 2 = 34, se escribe 34."
+        }
+      ]
+    }
+  ]
+}

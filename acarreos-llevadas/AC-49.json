@@ -1,0 +1,405 @@
+{
+  "id": "AC-49",
+  "grado": "Acarreos y Llevadas",
+  "numero": 49,
+  "categoria": "acarreo_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Raíz cuadrada de números grandes con múltiple acarreo",
+  "contenido": "Verificación de raíces cuadradas exactas de números de cuatro o cinco cifras, con acarreo en tres o más posiciones de la comprobación.",
+  "pda": "Verifica raíces cuadradas de números grandes sosteniendo acarreo múltiple en toda la comprobación.",
+  "problematizacion": {
+    "contexto": "En el taller de block y tabiques de su comunidad, René acomoda tarimas cuadradas de tabique para entregarlas a una constructora. Cada tarima cuadrada guarda un número exacto de tabiques (el radicando) acomodados en filas y columnas iguales (la raíz cuadrada), y antes de cerrar el pedido necesita confirmar que el conteo por hileras coincide con el total de tabiques entregados.",
+    "pregunta": "¿Cómo puede René confirmar, multiplicando en columna, que el número de hileras que contó es realmente la raíz cuadrada exacta del total de tabiques del pedido?"
+  },
+  "subtemas": [
+    {
+      "numero": "7",
+      "nivelEtiqueta": "Nivel 7 de 8 · Reto",
+      "titulo": "Verifica raíces cuadradas de números grandes",
+      "explicacion": "Cuando la raíz cuadrada de un número grande tiene dos o tres cifras, comprobarla ya no es una multiplicación directa: hay que multiplicar la raíz por cada una de sus propias cifras y después sumar los productos parciales, igual que en cualquier multiplicación en columna. En ese camino aparecen varios acarreos, tanto al multiplicar (cuando una cifra por otra pasa de 9) como al sumar los productos parciales desplazados. Si la raíz es correcta, la suma de todos los productos parciales debe coincidir exactamente con el radicando (el número de cuatro o cinco cifras del que se sacó la raíz). Sostener el acarreo en varias columnas a la vez es justo lo que se practica en este tema.",
+      "formula": "raíz × raíz = radicando (sumando los productos parciales de cada cifra de la raíz)",
+      "ejemplos": [
+        "Para comprobar que la raíz cuadrada de 2209 es 47: se multiplica 47×47=2209. Por productos parciales: 47×7=329 y 47×40=1880; 329+1880=2209, con acarreo en unidades, decenas y centenas.",
+        "Para comprobar que la raíz cuadrada de 30976 es 176: 176×6=1056, 176×70=12320 y 176×100=17600; al sumar 1056+12320+17600=30976 se sostiene el acarreo en varias columnas."
+      ],
+      "puntosPorReactivo": 19,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "47"
+            },
+            {
+              "valor": "47",
+              "signo": "×"
+            },
+            {
+              "valor": "329"
+            },
+            {
+              "valor": "1880"
+            },
+            {
+              "valor": "2209",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [],
+            [],
+            [
+              3
+            ]
+          ],
+          "retroalimentacion": "47 × 47 = 2209, así que la raíz cuadrada de 2209 es 47. Para comprobarlo se multiplica 47 por cada cifra de 47: 47×7=329 y 47×4 (con el corrimiento de posición) = 1880; al sumar 329 + 1880 = 2209 aparece más de un acarreo, por lo que hay que llevar con cuidado."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "58"
+            },
+            {
+              "valor": "58",
+              "signo": "×"
+            },
+            {
+              "valor": "464"
+            },
+            {
+              "valor": "2900"
+            },
+            {
+              "valor": "3364",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [],
+            [
+              3
+            ],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "58 × 58 = 3364, así que la raíz cuadrada de 3364 es 58. Para comprobarlo se multiplica 58 por cada cifra de 58: 58×8=464 y 58×5 (con el corrimiento de posición) = 2900; al sumar 464 + 2900 = 3364 aparece más de un acarreo, por lo que hay que llevar con cuidado."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "76"
+            },
+            {
+              "valor": "76",
+              "signo": "×"
+            },
+            {
+              "valor": "456"
+            },
+            {
+              "valor": "5320"
+            },
+            {
+              "valor": "5776",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              2
+            ],
+            [],
+            []
+          ],
+          "retroalimentacion": "76 × 76 = 5776, así que la raíz cuadrada de 5776 es 76. Para comprobarlo se multiplica 76 por cada cifra de 76: 76×6=456 y 76×7 (con el corrimiento de posición) = 5320; al sumar 456 + 5320 = 5776 aparece más de un acarreo, por lo que hay que llevar con cuidado."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "84"
+            },
+            {
+              "valor": "84",
+              "signo": "×"
+            },
+            {
+              "valor": "336"
+            },
+            {
+              "valor": "6720"
+            },
+            {
+              "valor": "7056",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [],
+            [],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "84 × 84 = 7056, así que la raíz cuadrada de 7056 es 84. Para comprobarlo se multiplica 84 por cada cifra de 84: 84×4=336 y 84×8 (con el corrimiento de posición) = 6720; al sumar 336 + 6720 = 7056 aparece más de un acarreo, por lo que hay que llevar con cuidado."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "93"
+            },
+            {
+              "valor": "93",
+              "signo": "×"
+            },
+            {
+              "valor": "279"
+            },
+            {
+              "valor": "8370"
+            },
+            {
+              "valor": "8649",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0,
+              1
+            ],
+            [],
+            [
+              3
+            ]
+          ],
+          "retroalimentacion": "93 × 93 = 8649, así que la raíz cuadrada de 8649 es 93. Para comprobarlo se multiplica 93 por cada cifra de 93: 93×3=279 y 93×9 (con el corrimiento de posición) = 8370; al sumar 279 + 8370 = 8649 aparece más de un acarreo, por lo que hay que llevar con cuidado."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "149"
+            },
+            {
+              "valor": "149",
+              "signo": "×"
+            },
+            {
+              "valor": "1341"
+            },
+            {
+              "valor": "5960"
+            },
+            {
+              "valor": "14900"
+            },
+            {
+              "valor": "22201",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              1
+            ],
+            [],
+            [],
+            [],
+            [
+              4
+            ]
+          ],
+          "retroalimentacion": "149 × 149 = 22201, así que la raíz cuadrada de 22201 es 149. Se multiplica 149 por cada cifra de 149: 149×9=1341, 149×4 (corrida una posición)=5960 y 149×1 (corrida dos posiciones)=14900; al sumar 1341 + 5960 + 14900 = 22201 se sostiene el acarreo en varias columnas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "176"
+            },
+            {
+              "valor": "176",
+              "signo": "×"
+            },
+            {
+              "valor": "1056"
+            },
+            {
+              "valor": "12320"
+            },
+            {
+              "valor": "17600"
+            },
+            {
+              "valor": "30976",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [],
+            [],
+            [
+              4
+            ],
+            []
+          ],
+          "retroalimentacion": "176 × 176 = 30976, así que la raíz cuadrada de 30976 es 176. Se multiplica 176 por cada cifra de 176: 176×6=1056, 176×7 (corrida una posición)=12320 y 176×1 (corrida dos posiciones)=17600; al sumar 1056 + 12320 + 17600 = 30976 se sostiene el acarreo en varias columnas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "198"
+            },
+            {
+              "valor": "198",
+              "signo": "×"
+            },
+            {
+              "valor": "1584"
+            },
+            {
+              "valor": "17820"
+            },
+            {
+              "valor": "19800"
+            },
+            {
+              "valor": "39204",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [],
+            [
+              4
+            ],
+            [],
+            [
+              3
+            ]
+          ],
+          "retroalimentacion": "198 × 198 = 39204, así que la raíz cuadrada de 39204 es 198. Se multiplica 198 por cada cifra de 198: 198×8=1584, 198×9 (corrida una posición)=17820 y 198×1 (corrida dos posiciones)=19800; al sumar 1584 + 17820 + 19800 = 39204 se sostiene el acarreo en varias columnas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "267"
+            },
+            {
+              "valor": "267",
+              "signo": "×"
+            },
+            {
+              "valor": "1869"
+            },
+            {
+              "valor": "16020"
+            },
+            {
+              "valor": "53400"
+            },
+            {
+              "valor": "71289",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              3
+            ],
+            [],
+            [
+              3
+            ],
+            []
+          ],
+          "retroalimentacion": "267 × 267 = 71289, así que la raíz cuadrada de 71289 es 267. Se multiplica 267 por cada cifra de 267: 267×7=1869, 267×6 (corrida una posición)=16020 y 267×2 (corrida dos posiciones)=53400; al sumar 1869 + 16020 + 53400 = 71289 se sostiene el acarreo en varias columnas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "316"
+            },
+            {
+              "valor": "316",
+              "signo": "×"
+            },
+            {
+              "valor": "1896"
+            },
+            {
+              "valor": "3160"
+            },
+            {
+              "valor": "94800"
+            },
+            {
+              "valor": "99856",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [],
+            [
+              2
+            ],
+            [],
+            [
+              4
+            ]
+          ],
+          "retroalimentacion": "316 × 316 = 99856, así que la raíz cuadrada de 99856 es 316. Se multiplica 316 por cada cifra de 316: 316×6=1896, 316×1 (corrida una posición)=3160 y 316×3 (corrida dos posiciones)=94800; al sumar 1896 + 3160 + 94800 = 99856 se sostiene el acarreo en varias columnas."
+        }
+      ]
+    }
+  ]
+}

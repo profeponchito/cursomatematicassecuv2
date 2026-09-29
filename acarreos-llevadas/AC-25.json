@@ -1,0 +1,355 @@
+{
+  "id": "AC-25",
+  "grado": "Acarreos y Llevadas",
+  "numero": 25,
+  "categoria": "acarreo_mult",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Integración: multiplicaciones grandes con acarreos múltiples",
+  "contenido": "Multiplicación de números de tres cifras por dos cifras, o con decimales, combinando acarreo en productos parciales y en su suma final.",
+  "pda": "Resuelve multiplicaciones complejas integrando todos los tipos de acarreo trabajados en el tema.",
+  "problematizacion": {
+    "contexto": "En una tienda de abarrotes de barrio, la dueña necesita calcular cuánto gastará en total si compra 26 cajas de refresco a 347 pesos cada caja, y por separado cuánto pagará por 26 bultos de arroz a 34.5 pesos cada uno para poder surtir bien su presupuesto de la semana.",
+    "pregunta": "¿Cuánto gastará en total la dueña de la tienda en cada uno de esos dos pedidos, resolviendo las multiplicaciones completas con todos sus acarreos?"
+  },
+  "subtemas": [
+    {
+      "numero": "9",
+      "nivelEtiqueta": "Nivel 9 de 9 · Integración",
+      "titulo": "Integración: multiplicaciones grandes con acarreos múltiples",
+      "explicacion": "En una multiplicación grande, el acarreo puede aparecer varias veces: primero al calcular cada producto parcial (cuando multiplicas cada cifra del multiplicando por una cifra del multiplicador) y después otra vez al sumar esos productos parciales para obtener el resultado final. Cuando el multiplicador tiene dos o más cifras, cada cifra genera su propio producto parcial, recorrido un lugar hacia la izquierda por cada posición que avanza; esos productos parciales se acomodan uno debajo de otro y se suman como en una suma normal, con sus propios acarreos. Si además alguno de los factores tiene decimales, los productos parciales se calculan igual que si fueran números enteros, y el punto decimal se coloca solo hasta el final, contando cuántas cifras decimales tienen en total los dos factores originales. Dominar este tema significa poder seguir, sin perderse, una cadena larga de acarreos: los que surgen dentro de cada producto parcial y los que surgen al sumarlos.",
+      "ejemplos": [
+        "347 × 26: primero 347 × 6 = 2082 (con dos acarreos dentro de esta multiplicación); luego 347 × 2 = 694, recorrido un lugar a la izquierda, 6940; por último se suman 2082 + 6940 = 9022, con un acarreo más al sumar las columnas.",
+        "34.5 × 26: se multiplica como si fuera 345 × 26 (345 × 6 = 2070 y 345 × 2 = 690, recorrido: 6900); se suman 2070 + 6900 = 8970; como 34.5 tiene una cifra decimal, el resultado se escribe 897.0."
+      ],
+      "puntosPorReactivo": 20,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "456"
+            },
+            {
+              "valor": "8",
+              "signo": "×"
+            },
+            {
+              "valor": "3648",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              3
+            ]
+          ],
+          "retroalimentacion": "456 × 8 = 3648: 6×8=48, se escribe 8 y se lleva 4; 5×8+4=44, se escribe 4 y se lleva 4; 4×8+4=36. Hubo acarreo al pasar de unidades a decenas y de decenas a centenas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "273"
+            },
+            {
+              "valor": "6",
+              "signo": "×"
+            },
+            {
+              "valor": "1638",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "273 × 6 = 1638: 3×6=18, se escribe 8 y se lleva 1; 7×6+1=43, se escribe 3 y se lleva 4; 2×6+4=16, se escribe 16 completo. Hay acarreo en dos pasos seguidos."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "385"
+            },
+            {
+              "valor": "9",
+              "signo": "×"
+            },
+            {
+              "valor": "3465",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "385 × 9 = 3465: 5×9=45, se escribe 5 y se lleva 4; 8×9+4=76, se escribe 6 y se lleva 7; 3×9+7=34, se escribe 34. El acarreo se repite dos veces seguidas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "748"
+            },
+            {
+              "valor": "5",
+              "signo": "×"
+            },
+            {
+              "valor": "3740",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              0
+            ],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "748 × 5 = 3740: 8×5=40, se escribe 0 y se lleva 4; 4×5+4=24, se escribe 4 y se lleva 2; 7×5+2=37. Acarreo en unidades y en decenas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "347"
+            },
+            {
+              "valor": "26",
+              "signo": "×"
+            },
+            {
+              "valor": "2082"
+            },
+            {
+              "valor": "6940"
+            },
+            {
+              "valor": "9022",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [],
+            [
+              0
+            ],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "347 × 26 = 9022: primero 347×6=2082, luego 347×2=694 recorrido un lugar (6940), y se suman 2082+6940=9022. Hay acarreo en el producto parcial y también al sumar."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "528"
+            },
+            {
+              "valor": "34",
+              "signo": "×"
+            },
+            {
+              "valor": "2112"
+            },
+            {
+              "valor": "15840"
+            },
+            {
+              "valor": "17952",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [
+              0
+            ],
+            [],
+            [
+              4
+            ]
+          ],
+          "retroalimentacion": "528 × 34 = 17952: 528×4=2112, 528×3=1584 recorrido un lugar (15840); al sumar 2112+15840=17952 hay acarreo entre columnas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "619"
+            },
+            {
+              "valor": "47",
+              "signo": "×"
+            },
+            {
+              "valor": "4333"
+            },
+            {
+              "valor": "24760"
+            },
+            {
+              "valor": "29093",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [],
+            [
+              2
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "619 × 47 = 29093: 619×7=4333, 619×4=2476 recorrido un lugar (24760); al sumar 4333+24760=29093 se acarrea más de una vez."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "483"
+            },
+            {
+              "valor": "52",
+              "signo": "×"
+            },
+            {
+              "valor": "966"
+            },
+            {
+              "valor": "24150"
+            },
+            {
+              "valor": "25116",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [],
+            [
+              0
+            ],
+            [
+              3
+            ],
+            []
+          ],
+          "retroalimentacion": "483 × 52 = 25116: 483×2=966, 483×5=2415 recorrido un lugar (24150); al sumar 966+24150=25116 hay acarreo al combinar los productos parciales."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "45.6"
+            },
+            {
+              "valor": "7",
+              "signo": "×"
+            },
+            {
+              "valor": "319.2",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              0
+            ],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "45.6 × 7 = 319.2: 6×7=42, se escribe 2 y se lleva 4; 5×7+4=39, se escribe 9 y se lleva 3; 4×7+3=31. El punto decimal se coloca contando 1 cifra decimal, igual que en el factor 45.6."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "34.5"
+            },
+            {
+              "valor": "26",
+              "signo": "×"
+            },
+            {
+              "valor": "2070"
+            },
+            {
+              "valor": "6900"
+            },
+            {
+              "valor": "897.0",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [
+              0
+            ],
+            [],
+            [
+              4
+            ]
+          ],
+          "retroalimentacion": "34.5 × 26 = 897.0: 345×6=2070, 345×2=690 recorrido un lugar (6900); 2070+6900=8970, y el punto decimal se coloca contando 1 cifra decimal, quedando 897.0."
+        }
+      ]
+    }
+  ]
+}

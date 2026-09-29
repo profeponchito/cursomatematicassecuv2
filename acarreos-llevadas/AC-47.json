@@ -1,0 +1,386 @@
+{
+  "id": "AC-47",
+  "grado": "Acarreos y Llevadas",
+  "numero": 47,
+  "categoria": "acarreo_raices",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Raíz cuadrada de números decimales",
+  "contenido": "Verificación de raíces cuadradas exactas de números decimales pequeños, ubicando correctamente el punto decimal en el producto.",
+  "pda": "Verifica raíces cuadradas de números decimales aplicando el acarreo y ubicando el punto decimal en el resultado.",
+  "problematizacion": {
+    "contexto": "En tu escuela van a forrar con mosaico cuadrado el piso de la cooperativa. El encargado de la obra midió el área de cada mosaico y anotó 3.24 m², pero olvidó anotar cuánto mide cada lado. Tú recuerdas que el lado debería ser 1.8 m, pero antes de pedir el material quieres estar seguro sin usar calculadora.",
+    "pregunta": "¿Cómo puedes comprobar, multiplicando 1.8 por sí mismo con el algoritmo de columnas, que un mosaico cuadrado de lado 1.8 m tiene realmente un área de 3.24 m²?"
+  },
+  "subtemas": [
+    {
+      "numero": "5",
+      "nivelEtiqueta": "Nivel 5 de 8 · Aplicación",
+      "titulo": "Raíz cuadrada de números decimales",
+      "explicacion": "Para verificar la raíz cuadrada de un número decimal pequeño, se multiplica la raíz por sí misma, igual que con números enteros. El truco está en el punto decimal: durante la multiplicación se ignora por completo y se opera como si los dos factores fueran números enteros, con sus acarreos normales entre las cifras. El punto decimal se coloca al final, únicamente en el resultado, contando cuántas cifras decimales tienen juntos los dos factores. Como la raíz de este tema tiene 1 cifra decimal, al multiplicarla por sí misma el resultado (el radicando) siempre debe llevar 2 cifras decimales. Si te equivocas al ubicar el punto, el número queda mil veces más grande o más chico, aunque los dígitos sean correctos, así que ubicarlo bien es tan importante como calcular bien los productos parciales.",
+      "formula": "raíz (1 cifra decimal) × raíz (1 cifra decimal) = radicando (2 cifras decimales); multiplica como enteros y coloca el punto contando 2 lugares desde la derecha.",
+      "ejemplos": [
+        "Verificar que √2.25 = 1.5: se multiplica 15 × 15 ignorando los puntos. 15 × 5 = 75 (hay acarreo: 5 × 5 = 25, se escribe 5 y se llevan 2, luego 1 × 5 + 2 = 7). 15 × 1 = 15, recorrido un lugar a la izquierda se escribe 150. Se suma 75 + 150 = 225. Como 1.5 × 1.5 junta 2 cifras decimales, el resultado se escribe 2.25.",
+        "Verificar que √6.76 = 2.6: se multiplica 26 × 26. 26 × 6 = 156 (con acarreo: 6 × 6 = 36, se escriben 6 y se llevan 3, luego 2 × 6 + 3 = 15). 26 × 2 = 52 (con acarreo: 6 × 2 = 12, se llevan 1, luego 2 × 2 + 1 = 5), recorrido se escribe 520. Se suma 156 + 520 = 676, y colocando el punto 2 lugares desde la derecha el resultado es 6.76."
+      ],
+      "puntosPorReactivo": 16,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "1.5"
+            },
+            {
+              "valor": "1.5",
+              "signo": "×"
+            },
+            {
+              "valor": "75"
+            },
+            {
+              "valor": "150"
+            },
+            {
+              "valor": "2.25",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              2
+            ],
+            [],
+            [],
+            []
+          ],
+          "retroalimentacion": "1.5 × 1.5 = 2.25, así que la raíz cuadrada de 2.25 es 1.5. Al multiplicar 15 × 5 hay acarreo: 5 × 5 = 25, se escribe 5 y se llevan 2 a la siguiente cifra (1 × 5 + 2 = 7), por eso el primer producto parcial es 75. Como cada factor tiene 1 cifra decimal, el resultado junta 2: 2.25."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "1.6"
+            },
+            {
+              "valor": "1.6",
+              "signo": "×"
+            },
+            {
+              "valor": "96"
+            },
+            {
+              "valor": "160"
+            },
+            {
+              "valor": "2.56",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              1
+            ],
+            [
+              0
+            ],
+            []
+          ],
+          "retroalimentacion": "1.6 × 1.6 = 2.56, así que la raíz cuadrada de 2.56 es 1.6. Al multiplicar 16 × 6 hay acarreo: 6 × 6 = 36, se escribe 6 y se llevan 3 (1 × 6 + 3 = 9), por eso el primer producto parcial es 96. El resultado se escribe con 2 cifras decimales: 2.56."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "1.7"
+            },
+            {
+              "valor": "1.7",
+              "signo": "×"
+            },
+            {
+              "valor": "119"
+            },
+            {
+              "valor": "170"
+            },
+            {
+              "valor": "2.89",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [],
+            [],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "1.7 × 1.7 = 2.89, así que la raíz cuadrada de 2.89 es 1.7. Al multiplicar 17 × 7 hay dos acarreos seguidos: 7 × 7 = 49 (se escribe 9 y se llevan 4), y 1 × 7 + 4 = 11 (se escribe 11); por eso el primer producto parcial es 119. Con las 2 cifras decimales de los factores, el resultado es 2.89."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "1.8"
+            },
+            {
+              "valor": "1.8",
+              "signo": "×"
+            },
+            {
+              "valor": "144"
+            },
+            {
+              "valor": "180"
+            },
+            {
+              "valor": "3.24",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [
+              0
+            ],
+            [],
+            []
+          ],
+          "retroalimentacion": "1.8 × 1.8 = 3.24, así que la raíz cuadrada de 3.24 es 1.8. Al multiplicar 18 × 8 hay dos acarreos: 8 × 8 = 64 (se escribe 4 y se llevan 6), y 1 × 8 + 6 = 14 (se escribe 14); por eso el primer producto parcial es 144. El resultado se escribe con 2 cifras decimales: 3.24."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "1.9"
+            },
+            {
+              "valor": "1.9",
+              "signo": "×"
+            },
+            {
+              "valor": "171"
+            },
+            {
+              "valor": "190"
+            },
+            {
+              "valor": "3.61",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0
+            ],
+            [
+              2
+            ],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "1.9 × 1.9 = 3.61, así que la raíz cuadrada de 3.61 es 1.9. Al multiplicar 19 × 9 hay dos acarreos: 9 × 9 = 81 (se escribe 1 y se llevan 8), y 1 × 9 + 8 = 17 (se escribe 17); por eso el primer producto parcial es 171. Al ubicar el punto decimal 2 lugares desde la derecha, el resultado es 3.61."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "2.4"
+            },
+            {
+              "valor": "2.4",
+              "signo": "×"
+            },
+            {
+              "valor": "96"
+            },
+            {
+              "valor": "480"
+            },
+            {
+              "valor": "5.76",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [],
+            [
+              0
+            ],
+            []
+          ],
+          "retroalimentacion": "2.4 × 2.4 = 5.76, así que la raíz cuadrada de 5.76 es 2.4. Al multiplicar 24 × 4 hay acarreo: 4 × 4 = 16, se escribe 6 y se llevan 1 (2 × 4 + 1 = 9), por eso el primer producto parcial es 96. El resultado tiene 2 cifras decimales: 5.76."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "2.5"
+            },
+            {
+              "valor": "2.5",
+              "signo": "×"
+            },
+            {
+              "valor": "125"
+            },
+            {
+              "valor": "500"
+            },
+            {
+              "valor": "6.25",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              2
+            ],
+            [
+              1
+            ],
+            [],
+            []
+          ],
+          "retroalimentacion": "2.5 × 2.5 = 6.25, así que la raíz cuadrada de 6.25 es 2.5. En 25 × 5 hay dos acarreos (5 × 5 = 25, luego 2 × 5 + 2 = 12), por eso ese producto parcial es 125; y en 25 × 2 también hay acarreo (5 × 2 = 10, se lleva 1, luego 2 × 2 + 1 = 5), por eso el segundo parcial recorrido es 500. Sumando 125 + 500 = 625 y colocando el punto 2 lugares desde la derecha, el resultado es 6.25."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "2.6"
+            },
+            {
+              "valor": "2.6",
+              "signo": "×"
+            },
+            {
+              "valor": "156"
+            },
+            {
+              "valor": "520"
+            },
+            {
+              "valor": "6.76",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [],
+            [
+              1
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "2.6 × 2.6 = 6.76, así que la raíz cuadrada de 6.76 es 2.6. En 26 × 6 hay acarreo (6 × 6 = 36, se escriben 6 y se llevan 3, luego 2 × 6 + 3 = 15), y en 26 × 2 también hay acarreo (6 × 2 = 12, se lleva 1, luego 2 × 2 + 1 = 5), por eso el segundo parcial recorrido es 520. Sumando 156 + 520 = 676 y ubicando el punto 2 lugares desde la derecha, el resultado es 6.76."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "2.7"
+            },
+            {
+              "valor": "2.7",
+              "signo": "×"
+            },
+            {
+              "valor": "189"
+            },
+            {
+              "valor": "540"
+            },
+            {
+              "valor": "7.29",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0
+            ],
+            [],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "2.7 × 2.7 = 7.29, así que la raíz cuadrada de 7.29 es 2.7. En 27 × 7 hay acarreo (7 × 7 = 49, se llevan 4, luego 2 × 7 + 4 = 18), y en 27 × 2 también hay acarreo (7 × 2 = 14, se lleva 1, luego 2 × 2 + 1 = 5), por eso el segundo parcial recorrido es 540. Sumando 189 + 540 = 729 y colocando el punto 2 lugares desde la derecha, el resultado es 7.29."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "2.9"
+            },
+            {
+              "valor": "2.9",
+              "signo": "×"
+            },
+            {
+              "valor": "261"
+            },
+            {
+              "valor": "580"
+            },
+            {
+              "valor": "8.41",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [],
+            [
+              1
+            ],
+            [
+              3
+            ]
+          ],
+          "retroalimentacion": "2.9 × 2.9 = 8.41, así que la raíz cuadrada de 8.41 es 2.9. En 29 × 9 hay acarreo (9 × 9 = 81, se llevan 8, luego 2 × 9 + 8 = 26), y en 29 × 2 también hay acarreo (9 × 2 = 18, se lleva 1, luego 2 × 2 + 1 = 5), por eso el segundo parcial recorrido es 580. Sumando 261 + 580 = 841 y colocando el punto 2 lugares desde la derecha, el resultado es 8.41."
+        }
+      ]
+    }
+  ]
+}

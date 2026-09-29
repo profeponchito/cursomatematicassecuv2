@@ -1,0 +1,390 @@
+{
+  "id": "AC-21",
+  "grado": "Acarreos y Llevadas",
+  "numero": 21,
+  "categoria": "acarreo_mult",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Multiplicación de dos cifras por dos cifras: productos parciales",
+  "contenido": "Multiplicación de dos números de dos cifras, introduciendo el uso de productos parciales antes de sumarlos para obtener el resultado.",
+  "pda": "Resuelve multiplicaciones de dos cifras por dos cifras construyendo correctamente los dos productos parciales.",
+  "problematizacion": {
+    "contexto": "En una papelería de barrio venden paquetes de 27 cuadernos para surtir a varias escuelas al inicio del ciclo escolar. El encargado necesita saber cuántos cuadernos hay en total cuando llegan 34 paquetes iguales, sin contarlos uno por uno.",
+    "pregunta": "¿Cómo puedes usar los productos parciales para calcular 34 × 27 sin equivocarte en el acarreo?"
+  },
+  "subtemas": [
+    {
+      "numero": "5",
+      "nivelEtiqueta": "Nivel 5 de 9 · Consolidación",
+      "titulo": "Multiplicación de dos cifras: productos parciales",
+      "explicacion": "Cuando multiplicas dos números de dos cifras, primero obtienes dos productos parciales antes de sumarlos. El primer producto parcial resulta de multiplicar todo el multiplicando por la cifra de las unidades del multiplicador; ahí puede aparecer un acarreo, igual que en una multiplicación normal por una sola cifra. El segundo producto parcial resulta de multiplicar el multiplicando por la cifra de las decenas del multiplicador, y se escribe corrido un lugar a la izquierda (se le agrega un cero al final) porque en realidad representa decenas. Al final, sumas los dos productos parciales en columna para obtener el resultado. Practicar por separado cada producto parcial te ayuda a no perder el acarreo ni el corrimiento de posición.",
+      "formula": "multiplicando × unidades del multiplicador = 1er producto parcial; multiplicando × decenas del multiplicador (corrido un lugar) = 2do producto parcial; su suma es el resultado",
+      "ejemplos": [
+        "34 × 27: 1er parcial = 34 × 7 = 238 (con acarreo: 4×7=28, se escribe 8 y se lleva 2; 3×7=21+2=23). 2do parcial = 34 × 2 = 68, corrido un lugar → 680. Suma: 238 + 680 = 918.",
+        "45 × 18: 1er parcial = 45 × 8 = 360 (con acarreo: 5×8=40, se escribe 0 y se lleva 4; 4×8=32+4=36). 2do parcial = 45 × 1 = 45, corrido un lugar → 450. Suma: 360 + 450 = 810."
+      ],
+      "puntosPorReactivo": 15,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "23"
+            },
+            {
+              "valor": "34",
+              "signo": "×"
+            },
+            {
+              "valor": "92"
+            },
+            {
+              "valor": "690"
+            },
+            {
+              "valor": "782",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [],
+            [],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "23 × 34 = 782: el primer parcial 23 × 4 = 92 lleva acarreo (3×4=12); el segundo parcial 23 × 3 = 69 corrido un lugar es 690; 92 + 690 = 782."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "34"
+            },
+            {
+              "valor": "27",
+              "signo": "×"
+            },
+            {
+              "valor": "238"
+            },
+            {
+              "valor": "680"
+            },
+            {
+              "valor": "918",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              1
+            ],
+            [
+              0
+            ],
+            [
+              1
+            ],
+            []
+          ],
+          "retroalimentacion": "34 × 27 = 918: el primer parcial 34 × 7 = 238 lleva acarreo (4×7=28); el segundo parcial 34 × 2 = 68 corrido un lugar es 680; 238 + 680 = 918."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "45"
+            },
+            {
+              "valor": "18",
+              "signo": "×"
+            },
+            {
+              "valor": "360"
+            },
+            {
+              "valor": "450"
+            },
+            {
+              "valor": "810",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [],
+            [
+              0
+            ],
+            []
+          ],
+          "retroalimentacion": "45 × 18 = 810: el primer parcial 45 × 8 = 360 lleva acarreo (5×8=40); el segundo parcial 45 × 1 = 45 corrido un lugar es 450; 360 + 450 = 810."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "56"
+            },
+            {
+              "valor": "19",
+              "signo": "×"
+            },
+            {
+              "valor": "504"
+            },
+            {
+              "valor": "560"
+            },
+            {
+              "valor": "1064",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [
+              2
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "56 × 19 = 1064: el primer parcial 56 × 9 = 504 lleva acarreo (6×9=54); el segundo parcial 56 × 1 = 56 corrido un lugar es 560; 504 + 560 = 1064."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "27"
+            },
+            {
+              "valor": "13",
+              "signo": "×"
+            },
+            {
+              "valor": "81"
+            },
+            {
+              "valor": "270"
+            },
+            {
+              "valor": "351",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              1
+            ],
+            [],
+            []
+          ],
+          "retroalimentacion": "27 × 13 = 351: el primer parcial 27 × 3 = 81 lleva acarreo (7×3=21); el segundo parcial 27 × 1 = 27 corrido un lugar es 270; 81 + 270 = 351."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "38"
+            },
+            {
+              "valor": "16",
+              "signo": "×"
+            },
+            {
+              "valor": "228"
+            },
+            {
+              "valor": "380"
+            },
+            {
+              "valor": "608",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              1
+            ],
+            [],
+            [],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "38 × 16 = 608: el primer parcial 38 × 6 = 228 lleva acarreo (8×6=48); el segundo parcial 38 × 1 = 38 corrido un lugar es 380; 228 + 380 = 608."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "49"
+            },
+            {
+              "valor": "15",
+              "signo": "×"
+            },
+            {
+              "valor": "245"
+            },
+            {
+              "valor": "490"
+            },
+            {
+              "valor": "735",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [],
+            [
+              0
+            ],
+            []
+          ],
+          "retroalimentacion": "49 × 15 = 735: el primer parcial 49 × 5 = 245 lleva acarreo (9×5=45); el segundo parcial 49 × 1 = 49 corrido un lugar es 490; 245 + 490 = 735."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "24"
+            },
+            {
+              "valor": "29",
+              "signo": "×"
+            },
+            {
+              "valor": "216"
+            },
+            {
+              "valor": "480"
+            },
+            {
+              "valor": "696",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "24 × 29 = 696: el primer parcial 24 × 9 = 216 lleva acarreo (4×9=36); el segundo parcial 24 × 2 = 48 corrido un lugar es 480; 216 + 480 = 696."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "32"
+            },
+            {
+              "valor": "38",
+              "signo": "×"
+            },
+            {
+              "valor": "256"
+            },
+            {
+              "valor": "960"
+            },
+            {
+              "valor": "1216",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0
+            ],
+            [
+              2
+            ],
+            []
+          ],
+          "retroalimentacion": "32 × 38 = 1216: el primer parcial 32 × 8 = 256 lleva acarreo (2×8=16); el segundo parcial 32 × 3 = 96 corrido un lugar es 960; 256 + 960 = 1216."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "84"
+            },
+            {
+              "valor": "17",
+              "signo": "×"
+            },
+            {
+              "valor": "588"
+            },
+            {
+              "valor": "840"
+            },
+            {
+              "valor": "1428",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [
+              0
+            ],
+            [],
+            [],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "84 × 17 = 1428: el primer parcial 84 × 7 = 588 lleva acarreo (4×7=28); el segundo parcial 84 × 1 = 84 corrido un lugar es 840; 588 + 840 = 1428."
+        }
+      ]
+    }
+  ]
+}

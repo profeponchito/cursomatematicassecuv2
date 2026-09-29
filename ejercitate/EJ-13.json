@@ -1,0 +1,850 @@
+{
+  "id": "EJ-13",
+  "grado": "Ejercítate",
+  "numero": 13,
+  "categoria": "basico",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Completar dígitos del algoritmo de la multiplicación y división",
+  "contenido": "El algoritmo convencional de la multiplicación y la división con números naturales: productos parciales, acarreos (dígitos que se \"llevan\") y el proceso de bajar dígitos.",
+  "pda": "Explica y aplica correctamente cada paso del algoritmo escrito de la multiplicación y la división con números naturales, identificando acarreos, productos parciales y dígitos que se bajan, para resolver problemas cotidianos.",
+  "problematizacion": {
+    "contexto": "En la cooperativa escolar, Valeria necesita calcular cuántos cuadernos hay en 27 paquetes de 18 cada uno, y después repartir 936 lápices entre 24 salones en partes iguales. Al hacer las cuentas a mano, se le olvida si en ese paso debe \"llevar\" un dígito o \"bajar\" el siguiente, y eso le hace equivocarse.",
+    "pregunta": "¿Qué significa exactamente \"llevar\" un dígito al multiplicar y \"bajar\" un dígito al dividir, y cómo saber qué paso del algoritmo sigue en cada momento?"
+  },
+  "subtemas": [
+    {
+      "numero": "13.1",
+      "titulo": "Un acarreo en las casillas del algoritmo",
+      "explicacion": "El algoritmo vertical de la multiplicación se escribe en columnas alineadas a la derecha: si el producto de una posición es 10 o más, escribes solo la cifra de las unidades en esa columna y \"llevas\" (acarreas) la cifra de las decenas para sumarla al siguiente producto. La división también puede comprobarse con columnas: si el cociente es correcto, al multiplicarlo por el divisor debe reproducirse exactamente el dividendo, dígito por dígito — por eso, para verificar una división, se completa el mismo algoritmo de multiplicación con el cociente y el divisor, y el resultado debe coincidir con el dividendo.",
+      "ejemplos": [
+        "En 47 × 3: 3×7=21, escribes 1 y llevas 2; 3×4=12, más el 2 que llevabas = 14. El resultado es 141.",
+        "Para verificar que 156 ÷ 4 = 39, multiplicas 39 × 4: 4×9=36, escribes 6 y llevas 3; 4×3=12, más el 3 que llevabas = 15. El resultado es 156, así que la división es correcta."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "47"
+            },
+            {
+              "valor": "3",
+              "signo": "×"
+            },
+            {
+              "valor": "141",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "47 × 3: primero 3×7=21, escribes 1 y llevas 2; luego 3×4=12, más el 2 que llevabas = 14. Resultado: 141."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "62"
+            },
+            {
+              "valor": "4",
+              "signo": "×"
+            },
+            {
+              "valor": "248",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "62 × 4: primero 4×2=8 (sin acarreo); luego 4×6=24, escribes 4 y llevas 2 a las centenas. Resultado: 248."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "39"
+            },
+            {
+              "valor": "4",
+              "signo": "×"
+            },
+            {
+              "valor": "156",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "Esto verifica que 156 ÷ 4 = 39, porque 39 × 4 = 156: 4×9=36, escribes 6 y llevas 3; 4×3=12, más el 3 que llevabas = 15."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "24"
+            },
+            {
+              "valor": "4",
+              "signo": "×"
+            },
+            {
+              "valor": "96",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "Esto verifica que 96 ÷ 4 = 24, porque 24 × 4 = 96: 4×4=16, escribes 6 y llevas 1; 4×2=8, más el 1 que llevabas = 9."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "19"
+            },
+            {
+              "valor": "5",
+              "signo": "×"
+            },
+            {
+              "valor": "95",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "19 × 5: primero 5×9=45, escribes 5 y llevas 4; luego 5×1=5, más el 4 que llevabas = 9. Resultado: 95."
+        }
+      ]
+    },
+    {
+      "numero": "13.2",
+      "titulo": "Varios acarreos en números más grandes",
+      "explicacion": "Cuando el multiplicando tiene tres cifras, puede haber más de un acarreo seguido: cada acarreo se suma al siguiente producto parcial antes de escribir el nuevo dígito de esa columna. Para verificar una división con divisor de una cifra y cociente más grande, se completa igual el algoritmo de multiplicación (cociente × divisor); si el cociente tiene dos o tres cifras, cada columna puede llevar su propio acarreo, igual que en cualquier multiplicación.",
+      "ejemplos": [
+        "En 246 × 3: 3×6=18, escribes 8 y llevas 1; 3×4=12+1=13, escribes 3 y llevas 1; 3×2=6+1=7. El resultado es 738.",
+        "Para verificar que 372 ÷ 3 = 124, multiplicas 124 × 3: 3×4=12, escribes 2 y llevas 1; 3×2=6+1=7; 3×1=3. El resultado es 372, así que la división es correcta."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "246"
+            },
+            {
+              "valor": "3",
+              "signo": "×"
+            },
+            {
+              "valor": "738",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0,
+              2
+            ],
+            [],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "246 × 3: 3×6=18, escribes 8 y llevas 1; 3×4=12+1=13, escribes 3 y llevas 1; 3×2=6+1=7. Resultado: 738."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "158"
+            },
+            {
+              "valor": "6",
+              "signo": "×"
+            },
+            {
+              "valor": "948",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1,
+              2
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "158 × 6: 6×8=48, escribes 8 y llevas 4; 6×5=30+4=34, escribes 4 y llevas 3; 6×1=6+3=9. Resultado: 948."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "324"
+            },
+            {
+              "valor": "7",
+              "signo": "×"
+            },
+            {
+              "valor": "2268",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0,
+              2
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "324 × 7: 7×4=28, escribes 8 y llevas 2; 7×2=14+2=16, escribes 6 y llevas 1; 7×3=21+1=22. Resultado: 2,268."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "124"
+            },
+            {
+              "valor": "3",
+              "signo": "×"
+            },
+            {
+              "valor": "372",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1,
+              2
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "Esto verifica que 372 ÷ 3 = 124, porque 124 × 3 = 372: 3×4=12, escribes 2 y llevas 1; 3×2=6+1=7; 3×1=3."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "87"
+            },
+            {
+              "valor": "5",
+              "signo": "×"
+            },
+            {
+              "valor": "435",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "Esto verifica que 435 ÷ 5 = 87, porque 87 × 5 = 435: 5×7=35, escribes 5 y llevas 3; 5×8=40+3=43."
+        }
+      ]
+    },
+    {
+      "numero": "13.3",
+      "titulo": "Multiplicador y divisor de dos cifras",
+      "explicacion": "Cuando el multiplicador tiene dos cifras, el algoritmo se completa con dos filas de producto parcial: la de las unidades del multiplicador, y la de las decenas, ya recorrida un lugar a la izquierda (multiplicada por 10) para que se alinee en las columnas correctas; luego se suman ambas filas para obtener el resultado. Para verificar una división con divisor de dos cifras, se sigue el mismo procedimiento con el cociente y el divisor: cociente × unidades del divisor, cociente × decenas del divisor (recorrido), y la suma de ambos productos parciales debe coincidir exactamente con el dividendo.",
+      "formula": "producto final = (número × unidades del multiplicador) + (número × decenas del multiplicador × 10)",
+      "ejemplos": [
+        "En 43 × 26: el primer producto parcial es 43 × 6 = 258; el segundo es 43 × 2, recorrido un lugar a la izquierda: 860. La suma final es 258 + 860 = 1,118.",
+        "Para verificar que 588 ÷ 12 = 49, multiplicas 49 × 12: el primer producto parcial es 49 × 2 = 98; el segundo es 49 × 1, recorrido: 490. La suma 98 + 490 = 588 confirma que la división es correcta."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "43"
+            },
+            {
+              "valor": "26",
+              "signo": "×"
+            },
+            {
+              "valor": "258"
+            },
+            {
+              "valor": "860",
+              "signo": "+"
+            },
+            {
+              "valor": "1118",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [
+              0
+            ],
+            [],
+            [
+              0,
+              3
+            ]
+          ],
+          "retroalimentacion": "43 × 26 = 43×6 + 43×2×10 = 258 + 860 = 1,118."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "34"
+            },
+            {
+              "valor": "23",
+              "signo": "×"
+            },
+            {
+              "valor": "102"
+            },
+            {
+              "valor": "680",
+              "signo": "+"
+            },
+            {
+              "valor": "782",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              0
+            ],
+            [
+              2
+            ],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "34 × 23 = 34×3 + 34×2×10 = 102 + 680 = 782."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "49"
+            },
+            {
+              "valor": "12",
+              "signo": "×"
+            },
+            {
+              "valor": "98"
+            },
+            {
+              "valor": "490",
+              "signo": "+"
+            },
+            {
+              "valor": "588",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [
+              0
+            ],
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "Esto verifica que 588 ÷ 12 = 49, porque 49 × 12 = 49×2 + 49×1×10 = 98 + 490 = 588."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "13"
+            },
+            {
+              "valor": "21",
+              "signo": "×"
+            },
+            {
+              "valor": "13"
+            },
+            {
+              "valor": "260",
+              "signo": "+"
+            },
+            {
+              "valor": "273",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              1
+            ],
+            [
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "retroalimentacion": "Esto verifica que 273 ÷ 21 = 13, porque 13 × 21 = 13×1 + 13×2×10 = 13 + 260 = 273."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "52"
+            },
+            {
+              "valor": "34",
+              "signo": "×"
+            },
+            {
+              "valor": "208"
+            },
+            {
+              "valor": "1560",
+              "signo": "+"
+            },
+            {
+              "valor": "1768",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [
+              1
+            ],
+            [],
+            [
+              2,
+              3
+            ]
+          ],
+          "retroalimentacion": "52 × 34 = 52×4 + 52×3×10 = 208 + 1,560 = 1,768."
+        }
+      ]
+    },
+    {
+      "numero": "13.4",
+      "titulo": "Síntesis: multiplicación y verificación de división",
+      "explicacion": "Recuerda: en la multiplicación, cada cifra del multiplicador genera un producto parcial que se recorre según su posición, y los acarreos se suman al siguiente producto antes de escribir el dígito. Para verificar cualquier división —con divisor de una o de dos cifras— se sigue exactamente el mismo algoritmo, usando el cociente como multiplicando y el divisor como multiplicador: si el resultado final coincide dígito por dígito con el dividendo, la división es correcta.",
+      "ejemplos": [
+        "En 356 × 4: 4×6=24, escribes 4 y llevas 2; 4×5=20+2=22, escribes 2 y llevas 2; 4×3=12+2=14. El resultado es 1,424.",
+        "Para verificar que 936 ÷ 24 = 39, multiplicas 39 × 24: el primer producto parcial es 39 × 4 = 156; el segundo es 39 × 2, recorrido: 780. La suma 156 + 780 = 936 confirma que la división es correcta."
+      ],
+      "puntosPorReactivo": 10,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "356"
+            },
+            {
+              "valor": "4",
+              "signo": "×"
+            },
+            {
+              "valor": "1424",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0,
+              1
+            ],
+            [],
+            [
+              0,
+              3
+            ]
+          ],
+          "retroalimentacion": "356 × 4: 4×6=24, escribes 4 y llevas 2; 4×5=20+2=22, escribes 2 y llevas 2; 4×3=12+2=14. Resultado: 1,424."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "216"
+            },
+            {
+              "valor": "4",
+              "signo": "×"
+            },
+            {
+              "valor": "864",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1,
+              2
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "Esto verifica que 864 ÷ 4 = 216, porque 216 × 4 = 864: 4×6=24, escribes 4 y llevas 2; 4×1=4+2=6; 4×2=8."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "67"
+            },
+            {
+              "valor": "48",
+              "signo": "×"
+            },
+            {
+              "valor": "536"
+            },
+            {
+              "valor": "2680",
+              "signo": "+"
+            },
+            {
+              "valor": "3216",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              0,
+              2
+            ],
+            [],
+            [
+              0,
+              2
+            ]
+          ],
+          "retroalimentacion": "67 × 48 = 67×8 + 67×4×10 = 536 + 2,680 = 3,216."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "39"
+            },
+            {
+              "valor": "24",
+              "signo": "×"
+            },
+            {
+              "valor": "156"
+            },
+            {
+              "valor": "780",
+              "signo": "+"
+            },
+            {
+              "valor": "936",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [
+              0,
+              1
+            ],
+            [
+              2
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "retroalimentacion": "Esto verifica que 936 ÷ 24 = 39, porque 39 × 24 = 39×4 + 39×2×10 = 156 + 780 = 936."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "289"
+            },
+            {
+              "valor": "6",
+              "signo": "×"
+            },
+            {
+              "valor": "1734",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1,
+              2
+            ],
+            [],
+            [
+              0,
+              1
+            ]
+          ],
+          "retroalimentacion": "289 × 6: 6×9=54, escribes 4 y llevas 5; 6×8=48+5=53, escribes 3 y llevas 5; 6×2=12+5=17. Resultado: 1,734."
+        }
+      ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "algoritmo_columnas",
+      "operacion": "multiplicacion",
+      "filas": [
+        {
+          "valor": "68"
+        },
+        {
+          "valor": "5",
+          "signo": "×"
+        },
+        {
+          "valor": "340",
+          "esResultado": true
+        }
+      ],
+      "ocultos": [
+        [
+          0
+        ],
+        [],
+        [
+          2
+        ]
+      ],
+      "retroalimentacion": "68 × 5: 5×8=40, escribes 0 y llevas 4; luego 5×6=30+4=34. Resultado: 340."
+    },
+    {
+      "tipo": "algoritmo_columnas",
+      "operacion": "multiplicacion",
+      "filas": [
+        {
+          "valor": "117"
+        },
+        {
+          "valor": "8",
+          "signo": "×"
+        },
+        {
+          "valor": "936",
+          "esResultado": true
+        }
+      ],
+      "ocultos": [
+        [
+          0,
+          2
+        ],
+        [],
+        [
+          1
+        ]
+      ],
+      "retroalimentacion": "Esto verifica que 936 ÷ 8 = 117, porque 117 × 8 = 936: 8×7=56, escribes 6 y llevas 5; 8×1=8+5=13, escribes 3 y llevas 1; 8×1=8+1=9."
+    },
+    {
+      "tipo": "algoritmo_columnas",
+      "operacion": "multiplicacion",
+      "filas": [
+        {
+          "valor": "63"
+        },
+        {
+          "valor": "42",
+          "signo": "×"
+        },
+        {
+          "valor": "126"
+        },
+        {
+          "valor": "2520",
+          "signo": "+"
+        },
+        {
+          "valor": "2646",
+          "esResultado": true
+        }
+      ],
+      "ocultos": [
+        [
+          1
+        ],
+        [],
+        [
+          1
+        ],
+        [
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "retroalimentacion": "63 × 42 = 63×2 + 63×4×10 = 126 + 2,520 = 2,646."
+    },
+    {
+      "tipo": "algoritmo_columnas",
+      "operacion": "multiplicacion",
+      "filas": [
+        {
+          "valor": "39"
+        },
+        {
+          "valor": "21",
+          "signo": "×"
+        },
+        {
+          "valor": "39"
+        },
+        {
+          "valor": "780",
+          "signo": "+"
+        },
+        {
+          "valor": "819",
+          "esResultado": true
+        }
+      ],
+      "ocultos": [
+        [
+          0
+        ],
+        [],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "retroalimentacion": "Esto verifica que 819 ÷ 21 = 39, porque 39 × 21 = 39×1 + 39×2×10 = 39 + 780 = 819."
+    }
+  ]
+}

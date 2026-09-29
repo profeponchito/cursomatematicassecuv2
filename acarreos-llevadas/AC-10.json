@@ -1,0 +1,306 @@
+{
+  "id": "AC-10",
+  "grado": "Acarreos y Llevadas",
+  "numero": 10,
+  "categoria": "acarreo_resta",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Resta con préstamo encadenado en dos columnas seguidas",
+  "contenido": "Resta de números de tres cifras donde pedir prestado en una columna obliga a pedir prestado también en la columna vecina.",
+  "pda": "Resuelve restas de tres cifras reconociendo cómo un préstamo se encadena a la columna siguiente.",
+  "problematizacion": {
+    "contexto": "En una papelería de Guadalajara, la encargada hace a mano el corte de caja cada tarde: resta lo que gastó en reponer material del efectivo que tenía al abrir. Muchas veces las unidades y las decenas del gasto son mayores que las del efectivo inicial, así que tiene que pedir prestado dos veces seguidas para que el corte no le salga mal.",
+    "pregunta": "¿Por qué, al pedir prestado en las decenas, a veces también hay que pedir prestado en las centenas?"
+  },
+  "subtemas": [
+    {
+      "numero": "2",
+      "nivelEtiqueta": "Nivel 2 de 8 · Básico",
+      "titulo": "Resta con préstamo encadenado en dos columnas seguidas",
+      "explicacion": "Cuando restas dos números de tres cifras, a veces la cifra de unidades del sustraendo es mayor que la del minuendo y necesitas pedir prestada una decena. Ese préstamo reduce en 1 la cifra de decenas del minuendo antes de compararla con la cifra de decenas del sustraendo. Si, ya reducida, esa cifra de decenas sigue siendo menor que la del sustraendo, tienes que pedir prestado otra vez, ahora a las centenas. A esto se le llama préstamo encadenado: el préstamo de una columna se contagia a la columna vecina. Conviene hacer los préstamos en orden, de derecha a izquierda, recordando que cada préstamo resta exactamente 1 a la cifra de la columna de la que se toma.",
+      "formula": "Si la cifra de decenas del minuendo, ya reducida en 1 por el préstamo de las unidades, sigue siendo menor que la cifra de decenas del sustraendo, pide prestado también a las centenas.",
+      "ejemplos": [
+        "431 - 237: en las unidades, 1 es menor que 7, así que pides prestada 1 decena y calculas 11 - 7 = 4; la cifra de decenas del minuendo baja de 3 a 2. Como 2 sigue siendo menor que la cifra de decenas del sustraendo (3), pides prestada 1 centena: 12 - 3 = 9, y la cifra de centenas del minuendo baja de 4 a 3. Finalmente 3 - 2 = 1. El resultado es 194.",
+        "605 - 328: en las unidades, 5 es menor que 8, pides prestado y calculas 15 - 8 = 7. La cifra de decenas del minuendo era 0, así que para poder prestar a las unidades ella misma pide prestado a las centenas y queda en 9; luego 9 - 2 = 7. En las centenas, 6 baja a 5 y 5 - 3 = 2. El resultado es 277."
+      ],
+      "puntosPorReactivo": 11,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "431"
+            },
+            {
+              "valor": "237",
+              "signo": "-"
+            },
+            {
+              "valor": "194",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [
+              1
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "431 - 237 = 194: en las unidades 1 es menor que 7, pides prestada 1 decena y calculas 11 - 7 = 4; las decenas bajan de 3 a 2, que sigue siendo menor que 3, así que pides prestada 1 centena y calculas 12 - 3 = 9; en las centenas 4 baja a 3 y 3 - 2 = 1."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "523"
+            },
+            {
+              "valor": "158",
+              "signo": "-"
+            },
+            {
+              "valor": "365",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              2
+            ],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "523 - 158 = 365: en las unidades 3 es menor que 8, pides prestado y 13 - 8 = 5; las decenas bajan de 2 a 1, que es menor que 5, así que pides prestado otra vez y 11 - 5 = 6; en las centenas 5 baja a 4 y 4 - 1 = 3."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "612"
+            },
+            {
+              "valor": "345",
+              "signo": "-"
+            },
+            {
+              "valor": "267",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [
+              0
+            ],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "612 - 345 = 267: en las unidades 2 es menor que 5, pides prestado y 12 - 5 = 7; las decenas bajan de 1 a 0, que es menor que 4, así que pides prestado otra vez y 10 - 4 = 6; en las centenas 6 baja a 5 y 5 - 3 = 2."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "740"
+            },
+            {
+              "valor": "268",
+              "signo": "-"
+            },
+            {
+              "valor": "472",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "740 - 268 = 472: en las unidades 0 es menor que 8, pides prestado y 10 - 8 = 2; las decenas bajan de 4 a 3, que es menor que 6, así que pides prestado otra vez y 13 - 6 = 7; en las centenas 7 baja a 6 y 6 - 2 = 4."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "852"
+            },
+            {
+              "valor": "476",
+              "signo": "-"
+            },
+            {
+              "valor": "376",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              2
+            ],
+            []
+          ],
+          "retroalimentacion": "852 - 476 = 376: en las unidades 2 es menor que 6, pides prestado y 12 - 6 = 6; las decenas bajan de 5 a 4, que es menor que 7, así que pides prestado otra vez y 14 - 7 = 7; en las centenas 8 baja a 7 y 7 - 4 = 3."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "934"
+            },
+            {
+              "valor": "567",
+              "signo": "-"
+            },
+            {
+              "valor": "367",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [
+              1
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "934 - 567 = 367: en las unidades 4 es menor que 7, pides prestado y 14 - 7 = 7; las decenas bajan de 3 a 2, que es menor que 6, así que pides prestado otra vez y 12 - 6 = 6; en las centenas 9 baja a 8 y 8 - 5 = 3."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "605"
+            },
+            {
+              "valor": "328",
+              "signo": "-"
+            },
+            {
+              "valor": "277",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "605 - 328 = 277: en las unidades 5 es menor que 8, pides prestado y 15 - 8 = 7; como las decenas del minuendo son 0, para poder prestar a las unidades ellas mismas piden prestado a las centenas y quedan en 9, luego 9 - 2 = 7; en las centenas 6 baja a 5 y 5 - 3 = 2."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "711"
+            },
+            {
+              "valor": "456",
+              "signo": "-"
+            },
+            {
+              "valor": "255",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              2
+            ],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "711 - 456 = 255: en las unidades 1 es menor que 6, pides prestado y 11 - 6 = 5; las decenas bajan de 1 a 0, que es menor que 5, así que piden prestado otra vez y 10 - 5 = 5; en las centenas 7 baja a 6 y 6 - 4 = 2."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "823"
+            },
+            {
+              "valor": "549",
+              "signo": "-"
+            },
+            {
+              "valor": "274",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            []
+          ],
+          "retroalimentacion": "823 - 549 = 274: en las unidades 3 es menor que 9, pides prestado y 13 - 9 = 4; las decenas bajan de 2 a 1, que es menor que 4, así que pides prestado otra vez y 11 - 4 = 7; en las centenas 8 baja a 7 y 7 - 5 = 2."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "942"
+            },
+            {
+              "valor": "685",
+              "signo": "-"
+            },
+            {
+              "valor": "257",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              1
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "942 - 685 = 257: en las unidades 2 es menor que 5, pides prestado y 12 - 5 = 7; las decenas bajan de 4 a 3, que es menor que 8, así que pides prestado otra vez y 13 - 8 = 5; en las centenas 9 baja a 8 y 8 - 6 = 2."
+        }
+      ]
+    }
+  ]
+}

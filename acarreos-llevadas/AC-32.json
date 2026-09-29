@@ -1,0 +1,306 @@
+{
+  "id": "AC-32",
+  "grado": "Acarreos y Llevadas",
+  "numero": 32,
+  "categoria": "acarreo_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Verificación con cociente de varias cifras y acarreo múltiple",
+  "contenido": "Comprobación de divisiones con cociente de tres cifras entre un divisor de una cifra, con acarreo en al menos tres posiciones.",
+  "pda": "Verifica divisiones con cociente de varias cifras sosteniendo acarreo múltiple en toda la comprobación.",
+  "problematizacion": {
+    "contexto": "En una fábrica de calzado de León, Guanajuato, un supervisor repartió 8874 pares de zapatos en cajas iguales entre varias camionetas de reparto y obtuvo 986 pares por camioneta al dividir entre 9 camionetas. Antes de firmar la salida de la mercancía, necesita asegurarse de que el reparto quedó exacto y que ninguna camioneta se quedó con menos pares de los que debería.",
+    "pregunta": "¿Cómo puede el supervisor comprobar, multiplicando, que 986 pares por camioneta multiplicados por 9 camionetas realmente dan los 8874 pares originales?"
+  },
+  "subtemas": [
+    {
+      "numero": "7",
+      "nivelEtiqueta": "Nivel 7 de 9 · Avanzado",
+      "titulo": "Verificación con cociente de varias cifras y acarreo múltiple",
+      "explicacion": "Cuando una división tiene un cociente de tres cifras, comprobarla significa multiplicar ese cociente completo por el divisor y revisar que el resultado sea exactamente el dividendo. Como el cociente tiene varias cifras, esta multiplicación casi siempre genera acarreo en más de una posición: al multiplicar las unidades del cociente por el divisor puede salir un número de dos cifras, y esa cifra que 'se lleva' se suma al multiplicar las decenas, y así sucesivamente hasta las centenas. Sostener varios acarreos seguidos, sin perder ninguno, es la parte más difícil de esta comprobación. Practicar completando las casillas vacías del algoritmo te obliga a reconstruir cada acarreo con cuidado, en vez de solo copiar un resultado ya hecho. Recuerda: si la multiplicación final coincide exactamente con el dividendo original, la división estaba bien resuelta.",
+      "formula": "cociente (3 cifras) × divisor (1 cifra) = dividendo (4 cifras), llevando el acarreo de cada posición a la siguiente",
+      "ejemplos": [
+        "Para comprobar 1740 ÷ 5 = 348, multiplicamos 348 × 5: primero 8×5=40, se escribe 0 y se lleva 4; luego 4×5=20, más el 4 que se llevó, da 24, se escribe 4 y se lleva 2; por último 3×5=15, más el 2 que se llevó, da 17. El resultado completo es 1740, igual al dividendo original.",
+        "Para comprobar 3416 ÷ 8 = 427, multiplicamos 427 × 8: 7×8=56 (se lleva 5), 2×8+5=21 (se lleva 2), 4×8+2=34. El resultado 3416 coincide con el dividendo, así que la división es correcta."
+      ],
+      "puntosPorReactivo": 18,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "986"
+            },
+            {
+              "valor": "9",
+              "signo": "×"
+            },
+            {
+              "valor": "8874",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 8874 ÷ 9 = 986, porque 986 × 9 = 8874. Al multiplicar 6×9=54 se lleva 5, 8×9+5=77 se lleva 7, y 9×9+7=88."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "639"
+            },
+            {
+              "valor": "6",
+              "signo": "×"
+            },
+            {
+              "valor": "3834",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              0,
+              3
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 3834 ÷ 6 = 639, porque 639 × 6 = 3834. 9×6=54 lleva 5, 3×6+5=23 lleva 2, 6×6+2=38."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "348"
+            },
+            {
+              "valor": "5",
+              "signo": "×"
+            },
+            {
+              "valor": "1740",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 1740 ÷ 5 = 348, porque 348 × 5 = 1740. 8×5=40 lleva 4, 4×5+4=24 lleva 2, 3×5+2=17."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "198"
+            },
+            {
+              "valor": "8",
+              "signo": "×"
+            },
+            {
+              "valor": "1584",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0,
+              2
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 1584 ÷ 8 = 198, porque 198 × 8 = 1584. 8×8=64 lleva 6, 9×8+6=78 lleva 7, 1×8+7=15."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "262"
+            },
+            {
+              "valor": "7",
+              "signo": "×"
+            },
+            {
+              "valor": "1834",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              1,
+              2,
+              3
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 1834 ÷ 7 = 262, porque 262 × 7 = 1834. 2×7=14 lleva 1, 6×7+1=43 lleva 4, 2×7+4=18."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "289"
+            },
+            {
+              "valor": "6",
+              "signo": "×"
+            },
+            {
+              "valor": "1734",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 1734 ÷ 6 = 289, porque 289 × 6 = 1734. 9×6=54 lleva 5, 8×6+5=53 lleva 5, 2×6+5=17."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "139"
+            },
+            {
+              "valor": "9",
+              "signo": "×"
+            },
+            {
+              "valor": "1251",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            []
+          ],
+          "retroalimentacion": "Esto comprueba que 1251 ÷ 9 = 139, porque 139 × 9 = 1251. 9×9=81 lleva 8, 3×9+8=35 lleva 3, 1×9+3=12."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "427"
+            },
+            {
+              "valor": "8",
+              "signo": "×"
+            },
+            {
+              "valor": "3416",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              2,
+              3
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 3416 ÷ 8 = 427, porque 427 × 8 = 3416. 7×8=56 lleva 5, 2×8+5=21 lleva 2, 4×8+2=34."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "155"
+            },
+            {
+              "valor": "7",
+              "signo": "×"
+            },
+            {
+              "valor": "1085",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 1085 ÷ 7 = 155, porque 155 × 7 = 1085. 5×7=35 lleva 3, 5×7+3=38 lleva 3, 1×7+3=10."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "776"
+            },
+            {
+              "valor": "7",
+              "signo": "×"
+            },
+            {
+              "valor": "5432",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1,
+              2
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 5432 ÷ 7 = 776, porque 776 × 7 = 5432. 6×7=42 lleva 4, 7×7+4=53 lleva 5, 7×7+5=54."
+        }
+      ]
+    }
+  ]
+}

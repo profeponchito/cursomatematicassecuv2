@@ -1,0 +1,382 @@
+{
+  "id": "AC-38",
+  "grado": "Acarreos y Llevadas",
+  "numero": 38,
+  "categoria": "acarreo_potencias",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Cubos de números de dos cifras con acarreo",
+  "contenido": "Cálculo de cubos (n³) de números de dos cifras, multiplicando el cuadrado (de tres cifras) por la base, con productos parciales.",
+  "pda": "Calcula cubos de números de dos cifras manejando acarreo en los productos parciales de la multiplicación final.",
+  "problematizacion": {
+    "contexto": "En un taller de carpintería en Oaxaca están diseñando cajas de almacenaje en forma de cubo perfecto para vender en el mercado local. El dueño quiere calcular cuántos centimetros cúbicos de madera ocupará cada caja según la medida del lado, para cotizar el material antes de cortarlo.",
+    "pregunta": "Si el lado de una caja mide un número de dos cifras, ¿cómo calculas su volumen elevando esa medida al cubo, cuidando los acarreos de la multiplicación?"
+  },
+  "subtemas": [
+    {
+      "numero": "4",
+      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
+      "titulo": "Cubos de números de dos cifras con acarreo",
+      "explicacion": "Para elevar al cubo un número de dos cifras primero calculamos su cuadrado (n²), que ya tiene tres cifras, y luego lo multiplicamos otra vez por el mismo número: n² × n = n³. Como el multiplicador tiene dos cifras, esa multiplicación se resuelve con dos productos parciales: primero n² por las unidades del multiplicador, luego n² por las decenas (recorrido un lugar a la izquierda), y al final se suman ambos parciales. En cualquiera de esos pasos —al multiplicar cifra por cifra o al sumar los parciales— puede aparecer un acarreo, y hay que llevarlo a la siguiente columna sin olvidarlo. Practicar este acarreo es clave para no equivocarse al calcular cubos de dos cifras.",
+      "formula": "n³ = n² × n, usando productos parciales (n² × unidades y n² × decenas recorrido)",
+      "ejemplos": [
+        "13³: primero 13² = 169. Luego 169 × 13: 169 × 3 = 507 (con acarreo: 9×3=27, se lleva 2), y 169 × 1 = 169 recorrido un lugar (1690). Sumando: 507 + 1690 = 2197, así que 13³ = 2197.",
+        "18³: 18² = 324. Luego 324 × 8 = 2592 (con varios acarreos) y 324 × 1 = 324 recorrido (3240). Sumando 2592 + 3240 = 5832, con acarreo también en la suma, obtenemos 18³ = 5832."
+      ],
+      "puntosPorReactivo": 14,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "144"
+            },
+            {
+              "valor": "12",
+              "signo": "×"
+            },
+            {
+              "valor": "288"
+            },
+            {
+              "valor": "1440"
+            },
+            {
+              "valor": "1728",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [],
+            [],
+            []
+          ],
+          "retroalimentacion": "12² = 144. Para hallar 12³ multiplicamos 144 × 12: 144 × 2 = 288, y 144 × 1 = 144 recorrido un lugar a la izquierda (1440). Sumando los parciales: 288 + 1440 = 1728, es decir 12³ = 1728. Aquí al sumar los productos parciales 288 + 1440 hay acarreo entre columnas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "169"
+            },
+            {
+              "valor": "13",
+              "signo": "×"
+            },
+            {
+              "valor": "507"
+            },
+            {
+              "valor": "1690"
+            },
+            {
+              "valor": "2197",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [
+              0
+            ],
+            [],
+            []
+          ],
+          "retroalimentacion": "13² = 169. Para hallar 13³ multiplicamos 169 × 13: 169 × 3 = 507, y 169 × 1 = 169 recorrido un lugar a la izquierda (1690). Sumando los parciales: 507 + 1690 = 2197, es decir 13³ = 2197. Aquí al multiplicar 169 × 3 hay acarreo entre las cifras del producto parcial 507."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "196"
+            },
+            {
+              "valor": "14",
+              "signo": "×"
+            },
+            {
+              "valor": "784"
+            },
+            {
+              "valor": "1960"
+            },
+            {
+              "valor": "2744",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              2
+            ],
+            [
+              2
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "14² = 196. Para hallar 14³ multiplicamos 196 × 14: 196 × 4 = 784, y 196 × 1 = 196 recorrido un lugar a la izquierda (1960). Sumando los parciales: 784 + 1960 = 2744, es decir 14³ = 2744. Aquí al multiplicar 196 × 4 hay acarreo entre las cifras del producto parcial 784."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "225"
+            },
+            {
+              "valor": "15",
+              "signo": "×"
+            },
+            {
+              "valor": "1125"
+            },
+            {
+              "valor": "2250"
+            },
+            {
+              "valor": "3375",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [],
+            [
+              0
+            ],
+            [
+              3
+            ]
+          ],
+          "retroalimentacion": "15² = 225. Para hallar 15³ multiplicamos 225 × 15: 225 × 5 = 1125, y 225 × 1 = 225 recorrido un lugar a la izquierda (2250). Sumando los parciales: 1125 + 2250 = 3375, es decir 15³ = 3375. Aquí al multiplicar 225 × 5 hay acarreo entre las cifras del producto parcial 1125."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "256"
+            },
+            {
+              "valor": "16",
+              "signo": "×"
+            },
+            {
+              "valor": "1536"
+            },
+            {
+              "valor": "2560"
+            },
+            {
+              "valor": "4096",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [],
+            [],
+            [
+              3
+            ]
+          ],
+          "retroalimentacion": "16² = 256. Para hallar 16³ multiplicamos 256 × 16: 256 × 6 = 1536, y 256 × 1 = 256 recorrido un lugar a la izquierda (2560). Sumando los parciales: 1536 + 2560 = 4096, es decir 16³ = 4096. Aquí al multiplicar 256 × 6 hay acarreo entre las cifras del producto parcial 1536."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "289"
+            },
+            {
+              "valor": "17",
+              "signo": "×"
+            },
+            {
+              "valor": "2023"
+            },
+            {
+              "valor": "2890"
+            },
+            {
+              "valor": "4913",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              0
+            ],
+            [],
+            []
+          ],
+          "retroalimentacion": "17² = 289. Para hallar 17³ multiplicamos 289 × 17: 289 × 7 = 2023, y 289 × 1 = 289 recorrido un lugar a la izquierda (2890). Sumando los parciales: 2023 + 2890 = 4913, es decir 17³ = 4913. Aquí al multiplicar 289 × 7 hay acarreo entre las cifras del producto parcial 2023."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "324"
+            },
+            {
+              "valor": "18",
+              "signo": "×"
+            },
+            {
+              "valor": "2592"
+            },
+            {
+              "valor": "3240"
+            },
+            {
+              "valor": "5832",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [],
+            []
+          ],
+          "retroalimentacion": "18² = 324. Para hallar 18³ multiplicamos 324 × 18: 324 × 8 = 2592, y 324 × 1 = 324 recorrido un lugar a la izquierda (3240). Sumando los parciales: 2592 + 3240 = 5832, es decir 18³ = 5832. Aquí al multiplicar 324 × 8 hay acarreo entre las cifras del producto parcial 2592."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "361"
+            },
+            {
+              "valor": "19",
+              "signo": "×"
+            },
+            {
+              "valor": "3249"
+            },
+            {
+              "valor": "3610"
+            },
+            {
+              "valor": "6859",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              2
+            ],
+            [
+              1
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "19² = 361. Para hallar 19³ multiplicamos 361 × 19: 361 × 9 = 3249, y 361 × 1 = 361 recorrido un lugar a la izquierda (3610). Sumando los parciales: 3249 + 3610 = 6859, es decir 19³ = 6859. Aquí al multiplicar 361 × 9 hay acarreo entre las cifras del producto parcial 3249."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "441"
+            },
+            {
+              "valor": "21",
+              "signo": "×"
+            },
+            {
+              "valor": "441"
+            },
+            {
+              "valor": "8820"
+            },
+            {
+              "valor": "9261",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [],
+            [
+              2
+            ],
+            []
+          ],
+          "retroalimentacion": "21² = 441. Para hallar 21³ multiplicamos 441 × 21: 441 × 1 = 441, y 441 × 2 = 882 recorrido un lugar a la izquierda (8820). Sumando los parciales: 441 + 8820 = 9261, es decir 21³ = 9261. Aquí al sumar los productos parciales 441 + 8820 hay acarreo entre columnas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "484"
+            },
+            {
+              "valor": "22",
+              "signo": "×"
+            },
+            {
+              "valor": "968"
+            },
+            {
+              "valor": "9680"
+            },
+            {
+              "valor": "10648",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "22² = 484. Para hallar 22³ multiplicamos 484 × 22: 484 × 2 = 968, y 484 × 2 = 968 recorrido un lugar a la izquierda (9680). Sumando los parciales: 968 + 9680 = 10648, es decir 22³ = 10648. Aquí al multiplicar 484 × 2 hay acarreo entre las cifras del producto parcial 968."
+        }
+      ]
+    }
+  ]
+}

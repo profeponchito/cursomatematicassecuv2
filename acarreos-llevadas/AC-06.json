@@ -1,0 +1,322 @@
+{
+  "id": "AC-06",
+  "grado": "Acarreos y Llevadas",
+  "numero": 6,
+  "categoria": "acarreo_suma",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Suma de números de cuatro cifras con múltiples acarreos",
+  "contenido": "Suma de números naturales de cuatro cifras con acarreo en al menos tres de las cuatro columnas.",
+  "pda": "Resuelve sumas de cuatro cifras manejando varios acarreos simultáneos a lo largo de toda la operación.",
+  "problematizacion": {
+    "contexto": "En la cooperativa escolar de una secundaria de Puebla se organizó una feria del libro con dos turnos de venta. En el turno matutino se registraron $3976 en ventas y en el turno vespertino $7144. La encargada de la cooperativa debe sumar ambos montos a mano para reportar el total exacto a la dirección de la escuela, cuidando de acarrear correctamente cada cifra.",
+    "pregunta": "¿Cuál fue el total de ventas del día al sumar los dos turnos, y en qué columnas tuviste que hacer acarreo?"
+  },
+  "subtemas": [
+    {
+      "numero": "6",
+      "nivelEtiqueta": "Nivel 6 de 8 · Avanzado",
+      "titulo": "Suma de números de cuatro cifras con múltiples acarreos",
+      "explicacion": "Cuando sumamos dos números de cuatro cifras, cada columna (unidades, decenas, centenas y millares) se suma por separado, de derecha a izquierda. Si el resultado de una columna es 10 o más, se escribe solo la cifra de las unidades de ese resultado y se “acarrea” (se lleva) 1 hacia la columna siguiente, sumándolo junto con los dígitos de esa columna. En sumas de cuatro cifras es común que el acarreo se repita en varias columnas seguidas, e incluso en las cuatro a la vez, lo que puede agregar una cifra nueva al inicio del resultado. Por eso conviene ir columna por columna con cuidado, sin saltarse ningún acarreo, y revisar al final que el número de cifras del resultado tenga sentido.",
+      "formula": "Si la suma de una columna da 10 o más: escribe la cifra de las unidades y súmale 1 (el acarreo) a la columna de la izquierda.",
+      "ejemplos": [
+        "2867 + 1978: Unidades 7+8=15, escribo 5 y llevo 1. Decenas 6+7+1=14, escribo 4 y llevo 1. Centenas 8+9+1=18, escribo 8 y llevo 1. Millares 2+1+1=4, escribo 4. Resultado: 4845 (acarreo en unidades, decenas y centenas).",
+        "4685 + 2758: Unidades 5+8=13, escribo 3 y llevo 1. Decenas 8+5+1=14, escribo 4 y llevo 1. Centenas 6+7+1=14, escribo 4 y llevo 1. Millares 4+2+1=7, escribo 7. Resultado: 7443 (acarreo en unidades, decenas y centenas)."
+      ],
+      "puntosPorReactivo": 17,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "8093",
+              "signo": "+"
+            },
+            {
+              "valor": "5277",
+              "signo": "+"
+            },
+            {
+              "valor": "13370",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              3
+            ],
+            [
+              2
+            ],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "8093 + 5277 = 13370: hay acarreo en las unidades (3+7=10), en las decenas (9+7+1=17) y en los millares (8+5+1=14); las centenas no llevan porque 0+2+1=3."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "6596",
+              "signo": "+"
+            },
+            {
+              "valor": "6276",
+              "signo": "+"
+            },
+            {
+              "valor": "12872",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [
+              3,
+              4
+            ]
+          ],
+          "retroalimentacion": "6596 + 6276 = 12872: se genera acarreo en las unidades (6+6=12), en las decenas (9+7+1=17) y en los millares (6+6+1=13); las centenas no llevan (5+2+1=8)."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "9367",
+              "signo": "+"
+            },
+            {
+              "valor": "7807",
+              "signo": "+"
+            },
+            {
+              "valor": "17174",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [
+              3
+            ],
+            []
+          ],
+          "retroalimentacion": "9367 + 7807 = 17174: hay acarreo en las unidades (7+7=14), en las centenas (3+8+0=11) y en los millares (9+7+1=17); las decenas no llevan (6+0+1=7)."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "7791",
+              "signo": "+"
+            },
+            {
+              "valor": "2734",
+              "signo": "+"
+            },
+            {
+              "valor": "10525",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              3
+            ],
+            [],
+            [
+              1,
+              2
+            ]
+          ],
+          "retroalimentacion": "7791 + 2734 = 10525: las unidades no llevan (1+4=5), pero sí hay acarreo en las decenas (9+3=12), en las centenas (7+7+1=15) y en los millares (7+2+1=10), por eso aparece una cifra nueva a la izquierda."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "3976",
+              "signo": "+"
+            },
+            {
+              "valor": "7144",
+              "signo": "+"
+            },
+            {
+              "valor": "11120",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              2
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "3976 + 7144 = 11120: aquí se acarrea en las cuatro columnas: unidades (6+4=10), decenas (7+4+1=12), centenas (9+1+1=11) y millares (3+7+1=11); por eso el resultado tiene una cifra más que los sumandos."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "9179",
+              "signo": "+"
+            },
+            {
+              "valor": "4545",
+              "signo": "+"
+            },
+            {
+              "valor": "13724",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              3
+            ],
+            [
+              3
+            ]
+          ],
+          "retroalimentacion": "9179 + 4545 = 13724: hay acarreo en las unidades (9+5=14), en las decenas (7+4+1=12) y en los millares (9+4+1=14); las centenas no llevan (1+5+1=7)."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "3689",
+              "signo": "+"
+            },
+            {
+              "valor": "5936",
+              "signo": "+"
+            },
+            {
+              "valor": "9625",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          "retroalimentacion": "3689 + 5936 = 9625: hay acarreo en las unidades (9+6=15), en las decenas (8+3+1=12) y en las centenas (6+9+1=16); en los millares ya no se lleva (3+5+1=9)."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "4753",
+              "signo": "+"
+            },
+            {
+              "valor": "6729",
+              "signo": "+"
+            },
+            {
+              "valor": "11482",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              3
+            ],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "4753 + 6729 = 11482: hay acarreo en las unidades (3+9=12), en las centenas (7+7=14) y en los millares (4+6+1=11); las decenas no llevan (5+2+1=8)."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "1808",
+              "signo": "+"
+            },
+            {
+              "valor": "1997",
+              "signo": "+"
+            },
+            {
+              "valor": "3805",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              1
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "1808 + 1997 = 3805: hay acarreo en las unidades (8+7=15), en las decenas (0+9+1=10) y en las centenas (8+9+1=18); en los millares ya no se lleva (1+1+1=3)."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "4528",
+              "signo": "+"
+            },
+            {
+              "valor": "9397",
+              "signo": "+"
+            },
+            {
+              "valor": "13925",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [
+              1
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "4528 + 9397 = 13925: hay acarreo en las unidades (8+7=15), en las decenas (2+9+1=12) y en los millares (4+9+0=13); las centenas no llevan (5+3+1=9)."
+        }
+      ]
+    }
+  ]
+}

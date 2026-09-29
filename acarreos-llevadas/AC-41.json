@@ -1,0 +1,383 @@
+{
+  "id": "AC-41",
+  "grado": "Acarreos y Llevadas",
+  "numero": 41,
+  "categoria": "acarreo_potencias",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Potencias de números decimales",
+  "contenido": "Cálculo del cuadrado de un número decimal pequeño (una cifra decimal), ubicando correctamente el punto decimal en el resultado.",
+  "pda": "Calcula cuadrados de números decimales aplicando el acarreo y ubicando el punto decimal en el resultado.",
+  "problematizacion": {
+    "contexto": "En un taller de carpintería en Querétaro, para calcular cuántos azulejos cuadrados caben en una mesita, el maestro carpintero mide el lado de cada azulejo decorativo: 1.8 decimetros. Para saber el área exacta de un solo azulejo antes de hacer el pedido, necesita elevar esa medida al cuadrado.",
+    "pregunta": "¿Cuál es el área de un azulejo cuadrado de 1.8 decímetros de lado, es decir, cuánto vale 1.8²?"
+  },
+  "subtemas": [
+    {
+      "numero": "7",
+      "nivelEtiqueta": "Nivel 7 de 8 · Reto",
+      "titulo": "Cuadrados de números decimales: base × base = base²",
+      "explicacion": "Para elevar al cuadrado un número decimal con una cifra después del punto, como 1.4 o 2.6, conviene multiplicar primero como si el punto no existiera: 1.4 se trabaja como 14 y se calcula 14 × 14. Como el multiplicador tiene dos cifras, la multiplicación se resuelve con productos parciales: se multiplica el número completo por la cifra de las unidades del otro factor, luego por la cifra de las decenas (recorriendo un lugar hacia la izquierda), y después se suman ambos productos parciales. En este proceso es muy común que aparezca acarreo, tanto al multiplicar digito por dígito como al sumar los productos parciales. Solo al final, cuando ya se tiene el resultado entero, se cuenta el total de cifras decimales de los dos factores originales (una de cada uno, dos en total) y se coloca el punto decimal contando esa cantidad de lugares desde la derecha del resultado.",
+      "formula": "base × base = base², contando las cifras decimales de ambos factores para ubicar el punto en el resultado",
+      "ejemplos": [
+        "1.5²: se multiplica 15×15. Producto parcial 1: 15×5=75 (5×5=25, se escribe 5 y se lleva 2; 1×5=5+2=7). Producto parcial 2: 15×1=15, recorrido un lugar (150). Se suman 75+150=225 (al sumar las decenas, 7+5=12, también hay acarreo). Como 1.5 tiene 1 cifra decimal y el otro factor también, se colocan 2 cifras decimales: 1.5² = 2.25.",
+        "2.7²: se multiplica 27×27. Producto parcial 1: 27×7=189 (7×7=49, se escribe 9 y se lleva 4; 2×7=14+4=18). Producto parcial 2: 27×2=54, recorrido un lugar (540). Se suman 189+540=729 (al sumar las decenas, 8+4=12, hay acarreo). Con 2 cifras decimales en total, 2.7² = 7.29."
+      ],
+      "puntosPorReactivo": 19,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "14"
+            },
+            {
+              "valor": "14",
+              "signo": "×"
+            },
+            {
+              "valor": "56"
+            },
+            {
+              "valor": "140"
+            },
+            {
+              "valor": "1.96",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              1
+            ],
+            [],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "1.4 × 1.4 = 1.96: se multiplican los dígitos como si fueran enteros (14 × 14). Producto parcial 1: 14×4=56 (unidades). Producto parcial 2: 14×1=14, recorrido un lugar (140). Al sumar 56+140=196; como 1.4 tiene 1 cifra decimal en cada factor (2 en total), el punto se coloca dejando 2 cifras decimales: 1.96. Aquí al multiplicar 14×4 hay acarreo. Por lo tanto, 1.4² = 1.96."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "16"
+            },
+            {
+              "valor": "16",
+              "signo": "×"
+            },
+            {
+              "valor": "96"
+            },
+            {
+              "valor": "160"
+            },
+            {
+              "valor": "2.56",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [],
+            [
+              0
+            ],
+            []
+          ],
+          "retroalimentacion": "1.6 × 1.6 = 2.56: se multiplican los dígitos como si fueran enteros (16 × 16). Producto parcial 1: 16×6=96 (unidades). Producto parcial 2: 16×1=16, recorrido un lugar (160). Al sumar 96+160=256; como 1.6 tiene 1 cifra decimal en cada factor (2 en total), el punto se coloca dejando 2 cifras decimales: 2.56. Aquí al multiplicar 16×6 hay acarreo; al sumar los productos parciales hay acarreo. Por lo tanto, 1.6² = 2.56."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "18"
+            },
+            {
+              "valor": "18",
+              "signo": "×"
+            },
+            {
+              "valor": "144"
+            },
+            {
+              "valor": "180"
+            },
+            {
+              "valor": "3.24",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              2
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "1.8 × 1.8 = 3.24: se multiplican los dígitos como si fueran enteros (18 × 18). Producto parcial 1: 18×8=144 (unidades). Producto parcial 2: 18×1=18, recorrido un lugar (180). Al sumar 144+180=324; como 1.8 tiene 1 cifra decimal en cada factor (2 en total), el punto se coloca dejando 2 cifras decimales: 3.24. Aquí al multiplicar 18×8 hay acarreo; al sumar los productos parciales hay acarreo. Por lo tanto, 1.8² = 3.24."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "23"
+            },
+            {
+              "valor": "23",
+              "signo": "×"
+            },
+            {
+              "valor": "69"
+            },
+            {
+              "valor": "460"
+            },
+            {
+              "valor": "5.29",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [],
+            [],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "2.3 × 2.3 = 5.29: se multiplican los dígitos como si fueran enteros (23 × 23). Producto parcial 1: 23×3=69 (unidades). Producto parcial 2: 23×2=46, recorrido un lugar (460). Al sumar 69+460=529; como 2.3 tiene 1 cifra decimal en cada factor (2 en total), el punto se coloca dejando 2 cifras decimales: 5.29. Aquí al sumar los productos parciales hay acarreo. Por lo tanto, 2.3² = 5.29."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "26"
+            },
+            {
+              "valor": "26",
+              "signo": "×"
+            },
+            {
+              "valor": "156"
+            },
+            {
+              "valor": "520"
+            },
+            {
+              "valor": "6.76",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [
+              0
+            ],
+            [],
+            []
+          ],
+          "retroalimentacion": "2.6 × 2.6 = 6.76: se multiplican los dígitos como si fueran enteros (26 × 26). Producto parcial 1: 26×6=156 (unidades). Producto parcial 2: 26×2=52, recorrido un lugar (520). Al sumar 156+520=676; como 2.6 tiene 1 cifra decimal en cada factor (2 en total), el punto se coloca dejando 2 cifras decimales: 6.76. Aquí al multiplicar 26×6 hay acarreo; al multiplicar 26×2 hay acarreo. Por lo tanto, 2.6² = 6.76."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "29"
+            },
+            {
+              "valor": "29",
+              "signo": "×"
+            },
+            {
+              "valor": "261"
+            },
+            {
+              "valor": "580"
+            },
+            {
+              "valor": "8.41",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [],
+            [
+              2
+            ],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "2.9 × 2.9 = 8.41: se multiplican los dígitos como si fueran enteros (29 × 29). Producto parcial 1: 29×9=261 (unidades). Producto parcial 2: 29×2=58, recorrido un lugar (580). Al sumar 261+580=841; como 2.9 tiene 1 cifra decimal en cada factor (2 en total), el punto se coloca dejando 2 cifras decimales: 8.41. Aquí al multiplicar 29×9 hay acarreo; al multiplicar 29×2 hay acarreo; al sumar los productos parciales hay acarreo. Por lo tanto, 2.9² = 8.41."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "32"
+            },
+            {
+              "valor": "32",
+              "signo": "×"
+            },
+            {
+              "valor": "64"
+            },
+            {
+              "valor": "960"
+            },
+            {
+              "valor": "10.24",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [],
+            [
+              1
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "3.2 × 3.2 = 10.24: se multiplican los dígitos como si fueran enteros (32 × 32). Producto parcial 1: 32×2=64 (unidades). Producto parcial 2: 32×3=96, recorrido un lugar (960). Al sumar 64+960=1024; como 3.2 tiene 1 cifra decimal en cada factor (2 en total), el punto se coloca dejando 2 cifras decimales: 10.24. Aquí al sumar los productos parciales hay acarreo. Por lo tanto, 3.2² = 10.24."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "35"
+            },
+            {
+              "valor": "35",
+              "signo": "×"
+            },
+            {
+              "valor": "175"
+            },
+            {
+              "valor": "1050"
+            },
+            {
+              "valor": "12.25",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [
+              2
+            ],
+            [],
+            []
+          ],
+          "retroalimentacion": "3.5 × 3.5 = 12.25: se multiplican los dígitos como si fueran enteros (35 × 35). Producto parcial 1: 35×5=175 (unidades). Producto parcial 2: 35×3=105, recorrido un lugar (1050). Al sumar 175+1050=1225; como 3.5 tiene 1 cifra decimal en cada factor (2 en total), el punto se coloca dejando 2 cifras decimales: 12.25. Aquí al multiplicar 35×5 hay acarreo; al multiplicar 35×3 hay acarreo; al sumar los productos parciales hay acarreo. Por lo tanto, 3.5² = 12.25."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "38"
+            },
+            {
+              "valor": "38",
+              "signo": "×"
+            },
+            {
+              "valor": "304"
+            },
+            {
+              "valor": "1140"
+            },
+            {
+              "valor": "14.44",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [],
+            [],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "3.8 × 3.8 = 14.44: se multiplican los dígitos como si fueran enteros (38 × 38). Producto parcial 1: 38×8=304 (unidades). Producto parcial 2: 38×3=114, recorrido un lugar (1140). Al sumar 304+1140=1444; como 3.8 tiene 1 cifra decimal en cada factor (2 en total), el punto se coloca dejando 2 cifras decimales: 14.44. Aquí al multiplicar 38×8 hay acarreo; al multiplicar 38×3 hay acarreo. Por lo tanto, 3.8² = 14.44."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "43"
+            },
+            {
+              "valor": "43",
+              "signo": "×"
+            },
+            {
+              "valor": "129"
+            },
+            {
+              "valor": "1720"
+            },
+            {
+              "valor": "18.49",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              1,
+              0
+            ],
+            [],
+            []
+          ],
+          "retroalimentacion": "4.3 × 4.3 = 18.49: se multiplican los dígitos como si fueran enteros (43 × 43). Producto parcial 1: 43×3=129 (unidades). Producto parcial 2: 43×4=172, recorrido un lugar (1720). Al sumar 129+1720=1849; como 4.3 tiene 1 cifra decimal en cada factor (2 en total), el punto se coloca dejando 2 cifras decimales: 18.49. Aquí al multiplicar 43×3 hay acarreo; al multiplicar 43×4 hay acarreo. Por lo tanto, 4.3² = 18.49."
+        }
+      ]
+    }
+  ]
+}

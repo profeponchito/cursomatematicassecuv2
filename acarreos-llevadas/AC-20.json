@@ -1,0 +1,307 @@
+{
+  "id": "AC-20",
+  "grado": "Acarreos y Llevadas",
+  "numero": 20,
+  "categoria": "acarreo_mult",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Multiplicación de tres cifras por una cifra",
+  "contenido": "Multiplicación de un número de tres cifras por un número de una cifra con acarreo en al menos dos de las tres posiciones.",
+  "pda": "Resuelve multiplicaciones de tres cifras por una cifra sosteniendo el acarreo a lo largo de toda la operación.",
+  "problematizacion": {
+    "contexto": "En una papelería de barrio en Puebla, el dueño surte cuadernos en cajas: cada caja trae la misma cantidad de cuadernos y necesita saber cuántos cuadernos hay en total cuando recibe varias cajas de un mismo pedido. Para no perder tiempo contando uno por uno, calcula el total multiplicando el número de cuadernos por caja (una cifra) por el número de cajas (tres cifras), o viceversa.",
+    "pregunta": "¿Cómo puede calcular rápido y sin errores el total de cuadernos cuando la cantidad por caja tiene tres cifras y el número de cajas es una sola cifra?"
+  },
+  "subtemas": [
+    {
+      "numero": "4",
+      "nivelEtiqueta": "Nivel 4 de 9 · Intermedio",
+      "titulo": "Multiplicación de tres cifras por una cifra",
+      "explicacion": "Cuando multiplicas un número de tres cifras por un número de una cifra, trabajas de derecha a izquierda: unidades, decenas y centenas. Si el producto de una posición da 10 o más, escribes solo la cifra de las unidades de ese resultado y \"llevas\" la cifra de las decenas para sumarla al siguiente producto parcial. Ese acarreo se puede repetir en las tres posiciones, así que hay que sostenerlo con cuidado durante toda la operación, sin perder ninguna llevada en el camino. Si olvidas sumar el acarreo a la siguiente cifra, el resultado final queda incorrecto aunque cada multiplicación individual esté bien hecha. Practicar este algoritmo con casillas ocultas te obliga a revisar, columna por columna, qué llevada corresponde a cada posición.",
+      "formula": "cifra x multiplicador + acarreo = resultado de esa posición (se escribe la unidad, se lleva la decena)",
+      "ejemplos": [
+        "267 x 4: unidades 7x4=28, escribo 8 y llevo 2; decenas 6x4+2=26, escribo 6 y llevo 2; centenas 2x4+2=10, escribo 10. Resultado: 1068.",
+        "186 x 5: unidades 6x5=30, escribo 0 y llevo 3; decenas 8x5+3=43, escribo 3 y llevo 4; centenas 1x5+4=9, escribo 9. Resultado: 930."
+      ],
+      "puntosPorReactivo": 14,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "267"
+            },
+            {
+              "valor": "4",
+              "signo": "×"
+            },
+            {
+              "valor": "1068",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              3
+            ]
+          ],
+          "retroalimentacion": "267 x 4 = 1068: al multiplicar 7x4=28 se escribe 8 y se lleva 2; 6x4+2=26 se escribe 6 y se lleva 2; 2x4+2=10. Hay acarreo en unidades, decenas y centenas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "358"
+            },
+            {
+              "valor": "6",
+              "signo": "×"
+            },
+            {
+              "valor": "2148",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "358 x 6 = 2148: 8x6=48 se lleva 4; 5x6+4=34 se lleva 3; 3x6+3=21. El acarreo se sostiene en las tres posiciones."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "429"
+            },
+            {
+              "valor": "7",
+              "signo": "×"
+            },
+            {
+              "valor": "3003",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "429 x 7 = 3003: 9x7=63 se lleva 6; 2x7+6=20 se lleva 2; 4x7+2=30. Observa cómo el acarreo cambia varias cifras del resultado."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "186"
+            },
+            {
+              "valor": "5",
+              "signo": "×"
+            },
+            {
+              "valor": "930",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "186 x 5 = 930: 6x5=30 se lleva 3; 8x5+3=43 se lleva 4; 1x5+4=9. El acarreo de las unidades y las decenas se refleja en el resultado."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "573"
+            },
+            {
+              "valor": "8",
+              "signo": "×"
+            },
+            {
+              "valor": "4584",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              3
+            ]
+          ],
+          "retroalimentacion": "573 x 8 = 4584: 3x8=24 se lleva 2; 7x8+2=58 se lleva 5; 5x8+5=45. El acarreo se sostiene en las tres posiciones."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "246"
+            },
+            {
+              "valor": "9",
+              "signo": "×"
+            },
+            {
+              "valor": "2214",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [
+              0
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "246 x 9 = 2214: 6x9=54 se lleva 5; 4x9+5=41 se lleva 4; 2x9+4=22. El acarreo aparece en unidades, decenas y centenas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "891"
+            },
+            {
+              "valor": "4",
+              "signo": "×"
+            },
+            {
+              "valor": "3564",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "891 x 4 = 3564: 1x4=4 (sin acarreo aquí); 9x4=36 se lleva 3; 8x4+3=35. El acarreo se sostiene de decenas a centenas y de centenas a millares."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "365"
+            },
+            {
+              "valor": "7",
+              "signo": "×"
+            },
+            {
+              "valor": "2555",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              0
+            ],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "365 x 7 = 2555: 5x7=35 se lleva 3; 6x7+3=45 se lleva 4; 3x7+4=25. El acarreo se sostiene en las tres posiciones."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "728"
+            },
+            {
+              "valor": "6",
+              "signo": "×"
+            },
+            {
+              "valor": "4368",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [
+              3
+            ]
+          ],
+          "retroalimentacion": "728 x 6 = 4368: 8x6=48 se lleva 4; 2x6+4=16 se lleva 1; 7x6+1=43. El acarreo se sostiene en las tres posiciones."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "459"
+            },
+            {
+              "valor": "8",
+              "signo": "×"
+            },
+            {
+              "valor": "3672",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0,
+              2
+            ],
+            [],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "459 x 8 = 3672: 9x8=72 se lleva 7; 5x8+7=47 se lleva 4; 4x8+4=36. El acarreo se sostiene en las tres posiciones."
+        }
+      ]
+    }
+  ]
+}

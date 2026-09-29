@@ -1,0 +1,302 @@
+{
+  "id": "AC-29",
+  "grado": "Acarreos y Llevadas",
+  "numero": 29,
+  "categoria": "acarreo_div",
+  "campoFormativo": "Saberes y Pensamiento Científico",
+  "eje": "Sentido numérico y pensamiento algebraico",
+  "titulo": "Verificación de divisiones de tres y cuatro cifras con acarreo en la comprobación",
+  "contenido": "Comprobación de divisiones de tres o cuatro cifras entre una cifra, con acarreo en al menos dos posiciones del producto de verificación.",
+  "pda": "Verifica divisiones de tres y cuatro cifras entre una cifra sosteniendo el acarreo en toda la comprobación.",
+  "problematizacion": {
+    "contexto": "En la papelería de la escuela, la encargada repartió 3204 hojas en paquetes iguales entre los 9 salones y anotó que a cada salón le tocaron 356 hojas. Antes de registrar el reparto en el inventario, quiere estar segura de que la cuenta esté bien hecha.",
+    "pregunta": "¿Cómo puede comprobar, con una multiplicación, que repartió correctamente las 3204 hojas entre los 9 salones?"
+  },
+  "subtemas": [
+    {
+      "numero": "4",
+      "nivelEtiqueta": "Nivel 4 de 9 · Intermedio",
+      "titulo": "Comprobación de divisiones de tres y cuatro cifras con acarreo",
+      "explicacion": "Para saber si una división está bien resuelta, se hace la operación inversa: se multiplica el cociente por el divisor y el resultado debe ser igual al dividendo. Cuando el divisor tiene una sola cifra pero el cociente tiene dos o tres cifras, esa multiplicación de comprobación casi siempre genera acarreo, porque el producto de un dígito por el divisor puede pasar de 9. Ese acarreo se suma al producto de la siguiente columna, tal como sucede en cualquier multiplicación por una cifra. Si al final la multiplicación reproduce exactamente el dividendo original, la división queda comprobada; si no coincide, hubo un error en algún paso del reparto. Practicar esta comprobación con acarreo ayuda a detectar equivocaciones antes de dar por buena una división de tres o cuatro cifras.",
+      "formula": "cociente × divisor = dividendo",
+      "ejemplos": [
+        "156 ÷ 4 = 39 se comprueba con 39 × 4: 9 × 4 = 36, se escribe 6 y se llevan 3; 3 × 4 + 3 = 15, se escribe 15. El resultado es 156, así que la división es correcta.",
+        "1712 ÷ 8 = 214 se comprueba con 214 × 8: 4 × 8 = 32, se llevan 3; 1 × 8 + 3 = 11, se llevan 1; 2 × 8 + 1 = 17. El resultado 1712 coincide con el dividendo original, así que el cociente 214 es correcto."
+      ],
+      "puntosPorReactivo": 14,
+      "estrellasMax": 3,
+      "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "47"
+            },
+            {
+              "valor": "8",
+              "signo": "×"
+            },
+            {
+              "valor": "376",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 376 ÷ 8 = 47, porque 47 × 8 = 376. Al multiplicar 7 × 8 = 56 se escribe 6 y se llevan 5; luego 4 × 8 + 5 = 37: hay acarreo en dos posiciones seguidas."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "68"
+            },
+            {
+              "valor": "7",
+              "signo": "×"
+            },
+            {
+              "valor": "476",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 476 ÷ 7 = 68, porque 68 × 7 = 476. 8 × 7 = 56 (se llevan 5) y 6 × 7 + 5 = 47 (se llevan 4): dos acarreos consecutivos en la comprobación."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "356"
+            },
+            {
+              "valor": "9",
+              "signo": "×"
+            },
+            {
+              "valor": "3204",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0,
+              1
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 3204 ÷ 9 = 356, porque 356 × 9 = 3204. Hay acarreo en las tres posiciones: 6 × 9 = 54 (se llevan 5), 5 × 9 + 5 = 50 (se llevan 5) y 3 × 9 + 5 = 32, que se escribe al frente del resultado."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "429"
+            },
+            {
+              "valor": "6",
+              "signo": "×"
+            },
+            {
+              "valor": "2574",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              1,
+              3
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 2574 ÷ 6 = 429, porque 429 × 6 = 2574. 9 × 6 = 54 (se llevan 5), 2 × 6 + 5 = 17 (se llevan 1) y 4 × 6 + 1 = 25: tres acarreos en la comprobación."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "517"
+            },
+            {
+              "valor": "8",
+              "signo": "×"
+            },
+            {
+              "valor": "4136",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 4136 ÷ 8 = 517, porque 517 × 8 = 4136. 7 × 8 = 56 (se llevan 5), 1 × 8 + 5 = 13 (se llevan 1) y 5 × 8 + 1 = 41: tres acarreos consecutivos."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "93"
+            },
+            {
+              "valor": "6",
+              "signo": "×"
+            },
+            {
+              "valor": "558",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 558 ÷ 6 = 93, porque 93 × 6 = 558. 3 × 6 = 18 (se llevan 1) y 9 × 6 + 1 = 55 (se llevan 5): dos acarreos en la comprobación."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "284"
+            },
+            {
+              "valor": "7",
+              "signo": "×"
+            },
+            {
+              "valor": "1988",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [],
+            [
+              3
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 1988 ÷ 7 = 284, porque 284 × 7 = 1988. 4 × 7 = 28 (se llevan 2), 8 × 7 + 2 = 58 (se llevan 5) y 2 × 7 + 5 = 19: tres acarreos seguidos."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "76"
+            },
+            {
+              "valor": "9",
+              "signo": "×"
+            },
+            {
+              "valor": "684",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 684 ÷ 9 = 76, porque 76 × 9 = 684. 6 × 9 = 54 (se llevan 5) y 7 × 9 + 5 = 68 (se llevan 6): dos acarreos en la comprobación."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "638"
+            },
+            {
+              "valor": "5",
+              "signo": "×"
+            },
+            {
+              "valor": "3190",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 3190 ÷ 5 = 638, porque 638 × 5 = 3190. 8 × 5 = 40 (se llevan 4), 3 × 5 + 4 = 19 (se llevan 1) y 6 × 5 + 1 = 31: tres acarreos en la comprobación."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "89"
+            },
+            {
+              "valor": "8",
+              "signo": "×"
+            },
+            {
+              "valor": "712",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              0
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "Esto comprueba que 712 ÷ 8 = 89, porque 89 × 8 = 712. 9 × 8 = 72 (se llevan 7) y 8 × 8 + 7 = 71 (se llevan 7): dos acarreos grandes en la comprobación."
+        }
+      ]
+    }
+  ]
+}
