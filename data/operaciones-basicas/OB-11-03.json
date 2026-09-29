@@ -1,89 +1,150 @@
 {
   "id": "OB-11-03",
   "grado": "Operaciones Básicas",
-  "numero": 83,
+  "numero": 43,
   "categoria": "suma_resta",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Estimación y redondeo antes de sumar y restar — Momento 3/8",
+  "titulo": "Estimación y redondeo antes de sumar y restar — Módulo 3/4",
   "contenido": "Estimación del resultado de una suma o resta mediante redondeo, para desarrollar sentido numérico antes del cálculo exacto.",
   "pda": "Estima el resultado de sumas y restas mediante redondeo, y lo usa para verificar si un cálculo exacto es razonable.",
   "problematizacion": {
-    "contexto": "En la central camionera de Guadalajara, Karina va a comprar dos boletos de autobús para visitar a su abuela: uno cuesta 29 pesos y otro 34 pesos. Antes de pagar, quiere saber aproximadamente cuánto llevará, redondeando los precios a la decena más cercana.",
-    "pregunta": "¿Cuál es la estimación rápida de lo que pagará Karina por los dos boletos?"
+    "contexto": "Don Efraín atiende una tienda de abarrotes en Mérida. Antes de dar el cambio exacto a un cliente que compró 92 pesos en mercancía y pagó con un billete de 200 pesos, Efraín calcula una diferencia aproximada redondeando ambas cantidades a la decena o centena más cercana, para revisar rápido si trae suficiente cambio en la caja.\n\nEn un puesto de jugos y fruta picada de Guanajuato, la señora Petra suma mentalmente lo que gastó en fruta durante la mañana: compró piña por 32.60 pesos y papaya por 18.20 pesos. Para saber rápido si le alcanza el dinero que trae, redondea cada cantidad al peso entero más cercano antes de sumar.",
+    "pregunta": "¿Cuál sería la estimación rápida del cambio que debe preparar don Efraín, redondeando antes de restar? Además: ¿Cuál es la estimación rápida de lo que gastó Petra en fruta, redondeando ambas cantidades a la unidad?"
   },
   "subtemas": [
     {
       "numero": "11.3",
-      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
-      "titulo": "Estimar sumas redondeando a la decena",
-      "explicacion": "Para estimar una suma, primero redondea cada sumando a la decena más cercana y luego súmalos. El resultado es una aproximación rápida del total real, útil para saber si la respuesta que obtendrás al sumar con exactitud tiene sentido. Esta técnica no sustituye el cálculo exacto, pero te da una idea del tamaño esperado del resultado antes de hacer las cuentas con todos los dígitos.",
-      "formula": "Estimación de la suma = (sumando 1 redondeado) + (sumando 2 redondeado)",
+      "nivelEtiqueta": "Nivel 3 de 4 · Avanzado",
+      "titulo": "Estimar restas redondeando a la decena o centena y Estimar sumas y restas con decimales",
+      "explicacion": "Estimar una resta funciona igual que estimar una suma: se redondea el minuendo y el sustraendo a la decena o a la centena más cercana, según el tamaño de los números, y luego se restan los valores ya redondeados. Esta estimación es muy útil para calcular cambios de dinero, diferencias de distancia o de tiempo de forma rápida. Es importante redondear ambos números con el mismo criterio (decena o centena) para que la comparación sea justa.\n\nAl estimar sumas o restas con números decimales, como precios con centavos, se redondea cada cantidad a la unidad (al peso entero) más cercana antes de operar. Se observa la cifra de los décimos: si es 5 o más, la unidad sube a la siguiente; si es menor a 5, la unidad se queda igual. Esta estrategia evita trabajar con centavos al hacer una estimación rápida y funciona igual tanto para sumas como para restas.",
+      "formula": "Estimación de la resta = (minuendo redondeado) − (sustraendo redondeado); Si los décimos ≥ 5, sube a la unidad siguiente; si son < 5, la unidad se queda igual.",
       "ejemplos": [
-        "Estimar 38 + 24: 38 se redondea a 40, 24 se redondea a 20. Estimación: 40 + 20 = 60.",
-        "Estimar 67 + 52: 67 se redondea a 70, 52 se redondea a 50. Estimación: 70 + 50 = 120."
+        "Estimar 86 − 34 redondeando a la decena: 86→90, 34→30. Estimación: 90 − 30 = 60.",
+        "Estimar 573 − 248 redondeando a la centena: 573→600, 248→200. Estimación: 600 − 200 = 400.",
+        "Estimar 24.70 + 15.30 redondeando a la unidad: 24.70→25, 15.30→15. Estimación: 25 + 15 = 40.",
+        "Estimar 58.40 − 22.90 redondeando a la unidad: 58.40→58, 22.90→23. Estimación: 58 − 23 = 35."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "Estima 29 + 34 redondeando cada número a la decena más cercana.",
+          "pregunta": "Estima 92 − 47 redondeando cada número a la decena más cercana.",
           "opciones": [
+            "30",
+            "40",
             "50",
-            "60",
-            "70",
-            "63"
+            "45"
           ],
           "respuestaCorrecta": 1,
-          "retroalimentacion": "29 se redondea a 30 y 34 se redondea a 30. La estimación es 30 + 30 = 60."
+          "retroalimentacion": "92 se redondea a 90 y 47 se redondea a 50. La estimación es 90 − 50 = 40."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "Redondeando a la decena, 47 + 22 se estima en ___.",
-          "respuestaCorrecta": "70",
-          "retroalimentacion": "47 se redondea a 50 y 22 se redondea a 20. La estimación es 50 + 20 = 70."
+          "frase": "Redondeando a la centena, 618 − 253 se estima en ___.",
+          "respuestaCorrecta": "300",
+          "retroalimentacion": "618 se redondea a 600 y 253 se redondea a 300. La estimación es 600 − 300 = 300."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "Al redondear 53 y 38 a la decena más cercana y sumarlos, la estimación es 90.",
-          "respuestaCorrecta": true,
-          "retroalimentacion": "Correcto: 53 se redondea a 50 y 38 se redondea a 40. La estimación es 50 + 40 = 90."
+          "enunciado": "Al redondear 745 y 289 a la centena más cercana y restarlos, la estimación es 500.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: 745 se redondea a 700 y 289 se redondea a 300. La estimación correcta es 700 − 300 = 400, no 500."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuál es la mejor estimación de 61 + 27 redondeando cada número a la decena?",
+          "pregunta": "¿Cuál es la mejor estimación de 81 − 26 redondeando cada número a la decena?",
           "opciones": [
-            "80",
-            "85",
-            "90",
-            "100"
+            "40",
+            "50",
+            "55",
+            "60"
           ],
-          "respuestaCorrecta": 2,
-          "retroalimentacion": "61 se redondea a 60 y 27 se redondea a 30. La estimación es 60 + 30 = 90."
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "81 se redondea a 80 y 26 se redondea a 30. La estimación es 80 − 30 = 50."
         },
         {
           "tipo": "relacionar_columnas",
-          "instruccion": "Relaciona cada suma con su estimación, redondeando ambos sumandos a la decena más cercana.",
+          "instruccion": "Relaciona cada resta con su estimación (usa decena para números de 2 cifras y centena para números de 3 cifras).",
           "columnaA": [
-            "19 + 42",
-            "76 + 15",
-            "33 + 48",
-            "64 + 29"
+            "96 − 38",
+            "584 − 217",
+            "73 − 19",
+            "829 − 341"
           ],
           "columnaB": [
+            "50",
             "60",
-            "80",
-            "90",
-            "100"
+            "400",
+            "500"
           ],
           "parejasCorrectas": [
-            0,
-            3,
             1,
-            2
+            2,
+            0,
+            3
           ],
-          "retroalimentacion": "19+42→20+40=60; 76+15→80+20=100; 33+48→30+50=80; 64+29→60+30=90."
+          "retroalimentacion": "96−38→100−40=60; 584−217→600−200=400; 73−19→70−20=50; 829−341→800−300=500."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Estima 32.60 + 18.20 redondeando cada cantidad a la unidad más cercana.",
+          "opciones": [
+            "48",
+            "50",
+            "51",
+            "55"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "32.60 se redondea a 33 y 18.20 se redondea a 18. La estimación es 33 + 18 = 51."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Redondeando a la unidad, 45.80 − 12.30 se estima en ___.",
+          "respuestaCorrecta": "34",
+          "retroalimentacion": "45.80 se redondea a 46 y 12.30 se redondea a 12. La estimación es 46 − 12 = 34."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Al redondear 63.40 y 27.90 a la unidad más cercana y sumarlos, la estimación es 91.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 63.40 se redondea a 63 y 27.90 se redondea a 28. La estimación es 63 + 28 = 91."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la mejor estimación de 89.10 − 34.60 redondeando cada cantidad a la unidad?",
+          "opciones": [
+            "53",
+            "54",
+            "55",
+            "60"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "89.10 se redondea a 89 y 34.60 se redondea a 35. La estimación es 89 − 35 = 54."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada operación con su estimación, redondeando cada cantidad a la unidad más cercana.",
+          "columnaA": [
+            "21.40 + 16.70",
+            "54.90 − 19.20",
+            "38.30 + 25.60",
+            "72.60 − 48.10"
+          ],
+          "columnaB": [
+            "25",
+            "36",
+            "38",
+            "64"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            3,
+            0
+          ],
+          "retroalimentacion": "21.40+16.70→21+17=38; 54.90−19.20→55−19=36; 38.30+25.60→38+26=64; 72.60−48.10→73−48=25."
         }
       ]
     }

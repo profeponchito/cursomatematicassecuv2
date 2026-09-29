@@ -1,27 +1,28 @@
 {
   "id": "OB-04-01",
   "grado": "Operaciones Básicas",
-  "numero": 25,
+  "numero": 13,
   "categoria": "suma_resta",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Suma y resta de naturales grandes por posición — Momento 1/8",
+  "titulo": "Suma y resta de naturales grandes por posición — Módulo 1/4",
   "contenido": "Suma y resta de números de varias cifras (miles, decenas de mil), reforzando el valor posicional como base del algoritmo.",
   "pda": "Suma y resta números naturales de varias cifras, descomponiendo cada número por su valor posicional (unidades, decenas, centenas, miles).",
   "problematizacion": {
-    "contexto": "Doña Rosa acomoda etiquetas de precio en su puesto de jitomates en el mercado de Toluca. Escribió el precio de una caja como $4,586 pesos, pero uno de sus dígitos se despintó y ya no sabe qué lugar ocupaba. Su hija le ayuda a repasar el valor de cada posición antes de volver a escribir la etiqueta.",
-    "pregunta": "Si el dígito despintado estaba en las centenas, ¿qué tanto pudo haber cambiado el precio real de la caja?"
+    "contexto": "Doña Rosa acomoda etiquetas de precio en su puesto de jitomates en el mercado de Toluca. Escribió el precio de una caja como $4,586 pesos, pero uno de sus dígitos se despintó y ya no sabe qué lugar ocupaba. Su hija le ayuda a repasar el valor de cada posición antes de volver a escribir la etiqueta.\n\nEl profesor Iván organiza la colecta de útiles escolares de su secundaria en Querétaro. Un salón donó cuadernos y libretas que llegaron en dos cajas separadas, y necesita saber cuántos artículos hay en total antes de acomodarlos en el estante.",
+    "pregunta": "Si el dígito despintado estaba en las centenas, ¿qué tanto pudo haber cambiado el precio real de la caja? Además: ¿Qué operación debe hacer el profesor Iván para saber el total de artículos donados entre las dos cajas?"
   },
   "subtemas": [
     {
       "numero": "4.1",
-      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
-      "titulo": "El valor de cada dígito según su posición",
-      "explicacion": "Cada dígito de un número natural vale distinto según el lugar donde está escrito: no es lo mismo un 5 en las unidades que un 5 en las centenas. Para sumar o restar números grandes sin equivocarte, primero necesitas reconocer con seguridad qué valor tiene cada posición: unidades, decenas, centenas y millares (miles). Esta idea es la base de todo el algoritmo que usarás en los siguientes momentos.",
-      "formula": "Unidades x1, Decenas x10, Centenas x100, Millares x1000",
+      "nivelEtiqueta": "Nivel 1 de 4 · Introductorio",
+      "titulo": "El valor de cada dígito según su posición y Sumar en columnas sin acarreo",
+      "explicacion": "Cada dígito de un número natural vale distinto según el lugar donde está escrito: no es lo mismo un 5 en las unidades que un 5 en las centenas. Para sumar o restar números grandes sin equivocarte, primero necesitas reconocer con seguridad qué valor tiene cada posición: unidades, decenas, centenas y millares (miles). Esta idea es la base de todo el algoritmo que usarás en los siguientes momentos.\n\nAhora que reconoces el valor posicional, vas a aplicarlo en el algoritmo escrito de la suma: se acomodan los números uno debajo del otro alineando unidades con unidades, decenas con decenas, y así sucesivamente, y se suma cada columna de derecha a izquierda. En este momento ninguna columna pasa de 9, así que todavía no necesitas 'llevar' nada: es el paso perfecto para dominar el acomodo antes de complicarlo.",
+      "formula": "Unidades x1, Decenas x10, Centenas x100, Millares x1000; Alinear por posición y sumar columna por columna, de derecha a izquierda",
       "ejemplos": [
         "En el número 4,586: el 4 vale 4,000 (millares), el 5 vale 500 (centenas), el 8 vale 80 (decenas) y el 6 vale 6 (unidades).",
-        "5,842 se descompone como 5,000 + 800 + 40 + 2, porque el 5 está en los millares, el 8 en las centenas, el 4 en las decenas y el 2 en las unidades."
+        "5,842 se descompone como 5,000 + 800 + 40 + 2, porque el 5 está en los millares, el 8 en las centenas, el 4 en las decenas y el 2 en las unidades.",
+        "4,213 + 1,252: unidades 3+2=5, decenas 1+5=6, centenas 2+2=4, millares 4+1=5. Resultado: 5,465."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
@@ -101,6 +102,71 @@
             ]
           ],
           "retroalimentacion": "213 + 352 = 565. Cada columna se suma por separado: centenas con centenas, decenas con decenas y unidades con unidades, sin mezclar posiciones."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "4213"
+            },
+            {
+              "valor": "1252",
+              "signo": "+"
+            },
+            {
+              "valor": "5465",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              3
+            ],
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "4,213 + 1,252 = 5,465. Como ninguna columna suma más de 9, cada dígito del resultado sale directo de sumar esa columna."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una papelería vendió 3,124 lápices en marzo y 2,653 en abril. ¿Cuántos lápices vendió en total entre los dos meses?",
+          "opciones": [
+            "5,677",
+            "5,777",
+            "5,877",
+            "5,767"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "3,124 + 2,653 = 5,777: unidades 4+3=7, decenas 2+5=7, centenas 1+6=7, millares 3+2=5."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "6,542 + 1,236 = 7,778.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: unidades 2+6=8, decenas 4+3=7, centenas 5+2=7, millares 6+1=7, así que el resultado es 7,778."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "2,315 + 4,201 = ___.",
+          "respuestaCorrecta": "6516",
+          "retroalimentacion": "Sumando columna por columna: unidades 5+1=6, decenas 1+0=1, centenas 3+2=5, millares 2+4=6. El resultado es 6,516."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una tienda de abarrotes tenía 5,123 productos en la bodega y recibió un pedido de 3,646 productos más. ¿Cuántos productos hay ahora en total?",
+          "opciones": [
+            "8,669",
+            "8,759",
+            "8,769",
+            "8,779"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "5,123 + 3,646 = 8,769: unidades 3+6=9, decenas 2+4=6, centenas 1+6=7, millares 5+3=8."
         }
       ]
     }

@@ -1,27 +1,29 @@
 {
   "id": "OB-11-01",
   "grado": "Operaciones Básicas",
-  "numero": 81,
+  "numero": 41,
   "categoria": "suma_resta",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Estimación y redondeo antes de sumar y restar — Momento 1/8",
+  "titulo": "Estimación y redondeo antes de sumar y restar — Módulo 1/4",
   "contenido": "Estimación del resultado de una suma o resta mediante redondeo, para desarrollar sentido numérico antes del cálculo exacto.",
   "pda": "Estima el resultado de sumas y restas mediante redondeo, y lo usa para verificar si un cálculo exacto es razonable.",
   "problematizacion": {
-    "contexto": "En el mercado de Tlacolula, Oaxaca, doña Rosa vende chiles y especias, y quiere calcular rápido sus ventas del día sin usar calculadora. Para eso, redondea cada precio a la decena más cercana antes de sumar mentalmente. Un cliente acaba de comprar un manojo de chiles secos que cuesta 47 pesos.",
-    "pregunta": "¿A qué decena se redondea el precio de 47 pesos que pagó el cliente de doña Rosa?"
+    "contexto": "En el mercado de Tlacolula, Oaxaca, doña Rosa vende chiles y especias, y quiere calcular rápido sus ventas del día sin usar calculadora. Para eso, redondea cada precio a la decena más cercana antes de sumar mentalmente. Un cliente acaba de comprar un manojo de chiles secos que cuesta 47 pesos.\n\nEn la papelería de una secundaria técnica de Puebla, el profesor Martín necesita dar un reporte rápido al director sobre cuántos cuadernos hay en el almacén, sin contar uno por uno. Para eso, redondea las cantidades a la centena más cercana. En una caja grande hay 452 cuadernos.",
+    "pregunta": "¿A qué decena se redondea el precio de 47 pesos que pagó el cliente de doña Rosa? Además: ¿A qué centena se redondea la cantidad de 452 cuadernos que reportará el profesor Martín?"
   },
   "subtemas": [
     {
       "numero": "11.1",
-      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
-      "titulo": "Redondeo a la decena más cercana",
-      "explicacion": "Redondear un número a la decena más cercana significa expresarlo como el múltiplo de 10 más próximo. Para hacerlo, se observa la cifra de las unidades: si es 5 o más, la decena sube al siguiente múltiplo de 10; si es menor a 5, la decena se queda igual. Este es el primer paso para poder estimar resultados antes de sumar o restar con exactitud. Dominar este redondeo te permite calcular cantidades aproximadas rápidamente, sin hacer la cuenta completa.",
-      "formula": "Si la cifra de las unidades ≥ 5, sube a la decena siguiente; si es < 5, la decena se queda igual.",
+      "nivelEtiqueta": "Nivel 1 de 4 · Introductorio",
+      "titulo": "Redondeo a la decena más cercana y Redondeo a la centena más cercana",
+      "explicacion": "Redondear un número a la decena más cercana significa expresarlo como el múltiplo de 10 más próximo. Para hacerlo, se observa la cifra de las unidades: si es 5 o más, la decena sube al siguiente múltiplo de 10; si es menor a 5, la decena se queda igual. Este es el primer paso para poder estimar resultados antes de sumar o restar con exactitud. Dominar este redondeo te permite calcular cantidades aproximadas rápidamente, sin hacer la cuenta completa.\n\nRedondear a la centena más cercana funciona igual que redondear a la decena, pero ahora se observa la cifra de las decenas: si es 5 o más, la centena sube al siguiente múltiplo de 100; si es menor a 5, la centena se queda igual. Redondear a centenas es útil cuando los números son más grandes y basta con una aproximación más general. Esta habilidad prepara el terreno para estimar sumas y restas con cantidades de tres cifras o más.",
+      "formula": "Si la cifra de las unidades ≥ 5, sube a la decena siguiente; si es < 5, la decena se queda igual.; Si la cifra de las decenas ≥ 5, sube a la centena siguiente; si es < 5, la centena se queda igual.",
       "ejemplos": [
         "Redondear 47 a la decena más cercana: la cifra de las unidades es 7 (≥5), así que 47 se redondea a 50.",
-        "Redondear 82 a la decena más cercana: la cifra de las unidades es 2 (<5), así que 82 se redondea a 80."
+        "Redondear 82 a la decena más cercana: la cifra de las unidades es 2 (<5), así que 82 se redondea a 80.",
+        "Redondear 340 a la centena más cercana: la cifra de las decenas es 4 (<5), así que 340 se redondea a 300.",
+        "Redondear 673 a la centena más cercana: la cifra de las decenas es 7 (≥5), así que 673 se redondea a 700."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
@@ -84,6 +86,65 @@
             0
           ],
           "retroalimentacion": "28→30 (unidad 8≥5), 51→50 (unidad 1<5), 74→70 (unidad 4<5), 19→20 (unidad 9≥5)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿A qué centena más cercana se redondea 452?",
+          "opciones": [
+            "400",
+            "450",
+            "500",
+            "550"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "La cifra de las decenas de 452 es 5, que es 5 o más, así que la centena sube: 452 se redondea a 500."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "281 redondeado a la centena más cercana es 200.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: la cifra de las decenas de 281 es 8, que es 5 o más, así que la centena sube y 281 se redondea a 300, no a 200."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El número 758 redondeado a la centena más cercana es ___.",
+          "respuestaCorrecta": "800",
+          "retroalimentacion": "La cifra de las decenas de 758 es 5, así que la centena sube: 758 se redondea a 800."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Redondea 129 a la centena más cercana.",
+          "opciones": [
+            "100",
+            "150",
+            "200",
+            "130"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "La cifra de las decenas de 129 es 2, menor a 5, así que la centena se queda igual: 129 se redondea a 100."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada número con su redondeo a la centena más cercana.",
+          "columnaA": [
+            "316",
+            "649",
+            "825",
+            "172"
+          ],
+          "columnaB": [
+            "200",
+            "300",
+            "600",
+            "800"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            3,
+            0
+          ],
+          "retroalimentacion": "316→300 (decena 1<5), 649→600 (decena 4<5), 825→800 (decena 2<5), 172→200 (decena 7≥5)."
         }
       ]
     }

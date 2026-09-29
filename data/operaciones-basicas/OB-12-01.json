@@ -1,26 +1,27 @@
 {
   "id": "OB-12-01",
   "grado": "Operaciones Básicas",
-  "numero": 89,
+  "numero": 45,
   "categoria": "suma_resta",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Suma y resta en la vida cotidiana — Momento 1/8",
+  "titulo": "Suma y resta en la vida cotidiana — Módulo 1/4",
   "contenido": "Suma y resta aplicadas a situaciones cotidianas: dinero, medidas y tiempo.",
   "pda": "Resuelve problemas cotidianos de dinero, medidas y tiempo que requieren sumar o restar números naturales o decimales.",
   "problematizacion": {
-    "contexto": "Mariana va a la papelería 'Los Pinos' antes de que empiecen las clases porque necesita comprar varios materiales para el ciclo escolar. Tiene un presupuesto que le dio su mamá y quiere aprovecharlo bien. En el mostrador hay cuadernos, lápices, colores y mochilas con distintos precios.",
-    "pregunta": "Si Mariana quiere comprar un cuaderno y una mochila, ¿qué operación necesita hacer para saber cuánto va a pagar en total?"
+    "contexto": "Mariana va a la papelería 'Los Pinos' antes de que empiecen las clases porque necesita comprar varios materiales para el ciclo escolar. Tiene un presupuesto que le dio su mamá y quiere aprovecharlo bien. En el mostrador hay cuadernos, lápices, colores y mochilas con distintos precios.\n\nKevin va a la tienda de abarrotes de Don Refugio a comprar unas galletas y un refresco para el recreo. Paga con un billete porque no trae cambio exacto. Don Refugio siempre le explica cuánto le va a regresar antes de dárselo.",
+    "pregunta": "Si Mariana quiere comprar un cuaderno y una mochila, ¿qué operación necesita hacer para saber cuánto va a pagar en total? Además: ¿Qué operación usa Don Refugio para calcular el cambio que le debe dar a Kevin?"
   },
   "subtemas": [
     {
       "numero": "12.1",
-      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
-      "titulo": "Sumar cantidades de dinero en compras sencillas",
-      "explicacion": "Cuando compras dos o más cosas, para saber cuánto vas a pagar en total tienes que sumar el precio de cada artículo. Esta suma se hace igual que con cualquier número: alineando las cantidades de derecha a izquierda, empezando por las unidades. En la vida diaria usamos esta suma constantemente, ya sea en la tienda, la papelería o el mercado. Lo importante en este primer momento es identificar cuándo una situación te pide sumar y hacerlo con orden.",
-      "formula": "Total a pagar = precio 1 + precio 2 + ...",
+      "nivelEtiqueta": "Nivel 1 de 4 · Introductorio",
+      "titulo": "Sumar cantidades de dinero en compras sencillas y Calcular el cambio al pagar con dinero",
+      "explicacion": "Cuando compras dos o más cosas, para saber cuánto vas a pagar en total tienes que sumar el precio de cada artículo. Esta suma se hace igual que con cualquier número: alineando las cantidades de derecha a izquierda, empezando por las unidades. En la vida diaria usamos esta suma constantemente, ya sea en la tienda, la papelería o el mercado. Lo importante en este primer momento es identificar cuándo una situación te pide sumar y hacerlo con orden.\n\nCuando pagas con un billete de mayor valor que el costo de tu compra, te regresan la diferencia; a esa diferencia se le llama cambio o vuelto. Para calcularlo se resta el precio de lo que compraste al dinero con el que pagaste. Es importante identificar cuál es el minuendo (lo que pagaste) y cuál el sustraendo (lo que costó), para no restar al revés. Saber calcular el cambio te ayuda a verificar que te den el dinero correcto.",
+      "formula": "Total a pagar = precio 1 + precio 2 + ...; Cambio = dinero con el que pagas − costo de la compra",
       "ejemplos": [
-        "Compras un jugo de $15 y una fruta de $9. Como quieres saber cuánto pagas en total, sumas: 15 + 9 = 24 pesos."
+        "Compras un jugo de $15 y una fruta de $9. Como quieres saber cuánto pagas en total, sumas: 15 + 9 = 24 pesos.",
+        "Pagas con $200 algo que cuesta $145. Cambio: 200 − 145 = 55 pesos."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
@@ -89,6 +90,71 @@
           ],
           "respuestaCorrecta": 0,
           "retroalimentacion": "310 + 45 = 355 pesos por los dos artículos juntos."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Pagas con un billete de $100 una torta que cuesta $37. ¿Cuánto te dan de cambio?",
+          "opciones": [
+            "$63",
+            "$73",
+            "$53",
+            "$67"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "100 − 37 = 63 pesos de cambio."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si pagas $200 por una compra de $85, tu cambio es menor a $100.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "200 − 85 = 115 pesos, y 115 es mayor a 100, no menor."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Diego tenía $150 y gastó $95 en el cine. Le quedan $___ pesos.",
+          "respuestaCorrecta": "55",
+          "retroalimentacion": "150 − 95 = 55 pesos le quedan a Diego."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "402"
+            },
+            {
+              "valor": "168",
+              "signo": "-"
+            },
+            {
+              "valor": "234",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "402 − 168 = 234: se pide prestado en las unidades y en las decenas."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Camila compra un jugo de $28 y paga con $50. ¿Cuánto le regresan de cambio?",
+          "opciones": [
+            "$22",
+            "$32",
+            "$18",
+            "$12"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "50 − 28 = 22 pesos de cambio."
         }
       ]
     }

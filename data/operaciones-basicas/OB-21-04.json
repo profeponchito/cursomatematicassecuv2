@@ -1,74 +1,159 @@
 {
   "id": "OB-21-04",
   "grado": "Operaciones Básicas",
-  "numero": 164,
+  "numero": 84,
   "categoria": "mult_div",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "División entre decenas, centenas y potencias de 10 — Momento 4/8",
+  "titulo": "División entre decenas, centenas y potencias de 10 — Módulo 4/4",
   "contenido": "División de un número entre 10, 100, 1000 y sus múltiplos, identificando el patrón inverso al de la multiplicación por potencias de 10.",
   "pda": "Divide números naturales entre potencias de 10 y sus múltiplos, reconociendo el patrón que sigue el resultado.",
   "problematizacion": {
-    "contexto": "Una empresa de autobuses foráneos debe trasladar a 840 pasajeros de Puebla a la Ciudad de México, usando camiones que tienen capacidad para 20 asientos cada uno.",
-    "pregunta": "¿Cuántos camiones de 20 asientos necesita la empresa para trasladar a los 840 pasajeros?"
+    "contexto": "Un panadero de Puebla horneó una gran masa de pan dulce que pesó 186 kg en total y debe repartirla en partes exactamente iguales entre 20 tiendas distintas de la zona.\n\nPara la kermés de fin de año, la cooperativa escolar preparó 7200 vasos de agua fresca y quiere repartirlos en paquetes de 800 vasos para surtir distintos puestos de venta dentro de la escuela.",
+    "pregunta": "¿Cuántos kilogramos de pan le tocan a cada una de las 20 tiendas si la masa se reparte en partes iguales? Además: ¿Cuántos paquetes de 800 vasos puede armar la cooperativa con los 7200 vasos de agua fresca?"
   },
   "subtemas": [
     {
       "numero": "21.4",
-      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
-      "titulo": "Dividir entre múltiplos de 10, 100 y 1000",
-      "explicacion": "Muchos divisores no son exactamente 10, 100 o 1000, sino múltiplos de ellos, como 20, 300 o 4000. Para dividir entre estos números se puede separar el divisor en la potencia de 10 y el dígito que sobra: primero se divide entre la potencia de 10 (quitando o corriendo ceros, como ya aprendiste) y después ese resultado se divide entre el dígito restante. Esta estrategia convierte un problema aparentemente difícil en dos pasos que ya conoces.",
-      "formula": "número ÷ (d × 10ⁿ) = (número ÷ 10ⁿ) ÷ d",
+      "nivelEtiqueta": "Nivel 4 de 4 · Integración",
+      "titulo": "Reto: múltiplos de 10 con resultado decimal y Integración: todos los patrones de división entre potencias de 10",
+      "explicacion": "Este momento combina los dos retos anteriores: dividir entre un múltiplo de una potencia de 10 (como 20, 300 o 900) cuando además el resultado no es un número entero, sino decimal. La estrategia sigue siendo la misma: primero se divide entre la potencia de 10 (moviendo el punto), y después ese resultado se divide entre el dígito que sobra del divisor. Verificar el resultado multiplicándolo de vuelta por el divisor es la mejor forma de estar seguro de que el cociente es correcto.\n\nLlegaste al cierre del tema: aquí se mezclan todos los patrones que trabajaste, dividir entre 10, 100 y 1000 exactos, entre sus múltiplos, y con resultados decimales. La clave para resolver cualquier caso es identificar primero la potencia de 10 escondida en el divisor, aplicar el corrimiento del punto o el patrón de quitar ceros, y después ajustar con el dígito restante si el divisor no es una potencia de 10 pura. Verificar siempre con la multiplicación inversa te da la certeza de que el resultado es correcto.",
+      "formula": "número ÷ (d × 10ⁿ) = (número ÷ 10ⁿ) ÷ d ; se comprueba con cociente × divisor = dividendo; cociente × divisor = dividendo (verificación)",
       "ejemplos": [
-        "840 ÷ 20: primero 840 ÷ 10 = 84, y después 84 ÷ 2 = 42. Comprobación: 42 × 20 = 840.",
-        "6300 ÷ 300: primero 6300 ÷ 100 = 63, y después 63 ÷ 3 = 21. Comprobación: 21 × 300 = 6300."
+        "186 ÷ 20: primero 186 ÷ 10 = 18.6, y después 18.6 ÷ 2 = 9.3. Comprobación: 9.3 × 20 = 186.",
+        "45 ÷ 300: primero 45 ÷ 100 = 0.45, y después 0.45 ÷ 3 = 0.15. Comprobación: 0.15 × 300 = 45.",
+        "7200 ÷ 800: primero 7200 ÷ 100 = 72, y después 72 ÷ 8 = 9. Comprobación: 9 × 800 = 7200.",
+        "63.5 ÷ 100: corremos el punto dos lugares a la izquierda y queda 0.635. Comprobación: 0.635 × 100 = 63.5."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuánto es 840 ÷ 20?",
+          "pregunta": "¿Cuánto es 186 ÷ 20?",
           "opciones": [
-            "42",
-            "4.2",
-            "420",
-            "84"
+            "9.3",
+            "93",
+            "0.93",
+            "18.6"
           ],
           "respuestaCorrecta": 0,
-          "retroalimentacion": "840 ÷ 10 = 84, y 84 ÷ 2 = 42. Comprobación: 42 × 20 = 840."
+          "retroalimentacion": "186 ÷ 10 = 18.6, y 18.6 ÷ 2 = 9.3. Comprobación: 9.3 × 20 = 186."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "6300 ÷ 300 = ___",
-          "respuestaCorrecta": "21",
-          "retroalimentacion": "6300 ÷ 100 = 63, y 63 ÷ 3 = 21. Comprobación: 21 × 300 = 6300."
+          "frase": "45 ÷ 300 = ___",
+          "respuestaCorrecta": "0.15",
+          "retroalimentacion": "45 ÷ 100 = 0.45, y 0.45 ÷ 3 = 0.15. Comprobación: 0.15 × 300 = 45."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "4000 ÷ 2000 = 2",
+          "enunciado": "930 ÷ 400 = 2.325",
           "respuestaCorrecta": true,
-          "retroalimentacion": "Verdadero. 4000 ÷ 1000 = 4, y 4 ÷ 2 = 2. Comprobación: 2 × 2000 = 4000."
+          "retroalimentacion": "Verdadero. 930 ÷ 100 = 9.3, y 9.3 ÷ 4 = 2.325. Comprobación: 2.325 × 400 = 930."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuánto es 9000 ÷ 300?",
+          "pregunta": "¿Cuál es el resultado de 63 ÷ 900?",
           "opciones": [
-            "3",
-            "30",
-            "300",
-            "90"
+            "0.7",
+            "0.07",
+            "0.007",
+            "7"
           ],
           "respuestaCorrecta": 1,
-          "retroalimentacion": "9000 ÷ 100 = 90, y 90 ÷ 3 = 30. Comprobación: 30 × 300 = 9000."
+          "retroalimentacion": "63 ÷ 100 = 0.63, y 0.63 ÷ 9 = 0.07. Comprobación: 0.07 × 900 = 63."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "12000 ÷ 4000 = ___",
-          "respuestaCorrecta": "3",
-          "retroalimentacion": "12000 ÷ 1000 = 12, y 12 ÷ 4 = 3. Comprobación: 3 × 4000 = 12000."
+          "frase": "252 ÷ 40 = ___",
+          "respuestaCorrecta": "6.3",
+          "retroalimentacion": "252 ÷ 10 = 25.2, y 25.2 ÷ 4 = 6.3. Comprobación: 6.3 × 40 = 252."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 7200 ÷ 800?",
+          "opciones": [
+            "0.9",
+            "9",
+            "90",
+            "900"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "7200 ÷ 100 = 72, y 72 ÷ 8 = 9. Comprobación: 9 × 800 = 7200."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "63.5 ÷ 100 = ___",
+          "respuestaCorrecta": "0.635",
+          "retroalimentacion": "Corremos el punto dos lugares a la izquierda en 63.5 y queda 0.635. Comprobación: 0.635 × 100 = 63.5."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "4500 ÷ 90 = 50",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Verdadero. 4500 ÷ 10 = 450, y 450 ÷ 9 = 50. Comprobación: 50 × 90 = 4500."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada división con su resultado correcto.",
+          "columnaA": [
+            "3600 ÷ 40",
+            "81 ÷ 900",
+            "2.4 ÷ 100"
+          ],
+          "columnaB": [
+            "0.024",
+            "0.09",
+            "90",
+            "9"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "3600 ÷ 40 = 90, 81 ÷ 900 = 0.09 y 2.4 ÷ 100 = 0.024; en cada caso se aplica el patrón de la potencia de 10 escondida en el divisor."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 480000 ÷ 6000?",
+          "opciones": [
+            "8",
+            "80",
+            "800",
+            "0.8"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "480000 ÷ 1000 = 480, y 480 ÷ 6 = 80. Comprobación: 80 × 6000 = 480000."
         }
       ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es el resultado de 25000 ÷ 500?",
+      "opciones": [
+        "5",
+        "50",
+        "500",
+        "0.5"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "25000 ÷ 100 = 250, y 250 ÷ 5 = 50. Comprobación: 50 × 500 = 25000."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "936 ÷ 400 = ___",
+      "respuestaCorrecta": "2.34",
+      "retroalimentacion": "936 ÷ 100 = 9.36, y 9.36 ÷ 4 = 2.34. Comprobación: 2.34 × 400 = 936."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "0.72 ÷ 100 = 0.0072",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Verdadero. Corremos el punto dos lugares a la izquierda en 0.72, agregando un cero, y queda 0.0072."
     }
   ]
 }

@@ -1,26 +1,27 @@
 {
   "id": "OB-09-01",
   "grado": "Operaciones Básicas",
-  "numero": 65,
+  "numero": 33,
   "categoria": "suma_resta",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Suma y resta de números con signo (mismo signo) — Momento 1/8",
+  "titulo": "Suma y resta de números con signo (mismo signo) — Módulo 1/4",
   "contenido": "Suma y resta de números enteros con signo cuando ambos números tienen el mismo signo.",
   "pda": "Suma y resta números enteros con el mismo signo, relacionando la regla con la suma de valores absolutos.",
   "problematizacion": {
-    "contexto": "Doña Lupe pone un puesto de frutas en el tianguis del barrio. El lunes vendió mercancía por $8 y el martes por $6, y quiere saber cuánto lleva acumulado entre esos dos días para anotarlo en su libreta.",
-    "pregunta": "Si ambas cantidades son ganancias (positivas), ¿cómo se suman sus valores para saber el total acumulado?"
+    "contexto": "Doña Lupe pone un puesto de frutas en el tianguis del barrio. El lunes vendió mercancía por $8 y el martes por $6, y quiere saber cuánto lleva acumulado entre esos dos días para anotarlo en su libreta.\n\nEn un partido de fútbol americano, el equipo de la secundaria retrocedió 8 yardas en una jugada por una sanción, y en la siguiente jugada volvió a retroceder 5 yardas más porque el mariscal de campo fue detenido.",
+    "pregunta": "Si ambas cantidades son ganancias (positivas), ¿cómo se suman sus valores para saber el total acumulado? Además: si ambos retrocesos se representan con números negativos, ¿cómo se combinan para saber cuánto terreno perdió el equipo en total?"
   },
   "subtemas": [
     {
       "numero": "9.1",
-      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
-      "titulo": "Sumar dos números positivos",
-      "explicacion": "Cuando sumas dos números que tienen el mismo signo, primero sumas sus valores absolutos (es decir, los números 'sin signo') y después le pones al resultado el signo que comparten ambos. En este momento empezamos con el caso más sencillo: dos números positivos, donde ya conoces la regla desde primaria, pero ahora la vamos a nombrar formalmente porque es la base de todo lo que sigue con números negativos.",
-      "formula": "(+a) + (+b) = +(a + b)",
+      "nivelEtiqueta": "Nivel 1 de 4 · Introductorio",
+      "titulo": "Sumar dos números positivos y Sumar dos números negativos",
+      "explicacion": "Cuando sumas dos números que tienen el mismo signo, primero sumas sus valores absolutos (es decir, los números 'sin signo') y después le pones al resultado el signo que comparten ambos. En este momento empezamos con el caso más sencillo: dos números positivos, donde ya conoces la regla desde primaria, pero ahora la vamos a nombrar formalmente porque es la base de todo lo que sigue con números negativos.\n\nAhora la novedad es que los dos números son negativos. La regla no cambia: sumas los valores absolutos de ambos números y el resultado se queda con el signo que comparten, en este caso el negativo. Un error común es pensar que un negativo más un negativo 'se cancela'; en realidad se alejan más de cero en la misma dirección, así que el resultado se hace más negativo (más grande en valor absoluto).",
+      "formula": "(+a) + (+b) = +(a + b); (-a) + (-b) = -(a + b)",
       "ejemplos": [
-        "Ejemplo: +9 + +6. Ambos son positivos, así que sumamos los valores absolutos: 9 + 6 = 15. Como los dos signos eran positivos, el resultado conserva el signo positivo: +9 + +6 = +15."
+        "Ejemplo: +9 + +6. Ambos son positivos, así que sumamos los valores absolutos: 9 + 6 = 15. Como los dos signos eran positivos, el resultado conserva el signo positivo: +9 + +6 = +15.",
+        "Ejemplo: -8 + -5. Ambos son negativos, así que sumamos los valores absolutos: 8 + 5 = 13. Como los dos signos eran negativos, el resultado conserva el signo negativo: -8 + -5 = -13."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
@@ -66,6 +67,48 @@
           "enunciado": "El resultado de sumar dos números positivos siempre es un número positivo.",
           "respuestaCorrecta": true,
           "retroalimentacion": "Así es: al tener el mismo signo (positivo), el resultado conserva ese signo."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "-8 + -5 = ?",
+          "opciones": [
+            "-13",
+            "-3",
+            "3",
+            "13"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Sumamos los valores absolutos: 8 + 5 = 13, y como ambos signos eran negativos, el resultado es -13."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "-14 + -9 = ___",
+          "respuestaCorrecta": "-23",
+          "retroalimentacion": "14 + 9 = 23, y como ambos números eran negativos, el resultado es -23."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "-6 + -10 = -16",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 6 + 10 = 16, y al ser ambos negativos, el resultado es -16."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "-19 + -12 = ?",
+          "opciones": [
+            "-31",
+            "-7",
+            "7",
+            "31"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "19 + 12 = 31, y como ambos signos eran negativos, el resultado es -31."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "-23 + -17 = ___",
+          "respuestaCorrecta": "-40",
+          "retroalimentacion": "23 + 17 = 40, y al ser ambos negativos, el resultado es -40."
         }
       ]
     }

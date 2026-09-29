@@ -1,89 +1,150 @@
 {
   "id": "OB-11-02",
   "grado": "Operaciones Básicas",
-  "numero": 82,
+  "numero": 42,
   "categoria": "suma_resta",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Estimación y redondeo antes de sumar y restar — Momento 2/8",
+  "titulo": "Estimación y redondeo antes de sumar y restar — Módulo 2/4",
   "contenido": "Estimación del resultado de una suma o resta mediante redondeo, para desarrollar sentido numérico antes del cálculo exacto.",
   "pda": "Estima el resultado de sumas y restas mediante redondeo, y lo usa para verificar si un cálculo exacto es razonable.",
   "problematizacion": {
-    "contexto": "En la papelería de una secundaria técnica de Puebla, el profesor Martín necesita dar un reporte rápido al director sobre cuántos cuadernos hay en el almacén, sin contar uno por uno. Para eso, redondea las cantidades a la centena más cercana. En una caja grande hay 452 cuadernos.",
-    "pregunta": "¿A qué centena se redondea la cantidad de 452 cuadernos que reportará el profesor Martín?"
+    "contexto": "En la central camionera de Guadalajara, Karina va a comprar dos boletos de autobús para visitar a su abuela: uno cuesta 29 pesos y otro 34 pesos. Antes de pagar, quiere saber aproximadamente cuánto llevará, redondeando los precios a la decena más cercana.\n\nEn el estadio de futbol de Toluca, el organizador de un torneo escolar quiere calcular aproximadamente cuántos espectadores hubo en dos partidos consecutivos: al primero asistieron 468 personas y al segundo 219. Antes de buscar el dato exacto en boletería, redondea cada cantidad a la centena más cercana.",
+    "pregunta": "¿Cuál es la estimación rápida de lo que pagará Karina por los dos boletos? Además: ¿Cuál es la estimación rápida del total de espectadores en los dos partidos?"
   },
   "subtemas": [
     {
       "numero": "11.2",
-      "nivelEtiqueta": "Nivel 2 de 8 · Básico",
-      "titulo": "Redondeo a la centena más cercana",
-      "explicacion": "Redondear a la centena más cercana funciona igual que redondear a la decena, pero ahora se observa la cifra de las decenas: si es 5 o más, la centena sube al siguiente múltiplo de 100; si es menor a 5, la centena se queda igual. Redondear a centenas es útil cuando los números son más grandes y basta con una aproximación más general. Esta habilidad prepara el terreno para estimar sumas y restas con cantidades de tres cifras o más.",
-      "formula": "Si la cifra de las decenas ≥ 5, sube a la centena siguiente; si es < 5, la centena se queda igual.",
+      "nivelEtiqueta": "Nivel 2 de 4 · Intermedio",
+      "titulo": "Estimar sumas redondeando a la decena y Estimar sumas de números grandes redondeando a la centena",
+      "explicacion": "Para estimar una suma, primero redondea cada sumando a la decena más cercana y luego súmalos. El resultado es una aproximación rápida del total real, útil para saber si la respuesta que obtendrás al sumar con exactitud tiene sentido. Esta técnica no sustituye el cálculo exacto, pero te da una idea del tamaño esperado del resultado antes de hacer las cuentas con todos los dígitos.\n\nCuando los sumandos tienen tres cifras o más, conviene redondear cada uno a la centena más cercana antes de sumar, para obtener una estimación rápida sin manejar tantos dígitos. Esta estrategia es especialmente útil al estimar gastos, distancias o cantidades grandes de la vida diaria, incluso cuando hay más de dos sumandos. Igual que antes, primero se redondea cada número y después se suman los valores ya redondeados.",
+      "formula": "Estimación de la suma = (sumando 1 redondeado) + (sumando 2 redondeado); Estimación = suma de cada número redondeado a la centena más cercana",
       "ejemplos": [
-        "Redondear 340 a la centena más cercana: la cifra de las decenas es 4 (<5), así que 340 se redondea a 300.",
-        "Redondear 673 a la centena más cercana: la cifra de las decenas es 7 (≥5), así que 673 se redondea a 700."
+        "Estimar 38 + 24: 38 se redondea a 40, 24 se redondea a 20. Estimación: 40 + 20 = 60.",
+        "Estimar 67 + 52: 67 se redondea a 70, 52 se redondea a 50. Estimación: 70 + 50 = 120.",
+        "Estimar 384 + 257: 384 se redondea a 400, 257 se redondea a 300. Estimación: 400 + 300 = 700.",
+        "Estimar 512 + 260 + 145: 512→500, 260→300, 145→100. Estimación: 500 + 300 + 100 = 900."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿A qué centena más cercana se redondea 452?",
+          "pregunta": "Estima 29 + 34 redondeando cada número a la decena más cercana.",
           "opciones": [
-            "400",
-            "450",
-            "500",
-            "550"
+            "50",
+            "60",
+            "70",
+            "63"
           ],
-          "respuestaCorrecta": 2,
-          "retroalimentacion": "La cifra de las decenas de 452 es 5, que es 5 o más, así que la centena sube: 452 se redondea a 500."
-        },
-        {
-          "tipo": "verdadero_falso",
-          "enunciado": "281 redondeado a la centena más cercana es 200.",
-          "respuestaCorrecta": false,
-          "retroalimentacion": "Falso: la cifra de las decenas de 281 es 8, que es 5 o más, así que la centena sube y 281 se redondea a 300, no a 200."
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "29 se redondea a 30 y 34 se redondea a 30. La estimación es 30 + 30 = 60."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "El número 758 redondeado a la centena más cercana es ___.",
-          "respuestaCorrecta": "800",
-          "retroalimentacion": "La cifra de las decenas de 758 es 5, así que la centena sube: 758 se redondea a 800."
+          "frase": "Redondeando a la decena, 47 + 22 se estima en ___.",
+          "respuestaCorrecta": "70",
+          "retroalimentacion": "47 se redondea a 50 y 22 se redondea a 20. La estimación es 50 + 20 = 70."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Al redondear 53 y 38 a la decena más cercana y sumarlos, la estimación es 90.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 53 se redondea a 50 y 38 se redondea a 40. La estimación es 50 + 40 = 90."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "Redondea 129 a la centena más cercana.",
+          "pregunta": "¿Cuál es la mejor estimación de 61 + 27 redondeando cada número a la decena?",
           "opciones": [
-            "100",
-            "150",
-            "200",
-            "130"
+            "80",
+            "85",
+            "90",
+            "100"
           ],
-          "respuestaCorrecta": 0,
-          "retroalimentacion": "La cifra de las decenas de 129 es 2, menor a 5, así que la centena se queda igual: 129 se redondea a 100."
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "61 se redondea a 60 y 27 se redondea a 30. La estimación es 60 + 30 = 90."
         },
         {
           "tipo": "relacionar_columnas",
-          "instruccion": "Relaciona cada número con su redondeo a la centena más cercana.",
+          "instruccion": "Relaciona cada suma con su estimación, redondeando ambos sumandos a la decena más cercana.",
           "columnaA": [
-            "316",
-            "649",
-            "825",
-            "172"
+            "19 + 42",
+            "76 + 15",
+            "33 + 48",
+            "64 + 29"
           ],
           "columnaB": [
-            "200",
-            "300",
+            "60",
+            "80",
+            "90",
+            "100"
+          ],
+          "parejasCorrectas": [
+            0,
+            3,
+            1,
+            2
+          ],
+          "retroalimentacion": "19+42→20+40=60; 76+15→80+20=100; 33+48→30+50=80; 64+29→60+30=90."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Estima 468 + 219 redondeando cada número a la centena más cercana.",
+          "opciones": [
             "600",
+            "650",
+            "700",
             "800"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "468 se redondea a 500 y 219 se redondea a 200. La estimación es 500 + 200 = 700."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Redondeando a la centena, 731 + 156 se estima en ___.",
+          "respuestaCorrecta": "900",
+          "retroalimentacion": "731 se redondea a 700 y 156 se redondea a 200. La estimación es 700 + 200 = 900."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Al redondear 342 y 275 a la centena más cercana y sumarlos, la estimación es 600.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 342 se redondea a 300 y 275 se redondea a 300. La estimación es 300 + 300 = 600."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la mejor estimación de 189 + 224 + 308 redondeando cada número a la centena?",
+          "opciones": [
+            "600",
+            "700",
+            "800",
+            "900"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "189→200, 224→200 y 308→300. La estimación es 200 + 200 + 300 = 700."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada suma con su estimación, redondeando cada número a la centena más cercana.",
+          "columnaA": [
+            "452 + 318",
+            "674 + 151",
+            "233 + 540",
+            "895 + 142"
+          ],
+          "columnaB": [
+            "700",
+            "800",
+            "900",
+            "1000"
           ],
           "parejasCorrectas": [
             1,
             2,
-            3,
-            0
+            0,
+            3
           ],
-          "retroalimentacion": "316→300 (decena 1<5), 649→600 (decena 4<5), 825→800 (decena 2<5), 172→200 (decena 7≥5)."
+          "retroalimentacion": "452+318→500+300=800; 674+151→700+200=900; 233+540→200+500=700; 895+142→900+100=1000."
         }
       ]
     }

@@ -1,27 +1,29 @@
 {
   "id": "OB-16-01",
   "grado": "Operaciones Básicas",
-  "numero": 121,
+  "numero": 61,
   "categoria": "mult_div",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Multiplicación de decimales — Momento 1/8",
+  "titulo": "Multiplicación de decimales — Módulo 1/4",
   "contenido": "Multiplicación de números decimales, calculando el producto como si fueran enteros y colocando el punto según el total de cifras decimales.",
   "pda": "Multiplica números decimales, determinando correctamente la posición del punto decimal en el resultado.",
   "problematizacion": {
-    "contexto": "En el mercado sobre ruedas de Iztapalapa, don Refugio vende manojos de cilantro para las salsas. Cada manojo cuesta $2.30 y una señora quiere comprar 4 manojos para su puesto de tacos.",
-    "pregunta": "¿Aproximadamente cuánto va a pagar la señora por los 4 manojos de cilantro?"
+    "contexto": "En el mercado sobre ruedas de Iztapalapa, don Refugio vende manojos de cilantro para las salsas. Cada manojo cuesta $2.30 y una señora quiere comprar 4 manojos para su puesto de tacos.\n\nLa maestra Lupita organiza una rifa para juntar fondos para la excursión de 2° B. Cada boleto cuesta $3.40 y el grupo vendió 12 boletos durante el recreo del lunes.",
+    "pregunta": "¿Aproximadamente cuánto va a pagar la señora por los 4 manojos de cilantro? Además: ¿Cuánto dinero reunió el grupo con esos boletos?"
   },
   "subtemas": [
     {
       "numero": "16.1",
-      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
-      "titulo": "Decimal por un solo dígito",
-      "explicacion": "Para multiplicar un número decimal por un número entero de una cifra, multiplica como si ambos fueran enteros, sin fijarte en el punto. Al final, cuenta cuántas cifras decimales tiene el número decimal original: ese es el número de cifras decimales que llevará el resultado, contadas desde la derecha. Por ejemplo, si el decimal tiene una cifra después del punto, el resultado también llevará una.",
-      "formula": "decimal × entero: multiplica como enteros y coloca el punto contando las cifras decimales del factor decimal.",
+      "nivelEtiqueta": "Nivel 1 de 4 · Introductorio",
+      "titulo": "Decimal por un solo dígito y Decimal por un número de dos cifras",
+      "explicacion": "Para multiplicar un número decimal por un número entero de una cifra, multiplica como si ambos fueran enteros, sin fijarte en el punto. Al final, cuenta cuántas cifras decimales tiene el número decimal original: ese es el número de cifras decimales que llevará el resultado, contadas desde la derecha. Por ejemplo, si el decimal tiene una cifra después del punto, el resultado también llevará una.\n\nAhora el número entero tiene dos cifras, por lo que conviene multiplicar por partes: primero por las unidades y luego por las decenas, sumando los resultados (productos parciales), igual que en una multiplicación normal. Al terminar, cuenta las cifras decimales del factor decimal para colocar el punto en el resultado final. El procedimiento de contar cifras decimales no cambia, solo el tamaño de los números.",
+      "formula": "decimal × entero: multiplica como enteros y coloca el punto contando las cifras decimales del factor decimal.; decimal × entero de 2 cifras: multiplica como enteros usando productos parciales y coloca el punto contando las cifras decimales del factor decimal.",
       "ejemplos": [
         "2.3 × 4: multiplica 23 × 4 = 92; como 2.3 tiene 1 cifra decimal, el resultado es 9.2.",
-        "1.5 × 3: multiplica 15 × 3 = 45; como 1.5 tiene 1 cifra decimal, el resultado es 4.5."
+        "1.5 × 3: multiplica 15 × 3 = 45; como 1.5 tiene 1 cifra decimal, el resultado es 4.5.",
+        "3.4 × 12: 34 × 12 = 408 (34×2=68, 34×10=340, 68+340=408); con 1 cifra decimal, el resultado es 40.8.",
+        "2.5 × 14: 25 × 14 = 350; con 1 cifra decimal, el resultado es 35.0."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
@@ -97,6 +99,84 @@
             2
           ],
           "retroalimentacion": "1.2×2=2.4, 2.1×3=6.3 y 4.1×2=8.2; todas conservan una cifra decimal en el resultado."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 3.4 × 12?",
+          "opciones": [
+            "40.8",
+            "38.4",
+            "4.08",
+            "42.8"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "34 × 12 = 408 (34×2=68, 34×10=340); con una cifra decimal, el resultado es 40.8."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "2.5 × 14 = 35.0",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "25 × 14 = 350; con una cifra decimal, el resultado correcto es 35.0."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "1.6 × 15 = ___",
+          "respuestaCorrecta": "24.0",
+          "retroalimentacion": "16 × 15 = 240; con una cifra decimal, el resultado es 24.0."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "4.3"
+            },
+            {
+              "valor": "12",
+              "signo": "×"
+            },
+            {
+              "valor": "86"
+            },
+            {
+              "valor": "430"
+            },
+            {
+              "valor": "51.6",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [],
+            [],
+            [
+              3
+            ]
+          ],
+          "retroalimentacion": "43 × 12 = 516 (43×2=86, 43×10=430, 86+430=516); con una cifra decimal en 4.3, el resultado es 51.6."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada multiplicación con su resultado.",
+          "columnaA": [
+            "5.2 × 13",
+            "6.1 × 11",
+            "2.8 × 16"
+          ],
+          "columnaB": [
+            "67.6",
+            "67.1",
+            "44.8",
+            "52.4"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "5.2×13=67.6, 6.1×11=67.1 y 2.8×16=44.8; verifica multiplicando por partes y colocando una cifra decimal."
         }
       ]
     }

@@ -1,29 +1,31 @@
 {
   "id": "OB-13-02",
   "grado": "Operaciones Básicas",
-  "numero": 98,
+  "numero": 50,
   "categoria": "mult_div",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Multiplicación de un dígito (tablas y cálculo mental) — Momento 2/8",
+  "titulo": "Multiplicación de un dígito (tablas y cálculo mental) — Módulo 2/4",
   "contenido": "Multiplicación de un número de varias cifras por un solo dígito, apoyada en las tablas de multiplicar.",
   "pda": "Multiplica números naturales por un dígito usando las tablas de multiplicar y estrategias de cálculo mental.",
   "problematizacion": {
-    "contexto": "En la papelería de la escuela, el profesor Ernesto va a repartir cuadernos nuevos: cada uno de los 23 alumnos de un grupo recibirá 3 cuadernos para el ciclo escolar. El encargado de la papelería necesita saber cuántos cuadernos debe sacar de la bodega antes de que lleguen los alumnos.",
-    "pregunta": "¿Cuántos cuadernos en total debe sacar el encargado de la bodega para repartir 3 cuadernos a cada uno de los 23 alumnos?"
+    "contexto": "El equipo de futbol de una secundaria de Querétaro va a jugar un torneo fuera de la ciudad. El entrenador reserva 3 camionetas y en cada una caben 47 kilos de equipo deportivo (balones, uniformes y agua) para el viaje completo del equipo.\n\nUn taller de costura en Puebla confecciona uniformes escolares. Cada semana logran terminar 234 uniformes, y la dueña quiere calcular cuántos uniformes se producen en 3 semanas para cumplir un pedido grande.",
+    "pregunta": "¿Cuántos kilos de equipo puede transportar el entrenador en total usando las 3 camionetas llenas? Además: ¿Cuántos uniformes en total puede entregar el taller si mantiene el mismo ritmo durante 3 semanas?"
   },
   "subtemas": [
     {
       "numero": "13.2",
-      "nivelEtiqueta": "Nivel 2 de 8 · Básico",
-      "titulo": "Multiplicar un número de dos cifras sin llevar",
-      "explicacion": "Ahora vas a multiplicar un número de dos cifras (decenas y unidades) por un solo dígito. La estrategia es multiplicar primero las unidades por el dígito y después las decenas por el mismo dígito, y unir los dos resultados. En este momento todos los productos de cada columna son menores que 10, así que no necesitas \"llevar\" nada todavía: esa dificultad la verás en el siguiente momento. Escribir el cálculo en columnas (unidades bajo unidades) te ayuda a no perder el orden de las cifras.",
-      "formula": "(decenas × factor) y (unidades × factor), después se unen",
+      "nivelEtiqueta": "Nivel 2 de 4 · Intermedio",
+      "titulo": "Multiplicar llevando (con acarreo) y Multiplicar números de tres cifras",
+      "explicacion": "Cuando al multiplicar las unidades el resultado es 10 o más, no cabe una sola cifra en esa columna: se escribe la unidad del producto y se \"lleva\" la decena para sumarla al siguiente producto (el de las decenas). Este acarreo es el mismo que usas al sumar, pero aquí nace de una multiplicación. Es importante sumar lo que llevas ANTES de anotar el resultado de la siguiente columna, no después. Practicar esto con números de dos cifras te prepara para números más grandes.\n\nEl mismo procedimiento que usaste con dos cifras funciona con tres: multiplicas de derecha a izquierda (unidades, decenas, centenas) y llevas cuando el producto de una columna es 10 o más. La diferencia es que ahora puede haber más de un acarreo en la misma operación, así que hay que llevar la cuenta con cuidado columna por columna. Escribir el número en columnas alineadas por su valor posicional evita errores. Con práctica, este procedimiento sirve para números de cualquier cantidad de cifras.",
+      "formula": "unidad × factor = producto; si ≥10, se anota la unidad y se lleva la decena a la siguiente columna; unidades → decenas → centenas, llevando cuando el producto de la columna es ≥10",
       "ejemplos": [
-        "23×3: unidades 3×3=9, decenas 2×3=6, se unen → 69.",
-        "41×2: unidades 1×2=2, decenas 4×2=8, se unen → 82."
+        "47×3: unidades 7×3=21, se escribe 1 y se lleva 2; decenas 4×3=12, más el 2 que se llevaba = 14 → resultado 141.",
+        "56×4: unidades 6×4=24, se escribe 4 y se lleva 2; decenas 5×4=20, más 2 = 22 → resultado 224.",
+        "234×3: unidades 4×3=12 (anota 2, lleva 1); decenas 3×3=9+1=10 (anota 0, lleva 1); centenas 2×3=6+1=7 → 702.",
+        "156×4: unidades 6×4=24 (anota 4, lleva 2); decenas 5×4=20+2=22 (anota 2, lleva 2); centenas 1×4=4+2=6 → 624."
       ],
-      "puntosPorReactivo": 10,
+      "puntosPorReactivo": 15,
       "estrellasMax": 3,
       "reactivos": [
         {
@@ -31,14 +33,14 @@
           "operacion": "multiplicacion",
           "filas": [
             {
-              "valor": "23"
+              "valor": "47"
             },
             {
               "valor": "3",
               "signo": "×"
             },
             {
-              "valor": "69",
+              "valor": "141",
               "esResultado": true
             }
           ],
@@ -47,57 +49,136 @@
             [],
             [
               0,
-              1
+              1,
+              2
             ]
           ],
-          "retroalimentacion": "23×3 = 69: unidades 3×3=9 y decenas 2×3=6, sin llevar nada porque ambos productos son menores que 10."
+          "retroalimentacion": "47×3 = 141: unidades 7×3=21 (se anota 1, se lleva 2), decenas 4×3=12+2=14, resultado 141."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuánto es 41×2?",
+          "pregunta": "¿Cuánto es 56×4?",
           "opciones": [
-            "82",
-            "81",
-            "62",
-            "92"
+            "224",
+            "214",
+            "234",
+            "204"
           ],
           "respuestaCorrecta": 0,
-          "retroalimentacion": "41×2 = 82: unidades 1×2=2, decenas 4×2=8, se unen y forman 82."
+          "retroalimentacion": "56×4 = 224: unidades 6×4=24 (se anota 4, se lleva 2), decenas 5×4=20+2=22, resultado 224."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "32×3 es igual a 96.",
+          "enunciado": "68×5 es igual a 340.",
           "respuestaCorrecta": true,
-          "retroalimentacion": "Correcto: unidades 2×3=6, decenas 3×3=9, se forma 96, sin llevar."
+          "retroalimentacion": "Correcto: unidades 8×5=40 (se anota 0, se lleva 4), decenas 6×5=30+4=34, resultado 340."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "44×2 = ___",
-          "respuestaCorrecta": "88",
-          "retroalimentacion": "44×2 = 88: unidades 4×2=8, decenas 4×2=8, se unen y dan 88."
+          "frase": "39×6 = ___",
+          "respuestaCorrecta": "234",
+          "retroalimentacion": "39×6 = 234: unidades 9×6=54 (se anota 4, se lleva 5), decenas 3×6=18+5=23, resultado 234."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "27"
+            },
+            {
+              "valor": "4",
+              "signo": "×"
+            },
+            {
+              "valor": "108",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "27×4 = 108: unidades 7×4=28 (se anota 8, se lleva 2), decenas 2×4=8+2=10, resultado 108."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "234"
+            },
+            {
+              "valor": "3",
+              "signo": "×"
+            },
+            {
+              "valor": "702",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0,
+              1,
+              2
+            ]
+          ],
+          "retroalimentacion": "234×3 = 702: unidades 4×3=12 (anota 2, lleva 1), decenas 3×3=9+1=10 (anota 0, lleva 1), centenas 2×3=6+1=7, resultado 702."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 156×4?",
+          "opciones": [
+            "624",
+            "614",
+            "634",
+            "724"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "156×4 = 624: unidades 6×4=24 (anota 4, lleva 2), decenas 5×4=20+2=22 (anota 2, lleva 2), centenas 1×4=4+2=6, resultado 624."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "417×6 es igual a 2,502.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: unidades 7×6=42, decenas 1×6=6+4=10, centenas 4×6=24+1=25, resultado 2,502."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "328×5 = ___",
+          "respuestaCorrecta": "1640",
+          "retroalimentacion": "328×5 = 1,640: unidades 8×5=40, decenas 2×5=10+4=14, centenas 3×5=15+1=16, resultado 1,640."
         },
         {
           "tipo": "relacionar_columnas",
-          "instruccion": "Relaciona cada multiplicación de dos cifras con su resultado.",
+          "instruccion": "Relaciona cada multiplicación de tres cifras con su resultado.",
           "columnaA": [
-            "21×4",
-            "13×3",
-            "22×4",
-            "31×3"
+            "289×3",
+            "134×6",
+            "245×4",
+            "372×2"
           ],
           "columnaB": [
-            "39",
-            "84",
-            "88",
-            "93"
+            "744",
+            "804",
+            "867",
+            "980"
           ],
           "parejasCorrectas": [
-            1,
-            0,
             2,
-            3
+            1,
+            3,
+            0
           ],
-          "retroalimentacion": "21×4=84, 13×3=39, 22×4=88 y 31×3=93. Ninguna de estas necesita llevar."
+          "retroalimentacion": "289×3=867, 134×6=804, 245×4=980 y 372×2=744."
         }
       ]
     }

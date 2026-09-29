@@ -1,92 +1,180 @@
 {
   "id": "OB-37-04",
   "grado": "Operaciones Básicas",
-  "numero": 292,
+  "numero": 148,
   "categoria": "potencias_raices",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Raíz cúbica de cubos perfectos — Momento 4/8",
+  "titulo": "Raíz cúbica de cubos perfectos — Módulo 4/4",
   "contenido": "Cálculo de la raíz cúbica exacta de números que son cubos perfectos, como operación inversa de elevar al cubo.",
   "pda": "Calcula la raíz cúbica exacta de cubos perfectos, reconociéndola como la operación inversa de elevar al cubo.",
   "problematizacion": {
-    "contexto": "En el puerto de Veracruz, un contenedor de carga con forma de cubo tiene un volumen de 64000 dm³. El encargado de logística necesita calcular la longitud de la arista del contenedor para saber si cabe en el espacio disponible dentro de la bodega del barco.",
-    "pregunta": "¿Cuánto mide la arista del contenedor si su volumen es de 64000 dm³?"
+    "contexto": "Renata, estudiante de oceanografía, revisa los datos de un sensor que su equipo dejó caer en una fosa marina cerca de Acapulco. En sus notas encontró que, al elevar al cubo la profundidad relativa registrada por el sensor (respecto al nivel del mar, tomado como cero), el resultado fue -512.\n\nDon Herminio tiene un pequeño taller de reciclaje y debe cotizar contenedores cúbicos de distintos tamaños para tres clientes: uno pide un contenedor grande de superficie, otro un tanque de instalación subterránea (registrado con signo negativo por quedar bajo el nivel del suelo) y otro un molde decimal para piezas pequeñas.",
+    "pregunta": "¿Cuál es la profundidad relativa del sensor si su valor elevado al cubo es -512? Además: si el contenedor subterráneo tiene un volumen registrado de -1728 por estar bajo el nivel del suelo, ¿cuánto mide su arista?"
   },
   "subtemas": [
     {
       "numero": "37.4",
-      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
-      "titulo": "Raíces cúbicas de múltiplos de diez",
-      "explicacion": "Cuando un cubo perfecto termina en varios ceros, su raíz cúbica suele ser un múltiplo exacto de diez. Esto pasa porque al elevar un múltiplo de diez al cubo, los ceros también se multiplican: (a0)³ = a³ seguido de tres ceros. Reconocer este patrón te permite calcular raíces cúbicas de números grandes casi de inmediato, sin necesidad de tantear cifra por cifra. Es un atajo útil para cubos perfectos como 8000, 27000 o 125000.",
-      "formula": "∛(a × 1000) = ∛a × 10, si a es cubo perfecto",
+      "nivelEtiqueta": "Nivel 4 de 4 · Integración",
+      "titulo": "Raíces cúbicas de números negativos y Integra todo: grandes, negativos y decimales",
+      "explicacion": "A diferencia de la raíz cuadrada, la raíz cúbica de un número negativo sí existe y es un número negativo real, porque un número negativo multiplicado tres veces por sí mismo da otro número negativo. Por ejemplo, (-2) × (-2) × (-2) = -8, así que ∛(-8) = -2. En este momento vas a calcular raíces cúbicas de cubos perfectos negativos, reconociendo que el signo de la raíz siempre coincide con el signo del número original.\n\nEste último momento junta todo lo que has practicado sobre raíces cúbicas de cubos perfectos: números grandes, decimales y negativos, en distintos contextos. La clave sigue siendo la misma en todos los casos: encontrar el número que, multiplicado tres veces por sí mismo, reproduce exactamente el valor original. Resolver estos reactivos con seguridad significa que ya dominas la raíz cúbica como operación inversa de elevar al cubo, sin importar el tipo de número involucrado.",
+      "formula": "∛(a³) = a, para cualquier a (entero, decimal o negativo)",
       "ejemplos": [
-        "∛8000: como 8 = 2³, entonces ∛8000 = 2 × 10 = 20.",
-        "∛125000: como 125 = 5³, entonces ∛125000 = 5 × 10 = 50."
+        "∛(-27) = -3, porque (-3) × (-3) × (-3) = -27.",
+        "∛(-125) = -5, porque (-5) × (-5) × (-5) = -125.",
+        "∛1728 = 12, porque 12 × 12 × 12 = 1728.",
+        "∛(-0.064) = -0.4, porque (-0.4) × (-0.4) × (-0.4) = -0.064."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuál es la raíz cúbica de 8000?",
+          "pregunta": "¿Cuál es la raíz cúbica de -8?",
           "opciones": [
-            "20",
-            "200",
-            "80",
-            "2"
+            "-2",
+            "2",
+            "-4",
+            "4"
           ],
           "respuestaCorrecta": 0,
-          "retroalimentacion": "8 = 2³, así que 8000 = 20³ y ∛8000 = 20."
-        },
-        {
-          "tipo": "llenar_frase",
-          "frase": "∛27000 = ___",
-          "respuestaCorrecta": "30",
-          "retroalimentacion": "27 = 3³, así que 27000 = 30³ y ∛27000 = 30."
+          "retroalimentacion": "(-2) × (-2) × (-2) = -8, entonces ∛(-8) = -2."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "∛64000 = 40, porque 40 × 40 × 40 = 64000.",
+          "enunciado": "∛(-27) = -3, porque (-3) × (-3) × (-3) = -27.",
           "respuestaCorrecta": true,
-          "retroalimentacion": "Correcto: 40³ = 64000."
+          "retroalimentacion": "Correcto: (-3)³ = -27."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "∛(-125) = ___",
+          "respuestaCorrecta": "-5",
+          "retroalimentacion": "(-5) × (-5) × (-5) = -125, entonces ∛(-125) = -5."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuál es la raíz cúbica de 125000?",
+          "pregunta": "A diferencia de la raíz cuadrada, la raíz cúbica de un número negativo...",
           "opciones": [
-            "40",
-            "45",
-            "50",
-            "55"
+            "no existe en los números reales",
+            "siempre da un resultado positivo",
+            "es un número real negativo",
+            "siempre es igual a cero"
           ],
           "respuestaCorrecta": 2,
-          "retroalimentacion": "125 = 5³, así que 125000 = 50³ y ∛125000 = 50."
+          "retroalimentacion": "La raíz cúbica de un número negativo sí existe y es negativa, porque un número negativo elevado al cubo se mantiene negativo."
         },
         {
           "tipo": "relacionar_columnas",
-          "instruccion": "Relaciona cada cubo perfecto con su raíz cúbica.",
+          "instruccion": "Relaciona cada cubo perfecto negativo con su raíz cúbica.",
           "columnaA": [
-            "8000",
-            "27000",
-            "64000",
-            "216000"
+            "-8",
+            "-64",
+            "-343",
+            "-1000"
           ],
           "columnaB": [
-            "20",
-            "30",
-            "40",
-            "50",
-            "60"
+            "-2",
+            "-4",
+            "-7",
+            "-10",
+            "-5"
           ],
           "parejasCorrectas": [
             0,
             1,
             2,
-            4
+            3
           ],
-          "retroalimentacion": "8000=20³, 27000=30³, 64000=40³ y 216000=60³; el 50 no tenía pareja aquí."
+          "retroalimentacion": "-8=(-2)³, -64=(-4)³, -343=(-7)³ y -1000=(-10)³."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una empresa recicladora vende cubos de unicel para embalaje. Uno de ellos tiene un volumen de 1728 cm³. ¿Cuánto mide su arista?",
+          "opciones": [
+            "11 cm",
+            "12 cm",
+            "13 cm",
+            "14 cm"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "∛1728 = 12, porque 12 × 12 × 12 = 1728."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "∛(-0.064) = -0.4, porque (-0.4) × (-0.4) × (-0.4) = -0.064.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: (-0.4)³ = -0.064."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "∛15625 = ___",
+          "respuestaCorrecta": "25",
+          "retroalimentacion": "25 × 25 × 25 = 15625, entonces ∛15625 = 25."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En un modelo donde el signo negativo indica profundidad bajo el nivel de referencia, un tanque subterráneo tiene un volumen registrado de -1000. ¿Cuál es su raíz cúbica?",
+          "opciones": [
+            "-10",
+            "10",
+            "-100",
+            "100"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(-10) × (-10) × (-10) = -1000, entonces ∛(-1000) = -10."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada cubo perfecto con su raíz cúbica.",
+          "columnaA": [
+            "1728",
+            "-343",
+            "0.027",
+            "15625"
+          ],
+          "columnaB": [
+            "-7",
+            "0.3",
+            "12",
+            "25",
+            "7"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1,
+            3
+          ],
+          "retroalimentacion": "1728=12³, -343=(-7)³, 0.027=0.3³ y 15625=25³."
         }
       ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Una constructora necesita un tanque cúbico de almacenamiento con capacidad de 27000 litros (1 litro = 1 dm³). ¿Cuánto debe medir la arista, en dm?",
+      "opciones": [
+        "27 dm",
+        "30 dm",
+        "33 dm",
+        "300 dm"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "27000 = 30³, entonces ∛27000 = 30 dm."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "∛(-2744) = ___",
+      "respuestaCorrecta": "-14",
+      "retroalimentacion": "(-14) × (-14) × (-14) = -2744, entonces ∛(-2744) = -14."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "∛64000 y ∛(-64000) tienen el mismo valor absoluto pero signos distintos: 40 y -40.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: 40³ = 64000 y (-40)³ = -64000, así que ambos resultados tienen valor absoluto 40 pero signo opuesto."
     }
   ]
 }

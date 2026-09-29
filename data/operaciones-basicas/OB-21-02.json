@@ -1,87 +1,116 @@
 {
   "id": "OB-21-02",
   "grado": "Operaciones Básicas",
-  "numero": 162,
+  "numero": 82,
   "categoria": "mult_div",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "División entre decenas, centenas y potencias de 10 — Momento 2/8",
+  "titulo": "División entre decenas, centenas y potencias de 10 — Módulo 2/4",
   "contenido": "División de un número entre 10, 100, 1000 y sus múltiplos, identificando el patrón inverso al de la multiplicación por potencias de 10.",
   "pda": "Divide números naturales entre potencias de 10 y sus múltiplos, reconociendo el patrón que sigue el resultado.",
   "problematizacion": {
-    "contexto": "El profesor Arturo mandó imprimir 4500 hojas de examen para toda la secundaria y las está acomodando en paquetes de 100 hojas para repartirlos entre los salones antes del periodo de exámenes.",
-    "pregunta": "¿Cuántos paquetes completos de 100 hojas puede armar el profesor Arturo con sus 4500 hojas?"
+    "contexto": "Un club de atletismo de Querétaro organizó una carrera de relevos de 47 km, dividida en 10 tramos iguales para 10 corredores distintos que se van turnando el recorrido.\n\nUna empresa de autobuses foráneos debe trasladar a 840 pasajeros de Puebla a la Ciudad de México, usando camiones que tienen capacidad para 20 asientos cada uno.",
+    "pregunta": "¿Aproximadamente cuántos kilómetros corre cada atleta si el recorrido de 47 km se divide en 10 tramos iguales? Además: ¿Cuántos camiones de 20 asientos necesita la empresa para trasladar a los 840 pasajeros?"
   },
   "subtemas": [
     {
       "numero": "21.2",
-      "nivelEtiqueta": "Nivel 2 de 8 · Básico",
-      "titulo": "Dividir entre 100 y 1000: quitar dos o tres ceros",
-      "explicacion": "El mismo patrón de dividir entre 10 se extiende a dividir entre 100 y entre 1000, solo que ahora se quitan más ceros. Dividir entre 100 significa quitar los dos últimos ceros del número, y dividir entre 1000 significa quitar los tres últimos ceros. La cantidad de ceros que se quitan siempre coincide con la cantidad de ceros que tiene la potencia de 10 entre la que se divide. Este patrón solo aplica cuando el número tiene suficientes ceros al final.",
-      "formula": "número ÷ 100 = quita los 2 últimos ceros; número ÷ 1000 = quita los 3 últimos ceros",
+      "nivelEtiqueta": "Nivel 2 de 4 · Intermedio",
+      "titulo": "Cuando no hay ceros suficientes: corre el punto decimal y Dividir entre múltiplos de 10, 100 y 1000",
+      "explicacion": "No todos los números terminan en cero, así que no siempre se puede 'quitar un cero' para dividir entre 10, 100 o 1000. En esos casos, el mismo patrón se aplica corriendo el punto decimal hacia la izquierda: un lugar si se divide entre 10, dos lugares si se divide entre 100, y tres si se divide entre 1000. Cuando el número no tiene suficientes cifras, se agregan ceros a la izquierda para completar el corrimiento. Es el mismo patrón de siempre, solo que ahora el resultado es decimal en vez de entero.\n\nMuchos divisores no son exactamente 10, 100 o 1000, sino múltiplos de ellos, como 20, 300 o 4000. Para dividir entre estos números se puede separar el divisor en la potencia de 10 y el dígito que sobra: primero se divide entre la potencia de 10 (quitando o corriendo ceros, como ya aprendiste) y después ese resultado se divide entre el dígito restante. Esta estrategia convierte un problema aparentemente difícil en dos pasos que ya conoces.",
+      "formula": "÷10 → recorre el punto 1 lugar a la izquierda; ÷100 → 2 lugares; ÷1000 → 3 lugares; número ÷ (d × 10ⁿ) = (número ÷ 10ⁿ) ÷ d",
       "ejemplos": [
-        "4500 ÷ 100: quitamos los dos últimos ceros de 4500 y queda 45. Comprobación: 45 × 100 = 4500.",
-        "30000 ÷ 1000: quitamos los tres últimos ceros de 30000 y queda 30. Comprobación: 30 × 1000 = 30000."
+        "47 ÷ 10: como 47 no tiene un cero al final, corremos el punto un lugar a la izquierda y queda 4.7. Comprobación: 4.7 × 10 = 47.",
+        "583 ÷ 100: corremos el punto dos lugares a la izquierda y queda 5.83. Comprobación: 5.83 × 100 = 583.",
+        "840 ÷ 20: primero 840 ÷ 10 = 84, y después 84 ÷ 2 = 42. Comprobación: 42 × 20 = 840.",
+        "6300 ÷ 300: primero 6300 ÷ 100 = 63, y después 63 ÷ 3 = 21. Comprobación: 21 × 300 = 6300."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuánto es 4500 ÷ 100?",
+          "pregunta": "¿Cuánto es 47 ÷ 10?",
           "opciones": [
-            "4",
-            "45",
-            "450",
-            "4500"
+            "0.47",
+            "4.7",
+            "47.0",
+            "470"
           ],
           "respuestaCorrecta": 1,
-          "retroalimentacion": "Quitamos los dos últimos ceros de 4500 y queda 45. Comprobación: 45 × 100 = 4500."
+          "retroalimentacion": "47 no termina en cero, así que corremos el punto un lugar a la izquierda: 4.7. Comprobación: 4.7 × 10 = 47."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "30000 ÷ 1000 = ___",
-          "respuestaCorrecta": "30",
-          "retroalimentacion": "Quitamos los tres últimos ceros de 30000 y queda 30. Comprobación: 30 × 1000 = 30000."
+          "frase": "583 ÷ 100 = ___",
+          "respuestaCorrecta": "5.83",
+          "retroalimentacion": "Corremos el punto dos lugares a la izquierda en 583 y queda 5.83. Comprobación: 5.83 × 100 = 583."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "7000 ÷ 100 = 70",
+          "enunciado": "9 ÷ 10 = 0.9",
           "respuestaCorrecta": true,
-          "retroalimentacion": "Verdadero. Al quitar los dos últimos ceros de 7000 queda 70, y 70 × 100 = 7000."
-        },
-        {
-          "tipo": "relacionar_columnas",
-          "instruccion": "Relaciona cada división con su resultado correcto.",
-          "columnaA": [
-            "800 ÷ 100",
-            "12000 ÷ 1000",
-            "900 ÷ 100"
-          ],
-          "columnaB": [
-            "8",
-            "9",
-            "12",
-            "80"
-          ],
-          "parejasCorrectas": [
-            0,
-            2,
-            1
-          ],
-          "retroalimentacion": "800 ÷ 100 = 8, 12000 ÷ 1000 = 12 y 900 ÷ 100 = 9; en cada caso se quitan tantos ceros como tiene la potencia de 10."
+          "retroalimentacion": "Verdadero. Como 9 no tiene cifras enteras de sobra, se agrega un cero antes: 0.9. Comprobación: 0.9 × 10 = 9."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuánto es 25000 ÷ 1000?",
+          "pregunta": "¿Cuánto es 125 ÷ 1000?",
           "opciones": [
-            "2.5",
-            "25",
-            "250",
-            "2500"
+            "1.25",
+            "0.125",
+            "12.5",
+            "0.0125"
           ],
           "respuestaCorrecta": 1,
-          "retroalimentacion": "Quitamos los tres últimos ceros de 25000 y queda 25. Comprobación: 25 × 1000 = 25000."
+          "retroalimentacion": "Corremos el punto tres lugares a la izquierda en 125 y, como faltan cifras, agregamos un cero: 0.125. Comprobación: 0.125 × 1000 = 125."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "36 ÷ 10 = ___",
+          "respuestaCorrecta": "3.6",
+          "retroalimentacion": "Corremos el punto un lugar a la izquierda en 36 y queda 3.6. Comprobación: 3.6 × 10 = 36."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 840 ÷ 20?",
+          "opciones": [
+            "42",
+            "4.2",
+            "420",
+            "84"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "840 ÷ 10 = 84, y 84 ÷ 2 = 42. Comprobación: 42 × 20 = 840."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "6300 ÷ 300 = ___",
+          "respuestaCorrecta": "21",
+          "retroalimentacion": "6300 ÷ 100 = 63, y 63 ÷ 3 = 21. Comprobación: 21 × 300 = 6300."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "4000 ÷ 2000 = 2",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Verdadero. 4000 ÷ 1000 = 4, y 4 ÷ 2 = 2. Comprobación: 2 × 2000 = 4000."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 9000 ÷ 300?",
+          "opciones": [
+            "3",
+            "30",
+            "300",
+            "90"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "9000 ÷ 100 = 90, y 90 ÷ 3 = 30. Comprobación: 30 × 300 = 9000."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "12000 ÷ 4000 = ___",
+          "respuestaCorrecta": "3",
+          "retroalimentacion": "12000 ÷ 1000 = 12, y 12 ÷ 4 = 3. Comprobación: 3 × 4000 = 12000."
         }
       ]
     }

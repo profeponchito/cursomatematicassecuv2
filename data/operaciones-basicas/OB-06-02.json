@@ -1,102 +1,173 @@
 {
   "id": "OB-06-02",
   "grado": "Operaciones Básicas",
-  "numero": 42,
+  "numero": 22,
   "categoria": "suma_resta",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Suma y resta de decimales con acarreo y préstamo — Momento 2/8",
+  "titulo": "Suma y resta de decimales con acarreo y préstamo — Módulo 2/4",
   "contenido": "Suma y resta de decimales en casos donde el acarreo o el préstamo ocurren entre posiciones decimales, incluyendo decimales con distinta cantidad de cifras.",
   "pda": "Aplica el algoritmo de suma y resta a números decimales con distinta cantidad de cifras decimales, completando con ceros cuando sea necesario.",
   "problematizacion": {
-    "contexto": "En la escuela secundaria técnica 'Benito Juárez' se organiza la feria de ciencias. El equipo de Mariana mide con un flexómetro los listones que usará para decorar dos mesas distintas del stand.",
-    "pregunta": "Si un listón mide 4.8 m y otro mide 3.5 m, ¿cuántos metros de listón tiene Mariana en total, aproximadamente?"
+    "contexto": "En la pista de atletismo del municipio, el entrenador Ismael cronometra con un cronómetro digital a dos corredores en los 100 metros planos, para comparar sus tiempos de esta semana.\n\nLa ruta de camión 'Bosques–Centro' cobra pasaje distinto según el tramo. El chofer Don Efraín lleva la cuenta de cuánto ha recibido en monedas después de dos paradas, usando pesos con centavos.",
+    "pregunta": "Si Luis corrió en 14.2 segundos y Karla en 5.8 segundos menos que el tiempo que tardaría en recorrer el doble de distancia, ¿qué operación con decimales necesita hacer el entrenador para comparar avances? Además: si en la primera parada juntó $6.70 y en la segunda $2.38 más, ¿cuánto dinero lleva Don Efraín después de esas dos paradas?"
   },
   "subtemas": [
     {
       "numero": "6.2",
-      "nivelEtiqueta": "Nivel 2 de 8 · Básico",
-      "titulo": "Sumar decimos que se convierten en una unidad entera",
-      "explicacion": "Ahora practicarás sumas donde los décimos suman 10 o más. Cuando eso pasa, igual que en la suma de enteros, se escribe el dígito de las unidades del resultado parcial y se 'lleva' 1 a la columna de las unidades enteras. Es exactamente el mismo acarreo que ya conoces, solo que ocurre en la parte decimal.",
-      "formula": "Si la columna de décimos suma 10 o más, escribe la cifra de las unidades y lleva 1 a la columna de enteros.",
+      "nivelEtiqueta": "Nivel 2 de 4 · Intermedio",
+      "titulo": "Restar decimales pidiendo prestado en los décimos y Sumar decimales con distinta cantidad de cifras",
+      "explicacion": "En la resta de decimales también se alinea el punto y se resta columna por columna. Cuando el décimo de arriba (el minuendo) es más chico que el décimo de abajo (el sustraendo), se pide prestada 1 unidad entera, que se convierte en 10 décimos extra para poder restar esa columna. Es el mismo préstamo que ya conoces con números enteros, aplicado a la parte decimal.\n\nNo siempre los dos números tienen la misma cantidad de cifras decimales. Cuando uno tiene décimos y el otro décimos y centésimos, se completa con un cero a la derecha el número más corto, sin cambiar su valor (3.25 vale lo mismo que 3.250... por eso 1.4 se puede pensar como 1.40). Así todas las columnas quedan alineadas y se suma normalmente, llevando cuando haga falta.",
+      "formula": "Si el décimo de arriba es menor que el de abajo, pide prestada 1 unidad (=10 décimos) a la columna de enteros.; Completa con ceros a la derecha el número con menos cifras decimales, alinea el punto y suma columna por columna.",
       "ejemplos": [
-        "2.7 + 1.6: Décimos 7+6=13, se escribe 3 y se lleva 1. Unidades: 2+1+1(la que se llevó)=4. Resultado: 4.3.",
-        "15.6 + 7.7: Décimos 6+7=13, se escribe 3 y se lleva 1. Unidades 5+7+1=13, se escribe 3 y se lleva 1 a las decenas: 1+1=2. Resultado: 23.3."
+        "5.2 − 1.7: en los décimos, 2 es menor que 7, así que se pide prestado: 12−7=5. En las unidades: 5−1(ya con el préstamo)−1=3. Resultado: 3.5.",
+        "6.0 − 2.5: en los décimos, 0 es menor que 5, se pide prestado: 10−5=5. En las unidades: 6−1−2=3. Resultado: 3.5.",
+        "3.25 + 1.4: se completa 1.4 como 1.40. Centésimos: 5+0=5. Décimos: 2+4=6. Unidades: 3+1=4. Resultado: 4.65.",
+        "8.4 + 3.65: se completa 8.4 como 8.40. Centésimos: 0+5=5. Décimos: 4+6=10, se escribe 0 y se lleva 1. Unidades: 8+3+1=12. Resultado: 12.05."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "algoritmo_columnas",
-          "operacion": "suma",
+          "operacion": "resta",
           "filas": [
             {
-              "valor": "4.8"
+              "valor": "5.2"
+            },
+            {
+              "valor": "1.7",
+              "signo": "-"
             },
             {
               "valor": "3.5",
-              "signo": "+"
-            },
-            {
-              "valor": "8.3",
               "esResultado": true
             }
           ],
           "ocultos": [
             [],
             [
+              0
+            ],
+            [
               2
+            ]
+          ],
+          "retroalimentacion": "5.2 − 1.7 = 3.5. En los décimos se pide prestado: 12−7=5. En las unidades: 5−1(préstamo)−1=3."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "23.1"
+            },
+            {
+              "valor": "9.4",
+              "signo": "-"
+            },
+            {
+              "valor": "13.7",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              3
+            ],
+            [
+              0
+            ],
+            []
+          ],
+          "retroalimentacion": "23.1 − 9.4 = 13.7. Décimos: se pide prestado, 11−4=7. Unidades: 2 (ya prestada 1)−9, se vuelve a pedir prestado a las decenas: 12−9=3. Decenas: 2−1(préstamo)−0=1."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 8.3 − 4.6?",
+          "opciones": [
+            "4.3",
+            "3.7",
+            "3.3",
+            "4.7"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Décimos: 3 es menor que 6, se pide prestado: 13−6=7. Unidades: 8−1−4=3. El resultado es 3.7."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Para resolver 14.2 − 5.8, es necesario pedir prestada una unidad entera para poder restar los décimos.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Verdadero. Como 2 es menor que 8 en los décimos, se pide prestado 1 a las unidades: 12−8=4, y las unidades quedan 14−1−5=8. El resultado es 8.4."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "10.3 − 4.7 = ___",
+          "respuestaCorrecta": "5.6",
+          "retroalimentacion": "Décimos: 3 es menor que 7, se pide prestado: 13−7=6. Unidades: 10−1−4=5. Resultado: 5.6."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "3.25"
+            },
+            {
+              "valor": "1.40",
+              "signo": "+"
+            },
+            {
+              "valor": "4.65",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              3
             ],
             [
               0
             ]
           ],
-          "retroalimentacion": "4.8 + 3.5 = 8.3. Décimos: 8+5=13, se escribe 3 y se lleva 1. Unidades: 4+3+1=8."
+          "retroalimentacion": "1.4 se completa con un cero: 1.40. Centésimos: 5+0=5. Décimos: 2+4=6. Unidades: 3+1=4. Resultado: 4.65."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuánto es 9.4 + 6.8?",
+          "pregunta": "Don Efraín juntó $6.70 en la primera parada y $2.38 en la segunda. ¿Cuánto lleva en total?",
           "opciones": [
-            "15.12",
-            "16.2",
-            "15.2",
-            "16.12"
+            "$9.08",
+            "$8.08",
+            "$9.18",
+            "$6.108"
           ],
-          "respuestaCorrecta": 1,
-          "retroalimentacion": "Décimos: 4+8=12, se escribe 2 y se lleva 1. Unidades: 9+6+1=16. El resultado es 16.2, no 15.12: los decimales nunca se 'juntan' como si fueran otro entero."
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Se completa 6.7 como 6.70. Centésimos: 0+8=8. Décimos: 7+3=10, se escribe 0 y se lleva 1. Unidades: 6+2+1=9. Resultado: $9.08."
         },
         {
-          "tipo": "relacionar_columnas",
-          "instruccion": "Relaciona cada suma con su resultado correcto.",
-          "columnaA": [
-            "2.7 + 1.6",
-            "15.6 + 7.7",
-            "12.9 + 8.4"
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la forma correcta de alinear 12.5 + 4.75 antes de sumar?",
+          "opciones": [
+            "12.50 + 4.75",
+            "12.5 + 47.5",
+            "125.0 + 4.75",
+            "1.25 + 4.75"
           ],
-          "columnaB": [
-            "4.3",
-            "23.3",
-            "21.3",
-            "20.3"
-          ],
-          "parejasCorrectas": [
-            0,
-            1,
-            2
-          ],
-          "retroalimentacion": "2.7+1.6=4.3 (7+6=13, se lleva 1); 15.6+7.7=23.3; 12.9+8.4=21.3 (9+4=13, se lleva 1 a las unidades: 2+8+1=11, se lleva otra vez a las decenas)."
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "12.5 tiene solo un decimal, por eso se completa con un cero a la derecha (12.50) para igualar las cifras decimales de 4.75, sin cambiar su valor."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "En la suma 3.6 + 2.7, la columna de los décimos suma 13, por lo que se debe llevar 1 a la columna de las unidades.",
+          "enunciado": "5.62 + 7.5 es lo mismo que sumar 5.62 + 7.50, porque agregar un cero a la derecha de un decimal no cambia su valor.",
           "respuestaCorrecta": true,
-          "retroalimentacion": "Verdadero. 6+7=13: se anota 3 en los décimos del resultado y se lleva 1 a las unidades, dando 3.6+2.7=6.3."
+          "retroalimentacion": "Verdadero. 5.62 + 7.50 = 13.12: centésimos 2+0=2, décimos 6+5=11 (se lleva 1), unidades 5+7+1=13."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "18.5 + 4.6 = ___",
-          "respuestaCorrecta": "23.1",
-          "retroalimentacion": "Décimos: 5+6=11, se escribe 1 y se lleva 1. Unidades: 8+4+1=13, se escribe 3 y se lleva 1 a las decenas: 1+1=2. Resultado: 23.1."
+          "frase": "9.8 + 6.45 = ___ (completa 9.8 con un cero antes de sumar)",
+          "respuestaCorrecta": "16.25",
+          "retroalimentacion": "9.8 se completa como 9.80. Centésimos: 0+5=5. Décimos: 8+4=12, se escribe 2 y se lleva 1. Unidades: 9+6+1=16. Resultado: 16.25."
         }
       ]
     }

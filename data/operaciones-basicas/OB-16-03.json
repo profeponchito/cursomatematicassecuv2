@@ -1,102 +1,180 @@
 {
   "id": "OB-16-03",
   "grado": "Operaciones Básicas",
-  "numero": 123,
+  "numero": 63,
   "categoria": "mult_div",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Multiplicación de decimales — Momento 3/8",
+  "titulo": "Multiplicación de decimales — Módulo 3/4",
   "contenido": "Multiplicación de números decimales, calculando el producto como si fueran enteros y colocando el punto según el total de cifras decimales.",
   "pda": "Multiplica números decimales, determinando correctamente la posición del punto decimal en el resultado.",
   "problematizacion": {
-    "contexto": "En el entrenamiento de atletismo de la secundaria, la entrenadora Beatriz mide que Karina recorre 4.25 kilómetros en cada sesión de resistencia y esta semana entrenó 6 veces.",
-    "pregunta": "¿Aproximadamente cuántos kilómetros recorrió Karina esta semana en total?"
+    "contexto": "En la tienda de abarrotes 'La Esperanza', doña Marisol vende queso panela a $4.50 el kilogramo, y un cliente le pidió que le pesara 2.25 kilogramos para su negocio de tortas.\n\nEl jardinero del fraccionamiento prepara una mezcla fumigante para las plantas: por cada 0.4 litros de agua debe agregar 0.09 litros de producto concentrado, y hoy necesita preparar varias mezclas para cubrir todo el jardín.",
+    "pregunta": "¿Cuánto debe pagar el cliente por el queso, sin contar impuestos? Además: ¿Cuánto concentrado necesitará si prepara el doble de esa mezcla base?"
   },
   "subtemas": [
     {
       "numero": "16.3",
-      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
-      "titulo": "Decimales con dos cifras después del punto",
-      "explicacion": "Cuando el número decimal tiene dos cifras después del punto, el procedimiento es el mismo: multiplica como si fueran enteros, ignorando el punto, y después cuenta las cifras decimales del factor decimal para colocar el punto en el resultado. Como ahora hay dos cifras decimales en el factor, el resultado también llevará dos cifras decimales contadas desde la derecha. Ten cuidado de no perder ningún dígito al pasar el número completo a la multiplicación.",
-      "formula": "decimal con 2 cifras decimales × entero: multiplica como enteros y separa 2 cifras decimales en el resultado.",
+      "nivelEtiqueta": "Nivel 3 de 4 · Avanzado",
+      "titulo": "Decimales con distinta cantidad de cifras y Cuando hay que agregar ceros",
+      "explicacion": "Los dos factores pueden tener un número diferente de cifras decimales: por ejemplo, uno con una cifra y otro con dos. La regla sigue igual: multiplica como enteros y SUMA las cifras decimales de ambos factores, aunque no coincidan entre sí, para saber cuántas cifras decimales separar en el resultado. Esto es muy común en situaciones de compra y venta, donde los precios no siempre tienen la misma cantidad de decimales.\n\nA veces el producto de los dígitos, sin punto, tiene MENOS cifras que la cantidad de cifras decimales que se deben separar. En esos casos hay que agregar uno o más ceros a la izquierda del número (antes del primer dígito) para completar las cifras decimales que corresponden, antes de colocar el punto. Es un paso que se olvida fácilmente, así que conviene contar con mucho cuidado las cifras decimales antes de escribir el resultado final.",
+      "formula": "Suma las cifras decimales de ambos factores, aunque sean distintas, para colocar el punto del resultado.; Si el producto entero tiene menos cifras que las decimales requeridas, completa con ceros a la izquierda antes de poner el punto.",
       "ejemplos": [
-        "4.25 × 6: 425 × 6 = 2550; como 4.25 tiene 2 cifras decimales, el resultado es 25.50.",
-        "3.12 × 4: 312 × 4 = 1248; como 3.12 tiene 2 cifras decimales, el resultado es 12.48."
+        "4.5 × 2.25: 45 × 225 = 10125; 4.5 tiene 1 cifra decimal y 2.25 tiene 2, en total 3; el resultado es 10.125.",
+        "3.5 × 1.25: 35 × 125 = 4375; 1 + 2 = 3 cifras decimales; el resultado es 4.375.",
+        "0.08 × 0.3: 8 × 3 = 24; se necesitan 2+1=3 cifras decimales, pero 24 solo tiene 2 cifras, así que se agrega un cero: 0.024.",
+        "0.05 × 0.4: 5 × 4 = 20; se necesitan 2+1=3 cifras decimales, y 20 tiene 2 cifras, se agrega un cero: 0.020, es decir 0.02."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuánto es 4.25 × 6?",
+          "pregunta": "¿Cuánto es 4.5 × 2.25?",
           "opciones": [
-            "24.50",
-            "25.50",
-            "25.05",
-            "26.50"
+            "10.125",
+            "9.125",
+            "10.250",
+            "11.125"
           ],
-          "respuestaCorrecta": 1,
-          "retroalimentacion": "425 × 6 = 2550; con dos cifras decimales, el resultado es 25.50."
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "45 × 225 = 10125; con 1+2=3 cifras decimales en total, el resultado es 10.125."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "3.12 × 4 = 12.48",
+          "enunciado": "3.5 × 1.25 = 4.375",
           "respuestaCorrecta": true,
-          "retroalimentacion": "312 × 4 = 1248; con dos cifras decimales, el resultado correcto es 12.48."
+          "retroalimentacion": "35 × 125 = 4375; con 1+2=3 cifras decimales, el resultado correcto es 4.375."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "2.15 × 3 = ___",
-          "respuestaCorrecta": "6.45",
-          "retroalimentacion": "215 × 3 = 645; con dos cifras decimales, el resultado es 6.45."
+          "frase": "1.5 × 2.13 = ___",
+          "respuestaCorrecta": "3.195",
+          "retroalimentacion": "15 × 213 = 3195; con 1+2=3 cifras decimales, el resultado es 3.195."
         },
         {
           "tipo": "algoritmo_columnas",
           "operacion": "multiplicacion",
           "filas": [
             {
-              "valor": "1.24"
+              "valor": "3.4"
             },
             {
-              "valor": "4",
+              "valor": "2.5",
               "signo": "×"
             },
             {
-              "valor": "4.96",
+              "valor": "170"
+            },
+            {
+              "valor": "680"
+            },
+            {
+              "valor": "8.50",
               "esResultado": true
             }
           ],
           "ocultos": [
-            [
-              0
-            ],
+            [],
+            [],
+            [],
             [],
             [
               2
             ]
           ],
-          "retroalimentacion": "124 × 4 = 496; con dos cifras decimales en 1.24, el resultado es 4.96."
+          "retroalimentacion": "34 × 25 = 850 (34×5=170, 34×20=680, 170+680=850); con 1+1=2 cifras decimales, el resultado es 8.50."
         },
         {
           "tipo": "relacionar_columnas",
           "instruccion": "Relaciona cada multiplicación con su resultado.",
           "columnaA": [
-            "2.34 × 5",
-            "1.08 × 7",
-            "3.45 × 2"
+            "2.6 × 1.35",
+            "5.5 × 1.12",
+            "1.4 × 3.15"
           ],
           "columnaB": [
-            "11.70",
-            "7.56",
-            "6.90",
-            "9.24"
+            "3.510",
+            "6.160",
+            "4.410",
+            "5.250"
           ],
           "parejasCorrectas": [
             0,
             1,
             2
           ],
-          "retroalimentacion": "2.34×5=11.70, 1.08×7=7.56 y 3.45×2=6.90; todos conservan dos cifras decimales."
+          "retroalimentacion": "2.6×1.35=3.510, 5.5×1.12=6.160 y 1.4×3.15=4.410; en cada caso se suman las cifras decimales de ambos factores."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 0.08 × 0.3?",
+          "opciones": [
+            "0.24",
+            "0.024",
+            "0.0024",
+            "2.4"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "8 × 3 = 24; se necesitan 3 cifras decimales (2+1), así que se agrega un cero: 0.024."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "0.05 × 0.4 = 0.2",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "5 × 4 = 20; se necesitan 3 cifras decimales (2+1), y 20 solo tiene 2, así que se agrega un cero: el resultado correcto es 0.020, es decir 0.02, no 0.2."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "0.06 × 0.5 = ___",
+          "respuestaCorrecta": "0.03",
+          "retroalimentacion": "6 × 5 = 30; se necesitan 3 cifras decimales (2+1); se agrega un cero: 0.030, es decir 0.03."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "0.09"
+            },
+            {
+              "valor": "0.2",
+              "signo": "×"
+            },
+            {
+              "valor": "0.018",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "9 × 2 = 18, pero se necesitan 3 cifras decimales (2 de 0.09 + 1 de 0.2), así que se agrega un cero antes: 0.018."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada multiplicación con su resultado.",
+          "columnaA": [
+            "0.07 × 0.4",
+            "0.04 × 0.3",
+            "0.09 × 0.5"
+          ],
+          "columnaB": [
+            "0.028",
+            "0.012",
+            "0.045",
+            "0.056"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "0.07×0.4=0.028, 0.04×0.3=0.012 y 0.09×0.5=0.045; en los tres casos se completan las cifras decimales con ceros."
         }
       ]
     }

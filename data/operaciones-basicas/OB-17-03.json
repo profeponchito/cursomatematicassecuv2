@@ -1,72 +1,131 @@
 {
   "id": "OB-17-03",
   "grado": "Operaciones Básicas",
-  "numero": 131,
+  "numero": 67,
   "categoria": "mult_div",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Multiplicación de fracciones — Momento 3/8",
+  "titulo": "Multiplicación de fracciones — Módulo 3/4",
   "contenido": "Multiplicación de fracciones, multiplicando numeradores entre sí y denominadores entre sí, simplificando el resultado.",
   "pda": "Multiplica fracciones y simplifica el resultado a su expresión más simple.",
   "problematizacion": {
-    "contexto": "El equipo de fútbol de la secundaria entrena todos los días. Su entrenador, el profe Nayarit, indicó que cada jugador debe tomar 2/3 de litro de agua por cada uno de los 4 tiempos de entrenamiento que tienen hoy, para no deshidratarse con el calor.",
-    "pregunta": "¿Qué operación permite calcular cuántos litros de agua tomará cada jugador en total durante los 4 tiempos?"
+    "contexto": "Alejandro está ahorrando para comprarse tenis nuevos. Cada semana logra guardar una cantidad equivalente a 7/3 de lo que gastaba antes en refrescos, y esta semana solo pudo ahorrar 4/5 de esa cantidad porque tuvo un gasto extra en la escuela.\n\nUna carpintera, la maestra Ceci, corta una tabla en tres pasos para hacer una repisa: primero usa 2/3 de la tabla original, luego usa 3/5 de ese pedazo para ajustarlo al hueco de la pared, y por último recorta 1/2 de esa pieza para nivelarla.",
+    "pregunta": "¿Cómo se expresaría como número mixto la cantidad relativa que Alejandro ahorró esta semana? Además: ¿Qué fracción de la tabla original quedó en la repisa final, después de los tres cortes?"
   },
   "subtemas": [
     {
       "numero": "17.3",
-      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
-      "titulo": "Fracción por número entero",
-      "explicacion": "Cuando multiplicas una fracción por un número entero, puedes escribir el entero como una fracción con denominador 1 (por ejemplo, 4 = 4/1) y multiplicar igual que siempre: numerador por numerador, denominador por denominador. Como el denominador del entero es 1, en realidad solo multiplicas el numerador de la fracción por ese número entero, y el denominador se queda igual. Al final, recuerda simplificar si es posible; a veces el resultado incluso se convierte en un entero exacto.",
-      "formula": "a/b × c = (a×c)/b",
+      "nivelEtiqueta": "Nivel 3 de 4 · Avanzado",
+      "titulo": "El resultado como número mixto y Encadena tres fracciones",
+      "explicacion": "Cuando el resultado de una multiplicación es una fracción impropia (numerador mayor que el denominador), normalmente conviene expresarlo también como número mixto: un entero más una fracción propia. Para convertirlo, divides el numerador entre el denominador; el cociente es la parte entera, y el residuo sobre el mismo denominador es la parte fraccionaria. Practica primero multiplicar y simplificar como siempre, y hasta el final conviertes el resultado a número mixto.\n\nEl mismo procedimiento de multiplicar numeradores entre sí y denominadores entre sí funciona sin importar cuántas fracciones multipliques a la vez: con tres fracciones, multiplicas los tres numeradores para obtener el numerador final, y los tres denominadores para obtener el denominador final. Es buena idea simplificar al final, o incluso ir cancelando factores comunes antes de multiplicar todo, para trabajar con números más pequeños. El orden en que multipliques las fracciones no cambia el resultado.",
+      "formula": "n/d (con n>d) = cociente entero + residuo/d; a/b × c/d × e/g = (a×c×e)/(b×d×g)",
       "ejemplos": [
-        "3/4 × 6 = 3/4 × 6/1 = 18/4 = 9/2",
-        "1/3 × 6 = 1/3 × 6/1 = 6/3 = 2"
+        "5/4 × 3/2 = 15/8 = 1 entero 7/8",
+        "8/5 × 3/2 = 24/10 = 12/5 = 2 entero 2/5",
+        "1/2 × 2/3 × 3/4 = (1×2×3)/(2×3×4) = 6/24 = 1/4",
+        "2/5 × 5/6 × 3/4 = (2×5×3)/(5×6×4) = 30/120 = 1/4"
       ],
-      "puntosPorReactivo": 15,
+      "puntosPorReactivo": 20,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "2/3 × 4 = ?",
+          "pregunta": "7/3 × 4/5 = ?, expresado como número mixto",
           "opciones": [
-            "6/3",
-            "8/3",
-            "8/7",
-            "2/12"
+            "1 entero 1/15",
+            "1 entero 13/15",
+            "2 entero 2/15",
+            "28/15 sin convertir"
           ],
           "respuestaCorrecta": 1,
-          "retroalimentacion": "Escribes 4 como 4/1: 2/3 × 4/1 = 8/3. El numerador 3 y el 1 del denominador no comparten más divisores, así que 8/3 ya es el resultado."
+          "retroalimentacion": "7×4=28 y 3×5=15, entonces 28/15. Como 28 entre 15 da 1 y sobran 13, el número mixto es 1 entero 13/15."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "3/5 × 2 = ?",
+          "pregunta": "9/4 × 2/3 = ?, expresado como número mixto",
           "opciones": [
-            "6/5",
-            "5/3",
-            "3/10",
-            "6/10"
+            "1 entero 1/2",
+            "3/2 sin convertir",
+            "2 entero 1/2",
+            "18/12 sin simplificar"
           ],
           "respuestaCorrecta": 0,
-          "retroalimentacion": "3/5 × 2/1 = 6/5. El numerador 6 y el denominador 5 no tienen divisores en común, así que 6/5 ya es el resultado."
+          "retroalimentacion": "9×2=18 y 4×3=12, entonces 18/12 = 3/2 simplificado. Como 3 entre 2 da 1 y sobra 1, el número mixto es 1 entero 1/2."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "5/6 × 3 es lo mismo que 5/6 × 3/1, y su resultado simplificado es 5/2.",
+          "enunciado": "5/2 × 7/4 = 35/8, que como número mixto se escribe 4 entero 3/8.",
           "respuestaCorrecta": true,
-          "retroalimentacion": "5×3=15 y 6×1=6, entonces 15/6; dividiendo entre 3 se simplifica a 5/2."
+          "retroalimentacion": "5×7=35 y 2×4=8, entonces 35/8. Como 35 entre 8 da 4 y sobran 3, el número mixto es 4 entero 3/8."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "2/7 × 7 = ___ (da un número entero exacto)",
-          "respuestaCorrecta": "2",
-          "retroalimentacion": "2/7 × 7/1 = 14/7, y 14 entre 7 es exactamente 2. El 7 del denominador y el 7 del entero se \"cancelan\"."
+          "frase": "5/4 × 3/2 = 15/8, que como número mixto es ___",
+          "respuestaCorrecta": "1 entero 7/8",
+          "retroalimentacion": "15 entre 8 da 1 y sobran 7, por lo que 15/8 equivale a 1 entero 7/8."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada fracción impropia (ya simplificada) con su número mixto correcto.",
+          "columnaA": [
+            "15/8",
+            "28/15",
+            "3/2"
+          ],
+          "columnaB": [
+            "1 entero 7/8",
+            "1 entero 13/15",
+            "1 entero 1/2",
+            "3 entero 1/4"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "15/8 = 1 entero 7/8 · 28/15 = 1 entero 13/15 · 3/2 = 1 entero 1/2. En los tres casos divides el numerador entre el denominador."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "1/2 × 2/3 × 3/4 = ?",
+          "opciones": [
+            "1/4",
+            "6/24 sin simplificar",
+            "1/3",
+            "2/9"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "1×2×3=6 y 2×3×4=24, entonces 6/24; dividiendo entre 6 se simplifica a 1/4."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "2/3 × 3/5 × 1/2 = ?",
+          "opciones": [
+            "1/6",
+            "1/5",
+            "6/30 sin simplificar",
+            "2/5"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "2×3×1=6 y 3×5×2=30, entonces 6/30; dividiendo entre 6 se simplifica a 1/5."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "Al multiplicar cualquier fracción propia por un número entero, el resultado siempre es menor que ese número entero.",
+          "enunciado": "3/4 × 2/5 × 5/6 da como resultado, ya simplificado, 1/4.",
           "respuestaCorrecta": true,
-          "retroalimentacion": "Como la fracción es menor que 1 (propia), al multiplicarla por el entero el resultado siempre queda por debajo del entero original; por ejemplo 3/4 × 6 = 4.5, que es menor que 6."
+          "retroalimentacion": "3×2×5=30 y 4×5×6=120, entonces 30/120; dividiendo entre 30 se simplifica a 1/4."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "1/3 × 3/4 × 2/5 ya simplificado es ___",
+          "respuestaCorrecta": "1/10",
+          "retroalimentacion": "1×3×2=6 y 3×4×5=60, entonces 6/60; dividiendo entre 6 se simplifica a 1/10."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En una multiplicación de tres fracciones, cambiar el orden de los factores puede cambiar el resultado final.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "El orden de los factores no altera el producto: multiplicar 2/3 × 3/5 × 1/2 da el mismo resultado que 1/2 × 2/3 × 3/5."
         }
       ]
     }

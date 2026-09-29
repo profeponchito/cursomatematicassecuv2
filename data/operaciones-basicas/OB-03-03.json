@@ -1,26 +1,27 @@
 {
   "id": "OB-03-03",
   "grado": "Operaciones Básicas",
-  "numero": 19,
+  "numero": 11,
   "categoria": "suma_resta",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Resta con préstamo (algoritmo en columna) — Momento 3/8",
+  "titulo": "Resta con préstamo (algoritmo en columna) — Módulo 3/4",
   "contenido": "El algoritmo escrito de la resta de naturales cuando el minuendo requiere 'pedir prestado' a la siguiente posición, incluyendo préstamo a través de ceros.",
   "pda": "Aplica el algoritmo de la resta en columna, identificando y registrando correctamente el préstamo entre posiciones, incluso a través de ceros.",
   "problematizacion": {
-    "contexto": "El equipo de basquetbol de la escuela Tepeyac acumuló 832 puntos en todo el torneo, y el equipo rival, uno de los más fuertes de la zona, acumuló 456 puntos en el mismo periodo.",
-    "pregunta": "¿Por cuántos puntos de diferencia terminó arriba el equipo Tepeyac al final del torneo?"
+    "contexto": "En la tienda de abarrotes del señor Refugio hay 604 piezas de pan de dulce registradas en el inventario de la mañana. Durante el día se vendieron 237 piezas entre clientes que pasan camino al trabajo y a la escuela.\n\nItzel está ahorrando en su alcancía para comprar una bicicleta. Llevaba juntados 5002 pesos y tuvo que sacar 1876 pesos para pagar una reparación urgente de su bicicleta vieja, que usa para ir a la escuela mientras junta el dinero.",
+    "pregunta": "¿Cuántas piezas de pan le quedan al señor Refugio en el inventario al final del día? Además: ¿Cuántos pesos le quedan a Itzel en su alcancía después de sacar ese dinero?"
   },
   "subtemas": [
     {
       "numero": "3.3",
-      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
-      "titulo": "Préstamo dos veces seguidas",
-      "explicacion": "A veces, después de pedir prestado en las unidades, la columna de las decenas también queda 'corta' y hay que pedir prestado otra vez, ahora a las centenas. Este doble préstamo es un paso más de dificultad: hay que ir columna por columna, sin adelantarse, actualizando cada dígito antes de decidir si se necesita un nuevo préstamo. Practicar este patrón con calma evita errores cuando los números sean más grandes.",
-      "formula": "Resuelve una columna a la vez; si una columna prestó, actualiza su dígito ANTES de comparar la siguiente.",
+      "nivelEtiqueta": "Nivel 3 de 4 · Avanzado",
+      "titulo": "Préstamo cuando hay un cero en el camino y Préstamo a través de varios ceros",
+      "explicacion": "Cuando la posición del minuendo de la que se necesita pedir prestado es 0, ese cero no tiene nada que prestar. En ese caso, el préstamo debe ir un paso más allá, a la siguiente posición hacia la izquierda: esa posición le presta 1 a la que tiene el cero, el cero se convierte en 10, y de ahí sí puede prestarle a la columna original. Este es el primer paso para dominar el préstamo 'a través de ceros'.\n\nEl reto sube cuando hay dos o más ceros seguidos en el minuendo, justo en las posiciones por donde tiene que pasar el préstamo. En ese caso, el préstamo 'viaja' desde la primera cifra distinta de cero hacia la derecha, convirtiendo cada cero en 9 (después de prestar 1) hasta llegar a la columna que originalmente lo necesitaba. Es el mismo principio del momento anterior, pero encadenado varias veces seguidas.",
+      "formula": "Si la posición que debería prestar es 0, pide prestado un paso más a la izquierda; el 0 se vuelve 10 y de ahí presta.; Cada cero que el préstamo atraviesa se convierte en 9; solo la primera cifra distinta de cero baja en 1.",
       "ejemplos": [
-        "En 832 - 456: unidades (2<6) piden prestado: 12-6=6; decenas quedan en 2, y 2<5 piden prestado otra vez: 12-5=7; centenas: (8-1)-4=3. Resultado: 376."
+        "En 604 - 237: las unidades piden prestado, pero las decenas son 0. Se pide prestado a las centenas (6→5), las decenas se vuelven 10 y prestan 1 a las unidades (quedan en 9). Unidades: 14-7=7; decenas: 9-3=6; centenas: 5-2=3. Resultado: 367.",
+        "En 5002 - 1876: las decenas y las centenas son 0. El préstamo viaja desde los millares (5→4); las centenas y las decenas se vuelven 9 cada una, y las unidades reciben el préstamo final. Resultado: 3126."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
@@ -30,74 +31,148 @@
           "operacion": "resta",
           "filas": [
             {
-              "valor": "832"
+              "valor": "604"
             },
             {
-              "valor": "456",
+              "valor": "237",
               "signo": "-"
             },
             {
-              "valor": "376",
+              "valor": "367",
               "esResultado": true
             }
           ],
           "ocultos": [
             [
-              0
+              1
             ],
             [
               2
             ],
             [
-              1
+              0
             ]
           ],
-          "retroalimentacion": "832 - 456 = 376. Se pide prestado dos veces: en las unidades (12-6=6) y en las decenas (12-5=7); en las centenas queda 7-4=3."
+          "retroalimentacion": "604 - 237 = 367. Como las decenas del minuendo son 0, no se puede prestar directamente: se pide prestado a las centenas (6→5), las decenas se vuelven 10, prestan 1 a las unidades (quedan en 9) y unidades: 14-7=7. Decenas: 9-3=6. Centenas: 5-2=3."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "En 723 - 456, después de pedir prestado en las unidades, ¿qué operación se hace en las decenas?",
+          "pregunta": "En 406 - 178, ¿por qué no se puede pedir prestado directamente en las decenas?",
           "opciones": [
-            "2 - 5, sin pedir prestado",
-            "1 - 5, sin pedir prestado",
-            "11 - 5, pidiendo prestado a las centenas",
-            "12 - 5, pidiendo prestado a las centenas"
+            "Porque las decenas ya son mayores que las unidades",
+            "Porque el dígito de las decenas es 0 y no tiene nada que prestar",
+            "Porque las centenas son impares",
+            "Porque 178 tiene más cifras que 406"
           ],
-          "respuestaCorrecta": 2,
-          "retroalimentacion": "Al prestar 1 a las unidades, las decenas bajan de 2 a 1. Como 1 es menor que 5, se vuelve a pedir prestado: 11 - 5 = 6."
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Las decenas de 406 son 0: un 0 no puede prestar nada, así que el préstamo tiene que ir hasta las centenas."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "Es posible que en una resta de tres cifras se necesite pedir prestado más de una vez.",
+          "enunciado": "Cuando el dígito de las decenas del minuendo es 0 y se necesita pedir prestado, hay que ir a pedir prestado a las centenas.",
           "respuestaCorrecta": true,
-          "retroalimentacion": "Así es: si dos o más columnas quedan con el dígito de arriba menor que el de abajo, cada una pide su propio préstamo."
+          "retroalimentacion": "Correcto: un 0 no tiene nada que prestar, así que el préstamo avanza una posición más hacia la izquierda."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "En 941 - 578, las centenas finales se obtienen calculando 9 - 1 (por el préstamo) - 5, lo cual da ___.",
-          "respuestaCorrecta": "3",
-          "retroalimentacion": "941 - 578 = 363. En las centenas, al 9 se le resta 1 porque prestó a las decenas, y luego se resta 5: 9-1-5=3."
+          "frase": "En 802 - 465, como las decenas son 0, al pedir prestado a las centenas, las decenas se convierten en ___ antes de prestarle 1 a las unidades.",
+          "respuestaCorrecta": "10",
+          "retroalimentacion": "Las centenas prestan 1 a las decenas: el 0 se convierte en 10; de ahí, las decenas prestan 1 a las unidades y quedan en 9."
         },
         {
           "tipo": "relacionar_columnas",
-          "instruccion": "Relaciona cada resta con cuántas veces se pide prestado.",
+          "instruccion": "Relaciona cada resta con el tipo de préstamo que necesita.",
           "columnaA": [
-            "615 - 342",
-            "958 - 213",
-            "624 - 359"
+            "703 - 258",
+            "643 - 217",
+            "900 - 456"
           ],
           "columnaB": [
-            "0 veces",
-            "1 vez",
-            "2 veces",
-            "3 veces"
+            "Sí, préstamo a través de cero",
+            "No, préstamo directo (sin pasar por cero)",
+            "No se necesita pedir prestado"
           ],
           "parejasCorrectas": [
-            1,
             0,
-            2
+            1,
+            0
           ],
-          "retroalimentacion": "615-342 pide prestado una vez; 958-213 no pide prestado; 624-359 pide prestado dos veces seguidas."
+          "retroalimentacion": "En 703-258 y 900-456 las decenas son 0 y el préstamo debe atravesarlas; en 643-217 las decenas (4) prestan directo, sin pasar por ningún cero."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "5002"
+            },
+            {
+              "valor": "1876",
+              "signo": "-"
+            },
+            {
+              "valor": "3126",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1,
+              2
+            ],
+            [
+              3
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "5002 - 1876 = 3126. Las decenas y centenas del minuendo son 0, así que el préstamo viaja hasta los millares: 5 presta 1 (queda 4), las centenas se vuelven 10 y prestan 1 a las decenas (quedan 9), las decenas se vuelven 10 y prestan 1 a las unidades (quedan 9); unidades: 12-6=6, decenas: 9-7=2, centenas: 9-8=1, millares: 4-1=3."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En 7004 - 2568, ¿hasta qué posición debe 'viajar' el préstamo antes de poder prestarle finalmente a las unidades?",
+          "opciones": [
+            "Hasta las decenas",
+            "Hasta las centenas",
+            "Hasta los millares",
+            "No es necesario ningún préstamo"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Las centenas y las decenas de 7004 son 0, así que ninguna puede prestar; el préstamo tiene que llegar hasta los millares (7→6) para poder repartirse hacia abajo."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Cuando dos o más ceros consecutivos aparecen en el minuendo y hace falta pedir prestado, el préstamo debe 'atravesar' todos esos ceros hasta encontrar una cifra distinta de cero.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Sí: cada cero que se atraviesa se convierte en 9, y solo la primera cifra distinta de cero pierde 1 de verdad."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En 4003 - 1568, las centenas y las decenas son 0; al pedir prestado desde los millares, las centenas se convierten primero en ___ antes de prestarle a las decenas.",
+          "respuestaCorrecta": "10",
+          "retroalimentacion": "Los millares prestan 1 a las centenas: el 0 se vuelve 10; luego las centenas prestan 1 a las decenas y quedan en 9."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada resta con cuántos ceros consecutivos debe atravesar el préstamo.",
+          "columnaA": [
+            "6005 - 2348",
+            "7208 - 3549",
+            "8354 - 2129"
+          ],
+          "columnaB": [
+            "0 ceros",
+            "1 cero",
+            "2 ceros",
+            "3 ceros"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "6005-2348 atraviesa 2 ceros (centenas y decenas); 7208-3549 atraviesa 1 cero (decenas); 8354-2129 no atraviesa ningún cero, porque las decenas (5) prestan directo."
         }
       ]
     }

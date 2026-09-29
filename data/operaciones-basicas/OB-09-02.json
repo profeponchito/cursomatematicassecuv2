@@ -1,71 +1,131 @@
 {
   "id": "OB-09-02",
   "grado": "Operaciones Básicas",
-  "numero": 66,
+  "numero": 34,
   "categoria": "suma_resta",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Suma y resta de números con signo (mismo signo) — Momento 2/8",
+  "titulo": "Suma y resta de números con signo (mismo signo) — Módulo 2/4",
   "contenido": "Suma y resta de números enteros con signo cuando ambos números tienen el mismo signo.",
   "pda": "Suma y resta números enteros con el mismo signo, relacionando la regla con la suma de valores absolutos.",
   "problematizacion": {
-    "contexto": "En un partido de fútbol americano, el equipo de la secundaria retrocedió 8 yardas en una jugada por una sanción, y en la siguiente jugada volvió a retroceder 5 yardas más porque el mariscal de campo fue detenido.",
-    "pregunta": "Si ambos retrocesos se representan con números negativos, ¿cómo se combinan para saber cuánto terreno perdió el equipo en total?"
+    "contexto": "Un grupo de exploradores desciende a una cueva en Puebla. En el primer tramo bajan 18 metros y, tras un descanso, bajan 25 metros más por un túnel más angosto.\n\nUn montacargas en una mina de Zacatecas se encuentra a 12 metros bajo el nivel de la superficie. Para llegar a una nueva veta, el operador debe bajarlo 9 metros más.",
+    "pregunta": "Usando el procedimiento de 'identificar signo, sumar valores absolutos y conservar el signo', ¿a qué profundidad total llegaron los exploradores? Además: si la posición bajo la superficie se resta como si fuera un descenso adicional, ¿a qué profundidad queda el montacargas?"
   },
   "subtemas": [
     {
       "numero": "9.2",
-      "nivelEtiqueta": "Nivel 2 de 8 · Básico",
-      "titulo": "Sumar dos números negativos",
-      "explicacion": "Ahora la novedad es que los dos números son negativos. La regla no cambia: sumas los valores absolutos de ambos números y el resultado se queda con el signo que comparten, en este caso el negativo. Un error común es pensar que un negativo más un negativo 'se cancela'; en realidad se alejan más de cero en la misma dirección, así que el resultado se hace más negativo (más grande en valor absoluto).",
-      "formula": "(-a) + (-b) = -(a + b)",
+      "nivelEtiqueta": "Nivel 2 de 4 · Intermedio",
+      "titulo": "Identifica el signo y suma paso a paso y Restar un positivo de un negativo",
+      "explicacion": "En este momento practicamos el procedimiento completo, dividido en pasos: primero identificas que ambos números tienen el mismo signo, después sumas sus valores absolutos, y al final le pones a la respuesta el signo que comparten. Trabajar con números positivos y negativos mezclados en distintos reactivos (aunque cada operación individual sea de un solo signo) te ayuda a no confundir el procedimiento.\n\nAhora agregamos una dificultad nueva: una resta que, en realidad, se comporta igual que la suma de dos números con el mismo signo. Cuando a un número negativo le restas un número positivo, te alejas todavía más de cero en la dirección negativa; es exactamente lo mismo que sumar dos negativos, porque restar un positivo equivale a sumar su negativo: (-a) - (+b) = (-a) + (-b).",
+      "formula": "mismo signo → sumar valores absolutos → conservar el signo; (-a) - (+b) = -(a + b)",
       "ejemplos": [
-        "Ejemplo: -8 + -5. Ambos son negativos, así que sumamos los valores absolutos: 8 + 5 = 13. Como los dos signos eran negativos, el resultado conserva el signo negativo: -8 + -5 = -13."
+        "Ejemplo: -18 + -25. Paso 1: ambos signos son negativos. Paso 2: sumamos los valores absolutos, 18 + 25 = 43. Paso 3: el resultado lleva signo negativo: -18 + -25 = -43.",
+        "Ejemplo: -12 - 9. Esto equivale a -12 + -9, así que sumamos los valores absolutos: 12 + 9 = 21, y el resultado lleva signo negativo: -12 - 9 = -21."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
-          "tipo": "opcion_multiple",
-          "pregunta": "-8 + -5 = ?",
-          "opciones": [
-            "-13",
-            "-3",
-            "3",
-            "13"
-          ],
-          "respuestaCorrecta": 0,
-          "retroalimentacion": "Sumamos los valores absolutos: 8 + 5 = 13, y como ambos signos eran negativos, el resultado es -13."
+          "tipo": "llenar_frase",
+          "frase": "Para resolver -18 + -25, el signo de ambos números es ___.",
+          "respuestaCorrecta": "negativo",
+          "retroalimentacion": "Ambos números, -18 y -25, tienen signo negativo."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "-14 + -9 = ___",
-          "respuestaCorrecta": "-23",
-          "retroalimentacion": "14 + 9 = 23, y como ambos números eran negativos, el resultado es -23."
+          "frase": "Después identificar el signo, sumamos los valores absolutos: 18 + 25 = ___.",
+          "respuestaCorrecta": "43",
+          "retroalimentacion": "18 + 25 = 43. Este es el valor absoluto del resultado final."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado final de -18 + -25?",
+          "opciones": [
+            "-43",
+            "-7",
+            "7",
+            "43"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Como ambos signos eran negativos, el resultado conserva el signo negativo: -43."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada operación con su resultado correcto.",
+          "columnaA": [
+            "+14 + +9",
+            "-14 + -9",
+            "+22 + +8",
+            "-22 + -8"
+          ],
+          "columnaB": [
+            "-30",
+            "23",
+            "30",
+            "-23"
+          ],
+          "parejasCorrectas": [
+            1,
+            3,
+            2,
+            0
+          ],
+          "retroalimentacion": "14+9=23 (positivo), -14-9=-23 (negativo), 22+8=30 (positivo), -22-8=-30 (negativo): el signo del resultado siempre es el que comparten los dos números."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "+27 + +13 = ?",
+          "opciones": [
+            "40",
+            "14",
+            "-14",
+            "-40"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "27 + 13 = 40. Ambos números son positivos, así que el resultado es +40."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "-12 - 9 = ?",
+          "opciones": [
+            "-21",
+            "-3",
+            "3",
+            "21"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "-12 - 9 equivale a -12 + -9 = -(12+9) = -21."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "-25 - 14 = ___",
+          "respuestaCorrecta": "-39",
+          "retroalimentacion": "-25 - 14 equivale a -25 + -14 = -(25+14) = -39."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "-6 + -10 = -16",
+          "enunciado": "-30 - 8 es lo mismo que -30 + -8, y su resultado es -38.",
           "respuestaCorrecta": true,
-          "retroalimentacion": "Correcto: 6 + 10 = 16, y al ser ambos negativos, el resultado es -16."
+          "retroalimentacion": "Correcto: restar 8 a -30 equivale a sumarle -8, y 30 + 8 = 38, con signo negativo: -38."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "-19 + -12 = ?",
+          "pregunta": "-17 - 19 = ?",
           "opciones": [
-            "-31",
-            "-7",
-            "7",
-            "31"
+            "-36",
+            "-2",
+            "2",
+            "36"
           ],
           "respuestaCorrecta": 0,
-          "retroalimentacion": "19 + 12 = 31, y como ambos signos eran negativos, el resultado es -31."
+          "retroalimentacion": "-17 - 19 equivale a -17 + -19 = -(17+19) = -36."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "-23 + -17 = ___",
-          "respuestaCorrecta": "-40",
-          "retroalimentacion": "23 + 17 = 40, y al ser ambos negativos, el resultado es -40."
+          "frase": "-33 - 6 = ___",
+          "respuestaCorrecta": "-39",
+          "retroalimentacion": "-33 - 6 equivale a -33 + -6 = -(33+6) = -39."
         }
       ]
     }

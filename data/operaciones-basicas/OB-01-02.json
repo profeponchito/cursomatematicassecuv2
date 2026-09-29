@@ -5,40 +5,115 @@
   "categoria": "suma_resta",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Suma y resta de naturales sin llevar — Momento 2/8",
+  "titulo": "Suma y resta de naturales sin llevar — Módulo 2/4",
   "contenido": "Suma y resta de números naturales cuando ninguna columna requiere acarreo ni préstamo.",
   "pda": "Resuelve sumas y restas de números naturales identificando el valor posicional de cada cifra, sin necesidad de acarreo ni préstamo.",
   "problematizacion": {
-    "contexto": "En el torneo interescolar, el equipo de Leo, Los Tigres, anotó 58 puntos durante todo el partido de basquetbol. El árbitro descontó 23 puntos porque hubo una jugada mal contada por el marcador electrónico.",
-    "pregunta": "¿Cuántos puntos le quedan al marcador de Los Tigres después de restar 23 a los 58 puntos, sin necesidad de pedir prestado?"
+    "contexto": "Don Efraín tiene un puesto de verduras en el mercado sobre ruedas. El lunes acomodó 123 kilos de tomate en su primer pedido y el miércoles le llegaron 245 kilos más para reponer lo que se había vendido.\n\nLa chofer Rosa maneja el camión de la ruta 5. A las siete de la mañana salió de la base con 579 boletos en su rollo. Durante el primer tramo del recorrido vendió 234 boletos a los pasajeros que subieron.",
+    "pregunta": "¿Cuántos kilos de tomate ha recibido Don Efraín en total si suma 123 y 245 columna por columna, sin que ninguna columna llegue a 10? Además: ¿Cuántos boletos le quedan a Rosa en el rollo si resta 234 a los 579 boletos, columna por columna y sin pedir prestado?"
   },
   "subtemas": [
     {
       "numero": "1.2",
-      "nivelEtiqueta": "Nivel 2 de 8 · Básico",
-      "titulo": "Restar sin pedir prestado en números de dos cifras",
-      "explicacion": "En una resta, la cifra de arriba (el minuendo) debe ser igual o mayor que la de abajo (el sustraendo) en cada columna para que no haga falta pedir prestado. Igual que en la suma, se trabaja columna por columna: primero unidades, después decenas. Si en cada columna la cifra de arriba alcanza para restar la de abajo, el resultado se obtiene directamente, cifra por cifra.",
-      "formula": "unidades - unidades, decenas - decenas (sin préstamo)",
+      "nivelEtiqueta": "Nivel 2 de 4 · Intermedio",
+      "titulo": "Sumar centenas, decenas y unidades en números de tres cifras y Restar números de tres cifras sin pedir prestado",
+      "explicacion": "Ahora los números tienen tres cifras: centenas, decenas y unidades. La forma de sumar no cambia, solo se agrega una columna más a la izquierda. Se acomodan los números en su lugar (centenas debajo de centenas, decenas debajo de decenas, unidades debajo de unidades) y se suma cada columna por separado, siempre y cuando ninguna columna sume 10 o más.\n\nAl restar números de tres cifras se revisan tres columnas: unidades, decenas y centenas. En este momento, en cada columna la cifra de arriba siempre alcanza para restar la de abajo, así que puedes resolver cada columna de forma independiente sin pedir nada prestado a la columna vecina. Es la misma idea del momento anterior, solo que ahora con una cifra más.",
+      "formula": "centenas + centenas, decenas + decenas, unidades + unidades; centenas - centenas, decenas - decenas, unidades - unidades",
       "ejemplos": [
-        "58 - 23: unidades 8-3=5, decenas 5-2=3 → 35",
-        "76 - 42: unidades 6-2=4, decenas 7-4=3 → 34"
+        "123 + 245: unidades 3+5=8, decenas 2+4=6, centenas 1+2=3 → 368",
+        "312 + 456: unidades 2+6=8, decenas 1+5=6, centenas 3+4=7 → 768",
+        "579 - 234: unidades 9-4=5, decenas 7-3=4, centenas 5-2=3 → 345",
+        "685 - 243: unidades 5-3=2, decenas 8-4=4, centenas 6-2=4 → 442"
       ],
-      "puntosPorReactivo": 10,
+      "puntosPorReactivo": 12,
       "estrellasMax": 3,
       "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "123",
+              "signo": "+"
+            },
+            {
+              "valor": "245",
+              "signo": "+"
+            },
+            {
+              "valor": "368",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              2
+            ],
+            []
+          ],
+          "retroalimentacion": "123 + 245 = 368: unidades 3+5=8, decenas 2+4=6, centenas 1+2=3. Ninguna columna llega a 10."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado de 312 + 456?",
+          "opciones": [
+            "768",
+            "878",
+            "758",
+            "668"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "312 + 456 = 768. Unidades 2+6=8, decenas 1+5=6, centenas 3+4=7."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "234 + 512 = 746",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Es verdadero. Unidades 4+2=6, decenas 3+1=4, centenas 2+5=7 → 746."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "150 + ___ = 380",
+          "respuestaCorrecta": "230",
+          "retroalimentacion": "380 - 150 = 230. Comprobación: 150 + 230: unidades 0+0=0, decenas 5+3=8, centenas 1+2=3 → 380."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada suma de tres cifras con su resultado.",
+          "columnaA": [
+            "121 + 335",
+            "203 + 146",
+            "410 + 280"
+          ],
+          "columnaB": [
+            "456",
+            "349",
+            "690",
+            "512"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "121+335=456, 203+146=349 y 410+280=690, sumando cada columna por separado."
+        },
         {
           "tipo": "algoritmo_columnas",
           "operacion": "resta",
           "filas": [
             {
-              "valor": "58"
+              "valor": "579"
             },
             {
-              "valor": "23",
+              "valor": "234",
               "signo": "-"
             },
             {
-              "valor": "35",
+              "valor": "345",
               "esResultado": true
             }
           ],
@@ -51,52 +126,52 @@
             ],
             []
           ],
-          "retroalimentacion": "58 - 23 = 35: en las unidades 8-3=5, en las decenas 5-2=3. Como 8 es mayor que 3 y 5 es mayor que 2, no se pide prestado."
+          "retroalimentacion": "579 - 234 = 345: unidades 9-4=5, decenas 7-3=4, centenas 5-2=3. Ninguna cifra de abajo es mayor que la de arriba."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuánto es 76 - 42?",
+          "pregunta": "¿Cuánto es 685 - 243?",
           "opciones": [
-            "44",
-            "24",
-            "34",
-            "118"
+            "432",
+            "442",
+            "452",
+            "928"
           ],
-          "respuestaCorrecta": 2,
-          "retroalimentacion": "76 - 42 = 34. Unidades: 6-2=4. Decenas: 7-4=3. Resultado: 34."
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "685 - 243 = 442. Unidades 5-3=2, decenas 8-4=4, centenas 6-2=4."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "89 - 35 = 54",
+          "enunciado": "396 - 152 = 244",
           "respuestaCorrecta": true,
-          "retroalimentacion": "Es verdadero. Unidades: 9-5=4. Decenas: 8-3=5. El resultado es 54."
+          "retroalimentacion": "Es verdadero. Unidades 6-2=4, decenas 9-5=4, centenas 3-1=2 → 244."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "67 - ___ = 24",
-          "respuestaCorrecta": "43",
-          "retroalimentacion": "67 - 24 = 43. Comprobación: 24 + 43 = 67, y en cada columna 43 cabe sin pedir prestado (unidades 7-3=4, decenas 6-4=2)."
+          "frase": "758 - ___ = 536",
+          "respuestaCorrecta": "222",
+          "retroalimentacion": "758 - 536 = 222. Comprobación: 758 - 222: unidades 8-2=6, decenas 5-2=3, centenas 7-2=5 → 536."
         },
         {
           "tipo": "relacionar_columnas",
-          "instruccion": "Relaciona cada resta con su resultado correcto.",
+          "instruccion": "Relaciona cada resta de tres cifras con su resultado.",
           "columnaA": [
-            "48 - 15",
-            "99 - 47",
-            "76 - 23"
+            "487 - 256",
+            "639 - 514",
+            "825 - 603"
           ],
           "columnaB": [
-            "33",
-            "52",
-            "53",
-            "61"
+            "231",
+            "125",
+            "222",
+            "310"
           ],
           "parejasCorrectas": [
             0,
             1,
             2
           ],
-          "retroalimentacion": "48-15=33, 99-47=52 y 76-23=53. En ningún caso la cifra de abajo es mayor que la de arriba."
+          "retroalimentacion": "487-256=231, 639-514=125 y 825-603=222, restando cada columna sin pedir prestado."
         }
       ]
     }

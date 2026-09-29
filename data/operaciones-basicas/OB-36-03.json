@@ -1,82 +1,84 @@
 {
   "id": "OB-36-03",
   "grado": "Operaciones Básicas",
-  "numero": 283,
+  "numero": 143,
   "categoria": "potencias_raices",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Raíz cuadrada aproximada — Momento 3/8",
+  "titulo": "Raíz cuadrada aproximada — Módulo 3/4",
   "contenido": "Estimación de la raíz cuadrada de números que no son cuadrados perfectos, ubicándola entre dos enteros consecutivos.",
   "pda": "Estima la raíz cuadrada de un número que no es cuadrado perfecto, ubicándola entre dos números enteros consecutivos.",
   "problematizacion": {
-    "contexto": "En una terminal de autobuses de Puebla, el chofer necesita acomodar 63 maletas en un compartimento que se organiza como una cuadrícula cuadrada, y quiere calcular a ojo cuántas maletas caben por lado.",
-    "pregunta": "¿La raíz cuadrada de 63 está más cerca de 7 o de 8?"
+    "contexto": "Un electricista en Tijuana está instalando paneles solares cuadrados pequeños en el techo de una fábrica; en total caben 205 paneles organizados en una cuadrícula cuadrada para cubrir el espacio disponible.\n\nUn estadio de fútbol en Monterrey planea instalar un mosaico cuadrado gigante en el centro del campo, hecho con 620 losetas pequeñas acomodadas en cuadrícula cuadrada.",
+    "pregunta": "¿Entre qué dos enteros consecutivos se ubica el número de paneles por lado, si en total hay 205? Además: ¿A qué número entero se acerca más la raíz cuadrada de 620 (el lado de la cuadrícula en losetas)?"
   },
   "subtemas": [
     {
       "numero": "36.3",
-      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
-      "titulo": "¿Más cerca de cuál? Afina tu estimación",
-      "explicacion": "Ya sabes ubicar la raíz cuadrada entre dos enteros consecutivos; ahora vas a decidir a cuál de los dos se parece más. Para eso, calcula el punto medio entre los dos cuadrados perfectos que forman el intervalo: si el número original está por debajo del punto medio, la raíz está más cerca del entero menor; si está por arriba, está más cerca del entero mayor. Por ejemplo, entre 49 y 64 el punto medio es 56.5; como 63 es mayor que 56.5, √63 está más cerca de 8 que de 7. Esta estrategia te da una estimación más fina sin necesitar calculadora.",
+      "nivelEtiqueta": "Nivel 3 de 4 · Avanzado",
+      "titulo": "Raíces aproximadas en la vida diaria y Estimar raíces con números más grandes",
+      "explicacion": "Las raíces cuadradas aproximadas aparecen todo el tiempo en situaciones reales: calcular el lado de un terreno cuadrado a partir de su área, acomodar objetos en una cuadrícula o repartir un espacio en partes iguales. En este momento vas a leer problemas breves, identificar el número relevante (casi siempre un área o una cantidad total) y aplicar lo que ya sabes: ubicar su raíz cuadrada entre dos enteros consecutivos. El reto aquí no es la raíz en sí, sino reconocer qué número del problema debes usar.\n\nLa misma estrategia para estimar raíces cuadradas funciona igual de bien con números más grandes, aunque a veces parezca más difícil. Solo necesitas encontrar los cuadrados perfectos vecinos (por ejemplo, 22²=484 y 23²=529 para ubicar 500) y luego decidir, con el punto medio, a cuál entero se acerca más la raíz. Trabajar con números de tres o cuatro cifras te obliga a recordar más cuadrados perfectos, pero el procedimiento es idéntico al que ya dominas.",
       "formula": "Punto medio = (a² + (a+1)²) ÷ 2",
       "ejemplos": [
-        "Para √63: el intervalo es 49 y 64, cuyo punto medio es (49+64)÷2=56.5. Como 63>56.5, √63 está más cerca de 8 que de 7.",
-        "Para √45: el intervalo es 36 y 49, punto medio (36+49)÷2=42.5. Como 45>42.5, √45 está más cerca de 7 que de 6."
+        "Un patio cuadrado de 84 m² de área: como 81<84<100, su lado mide entre 9 y 10 metros.",
+        "Una cuadrícula con 140 fichas: como 121<140<144, el lado de esa cuadrícula tiene entre 11 y 12 fichas.",
+        "Para 500: como 22²=484 y 23²=529, y 484<500<529, entonces √500 está entre 22 y 23; el punto medio es (484+529)÷2=506.5, y como 500<506.5, √500 está más cerca de 22.",
+        "Para 840: como 28²=784 y 29²=841, y 784<840<841, √840 está entre 28 y 29; el punto medio es (784+841)÷2=812.5, y como 840>812.5, √840 está más cerca de 29."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "√52 está más cerca de:",
+          "pregunta": "Un terreno cuadrado en una comunidad rural de Chiapas mide 84 metros cuadrados de superficie. ¿Entre qué dos números enteros está la medida aproximada de cada lado?",
           "opciones": [
-            "7",
-            "7.5",
-            "8",
-            "9"
+            "7 y 8",
+            "8 y 9",
+            "9 y 10",
+            "10 y 11"
           ],
-          "respuestaCorrecta": 0,
-          "retroalimentacion": "El intervalo de 52 es 49 y 64, con punto medio 56.5. Como 52<56.5, √52 está más cerca de 7."
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "81<84<100, y como 81=9² y 100=10², el lado mide entre 9 y 10 metros."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "√63 está más cerca de:",
+          "pregunta": "Una alberca cuadrada para un club deportivo de Monterrey tiene un área de 140 m². ¿Entre qué dos enteros se ubica la longitud de cada lado?",
           "opciones": [
-            "6",
-            "7",
-            "8",
-            "9"
+            "10 y 11",
+            "11 y 12",
+            "12 y 13",
+            "13 y 14"
           ],
-          "respuestaCorrecta": 2,
-          "retroalimentacion": "El intervalo de 63 es 49 y 64, con punto medio 56.5. Como 63>56.5, √63 está más cerca de 8."
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "121<140<144, y como 121=11² y 144=12², el lado mide entre 11 y 12 metros."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "La raíz cuadrada de 45 está más cerca de 7 que de 6.",
+          "enunciado": "Si una cocina cuadrada tiene 155 baldosas en total organizadas en cuadrícula, el lado de esa cuadrícula (en baldosas) está entre 12 y 13.",
           "respuestaCorrecta": true,
-          "retroalimentacion": "Correcto: el intervalo de 45 es 36 y 49, con punto medio 42.5. Como 45>42.5, √45 está más cerca de 7."
+          "retroalimentacion": "Correcto: 144<155<169, y como 144=12² y 169=13², el lado está entre 12 y 13 baldosas."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "La raíz cuadrada de 95 está más cerca de ___ que de 9.",
-          "respuestaCorrecta": "10",
-          "retroalimentacion": "El intervalo de 95 es 81 y 100, con punto medio 90.5. Como 95>90.5, √95 está más cerca de 10."
+          "frase": "Un panadero en Puebla hace charolas cuadradas para acomodar 168 piezas de pan en cuadrícula; el lado de esa cuadrícula está entre 12 y ___.",
+          "respuestaCorrecta": "13",
+          "retroalimentacion": "144<168<169, y como 144=12² y 169=13², el lado está entre 12 y 13."
         },
         {
           "tipo": "relacionar_columnas",
-          "instruccion": "Relaciona cada número con el entero al que su raíz cuadrada se acerca más.",
+          "instruccion": "Relaciona cada situación con el par de enteros entre los que se ubica el lado de su cuadrícula.",
           "columnaA": [
-            "105",
-            "130",
-            "150",
-            "190"
+            "Huerto de 110 m²",
+            "Salón con 183 sillas en cuadrícula",
+            "Cancha con 230 losetas",
+            "Alberca de 305 m²"
           ],
           "columnaB": [
-            "10",
-            "11",
-            "12",
-            "14",
-            "13"
+            "10 y 11",
+            "13 y 14",
+            "15 y 16",
+            "17 y 18",
+            "11 y 12"
           ],
           "parejasCorrectas": [
             0,
@@ -84,7 +86,67 @@
             2,
             3
           ],
-          "retroalimentacion": "√105 está más cerca de 10 (punto medio 110.5); √130 más cerca de 11 (punto medio 132.5); √150 más cerca de 12 (punto medio 156.5); √190 más cerca de 14 (punto medio 182.5)."
+          "retroalimentacion": "110 está entre 10² y 11²; 183 entre 13² y 14²; 230 entre 15² y 16²; 305 entre 17² y 18²."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Entre qué dos enteros está √500?",
+          "opciones": [
+            "20 y 21",
+            "21 y 22",
+            "22 y 23",
+            "23 y 24"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "484<500<529, y como 484=22² y 529=23², entonces 22<√500<23."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿A qué entero se acerca más √620?",
+          "opciones": [
+            "23",
+            "24",
+            "25",
+            "26"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "El intervalo de 620 es 576 (24²) y 625 (25²), con punto medio 600.5. Como 620>600.5, √620 está más cerca de 25."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La raíz cuadrada de 840 está más cerca de 29 que de 28.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: el intervalo de 840 es 784 (28²) y 841 (29²), con punto medio 812.5. Como 840>812.5, √840 está más cerca de 29."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La raíz cuadrada de 999 está entre 31 y ___.",
+          "respuestaCorrecta": "32",
+          "retroalimentacion": "961<999<1024, y como 961=31² y 1024=32², entonces 31<√999<32."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada número con el entero al que su raíz cuadrada se acerca más.",
+          "columnaA": [
+            "730",
+            "600",
+            "950",
+            "1200"
+          ],
+          "columnaB": [
+            "27",
+            "24",
+            "31",
+            "35",
+            "29"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "retroalimentacion": "√730 se acerca más a 27 (punto medio 756.5); √600 a 24 (punto medio 600.5); √950 a 31 (punto medio 930.5); √1200 a 35 (punto medio 1190.5)."
         }
       ]
     }

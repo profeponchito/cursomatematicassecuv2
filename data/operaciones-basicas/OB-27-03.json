@@ -1,80 +1,124 @@
 {
   "id": "OB-27-03",
   "grado": "Operaciones Básicas",
-  "numero": 211,
+  "numero": 107,
   "categoria": "mult_div",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Multiplicación y división en la vida cotidiana — Momento 3/8",
+  "titulo": "Multiplicación y división en la vida cotidiana — Módulo 3/4",
   "contenido": "Multiplicación y división aplicadas a situaciones cotidianas: repartos, precios unitarios, escalas y recetas.",
   "pda": "Resuelve problemas cotidianos de reparto, precio unitario y proporciones sencillas usando multiplicación y división.",
   "problematizacion": {
-    "contexto": "En la tienda de abarrotes del barrio, Toño quiere comprar plumas para el nuevo ciclo escolar y ve dos presentaciones distintas: una bolsa con varias plumas por un precio total, y plumas sueltas con precio individual.",
-    "pregunta": "¿Cómo puede saber Toño cuál opción le conviene más comprar?"
+    "contexto": "El entrenador Beto prepara equipos para un torneo relámpago de voleibol en la unidad deportiva. Tiene un número de jugadores inscritos que no siempre se puede repartir en partes exactamente iguales.\n\nUn grupo de excursionistas de la secundaria planea una caminata y usa un mapa turístico donde las distancias reales aparecen reducidas a una escala fija, además de organizar cuadrillas de trabajo para armar el campamento.",
+    "pregunta": "Si se inscribieron 45 jugadores y cada equipo debe tener 7 integrantes, ¿cuántos equipos completos puede armar el entrenador Beto? Además: si en el mapa la ruta mide 8 centímetros y cada centímetro representa 5 kilómetros reales, ¿qué tan larga es la caminata en la realidad?"
   },
   "subtemas": [
     {
       "numero": "27.3",
-      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
-      "titulo": "Precio unitario: ¿cuánto cuesta uno solo?",
-      "explicacion": "El precio unitario es lo que cuesta UNA sola pieza cuando se conoce el precio de un paquete completo, y se calcula dividiendo el precio total entre la cantidad de piezas. Este cálculo es muy útil para comparar ofertas y decidir qué opción conviene más al comprar. Por ejemplo, si un paquete de 4 plumas cuesta $60, cada pluma cuesta 60 ÷ 4 = $15. Comparar precios unitarios, en vez de solo precios totales, evita comprar de más o pagar más caro por lo mismo.",
-      "formula": "precio unitario = precio total ÷ cantidad de piezas",
+      "nivelEtiqueta": "Nivel 3 de 4 · Avanzado",
+      "titulo": "División con residuo: ¿qué hacemos con lo que sobra? y Dos operaciones en un solo problema: multiplicar y dividir juntos",
+      "explicacion": "No todas las divisiones son exactas: a veces, al repartir en partes iguales, sobra una cantidad que ya no alcanza para formar otra parte completa; a eso se le llama residuo o resto. En la vida real hay que decidir qué hacer con ese resto según la situación: a veces solo se informa cuánto sobró, y otras veces hay que redondear hacia arriba (por ejemplo, si sobran personas y se necesita un vehículo más para transportarlas a todas). Identificar si el resto se descarta, se reporta o exige una unidad extra es tan importante como calcular la división misma.\n\nMuchos problemas cotidianos no se resuelven con una sola operación, sino con dos pasos: primero se divide para encontrar una cantidad \"por unidad\" (por persona, por centímetro, por obrero) y después se multiplica para escalarla a la situación que se pregunta, o al revés. Este tipo de razonamiento aparece al escalar recetas, leer escalas de mapas o repartir compras entre varios grupos. La clave es identificar qué operación va primero: si se necesita un valor unitario, se divide primero; si ya se tiene el total y solo falta repartirlo, se multiplica primero y se divide después.",
+      "formula": "dividendo = (cociente × divisor) + residuo; cantidad por unidad = total ÷ unidades conocidas; luego: resultado = cantidad por unidad × unidades buscadas",
       "ejemplos": [
-        "Un paquete de 4 plumas cuesta $60, así que cada pluma cuesta 60 ÷ 4 = $15.",
-        "Comprobación con multiplicación: $15 por pluma × 4 plumas = $60, que es el precio del paquete."
+        "50 lápices entre 8 alumnos: 50 ÷ 8 = 6 lápices para cada quien y sobran 2 (porque 6 × 8 = 48 y 50 − 48 = 2).",
+        "29 personas en camionetas de 6 asientos: caben 4 camionetas llenas (24 personas) y sobran 5, así que se necesita una quinta camioneta.",
+        "Una receta para 4 personas usa 300 g de arroz: por persona es 300 ÷ 4 = 75 g; para 10 personas se necesitan 75 × 10 = 750 g.",
+        "En un mapa, 1 cm representa 5 km reales; si dos ciudades están a 8 cm en el mapa, la distancia real es 8 × 5 = 40 km."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "En la papelería, un paquete de 4 plumas cuesta $60. ¿Cuánto cuesta cada pluma?",
+          "pregunta": "Una maestra tiene 50 lápices y quiere repartirlos entre 8 alumnos por igual. ¿Cuántos lápices completos recibe cada alumno y cuántos sobran?",
           "opciones": [
-            "$12",
-            "$15",
-            "$18",
-            "$20"
+            "6 lápices y sobran 2",
+            "7 lápices y sobra 1",
+            "6 lápices y sobran 4",
+            "8 lápices y sobra 1"
           ],
-          "respuestaCorrecta": 1,
-          "retroalimentacion": "60 ÷ 4 = $15 por pluma."
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "50 ÷ 8 = 6 con residuo 2, porque 6 × 8 = 48 y 50 − 48 = 2."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "Si 5 kilos de manzana cuestan $75 en total, el precio de 1 kilo es de $___.",
-          "respuestaCorrecta": "15",
-          "retroalimentacion": "75 ÷ 5 = $15 por kilo."
+          "frase": "37 tamales se reparten entre 5 amigos, dando el mismo número entero de tamales a cada quien. Sobran ___ tamales.",
+          "respuestaCorrecta": "2",
+          "retroalimentacion": "37 ÷ 5 = 7 con residuo 2, porque 7 × 5 = 35 y 37 − 35 = 2."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "Si 3 boletos de camión cuestan $54 en total, entonces cada boleto cuesta $18.",
+          "enunciado": "Si 29 personas se transportan en camionetas de 6 asientos, se necesitan 5 camionetas para que a nadie le falte lugar.",
           "respuestaCorrecta": true,
-          "retroalimentacion": "Correcto: 54 ÷ 3 = $18 por boleto."
+          "retroalimentacion": "Correcto: 4 camionetas llevan 24 personas y sobran 5 personas, así que se necesita una quinta camioneta aunque no vaya llena."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "Una bolsa de 6 panes cuesta $48. En otra tienda venden cada pan suelto a $9. ¿Qué opción conviene más?",
+          "pregunta": "Una fábrica de galletas empaca 100 galletas en bolsas de 12. ¿Cuántas bolsas completas llena y cuántas galletas le sobran?",
           "opciones": [
-            "La bolsa, porque cada pan sale en $8",
-            "El pan suelto, porque cuesta $9",
-            "Cuestan exactamente lo mismo",
-            "No se puede saber sin más datos"
+            "8 bolsas y sobran 4",
+            "9 bolsas y sobran 0",
+            "8 bolsas y sobran 8",
+            "7 bolsas y sobran 16"
           ],
           "respuestaCorrecta": 0,
-          "retroalimentacion": "48 ÷ 6 = $8 por pan en la bolsa, que es menos que los $9 del pan suelto, así que la bolsa conviene más."
+          "retroalimentacion": "100 ÷ 12 = 8 con residuo 4, porque 8 × 12 = 96 y 100 − 96 = 4."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un entrenador tiene 45 jugadores y arma equipos de 7 integrantes. ¿Cuántos equipos completos puede armar, sin contar a los jugadores que sobran? ___ equipos.",
+          "respuestaCorrecta": "6",
+          "retroalimentacion": "45 ÷ 7 = 6 con residuo 3, así que se arman 6 equipos completos y sobran 3 jugadores."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una receta para 4 personas usa 300 g de arroz. ¿Cuántos gramos de arroz se necesitan para 10 personas, manteniendo la misma proporción?",
+          "opciones": [
+            "700 g",
+            "720 g",
+            "750 g",
+            "800 g"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Por persona: 300 ÷ 4 = 75 g. Para 10 personas: 75 × 10 = 750 g."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En un mapa, 1 cm representa 5 km reales. Si dos ciudades están a 8 cm de distancia en el mapa, la distancia real entre ellas es de ___ km.",
+          "respuestaCorrecta": "40",
+          "retroalimentacion": "8 cm × 5 km por cada cm = 40 km reales."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si 6 obreros construyen un muro en 12 días trabajando al mismo ritmo, entonces 12 obreros (el doble) tardarían la mitad del tiempo: 6 días.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: la cantidad de trabajo total es la misma (6 × 12 = 72 \"obrero-días\"); con el doble de obreros, 72 ÷ 12 = 6 días."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una cooperativa escolar compra 15 cajas de jugo con 24 piezas cada una y las reparte por igual entre 9 salones. ¿Cuántas piezas de jugo recibe cada salón?",
+          "opciones": [
+            "36",
+            "38",
+            "40",
+            "42"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Total de piezas: 15 × 24 = 360. Por salón: 360 ÷ 9 = 40 piezas."
         },
         {
           "tipo": "algoritmo_columnas",
           "operacion": "multiplicacion",
           "filas": [
             {
-              "valor": "90"
+              "valor": "40"
             },
             {
-              "valor": "3",
+              "valor": "9",
               "signo": "×"
             },
             {
-              "valor": "270",
+              "valor": "360",
               "esResultado": true
             }
           ],
@@ -88,7 +132,7 @@
               1
             ]
           ],
-          "retroalimentacion": "Esto verifica que 270 ÷ 3 = 90, porque 90 × 3 = 270: cada llanta de ese paquete de 3 cuesta $90."
+          "retroalimentacion": "Esto verifica que 360 ÷ 9 = 40, porque 40 × 9 = 360: es la comprobación de las piezas de jugo por salón."
         }
       ]
     }

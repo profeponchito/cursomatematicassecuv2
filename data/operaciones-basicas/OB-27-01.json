@@ -1,27 +1,29 @@
 {
   "id": "OB-27-01",
   "grado": "Operaciones Básicas",
-  "numero": 209,
+  "numero": 105,
   "categoria": "mult_div",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Multiplicación y división en la vida cotidiana — Momento 1/8",
+  "titulo": "Multiplicación y división en la vida cotidiana — Módulo 1/4",
   "contenido": "Multiplicación y división aplicadas a situaciones cotidianas: repartos, precios unitarios, escalas y recetas.",
   "pda": "Resuelve problemas cotidianos de reparto, precio unitario y proporciones sencillas usando multiplicación y división.",
   "problematizacion": {
-    "contexto": "Doña Lupe pone un puesto de tortillas afuera de la escuela. Cada paquete trae 8 tortillas y hoy varios salones le compraron paquetes iguales para su cooperativa.",
-    "pregunta": "Si un salón compró 5 paquetes de 8 tortillas cada uno, ¿aproximadamente cuántas tortillas llevó ese salón?"
+    "contexto": "Doña Lupe pone un puesto de tortillas afuera de la escuela. Cada paquete trae 8 tortillas y hoy varios salones le compraron paquetes iguales para su cooperativa.\n\nEn la escuela secundaria técnica, el profesor Ramírez organiza a sus alumnos en equipos para un proyecto de ciencias y necesita repartir el material de laboratorio en partes exactamente iguales.",
+    "pregunta": "Si un salón compró 5 paquetes de 8 tortillas cada uno, ¿aproximadamente cuántas tortillas llevó ese salón? Además: si el profesor tiene 54 tubos de ensayo y arma 6 equipos, ¿cuántos tubos le tocan a cada equipo, sin que sobre ninguno?"
   },
   "subtemas": [
     {
       "numero": "27.1",
-      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
-      "titulo": "Multiplicar es sumar varias veces lo mismo",
-      "explicacion": "Multiplicar sirve para calcular rápido un total cuando se repite la misma cantidad varias veces, como al comprar paquetes iguales o al contar objetos acomodados en grupos del mismo tamaño. En vez de sumar 8+8+8+8+8, basta con calcular 8×5. Un factor indica cuánto hay en cada grupo y el otro indica cuántos grupos hay, y el resultado no cambia si se invierte el orden. Reconocer situaciones de \"grupos iguales\" en la vida diaria es el primer paso para usar la multiplicación con confianza.",
-      "formula": "total = tamaño de cada grupo × número de grupos",
+      "nivelEtiqueta": "Nivel 1 de 4 · Introductorio",
+      "titulo": "Multiplicar es sumar varias veces lo mismo y Dividir para repartir sin que sobre nada",
+      "explicacion": "Multiplicar sirve para calcular rápido un total cuando se repite la misma cantidad varias veces, como al comprar paquetes iguales o al contar objetos acomodados en grupos del mismo tamaño. En vez de sumar 8+8+8+8+8, basta con calcular 8×5. Un factor indica cuánto hay en cada grupo y el otro indica cuántos grupos hay, y el resultado no cambia si se invierte el orden. Reconocer situaciones de \"grupos iguales\" en la vida diaria es el primer paso para usar la multiplicación con confianza.\n\nDividir sirve para repartir una cantidad en partes iguales, por ejemplo cuando un maestro reparte material entre equipos o una familia reparte comida entre sus integrantes. En una división exacta, cada parte recibe la misma cantidad y no sobra nada. Toda división exacta tiene su multiplicación relacionada: si 48 ÷ 6 = 8, entonces 8 × 6 = 48, y esa multiplicación sirve para comprobar el resultado. Identificar cuándo una situación pide \"repartir en partes iguales\" es la clave para saber que se debe dividir.",
+      "formula": "total = tamaño de cada grupo × número de grupos; cantidad por parte = total ÷ número de partes",
       "ejemplos": [
         "Una miscelánea acomoda paletas en bolsitas de 6. Si hay 4 bolsitas, el total es 6 × 4 = 24 paletas (6+6+6+6 = 24).",
-        "Un taller cose 9 uniformes por día. En 3 días cose 9 × 3 = 27 uniformes."
+        "Un taller cose 9 uniformes por día. En 3 días cose 9 × 3 = 27 uniformes.",
+        "Un maestro reparte 48 colores entre 6 equipos por igual: 48 ÷ 6 = 8 colores para cada equipo.",
+        "Comprobación: 8 colores por equipo × 6 equipos = 48 colores en total."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
@@ -67,6 +69,63 @@
           "enunciado": "5 × 7 da el mismo resultado que 7 × 5.",
           "respuestaCorrecta": true,
           "retroalimentacion": "Sí: el orden de los factores no cambia el resultado (5 × 7 = 7 × 5 = 35), a esto se le llama propiedad conmutativa."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un maestro reparte 48 colores entre 6 equipos por igual. ¿Cuántos colores recibe cada equipo?",
+          "opciones": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "48 ÷ 6 = 8 colores para cada equipo, porque 8 × 6 = 48."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si 72 tamales se reparten entre 8 familias por igual, cada familia recibe ___ tamales.",
+          "respuestaCorrecta": "9",
+          "retroalimentacion": "72 ÷ 8 = 9 tamales por familia, porque 9 × 8 = 72."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "63 ÷ 7 = 9 porque 9 × 7 = 63.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: toda división exacta se puede comprobar multiplicando el resultado por el divisor."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada división con su resultado correcto.",
+          "columnaA": [
+            "54 ÷ 6",
+            "32 ÷ 4",
+            "30 ÷ 5"
+          ],
+          "columnaB": [
+            "6",
+            "8",
+            "9",
+            "7"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "54 ÷ 6 = 9, 32 ÷ 4 = 8 y 30 ÷ 5 = 6. El \"7\" era una opción extra que no corresponde a ninguna división."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un rancho tiene 96 huevos y los acomoda en cartones de 12. ¿Cuántos cartones llena por completo?",
+          "opciones": [
+            "9",
+            "8",
+            "7",
+            "6"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "96 ÷ 12 = 8 cartones completos, porque 8 × 12 = 96."
         }
       ]
     }

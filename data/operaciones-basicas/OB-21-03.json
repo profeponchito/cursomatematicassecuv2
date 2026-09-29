@@ -1,72 +1,116 @@
 {
   "id": "OB-21-03",
   "grado": "Operaciones Básicas",
-  "numero": 163,
+  "numero": 83,
   "categoria": "mult_div",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "División entre decenas, centenas y potencias de 10 — Momento 3/8",
+  "titulo": "División entre decenas, centenas y potencias de 10 — Módulo 3/4",
   "contenido": "División de un número entre 10, 100, 1000 y sus múltiplos, identificando el patrón inverso al de la multiplicación por potencias de 10.",
   "pda": "Divide números naturales entre potencias de 10 y sus múltiplos, reconociendo el patrón que sigue el resultado.",
   "problematizacion": {
-    "contexto": "Un club de atletismo de Querétaro organizó una carrera de relevos de 47 km, dividida en 10 tramos iguales para 10 corredores distintos que se van turnando el recorrido.",
-    "pregunta": "¿Aproximadamente cuántos kilómetros corre cada atleta si el recorrido de 47 km se divide en 10 tramos iguales?"
+    "contexto": "En una tienda de abarrotes de Mérida, el dueño juntó $8000 de una rifa de descuentos y quiere repartirlos en partes iguales entre 400 clientes frecuentes que participaron.\n\nUn electricista de Monterrey compró un rollo de 35.8 metros de cable y necesita cortarlo en 10 tramos iguales para surtir a 10 clientes distintos en un mismo día.",
+    "pregunta": "¿Cuánto dinero le tocaría a cada cliente si el reparto fuera exactamente igual entre los 400 participantes? Además: ¿Cuántos metros de cable le corresponden a cada cliente si el rollo se reparte entre los 10 clientes en partes iguales?"
   },
   "subtemas": [
     {
       "numero": "21.3",
-      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
-      "titulo": "Cuando no hay ceros suficientes: corre el punto decimal",
-      "explicacion": "No todos los números terminan en cero, así que no siempre se puede 'quitar un cero' para dividir entre 10, 100 o 1000. En esos casos, el mismo patrón se aplica corriendo el punto decimal hacia la izquierda: un lugar si se divide entre 10, dos lugares si se divide entre 100, y tres si se divide entre 1000. Cuando el número no tiene suficientes cifras, se agregan ceros a la izquierda para completar el corrimiento. Es el mismo patrón de siempre, solo que ahora el resultado es decimal en vez de entero.",
-      "formula": "÷10 → recorre el punto 1 lugar a la izquierda; ÷100 → 2 lugares; ÷1000 → 3 lugares",
+      "nivelEtiqueta": "Nivel 3 de 4 · Avanzado",
+      "titulo": "Reparto exacto entre decenas y centenas en la vida diaria y Decimales entre potencias de 10",
+      "explicacion": "Los patrones de dividir entre potencias de 10 y sus múltiplos sirven para resolver situaciones reales de reparto, como repartir dinero, productos o materiales en partes iguales. Lo importante en este momento no es solo calcular el cociente, sino entender qué representa ese resultado dentro del problema: ¿cuántas piezas por paquete?, ¿cuánto dinero por persona? Reconocer el patrón numérico te permite resolver estos problemas mentalmente y con confianza.\n\nEl patrón de correr el punto decimal hacia la izquierda también aplica cuando el número que se divide ya es decimal, no solo cuando es entero. Se cuenta la misma cantidad de lugares que ceros tiene la potencia de 10 (1 para 10, 2 para 100, 3 para 1000), y si el número no alcanza cifras suficientes, se agregan ceros a la izquierda del punto o después de él. El resultado siempre es un número más pequeño que el original.",
+      "formula": "cociente = total ÷ tamaño de cada grupo; 35.8 ÷ 10 = 3.58 ; 4.2 ÷ 100 = 0.042",
       "ejemplos": [
-        "47 ÷ 10: como 47 no tiene un cero al final, corremos el punto un lugar a la izquierda y queda 4.7. Comprobación: 4.7 × 10 = 47.",
-        "583 ÷ 100: corremos el punto dos lugares a la izquierda y queda 5.83. Comprobación: 5.83 × 100 = 583."
+        "Un panadero hizo 3200 panes y los acomodó en charolas de 100 panes: 3200 ÷ 100 = 32 charolas.",
+        "Se repartieron $8000 entre 400 alumnos por igual: 8000 ÷ 400 = 8000 ÷ 100 = 80, y 80 ÷ 4 = 20 pesos para cada uno.",
+        "35.8 ÷ 10: corremos el punto un lugar a la izquierda y queda 3.58. Comprobación: 3.58 × 10 = 35.8.",
+        "4.2 ÷ 100: corremos el punto dos lugares a la izquierda, agregando un cero, y queda 0.042. Comprobación: 0.042 × 100 = 4.2."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuánto es 47 ÷ 10?",
+          "pregunta": "Un panadero hizo 3200 panes y los acomodó en charolas de 100 panes cada una. ¿Cuántas charolas llenó?",
           "opciones": [
-            "0.47",
-            "4.7",
-            "47.0",
-            "470"
+            "3.2",
+            "32",
+            "320",
+            "3200"
           ],
           "respuestaCorrecta": 1,
-          "retroalimentacion": "47 no termina en cero, así que corremos el punto un lugar a la izquierda: 4.7. Comprobación: 4.7 × 10 = 47."
+          "retroalimentacion": "3200 ÷ 100 = 32: se quitan los dos últimos ceros de 3200."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "583 ÷ 100 = ___",
-          "respuestaCorrecta": "5.83",
-          "retroalimentacion": "Corremos el punto dos lugares a la izquierda en 583 y queda 5.83. Comprobación: 5.83 × 100 = 583."
+          "frase": "Se repartieron $8000 entre 400 alumnos por igual. A cada uno le tocaron $___.",
+          "respuestaCorrecta": "20",
+          "retroalimentacion": "8000 ÷ 100 = 80, y 80 ÷ 4 = 20 pesos para cada alumno."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "9 ÷ 10 = 0.9",
+          "enunciado": "Si se reparten 900 mangos entre 30 cajas, a cada caja le tocan 30 mangos.",
           "respuestaCorrecta": true,
-          "retroalimentacion": "Verdadero. Como 9 no tiene cifras enteras de sobra, se agrega un cero antes: 0.9. Comprobación: 0.9 × 10 = 9."
+          "retroalimentacion": "Verdadero. 900 ÷ 10 = 90, y 90 ÷ 3 = 30 mangos por caja."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuánto es 125 ÷ 1000?",
+          "pregunta": "Una fábrica produjo 15000 tornillos y los empacó en bolsas de 1000 tornillos. ¿Cuántas bolsas completó?",
           "opciones": [
-            "1.25",
-            "0.125",
-            "12.5",
-            "0.0125"
+            "1.5",
+            "15",
+            "150",
+            "1500"
           ],
           "respuestaCorrecta": 1,
-          "retroalimentacion": "Corremos el punto tres lugares a la izquierda en 125 y, como faltan cifras, agregamos un cero: 0.125. Comprobación: 0.125 × 1000 = 125."
+          "retroalimentacion": "15000 ÷ 1000 = 15: se quitan los tres últimos ceros de 15000."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "36 ÷ 10 = ___",
-          "respuestaCorrecta": "3.6",
-          "retroalimentacion": "Corremos el punto un lugar a la izquierda en 36 y queda 3.6. Comprobación: 3.6 × 10 = 36."
+          "frase": "72000 litros de agua se distribuyeron entre 200 tinacos iguales. Cada tinaco recibió ___ litros.",
+          "respuestaCorrecta": "360",
+          "retroalimentacion": "72000 ÷ 100 = 720, y 720 ÷ 2 = 360 litros por tinaco."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 35.8 ÷ 10?",
+          "opciones": [
+            "0.358",
+            "3.58",
+            "35.80",
+            "358"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Corremos el punto un lugar a la izquierda en 35.8 y queda 3.58. Comprobación: 3.58 × 10 = 35.8."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "4.2 ÷ 100 = ___",
+          "respuestaCorrecta": "0.042",
+          "retroalimentacion": "Corremos el punto dos lugares a la izquierda en 4.2, agregando un cero, y queda 0.042. Comprobación: 0.042 × 100 = 4.2."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "6.5 ÷ 1000 = 0.0065",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Verdadero. Corremos el punto tres lugares a la izquierda en 6.5, agregando dos ceros, y queda 0.0065."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 128.4 ÷ 100?",
+          "opciones": [
+            "1.284",
+            "12.84",
+            "0.1284",
+            "1284"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Corremos el punto dos lugares a la izquierda en 128.4 y queda 1.284. Comprobación: 1.284 × 100 = 128.4."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "9.07 ÷ 10 = ___",
+          "respuestaCorrecta": "0.907",
+          "retroalimentacion": "Corremos el punto un lugar a la izquierda en 9.07 y queda 0.907. Comprobación: 0.907 × 10 = 9.07."
         }
       ]
     }

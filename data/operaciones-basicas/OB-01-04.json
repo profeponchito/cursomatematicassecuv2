@@ -5,25 +5,27 @@
   "categoria": "suma_resta",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Suma y resta de naturales sin llevar — Momento 4/8",
+  "titulo": "Suma y resta de naturales sin llevar — Módulo 4/4",
   "contenido": "Suma y resta de números naturales cuando ninguna columna requiere acarreo ni préstamo.",
   "pda": "Resuelve sumas y restas de números naturales identificando el valor posicional de cada cifra, sin necesidad de acarreo ni préstamo.",
   "problematizacion": {
-    "contexto": "La chofer Rosa maneja el camión de la ruta 5. A las siete de la mañana salió de la base con 579 boletos en su rollo. Durante el primer tramo del recorrido vendió 234 boletos a los pasajeros que subieron.",
-    "pregunta": "¿Cuántos boletos le quedan a Rosa en el rollo si resta 234 a los 579 boletos, columna por columna y sin pedir prestado?"
+    "contexto": "Don Refugio es carpintero y tiene un tablón con 8756 milímetros de largo. Para hacer el marco de una puerta corta un primer tramo de 3421 milímetros y anota en su libreta cuánto le queda antes de seguir cortando.\n\nDoña Consuelo prepara tamales para la kermés de la escuela. En su lista de compras anota que necesita 3124 gramos de masa para el primer lote y 4523 gramos más para el segundo lote, y después debe descontar lo que ya tiene guardado en la alacena.",
+    "pregunta": "¿Cuántos milímetros de tablón le quedan a Don Refugio si resta 3421 a los 8756 milímetros originales, columna por columna? Además: ¿Cuántos gramos de masa necesita Doña Consuelo en total si suma 3124 y 4523 columna por columna, antes de restar lo que ya tiene guardado?"
   },
   "subtemas": [
     {
       "numero": "1.4",
-      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
-      "titulo": "Restar números de tres cifras sin pedir prestado",
-      "explicacion": "Al restar números de tres cifras se revisan tres columnas: unidades, decenas y centenas. En este momento, en cada columna la cifra de arriba siempre alcanza para restar la de abajo, así que puedes resolver cada columna de forma independiente sin pedir nada prestado a la columna vecina. Es la misma idea del momento anterior, solo que ahora con una cifra más.",
-      "formula": "centenas - centenas, decenas - decenas, unidades - unidades",
+      "nivelEtiqueta": "Nivel 4 de 4 · Integración",
+      "titulo": "Restar números de cuatro cifras y restas encadenadas y Cierre: sumas y restas combinadas de cuatro cifras",
+      "explicacion": "El reto de este momento tiene dos partes: primero, restar números de cuatro cifras (unidades de millar, centenas, decenas y unidades) sin pedir prestado en ninguna columna; segundo, resolver restas encadenadas, es decir, restar dos veces seguidas para saber lo que queda después de dos descuentos. La clave sigue siendo la misma: cada columna se resuelve por separado y la cifra de arriba siempre alcanza para restar la de abajo.\n\nEste es el cierre del tema: combinarás todo lo practicado en los siete momentos anteriores en un solo tipo de reto. Habrá sumas, restas y hasta operaciones encadenadas (varios pasos seguidos) con números de hasta cuatro cifras, siempre sin llevar ni pedir prestado. Lo importante es leer bien cada columna, decidir si toca sumar o restar, y resolver con calma paso por paso.",
+      "formula": "millares - millares, centenas - centenas, decenas - decenas, unidades - unidades; combinación de suma y resta por columnas, sin acarreo ni préstamo",
       "ejemplos": [
-        "579 - 234: unidades 9-4=5, decenas 7-3=4, centenas 5-2=3 → 345",
-        "685 - 243: unidades 5-3=2, decenas 8-4=4, centenas 6-2=4 → 442"
+        "8756 - 3421: unidades 6-1=5, decenas 5-2=3, centenas 7-4=3, millares 8-3=5 → 5335",
+        "986 - 322 = 664; 664 - 143 = 521 (resta encadenada)",
+        "3124 + 4523: unidades 4+3=7, decenas 2+2=4, centenas 1+5=6, millares 3+4=7 → 7647",
+        "8765 - 1243 - 3201: primero 8765-1243=7522, luego 7522-3201=4321"
       ],
-      "puntosPorReactivo": 12,
+      "puntosPorReactivo": 15,
       "estrellasMax": 3,
       "reactivos": [
         {
@@ -31,74 +33,206 @@
           "operacion": "resta",
           "filas": [
             {
-              "valor": "579"
+              "valor": "8756"
             },
             {
-              "valor": "234",
+              "valor": "3421",
               "signo": "-"
             },
             {
-              "valor": "345",
+              "valor": "5335",
               "esResultado": true
             }
           ],
           "ocultos": [
             [
-              1
-            ],
-            [
               0
             ],
-            []
+            [
+              2
+            ],
+            [
+              3
+            ]
           ],
-          "retroalimentacion": "579 - 234 = 345: unidades 9-4=5, decenas 7-3=4, centenas 5-2=3. Ninguna cifra de abajo es mayor que la de arriba."
+          "retroalimentacion": "8756 - 3421 = 5335: millares 8-3=5, centenas 7-4=3, decenas 5-2=3, unidades 6-1=5. Ninguna cifra de abajo es mayor que la de arriba."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuánto es 685 - 243?",
+          "pregunta": "De 986 tortillas se vendieron 322 en la mañana y 143 en la tarde. ¿Cuántas tortillas quedaron?",
           "opciones": [
-            "432",
-            "442",
-            "452",
-            "928"
+            "531",
+            "511",
+            "665",
+            "521"
           ],
-          "respuestaCorrecta": 1,
-          "retroalimentacion": "685 - 243 = 442. Unidades 5-3=2, decenas 8-4=4, centenas 6-2=4."
+          "respuestaCorrecta": 3,
+          "retroalimentacion": "986 - 322 = 664; 664 - 143 = 521. Dos restas seguidas, ninguna necesita pedir prestado."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "396 - 152 = 244",
+          "enunciado": "7658 - 3214 = 4444",
           "respuestaCorrecta": true,
-          "retroalimentacion": "Es verdadero. Unidades 6-2=4, decenas 9-5=4, centenas 3-1=2 → 244."
+          "retroalimentacion": "Es verdadero. Unidades 8-4=4, decenas 5-1=4, centenas 6-2=4, millares 7-3=4 → 4444."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "758 - ___ = 536",
-          "respuestaCorrecta": "222",
-          "retroalimentacion": "758 - 536 = 222. Comprobación: 758 - 222: unidades 8-2=6, decenas 5-2=3, centenas 7-2=5 → 536."
+          "frase": "5847 - ___ = 2635",
+          "respuestaCorrecta": "3212",
+          "retroalimentacion": "5847 - 2635 = 3212. Comprobación: unidades 7-5=2, decenas 4-3=1, centenas 8-6=2, millares 5-2=3 → 3212."
         },
         {
           "tipo": "relacionar_columnas",
-          "instruccion": "Relaciona cada resta de tres cifras con su resultado.",
+          "instruccion": "Relaciona cada resta de cuatro cifras con su resultado.",
           "columnaA": [
-            "487 - 256",
-            "639 - 514",
-            "825 - 603"
+            "6789 - 2345",
+            "4567 - 1234",
+            "9876 - 5431"
           ],
           "columnaB": [
-            "231",
-            "125",
-            "222",
-            "310"
+            "4444",
+            "3333",
+            "4445",
+            "2222"
           ],
           "parejasCorrectas": [
             0,
             1,
             2
           ],
-          "retroalimentacion": "487-256=231, 639-514=125 y 825-603=222, restando cada columna sin pedir prestado."
+          "retroalimentacion": "6789-2345=4444, 4567-1234=3333 y 9876-5431=4445, restando cada columna por separado."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "3124",
+              "signo": "+"
+            },
+            {
+              "valor": "4523",
+              "signo": "+"
+            },
+            {
+              "valor": "7647",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              3
+            ],
+            [
+              2
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "3124 + 4523 = 7647: unidades 4+3=7, decenas 2+2=4, centenas 1+5=6, millares 3+4=7. Ninguna columna llega a 10."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una tienda tenía 6789 artículos, vendió 2145 y después recibió un pedido de 1203 artículos más. ¿Cuántos artículos tiene ahora?",
+          "opciones": [
+            "5837",
+            "5947",
+            "4644",
+            "5847"
+          ],
+          "respuestaCorrecta": 3,
+          "retroalimentacion": "6789 - 2145 = 4644; 4644 + 1203 = 5847. Primero se resta lo vendido y luego se suma lo recibido."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En una carrera, 2431 personas corrieron 5 km y 3256 corrieron 10 km; en total participaron 5687 personas.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Es verdadero: se suman los dos grupos. 2431 + 3256 = 5687 (unidades 1+6=7, decenas 3+5=8, centenas 4+2=6, millares 2+3=5)."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "8765 - 1243 - ___ = 4321",
+          "respuestaCorrecta": "3201",
+          "retroalimentacion": "8765 - 1243 = 7522; 7522 - 4321 = 3201. Comprobación: 7522 - 3201 = 4321, sin pedir prestado en ningún paso."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada operación combinada con su resultado correcto.",
+          "columnaA": [
+            "3214 + 4213",
+            "8657 - 2314",
+            "1230 + 2568 + 1101"
+          ],
+          "columnaB": [
+            "7427",
+            "6343",
+            "4899",
+            "5555"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "3214+4213=7427, 8657-2314=6343 y 1230+2568+1101=4899, resolviendo cada columna sin llevar ni pedir prestado."
         }
       ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "algoritmo_columnas",
+      "operacion": "suma",
+      "filas": [
+        {
+          "valor": "1234",
+          "signo": "+"
+        },
+        {
+          "valor": "2143",
+          "signo": "+"
+        },
+        {
+          "valor": "3211",
+          "signo": "+"
+        },
+        {
+          "valor": "6588",
+          "esResultado": true
+        }
+      ],
+      "ocultos": [
+        [
+          0
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        []
+      ],
+      "retroalimentacion": "1234 + 2143 + 3211 = 6588: unidades 4+3+1=8, decenas 3+4+1=8, centenas 2+1+2=5, millares 1+2+3=6."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Un almacén recibió 4123 kg de arroz, envió 1012 kg a una tienda y luego 2010 kg a otra. Después recibió 1234 kg más. ¿Cuántos kilogramos tiene ahora?",
+      "opciones": [
+        "2325",
+        "2345",
+        "1101",
+        "2335"
+      ],
+      "respuestaCorrecta": 3,
+      "retroalimentacion": "4123-1012=3111; 3111-2010=1101; 1101+1234=2335. Tres pasos seguidos, ninguno necesita llevar ni pedir prestado."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "5124 + 3241 - 2160 = 6205",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Es verdadero. 5124 + 3241 = 8365; 8365 - 2160 = 6205, sin acarreo en la suma ni préstamo en la resta."
     }
   ]
 }

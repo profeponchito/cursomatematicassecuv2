@@ -1,90 +1,150 @@
 {
   "id": "OB-10-03",
   "grado": "Operaciones Básicas",
-  "numero": 75,
+  "numero": 39,
   "categoria": "suma_resta",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Suma y resta de números con signo (signos distintos) — Momento 3/8",
+  "titulo": "Suma y resta de números con signo (signos distintos) — Módulo 3/4",
   "contenido": "Suma y resta de números enteros con signo cuando los números tienen signos distintos, incluyendo la resta como suma del opuesto.",
   "pda": "Suma y resta números enteros con signos distintos, aplicando la regla de signos y la resta como suma del opuesto.",
   "problematizacion": {
-    "contexto": "En una ferretería del centro, el encargado del almacén registra cada movimiento de tornillos en una libreta: las entradas de mercancía las anota como número positivo y las salidas por venta como número negativo.",
-    "pregunta": "Si un lunes entraron 12 cajas y ese mismo día salieron 20 por ventas, ¿cómo escribirías esa resta como una suma para calcular el inventario del día?"
+    "contexto": "En un partido de fútbol americano, un equipo gana y pierde yardas en distintas jugadas. Los comentaristas registran las yardas ganadas como positivas y las perdidas como negativas para llevar el conteo total.\n\nUn albañil lleva el control de material de una obra: registra las varillas que le entregan, las que se usan en un día y las que le regresan de una entrega anterior, todo en una sola libreta de números con signo.",
+    "pregunta": "Si en una jugada el equipo gana 22 yardas y en la siguiente pierde 35, ¿el equipo avanzó o retrocedió en conjunto respecto a donde empezó esa serie de jugadas? Además: si recibe 80 varillas, usa 60 en el día y le regresan otras del almacén, ¿cómo calcularía el total que le queda disponible al final?"
   },
   "subtemas": [
     {
       "numero": "10.3",
-      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
-      "titulo": "La resta como suma del opuesto",
-      "explicacion": "Toda resta se puede convertir en una suma si cambias el signo del segundo número y usas el signo de más: a - b es lo mismo que a + (-b). Esta idea es muy útil porque te permite usar la misma regla de signos distintos que ya conoces, en lugar de aprender un procedimiento nuevo para restar. Ojo: si el número que restas ya es negativo, su opuesto es positivo, por lo que restar un negativo equivale a sumar un positivo.",
-      "formula": "a - b = a + (-b)  |  a - (-b) = a + b",
+      "nivelEtiqueta": "Nivel 3 de 4 · Avanzado",
+      "titulo": "Aplicar signos distintos en situaciones cotidianas y Cadenas de tres términos con signos distintos",
+      "explicacion": "La suma y resta de números con signos distintos aparece todo el tiempo en la vida real: temperaturas que suben y bajan, profundidades bajo el nivel del mar, deudas que se pagan o altitudes que cambian. En este momento traducirás cada situación a una expresión con signos y la resolverás con la regla que ya dominas. Lo importante es identificar qué cantidad se representa como positiva y cuál como negativa antes de operar.\n\nCuando una expresión tiene tres o más términos con signos distintos, resuélvela de izquierda a derecha, un paso a la vez: primero opera los dos primeros números y guarda ese resultado, después combínalo con el siguiente término. No hace falta ningún truco especial, solo aplicar la regla de signos distintos las veces que sea necesario, con cuidado de no perder el signo en cada paso.",
+      "formula": "(a ± b) ± c: resuelve de izquierda a derecha, un paso a la vez.",
       "ejemplos": [
-        "9 - 14 se reescribe como 9 + (-14); como 14 tiene mayor valor absoluto, el resultado es negativo: 14 - 9 = 5, entonces 9 - 14 = -5.",
-        "-20 - (-8) se reescribe como -20 + 8; como 20 tiene mayor valor absoluto, el resultado es negativo: 20 - 8 = 12, entonces -20 - (-8) = -12."
+        "La temperatura en Chihuahua era de -4°C y subió 15°C: -4 + 15 = 11, así que la temperatura al mediodía fue de 11°C.",
+        "Un buzo está a -18 m y sube 25 m: -18 + 25 = 7, así que queda a 7 m sobre el nivel del mar.",
+        "-35 + 80 - 62: primero -35 + 80 = 45; después 45 - 62 = -17.",
+        "120 - 145 + 38: primero 120 - 145 = -25; después -25 + 38 = 13."
       ],
-      "puntosPorReactivo": 15,
+      "puntosPorReactivo": 20,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "Al escribir 9 - 14 como suma, ¿cuál expresión es correcta?",
+          "pregunta": "La temperatura en Chihuahua era de -4°C en la madrugada y subió 15°C hacia el mediodía. ¿Cuál fue la temperatura al mediodía?",
           "opciones": [
-            "9 + 14",
-            "9 + (-14)",
-            "-9 + (-14)",
-            "-9 + 14"
+            "-11°C",
+            "19°C",
+            "11°C",
+            "-19°C"
           ],
-          "respuestaCorrecta": 1,
-          "retroalimentacion": "Restar es lo mismo que sumar el opuesto: 9 - 14 = 9 + (-14)."
-        },
-        {
-          "tipo": "llenar_frase",
-          "frase": "9 - 14 = 9 + (-14) = ___.",
-          "respuestaCorrecta": "-5",
-          "retroalimentacion": "Valores absolutos 9 y 14; 14 > 9, resultado negativo: 14 - 9 = 5, entonces 9 + (-14) = -5."
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "-4 + 15 = 11; la temperatura al mediodía fue de 11°C."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "-6 - 5 escrito como suma del opuesto es:",
+          "pregunta": "Un buzo está a -18 metros (bajo el nivel del mar) y sube 25 metros. ¿Dónde queda?",
           "opciones": [
-            "-6 + 5",
-            "6 + (-5)",
-            "-6 + (-5)",
-            "6+5"
+            "7 m bajo el nivel del mar",
+            "7 m sobre el nivel del mar",
+            "43 m sobre el nivel del mar",
+            "-43 m"
           ],
-          "respuestaCorrecta": 2,
-          "retroalimentacion": "El opuesto de 5 es -5, así que -6 - 5 = -6 + (-5)."
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "-18 + 25 = 7; queda 7 m sobre el nivel del mar."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Karina tenía una deuda de $60 (-60) y abonó $85. Su saldo final es ___ pesos.",
+          "respuestaCorrecta": "25",
+          "retroalimentacion": "-60 + 85 = 25; Karina queda con un saldo a favor de 25 pesos."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "-20 - (-8) es lo mismo que -20 + 8.",
+          "enunciado": "Un avión vuela a 9000 m de altitud (+9000) y desciende 12500 m; entonces queda en -3500 m respecto al nivel inicial de referencia.",
           "respuestaCorrecta": true,
-          "retroalimentacion": "Correcto: restar un número negativo equivale a sumar su opuesto, que es positivo: -20 - (-8) = -20 + 8 = -12."
+          "retroalimentacion": "Correcto: 9000 - 12500 = -3500."
         },
         {
           "tipo": "relacionar_columnas",
-          "instruccion": "Relaciona cada resta con su equivalente escrita como suma del opuesto.",
+          "instruccion": "Relaciona cada situación con su resultado numérico.",
           "columnaA": [
-            "12 - 20",
-            "-15 - 7",
-            "-9 - (-4)",
-            "30 - 45"
+            "Debe $40 y paga $65",
+            "Temperatura -12°C sube 20°C",
+            "Nada a -8 m y sube 3 m",
+            "Gana $30 y pierde $50"
           ],
           "columnaB": [
-            "-15 + (-7)",
-            "12 + (-20)",
-            "-9 + 4",
-            "30 + (-45)",
-            "-9 + (-4)"
+            "-5",
+            "25",
+            "-20",
+            "8"
           ],
           "parejasCorrectas": [
             1,
+            3,
             0,
+            2
+          ],
+          "retroalimentacion": "Debe $40 y paga $65: -40+65=25. Temperatura -12+20=8. Nada a -8 m y sube 3 m: -8+3=-5. Gana $30 y pierde $50: 30-50=-20."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "-35 + 80 - 62 = ?",
+          "opciones": [
+            "17",
+            "-177",
+            "177",
+            "-17"
+          ],
+          "respuestaCorrecta": 3,
+          "retroalimentacion": "-35 + 80 = 45; 45 - 62 = -17."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "120 - 145 + 38 = ?",
+          "opciones": [
+            "13",
+            "-13",
+            "-303",
+            "303"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "120 - 145 = -25; -25 + 38 = 13."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "-96 + 150 - 40 = ___.",
+          "respuestaCorrecta": "14",
+          "retroalimentacion": "-96 + 150 = 54; 54 - 40 = 14."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "68 - 200 + 95 = -27.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: 68 - 200 = -132; -132 + 95 = -37, no -27."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada cadena de operaciones con su resultado.",
+          "columnaA": [
+            "-50 + 130 - 60",
+            "90 - 160 + 40",
+            "-18 - 45 + 80",
+            "150 - 90 - 80"
+          ],
+          "columnaB": [
+            "-30",
+            "17",
+            "20",
+            "-20"
+          ],
+          "parejasCorrectas": [
             2,
+            0,
+            1,
             3
           ],
-          "retroalimentacion": "12 - 20 = 12 + (-20); -15 - 7 = -15 + (-7); -9 - (-4) = -9 + 4; 30 - 45 = 30 + (-45)."
+          "retroalimentacion": "-50+130-60=20; 90-160+40=-30; -18-45+80=17; 150-90-80=-20."
         }
       ]
     }

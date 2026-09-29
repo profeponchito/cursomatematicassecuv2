@@ -1,27 +1,29 @@
 {
   "id": "OB-17-01",
   "grado": "Operaciones Básicas",
-  "numero": 129,
+  "numero": 65,
   "categoria": "mult_div",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Multiplicación de fracciones — Momento 1/8",
+  "titulo": "Multiplicación de fracciones — Módulo 1/4",
   "contenido": "Multiplicación de fracciones, multiplicando numeradores entre sí y denominadores entre sí, simplificando el resultado.",
   "pda": "Multiplica fracciones y simplifica el resultado a su expresión más simple.",
   "problematizacion": {
-    "contexto": "Karla está reduciendo a la mitad una receta de agua de jamaica que encontró en el cuaderno de su abuela. La receta original pide varias fracciones de taza de distintos ingredientes, y Karla necesita multiplicar cada cantidad por 1/2 para que le alcance justo para su familia.",
-    "pregunta": "¿Qué operación debe usar Karla para reducir a la mitad cada ingrediente de la receta?"
+    "contexto": "Karla está reduciendo a la mitad una receta de agua de jamaica que encontró en el cuaderno de su abuela. La receta original pide varias fracciones de taza de distintos ingredientes, y Karla necesita multiplicar cada cantidad por 1/2 para que le alcance justo para su familia.\n\nDon Efraín vende fruta en su puesto del mercado sobre ruedas. Le quedan 3/4 de una caja de mangos, y hoy vendió 2/3 de lo que le quedaba a una señora que preparaba ensalada de frutas para una posada.",
+    "pregunta": "¿Qué operación debe usar Karla para reducir a la mitad cada ingrediente de la receta? Además: ¿Qué fracción de la caja original de mangos vendió don Efraín a la señora?"
   },
   "subtemas": [
     {
       "numero": "17.1",
-      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
-      "titulo": "Multiplicar fracciones sencillas",
-      "explicacion": "Para multiplicar dos fracciones no necesitas buscar un denominador común como en la suma: multiplicas los numeradores entre sí para obtener el nuevo numerador, y multiplicas los denominadores entre sí para obtener el nuevo denominador. En este primer momento los resultados ya quedan en su forma más simple, así que todavía no necesitas simplificar. Fíjate en el patrón: numerador por numerador arriba, denominador por denominador abajo.",
-      "formula": "a/b × c/d = (a×c)/(b×d)",
+      "nivelEtiqueta": "Nivel 1 de 4 · Introductorio",
+      "titulo": "Multiplicar fracciones sencillas y Simplifica el resultado",
+      "explicacion": "Para multiplicar dos fracciones no necesitas buscar un denominador común como en la suma: multiplicas los numeradores entre sí para obtener el nuevo numerador, y multiplicas los denominadores entre sí para obtener el nuevo denominador. En este primer momento los resultados ya quedan en su forma más simple, así que todavía no necesitas simplificar. Fíjate en el patrón: numerador por numerador arriba, denominador por denominador abajo.\n\nYa sabes multiplicar numeradores entre sí y denominadores entre sí. Ahora vas a notar que, muchas veces, el resultado NO queda en su mínima expresión: numerador y denominador comparten un divisor común. Para simplificar, divides ambos entre su máximo común divisor (MCD) hasta que ya no se pueda reducir más. Siempre revisa tu resultado final: si numerador y denominador todavía tienen un factor en común, falta un paso.",
+      "formula": "a/b × c/d = (a×c)/(b×d); a/b × c/d = (a×c)/(b×d), luego divide numerador y denominador entre su MCD",
       "ejemplos": [
         "1/2 × 3/8 = (1×3)/(2×8) = 3/16",
-        "2/7 × 3/8 = (2×3)/(7×8) = 6/56 = 3/28"
+        "2/7 × 3/8 = (2×3)/(7×8) = 6/56 = 3/28",
+        "4/5 × 5/8 = 20/40 = 1/2 (se dividió entre 20)",
+        "6/8 × 2/3 = 12/24 = 1/2 (se dividió entre 12)"
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
@@ -82,6 +84,63 @@
             2
           ],
           "retroalimentacion": "1/8×3/5=3/40 · 2/5×3/7=6/35 · 1/9×4/5=4/45. En los tres casos multiplicas numeradores entre sí y denominadores entre sí."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "2/3 × 3/4 = ?",
+          "opciones": [
+            "6/12",
+            "1/2",
+            "5/7",
+            "3/4"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "2×3=6 y 3×4=12, entonces 6/12; como 6 y 12 se dividen entre 6, queda simplificado en 1/2."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "3/4 × 2/9 = ?",
+          "opciones": [
+            "1/6",
+            "5/13",
+            "6/36",
+            "2/3"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "3×2=6 y 4×9=36, es decir 6/36; dividiendo entre 6 se simplifica a 1/6."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Al multiplicar 5/6 × 3/10 se obtiene 15/60, que simplificado a su mínima expresión es 1/4.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "5×3=15 y 6×10=60; 15/60 se puede dividir entre 15, y el resultado simplificado es 1/4."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "4/9 × 3/8 ya simplificado es ___",
+          "respuestaCorrecta": "1/6",
+          "retroalimentacion": "4×3=12 y 9×8=72, entonces 12/72; dividiendo entre 12 se llega a 1/6."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada multiplicación con su resultado YA simplificado.",
+          "columnaA": [
+            "3/8 × 4/9",
+            "5/12 × 4/5",
+            "2/9 × 3/8"
+          ],
+          "columnaB": [
+            "1/6",
+            "1/3",
+            "1/12",
+            "2/5"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "3/8×4/9=12/72=1/6 · 5/12×4/5=20/60=1/3 · 2/9×3/8=6/72=1/12. Siempre revisa si el resultado se puede reducir más."
         }
       ]
     }

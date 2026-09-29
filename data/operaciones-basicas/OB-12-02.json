@@ -1,94 +1,170 @@
 {
   "id": "OB-12-02",
   "grado": "Operaciones Básicas",
-  "numero": 90,
+  "numero": 46,
   "categoria": "suma_resta",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Suma y resta en la vida cotidiana — Momento 2/8",
+  "titulo": "Suma y resta en la vida cotidiana — Módulo 2/4",
   "contenido": "Suma y resta aplicadas a situaciones cotidianas: dinero, medidas y tiempo.",
   "pda": "Resuelve problemas cotidianos de dinero, medidas y tiempo que requieren sumar o restar números naturales o decimales.",
   "problematizacion": {
-    "contexto": "Kevin va a la tienda de abarrotes de Don Refugio a comprar unas galletas y un refresco para el recreo. Paga con un billete porque no trae cambio exacto. Don Refugio siempre le explica cuánto le va a regresar antes de dárselo.",
-    "pregunta": "¿Qué operación usa Don Refugio para calcular el cambio que le debe dar a Kevin?"
+    "contexto": "Regina es la presidenta de la cooperativa escolar y cada semana anota cuánto vendieron de tacos y cuánto gastaron en ingredientes. El viernes hicieron una venta especial y ella quiere saber cuánto ganó realmente la cooperativa ese día.\n\nDon Emilio es carpintero y está construyendo un librero para la biblioteca de la escuela. Necesita unir varios tablones de madera de distintas medidas y también pesar la lámina que va a usar para la base.",
+    "pregunta": "¿Qué necesita hacer Regina con las ventas y los gastos para conocer la ganancia del día? Además: ¿Qué operaciones necesita hacer Don Emilio para saber la medida total de los tablones unidos?"
   },
   "subtemas": [
     {
       "numero": "12.2",
-      "nivelEtiqueta": "Nivel 2 de 8 · Básico",
-      "titulo": "Calcular el cambio al pagar con dinero",
-      "explicacion": "Cuando pagas con un billete de mayor valor que el costo de tu compra, te regresan la diferencia; a esa diferencia se le llama cambio o vuelto. Para calcularlo se resta el precio de lo que compraste al dinero con el que pagaste. Es importante identificar cuál es el minuendo (lo que pagaste) y cuál el sustraendo (lo que costó), para no restar al revés. Saber calcular el cambio te ayuda a verificar que te den el dinero correcto.",
-      "formula": "Cambio = dinero con el que pagas − costo de la compra",
+      "nivelEtiqueta": "Nivel 2 de 4 · Intermedio",
+      "titulo": "Combinar sumas y restas de dinero en varios pasos y Sumar y restar medidas con números decimales",
+      "explicacion": "Muchas situaciones cotidianas no se resuelven con una sola operación, sino con una suma y una resta juntas: por ejemplo, cuando gastas dinero y luego te dan más, o cuando calculas una ganancia restando los gastos de las ventas. En estos casos conviene resolver las operaciones en el orden en que ocurren los hechos, paso por paso. También practicamos el algoritmo escrito con acarreo (cuando una columna suma más de 9) y con préstamo (cuando no alcanza para restar y se pide prestado a la columna siguiente).\n\nLas medidas de longitud, peso o capacidad casi nunca son números enteros exactos: por eso aparecen los decimales, como 2.5 metros o 1.75 kilogramos. Para sumar o restar decimales hay que alinear el punto decimal, igual que se alinean las unidades, decenas y centenas en los números enteros. Si a una cantidad le faltan cifras decimales, se puede completar con ceros sin que cambie su valor. Este momento agrega el reto de trabajar con decimales sobre lo que ya sabes de suma y resta.",
+      "formula": "Resultado final = resuelve paso 1, luego usa ese resultado en el paso 2; Alinea el punto decimal antes de sumar o restar",
       "ejemplos": [
-        "Pagas con $200 algo que cuesta $145. Cambio: 200 − 145 = 55 pesos."
+        "Tenías $200, gastaste $80 y te regalaron $50. Primero: 200 − 80 = 120. Después: 120 + 50 = 170 pesos.",
+        "Un listón mide 3.4 m y le cortan 1.15 m. Quedan: 3.40 − 1.15 = 2.25 metros."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "Pagas con un billete de $100 una torta que cuesta $37. ¿Cuánto te dan de cambio?",
+          "pregunta": "Sofía tenía $340. Gastó $125 en el mercado y luego le dieron $60 de domingo su abuela. ¿Cuánto dinero tiene ahora?",
           "opciones": [
-            "$63",
-            "$73",
-            "$53",
-            "$67"
+            "$275",
+            "$265",
+            "$285",
+            "$215"
           ],
           "respuestaCorrecta": 0,
-          "retroalimentacion": "100 − 37 = 63 pesos de cambio."
+          "retroalimentacion": "340 − 125 = 215; 215 + 60 = 275 pesos."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "Si pagas $200 por una compra de $85, tu cambio es menor a $100.",
-          "respuestaCorrecta": false,
-          "retroalimentacion": "200 − 85 = 115 pesos, y 115 es mayor a 100, no menor."
+          "enunciado": "Si tienes $500, gastas $180 y luego gastas otros $95, te quedan más de $200.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "500 − 180 = 320; 320 − 95 = 225, y 225 sí es más de 200."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "Diego tenía $150 y gastó $95 en el cine. Le quedan $___ pesos.",
-          "respuestaCorrecta": "55",
-          "retroalimentacion": "150 − 95 = 55 pesos le quedan a Diego."
+          "frase": "Un puesto de tacos vendió $860 el sábado y $945 el domingo, pero tuvo $215 de gastos en ingredientes. La ganancia de esos dos días fue de $___ pesos.",
+          "respuestaCorrecta": "1590",
+          "retroalimentacion": "860 + 945 = 1805; 1805 − 215 = 1590 pesos de ganancia."
         },
         {
           "tipo": "algoritmo_columnas",
-          "operacion": "resta",
+          "operacion": "suma",
           "filas": [
             {
-              "valor": "402"
+              "valor": "487"
             },
             {
-              "valor": "168",
-              "signo": "-"
+              "valor": "265",
+              "signo": "+"
             },
             {
-              "valor": "234",
+              "valor": "752",
               "esResultado": true
             }
           ],
           "ocultos": [
             [
-              1
+              2
             ],
             [
-              2
+              1
             ],
             [
               0
             ]
           ],
-          "retroalimentacion": "402 − 168 = 234: se pide prestado en las unidades y en las decenas."
+          "retroalimentacion": "487 + 265 = 752, llevando una decena y una centena."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada operación con su resultado correcto.",
+          "columnaA": [
+            "$340 − $125",
+            "$180 + $95",
+            "$500 − $260"
+          ],
+          "columnaB": [
+            "$275",
+            "$150",
+            "$215",
+            "$240"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            3
+          ],
+          "retroalimentacion": "340 − 125 = 215; 180 + 95 = 275; 500 − 260 = 240."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "Camila compra un jugo de $28 y paga con $50. ¿Cuánto le regresan de cambio?",
+          "pregunta": "Un carpintero une un tablón de 2.5 m con otro de 1.8 m. ¿Cuántos metros mide la unión total?",
           "opciones": [
-            "$22",
-            "$32",
-            "$18",
-            "$12"
+            "4.3 m",
+            "3.3 m",
+            "4.7 m",
+            "3.7 m"
           ],
           "respuestaCorrecta": 0,
-          "retroalimentacion": "50 − 28 = 22 pesos de cambio."
+          "retroalimentacion": "2.5 + 1.8 = 4.3 metros en total."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si una receta necesita 1.75 kg de harina y ya tienes 0.9 kg, te faltan más de 1 kg.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "1.75 − 0.9 = 0.85 kg, y 0.85 no es más de 1 kg."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un tinaco tiene 850.5 litros de agua y se usan 275.2 litros para regar el jardín. Quedan ___ litros.",
+          "respuestaCorrecta": "575.3",
+          "retroalimentacion": "850.5 − 275.2 = 575.3 litros restantes."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "12.60"
+            },
+            {
+              "valor": "8.75",
+              "signo": "+"
+            },
+            {
+              "valor": "21.35",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              3
+            ],
+            [
+              0
+            ],
+            [
+              0,
+              4
+            ]
+          ],
+          "retroalimentacion": "12.60 + 8.75 = 21.35 metros de tablón en total, alineando décimas y centésimas."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un costal de arroz pesa 3.2 kg y el de frijol pesa 1.65 kg menos. ¿Cuánto pesa el costal de frijol?",
+          "opciones": [
+            "1.55 kg",
+            "1.65 kg",
+            "1.45 kg",
+            "4.85 kg"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "3.2 − 1.65 = 1.55 kg pesa el costal de frijol."
         }
       ]
     }

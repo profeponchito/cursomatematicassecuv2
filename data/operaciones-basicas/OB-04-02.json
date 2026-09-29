@@ -1,28 +1,29 @@
 {
   "id": "OB-04-02",
   "grado": "Operaciones Básicas",
-  "numero": 26,
+  "numero": 14,
   "categoria": "suma_resta",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Suma y resta de naturales grandes por posición — Momento 2/8",
+  "titulo": "Suma y resta de naturales grandes por posición — Módulo 2/4",
   "contenido": "Suma y resta de números de varias cifras (miles, decenas de mil), reforzando el valor posicional como base del algoritmo.",
   "pda": "Suma y resta números naturales de varias cifras, descomponiendo cada número por su valor posicional (unidades, decenas, centenas, miles).",
   "problematizacion": {
-    "contexto": "El profesor Iván organiza la colecta de útiles escolares de su secundaria en Querétaro. Un salón donó cuadernos y libretas que llegaron en dos cajas separadas, y necesita saber cuántos artículos hay en total antes de acomodarlos en el estante.",
-    "pregunta": "¿Qué operación debe hacer el profesor Iván para saber el total de artículos donados entre las dos cajas?"
+    "contexto": "El equipo de béisbol Los Venados, de Culiacán, lleva un marcador acumulado entre dos jornadas del torneo. En la primera jornada anotaron 1,247 puntos de estadística acumulada de la temporada, y en la segunda sumaron 1,362 puntos más entre todos los jugadores.\n\nDon Efrén maneja un camión de mudanzas en Monterrey. Su camión salió de la bodega cargado con 8,756 kilogramos entre todas las cajas, y en la primera entrega bajó cajas que pesaban 3,421 kilogramos en total.",
+    "pregunta": "¿Aproximadamente cuántos puntos acumulados tiene el equipo después de las dos jornadas? Además: ¿Cuántos kilogramos de carga le quedan al camión de Don Efrén después de esa entrega?"
   },
   "subtemas": [
     {
       "numero": "4.2",
-      "nivelEtiqueta": "Nivel 2 de 8 · Básico",
-      "titulo": "Sumar en columnas sin acarreo",
-      "explicacion": "Ahora que reconoces el valor posicional, vas a aplicarlo en el algoritmo escrito de la suma: se acomodan los números uno debajo del otro alineando unidades con unidades, decenas con decenas, y así sucesivamente, y se suma cada columna de derecha a izquierda. En este momento ninguna columna pasa de 9, así que todavía no necesitas 'llevar' nada: es el paso perfecto para dominar el acomodo antes de complicarlo.",
-      "formula": "Alinear por posición y sumar columna por columna, de derecha a izquierda",
+      "nivelEtiqueta": "Nivel 2 de 4 · Intermedio",
+      "titulo": "Sumar llevando una decena a la siguiente posición y Restar en columnas sin pedir prestado",
+      "explicacion": "Cuando una columna suma 10 o más, no cabe un solo dígito en ese lugar: se escribe únicamente la cifra de las unidades de ese resultado parcial y se 'lleva' 1 a la siguiente columna hacia la izquierda, porque esa decena completa pertenece a la posición de al lado. Este momento agrega justo esa dificultad nueva: aprender a llevar, una sola vez por operación, sobre el algoritmo que ya dominas.\n\nLa resta también se acomoda en columnas alineadas por posición, pero de arriba hacia abajo: el minuendo (el número mayor) va arriba y el sustraendo (el que se quita) va abajo. En este momento, en cada columna el dígito de arriba siempre es mayor o igual que el de abajo, así que todavía no necesitas pedir prestado: solo restas cada columna por separado.",
+      "formula": "Si una columna suma 10 o más: escribe la unidad, lleva 1 a la columna izquierda; Alinear por posición y restar columna por columna, de derecha a izquierda",
       "ejemplos": [
-        "4,213 + 1,252: unidades 3+2=5, decenas 1+5=6, centenas 2+2=4, millares 4+1=5. Resultado: 5,465."
+        "1,247 + 1,362: unidades 7+2=9 (sin acarreo). Decenas 4+6=10, se escribe 0 y se lleva 1 a las centenas. Centenas 2+3+1=6. Millares 1+1=2. Resultado: 2,609.",
+        "8,756 - 3,421: unidades 6-1=5, decenas 5-2=3, centenas 7-4=3, millares 8-3=5. Resultado: 5,335."
       ],
-      "puntosPorReactivo": 10,
+      "puntosPorReactivo": 12,
       "estrellasMax": 3,
       "reactivos": [
         {
@@ -30,65 +31,142 @@
           "operacion": "suma",
           "filas": [
             {
-              "valor": "4213"
+              "valor": "1247"
             },
             {
-              "valor": "1252",
+              "valor": "1362",
               "signo": "+"
             },
             {
-              "valor": "5465",
+              "valor": "2609",
               "esResultado": true
             }
           ],
           "ocultos": [
             [
-              3
-            ],
-            [
-              0
-            ],
-            [
               1
+            ],
+            [
+              2
+            ],
+            [
+              3
             ]
           ],
-          "retroalimentacion": "4,213 + 1,252 = 5,465. Como ninguna columna suma más de 9, cada dígito del resultado sale directo de sumar esa columna."
+          "retroalimentacion": "1,247 + 1,362 = 2,609. En las decenas, 4+6=10: se escribe 0 y se lleva 1 a las centenas, por eso las centenas dan 2+3+1=6."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "Una papelería vendió 3,124 lápices en marzo y 2,653 en abril. ¿Cuántos lápices vendió en total entre los dos meses?",
+          "pregunta": "3,126 + 2,158 = ?",
           "opciones": [
-            "5,677",
-            "5,777",
-            "5,877",
-            "5,767"
+            "5,184",
+            "5,284",
+            "5,294",
+            "5,274"
           ],
           "respuestaCorrecta": 1,
-          "retroalimentacion": "3,124 + 2,653 = 5,777: unidades 4+3=7, decenas 2+5=7, centenas 1+6=7, millares 3+2=5."
+          "retroalimentacion": "En las unidades 6+8=14: se escribe 4 y se lleva 1. Decenas 2+5+1=8. Centenas 1+1=2. Millares 3+2=5. Resultado: 5,284."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "6,542 + 1,236 = 7,778.",
+          "enunciado": "4,568 + 1,347 = 5,915.",
           "respuestaCorrecta": true,
-          "retroalimentacion": "Correcto: unidades 2+6=8, decenas 4+3=7, centenas 5+2=7, millares 6+1=7, así que el resultado es 7,778."
+          "retroalimentacion": "Correcto: unidades 8+7=15 (escribe 5, lleva 1), decenas 6+4+1=11 (escribe 1, lleva 1), centenas 5+3+1=9, millares 4+1=5. Resultado: 5,915."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "2,315 + 4,201 = ___.",
-          "respuestaCorrecta": "6516",
-          "retroalimentacion": "Sumando columna por columna: unidades 5+1=6, decenas 1+0=1, centenas 3+2=5, millares 2+4=6. El resultado es 6,516."
+          "frase": "2,384 + 1,247 = ___.",
+          "respuestaCorrecta": "3631",
+          "retroalimentacion": "Unidades 4+7=11 (escribe 1, lleva 1), decenas 8+4+1=13 (escribe 3, lleva 1), centenas 3+2+1=6, millares 2+1=3. Resultado: 3,631."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada paso de la suma 1,247 + 1,362 con lo que ocurre en esa columna.",
+          "columnaA": [
+            "Unidades (7+2)",
+            "Decenas (4+6)",
+            "Centenas (2+3+1)",
+            "Millares (1+1)"
+          ],
+          "columnaB": [
+            "10, se escribe 0 y se lleva 1",
+            "2",
+            "9, sin acarreo",
+            "6"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            3,
+            1
+          ],
+          "retroalimentacion": "Unidades da 9 sin acarreo; decenas da 10 y se lleva 1; centenas, con ese acarreo, da 6; millares da 2. Junto forman 2,609."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "8756"
+            },
+            {
+              "valor": "3421",
+              "signo": "-"
+            },
+            {
+              "valor": "5335",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              3
+            ]
+          ],
+          "retroalimentacion": "8,756 - 3,421 = 5,335. En todas las columnas el dígito de arriba es mayor o igual al de abajo, así que no hace falta pedir prestado."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "Una tienda de abarrotes tenía 5,123 productos en la bodega y recibió un pedido de 3,646 productos más. ¿Cuántos productos hay ahora en total?",
+          "pregunta": "6,489 - 2,156 = ?",
           "opciones": [
-            "8,669",
-            "8,759",
-            "8,769",
-            "8,779"
+            "4,233",
+            "4,333",
+            "4,343",
+            "4,323"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Unidades 9-6=3, decenas 8-5=3, centenas 4-1=3, millares 6-2=4. Resultado: 4,333."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "9,647 - 3,215 = 6,432.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: unidades 7-5=2, decenas 4-1=3, centenas 6-2=4, millares 9-3=6. Resultado: 6,432."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "7,586 - 2,364 = ___.",
+          "respuestaCorrecta": "5222",
+          "retroalimentacion": "Unidades 6-4=2, decenas 8-6=2, centenas 5-3=2, millares 7-2=5. Resultado: 5,222."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una bodega tenía 5,978 cajas registradas y sacó 2,145 para reparto. ¿Cuántas cajas quedan en la bodega?",
+          "opciones": [
+            "3,733",
+            "3,823",
+            "3,833",
+            "3,843"
           ],
           "respuestaCorrecta": 2,
-          "retroalimentacion": "5,123 + 3,646 = 8,769: unidades 3+6=9, decenas 2+4=6, centenas 1+6=7, millares 5+3=8."
+          "retroalimentacion": "5,978 - 2,145 = 3,833: unidades 8-5=3, decenas 7-4=3, centenas 9-1=8, millares 5-2=3."
         }
       ]
     }

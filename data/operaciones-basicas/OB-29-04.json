@@ -1,74 +1,177 @@
 {
   "id": "OB-29-04",
   "grado": "Operaciones Básicas",
-  "numero": 228,
+  "numero": 116,
   "categoria": "potencias_raices",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Significado de la potencia (multiplicación repetida) — Momento 4/8",
+  "titulo": "Significado de la potencia (multiplicación repetida) — Módulo 4/4",
   "contenido": "La potencia como una multiplicación repetida de un mismo factor (base), identificando base y exponente.",
   "pda": "Interpreta una potencia como la multiplicación repetida de su base, e identifica base y exponente en una expresión.",
   "problematizacion": {
-    "contexto": "Doña Carmela vende rebozos en su puesto de artesanías en Oaxaca y, para calcular cuántos hilos necesita, multiplica 9×9×9×9×9 porque usa el mismo grosor de hilo en cinco vueltas idénticas alrededor del telar.",
-    "pregunta": "¿Cómo puede escribir doña Carmela la operación 9×9×9×9×9 usando notación de potencia?"
+    "contexto": "En un taller mecánico de Monterrey, el aprendiz Toño encontró una tabla en su cuaderno con las potencias de 4: 4^3=64, 4^2=16, 4^1=4, pero la última fila, 4^0, estaba manchada de aceite y no se podía leer.\n\nEn el laboratorio de la telesecundaria de Pátzcuaro, la profesora Xóchitl mostró a sus alumnos un cultivo de bacterias que se duplica cada hora, empezando con una sola bacteria, y les pidió calcular cuántas habría después de 5 duplicaciones usando potencias.",
+    "pregunta": "Siguiendo el patrón de la tabla de Toño, ¿qué número debería ir en la fila de 4^0? Además: ¿Qué potencia representa el número total de bacterias después de que el cultivo se duplicó 5 veces?"
   },
   "subtemas": [
     {
       "numero": "29.4",
-      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
-      "titulo": "De la multiplicación repetida a la potencia",
-      "explicacion": "También puedes hacer el proceso al revés: si tienes una multiplicación donde el mismo factor se repite varias veces, puedes escribirla como una potencia. La base es el factor que se repite y el exponente es el número de veces que aparece. Sin embargo, esto solo funciona cuando TODOS los factores son exactamente iguales; si los factores son distintos, esa multiplicación no se puede escribir como una sola potencia.",
-      "formula": "b × b × ... × b (n veces) = b^n",
+      "nivelEtiqueta": "Nivel 4 de 4 · Integración",
+      "titulo": "Casos especiales: exponente 1 y exponente 0 y Integra todo: identifica, expande, calcula y aplica",
+      "explicacion": "Observa lo que pasa cuando el exponente baja de uno en uno: cada vez que el exponente disminuye en 1, el resultado se divide entre la base. Siguiendo ese patrón hasta el final, cuando el exponente es 1 el resultado es simplemente la base (porque ya no hay ninguna multiplicación repetida que hacer), y cuando el exponente es 0 el resultado siempre es 1 (para cualquier base distinta de cero). Estos dos casos especiales son parte del mismo significado de multiplicación repetida, solo que llevados a su límite.\n\nLlegó el momento de unir todo lo que has practicado sobre el significado de la potencia: identificar la base y el exponente, expandir la potencia en su multiplicación repetida, calcular su valor y distinguirla de una multiplicación simple, ahora dentro de situaciones reales. Muchos fenómenos de la vida diaria, como la duplicación de bacterias o el doblado repetido de una hoja de papel, se representan naturalmente con potencias porque el mismo factor se repite una y otra vez. Leer bien el contexto te dirá cuál número es la base (lo que se repite) y cuál es el exponente (cuántas veces se repite).",
       "ejemplos": [
-        "8×8×8×8 tiene al 8 repetido cuatro veces, así que se escribe como 8^4.",
-        "6×6×7 no se puede escribir como una sola potencia porque los factores no son todos iguales."
+        "5^3 = 125, 5^2 = 25, 5^1 = 5, 5^0 = 1 (cada vez se divide el resultado anterior entre 5).",
+        "4^2 = 16, 4^1 = 4, 4^0 = 1 (cada vez se divide el resultado anterior entre 4).",
+        "Si una bacteria se duplica 5 veces empezando en 1, el total se calcula como 2^5 = 32 (la base es 2 porque se duplica, y el exponente es 5 porque ocurre 5 veces).",
+        "Si una hoja se dobla a la mitad 4 veces, el número de capas es 2^4 = 16 (la base es 2 por cada doblez a la mitad, y el exponente es 4 por el número de dobleces)."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cómo se escribe 9×9×9×9×9 como potencia?",
+          "pregunta": "Siguiendo el patrón 4^3=64, 4^2=16, 4^1=4, ¿cuánto vale 4^0?",
           "opciones": [
-            "9^5",
-            "5^9",
-            "9×5",
-            "45"
-          ],
-          "respuestaCorrecta": 0,
-          "retroalimentacion": "El 9 se repite 5 veces, así que la base es 9 y el exponente es 5: 9^5."
-        },
-        {
-          "tipo": "opcion_multiple",
-          "pregunta": "¿Cómo se escribe 7×7×7 como potencia?",
-          "opciones": [
-            "3^7",
-            "7^3",
-            "21",
-            "7×3"
+            "0",
+            "1",
+            "4",
+            "16"
           ],
           "respuestaCorrecta": 1,
-          "retroalimentacion": "El 7 se repite 3 veces, así que la base es 7 y el exponente es 3: 7^3."
+          "retroalimentacion": "Cada vez que el exponente baja 1, el resultado se divide entre la base (4÷4=1); por eso 4^0 = 1."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "4×4×4×4 se puede escribir como 4^4.",
+          "enunciado": "Cualquier número (distinto de cero) elevado a la potencia 0 es igual a 1.",
           "respuestaCorrecta": true,
-          "retroalimentacion": "Verdadero. El factor 4 se repite cuatro veces, así que la base es 4 y el exponente es 4."
-        },
-        {
-          "tipo": "verdadero_falso",
-          "enunciado": "5×5×6 se puede escribir como una sola potencia porque hay tres factores.",
-          "respuestaCorrecta": false,
-          "retroalimentacion": "Falso. Para escribirla como potencia, todos los factores deben ser iguales; aquí el 6 es distinto del 5, así que no se puede."
+          "retroalimentacion": "Verdadero. Es una regla general: toda base distinta de cero elevada al exponente 0 da como resultado 1."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "10×10×10×10×10×10 se escribe como 10^___.",
-          "respuestaCorrecta": "6",
-          "retroalimentacion": "El 10 se repite 6 veces, así que el exponente es 6: 10^6."
+          "frase": "7^1 = ___.",
+          "respuestaCorrecta": "7",
+          "retroalimentacion": "Cuando el exponente es 1, no hay ninguna multiplicación repetida que hacer: el resultado es la misma base, 7."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Observa el patrón: 6^3=216, 6^2=36, 6^1=___. ¿Qué número completa la secuencia?",
+          "opciones": [
+            "1",
+            "6",
+            "36",
+            "216"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "36÷6=6, así que 6^1 = 6, que es la propia base."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada potencia de base 9 con su valor correcto.",
+          "columnaA": [
+            "9^0",
+            "9^1",
+            "9^2",
+            "9^3"
+          ],
+          "columnaB": [
+            "81",
+            "1",
+            "729",
+            "9"
+          ],
+          "parejasCorrectas": [
+            1,
+            3,
+            0,
+            2
+          ],
+          "retroalimentacion": "9^0 = 1, 9^1 = 9, 9^2 = 81 y 9^3 = 729. Nota cómo cada resultado se obtiene multiplicando el anterior por 9."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una bacteria se duplica cada hora. Si empieza siendo 1 y se duplica 5 veces, ¿qué potencia representa el total de bacterias?",
+          "opciones": [
+            "5^2",
+            "2^5",
+            "2×5",
+            "5×2"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "La base es 2 porque cada hora se duplica (se multiplica por 2), y el exponente es 5 porque eso ocurre 5 veces: 2^5."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "2^5 tiene un valor de ___ bacterias.",
+          "respuestaCorrecta": "32",
+          "retroalimentacion": "2^5 = 2×2×2×2×2 = 32 bacterias."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En el problema de las bacterias, la base es 5 porque el cultivo se duplicó 5 veces.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso. La base es 2 (lo que se repite al duplicarse); el 5 es el exponente, porque indica cuántas veces ocurre la duplicación."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un profesor dobla una hoja de papel por la mitad 4 veces. El número de capas resultantes es 2^4. ¿Cuántas capas son?",
+          "opciones": [
+            "8",
+            "16",
+            "24",
+            "32"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "2^4 = 2×2×2×2 = 16 capas de papel."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada expresión con su resultado correcto; recuerda distinguir potencias de multiplicaciones simples.",
+          "columnaA": [
+            "5^3",
+            "5×3",
+            "2^4",
+            "4×2"
+          ],
+          "columnaB": [
+            "8",
+            "125",
+            "15",
+            "16"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            3,
+            0
+          ],
+          "retroalimentacion": "5^3 = 125, 5×3 = 15, 2^4 = 16 y 4×2 = 8. Las potencias y las multiplicaciones simples con los mismos números dan resultados distintos."
         }
       ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Un tablero de ajedrez tiene 64 casillas. Si en la primera casilla se coloca 1 grano de arroz y la cantidad se duplica en cada casilla siguiente, ¿qué potencia representa los granos en la casilla número 11 (la duplicación ocurrió 10 veces)?",
+      "opciones": [
+        "2^10",
+        "10^2",
+        "2×10",
+        "10^10"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "La base es 2 porque la cantidad se duplica en cada casilla, y el exponente es 10 porque eso ocurre 10 veces: 2^10."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "El valor de 2^10 es ___ granos de arroz.",
+      "respuestaCorrecta": "1024",
+      "retroalimentacion": "2^10 = 2×2×2×2×2×2×2×2×2×2 = 1024 granos de arroz."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "7^0 es igual a 0.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Falso. Cualquier base distinta de cero elevada al exponente 0 es igual a 1, así que 7^0 = 1, no 0."
     }
   ]
 }

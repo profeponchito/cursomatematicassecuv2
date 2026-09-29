@@ -1,29 +1,31 @@
 {
   "id": "OB-13-04",
   "grado": "Operaciones Básicas",
-  "numero": 100,
+  "numero": 52,
   "categoria": "mult_div",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Multiplicación de un dígito (tablas y cálculo mental) — Momento 4/8",
+  "titulo": "Multiplicación de un dígito (tablas y cálculo mental) — Módulo 4/4",
   "contenido": "Multiplicación de un número de varias cifras por un solo dígito, apoyada en las tablas de multiplicar.",
   "pda": "Multiplica números naturales por un dígito usando las tablas de multiplicar y estrategias de cálculo mental.",
   "problematizacion": {
-    "contexto": "Un taller de costura en Puebla confecciona uniformes escolares. Cada semana logran terminar 234 uniformes, y la dueña quiere calcular cuántos uniformes se producen en 3 semanas para cumplir un pedido grande.",
-    "pregunta": "¿Cuántos uniformes en total puede entregar el taller si mantiene el mismo ritmo durante 3 semanas?"
+    "contexto": "En una panadería de Oaxaca, cada pieza de pan de yema cuesta $4.50 pesos. Una maestra encarga 3 piezas para llevar a la sala de maestros y quiere saber cuánto va a pagar antes de llegar a la caja.\n\nUna familia de Guanajuato está ahorrando para un viaje familiar. El papá gana $186 pesos extra por triplicar sus horas de trabajo un fin de semana, y además compran combustible a $12.60 por litro para el coche que van a usar en el viaje, necesitando 4 litros para probarlo antes de salir.",
+    "pregunta": "¿Cuánto debe pagar la maestra por las 3 piezas de pan si cada una cuesta $4.50? Además: usando lo que sabes de multiplicar números de varias cifras y decimales por un dígito, ¿cómo calcularías tanto el ingreso extra del papá como el costo de la gasolina de prueba?"
   },
   "subtemas": [
     {
       "numero": "13.4",
-      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
-      "titulo": "Multiplicar números de tres cifras",
-      "explicacion": "El mismo procedimiento que usaste con dos cifras funciona con tres: multiplicas de derecha a izquierda (unidades, decenas, centenas) y llevas cuando el producto de una columna es 10 o más. La diferencia es que ahora puede haber más de un acarreo en la misma operación, así que hay que llevar la cuenta con cuidado columna por columna. Escribir el número en columnas alineadas por su valor posicional evita errores. Con práctica, este procedimiento sirve para números de cualquier cantidad de cifras.",
-      "formula": "unidades → decenas → centenas, llevando cuando el producto de la columna es ≥10",
+      "nivelEtiqueta": "Nivel 4 de 4 · Integración",
+      "titulo": "Multiplicar decimales por un dígito y Integrando todas las formas de multiplicar por un dígito",
+      "explicacion": "Multiplicar un número con punto decimal por un dígito se hace igual que con números enteros, ignorando el punto durante el cálculo. Al final, cuentas cuántas cifras había después del punto decimal en el número original y colocas el punto esa misma cantidad de lugares desde la derecha en el resultado. Por ejemplo, si el factor decimal tiene una cifra después del punto, el resultado también llevará una cifra después del punto. Esta regla funciona porque multiplicar por un dígito entero no cambia cuántos decimales tiene el número, solo su tamaño.\n\nEste momento reúne todo lo que has practicado: tablas de multiplicar, algoritmo escrito con y sin llevar, números de varias cifras, decimales, cálculo mental por descomposición o redondeo, y estimación. Ante cada problema, tú decides qué estrategia conviene más: el algoritmo escrito para números grandes o con decimales, y el cálculo mental para números cercanos a decenas, centenas o miles redondos. Lo importante es que entiendas que todas estas formas dan el mismo resultado correcto, solo cambian en rapidez según el problema. Esta es la práctica más exigente del tema, así que tómate tu tiempo para elegir bien cada estrategia.",
+      "formula": "multiplica como si fueran enteros; el resultado lleva las mismas cifras decimales que el factor decimal",
       "ejemplos": [
-        "234×3: unidades 4×3=12 (anota 2, lleva 1); decenas 3×3=9+1=10 (anota 0, lleva 1); centenas 2×3=6+1=7 → 702.",
-        "156×4: unidades 6×4=24 (anota 4, lleva 2); decenas 5×4=20+2=22 (anota 2, lleva 2); centenas 1×4=4+2=6 → 624."
+        "4.5×3: 45×3=135, y como 4.5 tiene una cifra decimal, el resultado lleva una: 13.5.",
+        "2.7×6: 27×6=162, y como 2.7 tiene una cifra decimal, el resultado es 16.2.",
+        "12.6×4 (algoritmo con decimales): 126×4=504, y como 12.6 tiene una cifra decimal, el resultado es 50.4.",
+        "9×406 (mental, descomposición): 406=400+6, entonces 9×400=3600 y 9×6=54, se suman → 3654."
       ],
-      "puntosPorReactivo": 15,
+      "puntosPorReactivo": 30,
       "estrellasMax": 3,
       "reactivos": [
         {
@@ -31,14 +33,14 @@
           "operacion": "multiplicacion",
           "filas": [
             {
-              "valor": "234"
+              "valor": "4.5"
             },
             {
               "valor": "3",
               "signo": "×"
             },
             {
-              "valor": "702",
+              "valor": "13.5",
               "esResultado": true
             }
           ],
@@ -48,49 +50,112 @@
             [
               0,
               1,
-              2
+              3
             ]
           ],
-          "retroalimentacion": "234×3 = 702: unidades 4×3=12 (anota 2, lleva 1), decenas 3×3=9+1=10 (anota 0, lleva 1), centenas 2×3=6+1=7, resultado 702."
+          "retroalimentacion": "4.5×3: se multiplica 45×3=135 y se coloca el punto una cifra desde la derecha (porque 4.5 tiene una cifra decimal), resultado 13.5."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuánto es 156×4?",
+          "pregunta": "¿Cuánto es 2.7×6?",
           "opciones": [
-            "624",
-            "614",
-            "634",
-            "724"
+            "16.2",
+            "15.2",
+            "17.2",
+            "16.8"
           ],
           "respuestaCorrecta": 0,
-          "retroalimentacion": "156×4 = 624: unidades 6×4=24 (anota 4, lleva 2), decenas 5×4=20+2=22 (anota 2, lleva 2), centenas 1×4=4+2=6, resultado 624."
+          "retroalimentacion": "27×6=162, y como 2.7 tiene una cifra decimal, el resultado es 16.2."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "417×6 es igual a 2,502.",
-          "respuestaCorrecta": true,
-          "retroalimentacion": "Correcto: unidades 7×6=42, decenas 1×6=6+4=10, centenas 4×6=24+1=25, resultado 2,502."
+          "enunciado": "0.8×5 es igual a 4.5.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: 8×5=40, y como 0.8 tiene una cifra decimal, el resultado es 4.0 (es decir, 4), no 4.5."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "328×5 = ___",
-          "respuestaCorrecta": "1640",
-          "retroalimentacion": "328×5 = 1,640: unidades 8×5=40, decenas 2×5=10+4=14, centenas 3×5=15+1=16, resultado 1,640."
+          "frase": "1.6×7 = ___",
+          "respuestaCorrecta": "11.2",
+          "retroalimentacion": "16×7=112, y como 1.6 tiene una cifra decimal, el resultado es 11.2."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 2.3×4?",
+          "opciones": [
+            "9.2",
+            "8.2",
+            "9.4",
+            "12.2"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "23×4=92, y como 2.3 tiene una cifra decimal, el resultado es 9.2."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "12.6"
+            },
+            {
+              "valor": "4",
+              "signo": "×"
+            },
+            {
+              "valor": "50.4",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0,
+              1,
+              3
+            ]
+          ],
+          "retroalimentacion": "12.6×4: se multiplica 126×4=504 y se coloca el punto una cifra desde la derecha, resultado 50.4."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Si antes el papá ganaba $186 pesos y ahora gana 3 veces más por triplicar sus horas, ¿cuánto gana ahora?",
+          "opciones": [
+            "$558",
+            "$548",
+            "$568",
+            "$516"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "186×3: unidades 6×3=18, decenas 8×3=24+1=25, centenas 1×3=3+2=5, resultado 558."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Al estimar 6×798 redondeando a 800, la estimación es 4,800, muy cercana al resultado real de 4,788.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 6×800=4,800 (estimación) y 6×798=4,788 (resultado real); la diferencia es pequeña porque 798 está muy cerca de 800."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "7×2.5 = ___",
+          "respuestaCorrecta": "17.5",
+          "retroalimentacion": "7×25=175, y como 2.5 tiene una cifra decimal, el resultado es 17.5."
         },
         {
           "tipo": "relacionar_columnas",
-          "instruccion": "Relaciona cada multiplicación de tres cifras con su resultado.",
+          "instruccion": "Relaciona cada multiplicación (con números grandes o decimales) con su resultado.",
           "columnaA": [
-            "289×3",
-            "134×6",
-            "245×4",
-            "372×2"
+            "8×125",
+            "9×3.2",
+            "6×450",
+            "4×2.75"
           ],
           "columnaB": [
-            "744",
-            "804",
-            "867",
-            "980"
+            "11",
+            "28.8",
+            "1000",
+            "2700"
           ],
           "parejasCorrectas": [
             2,
@@ -98,9 +163,57 @@
             3,
             0
           ],
-          "retroalimentacion": "289×3=867, 134×6=804, 245×4=980 y 372×2=744."
+          "retroalimentacion": "8×125=1,000; 9×3.2=28.8; 6×450=2,700; 4×2.75=11."
         }
       ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "algoritmo_columnas",
+      "operacion": "multiplicacion",
+      "filas": [
+        {
+          "valor": "34.7"
+        },
+        {
+          "valor": "6",
+          "signo": "×"
+        },
+        {
+          "valor": "208.2",
+          "esResultado": true
+        }
+      ],
+      "ocultos": [
+        [],
+        [],
+        [
+          0,
+          1,
+          2,
+          4
+        ]
+      ],
+      "retroalimentacion": "34.7×6: se multiplica 347×6=2,082 y se coloca el punto una cifra desde la derecha, resultado 208.2."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Un boleto de camión foráneo cuesta $18.50. Usando cálculo mental (18×6 + 0.5×6), ¿cuánto pagará una familia de 6 integrantes por sus boletos?",
+      "opciones": [
+        "$111",
+        "$108",
+        "$114",
+        "$105"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "18×6=108 y 0.5×6=3, entonces 108+3=111. La familia paga $111 en total."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Estrategia mixta: 9×406 = 9×400 + 9×6 = 3600 + 54 = ___",
+      "respuestaCorrecta": "3654",
+      "retroalimentacion": "406=400+6, entonces 9×400=3,600 y 9×6=54, sumados dan 9×406=3,654."
     }
   ]
 }

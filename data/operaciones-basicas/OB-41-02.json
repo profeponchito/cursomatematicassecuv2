@@ -1,89 +1,116 @@
 {
   "id": "OB-41-02",
   "grado": "Operaciones Básicas",
-  "numero": 322,
+  "numero": 162,
   "categoria": "integracion",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Jerarquía de operaciones — Momento 2/8",
+  "titulo": "Jerarquía de operaciones — Módulo 2/4",
   "contenido": "El orden correcto para resolver una expresión con varias operaciones: potencias y raíces, multiplicación y división, suma y resta, y el papel de los paréntesis.",
   "pda": "Aplica la jerarquía de operaciones (paréntesis, potencias/raíces, multiplicación/división, suma/resta) para resolver expresiones numéricas.",
   "problematizacion": {
-    "contexto": "En la cooperativa escolar, Fernanda apunta en el pizarrón cuántos productos hay que reponer. Un compañero escribió la cuenta con paréntesis y otro la escribió sin ellos, y a los dos les salieron números diferentes para la misma situación.",
-    "pregunta": "¿Por qué (5 + 3) × 2 y 5 + 3 × 2 no dan el mismo resultado, si tienen los mismos números?"
+    "contexto": "El entrenador Beto organiza un torneo de fútbol por eliminación. Para explicar a su equipo cuántos partidos se juegan en cada ronda, usa potencias de 2 mezcladas con sumas en el pizarrón del vestidor.\n\nDon Chuy es albañil y está colocando baldosas cuadradas en un patio. Para saber cuánto mide el lado de cada baldosa a partir de su área, usa raíces cuadradas, y luego suma o multiplica esas medidas con otras cantidades de la obra.",
+    "pregunta": "En la expresión 3 + 2², ¿qué se debe calcular primero: la suma 3 + 2, o la potencia 2²? Además: si don Chuy calcula √16 + 5 para saber cuántos ladrillos de borde necesita, ¿qué debe resolver primero: la raíz o la suma?"
   },
   "subtemas": [
     {
       "numero": "41.2",
-      "nivelEtiqueta": "Nivel 2 de 8 · Básico",
-      "titulo": "Los paréntesis cambian el orden",
-      "explicacion": "Los paréntesis son una señal que indica qué operación se debe resolver primero, sin importar qué tipo de operación sea. Todo lo que está dentro de un paréntesis se calcula antes que cualquier otra cosa fuera de él. Por eso, la misma serie de números puede dar resultados distintos con y sin paréntesis. Aprender a leer los paréntesis correctamente es la segunda pieza de la jerarquía de operaciones.",
-      "formula": "1) ( )  →  2) × y ÷  →  3) + y −",
+      "nivelEtiqueta": "Nivel 2 de 4 · Intermedio",
+      "titulo": "Las potencias entran a la jerarquía y Las raíces se resuelven al mismo nivel que las potencias",
+      "explicacion": "Además de los paréntesis y de la multiplicación/división, las expresiones numéricas pueden incluir potencias, como 2² o 5³. Las potencias se resuelven antes que la multiplicación, la división, la suma y la resta (pero después de lo que esté entre paréntesis). Esto significa que en una expresión como 3 + 2², primero se eleva 2 al cuadrado y hasta el final se suma. Ignorar este orden es uno de los errores más comunes al resolver expresiones.\n\nLas raíces cuadradas, como √16, ocupan el mismo lugar que las potencias en la jerarquía de operaciones: se resuelven después de los paréntesis, pero antes que la multiplicación, la división, la suma y la resta. En una expresión que combina raíces con otras operaciones, primero se calcula el valor exacto de la raíz y después se continúa con el resto. En este momento solo se usarán raíces exactas (de números que sí tienen raíz cuadrada entera), para enfocarte en el orden y no en el cálculo de la raíz.",
+      "formula": "1) ( )  →  2) potencias  →  3) × y ÷  →  4) + y −; 1) ( )  →  2) potencias y raíces  →  3) × y ÷  →  4) + y −",
       "ejemplos": [
-        "(8 + 2) × 3: primero 8 + 2 = 10, y luego 10 × 3 = 30.",
-        "8 + 2 × 3 (sin paréntesis): primero 2 × 3 = 6, y luego 8 + 6 = 14."
+        "3 + 2²: primero 2² = 4, y luego 3 + 4 = 7.",
+        "5 × 2²: primero 2² = 4, y luego 5 × 4 = 20.",
+        "√16 + 5: primero √16 = 4, y luego 4 + 5 = 9.",
+        "√9 + 2³: primero √9 = 3 y 2³ = 8, y luego 3 + 8 = 11."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuánto es (5 + 3) × 2?",
+          "pregunta": "¿Cuánto es 3 + 2²?",
           "opciones": [
-            "16",
-            "11",
-            "8",
-            "6"
+            "7",
+            "25",
+            "6",
+            "5"
           ],
           "respuestaCorrecta": 0,
-          "retroalimentacion": "El paréntesis obliga a sumar primero: 5 + 3 = 8, y luego 8 × 2 = 16."
+          "retroalimentacion": "Primero se calcula la potencia: 2² = 4, y luego 3 + 4 = 7. Sumar antes (3+2=5) y elevar después daría 25, que es incorrecto."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuánto es 5 + 3 × 2 (sin paréntesis)?",
+          "pregunta": "¿Cuánto es 5 × 2²?",
           "opciones": [
-            "11",
-            "16",
-            "8",
-            "6"
+            "20",
+            "100",
+            "10",
+            "9"
           ],
           "respuestaCorrecta": 0,
-          "retroalimentacion": "Sin paréntesis se multiplica primero: 3 × 2 = 6, y luego 5 + 6 = 11. Es distinto al resultado con paréntesis."
+          "retroalimentacion": "Primero 2² = 4, y luego 5 × 4 = 20. Multiplicar antes (5×2=10) y elevar después daría 100, que es incorrecto."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "El resultado de (12 − 4) ÷ 2 es 4.",
+          "enunciado": "En la expresión 10 − 3², lo primero que se debe calcular es 3².",
           "respuestaCorrecta": true,
-          "retroalimentacion": "Correcto: dentro del paréntesis, 12 − 4 = 8, y luego 8 ÷ 2 = 4."
+          "retroalimentacion": "Correcto: la potencia se resuelve antes que la resta. 3² = 9, y luego 10 − 9 = 1."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "(6 + 4) × 5 = ___",
-          "respuestaCorrecta": "50",
-          "retroalimentacion": "Primero 6 + 4 = 10 por el paréntesis, y luego 10 × 5 = 50."
+          "frase": "4² − 6 = ___",
+          "respuestaCorrecta": "10",
+          "retroalimentacion": "Primero 4² = 16, y luego 16 − 6 = 10."
         },
         {
-          "tipo": "relacionar_columnas",
-          "instruccion": "Relaciona cada expresión con su resultado correcto.",
-          "columnaA": [
-            "(2 + 3) × 4",
-            "2 + 3 × 4",
-            "(9 − 3) × 2",
-            "9 − 3 × 2"
-          ],
-          "columnaB": [
-            "14",
+          "tipo": "verdadero_falso",
+          "enunciado": "El resultado de 2 + 3² es 25.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: primero 3² = 9, y luego 2 + 9 = 11, no 25. Sumar 2+3 antes de elevar al cuadrado es el error común."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es √16 + 5?",
+          "opciones": [
+            "9",
+            "21",
             "20",
-            "3",
-            "12"
+            "4"
           ],
-          "parejasCorrectas": [
-            1,
-            0,
-            3,
-            2
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Primero √16 = 4, y luego 4 + 5 = 9. Sumar dentro de la raíz (16+5=21) sería un error, pues la raíz solo afecta al 16."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 20 − √25 × 2?",
+          "opciones": [
+            "10",
+            "30",
+            "15",
+            "0"
           ],
-          "retroalimentacion": "(2+3)×4=20; 2+3×4=14; (9−3)×2=12; 9−3×2=3. El paréntesis cambia por completo el resultado."
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Primero √25 = 5, luego 5 × 2 = 10, y al final 20 − 10 = 10. Restar antes de multiplicar (20−5=15, ×2=30) es un error de orden."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El resultado de √9 + 2³ es 11.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: √9 = 3 y 2³ = 8, y 3 + 8 = 11. Tanto la raíz como la potencia se resuelven antes de la suma."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "3² + √4 = ___",
+          "respuestaCorrecta": "11",
+          "retroalimentacion": "Primero 3² = 9 y √4 = 2, y luego 9 + 2 = 11."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En una expresión sin paréntesis, las raíces se resuelven al mismo nivel que las potencias, antes que la multiplicación.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: potencias y raíces comparten el mismo lugar en la jerarquía, justo después de los paréntesis."
         }
       ]
     }

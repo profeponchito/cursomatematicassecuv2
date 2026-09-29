@@ -1,62 +1,143 @@
 {
   "id": "OB-14-04",
   "grado": "Operaciones Básicas",
-  "numero": 108,
+  "numero": 56,
   "categoria": "mult_div",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Multiplicación de varios dígitos (algoritmo en columna) — Momento 4/8",
+  "titulo": "Multiplicación de varios dígitos (algoritmo en columna) — Módulo 4/4",
   "contenido": "El algoritmo escrito de la multiplicación cuando ambos factores tienen dos o más cifras, usando productos parciales.",
   "pda": "Aplica el algoritmo de la multiplicación en columna con factores de dos o más cifras, sumando correctamente los productos parciales.",
   "problematizacion": {
-    "contexto": "El equipo de básquetbol de la secundaria organiza una rifa: cada boleto cuesta 23 pesos y el profesor asesor logró vender 14 boletos entre sus compañeros de salón.",
-    "pregunta": "Aproximadamente, ¿cuánto dinero se reunió con esos boletos?"
+    "contexto": "En el tianguis, el kilogramo de tortillas cuesta 23.50 pesos. Fernanda va a comprar 2.5 kilogramos para la comida familiar del domingo.\n\nLa panadería 'El Buen Pan' empaca sus piezas de pan dulce en charolas de 36 piezas cada una. Para surtir el pedido del fin de semana, el panadero preparó 28 charolas completamente llenas.",
+    "pregunta": "Aproximadamente, ¿cuánto pagará Fernanda en total por las tortillas? Además: ¿Cuántas piezas de pan dulce se hornearon en total para el fin de semana?"
   },
   "subtemas": [
     {
       "numero": "14.4",
-      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
-      "titulo": "Multiplicador de dos cifras: productos parciales sin acarreo",
-      "explicacion": "Cuando el multiplicador también tiene dos cifras, el algoritmo se hace en dos pasos: primero se multiplica por las unidades del multiplicador (primer producto parcial) y luego por las decenas, recorriendo ese segundo producto un lugar a la izquierda (o agregando un cero al final). Al terminar, se suman los dos productos parciales para obtener el resultado final.",
-      "formula": "producto parcial 1 (×unidades) + producto parcial 2 (×decenas, recorrido) = resultado",
+      "nivelEtiqueta": "Nivel 4 de 4 · Integración",
+      "titulo": "Multiplicación en columna con números decimales y Repaso integrador de la multiplicación en columna",
+      "explicacion": "Para multiplicar decimales en columna, se ignoran los puntos y se multiplica como si fueran números enteros. Al terminar, se cuenta el total de cifras decimales que tenían los dos factores originales y se coloca el punto decimal en el resultado contando esa cantidad de cifras de derecha a izquierda. Si el multiplicador tiene dos o más cifras, los productos parciales también se escriben como enteros, sin punto.\n\nYa practicaste el algoritmo de la multiplicación en columna con un solo dígito, con acarreos, con multiplicador de dos y tres cifras usando productos parciales, y con números decimales. Ahora aplicarás todo junto: reconocerás cuántos productos parciales necesitas, sumarás correctamente llevando lo que corresponda y colocarás el punto decimal cuando el problema lo requiera.",
+      "formula": "cifras decimales del resultado = cifras decimales del factor 1 + cifras decimales del factor 2",
       "ejemplos": [
-        "23×12: 23×2=46 (parcial 1); 23×1=23, recorrido → 230 (parcial 2); 46+230=276",
-        "31×13: 31×3=93 (parcial 1); 31×1=31, recorrido → 310 (parcial 2); 93+310=403"
+        "4.2×3.6: se multiplica 42×36=1512; los factores tienen 1+1=2 cifras decimales → 15.12",
+        "2.3×1.4: se multiplica 23×14=322; los factores tienen 1+1=2 cifras decimales → 3.22",
+        "47×36: 47×6=282 (parcial 1); 47×3=141→1410 (parcial 2); 282+1410=1692",
+        "4.8×1.5: se multiplica 48×15=720; 1+1=2 cifras decimales → 7.20 → 7.2"
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuál es el resultado de 21 × 13?",
+          "pregunta": "¿Cuál es el resultado de 3.2 × 2.4?",
           "opciones": [
-            "263",
-            "273",
-            "283",
-            "233"
+            "7.58",
+            "7.68",
+            "7.78",
+            "76.8"
           ],
           "respuestaCorrecta": 1,
-          "retroalimentacion": "21×3=63 (parcial 1); 21×1=21→210 (parcial 2); 63+210=273."
+          "retroalimentacion": "32×24=768; los dos factores tienen 1+1=2 cifras decimales → 7.68."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "5.1 × 1.3 = ___",
+          "respuestaCorrecta": "6.63",
+          "retroalimentacion": "51×13=663; 1+1=2 cifras decimales → 6.63."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "2.6 × 3.2 = 8.32",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "26×32=832; 1+1=2 cifras decimales → 8.32. Es correcto."
         },
         {
           "tipo": "algoritmo_columnas",
           "operacion": "multiplicacion",
           "filas": [
             {
-              "valor": "23"
+              "valor": "6.3"
             },
             {
-              "valor": "12",
+              "valor": "4",
               "signo": "×"
             },
             {
-              "valor": "46"
+              "valor": "25.2",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [
+              0,
+              3
+            ]
+          ],
+          "retroalimentacion": "6.3×4: se multiplica 63×4=252 y se coloca el punto decimal contando 1 cifra decimal del factor original (6.3) → 25.2."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado de 3.4 × 2.1?",
+          "opciones": [
+            "7.04",
+            "7.14",
+            "7.24",
+            "71.4"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "34×21=714; 1+1=2 cifras decimales → 7.14."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado de 47 × 36?",
+          "opciones": [
+            "1682",
+            "1692",
+            "1702",
+            "1592"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "47×6=282 (parcial 1); 47×3=141→1410 (parcial 2); 282+1410=1692."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "63 × 214 = 13482",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "63×4=252; 63×1=63→630; 63×2=126→12600; 252+630+12600=13482. Es correcto."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El resultado de 4.8 × 1.5 es ___",
+          "respuestaCorrecta": "7.2",
+          "retroalimentacion": "48×15=720; 1+1=2 cifras decimales → 7.2."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "58"
             },
             {
-              "valor": "230"
+              "valor": "326",
+              "signo": "×"
             },
             {
-              "valor": "276",
+              "valor": "348"
+            },
+            {
+              "valor": "1160"
+            },
+            {
+              "valor": "17400"
+            },
+            {
+              "valor": "18908",
               "esResultado": true
             }
           ],
@@ -64,42 +145,69 @@
             [],
             [],
             [
-              1
+              2
             ],
             [
-              1
+              2
             ],
             [
-              0
+              2
+            ],
+            [
+              0,
+              1
             ]
           ],
-          "retroalimentacion": "23×12: producto parcial 23×2=46; producto parcial 23×1 recorrido=230; 46+230=276."
+          "retroalimentacion": "58×326=18908: 58×6=348; 58×2=116→1160; 58×3=174→17400; 348+1160+17400=18908."
         },
         {
-          "tipo": "llenar_frase",
-          "frase": "En 26×13, el primer producto parcial (26×3) es ___",
-          "respuestaCorrecta": "78",
-          "retroalimentacion": "26×3=78 es el primer producto parcial: se multiplica por la cifra de unidades del multiplicador."
-        },
-        {
-          "tipo": "verdadero_falso",
-          "enunciado": "En 42×21, el segundo producto parcial (42×2 recorrido) es 840",
-          "respuestaCorrecta": true,
-          "retroalimentacion": "42×2=84; al recorrerlo un lugar (multiplicar por la decena) queda 840. Es correcto."
-        },
-        {
-          "tipo": "opcion_multiple",
-          "pregunta": "¿Cuál es el resultado de 32 × 21?",
-          "opciones": [
-            "662",
-            "672",
-            "682",
-            "642"
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada multiplicación con su resultado correcto.",
+          "columnaA": [
+            "24×36",
+            "4.5×3",
+            "125×8"
           ],
-          "respuestaCorrecta": 1,
-          "retroalimentacion": "32×1=32 (parcial 1); 32×2=64→640 (parcial 2); 32+640=672."
+          "columnaB": [
+            "1000",
+            "864",
+            "13.5",
+            "900"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "24×36=864; 4.5×3=13.5; 125×8=1000."
         }
       ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es el resultado de 76 × 48?",
+      "opciones": [
+        "3548",
+        "3648",
+        "3748",
+        "3638"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "76×8=608 (parcial 1); 76×4=304→3040 (parcial 2); 608+3040=3648."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "213 × 34 = 7242",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "213×4=852; 213×3=639→6390; 852+6390=7242. Es correcto."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "El resultado de 3.8 × 2.5 es ___",
+      "respuestaCorrecta": "9.5",
+      "retroalimentacion": "38×25=950; 1+1=2 cifras decimales → 9.50, es decir 9.5."
     }
   ]
 }

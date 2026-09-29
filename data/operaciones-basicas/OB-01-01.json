@@ -5,23 +5,25 @@
   "categoria": "suma_resta",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Suma y resta de naturales sin llevar — Momento 1/8",
+  "titulo": "Suma y resta de naturales sin llevar — Módulo 1/4",
   "contenido": "Suma y resta de números naturales cuando ninguna columna requiere acarreo ni préstamo.",
   "pda": "Resuelve sumas y restas de números naturales identificando el valor posicional de cada cifra, sin necesidad de acarreo ni préstamo.",
   "problematizacion": {
-    "contexto": "La profesora Beatriz organiza la biblioteca del salón. En el librero de la izquierda hay 34 libros de cuentos y en el de la derecha 25 libros de ciencias. Quiere anotar en su lista cuántos libros tiene en total antes de pedir más al director.",
-    "pregunta": "¿Cómo puede la profesora Beatriz sumar 34 y 25 columna por columna, sin llevar nada, para saber el total de libros?"
+    "contexto": "La profesora Beatriz organiza la biblioteca del salón. En el librero de la izquierda hay 34 libros de cuentos y en el de la derecha 25 libros de ciencias. Quiere anotar en su lista cuántos libros tiene en total antes de pedir más al director.\n\nEn el torneo interescolar, el equipo de Leo, Los Tigres, anotó 58 puntos durante todo el partido de basquetbol. El árbitro descontó 23 puntos porque hubo una jugada mal contada por el marcador electrónico.",
+    "pregunta": "¿Cómo puede la profesora Beatriz sumar 34 y 25 columna por columna, sin llevar nada, para saber el total de libros? Además: ¿Cuántos puntos le quedan al marcador de Los Tigres después de restar 23 a los 58 puntos, sin necesidad de pedir prestado?"
   },
   "subtemas": [
     {
       "numero": "1.1",
-      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
-      "titulo": "Sumar unidades con unidades, decenas con decenas",
-      "explicacion": "Cuando sumamos dos números de dos cifras, cada columna se suma por separado: primero las unidades con las unidades, luego las decenas con las decenas. En este momento, la suma de cada columna siempre da 9 o menos, así que nunca necesitas 'llevar' nada a la columna siguiente. Fijarte en el valor posicional (qué cifra son unidades y cuál son decenas) te ayuda a acomodar los números uno debajo del otro sin confundirte.",
-      "formula": "decenas + decenas, unidades + unidades (sin acarreo)",
+      "nivelEtiqueta": "Nivel 1 de 4 · Introductorio",
+      "titulo": "Sumar unidades con unidades, decenas con decenas y Restar sin pedir prestado en números de dos cifras",
+      "explicacion": "Cuando sumamos dos números de dos cifras, cada columna se suma por separado: primero las unidades con las unidades, luego las decenas con las decenas. En este momento, la suma de cada columna siempre da 9 o menos, así que nunca necesitas 'llevar' nada a la columna siguiente. Fijarte en el valor posicional (qué cifra son unidades y cuál son decenas) te ayuda a acomodar los números uno debajo del otro sin confundirte.\n\nEn una resta, la cifra de arriba (el minuendo) debe ser igual o mayor que la de abajo (el sustraendo) en cada columna para que no haga falta pedir prestado. Igual que en la suma, se trabaja columna por columna: primero unidades, después decenas. Si en cada columna la cifra de arriba alcanza para restar la de abajo, el resultado se obtiene directamente, cifra por cifra.",
+      "formula": "decenas + decenas, unidades + unidades (sin acarreo); unidades - unidades, decenas - decenas (sin préstamo)",
       "ejemplos": [
         "34 + 25: unidades 4+5=9, decenas 3+2=5 → 59",
-        "42 + 37: unidades 2+7=9, decenas 4+3=7 → 79"
+        "42 + 37: unidades 2+7=9, decenas 4+3=7 → 79",
+        "58 - 23: unidades 8-3=5, decenas 5-2=3 → 35",
+        "76 - 42: unidades 6-2=4, decenas 7-4=3 → 34"
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
@@ -98,6 +100,78 @@
             2
           ],
           "retroalimentacion": "14+15=29, 32+46=78 y 60+19=79. En los tres casos ninguna columna llega a 10."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "58"
+            },
+            {
+              "valor": "23",
+              "signo": "-"
+            },
+            {
+              "valor": "35",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [
+              0
+            ],
+            []
+          ],
+          "retroalimentacion": "58 - 23 = 35: en las unidades 8-3=5, en las decenas 5-2=3. Como 8 es mayor que 3 y 5 es mayor que 2, no se pide prestado."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 76 - 42?",
+          "opciones": [
+            "44",
+            "24",
+            "34",
+            "118"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "76 - 42 = 34. Unidades: 6-2=4. Decenas: 7-4=3. Resultado: 34."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "89 - 35 = 54",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Es verdadero. Unidades: 9-5=4. Decenas: 8-3=5. El resultado es 54."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "67 - ___ = 24",
+          "respuestaCorrecta": "43",
+          "retroalimentacion": "67 - 24 = 43. Comprobación: 24 + 43 = 67, y en cada columna 43 cabe sin pedir prestado (unidades 7-3=4, decenas 6-4=2)."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada resta con su resultado correcto.",
+          "columnaA": [
+            "48 - 15",
+            "99 - 47",
+            "76 - 23"
+          ],
+          "columnaB": [
+            "33",
+            "52",
+            "53",
+            "61"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "48-15=33, 99-47=52 y 76-23=53. En ningún caso la cifra de abajo es mayor que la de arriba."
         }
       ]
     }

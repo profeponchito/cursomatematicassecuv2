@@ -1,80 +1,152 @@
 {
   "id": "OB-22-02",
   "grado": "Operaciones Básicas",
-  "numero": 170,
+  "numero": 86,
   "categoria": "mult_div",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "División de decimales — Momento 2/8",
+  "titulo": "División de decimales — Módulo 2/4",
   "contenido": "División de números decimales, incluyendo dividir un decimal entre un natural y ajustar el divisor para trabajar con números enteros.",
   "pda": "Divide números decimales, transformando el divisor decimal en un número entero cuando es necesario.",
   "problematizacion": {
-    "contexto": "En el mercado de Jamaica, doña Herlinda compra cajas de mango con el mismo peso cada una y necesita repartir el costo entre varias cajas para etiquetar el precio por caja en su puesto de frutas.",
-    "pregunta": "¿Cómo calculas cuánto cuesta cada caja si divides el total pagado (con centavos) entre el número de cajas?"
+    "contexto": "En una gasolinera sobre la carretera a Toluca, un grupo de amigos que viajan en un solo coche quiere repartir en partes iguales el costo de la gasolina que llenaron, aunque el resultado no dé un número exacto de un solo decimal.\n\nEn los entrenamientos de atletismo de la escuela, el profesor Iván reparte una pista de longitud conocida en un número exacto de tramos iguales para que el equipo practique relevos, aunque la longitud de cada tramo no siempre sea un número entero de metros.",
+    "pregunta": "Si el residuo no llega a cero al dividir, ¿qué debes hacer para seguir encontrando cifras decimales del cociente? Además: ¿Cómo encuentras la longitud exacta de cada tramo si al dividir metros entre tramos el resultado no es un número entero?"
   },
   "subtemas": [
     {
       "numero": "22.2",
-      "nivelEtiqueta": "Nivel 2 de 8 · Básico",
-      "titulo": "Dividendos con centésimas",
-      "explicacion": "Ahora el dividendo tiene dos cifras decimales (centésimas) en lugar de una. El procedimiento es el mismo: divides ignorando el punto y después lo colocas en el cociente contando dos lugares desde la derecha del dividendo. Es muy importante contar bien las cifras decimales, porque un error al ubicar el punto cambia por completo el tamaño del resultado. Sigue practicando con divisores de una sola cifra para consolidar el procedimiento antes de complicarlo.",
+      "nivelEtiqueta": "Nivel 2 de 4 · Intermedio",
+      "titulo": "Cuando sobra residuo: se agrega un cero y De número natural a cociente decimal",
+      "explicacion": "A veces, al dividir un decimal entre un natural, después de bajar todas las cifras del dividendo todavía queda un residuo distinto de cero. En ese caso no te detienes: agregas un cero al residuo (como si el dividendo tuviera una cifra decimal más, que vale cero) y sigues dividiendo. Puedes repetir este paso varias veces hasta que el residuo llegue a cero. Por eso el cociente puede terminar con más cifras decimales de las que tenía el dividendo original.\n\nEn este momento el dividendo es un número natural (sin punto decimal), pero al dividir no siempre da un resultado exacto en números enteros. Cuando después de bajar todas las cifras del dividendo todavía sobra residuo, colocas un punto decimal en el cociente y agregas un cero al residuo para seguir dividiendo, igual que aprendiste con los decimales. Es la misma idea del momento anterior, pero ahora partes de un número natural en vez de uno que ya tenía decimales.",
       "ejemplos": [
-        "9.36 ÷ 3: divide 936 ÷ 3 = 312; como 9.36 tiene dos cifras decimales, el cociente también: 9.36 ÷ 3 = 3.12.",
-        "6.24 ÷ 4: 624 ÷ 4 = 156; con dos cifras decimales el cociente queda 1.56."
+        "7.5 ÷ 4: 75 ÷ 4 = 18 y sobran 3; se agrega un cero al residuo (30 ÷ 4 = 7, sobran 2); se agrega otro cero (20 ÷ 4 = 5, sobra 0). El cociente completo es 7.5 ÷ 4 = 1.875.",
+        "5.4 ÷ 8: 54 ÷ 8 = 6 y sobran 6; agregando ceros al residuo se sigue dividiendo hasta llegar a 5.4 ÷ 8 = 0.675.",
+        "9 ÷ 4: 9 ÷ 4 = 2 y sobran 1; como no es exacto, se pone punto decimal en el cociente y se agrega un cero al residuo (10 ÷ 4 = 2, sobran 2); se agrega otro cero (20 ÷ 4 = 5, sobra 0). El resultado es 9 ÷ 4 = 2.25.",
+        "7 ÷ 2: 7 ÷ 2 = 3 y sobra 1; con punto decimal y un cero en el residuo, 10 ÷ 2 = 5, así que 7 ÷ 2 = 3.5."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuánto es 8.46 ÷ 2?",
+          "pregunta": "¿Cuánto es 7.5 ÷ 4?",
           "opciones": [
-            "4.23",
-            "42.3",
-            "4.32",
-            "0.423"
+            "1.75",
+            "1.875",
+            "18.75",
+            "1.85"
           ],
-          "respuestaCorrecta": 0,
-          "retroalimentacion": "846 ÷ 2 = 423; con dos cifras decimales el cociente es 4.23."
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "75 ÷ 4 = 18 con residuo 3; agregando ceros al residuo se sigue dividiendo hasta 7.5 ÷ 4 = 1.875."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "9.36 ÷ 3 = ___",
-          "respuestaCorrecta": "3.12",
-          "retroalimentacion": "936 ÷ 3 = 312; con el punto dos lugares desde la derecha: 9.36 ÷ 3 = 3.12."
+          "frase": "5.4 ÷ 8 = ___",
+          "respuestaCorrecta": "0.675",
+          "retroalimentacion": "54 ÷ 8 = 6 con residuo 6; agregando ceros al residuo se llega a 5.4 ÷ 8 = 0.675."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "6.24 ÷ 4 = 1.65",
-          "respuestaCorrecta": false,
-          "retroalimentacion": "Falso: 624 ÷ 4 = 156, así que 6.24 ÷ 4 = 1.56, no 1.65."
+          "enunciado": "3.5 ÷ 4 = 0.875",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 35 ÷ 4 = 8 con residuo 3; agregando ceros al residuo se llega a 3.5 ÷ 4 = 0.875."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 1.5 ÷ 4?",
+          "opciones": [
+            "0.375",
+            "3.75",
+            "0.35",
+            "0.475"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "15 ÷ 4 = 3 con residuo 3; agregando ceros al residuo se llega a 1.5 ÷ 4 = 0.375."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "1.125"
+            },
+            {
+              "valor": "4",
+              "signo": "×"
+            },
+            {
+              "valor": "4.500",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0,
+              2,
+              3,
+              4
+            ]
+          ],
+          "retroalimentacion": "1.125 × 4 = 4.500, es decir 4.5. Esto verifica que 4.5 ÷ 4 = 1.125."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 9 ÷ 4?",
+          "opciones": [
+            "2.5",
+            "2.25",
+            "2.4",
+            "20.25"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "9 ÷ 4 = 2 con residuo 1; agregando punto decimal y ceros al residuo se llega a 9 ÷ 4 = 2.25."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "15 ÷ 8 = ___",
+          "respuestaCorrecta": "1.875",
+          "retroalimentacion": "15 ÷ 8 = 1 con residuo 7; agregando ceros al residuo se llega a 15 ÷ 8 = 1.875."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "7 ÷ 2 = 3.5",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 7 ÷ 2 = 3 con residuo 1; agregando un cero, 10 ÷ 2 = 5, así que 7 ÷ 2 = 3.5."
         },
         {
           "tipo": "relacionar_columnas",
-          "instruccion": "Relaciona cada división con su cociente correcto.",
+          "instruccion": "Relaciona cada división de naturales con su cociente decimal.",
           "columnaA": [
-            "12.55 ÷ 5",
-            "7.28 ÷ 4",
-            "6.51 ÷ 3"
+            "13 ÷ 4",
+            "11 ÷ 2",
+            "17 ÷ 4"
           ],
           "columnaB": [
-            "2.51",
-            "1.82",
-            "2.17",
-            "3.12"
+            "3.25",
+            "5.5",
+            "4.25",
+            "2.25"
           ],
           "parejasCorrectas": [
             0,
             1,
             2
           ],
-          "retroalimentacion": "12.55 ÷ 5 = 2.51; 7.28 ÷ 4 = 1.82; 6.51 ÷ 3 = 2.17. La opción 3.12 no corresponde a ninguna de estas tres."
+          "retroalimentacion": "13 ÷ 4 = 3.25; 11 ÷ 2 = 5.5; 17 ÷ 4 = 4.25. La opción 2.25 no corresponde a ninguna de estas tres."
         },
         {
-          "tipo": "llenar_frase",
-          "frase": "8.28 ÷ 4 = ___",
-          "respuestaCorrecta": "2.07",
-          "retroalimentacion": "828 ÷ 4 = 207; con dos cifras decimales el cociente es 2.07 (cuidado con el cero de las décimas)."
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 21 ÷ 4?",
+          "opciones": [
+            "5.25",
+            "5.2",
+            "5.5",
+            "52.5"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "21 ÷ 4 = 5 con residuo 1; agregando ceros al residuo se llega a 21 ÷ 4 = 5.25."
         }
       ]
     }

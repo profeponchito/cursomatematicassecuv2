@@ -1,87 +1,154 @@
 {
   "id": "OB-15-02",
   "grado": "Operaciones Básicas",
-  "numero": 114,
+  "numero": 58,
   "categoria": "mult_div",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Multiplicación por decenas, centenas y potencias de 10 — Momento 2/8",
+  "titulo": "Multiplicación por decenas, centenas y potencias de 10 — Módulo 2/4",
   "contenido": "Multiplicación de un número por 10, 100, 1000 y por múltiplos de estas potencias, identificando el patrón de correr el punto/agregar ceros.",
   "pda": "Multiplica números naturales por potencias de 10 y sus múltiplos, reconociendo el patrón que sigue el resultado.",
   "problematizacion": {
-    "contexto": "En la papelería de la Secundaria Técnica número 14, el profesor de matemáticas compró paquetes de lápices para regalar a sus alumnos más destacados del bimestre. Cada paquete grande trae 100 lápices.",
-    "pregunta": "Si el profesor compró 4 paquetes grandes, ¿cuántos lápices compró en total?"
+    "contexto": "El equipo de futbol de la secundaria juega en el torneo municipal de Guadalajara. La entrada a los partidos cuesta 20 pesos y la mamá de un jugador quiere invitar a toda su familia al siguiente partido.\n\nUna empresa de transporte foráneo en Puebla tiene una flotilla de camiones que viajan todos los días entre Puebla y la Ciudad de México. Cada camión hace 10 viajes redondos completos al mes.",
+    "pregunta": "Si la familia son 6 personas y todas van a entrar al partido, ¿cuánto pagarán en total por las entradas? Además: si en cada viaje suben siempre los mismos 34 pasajeros, ¿aproximadamente cuántos pasajeros transportó ese camión en sus 10 viajes del mes?"
   },
   "subtemas": [
     {
       "numero": "15.2",
-      "nivelEtiqueta": "Nivel 2 de 8 · Básico",
-      "titulo": "Multiplicar por 100 y por 1000",
-      "explicacion": "Multiplicar por 100 agrega dos ceros al número original, y multiplicar por 1000 agrega tres ceros. El patrón es el mismo que al multiplicar por 10, solo que ahora cada cifra se recorre dos o tres lugares hacia la izquierda en el valor posicional. Cuantos más ceros tenga la potencia de 10, más lugares se recorren las cifras y más ceros se agregan al resultado. Este patrón te permite resolver estas multiplicaciones de forma mental, sin hacer cuentas largas.",
-      "formula": "número × 100 = número con dos ceros agregados; número × 1000 = número con tres ceros agregados",
+      "nivelEtiqueta": "Nivel 2 de 4 · Intermedio",
+      "titulo": "Multiplicar por múltiplos de 10 (20, 30, 40...) y Multiplicar números más grandes por 10, 100 y 1000",
+      "explicacion": "Para multiplicar por un múltiplo de 10 como 20, 30 o 40, puedes descomponer ese número en un dígito significativo por 10. Por ejemplo, 30 = 3 × 10. Entonces, para calcular 7 × 30, primero multiplicas 7 × 3 = 21 y después agregas el cero correspondiente al 10: 7 × 30 = 210. Esta estrategia convierte una multiplicación grande en una multiplicación pequeña y conocida, más el patrón de agregar un cero.\n\nEl mismo patrón que ya conoces también funciona con números de tres o más cifras: al multiplicar por 10 se agrega un cero, por 100 se agregan dos ceros y por 1000 se agregan tres ceros, sin importar qué tan grande sea el número original. Es importante fijarte bien en cuántos ceros tiene la potencia de 10 para no equivocarte al agregar los ceros al resultado. Esta habilidad es muy útil para hacer cálculos rápidos con cantidades grandes, como en compras al mayoreo o en cuentas de dinero.",
+      "formula": "a × (b0) = (a × b) × 10; número grande × 10ⁿ = número grande con n ceros agregados a la derecha",
       "ejemplos": [
-        "7 × 100: se agregan dos ceros, entonces 7 × 100 = 700.",
-        "9 × 1000: se agregan tres ceros, entonces 9 × 1000 = 9000."
+        "6 × 20: primero 6 × 2 = 12, luego agrego el cero: 6 × 20 = 120.",
+        "9 × 40: primero 9 × 4 = 36, luego agrego el cero: 9 × 40 = 360.",
+        "125 × 10: se agrega un cero, entonces 125 × 10 = 1250.",
+        "58 × 1000: se agregan tres ceros, entonces 58 × 1000 = 58000."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "7 × 100 = ?",
+          "pregunta": "6 × 20 = ?",
           "opciones": [
-            "70",
-            "700",
-            "7000",
-            "710"
+            "120",
+            "60",
+            "26",
+            "12"
           ],
-          "respuestaCorrecta": 1,
-          "retroalimentacion": "Se agregan dos ceros: 7 × 100 = 700."
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "6 × 2 = 12, agrego el cero: 6 × 20 = 120."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "23 × 100 = ___.",
-          "respuestaCorrecta": "2300",
-          "retroalimentacion": "23 × 100 = 2300, se agregan dos ceros al 23."
+          "frase": "Para calcular 7 × 30, multiplico 7 × 3 = 21 y agrego un ___ a la derecha.",
+          "respuestaCorrecta": "cero",
+          "retroalimentacion": "7 × 30 = 210: primero 7 × 3 = 21, luego se agrega el cero."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "9 × 1000 = 900",
-          "respuestaCorrecta": false,
-          "retroalimentacion": "Es falso: 9 × 1000 = 9000, se agregan tres ceros, no dos."
+          "enunciado": "9 × 40 = 360",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 9 × 4 = 36, y 9 × 40 = 360."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "15 × 1000 = ?",
+          "pregunta": "5 × 60 = ?",
           "opciones": [
-            "15000",
-            "1500",
-            "150000",
-            "1050"
+            "300",
+            "56",
+            "350",
+            "30"
           ],
           "respuestaCorrecta": 0,
-          "retroalimentacion": "15 × 1000 = 15000, se agregan tres ceros al 15."
+          "retroalimentacion": "5 × 6 = 30, agrego el cero: 5 × 60 = 300."
         },
         {
           "tipo": "relacionar_columnas",
           "instruccion": "Relaciona cada multiplicación con su resultado.",
           "columnaA": [
-            "8 × 100",
-            "4 × 1000",
-            "6 × 1000"
+            "8 × 50",
+            "4 × 70",
+            "3 × 90"
           ],
           "columnaB": [
-            "800",
-            "4000",
-            "6000",
-            "600"
+            "400",
+            "280",
+            "270",
+            "350"
           ],
           "parejasCorrectas": [
             0,
             1,
             2
           ],
-          "retroalimentacion": "8 × 100 = 800 (dos ceros); 4 × 1000 = 4000 y 6 × 1000 = 6000 (tres ceros)."
+          "retroalimentacion": "8 × 50 = 400, 4 × 70 = 280 y 3 × 90 = 270: multiplica el dígito por el dígito y agrega el cero."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "125 × 10 = ?",
+          "opciones": [
+            "1250",
+            "12500",
+            "125",
+            "1025"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "125 × 10 = 1250, se agrega un cero."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "340 × 100 = ___.",
+          "respuestaCorrecta": "34000",
+          "retroalimentacion": "340 × 100 = 34000, se agregan dos ceros."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "58 × 1000 = 5800",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Es falso: 58 × 1000 = 58000, se agregan tres ceros, no dos."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "900 × 10 = ?",
+          "opciones": [
+            "9000",
+            "900",
+            "90000",
+            "9900"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "900 × 10 = 9000, se agrega un cero."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "00275"
+            },
+            {
+              "valor": "00100",
+              "signo": "×"
+            },
+            {
+              "valor": "27500",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [
+              1
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "275 × 100 = 27500: se agregan dos ceros al 275, porque 100 tiene dos ceros."
         }
       ]
     }

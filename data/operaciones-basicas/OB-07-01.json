@@ -1,27 +1,29 @@
 {
   "id": "OB-07-01",
   "grado": "Operaciones Básicas",
-  "numero": 49,
+  "numero": 25,
   "categoria": "suma_resta",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Suma y resta de fracciones con el mismo denominador — Momento 1/8",
+  "titulo": "Suma y resta de fracciones con el mismo denominador — Módulo 1/4",
   "contenido": "Suma y resta de fracciones homogéneas (mismo denominador), sumando o restando solo los numeradores.",
   "pda": "Suma y resta fracciones con el mismo denominador, comprendiendo por qué el denominador no cambia en la operación.",
   "problematizacion": {
-    "contexto": "En una reunión familiar en Puebla, doña Carmen cortó una orden de quesadillas en 8 pedazos iguales para compartirla. Su hijo Mateo comió 3 pedazos y su sobrina Lupita comió 2 pedazos, ambos de esa misma orden dividida en 8.",
-    "pregunta": "¿Qué fracción de la orden de quesadillas comieron entre los dos, Mateo y Lupita?"
+    "contexto": "En una reunión familiar en Puebla, doña Carmen cortó una orden de quesadillas en 8 pedazos iguales para compartirla. Su hijo Mateo comió 3 pedazos y su sobrina Lupita comió 2 pedazos, ambos de esa misma orden dividida en 8.\n\nEn la escuela secundaria técnica de Guadalajara, el profesor de Artes dividió un pliego de cartulina en 9 partes iguales para hacer un periódico mural. El equipo de Fernanda ya había usado 5 partes, pero como sobró material, regresaron 2 partes sin usar de ese mismo pliego dividido en 9.",
+    "pregunta": "¿Qué fracción de la orden de quesadillas comieron entre los dos, Mateo y Lupita? Además: ¿Qué fracción del pliego de cartulina quedó realmente usada por el equipo de Fernanda?"
   },
   "subtemas": [
     {
       "numero": "7.1",
-      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
-      "titulo": "Sumar fracciones que ya tienen el mismo denominador",
-      "explicacion": "Cuando dos fracciones tienen el mismo denominador, ese número indica el tamaño de las partes en que se dividió un entero, así que no cambia al sumar. Solo se suman los numeradores, porque son los que indican cuántas partes se están juntando. Piensa en una quesadilla cortada en partes iguales: sumar pedazos de esa misma quesadilla es sumar cuántos pedazos tomaste en total, sin volver a cortar nada. En este momento todos los resultados son fracciones propias (menores que un entero) y no hace falta simplificarlas.",
-      "formula": "a/n + b/n = (a + b)/n",
+      "nivelEtiqueta": "Nivel 1 de 4 · Introductorio",
+      "titulo": "Sumar fracciones que ya tienen el mismo denominador y Restar (y volver a sumar) fracciones iguales",
+      "explicacion": "Cuando dos fracciones tienen el mismo denominador, ese número indica el tamaño de las partes en que se dividió un entero, así que no cambia al sumar. Solo se suman los numeradores, porque son los que indican cuántas partes se están juntando. Piensa en una quesadilla cortada en partes iguales: sumar pedazos de esa misma quesadilla es sumar cuántos pedazos tomaste en total, sin volver a cortar nada. En este momento todos los resultados son fracciones propias (menores que un entero) y no hace falta simplificarlas.\n\nRestar fracciones con el mismo denominador funciona igual que sumarlas: solo se restan los numeradores y el denominador se conserva, porque las partes siguen siendo del mismo tamaño. Es como quitar pedazos de la misma quesadilla o del mismo pliego de cartulina que ya estaba dividido: el tamaño de cada parte no cambia, solo cuántas partes te quedan. En este momento vas a encontrar sumas y restas mezcladas, siempre con fracciones propias y sin necesidad de simplificar el resultado.",
+      "formula": "a/n + b/n = (a + b)/n; a/n - b/n = (a - b)/n",
       "ejemplos": [
         "2/9 + 3/9 = 5/9, porque 2+3=5 y el denominador 9 se queda igual.",
-        "1/8 + 4/8 = 5/8, porque 1+4=5 y el denominador 8 no cambia."
+        "1/8 + 4/8 = 5/8, porque 1+4=5 y el denominador 8 no cambia.",
+        "7/9 - 3/9 = 4/9, porque 7-3=4 y el denominador se mantiene.",
+        "2/11 + 6/11 = 8/11, porque 2+6=8 y el denominador 11 no cambia."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
@@ -82,6 +84,63 @@
           ],
           "respuestaCorrecta": 0,
           "retroalimentacion": "5+6=11 en el numerador y el denominador 12 no cambia, así que el resultado es 11/12."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "9/13 - 4/13 = ?",
+          "opciones": [
+            "5/13",
+            "5/26",
+            "13/13",
+            "4/13"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "9-4=5 en el numerador, y el denominador 13 se mantiene igual, así que el resultado es 5/13."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "10/11 - 6/11 = ___",
+          "respuestaCorrecta": "4/11",
+          "retroalimentacion": "10-6=4, y el denominador 11 no cambia porque ambas fracciones ya estaban en onceavos."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si a 9/14 le restas 4/14, obtienes 5/14 y el denominador cambia a 28.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: 9-4=5 sí es correcto, pero el denominador NUNCA cambia al sumar o restar fracciones homogéneas; se queda en 14."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "4/15 + 7/15 = ?",
+          "opciones": [
+            "11/15",
+            "11/30",
+            "3/15",
+            "12/15"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "4+7=11 en el numerador, y el denominador 15 se mantiene, así que el resultado es 11/15."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada operación con su resultado.",
+          "columnaA": [
+            "11/13 - 6/13",
+            "3/13 + 9/13",
+            "10/17 - 3/17"
+          ],
+          "columnaB": [
+            "5/13",
+            "12/13",
+            "7/17",
+            "8/17"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "Se opera solo con los numeradores: 11-6=5, 3+9=12 y 10-3=7, manteniendo siempre el mismo denominador."
         }
       ]
     }

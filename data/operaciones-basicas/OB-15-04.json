@@ -1,97 +1,174 @@
 {
   "id": "OB-15-04",
   "grado": "Operaciones Básicas",
-  "numero": 116,
+  "numero": 60,
   "categoria": "mult_div",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Multiplicación por decenas, centenas y potencias de 10 — Momento 4/8",
+  "titulo": "Multiplicación por decenas, centenas y potencias de 10 — Módulo 4/4",
   "contenido": "Multiplicación de un número por 10, 100, 1000 y por múltiplos de estas potencias, identificando el patrón de correr el punto/agregar ceros.",
   "pda": "Multiplica números naturales por potencias de 10 y sus múltiplos, reconociendo el patrón que sigue el resultado.",
   "problematizacion": {
-    "contexto": "Una empresa de transporte foráneo en Puebla tiene una flotilla de camiones que viajan todos los días entre Puebla y la Ciudad de México. Cada camión hace 10 viajes redondos completos al mes.",
-    "pregunta": "Si en cada viaje suben siempre los mismos 34 pasajeros, ¿aproximadamente cuántos pasajeros transportó ese camión en sus 10 viajes del mes?"
+    "contexto": "Un carpintero de Michoacán corta tiras de madera de 0.75 metros de largo cada una para hacer marcos de fotos, y un cliente le encargó un pedido grande para una boda.\n\nUna panadería en León, Guanajuato, prepara pedidos grandes para las fiestas patrias. La receta de conchas requiere 0.45 kilogramos de harina por cada charola, y este año les encargaron muchísimas charolas para vender en la feria del pueblo.",
+    "pregunta": "Si el carpintero necesita cortar 40 tiras de 0.75 metros cada una, ¿aproximadamente cuántos metros de madera va a necesitar en total? Además: si la panadería tiene que preparar 200 charolas y cada una usa 0.45 kilogramos de harina, ¿aproximadamente cuántos kilogramos de harina necesitarán en total?"
   },
   "subtemas": [
     {
       "numero": "15.4",
-      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
-      "titulo": "Multiplicar números más grandes por 10, 100 y 1000",
-      "explicacion": "El mismo patrón que ya conoces también funciona con números de tres o más cifras: al multiplicar por 10 se agrega un cero, por 100 se agregan dos ceros y por 1000 se agregan tres ceros, sin importar qué tan grande sea el número original. Es importante fijarte bien en cuántos ceros tiene la potencia de 10 para no equivocarte al agregar los ceros al resultado. Esta habilidad es muy útil para hacer cálculos rápidos con cantidades grandes, como en compras al mayoreo o en cuentas de dinero.",
-      "formula": "número grande × 10ⁿ = número grande con n ceros agregados a la derecha",
+      "nivelEtiqueta": "Nivel 4 de 4 · Integración",
+      "titulo": "Multiplicar decimales por múltiplos de potencias de 10 y Integración: multiplicar por potencias de 10 y sus múltiplos",
+      "explicacion": "Este momento combina las dos estrategias que ya dominas: para multiplicar un decimal por un múltiplo como 20, 300 o 4000, primero multiplicas el decimal por el dígito significativo (por ejemplo, el 2 de 20, o el 3 de 300) y después recorres el punto decimal según los ceros que tenga el múltiplo. Es importante hacer los dos pasos en orden: primero la multiplicación del decimal por el dígito, y después el corrimiento del punto. Este tipo de cálculo aparece seguido en situaciones de dinero, medidas y precios.\n\nYa conoces todo lo necesario para multiplicar cualquier número, entero o decimal, por una potencia de 10 o por uno de sus múltiplos: identificas si el número es natural (agregas ceros) o decimal (recorres el punto), y luego identificas cuántos ceros trae la potencia o el múltiplo para saber cuánto agregar o recorrer. En este momento vas a combinar ambos casos, con números más grandes y en situaciones más parecidas a la vida real, para demostrar que dominas el patrón completo. Recuerda siempre separar el dígito significativo del múltiplo antes de multiplicar.",
+      "formula": "decimal × (dígito seguido de ceros) = (decimal × dígito), recorriendo el punto según los ceros; identifica el número de ceros de la potencia o el múltiplo, y agrega ceros (naturales) o recorre el punto (decimales) esa cantidad de lugares",
       "ejemplos": [
-        "125 × 10: se agrega un cero, entonces 125 × 10 = 1250.",
-        "58 × 1000: se agregan tres ceros, entonces 58 × 1000 = 58000."
+        "4.2 × 20: primero 4.2 × 2 = 8.4, y como 20 tiene un cero, recorro el punto un lugar: 4.2 × 20 = 84.",
+        "1.5 × 300: primero 1.5 × 3 = 4.5, y como 300 tiene dos ceros, recorro el punto dos lugares: 1.5 × 300 = 450.",
+        "45 × 300: 45 × 3 = 135, y como 300 tiene dos ceros, 45 × 300 = 13500.",
+        "7.8 × 1000: el punto se recorre tres lugares, entonces 7.8 × 1000 = 7800."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "125 × 10 = ?",
+          "pregunta": "4.2 × 20 = ?",
           "opciones": [
-            "1250",
-            "12500",
-            "125",
-            "1025"
+            "84",
+            "8.4",
+            "840",
+            "42"
           ],
           "respuestaCorrecta": 0,
-          "retroalimentacion": "125 × 10 = 1250, se agrega un cero."
+          "retroalimentacion": "4.2 × 2 = 8.4, y como 20 tiene un cero, 4.2 × 20 = 84."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "340 × 100 = ___.",
-          "respuestaCorrecta": "34000",
-          "retroalimentacion": "340 × 100 = 34000, se agregan dos ceros."
+          "frase": "1.5 × 300 = ___.",
+          "respuestaCorrecta": "450",
+          "retroalimentacion": "1.5 × 3 = 4.5, y como 300 tiene dos ceros, 1.5 × 300 = 450."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "58 × 1000 = 5800",
-          "respuestaCorrecta": false,
-          "retroalimentacion": "Es falso: 58 × 1000 = 58000, se agregan tres ceros, no dos."
+          "enunciado": "0.75 × 40 = 30",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 0.75 × 4 = 3, y como 40 tiene un cero, 0.75 × 40 = 30."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "900 × 10 = ?",
+          "pregunta": "3.6 × 200 = ?",
           "opciones": [
-            "9000",
-            "900",
-            "90000",
-            "9900"
+            "720",
+            "72",
+            "7200",
+            "360"
           ],
           "respuestaCorrecta": 0,
-          "retroalimentacion": "900 × 10 = 9000, se agrega un cero."
+          "retroalimentacion": "3.6 × 2 = 7.2, y como 200 tiene dos ceros, 3.6 × 200 = 720."
         },
         {
-          "tipo": "algoritmo_columnas",
-          "operacion": "multiplicacion",
-          "filas": [
-            {
-              "valor": "00275"
-            },
-            {
-              "valor": "00100",
-              "signo": "×"
-            },
-            {
-              "valor": "27500",
-              "esResultado": true
-            }
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada multiplicación con su resultado.",
+          "columnaA": [
+            "2.25 × 4000",
+            "0.5 × 60",
+            "1.2 × 500"
           ],
-          "ocultos": [
-            [
-              2
-            ],
-            [
-              1
-            ],
-            [
-              0
-            ]
+          "columnaB": [
+            "9000",
+            "30",
+            "600",
+            "3000"
           ],
-          "retroalimentacion": "275 × 100 = 27500: se agregan dos ceros al 275, porque 100 tiene dos ceros."
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "2.25 × 4000 = 9000, 0.5 × 60 = 30 y 1.2 × 500 = 600: multiplica por el dígito y recorre el punto según los ceros."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "45 × 300 = ?",
+          "opciones": [
+            "13500",
+            "1350",
+            "135000",
+            "13050"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "45 × 3 = 135, y como 300 tiene dos ceros, 45 × 300 = 13500."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "7.8 × 1000 = ___.",
+          "respuestaCorrecta": "7800",
+          "retroalimentacion": "7.8 × 1000 = 7800: el punto se recorre tres lugares."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "236 × 20 = 4720",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 236 × 2 = 472, y como 20 tiene un cero, 236 × 20 = 4720."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "0.45 × 200 = ?",
+          "opciones": [
+            "90",
+            "9",
+            "900",
+            "45"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "0.45 × 2 = 0.9, y como 200 tiene dos ceros, 0.45 × 200 = 90."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada multiplicación con su resultado.",
+          "columnaA": [
+            "6.4 × 5000",
+            "128 × 10",
+            "0.9 × 3000"
+          ],
+          "columnaB": [
+            "32000",
+            "1280",
+            "2700",
+            "320"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "6.4 × 5000 = 32000, 128 × 10 = 1280 y 0.9 × 3000 = 2700: combina el patrón de ceros con el corrimiento del punto según corresponda."
         }
       ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "128 × 4000 = ?",
+      "opciones": [
+        "512000",
+        "51200",
+        "5120000",
+        "508000"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "128 × 4 = 512, y como 4000 tiene tres ceros, 128 × 4000 = 512000."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "3.75 × 800 = ___.",
+      "respuestaCorrecta": "3000",
+      "retroalimentacion": "3.75 × 8 = 30, y como 800 tiene dos ceros, 3.75 × 800 = 3000."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "96 × 700 = 67200",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: 96 × 7 = 672, y como 700 tiene dos ceros, 96 × 700 = 67200."
     }
   ]
 }

@@ -1,26 +1,27 @@
 {
   "id": "OB-18-04",
   "grado": "Operaciones Básicas",
-  "numero": 140,
+  "numero": 72,
   "categoria": "mult_div",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Multiplicación de números con signo — Momento 4/8",
+  "titulo": "Multiplicación de números con signo — Módulo 4/4",
   "contenido": "Multiplicación de números enteros con signo, aplicando la regla de signos (positivo × positivo, positivo × negativo, negativo × negativo).",
   "pda": "Multiplica números enteros con signo aplicando correctamente la regla de los signos.",
   "problematizacion": {
-    "contexto": "En una tienda de abarrotes de Guadalajara, el dueño hace un ajuste de inventario: por cada caja de refresco que resultó dañada durante el traslado, descuenta un número fijo de piezas de su reporte, y tiene que multiplicar ese descuento por el número de cajas afectadas en todo el mes.",
-    "pregunta": "Si el número de piezas dañadas por caja y el número de cajas afectadas son ambos cantidades grandes, ¿por qué conviene organizar la multiplicación en columnas?"
+    "contexto": "Una inversionista de Querétaro revisa el reporte de una casa de cambio: el valor de una divisa bajó una cantidad con decimales cada día durante varios días seguidos, y ella necesita multiplicar esa baja diaria por el número de días para saber el cambio total en su cuenta.\n\nEn un ejido de Michoacán, una organización de productores de aguacate revisa el reporte final de la temporada: hubo semanas de baja constante en el precio por kilo debido a una plaga, y también meses con recuperación, así que necesitan varias multiplicaciones con signo para cerrar sus cuentas.",
+    "pregunta": "Si el valor de la divisa baja la misma cantidad decimal cada día, ¿qué operación con signo permite calcular el cambio total después de varios días? Además: si en una temporada se repiten varias bajas de precio seguidas, ¿qué tipo de operación con signo resume el cambio total del precio?"
   },
   "subtemas": [
     {
       "numero": "18.4",
-      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
-      "titulo": "Multiplicación de dos cifras por dos cifras con signo",
-      "explicacion": "Cuando ambos factores tienen dos cifras, conviene usar el algoritmo de multiplicación en columnas para calcular el valor absoluto: se obtienen los productos parciales (multiplicando por las unidades y luego por las decenas del segundo factor) y se suman. Una vez que tienes ese resultado, aplicas la regla de signos como en los momentos anteriores para saber si la respuesta final es positiva o negativa. Separar el cálculo del valor absoluto y la decisión del signo evita errores.",
-      "formula": "Multiplica en columnas los valores absolutos y después aplica la regla de signos al total.",
+      "nivelEtiqueta": "Nivel 4 de 4 · Integración",
+      "titulo": "Multiplicación de decimales con signo y Integración: multiplicación con signo en todos sus formatos",
+      "explicacion": "La regla de signos y el procedimiento de dos pasos funcionan exactamente igual cuando los factores tienen punto decimal: multiplicas los valores absolutos (usando el algoritmo de multiplicación decimal, contando las cifras decimales de ambos factores para ubicar el punto en el resultado) y después aplicas la regla de signos. No dejes que el punto decimal te distraiga de decidir primero si el resultado será positivo o negativo.\n\nEste es el cierre del tema: vas a combinar todo lo que practicaste en los momentos anteriores. Aparecerán multiplicaciones con números de una y dos cifras, con decimales, con tres o más factores, y aplicadas a situaciones reales. En todos los casos el procedimiento es el mismo: identifica el signo del resultado según la regla de signos (o contando factores negativos si son varios) y multiplica los valores absolutos para obtener el número completo.",
+      "formula": "Multiplica como si no hubiera punto decimal, cuenta las cifras decimales de ambos factores y colócalas en el resultado; luego aplica la regla de signos.; Mismo signo → positivo. Signos distintos → negativo. Con varios factores: número par de negativos → positivo, número impar → negativo.",
       "ejemplos": [
-        "23 × 14 (valores absolutos): 23 × 4 = 92, 23 × 10 = 230, 92 + 230 = 322. Como (-23) × 14 tiene signos distintos, el resultado es -322."
+        "3.2 × 1.5 (valores absolutos): 32 × 5 = 160, 32 × 10 = 320, 160+320=480, con 2 cifras decimales → 4.80. Como (-3.2) × 1.5 tiene signos distintos, el resultado es -4.8.",
+        "(-14) × (-3.5): mismo signo → positivo; 14 × 3.5 = 49, entonces el resultado es 49."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
@@ -30,20 +31,20 @@
           "operacion": "multiplicacion",
           "filas": [
             {
-              "valor": "23"
+              "valor": "3.2"
             },
             {
-              "valor": "14",
+              "valor": "1.5",
               "signo": "×"
             },
             {
-              "valor": "92"
+              "valor": "160"
             },
             {
-              "valor": "230"
+              "valor": "320"
             },
             {
-              "valor": "322",
+              "valor": "4.8",
               "esResultado": true
             }
           ],
@@ -54,49 +55,110 @@
             [],
             [
               0,
-              1,
               2
             ]
           ],
-          "retroalimentacion": "23 × 14 = 322 (92 de 23×4, más 230 de 23×10). Como el problema real es (-23) × 14, con signos distintos, el resultado con signo es -322."
-        },
-        {
-          "tipo": "opcion_multiple",
-          "pregunta": "¿Cuál es el resultado de (-23) × 14?",
-          "opciones": [
-            "-322",
-            "322",
-            "-37",
-            "37"
-          ],
-          "respuestaCorrecta": 0,
-          "retroalimentacion": "23 × 14 = 322, y como los signos son distintos, el resultado es -322."
+          "retroalimentacion": "3.2 × 1.5 = 4.8 (160 de 32×5, más 320 de 32×10, con dos cifras decimales entre ambos factores). Como el problema es (-3.2) × 1.5, con signos distintos, el resultado con signo es -4.8."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "(-31) × (-12) = ___",
-          "respuestaCorrecta": "372",
-          "retroalimentacion": "31 × 12 = 372, y como los dos factores son negativos (mismo signo), el resultado es positivo: 372."
-        },
-        {
-          "tipo": "verdadero_falso",
-          "enunciado": "(-45) × 20 = -900",
-          "respuestaCorrecta": true,
-          "retroalimentacion": "Correcto. 45 × 20 = 900, y como los signos son distintos, el resultado es -900."
+          "frase": "(-2.5) × 4 = ___",
+          "respuestaCorrecta": "-10",
+          "retroalimentacion": "2.5 × 4 = 10, y como los signos son distintos, el resultado es -10."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuál es el resultado de 18 × (-25)?",
+          "pregunta": "¿Cuál es el resultado de (-1.2) × (-3)?",
           "opciones": [
-            "-450",
-            "450",
+            "3.6",
+            "-3.6",
+            "4.2",
+            "-4.2"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "1.2 × 3 = 3.6, y como los dos factores son negativos (mismo signo), el resultado es positivo: 3.6."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "(-0.5) × (-0.5) = 0.25",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto. 0.5 × 0.5 = 0.25, y como los dos factores son negativos (mismo signo), el resultado es positivo: 0.25."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "6.4 × (-2) = ___",
+          "respuestaCorrecta": "-12.8",
+          "retroalimentacion": "6.4 × 2 = 12.8, y como los signos son distintos, el resultado es -12.8."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una fábrica de zapatos de León, Guanajuato reduce su inventario en 35 pares cada semana (-35) durante 8 semanas seguidas. ¿Cuál es el cambio total en el inventario?",
+          "opciones": [
+            "-280",
+            "280",
             "-43",
             "43"
           ],
           "respuestaCorrecta": 0,
-          "retroalimentacion": "18 × 25 = 450, y como los signos son distintos, el resultado es -450."
+          "retroalimentacion": "-35 × 8 = -280: el inventario bajó 280 pares en total."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "(-6.5) × (-4) = ___",
+          "respuestaCorrecta": "26",
+          "retroalimentacion": "6.5 × 4 = 26, y como los dos factores son negativos (mismo signo), el resultado es positivo: 26."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "(-2) × 3 × (-5) × (-1) = -30",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto. Hay tres factores negativos (impar), así que el resultado es negativo: 2×3×5×1=30, entonces -30."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado de (-14) × (-3.5)?",
+          "opciones": [
+            "49",
+            "-49",
+            "45.5",
+            "-45.5"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "14 × 3.5 = 49, y como los dos factores son negativos (mismo signo), el resultado es positivo: 49."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un termómetro registra un cambio de -3 grados cada hora durante una helada. Después de 5 horas, el cambio total de temperatura es ___ grados.",
+          "respuestaCorrecta": "-15",
+          "retroalimentacion": "-3 × 5 = -15: la temperatura bajó 15 grados en total."
         }
       ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál es el resultado de (-2.5) × (-4) × (-3)?",
+      "opciones": [
+        "-30",
+        "30",
+        "-19.5",
+        "19.5"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "Hay tres factores negativos (impar), así que el resultado es negativo: 2.5×4×3=30, entonces -30."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "(-18) × (-2.5) = ___",
+      "respuestaCorrecta": "45",
+      "retroalimentacion": "18 × 2.5 = 45, y como los dos factores son negativos (mismo signo), el resultado es positivo: 45."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Una cooperativa agrícola de Oaxaca pierde 45 kg de café cada día (-45) durante 12 días de plaga. El cambio total es -560 kg.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Falso. -45 × 12 = -540, no -560. La cooperativa perdió 540 kg de café en total."
     }
   ]
 }

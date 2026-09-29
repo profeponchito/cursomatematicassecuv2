@@ -1,72 +1,116 @@
 {
   "id": "OB-42-03",
   "grado": "Operaciones Básicas",
-  "numero": 331,
+  "numero": 167,
   "categoria": "integracion",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Operaciones combinadas con números naturales — Momento 3/8",
+  "titulo": "Operaciones combinadas con números naturales — Módulo 3/4",
   "contenido": "Resolución de expresiones que combinan suma, resta, multiplicación, división, potencias y raíces con números naturales, aplicando la jerarquía de operaciones.",
   "pda": "Resuelve expresiones numéricas combinadas con números naturales aplicando correctamente la jerarquía de operaciones.",
   "problematizacion": {
-    "contexto": "Don Efrén maneja una ruta de camión urbano en Puebla. En cada parada suben y bajan pasajeros, y la empresa le pide reportar el total de pasajeros multiplicando por el número de vueltas que da en el día. Para que el reporte salga correcto, Don Efrén debe sumar primero los pasajeros que suben en una parada antes de multiplicar por las vueltas.",
-    "pregunta": "Si Don Efrén necesita sumar primero los pasajeros de una parada y después multiplicar ese total por el número de vueltas, ¿qué símbolo debe usar para indicar que la suma se hace antes que la multiplicación?"
+    "contexto": "En el taller de horticultura de la escuela, un grupo de alumnos diseña un terreno cuadrado para sembrar hortalizas. Conocen el área del terreno y necesitan sacar la raíz cuadrada para saber cuánto mide cada lado, y luego combinar ese dato con el costo de las semillas por metro.\n\nEn una pastelería de barrio, la repostera prepara charolas cuadradas de pastel para un pedido grande. Para calcular cuántas porciones cuadradas caben, necesita elevar al cuadrado un número de cortes, sacar una raíz para verificar una medida y todavía sumar o restar el sobrante de masa.",
+    "pregunta": "Si el grupo necesita sacar una raíz cuadrada y después multiplicar el resultado por un precio, ¿cuál operación deben resolver primero? Además: si en la misma cuenta hay un paréntesis, una potencia y una raíz, ¿cuál de los tres se debe resolver primero?"
   },
   "subtemas": [
     {
       "numero": "42.3",
-      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
-      "titulo": "Paréntesis: cambiar el orden de las operaciones",
-      "explicacion": "Los paréntesis sirven para indicar qué operación se debe resolver primero, incluso si normalmente le tocaría el turno después. Todo lo que está dentro de un paréntesis se resuelve antes que cualquier operación fuera de él. Una vez resuelto lo que está adentro, el resultado se usa como si fuera un solo número y se sigue la jerarquía normal (multiplicación/división y luego suma/resta) con el resto de la expresión. Por eso, la misma combinación de números puede dar resultados distintos si se agregan o quitan paréntesis.",
-      "formula": "( ) primero → multiplicación/división → suma/resta",
+      "nivelEtiqueta": "Nivel 3 de 4 · Avanzado",
+      "titulo": "Raíces cuadradas combinadas con otras operaciones y Potencias, raíces y paréntesis en la misma expresión",
+      "explicacion": "La raíz cuadrada de un número es el valor que, multiplicado por sí mismo, da ese número; por ejemplo, √25 = 5 porque 5 × 5 = 25. Dentro de la jerarquía de operaciones, la raíz cuadrada se resuelve en el mismo nivel que las potencias: antes que la multiplicación, la división, la suma y la resta. En este momento solo se trabaja con raíces exactas de números naturales, es decir, números cuya raíz cuadrada es también un número natural. Igual que con las potencias, conviene localizar primero la raíz y resolverla antes de continuar con el resto de la expresión.\n\nEn este momento se integran las tres reglas anteriores en una sola expresión: paréntesis, potencias y raíces. El orden para resolver cualquier expresión combinada es: primero lo que está dentro de los paréntesis, después las potencias y raíces (en el orden en que aparezcan), y al final la multiplicación, la división, la suma y la resta. Cuando una raíz cuadrada encierra una suma o una resta, como en √(9 + 16), primero se resuelve la operación de adentro y después se saca la raíz del resultado. Practicar esta combinación prepara el terreno para trabajar con corchetes en el siguiente momento.",
+      "formula": "Raíces (igual que potencias) → multiplicación/división → suma/resta; ( ) → potencias y raíces → × ÷ → + −",
       "ejemplos": [
-        "(7 + 2) × 3 = 9 × 3 = 27 (se suma dentro del paréntesis antes de multiplicar)",
-        "18 - (5 + 1) × 2 = 18 - 6 × 2 = 18 - 12 = 6"
+        "√9 + 4 × 2 = 3 + 8 = 11 (se resuelve la raíz antes de multiplicar)",
+        "18 - √4 × 5 = 18 - 2 × 5 = 18 - 10 = 8",
+        "(2 + 2)² - √9 = 4² - 3 = 16 - 3 = 13",
+        "√(4 + 5) + 3² = √9 + 9 = 3 + 9 = 12"
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuál es el resultado de (8 + 3) × 4?",
+          "pregunta": "¿Cuál es el resultado de √16 + 3 × 2?",
           "opciones": [
-            "44",
-            "20",
-            "15",
-            "32"
+            "10",
+            "14",
+            "38",
+            "20"
           ],
           "respuestaCorrecta": 0,
-          "retroalimentacion": "El paréntesis se resuelve primero: 8 + 3 = 11. Después se multiplica: 11 × 4 = 44."
+          "retroalimentacion": "Primero la raíz: √16 = 4. Luego la multiplicación: 3 × 2 = 6. Al final la suma: 4 + 6 = 10."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuál es el resultado de 20 - (4 + 2) × 3?",
+          "pregunta": "¿Cuál es el resultado de 20 - √9 × 2?",
           "opciones": [
-            "2",
-            "54",
-            "38",
-            "12"
+            "14",
+            "22",
+            "34",
+            "11"
           ],
           "respuestaCorrecta": 0,
-          "retroalimentacion": "Primero el paréntesis: 4 + 2 = 6. Luego la multiplicación: 6 × 3 = 18. Al final la resta: 20 - 18 = 2."
+          "retroalimentacion": "Primero la raíz: √9 = 3. Luego la multiplicación: 3 × 2 = 6. Al final la resta: 20 - 6 = 14."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "La expresión (5 + 3) × 2 da el mismo resultado que 5 + 3 × 2.",
-          "respuestaCorrecta": false,
-          "retroalimentacion": "Falso. (5 + 3) × 2 = 8 × 2 = 16, mientras que 5 + 3 × 2 = 5 + 6 = 11. El paréntesis cambia el orden y por eso cambia el resultado."
+          "enunciado": "La raíz cuadrada se resuelve en el mismo nivel de jerarquía que la potencia, antes que la multiplicación y la división.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Verdadero. Las raíces y las potencias comparten el mismo nivel en la jerarquía de operaciones, y ambas se resuelven antes que la multiplicación, la división, la suma y la resta."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "El resultado de (10 - 4) ÷ 3 + 5 es ___.",
+          "frase": "El resultado de √25 + 4 × 3 es ___.",
+          "respuestaCorrecta": "17",
+          "retroalimentacion": "Primero la raíz: √25 = 5. Luego la multiplicación: 4 × 3 = 12. Al final la suma: 5 + 12 = 17."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El resultado de 30 ÷ √36 + 2 es ___.",
           "respuestaCorrecta": "7",
-          "retroalimentacion": "Primero el paréntesis: 10 - 4 = 6. Luego la división: 6 ÷ 3 = 2. Al final la suma: 2 + 5 = 7."
+          "retroalimentacion": "Primero la raíz: √36 = 6. Luego la división: 30 ÷ 6 = 5. Al final la suma: 5 + 2 = 7."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado de (3 + 1)² - √25?",
+          "opciones": [
+            "11",
+            "9",
+            "21",
+            "6"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Primero el paréntesis: 3 + 1 = 4. Luego la potencia: 4² = 16. Luego la raíz: √25 = 5. Al final la resta: 16 - 5 = 11."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado de √(9 + 16) + 2³?",
+          "opciones": [
+            "13",
+            "10",
+            "20",
+            "18"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Primero se resuelve dentro de la raíz: 9 + 16 = 25, y √25 = 5. Luego la potencia: 2³ = 8. Al final la suma: 5 + 8 = 13."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En (6 - 2)² + √9, el paréntesis se resuelve antes que la potencia y la raíz.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Verdadero. Primero 6 - 2 = 4, luego 4² = 16 y √9 = 3, y al final 16 + 3 = 19."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "El resultado de 6 × (9 - 5) es ___.",
-          "respuestaCorrecta": "24",
-          "retroalimentacion": "Primero el paréntesis: 9 - 5 = 4. Después se multiplica: 6 × 4 = 24."
+          "frase": "El resultado de 2 × (5 - 2)² es ___.",
+          "respuestaCorrecta": "18",
+          "retroalimentacion": "Primero el paréntesis: 5 - 2 = 3. Luego la potencia: 3² = 9. Al final la multiplicación: 2 × 9 = 18."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El resultado de √49 - (3 + 1) es ___.",
+          "respuestaCorrecta": "3",
+          "retroalimentacion": "Primero la raíz: √49 = 7. Luego el paréntesis: 3 + 1 = 4. Al final la resta: 7 - 4 = 3."
         }
       ]
     }

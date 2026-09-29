@@ -1,87 +1,146 @@
 {
   "id": "OB-15-03",
   "grado": "Operaciones Básicas",
-  "numero": 115,
+  "numero": 59,
   "categoria": "mult_div",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Multiplicación por decenas, centenas y potencias de 10 — Momento 3/8",
+  "titulo": "Multiplicación por decenas, centenas y potencias de 10 — Módulo 3/4",
   "contenido": "Multiplicación de un número por 10, 100, 1000 y por múltiplos de estas potencias, identificando el patrón de correr el punto/agregar ceros.",
   "pda": "Multiplica números naturales por potencias de 10 y sus múltiplos, reconociendo el patrón que sigue el resultado.",
   "problematizacion": {
-    "contexto": "El equipo de futbol de la secundaria juega en el torneo municipal de Guadalajara. La entrada a los partidos cuesta 20 pesos y la mamá de un jugador quiere invitar a toda su familia al siguiente partido.",
-    "pregunta": "Si la familia son 6 personas y todas van a entrar al partido, ¿cuánto pagarán en total por las entradas?"
+    "contexto": "Una tienda de abarrotes en Mérida recibe un pedido de refrescos para surtir su bodega antes de la temporada de calor. Cada caja de refrescos trae 400 latas.\n\nEn una alcancía familiar en Oaxaca, cada integrante aporta 3.5 pesos diarios como parte de un reto de ahorro que vieron en redes sociales.",
+    "pregunta": "Si el dueño pidió 8 cajas de refrescos, ¿cuántas latas de refresco recibirá en total? Además: si el reto dura 10 días y cada quien aporta siempre lo mismo, ¿cuánto habrá ahorrado una sola persona al finalizar los 10 días?"
   },
   "subtemas": [
     {
       "numero": "15.3",
-      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
-      "titulo": "Multiplicar por múltiplos de 10 (20, 30, 40...)",
-      "explicacion": "Para multiplicar por un múltiplo de 10 como 20, 30 o 40, puedes descomponer ese número en un dígito significativo por 10. Por ejemplo, 30 = 3 × 10. Entonces, para calcular 7 × 30, primero multiplicas 7 × 3 = 21 y después agregas el cero correspondiente al 10: 7 × 30 = 210. Esta estrategia convierte una multiplicación grande en una multiplicación pequeña y conocida, más el patrón de agregar un cero.",
-      "formula": "a × (b0) = (a × b) × 10",
+      "nivelEtiqueta": "Nivel 3 de 4 · Avanzado",
+      "titulo": "Multiplicar por múltiplos de 100 y 1000 y Multiplicar decimales por 10, 100 y 1000",
+      "explicacion": "Cuando multiplicas por un múltiplo de 100 (como 300, 400 o 500) o de 1000 (como 2000, 3000...), combinas dos ideas que ya conoces: primero multiplicas los dígitos significativos y luego agregas la cantidad de ceros que corresponde a la potencia de 10. Por ejemplo, 300 = 3 × 100, entonces 6 × 300 significa 6 × 3 = 18, y como 300 tiene dos ceros, el resultado lleva esos dos ceros: 6 × 300 = 1800. Fíjate bien en cuántos ceros trae el múltiplo, porque ese número de ceros se agrega íntegro al resultado de la multiplicación de los dígitos.\n\nCuando multiplicas un número decimal por 10, 100 o 1000, el patrón cambia un poco: en vez de agregar ceros, el punto decimal se recorre hacia la derecha tantos lugares como ceros tenga la potencia de 10. Por 10 se recorre un lugar, por 100 dos lugares y por 1000 tres lugares. Si al recorrer el punto ya no quedan cifras decimales, se agregan ceros para completar los lugares que falten. Este patrón es una versión del mismo principio de valor posicional que usaste con números naturales.",
+      "formula": "a × (b00) = (a × b) × 100; a × (b000) = (a × b) × 1000; decimal × 10ⁿ = se recorre el punto n lugares a la derecha",
       "ejemplos": [
-        "6 × 20: primero 6 × 2 = 12, luego agrego el cero: 6 × 20 = 120.",
-        "9 × 40: primero 9 × 4 = 36, luego agrego el cero: 9 × 40 = 360."
+        "6 × 300: primero 6 × 3 = 18, y como 300 tiene dos ceros, 6 × 300 = 1800.",
+        "5 × 2000: primero 5 × 2 = 10, y como 2000 tiene tres ceros, 5 × 2000 = 10000.",
+        "3.5 × 10: el punto se recorre un lugar a la derecha, entonces 3.5 × 10 = 35.",
+        "0.6 × 1000: el punto se recorre tres lugares (se agregan ceros si faltan), entonces 0.6 × 1000 = 600."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "6 × 20 = ?",
+          "pregunta": "6 × 300 = ?",
           "opciones": [
-            "120",
-            "60",
-            "26",
-            "12"
+            "1800",
+            "180",
+            "18000",
+            "1080"
           ],
           "respuestaCorrecta": 0,
-          "retroalimentacion": "6 × 2 = 12, agrego el cero: 6 × 20 = 120."
-        },
-        {
-          "tipo": "llenar_frase",
-          "frase": "Para calcular 7 × 30, multiplico 7 × 3 = 21 y agrego un ___ a la derecha.",
-          "respuestaCorrecta": "cero",
-          "retroalimentacion": "7 × 30 = 210: primero 7 × 3 = 21, luego se agrega el cero."
+          "retroalimentacion": "6 × 3 = 18, y como 300 tiene dos ceros, 6 × 300 = 1800."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "9 × 40 = 360",
+          "enunciado": "8 × 400 = 3200",
           "respuestaCorrecta": true,
-          "retroalimentacion": "Correcto: 9 × 4 = 36, y 9 × 40 = 360."
+          "retroalimentacion": "Correcto: 8 × 4 = 32, y como 400 tiene dos ceros, 8 × 400 = 3200."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Para calcular 5 × 2000, multiplico 5 × 2 = 10 y agrego ___ ceros.",
+          "respuestaCorrecta": "tres",
+          "retroalimentacion": "2000 tiene tres ceros, así que 5 × 2000 = 10000."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "5 × 60 = ?",
+          "pregunta": "7 × 3000 = ?",
           "opciones": [
-            "300",
-            "56",
-            "350",
-            "30"
+            "21000",
+            "2100",
+            "210000",
+            "2107"
           ],
           "respuestaCorrecta": 0,
-          "retroalimentacion": "5 × 6 = 30, agrego el cero: 5 × 60 = 300."
+          "retroalimentacion": "7 × 3 = 21, y como 3000 tiene tres ceros, 7 × 3000 = 21000."
         },
         {
           "tipo": "relacionar_columnas",
           "instruccion": "Relaciona cada multiplicación con su resultado.",
           "columnaA": [
-            "8 × 50",
-            "4 × 70",
-            "3 × 90"
+            "9 × 500",
+            "4 × 6000",
+            "3 × 700"
           ],
           "columnaB": [
-            "400",
-            "280",
-            "270",
-            "350"
+            "4500",
+            "24000",
+            "2100",
+            "4000"
           ],
           "parejasCorrectas": [
             0,
             1,
             2
           ],
-          "retroalimentacion": "8 × 50 = 400, 4 × 70 = 280 y 3 × 90 = 270: multiplica el dígito por el dígito y agrega el cero."
+          "retroalimentacion": "9 × 500 = 4500, 4 × 6000 = 24000 y 3 × 700 = 2100: multiplica los dígitos y agrega los ceros del múltiplo."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "3.5 × 10 = ?",
+          "opciones": [
+            "35",
+            "3.5",
+            "0.35",
+            "350"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "3.5 × 10 = 35: el punto se recorre un lugar a la derecha."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "2.47 × 100 = ___.",
+          "respuestaCorrecta": "247",
+          "retroalimentacion": "2.47 × 100 = 247: el punto se recorre dos lugares a la derecha."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "0.6 × 1000 = 600",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: el punto se recorre tres lugares y se agregan ceros: 0.6 × 1000 = 600."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "12.3 × 10 = ?",
+          "opciones": [
+            "123",
+            "1.23",
+            "12.30",
+            "1230"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "12.3 × 10 = 123: el punto se recorre un lugar a la derecha."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada multiplicación con su resultado.",
+          "columnaA": [
+            "0.08 × 100",
+            "0.9 × 10",
+            "1.5 × 1000"
+          ],
+          "columnaB": [
+            "8",
+            "9",
+            "1500",
+            "0.8"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "0.08 × 100 = 8, 0.9 × 10 = 9 y 1.5 × 1000 = 1500: recorre el punto según los ceros de la potencia."
         }
       ]
     }

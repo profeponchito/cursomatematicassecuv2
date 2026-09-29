@@ -1,88 +1,173 @@
 {
   "id": "OB-19-02",
   "grado": "Operaciones Básicas",
-  "numero": 146,
+  "numero": 74,
   "categoria": "mult_div",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "División exacta de naturales (algoritmo en columna) — Momento 2/8",
+  "titulo": "División exacta de naturales (algoritmo en columna) — Módulo 2/4",
   "contenido": "El algoritmo escrito de la división de naturales cuando el residuo final es cero.",
   "pda": "Aplica el algoritmo de la división larga con números naturales en casos donde la división es exacta.",
   "problematizacion": {
-    "contexto": "El entrenador Beto organiza a su equipo de básquetbol en filas iguales antes del entrenamiento. Hoy llegaron 48 jugadores y quiere formar 6 filas del mismo tamaño para hacer los calentamientos.",
-    "pregunta": "Usando lo que sabes de las tablas de multiplicar, ¿cuántos jugadores debe poner Beto en cada fila?"
+    "contexto": "Don Refugio maneja un camión foráneo y en una semana vendió 936 boletos, la misma cantidad cada uno de los 8 días que trabajó.\n\nEn la panadería 'La Espiga', el panadero Tomás acomodó 824 piezas de pan en charolas, poniendo la misma cantidad en cada una de las 4 charolas que tenía disponibles esa mañana.",
+    "pregunta": "¿Cuántos boletos vendió Don Refugio cada día, usando el algoritmo de la división en columna? Además: ¿Cuántas piezas de pan puso Tomás en cada charola? (cuidado: el cociente tiene un cero)."
   },
   "subtemas": [
     {
       "numero": "19.2",
-      "nivelEtiqueta": "Nivel 2 de 8 · Básico",
-      "titulo": "División directa con las tablas de multiplicar",
-      "explicacion": "Cuando el dividendo y el divisor son números pequeños, puedes encontrar el cociente pensando directamente en las tablas de multiplicar, sin necesidad de escribir el algoritmo completo. Pregúntate: '¿por cuál número debo multiplicar el divisor para obtener el dividendo?'. Esa pregunta te lleva directo al cociente. Esta habilidad es la base para dividir números más grandes más adelante.",
+      "nivelEtiqueta": "Nivel 2 de 4 · Intermedio",
+      "titulo": "Algoritmo en columna: 3 cifras entre 1 cifra y Cuando el cociente lleva un cero",
+      "explicacion": "Para dividir un número de tres cifras entre un número de una cifra, el algoritmo en columna se hace bajando las cifras del dividendo una por una, de izquierda a derecha. En cada paso divides, multiplicas, restas y bajas la siguiente cifra, hasta que ya no queden cifras por bajar. Si al final el residuo es 0, la división es exacta. Puedes comprobar tu resultado multiplicando el cociente por el divisor: debe darte de nuevo el dividendo.\n\nA veces, al bajar una cifra del dividendo, el número que se forma es menor que el divisor y no alcanza para dividir; en ese caso se escribe un 0 en el cociente en ese lugar y se baja la siguiente cifra sin hacer otra resta. Ese cero es una cifra real del cociente y no se puede omitir ni saltar. Reconocer cuándo aparece te ayuda a no perder cifras ni cometer errores de valor posicional.",
+      "formula": "cociente × divisor = dividendo (comprobación)",
       "ejemplos": [
-        "48 ÷ 6: piensa '¿6 por cuánto da 48?'. Como 6 × 8 = 48, el cociente es 8.",
-        "63 ÷ 7: piensa '¿7 por cuánto da 63?'. Como 7 × 9 = 63, el cociente es 9."
+        "936 ÷ 8: 9 entre 8 da 1 (sobra 1); bajas el 3 y formas 13, entre 8 da 1 (sobra 5); bajas el 6 y formas 56, entre 8 da 7 exacto. Cociente: 117.",
+        "672 ÷ 6: 6 entre 6 da 1; bajas el 7, entre 6 da 1 (sobra 1); bajas el 2 y formas 12, entre 6 da 2 exacto. Cociente: 112.",
+        "824 ÷ 4: 8 entre 4 da 2; bajas el 2 y, como 2 entre 4 no alcanza, se escribe 0 en el cociente y se baja la siguiente cifra; bajas el 4 y formas 24, entre 4 da 6. Cociente: 206.",
+        "918 ÷ 9: 9 entre 9 da 1; bajas el 1 y, como 1 entre 9 no alcanza, se escribe 0 en el cociente; bajas el 8 y formas 18, entre 9 da 2. Cociente: 102."
       ],
-      "puntosPorReactivo": 10,
+      "puntosPorReactivo": 15,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "48 ÷ 6 = ?",
+          "pregunta": "Al dividir 936 ÷ 8 con el algoritmo en columna, ¿cuál es el cociente?",
           "opciones": [
-            "7",
-            "8",
-            "9",
-            "6"
+            "107",
+            "117",
+            "127",
+            "113"
           ],
           "respuestaCorrecta": 1,
-          "retroalimentacion": "6 × 8 = 48, así que 48 ÷ 6 = 8."
+          "retroalimentacion": "936 ÷ 8 = 117, porque 117 × 8 = 936."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "63 ÷ 7 = ___",
-          "respuestaCorrecta": "9",
-          "retroalimentacion": "7 × 9 = 63, así que el cociente es 9."
+          "frase": "672 ÷ 6 = ___",
+          "respuestaCorrecta": "112",
+          "retroalimentacion": "672 ÷ 6 = 112, porque 112 × 6 = 672."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "72 ÷ 8 = 9",
+          "enunciado": "En la división 848 ÷ 4, el cociente es 212.",
           "respuestaCorrecta": true,
-          "retroalimentacion": "Verdadero. 8 × 9 = 72, la división es exacta."
+          "retroalimentacion": "Verdadero. 212 × 4 = 848, la división es exacta."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "145"
+            },
+            {
+              "valor": "3",
+              "signo": "×"
+            },
+            {
+              "valor": "435",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [
+              0
+            ],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "Esto verifica que 435 ÷ 3 = 145, porque 145 × 3 = 435."
         },
         {
           "tipo": "relacionar_columnas",
-          "instruccion": "Relaciona cada división con su cociente.",
+          "instruccion": "Relaciona cada división de 3 cifras entre 1 cifra con su cociente.",
           "columnaA": [
-            "45 ÷ 9",
-            "54 ÷ 6",
-            "56 ÷ 7",
-            "30 ÷ 5"
+            "824 ÷ 8",
+            "963 ÷ 9",
+            "728 ÷ 8",
+            "846 ÷ 6"
           ],
           "columnaB": [
-            "6",
-            "9",
-            "5",
-            "8"
+            "107",
+            "91",
+            "141",
+            "103"
           ],
           "parejasCorrectas": [
-            2,
-            1,
             3,
-            0
+            0,
+            1,
+            2
           ],
-          "retroalimentacion": "45 ÷ 9 = 5, 54 ÷ 6 = 9, 56 ÷ 7 = 8 y 30 ÷ 5 = 6."
+          "retroalimentacion": "824 ÷ 8 = 103, 963 ÷ 9 = 107, 728 ÷ 8 = 91 y 846 ÷ 6 = 141."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuál división NO es exacta?",
+          "pregunta": "Al dividir 824 ÷ 4, ¿cuál es el cociente?",
           "opciones": [
-            "42 ÷ 6",
-            "50 ÷ 8",
-            "64 ÷ 8",
-            "36 ÷ 6"
+            "206",
+            "260",
+            "216",
+            "26"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "824 ÷ 4 = 206. El 0 aparece en las decenas porque 2 (lo que se baja después del primer paso) no alcanza para dividir entre 4."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "918 ÷ 9 = ___",
+          "respuestaCorrecta": "102",
+          "retroalimentacion": "918 ÷ 9 = 102, con un 0 en las decenas del cociente."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "848 ÷ 8 = 106, y ese cociente tiene un cero en el lugar de las decenas.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Verdadero. 106 × 8 = 848, y en 106 el dígito de las decenas es 0."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "103"
+            },
+            {
+              "valor": "9",
+              "signo": "×"
+            },
+            {
+              "valor": "927",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [
+              0
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "Esto verifica que 927 ÷ 9 = 103, porque 103 × 9 = 927. Cuidado: el cociente 103 lleva un 0 en las decenas."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el cociente de 636 ÷ 6?",
+          "opciones": [
+            "16",
+            "106",
+            "160",
+            "601"
           ],
           "respuestaCorrecta": 1,
-          "retroalimentacion": "50 ÷ 8 = 6 y sobran 2 (8 × 6 = 48, no 50), así que no es exacta. Las demás sí lo son."
+          "retroalimentacion": "636 ÷ 6 = 106, con un 0 en las decenas del cociente."
         }
       ]
     }

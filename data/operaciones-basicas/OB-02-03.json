@@ -1,26 +1,27 @@
 {
   "id": "OB-02-03",
   "grado": "Operaciones Básicas",
-  "numero": 11,
+  "numero": 7,
   "categoria": "suma_resta",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Suma con acarreo (algoritmo en columna) — Momento 3/8",
+  "titulo": "Suma con acarreo (algoritmo en columna) — Módulo 3/4",
   "contenido": "El algoritmo escrito de la suma de naturales cuando una o más columnas superan 9 y hay que 'llevar' al siguiente orden.",
   "pda": "Aplica el algoritmo de la suma en columna, identificando y registrando correctamente el acarreo entre posiciones.",
   "problematizacion": {
-    "contexto": "El camión de la ruta 12 hace su recorrido por la mañana y por la tarde. Según el chofer, en el recorrido matutino subieron 246 pasajeros y en el vespertino subieron 38 pasajeros más.",
-    "pregunta": "¿Cuántos pasajeros subieron al camión de la ruta 12 durante todo el día, sumando ambos recorridos?"
+    "contexto": "Doña Lupita vende tacos en su puesto del mercado. El sábado vendió 458 pesos y el domingo, que hubo más gente, vendió 367 pesos.\n\nDon Ernesto es electricista y lleva el conteo de cable que gasta en tres casas distintas de un mismo fraccionamiento: 24 metros en la primera casa, 38 metros en la segunda y 17 metros en la tercera.",
+    "pregunta": "¿Cuánto vendió Doña Lupita entre el sábado y el domingo, sumando ambos días? Además: ¿Cuántos metros de cable gastó Don Ernesto en total en las tres casas?"
   },
   "subtemas": [
     {
       "numero": "2.3",
-      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
-      "titulo": "Acarreo con números de tres cifras",
-      "explicacion": "El mismo procedimiento del acarreo funciona sin importar cuántas cifras tenga el número: siempre empiezas por las unidades y avanzas hacia la izquierda. En este momento vas a sumar un número de tres cifras con uno de dos cifras, y seguirá habiendo un solo acarreo, de unidades a decenas. La columna de las centenas simplemente se copia o se suma sin recibir ningún acarreo extra, porque el resultado de la columna de las decenas no llega a 10.",
-      "formula": "Alinea los números por la derecha (unidades bajo unidades) y suma columna por columna, de derecha a izquierda.",
+      "nivelEtiqueta": "Nivel 3 de 4 · Avanzado",
+      "titulo": "Doble acarreo en cadena y Acarreo al sumar tres números",
+      "explicacion": "Aquí sube la dificultad: además del acarreo de unidades a decenas, ahora también habrá acarreo de decenas a centenas en la misma suma. Es importante hacerlo en orden y no perder el hilo: primero resuelves unidades y anotas su acarreo, luego sumas decenas MÁS ese acarreo y anotas el nuevo acarreo si aparece, y por último sumas centenas más el acarreo que venga de decenas. Un acarreo puede \"jalar\" a otro, como una cadena.\n\nHasta ahora sumaste solo dos números; en este momento vas a sumar tres al mismo tiempo, en la misma columna. Esto cambia algo importante: como ahora hay tres dígitos que sumar en cada columna (no dos), el acarreo puede ser de 2 y no solo de 1, porque la suma de una columna puede llegar hasta 27. El resto del procedimiento es igual: sumas toda la columna, incluido el acarreo que venga de la columna anterior, y anotas lo que corresponda.",
+      "formula": "El acarreo de una columna se suma en la siguiente; puede repetirse columna tras columna.; Suma los tres dígitos de la columna + el acarreo previo; si el total es ≥ 10, el acarreo puede ser 1 o incluso 2.",
       "ejemplos": [
-        "246 + 38: unidades 6 + 8 = 14, se escribe 4 y se lleva 1; decenas 4 + 3 + 1 = 8; centenas 2 + 0 = 2; resultado 284."
+        "458 + 367: unidades 8+7=15 (escribe 5, lleva 1); decenas 5+6+1=12 (escribe 2, lleva 1); centenas 4+3+1=8; resultado 825.",
+        "24 + 38 + 17: unidades 4+8+7=19 (escribe 9, lleva 1); decenas 2+3+1+1=7; resultado 79."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
@@ -30,39 +31,124 @@
           "operacion": "suma",
           "filas": [
             {
-              "valor": "246"
+              "valor": "458"
             },
             {
-              "valor": "38",
+              "valor": "367",
               "signo": "+"
             },
             {
-              "valor": "284",
+              "valor": "825",
               "esResultado": true
             }
           ],
           "ocultos": [
-            [],
+            [
+              1
+            ],
             [],
             [
               2
             ]
           ],
-          "retroalimentacion": "246 + 38: unidades 6 + 8 = 14, se escribe 4 y se lleva 1; decenas 4 + 3 + 1 = 8; centenas 2. El resultado es 284."
+          "retroalimentacion": "458 + 367: unidades 8+7=15 (se escribe 5, se lleva 1); decenas 5+6+1=12 (se escribe 2, se lleva 1); centenas 4+3+1=8. El resultado es 825."
         },
         {
           "tipo": "algoritmo_columnas",
           "operacion": "suma",
           "filas": [
             {
-              "valor": "357"
+              "valor": "276"
             },
             {
-              "valor": "26",
+              "valor": "189",
               "signo": "+"
             },
             {
-              "valor": "383",
+              "valor": "465",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              2
+            ],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "276 + 189: unidades 6+9=15 (se escribe 5, se lleva 1); decenas 7+8+1=16 (se escribe 6, se lleva 1); centenas 2+1+1=4. El resultado es 465."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En 549 + 286, la columna de las decenas da 4 + 8 + 1 (el acarreo de las unidades) = 13; se escribe 3 y se lleva ___ a las centenas.",
+          "respuestaCorrecta": "1",
+          "retroalimentacion": "Unidades: 9+6=15, se lleva 1. Decenas: 4+8+1=13, se escribe 3 y se lleva 1. Centenas: 5+2+1=8. El resultado es 835."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado de 635 + 278?",
+          "opciones": [
+            "893",
+            "903",
+            "913",
+            "923"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Unidades 5+8=13 (se lleva 1); decenas 3+7+1=11 (se lleva 1); centenas 6+2+1=9. El resultado es 913."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En 748 + 169, hay acarreo tanto en las unidades como en las decenas.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Verdadero: unidades 8+9=17 (se lleva 1); decenas 4+6+1=11 (se lleva 1 otra vez); centenas 7+1+1=9. El resultado es 917."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "24"
+            },
+            {
+              "valor": "38"
+            },
+            {
+              "valor": "17",
+              "signo": "+"
+            },
+            {
+              "valor": "79",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "Unidades: 4+8+7=19, se escribe 9 y se lleva 1. Decenas: 2+3+1+1=7. El resultado es 79."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "156"
+            },
+            {
+              "valor": "238"
+            },
+            {
+              "valor": "94",
+              "signo": "+"
+            },
+            {
+              "valor": "488",
               "esResultado": true
             }
           ],
@@ -71,33 +157,36 @@
             [],
             [
               1
+            ],
+            [
+              0
             ]
           ],
-          "retroalimentacion": "357 + 26: unidades 7 + 6 = 13, se escribe 3 y se lleva 1; decenas 5 + 2 + 1 = 8; centenas 3. El resultado es 383."
-        },
-        {
-          "tipo": "llenar_frase",
-          "frase": "En 428 + 45, la columna de las unidades da 8 + 5 = 13; se escribe 3 y se lleva ___ a las decenas.",
-          "respuestaCorrecta": "1",
-          "retroalimentacion": "8 + 5 = 13: se escribe 3 y se lleva 1. Decenas: 2 + 4 + 1 = 7. Centenas: 4. El resultado es 473."
+          "retroalimentacion": "Unidades: 6+8+4=18, se escribe 8 y se lleva 1. Decenas: 5+3+9+1=18, se escribe 8 y se lleva 1. Centenas: 1+2+1=4. El resultado es 488."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuál es el resultado de 519 + 37?",
+          "pregunta": "¿Cuál es el resultado de sumar 47 + 65 + 28?",
           "opciones": [
-            "546",
-            "556",
-            "566",
-            "545"
+            "130",
+            "140",
+            "150",
+            "138"
           ],
           "respuestaCorrecta": 1,
-          "retroalimentacion": "Unidades 9 + 7 = 16, se escribe 6 y se lleva 1; decenas 1 + 3 + 1 = 5; centenas 5. El resultado es 556."
+          "retroalimentacion": "Unidades: 7+5+8=20, se escribe 0 y se lleva 2. Decenas: 4+6+2+2=14. El resultado es 140."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "Al sumar 634 + 28, la columna de las centenas también necesita acarreo.",
-          "respuestaCorrecta": false,
-          "retroalimentacion": "Falso: unidades 4 + 8 = 12 (se lleva 1), decenas 3 + 2 + 1 = 6 (no llega a 10), así que las centenas solo copian el 6 de 634 y el resultado es 662, sin acarreo extra."
+          "enunciado": "Al sumar 235 + 147 + 318, en la columna de las unidades se lleva 2 a las decenas, porque 5 + 7 + 8 = 20.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Verdadero: 5+7+8=20, se escribe 0 y se lleva 2. Decenas: 3+4+1+2=10, se escribe 0 y se lleva 1. Centenas: 2+1+3+1=7. El resultado es 700."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Al sumar 68 + 59 + 76, la columna de las decenas da 6+5+7=18, más el acarreo de 2 que viene de las unidades, es 20; se escribe 0 y se lleva ___ formando un nuevo orden de centenas.",
+          "respuestaCorrecta": "2",
+          "retroalimentacion": "Unidades: 8+9+6=23, se escribe 3 y se lleva 2. Decenas: 6+5+7+2=20, se escribe 0 y se lleva 2, creando la cifra de las centenas. El resultado es 203."
         }
       ]
     }

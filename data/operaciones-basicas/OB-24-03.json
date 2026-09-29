@@ -1,101 +1,156 @@
 {
   "id": "OB-24-03",
   "grado": "Operaciones Básicas",
-  "numero": 187,
+  "numero": 95,
   "categoria": "mult_div",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "División de números con signo — Momento 3/8",
+  "titulo": "División de números con signo — Módulo 3/4",
   "contenido": "División de números enteros con signo, aplicando la misma regla de signos que en la multiplicación.",
   "pda": "Divide números enteros con signo aplicando correctamente la regla de los signos.",
   "problematizacion": {
-    "contexto": "Un chofer de camión foráneo en la ruta México-Querétaro gastó $204 de más en diésel debido a un desvío por obras en la carretera. Debe reportar ese gasto extra dividido entre las 17 vueltas que dio ese mes, para llevar el control de sus gastos por viaje.",
-    "pregunta": "¿Cómo escribirías esta situación como una división de números con signo?"
+    "contexto": "La coordinación de una escuela secundaria en Tijuana debe repartir un descuento total de -$450 en cuotas entre los 15 alumnos becados que se retrasaron en su pago, para saber cuánto le corresponde descontar a cada uno en su siguiente recibo.\n\nUna panadería en Oaxaca tuvo una merma de $1,725 en insumos que se echaron a perder durante el mes, repartida entre las 75 charolas de pan que resultaron afectadas. El gerente quiere saber el promedio de pérdida por charola antes de ajustar el presupuesto del siguiente mes.",
+    "pregunta": "¿Qué división con signo usarías para saber cuánto se descuenta a cada alumno? Además: ¿Qué división con signo representa la pérdida promedio por charola?"
   },
   "subtemas": [
     {
       "numero": "24.3",
-      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
-      "titulo": "Divide paso a paso: signo y magnitud por separado",
-      "explicacion": "Para no confundirte con números más grandes, conviene resolver la división en dos pasos claros: primero determina el signo del resultado usando la regla de los signos, y después calcula la división de los valores absolutos como si fueran números positivos. Aquí empiezas a trabajar con divisores de dos cifras, y también puedes comprobar tu resultado multiplicando el cociente por el divisor: si el producto te devuelve el dividendo (en valor absoluto), la división fue correcta.",
-      "formula": "Paso 1: decide el signo · Paso 2: divide los valores absolutos · Comprobación: cociente × divisor = dividendo",
+      "nivelEtiqueta": "Nivel 3 de 4 · Avanzado",
+      "titulo": "La división con signo en la vida diaria y División de números grandes con signo",
+      "explicacion": "La división de números con signo aparece todo el tiempo en situaciones reales: deudas repartidas en pagos, descensos de temperatura, pérdidas en un negocio o en un cultivo. En este momento vas a traducir contextos cotidianos a una división con signo y a resolverla aplicando lo que ya sabes: primero el signo, después la magnitud. Fíjate bien en qué representa cada número negativo en la situación (una pérdida, un descenso, una deuda) para no perder de vista qué significa tu resultado.\n\nEn este momento trabajarás con dividendos de cuatro cifras y divisores de dos cifras, siempre con división exacta. La estrategia es la misma de siempre, pero ahora te conviene apoyarte en la multiplicación para comprobar tu resultado: si cociente × divisor te devuelve el dividendo en valor absoluto, tu división está bien hecha. Sigue aplicando la regla de los signos con cuidado, sobre todo cuando ambos números son negativos.",
+      "formula": "Comprobación de una división: cociente × divisor = dividendo (en valor absoluto)",
       "ejemplos": [
-        "-156 ÷ 12: signos diferentes, el resultado será negativo; 156 ÷ 12 = 13, entonces -156 ÷ 12 = -13.",
-        "Comprobación: 13 × 12 = 156, así que el resultado -13 es correcto para -156 ÷ 12."
+        "Una tienda acumula una deuda de -$960 que paga en 8 meses iguales: -960 ÷ 8 = -120, es decir, paga $120 cada mes.",
+        "Un buzo desciende -48 metros en 4 tramos iguales: -48 ÷ 4 = -12, cada tramo representa un descenso de 12 metros.",
+        "-1148 ÷ 41: signos diferentes, resultado negativo; 1148 ÷ 41 = 28, entonces -1148 ÷ 41 = -28.",
+        "Comprobación de -2408 ÷ 43: 56 × 43 = 2408, así que -2408 ÷ 43 = -56."
       ],
-      "puntosPorReactivo": 15,
+      "puntosPorReactivo": 20,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "-156 ÷ 12 = ?",
+          "pregunta": "Una tienda de abarrotes en Toluca acumuló una deuda de $960 (representada como -960) que pagará en partes iguales durante 8 meses. ¿Cuánto pagará cada mes?",
           "opciones": [
-            "-13",
-            "13",
-            "-14",
-            "14"
+            "-$120",
+            "$120",
+            "-$12",
+            "$12"
           ],
           "respuestaCorrecta": 0,
-          "retroalimentacion": "156 ÷ 12 = 13; signos diferentes, así que el resultado es -13."
+          "retroalimentacion": "-960 ÷ 8 = -120: cada mes paga $120 de esa deuda."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "-204 ÷ (-17) = ___",
-          "respuestaCorrecta": "12",
-          "retroalimentacion": "204 ÷ 17 = 12; signos iguales, así que el resultado es positivo: 12."
+          "frase": "En Chihuahua la temperatura bajó un total de -36 °C a lo largo de una semana fría, repartido en partes iguales entre 6 días de descenso: -36 ÷ 6 = ___ °C por día.",
+          "respuestaCorrecta": "-6",
+          "retroalimentacion": "-36 ÷ 6 = -6: la temperatura bajó 6 grados cada día."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "180 ÷ (-15) = -12",
+          "enunciado": "Un buzo en Cozumel descendió hasta -48 metros respecto al nivel del mar, en 4 tramos iguales. Cada tramo representa un descenso de -12 metros.",
           "respuestaCorrecta": true,
-          "retroalimentacion": "Correcto: 180 ÷ 15 = 12 y, como los signos son diferentes, el resultado es -12."
+          "retroalimentacion": "Correcto: -48 ÷ 4 = -12, cada tramo fue un descenso de 12 metros."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación con el resultado de su división.",
+          "columnaA": [
+            "Una cooperativa pesquera de Mazatlán repartió una pérdida de -$720 entre 6 socios por igual",
+            "Un dron agrícola descendió -91 m en 7 tramos iguales para fumigar",
+            "Una fábrica de Puebla redujo su inventario en -108 piezas durante 9 días iguales"
+          ],
+          "columnaB": [
+            "-120",
+            "-13",
+            "-12",
+            "12"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "-720 ÷ 6 = -120 por socio; -91 ÷ 7 = -13 metros por tramo; -108 ÷ 9 = -12 piezas por día."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un agricultor de Sinaloa vendió su cosecha con una pérdida total de -$1,050, repartida entre 15 costales con merma. Cada costal representó una pérdida de -$60.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: -1050 ÷ 15 = -70, cada costal representó una pérdida de $70, no de $60."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "-1148 ÷ 41 = ?",
+          "opciones": [
+            "-28",
+            "28",
+            "-27",
+            "27"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "1148 ÷ 41 = 28; signos diferentes, así que el resultado es -28."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "-1725 ÷ (-75) = ___",
+          "respuestaCorrecta": "23",
+          "retroalimentacion": "1725 ÷ 75 = 23; signos iguales, así que el resultado es positivo: 23."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "1296 ÷ (-36) = -36",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 1296 ÷ 36 = 36 y, como los signos son diferentes, el resultado es -36."
         },
         {
           "tipo": "algoritmo_columnas",
           "operacion": "multiplicacion",
           "filas": [
             {
-              "valor": "15"
+              "valor": "56"
             },
             {
-              "valor": "15",
+              "valor": "43",
               "signo": "×"
             },
             {
-              "valor": "75"
+              "valor": "168"
             },
             {
-              "valor": "150"
+              "valor": "2240"
             },
             {
-              "valor": "225",
+              "valor": "2408",
               "esResultado": true
             }
           ],
           "ocultos": [
-            [],
+            [
+              1
+            ],
             [
               0
             ],
             [],
             [],
             [
-              2
+              0
             ]
           ],
-          "retroalimentacion": "Esto verifica que 225 ÷ 15 = 15, porque 15 × 15 = 225. Como el dividendo -225 es negativo y el divisor 15 es positivo, el cociente real es -225 ÷ 15 = -15."
+          "retroalimentacion": "Esto verifica que 2408 ÷ 43 = 56, porque 56 × 43 = 2408. Como el dividendo -2408 es negativo y el divisor 43 es positivo, el cociente real es -2408 ÷ 43 = -56."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "-196 ÷ 14 = ?",
+          "pregunta": "-2600 ÷ (-50) = ?",
           "opciones": [
-            "-14",
-            "14",
-            "-13",
-            "13"
+            "52",
+            "-52",
+            "50",
+            "-50"
           ],
           "respuestaCorrecta": 0,
-          "retroalimentacion": "196 ÷ 14 = 14; signos diferentes, así que el resultado es -14."
+          "retroalimentacion": "2600 ÷ 50 = 52; signos iguales, así que el resultado es positivo: 52."
         }
       ]
     }

@@ -1,108 +1,133 @@
 {
   "id": "OB-13-03",
   "grado": "Operaciones Básicas",
-  "numero": 99,
+  "numero": 51,
   "categoria": "mult_div",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Multiplicación de un dígito (tablas y cálculo mental) — Momento 3/8",
+  "titulo": "Multiplicación de un dígito (tablas y cálculo mental) — Módulo 3/4",
   "contenido": "Multiplicación de un número de varias cifras por un solo dígito, apoyada en las tablas de multiplicar.",
   "pda": "Multiplica números naturales por un dígito usando las tablas de multiplicar y estrategias de cálculo mental.",
   "problematizacion": {
-    "contexto": "El equipo de futbol de una secundaria de Querétaro va a jugar un torneo fuera de la ciudad. El entrenador reserva 3 camionetas y en cada una caben 47 kilos de equipo deportivo (balones, uniformes y agua) para el viaje completo del equipo.",
-    "pregunta": "¿Cuántos kilos de equipo puede transportar el entrenador en total usando las 3 camionetas llenas?"
+    "contexto": "En una tienda de abarrotes de barrio, don Refugio no siempre tiene calculadora a la mano y necesita dar el total al cliente rápido. Un cliente lleva 8 paquetes de galletas que cuestan $99 pesos cada uno, y don Refugio calcula el total mentalmente antes de que el cliente saque su cartera.\n\nUn taller mecánico en Monterrey compra refacciones al mayoreo. Cada caja de bujías cuesta $700 pesos y el dueño necesita comprar 8 cajas para surtir el taller durante el semestre, calculando rápido el gasto total antes de ir al banco.",
+    "pregunta": "¿Cómo puede don Refugio usar el redondeo (pensar en $100 en vez de $99) para calcular el total de forma rápida y luego ajustarlo? Además: ¿Cómo puede el dueño calcular mentalmente el costo total de las 8 cajas usando el hecho de que 700 tiene dos ceros?"
   },
   "subtemas": [
     {
       "numero": "13.3",
-      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
-      "titulo": "Multiplicar llevando (con acarreo)",
-      "explicacion": "Cuando al multiplicar las unidades el resultado es 10 o más, no cabe una sola cifra en esa columna: se escribe la unidad del producto y se \"lleva\" la decena para sumarla al siguiente producto (el de las decenas). Este acarreo es el mismo que usas al sumar, pero aquí nace de una multiplicación. Es importante sumar lo que llevas ANTES de anotar el resultado de la siguiente columna, no después. Practicar esto con números de dos cifras te prepara para números más grandes.",
-      "formula": "unidad × factor = producto; si ≥10, se anota la unidad y se lleva la decena a la siguiente columna",
+      "nivelEtiqueta": "Nivel 3 de 4 · Avanzado",
+      "titulo": "Cálculo mental: redondear y descomponer y Multiplicar por múltiplos de 10, 100 y 1000, y estimar",
+      "explicacion": "Para multiplicar rápido sin lápiz y papel, sirve romper el número en partes más fáciles. Una estrategia es descomponer: separar el número en decenas y unidades, multiplicar cada parte por separado y sumar los resultados. Otra estrategia es redondear: si un número está muy cerca de una decena o centena completa, multiplicas por el número redondo y luego ajustas (sumando o restando lo que faltaba). Estas dos estrategias son atajos válidos que dan exactamente el mismo resultado que el algoritmo escrito, solo que más rápido para ciertos números.\n\nCuando uno de los factores termina en ceros (como 300, 4000 o 90), puedes multiplicar solamente los dígitos distintos de cero y después agregar al resultado la misma cantidad de ceros que tenía el número original. Esta idea también sirve para estimar: si un número no es exactamente redondo pero está cerca de uno (como 398, cercano a 400), puedes redondearlo, multiplicar el número redondo y obtener un resultado aproximado muy útil para calcular rápido o revisar si una respuesta tiene sentido. Una estimación no sustituye al cálculo exacto, pero te ayuda a detectar errores grandes.",
+      "formula": "(dígitos distintos de cero) × factor, y después se agregan los ceros que tenía el número original",
       "ejemplos": [
-        "47×3: unidades 7×3=21, se escribe 1 y se lleva 2; decenas 4×3=12, más el 2 que se llevaba = 14 → resultado 141.",
-        "56×4: unidades 6×4=24, se escribe 4 y se lleva 2; decenas 5×4=20, más 2 = 22 → resultado 224."
+        "8×99 (redondeo): 99 está a 1 de 100, entonces 8×100=800, y se resta 8×1=8 → 800-8=792.",
+        "7×34 (descomposición): 34=30+4, entonces 7×30=210 y 7×4=28, se suman → 210+28=238.",
+        "8×700: multiplicas 8×7=56 y agregas los dos ceros de 700 → 5,600.",
+        "6×398 (estimación): redondeas 398 a 400, calculas 6×400=2,400, que está muy cerca del resultado real (2,388)."
       ],
-      "puntosPorReactivo": 15,
+      "puntosPorReactivo": 20,
       "estrellasMax": 3,
       "reactivos": [
         {
-          "tipo": "algoritmo_columnas",
-          "operacion": "multiplicacion",
-          "filas": [
-            {
-              "valor": "47"
-            },
-            {
-              "valor": "3",
-              "signo": "×"
-            },
-            {
-              "valor": "141",
-              "esResultado": true
-            }
-          ],
-          "ocultos": [
-            [],
-            [],
-            [
-              0,
-              1,
-              2
-            ]
-          ],
-          "retroalimentacion": "47×3 = 141: unidades 7×3=21 (se anota 1, se lleva 2), decenas 4×3=12+2=14, resultado 141."
-        },
-        {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuánto es 56×4?",
+          "pregunta": "Usando redondeo, ¿cuál es el resultado de 8×99?",
           "opciones": [
-            "224",
-            "214",
-            "234",
-            "204"
+            "792",
+            "802",
+            "782",
+            "800"
           ],
           "respuestaCorrecta": 0,
-          "retroalimentacion": "56×4 = 224: unidades 6×4=24 (se anota 4, se lleva 2), decenas 5×4=20+2=22, resultado 224."
-        },
-        {
-          "tipo": "verdadero_falso",
-          "enunciado": "68×5 es igual a 340.",
-          "respuestaCorrecta": true,
-          "retroalimentacion": "Correcto: unidades 8×5=40 (se anota 0, se lleva 4), decenas 6×5=30+4=34, resultado 340."
+          "retroalimentacion": "8×99 = 8×100 − 8 = 800 − 8 = 792."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "39×6 = ___",
-          "respuestaCorrecta": "234",
-          "retroalimentacion": "39×6 = 234: unidades 9×6=54 (se anota 4, se lleva 5), decenas 3×6=18+5=23, resultado 234."
+          "frase": "Para 5×203: primero 5×200=1000, luego 5×3=15, entonces 5×203 = ___",
+          "respuestaCorrecta": "1015",
+          "retroalimentacion": "5×203 = 1000 + 15 = 1,015. Descomponer 203 en 200+3 facilita el cálculo."
         },
         {
-          "tipo": "algoritmo_columnas",
-          "operacion": "multiplicacion",
-          "filas": [
-            {
-              "valor": "27"
-            },
-            {
-              "valor": "4",
-              "signo": "×"
-            },
-            {
-              "valor": "108",
-              "esResultado": true
-            }
+          "tipo": "verdadero_falso",
+          "enunciado": "9×98 se puede calcular como 9×100 menos 9×2, y el resultado es 882.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 9×100=900, 9×2=18, 900−18=882, que es lo mismo que 9×98."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la forma correcta de descomponer 7×34 para calcularlo mentalmente?",
+          "opciones": [
+            "7×30 + 7×4",
+            "7×3 + 7×4",
+            "7×30 + 4",
+            "7 + 30×4"
           ],
-          "ocultos": [
-            [
-              0
-            ],
-            [],
-            [
-              2
-            ]
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "34 = 30+4, así que 7×34 = 7×30 + 7×4 = 210+28 = 238."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "6×48 = 6×50 − 6×___ = 300 − 12 = 288",
+          "respuestaCorrecta": "2",
+          "retroalimentacion": "48 está a 2 de 50, entonces 6×48 = 6×50 − 6×2 = 300 − 12 = 288."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 8×700?",
+          "opciones": [
+            "5600",
+            "5060",
+            "560",
+            "56000"
           ],
-          "retroalimentacion": "27×4 = 108: unidades 7×4=28 (se anota 8, se lleva 2), decenas 2×4=8+2=10, resultado 108."
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "8×7=56, y como 700 tiene dos ceros, el resultado es 5,600."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "6×4000 = ___",
+          "respuestaCorrecta": "24000",
+          "retroalimentacion": "6×4=24, y como 4000 tiene tres ceros, el resultado es 24,000."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "9×90 es igual a 810.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 9×9=81, y 90 tiene un cero, entonces 9×90=810."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Para estimar 6×398 redondeando 398 al múltiplo de 100 más cercano (400), ¿cuál es la estimación?",
+          "opciones": [
+            "2400",
+            "2388",
+            "2500",
+            "2340"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "6×400=2,400 es la estimación; el resultado exacto (6×398=2,388) queda muy cerca de esa estimación."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada multiplicación con su resultado.",
+          "columnaA": [
+            "5×6000",
+            "7×90",
+            "4×800",
+            "8×3000"
+          ],
+          "columnaB": [
+            "630",
+            "3200",
+            "24000",
+            "30000"
+          ],
+          "parejasCorrectas": [
+            3,
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "5×6000=30,000; 7×90=630; 4×800=3,200; 8×3000=24,000."
         }
       ]
     }

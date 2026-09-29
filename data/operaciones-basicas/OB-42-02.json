@@ -1,87 +1,131 @@
 {
   "id": "OB-42-02",
   "grado": "Operaciones Básicas",
-  "numero": 330,
+  "numero": 166,
   "categoria": "integracion",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Operaciones combinadas con números naturales — Momento 2/8",
+  "titulo": "Operaciones combinadas con números naturales — Módulo 2/4",
   "contenido": "Resolución de expresiones que combinan suma, resta, multiplicación, división, potencias y raíces con números naturales, aplicando la jerarquía de operaciones.",
   "pda": "Resuelve expresiones numéricas combinadas con números naturales aplicando correctamente la jerarquía de operaciones.",
   "problematizacion": {
-    "contexto": "El profesor Ángel organiza un torneo relámpago de basquetbol en la escuela secundaria. Cada equipo gana puntos por canasta, pierde puntos por faltas y suma puntos extra por asistencia. Para llevar el marcador, Ángel debe combinar varias operaciones en una sola cuenta.",
-    "pregunta": "Si en el marcador hay que multiplicar canastas por puntos, dividir puntos de asistencia entre jugadores y luego sumar y restar el resultado, ¿en qué orden conviene resolver esas operaciones?"
+    "contexto": "Don Efrén maneja una ruta de camión urbano en Puebla. En cada parada suben y bajan pasajeros, y la empresa le pide reportar el total de pasajeros multiplicando por el número de vueltas que da en el día. Para que el reporte salga correcto, Don Efrén debe sumar primero los pasajeros que suben en una parada antes de multiplicar por las vueltas.\n\nDoña Carmen tiene una tienda de abarrotes en su colonia. Para calcular cuánto debe pagar por una caja de refrescos, primero tiene que elevar al cuadrado el número de paquetes que forman un arreglo especial, y después sumar o restar cargos por flete. Si se equivoca en el orden, el precio que cobra a sus clientes sale mal.",
+    "pregunta": "Si Don Efrén necesita sumar primero los pasajeros de una parada y después multiplicar ese total por el número de vueltas, ¿qué símbolo debe usar para indicar que la suma se hace antes que la multiplicación? Además: si en la cuenta de Doña Carmen aparece una potencia junto con una suma, ¿cuál de las dos operaciones debe resolver primero?"
   },
   "subtemas": [
     {
       "numero": "42.2",
-      "nivelEtiqueta": "Nivel 2 de 8 · Básico",
-      "titulo": "Tres operaciones combinadas sin paréntesis",
-      "explicacion": "Ahora las expresiones tienen tres operaciones en lugar de dos, mezclando sumas, restas, multiplicaciones y divisiones sin paréntesis. La regla no cambia: primero se resuelven todas las multiplicaciones y divisiones, en el orden en que aparecen de izquierda a derecha, y después todas las sumas y restas, también de izquierda a derecha. Conviene subrayar primero las multiplicaciones y divisiones antes de empezar a calcular, para no perder ninguna. Este paso agrega solo una dificultad nueva sobre el momento anterior: más términos en la misma expresión.",
-      "formula": "Multiplicaciones y divisiones (izquierda a derecha) → sumas y restas (izquierda a derecha)",
+      "nivelEtiqueta": "Nivel 2 de 4 · Intermedio",
+      "titulo": "Paréntesis: cambiar el orden de las operaciones y Potencias dentro de operaciones combinadas",
+      "explicacion": "Los paréntesis sirven para indicar qué operación se debe resolver primero, incluso si normalmente le tocaría el turno después. Todo lo que está dentro de un paréntesis se resuelve antes que cualquier operación fuera de él. Una vez resuelto lo que está adentro, el resultado se usa como si fuera un solo número y se sigue la jerarquía normal (multiplicación/división y luego suma/resta) con el resto de la expresión. Por eso, la misma combinación de números puede dar resultados distintos si se agregan o quitan paréntesis.\n\nA la jerarquía de operaciones se agrega ahora un nivel más arriba de la multiplicación y la división: las potencias. Una potencia como 2³ significa multiplicar la base por sí misma tantas veces como indique el exponente, y ese resultado se calcula antes de multiplicar, dividir, sumar o restar con los demás números de la expresión (a menos que un paréntesis diga lo contrario). Es un error común restar o sumar antes de resolver la potencia, así que conviene identificar primero dónde está el exponente. Con esta regla, la jerarquía completa hasta este momento queda: potencias, luego multiplicación y división, y al final suma y resta.",
+      "formula": "( ) primero → multiplicación/división → suma/resta; Potencias → multiplicación/división → suma/resta",
       "ejemplos": [
-        "10 + 2 × 5 - 3 = 10 + 10 - 3 = 17 (se multiplica primero, luego se suma y se resta en orden)",
-        "16 ÷ 2 + 4 × 3 = 8 + 12 = 20 (hay dos multiplicaciones/divisiones, ambas se resuelven antes que la suma)"
+        "(7 + 2) × 3 = 9 × 3 = 27 (se suma dentro del paréntesis antes de multiplicar)",
+        "18 - (5 + 1) × 2 = 18 - 6 × 2 = 18 - 12 = 6",
+        "4 + 3² = 4 + 9 = 13 (se eleva al cuadrado antes de sumar)",
+        "2 × 3² - 5 = 2 × 9 - 5 = 18 - 5 = 13"
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuál es el resultado de 6 + 4 × 3 - 5?",
+          "pregunta": "¿Cuál es el resultado de (8 + 3) × 4?",
           "opciones": [
-            "13",
-            "25",
-            "7",
-            "17"
+            "44",
+            "20",
+            "15",
+            "32"
           ],
           "respuestaCorrecta": 0,
-          "retroalimentacion": "Se multiplica primero: 4 × 3 = 12. Luego, de izquierda a derecha: 6 + 12 = 18, y 18 - 5 = 13."
+          "retroalimentacion": "El paréntesis se resuelve primero: 8 + 3 = 11. Después se multiplica: 11 × 4 = 44."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuál es el resultado de 20 ÷ 4 + 3 × 2?",
+          "pregunta": "¿Cuál es el resultado de 20 - (4 + 2) × 3?",
           "opciones": [
-            "11",
-            "23",
-            "10",
-            "16"
+            "2",
+            "54",
+            "38",
+            "12"
           ],
           "respuestaCorrecta": 0,
-          "retroalimentacion": "Se resuelven las dos operaciones de multiplicación/división primero: 20 ÷ 4 = 5 y 3 × 2 = 6. Después se suma: 5 + 6 = 11."
+          "retroalimentacion": "Primero el paréntesis: 4 + 2 = 6. Luego la multiplicación: 6 × 3 = 18. Al final la resta: 20 - 18 = 2."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "En la expresión 9 × 2 - 6 ÷ 3, hay que resolver primero la multiplicación y la división (en el orden en que aparecen) y al final la resta.",
-          "respuestaCorrecta": true,
-          "retroalimentacion": "Verdadero: 9 × 2 = 18 y 6 ÷ 3 = 2. Al final se resta: 18 - 2 = 16."
+          "enunciado": "La expresión (5 + 3) × 2 da el mismo resultado que 5 + 3 × 2.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso. (5 + 3) × 2 = 8 × 2 = 16, mientras que 5 + 3 × 2 = 5 + 6 = 11. El paréntesis cambia el orden y por eso cambia el resultado."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "El resultado de 7 + 3 × 5 - 8 es ___.",
-          "respuestaCorrecta": "14",
-          "retroalimentacion": "Se multiplica primero: 3 × 5 = 15. Luego: 7 + 15 = 22, y 22 - 8 = 14."
+          "frase": "El resultado de (10 - 4) ÷ 3 + 5 es ___.",
+          "respuestaCorrecta": "7",
+          "retroalimentacion": "Primero el paréntesis: 10 - 4 = 6. Luego la división: 6 ÷ 3 = 2. Al final la suma: 2 + 5 = 7."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El resultado de 6 × (9 - 5) es ___.",
+          "respuestaCorrecta": "24",
+          "retroalimentacion": "Primero el paréntesis: 9 - 5 = 4. Después se multiplica: 6 × 4 = 24."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado de 3 + 2³?",
+          "opciones": [
+            "11",
+            "25",
+            "64",
+            "9"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Primero se resuelve la potencia: 2³ = 2 × 2 × 2 = 8. Después se suma: 3 + 8 = 11."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado de 5 × 2² - 4?",
+          "opciones": [
+            "16",
+            "36",
+            "6",
+            "46"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Primero la potencia: 2² = 4. Luego la multiplicación: 5 × 4 = 20. Al final la resta: 20 - 4 = 16."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En la expresión 10 - 3², primero se debe restar y después elevar al cuadrado.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso. La potencia se resuelve antes que la resta: 3² = 9, y luego 10 - 9 = 1."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El resultado de 2³ + 5 × 3 es ___.",
+          "respuestaCorrecta": "23",
+          "retroalimentacion": "Primero la potencia: 2³ = 8. Luego la multiplicación: 5 × 3 = 15. Al final la suma: 8 + 15 = 23."
         },
         {
           "tipo": "relacionar_columnas",
           "instruccion": "Relaciona cada expresión con su resultado correcto.",
           "columnaA": [
-            "24 ÷ 6 + 5 × 2",
-            "10 × 3 - 12 ÷ 4",
-            "8 + 9 ÷ 3 - 2"
+            "4² - 6",
+            "2 + 3²",
+            "20 - 2³"
           ],
           "columnaB": [
-            "9",
-            "14",
-            "27",
-            "20"
+            "10",
+            "11",
+            "12",
+            "14"
           ],
           "parejasCorrectas": [
+            0,
             1,
-            2,
-            0
+            2
           ],
-          "retroalimentacion": "24÷6 + 5×2 = 4 + 10 = 14; 10×3 - 12÷4 = 30 - 3 = 27; 8 + 9÷3 - 2 = 8 + 3 - 2 = 9."
+          "retroalimentacion": "4² - 6 = 16 - 6 = 10; 2 + 3² = 2 + 9 = 11; 20 - 2³ = 20 - 8 = 12."
         }
       ]
     }

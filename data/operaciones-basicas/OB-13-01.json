@@ -1,27 +1,29 @@
 {
   "id": "OB-13-01",
   "grado": "Operaciones Básicas",
-  "numero": 97,
+  "numero": 49,
   "categoria": "mult_div",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Multiplicación de un dígito (tablas y cálculo mental) — Momento 1/8",
+  "titulo": "Multiplicación de un dígito (tablas y cálculo mental) — Módulo 1/4",
   "contenido": "Multiplicación de un número de varias cifras por un solo dígito, apoyada en las tablas de multiplicar.",
   "pda": "Multiplica números naturales por un dígito usando las tablas de multiplicar y estrategias de cálculo mental.",
   "problematizacion": {
-    "contexto": "En el mercado de Toluca, doña Remedios acomoda naranjas en cajas iguales para venderlas más rápido. Cada caja lleva la misma cantidad de naranjas, y ella necesita saber cuántas naranjas hay en total según cuántas cajas arme.",
-    "pregunta": "Si doña Remedios sabe sus tablas de multiplicar de memoria, ¿por qué puede calcular el total de naranjas más rápido que contándolas una por una?"
+    "contexto": "En el mercado de Toluca, doña Remedios acomoda naranjas en cajas iguales para venderlas más rápido. Cada caja lleva la misma cantidad de naranjas, y ella necesita saber cuántas naranjas hay en total según cuántas cajas arme.\n\nEn la papelería de la escuela, el profesor Ernesto va a repartir cuadernos nuevos: cada uno de los 23 alumnos de un grupo recibirá 3 cuadernos para el ciclo escolar. El encargado de la papelería necesita saber cuántos cuadernos debe sacar de la bodega antes de que lleguen los alumnos.",
+    "pregunta": "Si doña Remedios sabe sus tablas de multiplicar de memoria, ¿por qué puede calcular el total de naranjas más rápido que contándolas una por una? Además: ¿Cuántos cuadernos en total debe sacar el encargado de la bodega para repartir 3 cuadernos a cada uno de los 23 alumnos?"
   },
   "subtemas": [
     {
       "numero": "13.1",
-      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
-      "titulo": "Recordando las tablas de multiplicar",
-      "explicacion": "Multiplicar es sumar un mismo número varias veces de forma rápida: 6×7 significa \"6 veces 7\" o \"7 veces 6\", y el resultado se llama producto. Las tablas de multiplicar del 1 al 10 son la base para calcular cualquier multiplicación más grande, así que conocerlas de memoria te ahorra tiempo. En este momento solo vas a recordar productos de dos números de un dígito, sin números grandes todavía. Fíjate que el orden de los factores no cambia el resultado (6×7 = 7×6): esa propiedad se llama conmutativa.",
-      "formula": "factor × factor = producto",
+      "nivelEtiqueta": "Nivel 1 de 4 · Introductorio",
+      "titulo": "Recordando las tablas de multiplicar y Multiplicar un número de dos cifras sin llevar",
+      "explicacion": "Multiplicar es sumar un mismo número varias veces de forma rápida: 6×7 significa \"6 veces 7\" o \"7 veces 6\", y el resultado se llama producto. Las tablas de multiplicar del 1 al 10 son la base para calcular cualquier multiplicación más grande, así que conocerlas de memoria te ahorra tiempo. En este momento solo vas a recordar productos de dos números de un dígito, sin números grandes todavía. Fíjate que el orden de los factores no cambia el resultado (6×7 = 7×6): esa propiedad se llama conmutativa.\n\nAhora vas a multiplicar un número de dos cifras (decenas y unidades) por un solo dígito. La estrategia es multiplicar primero las unidades por el dígito y después las decenas por el mismo dígito, y unir los dos resultados. En este momento todos los productos de cada columna son menores que 10, así que no necesitas \"llevar\" nada todavía: esa dificultad la verás en el siguiente momento. Escribir el cálculo en columnas (unidades bajo unidades) te ayuda a no perder el orden de las cifras.",
+      "formula": "factor × factor = producto; (decenas × factor) y (unidades × factor), después se unen",
       "ejemplos": [
         "7×8: piensa \"7 veces 8\" → 8+8+8+8+8+8+8 = 56, por eso 7×8 = 56.",
-        "9×6: como 9×6 = 6×9, y 6×9 es 6 nueve veces (6+6+6+6+6+6+6+6+6) = 54."
+        "9×6: como 9×6 = 6×9, y 6×9 es 6 nueve veces (6+6+6+6+6+6+6+6+6) = 54.",
+        "23×3: unidades 3×3=9, decenas 2×3=6, se unen → 69.",
+        "41×2: unidades 1×2=2, decenas 4×2=8, se unen → 82."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
@@ -85,6 +87,79 @@
           ],
           "respuestaCorrecta": 0,
           "retroalimentacion": "9×9 = 81. Es uno de los productos más útiles de memorizar porque aparece muy seguido."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "23"
+            },
+            {
+              "valor": "3",
+              "signo": "×"
+            },
+            {
+              "valor": "69",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [
+              0,
+              1
+            ]
+          ],
+          "retroalimentacion": "23×3 = 69: unidades 3×3=9 y decenas 2×3=6, sin llevar nada porque ambos productos son menores que 10."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 41×2?",
+          "opciones": [
+            "82",
+            "81",
+            "62",
+            "92"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "41×2 = 82: unidades 1×2=2, decenas 4×2=8, se unen y forman 82."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "32×3 es igual a 96.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: unidades 2×3=6, decenas 3×3=9, se forma 96, sin llevar."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "44×2 = ___",
+          "respuestaCorrecta": "88",
+          "retroalimentacion": "44×2 = 88: unidades 4×2=8, decenas 4×2=8, se unen y dan 88."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada multiplicación de dos cifras con su resultado.",
+          "columnaA": [
+            "21×4",
+            "13×3",
+            "22×4",
+            "31×3"
+          ],
+          "columnaB": [
+            "39",
+            "84",
+            "88",
+            "93"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            2,
+            3
+          ],
+          "retroalimentacion": "21×4=84, 13×3=39, 22×4=88 y 31×3=93. Ninguna de estas necesita llevar."
         }
       ]
     }

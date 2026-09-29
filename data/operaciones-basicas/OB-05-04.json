@@ -1,94 +1,106 @@
 {
   "id": "OB-05-04",
   "grado": "Operaciones Básicas",
-  "numero": 36,
+  "numero": 20,
   "categoria": "suma_resta",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Suma y resta de decimales alineando el punto — Momento 4/8",
+  "titulo": "Suma y resta de decimales alineando el punto — Módulo 4/4",
   "contenido": "Suma y resta de números decimales, cuidando alinear el punto decimal antes de operar columna por columna.",
   "pda": "Suma y resta números decimales alineando correctamente el punto decimal, relacionando el procedimiento con el de los números naturales.",
   "problematizacion": {
-    "contexto": "En Puebla, el chofer Rogelio maneja una combi de transporte escolar y anota los kilómetros que recorre cada día para llevar el control del mantenimiento. El lunes recorrió 8.1 km en la ruta de la mañana y el martes recorrió 2.4 km menos que el lunes.",
-    "pregunta": "¿Aproximadamente cuántos kilómetros recorrió Rogelio el martes?"
+    "contexto": "En la cocina de una telesecundaria de Chiapas, la cocinera Rosaura prepara el desayuno escolar. Empieza con 8.5 kg de arroz, agrega 2.3 kg más porque llegaron alumnos de otro grupo, y después aparta 4.15 kg para mandarlos a otro plantel.\n\nAntes de ir a la feria de su pueblo en Michoacán, Paulina cuenta el dinero de su alcancía: tiene $85.50. Gasta $12.35 en un boleto para los juegos mecánicos y luego su tía le regala $6.20 más para que siga disfrutando la feria.",
+    "pregunta": "¿Cuántos kilogramos de arroz le quedan disponibles a Rosaura para su grupo? Además: ¿Aproximadamente cuánto dinero le queda a Paulina después de esos movimientos?"
   },
   "subtemas": [
     {
       "numero": "5.4",
-      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
-      "titulo": "Restar decimales pidiendo prestado",
-      "explicacion": "Cuando el dígito de arriba en una columna es menor que el de abajo, se pide prestada 1 unidad a la columna de la izquierda, igual que en la resta de números naturales. Esto puede ocurrir en la columna de los décimos o en la de las unidades, y hay que recordar restar 1 a la columna de la que se pidió prestado antes de continuar.",
-      "formula": "Si el de arriba es menor, pide prestado 1 a la columna de la izquierda",
+      "nivelEtiqueta": "Nivel 4 de 4 · Integración",
+      "titulo": "Combinar sumas y restas de decimales y Resolver problemas de dinero con suma y resta de decimales",
+      "explicacion": "En algunos problemas hay que sumar y restar varios números decimales seguidos, con distinta cantidad de cifras. Conviene alinear todos los números por el punto decimal en una sola columna vertical y resolver de arriba hacia abajo, en el orden en que aparecen, completando con ceros donde haga falta antes de operar cada columna.\n\nEn este último momento se combinan todas las ideas: alinear el punto, completar con ceros cuando hace falta, sumar o restar llevando o pidiendo prestado, y aplicar todo esto a problemas de varios pasos. Un error muy común es sumar o restar sin alinear el punto (por ejemplo, tratar 3.20 como si fuera 320), así que conviene revisar siempre que las cifras del mismo valor posicional queden en la misma columna.",
+      "formula": "Alinea todos los números por el punto y opera de arriba hacia abajo, en orden; Alinea el punto, completa con ceros si hace falta y resuelve paso a paso en orden",
       "ejemplos": [
-        "6.2 - 3.7: en los décimos 2<7, se pide prestado: 12-7=5; en unidades 6-1-3=2; resultado 2.5",
-        "8.1 - 2.4 = 5.7 porque se pide prestado en los décimos (11-4=7) y luego 8-1-2=5"
+        "8.5 + 2.3 - 4.15: primero 8.5+2.3=10.8, luego 10.8-4.15=6.65",
+        "6.0 - 1.25 + 3.4: primero 6.0-1.25=4.75, luego 4.75+3.4=8.15",
+        "Paulina tenía $85.50, gastó $12.35 y le regalaron $6.20: 85.50-12.35=73.15, luego 73.15+6.20=79.35",
+        "Un tinaco con 45.6 L al que se le sacan 8.75 L y se le agregan 12.3 L: 45.6-8.75=36.85, luego 36.85+12.3=49.15 L"
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "Resta pidiendo prestado: 6.2 - 3.7 = ?",
+          "pregunta": "Resuelve en orden, de izquierda a derecha: 8.5 + 2.3 - 4.15 = ?",
           "opciones": [
-            "2.5",
-            "3.5",
-            "2.4",
-            "9.9"
+            "6.65",
+            "6.95",
+            "6.55",
+            "7.65"
           ],
           "respuestaCorrecta": 0,
-          "retroalimentacion": "En los décimos 2 es menor que 7, se pide prestado: 12-7=5; en las unidades 6-1-3=2, entonces 6.2 - 3.7 = 2.5."
+          "retroalimentacion": "Primero 8.5+2.3=10.8, y luego 10.8-4.15=6.65."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "8.1 - 2.4 = 5.7",
+          "enunciado": "6.0 - 1.25 + 3.4 = 8.15",
           "respuestaCorrecta": true,
-          "retroalimentacion": "Correcto: en los décimos 1<4, se pide prestado: 11-4=7; en unidades 8-1-2=5, entonces 8.1 - 2.4 = 5.7."
+          "retroalimentacion": "Correcto: primero 6.0-1.25=4.75, y luego 4.75+3.4=8.15."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "9.3 - 5.6 = ___",
-          "respuestaCorrecta": "3.7",
-          "retroalimentacion": "En los décimos 3<6, se pide prestado: 13-6=7; en unidades 9-1-5=3, entonces 9.3 - 5.6 = 3.7."
+          "frase": "9.2 - 3.15 + 1.4 = ___",
+          "respuestaCorrecta": "7.45",
+          "retroalimentacion": "Primero 9.2-3.15=6.05, y luego 6.05+1.4=7.45."
         },
         {
           "tipo": "algoritmo_columnas",
-          "operacion": "resta",
+          "operacion": "suma",
           "filas": [
             {
-              "valor": "6.2"
+              "valor": "8.50"
             },
             {
-              "valor": "3.7",
+              "valor": "2.30",
+              "signo": "+"
+            },
+            {
+              "valor": "4.15",
               "signo": "-"
             },
             {
-              "valor": "2.5",
+              "valor": "6.65",
               "esResultado": true
             }
           ],
           "ocultos": [
             [],
             [],
+            [],
             [
               0,
-              2
+              2,
+              3
             ]
           ],
-          "retroalimentacion": "6.2 - 3.7 = 2.5: se pide prestado en los décimos (12-7=5) y luego 6-1-3=2 en las unidades."
+          "retroalimentacion": "8.50 + 2.30 - 4.15: primero 8.50+2.30=10.80, luego 10.80-4.15=6.65."
         },
         {
           "tipo": "algoritmo_columnas",
-          "operacion": "resta",
+          "operacion": "suma",
           "filas": [
             {
-              "valor": "8.1"
+              "valor": "9.20"
             },
             {
-              "valor": "2.4",
+              "valor": "3.15",
               "signo": "-"
             },
             {
-              "valor": "5.7",
+              "valor": "1.40",
+              "signo": "+"
+            },
+            {
+              "valor": "7.45",
               "esResultado": true
             }
           ],
@@ -99,11 +111,148 @@
             [
               2
             ],
+            [
+              3
+            ],
             []
           ],
-          "retroalimentacion": "8.1 - 2.4 = 5.7: se pide prestado en los décimos (11-4=7) y en unidades 8-1-2=5."
+          "retroalimentacion": "9.20 - 3.15 + 1.40: primero 9.20-3.15=6.05, luego 6.05+1.40=7.45."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Paulina tenía $85.50, gastó $12.35 en un boleto y su tía le regaló $6.20 más. ¿Cuánto dinero tiene ahora?",
+          "opciones": [
+            "$79.35",
+            "$79.25",
+            "$78.35",
+            "$91.85"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Primero 85.50-12.35=73.15, y luego 73.15+6.20=79.35, entonces le quedan $79.35."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si al sumar $3.20 más $1.50 alguien acomoda mal el punto decimal y trata al 3.20 como si fuera 320, el resultado que obtiene sigue siendo correcto.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: si no se alinea el punto decimal, las cifras quedan en la columna equivocada y el resultado sale mal. Siempre hay que alinear unidades con unidades, décimos con décimos, etc."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Camila quiere ahorrar $20.00. Ya lleva ahorrados $12.50 y esta semana agrega $4.75 más. Le faltan ___ pesos para completar los $20.00.",
+          "respuestaCorrecta": "2.75",
+          "retroalimentacion": "12.50 + 4.75 = 17.25 ahorrados; 20.00 - 17.25 = 2.75, así que le faltan $2.75."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada operación de dinero con su resultado correcto.",
+          "columnaA": [
+            "$6.40 + $3.85 - $2.10",
+            "$10.00 - $4.25 + $1.50",
+            "$7.30 - $1.15 - $2.40",
+            "$5.60 + $0.75 - $3.20"
+          ],
+          "columnaB": [
+            "$8.15",
+            "$7.25",
+            "$3.75",
+            "$3.15",
+            "$4.15"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "retroalimentacion": "6.40+3.85-2.10=8.15, 10.00-4.25+1.50=7.25, 7.30-1.15-2.40=3.75 y 5.60+0.75-3.20=3.15."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "85.50"
+            },
+            {
+              "valor": "12.35",
+              "signo": "-"
+            },
+            {
+              "valor": "06.20",
+              "signo": "+"
+            },
+            {
+              "valor": "79.35",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [],
+            [],
+            [
+              0,
+              1,
+              3,
+              4
+            ]
+          ],
+          "retroalimentacion": "85.50 - 12.35 + 6.20: primero 85.50-12.35=73.15, luego 73.15+6.20=79.35."
         }
       ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Un tinaco tiene 45.6 L. Se usan 8.75 L en la mañana, se agregan 12.3 L al mediodía y se usan 6.05 L en la tarde. ¿Cuántos litros quedan?",
+      "opciones": [
+        "43.1 L",
+        "43.2 L",
+        "42.1 L",
+        "44.1 L"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "45.6-8.75=36.85; 36.85+12.3=49.15; 49.15-6.05=43.10 litros."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "23.5 + 8.75 - 14.6 = ___",
+      "respuestaCorrecta": "17.65",
+      "retroalimentacion": "23.5+8.75=32.25; 32.25-14.6=17.65."
+    },
+    {
+      "tipo": "algoritmo_columnas",
+      "operacion": "suma",
+      "filas": [
+        {
+          "valor": "34.60"
+        },
+        {
+          "valor": "05.75",
+          "signo": "+"
+        },
+        {
+          "valor": "12.35",
+          "signo": "-"
+        },
+        {
+          "valor": "28.00",
+          "esResultado": true
+        }
+      ],
+      "ocultos": [
+        [],
+        [],
+        [],
+        [
+          0,
+          1,
+          3,
+          4
+        ]
+      ],
+      "retroalimentacion": "34.60+5.75=40.35; 40.35-12.35=28.00."
     }
   ]
 }

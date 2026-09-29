@@ -1,72 +1,116 @@
 {
   "id": "OB-25-03",
   "grado": "Operaciones Básicas",
-  "numero": 195,
+  "numero": 99,
   "categoria": "mult_div",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Estimación antes de multiplicar y dividir — Momento 3/8",
+  "titulo": "Estimación antes de multiplicar y dividir — Módulo 3/4",
   "contenido": "Estimación del resultado de una multiplicación o división mediante redondeo, para verificar si un cálculo exacto es razonable.",
   "pda": "Estima el resultado de multiplicaciones y divisiones mediante redondeo y lo usa para verificar la razonabilidad de un cálculo.",
   "problematizacion": {
-    "contexto": "El entrenador de un equipo de beisbol juvenil inscribió a 213 niños en la liga municipal y quiere formar equipos de 9 integrantes cada uno antes de organizar los entrenamientos.",
-    "pregunta": "Usando un número compatible cercano a 213 que se divida exacto entre 9, ¿aproximadamente cuántos equipos completos se podrían formar?"
+    "contexto": "En una papelería, la dueña anota a mano las cuentas de sus clientes antes de cobrar, para revisar rápidamente si el total le cuadra antes de usar la calculadora.\n\nEn el mercado, doña Lupe vende papa a $14.30 el kilo. Un cliente quiere comprar 7 kilos y doña Lupe calcula rápido cuánto cobrar, sin usar calculadora.",
+    "pregunta": "Si un cliente compró 8 cuadernos de $47 cada uno y la dueña anotó un total de $376, ¿la estimación 8 × 50 = 400 confirma que el cobro es razonable? Además: redondeando $14.30 al peso entero más cercano, ¿aproximadamente cuánto debe cobrar doña Lupe por los 7 kilos de papa?"
   },
   "subtemas": [
     {
       "numero": "25.3",
-      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
-      "titulo": "Números compatibles para estimar una división",
-      "explicacion": "Para estimar una división, redondear el dividendo a la decena o centena más cercana no siempre funciona, porque el resultado podría no salir exacto y complicarse. En su lugar usamos 'números compatibles': un número cercano al dividendo original que SÍ se pueda dividir exactamente entre el divisor. Buscar ese número compatible requiere pensar en las tablas de multiplicar del divisor y elegir el múltiplo más cercano al número real. Esta estrategia te da una estimación clara y fácil de calcular mentalmente.",
-      "formula": "estimación ≈ (número compatible) ÷ divisor",
+      "nivelEtiqueta": "Nivel 3 de 4 · Avanzado",
+      "titulo": "Usa la estimación para revisar si un cálculo es razonable y Estima multiplicaciones y divisiones con decimales",
+      "explicacion": "Estimar no solo sirve para calcular rápido: también sirve para VERIFICAR si un resultado que ya calculaste (o que alguien más calculó) tiene sentido. Si tu estimación está cerca del resultado exacto, es una señal de que el cálculo probablemente está bien. Pero si la estimación está muy lejos del resultado —por ejemplo, si sobra o falta un cero, o el punto decimal está mal puesto—, es una señal clara de que hay un error. En este momento vas a comparar resultados ya calculados contra su estimación para decidir si son razonables.\n\nEn la vida diaria, muchas cantidades vienen en decimales: precios, medidas de peso o distancias. Para estimar con decimales, primero redondeamos el número decimal al entero más cercano (por ejemplo, $18.75 se redondea a $19) y después hacemos la multiplicación o división con esos números enteros, que son más fáciles de manejar mentalmente. Esta estrategia es muy útil cuando vas al mercado o revisas un ticket de compra.",
+      "formula": "si |resultado exacto − estimación| es pequeño, el resultado es razonable; estimación ≈ (decimal redondeado al entero) × factor · o ÷ divisor",
       "ejemplos": [
-        "Para estimar 182 ÷ 6: buscamos un múltiplo de 6 cercano a 182; 180 es múltiplo de 6 (6 × 30 = 180), así que la estimación es 180 ÷ 6 = 30.",
-        "Para estimar 356 ÷ 9: el múltiplo de 9 más cercano es 360 (9 × 40 = 360), así que la estimación es 360 ÷ 9 = 40."
+        "Un alumno calculó 68 × 41 = 2788. Al estimar 70 × 40 = 2800, la diferencia es pequeña (solo 12), así que el resultado es razonable.",
+        "Un alumno calculó 9 × 213 y escribió 19170. Al estimar 9 × 200 = 1800, la diferencia es enorme, así que el resultado tiene un error: probablemente sobra un cero.",
+        "Para estimar 4 × $18.75: redondeamos 18.75 a 19 y calculamos 4 × 19 = 76. El resultado exacto es 75, muy cercano.",
+        "Para estimar 24.8 ÷ 5: redondeamos 24.8 a 25 y calculamos 25 ÷ 5 = 5."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "Para estimar 182 ÷ 6, buscamos un número compatible cercano a 182 que se divida exacto entre 6. ¿Cuál conviene usar?",
+          "pregunta": "Un alumno calculó 68 × 41 y obtuvo 2788. Al estimar redondeando (70 × 40 = 2800), ¿qué puedes concluir?",
           "opciones": [
-            "180",
-            "175",
-            "190",
-            "200"
+            "El resultado es razonable, porque 2788 está muy cerca de la estimación 2800",
+            "El resultado es incorrecto porque no es un número par",
+            "El resultado es razonable porque 2788 es menor que 2800",
+            "El resultado es incorrecto porque le falta un cero"
           ],
           "respuestaCorrecta": 0,
-          "retroalimentacion": "180 es múltiplo de 6 (6 × 30 = 180) y está muy cerca de 182, así que 180 ÷ 6 = 30 es una buena estimación."
-        },
-        {
-          "tipo": "llenar_frase",
-          "frase": "Para estimar 243 ÷ 8, usamos el número compatible 240 (cercano a 243) porque se divide exacto: 240 ÷ 8 = ___.",
-          "respuestaCorrecta": "30",
-          "retroalimentacion": "240 ÷ 8 = 30. El resultado exacto de 243 ÷ 8 es 30.375, muy cerca de la estimación."
+          "retroalimentacion": "2788 y 2800 están muy cerca (diferencia de solo 12), así que el resultado exacto es razonable."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "Para estimar 356 ÷ 9, Marisol usó el número compatible 360 y calculó 360 ÷ 9 = 40. Verdadero o falso: 40 es una buena estimación de 356 ÷ 9.",
+          "enunciado": "Un cajero calculó que 7 × 812 = 5684, y al estimar obtuvo 7 × 800 = 5600. Verdadero o falso: el resultado 5684 es razonable comparado con la estimación.",
           "respuestaCorrecta": true,
-          "retroalimentacion": "Verdadero. El resultado exacto de 356 ÷ 9 es aproximadamente 39.6, muy cercano a 40."
+          "retroalimentacion": "Verdadero. La diferencia entre 5684 y 5600 es de solo 84, así que el resultado es razonable."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuál número compatible conviene usar para estimar 271 ÷ 9?",
+          "pregunta": "Un alumno calculó 9 × 213 y escribió el resultado 19170. Al estimar (9 × 200 = 1800), ¿qué indica esto?",
           "opciones": [
-            "270",
-            "265",
-            "280",
-            "300"
+            "El resultado tiene un error: probablemente sobra un cero (se corrió una posición)",
+            "El resultado es correcto porque es un número grande",
+            "La estimación está mal, no el resultado",
+            "No se puede saber nada con la estimación"
           ],
           "respuestaCorrecta": 0,
-          "retroalimentacion": "270 es múltiplo de 9 (9 × 30 = 270) y es el más cercano a 271, así que la estimación es 30."
+          "retroalimentacion": "El resultado real de 9 × 213 es 1917. El alumno escribió 19170, diez veces más grande: le sobra un cero."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "Para estimar 415 ÷ 7, el número compatible más cercano es 420, porque 420 ÷ 7 = ___.",
-          "respuestaCorrecta": "60",
-          "retroalimentacion": "420 ÷ 7 = 60. El resultado exacto de 415 ÷ 7 es aproximadamente 59.3, muy cerca de la estimación."
+          "frase": "Un técnico calculó 936 ÷ 4 y anotó 23.4 en su libreta. Al estimar con el compatible 960 ÷ 4 = 240, se nota un error grande. El resultado correcto de 936 ÷ 4 es ___.",
+          "respuestaCorrecta": "234",
+          "retroalimentacion": "936 ÷ 4 = 234. El técnico se equivocó al poner el punto decimal: escribió 23.4 en vez de 234."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una tienda calculó que 52 × 19 = 988. Al estimar (50 × 20 = 1000), ¿el resultado 988 es razonable?",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Verdadero. La diferencia entre 988 y 1000 es de solo 12, así que el resultado es razonable."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Para estimar 4 × $18.75, se redondea $18.75 al peso más cercano ($19). ¿Cuál es la estimación?",
+          "opciones": [
+            "72",
+            "76",
+            "80",
+            "68"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "4 × 19 = 76. El resultado exacto de 4 × 18.75 es 75, muy cerca de la estimación."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Para estimar 6 × $12.40, redondeamos $12.40 al peso más cercano ($12) y calculamos: 6 × 12 = ___.",
+          "respuestaCorrecta": "72",
+          "retroalimentacion": "6 × 12 = 72. El resultado exacto de 6 × 12.40 es 74.40, cercano a la estimación."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Para estimar 24.8 ÷ 5, Rocío redondeó 24.8 a 25 y calculó 25 ÷ 5 = 5. Verdadero o falso: 5 es una buena estimación de 24.8 ÷ 5.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Verdadero. El resultado exacto de 24.8 ÷ 5 es 4.96, muy cerca de 5."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la mejor estimación de 3 × $45.60, redondeando al peso entero más cercano?",
+          "opciones": [
+            "120",
+            "138",
+            "150",
+            "130"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "45.60 se redondea a 46, y 3 × 46 = 138. El resultado exacto es 136.80."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Para estimar 39.5 ÷ 4, redondeamos 39.5 a 40 y calculamos: 40 ÷ 4 = ___.",
+          "respuestaCorrecta": "10",
+          "retroalimentacion": "40 ÷ 4 = 10. El resultado exacto de 39.5 ÷ 4 es 9.875, muy cerca de la estimación."
         }
       ]
     }

@@ -5,27 +5,102 @@
   "categoria": "suma_resta",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Suma y resta de naturales sin llevar — Momento 3/8",
+  "titulo": "Suma y resta de naturales sin llevar — Módulo 3/4",
   "contenido": "Suma y resta de números naturales cuando ninguna columna requiere acarreo ni préstamo.",
   "pda": "Resuelve sumas y restas de números naturales identificando el valor posicional de cada cifra, sin necesidad de acarreo ni préstamo.",
   "problematizacion": {
-    "contexto": "Don Efraín tiene un puesto de verduras en el mercado sobre ruedas. El lunes acomodó 123 kilos de tomate en su primer pedido y el miércoles le llegaron 245 kilos más para reponer lo que se había vendido.",
-    "pregunta": "¿Cuántos kilos de tomate ha recibido Don Efraín en total si suma 123 y 245 columna por columna, sin que ninguna columna llegue a 10?"
+    "contexto": "Itzel guarda su domingo en una alcancía. En enero metió 214 pesos y en febrero, con lo que le sobró de la feria del pueblo, metió 165 pesos más. Quiere saber cuánto lleva ahorrado para comprarse unos tenis.\n\nEn la miscelánea 'La Esquina', el señor Gómez recibió tres cajas de refrescos en la misma semana: una con 123 botellas, otra con 215 y una tercera con 341. Antes de acomodarlas en el refrigerador quiere saber cuántas botellas tiene en total.",
+    "pregunta": "¿Itzel debe sumar o restar 214 y 165 para saber cuánto dinero ha ahorrado en total? Además: ¿Cuántas botellas recibió en total el señor Gómez si suma las tres cajas (123, 215 y 341) al mismo tiempo, columna por columna?"
   },
   "subtemas": [
     {
       "numero": "1.3",
-      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
-      "titulo": "Sumar centenas, decenas y unidades en números de tres cifras",
-      "explicacion": "Ahora los números tienen tres cifras: centenas, decenas y unidades. La forma de sumar no cambia, solo se agrega una columna más a la izquierda. Se acomodan los números en su lugar (centenas debajo de centenas, decenas debajo de decenas, unidades debajo de unidades) y se suma cada columna por separado, siempre y cuando ninguna columna sume 10 o más.",
-      "formula": "centenas + centenas, decenas + decenas, unidades + unidades",
+      "nivelEtiqueta": "Nivel 3 de 4 · Avanzado",
+      "titulo": "Elegir si un problema se resuelve con suma o con resta y Sumar tres números a la vez y números de cuatro cifras",
+      "explicacion": "En la vida diaria no siempre dice 'suma esto' o 'resta esto': hay que leer la situación y decidir qué operación conviene. Si se juntan o se agregan cantidades, se suma; si se quita, se gasta o se reparte una parte, se resta. En este momento seguimos trabajando con números de tres cifras sin llevar ni pedir prestado, pero ahora el reto es identificar la operación correcta antes de calcular.\n\nHasta ahora sumaste solo dos números; en este momento subes un peldaño: sumarás tres números al mismo tiempo, y también aparecerán números de cuatro cifras (unidades de millar). La regla no cambia: se acomodan las cifras del mismo valor posicional en la misma columna y se suma todo lo de esa columna de una sola vez, siempre que el total de la columna no llegue a 10.",
+      "formula": "suma de varias columnas a la vez, sin que ninguna pase de 9",
       "ejemplos": [
-        "123 + 245: unidades 3+5=8, decenas 2+4=6, centenas 1+2=3 → 368",
-        "312 + 456: unidades 2+6=8, decenas 1+5=6, centenas 3+4=7 → 768"
+        "Si Itzel ahorra 214 pesos y luego 165 más, se suma: 214 + 165 = 379",
+        "Si un puesto tenía 385 mangos y vendió 143, se resta: 385 - 143 = 242",
+        "123 + 215 + 341: unidades 3+5+1=9, decenas 2+1+4=7, centenas 1+2+3=6 → 679",
+        "1203 + 2145: unidades 3+5=8, decenas 0+4=4, centenas 2+1=3, millares 1+2=3 → 3348"
       ],
-      "puntosPorReactivo": 12,
+      "puntosPorReactivo": 14,
       "estrellasMax": 3,
       "reactivos": [
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "342",
+              "signo": "+"
+            },
+            {
+              "valor": "156",
+              "signo": "+"
+            },
+            {
+              "valor": "498",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [
+              1
+            ],
+            []
+          ],
+          "retroalimentacion": "342 + 156 = 498: unidades 2+6=8, decenas 4+5=9, centenas 3+1=4. Ninguna columna llega a 10."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un puesto de frutas tenía 385 mangos y vendió 143. ¿Cuántos mangos le quedan?",
+          "opciones": [
+            "528",
+            "232",
+            "252",
+            "242"
+          ],
+          "respuestaCorrecta": 3,
+          "retroalimentacion": "Como se venden mangos, se resta: 385 - 143 = 242 (unidades 5-3=2, decenas 8-4=4, centenas 3-1=2)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si Marisol ahorró 214 pesos en enero y 165 en febrero, en total ahorró 379 pesos.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Es verdadero: como se junta lo ahorrado, se suma. 214 + 165 = 379 (unidades 4+5=9, decenas 1+6=7, centenas 2+1=3)."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un autobús llevaba 468 pasajeros y bajaron 236 en una parada; ahora lleva ___ pasajeros.",
+          "respuestaCorrecta": "232",
+          "retroalimentacion": "Como los pasajeros bajan, se resta: 468 - 236 = 232 (unidades 8-6=2, decenas 6-3=3, centenas 4-2=2)."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada operación con su resultado correcto.",
+          "columnaA": [
+            "253 + 134",
+            "576 - 322",
+            "410 + 287"
+          ],
+          "columnaB": [
+            "387",
+            "254",
+            "697",
+            "512"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "253+134=387, 576-322=254 y 410+287=697, calculando cada columna sin llevar ni pedir prestado."
+        },
         {
           "tipo": "algoritmo_columnas",
           "operacion": "suma",
@@ -35,11 +110,15 @@
               "signo": "+"
             },
             {
-              "valor": "245",
+              "valor": "215",
               "signo": "+"
             },
             {
-              "valor": "368",
+              "valor": "341",
+              "signo": "+"
+            },
+            {
+              "valor": "679",
               "esResultado": true
             }
           ],
@@ -48,56 +127,59 @@
               0
             ],
             [
+              1
+            ],
+            [
               2
             ],
             []
           ],
-          "retroalimentacion": "123 + 245 = 368: unidades 3+5=8, decenas 2+4=6, centenas 1+2=3. Ninguna columna llega a 10."
+          "retroalimentacion": "123 + 215 + 341 = 679: unidades 3+5+1=9, decenas 2+1+4=7, centenas 1+2+3=6. Ninguna columna llega a 10."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuál es el resultado de 312 + 456?",
+          "pregunta": "¿Cuál es el resultado de 1203 + 2145?",
           "opciones": [
-            "768",
-            "878",
-            "758",
-            "668"
+            "3448",
+            "3338",
+            "3358",
+            "3348"
           ],
-          "respuestaCorrecta": 0,
-          "retroalimentacion": "312 + 456 = 768. Unidades 2+6=8, decenas 1+5=6, centenas 3+4=7."
+          "respuestaCorrecta": 3,
+          "retroalimentacion": "1203 + 2145 = 3348. Unidades 3+5=8, decenas 0+4=4, centenas 2+1=3, millares 1+2=3."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "234 + 512 = 746",
+          "enunciado": "231 + 342 + 116 = 689",
           "respuestaCorrecta": true,
-          "retroalimentacion": "Es verdadero. Unidades 4+2=6, decenas 3+1=4, centenas 2+5=7 → 746."
+          "retroalimentacion": "Es verdadero. Unidades 1+2+6=9, decenas 3+4+1=8, centenas 2+3+1=6 → 689."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "150 + ___ = 380",
-          "respuestaCorrecta": "230",
-          "retroalimentacion": "380 - 150 = 230. Comprobación: 150 + 230: unidades 0+0=0, decenas 5+3=8, centenas 1+2=3 → 380."
+          "frase": "310 + 220 + ___ = 649",
+          "respuestaCorrecta": "119",
+          "retroalimentacion": "310 + 220 = 530; 649 - 530 = 119. Comprobación: unidades 0+0+9=9, decenas 1+2+1=4, centenas 3+2+1=6 → 649."
         },
         {
           "tipo": "relacionar_columnas",
-          "instruccion": "Relaciona cada suma de tres cifras con su resultado.",
+          "instruccion": "Relaciona cada suma con su resultado correcto.",
           "columnaA": [
-            "121 + 335",
-            "203 + 146",
-            "410 + 280"
+            "112 + 213 + 341",
+            "2032 + 1345",
+            "121 + 214 + 352"
           ],
           "columnaB": [
-            "456",
-            "349",
-            "690",
-            "512"
+            "666",
+            "3377",
+            "687",
+            "759"
           ],
           "parejasCorrectas": [
             0,
             1,
             2
           ],
-          "retroalimentacion": "121+335=456, 203+146=349 y 410+280=690, sumando cada columna por separado."
+          "retroalimentacion": "112+213+341=666, 2032+1345=3377 y 121+214+352=687, sumando cada columna a la vez."
         }
       ]
     }

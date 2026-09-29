@@ -1,68 +1,94 @@
 {
   "id": "OB-05-03",
   "grado": "Operaciones Básicas",
-  "numero": 35,
+  "numero": 19,
   "categoria": "suma_resta",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Suma y resta de decimales alineando el punto — Momento 3/8",
+  "titulo": "Suma y resta de decimales alineando el punto — Módulo 3/4",
   "contenido": "Suma y resta de números decimales, cuidando alinear el punto decimal antes de operar columna por columna.",
   "pda": "Suma y resta números decimales alineando correctamente el punto decimal, relacionando el procedimiento con el de los números naturales.",
   "problematizacion": {
-    "contexto": "Diego entrena atletismo por las tardes en una pista de Guadalajara. El sábado corrió 7.8 km y el domingo corrió 3.5 km, un poco menos porque le dolía una rodilla.",
-    "pregunta": "¿Cuántos kilómetros más corrió Diego el sábado que el domingo?"
+    "contexto": "En una tienda de abarrotes de Guanajuato, Mariana compra 4.3 kg de frijol y 2.15 kg de lenteja para la despensa de la semana.\n\nEl carpintero Tomás mide una tabla de 5.4 m de largo para armar un librero. Antes de cortarla, marca que debe descontar 2.35 m que usará para otro mueble que le encargaron.",
+    "pregunta": "¿Cuántos kilogramos de granos compró Mariana en total? Además: ¿Cuántos metros de tabla le quedarán a Tomás después de ese corte?"
   },
   "subtemas": [
     {
       "numero": "5.3",
-      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
-      "titulo": "Restar decimales sin pedir prestado",
-      "explicacion": "Para restar decimales se alinea el punto igual que en la suma, y se resta columna por columna de derecha a izquierda. Cuando en cada columna el dígito de arriba es mayor o igual que el de abajo, no hace falta pedir prestado, igual que en la resta de números naturales.",
-      "formula": "Alinea el punto → resta columna por columna cuando el de arriba es mayor",
+      "nivelEtiqueta": "Nivel 3 de 4 · Avanzado",
+      "titulo": "Sumar decimales con distinta cantidad de cifras y Restar decimales con distinta cantidad de cifras",
+      "explicacion": "A veces un número decimal tiene más cifras después del punto que el otro; por ejemplo, 4.3 y 2.15. Para alinear el punto correctamente, se completa con un cero a la derecha del número más corto (4.30) sin cambiar su valor, y así ambos números quedan con la misma cantidad de cifras decimales antes de sumar columna por columna.\n\nIgual que en la suma, si los números tienen distinta cantidad de cifras decimales hay que completar con ceros antes de restar. Por ejemplo, 5.4 se escribe como 5.40 para poder restarle 2.35 columna por columna, incluso si hace falta pedir prestado en alguna de las columnas.",
+      "formula": "Completa con ceros a la derecha para igualar las cifras decimales, luego suma; Completa con ceros a la derecha, alinea el punto y resta pidiendo prestado si hace falta",
       "ejemplos": [
-        "7.8 - 3.5: 8-5=3 en los décimos, 7-3=4 en las unidades; resultado 4.3",
-        "9.6 - 4.2 = 5.4 porque 6-2=4 y 9-4=5"
+        "4.3 + 2.15: se escribe 4.3 como 4.30; 0+5=5 centésimos, 3+1=4 décimos, 4+2=6 unidades; resultado 6.45",
+        "1.6 + 0.25 = 1.85, completando 1.6 como 1.60 antes de sumar",
+        "5.4 - 2.35: se escribe 5.40; se pide prestado en centésimos y décimos; resultado 3.05",
+        "6.2 - 1.75 = 4.45, completando 6.2 como 6.20 antes de restar"
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "Resta alineando el punto: 7.8 - 3.5 = ?",
+          "pregunta": "Suma completando con cero: 4.3 + 2.15 = ?",
           "opciones": [
-            "4.3",
-            "4.4",
-            "43",
-            "3.4"
+            "6.45",
+            "6.35",
+            "6.18",
+            "24.5"
           ],
           "respuestaCorrecta": 0,
-          "retroalimentacion": "Alineando el punto: 8-5=3 en los décimos y 7-3=4 en las unidades, entonces 7.8 - 3.5 = 4.3."
+          "retroalimentacion": "4.3 se completa como 4.30: 0+5=5 centésimos, 3+1=4 décimos, 4+2=6 unidades, entonces 4.3 + 2.15 = 6.45."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "9.6 - 4.2 = 5.4",
+          "enunciado": "1.6 + 0.25 = 1.85",
           "respuestaCorrecta": true,
-          "retroalimentacion": "Correcto: 6-2=4 en los décimos y 9-4=5 en las unidades, entonces 9.6 - 4.2 = 5.4."
+          "retroalimentacion": "Correcto: 1.6 se completa como 1.60; 0+5=5, 6+2=8, 1+0=1, entonces 1.6 + 0.25 = 1.85."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "8.9 - 6.3 = ___",
-          "respuestaCorrecta": "2.6",
-          "retroalimentacion": "9-3=6 en los décimos y 8-6=2 en las unidades, entonces 8.9 - 6.3 = 2.6."
+          "frase": "3.7 + 1.24 = ___",
+          "respuestaCorrecta": "4.94",
+          "retroalimentacion": "3.7 se completa como 3.70: 0+4=4 centésimos, 7+2=9 décimos, 3+1=4 unidades, entonces 3.7 + 1.24 = 4.94."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada suma con su resultado correcto.",
+          "columnaA": [
+            "2.5 + 0.36",
+            "4.1 + 2.05",
+            "0.8 + 1.15",
+            "3.4 + 2.6"
+          ],
+          "columnaB": [
+            "1.95",
+            "6.15",
+            "2.86",
+            "6.00",
+            "5.95"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0,
+            3
+          ],
+          "retroalimentacion": "2.5+0.36=2.86, 4.1+2.05=6.15, 0.8+1.15=1.95 y 3.4+2.6=6.00 (ambos con un decimal, sin necesidad de completar con cero)."
         },
         {
           "tipo": "algoritmo_columnas",
-          "operacion": "resta",
+          "operacion": "suma",
           "filas": [
             {
-              "valor": "7.8"
+              "valor": "4.30"
             },
             {
-              "valor": "3.5",
-              "signo": "-"
+              "valor": "2.15",
+              "signo": "+"
             },
             {
-              "valor": "4.3",
+              "valor": "6.45",
               "esResultado": true
             }
           ],
@@ -71,37 +97,86 @@
             [],
             [
               0,
-              2
+              2,
+              3
             ]
           ],
-          "retroalimentacion": "7.8 - 3.5 = 4.3: como en cada columna el de arriba es mayor, no hace falta pedir prestado."
+          "retroalimentacion": "4.3 se escribe como 4.30 para alinear los centésimos: 0+5=5, 3+1=4, 4+2=6, entonces 4.30 + 2.15 = 6.45."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Resta completando con cero: 5.4 - 2.35 = ?",
+          "opciones": [
+            "3.05",
+            "3.15",
+            "2.95",
+            "3.5"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "5.4 se completa como 5.40: en los centésimos se pide prestado (10-5=5), en décimos 3-3=0 (tras prestar), en unidades 5-2=3, entonces 5.4 - 2.35 = 3.05."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "6.2 - 1.75 = 4.45",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 6.2 se completa como 6.20; pidiendo prestado en centésimos y décimos, 6.20 - 1.75 = 4.45."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "8.5 - 3.62 = ___",
+          "respuestaCorrecta": "4.88",
+          "retroalimentacion": "8.5 se completa como 8.50; pidiendo prestado, 8.50 - 3.62 = 4.88."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada resta con su resultado correcto.",
+          "columnaA": [
+            "4.6 - 1.25",
+            "7.3 - 2.15",
+            "5.0 - 0.45",
+            "9.4 - 3.6"
+          ],
+          "columnaB": [
+            "5.15",
+            "3.35",
+            "5.8",
+            "4.55",
+            "4.35"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            3,
+            2
+          ],
+          "retroalimentacion": "4.6-1.25=3.35, 7.3-2.15=5.15, 5.0-0.45=4.55 y 9.4-3.6=5.8."
         },
         {
           "tipo": "algoritmo_columnas",
           "operacion": "resta",
           "filas": [
             {
-              "valor": "9.6"
+              "valor": "5.40"
             },
             {
-              "valor": "4.2",
+              "valor": "2.35",
               "signo": "-"
             },
             {
-              "valor": "5.4",
+              "valor": "3.05",
               "esResultado": true
             }
           ],
           "ocultos": [
+            [],
+            [],
             [
-              2
-            ],
-            [
-              0
-            ],
-            []
+              0,
+              2,
+              3
+            ]
           ],
-          "retroalimentacion": "9.6 - 4.2 = 5.4: 6-2=4 en los décimos y 9-4=5 en las unidades."
+          "retroalimentacion": "5.4 se escribe como 5.40; pidiendo prestado en centésimos y décimos, 5.40 - 2.35 = 3.05."
         }
       ]
     }

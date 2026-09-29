@@ -1,97 +1,209 @@
 {
   "id": "OB-12-04",
   "grado": "Operaciones Básicas",
-  "numero": 92,
+  "numero": 48,
   "categoria": "suma_resta",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Suma y resta en la vida cotidiana — Momento 4/8",
+  "titulo": "Suma y resta en la vida cotidiana — Módulo 4/4",
   "contenido": "Suma y resta aplicadas a situaciones cotidianas: dinero, medidas y tiempo.",
   "pda": "Resuelve problemas cotidianos de dinero, medidas y tiempo que requieren sumar o restar números naturales o decimales.",
   "problematizacion": {
-    "contexto": "Don Emilio es carpintero y está construyendo un librero para la biblioteca de la escuela. Necesita unir varios tablones de madera de distintas medidas y también pesar la lámina que va a usar para la base.",
-    "pregunta": "¿Qué operaciones necesita hacer Don Emilio para saber la medida total de los tablones unidos?"
+    "contexto": "Ale es parte del comité que organiza la kermés de la escuela. Tiene que calcular el dinero que se necesita para los materiales, el tiempo que tomará armar los puestos y las distancias que los alumnos deben recorrer para llevar las mesas del almacén al patio.\n\nFernanda y su equipo organizan una venta de garage para juntar fondos para la graduación de tercero. Durante el evento van a llevar el control del dinero, del tiempo que dura cada actividad y de las cosas que se van vendiendo, combinando varias operaciones a la vez.",
+    "pregunta": "Si Ale necesita sumar varios gastos y luego restar un descuento que le dieron en la papelería, ¿qué operaciones está combinando? Además: al final del día, ¿qué operaciones tiene que combinar Fernanda para saber cuánto dinero juntaron en total, considerando gastos y donativos extra?"
   },
   "subtemas": [
     {
       "numero": "12.4",
-      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
-      "titulo": "Sumar y restar medidas con números decimales",
-      "explicacion": "Las medidas de longitud, peso o capacidad casi nunca son números enteros exactos: por eso aparecen los decimales, como 2.5 metros o 1.75 kilogramos. Para sumar o restar decimales hay que alinear el punto decimal, igual que se alinean las unidades, decenas y centenas en los números enteros. Si a una cantidad le faltan cifras decimales, se puede completar con ceros sin que cambie su valor. Este momento agrega el reto de trabajar con decimales sobre lo que ya sabes de suma y resta.",
-      "formula": "Alinea el punto decimal antes de sumar o restar",
+      "nivelEtiqueta": "Nivel 4 de 4 · Integración",
+      "titulo": "Problemas de varios pasos con dinero, medidas y tiempo y Integración final: dinero, medidas y tiempo juntos",
+      "explicacion": "En la vida real, los problemas casi nunca vienen ordenados ni te dicen exactamente qué operación usar: hay que leer con cuidado, identificar los datos y decidir si toca sumar, restar o combinar ambas operaciones en varios pasos. Este momento junta lo que ya sabes de dinero con centavos, medidas decimales y tiempo en horas y minutos, dentro de un mismo problema o de una situación con más de dos datos. La clave es ir resolviendo por partes, en el orden en que ocurren los hechos, sin perder de vista qué unidad estás manejando en cada paso.\n\nEste último momento reúne todo lo que trabajaste en el tema: sumar y restar dinero con centavos, medidas con decimales y tiempo en horas y minutos, a veces dentro del mismo problema. Los retos son más largos y piden combinar varias operaciones seguidas, así que conviene ir anotando los resultados parciales antes de dar la respuesta final. También es momento de verificar tus resultados: revisa si el resultado tiene sentido para la situación, por ejemplo, que el cambio no sea mayor que lo que pagaste. Al terminar este momento habrás repasado a fondo la suma y la resta en situaciones cotidianas de dinero, medidas y tiempo.",
+      "formula": "Lee, identifica los datos, decide la operación de cada paso y resuelve en orden; Verifica cada resultado parcial antes de usarlo en el siguiente paso",
       "ejemplos": [
-        "Un listón mide 3.4 m y le cortan 1.15 m. Quedan: 3.40 − 1.15 = 2.25 metros."
+        "Un taller cobra $220.00 de mano de obra y $95.50 de refacciones, con un descuento de $30.00. Total: 220.00 + 95.50 = 315.50; luego 315.50 − 30.00 = 285.50 pesos.",
+        "Llevas $1,500.00 y gastas $680.25 en un pago y $215.50 en otro. Te quedan: 1500.00 − 680.25 = 819.75; 819.75 − 215.50 = 604.25 pesos."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "Un carpintero une un tablón de 2.5 m con otro de 1.8 m. ¿Cuántos metros mide la unión total?",
+          "pregunta": "Un taller cobra $185.50 por mano de obra más $340.75 por refacciones, pero da un descuento de $60.25. ¿Cuánto paga el cliente en total?",
           "opciones": [
-            "4.3 m",
-            "3.3 m",
-            "4.7 m",
-            "3.7 m"
+            "$466.00",
+            "$526.25",
+            "$405.75",
+            "$486.50"
           ],
           "respuestaCorrecta": 0,
-          "retroalimentacion": "2.5 + 1.8 = 4.3 metros en total."
+          "retroalimentacion": "185.50 + 340.75 = 526.25; 526.25 − 60.25 = 466.00 pesos."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "Si una receta necesita 1.75 kg de harina y ya tienes 0.9 kg, te faltan más de 1 kg.",
+          "enunciado": "Un corredor recorre 3.75 km el lunes, 2.4 km el martes y 5 km el miércoles. Si su meta semanal en esos tres días es de 12 km, la alcanza.",
           "respuestaCorrecta": false,
-          "retroalimentacion": "1.75 − 0.9 = 0.85 kg, y 0.85 no es más de 1 kg."
+          "retroalimentacion": "3.75 + 2.4 + 5 = 11.15 km, y 11.15 no llega a los 12 km de meta."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "Un tinaco tiene 850.5 litros de agua y se usan 275.2 litros para regar el jardín. Quedan ___ litros.",
-          "respuestaCorrecta": "575.3",
-          "retroalimentacion": "850.5 − 275.2 = 575.3 litros restantes."
+          "frase": "Una obra de teatro dura 1 hora 25 minutos en el primer acto y 55 minutos en el segundo acto, con un intermedio de 15 minutos. La función completa dura ___ minutos.",
+          "respuestaCorrecta": "155",
+          "retroalimentacion": "85 + 55 + 15 = 155 minutos en total."
         },
         {
           "tipo": "algoritmo_columnas",
           "operacion": "suma",
           "filas": [
             {
-              "valor": "12.60"
+              "valor": "74.80"
             },
             {
-              "valor": "8.75",
+              "valor": "18.65",
               "signo": "+"
             },
             {
-              "valor": "21.35",
+              "valor": "93.45",
               "esResultado": true
             }
           ],
           "ocultos": [
             [
-              3
+              1
             ],
             [
-              0
+              3
             ],
             [
               0,
               4
             ]
           ],
-          "retroalimentacion": "12.60 + 8.75 = 21.35 metros de tablón en total, alineando décimas y centésimas."
+          "retroalimentacion": "74.80 + 18.65 = 93.45 kilogramos en total."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada operación con su resultado correcto.",
+          "columnaA": [
+            "$620.00 − $145.50",
+            "3.8 m + 2.65 m",
+            "4:20 + 1:50"
+          ],
+          "columnaB": [
+            "6.45",
+            "$474.50",
+            "6:10",
+            "5:70"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            2
+          ],
+          "retroalimentacion": "620.00 − 145.50 = 474.50; 3.8 + 2.65 = 6.45; 4:20 + 1:50 = 6:10 (5:70 no existe porque los minutos no llegan a 60)."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "Un costal de arroz pesa 3.2 kg y el de frijol pesa 1.65 kg menos. ¿Cuánto pesa el costal de frijol?",
+          "pregunta": "Una familia lleva $2,000.00 en un viaje y gasta $850.40 en gasolina, $320.00 en casetas y $475.60 en comida. ¿Cuánto dinero les queda?",
           "opciones": [
-            "1.55 kg",
-            "1.65 kg",
-            "1.45 kg",
-            "4.85 kg"
+            "$354.00",
+            "$364.00",
+            "$344.00",
+            "$354.60"
           ],
           "respuestaCorrecta": 0,
-          "retroalimentacion": "3.2 − 1.65 = 1.55 kg pesa el costal de frijol."
+          "retroalimentacion": "850.40 + 320.00 + 475.60 = 1646.00; 2000.00 − 1646.00 = 354.00 pesos."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una maratonista corre 8.3 km, descansa, y corre 6.75 km más. En total recorrió más de 15 km.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "8.3 + 6.75 = 15.05 km, y 15.05 sí es más de 15 km."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un evento comienza a las 5:30 pm, la ceremonia dura 1 hora 40 minutos y la cena 55 minutos más. El evento termina a las ___.",
+          "respuestaCorrecta": "8:05 pm",
+          "retroalimentacion": "5:30 pm + 1:40 = 7:10 pm; 7:10 pm + 0:55 = 8:05 pm."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "resta",
+          "filas": [
+            {
+              "valor": "156.25"
+            },
+            {
+              "valor": "78.60",
+              "signo": "-"
+            },
+            {
+              "valor": "77.65",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              1
+            ]
+          ],
+          "retroalimentacion": "156.25 − 78.60 = 77.65, pidiendo prestado en las centenas/decenas y en las décimas."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación combinada con su resultado final.",
+          "columnaA": [
+            "$1,240.00 − ($380.50 + $275.25)",
+            "12.6 m − (4.85 m + 3.4 m)",
+            "6:15 + (2:50 − 1:05)"
+          ],
+          "columnaB": [
+            "4.35",
+            "$584.25",
+            "8:00",
+            "7:45"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            2
+          ],
+          "retroalimentacion": "380.50 + 275.25 = 655.75, y 1240.00 − 655.75 = 584.25. 4.85 + 3.4 = 8.25, y 12.6 − 8.25 = 4.35. 2:50 − 1:05 = 1:45, y 6:15 + 1:45 = 8:00."
         }
       ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Una familia ahorra $1,850.00 para un viaje. Gastan $980.75 en pasajes y $325.40 en hospedaje, pero les regalan $150.00 extra. ¿Cuánto dinero les queda?",
+      "opciones": [
+        "$693.85",
+        "$543.85",
+        "$719.25",
+        "$693.25"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "1850.00 − 980.75 = 869.25; 869.25 − 325.40 = 543.85; 543.85 + 150.00 = 693.85 pesos."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Un ciclista recorre 15.5 km el sábado y 12.75 km el domingo. La semana anterior había recorrido 30 km en dos días; esta semana recorrió más.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "15.5 + 12.75 = 28.25 km, y 28.25 es menos que los 30 km de la semana anterior."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Una fiesta infantil comienza a las 4:00 pm. La comida dura 45 minutos, los juegos 1 hora 20 minutos y el pastel 25 minutos. La fiesta termina a las ___.",
+      "respuestaCorrecta": "6:30 pm",
+      "retroalimentacion": "45 + 80 + 25 = 150 minutos = 2 horas 30 minutos; 4:00 pm + 2:30 = 6:30 pm."
     }
   ]
 }

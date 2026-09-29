@@ -1,87 +1,146 @@
 {
   "id": "OB-07-03",
   "grado": "Operaciones Básicas",
-  "numero": 51,
+  "numero": 27,
   "categoria": "suma_resta",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Suma y resta de fracciones con el mismo denominador — Momento 3/8",
+  "titulo": "Suma y resta de fracciones con el mismo denominador — Módulo 3/4",
   "contenido": "Suma y resta de fracciones homogéneas (mismo denominador), sumando o restando solo los numeradores.",
   "pda": "Suma y resta fracciones con el mismo denominador, comprendiendo por qué el denominador no cambia en la operación.",
   "problematizacion": {
-    "contexto": "En un entrenamiento de futbol en Monterrey, el técnico dividió la cancha en 12 franjas iguales para un ejercicio de resistencia. Los defensas trotaron 9 franjas y después caminaron 3 franjas para descansar, siempre sobre esa misma cancha dividida en 12.",
-    "pregunta": "¿Qué fracción simplificada de la cancha recorrieron trotando más que caminando?"
+    "contexto": "Un camión repartidor en Tijuana usa como referencia un tanque de gasolina dividido en 6 partes iguales para calcular su rendimiento. En la ruta de la mañana gastó 5/6 de ese tanque de referencia, y en la ruta de la tarde gastó 4/6 más, siempre respecto al mismo tanque lleno.\n\nKarla ahorra monedas en un frasco y divide su meta semanal en 10 partes iguales para llevar el control. El lunes guardó 3 partes, el miércoles guardó 4 partes más, y el viernes sacó 2 partes para comprar un cuaderno, siempre sobre esa misma meta dividida en 10.",
+    "pregunta": "¿Cuántos tanques completos, expresados como número mixto, gastó el camión entre las dos rutas? Además: ¿Qué fracción de su meta semanal le quedó ahorrada en el frasco al final de la semana?"
   },
   "subtemas": [
     {
       "numero": "7.3",
-      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
-      "titulo": "Simplifica el resultado de la suma o resta",
-      "explicacion": "Después de sumar o restar los numeradores, a veces el resultado se puede simplificar: si el numerador y el denominador comparten un divisor común (distinto de 1), se dividen ambos entre ese número para dejar la fracción en su forma más simple. Simplificar no cambia el valor de la fracción, solo la expresa con números más pequeños y fáciles de comparar. A partir de este momento, siempre debes revisar si el resultado de tu suma o resta se puede simplificar antes de darlo por terminado.",
-      "formula": "a/n ± b/n = (a ± b)/n, luego simplifica dividiendo entre el máximo común divisor",
+      "nivelEtiqueta": "Nivel 3 de 4 · Avanzado",
+      "titulo": "Convierte el resultado en número mixto y Suma y resta de tres fracciones seguidas",
+      "explicacion": "Cuando el numerador que resulta de sumar o restar es mayor que el denominador, pero no es un múltiplo exacto de él, obtienes una fracción impropia que conviene expresar como número mixto: un entero más una fracción. Para convertirla, divide el numerador entre el denominador; el cociente es la parte entera y el residuo, colocado sobre el mismo denominador, es la parte fraccionaria. Este número mixto puede simplificarse igual que cualquier fracción si su parte fraccionaria comparte un divisor con el denominador.\n\nCuando en una misma operación aparecen tres o más fracciones con el mismo denominador, se van sumando y restando los numeradores en el orden en que aparecen, de izquierda a derecha, como si fuera una sola cadena de operaciones. El denominador se mantiene igual durante todo el proceso, sin importar cuántos términos haya. Al final, revisa si el resultado se puede simplificar o si conviene expresarlo como número mixto.",
+      "formula": "Si numerador > denominador: entero = cociente, fracción = residuo/denominador; a/n + b/n - c/n = (a + b - c)/n",
       "ejemplos": [
-        "3/8 + 3/8 = 6/8 = 3/4, porque 6 y 8 se pueden dividir entre 2.",
-        "9/12 - 3/12 = 6/12 = 1/2, dividiendo numerador y denominador entre 6."
+        "7/5 + 4/5 = 11/5 = 2 1/5, porque 11÷5 = 2 con residuo 1.",
+        "9/4 + 6/4 = 15/4 = 3 3/4, porque 15÷4 = 3 con residuo 3.",
+        "4/9 + 3/9 - 2/9 = 5/9, porque 4+3-2=5.",
+        "10/7 - 3/7 + 5/7 = 12/7 = 1 5/7, porque 10-3+5=12."
       ],
-      "puntosPorReactivo": 15,
+      "puntosPorReactivo": 20,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "Simplifica el resultado de 4/10 + 2/10.",
+          "pregunta": "7/5 + 4/5 = ?, como número mixto",
           "opciones": [
-            "6/10",
-            "3/5",
-            "6/20",
-            "2/5"
+            "2 1/5",
+            "1 1/5",
+            "2 2/5",
+            "11/5 sin convertir"
           ],
-          "respuestaCorrecta": 1,
-          "retroalimentacion": "4+2=6, entonces 6/10; como 6 y 10 se dividen entre 2, la forma simplificada es 3/5."
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "7+4=11, entonces 11/5; como 11÷5=2 residuo 1, el número mixto es 2 1/5."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "8/14 - 2/14 = 6/14, simplificado es ___",
-          "respuestaCorrecta": "3/7",
-          "retroalimentacion": "6/14 se simplifica dividiendo numerador y denominador entre 2, y queda 3/7."
+          "frase": "9/4 + 6/4 = 15/4 = ___",
+          "respuestaCorrecta": "3 3/4",
+          "retroalimentacion": "15÷4=3 con residuo 3, así que 15/4 equivale al número mixto 3 3/4."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "5/15 + 5/15 = 10/15, y su forma simplificada es 2/3.",
+          "enunciado": "11/6 - 3/6 = 8/6, que equivale a 1 2/6 (o 1 1/3 simplificado).",
           "respuestaCorrecta": true,
-          "retroalimentacion": "Correcto: 5+5=10, entonces 10/15; dividiendo entre 5 queda 2/3."
+          "retroalimentacion": "Correcto: 11-3=8, entonces 8/6; 8÷6=1 residuo 2, es decir 1 2/6, que simplificado es 1 1/3."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "10/16 - 4/16 = ?, ya simplificado",
+          "pregunta": "13/8 - 4/8 = ?, como número mixto simplificado",
           "opciones": [
-            "6/16",
-            "3/8",
-            "6/8",
-            "3/16"
+            "1 1/8",
+            "1 1/4",
+            "9/8 sin convertir",
+            "2 1/8"
           ],
-          "respuestaCorrecta": 1,
-          "retroalimentacion": "10-4=6, entonces 6/16; dividiendo numerador y denominador entre 2 queda 3/8."
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "13-4=9, entonces 9/8; 9÷8=1 residuo 1, y la fracción 1/8 ya está simplificada, así que queda 1 1/8."
         },
         {
           "tipo": "relacionar_columnas",
-          "instruccion": "Relaciona cada operación con su resultado YA simplificado.",
+          "instruccion": "Relaciona cada fracción impropia resultante con su número mixto.",
           "columnaA": [
-            "3/6 + 1/6",
-            "8/12 - 2/12",
-            "9/15 - 3/15"
+            "8/3 + 2/3",
+            "9/5 + 4/5",
+            "16/7 - 5/7"
           ],
           "columnaB": [
-            "2/3",
-            "1/2",
-            "2/5",
-            "3/5"
+            "3 1/3",
+            "2 3/5",
+            "1 4/7",
+            "2 1/7"
           ],
           "parejasCorrectas": [
             0,
             1,
             2
           ],
-          "retroalimentacion": "3/6+1/6=4/6=2/3; 8/12-2/12=6/12=1/2; 9/15-3/15=6/15=2/5, simplificando cada resultado."
+          "retroalimentacion": "8/3+2/3=10/3=3 1/3; 9/5+4/5=13/5=2 3/5; 16/7-5/7=11/7=1 4/7."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "5/11 + 3/11 - 4/11 = ?",
+          "opciones": [
+            "4/11",
+            "4/22",
+            "12/11",
+            "2/11"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Operando en orden: 5+3=8, y 8-4=4, así que el resultado es 4/11 sobre el mismo denominador."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "8/9 - 5/9 + 4/9 = ___",
+          "respuestaCorrecta": "7/9",
+          "retroalimentacion": "En orden: 8-5=3, y 3+4=7, así que el resultado es 7/9."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "2/6 + 5/6 - 1/6 = 6/6, que equivale a 1 entero.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 2+5=7, y 7-1=6, entonces 6/6, que es igual a 1 entero completo."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "9/13 - 2/13 - 3/13 = ?",
+          "opciones": [
+            "4/13",
+            "4/39",
+            "14/13",
+            "5/13"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "En orden: 9-2=7, y 7-3=4, así que el resultado es 4/13."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada cadena de operaciones con su resultado.",
+          "columnaA": [
+            "3/8 + 4/8 - 2/8",
+            "7/12 - 5/12 + 6/12",
+            "10/9 - 4/9 - 1/9"
+          ],
+          "columnaB": [
+            "5/8",
+            "2/3",
+            "5/9",
+            "3/4"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "3/8+4/8-2/8=5/8; 7/12-5/12+6/12=8/12=2/3; 10/9-4/9-1/9=5/9, siguiendo el orden de izquierda a derecha."
         }
       ]
     }

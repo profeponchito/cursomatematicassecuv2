@@ -1,27 +1,29 @@
 {
   "id": "OB-06-04",
   "grado": "Operaciones Básicas",
-  "numero": 44,
+  "numero": 24,
   "categoria": "suma_resta",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Suma y resta de decimales con acarreo y préstamo — Momento 4/8",
+  "titulo": "Suma y resta de decimales con acarreo y préstamo — Módulo 4/4",
   "contenido": "Suma y resta de decimales en casos donde el acarreo o el préstamo ocurren entre posiciones decimales, incluyendo decimales con distinta cantidad de cifras.",
   "pda": "Aplica el algoritmo de suma y resta a números decimales con distinta cantidad de cifras decimales, completando con ceros cuando sea necesario.",
   "problematizacion": {
-    "contexto": "La ruta de camión 'Bosques–Centro' cobra pasaje distinto según el tramo. El chofer Don Efraín lleva la cuenta de cuánto ha recibido en monedas después de dos paradas, usando pesos con centavos.",
-    "pregunta": "Si en la primera parada juntó $6.70 y en la segunda $2.38 más, ¿cuánto dinero lleva Don Efraín después de esas dos paradas?"
+    "contexto": "En el taller mecánico de don Refugio se mide con precisión el aceite que queda en varios recipientes chicos antes de rellenar el tanque de un cliente, combinando lo que hay en tres envases distintos.\n\nEn la taquería 'El Buen Sazón', don Panchito atiende a los clientes y suma en la cuenta cada platillo que piden; algunos pagan con billete y él calcula el cambio a mano antes de usar la calculadora, para no equivocarse.",
+    "pregunta": "Si don Refugio junta 2.35 litros, 1.8 litros y 0.475 litros de tres envases distintos, ¿cuántos litros de aceite tiene en total para el cliente? Además: si una familia consumió platillos por $3.50, $2.75 y $4.20, y pagó con un billete de $20, ¿cuánto cambio aproximado debe entregar don Panchito?"
   },
   "subtemas": [
     {
       "numero": "6.4",
-      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
-      "titulo": "Sumar decimales con distinta cantidad de cifras",
-      "explicacion": "No siempre los dos números tienen la misma cantidad de cifras decimales. Cuando uno tiene décimos y el otro décimos y centésimos, se completa con un cero a la derecha el número más corto, sin cambiar su valor (3.25 vale lo mismo que 3.250... por eso 1.4 se puede pensar como 1.40). Así todas las columnas quedan alineadas y se suma normalmente, llevando cuando haga falta.",
-      "formula": "Completa con ceros a la derecha el número con menos cifras decimales, alinea el punto y suma columna por columna.",
+      "nivelEtiqueta": "Nivel 4 de 4 · Integración",
+      "titulo": "Cadenas de tres o más decimales con acarreo y préstamo y Integra sumas y restas de decimales en un solo problema",
+      "explicacion": "Cuando hay tres o más números decimales en una misma operación (varias sumas seguidas, o una resta con varios términos), se acomodan todos con el punto alineado, completando con ceros al mismo número de cifras decimales, y se opera de arriba a abajo en cada columna. Los acarreos y préstamos pueden encadenarse: un préstamo puede obligar a pedir otro préstamo en la siguiente columna, como al restar de un número con ceros (por ejemplo 15.00).\n\nPara cerrar el tema vas a resolver situaciones donde se combinan, en un mismo problema, sumas y restas de decimales con distinta cantidad de cifras: por ejemplo, sumar varios gastos y luego calcular el cambio de un pago, o sumar y restar cantidades seguidas. La clave sigue siendo la misma en cada paso: alinear el punto decimal, completar con ceros cuando haga falta, y llevar o pedir prestado columna por columna.",
+      "formula": "Alinea todos los números con la misma cantidad de cifras decimales y suma o resta de arriba a abajo, columna por columna.; Resuelve un paso a la vez: primero suma lo que se pide, después resta, siempre alineando el punto decimal.",
       "ejemplos": [
-        "3.25 + 1.4: se completa 1.4 como 1.40. Centésimos: 5+0=5. Décimos: 2+4=6. Unidades: 3+1=4. Resultado: 4.65.",
-        "8.4 + 3.65: se completa 8.4 como 8.40. Centésimos: 0+5=5. Décimos: 4+6=10, se escribe 0 y se lleva 1. Unidades: 8+3+1=12. Resultado: 12.05."
+        "2.35 + 1.8 + 0.475: se completan como 2.350, 1.800 y 0.475. Milésimos: 0+0+5=5. Centésimos: 5+0+7=12, se escribe 2 y se lleva 1. Décimos: 3+8+4+1=16, se escribe 6 y se lleva 1. Unidades: 2+1+0+1=4. Resultado: 4.625.",
+        "15 − 1.34 − 2.5: se piensa como 15.00. Primero 15.00−1.34=13.66 (con préstamo en cadena desde los centésimos). Después 13.66−2.50=11.16.",
+        "Una cuenta de $3.50 + $2.75 + $4.20 = $10.45. Si se paga con un billete de $20, el cambio es 20.00 − 10.45 = $9.55.",
+        "38.5 + 12.75 − 9.3: primero 38.50 + 12.75 = 51.25, después 51.25 − 9.30 = 41.95."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
@@ -31,65 +33,174 @@
           "operacion": "suma",
           "filas": [
             {
-              "valor": "3.25"
+              "valor": "2.350"
             },
             {
-              "valor": "1.40",
+              "valor": "1.800",
               "signo": "+"
             },
             {
-              "valor": "4.65",
+              "valor": "0.475",
+              "signo": "+"
+            },
+            {
+              "valor": "4.625",
               "esResultado": true
             }
           ],
           "ocultos": [
             [],
             [
-              3
+              2
             ],
+            [],
             [
               0
             ]
           ],
-          "retroalimentacion": "1.4 se completa con un cero: 1.40. Centésimos: 5+0=5. Décimos: 2+4=6. Unidades: 3+1=4. Resultado: 4.65."
+          "retroalimentacion": "2.350 + 1.800 + 0.475 = 4.625. Milésimos: 0+0+5=5. Centésimos: 5+0+7=12 (se lleva 1). Décimos: 3+8+4+1=16 (se lleva 1). Unidades: 2+1+0+1=4."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "Don Efraín juntó $6.70 en la primera parada y $2.38 en la segunda. ¿Cuánto lleva en total?",
+          "pregunta": "Un tinaco tenía 15 litros. Se sacan 1.34 litros para un balde y después 2.5 litros más para regar plantas. ¿Cuántos litros quedan en el tinaco?",
           "opciones": [
-            "$9.08",
-            "$8.08",
-            "$9.18",
-            "$6.108"
+            "11.16 L",
+            "12.16 L",
+            "11.26 L",
+            "10.16 L"
           ],
           "respuestaCorrecta": 0,
-          "retroalimentacion": "Se completa 6.7 como 6.70. Centésimos: 0+8=8. Décimos: 7+3=10, se escribe 0 y se lleva 1. Unidades: 6+2+1=9. Resultado: $9.08."
+          "retroalimentacion": "15.00 − 1.34 = 13.66 (con préstamo en cadena desde los centésimos, porque 15.00 tiene ceros). Después 13.66 − 2.50 = 11.16 litros."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuál es la forma correcta de alinear 12.5 + 4.75 antes de sumar?",
+          "pregunta": "¿Cuál es el resultado de 6.4 + 2.75 + 0.325?",
           "opciones": [
-            "12.50 + 4.75",
-            "12.5 + 47.5",
-            "125.0 + 4.75",
-            "1.25 + 4.75"
+            "9.375",
+            "9.475",
+            "9.575",
+            "8.475"
           ],
-          "respuestaCorrecta": 0,
-          "retroalimentacion": "12.5 tiene solo un decimal, por eso se completa con un cero a la derecha (12.50) para igualar las cifras decimales de 4.75, sin cambiar su valor."
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Se completan como 6.400, 2.750 y 0.325. Milésimos: 0+0+5=5. Centésimos: 0+5+2=7. Décimos: 4+7+3=14, se escribe 4 y se lleva 1. Unidades: 6+2+0+1=9. Resultado: 9.475."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "5.62 + 7.5 es lo mismo que sumar 5.62 + 7.50, porque agregar un cero a la derecha de un decimal no cambia su valor.",
+          "enunciado": "Al restar 20 − 4.6 − 3.75, como 20 no tiene cifras decimales escritas, el préstamo se encadena a través de varias columnas de ceros.",
           "respuestaCorrecta": true,
-          "retroalimentacion": "Verdadero. 5.62 + 7.50 = 13.12: centésimos 2+0=2, décimos 6+5=11 (se lleva 1), unidades 5+7+1=13."
+          "retroalimentacion": "Verdadero. 20.00 − 4.60 = 15.40, y 15.40 − 3.75 = 11.65. El primer préstamo (en los décimos) obliga a pedir prestado también en las unidades, porque ambas cifras de 20 son cero."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "9.8 + 6.45 = ___ (completa 9.8 con un cero antes de sumar)",
-          "respuestaCorrecta": "16.25",
-          "retroalimentacion": "9.8 se completa como 9.80. Centésimos: 0+5=5. Décimos: 8+4=12, se escribe 2 y se lleva 1. Unidades: 9+6+1=16. Resultado: 16.25."
+          "frase": "3.125 + 4.9 + 1.08 = ___ (completa cada número hasta los milésimos antes de sumar)",
+          "respuestaCorrecta": "9.105",
+          "retroalimentacion": "Se completan como 3.125, 4.900 y 1.080. Milésimos: 5+0+0=5. Centésimos: 2+0+8=10, se escribe 0 y se lleva 1. Décimos: 1+9+0+1=11, se escribe 1 y se lleva 1. Unidades: 3+4+1+1=9. Resultado: 9.105."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una familia consumió $3.50 + $2.75 + $4.20 en la taquería. ¿Cuál fue el total de la cuenta?",
+          "opciones": [
+            "$10.35",
+            "$10.45",
+            "$9.45",
+            "$10.55"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "3.50+2.75=6.25, y 6.25+4.20=10.45. El total de la cuenta es $10.45."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Si la cuenta fue de $10.45 y la familia pagó con un billete de $20, ¿cuánto cambio le toca recibir?",
+          "opciones": [
+            "$9.55",
+            "$9.45",
+            "$10.55",
+            "$8.55"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "20.00 − 10.45 = 9.55, pidiendo prestado en cadena porque 20 no tiene cifras decimales escritas. El cambio es $9.55."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "38.5 + 12.75 − 9.3 = ___",
+          "respuestaCorrecta": "41.95",
+          "retroalimentacion": "Primero 38.50 + 12.75 = 51.25. Después 51.25 − 9.30 = 41.95."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "15.4 − 6.75 + 2.35 = 11.00",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Verdadero. Primero 15.40 − 6.75 = 8.65, y después 8.65 + 2.35 = 11.00."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación de la taquería con su resultado correcto.",
+          "columnaA": [
+            "Cuenta de $6.25 + $8.50 + $3.75",
+            "Cambio de pagar esa cuenta con $30",
+            "Cuenta de $3.50 + $2.75 + $4.20"
+          ],
+          "columnaB": [
+            "$10.45",
+            "$18.50",
+            "$11.50",
+            "$9.55"
+          ],
+          "parejasCorrectas": [
+            1,
+            2,
+            0
+          ],
+          "retroalimentacion": "6.25+8.50+3.75=18.50; el cambio de pagar eso con $30 es 30.00−18.50=11.50; y 3.50+2.75+4.20=10.45."
         }
       ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "algoritmo_columnas",
+      "operacion": "resta",
+      "filas": [
+        {
+          "valor": "45.00"
+        },
+        {
+          "valor": "18.65",
+          "signo": "-"
+        },
+        {
+          "valor": "26.35",
+          "esResultado": true
+        }
+      ],
+      "ocultos": [
+        [
+          3
+        ],
+        [],
+        [
+          1
+        ]
+      ],
+      "retroalimentacion": "45.00 − 18.65 = 26.35, pidiendo prestado en cadena desde los centésimos porque 45 no tiene cifras decimales. Ese resultado, 26.35, menos 7.4 más, da 45 − 18.65 − 7.4 = 18.95 en total si se resta también el segundo gasto."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Don Panchito tenía $45 en caja, pagó $18.65 de insumos y después $7.40 más de gas. ¿Cuánto le queda en caja?",
+      "opciones": [
+        "$18.95",
+        "$19.95",
+        "$18.05",
+        "$17.95"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "45.00 − 18.65 = 26.35, y 26.35 − 7.40 = 18.95. Le quedan $18.95 en caja."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "9.375 + 4.6 − 2.875 = ___",
+      "respuestaCorrecta": "11.1",
+      "retroalimentacion": "Primero 9.375 + 4.600 = 13.975. Después 13.975 − 2.875 = 11.100, que se escribe como 11.1."
     }
   ]
 }

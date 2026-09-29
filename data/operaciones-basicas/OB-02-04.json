@@ -1,26 +1,27 @@
 {
   "id": "OB-02-04",
   "grado": "Operaciones Básicas",
-  "numero": 12,
+  "numero": 8,
   "categoria": "suma_resta",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Suma con acarreo (algoritmo en columna) — Momento 4/8",
+  "titulo": "Suma con acarreo (algoritmo en columna) — Módulo 4/4",
   "contenido": "El algoritmo escrito de la suma de naturales cuando una o más columnas superan 9 y hay que 'llevar' al siguiente orden.",
   "pda": "Aplica el algoritmo de la suma en columna, identificando y registrando correctamente el acarreo entre posiciones.",
   "problematizacion": {
-    "contexto": "En el estadio municipal se jugó un partido de futbol amistoso. La taquilla reportó que se vendieron 452 boletos de sol y 139 boletos de sombra para el mismo partido.",
-    "pregunta": "¿Cuántos boletos se vendieron en total para ese partido, sumando ambas secciones?"
+    "contexto": "Una familia está ahorrando para un viaje. El papá guardó 456 pesos en la alcancía y la mamá guardó 789 pesos más el fin de semana pasado.\n\nEl pueblo organiza cada año un festival comunitario con una colecta para arreglar la plaza. Este año se recibieron 245 pesos en donativos el viernes, 68 pesos el sábado por la mañana y 509 pesos el sábado por la tarde, cuando hubo más visitantes.",
+    "pregunta": "¿Cuánto llevan ahorrado entre los dos, sumando lo que guardó cada uno? Además: ¿Cuánto se ha recaudado hasta el sábado por la tarde, sumando los tres donativos?"
   },
   "subtemas": [
     {
       "numero": "2.4",
-      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
-      "titulo": "Acarreo entre centenas: dos sumandos grandes",
-      "explicacion": "En este momento ambos números tienen tres cifras. El procedimiento no cambia: sigue siendo un solo acarreo, de unidades a decenas, pero ahora tienes una columna más para acomodar con cuidado. Alinear bien las unidades, decenas y centenas de cada número es clave para no equivocarte; si un número tiene menos cifras que otro, se acomoda por la derecha, como si las casillas vacías de la izquierda fueran cero.",
-      "formula": "Alinea unidades con unidades, decenas con decenas, centenas con centenas, y suma de derecha a izquierda.",
+      "nivelEtiqueta": "Nivel 4 de 4 · Integración",
+      "titulo": "Cuando el acarreo crea una cifra nueva y Integra todo: sumas con acarreo en la vida real",
+      "explicacion": "En este momento el acarreo se repite en todas las columnas, una tras otra, hasta que aparece una cifra completamente nueva que ninguno de los dos números tenía. Por ejemplo, al sumar dos números de tres cifras, el resultado puede terminar teniendo cuatro cifras, porque el último acarreo \"crea\" una posición de millares que antes no existía. Sigue el mismo orden de siempre, columna por columna, sin saltarte ninguna, y al final revisa que el acarreo de la última columna quede escrito como una cifra nueva al frente del resultado.\n\nLlegaste al momento más completo: aquí se juntan todas las ideas que has practicado sobre el acarreo, en una sola sesión. Vas a sumar tres o más números, de distinta cantidad de cifras, con acarreos que se repiten en varias columnas y que a veces crean una cifra nueva. Lo importante sigue siendo lo mismo desde el momento 1: trabaja de derecha a izquierda, columna por columna, sin adelantarte, y suma siempre el acarreo de la columna anterior antes de pasar a la siguiente.",
+      "formula": "Si el acarreo de la columna más a la izquierda es 1 o más, forma una cifra nueva al inicio del resultado.; Alinea por la derecha, suma columna por columna (incluyendo todos los acarreos) de derecha a izquierda.",
       "ejemplos": [
-        "452 + 139: unidades 2 + 9 = 11, se escribe 1 y se lleva 1; decenas 5 + 3 + 1 = 9; centenas 4 + 1 = 5; resultado 591."
+        "456 + 789: unidades 6+9=15 (lleva 1); decenas 5+8+1=14 (lleva 1); centenas 4+7+1=12 (lleva 1, crea millar); resultado 1245.",
+        "245 + 68 + 509: unidades 5+8+9=22 (escribe 2, lleva 2); decenas 4+6+0+2=12 (escribe 2, lleva 1); centenas 2+0+5+1=8; resultado 822."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
@@ -30,91 +31,236 @@
           "operacion": "suma",
           "filas": [
             {
-              "valor": "452"
+              "valor": "456"
             },
             {
-              "valor": "139",
+              "valor": "789",
               "signo": "+"
             },
             {
-              "valor": "591",
+              "valor": "1245",
               "esResultado": true
             }
           ],
           "ocultos": [
-            [],
-            [],
             [
               2
+            ],
+            [],
+            [
+              0
             ]
           ],
-          "retroalimentacion": "452 + 139: unidades 2 + 9 = 11, se escribe 1 y se lleva 1; decenas 5 + 3 + 1 = 9; centenas 4 + 1 = 5. El resultado es 591."
+          "retroalimentacion": "Unidades: 6+9=15 (lleva 1). Decenas: 5+8+1=14 (lleva 1). Centenas: 4+7+1=12, se escribe 2 y se lleva 1, que forma el millar. El resultado es 1245."
         },
         {
           "tipo": "algoritmo_columnas",
           "operacion": "suma",
           "filas": [
             {
-              "valor": "267"
+              "valor": "678"
             },
             {
-              "valor": "318",
+              "valor": "345",
               "signo": "+"
             },
             {
-              "valor": "585",
+              "valor": "1023",
               "esResultado": true
             }
           ],
           "ocultos": [
             [],
-            [],
             [
-              1
+              0
+            ],
+            [
+              3
             ]
           ],
-          "retroalimentacion": "267 + 318: unidades 7 + 8 = 15, se escribe 5 y se lleva 1; decenas 6 + 1 + 1 = 8; centenas 2 + 3 = 5. El resultado es 585."
+          "retroalimentacion": "Unidades: 8+5=13 (lleva 1). Decenas: 7+4+1=12 (lleva 1). Centenas: 6+3+1=10, se escribe 0 y se lleva 1, que forma el millar. El resultado es 1023."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuál es el resultado de 145 + 238?",
+          "pregunta": "¿Cuál es el resultado de 587 + 469?",
           "opciones": [
-            "373",
-            "383",
-            "393",
-            "473"
+            "1046",
+            "1056",
+            "1066",
+            "1156"
           ],
           "respuestaCorrecta": 1,
-          "retroalimentacion": "Unidades 5 + 8 = 13, se escribe 3 y se lleva 1; decenas 4 + 3 + 1 = 8; centenas 1 + 2 = 3. El resultado es 383."
+          "retroalimentacion": "Unidades 7+9=16 (lleva 1); decenas 8+6+1=15 (lleva 1); centenas 5+4+1=10, se escribe 0 y se lleva 1, formando el millar. El resultado es 1056."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "En 356 + 127, la columna de las decenas da 5 + 2 + 1 = 8, por lo que no hay acarreo hacia las centenas.",
+          "enunciado": "Al sumar 758 + 693, el acarreo llega hasta formar una nueva cifra de millar.",
           "respuestaCorrecta": true,
-          "retroalimentacion": "Verdadero: unidades 6 + 7 = 13 (se lleva 1), decenas 5 + 2 + 1 = 8 (no llega a 10), centenas 3 + 1 = 4. El resultado es 483."
+          "retroalimentacion": "Verdadero: unidades 8+3=11 (lleva 1); decenas 5+9+1=15 (lleva 1); centenas 7+6+1=14, se escribe 4 y se lleva 1, formando el millar. El resultado es 1451."
         },
         {
           "tipo": "relacionar_columnas",
           "instruccion": "Relaciona cada suma con su resultado correcto.",
           "columnaA": [
-            "452 + 139",
-            "267 + 318",
-            "214 + 178"
+            "456 + 789",
+            "678 + 345",
+            "6789 + 5432"
           ],
           "columnaB": [
-            "591",
-            "585",
-            "392",
-            "483"
+            "1245",
+            "1023",
+            "12221",
+            "1451"
           ],
           "parejasCorrectas": [
             0,
             1,
             2
           ],
-          "retroalimentacion": "452 + 139 = 591; 267 + 318 = 585; 214 + 178 = 392 (unidades 4+8=12 se lleva 1, decenas 1+7+1=9, centenas 2+1=3)."
+          "retroalimentacion": "456+789=1245; 678+345=1023; 6789+5432=12221, donde el acarreo se repite en las cuatro columnas y crea una nueva cifra de decena de millar."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "245"
+            },
+            {
+              "valor": "68"
+            },
+            {
+              "valor": "509",
+              "signo": "+"
+            },
+            {
+              "valor": "822",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              1
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "Unidades: 5+8+9=22, se escribe 2 y se lleva 2. Decenas: 4+6+0+2=12, se escribe 2 y se lleva 1. Centenas: 2+0+5+1=8. El resultado es 822."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "3876"
+            },
+            {
+              "valor": "425"
+            },
+            {
+              "valor": "58",
+              "signo": "+"
+            },
+            {
+              "valor": "4359",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              2
+            ],
+            [],
+            [],
+            [
+              3
+            ]
+          ],
+          "retroalimentacion": "Unidades: 6+5+8=19, se escribe 9 y se lleva 1. Decenas: 7+2+5+1=15, se escribe 5 y se lleva 1. Centenas: 8+4+0+1=13, se escribe 3 y se lleva 1. Millares: 3+0+0+1=4. El resultado es 4359."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "En el torneo escolar se vendieron 356 boletos el viernes, 489 el sábado y 274 el domingo. ¿Cuántos boletos se vendieron en total?",
+          "opciones": [
+            "1109",
+            "1119",
+            "1129",
+            "1219"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "356 + 489 + 274: unidades 6+9+4=19 (lleva 1); decenas 5+8+7+1=21 (lleva 2); centenas 3+4+2+2=11. El resultado es 1119."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Al sumar 1568 + 947, se generan acarreos en tres columnas distintas (unidades, decenas y centenas).",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Verdadero: unidades 8+7=15 (lleva 1); decenas 6+4+1=11 (lleva 1); centenas 5+9+1=15 (lleva 1); millares 1+0+1=2. El resultado es 2515, con acarreo en las tres primeras columnas."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Al sumar 176 + 458 + 309, la columna de las unidades da 6+8+9=23; se escribe 3 y se lleva ___ a las decenas.",
+          "respuestaCorrecta": "2",
+          "retroalimentacion": "6+8+9=23, se escribe 3 y se lleva 2. Decenas: 7+5+0+2=14, se escribe 4 y se lleva 1. Centenas: 1+4+3+1=9. El resultado es 943."
         }
       ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "algoritmo_columnas",
+      "operacion": "suma",
+      "filas": [
+        {
+          "valor": "1247"
+        },
+        {
+          "valor": "836"
+        },
+        {
+          "valor": "59"
+        },
+        {
+          "valor": "372",
+          "signo": "+"
+        },
+        {
+          "valor": "2514",
+          "esResultado": true
+        }
+      ],
+      "ocultos": [
+        [
+          3
+        ],
+        [],
+        [],
+        [],
+        [
+          0
+        ]
+      ],
+      "retroalimentacion": "Con cuatro sumandos: unidades 7+6+9+2=24 (escribe 4, lleva 2); decenas 4+3+5+7+2=21 (escribe 1, lleva 2); centenas 2+8+0+3+2=15 (escribe 5, lleva 1); millares 1+0+0+0+1=2. El resultado es 2514."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Al sumar 2478 + 3695 + 187, la columna de las centenas recibe un acarreo de 2 que viene de las decenas.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Verdadero: unidades 8+5+7=20 (lleva 2); decenas 7+9+8=24, más el acarreo 2, es 26 (se escribe 6 y se lleva 2 a las centenas); centenas 4+6+1=11, más el acarreo 2, es 13; millares 2+3+0+1=6. El resultado es 6360."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Una empresa familiar registró ingresos de 48,650 pesos, 37,890 pesos y 19,275 pesos en tres meses distintos. ¿Cuál es el ingreso total de los tres meses?",
+      "opciones": [
+        "95,815",
+        "105,815",
+        "106,815",
+        "104,815"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "48,650 + 37,890 = 86,540; 86,540 + 19,275 = 105,815. El total es 105,815 pesos, con varios acarreos encadenados entre unidades, decenas, centenas y millares."
     }
   ]
 }

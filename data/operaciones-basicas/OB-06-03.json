@@ -1,27 +1,29 @@
 {
   "id": "OB-06-03",
   "grado": "Operaciones Básicas",
-  "numero": 43,
+  "numero": 23,
   "categoria": "suma_resta",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Suma y resta de decimales con acarreo y préstamo — Momento 3/8",
+  "titulo": "Suma y resta de decimales con acarreo y préstamo — Módulo 3/4",
   "contenido": "Suma y resta de decimales en casos donde el acarreo o el préstamo ocurren entre posiciones decimales, incluyendo decimales con distinta cantidad de cifras.",
   "pda": "Aplica el algoritmo de suma y resta a números decimales con distinta cantidad de cifras decimales, completando con ceros cuando sea necesario.",
   "problematizacion": {
-    "contexto": "En la pista de atletismo del municipio, el entrenador Ismael cronometra con un cronómetro digital a dos corredores en los 100 metros planos, para comparar sus tiempos de esta semana.",
-    "pregunta": "Si Luis corrió en 14.2 segundos y Karla en 5.8 segundos menos que el tiempo que tardaría en recorrer el doble de distancia, ¿qué operación con decimales necesita hacer el entrenador para comparar avances?"
+    "contexto": "En la tienda de abarrotes 'La Esperanza', el señor Gumaro pesa arroz y azúcar en una báscula digital que da el peso con dos cifras decimales, y descuenta lo que ya se llevó un cliente de un costal grande.\n\nSofía ahorra su domingo en una alcancía de barro y anota cada movimiento en una libreta: lo que mete y lo que a veces saca prestado para el camión, con precisión hasta los centavos y hasta fracciones más pequeñas cuando junta monedas de diferentes valores.",
+    "pregunta": "Si un costal tenía 15.3 kg de arroz y se vendieron 6.75 kg, ¿cuántos kilos de arroz le quedan al señor Gumaro en ese costal? Además: si Sofía tenía 5.08 (en cientos de peso) ahorrados y agrega 1.925 más de una alcancía chica, ¿cuánto suma en total, aproximadamente?"
   },
   "subtemas": [
     {
       "numero": "6.3",
-      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
-      "titulo": "Restar decimales pidiendo prestado en los décimos",
-      "explicacion": "En la resta de decimales también se alinea el punto y se resta columna por columna. Cuando el décimo de arriba (el minuendo) es más chico que el décimo de abajo (el sustraendo), se pide prestada 1 unidad entera, que se convierte en 10 décimos extra para poder restar esa columna. Es el mismo préstamo que ya conoces con números enteros, aplicado a la parte decimal.",
-      "formula": "Si el décimo de arriba es menor que el de abajo, pide prestada 1 unidad (=10 décimos) a la columna de enteros.",
+      "nivelEtiqueta": "Nivel 3 de 4 · Avanzado",
+      "titulo": "Restar decimales con distinta cantidad de cifras y Sumas y restas con centésimos y milésimos",
+      "explicacion": "Cuando restas decimales con distinta cantidad de cifras, primero completas con ceros el número con menos cifras decimales, igual que en la suma. Después restas columna por columna y pides prestado cuando el dígito de arriba es menor que el de abajo. Es común tener que pedir prestado en más de una columna seguida.\n\nEn este momento las cifras decimales llegan hasta los milésimos (tres lugares después del punto) y mezclarás sumas con restas. La técnica es la misma: completar con ceros hasta igualar las cifras decimales, alinear el punto y operar columna por columna, llevando o pidiendo prestado según se necesite en cada columna, de derecha a izquierda.",
+      "formula": "Completa con ceros a la derecha, alinea el punto y resta pidiendo prestado cuando haga falta.; Iguala las cifras decimales con ceros (hasta milésimos si hace falta) y opera de derecha a izquierda.",
       "ejemplos": [
-        "5.2 − 1.7: en los décimos, 2 es menor que 7, así que se pide prestado: 12−7=5. En las unidades: 5−1(ya con el préstamo)−1=3. Resultado: 3.5.",
-        "6.0 − 2.5: en los décimos, 0 es menor que 5, se pide prestado: 10−5=5. En las unidades: 6−1−2=3. Resultado: 3.5."
+        "8.5 − 3.24: se completa 8.5 como 8.50. Centésimos: 0 es menor que 4, se pide prestado: 10−4=6. Décimos: 4 (ya prestado)−2=2. Unidades: 8−3=5. Resultado: 5.26.",
+        "20 − 8.45: se piensa como 20.00. Centésimos: 0−5, se pide prestado: 10−5=5. Décimos: 9(prestado)−4=5. Unidades: 9(prestado)−8=1. Decenas: 1. Resultado: 11.55.",
+        "4.125 + 2.75: se completa 2.75 como 2.750. Milésimos: 5+0=5. Centésimos: 2+5=7. Décimos: 1+7=8. Unidades: 4+2=6. Resultado: 6.875.",
+        "9.6 − 3.275: se completa 9.6 como 9.600. Milésimos: 0 es menor que 5, se pide prestado en cadena hasta las décimas. Resultado: 6.325."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
@@ -31,78 +33,156 @@
           "operacion": "resta",
           "filas": [
             {
-              "valor": "5.2"
+              "valor": "8.50"
             },
             {
-              "valor": "1.7",
+              "valor": "3.24",
               "signo": "-"
             },
             {
-              "valor": "3.5",
+              "valor": "5.26",
               "esResultado": true
             }
           ],
           "ocultos": [
             [],
             [
-              0
+              3
             ],
             [
-              2
+              0
             ]
           ],
-          "retroalimentacion": "5.2 − 1.7 = 3.5. En los décimos se pide prestado: 12−7=5. En las unidades: 5−1(préstamo)−1=3."
+          "retroalimentacion": "8.5 se completa como 8.50. Centésimos: 0 es menor que 4, se pide prestado: 10−4=6. Décimos: 4−2=2. Unidades: 8−3=5. Resultado: 5.26."
         },
         {
           "tipo": "algoritmo_columnas",
           "operacion": "resta",
           "filas": [
             {
-              "valor": "23.1"
+              "valor": "20.00"
             },
             {
-              "valor": "9.4",
+              "valor": "8.45",
               "signo": "-"
             },
             {
-              "valor": "13.7",
+              "valor": "11.55",
               "esResultado": true
             }
           ],
           "ocultos": [
             [
-              3
+              4
             ],
             [
-              0
+              2
             ],
             []
           ],
-          "retroalimentacion": "23.1 − 9.4 = 13.7. Décimos: se pide prestado, 11−4=7. Unidades: 2 (ya prestada 1)−9, se vuelve a pedir prestado a las decenas: 12−9=3. Decenas: 2−1(préstamo)−0=1."
+          "retroalimentacion": "20 se piensa como 20.00. Centésimos: se pide prestado, 10−5=5. Décimos: 9(prestado)−4=5. Unidades: 9(prestado)−8=1. Decenas: 1−0=1. Resultado: 11.55."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuánto es 8.3 − 4.6?",
+          "pregunta": "¿Cuánto arroz le queda al señor Gumaro si tenía 15.3 kg y vendió 6.75 kg?",
           "opciones": [
-            "4.3",
-            "3.7",
-            "3.3",
-            "4.7"
+            "9.45 kg",
+            "8.55 kg",
+            "8.45 kg",
+            "9.55 kg"
           ],
           "respuestaCorrecta": 1,
-          "retroalimentacion": "Décimos: 3 es menor que 6, se pide prestado: 13−6=7. Unidades: 8−1−4=3. El resultado es 3.7."
+          "retroalimentacion": "15.3 se completa como 15.30. Centésimos: 0 es menor que 5, se pide prestado: 10−5=5. Décimos: 2(prestado)−7, se pide prestado otra vez: 12−7=5. Unidades: 4(prestado)−6, se pide prestado a las decenas: 14−6=8. Resultado: 8.55 kg."
         },
         {
-          "tipo": "verdadero_falso",
-          "enunciado": "Para resolver 14.2 − 5.8, es necesario pedir prestada una unidad entera para poder restar los décimos.",
-          "respuestaCorrecta": true,
-          "retroalimentacion": "Verdadero. Como 2 es menor que 8 en los décimos, se pide prestado 1 a las unidades: 12−8=4, y las unidades quedan 14−1−5=8. El resultado es 8.4."
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada resta con su resultado correcto.",
+          "columnaA": [
+            "7.2 − 4.65",
+            "12.6 − 5.85",
+            "9.1 − 3.48"
+          ],
+          "columnaB": [
+            "6.75",
+            "5.62",
+            "2.55",
+            "2.45"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "7.2−4.65=2.55; 12.6−5.85=6.75; 9.1−3.48=5.62. En las tres se completa con un cero y se pide prestado en al menos una columna."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "10.3 − 4.7 = ___",
-          "respuestaCorrecta": "5.6",
-          "retroalimentacion": "Décimos: 3 es menor que 7, se pide prestado: 13−7=6. Unidades: 10−1−4=5. Resultado: 5.6."
+          "frase": "6.4 − 2.75 = ___",
+          "respuestaCorrecta": "3.65",
+          "retroalimentacion": "6.4 se completa como 6.40. Centésimos: 0 es menor que 5, se pide prestado: 10−5=5. Décimos: 3(prestado)−7, se pide prestado otra vez: 13−7=6. Unidades: 5(prestado)−2=3. Resultado: 3.65."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "suma",
+          "filas": [
+            {
+              "valor": "4.125"
+            },
+            {
+              "valor": "2.750",
+              "signo": "+"
+            },
+            {
+              "valor": "6.875",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              4
+            ],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "2.75 se completa como 2.750. Milésimos: 5+0=5. Centésimos: 2+5=7. Décimos: 1+7=8. Unidades: 4+2=6. Resultado: 6.875."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 9.6 − 3.275?",
+          "opciones": [
+            "6.425",
+            "6.325",
+            "6.225",
+            "7.325"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "9.6 se completa como 9.600 y se pide prestado en cadena: milésimos 10−5=5, centésimos 9(prestado)−7=2, décimos 5(prestado)−2=3, unidades 8(prestado)−3=6. Resultado: 6.325."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Sofía tenía $5.08 y agrega $1.925. ¿Cuánto tiene en total?",
+          "opciones": [
+            "$7.005",
+            "$6.985",
+            "$7.105",
+            "$6.005"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "5.08 se completa como 5.080. Milésimos: 0+5=5. Centésimos: 8+2=10, se escribe 0 y se lleva 1. Décimos: 0+9+1=10, se escribe 0 y se lleva 1. Unidades: 5+1+1=7. Resultado: 7.005."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Para restar 12.4 − 7.635, primero hay que completar 12.4 con ceros hasta los milésimos, quedando como 12.400.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Verdadero. 12.400 − 7.635 = 4.765, pidiendo prestado en cadena desde los milésimos hasta los décimos."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "3.475 + 4.6 = ___ (recuerda completar 4.6 con ceros hasta los milésimos)",
+          "respuestaCorrecta": "8.075",
+          "retroalimentacion": "4.6 se completa como 4.600. Milésimos: 5+0=5. Centésimos: 7+0=7. Décimos: 4+6=10, se escribe 0 y se lleva 1. Unidades: 3+4+1=8. Resultado: 8.075."
         }
       ]
     }

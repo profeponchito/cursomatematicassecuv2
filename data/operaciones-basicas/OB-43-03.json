@@ -1,72 +1,134 @@
 {
   "id": "OB-43-03",
   "grado": "Operaciones Básicas",
-  "numero": 339,
+  "numero": 171,
   "categoria": "integracion",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Operaciones combinadas con números con signo — Momento 3/8",
+  "titulo": "Operaciones combinadas con números con signo — Módulo 3/4",
   "contenido": "Resolución de expresiones que combinan las cuatro operaciones y potencias con números enteros con signo, aplicando la jerarquía de operaciones y la regla de signos a la vez.",
   "pda": "Resuelve expresiones numéricas combinadas con números con signo, aplicando la jerarquía de operaciones y la regla de signos.",
   "problematizacion": {
-    "contexto": "El entrenador Beltrán lleva el conteo de goles de su equipo en el torneo. Cada diferencia de goles se multiplica por el número de partidos jugados, y al final se restan los puntos que perdieron por una sanción de la liga.",
-    "pregunta": "Si el equipo tuvo una diferencia de -2 goles por partido en 4 partidos, y además se restaron 3 puntos por la sanción, ¿qué expresión combinada usarías para calcular su puntaje?"
+    "contexto": "La familia Torres junta lo que cada quien aporta a la alcancía familiar y luego resta lo que deben pagar de una deuda pendiente. Para calcular cuánto les queda, primero suman lo que aportaron entre todos y después multiplican ese total según el acuerdo del mes.\n\nLa ingeniera Karla calcula profundidades en una obra: cada nivel de excavación se eleva al cuadrado para estimar la presión del terreno, y el resultado se combina con otras mediciones que pueden ser positivas o negativas según estén arriba o abajo del nivel del suelo.",
+    "pregunta": "Si tres hermanos aportan cantidades que suman -3 (por un préstamo) y ese resultado se multiplica por -4 al acordar el descuento del mes, ¿qué expresión con paréntesis representa la operación completa? Además: si un nivel de excavación está a -3 metros y ese valor se eleva al cuadrado para el cálculo de presión, ¿qué potencia con signo debe usar la ingeniera Karla?"
   },
   "subtemas": [
     {
       "numero": "43.3",
-      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
-      "titulo": "Una multiplicación o división mezclada con sumas y restas",
-      "explicacion": "Cuando una expresión tiene una multiplicación o división junto con sumas y restas, la jerarquía de operaciones indica que primero resuelves la multiplicación o división, y solo al final sumas o restas. Aquí ya usarás la regla de signos que repasaste en el momento anterior, combinada con el orden en que se resuelven las operaciones. Todavía no hay paréntesis: basta con detectar cuál es la multiplicación o división y resolverla primero, dejando la suma o resta para el último paso.",
-      "formula": "Primero × o ÷ , después + o −",
+      "nivelEtiqueta": "Nivel 3 de 4 · Avanzado",
+      "titulo": "Paréntesis dentro de operaciones combinadas y Potencias con signo dentro de la expresión",
+      "explicacion": "Los paréntesis indican qué operación debes resolver primero, sin importar si es una suma, resta, multiplicación o división: siempre se atiende primero lo que está dentro de ellos. Después de resolver el paréntesis, aplicas la jerarquía normal (multiplicación/división antes que suma/resta) con el número que resultó. Fíjate bien en el signo que está afuera del paréntesis, porque multiplica o divide a todo lo que había dentro.\n\nUna potencia con base negativa da resultado positivo si el exponente es par, y negativo si el exponente es impar; por eso (-2)² = 4, pero (-2)³ = -8. Ten mucho cuidado con la diferencia entre (-2)² (el signo entra a la potencia porque está dentro del paréntesis) y -2² (el signo se aplica DESPUÉS de elevar, así que -2² = -4). En la jerarquía de operaciones, las potencias se resuelven antes que las multiplicaciones, divisiones, sumas y restas, pero después de los paréntesis.",
+      "formula": "1° dentro del paréntesis → 2° × y ÷ → 3° + y −; Paréntesis → Potencias → × y ÷ → + y −",
       "ejemplos": [
-        "-3 + 4 × (-2): primero 4×(-2) = -8, luego -3 + (-8) = -11",
-        "10 − 2 × (-5): primero 2×(-5) = -10, luego 10 − (−10) = 20"
+        "(-3 + 5) × (-4): primero -3+5=2, luego 2×(-4) = -8",
+        "-2 × (7 − 10) + 6: primero 7-10=-3, luego -2×(-3)=6, luego 6+6=12",
+        "(-3)² + 5: primero (-3)²=9 (exponente par, base entre paréntesis), luego 9+5=14",
+        "-2² − 4: el signo no está dentro de la potencia, así que -2²=-(2²)=-4; luego -4-4=-8"
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "-3 + 4 × (-2) = ?",
+          "pregunta": "(-3 + 5) × (-4) = ?",
           "opciones": [
-            "-11",
-            "4",
+            "-8",
+            "8",
             "-2",
-            "11"
+            "2"
           ],
           "respuestaCorrecta": 0,
-          "retroalimentacion": "Primero 4×(-2)=-8; luego -3+(-8)=-11."
+          "retroalimentacion": "-3+5=2; 2×(-4)=-8."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "10 − 2 × (-5) = ___",
-          "respuestaCorrecta": "20",
-          "retroalimentacion": "Primero 2×(-5)=-10; luego 10-(-10)=20."
+          "frase": "-2 × (7 − 10) + 6 = ___",
+          "respuestaCorrecta": "12",
+          "retroalimentacion": "7-10=-3; -2×(-3)=6; 6+6=12."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "El resultado de -20 ÷ 4 + 6 es 1.",
+          "enunciado": "El resultado de (10 − 15) ÷ (-1) − 3 es 2.",
           "respuestaCorrecta": true,
-          "retroalimentacion": "-20÷4=-5; -5+6=1. Es correcto."
+          "retroalimentacion": "10-15=-5; -5÷(-1)=5; 5-3=2. Es correcto."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "8 + (-18) ÷ (-3) = ?",
+          "pregunta": "-6 + (4 − 9) × (-2) = ?",
           "opciones": [
+            "4",
+            "-4",
             "14",
-            "-14",
-            "2",
-            "-2"
+            "-14"
           ],
           "respuestaCorrecta": 0,
-          "retroalimentacion": "(-18)÷(-3)=6; 8+6=14."
+          "retroalimentacion": "4-9=-5; -5×(-2)=10; -6+10=4."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "-5 × 3 − 4 = ___",
-          "respuestaCorrecta": "-19",
-          "retroalimentacion": "-5×3=-15; -15-4=-19."
+          "frase": "(8 − 3) × (-2) − (10 − 14) = ___",
+          "respuestaCorrecta": "-6",
+          "retroalimentacion": "8-3=5; 5×(-2)=-10; 10-14=-4; -10-(-4)=-6."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "(-3)² + 5 = ?",
+          "opciones": [
+            "14",
+            "-4",
+            "-14",
+            "4"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(-3)²=9 porque el exponente es par; 9+5=14."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "-2² − 4 es igual a -8.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "El signo no está dentro de la potencia: -2²=-(2²)=-4; -4-4=-8. Es correcto."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "(-2)³ × 3 = ___",
+          "respuestaCorrecta": "-24",
+          "retroalimentacion": "(-2)³=-8 (exponente impar); -8×3=-24."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "10 − (-1)⁴ × 6 = ?",
+          "opciones": [
+            "4",
+            "16",
+            "-4",
+            "-16"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(-1)⁴=1 (exponente par); 1×6=6; 10-6=4."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada potencia con signo con su resultado correcto.",
+          "columnaA": [
+            "(-5)²",
+            "(-3)²",
+            "(-2)³",
+            "(-1)⁴"
+          ],
+          "columnaB": [
+            "25",
+            "9",
+            "-8",
+            "1",
+            "-9"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "retroalimentacion": "(-5)²=25; (-3)²=9; (-2)³=-8; (-1)⁴=1."
         }
       ]
     }

@@ -1,91 +1,178 @@
 {
   "id": "OB-10-04",
   "grado": "Operaciones Básicas",
-  "numero": 76,
+  "numero": 40,
   "categoria": "suma_resta",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Suma y resta de números con signo (signos distintos) — Momento 4/8",
+  "titulo": "Suma y resta de números con signo (signos distintos) — Módulo 4/4",
   "contenido": "Suma y resta de números enteros con signo cuando los números tienen signos distintos, incluyendo la resta como suma del opuesto.",
   "pda": "Suma y resta números enteros con signos distintos, aplicando la regla de signos y la resta como suma del opuesto.",
   "problematizacion": {
-    "contexto": "Un camión de mudanzas sube y baja un elevador de carga entre los pisos de un edificio en construcción, transportando material. El operador anota cada movimiento como positivo (sube) o negativo (baja) respecto al piso donde empezó.",
-    "pregunta": "Si el elevador sube 78 y luego baja 45 respecto al nivel de inicio, ¿en qué nivel aproximado quedó el material?"
+    "contexto": "Una nutrióloga en un centro de salud comunitario registra el balance calórico diario de sus pacientes: las calorías consumidas de más las anota como positivas y las que se queman de más con ejercicio como negativas, todo con cifras decimales por los gramos de cada alimento.\n\nLa familia de Valeria organiza su presupuesto del mes: anotan los ingresos como números positivos y los gastos como negativos, incluyendo un reembolso que a veces llega después, para saber si terminan el mes con saldo a favor o en números rojos.",
+    "pregunta": "Si un paciente registra un exceso de 12.3 unidades por la mañana y un déficit de 8.5 por la tarde, ¿su balance del día se acerca más a positivo o a negativo? Además: si la familia registra ingresos, gastos y un reembolso en el mismo mes, todos con signos distintos entre sí, ¿qué necesitan hacer para saber su saldo final?"
   },
   "subtemas": [
     {
       "numero": "10.4",
-      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
-      "titulo": "Combinar sumas y restas de signos distintos hasta 100",
-      "explicacion": "En este momento resolverás expresiones con sumas y restas de números de hasta tres cifras, todos con signos distintos entre los términos. El procedimiento sigue siendo el mismo: identifica los valores absolutos, resta el menor del mayor y coloca el signo del número dominante. Trabajar con cantidades más grandes te prepara para aplicar esta regla en situaciones reales con cifras más realistas, como las que verás en los siguientes momentos.",
-      "formula": "a + (-b) o a - b, con |a| ≠ |b|: resultado = mayor valor absoluto − menor valor absoluto, con el signo del término dominante.",
+      "nivelEtiqueta": "Nivel 4 de 4 · Integración",
+      "titulo": "Signos distintos con números decimales y Integración: signos distintos en problemas completos",
+      "explicacion": "La regla de signos distintos funciona exactamente igual con números decimales: identifica los valores absolutos (ahora con punto decimal), resta el menor del mayor alineando las cifras decimales, y coloca el signo del número con mayor valor absoluto. Presta especial atención a alinear correctamente los decimales al restar, para no cometer errores de valor posicional.\n\nEste es el momento integrador del tema: combinarás todo lo que has practicado (sumas y restas de signos distintos, la resta como suma del opuesto, cadenas de varios términos y decimales) dentro de problemas con contexto real. Antes de operar, identifica qué representa cada número (positivo o negativo) según la situación, escribe la expresión completa y resuélvela paso a paso, sin saltarte ninguno.",
+      "formula": "a + (-b), con decimales: alinea el punto decimal, resta los valores absolutos y coloca el signo del mayor.",
       "ejemplos": [
-        "-45 + 78: valores absolutos 45 y 78; 78 > 45, resultado positivo: 78 - 45 = 33, entonces -45 + 78 = 33.",
-        "62 - 95: valores absolutos 62 y 95; 95 > 62, resultado negativo: 95 - 62 = 33, entonces 62 - 95 = -33."
+        "-8.5 + 12.3: valores absolutos 8.5 y 12.3; 12.3 > 8.5, resultado positivo: 12.3 - 8.5 = 3.8, entonces -8.5 + 12.3 = 3.8.",
+        "15.75 - 22.4: valores absolutos 15.75 y 22.4; 22.4 > 15.75, resultado negativo: 22.4 - 15.75 = 6.65, entonces 15.75 - 22.4 = -6.65.",
+        "Un río está en -2.5 m, sube 6.8 m y baja 1.3 m: -2.5 + 6.8 = 4.3; después 4.3 - 1.3 = 3.0, así que el río quedó en 3.0 m.",
+        "-52 - (-77) se reescribe como -52 + 77 = 25."
       ],
-      "puntosPorReactivo": 15,
+      "puntosPorReactivo": 25,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "-45 + 78 = ?",
+          "pregunta": "-8.5 + 12.3 = ?",
           "opciones": [
-            "33",
-            "-33",
-            "123",
-            "-123"
+            "-3.8",
+            "3.8",
+            "20.8",
+            "-20.8"
           ],
-          "respuestaCorrecta": 0,
-          "retroalimentacion": "Valores absolutos 45 y 78; 78 > 45, resultado positivo: 78 - 45 = 33."
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Valores absolutos 8.5 y 12.3; 12.3 > 8.5, resultado positivo: 12.3 - 8.5 = 3.8."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "62 - 95 = ?",
+          "pregunta": "15.75 - 22.4 = ?",
           "opciones": [
-            "33",
-            "-157",
-            "157",
-            "-33"
+            "6.65",
+            "-38.15",
+            "-6.65",
+            "38.15"
           ],
-          "respuestaCorrecta": 3,
-          "retroalimentacion": "62 - 95 = 62 + (-95); valores absolutos 62 y 95; 95 > 62, resultado negativo: 95 - 62 = 33, entonces -33."
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Valores absolutos 15.75 y 22.4; 22.4 > 15.75, resultado negativo: 22.4 - 15.75 = 6.65, entonces -6.65."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "-88 + 53 = ___.",
-          "respuestaCorrecta": "-35",
-          "retroalimentacion": "Valores absolutos 88 y 53; 88 > 53, resultado negativo: 88 - 53 = 35, entonces -88 + 53 = -35."
+          "frase": "-19.6 + 7.25 = ___.",
+          "respuestaCorrecta": "-12.35",
+          "retroalimentacion": "Valores absolutos 19.6 y 7.25; 19.6 > 7.25, resultado negativo: 19.6 - 7.25 = 12.35, entonces -12.35."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "100 - 136 = -46.",
-          "respuestaCorrecta": false,
-          "retroalimentacion": "Falso: 100 - 136 = -36, no -46. Valores absolutos 100 y 136; 136 - 100 = 36, con signo negativo."
+          "enunciado": "-4.8 - (-3.15) escrito como suma del opuesto es -4.8 + 3.15, y su resultado es -1.65.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: restar -3.15 equivale a sumar su opuesto, 3.15; -4.8 + 3.15 = -1.65."
         },
         {
           "tipo": "relacionar_columnas",
-          "instruccion": "Relaciona cada operación con su resultado correcto.",
+          "instruccion": "Relaciona cada operación decimal con su resultado.",
           "columnaA": [
-            "-70 + 99",
-            "54 - 80",
-            "-120 + 45",
-            "38 - 90"
+            "-6.4 + 9.1",
+            "20.5 - 33.75",
+            "-14.2 + 5.9",
+            "8.6 - 15.05"
           ],
           "columnaB": [
-            "-75",
-            "-52",
-            "29",
-            "-26"
+            "-8.3",
+            "2.7",
+            "-6.45",
+            "-13.25"
+          ],
+          "parejasCorrectas": [
+            1,
+            3,
+            0,
+            2
+          ],
+          "retroalimentacion": "-6.4+9.1=2.7; 20.5-33.75=-13.25; -14.2+5.9=-8.3; 8.6-15.05=-6.45."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El nivel de un río estaba en -2.5 m (respecto a su cauce normal) por la sequía. Después de una tormenta subió 6.8 m, y luego bajó 1.3 m al liberar una presa. ¿En qué nivel quedó el río?",
+          "opciones": [
+            "3.0 m",
+            "3.8 m",
+            "-3.0 m",
+            "10.6 m"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "-2.5 + 6.8 = 4.3; 4.3 - 1.3 = 3.0. El río quedó en 3.0 m."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado de -52 - (-77)?",
+          "opciones": [
+            "-25",
+            "-129",
+            "129",
+            "25"
+          ],
+          "respuestaCorrecta": 3,
+          "retroalimentacion": "-52 - (-77) = -52 + 77 = 25."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un buzo desciende a -34.5 m, luego sube 40.2 m. Su nueva posición es ___ m respecto al nivel del mar.",
+          "respuestaCorrecta": "5.7",
+          "retroalimentacion": "-34.5 + 40.2 = 5.7."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Julián tenía una deuda de $180 (-180), abonó $95 y después pidió prestados $40 más (-40). Su saldo final es -125 pesos.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: -180 + 95 = -85; -85 - 40 = -125."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada expresión mixta con su resultado.",
+          "columnaA": [
+            "-60 + 95 - 20",
+            "48 - 70 + 15",
+            "-12.5 + 20 - 3.5",
+            "-90 - (-100) - 25"
+          ],
+          "columnaB": [
+            "-7",
+            "4",
+            "15",
+            "-15"
           ],
           "parejasCorrectas": [
             2,
-            3,
             0,
-            1
+            1,
+            3
           ],
-          "retroalimentacion": "-70 + 99 = 29; 54 - 80 = -26; -120 + 45 = -75; 38 - 90 = -52."
+          "retroalimentacion": "-60+95-20=15; 48-70+15=-7; -12.5+20-3.5=4; -90-(-100)-25=-15."
         }
       ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Una empresa registró en enero una pérdida de $2450 (-2450), en febrero una ganancia de $3180, y en marzo una pérdida de $980. ¿Cuál fue el resultado acumulado al final de marzo?",
+      "opciones": [
+        "250",
+        "-250",
+        "6610",
+        "-6610"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "-2450 + 3180 = 730; 730 - 980 = -250."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "-124.6 + 89.35 - 15.2 = ___.",
+      "respuestaCorrecta": "-50.45",
+      "retroalimentacion": "-124.6 + 89.35 = -35.25; -35.25 - 15.2 = -50.45."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "El punto más alto de un dron fue +185 m y descendió 260 m para luego subir 42.5 m; el resultado -32.5 m es correcto.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: 185 - 260 = -75; -75 + 42.5 = -32.5."
     }
   ]
 }
