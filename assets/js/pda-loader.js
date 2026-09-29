@@ -11,17 +11,19 @@
  * (index.html), no al archivo de este módulo — por eso RUTA_DATOS asume
  * que index.html vive en la raíz del repositorio, junto a data/.
  *
- * "ejercitate" es un pseudo-grado especial: en vez de `grado-N/`, sus
- * archivos viven directamente en `data/ejercitate/` (sin pertenecer a la
- * ruta curricular de ningún grado). El resto del frontend (router, vistaPDA,
- * gamification, webhook, constancia) no distingue entre un grado real y
- * "ejercitate" — todos pasan por el mismo flujo `#/pda/:grado/:id`.
+ * "ejercitate" y "operaciones-basicas" son pseudo-grados especiales: en vez
+ * de `grado-N/`, sus archivos viven directamente en `data/ejercitate/` y
+ * `data/operaciones-basicas/` (Paso 28) respectivamente, sin pertenecer a
+ * la ruta curricular de ningún grado. El resto del frontend (router,
+ * vistaPDA, gamification, webhook, constancia) no distingue entre un grado
+ * real y un pseudo-grado — todos pasan por el mismo flujo `#/pda/:grado/:id`.
  */
 
 const RUTA_DATOS = 'data';
+const PSEUDOGRADOS = ['ejercitate', 'operaciones-basicas'];
 
 function carpetaDeGrado_(grado) {
-  return grado === 'ejercitate' ? 'ejercitate' : `grado-${grado.replace('°', '')}`;
+  return PSEUDOGRADOS.includes(grado) ? grado : `grado-${grado.replace('°', '')}`;
 }
 
 export async function cargarManifiesto(grado) {

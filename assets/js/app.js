@@ -84,17 +84,46 @@ const COLOR_EJERCITATE = {
   presionado: '#020617'
 };
 
-/** "ejercitate" es un pseudo-grado: reutiliza todo el flujo de vistaPDA/
- * vistaListaPDA (camino, gamificación, webhook, constancia) sin pertenecer
- * a la ruta curricular de ningún grado — solo cambia el acento de color. */
+/** Acento propio de "Operaciones Básicas" (Paso 28) — tono "vino" de la
+ * paleta "Aula NEM" (mencionado desde el Paso 20 pero sin usar todavía como
+ * acento de navegación), deliberadamente distinto de los 3 grados y de
+ * Ejercítate para que se distinga como su propia sección. */
+const COLOR_OPERACIONES = {
+  grad: 'from-rose-900 to-red-950',
+  texto: 'text-rose-900',
+  chip: 'bg-rose-50 text-rose-900',
+  borde: 'border-rose-300',
+  pista: '#7f1d1d',
+  pastelFondo: 'bg-rose-100',
+  pastelBorde: 'border-rose-300',
+  presionado: '#450a0a'
+};
+
+/** "ejercitate" y "operaciones-basicas" son pseudo-grados: reutilizan todo
+ * el flujo de vistaPDA/vistaListaPDA (camino, gamificación, webhook,
+ * constancia) sin pertenecer a la ruta curricular de ningún grado — solo
+ * cambia el acento de color. */
+const PSEUDOGRADOS_AGRUPADOS = ['ejercitate', 'operaciones-basicas'];
+
 function temaGrado_(grado) {
   if (grado === 'ejercitate') return COLOR_EJERCITATE;
+  if (grado === 'operaciones-basicas') return COLOR_OPERACIONES;
   return TEMAS_GRADO[grado] || TEMAS_GRADO['1°'];
 }
 
 /** Texto legible para el encabezado/breadcrumb de un (pseudo-)grado. */
 function etiquetaGrado_(grado) {
-  return grado === 'ejercitate' ? 'Ejercítate' : `${grado} de secundaria`;
+  if (grado === 'ejercitate') return 'Ejercítate';
+  if (grado === 'operaciones-basicas') return 'Operaciones Básicas';
+  return `${grado} de secundaria`;
+}
+
+/** Enlace de "volver" desde un PDA hacia su lista: los pseudo-grados
+ * agrupados (Ejercítate, Operaciones Básicas) no tienen trimestre. */
+function enlaceListaPDA_(grado, pda) {
+  return PSEUDOGRADOS_AGRUPADOS.includes(grado)
+    ? `#/pda-lista/${encodeURIComponent(grado)}`
+    : `#/pda-lista/${encodeURIComponent(grado)}/${encodeURIComponent(pda.trimestre || '1')}`;
 }
 
 // Un color distinto por FASE del recorrido de un PDA: además de vistoso,
@@ -454,6 +483,7 @@ function vistaSeleccionGrado() {
   const grados = ['1°', '2°', '3°'];
   const trimestres = ['1', '2', '3'];
   const ej = COLOR_EJERCITATE;
+  const ob = COLOR_OPERACIONES;
 
   return `
     ${encabezado_(sesion)}
@@ -483,16 +513,28 @@ function vistaSeleccionGrado() {
         </div>
         `;
       }).join('')}
-      <a href="#/pda-lista/ejercitate" class="mn-tarjeta mn-elevar group block rounded-3xl p-[2px] bg-gradient-to-br ${ej.grad} shadow-lg max-w-sm mx-auto">
-        <div class="bg-white rounded-[calc(1.5rem-2px)] px-6 py-8 text-center h-full flex flex-col items-center justify-center">
-          <span class="inline-flex items-center justify-center w-12 h-12 rounded-2xl ${ej.chip} mb-2">${icono_('operaciones', 'w-6 h-6')}</span>
-          <span class="font-heading text-xl font-extrabold bg-gradient-to-br ${ej.grad} bg-clip-text text-transparent">Ejercítate</span>
-          <p class="text-slate-500 mt-1 font-medium text-sm">40 temas, todos los grados</p>
-          <p class="mt-3 inline-flex items-center gap-1 text-sm font-semibold ${ej.texto}">
-            Practicar ${icono_('flecha', 'w-4 h-4 group-hover:translate-x-1 transition-transform')}
-          </p>
-        </div>
-      </a>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-2xl mx-auto">
+        <a href="#/pda-lista/ejercitate" class="mn-tarjeta mn-elevar group block rounded-3xl p-[2px] bg-gradient-to-br ${ej.grad} shadow-lg">
+          <div class="bg-white rounded-[calc(1.5rem-2px)] px-6 py-8 text-center h-full flex flex-col items-center justify-center">
+            <span class="inline-flex items-center justify-center w-12 h-12 rounded-2xl ${ej.chip} mb-2">${icono_('operaciones', 'w-6 h-6')}</span>
+            <span class="font-heading text-xl font-extrabold bg-gradient-to-br ${ej.grad} bg-clip-text text-transparent">Ejercítate</span>
+            <p class="text-slate-500 mt-1 font-medium text-sm">40 temas, todos los grados</p>
+            <p class="mt-3 inline-flex items-center gap-1 text-sm font-semibold ${ej.texto}">
+              Practicar ${icono_('flecha', 'w-4 h-4 group-hover:translate-x-1 transition-transform')}
+            </p>
+          </div>
+        </a>
+        <a href="#/pda-lista/operaciones-basicas" class="mn-tarjeta mn-elevar group block rounded-3xl p-[2px] bg-gradient-to-br ${ob.grad} shadow-lg">
+          <div class="bg-white rounded-[calc(1.5rem-2px)] px-6 py-8 text-center h-full flex flex-col items-center justify-center">
+            <span class="inline-flex items-center justify-center w-12 h-12 rounded-2xl ${ob.chip} mb-2">${icono_('calculadora', 'w-6 h-6')}</span>
+            <span class="font-heading text-xl font-extrabold bg-gradient-to-br ${ob.grad} bg-clip-text text-transparent">Operaciones Básicas</span>
+            <p class="text-slate-500 mt-1 font-medium text-sm">44 temas, todos los grados</p>
+            <p class="mt-3 inline-flex items-center gap-1 text-sm font-semibold ${ob.texto}">
+              Repasar ${icono_('flecha', 'w-4 h-4 group-hover:translate-x-1 transition-transform')}
+            </p>
+          </div>
+        </a>
+      </div>
     </div>
   `;
 }
@@ -510,8 +552,28 @@ const CATEGORIAS_EJERCITATE = [
   { clave: 'estadistica', etiqueta: 'Estadística y probabilidad' }
 ];
 
-function caminoEjercitateAgrupado_(pdas, grado, tema) {
-  return CATEGORIAS_EJERCITATE.map((cat) => {
+/** Los 4 bloques de "Operaciones Básicas" (Paso 28), mismo patrón que
+ * CATEGORIAS_EJERCITATE — cada uno se dibuja como su propio mini-camino. */
+const CATEGORIAS_OPERACIONES = [
+  { clave: 'suma_resta', etiqueta: 'Suma y resta' },
+  { clave: 'mult_div', etiqueta: 'Multiplicación y división' },
+  { clave: 'potencias_raices', etiqueta: 'Potencias y raíces' },
+  { clave: 'integracion', etiqueta: 'Integración' }
+];
+
+/** Categorías del pseudo-grado agrupado que corresponde a `grado`, o null
+ * si `grado` no es uno de PSEUDOGRADOS_AGRUPADOS. */
+function categoriasDe_(grado) {
+  if (grado === 'ejercitate') return CATEGORIAS_EJERCITATE;
+  if (grado === 'operaciones-basicas') return CATEGORIAS_OPERACIONES;
+  return null;
+}
+
+/** Agrupa los PDAs de un pseudo-grado por categoría, cada una como su
+ * propio mini-camino serpenteante con encabezado — reutilizado por
+ * Ejercítate (Paso 13) y Operaciones Básicas (Paso 28). */
+function caminoAgrupado_(pdas, grado, tema, categorias) {
+  return categorias.map((cat) => {
     const items = pdas.filter((p) => p.categoria === cat.clave);
     if (items.length === 0) return '';
     return `
@@ -528,34 +590,42 @@ async function vistaListaPDA({ grado, trimestre }) {
   if (!sesion) { navegar('/'); return ''; }
 
   const tema = temaGrado_(grado);
-  const esEjercitate = grado === 'ejercitate';
+  const categorias = categoriasDe_(grado);
+  const esAgrupado = categorias !== null;
+  const esOperaciones = grado === 'operaciones-basicas';
   let pdas = [];
   let error = null;
   try {
     pdas = await cargarListaPDAs(grado);
-    if (!esEjercitate && trimestre) {
+    if (!esAgrupado && trimestre) {
       pdas = pdas.filter((p) => p.trimestre === trimestre);
     }
   } catch (e) {
     error = e.message;
   }
 
-  const etiquetaTrimestre = !esEjercitate && trimestre ? ` · Trimestre ${trimestre}` : '';
+  const etiquetaTrimestre = !esAgrupado && trimestre ? ` · Trimestre ${trimestre}` : '';
+  const tituloPantalla = esOperaciones ? 'Operaciones Básicas' : (grado === 'ejercitate' ? 'Ejercítate' : `PDAs de ${etiquetaGrado_(grado)}${etiquetaTrimestre}`);
+  const subtitulo = esOperaciones
+    ? '44 temas de suma, resta, multiplicación, división, potencias y raíces, para repasar desde distintos ángulos.'
+    : (grado === 'ejercitate' ? '40 temas de matemáticas de secundaria, disponibles para cualquier grado.' : null);
 
   return `
     ${encabezado_(sesion)}
     <div class="max-w-2xl mx-auto px-4 py-8">
       <a href="#/grados" class="inline-flex items-center gap-1 text-sm font-semibold ${tema.texto} hover:underline">
-        ${icono_('flecha', 'w-4 h-4 rotate-180')} ${esEjercitate ? 'Volver' : 'Cambiar de grado o trimestre'}
+        ${icono_('flecha', 'w-4 h-4 rotate-180')} ${esAgrupado ? 'Volver' : 'Cambiar de grado o trimestre'}
       </a>
-      ${esEjercitate
-        ? imagenMascota_('ejercitate-hero.png', 'Profe Ponchito frente a un pizarrón: Curso Online de Matemáticas', 'max-h-36 mx-auto mt-3 mb-1')
-        : imagenMascota_('camino-crecimiento.png', 'Profe Ponchito plantando un árbol junto a una pirámide: tu camino va creciendo', 'max-h-28 mx-auto mt-3 mb-1')}
-      <h2 class="font-heading text-2xl font-bold text-slate-800 mt-3 mb-1 text-center">${esEjercitate ? 'Ejercítate' : `PDAs de ${etiquetaGrado_(grado)}${etiquetaTrimestre}`}</h2>
-      ${esEjercitate ? `<p class="text-slate-500 mb-6 text-center">40 temas de matemáticas de secundaria, disponibles para cualquier grado.</p>` : `<div class="mb-6"></div>`}
+      ${esOperaciones
+        ? imagenMascota_('practicaextra-numeros.png', 'Profe Ponchito rodeado de números: Operaciones Básicas', 'max-h-32 mx-auto mt-3 mb-1')
+        : grado === 'ejercitate'
+          ? imagenMascota_('ejercitate-hero.png', 'Profe Ponchito frente a un pizarrón: Curso Online de Matemáticas', 'max-h-36 mx-auto mt-3 mb-1')
+          : imagenMascota_('camino-crecimiento.png', 'Profe Ponchito plantando un árbol junto a una pirámide: tu camino va creciendo', 'max-h-28 mx-auto mt-3 mb-1')}
+      <h2 class="font-heading text-2xl font-bold text-slate-800 mt-3 mb-1 text-center">${tituloPantalla}</h2>
+      ${subtitulo ? `<p class="text-slate-500 mb-6 text-center">${subtitulo}</p>` : `<div class="mb-6"></div>`}
       ${error ? `<p class="text-rose-600 bg-rose-50 border border-rose-200 rounded-xl px-4 py-3">No se pudieron cargar los PDAs: ${escapeHTML_(error)}</p>` : ''}
-      ${(!error && pdas.length === 0) ? `<p class="text-slate-500">Todavía no hay PDAs cargados para ${esEjercitate ? 'esta categoría' : 'este trimestre'}. Vuelve pronto.</p>` : ''}
-      ${!error && pdas.length > 0 ? (esEjercitate ? caminoEjercitateAgrupado_(pdas, grado, tema) : caminoPDAs_(pdas, grado, tema)) : ''}
+      ${(!error && pdas.length === 0) ? `<p class="text-slate-500">Todavía no hay PDAs cargados para ${esAgrupado ? 'esta categoría' : 'este trimestre'}. Vuelve pronto.</p>` : ''}
+      ${!error && pdas.length > 0 ? (esAgrupado ? caminoAgrupado_(pdas, grado, tema, categorias) : caminoPDAs_(pdas, grado, tema)) : ''}
     </div>
   `;
 }
@@ -636,7 +706,7 @@ async function vistaPDA({ grado, id }) {
     raiz.innerHTML = `
       ${encabezado_(sesion)}
       <div class="max-w-2xl mx-auto px-4 py-8">
-        <a href="${grado === 'ejercitate' ? '#/pda-lista/ejercitate' : `#/pda-lista/${encodeURIComponent(grado)}/${encodeURIComponent(pda.trimestre || '1')}`}" class="inline-flex items-center gap-1 text-sm font-semibold ${tema.texto} hover:underline">
+        <a href="${enlaceListaPDA_(grado, pda)}" class="inline-flex items-center gap-1 text-sm font-semibold ${tema.texto} hover:underline">
           ${icono_('flecha', 'w-4 h-4 rotate-180')} ${escapeHTML_(etiquetaGrado_(grado))}
         </a>
         ${caminoPasos_(estado.pasoIndex, pasos.length, tema)}
@@ -1071,7 +1141,7 @@ function panelCelebracion_(pda, resultado, grado, color) {
         </div>
         <p class="font-heading text-2xl sm:text-3xl font-extrabold text-white mb-1">${perfecto ? '¡Puntaje perfecto!' : '¡Nivel superado!'}</p>
         <p class="text-white/90 font-medium mb-6">Completaste «${escapeHTML_(pda.titulo)}» con ${resultado.puntaje} de ${resultado.puntajeMax} pts.</p>
-        <a href="${grado === 'ejercitate' ? '#/pda-lista/ejercitate' : `#/pda-lista/${encodeURIComponent(grado)}/${encodeURIComponent(pda.trimestre || '1')}`}" class="mn-elevar inline-flex items-center gap-2 bg-white/95 hover:bg-white text-slate-800 font-heading font-bold px-6 py-3 rounded-xl transition shadow-lg">
+        <a href="${enlaceListaPDA_(grado, pda)}" class="mn-elevar inline-flex items-center gap-2 bg-white/95 hover:bg-white text-slate-800 font-heading font-bold px-6 py-3 rounded-xl transition shadow-lg">
           Elegir otro tema ${icono_('flecha', 'w-4 h-4')}
         </a>
       </div>
