@@ -1,90 +1,116 @@
 {
   "id": "OB-43-02",
   "grado": "Operaciones Básicas",
-  "numero": 338,
+  "numero": 170,
   "categoria": "integracion",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Operaciones combinadas con números con signo — Momento 2/8",
+  "titulo": "Operaciones combinadas con números con signo — Módulo 2/4",
   "contenido": "Resolución de expresiones que combinan las cuatro operaciones y potencias con números enteros con signo, aplicando la jerarquía de operaciones y la regla de signos a la vez.",
   "pda": "Resuelve expresiones numéricas combinadas con números con signo, aplicando la jerarquía de operaciones y la regla de signos.",
   "problematizacion": {
-    "contexto": "La maestra Rosa pide a su grupo registrar cuánto cambia la temperatura cada hora en la estación meteorológica de la escuela: si baja, anotan el cambio con signo negativo, y si sube, con signo positivo. Luego multiplican ese cambio por el número de horas para estimar la tendencia.",
-    "pregunta": "Si la temperatura bajó 4 grados cada hora durante 6 horas seguidas, ¿qué operación con signos representa el cambio total?"
+    "contexto": "El entrenador Beltrán lleva el conteo de goles de su equipo en el torneo. Cada diferencia de goles se multiplica por el número de partidos jugados, y al final se restan los puntos que perdieron por una sanción de la liga.\n\nEn la ruta 24 de camiones urbanos, el chofer Nazario cuenta cuántos pasajeros suben (+) y bajan (−) en cada parada, y multiplica algunos conteos por el número de paradas dobles que hace en su turno para estimar el movimiento total de pasajeros del día.",
+    "pregunta": "Si el equipo tuvo una diferencia de -2 goles por partido en 4 partidos, y además se restaron 3 puntos por la sanción, ¿qué expresión combinada usarías para calcular su puntaje? Además: si en una vuelta bajaron pasajeros repartidos entre varias paradas, subieron otros grupos y al final se descontaron algunos boletos, ¿qué expresión combinada representa el resultado del día?"
   },
   "subtemas": [
     {
       "numero": "43.2",
-      "nivelEtiqueta": "Nivel 2 de 8 · Básico",
-      "titulo": "Regla de los signos en multiplicación y división",
-      "explicacion": "Al multiplicar o dividir dos números, el resultado es positivo si ambos tienen el mismo signo, y negativo si tienen signos distintos. Esta regla es diferente a la de sumar y restar, así que no debes confundirlas. En este momento solo trabajarás con una multiplicación o una división a la vez, sin mezclarla todavía con sumas o restas, para dominar bien la regla de los signos por separado antes de combinarla con otras operaciones.",
-      "formula": "(+)×(+)=+   (−)×(−)=+   (+)×(−)=−   (−)×(+)=−   (lo mismo aplica para ÷)",
+      "nivelEtiqueta": "Nivel 2 de 4 · Intermedio",
+      "titulo": "Una multiplicación o división mezclada con sumas y restas y Las cuatro operaciones combinadas, sin paréntesis",
+      "explicacion": "Cuando una expresión tiene una multiplicación o división junto con sumas y restas, la jerarquía de operaciones indica que primero resuelves la multiplicación o división, y solo al final sumas o restas. Aquí ya usarás la regla de signos que repasaste en el momento anterior, combinada con el orden en que se resuelven las operaciones. Todavía no hay paréntesis: basta con detectar cuál es la multiplicación o división y resolverla primero, dejando la suma o resta para el último paso.\n\nAhora resolverás expresiones más largas que mezclan sumas, restas, multiplicaciones y divisiones, todas en la misma línea y sin paréntesis. Recuerda el orden: primero se resuelven, de izquierda a derecha, todas las multiplicaciones y divisiones que aparezcan; después se resuelven, de izquierda a derecha, las sumas y restas. Aplica la regla de signos en cada multiplicación o división antes de sumar o restar los resultados parciales.",
+      "formula": "Primero × o ÷ , después + o −; 1° × y ÷ (izquierda a derecha)  →  2° + y − (izquierda a derecha)",
       "ejemplos": [
-        "(-6) × (-4): signos iguales → resultado positivo → 24",
-        "8 × (-5): signos distintos → resultado negativo → -40"
+        "-3 + 4 × (-2): primero 4×(-2) = -8, luego -3 + (-8) = -11",
+        "10 − 2 × (-5): primero 2×(-5) = -10, luego 10 − (−10) = 20",
+        "-20 ÷ 4 + 3 × (-2) − 5: primero -20÷4=-5 y 3×(-2)=-6; luego -5 + (-6) − 5 = -16",
+        "6 × (-3) − 12 ÷ (-4) + 7: primero 6×(-3)=-18 y 12÷(-4)=-3; luego -18 − (-3) + 7 = -8"
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "(-6) × (-4) = ?",
+          "pregunta": "-3 + 4 × (-2) = ?",
           "opciones": [
-            "-24",
-            "24",
-            "-10",
-            "10"
+            "-11",
+            "4",
+            "-2",
+            "11"
           ],
-          "respuestaCorrecta": 1,
-          "retroalimentacion": "Signos iguales (- y -) dan resultado positivo: 24."
-        },
-        {
-          "tipo": "verdadero_falso",
-          "enunciado": "(-15) ÷ 3 = 5",
-          "respuestaCorrecta": false,
-          "retroalimentacion": "Signos distintos (- y +) dan resultado negativo: (-15)÷3 = -5, no 5."
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Primero 4×(-2)=-8; luego -3+(-8)=-11."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "8 × (-5) = ___",
-          "respuestaCorrecta": "-40",
-          "retroalimentacion": "Signos distintos (+ y -) dan resultado negativo: -40."
+          "frase": "10 − 2 × (-5) = ___",
+          "respuestaCorrecta": "20",
+          "retroalimentacion": "Primero 2×(-5)=-10; luego 10-(-10)=20."
         },
         {
-          "tipo": "relacionar_columnas",
-          "instruccion": "Relaciona cada operación con su resultado correcto.",
-          "columnaA": [
-            "(-36) ÷ (-9)",
-            "(-7) × (-7)",
-            "12 × (-3)",
-            "(-54) ÷ 9"
-          ],
-          "columnaB": [
-            "-36",
-            "49",
-            "4",
-            "-6",
-            "-40"
-          ],
-          "parejasCorrectas": [
-            2,
-            1,
-            0,
-            3
-          ],
-          "retroalimentacion": "(-36)÷(-9)=4; (-7)×(-7)=49; 12×(-3)=-36; (-54)÷9=-6."
+          "tipo": "verdadero_falso",
+          "enunciado": "El resultado de -20 ÷ 4 + 6 es 1.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "-20÷4=-5; -5+6=1. Es correcto."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "(-8) × (-8) = ?",
+          "pregunta": "8 + (-18) ÷ (-3) = ?",
           "opciones": [
-            "-64",
-            "64",
-            "16",
-            "-16"
+            "14",
+            "-14",
+            "2",
+            "-2"
           ],
-          "respuestaCorrecta": 1,
-          "retroalimentacion": "Signos iguales (- y -) dan resultado positivo: 64."
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(-18)÷(-3)=6; 8+6=14."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "-5 × 3 − 4 = ___",
+          "respuestaCorrecta": "-19",
+          "retroalimentacion": "-5×3=-15; -15-4=-19."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "-20 ÷ 4 + 3 × (-2) − 5 = ?",
+          "opciones": [
+            "-16",
+            "-1",
+            "16",
+            "-26"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "-20÷4=-5; 3×(-2)=-6; -5+(-6)-5=-16."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "6 × (-3) − 12 ÷ (-4) + 7 = ___",
+          "respuestaCorrecta": "-8",
+          "retroalimentacion": "6×(-3)=-18; 12÷(-4)=-3; -18-(-3)+7=-8."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El resultado de -15 + 8 × (-2) ÷ 4 − 6 es -25.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "8×(-2)=-16; -16÷4=-4; -15+(-4)-6=-25. Es correcto."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "9 − (-4) × 3 + 10 ÷ (-5) = ?",
+          "opciones": [
+            "19",
+            "-19",
+            "1",
+            "29"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(-4)×3=-12; 10÷(-5)=-2; 9-(-12)+(-2)=9+12-2=19."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "-2 × (-6) + 15 ÷ (-3) − 8 = ___",
+          "respuestaCorrecta": "-1",
+          "retroalimentacion": "-2×(-6)=12; 15÷(-3)=-5; 12+(-5)-8=-1."
         }
       ]
     }

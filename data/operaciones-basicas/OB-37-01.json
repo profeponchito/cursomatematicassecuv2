@@ -1,27 +1,29 @@
 {
   "id": "OB-37-01",
   "grado": "Operaciones Básicas",
-  "numero": 289,
+  "numero": 145,
   "categoria": "potencias_raices",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Raíz cúbica de cubos perfectos — Momento 1/8",
+  "titulo": "Raíz cúbica de cubos perfectos — Módulo 1/4",
   "contenido": "Cálculo de la raíz cúbica exacta de números que son cubos perfectos, como operación inversa de elevar al cubo.",
   "pda": "Calcula la raíz cúbica exacta de cubos perfectos, reconociéndola como la operación inversa de elevar al cubo.",
   "problematizacion": {
-    "contexto": "Don Efrén es carpintero en su taller del barrio y quiere fabricar una pequeña caja de madera con forma de cubo para guardar tornillos. Ya tiene calculado que el volumen de la caja debe ser de 8 dm³. No quiere hacer pruebas de más cortando madera, así que necesita saber la medida exacta del lado antes de cortar.",
-    "pregunta": "¿Cuánto debe medir cada lado de la caja para que su volumen sea exactamente 8 dm³?"
+    "contexto": "Don Efrén es carpintero en su taller del barrio y quiere fabricar una pequeña caja de madera con forma de cubo para guardar tornillos. Ya tiene calculado que el volumen de la caja debe ser de 8 dm³. No quiere hacer pruebas de más cortando madera, así que necesita saber la medida exacta del lado antes de cortar.\n\nEn el mercado de Jamaica, la señora Refugio empaca mangos en cajas de madera con forma de cubo para acomodarlas mejor en su puesto. Una de sus cajas tiene un volumen de 343 dm³ y ella quiere saber cuánto mide cada lado para pedir una caja del mismo tamaño la próxima temporada.",
+    "pregunta": "¿Cuánto debe medir cada lado de la caja para que su volumen sea exactamente 8 dm³? Además: ¿Cuánto debe medir la arista de la caja para que su volumen sea de 343 dm³?"
   },
   "subtemas": [
     {
       "numero": "37.1",
-      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
-      "titulo": "¿Qué es la raíz cúbica?",
-      "explicacion": "La raíz cúbica de un número es el valor que, multiplicado por sí mismo tres veces, da ese número. Se representa con el símbolo ∛ y es la operación inversa de elevar al cubo. Si un número es un cubo perfecto, existe otro número entero que, al elevarlo al cubo, produce exactamente ese resultado. En este momento vas a reconocer esa relación con los cubos perfectos más pequeños y sencillos de memorizar.",
+      "nivelEtiqueta": "Nivel 1 de 4 · Introductorio",
+      "titulo": "¿Qué es la raíz cúbica? y Calcula raíces cúbicas de dos cifras",
+      "explicacion": "La raíz cúbica de un número es el valor que, multiplicado por sí mismo tres veces, da ese número. Se representa con el símbolo ∛ y es la operación inversa de elevar al cubo. Si un número es un cubo perfecto, existe otro número entero que, al elevarlo al cubo, produce exactamente ese resultado. En este momento vas a reconocer esa relación con los cubos perfectos más pequeños y sencillos de memorizar.\n\nAhora vas a calcular directamente la raíz cúbica de cubos perfectos un poco más grandes, entre 200 y 1000. Para hacerlo sin calculadora conviene memorizar los cubos de los números del 1 al 10, ya que todos estos resultados aparecen en esa lista. La estrategia es recordar qué número, al multiplicarse tres veces por sí mismo, da exactamente el número que te preguntan. Con práctica, reconocerás estos cubos perfectos casi de memoria.",
       "formula": "∛(a³) = a",
       "ejemplos": [
         "∛8 = 2, porque 2 × 2 × 2 = 8.",
-        "∛27 = 3, porque 3 × 3 × 3 = 27."
+        "∛27 = 3, porque 3 × 3 × 3 = 27.",
+        "∛216 = 6, porque 6 × 6 × 6 = 216.",
+        "∛1000 = 10, porque 10 × 10 × 10 = 1000."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
@@ -85,6 +87,66 @@
             4
           ],
           "retroalimentacion": "1³=1, 2³=8, 3³=27 y 5³=125; el 4 no tenía pareja en esta lista."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la raíz cúbica de 216?",
+          "opciones": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "6 × 6 × 6 = 216, entonces ∛216 = 6."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "∛343 = ___",
+          "respuestaCorrecta": "7",
+          "retroalimentacion": "7 × 7 × 7 = 343, así que ∛343 = 7."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La raíz cúbica de 512 es 9.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: 9 × 9 × 9 = 729, no 512. En realidad 8 × 8 × 8 = 512, así que ∛512 = 8."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es ∛1000?",
+          "opciones": [
+            "10",
+            "100",
+            "30",
+            "1000"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "10 × 10 × 10 = 1000, entonces ∛1000 = 10."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada cubo perfecto con su raíz cúbica.",
+          "columnaA": [
+            "216",
+            "343",
+            "512",
+            "729"
+          ],
+          "columnaB": [
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "retroalimentacion": "216=6³, 343=7³, 512=8³ y 729=9³."
         }
       ]
     }

@@ -1,27 +1,29 @@
 {
   "id": "OB-33-01",
   "grado": "Operaciones Básicas",
-  "numero": 257,
+  "numero": 129,
   "categoria": "potencias_raices",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Potencias con signo (exponente par e impar) — Momento 1/8",
+  "titulo": "Potencias con signo (exponente par e impar) — Módulo 1/4",
   "contenido": "Potencias de una base negativa, distinguiendo el signo del resultado según si el exponente es par o impar.",
   "pda": "Calcula potencias de base negativa, determinando el signo del resultado según la paridad del exponente.",
   "problematizacion": {
-    "contexto": "La profesora Lupita escribe en el pizarrón el número (-2) y le pone un exponente pequeño para que la clase observe qué pasa con el signo del resultado. Varios alumnos creen que el resultado siempre será negativo porque la base lo es.",
-    "pregunta": "¿Cuál crees que sea el signo del resultado de (-2) elevado al cuadrado?"
+    "contexto": "La profesora Lupita escribe en el pizarrón el número (-2) y le pone un exponente pequeño para que la clase observe qué pasa con el signo del resultado. Varios alumnos creen que el resultado siempre será negativo porque la base lo es.\n\nDon Tomás vende nueces en el mercado y organiza sus costales en charolas. Cada charola contiene un número de bolsitas que sigue duplicándose, pero él anota las pérdidas de peso por humedad como cantidades negativas para llevar su registro.",
+    "pregunta": "¿Cuál crees que sea el signo del resultado de (-2) elevado al cuadrado? Además: si Don Tomás multiplica -2 por sí mismo varias veces para estimar una pérdida acumulada, ¿el resultado será siempre negativo?"
   },
   "subtemas": [
     {
       "numero": "33.1",
-      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
-      "titulo": "¿Qué pasa cuando la base es negativa?",
-      "explicacion": "Recuerda que una potencia es una multiplicación repetida: la base se multiplica por sí misma tantas veces como indica el exponente. Cuando la base negativa va entre paréntesis, como en (-3)^2, el exponente afecta a todo el número, incluido su signo. En este primer momento solo trabajaremos con exponentes 2 y 3 para observar con calma qué signo resulta en cada caso.",
+      "nivelEtiqueta": "Nivel 1 de 4 · Introductorio",
+      "titulo": "¿Qué pasa cuando la base es negativa? y Calcula potencias con exponentes más grandes",
+      "explicacion": "Recuerda que una potencia es una multiplicación repetida: la base se multiplica por sí misma tantas veces como indica el exponente. Cuando la base negativa va entre paréntesis, como en (-3)^2, el exponente afecta a todo el número, incluido su signo. En este primer momento solo trabajaremos con exponentes 2 y 3 para observar con calma qué signo resulta en cada caso.\n\nAhora practicarás el mismo procedimiento del momento anterior, pero con exponentes un poco más grandes, del 2 al 5. Sigue multiplicando la base negativa por sí misma las veces que indique el exponente, llevando la cuenta con cuidado, porque entre más factores negativos multipliques, más fácil es perder el hilo del signo.",
       "formula": "(-a)^n = (-a) × (-a) × ... (n veces)",
       "ejemplos": [
         "(-3)^2 = (-3) × (-3) = 9",
-        "(-2)^3 = (-2) × (-2) × (-2) = -8"
+        "(-2)^3 = (-2) × (-2) × (-2) = -8",
+        "(-2)^4 = (-2)×(-2)×(-2)×(-2) = 16",
+        "(-2)^5 = 16 × (-2) = -32"
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
@@ -85,6 +87,48 @@
             3
           ],
           "retroalimentacion": "(-2)^2=4, (-2)^3=-8, (-3)^2=9 y (-1)^5=-1."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es (-2)^4?",
+          "opciones": [
+            "-16",
+            "16",
+            "-8",
+            "8"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "(-2)^4 = (-2)×(-2)×(-2)×(-2) = 4×4 = 16."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "(-3)^3 = ___",
+          "respuestaCorrecta": "-27",
+          "retroalimentacion": "(-3)^3 = (-3)×(-3)×(-3) = 9×(-3) = -27."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "(-5)^2 es igual a -25.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: (-5)^2 = (-5)×(-5) = 25, un resultado positivo."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es (-2)^5?",
+          "opciones": [
+            "32",
+            "-32",
+            "16",
+            "-16"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "(-2)^5 = 16 × (-2) = -32."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "(-4)^3 = ___",
+          "respuestaCorrecta": "-64",
+          "retroalimentacion": "(-4)^3 = (-4)×(-4)×(-4) = 16×(-4) = -64."
         }
       ]
     }

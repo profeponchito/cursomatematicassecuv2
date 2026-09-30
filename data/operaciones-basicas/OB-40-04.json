@@ -1,92 +1,177 @@
 {
   "id": "OB-40-04",
   "grado": "Operaciones Básicas",
-  "numero": 316,
+  "numero": 160,
   "categoria": "potencias_raices",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Encuentra el error: potencias y raíces — Momento 4/8",
+  "titulo": "Encuentra el error: potencias y raíces — Módulo 4/4",
   "contenido": "Identificación del paso exacto donde el cálculo de una potencia o raíz ya resuelto contiene un error, como forma de reforzar el concepto desde la revisión.",
   "pda": "Identifica errores en cálculos de potencias y raíces ya resueltos, explicando en qué paso ocurre el error.",
   "problematizacion": {
-    "contexto": "En un club de matemáticas de Guanajuato juegan una tabla de mesa donde cada casilla de penalización eleva los puntos negativos de un jugador a una potencia según el dado. Fernanda sacó -2 puntos y le tocó elevarlos al cuadrado, pero su equipo no se pone de acuerdo en el signo del resultado.",
-    "pregunta": "¿El resultado de elevar un número negativo a una potencia siempre es negativo?"
+    "contexto": "El maestro albañil Cirilo está colocando una loseta cuadrada en un patio en Mérida y necesita saber, sin calculadora, entre qué dos medidas enteras está el lado de una loseta cuya área es de 50 centímetros cuadrados, para pedir el material correcto.\n\nUna ingeniera topógrafa en Chihuahua usa un dron para medir un terreno y aplica una fórmula con potencias y raíces para calcular distancias; antes de entregar el reporte final, revisa paso por paso la resolución hecha por un pasante para asegurarse de que no haya errores escondidos.",
+    "pregunta": "¿Entre qué dos números enteros consecutivos se encuentra una raíz cuadrada que no es exacta? Además: al revisar un procedimiento con varios pasos, ¿por qué es importante revisar cada paso por separado y no solo el resultado final?"
   },
   "subtemas": [
     {
       "numero": "40.4",
-      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
-      "titulo": "El signo en potencias de base negativa",
-      "explicacion": "Cuando la base de una potencia es negativa, el signo del resultado depende de si el exponente es par o impar: si es par, el resultado es positivo porque los signos negativos se cancelan por pares; si es impar, el resultado conserva el signo negativo. Un error muy común es no fijarse en la paridad del exponente y poner siempre el mismo signo, o quitar el signo negativo cuando no correspondía. Además, la raíz cuadrada de un número negativo no tiene solución con los números que se usan en secundaria.",
-      "formula": "(-b)^par = positivo ; (-b)^impar = negativo",
+      "nivelEtiqueta": "Nivel 4 de 4 · Integración",
+      "titulo": "Estimar raíces que no son exactas y Revisión integral: encuentra el paso exacto del error",
+      "explicacion": "Muchos números no tienen raíz cuadrada exacta porque no son cuadrados perfectos, pero se puede estimar entre qué dos números enteros consecutivos se encuentra la raíz, buscando los cuadrados perfectos más cercanos por arriba y por abajo. Un error común es afirmar que la raíz de un número no perfecto es exactamente un entero, o ubicarla entre un par de enteros equivocado. Para comprobar una estimación, se eleva al cuadrado cada extremo propuesto y se verifica que el número quede entre ambos.\n\nEn un problema resuelto con varios pasos que combina potencias, raíces y signos, el error casi siempre aparece en un solo paso intermedio, aunque el planteamiento general esté bien armado. Para encontrarlo conviene revisar cada paso por separado: primero los signos (par o impar), luego el valor de la potencia o raíz, y después las operaciones de suma o resta que siguen. Esta revisión integra todo lo trabajado en los momentos anteriores: significado de la potencia, desarrollo completo, comprobación de raíces, signos, leyes de exponentes, orden de operaciones y estimación de raíces no exactas.",
+      "formula": "Si a² < n < b², entonces a < √n < b",
       "ejemplos": [
-        "(-2)⁴ = (-2)×(-2)×(-2)×(-2) = 16 (positivo, porque el exponente 4 es par). Un error sería escribir (-2)⁴ = -16.",
-        "(-3)³ = (-3)×(-3)×(-3) = -27 (negativo, porque el exponente 3 es impar)."
+        "√50 está entre 7 y 8, porque 7²=49 y 8²=64, y 49<50<64 (correcto). Un error sería decir que √50 = 7 exactamente.",
+        "√20 está entre 4 y 5, porque 4²=16 y 5²=25, y 16<20<25.",
+        "Paso 1: (-3)² = 9. Paso 2: 9 + 16 = 25. Paso 3: √25 = 5. Todo correcto, porque cada paso se revisó por separado.",
+        "Si en el Paso 1 alguien escribe (-3)² = -9, el error ya arrastra todos los pasos siguientes, aunque las operaciones posteriores estén bien planteadas."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "Un alumno calculó (-2)⁴ = -16. ¿Cuál es su error?",
+          "pregunta": "Un ayudante dice que √50 = 7 exactamente. ¿Cuál es su error?",
           "opciones": [
-            "El exponente es par, así que el resultado debe ser positivo: 16",
-            "Olvidó que -2 × -2 = -4",
-            "El resultado correcto es -8",
-            "No hay ningún error"
+            "50 no es un cuadrado perfecto; √50 está entre 7 y 8, pero no es exactamente 7 (7²=49)",
+            "7² = 50, así que sí está bien",
+            "El número 50 no tiene raíz cuadrada",
+            "Debió usar 50² en lugar de √50"
           ],
           "respuestaCorrecta": 0,
-          "retroalimentacion": "(-2)⁴ tiene 4 factores negativos, un número par, así que los signos se cancelan por pares y el resultado es positivo: 16, no -16."
+          "retroalimentacion": "7²=49, no 50. Como 49<50<64, la raíz de 50 está entre 7 y 8, pero no es un número entero exacto."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "(-3)³ = -27 está bien calculado.",
+          "enunciado": "√30 está entre 5 y 6, porque 5²=25 y 6²=36, y 25<30<36.",
           "respuestaCorrecta": true,
-          "retroalimentacion": "El exponente 3 es impar, así que el resultado conserva el signo negativo: (-3)×(-3)×(-3) = -27."
+          "retroalimentacion": "Correcto: 25<30<36, así que √30 está entre 5 y 6."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "Si la base de una potencia es negativa y el exponente es ___ (par o impar), el resultado siempre es positivo.",
-          "respuestaCorrecta": "par",
-          "retroalimentacion": "Con exponente par, los signos negativos se agrupan de dos en dos y se cancelan, dando un resultado positivo."
+          "frase": "Como 8²=64 y 9²=81, y 64<70<81, la raíz cuadrada de 70 está entre 8 y ___.",
+          "respuestaCorrecta": "9",
+          "retroalimentacion": "70 está entre los cuadrados perfectos 64 (8²) y 81 (9²), así que √70 está entre 8 y 9."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuál de estas potencias está mal resuelta?",
+          "pregunta": "¿Cuál de estas estimaciones de raíz cuadrada NO es correcta?",
           "opciones": [
-            "(-1)⁵ = -1",
-            "(-2)² = 4",
-            "(-5)² = -25",
-            "(-2)³ = -8"
+            "√40 está entre 6 y 7",
+            "√90 está entre 9 y 10",
+            "√10 está entre 2 y 3",
+            "√99 está entre 9 y 10"
           ],
           "respuestaCorrecta": 2,
-          "retroalimentacion": "(-5)² = (-5)×(-5) = 25, no -25. El exponente 2 es par, así que el resultado debe ser positivo."
+          "retroalimentacion": "√10 en realidad está entre 3 y 4, porque 3²=9 y 4²=16, y 9<10<16. No está entre 2 y 3, porque 2²=4 y 3²=9, y 10 no está entre 4 y 9."
         },
         {
           "tipo": "relacionar_columnas",
-          "instruccion": "Relaciona cada potencia con su resultado correcto (cuidando el signo).",
+          "instruccion": "Relaciona cada raíz cuadrada no exacta con el par de números enteros consecutivos entre los que se encuentra.",
           "columnaA": [
-            "(-2)⁴",
-            "(-2)⁵",
-            "(-3)²",
-            "(-1)³"
+            "√45",
+            "√60",
+            "√15",
+            "√85"
           ],
           "columnaB": [
-            "-32",
-            "16",
-            "9",
-            "-1",
-            "-9"
+            "4 y 5",
+            "7 y 8",
+            "9 y 10",
+            "6 y 7",
+            "3 y 4"
           ],
           "parejasCorrectas": [
+            3,
             1,
-            0,
-            2,
-            3
+            4,
+            2
           ],
-          "retroalimentacion": "(-2)⁴=16, (-2)⁵=-32, (-3)²=9, (-1)³=-1. Revisa la paridad del exponente para saber el signo."
+          "retroalimentacion": "√45 está entre 6 y 7 (36<45<49); √60 está entre 7 y 8 (49<60<64); √15 está entre 3 y 4 (9<15<16); √85 está entre 9 y 10 (81<85<100)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un pasante resolvió así: Paso 1: (-3)² = -9. Paso 2: -9 + 16 = 7. Paso 3: √7 no es exacta. ¿En qué paso está el error?",
+          "opciones": [
+            "Paso 1: (-3)² = 9, no -9, porque el exponente es par",
+            "Paso 2: la suma está mal, debería ser -9+16=25",
+            "Paso 3: 7 sí tiene raíz exacta",
+            "No hay ningún error en el procedimiento"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(-3)² = (-3)×(-3) = 9, no -9 (el exponente 2 es par). Si se corrige, 9+16=25 y √25=5, un resultado exacto."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En el procedimiento: Paso 1: 2³ = 8. Paso 2: 8 × 2² = 8 × 4 = 32. Paso 3: 32 = 2⁵. El procedimiento completo es correcto.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Todo está bien: 2³=8, 2²=4, 8×4=32, y 32=2⁵, que coincide con sumar los exponentes 3+2=5."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Procedimiento: Paso 1: √16 = 4. Paso 2: 4² = 8. Paso 3: 8 + 1 = 9. El error está en el paso ___ (escribe el número de paso).",
+          "respuestaCorrecta": "2",
+          "retroalimentacion": "4² = 16, no 8. El paso 2 tiene el error; si se corrige, el resultado final sería 16+1=17."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de estos procedimientos NO tiene ningún error?",
+          "opciones": [
+            "Paso 1: 5²=25. Paso 2: √25=5. Paso 3: 5+3=8. Todo correcto.",
+            "Paso 1: (-2)³=8. Paso 2: 8+1=9. Todo correcto.",
+            "Paso 1: 3²=6. Paso 2: 6+4=10. Todo correcto.",
+            "Paso 1: √9=3. Paso 2: 3²=6. Todo correcto."
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "En la primera opción todos los pasos son correctos: 5²=25, √25=5, y 5+3=8. Las demás tienen un error de signo o de cálculo en algún paso."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada procedimiento con el paso exacto donde ocurre su error.",
+          "columnaA": [
+            "Paso 1: 4²=16. Paso 2: 16+9=25. Paso 3: √25=6.",
+            "Paso 1: (-4)²=-16. Paso 2: -16+20=4. Paso 3: √4=2.",
+            "Paso 1: 2⁴=16. Paso 2: √16=4. Paso 3: 4+5=8."
+          ],
+          "columnaB": [
+            "Paso 1",
+            "Paso 2",
+            "Paso 3",
+            "Ningún paso tiene error"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            2
+          ],
+          "retroalimentacion": "En el primer procedimiento el error está en el paso 3: √25=5, no 6. En el segundo, el error está en el paso 1: (-4)²=16, no -16. En el tercero, el error está en el paso 3: 4+5=9, no 8."
         }
       ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "En el procedimiento: Paso 1: (-2)⁴=16. Paso 2: 16 ÷ 2² = 4. Paso 3: √4 + 3² = 11. Todo el procedimiento es correcto.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Todo está bien: (-2)⁴=16 (exponente par), 16÷4=4, y √4+3²=2+9=11."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Un procedimiento dice: Paso 1: 3³=27. Paso 2: 27 - √49 = 20. Paso 3: 20 × 2⁰ = 40. ¿En qué paso está el error?",
+      "opciones": [
+        "Paso 3: 2⁰ = 1, no 2, así que el resultado debe ser 20, no 40",
+        "Paso 1: 3³ = 9, no 27",
+        "Paso 2: √49 = 8, no 7",
+        "No hay ningún error"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "Cualquier número (menos el 0) elevado a la potencia 0 es igual a 1, no al mismo número. Por eso 20×2⁰ = 20×1 = 20, no 40."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Procedimiento: Paso 1: (-3)³ = -27. Paso 2: -27 + 6² = 9. Paso 3: √9 = ___.",
+      "respuestaCorrecta": "3",
+      "retroalimentacion": "(-3)³=-27 (exponente impar), -27+36=9, y √9=3. Todo el procedimiento está bien resuelto."
     }
   ]
 }

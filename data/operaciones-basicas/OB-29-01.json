@@ -1,27 +1,29 @@
 {
   "id": "OB-29-01",
   "grado": "Operaciones Básicas",
-  "numero": 225,
+  "numero": 113,
   "categoria": "potencias_raices",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Significado de la potencia (multiplicación repetida) — Momento 1/8",
+  "titulo": "Significado de la potencia (multiplicación repetida) — Módulo 1/4",
   "contenido": "La potencia como una multiplicación repetida de un mismo factor (base), identificando base y exponente.",
   "pda": "Interpreta una potencia como la multiplicación repetida de su base, e identifica base y exponente en una expresión.",
   "problematizacion": {
-    "contexto": "En la tiendita de la escuela, la maestra Lupita escribió en el pizarrón el precio de una promoción como 5^2 pesos para explicar cómo se leen las potencias antes de calcular su valor. Varios alumnos se confundieron y no supieron qué número era cuál.",
-    "pregunta": "En la expresión 5^2 que escribió la maestra Lupita, ¿cuál número es la base y cuál es el exponente?"
+    "contexto": "En la tiendita de la escuela, la maestra Lupita escribió en el pizarrón el precio de una promoción como 5^2 pesos para explicar cómo se leen las potencias antes de calcular su valor. Varios alumnos se confundieron y no supieron qué número era cuál.\n\nEn el mercado de Toluca, don Refugio acomoda cajas de manzanas en una bodega y anota en su libreta que guardó 6^3 cajas en un rincón, pero su hijo no entiende qué operación debe hacer para saber cuántas cajas son en realidad.",
+    "pregunta": "En la expresión 5^2 que escribió la maestra Lupita, ¿cuál número es la base y cuál es el exponente? Además: ¿Cómo se escribe 6^3 como una multiplicación repetida, antes de calcular el resultado?"
   },
   "subtemas": [
     {
       "numero": "29.1",
-      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
-      "titulo": "¿Qué es la base y qué es el exponente?",
-      "explicacion": "Una potencia tiene dos partes: la base, que es el número que se multiplica, y el exponente, que indica cuántas veces se repite esa multiplicación. Por ejemplo, en 6^4 el 6 es la base y el 4 es el exponente. El exponente se escribe más pequeño y arriba a la derecha de la base. Antes de calcular cualquier potencia, siempre conviene identificar primero cuál número es la base y cuál es el exponente.",
-      "formula": "base^exponente",
+      "nivelEtiqueta": "Nivel 1 de 4 · Introductorio",
+      "titulo": "¿Qué es la base y qué es el exponente? y De la potencia a la multiplicación repetida",
+      "explicacion": "Una potencia tiene dos partes: la base, que es el número que se multiplica, y el exponente, que indica cuántas veces se repite esa multiplicación. Por ejemplo, en 6^4 el 6 es la base y el 4 es el exponente. El exponente se escribe más pequeño y arriba a la derecha de la base. Antes de calcular cualquier potencia, siempre conviene identificar primero cuál número es la base y cuál es el exponente.\n\nUna vez identificadas la base y el exponente, el siguiente paso es escribir la potencia como una multiplicación repetida, sin calcular todavía el resultado. Para hacerlo, se escribe la base tantas veces como indique el exponente, separada por signos de multiplicación. Por ejemplo, 5^4 se expande como 5×5×5×5, es decir, el 5 aparece cuatro veces porque el exponente es 4. Este paso es clave para entender por qué la potencia realmente significa una multiplicación repetida.",
+      "formula": "base^exponente; b^n = b × b × ... × b (n veces)",
       "ejemplos": [
         "En 7^3, la base es 7 y el exponente es 3; significa que el 7 se multiplica 3 veces (7×7×7).",
-        "En 2^5, la base es 2 y el exponente es 5; significa que el 2 se multiplica 5 veces (2×2×2×2×2)."
+        "En 2^5, la base es 2 y el exponente es 5; significa que el 2 se multiplica 5 veces (2×2×2×2×2).",
+        "5^4 se expande como 5×5×5×5 (el 5 se escribe 4 veces).",
+        "3^2 se expande como 3×3 (el 3 se escribe 2 veces)."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
@@ -84,6 +86,48 @@
             2
           ],
           "retroalimentacion": "La base siempre es el número escrito en tamaño normal, antes del exponente: 4^2 tiene base 4, 7^3 tiene base 7, 10^4 tiene base 10 y 2^6 tiene base 2."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la expansión correcta de 6^3?",
+          "opciones": [
+            "6×3",
+            "6×6×6",
+            "3×3×3×3×3×3",
+            "6+6+6"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "El exponente 3 indica que la base 6 se escribe tres veces multiplicándose a sí misma: 6×6×6."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la expansión correcta de 2^5?",
+          "opciones": [
+            "2×2×2×2×2",
+            "2×5",
+            "5×5",
+            "2×2×2×2×2×2"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "La base 2 se repite 5 veces porque el exponente es 5: 2×2×2×2×2."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La expansión de 9^3 es 9×9×___.",
+          "respuestaCorrecta": "9",
+          "retroalimentacion": "El exponente 3 indica que la base 9 se escribe tres veces: 9×9×9."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La expansión de 4^4 es 4×4×4×4.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Verdadero. El exponente 4 indica que la base 4 se multiplica por sí misma cuatro veces."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La expansión de 7^2 es ___×7.",
+          "respuestaCorrecta": "7",
+          "retroalimentacion": "El exponente 2 indica que la base 7 se repite dos veces: 7×7."
         }
       ]
     }

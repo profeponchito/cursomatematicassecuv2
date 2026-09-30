@@ -1,90 +1,152 @@
 {
   "id": "OB-40-03",
   "grado": "Operaciones Básicas",
-  "numero": 315,
+  "numero": 159,
   "categoria": "potencias_raices",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Encuentra el error: potencias y raíces — Momento 3/8",
+  "titulo": "Encuentra el error: potencias y raíces — Módulo 3/4",
   "contenido": "Identificación del paso exacto donde el cálculo de una potencia o raíz ya resuelto contiene un error, como forma de reforzar el concepto desde la revisión.",
   "pda": "Identifica errores en cálculos de potencias y raíces ya resueltos, explicando en qué paso ocurre el error.",
   "problematizacion": {
-    "contexto": "El entrenador Bermúdez del equipo de baloncesto de una secundaria en Monterrey quiere saber cuánto mide el lado de la cancha de entrenamiento, que tiene forma cuadrada y un área de 81 metros cuadrados. Uno de los alumnos auxiliares calculó la raíz cuadrada, pero el entrenador quiere que otro alumno revise si el cálculo está bien hecho.",
-    "pregunta": "¿Cómo se puede comprobar si una raíz cuadrada está bien calculada sin usar calculadora?"
+    "contexto": "En una bodega de abarrotes en Guadalajara, el encargado don Aurelio apila cajas cúbicas para calcular cuántas latas caben usando potencias. Al combinar dos cálculos de potencias de la misma base, uno de sus empleados multiplicó los exponentes en lugar de sumarlos.\n\nEn la panadería La Espiga de Oaxaca, la repostera Xóchitl calcula cuántos ingredientes necesita usando una fórmula con potencias y raíces para escalar una receta según el número de charolas. Uno de sus aprendices resolvió la fórmula en el orden equivocado y el resultado no cuadró con la receta real.",
+    "pregunta": "¿Qué se hace con los exponentes al multiplicar dos potencias que tienen la misma base? Además: ¿Qué operación debe resolverse primero en una expresión que combina una potencia y una suma?"
   },
   "subtemas": [
     {
       "numero": "40.3",
-      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
-      "titulo": "Raíces cuadradas: comprobar elevando al cuadrado",
-      "explicacion": "La raíz cuadrada de un número es el valor que, multiplicado por sí mismo, da ese número; la mejor forma de comprobar si una raíz está bien resuelta es elevar al cuadrado el resultado propuesto y ver si coincide con el radicando original. Un error común es confundir la raíz con un número cercano, por ejemplo decir que la raíz de 49 es 6 en lugar de 7, porque 6 al cuadrado está cerca pero no es igual. Para localizar el error basta con probar: si el cuadrado del resultado dado no coincide con el número original, ahí está la falla.",
-      "formula": "Si √a = b, entonces b² debe ser igual a a",
+      "nivelEtiqueta": "Nivel 3 de 4 · Avanzado",
+      "titulo": "Multiplicar potencias de la misma base y Jerarquía de operaciones con potencias y raíces",
+      "explicacion": "Cuando se multiplican dos potencias que tienen la misma base, los exponentes se SUMAN, no se multiplican: b elevado a m por b elevado a n es igual a b elevado a (m+n). También hay que recordar que cualquier base distinta de cero elevada a la potencia 0 es igual a 1, y que una base elevada a la potencia 1 es ella misma. Un error frecuente es multiplicar los exponentes en lugar de sumarlos, o pensar que la potencia 0 vale 0 en vez de 1.\n\nCuando una expresión combina sumas, restas, potencias y raíces, primero se resuelven las potencias y raíces, y hasta después las sumas y restas, a menos que haya paréntesis que indiquen otro orden. Un error común es sumar o restar primero los números que están junto a una potencia o raíz, alterando por completo el resultado final. Para detectar el error hay que ubicar en qué paso se rompió el orden correcto.",
+      "formula": "b^m × b^n = b^(m+n) ; b^0 = 1 (b≠0); Potencias y raíces antes que sumas y restas (salvo paréntesis)",
       "ejemplos": [
-        "√64 = 8, porque 8² = 64 (correcto). Si alguien dijera √64 = 7, el error se detecta porque 7² = 49, que no es 64.",
-        "√81 = 9, porque 9² = 81 (correcto)."
+        "2³ × 2² = 2^(3+2) = 2⁵ = 32 (correcto). Un error sería sumar las bases: 2³×2² no es 4⁵.",
+        "5⁰ = 1 (correcto, no 0). Cualquier número distinto de cero elevado a la potencia 0 vale 1.",
+        "3² + 4 se resuelve primero la potencia: 9 + 4 = 13 (correcto). El error 3² + 4 = 3 × (2+4) = 18 rompe el orden.",
+        "√16 + 5 = 4 + 5 = 9 (correcto, primero la raíz)."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "Un alumno dice que √49 = 6. ¿Cómo se demuestra que está mal?",
+          "pregunta": "Para resolver 2³ × 2², un empleado escribió 2³ × 2² = 2⁶ = 64. ¿Cuál fue su error?",
           "opciones": [
-            "Porque 6² = 36, y no 49",
-            "Porque 6² = 49, así que sí está bien",
-            "Porque 49 no tiene raíz cuadrada exacta",
-            "Porque 6 × 2 = 12, y no 49"
+            "Multiplicó los exponentes (3×2) en lugar de sumarlos; el resultado correcto es 2⁵ = 32",
+            "Sumó las bases en lugar de multiplicarlas",
+            "El resultado 64 es correcto",
+            "Olvidó que la base debe cambiar a 4"
           ],
           "respuestaCorrecta": 0,
-          "retroalimentacion": "6² = 36, no 49. La raíz cuadrada correcta de 49 es 7, porque 7² = 49."
+          "retroalimentacion": "Al multiplicar potencias de igual base, los exponentes se SUMAN: 3+2=5, entonces 2³×2²=2⁵=32, no 2⁶=64."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "√100 = 10 está bien calculado, porque 10² = 100.",
+          "enunciado": "9⁰ = 1 es correcto.",
           "respuestaCorrecta": true,
-          "retroalimentacion": "Correcto: 10×10=100, así que √100 = 10."
+          "retroalimentacion": "Cualquier base distinta de cero elevada a la potencia 0 es igual a 1, así que 9⁰ = 1."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "Para comprobar que √36 = 6 es correcto, se calcula 6² y se compara con ___.",
-          "respuestaCorrecta": "36",
-          "retroalimentacion": "6² = 36, que es exactamente el número del que se sacó la raíz, así que la raíz está bien calculada."
+          "frase": "Al multiplicar 3² × 3⁴, el resultado se escribe como 3 elevado a la suma de los exponentes, es decir 3 elevado a ___.",
+          "respuestaCorrecta": "6",
+          "retroalimentacion": "3²×3⁴ = 3^(2+4) = 3⁶, porque los exponentes de la misma base se suman."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuál de estas raíces cuadradas está mal resuelta?",
+          "pregunta": "¿Cuál de estas igualdades es correcta?",
           "opciones": [
-            "√25 = 5",
-            "√121 = 11",
-            "√144 = 11",
-            "√9 = 3"
+            "4⁰ = 0",
+            "4⁰ = 4",
+            "4⁰ = 1",
+            "4⁰ = 40"
           ],
           "respuestaCorrecta": 2,
-          "retroalimentacion": "11² = 121, no 144. La raíz cuadrada correcta de 144 es 12, porque 12² = 144."
+          "retroalimentacion": "Cualquier número distinto de cero elevado a la potencia 0 es igual a 1."
         },
         {
           "tipo": "relacionar_columnas",
-          "instruccion": "Relaciona cada raíz cuadrada con su valor correcto.",
+          "instruccion": "Relaciona cada operación con su resultado correcto.",
           "columnaA": [
-            "√49",
-            "√64",
-            "√121",
-            "√16"
+            "2² × 2³",
+            "5¹ × 5⁰",
+            "3² × 3²",
+            "10⁰"
           ],
           "columnaB": [
-            "8",
-            "11",
-            "4",
-            "7",
-            "9"
+            "32",
+            "1",
+            "81",
+            "5",
+            "10"
           ],
           "parejasCorrectas": [
+            0,
+            3,
+            2,
+            1
+          ],
+          "retroalimentacion": "2²×2³=2⁵=32; 5¹×5⁰=5¹=5; 3²×3²=3⁴=81; 10⁰=1. Suma los exponentes de igual base y recuerda que cualquier base a la 0 es 1."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Para resolver 2³ + 5, un aprendiz escribió: 2³ + 5 = 2 × (3+5) = 16. ¿Cuál fue su error?",
+          "opciones": [
+            "Debió resolver primero la potencia 2³=8, y luego sumar 5, dando 13",
+            "El resultado 16 es correcto",
+            "Debió sumar primero 3+5 y ese resultado usarlo como exponente",
+            "Olvidó multiplicar por 2 al final"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Primero se resuelve la potencia: 2³=8. Después se suma: 8+5=13. El orden de operaciones no permite sumar el exponente con otro número."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En la expresión √9 + 7, primero se debe calcular la raíz y luego sumar: √9 + 7 = 3 + 7 = 10.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: las raíces se resuelven antes que la suma, así que √9+7 = 3+7 = 10."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En una expresión sin paréntesis que combina una potencia y una resta, primero se resuelve la ___.",
+          "respuestaCorrecta": "potencia",
+          "retroalimentacion": "Las potencias (y raíces) se resuelven antes que las sumas y restas, salvo que haya paréntesis que indiquen otro orden."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de estos procedimientos para resolver 5² - 4 está correctamente resuelto?",
+          "opciones": [
+            "5² - 4 = 5 × (2-4) = -10",
+            "5² - 4 = 25 - 4 = 21",
+            "5² - 4 = (5-4)² = 1",
+            "5² - 4 = 10 - 4 = 6"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Primero se calcula la potencia 5²=25, y después se resta 4: 25-4=21."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada expresión con su resultado correcto, respetando el orden de operaciones.",
+          "columnaA": [
+            "3² + 1",
+            "√25 - 2",
+            "2³ - 1",
+            "√49 + 2"
+          ],
+          "columnaB": [
+            "7",
+            "10",
+            "9",
+            "3",
+            "5"
+          ],
+          "parejasCorrectas": [
+            1,
             3,
             0,
-            1,
             2
           ],
-          "retroalimentacion": "√49=7, √64=8, √121=11 y √16=4. Comprueba elevando cada resultado al cuadrado."
+          "retroalimentacion": "3²+1=9+1=10; √25-2=5-2=3; 2³-1=8-1=7; √49+2=7+2=9. Siempre resuelve primero la potencia o raíz."
         }
       ]
     }

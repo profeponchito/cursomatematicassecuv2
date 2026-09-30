@@ -1,86 +1,144 @@
 {
   "id": "OB-39-02",
   "grado": "Operaciones Básicas",
-  "numero": 306,
+  "numero": 154,
   "categoria": "potencias_raices",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Potencias y raíces en la vida cotidiana — Momento 2/8",
+  "titulo": "Potencias y raíces en la vida cotidiana — Módulo 2/4",
   "contenido": "Potencias y raíces aplicadas a situaciones cotidianas: área de cuadrados, volumen de cubos, crecimiento repetido.",
   "pda": "Resuelve problemas cotidianos de área y volumen que requieren calcular una potencia o una raíz.",
   "problematizacion": {
-    "contexto": "Doña Lupita vende manteles y tapetes cuadrados en su puesto del mercado de Toluca, y necesita calcular cuánta tela usa en cada pieza según el tamaño del lado que le pide el cliente.",
-    "pregunta": "Si un mantel cuadrado mide 7 dm de lado, ¿cuántos dm² de tela se necesitan para hacerlo?"
+    "contexto": "La fábrica de dulces 'El Dulce Aroma' diseña cajas cúbicas de cartón para empacar chocolates de temporada, y el encargado de producción necesita calcular cuánto chocolate cabe exactamente en cada caja según su arista.\n\nLa escuela secundaria 'Benito Juárez' quiere pintar un mural cuadrado en la fachada para festejar su aniversario, y el espacio disponible en la pared tiene un área de 64 m².",
+    "pregunta": "Si una caja cúbica mide 4 cm de arista, ¿cuántos cm³ de chocolate caben exactamente en ella? Además: ¿Cuánto debe medir cada lado del mural para que quede exactamente cuadrado y ocupe los 64 m² disponibles?"
   },
   "subtemas": [
     {
       "numero": "39.2",
-      "nivelEtiqueta": "Nivel 2 de 8 · Básico",
-      "titulo": "El cuadrado de un número es un área",
-      "explicacion": "Elevar un número al cuadrado (exponente 2) tiene un significado muy concreto: es el área de un cuadrado cuyo lado mide ese número. Si el lado de un cuadrado mide L, su área es L² = L×L, y se expresa en unidades cuadradas (cm², dm², m²). En este momento vas a calcular áreas de superficies cuadradas usando la potencia de exponente 2.",
-      "formula": "Área del cuadrado = lado²",
+      "nivelEtiqueta": "Nivel 2 de 4 · Intermedio",
+      "titulo": "El cubo de un número es un volumen y La raíz cuadrada: del área al lado",
+      "explicacion": "Así como el cuadrado de un número representa el área de una superficie cuadrada, el cubo de un número (exponente 3) representa el volumen de un cuerpo cúbico: una caja en la que todas las aristas miden lo mismo. Si la arista mide A, el volumen es A³ = A×A×A, y se expresa en unidades cúbicas (cm³, dm³, m³). En este momento vas a calcular volúmenes de cajas cúbicas.\n\nLa raíz cuadrada es la operación inversa de elevar al cuadrado: si el área de un cuadrado es igual a lado², entonces el lado se obtiene calculando lado = √Área. Por eso, para hallar la raíz cuadrada de un número basta preguntarse: '¿qué número multiplicado por sí mismo me da esta cantidad?'. En este momento vas a usar la raíz cuadrada para encontrar el lado de un cuadrado cuando ya conoces su área, siempre con números que dan una raíz exacta.",
+      "formula": "Volumen del cubo = arista³; lado = √Área",
       "ejemplos": [
-        "Un mantel cuadrado de lado 6 dm tiene un área de 6² = 36 dm²",
-        "Un azulejo cuadrado de lado 9 cm tiene un área de 9² = 81 cm²"
+        "Una caja cúbica de arista 3 cm tiene un volumen de 3³ = 27 cm³",
+        "Una caja cúbica de arista 5 cm tiene un volumen de 5³ = 125 cm³",
+        "Si el área es 49 m², el lado es √49 = 7 m, porque 7² = 49",
+        "Si el área es 100 cm², el lado es √100 = 10 cm, porque 10² = 100"
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "Un mantel cuadrado mide 8 dm de lado. ¿Cuál es su área?",
+          "pregunta": "Una caja cúbica tiene una arista de 4 cm. ¿Cuál es su volumen?",
           "opciones": [
-            "16 dm²",
-            "24 dm²",
-            "64 dm²",
-            "80 dm²"
+            "12 cm³",
+            "16 cm³",
+            "64 cm³",
+            "48 cm³"
           ],
           "respuestaCorrecta": 2,
-          "retroalimentacion": "Área = lado² = 8² = 64 dm²."
+          "retroalimentacion": "Volumen = arista³ = 4³ = 64 cm³."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "Un tapete cuadrado de lado 11 cm tiene un área de ___ cm².",
-          "respuestaCorrecta": "121",
-          "retroalimentacion": "11² = 11×11 = 121 cm²."
+          "frase": "Una caja cúbica de arista 6 cm tiene un volumen de ___ cm³.",
+          "respuestaCorrecta": "216",
+          "retroalimentacion": "6³ = 6×6×6 = 216 cm³."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "El área de un mantel cuadrado de lado 5 dm es 25 dm².",
+          "enunciado": "El volumen de una caja cúbica de arista 2 cm es 8 cm³.",
           "respuestaCorrecta": true,
-          "retroalimentacion": "5² = 25, así que el área sí es 25 dm²."
+          "retroalimentacion": "2³ = 8, así que el volumen sí es 8 cm³."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuál mantel necesita más tela: uno cuadrado de lado 6 dm o uno cuadrado de lado 9 dm?",
+          "pregunta": "¿Qué caja cúbica tiene mayor volumen: una de arista 3 cm o una de arista 5 cm?",
           "opciones": [
-            "El de lado 6 dm",
-            "El de lado 9 dm",
-            "Los dos necesitan lo mismo",
-            "No se puede saber"
+            "La de arista 3 cm",
+            "La de arista 5 cm",
+            "Las dos tienen el mismo volumen",
+            "Falta información"
           ],
           "respuestaCorrecta": 1,
-          "retroalimentacion": "6² = 36 dm² y 9² = 81 dm². El de lado 9 dm necesita más tela."
+          "retroalimentacion": "3³ = 27 cm³ y 5³ = 125 cm³. La de arista 5 cm tiene mayor volumen."
         },
         {
           "tipo": "relacionar_columnas",
-          "instruccion": "Relaciona el lado de cada mantel cuadrado con su área correspondiente.",
+          "instruccion": "Relaciona la arista de cada caja cúbica con su volumen correspondiente.",
           "columnaA": [
-            "Lado 4 dm",
-            "Lado 7 dm",
-            "Lado 10 dm"
+            "Arista 7 cm",
+            "Arista 8 cm",
+            "Arista 9 cm"
           ],
           "columnaB": [
-            "49 dm²",
-            "16 dm²",
-            "100 dm²"
+            "512 cm³",
+            "729 cm³",
+            "343 cm³"
           ],
           "parejasCorrectas": [
-            1,
+            2,
             0,
-            2
+            1
           ],
-          "retroalimentacion": "4²=16, 7²=49 y 10²=100."
+          "retroalimentacion": "7³=343, 8³=512 y 9³=729."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El área de un mural cuadrado es 81 m². ¿Cuánto mide cada lado?",
+          "opciones": [
+            "8 m",
+            "9 m",
+            "40.5 m",
+            "18 m"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "√81 = 9, porque 9² = 81."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si un patio cuadrado tiene un área de 121 m², cada lado mide ___ m.",
+          "respuestaCorrecta": "11",
+          "retroalimentacion": "√121 = 11, porque 11² = 121."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si el área de un cuadrado es 36 cm², entonces su lado mide 6 cm.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "√36 = 6, porque 6² = 36."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la raíz cuadrada de 144?",
+          "opciones": [
+            "11",
+            "12",
+            "14",
+            "72"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "√144 = 12, porque 12² = 144."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada área con la medida del lado del cuadrado correspondiente.",
+          "columnaA": [
+            "Área 25 m²",
+            "Área 49 m²",
+            "Área 100 m²"
+          ],
+          "columnaB": [
+            "10 m",
+            "7 m",
+            "5 m"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "√25=5, √49=7 y √100=10."
         }
       ]
     }

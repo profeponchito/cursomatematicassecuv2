@@ -1,81 +1,144 @@
 {
   "id": "OB-37-03",
   "grado": "Operaciones Básicas",
-  "numero": 291,
+  "numero": 147,
   "categoria": "potencias_raices",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Raíz cúbica de cubos perfectos — Momento 3/8",
+  "titulo": "Raíz cúbica de cubos perfectos — Módulo 3/4",
   "contenido": "Cálculo de la raíz cúbica exacta de números que son cubos perfectos, como operación inversa de elevar al cubo.",
   "pda": "Calcula la raíz cúbica exacta de cubos perfectos, reconociéndola como la operación inversa de elevar al cubo.",
   "problematizacion": {
-    "contexto": "En la escuela secundaria técnica, la maestra Miriam repartió a sus alumnos cubos de unicel de distintos tamaños para un proyecto de geometría. Uno de los cubos tiene un volumen de 1331 cm³, y los alumnos deben encontrar la medida de la arista sin usar calculadora, solo con tanteo ordenado.",
-    "pregunta": "¿Cuánto mide la arista de ese cubo de unicel si su volumen es 1331 cm³?"
+    "contexto": "El club deportivo Atlas de Guadalajara va a construir una alberca con forma de cubo para un torneo de clavados, con una capacidad exacta de 1000 m³ de agua. Los ingenieros necesitan calcular la medida de cada arista antes de vaciar el concreto de los muros.\n\nLa repostera Lupita prepara gelatinas en moldes con forma de cubo para una fiesta infantil. Uno de sus moldes especiales tiene un volumen de 3.375 litros, y ella quiere saber la medida exacta del molde en decímetros para comprar uno igual la próxima vez.",
+    "pregunta": "¿Cuánto debe medir cada arista de la alberca para que su volumen sea de 1000 m³? Además: ¿Cuánto mide la arista de ese molde, en decímetros, si su volumen es de 3.375 litros?"
   },
   "subtemas": [
     {
       "numero": "37.3",
-      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
-      "titulo": "El método de tanteo guiado",
-      "explicacion": "Para números más grandes conviene usar un método guiado: primero ubicas entre qué dos cubos de decena cae el número (por ejemplo, entre 10³=1000 y 20³=8000), y luego pruebas con números de esa década hasta encontrar el que funciona exactamente. Este tanteo funciona porque los cubos perfectos crecen de forma ordenada: si un número está entre 1000 y 8000, su raíz cúbica está entre 10 y 20. Practicar este método te ayuda a no depender solo de la memorización.",
+      "nivelEtiqueta": "Nivel 3 de 4 · Avanzado",
+      "titulo": "De volumen a arista: aplicaciones y Raíces cúbicas de números decimales",
+      "explicacion": "En situaciones reales, la raíz cúbica sirve para pasar de un volumen conocido a la medida de la arista de un objeto cúbico, como una alberca, un tinaco o una caja. Si conoces el volumen de un cuerpo cúbico y ese volumen es un cubo perfecto, la raíz cúbica te da directamente la longitud de cada lado. Este momento aplica lo aprendido a problemas cotidianos donde el resultado numérico ya es un cubo perfecto conocido.\n\nLos cubos perfectos también pueden ser números decimales, cuando el número que se elevó al cubo ya era decimal. Por ejemplo, 0.5 al cubo da 0.125, así que ∛0.125 = 0.5. Para verificarlo con seguridad conviene usar fracciones o el valor exacto en lugar de aproximaciones, para no arrastrar errores de redondeo. En este momento vas a reconocer raíces cúbicas de cubos perfectos decimales sencillos, con una sola cifra decimal en la raíz.",
+      "formula": "arista = ∛volumen",
       "ejemplos": [
-        "Para ∛1331: como 1331 está entre 1000 (10³) y 8000 (20³), pruebas con 11: 11×11×11 = 1331. Entonces ∛1331 = 11.",
-        "Para ∛2744: pruebas con 14: 14×14×14 = 2744. Entonces ∛2744 = 14."
+        "Una caja cúbica con volumen de 512 cm³ tiene una arista de ∛512 = 8 cm.",
+        "Un tinaco cúbico con 1000 litros de capacidad tiene una arista de ∛1000 = 10 dm.",
+        "∛0.008 = 0.2, porque 0.2 × 0.2 × 0.2 = 0.008.",
+        "∛1.331 = 1.1, porque 1.1 × 1.1 × 1.1 = 1.331."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "Para hallar ∛1331 ubicas que está entre 10³=1000 y 20³=8000. Al probar con 11, obtienes 11×11×11=1331. ¿Cuál es la raíz cúbica de 1331?",
+          "pregunta": "Una alberca cúbica tiene un volumen de 512 m³. ¿Cuánto mide cada arista?",
           "opciones": [
-            "10",
-            "11",
-            "12",
-            "13"
+            "6 m",
+            "7 m",
+            "8 m",
+            "9 m"
           ],
-          "respuestaCorrecta": 1,
-          "retroalimentacion": "11 × 11 × 11 = 1331, entonces ∛1331 = 11."
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "∛512 = 8, porque 8 × 8 × 8 = 512."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "Si sabes que 12 × 12 × 12 = 1728, entonces ∛1728 = ___.",
-          "respuestaCorrecta": "12",
-          "retroalimentacion": "12³ = 1728, así que ∛1728 = 12."
+          "frase": "Un tinaco cúbico contiene 729 litros de agua (1 litro = 1 dm³). La arista mide ___ dm.",
+          "respuestaCorrecta": "9",
+          "retroalimentacion": "∛729 = 9, porque 9 × 9 × 9 = 729."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "Para calcular ∛2197 basta con comprobar que 13 × 13 × 13 = 2197.",
-          "respuestaCorrecta": true,
-          "retroalimentacion": "Correcto: 13 × 13 × 13 = 2197, así que ∛2197 = 13."
+          "enunciado": "Si una caja cúbica tiene un volumen de 1000 cm³, su arista mide 100 cm.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: ∛1000 = 10, así que la arista mide 10 cm, no 100 cm."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuál es la raíz cúbica de 2744?",
+          "pregunta": "Un contenedor cúbico de carga tiene un volumen de 343 m³. ¿Cuál es la medida de su arista?",
           "opciones": [
-            "13",
-            "14",
-            "15",
-            "16"
+            "5 m",
+            "6 m",
+            "7 m",
+            "8 m"
           ],
-          "respuestaCorrecta": 1,
-          "retroalimentacion": "14 × 14 × 14 = 2744, entonces ∛2744 = 14."
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "∛343 = 7, porque 7 × 7 × 7 = 343."
         },
         {
           "tipo": "relacionar_columnas",
-          "instruccion": "Relaciona cada cubo perfecto con su raíz cúbica.",
+          "instruccion": "Relaciona cada volumen cúbico con la medida de su arista.",
           "columnaA": [
-            "1331",
-            "1728",
-            "2197",
-            "2744"
+            "216 m³",
+            "512 m³",
+            "729 m³",
+            "1000 m³"
           ],
           "columnaB": [
-            "11",
-            "12",
-            "13",
-            "14",
-            "15"
+            "6 m",
+            "7 m",
+            "8 m",
+            "9 m",
+            "10 m"
+          ],
+          "parejasCorrectas": [
+            0,
+            2,
+            3,
+            4
+          ],
+          "retroalimentacion": "216=6³, 512=8³, 729=9³ y 1000=10³; el 7 no tenía pareja aquí."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la raíz cúbica de 0.008?",
+          "opciones": [
+            "0.02",
+            "0.2",
+            "0.4",
+            "0.8"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "0.2 × 0.2 × 0.2 = 0.008, entonces ∛0.008 = 0.2."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "∛0.125 = ___",
+          "respuestaCorrecta": "0.5",
+          "retroalimentacion": "0.5 × 0.5 × 0.5 = 0.125, entonces ∛0.125 = 0.5."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "∛1.331 = 1.1, porque 1.1 × 1.1 × 1.1 = 1.331.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 1.1³ = 1.331."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la raíz cúbica de 3.375?",
+          "opciones": [
+            "1.3",
+            "1.4",
+            "1.5",
+            "1.6"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "1.5 × 1.5 × 1.5 = 3.375, entonces ∛3.375 = 1.5."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada cubo perfecto decimal con su raíz cúbica.",
+          "columnaA": [
+            "0.001",
+            "0.027",
+            "0.125",
+            "1.331"
+          ],
+          "columnaB": [
+            "0.1",
+            "0.3",
+            "0.5",
+            "1.1",
+            "0.2"
           ],
           "parejasCorrectas": [
             0,
@@ -83,7 +146,7 @@
             2,
             3
           ],
-          "retroalimentacion": "1331=11³, 1728=12³, 2197=13³ y 2744=14³."
+          "retroalimentacion": "0.001=0.1³, 0.027=0.3³, 0.125=0.5³ y 1.331=1.1³."
         }
       ]
     }

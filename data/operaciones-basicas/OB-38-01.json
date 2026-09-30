@@ -1,27 +1,29 @@
 {
   "id": "OB-38-01",
   "grado": "Operaciones Básicas",
-  "numero": 297,
+  "numero": 149,
   "categoria": "potencias_raices",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Relación entre potencias y raíces — Momento 1/8",
+  "titulo": "Relación entre potencias y raíces — Módulo 1/4",
   "contenido": "La raíz como operación inversa de la potencia, verificando una raíz al elevar el resultado a la potencia correspondiente.",
   "pda": "Explica y verifica la relación inversa entre potencias y raíces, comprobando una raíz al elevarla a la potencia correspondiente.",
   "problematizacion": {
-    "contexto": "En la tienda escolar de la secundaria, Mariana acomoda azulejos cuadrados para decorar un mural. Cada azulejo cubre exactamente 1 metro cuadrado y ella sabe que el mural completo mide 64 metros cuadrados en forma de cuadrado perfecto. Antes de cortar más azulejos, quiere confirmar cuánto mide cada lado del mural.",
-    "pregunta": "¿Qué número, al elevarlo al cuadrado, comprueba que el lado del mural mide 8 metros?"
+    "contexto": "En la tienda escolar de la secundaria, Mariana acomoda azulejos cuadrados para decorar un mural. Cada azulejo cubre exactamente 1 metro cuadrado y ella sabe que el mural completo mide 64 metros cuadrados en forma de cuadrado perfecto. Antes de cortar más azulejos, quiere confirmar cuánto mide cada lado del mural.\n\nDon Refugio es carpintero en Puebla y está armando cajas de madera en forma de cubo para guardar herramientas. Una de las cajas debe tener un volumen de 216 centímetros cúbicos exactos, y él ya cortó las tablas pensando que cada arista mide 6 centímetros.",
+    "pregunta": "¿Qué número, al elevarlo al cuadrado, comprueba que el lado del mural mide 8 metros? Además: ¿Qué operación confirma que una arista de 6 centímetros sí produce un volumen de 216 centímetros cúbicos?"
   },
   "subtemas": [
     {
       "numero": "38.1",
-      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
-      "titulo": "La raíz deshace la potencia",
-      "explicacion": "La raíz cuadrada de un número es la operación inversa de elevarlo al cuadrado: si conoces el resultado de una raíz, puedes comprobarlo elevando ese resultado al cuadrado y viendo si regresas al número original. Por ejemplo, la raíz cuadrada de 49 es 7 porque 7 × 7 = 49. Esta comprobación funciona siempre: potencia y raíz del mismo grado se cancelan entre sí. En este momento practicarás esa comprobación con raíces cuadradas de números pequeños y conocidos.",
-      "formula": "Si a² = b, entonces √b = a",
+      "nivelEtiqueta": "Nivel 1 de 4 · Introductorio",
+      "titulo": "La raíz deshace la potencia y La raíz cúbica deshace el cubo",
+      "explicacion": "La raíz cuadrada de un número es la operación inversa de elevarlo al cuadrado: si conoces el resultado de una raíz, puedes comprobarlo elevando ese resultado al cuadrado y viendo si regresas al número original. Por ejemplo, la raíz cuadrada de 49 es 7 porque 7 × 7 = 49. Esta comprobación funciona siempre: potencia y raíz del mismo grado se cancelan entre sí. En este momento practicarás esa comprobación con raíces cuadradas de números pequeños y conocidos.\n\nAsí como la raíz cuadrada se comprueba elevando al cuadrado, la raíz cúbica de un número se comprueba elevando el resultado al cubo, es decir, multiplicándolo tres veces por sí mismo. Por ejemplo, la raíz cúbica de 125 es 5 porque 5 × 5 × 5 = 125. Esta comprobación funciona porque la raíz cúbica y la potencia al cubo son operaciones inversas entre sí. En este momento vas a practicar esa comprobación con raíces cúbicas de números pequeños.",
+      "formula": "Si a² = b, entonces √b = a; Si a³ = b, entonces ∛b = a",
       "ejemplos": [
         "√81 = 9 porque 9 × 9 = 81, y como sí da 81, la raíz es correcta.",
-        "√36 = 6 porque 6 × 6 = 36; se comprueba elevando 6 al cuadrado."
+        "√36 = 6 porque 6 × 6 = 36; se comprueba elevando 6 al cuadrado.",
+        "∛27 = 3 porque 3 × 3 × 3 = 27.",
+        "∛64 = 4 porque 4 × 4 × 4 = 64."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
@@ -82,6 +84,63 @@
           ],
           "respuestaCorrecta": 1,
           "retroalimentacion": "4 × 4 = 16, así se comprueba que la raíz cuadrada de 16 es 4."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la raíz cúbica de 8?",
+          "opciones": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "2 × 2 × 2 = 8, por eso ∛8 = 2."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Para comprobar que ∛343 = 7, se debe calcular 7 × 7 × 7.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto, 7 × 7 × 7 = 343."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si 3 × 3 × 3 = 27, entonces ∛27 = ___.",
+          "respuestaCorrecta": "3",
+          "retroalimentacion": "La raíz cúbica de 27 es 3, porque 3³ = 27."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada raíz cúbica con la multiplicación que la comprueba.",
+          "columnaA": [
+            "∛64",
+            "∛125",
+            "∛216"
+          ],
+          "columnaB": [
+            "6 × 6 × 6 = 216",
+            "4 × 4 × 4 = 64",
+            "2 × 2 × 2 = 8",
+            "5 × 5 × 5 = 125"
+          ],
+          "parejasCorrectas": [
+            1,
+            3,
+            0
+          ],
+          "retroalimentacion": "∛64 = 4 (4×4×4=64), ∛125 = 5 (5×5×5=125), ∛216 = 6 (6×6×6=216)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál multiplicación comprueba que ∛1000 = 10?",
+          "opciones": [
+            "10 × 3",
+            "10 × 10",
+            "10 × 10 × 10",
+            "10 × 10 × 10 × 10"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "10 × 10 × 10 = 1000, así se comprueba que ∛1000 = 10."
         }
       ]
     }

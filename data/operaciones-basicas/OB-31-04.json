@@ -1,74 +1,150 @@
 {
   "id": "OB-31-04",
   "grado": "Operaciones Básicas",
-  "numero": 244,
+  "numero": 124,
   "categoria": "potencias_raices",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Potencias de base decimal — Momento 4/8",
+  "titulo": "Potencias de base decimal — Módulo 4/4",
   "contenido": "Cálculo de potencias cuya base es un número decimal.",
   "pda": "Calcula potencias de base decimal, relacionando el procedimiento con la multiplicación de decimales.",
   "problematizacion": {
-    "contexto": "En una cancha de básquetbol de Monterrey, el entrenador quiere delimitar con cinta adhesiva un área cuadrada de calentamiento para su equipo. El plano indica que el lado del cuadrado debe medir 0.15 metros a escala en el dibujo.",
-    "pregunta": "¿Cuál sería el área a escala de ese cuadrado según el plano del entrenador?"
+    "contexto": "Un ingeniero de transporte en Guadalajara estudia cómo se va reduciendo la concentración de un colorante de prueba cada vez que se diluye la mezcla a la mitad (0.5) dentro del sistema de tuberías de una planta, repitiendo el proceso varias veces seguidas.\n\nUna cooperativa de artesanas en Oaxaca vende cajas y manteles cuadrados hechos a mano, y para su catálogo final necesitan calcular áreas, volúmenes y variaciones de precio que involucran potencias de base decimal, tanto positivas como negativas, antes de imprimir la lista de productos.",
+    "pregunta": "¿Qué le pasa al resultado de 0.5 elevado a exponentes cada vez más grandes, según lo que observa el ingeniero en la dilución? Además: ¿Qué operaciones con potencias decimales tendrá que revisar la cooperativa para completar correctamente su catálogo?"
   },
   "subtemas": [
     {
       "numero": "31.4",
-      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
-      "titulo": "Potencias de decimales con dos cifras",
-      "explicacion": "El siguiente peldaño es trabajar con decimales que tienen dos cifras después del punto, como 0.12 o 0.25. La regla no cambia: se multiplica la base por sí misma, pero ahora hay que tener más cuidado al contar las cifras decimales del resultado. Si la base tiene 2 cifras decimales y el exponente es 2, el resultado tendrá 2 + 2 = 4 cifras decimales, porque cada factor aporta sus propias cifras decimales a la multiplicación.",
-      "formula": "cifras decimales del resultado = (cifras decimales de la base) × (exponente)",
+      "nivelEtiqueta": "Nivel 4 de 4 · Integración",
+      "titulo": "Exponentes mayores y el patrón que se achica y Integración: signos, exponentes y aplicaciones",
+      "explicacion": "Ahora usaremos exponentes más grandes, como 4, sobre bases decimales menores que 1. Aquí aparece un patrón importante: cuando la base es un decimal entre 0 y 1, entre mayor sea el exponente, MÁS PEQUEÑO se vuelve el resultado, porque cada multiplicación adicional achica el número (multiplicar por algo menor que 1 reduce la cantidad). Esto es al revés de lo que pasa con números enteros mayores que 1, donde las potencias crecen. Reconocer este patrón te ayuda a estimar resultados sin calcular todo de inmediato.\n\nEste último momento integra todo lo que has practicado del tema: identificar base y exponente, calcular cuadrados y cubos de decimales de una y dos cifras, decidir el signo cuando la base es negativa, reconocer el patrón de achicamiento con exponentes grandes, y aplicar todo a situaciones reales de área y volumen. Resuelve cada reactivo combinando estas ideas, tal como lo harías en un problema de examen que mezcla varios conceptos del mismo tema.",
+      "formula": "Si 0 < base < 1, entonces a mayor exponente, menor es el resultado; Base decimal, exponente y signo: revisa cada elemento antes de calcular",
       "ejemplos": [
-        "0.12² = 0.12 × 0.12 = 0.0144 (2 + 2 = 4 cifras decimales)",
-        "0.25² = 0.25 × 0.25 = 0.0625"
+        "0.5¹ = 0.5, 0.5² = 0.25, 0.5³ = 0.125, 0.5⁴ = 0.0625 (va disminuyendo)",
+        "0.2⁴ = 0.2 × 0.2 × 0.2 × 0.2 = 0.0016",
+        "(-0.3)⁴ = 0.0081 (exponente par, resultado positivo, y se suman las cifras decimales: 1+1+1+1=4)",
+        "1.5² = 2.25 (una base mayor que 1 también se eleva igual)"
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "0.12² = ?",
+          "pregunta": "0.5⁴ = ?",
           "opciones": [
-            "0.0144",
-            "0.144",
-            "0.024",
-            "0.0024"
+            "0.0625",
+            "0.625",
+            "0.00625",
+            "2"
           ],
           "respuestaCorrecta": 0,
-          "retroalimentacion": "0.12 × 0.12 = 0.0144."
-        },
-        {
-          "tipo": "llenar_frase",
-          "frase": "0.25² = ___",
-          "respuestaCorrecta": "0.0625",
-          "retroalimentacion": "0.25 × 0.25 = 0.0625."
+          "retroalimentacion": "0.5 × 0.5 × 0.5 × 0.5 = 0.0625."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "0.15² es igual a 0.225.",
-          "respuestaCorrecta": false,
-          "retroalimentacion": "Falso. 0.15 × 0.15 = 0.0225, no 0.225. Cuidado con el lugar del punto decimal."
-        },
-        {
-          "tipo": "opcion_multiple",
-          "pregunta": "¿Cuántas cifras decimales tendrá el resultado de 0.11²?",
-          "opciones": [
-            "2",
-            "4",
-            "3",
-            "1"
-          ],
-          "respuestaCorrecta": 1,
-          "retroalimentacion": "0.11 tiene 2 cifras decimales; al elevarlo al cuadrado se suman: 2 + 2 = 4 cifras decimales (0.0121)."
+          "enunciado": "Al elevar 0.5 a exponentes cada vez mayores (2, 3, 4...), el resultado se hace cada vez más pequeño.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 0.5² = 0.25, 0.5³ = 0.125, 0.5⁴ = 0.0625; el número disminuye."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "0.14² = ___",
-          "respuestaCorrecta": "0.0196",
-          "retroalimentacion": "0.14 × 0.14 = 0.0196."
+          "frase": "0.2⁴ = ___",
+          "respuestaCorrecta": "0.0016",
+          "retroalimentacion": "0.2 × 0.2 × 0.2 × 0.2 = 0.0016."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de estas potencias tiene el resultado MÁS PEQUEÑO?",
+          "opciones": [
+            "0.5²",
+            "0.5³",
+            "0.5⁴",
+            "0.5¹"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "0.5⁴ = 0.0625 es el más pequeño, porque entre mayor el exponente, más se achica un decimal menor que 1."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "0.1⁴ = ___",
+          "respuestaCorrecta": "0.0001",
+          "retroalimentacion": "0.1 × 0.1 × 0.1 × 0.1 = 0.0001."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "(-0.3)⁴ = ?",
+          "opciones": [
+            "0.0081",
+            "-0.0081",
+            "0.081",
+            "-0.081"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Exponente par: el resultado es positivo. 0.3⁴ = 0.0081."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "1.5² = ___",
+          "respuestaCorrecta": "2.25",
+          "retroalimentacion": "1.5 × 1.5 = 2.25."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "0.25³ es igual a 0.015625.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 0.25 × 0.25 × 0.25 = 0.015625."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un cubo de queso tiene arista de 0.3 m. ¿Cuál es su volumen?",
+          "opciones": [
+            "0.027 m³",
+            "0.09 m³",
+            "0.9 m³",
+            "0.27 m³"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Volumen = 0.3³ = 0.027 m³."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es mayor, (-0.4)² o (-0.4)³?",
+          "opciones": [
+            "(-0.4)², porque es positivo y (-0.4)³ es negativo",
+            "(-0.4)³, porque tiene exponente mayor",
+            "Son iguales",
+            "No se puede comparar"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(-0.4)² = 0.16 (positivo) y (-0.4)³ = -0.064 (negativo); un número positivo siempre es mayor que uno negativo."
         }
       ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "llenar_frase",
+      "frase": "(-1.2)² = ___",
+      "respuestaCorrecta": "1.44",
+      "retroalimentacion": "Exponente par: (-1.2) × (-1.2) = 1.44."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuántas cifras decimales tendrá el resultado de 0.125²?",
+      "opciones": [
+        "6",
+        "3",
+        "5",
+        "4"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "0.125 tiene 3 cifras decimales; al elevarlo al cuadrado se suman: 3 + 3 = 6 cifras decimales (0.015625)."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "(-0.6)³ es igual a -0.216.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: exponente impar, el resultado es negativo. 0.6 × 0.6 × 0.6 = 0.216, entonces (-0.6)³ = -0.216."
     }
   ]
 }

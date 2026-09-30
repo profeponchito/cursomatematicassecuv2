@@ -1,72 +1,131 @@
 {
   "id": "OB-31-02",
   "grado": "Operaciones Básicas",
-  "numero": 242,
+  "numero": 122,
   "categoria": "potencias_raices",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Potencias de base decimal — Momento 2/8",
+  "titulo": "Potencias de base decimal — Módulo 2/4",
   "contenido": "Cálculo de potencias cuya base es un número decimal.",
   "pda": "Calcula potencias de base decimal, relacionando el procedimiento con la multiplicación de decimales.",
   "problematizacion": {
-    "contexto": "En la secundaria técnica de Tepic se organiza una feria de ciencias. Uno de los stands necesita cuadrados de cartulina de distintos tamaños para pegar carteles, y los alumnos deben calcular el área de cada cuadrado antes de recortarlo.",
-    "pregunta": "Si un cuadrado de cartulina mide 0.7 m de lado, ¿qué potencia representa su área?"
+    "contexto": "En una panadería de Guanajuato, el panadero Don Efrén hace moldes cúbicos de pan de elote. Uno de sus moldes tiene una arista de 0.5 metros y necesita calcular cuánta masa cabe adentro, para lo cual primero debe obtener el volumen del cubo.\n\nEn una cancha de básquetbol de Monterrey, el entrenador quiere delimitar con cinta adhesiva un área cuadrada de calentamiento para su equipo. El plano indica que el lado del cuadrado debe medir 0.15 metros a escala en el dibujo.",
+    "pregunta": "¿Qué potencia debe calcular Don Efrén para saber el volumen del molde cúbico de 0.5 m de arista? Además: ¿Cuál sería el área a escala de ese cuadrado según el plano del entrenador?"
   },
   "subtemas": [
     {
       "numero": "31.2",
-      "nivelEtiqueta": "Nivel 2 de 8 · Básico",
-      "titulo": "Cuadrados de decimales de una cifra",
-      "explicacion": "Para calcular el cuadrado de un decimal con una sola cifra decimal, se multiplica el número por sí mismo igual que con decimales normales: se multiplican como si fueran enteros y luego se coloca el punto decimal contando las cifras decimales de ambos factores. Como cada factor tiene 1 cifra decimal, el resultado tendrá 1 + 1 = 2 cifras decimales. Practicar estos cuadrados con una sola cifra decimal es el primer paso antes de trabajar con decimales más largos.",
-      "formula": "(cifras decimales de la base) + (cifras decimales de la base) = cifras decimales del resultado",
+      "nivelEtiqueta": "Nivel 2 de 4 · Intermedio",
+      "titulo": "Cubos de decimales de una cifra y Potencias de decimales con dos cifras",
+      "explicacion": "Ahora subimos un peldaño: en lugar de elevar al cuadrado, elevaremos decimales de una cifra al cubo (exponente 3). El procedimiento se hace en dos pasos guiados: primero se multiplica la base por sí misma para obtener el cuadrado, y después ese resultado se vuelve a multiplicar por la base una vez más. Por ejemplo, para 0.4³ primero calculamos 0.4 × 0.4 = 0.16, y luego 0.16 × 0.4 = 0.064. Cada multiplicación de decimales suma sus cifras decimales al resultado.\n\nEl siguiente peldaño es trabajar con decimales que tienen dos cifras después del punto, como 0.12 o 0.25. La regla no cambia: se multiplica la base por sí misma, pero ahora hay que tener más cuidado al contar las cifras decimales del resultado. Si la base tiene 2 cifras decimales y el exponente es 2, el resultado tendrá 2 + 2 = 4 cifras decimales, porque cada factor aporta sus propias cifras decimales a la multiplicación.",
+      "formula": "base³ = (base × base) × base; cifras decimales del resultado = (cifras decimales de la base) × (exponente)",
       "ejemplos": [
-        "0.3² = 0.3 × 0.3 = 0.09 (1 cifra + 1 cifra = 2 cifras decimales)",
-        "0.8² = 0.8 × 0.8 = 0.64"
+        "0.2³: primero 0.2 × 0.2 = 0.04, luego 0.04 × 0.2 = 0.008",
+        "0.5³: primero 0.5 × 0.5 = 0.25, luego 0.25 × 0.5 = 0.125",
+        "0.12² = 0.12 × 0.12 = 0.0144 (2 + 2 = 4 cifras decimales)",
+        "0.25² = 0.25 × 0.25 = 0.0625"
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "0.3² = ?",
+          "pregunta": "0.2³ = ?",
           "opciones": [
-            "0.9",
-            "0.09",
-            "0.6",
-            "0.06"
+            "0.008",
+            "0.08",
+            "0.8",
+            "0.006"
           ],
-          "respuestaCorrecta": 1,
-          "retroalimentacion": "0.3 × 0.3 = 0.09."
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "0.2 × 0.2 = 0.04, y 0.04 × 0.2 = 0.008."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "0.7² = ___",
-          "respuestaCorrecta": "0.49",
-          "retroalimentacion": "0.7 × 0.7 = 0.49."
+          "frase": "0.5³ = ___",
+          "respuestaCorrecta": "0.125",
+          "retroalimentacion": "0.5 × 0.5 = 0.25, y 0.25 × 0.5 = 0.125."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "0.8² es igual a 0.64.",
+          "enunciado": "0.4³ es igual a 0.064.",
           "respuestaCorrecta": true,
-          "retroalimentacion": "Correcto, 0.8 × 0.8 = 0.64."
+          "retroalimentacion": "Correcto: 0.4 × 0.4 = 0.16, y 0.16 × 0.4 = 0.064."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "0.9² = ?",
+          "pregunta": "0.3³ = ?",
           "opciones": [
-            "0.81",
-            "0.18",
-            "1.8",
-            "0.9"
+            "0.027",
+            "0.27",
+            "0.9",
+            "0.009"
           ],
           "respuestaCorrecta": 0,
-          "retroalimentacion": "0.9 × 0.9 = 0.81."
+          "retroalimentacion": "0.3 × 0.3 = 0.09, y 0.09 × 0.3 = 0.027."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada potencia con su resultado.",
+          "columnaA": [
+            "0.1³",
+            "0.2³",
+            "0.5³"
+          ],
+          "columnaB": [
+            "0.001",
+            "0.125",
+            "0.008",
+            "0.01"
+          ],
+          "parejasCorrectas": [
+            0,
+            2,
+            1
+          ],
+          "retroalimentacion": "0.1³ = 0.001; 0.2³ = 0.008; 0.5³ = 0.125."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "0.12² = ?",
+          "opciones": [
+            "0.0144",
+            "0.144",
+            "0.024",
+            "0.0024"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "0.12 × 0.12 = 0.0144."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "0.6² = ___",
-          "respuestaCorrecta": "0.36",
-          "retroalimentacion": "0.6 × 0.6 = 0.36."
+          "frase": "0.25² = ___",
+          "respuestaCorrecta": "0.0625",
+          "retroalimentacion": "0.25 × 0.25 = 0.0625."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "0.15² es igual a 0.225.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso. 0.15 × 0.15 = 0.0225, no 0.225. Cuidado con el lugar del punto decimal."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuántas cifras decimales tendrá el resultado de 0.11²?",
+          "opciones": [
+            "2",
+            "4",
+            "3",
+            "1"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "0.11 tiene 2 cifras decimales; al elevarlo al cuadrado se suman: 2 + 2 = 4 cifras decimales (0.0121)."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "0.14² = ___",
+          "respuestaCorrecta": "0.0196",
+          "retroalimentacion": "0.14 × 0.14 = 0.0196."
         }
       ]
     }

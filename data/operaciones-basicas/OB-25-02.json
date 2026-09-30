@@ -1,87 +1,116 @@
 {
   "id": "OB-25-02",
   "grado": "Operaciones Básicas",
-  "numero": 194,
+  "numero": 98,
   "categoria": "mult_div",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Estimación antes de multiplicar y dividir — Momento 2/8",
+  "titulo": "Estimación antes de multiplicar y dividir — Módulo 2/4",
   "contenido": "Estimación del resultado de una multiplicación o división mediante redondeo, para verificar si un cálculo exacto es razonable.",
   "pda": "Estima el resultado de multiplicaciones y divisiones mediante redondeo y lo usa para verificar la razonabilidad de un cálculo.",
   "problematizacion": {
-    "contexto": "En la kermés de la escuela, el comité de padres de familia vende boletos de rifa en talonarios. Cada talonario tiene 36 boletos y se repartieron 24 talonarios entre distintos grupos.",
-    "pregunta": "Redondeando 36 y 24 a la decena más cercana, ¿cuál es una buena estimación del total de boletos repartidos?"
+    "contexto": "El entrenador de un equipo de beisbol juvenil inscribió a 213 niños en la liga municipal y quiere formar equipos de 9 integrantes cada uno antes de organizar los entrenamientos.\n\nUna empresa maquiladora debe trasladar a 341 trabajadores del turno matutino a la planta, en camionetas que caben 6 personas cada una. Mientras tanto, en el almacén hay que repartir 436 cascos de seguridad entre 8 cuadrillas de mantenimiento.",
+    "pregunta": "Usando un número compatible cercano a 213 que se divida exacto entre 9, ¿aproximadamente cuántos equipos completos se podrían formar? Además: redondeando 341 a la decena más cercana, ¿aproximadamente cuántas camionetas de 6 asientos se necesitan para trasladar a los 341 trabajadores?"
   },
   "subtemas": [
     {
       "numero": "25.2",
-      "nivelEtiqueta": "Nivel 2 de 8 · Básico",
-      "titulo": "Redondea los dos factores en una multiplicación",
-      "explicacion": "Cuando ambos factores de una multiplicación tienen dos cifras, la estimación se vuelve más útil porque hacer la cuenta exacta mentalmente es más difícil. En este momento vas a redondear LOS DOS factores a la decena más cercana antes de multiplicar. Recuerda la regla del redondeo: si la cifra de las unidades es 5 o más, la decena sube uno; si es menor que 5, la decena se queda igual. Una vez redondeados ambos factores, multiplicarlos es mucho más sencillo y te da una estimación razonable del resultado real.",
-      "formula": "estimación ≈ (factor redondeado) × (factor redondeado)",
+      "nivelEtiqueta": "Nivel 2 de 4 · Intermedio",
+      "titulo": "Números compatibles para estimar una división y Estima multiplicaciones y divisiones con números de tres cifras",
+      "explicacion": "Para estimar una división, redondear el dividendo a la decena o centena más cercana no siempre funciona, porque el resultado podría no salir exacto y complicarse. En su lugar usamos 'números compatibles': un número cercano al dividendo original que SÍ se pueda dividir exactamente entre el divisor. Buscar ese número compatible requiere pensar en las tablas de multiplicar del divisor y elegir el múltiplo más cercano al número real. Esta estrategia te da una estimación clara y fácil de calcular mentalmente.\n\nYa sabes estimar multiplicaciones y divisiones por separado; ahora vas a practicar ambas en el mismo momento, con números de tres cifras. Para las multiplicaciones, redondea el número más grande a la centena más cercana. Para las divisiones, busca un número compatible cercano al dividendo que se divida exacto entre el divisor. Reconocer qué operación tienes enfrente y aplicar la estrategia correcta es la clave de este nivel.",
+      "formula": "estimación ≈ (número compatible) ÷ divisor; multiplicación: factor × (redondeo a la centena) · división: (compatible) ÷ divisor",
       "ejemplos": [
-        "Para estimar 32 × 48: redondeamos 32 a 30 y 48 a 50, y calculamos 30 × 50 = 1500. El resultado exacto es 1536, muy cercano a la estimación.",
-        "Para estimar 63 × 21: redondeamos 63 a 60 y 21 a 20, y calculamos 60 × 20 = 1200."
+        "Para estimar 182 ÷ 6: buscamos un múltiplo de 6 cercano a 182; 180 es múltiplo de 6 (6 × 30 = 180), así que la estimación es 180 ÷ 6 = 30.",
+        "Para estimar 356 ÷ 9: el múltiplo de 9 más cercano es 360 (9 × 40 = 360), así que la estimación es 360 ÷ 9 = 40.",
+        "Para estimar 6 × 294: redondeamos 294 a 300 y calculamos 6 × 300 = 1800 (el resultado exacto es 1764).",
+        "Para estimar 515 ÷ 8: el compatible más cercano es 512 (8 × 64 = 512), así que la estimación es 512 ÷ 8 = 64."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "Para estimar 32 × 48, se redondean ambos factores a la decena más cercana: 30 y 50. ¿Cuál es la estimación?",
+          "pregunta": "Para estimar 182 ÷ 6, buscamos un número compatible cercano a 182 que se divida exacto entre 6. ¿Cuál conviene usar?",
           "opciones": [
-            "1200",
-            "1500",
-            "1800",
-            "1350"
+            "180",
+            "175",
+            "190",
+            "200"
           ],
-          "respuestaCorrecta": 1,
-          "retroalimentacion": "30 × 50 = 1500. El resultado exacto de 32 × 48 es 1536, muy cerca de la estimación."
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "180 es múltiplo de 6 (6 × 30 = 180) y está muy cerca de 182, así que 180 ÷ 6 = 30 es una buena estimación."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "63 × 21 se estima redondeando a 60 y 20: 60 × 20 = ___.",
-          "respuestaCorrecta": "1200",
-          "retroalimentacion": "60 × 20 = 1200. El resultado exacto de 63 × 21 es 1323."
+          "frase": "Para estimar 243 ÷ 8, usamos el número compatible 240 (cercano a 243) porque se divide exacto: 240 ÷ 8 = ___.",
+          "respuestaCorrecta": "30",
+          "retroalimentacion": "240 ÷ 8 = 30. El resultado exacto de 243 ÷ 8 es 30.375, muy cerca de la estimación."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "Beto quiere estimar 34 × 57. Redondeó 34 a 40 y 57 a 60, y calculó 40 × 60 = 2400. Verdadero o falso: Beto redondeó correctamente el número 34 a la decena más cercana.",
-          "respuestaCorrecta": false,
-          "retroalimentacion": "Falso. 34 está a 4 unidades de 30 y a 6 unidades de 40, así que la decena más cercana es 30, no 40."
+          "enunciado": "Para estimar 356 ÷ 9, Marisol usó el número compatible 360 y calculó 360 ÷ 9 = 40. Verdadero o falso: 40 es una buena estimación de 356 ÷ 9.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Verdadero. El resultado exacto de 356 ÷ 9 es aproximadamente 39.6, muy cercano a 40."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuál es la estimación de 58 × 23 redondeando ambos factores a la decena más cercana?",
+          "pregunta": "¿Cuál número compatible conviene usar para estimar 271 ÷ 9?",
           "opciones": [
-            "1000",
-            "1200",
-            "1400",
-            "1100"
+            "270",
+            "265",
+            "280",
+            "300"
           ],
-          "respuestaCorrecta": 1,
-          "retroalimentacion": "58 se redondea a 60 y 23 a 20: 60 × 20 = 1200. El resultado exacto es 1334."
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "270 es múltiplo de 9 (9 × 30 = 270) y es el más cercano a 271, así que la estimación es 30."
         },
         {
-          "tipo": "relacionar_columnas",
-          "instruccion": "Relaciona cada multiplicación con su estimación, redondeando ambos factores a la decena más cercana.",
-          "columnaA": [
-            "41 × 62",
-            "29 × 72",
-            "19 × 51"
+          "tipo": "llenar_frase",
+          "frase": "Para estimar 415 ÷ 7, el número compatible más cercano es 420, porque 420 ÷ 7 = ___.",
+          "respuestaCorrecta": "60",
+          "retroalimentacion": "420 ÷ 7 = 60. El resultado exacto de 415 ÷ 7 es aproximadamente 59.3, muy cerca de la estimación."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Para estimar 6 × 294, redondeamos 294 a la centena más cercana. ¿Cuál es la estimación?",
+          "opciones": [
+            "1700",
+            "1800",
+            "1900",
+            "1600"
           ],
-          "columnaB": [
-            "1000",
-            "2100",
-            "2400",
-            "3000"
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "294 se redondea a 300, y 6 × 300 = 1800. El resultado exacto es 1764."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Para estimar 515 ÷ 8, usamos el compatible 512 (512 ÷ 8 = 64 es exacto): 512 ÷ 8 = ___.",
+          "respuestaCorrecta": "64",
+          "retroalimentacion": "512 ÷ 8 = 64. El resultado exacto de 515 ÷ 8 es 64.375, muy cerca de la estimación."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Para estimar 7 × 386, Jorge redondeó 386 a 400 y calculó 7 × 400 = 2800. Verdadero o falso: 2800 es una estimación razonable de 7 × 386 (cuyo resultado exacto es 2702).",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Verdadero. La diferencia entre 2800 y 2702 es de solo 98, así que la estimación es razonable."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál número compatible conviene para estimar 626 ÷ 7?",
+          "opciones": [
+            "630",
+            "600",
+            "650",
+            "700"
           ],
-          "parejasCorrectas": [
-            2,
-            1,
-            0
-          ],
-          "retroalimentacion": "41×62 → 40×60=2400; 29×72 → 30×70=2100; 19×51 → 20×50=1000."
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "630 es múltiplo de 7 (7 × 90 = 630) y es el más cercano a 626, así que la estimación es 90."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Para estimar 9 × 512, redondeamos 512 a la centena más cercana (500) y multiplicamos: 9 × 500 = ___.",
+          "respuestaCorrecta": "4500",
+          "retroalimentacion": "9 × 500 = 4500. El resultado exacto de 9 × 512 es 4608, cercano a la estimación."
         }
       ]
     }

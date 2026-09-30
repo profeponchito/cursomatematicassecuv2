@@ -1,87 +1,146 @@
 {
   "id": "OB-38-02",
   "grado": "Operaciones Básicas",
-  "numero": 298,
+  "numero": 150,
   "categoria": "potencias_raices",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Relación entre potencias y raíces — Momento 2/8",
+  "titulo": "Relación entre potencias y raíces — Módulo 2/4",
   "contenido": "La raíz como operación inversa de la potencia, verificando una raíz al elevar el resultado a la potencia correspondiente.",
   "pda": "Explica y verifica la relación inversa entre potencias y raíces, comprobando una raíz al elevarla a la potencia correspondiente.",
   "problematizacion": {
-    "contexto": "Don Refugio es carpintero en Puebla y está armando cajas de madera en forma de cubo para guardar herramientas. Una de las cajas debe tener un volumen de 216 centímetros cúbicos exactos, y él ya cortó las tablas pensando que cada arista mide 6 centímetros.",
-    "pregunta": "¿Qué operación confirma que una arista de 6 centímetros sí produce un volumen de 216 centímetros cúbicos?"
+    "contexto": "El entrenador Ismael quiere formar a los 144 jugadores de su escuela de fútbol en un bloque cuadrado perfecto para la foto del equipo, con el mismo número de filas que de columnas.\n\nLa inmobiliaria 'Valle Alto' vende un terreno cuadrado de 625 metros cuadrados en las afueras de Guadalajara, y el agente asegura que cada lado mide 25 metros.",
+    "pregunta": "¿Cuántas filas (y columnas) debe usar el entrenador para que el bloque cuadrado tenga exactamente 144 jugadores? Además: ¿Cómo puede la familia interesada comprobar, sin medir con cinta métrica, que 25 metros por lado sí da 625 metros cuadrados de terreno?"
   },
   "subtemas": [
     {
       "numero": "38.2",
-      "nivelEtiqueta": "Nivel 2 de 8 · Básico",
-      "titulo": "La raíz cúbica deshace el cubo",
-      "explicacion": "Así como la raíz cuadrada se comprueba elevando al cuadrado, la raíz cúbica de un número se comprueba elevando el resultado al cubo, es decir, multiplicándolo tres veces por sí mismo. Por ejemplo, la raíz cúbica de 125 es 5 porque 5 × 5 × 5 = 125. Esta comprobación funciona porque la raíz cúbica y la potencia al cubo son operaciones inversas entre sí. En este momento vas a practicar esa comprobación con raíces cúbicas de números pequeños.",
-      "formula": "Si a³ = b, entonces ∛b = a",
+      "nivelEtiqueta": "Nivel 2 de 4 · Intermedio",
+      "titulo": "Comprobación guiada: ¿cuadrado o cubo? y Comprobando raíces con números más grandes",
+      "explicacion": "Antes de comprobar una raíz, primero hay que fijarse en su índice: si es raíz cuadrada (índice 2) se comprueba elevando al cuadrado, y si es raíz cúbica (índice 3) se comprueba elevando al cubo. El procedimiento siempre tiene tres pasos: identificar el índice de la raíz, elevar el resultado propuesto a esa potencia, y comparar el resultado con el número original. En este momento vas a seguir esos tres pasos con raíces cuadradas de números de dos cifras y raíces cúbicas un poco más grandes que antes.\n\nCuando los números son más grandes, conviene comprobar la raíz con más cuidado, multiplicando con calma para no confundir resultados parecidos, como 400 y 441. El procedimiento no cambia: se eleva el resultado propuesto a la potencia correspondiente y se compara con el número original. En este momento vas a comprobar raíces cuadradas de números de tres cifras y raíces cúbicas de números de hasta cuatro cifras.",
+      "formula": "Paso 1: identifica el índice → Paso 2: eleva el resultado a esa potencia → Paso 3: compara; La comprobación (elevar a la potencia) funciona igual sin importar el tamaño de los números",
       "ejemplos": [
-        "∛27 = 3 porque 3 × 3 × 3 = 27.",
-        "∛64 = 4 porque 4 × 4 × 4 = 64."
+        "√169: el índice es 2, se propone 13, y 13 × 13 = 169, coincide, la raíz es correcta.",
+        "∛512: el índice es 3, se propone 8, y 8 × 8 × 8 = 512, coincide, la raíz es correcta.",
+        "√900 = 30 porque 30 × 30 = 900.",
+        "∛1728 = 12 porque 12 × 12 × 12 = 1728."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuál es la raíz cúbica de 8?",
+          "pregunta": "¿Cuál es la raíz cuadrada de 169?",
           "opciones": [
-            "1",
-            "2",
-            "3",
-            "4"
+            "11",
+            "12",
+            "13",
+            "14"
           ],
-          "respuestaCorrecta": 1,
-          "retroalimentacion": "2 × 2 × 2 = 8, por eso ∛8 = 2."
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "13 × 13 = 169, por eso √169 = 13."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "Para comprobar que ∛343 = 7, se debe calcular 7 × 7 × 7.",
+          "enunciado": "Para comprobar que √196 = 14, el primer paso es identificar que el índice de la raíz es 2.",
           "respuestaCorrecta": true,
-          "retroalimentacion": "Correcto, 7 × 7 × 7 = 343."
+          "retroalimentacion": "Sí: como es raíz cuadrada su índice es 2, por eso se comprueba elevando al cuadrado."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "Si 3 × 3 × 3 = 27, entonces ∛27 = ___.",
-          "respuestaCorrecta": "3",
-          "retroalimentacion": "La raíz cúbica de 27 es 3, porque 3³ = 27."
-        },
-        {
-          "tipo": "relacionar_columnas",
-          "instruccion": "Relaciona cada raíz cúbica con la multiplicación que la comprueba.",
-          "columnaA": [
-            "∛64",
-            "∛125",
-            "∛216"
-          ],
-          "columnaB": [
-            "6 × 6 × 6 = 216",
-            "4 × 4 × 4 = 64",
-            "2 × 2 × 2 = 8",
-            "5 × 5 × 5 = 125"
-          ],
-          "parejasCorrectas": [
-            1,
-            3,
-            0
-          ],
-          "retroalimentacion": "∛64 = 4 (4×4×4=64), ∛125 = 5 (5×5×5=125), ∛216 = 6 (6×6×6=216)."
+          "frase": "Si el índice de una raíz es 3, para comprobarla hay que elevar el resultado al ___.",
+          "respuestaCorrecta": "cubo",
+          "retroalimentacion": "Índice 3 significa raíz cúbica, se comprueba elevando al cubo."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuál multiplicación comprueba que ∛1000 = 10?",
+          "pregunta": "¿Qué operación comprueba que ∛729 = 9?",
           "opciones": [
-            "10 × 3",
-            "10 × 10",
-            "10 × 10 × 10",
-            "10 × 10 × 10 × 10"
+            "9 × 9",
+            "9 × 9 × 9",
+            "9 × 3",
+            "9 + 9 + 9"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "9 × 9 × 9 = 729, por eso ∛729 = 9."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada raíz con el paso 2 de su comprobación (elevar el resultado propuesto a la potencia indicada por el índice).",
+          "columnaA": [
+            "√121",
+            "√225",
+            "∛343"
+          ],
+          "columnaB": [
+            "12 × 12 = 144",
+            "7 × 7 × 7 = 343",
+            "11 × 11 = 121",
+            "15 × 15 = 225"
+          ],
+          "parejasCorrectas": [
+            2,
+            3,
+            1
+          ],
+          "retroalimentacion": "√121 = 11 (11×11=121), √225 = 15 (15×15=225), ∛343 = 7 (7×7×7=343)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la raíz cuadrada de 441?",
+          "opciones": [
+            "19",
+            "20",
+            "21",
+            "22"
           ],
           "respuestaCorrecta": 2,
-          "retroalimentacion": "10 × 10 × 10 = 1000, así se comprueba que ∛1000 = 10."
+          "retroalimentacion": "21 × 21 = 441, por eso √441 = 21."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "√400 = 21 se comprueba correctamente porque 21 × 21 = 400.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: 21 × 21 = 441, no 400. La raíz cuadrada de 400 es 20, porque 20 × 20 = 400."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si 12 × 12 × 12 = 1728, entonces ∛1728 = ___.",
+          "respuestaCorrecta": "12",
+          "retroalimentacion": "La raíz cúbica de 1728 es 12, porque 12³ = 1728."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada raíz con la multiplicación que la comprueba.",
+          "columnaA": [
+            "√729",
+            "√900",
+            "∛1000"
+          ],
+          "columnaB": [
+            "12 × 12 × 12 = 1728",
+            "10 × 10 × 10 = 1000",
+            "27 × 27 = 729",
+            "30 × 30 = 900"
+          ],
+          "parejasCorrectas": [
+            2,
+            3,
+            1
+          ],
+          "retroalimentacion": "√729 = 27 (27×27=729), √900 = 30 (30×30=900), ∛1000 = 10 (10×10×10=1000)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la raíz cúbica de 8000?",
+          "opciones": [
+            "18",
+            "19",
+            "20",
+            "21"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "20 × 20 × 20 = 8000, por eso ∛8000 = 20."
         }
       ]
     }

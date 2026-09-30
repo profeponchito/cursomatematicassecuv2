@@ -1,87 +1,146 @@
 {
   "id": "OB-34-03",
   "grado": "Operaciones Básicas",
-  "numero": 267,
+  "numero": 135,
   "categoria": "potencias_raices",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Producto y cociente de potencias de igual base — Momento 3/8",
+  "titulo": "Producto y cociente de potencias de igual base — Módulo 3/4",
   "contenido": "Las propiedades básicas de las potencias: producto de potencias de igual base (se suman exponentes) y cociente de potencias de igual base (se restan exponentes).",
   "pda": "Aplica las propiedades del producto y el cociente de potencias de la misma base para simplificar expresiones sencillas.",
   "problematizacion": {
-    "contexto": "El torneo eliminatorio de futbol rápido de una liga de Guadalajara arranca con 2^6 equipos inscritos. En la primera ronda se juegan todos los partidos y de cada 2 equipos avanza solo 1, así que el número de equipos que avanza equivale a dividir entre 2^1.",
-    "pregunta": "¿Cuántos equipos avanzan a la segunda ronda, expresado como una sola potencia de base 2?"
+    "contexto": "En una papelería del centro de Puebla, el inventario de cuadernos se organiza en paquetes: cada paquete grande contiene 5x^4 cuadernos y llegan al mismo tiempo 3x^2 paquetes iguales para surtir la tienda.\n\nEn una cooperativa escolar de ahorro, el fondo de este mes se reporta como 9^5 pesos (en fichas de valor) y, al revisar el registro, el fondo del mes pasado también fue de 9^5 pesos exactamente, con las mismas fichas.",
+    "pregunta": "Si multiplicas 3x^2 por 5x^4 para saber el total de cuadernos que llegaron, ¿cuál es la expresión simplificada? Además: si divides el fondo de este mes (9^5) entre el fondo del mes pasado (9^5), ¿qué potencia obtienes y qué te dice ese resultado sobre el ahorro de la cooperativa?"
   },
   "subtemas": [
     {
       "numero": "34.3",
-      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
-      "titulo": "Reconocer cuándo sumar y cuándo restar",
-      "explicacion": "Ahora combinamos las dos reglas en el mismo conjunto de ejercicios: si ves un signo de multiplicación entre potencias de igual base, sumas los exponentes; si ves un signo de división, los restas. Antes de simplificar, identifica primero qué operación aparece: ese es el nuevo reto de este momento, no confundir una regla con la otra.",
-      "formula": "a^m · a^n = a^(m+n)  |  a^m ÷ a^n = a^(m-n)",
+      "nivelEtiqueta": "Nivel 3 de 4 · Avanzado",
+      "titulo": "Potencias con coeficiente numérico y Exponente cero y exponente negativo",
+      "explicacion": "Muchas veces una potencia va acompañada de un coeficiente, es decir, un número que la multiplica por fuera, como en 3x^2. Al multiplicar dos términos de este tipo con la misma base literal, multiplicas los coeficientes entre sí y, por separado, sumas los exponentes de la base. En la división, divides los coeficientes y restas los exponentes de la base.\n\nCuando en un cociente de potencias de igual base los dos exponentes son iguales, el resultado es esa base elevada a 0, y cualquier número distinto de cero elevado a 0 vale 1. Si en cambio el exponente de arriba es menor que el de abajo, el resultado es un exponente negativo, que significa 'uno entre esa potencia': a^-n = 1/a^n. La regla de restar exponentes sigue siendo la misma, solo que ahora el resultado puede salir en 0 o en negativo.",
+      "formula": "(c·a^m)·(d·a^n) = (c·d)·a^(m+n)  |  (c·a^m)÷(d·a^n) = (c÷d)·a^(m-n); a^m ÷ a^m = a^0 = 1  |  a^m ÷ a^n (con n > m) = a^(m-n) = 1/a^(n-m)",
       "ejemplos": [
-        "2^4 · 2^3 = 2^7",
-        "9^5 ÷ 9^2 = 9^3"
+        "3x^2 · 5x^4 = 15x^6",
+        "20y^7 ÷ 4y^3 = 5y^4",
+        "7^4 ÷ 7^4 = 7^0 = 1",
+        "2^3 ÷ 2^5 = 2^-2 = 1/2^2 = 1/4"
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "Simplifica 6^4 · 6^2.",
+          "pregunta": "Simplifica 3x^2 · 5x^4.",
           "opciones": [
-            "6^6",
-            "6^8",
-            "6^2",
-            "36^6"
+            "15x^6",
+            "8x^6",
+            "15x^8",
+            "8x^8"
           ],
           "respuestaCorrecta": 0,
-          "retroalimentacion": "Es una multiplicación de potencias de igual base, así que se suman los exponentes: 4 + 2 = 6."
+          "retroalimentacion": "Se multiplican los coeficientes (3×5=15) y se suman los exponentes (2+4=6): resultado 15x^6."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "Simplifica 8^7 ÷ 8^3.",
+          "pregunta": "Simplifica 20y^7 ÷ 4y^3.",
           "opciones": [
-            "8^4",
-            "8^10",
-            "8^2",
-            "8^21"
+            "5y^4",
+            "16y^4",
+            "5y^10",
+            "16y^10"
           ],
           "respuestaCorrecta": 0,
-          "retroalimentacion": "Es una división de potencias de igual base, así que se restan los exponentes: 7 - 3 = 4."
+          "retroalimentacion": "Se dividen los coeficientes (20÷4=5) y se restan los exponentes (7-3=4): resultado 5y^4."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "En 3^5 ÷ 3^2 el resultado es 3^3, y en 3^5 · 3^2 el resultado es 3^7.",
+          "enunciado": "Al simplificar 6a^3 · 2a^5 obtienes 12a^8.",
           "respuestaCorrecta": true,
-          "retroalimentacion": "Correcto: en la división se restan los exponentes (5-2=3) y en la multiplicación se suman (5+2=7)."
+          "retroalimentacion": "Correcto: 6×2=12 y 3+5=8, entonces 6a^3 · 2a^5 = 12a^8."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "En 7^6 ÷ 7^4, el exponente del resultado es ___.",
-          "respuestaCorrecta": "2",
-          "retroalimentacion": "Es una división de potencias de igual base: 6 - 4 = 2, entonces 7^6 ÷ 7^4 = 7^2."
+          "frase": "Al simplificar 18b^9 ÷ 3b^2, el coeficiente del resultado es ___.",
+          "respuestaCorrecta": "6",
+          "retroalimentacion": "Se dividen los coeficientes: 18 ÷ 3 = 6. Los exponentes dan 9-2=7, así que el resultado completo es 6b^7."
         },
         {
           "tipo": "relacionar_columnas",
-          "instruccion": "Relaciona cada operación (identifica si es producto o cociente) con su resultado.",
+          "instruccion": "Relaciona cada expresión con coeficiente y potencia con su resultado simplificado.",
           "columnaA": [
-            "4^3 · 4^2",
-            "4^6 ÷ 4^2",
-            "4^5 · 4^1"
+            "4m^2 · 3m^3",
+            "24n^8 ÷ 6n^2",
+            "2p^4 · 5p^1"
           ],
           "columnaB": [
-            "4^5",
-            "4^4",
-            "4^6",
-            "4^9"
+            "12m^5",
+            "4n^6",
+            "10p^5",
+            "6m^6"
           ],
           "parejasCorrectas": [
             0,
             1,
             2
           ],
-          "retroalimentacion": "4^3·4^2=4^5 (se suma), 4^6÷4^2=4^4 (se resta), 4^5·4^1=4^6 (se suma)."
+          "retroalimentacion": "4×3=12 y 2+3=5 → 12m^5; 24÷6=4 y 8-2=6 → 4n^6; 2×5=10 y 4+1=5 → 10p^5."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Simplifica 9^5 ÷ 9^5.",
+          "opciones": [
+            "9^0 = 1",
+            "9^10",
+            "9^25",
+            "0"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Los exponentes son iguales: 5 - 5 = 0, y cualquier base distinta de cero elevada a 0 vale 1."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Simplifica 2^3 ÷ 2^5.",
+          "opciones": [
+            "2^-2 = 1/4",
+            "2^-2 = 1/2",
+            "2^2 = 4",
+            "2^8"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Se restan los exponentes: 3 - 5 = -2, y 2^-2 = 1/2^2 = 1/4."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "4^2 ÷ 4^5 es igual a 4^3.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: al restar los exponentes da 2 - 5 = -3, no +3. El resultado correcto es 4^-3 = 1/4^3."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Cualquier número (distinto de cero) elevado a la potencia 0 es igual a ___.",
+          "respuestaCorrecta": "1",
+          "retroalimentacion": "Por definición, a^0 = 1 siempre que a sea distinto de cero."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada cociente de potencias con su resultado simplificado.",
+          "columnaA": [
+            "8^6 ÷ 8^6",
+            "5^2 ÷ 5^6",
+            "3^4 ÷ 3^4"
+          ],
+          "columnaB": [
+            "8^0 = 1",
+            "5^-4 = 1/625",
+            "3^0 = 1",
+            "5^4 = 625"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "8^6÷8^6=8^0=1; 5^2÷5^6=5^-4=1/625; 3^4÷3^4=3^0=1."
         }
       ]
     }

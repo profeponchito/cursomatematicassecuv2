@@ -1,27 +1,29 @@
 {
   "id": "OB-30-01",
   "grado": "Operaciones Básicas",
-  "numero": 233,
+  "numero": 117,
   "categoria": "potencias_raices",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Cálculo de potencias de naturales (cuadrados y cubos) — Momento 1/8",
+  "titulo": "Cálculo de potencias de naturales (cuadrados y cubos) — Módulo 1/4",
   "contenido": "Cálculo de potencias de números naturales, con énfasis en cuadrados y cubos de uso frecuente.",
   "pda": "Calcula potencias de números naturales, incluyendo cuadrados y cubos perfectos comunes.",
   "problematizacion": {
-    "contexto": "En la Secundaria Técnica de Xalapa, la maestra Refugio quiere cubrir con mosaicos una sección cuadrada del patio para el homenaje del lunes. Necesita calcular cuántos mosaicos caben si cada lado de la sección mide 4 mosaicos.",
-    "pregunta": "¿Cuántos mosaicos en total forman un cuadrado de 4 mosaicos por lado?"
+    "contexto": "En la Secundaria Técnica de Xalapa, la maestra Refugio quiere cubrir con mosaicos una sección cuadrada del patio para el homenaje del lunes. Necesita calcular cuántos mosaicos caben si cada lado de la sección mide 4 mosaicos.\n\nEn el mercado de Toluca, don Efrén acomoda sus naranjas en arreglos cuadrados sobre el puesto para que se vean ordenadas y atraigan compradores. Hoy quiere armar un arreglo de 9 naranjas por lado.",
+    "pregunta": "¿Cuántos mosaicos en total forman un cuadrado de 4 mosaicos por lado? Además: ¿Cuántas naranjas necesita don Efrén para completar ese arreglo cuadrado de 9 por lado?"
   },
   "subtemas": [
     {
       "numero": "30.1",
-      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
-      "titulo": "¿Qué es una potencia? Cuadrados sencillos",
-      "explicacion": "Una potencia es una manera corta de escribir una multiplicación donde el mismo número se repite varias veces. Se escribe con una base (el número que se repite) y un exponente (cuántas veces se repite), como en 4², que significa 4 × 4. Cuando el exponente es 2, decimos que el número está 'elevado al cuadrado'. En este momento solo trabajarás con cuadrados de números pequeños, del 1 al 6, para dominar bien la idea antes de avanzar.",
+      "nivelEtiqueta": "Nivel 1 de 4 · Introductorio",
+      "titulo": "¿Qué es una potencia? Cuadrados sencillos y Memoriza los cuadrados del 1 al 10",
+      "explicacion": "Una potencia es una manera corta de escribir una multiplicación donde el mismo número se repite varias veces. Se escribe con una base (el número que se repite) y un exponente (cuántas veces se repite), como en 4², que significa 4 × 4. Cuando el exponente es 2, decimos que el número está 'elevado al cuadrado'. En este momento solo trabajarás con cuadrados de números pequeños, del 1 al 6, para dominar bien la idea antes de avanzar.\n\nAhora vas a repasar todos los cuadrados de los números del 1 al 10, que son la tabla que más se usa en problemas de matemáticas. La idea es que reconozcas estos resultados rápido, sin tener que multiplicar paso a paso cada vez. Practicar esta tabla te ayudará después con áreas, raíces cuadradas y muchos otros temas.",
       "formula": "n² = n × n",
       "ejemplos": [
         "3² se lee 'tres al cuadrado' y significa 3 × 3 = 9",
-        "5² significa 5 × 5 = 25, no 5 × 2"
+        "5² significa 5 × 5 = 25, no 5 × 2",
+        "7² = 7 × 7 = 49",
+        "9² = 9 × 9 = 81"
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
@@ -82,6 +84,66 @@
             2
           ],
           "retroalimentacion": "2² = 4, 3² = 9, 5² = 25."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es 7²?",
+          "opciones": [
+            "14",
+            "49",
+            "42",
+            "56"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "7² = 7 × 7 = 49."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es 9²?",
+          "opciones": [
+            "81",
+            "18",
+            "72",
+            "99"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "9² = 9 × 9 = 81."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "8² es igual a 64.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 8 × 8 = 64."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "10² = ___.",
+          "respuestaCorrecta": "100",
+          "retroalimentacion": "10 × 10 = 100."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada potencia con su resultado.",
+          "columnaA": [
+            "6²",
+            "7²",
+            "8²",
+            "10²"
+          ],
+          "columnaB": [
+            "49",
+            "36",
+            "64",
+            "100",
+            "81"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            2,
+            3
+          ],
+          "retroalimentacion": "6² = 36, 7² = 49, 8² = 64, 10² = 100."
         }
       ]
     }

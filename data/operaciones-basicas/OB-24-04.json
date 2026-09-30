@@ -1,88 +1,188 @@
 {
   "id": "OB-24-04",
   "grado": "Operaciones Básicas",
-  "numero": 188,
+  "numero": 96,
   "categoria": "mult_div",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "División de números con signo — Momento 4/8",
+  "titulo": "División de números con signo — Módulo 4/4",
   "contenido": "División de números enteros con signo, aplicando la misma regla de signos que en la multiplicación.",
   "pda": "Divide números enteros con signo aplicando correctamente la regla de los signos.",
   "problematizacion": {
-    "contexto": "Un albañil en Mérida terminó el mes con un faltante de material de 736 kilos de grava, repartido entre las 32 obras donde trabajó ese periodo. Necesita saber, en promedio, cuánto faltó surtir a cada obra para pedirlo con tiempo la próxima vez.",
-    "pregunta": "¿Qué división con signo representa este faltante repartido entre las 32 obras?"
+    "contexto": "En un torneo de juegos de mesa en Monterrey, Marco perdió fichas en varias rondas: primero perdió fichas de forma constante durante varias rondas seguidas y luego su pérdida total se repartió entre las 6 rondas finales para calcular su promedio de fichas perdidas por ronda, antes de la premiación.\n\nUn equipo de biólogos marinos en Bahía de Banderas registra el descenso de un dron submarino que exploró el fondo del mar: en total bajó una gran cantidad de centímetros repartidos en varias mediciones iguales, y el equipo necesita el promedio de descenso por medición para completar su reporte de la expedición.",
+    "pregunta": "Si conoces la pérdida total y el número de rondas, ¿qué operación con signo usarías para hallar el promedio por ronda? Además: ¿Qué división con signo usarías para calcular el promedio de descenso por medición?"
   },
   "subtemas": [
     {
       "numero": "24.4",
-      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
-      "titulo": "Divisores de dos cifras con dividendos de tres cifras",
-      "explicacion": "Súbele un peldaño: ahora los dividendos tienen tres cifras y los divisores dos, aunque las divisiones siguen siendo exactas. El truco sigue siendo el mismo (decidir el signo primero y luego dividir los valores absolutos), pero como los números son más grandes conviene ir con calma y, si lo necesitas, hacer la división por partes o probar multiplicaciones cercanas al resultado. Practica también combinaciones donde ambos números son negativos.",
+      "nivelEtiqueta": "Nivel 4 de 4 · Integración",
+      "titulo": "Divisiones dentro de expresiones con signo y Integra todo: división con signo en contexto",
+      "explicacion": "Ahora la división con signo aparece combinada con otras operaciones o como parte de un valor desconocido. Cuando tengas una cadena de operaciones, resuélvela de izquierda a derecha aplicando la regla de los signos en cada paso, sin saltarte ninguno. Cuando falte un número en una división (por ejemplo, ___ ÷ x = resultado), puedes despejarlo multiplicando el resultado por el número conocido, igual que harías para comprobar una división normal.\n\nEste es el momento integrador del tema: vas a combinar todo lo que practicaste (regla de los signos, números grandes, cadenas de operaciones y contextos reales) en un solo conjunto de retos. Lee cada situación con cuidado para identificar qué representa el número negativo antes de dividir, y recuerda que puedes comprobar tus resultados multiplicando el cociente por el divisor. Al final tienes tres retos extra, un poco más desafiantes, para cerrar el tema por tu cuenta.",
+      "formula": "En una cadena de operaciones, resuelve de izquierda a derecha; para despejar en a ÷ b = c, recuerda que a = b × c",
       "ejemplos": [
-        "-408 ÷ 24: signos diferentes, resultado negativo; 408 ÷ 24 = 17, entonces -408 ÷ 24 = -17.",
-        "-594 ÷ (-27): signos iguales, resultado positivo; 594 ÷ 27 = 22, entonces -594 ÷ (-27) = 22."
+        "(-8) × (-9) ÷ (-6): primero (-8) × (-9) = 72 (signos iguales); luego 72 ÷ (-6) = -12 (signos diferentes).",
+        "Si -204 ÷ x = 12, entonces x = -204 ÷ 12 = -17, porque -17 × 12 = -204.",
+        "Una empresa pierde $2,142 repartidos entre 21 sucursales: -2142 ÷ 21 = -102, cada sucursal perdió $102 en promedio.",
+        "Comprobación de -2,856 ÷ 42: 68 × 42 = 2856, así que -2856 ÷ 42 = -68."
       ],
-      "puntosPorReactivo": 15,
+      "puntosPorReactivo": 30,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "-408 ÷ 24 = ?",
+          "pregunta": "Si -204 ÷ x = 12, ¿cuál es el valor de x?",
           "opciones": [
             "-17",
             "17",
-            "-18",
-            "18"
+            "-12",
+            "12"
           ],
           "respuestaCorrecta": 0,
-          "retroalimentacion": "408 ÷ 24 = 17; signos diferentes, así que el resultado es -17."
-        },
-        {
-          "tipo": "verdadero_falso",
-          "enunciado": "-594 ÷ (-27) = 22",
-          "respuestaCorrecta": true,
-          "retroalimentacion": "Correcto: 594 ÷ 27 = 22 y, como los signos son iguales, el resultado es positivo: 22."
+          "retroalimentacion": "x = -204 ÷ 12 = -17, porque -17 × 12 = -204."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "391 ÷ (-17) = ___",
-          "respuestaCorrecta": "-23",
-          "retroalimentacion": "391 ÷ 17 = 23; signos diferentes, así que el resultado es -23."
+          "frase": "(-8) × (-9) ÷ (-6) = ___",
+          "respuestaCorrecta": "-12",
+          "retroalimentacion": "(-8) × (-9) = 72 (signos iguales); 72 ÷ (-6) = -12 (signos diferentes)."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "(-360 ÷ 15) ÷ (-4) = 6",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: -360 ÷ 15 = -24, y -24 ÷ (-4) = 6 (signos iguales)."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "-736 ÷ 32 = ?",
+          "pregunta": "Si y ÷ (-13) = -19, ¿cuál es el valor de y?",
           "opciones": [
-            "-23",
-            "23",
-            "-22",
-            "22"
+            "247",
+            "-247",
+            "266",
+            "-266"
           ],
           "respuestaCorrecta": 0,
-          "retroalimentacion": "736 ÷ 32 = 23; signos diferentes, así que el resultado es -23."
+          "retroalimentacion": "y = (-19) × (-13) = 247, porque el producto de dos negativos es positivo."
         },
         {
           "tipo": "relacionar_columnas",
-          "instruccion": "Relaciona cada división con su resultado correcto.",
+          "instruccion": "Relaciona cada expresión con su resultado.",
           "columnaA": [
-            "855 ÷ (-19)",
-            "-350 ÷ 25",
-            "-910 ÷ (-35)"
+            "(-72 ÷ 8) × (-3)",
+            "150 ÷ (-25) ÷ (-2)",
+            "(-6) × 7 ÷ (-2)"
           ],
           "columnaB": [
-            "-45",
-            "26",
-            "-14",
-            "14"
+            "27",
+            "3",
+            "21",
+            "-3"
           ],
           "parejasCorrectas": [
             0,
-            2,
-            1
+            1,
+            2
           ],
-          "retroalimentacion": "855 ÷ (-19) = -45; -350 ÷ 25 = -14; -910 ÷ (-35) = 26."
+          "retroalimentacion": "(-72 ÷ 8) × (-3) = (-9) × (-3) = 27; 150 ÷ (-25) ÷ (-2) = (-6) ÷ (-2) = 3; (-6) × 7 ÷ (-2) = (-42) ÷ (-2) = 21."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una empresa de logística en Monterrey registró pérdidas de $2,142 en total durante un trimestre, divididas en partes iguales entre 21 sucursales con números rojos. ¿Cuánto perdió cada sucursal?",
+          "opciones": [
+            "-$102",
+            "$102",
+            "-$101",
+            "$101"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "-2142 ÷ 21 = -102, porque 102 × 21 = 2142 y los signos son diferentes."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "(-15) × 8 ÷ (-24) ÷ 5 = ___",
+          "respuestaCorrecta": "1",
+          "retroalimentacion": "(-15) × 8 = -120; -120 ÷ (-24) = 5; 5 ÷ 5 = 1."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un alpinista en el Nevado de Toluca descendió -1,920 metros en 32 tramos iguales de descenso; cada tramo fue de -60 metros.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: -1920 ÷ 32 = -60, cada tramo representó un descenso de 60 metros."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "68"
+            },
+            {
+              "valor": "42",
+              "signo": "×"
+            },
+            {
+              "valor": "136"
+            },
+            {
+              "valor": "2720"
+            },
+            {
+              "valor": "2856",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              0
+            ],
+            [],
+            [],
+            [],
+            [
+              3
+            ]
+          ],
+          "retroalimentacion": "Esto verifica que 2856 ÷ 42 = 68, porque 68 × 42 = 2856. Como el dividendo -2856 es negativo y el divisor 42 es positivo, el cociente real es -2856 ÷ 42 = -68."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "(-450 ÷ 9) ÷ (-10) = ?",
+          "opciones": [
+            "5",
+            "-5",
+            "50",
+            "-50"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "-450 ÷ 9 = -50; -50 ÷ (-10) = 5, porque los signos son iguales en el segundo paso."
         }
       ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "(-96 ÷ 8) × (-15) ÷ (-4) = ?",
+      "opciones": [
+        "-45",
+        "45",
+        "-36",
+        "36"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "-96 ÷ 8 = -12; -12 × (-15) = 180; 180 ÷ (-4) = -45."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "-528 ÷ (-24) ÷ (-2) = ___",
+      "respuestaCorrecta": "-11",
+      "retroalimentacion": "-528 ÷ (-24) = 22 (signos iguales); 22 ÷ (-2) = -11 (signos diferentes)."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Una fábrica textil en Aguascalientes repartió una merma total de -3,168 metros de tela entre 44 rollos defectuosos; cada rollo representa una merma de -72 metros.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: -3168 ÷ 44 = -72, porque 72 × 44 = 3168 y los signos son diferentes."
     }
   ]
 }

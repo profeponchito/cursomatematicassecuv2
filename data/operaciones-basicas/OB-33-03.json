@@ -1,90 +1,131 @@
 {
   "id": "OB-33-03",
   "grado": "Operaciones Básicas",
-  "numero": 259,
+  "numero": 131,
   "categoria": "potencias_raices",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Potencias con signo (exponente par e impar) — Momento 3/8",
+  "titulo": "Potencias con signo (exponente par e impar) — Módulo 3/4",
   "contenido": "Potencias de una base negativa, distinguiendo el signo del resultado según si el exponente es par o impar.",
   "pda": "Calcula potencias de base negativa, determinando el signo del resultado según la paridad del exponente.",
   "problematizacion": {
-    "contexto": "En el torneo de voleibol de la escuela, el entrenador Ramírez usa un sistema de puntos especiales: cada ronda extra multiplica el marcador acumulado por -2. Los jugadores quieren saber, antes de que termine el partido, si van a terminar con marcador positivo o negativo.",
-    "pregunta": "Si el partido tiene un número impar de rondas extra, ¿el marcador final será positivo o negativo?"
+    "contexto": "Karla y su primo Toño juegan una tarde de domingo un juego de mesa inventado por ellos: cada vez que la ficha cae en la casilla del rayo, el puntaje actual se multiplica por -2. Llevan varias rondas y quieren predecir si van a terminar ganando o perdiendo puntos.\n\nDoña Chela prepara salsas para su puesto de comida y anota en su libreta cómo varía la cantidad de chile que usa: cada ajuste que hace equivale a multiplicar por -1/2 la variación anterior, para representar que unas veces sube el picor y otras baja.",
+    "pregunta": "Si la ficha de Karla cae 3 veces seguidas en la casilla del rayo, ¿su puntaje terminará en positivo o en negativo? Además: si Doña Chela aplica ese ajuste de -1/2 tres veces seguidas, ¿la variación final será positiva o negativa?"
   },
   "subtemas": [
     {
       "numero": "33.3",
-      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
-      "titulo": "La regla del signo según la paridad del exponente",
-      "explicacion": "Después de calcular varias potencias de base negativa, ya puedes notar el patrón: si el exponente es par, el resultado es positivo; si el exponente es impar, el resultado es negativo. Esto ocurre porque los signos negativos se van cancelando de dos en dos: cada par de factores negativos multiplicados da un factor positivo, y si sobra uno sin pareja, el resultado final queda negativo.",
-      "formula": "Si n es par: (-a)^n > 0.  Si n es impar: (-a)^n < 0.",
+      "nivelEtiqueta": "Nivel 3 de 4 · Avanzado",
+      "titulo": "Aplica la regla del signo en un juego y Potencias de fracciones y decimales negativos",
+      "explicacion": "En este momento vas a usar la regla de signos de las potencias con base negativa dentro de un contexto: un juego de mesa donde una casilla especial multiplica el puntaje por -2 cada vez que caes en ella. El número de veces que caes en esa casilla funciona como el exponente, así que puedes anticipar el signo del resultado antes de calcular el valor exacto.\n\nLa regla de signos que ya conoces (par = positivo, impar = negativo) funciona exactamente igual cuando la base negativa es una fracción o un número decimal, no solo un entero. Lo único que cambia es que ahora, además de cuidar el signo, tienes que multiplicar fracciones o decimales con cuidado para obtener el valor correcto.",
+      "formula": "(-a/b)^n sigue la misma regla de signo que (-entero)^n",
       "ejemplos": [
-        "(-3)^4 = 81 (el exponente 4 es par → resultado positivo)",
-        "(-5)^3 = -125 (el exponente 3 es impar → resultado negativo)"
+        "Si caes 3 veces en la casilla, el efecto acumulado es (-2)^3 = -8",
+        "Si caes 4 veces, el efecto acumulado es (-2)^4 = 16",
+        "(-1/2)^3 = (-1/2)×(-1/2)×(-1/2) = -1/8",
+        "(-0.5)^2 = (-0.5)×(-0.5) = 0.25"
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
-          "tipo": "verdadero_falso",
-          "enunciado": "Si el exponente de una base negativa es par, el resultado siempre es positivo.",
-          "respuestaCorrecta": true,
-          "retroalimentacion": "Correcto: con exponente par, los signos negativos se cancelan por completo."
-        },
-        {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuánto es (-3)^4?",
+          "pregunta": "Cada vez que caes en la casilla especial tu puntaje se multiplica por -2. Si caes 3 veces seguidas, el efecto total es (-2)^3. ¿Cuánto es?",
           "opciones": [
-            "-81",
-            "81",
-            "-12",
-            "12"
+            "8",
+            "-8",
+            "6",
+            "-6"
           ],
           "respuestaCorrecta": 1,
-          "retroalimentacion": "(-3)^4 = 81, positivo porque 4 es par."
+          "retroalimentacion": "(-2)^3 = -8. El exponente 3 es impar, así que el efecto es negativo."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "(-2)^6 = ___",
-          "respuestaCorrecta": "64",
-          "retroalimentacion": "(-2)^6 = 64, positivo porque 6 es par."
+          "frase": "Si en vez de 3 veces caes 4 veces en esa casilla, el efecto sería (-2)^4 = ___",
+          "respuestaCorrecta": "16",
+          "retroalimentacion": "(-2)^4 = 16, positivo porque 4 es par."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "En otro juego, las penalizaciones se calculan como (-3)^2 y ese resultado es negativo.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: (-3)^2 = 9, que es positivo, porque el exponente 2 es par."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Si esas mismas penalizaciones se calcularan como (-3)^3, ¿cuál sería el resultado?",
+          "opciones": [
+            "27",
+            "-27",
+            "9",
+            "-9"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "(-3)^3 = -27, negativo porque el exponente 3 es impar."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Con 5 caídas en la casilla del rayo, el efecto acumulado es (-2)^5 = ___",
+          "respuestaCorrecta": "-32",
+          "retroalimentacion": "(-2)^5 = -32, negativo porque el exponente 5 es impar."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es (-1/2)^3?",
+          "opciones": [
+            "1/8",
+            "-1/8",
+            "3/2",
+            "-3/2"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "(-1/2)^3 = (-1/2)×(-1/2)×(-1/2) = -1/8, negativo porque el exponente 3 es impar."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "(-0.5)^2 = ___",
+          "respuestaCorrecta": "0.25",
+          "retroalimentacion": "(-0.5)^2 = (-0.5)×(-0.5) = 0.25, positivo porque el exponente 2 es par."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "(-2/3)^2 es igual a 4/9.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: (-2/3)^2 = (-2/3)×(-2/3) = 4/9."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es (-1.5)^2?",
+          "opciones": [
+            "-2.25",
+            "2.25",
+            "-3",
+            "3"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "(-1.5)^2 = (-1.5)×(-1.5) = 2.25, positivo porque el exponente 2 es par."
         },
         {
           "tipo": "relacionar_columnas",
-          "instruccion": "Relaciona cada potencia con su resultado.",
+          "instruccion": "Relaciona cada potencia con su resultado correcto.",
           "columnaA": [
-            "(-5)^3",
-            "(-1)^7",
-            "(-2)^7",
-            "(-4)^4"
+            "(-1/4)^3",
+            "(-0.2)^3",
+            "(-1/2)^3"
           ],
           "columnaB": [
-            "-1",
-            "-125",
-            "256",
-            "-128",
-            "1"
+            "-0.008",
+            "-1/64",
+            "1/64",
+            "-1/8"
           ],
           "parejasCorrectas": [
             1,
             0,
-            3,
-            2
+            3
           ],
-          "retroalimentacion": "(-5)^3=-125, (-1)^7=-1, (-2)^7=-128 y (-4)^4=256."
-        },
-        {
-          "tipo": "opcion_multiple",
-          "pregunta": "¿Cuál de estos exponentes hace que (-2) elevado a esa potencia dé un resultado NEGATIVO?",
-          "opciones": [
-            "2",
-            "4",
-            "6",
-            "7"
-          ],
-          "respuestaCorrecta": 3,
-          "retroalimentacion": "7 es impar, así que (-2)^7 es negativo. Los exponentes 2, 4 y 6 son pares."
+          "retroalimentacion": "(-1/4)^3=-1/64, (-0.2)^3=-0.008 y (-1/2)^3=-1/8."
         }
       ]
     }

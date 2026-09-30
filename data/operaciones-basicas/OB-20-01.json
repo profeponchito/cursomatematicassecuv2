@@ -1,27 +1,28 @@
 {
   "id": "OB-20-01",
   "grado": "Operaciones Básicas",
-  "numero": 153,
+  "numero": 77,
   "categoria": "mult_div",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "División con residuo — Momento 1/8",
+  "titulo": "División con residuo — Módulo 1/4",
   "contenido": "División de naturales donde el resultado deja un residuo distinto de cero, e interpretación de ese residuo según el contexto.",
   "pda": "Aplica el algoritmo de la división larga identificando e interpretando el residuo en distintos contextos.",
   "problematizacion": {
-    "contexto": "En la escuela secundaria, la maestra Lupe tiene 17 lápices de colores y quiere repartirlos en partes iguales entre 5 equipos de trabajo, sin partir ningún lápiz.",
-    "pregunta": "¿Crees que todos los equipos recibirán exactamente la misma cantidad sin que sobre ningún lápiz?"
+    "contexto": "En la escuela secundaria, la maestra Lupe tiene 17 lápices de colores y quiere repartirlos en partes iguales entre 5 equipos de trabajo, sin partir ningún lápiz.\n\nDoña Rosa vende mangos en su puesto del mercado sobre ruedas. Hoy tiene 53 mangos y quiere armar bolsas de 6 mangos cada una para venderlas más rápido.",
+    "pregunta": "¿Crees que todos los equipos recibirán exactamente la misma cantidad sin que sobre ningún lápiz? Además: ¿Cuántas bolsas completas de 6 mangos puede armar doña Rosa y cuántos mangos le quedarán sueltos?"
   },
   "subtemas": [
     {
       "numero": "20.1",
-      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
-      "titulo": "¿Sobra algo? Reconociendo el residuo",
-      "explicacion": "No todas las divisiones son exactas: a veces, después de repartir en partes iguales, queda una cantidad que ya no alcanza para formar otro grupo completo. A esa cantidad que sobra se le llama residuo. El residuo siempre debe ser menor que el divisor, porque si fuera igual o mayor, todavía se podría formar otro grupo. En este momento solo identificarás si una división deja residuo y cuánto sobra, con números pequeños.",
-      "formula": "dividendo = divisor × cociente + residuo (residuo < divisor)",
+      "nivelEtiqueta": "Nivel 1 de 4 · Introductorio",
+      "titulo": "¿Sobra algo? Reconociendo el residuo y Calcula cociente y residuo",
+      "explicacion": "No todas las divisiones son exactas: a veces, después de repartir en partes iguales, queda una cantidad que ya no alcanza para formar otro grupo completo. A esa cantidad que sobra se le llama residuo. El residuo siempre debe ser menor que el divisor, porque si fuera igual o mayor, todavía se podría formar otro grupo. En este momento solo identificarás si una división deja residuo y cuánto sobra, con números pequeños.\n\nAhora que ya reconoces cuándo una división deja residuo, toca calcularlo tú mismo con el algoritmo de la división: buscas cuántas veces cabe el divisor en el dividendo (ese es el cociente) y restas para saber cuánto sobra (ese es el residuo). Trabajarás con dividendos de dos cifras y divisores de una cifra. Recuerda siempre comprobar que el residuo sea menor que el divisor.",
+      "formula": "dividendo = divisor × cociente + residuo (residuo < divisor); residuo = dividendo − (divisor × cociente)",
       "ejemplos": [
         "17 ÷ 5: caben 3 veces (5×3=15) y sobran 17-15=2, entonces cociente=3, residuo=2.",
-        "18 ÷ 3: caben exactamente 6 veces (3×6=18), no sobra nada, residuo=0."
+        "18 ÷ 3: caben exactamente 6 veces (3×6=18), no sobra nada, residuo=0.",
+        "53 ÷ 6: 6×8=48, y 53-48=5, entonces cociente=8, residuo=5 (5 es menor que 6, está correcto)."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
@@ -84,6 +85,65 @@
             1
           ],
           "retroalimentacion": "14÷4=3 r2; 23÷5=4 r3; 11÷2=5 r1; 29÷8=3 r5."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Doña Rosa tiene 53 mangos y arma bolsas de 6. ¿Cuántos mangos le sobran después de armar todas las bolsas completas?",
+          "opciones": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "6×8=48, y 53-48=5. Arma 8 bolsas completas y sobran 5 mangos."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "47 ÷ 5 tiene cociente 9 y residuo 2.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "5×9=45, y 47-45=2. Es correcto: cociente 9, residuo 2."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Al dividir 61 entre 7, el cociente es 8 y el residuo es ___.",
+          "respuestaCorrecta": "5",
+          "retroalimentacion": "7×8=56, y 61-56=5. El residuo es 5."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿En cuál división el residuo es mayor?",
+          "opciones": [
+            "44 ÷ 9",
+            "35 ÷ 4",
+            "58 ÷ 7",
+            "29 ÷ 3"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "44÷9=4 r8; 35÷4=8 r3; 58÷7=8 r2; 29÷3=9 r2. El residuo más grande es 8, en 44÷9."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada división con su residuo correcto.",
+          "columnaA": [
+            "53 ÷ 6",
+            "47 ÷ 5",
+            "35 ÷ 4",
+            "44 ÷ 9"
+          ],
+          "columnaB": [
+            "8",
+            "3",
+            "5",
+            "2"
+          ],
+          "parejasCorrectas": [
+            2,
+            3,
+            1,
+            0
+          ],
+          "retroalimentacion": "53÷6=8 r5; 47÷5=9 r2; 35÷4=8 r3; 44÷9=4 r8."
         }
       ]
     }

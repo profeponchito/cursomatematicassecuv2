@@ -1,82 +1,84 @@
 {
   "id": "OB-37-02",
   "grado": "Operaciones Básicas",
-  "numero": 290,
+  "numero": 146,
   "categoria": "potencias_raices",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Raíz cúbica de cubos perfectos — Momento 2/8",
+  "titulo": "Raíz cúbica de cubos perfectos — Módulo 2/4",
   "contenido": "Cálculo de la raíz cúbica exacta de números que son cubos perfectos, como operación inversa de elevar al cubo.",
   "pda": "Calcula la raíz cúbica exacta de cubos perfectos, reconociéndola como la operación inversa de elevar al cubo.",
   "problematizacion": {
-    "contexto": "En el mercado de Jamaica, la señora Refugio empaca mangos en cajas de madera con forma de cubo para acomodarlas mejor en su puesto. Una de sus cajas tiene un volumen de 343 dm³ y ella quiere saber cuánto mide cada lado para pedir una caja del mismo tamaño la próxima temporada.",
-    "pregunta": "¿Cuánto debe medir la arista de la caja para que su volumen sea de 343 dm³?"
+    "contexto": "En la escuela secundaria técnica, la maestra Miriam repartió a sus alumnos cubos de unicel de distintos tamaños para un proyecto de geometría. Uno de los cubos tiene un volumen de 1331 cm³, y los alumnos deben encontrar la medida de la arista sin usar calculadora, solo con tanteo ordenado.\n\nEn el puerto de Veracruz, un contenedor de carga con forma de cubo tiene un volumen de 64000 dm³. El encargado de logística necesita calcular la longitud de la arista del contenedor para saber si cabe en el espacio disponible dentro de la bodega del barco.",
+    "pregunta": "¿Cuánto mide la arista de ese cubo de unicel si su volumen es 1331 cm³? Además: ¿Cuánto mide la arista del contenedor si su volumen es de 64000 dm³?"
   },
   "subtemas": [
     {
       "numero": "37.2",
-      "nivelEtiqueta": "Nivel 2 de 8 · Básico",
-      "titulo": "Calcula raíces cúbicas de dos cifras",
-      "explicacion": "Ahora vas a calcular directamente la raíz cúbica de cubos perfectos un poco más grandes, entre 200 y 1000. Para hacerlo sin calculadora conviene memorizar los cubos de los números del 1 al 10, ya que todos estos resultados aparecen en esa lista. La estrategia es recordar qué número, al multiplicarse tres veces por sí mismo, da exactamente el número que te preguntan. Con práctica, reconocerás estos cubos perfectos casi de memoria.",
-      "formula": "∛(a³) = a",
+      "nivelEtiqueta": "Nivel 2 de 4 · Intermedio",
+      "titulo": "El método de tanteo guiado y Raíces cúbicas de múltiplos de diez",
+      "explicacion": "Para números más grandes conviene usar un método guiado: primero ubicas entre qué dos cubos de decena cae el número (por ejemplo, entre 10³=1000 y 20³=8000), y luego pruebas con números de esa década hasta encontrar el que funciona exactamente. Este tanteo funciona porque los cubos perfectos crecen de forma ordenada: si un número está entre 1000 y 8000, su raíz cúbica está entre 10 y 20. Practicar este método te ayuda a no depender solo de la memorización.\n\nCuando un cubo perfecto termina en varios ceros, su raíz cúbica suele ser un múltiplo exacto de diez. Esto pasa porque al elevar un múltiplo de diez al cubo, los ceros también se multiplican: (a0)³ = a³ seguido de tres ceros. Reconocer este patrón te permite calcular raíces cúbicas de números grandes casi de inmediato, sin necesidad de tantear cifra por cifra. Es un atajo útil para cubos perfectos como 8000, 27000 o 125000.",
+      "formula": "∛(a × 1000) = ∛a × 10, si a es cubo perfecto",
       "ejemplos": [
-        "∛216 = 6, porque 6 × 6 × 6 = 216.",
-        "∛1000 = 10, porque 10 × 10 × 10 = 1000."
+        "Para ∛1331: como 1331 está entre 1000 (10³) y 8000 (20³), pruebas con 11: 11×11×11 = 1331. Entonces ∛1331 = 11.",
+        "Para ∛2744: pruebas con 14: 14×14×14 = 2744. Entonces ∛2744 = 14.",
+        "∛8000: como 8 = 2³, entonces ∛8000 = 2 × 10 = 20.",
+        "∛125000: como 125 = 5³, entonces ∛125000 = 5 × 10 = 50."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuál es la raíz cúbica de 216?",
+          "pregunta": "Para hallar ∛1331 ubicas que está entre 10³=1000 y 20³=8000. Al probar con 11, obtienes 11×11×11=1331. ¿Cuál es la raíz cúbica de 1331?",
           "opciones": [
-            "5",
-            "6",
-            "7",
-            "8"
+            "10",
+            "11",
+            "12",
+            "13"
           ],
           "respuestaCorrecta": 1,
-          "retroalimentacion": "6 × 6 × 6 = 216, entonces ∛216 = 6."
+          "retroalimentacion": "11 × 11 × 11 = 1331, entonces ∛1331 = 11."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "∛343 = ___",
-          "respuestaCorrecta": "7",
-          "retroalimentacion": "7 × 7 × 7 = 343, así que ∛343 = 7."
+          "frase": "Si sabes que 12 × 12 × 12 = 1728, entonces ∛1728 = ___.",
+          "respuestaCorrecta": "12",
+          "retroalimentacion": "12³ = 1728, así que ∛1728 = 12."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "La raíz cúbica de 512 es 9.",
-          "respuestaCorrecta": false,
-          "retroalimentacion": "Falso: 9 × 9 × 9 = 729, no 512. En realidad 8 × 8 × 8 = 512, así que ∛512 = 8."
+          "enunciado": "Para calcular ∛2197 basta con comprobar que 13 × 13 × 13 = 2197.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 13 × 13 × 13 = 2197, así que ∛2197 = 13."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuánto es ∛1000?",
+          "pregunta": "¿Cuál es la raíz cúbica de 2744?",
           "opciones": [
-            "10",
-            "100",
-            "30",
-            "1000"
+            "13",
+            "14",
+            "15",
+            "16"
           ],
-          "respuestaCorrecta": 0,
-          "retroalimentacion": "10 × 10 × 10 = 1000, entonces ∛1000 = 10."
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "14 × 14 × 14 = 2744, entonces ∛2744 = 14."
         },
         {
           "tipo": "relacionar_columnas",
           "instruccion": "Relaciona cada cubo perfecto con su raíz cúbica.",
           "columnaA": [
-            "216",
-            "343",
-            "512",
-            "729"
+            "1331",
+            "1728",
+            "2197",
+            "2744"
           ],
           "columnaB": [
-            "6",
-            "7",
-            "8",
-            "9",
-            "10"
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"
           ],
           "parejasCorrectas": [
             0,
@@ -84,7 +86,67 @@
             2,
             3
           ],
-          "retroalimentacion": "216=6³, 343=7³, 512=8³ y 729=9³."
+          "retroalimentacion": "1331=11³, 1728=12³, 2197=13³ y 2744=14³."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la raíz cúbica de 8000?",
+          "opciones": [
+            "20",
+            "200",
+            "80",
+            "2"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "8 = 2³, así que 8000 = 20³ y ∛8000 = 20."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "∛27000 = ___",
+          "respuestaCorrecta": "30",
+          "retroalimentacion": "27 = 3³, así que 27000 = 30³ y ∛27000 = 30."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "∛64000 = 40, porque 40 × 40 × 40 = 64000.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 40³ = 64000."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la raíz cúbica de 125000?",
+          "opciones": [
+            "40",
+            "45",
+            "50",
+            "55"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "125 = 5³, así que 125000 = 50³ y ∛125000 = 50."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada cubo perfecto con su raíz cúbica.",
+          "columnaA": [
+            "8000",
+            "27000",
+            "64000",
+            "216000"
+          ],
+          "columnaB": [
+            "20",
+            "30",
+            "40",
+            "50",
+            "60"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "retroalimentacion": "8000=20³, 27000=30³, 64000=40³ y 216000=60³; el 50 no tenía pareja aquí."
         }
       ]
     }

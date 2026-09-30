@@ -1,27 +1,29 @@
 {
   "id": "OB-36-01",
   "grado": "Operaciones Básicas",
-  "numero": 281,
+  "numero": 141,
   "categoria": "potencias_raices",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Raíz cuadrada aproximada — Momento 1/8",
+  "titulo": "Raíz cuadrada aproximada — Módulo 1/4",
   "contenido": "Estimación de la raíz cuadrada de números que no son cuadrados perfectos, ubicándola entre dos enteros consecutivos.",
   "pda": "Estima la raíz cuadrada de un número que no es cuadrado perfecto, ubicándola entre dos números enteros consecutivos.",
   "problematizacion": {
-    "contexto": "En la feria de un pueblo de Oaxaca se está armando un templete cuadrado para el evento cultural, cubierto con losetas cuadradas iguales acomodadas en cuadrícula. Doña Refugio, encargada del montaje, cuenta 50 losetas en total y quiere saber, a grandes rasgos, cuántas caben por lado.",
-    "pregunta": "¿Entre qué dos cuadrados perfectos consecutivos se encuentra el número total de losetas (50)?"
+    "contexto": "En la feria de un pueblo de Oaxaca se está armando un templete cuadrado para el evento cultural, cubierto con losetas cuadradas iguales acomodadas en cuadrícula. Doña Refugio, encargada del montaje, cuenta 50 losetas en total y quiere saber, a grandes rasgos, cuántas caben por lado.\n\nEl profesor de Educación Física de una secundaria de Guadalajara quiere formar equipos en una cuadrícula lo más cuadrada posible con los 30 alumnos que llegaron temprano a la clase de acondicionamiento.",
+    "pregunta": "¿Entre qué dos cuadrados perfectos consecutivos se encuentra el número total de losetas (50)? Además: ¿Entre qué dos números enteros consecutivos está la raíz cuadrada de 30, el total de alumnos?"
   },
   "subtemas": [
     {
       "numero": "36.1",
-      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
-      "titulo": "Vecinos cuadrados: ¿entre qué cuadrados perfectos cae un número?",
-      "explicacion": "Un cuadrado perfecto es el resultado de multiplicar un número entero por sí mismo, como 4×4=16 o 7×7=49. Muchos números no son cuadrados perfectos, pero siempre se pueden ubicar entre dos cuadrados perfectos consecutivos. Por ejemplo, 20 no es cuadrado perfecto, pero está entre 16 (4²) y 25 (5²). Antes de estimar raíces cuadradas, primero hay que dominar esta ubicación entre cuadrados vecinos. En este momento vas a practicar solo eso: encontrar el cuadrado perfecto justo antes y justo después de un número dado.",
-      "formula": "a² < n < (a+1)²",
+      "nivelEtiqueta": "Nivel 1 de 4 · Introductorio",
+      "titulo": "Vecinos cuadrados: ¿entre qué cuadrados perfectos cae un número? y De los cuadrados a la raíz: ubica √n entre dos enteros",
+      "explicacion": "Un cuadrado perfecto es el resultado de multiplicar un número entero por sí mismo, como 4×4=16 o 7×7=49. Muchos números no son cuadrados perfectos, pero siempre se pueden ubicar entre dos cuadrados perfectos consecutivos. Por ejemplo, 20 no es cuadrado perfecto, pero está entre 16 (4²) y 25 (5²). Antes de estimar raíces cuadradas, primero hay que dominar esta ubicación entre cuadrados vecinos. En este momento vas a practicar solo eso: encontrar el cuadrado perfecto justo antes y justo después de un número dado.\n\nCuando un número no es cuadrado perfecto, su raíz cuadrada tampoco es un entero exacto, pero siempre se ubica entre dos enteros consecutivos. La regla es simple: si a² < n < (a+1)², entonces a < √n < a+1. Por ejemplo, como 16<20<25, sabemos que 4<√20<5. Usa los cuadrados perfectos vecinos que aprendiste a encontrar en el momento anterior para descubrir esos dos enteros que 'abrazan' la raíz.",
+      "formula": "a² < n < (a+1)²; a² < n < (a+1)²  →  a < √n < a+1",
       "ejemplos": [
         "20 no es cuadrado perfecto. Los cuadrados perfectos cercanos son 16 (4×4) y 25 (5×5), y como 16<20<25, el número 20 está entre esos dos cuadrados perfectos.",
-        "50 está entre 49 (7×7) y 64 (8×8), porque 49<50<64."
+        "50 está entre 49 (7×7) y 64 (8×8), porque 49<50<64.",
+        "Como 16<20<25, entonces 4<√20<5: la raíz cuadrada de 20 está entre 4 y 5.",
+        "Como 49<50<64, entonces 7<√50<8: la raíz cuadrada de 50 está entre 7 y 8."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
@@ -85,6 +87,66 @@
             3
           ],
           "retroalimentacion": "30 está entre 25 (5²) y 36 (6²); 70 está entre 64 (8²) y 81 (9²); 120 está entre 100 (10²) y 121 (11²); 10 está entre 9 (3²) y 16 (4²)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Entre qué dos enteros se encuentra √30?",
+          "opciones": [
+            "4 y 5",
+            "5 y 6",
+            "6 y 7",
+            "7 y 8"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "25<30<36, y como 25=5² y 36=6², entonces 5<√30<6."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Entre qué dos enteros está √70?",
+          "opciones": [
+            "6 y 7",
+            "7 y 8",
+            "8 y 9",
+            "9 y 10"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "64<70<81, y como 64=8² y 81=9², entonces 8<√70<9."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La raíz cuadrada de 90 está entre 9 y 10.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 81<90<100, y como 81=9² y 100=10², entonces 9<√90<10."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La raíz cuadrada de 120 está entre 10 y ___.",
+          "respuestaCorrecta": "11",
+          "retroalimentacion": "100<120<121, y como 100=10² y 121=11², entonces 10<√120<11."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada número con el par de enteros entre los que está su raíz cuadrada.",
+          "columnaA": [
+            "45",
+            "63",
+            "95",
+            "10"
+          ],
+          "columnaB": [
+            "6 y 7",
+            "7 y 8",
+            "9 y 10",
+            "3 y 4",
+            "8 y 9"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "retroalimentacion": "√45 está entre 6 y 7; √63 está entre 7 y 8; √95 está entre 9 y 10; √10 está entre 3 y 4."
         }
       ]
     }

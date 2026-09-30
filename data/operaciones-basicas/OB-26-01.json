@@ -1,27 +1,29 @@
 {
   "id": "OB-26-01",
   "grado": "Operaciones Básicas",
-  "numero": 201,
+  "numero": 101,
   "categoria": "mult_div",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Múltiplos y factores — Momento 1/8",
+  "titulo": "Múltiplos y factores — Módulo 1/4",
   "contenido": "Identificación de múltiplos y factores de un número, como puente natural entre la multiplicación/división y el álgebra.",
   "pda": "Identifica múltiplos y factores de un número natural, y los usa para resolver problemas sencillos de divisibilidad.",
   "problematizacion": {
-    "contexto": "Doña Rosa vende tamales en el mercado de su colonia y los acomoda en bolsas de a 6 para venderlos más rápido. Cada mañana prepara distintas cantidades de tamales, pero siempre en bolsas completas, sin dejar ninguno suelto.",
-    "pregunta": "¿Qué cantidades de tamales podría haber preparado Doña Rosa si siempre usa bolsas completas de 6?"
+    "contexto": "Doña Rosa vende tamales en el mercado de su colonia y los acomoda en bolsas de a 6 para venderlos más rápido. Cada mañana prepara distintas cantidades de tamales, pero siempre en bolsas completas, sin dejar ninguno suelto.\n\nEn el taller de manualidades de la escuela, el profesor Iván tiene 20 fichas de cartón y quiere repartirlas en equipos, dando a cada equipo la misma cantidad exacta de fichas, sin que sobre ni falte ninguna.",
+    "pregunta": "¿Qué cantidades de tamales podría haber preparado Doña Rosa si siempre usa bolsas completas de 6? Además: ¿En cuántos equipos podría repartir el profesor Iván sus 20 fichas sin que sobre ninguna?"
   },
   "subtemas": [
     {
       "numero": "26.1",
-      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
-      "titulo": "¿Qué es un múltiplo?",
-      "explicacion": "Un múltiplo de un número se obtiene multiplicándolo por 1, 2, 3, 4... (cualquier número natural). Por ejemplo, los múltiplos de 4 son 4, 8, 12, 16, 20... y así sin fin, porque siempre hay un múltiplo más grande. Para saber si un número es múltiplo de otro, revisa si existe un entero que, multiplicado por el primero, dé exactamente el segundo. Otra forma rápida es dividir: si la división es exacta (residuo 0), entonces sí es múltiplo.",
-      "formula": "n es múltiplo de d si n = d × k, para algún número natural k",
+      "nivelEtiqueta": "Nivel 1 de 4 · Introductorio",
+      "titulo": "¿Qué es un múltiplo? y ¿Qué es un factor?",
+      "explicacion": "Un múltiplo de un número se obtiene multiplicándolo por 1, 2, 3, 4... (cualquier número natural). Por ejemplo, los múltiplos de 4 son 4, 8, 12, 16, 20... y así sin fin, porque siempre hay un múltiplo más grande. Para saber si un número es múltiplo de otro, revisa si existe un entero que, multiplicado por el primero, dé exactamente el segundo. Otra forma rápida es dividir: si la división es exacta (residuo 0), entonces sí es múltiplo.\n\nUn factor (también llamado divisor) de un número es aquel que lo divide exactamente, sin dejar residuo. Los factores siempre aparecen en parejas cuyo producto es el número original: por ejemplo, 3 y 4 son factores de 12 porque 3 × 4 = 12. Todo número natural tiene, al menos, dos factores seguros: el 1 y él mismo. Para comprobar si un número es factor de otro, basta con dividir y verificar que el residuo sea 0.",
+      "formula": "n es múltiplo de d si n = d × k, para algún número natural k; d es factor de n si n ÷ d tiene residuo 0",
       "ejemplos": [
         "12 es múltiplo de 3 porque 3 × 4 = 12 (aquí k = 4).",
-        "15 NO es múltiplo de 4 porque no existe un entero k tal que 4 × k = 15 (4 × 3 = 12 y 4 × 4 = 16, 15 queda entre ambos)."
+        "15 NO es múltiplo de 4 porque no existe un entero k tal que 4 × k = 15 (4 × 3 = 12 y 4 × 4 = 16, 15 queda entre ambos).",
+        "Los factores de 12 son 1, 2, 3, 4, 6 y 12, porque 1×12=12, 2×6=12 y 3×4=12.",
+        "7 es factor de 42 porque 42 ÷ 7 = 6, una división exacta."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
@@ -67,6 +69,48 @@
           ],
           "respuestaCorrecta": 2,
           "retroalimentacion": "52 no termina en 0 o 5 y, al dividirlo entre 5, no da un resultado exacto; por eso no es múltiplo de 5."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de estos números es factor de 20?",
+          "opciones": [
+            "3",
+            "4",
+            "6",
+            "7"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "20 ÷ 4 = 5, una división exacta, así que 4 sí es factor de 20."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "7 es factor de 42.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "42 ÷ 7 = 6 exactamente, por lo tanto 7 es factor de 42."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "5 es factor de 32.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "32 ÷ 5 = 6.4, no es una división exacta, así que 5 no es factor de 32."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si 9 × 6 = 54, entonces 9 y 6 son ___ de 54.",
+          "respuestaCorrecta": "factores",
+          "retroalimentacion": "Cuando dos números se multiplican y dan un tercero, ambos son factores (o divisores) de ese resultado."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuáles son TODOS los factores de 10?",
+          "opciones": [
+            "1, 2, 5, 10",
+            "1, 5, 10",
+            "2, 5, 10",
+            "1, 2, 10"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "10 se divide exactamente entre 1, 2, 5 y 10; esos son todos sus factores."
         }
       ]
     }

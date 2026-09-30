@@ -1,82 +1,84 @@
 {
   "id": "OB-36-02",
   "grado": "Operaciones Básicas",
-  "numero": 282,
+  "numero": 142,
   "categoria": "potencias_raices",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Raíz cuadrada aproximada — Momento 2/8",
+  "titulo": "Raíz cuadrada aproximada — Módulo 2/4",
   "contenido": "Estimación de la raíz cuadrada de números que no son cuadrados perfectos, ubicándola entre dos enteros consecutivos.",
   "pda": "Estima la raíz cuadrada de un número que no es cuadrado perfecto, ubicándola entre dos números enteros consecutivos.",
   "problematizacion": {
-    "contexto": "El profesor de Educación Física de una secundaria de Guadalajara quiere formar equipos en una cuadrícula lo más cuadrada posible con los 30 alumnos que llegaron temprano a la clase de acondicionamiento.",
-    "pregunta": "¿Entre qué dos números enteros consecutivos está la raíz cuadrada de 30, el total de alumnos?"
+    "contexto": "En una terminal de autobuses de Puebla, el chofer necesita acomodar 63 maletas en un compartimento que se organiza como una cuadrícula cuadrada, y quiere calcular a ojo cuántas maletas caben por lado.\n\nEn un taller de costura en Mérida, la dueña necesita cortar un mantel cuadrado con un área de 95 decímetros cuadrados y quiere saber cuánto medirá aproximadamente cada lado, con un decimal, para ajustar la tela sin desperdiciar material.",
+    "pregunta": "¿La raíz cuadrada de 63 está más cerca de 7 o de 8? Además: ¿Cuál es la aproximación con un decimal de la raíz cuadrada de 95 (el lado del mantel)?"
   },
   "subtemas": [
     {
       "numero": "36.2",
-      "nivelEtiqueta": "Nivel 2 de 8 · Básico",
-      "titulo": "De los cuadrados a la raíz: ubica √n entre dos enteros",
-      "explicacion": "Cuando un número no es cuadrado perfecto, su raíz cuadrada tampoco es un entero exacto, pero siempre se ubica entre dos enteros consecutivos. La regla es simple: si a² < n < (a+1)², entonces a < √n < a+1. Por ejemplo, como 16<20<25, sabemos que 4<√20<5. Usa los cuadrados perfectos vecinos que aprendiste a encontrar en el momento anterior para descubrir esos dos enteros que 'abrazan' la raíz.",
-      "formula": "a² < n < (a+1)²  →  a < √n < a+1",
+      "nivelEtiqueta": "Nivel 2 de 4 · Intermedio",
+      "titulo": "¿Más cerca de cuál? Afina tu estimación y Estimar con un decimal: acércate más",
+      "explicacion": "Ya sabes ubicar la raíz cuadrada entre dos enteros consecutivos; ahora vas a decidir a cuál de los dos se parece más. Para eso, calcula el punto medio entre los dos cuadrados perfectos que forman el intervalo: si el número original está por debajo del punto medio, la raíz está más cerca del entero menor; si está por arriba, está más cerca del entero mayor. Por ejemplo, entre 49 y 64 el punto medio es 56.5; como 63 es mayor que 56.5, √63 está más cerca de 8 que de 7. Esta estrategia te da una estimación más fina sin necesitar calculadora.\n\nPara afinar todavía más la estimación, puedes calcular una aproximación con un decimal usando la posición proporcional del número dentro del intervalo. La fórmula es √n ≈ a + (n − a²) ÷ ((a+1)² − a²), donde a es el entero menor del intervalo. Esta fracción indica qué tan 'adentro' está el número entre los dos cuadrados perfectos, y se suma al entero menor. Por ejemplo, para √45: a=6, entonces (45−36)÷(49−36) = 9÷13 ≈ 0.69, así que √45 ≈ 6.7. Es una aproximación práctica, no el valor exacto de calculadora, pero muy cercana.",
+      "formula": "Punto medio = (a² + (a+1)²) ÷ 2; √n ≈ a + (n − a²) ÷ ((a+1)² − a²)",
       "ejemplos": [
-        "Como 16<20<25, entonces 4<√20<5: la raíz cuadrada de 20 está entre 4 y 5.",
-        "Como 49<50<64, entonces 7<√50<8: la raíz cuadrada de 50 está entre 7 y 8."
+        "Para √63: el intervalo es 49 y 64, cuyo punto medio es (49+64)÷2=56.5. Como 63>56.5, √63 está más cerca de 8 que de 7.",
+        "Para √45: el intervalo es 36 y 49, punto medio (36+49)÷2=42.5. Como 45>42.5, √45 está más cerca de 7 que de 6.",
+        "Para √45: a=6, (45−36)÷(49−36)=9÷13≈0.69, entonces √45≈6.7.",
+        "Para √70: a=8, (70−64)÷(81−64)=6÷17≈0.35, entonces √70≈8.4."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Entre qué dos enteros se encuentra √30?",
+          "pregunta": "√52 está más cerca de:",
           "opciones": [
-            "4 y 5",
-            "5 y 6",
-            "6 y 7",
-            "7 y 8"
+            "7",
+            "7.5",
+            "8",
+            "9"
           ],
-          "respuestaCorrecta": 1,
-          "retroalimentacion": "25<30<36, y como 25=5² y 36=6², entonces 5<√30<6."
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "El intervalo de 52 es 49 y 64, con punto medio 56.5. Como 52<56.5, √52 está más cerca de 7."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Entre qué dos enteros está √70?",
+          "pregunta": "√63 está más cerca de:",
           "opciones": [
-            "6 y 7",
-            "7 y 8",
-            "8 y 9",
-            "9 y 10"
+            "6",
+            "7",
+            "8",
+            "9"
           ],
           "respuestaCorrecta": 2,
-          "retroalimentacion": "64<70<81, y como 64=8² y 81=9², entonces 8<√70<9."
+          "retroalimentacion": "El intervalo de 63 es 49 y 64, con punto medio 56.5. Como 63>56.5, √63 está más cerca de 8."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "La raíz cuadrada de 90 está entre 9 y 10.",
+          "enunciado": "La raíz cuadrada de 45 está más cerca de 7 que de 6.",
           "respuestaCorrecta": true,
-          "retroalimentacion": "Correcto: 81<90<100, y como 81=9² y 100=10², entonces 9<√90<10."
+          "retroalimentacion": "Correcto: el intervalo de 45 es 36 y 49, con punto medio 42.5. Como 45>42.5, √45 está más cerca de 7."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "La raíz cuadrada de 120 está entre 10 y ___.",
-          "respuestaCorrecta": "11",
-          "retroalimentacion": "100<120<121, y como 100=10² y 121=11², entonces 10<√120<11."
+          "frase": "La raíz cuadrada de 95 está más cerca de ___ que de 9.",
+          "respuestaCorrecta": "10",
+          "retroalimentacion": "El intervalo de 95 es 81 y 100, con punto medio 90.5. Como 95>90.5, √95 está más cerca de 10."
         },
         {
           "tipo": "relacionar_columnas",
-          "instruccion": "Relaciona cada número con el par de enteros entre los que está su raíz cuadrada.",
+          "instruccion": "Relaciona cada número con el entero al que su raíz cuadrada se acerca más.",
           "columnaA": [
-            "45",
-            "63",
-            "95",
-            "10"
+            "105",
+            "130",
+            "150",
+            "190"
           ],
           "columnaB": [
-            "6 y 7",
-            "7 y 8",
-            "9 y 10",
-            "3 y 4",
-            "8 y 9"
+            "10",
+            "11",
+            "12",
+            "14",
+            "13"
           ],
           "parejasCorrectas": [
             0,
@@ -84,7 +86,67 @@
             2,
             3
           ],
-          "retroalimentacion": "√45 está entre 6 y 7; √63 está entre 7 y 8; √95 está entre 9 y 10; √10 está entre 3 y 4."
+          "retroalimentacion": "√105 está más cerca de 10 (punto medio 110.5); √130 más cerca de 11 (punto medio 132.5); √150 más cerca de 12 (punto medio 156.5); √190 más cerca de 14 (punto medio 182.5)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la mejor aproximación con un decimal de √45?",
+          "opciones": [
+            "6.5",
+            "6.7",
+            "6.9",
+            "7.1"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "a=6, (45−36)÷(49−36)=9÷13≈0.69, así que √45≈6.7."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la mejor aproximación con un decimal de √70?",
+          "opciones": [
+            "8.1",
+            "8.4",
+            "8.6",
+            "8.9"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "a=8, (70−64)÷(81−64)=6÷17≈0.35, así que √70≈8.4."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Usando la aproximación con un decimal, √95 ≈ ___.",
+          "respuestaCorrecta": "9.7",
+          "retroalimentacion": "a=9, (95−81)÷(100−81)=14÷19≈0.74, así que √95≈9.7."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La aproximación con un decimal de √130 es 11.4.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: a=11, (130−121)÷(144−121)=9÷23≈0.39, así que √130≈11.4."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada número con su aproximación con un decimal.",
+          "columnaA": [
+            "55",
+            "150",
+            "205",
+            "275"
+          ],
+          "columnaB": [
+            "7.4",
+            "12.2",
+            "14.3",
+            "16.6",
+            "9.5"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "retroalimentacion": "√55≈7.4; √150≈12.2; √205≈14.3; √275≈16.6, siguiendo la fórmula de aproximación proporcional."
         }
       ]
     }

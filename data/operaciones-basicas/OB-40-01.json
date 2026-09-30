@@ -1,27 +1,29 @@
 {
   "id": "OB-40-01",
   "grado": "Operaciones Básicas",
-  "numero": 313,
+  "numero": 157,
   "categoria": "potencias_raices",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Encuentra el error: potencias y raíces — Momento 1/8",
+  "titulo": "Encuentra el error: potencias y raíces — Módulo 1/4",
   "contenido": "Identificación del paso exacto donde el cálculo de una potencia o raíz ya resuelto contiene un error, como forma de reforzar el concepto desde la revisión.",
   "pda": "Identifica errores en cálculos de potencias y raíces ya resueltos, explicando en qué paso ocurre el error.",
   "problematizacion": {
-    "contexto": "La maestra Refugio revisó los exámenes de matemáticas de secundaria en Puebla. Al calificar la pregunta sobre potencias, encontró que varios alumnos confundieron el exponente con un multiplicador directo de la base.",
-    "pregunta": "¿Qué error cometen los alumnos que escriben 5² = 10 en lugar de 5² = 25?"
+    "contexto": "La maestra Refugio revisó los exámenes de matemáticas de secundaria en Puebla. Al calificar la pregunta sobre potencias, encontró que varios alumnos confundieron el exponente con un multiplicador directo de la base.\n\nDon Herminio siembra maíz en un terreno cuadrado en Tlaxcala. Para saber cuántas plantas caben, un promotor agrícola calculó potencias paso a paso, pero se apuró y perdió un paso a la mitad de sus cuentas.",
+    "pregunta": "¿Qué error cometen los alumnos que escriben 5² = 10 en lugar de 5² = 25? Además: ¿Qué pasa con el resultado de una potencia si se olvida un factor a la mitad del procedimiento?"
   },
   "subtemas": [
     {
       "numero": "40.1",
-      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
-      "titulo": "El significado de la potencia",
-      "explicacion": "Una potencia indica cuántas veces se multiplica la base por sí misma; el exponente NO se multiplica por la base, funciona como un contador de multiplicaciones. Un error muy común al revisar potencias resueltas es confundir b elevado a n con b por n (multiplicar la base por el exponente) en lugar de multiplicar la base n veces por sí misma. Para detectar este error basta con desarrollar la multiplicación completa y comparar con el resultado dado.",
+      "nivelEtiqueta": "Nivel 1 de 4 · Introductorio",
+      "titulo": "El significado de la potencia y Un factor de más o de menos",
+      "explicacion": "Una potencia indica cuántas veces se multiplica la base por sí misma; el exponente NO se multiplica por la base, funciona como un contador de multiplicaciones. Un error muy común al revisar potencias resueltas es confundir b elevado a n con b por n (multiplicar la base por el exponente) en lugar de multiplicar la base n veces por sí misma. Para detectar este error basta con desarrollar la multiplicación completa y comparar con el resultado dado.\n\nAl desarrollar una potencia paso a paso, a veces se olvida un factor o se agrega uno de más, lo que cambia el resultado aunque el planteamiento inicial esté bien escrito. Para encontrar el error hay que contar cuántas veces aparece la base multiplicándose y comparar con el exponente. También conviene revisar el resultado de cada multiplicación parcial, no solo el final, para ubicar EN QUÉ PASO exacto ocurrió la falla.",
       "formula": "b^n = b × b × ... × b (n veces)",
       "ejemplos": [
         "4³ = 4 × 4 × 4 = 64 (correcto). Un error típico sería escribir 4³ = 4 × 3 = 12, confundiendo la potencia con una multiplicación simple.",
-        "2⁵ = 2×2×2×2×2 = 32 (correcto). El error 2⁵ = 2×5 = 10 confunde el exponente con un factor."
+        "2⁵ = 2×2×2×2×2 = 32 (correcto). El error 2⁵ = 2×5 = 10 confunde el exponente con un factor.",
+        "3⁴ se calculó así: 3×3=9, 9×3=27, 27×3=81 (correcto, porque hay 4 factores de 3). Un error sería detenerse en 27 y darlo como resultado final, olvidando el último factor.",
+        "2⁶ paso a paso: 2×2=4, 4×2=8, 8×2=16, 16×2=32, 32×2=64. Si alguien se detiene en 32, le faltó un factor de 2."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
@@ -85,6 +87,63 @@
             3
           ],
           "retroalimentacion": "3²=9, 4²=16, 2³=8 y 5²=25. Ninguno se calcula multiplicando la base por el exponente."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Para calcular 3⁴ un alumno escribió: 3×3=9, 9×3=27 y dio 27 como resultado final. ¿Cuál fue su error?",
+          "opciones": [
+            "Le faltó multiplicar por un factor 3 más (el resultado correcto es 81)",
+            "Multiplicó de más, el resultado correcto es 9",
+            "No hay error, 3⁴ = 27",
+            "Confundió la suma con la multiplicación"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "3⁴ tiene 4 factores de 3. El alumno solo multiplicó 3 veces (llegó a 27, que en realidad es 3³). Le faltó un factor 3 más: 27×3=81."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Para 2⁶, si el desarrollo paso a paso llega hasta 32 y ahí se detiene, el resultado 32 corresponde a 2⁶.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "32 es 2⁵ (cinco factores de 2), no 2⁶. Falta multiplicar una vez más por 2 para llegar a 64."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En el desarrollo paso a paso de 4³, la base 4 debe aparecer como factor exactamente ___ veces.",
+          "respuestaCorrecta": "3",
+          "retroalimentacion": "4³ = 4×4×4, la base aparece 3 veces como factor porque el exponente es 3."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál desarrollo de 5³ está completo y correcto?",
+          "opciones": [
+            "5×5=25 (resultado final)",
+            "5×5=25, 25×5=125 (resultado final)",
+            "5×5=25, 25×5=125, 125×5=625 (resultado final)",
+            "5×3=15 (resultado final)"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "5³ tiene 3 factores de 5: 5×5=25, y 25×5=125. Ese es el resultado final correcto."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada resultado incompleto con la potencia a la que en realidad corresponde (no a la que se buscaba).",
+          "columnaA": [
+            "27 (se buscaba 3⁴)",
+            "32 (se buscaba 2⁶)",
+            "16 (se buscaba 2⁵)"
+          ],
+          "columnaB": [
+            "3³",
+            "2⁵",
+            "2⁴",
+            "3⁴"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "27 es en realidad 3³ (no 3⁴, que es 81); 32 es 2⁵ (no 2⁶, que es 64); 16 es 2⁴ (no 2⁵, que es 32). A cada uno le faltó un factor más para llegar a la potencia buscada."
         }
       ]
     }

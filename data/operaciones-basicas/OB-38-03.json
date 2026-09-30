@@ -1,87 +1,146 @@
 {
   "id": "OB-38-03",
   "grado": "Operaciones Básicas",
-  "numero": 299,
+  "numero": 151,
   "categoria": "potencias_raices",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Relación entre potencias y raíces — Momento 3/8",
+  "titulo": "Relación entre potencias y raíces — Módulo 3/4",
   "contenido": "La raíz como operación inversa de la potencia, verificando una raíz al elevar el resultado a la potencia correspondiente.",
   "pda": "Explica y verifica la relación inversa entre potencias y raíces, comprobando una raíz al elevarla a la potencia correspondiente.",
   "problematizacion": {
-    "contexto": "El entrenador Ismael quiere formar a los 144 jugadores de su escuela de fútbol en un bloque cuadrado perfecto para la foto del equipo, con el mismo número de filas que de columnas.",
-    "pregunta": "¿Cuántas filas (y columnas) debe usar el entrenador para que el bloque cuadrado tenga exactamente 144 jugadores?"
+    "contexto": "El maestro albañil Anselmo terminó de pintar un patio cuadrado en una casa de Mérida y midió que tiene 324 metros cuadrados de superficie. Le dijo al dueño que cada lado del patio mide 18 metros, pero el dueño quiere estar seguro antes de pagar el material extra.\n\nEn la panadería 'El Buen Pan' de Pachuca, don Cuauhtémoc acomoda charolas cuadradas de pan en una repisa especial que tiene 4 niveles idénticos; multiplicando el número de charolas de un nivel por sí mismo las 4 veces, le sale un total de 256 charolas en la repisa completa.",
+    "pregunta": "¿Qué cálculo le permite a Anselmo demostrarle al dueño que un lado de 18 metros sí corresponde a 324 metros cuadrados de patio? Además: ¿Cuántas charolas tiene cada nivel de la repisa, si al multiplicarse por sí mismo 4 veces da 256?"
   },
   "subtemas": [
     {
       "numero": "38.3",
-      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
-      "titulo": "Comprobación guiada: ¿cuadrado o cubo?",
-      "explicacion": "Antes de comprobar una raíz, primero hay que fijarse en su índice: si es raíz cuadrada (índice 2) se comprueba elevando al cuadrado, y si es raíz cúbica (índice 3) se comprueba elevando al cubo. El procedimiento siempre tiene tres pasos: identificar el índice de la raíz, elevar el resultado propuesto a esa potencia, y comparar el resultado con el número original. En este momento vas a seguir esos tres pasos con raíces cuadradas de números de dos cifras y raíces cúbicas un poco más grandes que antes.",
-      "formula": "Paso 1: identifica el índice → Paso 2: eleva el resultado a esa potencia → Paso 3: compara",
+      "nivelEtiqueta": "Nivel 3 de 4 · Avanzado",
+      "titulo": "Aplicando la comprobación a áreas y volúmenes y Más allá del cuadrado y el cubo: la raíz cuarta",
+      "explicacion": "En situaciones reales, el área de un terreno cuadrado o el volumen de una caja cúbica se relacionan con su lado o arista mediante una potencia, así que para comprobar que ese lado o arista es correcto se usa la raíz inversa. Si un terreno cuadrado tiene 324 metros cuadrados y alguien dice que el lado mide 18 metros, se comprueba calculando 18 × 18 y viendo si da 324. Lo mismo aplica a una caja cúbica: si el volumen es 1331 centímetros cúbicos y se dice que la arista mide 11 centímetros, se comprueba con 11 × 11 × 11. En este momento vas a aplicar esta comprobación a problemas de áreas y volúmenes de la vida diaria.\n\nLa relación entre potencia y raíz no se limita al cuadrado y al cubo: funciona para cualquier índice. La raíz cuarta de un número se comprueba elevando el resultado a la cuarta potencia, es decir, multiplicándolo por sí mismo cuatro veces. Por ejemplo, la raíz cuarta de 81 es 3 porque 3 × 3 × 3 × 3 = 81. La regla general es que la raíz de índice n deshace exactamente a la potencia de exponente n, sin importar qué número sea n. En este momento vas a comprobar raíces cuartas.",
+      "formula": "Área = lado²  ·  Volumen = arista³ (ambos se comprueban con la raíz inversa); Si a⁴ = b, entonces la raíz cuarta de b es a",
       "ejemplos": [
-        "√169: el índice es 2, se propone 13, y 13 × 13 = 169, coincide, la raíz es correcta.",
-        "∛512: el índice es 3, se propone 8, y 8 × 8 × 8 = 512, coincide, la raíz es correcta."
+        "Un patio cuadrado de 256 m²: se propone lado 16 m, y 16 × 16 = 256, la comprobación es correcta.",
+        "Una caja cúbica de 1331 cm³: se propone arista 11 cm, y 11 × 11 × 11 = 1331, la comprobación es correcta.",
+        "Raíz cuarta de 16 = 2, porque 2 × 2 × 2 × 2 = 16.",
+        "Raíz cuarta de 625 = 5, porque 5 × 5 × 5 × 5 = 625."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuál es la raíz cuadrada de 169?",
+          "pregunta": "Un terreno cuadrado mide 256 m² de área. ¿Cuánto mide cada lado?",
           "opciones": [
-            "11",
-            "12",
-            "13",
-            "14"
+            "14 m",
+            "15 m",
+            "16 m",
+            "17 m"
           ],
           "respuestaCorrecta": 2,
-          "retroalimentacion": "13 × 13 = 169, por eso √169 = 13."
+          "retroalimentacion": "16 × 16 = 256, por eso el lado mide 16 m."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "Para comprobar que √196 = 14, el primer paso es identificar que el índice de la raíz es 2.",
+          "enunciado": "Una caja cúbica con volumen de 1000 cm³ tiene arista de 10 cm, porque 10 × 10 × 10 = 1000.",
           "respuestaCorrecta": true,
-          "retroalimentacion": "Sí: como es raíz cuadrada su índice es 2, por eso se comprueba elevando al cuadrado."
+          "retroalimentacion": "Correcto, 10 × 10 × 10 = 1000 cm³."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "Si el índice de una raíz es 3, para comprobarla hay que elevar el resultado al ___.",
-          "respuestaCorrecta": "cubo",
-          "retroalimentacion": "Índice 3 significa raíz cúbica, se comprueba elevando al cubo."
-        },
-        {
-          "tipo": "opcion_multiple",
-          "pregunta": "¿Qué operación comprueba que ∛729 = 9?",
-          "opciones": [
-            "9 × 9",
-            "9 × 9 × 9",
-            "9 × 3",
-            "9 + 9 + 9"
-          ],
-          "respuestaCorrecta": 1,
-          "retroalimentacion": "9 × 9 × 9 = 729, por eso ∛729 = 9."
+          "frase": "Un terreno cuadrado de 900 m² tiene lado de ___ metros, porque 30 × 30 = 900.",
+          "respuestaCorrecta": "30",
+          "retroalimentacion": "El lado mide 30 metros, porque 30² = 900."
         },
         {
           "tipo": "relacionar_columnas",
-          "instruccion": "Relaciona cada raíz con el paso 2 de su comprobación (elevar el resultado propuesto a la potencia indicada por el índice).",
+          "instruccion": "Relaciona cada figura con la comprobación que confirma la medida de su lado o arista.",
           "columnaA": [
-            "√121",
-            "√225",
-            "∛343"
+            "Terreno cuadrado de 441 m², lado 21 m",
+            "Caja cúbica de 512 cm³, arista 8 cm",
+            "Terreno cuadrado de 169 m², lado 13 m"
           ],
           "columnaB": [
+            "13 × 13 = 169",
             "12 × 12 = 144",
-            "7 × 7 × 7 = 343",
-            "11 × 11 = 121",
-            "15 × 15 = 225"
+            "8 × 8 × 8 = 512",
+            "21 × 21 = 441"
           ],
           "parejasCorrectas": [
-            2,
             3,
-            1
+            2,
+            0
           ],
-          "retroalimentacion": "√121 = 11 (11×11=121), √225 = 15 (15×15=225), ∛343 = 7 (7×7×7=343)."
+          "retroalimentacion": "441 se comprueba con 21×21, 512 con 8×8×8, y 169 con 13×13."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una caja de regalo cúbica tiene un volumen de 1728 cm³. Si se afirma que la arista mide 12 cm, ¿qué operación lo comprueba?",
+          "opciones": [
+            "12 + 12 + 12",
+            "12 × 12",
+            "12 × 12 × 12",
+            "12 × 3"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "12 × 12 × 12 = 1728, la comprobación es correcta."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la raíz cuarta de 16?",
+          "opciones": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "2 × 2 × 2 × 2 = 16, por eso la raíz cuarta de 16 es 2."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Para comprobar que la raíz cuarta de 81 es 3, hay que calcular 3 × 3 × 3 × 3.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: el índice 4 indica que se multiplica el resultado por sí mismo 4 veces."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si 5 × 5 × 5 × 5 = 625, entonces la raíz cuarta de 625 = ___.",
+          "respuestaCorrecta": "5",
+          "retroalimentacion": "La raíz cuarta de 625 es 5, porque 5⁴ = 625."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada raíz con la multiplicación que la comprueba.",
+          "columnaA": [
+            "Raíz cuarta de 256",
+            "Raíz cuarta de 1296",
+            "Raíz cúbica de 27"
+          ],
+          "columnaB": [
+            "3 × 3 × 3 = 27",
+            "6 × 6 × 6 × 6 = 1296",
+            "3 × 3 × 3 × 3 = 81",
+            "4 × 4 × 4 × 4 = 256"
+          ],
+          "parejasCorrectas": [
+            3,
+            1,
+            0
+          ],
+          "retroalimentacion": "Raíz cuarta de 256 = 4 (4×4×4×4=256), raíz cuarta de 1296 = 6 (6×6×6×6=1296), raíz cúbica de 27 = 3 (3×3×3=27)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Qué operación comprueba que la raíz cuarta de 1 es 1?",
+          "opciones": [
+            "1 + 1 + 1 + 1",
+            "1 × 1 × 1 × 1",
+            "1 × 4",
+            "1²"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "1 × 1 × 1 × 1 = 1, por eso la raíz cuarta de 1 es 1."
         }
       ]
     }

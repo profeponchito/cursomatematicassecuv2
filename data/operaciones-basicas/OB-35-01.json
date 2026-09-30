@@ -1,27 +1,29 @@
 {
   "id": "OB-35-01",
   "grado": "Operaciones Básicas",
-  "numero": 273,
+  "numero": 137,
   "categoria": "potencias_raices",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Raíz cuadrada de cuadrados perfectos — Momento 1/8",
+  "titulo": "Raíz cuadrada de cuadrados perfectos — Módulo 1/4",
   "contenido": "Cálculo de la raíz cuadrada exacta de números que son cuadrados perfectos, como operación inversa de elevar al cuadrado.",
   "pda": "Calcula la raíz cuadrada exacta de cuadrados perfectos, reconociéndola como la operación inversa de elevar al cuadrado.",
   "problematizacion": {
-    "contexto": "En la clase de Artes de una secundaria en Oaxaca, el profesor pide a los alumnos pegar mosaicos cuadrados de colores para formar un panel decorativo. Uno de los equipos recibió una bolsa con 16 mosaicos y debe acomodarlos formando un cuadrado perfecto, sin que sobre ni falte ninguno.",
-    "pregunta": "¿Cuántos mosaicos debe poner el equipo en cada lado del cuadrado?"
+    "contexto": "En la clase de Artes de una secundaria en Oaxaca, el profesor pide a los alumnos pegar mosaicos cuadrados de colores para formar un panel decorativo. Uno de los equipos recibió una bolsa con 16 mosaicos y debe acomodarlos formando un cuadrado perfecto, sin que sobre ni falte ninguno.\n\nEn un mercado de Puebla, don Refugio acomoda 64 naranjas sobre una mesa formando un arreglo cuadrado perfecto para que se vea ordenado y atraiga a los clientes.",
+    "pregunta": "¿Cuántos mosaicos debe poner el equipo en cada lado del cuadrado? Además: ¿Cuántas naranjas hay en cada fila del arreglo cuadrado?"
   },
   "subtemas": [
     {
       "numero": "35.1",
-      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
-      "titulo": "¿Qué es la raíz cuadrada?",
-      "explicacion": "La raíz cuadrada de un número es el valor que, multiplicado por sí mismo, da ese número. Es la operación inversa de elevar al cuadrado: si 3×3=9, entonces la raíz cuadrada de 9 es 3. Un número es un cuadrado perfecto cuando su raíz cuadrada es un número entero exacto, sin decimales. En este momento solo trabajarás con los cuadrados perfectos más pequeños y conocidos.",
-      "formula": "Si a × a = n, entonces √n = a",
+      "nivelEtiqueta": "Nivel 1 de 4 · Introductorio",
+      "titulo": "¿Qué es la raíz cuadrada? y Raíces de los cuadrados del 1 al 10",
+      "explicacion": "La raíz cuadrada de un número es el valor que, multiplicado por sí mismo, da ese número. Es la operación inversa de elevar al cuadrado: si 3×3=9, entonces la raíz cuadrada de 9 es 3. Un número es un cuadrado perfecto cuando su raíz cuadrada es un número entero exacto, sin decimales. En este momento solo trabajarás con los cuadrados perfectos más pequeños y conocidos.\n\nAhora calcularás la raíz cuadrada de todos los cuadrados perfectos que se forman al elevar al cuadrado los números del 1 al 10, es decir, del 1 al 100. Te conviene memorizar esta lista porque es la base para resolver raíces más grandes en los siguientes momentos. Recuerda: encontrar la raíz cuadrada es preguntarte '¿qué número multiplicado por sí mismo da este resultado?'.",
+      "formula": "Si a × a = n, entonces √n = a; √n = a  ⇔  a² = n  (con a entero del 1 al 10)",
       "ejemplos": [
         "√9 = 3, porque 3 × 3 = 9.",
-        "√16 = 4, porque 4 × 4 = 16."
+        "√16 = 4, porque 4 × 4 = 16.",
+        "√64 = 8, porque 8 × 8 = 64.",
+        "√100 = 10, porque 10 × 10 = 100."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
@@ -82,6 +84,63 @@
             3
           ],
           "retroalimentacion": "√1 = 1, √16 = 4 y √49 = 7."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la raíz cuadrada de 49?",
+          "opciones": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "√49 = 7, porque 7 × 7 = 49."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La raíz cuadrada de 64 es ___.",
+          "respuestaCorrecta": "8",
+          "retroalimentacion": "√64 = 8, porque 8 × 8 = 64."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La raíz cuadrada de 100 es 10, porque 10 × 10 = 100.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 10 × 10 = 100, así que √100 = 10."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la raíz cuadrada de 81?",
+          "opciones": [
+            "7",
+            "8",
+            "9",
+            "10"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "√81 = 9, porque 9 × 9 = 81."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada número con su raíz cuadrada.",
+          "columnaA": [
+            "9",
+            "36",
+            "16"
+          ],
+          "columnaB": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "parejasCorrectas": [
+            0,
+            3,
+            1
+          ],
+          "retroalimentacion": "√9 = 3, √36 = 6 y √16 = 4."
         }
       ]
     }

@@ -1,27 +1,29 @@
 {
   "id": "OB-31-01",
   "grado": "Operaciones Básicas",
-  "numero": 241,
+  "numero": 121,
   "categoria": "potencias_raices",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Potencias de base decimal — Momento 1/8",
+  "titulo": "Potencias de base decimal — Módulo 1/4",
   "contenido": "Cálculo de potencias cuya base es un número decimal.",
   "pda": "Calcula potencias de base decimal, relacionando el procedimiento con la multiplicación de decimales.",
   "problematizacion": {
-    "contexto": "Doña Rosa es costurera en Puebla y corta retazos cuadrados de tela para hacer cojines. Uno de sus patrones indica que el lado del cuadrado debe medir 0.6 metros. Antes de cortar la tela, quiere anotar en su libreta la operación que le dará el área exacta de cada retazo.",
-    "pregunta": "¿Qué operación con potencia debe anotar Doña Rosa para representar el área de un cuadrado de lado 0.6 m?"
+    "contexto": "Doña Rosa es costurera en Puebla y corta retazos cuadrados de tela para hacer cojines. Uno de sus patrones indica que el lado del cuadrado debe medir 0.6 metros. Antes de cortar la tela, quiere anotar en su libreta la operación que le dará el área exacta de cada retazo.\n\nEn la secundaria técnica de Tepic se organiza una feria de ciencias. Uno de los stands necesita cuadrados de cartulina de distintos tamaños para pegar carteles, y los alumnos deben calcular el área de cada cuadrado antes de recortarlo.",
+    "pregunta": "¿Qué operación con potencia debe anotar Doña Rosa para representar el área de un cuadrado de lado 0.6 m? Además: si un cuadrado de cartulina mide 0.7 m de lado, ¿qué potencia representa su área?"
   },
   "subtemas": [
     {
       "numero": "31.1",
-      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
-      "titulo": "¿Qué es una potencia con base decimal?",
-      "explicacion": "Una potencia es una forma corta de escribir una multiplicación repetida. En 0.6², el número 0.6 es la base (el factor que se repite) y el 2 es el exponente (cuántas veces se multiplica la base por sí misma). Cuando la base es un decimal, el procedimiento es el mismo que con números enteros: solo cambia que ahora multiplicamos decimales. Así, 0.6² significa 0.6 × 0.6, y 0.9³ significa 0.9 × 0.9 × 0.9.",
-      "formula": "baseᵉˣᵖᵒⁿᵉⁿᵗᵉ = base × base × ... (exponente veces)",
+      "nivelEtiqueta": "Nivel 1 de 4 · Introductorio",
+      "titulo": "¿Qué es una potencia con base decimal? y Cuadrados de decimales de una cifra",
+      "explicacion": "Una potencia es una forma corta de escribir una multiplicación repetida. En 0.6², el número 0.6 es la base (el factor que se repite) y el 2 es el exponente (cuántas veces se multiplica la base por sí misma). Cuando la base es un decimal, el procedimiento es el mismo que con números enteros: solo cambia que ahora multiplicamos decimales. Así, 0.6² significa 0.6 × 0.6, y 0.9³ significa 0.9 × 0.9 × 0.9.\n\nPara calcular el cuadrado de un decimal con una sola cifra decimal, se multiplica el número por sí mismo igual que con decimales normales: se multiplican como si fueran enteros y luego se coloca el punto decimal contando las cifras decimales de ambos factores. Como cada factor tiene 1 cifra decimal, el resultado tendrá 1 + 1 = 2 cifras decimales. Practicar estos cuadrados con una sola cifra decimal es el primer paso antes de trabajar con decimales más largos.",
+      "formula": "baseᵉˣᵖᵒⁿᵉⁿᵗᵉ = base × base × ... (exponente veces); (cifras decimales de la base) + (cifras decimales de la base) = cifras decimales del resultado",
       "ejemplos": [
         "0.5² se lee como 0.5 al cuadrado y significa 0.5 × 0.5 = 0.25",
-        "0.4³ se lee como 0.4 al cubo y significa 0.4 × 0.4 × 0.4 = 0.064"
+        "0.4³ se lee como 0.4 al cubo y significa 0.4 × 0.4 × 0.4 = 0.064",
+        "0.3² = 0.3 × 0.3 = 0.09 (1 cifra + 1 cifra = 2 cifras decimales)",
+        "0.8² = 0.8 × 0.8 = 0.64"
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
@@ -82,6 +84,48 @@
             1
           ],
           "retroalimentacion": "0.5² es 0.5 × 0.5; 0.9³ es 0.9 × 0.9 × 0.9; 0.4² es 0.4 × 0.4."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "0.3² = ?",
+          "opciones": [
+            "0.9",
+            "0.09",
+            "0.6",
+            "0.06"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "0.3 × 0.3 = 0.09."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "0.7² = ___",
+          "respuestaCorrecta": "0.49",
+          "retroalimentacion": "0.7 × 0.7 = 0.49."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "0.8² es igual a 0.64.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto, 0.8 × 0.8 = 0.64."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "0.9² = ?",
+          "opciones": [
+            "0.81",
+            "0.18",
+            "1.8",
+            "0.9"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "0.9 × 0.9 = 0.81."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "0.6² = ___",
+          "respuestaCorrecta": "0.36",
+          "retroalimentacion": "0.6 × 0.6 = 0.36."
         }
       ]
     }

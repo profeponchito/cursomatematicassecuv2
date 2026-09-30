@@ -1,86 +1,147 @@
 {
   "id": "OB-39-03",
   "grado": "Operaciones Básicas",
-  "numero": 307,
+  "numero": 155,
   "categoria": "potencias_raices",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Potencias y raíces en la vida cotidiana — Momento 3/8",
+  "titulo": "Potencias y raíces en la vida cotidiana — Módulo 3/4",
   "contenido": "Potencias y raíces aplicadas a situaciones cotidianas: área de cuadrados, volumen de cubos, crecimiento repetido.",
   "pda": "Resuelve problemas cotidianos de área y volumen que requieren calcular una potencia o una raíz.",
   "problematizacion": {
-    "contexto": "La fábrica de dulces 'El Dulce Aroma' diseña cajas cúbicas de cartón para empacar chocolates de temporada, y el encargado de producción necesita calcular cuánto chocolate cabe exactamente en cada caja según su arista.",
-    "pregunta": "Si una caja cúbica mide 4 cm de arista, ¿cuántos cm³ de chocolate caben exactamente en ella?"
+    "contexto": "La empresa 'Mudanzas Rápido' transporta objetos frágiles en cajas cúbicas de cartón reforzado, y para elegir el camión adecuado necesita saber cuánto mide la arista de cada caja según el volumen que indica su etiqueta.\n\nDon Tomás es albañil y está construyendo una fuente con base cuadrada y un tinaco cúbico para una unidad habitacional en Puebla, así que necesita hacer cálculos de área y de volumen en el mismo día de trabajo.",
+    "pregunta": "Si una caja cúbica tiene un volumen de 64 dm³ marcado en la etiqueta, ¿cuánto mide la arista de esa caja? Además: si la base cuadrada de la fuente mide 6 m de lado y el tinaco cúbico tiene un volumen de 125 m³, ¿qué operación usarías para cada dato: potencia o raíz?"
   },
   "subtemas": [
     {
       "numero": "39.3",
-      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
-      "titulo": "El cubo de un número es un volumen",
-      "explicacion": "Así como el cuadrado de un número representa el área de una superficie cuadrada, el cubo de un número (exponente 3) representa el volumen de un cuerpo cúbico: una caja en la que todas las aristas miden lo mismo. Si la arista mide A, el volumen es A³ = A×A×A, y se expresa en unidades cúbicas (cm³, dm³, m³). En este momento vas a calcular volúmenes de cajas cúbicas.",
-      "formula": "Volumen del cubo = arista³",
+      "nivelEtiqueta": "Nivel 3 de 4 · Avanzado",
+      "titulo": "La raíz cúbica: del volumen a la arista y ¿Potencia o raíz? Área y volumen combinados",
+      "explicacion": "Del mismo modo que la raíz cuadrada deshace el cuadrado de un número, la raíz cúbica deshace el cubo: si el volumen de un cuerpo cúbico es igual a arista³, entonces la arista se obtiene calculando arista = ∛Volumen. Para hallar una raíz cúbica hay que preguntarse: '¿qué número multiplicado por sí mismo tres veces me da esta cantidad?'. En este momento vas a usar la raíz cúbica para encontrar la arista de una caja cúbica cuando ya conoces su volumen, siempre con números exactos.\n\nEn los problemas reales primero hay que decidir qué dato conoces y qué dato buscas. Si conoces el lado o la arista y buscas el área o el volumen, calculas una potencia (elevas al cuadrado o al cubo). Si conoces el área o el volumen y buscas el lado o la arista, calculas una raíz (cuadrada o cúbica). En este momento vas a practicar ambos casos mezclados, para cuadrados y para cubos.",
+      "formula": "arista = ∛Volumen",
       "ejemplos": [
-        "Una caja cúbica de arista 3 cm tiene un volumen de 3³ = 27 cm³",
-        "Una caja cúbica de arista 5 cm tiene un volumen de 5³ = 125 cm³"
+        "Si el volumen es 27 cm³, la arista es ∛27 = 3 cm, porque 3³ = 27",
+        "Si el volumen es 125 cm³, la arista es ∛125 = 5 cm, porque 5³ = 125",
+        "Si conoces el lado de una base cuadrada (6 m), calculas el área con una potencia: 6² = 36 m²",
+        "Si conoces el volumen de un cubo (125 m³), calculas la arista con una raíz: ∛125 = 5 m"
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "Una caja cúbica tiene una arista de 4 cm. ¿Cuál es su volumen?",
+          "pregunta": "Una caja cúbica tiene un volumen de 216 cm³. ¿Cuánto mide su arista?",
           "opciones": [
-            "12 cm³",
-            "16 cm³",
-            "64 cm³",
-            "48 cm³"
+            "5 cm",
+            "6 cm",
+            "36 cm",
+            "72 cm"
           ],
-          "respuestaCorrecta": 2,
-          "retroalimentacion": "Volumen = arista³ = 4³ = 64 cm³."
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "∛216 = 6, porque 6³ = 216."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "Una caja cúbica de arista 6 cm tiene un volumen de ___ cm³.",
-          "respuestaCorrecta": "216",
-          "retroalimentacion": "6³ = 6×6×6 = 216 cm³."
+          "frase": "Una caja cúbica con un volumen de 8 dm³ tiene una arista de ___ dm.",
+          "respuestaCorrecta": "2",
+          "retroalimentacion": "∛8 = 2, porque 2³ = 8."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "El volumen de una caja cúbica de arista 2 cm es 8 cm³.",
+          "enunciado": "Si el volumen de una caja cúbica es 1000 cm³, entonces su arista mide 10 cm.",
           "respuestaCorrecta": true,
-          "retroalimentacion": "2³ = 8, así que el volumen sí es 8 cm³."
+          "retroalimentacion": "∛1000 = 10, porque 10³ = 1000."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Qué caja cúbica tiene mayor volumen: una de arista 3 cm o una de arista 5 cm?",
+          "pregunta": "¿Cuál es la raíz cúbica de 125?",
           "opciones": [
-            "La de arista 3 cm",
-            "La de arista 5 cm",
-            "Las dos tienen el mismo volumen",
-            "Falta información"
+            "4",
+            "5",
+            "15",
+            "25"
           ],
           "respuestaCorrecta": 1,
-          "retroalimentacion": "3³ = 27 cm³ y 5³ = 125 cm³. La de arista 5 cm tiene mayor volumen."
+          "retroalimentacion": "∛125 = 5, porque 5³ = 125."
         },
         {
           "tipo": "relacionar_columnas",
-          "instruccion": "Relaciona la arista de cada caja cúbica con su volumen correspondiente.",
+          "instruccion": "Relaciona cada volumen con la arista de la caja cúbica correspondiente.",
           "columnaA": [
-            "Arista 7 cm",
-            "Arista 8 cm",
-            "Arista 9 cm"
+            "Volumen 27 cm³",
+            "Volumen 64 cm³",
+            "Volumen 343 cm³"
           ],
           "columnaB": [
-            "512 cm³",
-            "729 cm³",
-            "343 cm³"
+            "7 cm",
+            "4 cm",
+            "3 cm"
           ],
           "parejasCorrectas": [
             2,
-            0,
-            1
+            1,
+            0
           ],
-          "retroalimentacion": "7³=343, 8³=512 y 9³=729."
+          "retroalimentacion": "∛27=3, ∛64=4 y ∛343=7."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "La base cuadrada de la fuente mide 6 m de lado. ¿Cuál es su área?",
+          "opciones": [
+            "12 m²",
+            "18 m²",
+            "36 m²",
+            "62 m²"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Se conoce el lado, así que se calcula una potencia: 6² = 36 m²."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El tinaco cúbico tiene un volumen de 125 m³. ¿Cuánto mide su arista?",
+          "opciones": [
+            "5 m",
+            "15 m",
+            "25 m",
+            "41.6 m"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Se conoce el volumen, así que se calcula una raíz cúbica: ∛125 = 5 m."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si el área de la base cuadrada de la fuente es 49 m², entonces el lado mide 7 m.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Se conoce el área, así que se calcula una raíz cuadrada: √49 = 7 m."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Si la arista del tinaco cúbico mide 4 m, su volumen es ___ m³.",
+          "respuestaCorrecta": "64",
+          "retroalimentacion": "Se conoce la arista, así que se calcula una potencia: 4³ = 64 m³."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada dato conocido con la operación que usarías para resolverlo.",
+          "columnaA": [
+            "Conoces el lado del cuadrado y buscas el área",
+            "Conoces el área del cuadrado y buscas el lado",
+            "Conoces la arista del cubo y buscas el volumen",
+            "Conoces el volumen del cubo y buscas la arista"
+          ],
+          "columnaB": [
+            "Elevar al cuadrado",
+            "Raíz cuadrada",
+            "Elevar al cubo",
+            "Raíz cúbica"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "retroalimentacion": "Si conoces la medida más pequeña (lado o arista) elevas al cuadrado o al cubo; si conoces el área o el volumen, calculas la raíz correspondiente."
         }
       ]
     }

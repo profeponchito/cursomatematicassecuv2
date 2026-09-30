@@ -1,87 +1,116 @@
 {
   "id": "OB-31-03",
   "grado": "Operaciones Básicas",
-  "numero": 243,
+  "numero": 123,
   "categoria": "potencias_raices",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Potencias de base decimal — Momento 3/8",
+  "titulo": "Potencias de base decimal — Módulo 3/4",
   "contenido": "Cálculo de potencias cuya base es un número decimal.",
   "pda": "Calcula potencias de base decimal, relacionando el procedimiento con la multiplicación de decimales.",
   "problematizacion": {
-    "contexto": "En una panadería de Guanajuato, el panadero Don Efrén hace moldes cúbicos de pan de elote. Uno de sus moldes tiene una arista de 0.5 metros y necesita calcular cuánta masa cabe adentro, para lo cual primero debe obtener el volumen del cubo.",
-    "pregunta": "¿Qué potencia debe calcular Don Efrén para saber el volumen del molde cúbico de 0.5 m de arista?"
+    "contexto": "Un carpintero de Mérida está fabricando cajas de madera para regalos artesanales. Cada caja tiene forma de cubo con una arista de 0.4 decímetros, y necesita saber cuánto espacio interior tendrá cada caja para calcular cuántas piezas pequeñas caben dentro.\n\nEn un negocio familiar de Toluca llevan un registro de pérdidas y ganancias en decenas de miles de pesos, y a veces usan potencias de números negativos decimales para modelar escenarios financieros repetidos, como una pérdida que se repite mes con mes.",
+    "pregunta": "¿Qué potencia debe calcular el carpintero para conocer el volumen de cada caja cúbica? Además: si una variación mensual se representa como -0.5 y se repite durante 3 meses, ¿qué potencia representaría ese efecto acumulado?"
   },
   "subtemas": [
     {
       "numero": "31.3",
-      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
-      "titulo": "Cubos de decimales de una cifra",
-      "explicacion": "Ahora subimos un peldaño: en lugar de elevar al cuadrado, elevaremos decimales de una cifra al cubo (exponente 3). El procedimiento se hace en dos pasos guiados: primero se multiplica la base por sí misma para obtener el cuadrado, y después ese resultado se vuelve a multiplicar por la base una vez más. Por ejemplo, para 0.4³ primero calculamos 0.4 × 0.4 = 0.16, y luego 0.16 × 0.4 = 0.064. Cada multiplicación de decimales suma sus cifras decimales al resultado.",
-      "formula": "base³ = (base × base) × base",
+      "nivelEtiqueta": "Nivel 3 de 4 · Avanzado",
+      "titulo": "Potencias decimales en áreas y volúmenes y Potencias con base decimal negativa",
+      "explicacion": "Las potencias de base decimal aparecen todo el tiempo al calcular áreas de cuadrados (lado²) y volúmenes de cubos (arista³) cuando las medidas no son números enteros. En este momento aplicaremos lo aprendido a situaciones cotidianas: medir un mantel cuadrado, una caja cúbica o un terreno. La operación es la misma de siempre, solo que ahora la usamos para resolver un problema con unidades de medida.\n\nCuando la base decimal es negativa, el signo del resultado depende del exponente. Si el exponente es par, el resultado siempre es positivo, porque los signos negativos se van cancelando en pares al multiplicarse. Si el exponente es impar, el resultado conserva el signo negativo, porque queda un signo negativo sin pareja. El valor numérico se calcula igual que con la base positiva; solo hay que decidir el signo al final.",
+      "formula": "Área del cuadrado = lado²  |  Volumen del cubo = arista³; (-base)^par = positivo  |  (-base)^impar = negativo",
       "ejemplos": [
-        "0.2³: primero 0.2 × 0.2 = 0.04, luego 0.04 × 0.2 = 0.008",
-        "0.5³: primero 0.5 × 0.5 = 0.25, luego 0.25 × 0.5 = 0.125"
+        "Un cuadrado de lado 0.6 m tiene área = 0.6² = 0.36 m²",
+        "Un cubo de arista 0.5 m tiene volumen = 0.5³ = 0.125 m³",
+        "(-0.5)² = 0.25 (exponente par, resultado positivo)",
+        "(-0.5)³ = -0.125 (exponente impar, resultado negativo)"
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "0.2³ = ?",
+          "pregunta": "Un azulejo cuadrado tiene lado de 0.6 m. ¿Cuál es su área?",
           "opciones": [
-            "0.008",
-            "0.08",
-            "0.8",
-            "0.006"
+            "0.36 m²",
+            "3.6 m²",
+            "0.6 m²",
+            "1.2 m²"
           ],
           "respuestaCorrecta": 0,
-          "retroalimentacion": "0.2 × 0.2 = 0.04, y 0.04 × 0.2 = 0.008."
+          "retroalimentacion": "Área = lado² = 0.6² = 0.36 m²."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "0.5³ = ___",
-          "respuestaCorrecta": "0.125",
-          "retroalimentacion": "0.5 × 0.5 = 0.25, y 0.25 × 0.5 = 0.125."
+          "frase": "Un terreno cuadrado mide 1.2 m por lado. Su área es ___ m².",
+          "respuestaCorrecta": "1.44",
+          "retroalimentacion": "Área = 1.2² = 1.44 m²."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "0.4³ es igual a 0.064.",
+          "enunciado": "Un cubo con arista de 0.5 m tiene un volumen de 0.125 m³.",
           "respuestaCorrecta": true,
-          "retroalimentacion": "Correcto: 0.4 × 0.4 = 0.16, y 0.16 × 0.4 = 0.064."
+          "retroalimentacion": "Correcto: Volumen = 0.5³ = 0.125 m³."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "0.3³ = ?",
+          "pregunta": "Una caja cúbica tiene arista de 0.4 dm. ¿Cuál es su volumen?",
           "opciones": [
-            "0.027",
-            "0.27",
-            "0.9",
-            "0.009"
+            "0.064 dm³",
+            "0.16 dm³",
+            "0.8 dm³",
+            "1.2 dm³"
           ],
           "respuestaCorrecta": 0,
-          "retroalimentacion": "0.3 × 0.3 = 0.09, y 0.09 × 0.3 = 0.027."
+          "retroalimentacion": "Volumen = 0.4³ = 0.064 dm³."
         },
         {
-          "tipo": "relacionar_columnas",
-          "instruccion": "Relaciona cada potencia con su resultado.",
-          "columnaA": [
-            "0.1³",
-            "0.2³",
-            "0.5³"
+          "tipo": "llenar_frase",
+          "frase": "Un mantel cuadrado tiene lado de 0.9 m. Su área es ___ m².",
+          "respuestaCorrecta": "0.81",
+          "retroalimentacion": "Área = 0.9² = 0.81 m²."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "(-0.5)² = ?",
+          "opciones": [
+            "0.25",
+            "-0.25",
+            "2.5",
+            "-2.5"
           ],
-          "columnaB": [
-            "0.001",
-            "0.125",
-            "0.008",
-            "0.01"
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "El exponente 2 es par, así que el resultado es positivo: (-0.5) × (-0.5) = 0.25."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "(-0.5)³ es igual a -0.125.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: el exponente 3 es impar, así que el resultado conserva el signo negativo."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "(-0.3)² = ___",
+          "respuestaCorrecta": "0.09",
+          "retroalimentacion": "Exponente par: (-0.3) × (-0.3) = 0.09, positivo."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el signo del resultado de una potencia con base decimal negativa y exponente impar?",
+          "opciones": [
+            "Siempre positivo",
+            "Siempre negativo",
+            "Depende del valor",
+            "Siempre cero"
           ],
-          "parejasCorrectas": [
-            0,
-            2,
-            1
-          ],
-          "retroalimentacion": "0.1³ = 0.001; 0.2³ = 0.008; 0.5³ = 0.125."
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Con exponente impar, el signo negativo de la base no se cancela, así que el resultado siempre es negativo."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "(-0.2)³ = ___",
+          "respuestaCorrecta": "-0.008",
+          "retroalimentacion": "Exponente impar: el resultado es negativo, -0.2 × -0.2 × -0.2 = -0.008."
         }
       ]
     }

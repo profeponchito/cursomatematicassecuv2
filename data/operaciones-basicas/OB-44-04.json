@@ -1,83 +1,153 @@
 {
   "id": "OB-44-04",
   "grado": "Operaciones Básicas",
-  "numero": 348,
+  "numero": 176,
   "categoria": "integracion",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Repaso integrador de operaciones básicas — Momento 4/8",
+  "titulo": "Repaso integrador de operaciones básicas — Módulo 4/4",
   "contenido": "Repaso final que mezcla suma, resta, multiplicación, división, potencias y raíces en distintos tipos de número (naturales, decimales, fracciones, con signo), como cierre del apartado.",
   "pda": "Resuelve problemas variados que integran suma, resta, multiplicación, división, potencias y raíces como repaso final del apartado.",
   "problematizacion": {
-    "contexto": "En la estación meteorológica de Chihuahua se registran las temperaturas de una semana de invierno. Durante la madrugada suelen bajar de cero grados y por la tarde vuelven a subir, así que el encargado anota cada cambio con su signo correspondiente.",
-    "pregunta": "Si a las 6 de la mañana el termómetro marcaba -8 °C y para el mediodía la temperatura subió 11 grados, ¿qué temperatura hay al mediodía?"
+    "contexto": "En un taller mecánico de Puebla, el mecánico Rodrigo calcula el costo de una reparación combinando el precio de una refacción con un cargo extra de mano de obra que depende de una potencia, según qué tan compleja fue la falla del coche.\n\nCamila tiene un puesto de tacos los fines de semana y lleva un registro de sus ganancias y gastos. También aprovecha charolas cuadradas para acomodar sus salsas y necesita calcular medidas y costos combinando varias operaciones a la vez.",
+    "pregunta": "Si el taller cobra $50 de refacción más 2 veces el cuadrado de 3 horas de mano de obra, ¿cuál sería aproximadamente el costo total antes de impuestos? Además: si Camila gana $850 el sábado y $620 el domingo, pero gasta $310 en ingredientes para ambos días, ¿cuánto le queda de ganancia neta del fin de semana?"
   },
   "subtemas": [
     {
       "numero": "44.4",
-      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
-      "titulo": "Suma, resta, multiplicación y división con signos",
-      "explicacion": "Aquí repasamos las cuatro operaciones con números con signo, positivos y negativos. Recuerda las reglas: al sumar números de signo distinto se restan sus valores absolutos y se conserva el signo del que tiene mayor valor absoluto; al multiplicar o dividir, signos iguales dan un resultado positivo y signos distintos dan un resultado negativo. Estas reglas también aplican para decimales y fracciones con signo.",
-      "formula": "(+)×(+)=+ · (-)×(-)=+ · (+)×(-)=- · (-)×(+)=-",
+      "nivelEtiqueta": "Nivel 4 de 4 · Integración",
+      "titulo": "Jerarquía de operaciones: expresiones combinadas y Problemas integradores: todo lo del repaso en un solo reto",
+      "explicacion": "En este momento combinamos varias operaciones en una sola expresión, así que necesitamos respetar la jerarquía de operaciones: primero lo que está entre paréntesis, después potencias y raíces, luego multiplicaciones y divisiones, y al final sumas y restas, de izquierda a derecha. Este orden evita ambigüedades y es el mismo que usan las calculadoras científicas.\n\nEste es el cierre del apartado: aquí integramos suma, resta, multiplicación, división, potencias y raíces dentro de problemas con contexto, combinando además números naturales, decimales, fracciones y con signo. Lee cada situación con calma, identifica qué operaciones necesitas y en qué orden aplicarlas, y resuelve paso a paso como en el momento anterior.",
+      "formula": "Paréntesis → potencias y raíces → multiplicación y división → suma y resta",
       "ejemplos": [
-        "(-8) + 5 = -3",
-        "(-6) × (-4) = 24"
+        "3 + 2 × 5^2 = 3 + 2 × 25 = 3 + 50 = 53",
+        "(8 - 2) × √9 - 4 = 6 × 3 - 4 = 18 - 4 = 14",
+        "Si un terreno cuadrado mide 100 m² de área, su lado mide √100=10 m, y su perímetro es 4×10=40 m.",
+        "Si ganas $60 y gastas 2^2 × 5 pesos, te quedan 60-20=40 pesos."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuánto es -12 + 7?",
+          "pregunta": "¿Cuánto es 4 + 3 × 2^3?",
           "opciones": [
-            "5",
-            "-5",
-            "-19",
-            "19"
+            "28",
+            "56",
+            "22",
+            "20"
           ],
-          "respuestaCorrecta": 1,
-          "retroalimentacion": "Los signos son distintos, así que se restan los valores absolutos (12-7=5) y se conserva el signo del mayor: -5."
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Primero la potencia: 2^3=8; luego la multiplicación: 3×8=24; al final la suma: 4+24=28."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "-9 - (-4) = -5",
-          "respuestaCorrecta": true,
-          "retroalimentacion": "Correcto: restar -4 es lo mismo que sumar 4, entonces -9 + 4 = -5."
+          "enunciado": "10 - 2^2 × 2 = 16",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: primero 2^2=4, luego 4×2=8, y por último 10-8=2, no 16."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "(-8) × (-3) = ___",
-          "respuestaCorrecta": "24",
-          "retroalimentacion": "Signos iguales (ambos negativos) dan resultado positivo: 24."
+          "frase": "√25 + 3 × (-2) = ___",
+          "respuestaCorrecta": "-1",
+          "retroalimentacion": "√25=5; 3×(-2)=-6; 5+(-6)=-1."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "(6 - 1)^2 ÷ 5 = ___",
+          "respuestaCorrecta": "5",
+          "retroalimentacion": "Primero el paréntesis: 6-1=5; luego la potencia: 5^2=25; al final la división: 25÷5=5."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 2 × (3 + √16) - 5?",
+          "opciones": [
+            "9",
+            "13",
+            "5",
+            "19"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "√16=4; dentro del paréntesis 3+4=7; luego 2×7=14; al final 14-5=9."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un terreno cuadrado tiene un área de 169 m². Si se construye una barda alrededor de todo el terreno y se descuenta 15 m de esa longitud total para dejar una entrada sin barda, ¿cuántos metros de barda se necesitan?",
+          "opciones": [
+            "37",
+            "52",
+            "67",
+            "41"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "El lado mide √169=13 m; el perímetro es 4×13=52 m; al descontar la entrada: 52-15=37 m."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un cubo tiene un volumen de 125 cm³. Si su arista se eleva al cuadrado y al resultado se le suma 4, se obtiene 29.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: la arista es ∛125=5; 5^2=25; 25+4=29."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un joven ahorra $2.5 diarios. En una semana ahorra el doble de lo que ahorra en un día, más lo que acumula en otros 6 días normales. En total ahorra ___ pesos.",
+          "respuestaCorrecta": "20",
+          "retroalimentacion": "El doble de un día: 2×2.5=5; seis días normales: 6×2.5=15; en total 5+15=20 pesos."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En un torneo, un equipo pierde 3 puntos de penalización, gana 2^3 puntos por superar un reto y pierde √16 puntos por una falta. ¿Cuántos puntos tiene en total? ___",
+          "respuestaCorrecta": "1",
+          "retroalimentacion": "-3 + 2^3 - √16 = -3 + 8 - 4 = 1 punto."
         },
         {
           "tipo": "relacionar_columnas",
-          "instruccion": "Relaciona cada operación con signo con su resultado.",
+          "instruccion": "Relaciona cada expresión combinada con su resultado.",
           "columnaA": [
-            "-15 + 20",
-            "-6 × 5",
-            "18 ÷ (-3)"
+            "√81 + 2^2",
+            "(-5) + 3 × 4",
+            "10 ÷ 2 + 3^2"
           ],
           "columnaB": [
-            "-30",
-            "-6",
-            "5",
-            "10"
+            "7",
+            "14",
+            "13",
+            "20"
           ],
           "parejasCorrectas": [
             2,
             0,
             1
           ],
-          "retroalimentacion": "-15+20=5; -6×5=-30; 18÷(-3)=-6."
-        },
-        {
-          "tipo": "verdadero_falso",
-          "enunciado": "(-7) × (-7) = -49",
-          "respuestaCorrecta": false,
-          "retroalimentacion": "Falso: signos iguales dan resultado positivo, así que (-7)×(-7)=49, no -49."
+          "retroalimentacion": "√81+2^2=9+4=13; -5+3×4=-5+12=7; 10÷2+3^2=5+9=14."
         }
       ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuánto es (2 + 3)^2 - √49 × 2?",
+      "opciones": [
+        "11",
+        "36",
+        "3",
+        "39"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "(2+3)^2=25; √49×2=7×2=14; 25-14=11."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Una alberca rectangular mide 2.5 m de ancho y su largo es el triple del ancho. Si al área total se le resta el área de un cuadrado cuyo lado es √4, ¿cuántos m² de agua caben en la alberca? ___",
+      "respuestaCorrecta": "14.75",
+      "retroalimentacion": "Largo: 3×2.5=7.5 m; área de la alberca: 2.5×7.5=18.75 m²; lado del cuadrado: √4=2, su área es 2^2=4; 18.75-4=14.75 m²."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Si a = -2 y b = 3, entonces a^3 + b^2 - √25 = -6.",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Falso: a^3=-8, b^2=9, √25=5; entonces -8+9-5=-4, no -6."
     }
   ]
 }

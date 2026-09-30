@@ -1,87 +1,146 @@
 {
   "id": "OB-35-03",
   "grado": "Operaciones Básicas",
-  "numero": 275,
+  "numero": 139,
   "categoria": "potencias_raices",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Raíz cuadrada de cuadrados perfectos — Momento 3/8",
+  "titulo": "Raíz cuadrada de cuadrados perfectos — Módulo 3/4",
   "contenido": "Cálculo de la raíz cuadrada exacta de números que son cuadrados perfectos, como operación inversa de elevar al cuadrado.",
   "pda": "Calcula la raíz cuadrada exacta de cuadrados perfectos, reconociéndola como la operación inversa de elevar al cuadrado.",
   "problematizacion": {
-    "contexto": "En un taller de carpintería en Guadalajara, el maestro carpintero corta 36 azulejos cuadrados idénticos para forrar una mesa cuadrada, y quiere confirmar cuántos azulejos van por lado antes de empezar a pegarlos.",
-    "pregunta": "¿Cómo puede el carpintero comprobar que 6 azulejos por lado son los correctos para cubrir los 36 azulejos?"
+    "contexto": "Un equipo de futbol rápido de una secundaria de Monterrey quiere marcar una cancha cuadrada de práctica dentro del patio escolar. El profesor de Educación Física midió que el área disponible y cuadrada es de 484 m².\n\nEn una fábrica textil de León, Guanajuato, el encargado de empaque debe acomodar 1156 playeras dobladas en una tarima, formando una base cuadrada perfecta antes de envolverla con plástico.",
+    "pregunta": "¿Cuántos metros medirá cada lado de la cancha cuadrada? Además: ¿Cuántas playeras debe poner el encargado en cada lado de la base cuadrada?"
   },
   "subtemas": [
     {
       "numero": "35.3",
-      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
-      "titulo": "Estrategia: verificar la raíz multiplicando",
-      "explicacion": "Una forma segura de encontrar o comprobar una raíz cuadrada es pensar en la tabla de multiplicar: te preguntas qué número, multiplicado por sí mismo, da el resultado buscado, y después confirmas multiplicándolo. Esta estrategia de verificación evita errores, sobre todo cuando el número que se te ocurre primero no es el correcto. Practicarás encontrar la raíz y también comprobarla con la multiplicación inversa.",
-      "formula": "√n = a se comprueba haciendo a × a y viendo si el resultado es n",
+      "nivelEtiqueta": "Nivel 3 de 4 · Avanzado",
+      "titulo": "La raíz cuadrada en problemas de área y Raíces apoyándote en números redondos",
+      "explicacion": "La raíz cuadrada tiene una aplicación muy común: si conoces el área de un terreno o superficie cuadrada, puedes encontrar la medida de su lado sacando la raíz cuadrada de esa área. Esto funciona porque el área de un cuadrado es lado × lado, es decir, el lado elevado al cuadrado. En este momento resolverás situaciones donde debes 'traducir' un problema de área a una raíz cuadrada.\n\nPara números más grandes, una estrategia útil es apoyarte en cuadrados 'redondos' que ya conoces, como 30 × 30 = 900, y comparar qué tan lejos está tu número de ese punto de referencia. Si el número es un poco menor a 900, su raíz será un poco menor a 30; si es mayor, la raíz será mayor a 30. Esta estrategia de anclaje te ayuda a no adivinar al azar cuando los números crecen.",
+      "formula": "Si Área = lado², entonces lado = √Área; Compara n con un cuadrado conocido cercano (como 30² = 900) para estimar y luego confirmar √n",
       "ejemplos": [
-        "Para verificar que √81 = 9, multiplicamos 9 × 9 = 81. Como coincide, la raíz es correcta.",
-        "Para verificar que √100 = 10, multiplicamos 10 × 10 = 100. Coincide, así que es correcta."
+        "Un terreno cuadrado de 400 m² de área tiene lados de √400 = 20 m.",
+        "Una sala cuadrada de 361 m² de área tiene lados de √361 = 19 m.",
+        "Como 30 × 30 = 900, si buscamos √1024, probamos con números un poco mayores a 30: 32 × 32 = 1024. Entonces √1024 = 32.",
+        "Como 900 es 30², y 676 es menor, probamos con un número menor a 30: 26 × 26 = 676. Entonces √676 = 26."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "Para saber la raíz cuadrada de 64, piensas: ¿qué número multiplicado por sí mismo da 64?",
+          "pregunta": "Un terreno cuadrado tiene un área de 400 m². ¿Cuánto mide cada lado?",
           "opciones": [
-            "6",
-            "7",
-            "8",
-            "9"
+            "18 m",
+            "19 m",
+            "20 m",
+            "21 m"
           ],
           "respuestaCorrecta": 2,
-          "retroalimentacion": "8 × 8 = 64, así que √64 = 8."
+          "retroalimentacion": "√400 = 20, así que cada lado mide 20 m."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "Para verificar que la raíz cuadrada de 81 es 9, comprobamos que 9 × ___ = 81.",
-          "respuestaCorrecta": "9",
-          "retroalimentacion": "9 × 9 = 81, así que la raíz cuadrada de 81 sí es 9."
+          "frase": "Una cancha cuadrada tiene un área de 324 m². Cada lado mide ___ m.",
+          "respuestaCorrecta": "18",
+          "retroalimentacion": "√324 = 18, porque 18 × 18 = 324."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "Para calcular la raíz cuadrada de 100, basta con encontrar el número que multiplicado por sí mismo dé 100; ese número es 20.",
+          "enunciado": "Si una sala cuadrada tiene un área de 441 m², entonces cada lado mide 22 m.",
           "respuestaCorrecta": false,
-          "retroalimentacion": "Falso: 20 × 20 = 400, no 100. El número correcto es 10, porque 10 × 10 = 100."
+          "retroalimentacion": "Falso: 22 × 22 = 484, no 441. La raíz cuadrada de 441 es 21, porque 21 × 21 = 441."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuál es la raíz cuadrada de 36, sabiendo que buscas un número que multiplicado por sí mismo dé 36?",
+          "pregunta": "Un mural cuadrado cubre 484 m² de una pared. ¿Cuánto mide cada lado?",
           "opciones": [
-            "5",
-            "6",
-            "7",
-            "8"
+            "21 m",
+            "22 m",
+            "23 m",
+            "24 m"
           ],
           "respuestaCorrecta": 1,
-          "retroalimentacion": "6 × 6 = 36, así que √36 = 6."
+          "retroalimentacion": "√484 = 22, porque 22 × 22 = 484."
         },
         {
           "tipo": "relacionar_columnas",
-          "instruccion": "Relaciona cada cuadrado perfecto con la multiplicación que lo comprueba.",
+          "instruccion": "Relaciona cada área cuadrada (en m²) con la medida de su lado.",
           "columnaA": [
-            "25",
-            "49",
-            "16"
+            "625",
+            "361",
+            "529"
           ],
           "columnaB": [
-            "4×4",
-            "5×5",
-            "6×6",
-            "7×7"
+            "19",
+            "23",
+            "24",
+            "25"
           ],
           "parejasCorrectas": [
-            1,
             3,
-            0
+            0,
+            1
           ],
-          "retroalimentacion": "25 se comprueba con 5×5, 49 con 7×7 y 16 con 4×4."
+          "retroalimentacion": "√625 = 25, √361 = 19 y √529 = 23."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la raíz cuadrada de 900?",
+          "opciones": [
+            "28",
+            "29",
+            "30",
+            "31"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "√900 = 30, porque 30 × 30 = 900."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La raíz cuadrada de 676 es ___.",
+          "respuestaCorrecta": "26",
+          "retroalimentacion": "√676 = 26, porque 26 × 26 = 676."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La raíz cuadrada de 1024 es 32, porque 32 × 32 = 1024.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 32 × 32 = 1024, así que √1024 = 32."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la raíz cuadrada de 1225?",
+          "opciones": [
+            "33",
+            "34",
+            "35",
+            "36"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "√1225 = 35, porque 35 × 35 = 1225."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada número con su raíz cuadrada.",
+          "columnaA": [
+            "784",
+            "1156",
+            "1089"
+          ],
+          "columnaB": [
+            "28",
+            "30",
+            "33",
+            "34"
+          ],
+          "parejasCorrectas": [
+            0,
+            3,
+            2
+          ],
+          "retroalimentacion": "√784 = 28, √1156 = 34 y √1089 = 33."
         }
       ]
     }

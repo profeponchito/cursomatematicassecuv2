@@ -1,27 +1,29 @@
 {
   "id": "OB-39-01",
   "grado": "Operaciones Básicas",
-  "numero": 305,
+  "numero": 153,
   "categoria": "potencias_raices",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Potencias y raíces en la vida cotidiana — Momento 1/8",
+  "titulo": "Potencias y raíces en la vida cotidiana — Módulo 1/4",
   "contenido": "Potencias y raíces aplicadas a situaciones cotidianas: área de cuadrados, volumen de cubos, crecimiento repetido.",
   "pda": "Resuelve problemas cotidianos de área y volumen que requieren calcular una potencia o una raíz.",
   "problematizacion": {
-    "contexto": "Don Raúl es electricista y organiza los cables de una instalación en cajas etiquetadas con potencias de 2, para saber cuántos metros de cable hay en cada caja sin tener que medirlos uno por uno.",
-    "pregunta": "Si Don Raúl escribe la etiqueta 2⁴ en una caja, ¿qué número indica cuántas veces se repite el 2?"
+    "contexto": "Don Raúl es electricista y organiza los cables de una instalación en cajas etiquetadas con potencias de 2, para saber cuántos metros de cable hay en cada caja sin tener que medirlos uno por uno.\n\nDoña Lupita vende manteles y tapetes cuadrados en su puesto del mercado de Toluca, y necesita calcular cuánta tela usa en cada pieza según el tamaño del lado que le pide el cliente.",
+    "pregunta": "Si Don Raúl escribe la etiqueta 2⁴ en una caja, ¿qué número indica cuántas veces se repite el 2? Además: si un mantel cuadrado mide 7 dm de lado, ¿cuántos dm² de tela se necesitan para hacerlo?"
   },
   "subtemas": [
     {
       "numero": "39.1",
-      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
-      "titulo": "¿Qué es una potencia? Base y exponente",
-      "explicacion": "Una potencia es una forma corta de escribir una multiplicación en la que el mismo número se repite varias veces como factor. Se escribe aⁿ, donde a es la base (el número que se repite) y n es el exponente (cuántas veces se repite). Por ejemplo, 2³ significa 2×2×2, y su valor es 8. En este momento vas a practicar cómo leer una potencia, identificar cuál número es la base y cuál el exponente, y calcular su valor.",
-      "formula": "aⁿ = a × a × ... × a (n veces)",
+      "nivelEtiqueta": "Nivel 1 de 4 · Introductorio",
+      "titulo": "¿Qué es una potencia? Base y exponente y El cuadrado de un número es un área",
+      "explicacion": "Una potencia es una forma corta de escribir una multiplicación en la que el mismo número se repite varias veces como factor. Se escribe aⁿ, donde a es la base (el número que se repite) y n es el exponente (cuántas veces se repite). Por ejemplo, 2³ significa 2×2×2, y su valor es 8. En este momento vas a practicar cómo leer una potencia, identificar cuál número es la base y cuál el exponente, y calcular su valor.\n\nElevar un número al cuadrado (exponente 2) tiene un significado muy concreto: es el área de un cuadrado cuyo lado mide ese número. Si el lado de un cuadrado mide L, su área es L² = L×L, y se expresa en unidades cuadradas (cm², dm², m²). En este momento vas a calcular áreas de superficies cuadradas usando la potencia de exponente 2.",
+      "formula": "aⁿ = a × a × ... × a (n veces); Área del cuadrado = lado²",
       "ejemplos": [
         "2³ = 2×2×2 = 8, aquí 2 es la base y 3 el exponente",
-        "5² = 5×5 = 25, aquí 5 es la base y 2 el exponente"
+        "5² = 5×5 = 25, aquí 5 es la base y 2 el exponente",
+        "Un mantel cuadrado de lado 6 dm tiene un área de 6² = 36 dm²",
+        "Un azulejo cuadrado de lado 9 cm tiene un área de 9² = 81 cm²"
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
@@ -84,6 +86,62 @@
             3
           ],
           "retroalimentacion": "2³=8, 4²=16, 10²=100 y 3³=27."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un mantel cuadrado mide 8 dm de lado. ¿Cuál es su área?",
+          "opciones": [
+            "16 dm²",
+            "24 dm²",
+            "64 dm²",
+            "80 dm²"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Área = lado² = 8² = 64 dm²."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un tapete cuadrado de lado 11 cm tiene un área de ___ cm².",
+          "respuestaCorrecta": "121",
+          "retroalimentacion": "11² = 11×11 = 121 cm²."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El área de un mantel cuadrado de lado 5 dm es 25 dm².",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "5² = 25, así que el área sí es 25 dm²."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál mantel necesita más tela: uno cuadrado de lado 6 dm o uno cuadrado de lado 9 dm?",
+          "opciones": [
+            "El de lado 6 dm",
+            "El de lado 9 dm",
+            "Los dos necesitan lo mismo",
+            "No se puede saber"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "6² = 36 dm² y 9² = 81 dm². El de lado 9 dm necesita más tela."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona el lado de cada mantel cuadrado con su área correspondiente.",
+          "columnaA": [
+            "Lado 4 dm",
+            "Lado 7 dm",
+            "Lado 10 dm"
+          ],
+          "columnaB": [
+            "49 dm²",
+            "16 dm²",
+            "100 dm²"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            2
+          ],
+          "retroalimentacion": "4²=16, 7²=49 y 10²=100."
         }
       ]
     }

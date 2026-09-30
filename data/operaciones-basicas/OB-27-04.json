@@ -1,114 +1,195 @@
 {
   "id": "OB-27-04",
   "grado": "Operaciones Básicas",
-  "numero": 212,
+  "numero": 108,
   "categoria": "mult_div",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Multiplicación y división en la vida cotidiana — Momento 4/8",
+  "titulo": "Multiplicación y división en la vida cotidiana — Módulo 4/4",
   "contenido": "Multiplicación y división aplicadas a situaciones cotidianas: repartos, precios unitarios, escalas y recetas.",
   "pda": "Resuelve problemas cotidianos de reparto, precio unitario y proporciones sencillas usando multiplicación y división.",
   "problematizacion": {
-    "contexto": "Una fábrica de conservas en Jalisco empaca frascos de mermelada en cajas para enviarlas a varias tiendas de la región. El encargado de logística necesita calcular cuántos frascos salen del almacén cada semana.",
-    "pregunta": "Si cada caja lleva 24 frascos y esta semana se despacharon 18 cajas, ¿cómo puede calcular el encargado el total de frascos enviados?"
+    "contexto": "En el mercado sobre ruedas del domingo, Marisol ayuda a su mamá a comparar precios de fruta y verdura, donde casi todo se vende por kilogramo y los precios incluyen centavos.\n\nLa cocina económica del barrio organiza el menú para una posada comunitaria y necesita calcular con precisión cuánta carne comprar y cómo repartir el gasto entre las familias que colaboran, sin que se les pase la cantidad ni el presupuesto.",
+    "pregunta": "Si el kilogramo de jitomate cuesta $18.50 y Marisol necesita comprar 3.5 kg, ¿aproximadamente cuánto van a pagar? Además: si la receta base de pozole rinde 8 porciones con 2 kg de carne, ¿cuánta carne necesita la cocina para preparar pozole para 60 personas de la posada?"
   },
   "subtemas": [
     {
       "numero": "27.4",
-      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
-      "titulo": "Multiplicar por números de dos cifras para escalar cantidades",
-      "explicacion": "Cuando el multiplicador tiene dos cifras (como 18 o 23), se usa el algoritmo escrito con productos parciales: se multiplica primero por las unidades del multiplicador, luego por las decenas (recorriendo un lugar hacia la izquierda), y al final se suman esos productos parciales. Este procedimiento es indispensable para escalar cantidades más grandes en la vida real, como calcular la producción total de una fábrica o los pasajeros transportados en muchos viajes. Practicarlo con cuidado evita errores de acomodo de cifras, que son la causa más común de equivocarse en estos problemas.",
-      "formula": "producto = (multiplicando × unidades del multiplicador) + (multiplicando × decenas del multiplicador, recorrido un lugar)",
+      "nivelEtiqueta": "Nivel 4 de 4 · Integración",
+      "titulo": "Multiplicar y dividir con decimales en el dinero real y Problemas integradores: todo junto en un solo reto",
+      "explicacion": "El dinero casi siempre se maneja con decimales (pesos con centavos), así que multiplicar y dividir cantidades decimales es indispensable para calcular compras, precios por kilogramo o precios por litro con precisión. Al multiplicar decimales, se opera igual que con números enteros y al final se cuenta el total de cifras decimales de ambos factores para colocar el punto en el resultado. Al dividir, conviene pensar en el precio unitario tal como en momentos anteriores, solo que ahora la respuesta puede tener centavos. Usar exactamente los decimales dados (sin redondear de más) evita errores en cuentas de dinero real.\n\nEste momento reúne todo lo practicado en el tema: reconocer cuándo multiplicar o dividir, calcular precios unitarios, escalar cantidades, interpretar residuos y trabajar con decimales, a veces combinando dos o más de estas habilidades en un mismo problema. Los problemas de la vida real casi nunca avisan qué operación usar: hay que leer con cuidado, identificar los datos, decidir el orden de las operaciones y comprobar que el resultado tenga sentido para la situación. Resolver este tipo de retos integradores es la mejor forma de comprobar que el manejo de multiplicación y división en situaciones cotidianas ya quedó dominado.",
+      "formula": "En una multiplicación de decimales, cifras decimales del resultado = cifras decimales del factor 1 + cifras decimales del factor 2",
       "ejemplos": [
-        "34 × 16: primero 34 × 6 = 204, luego 34 × 10 = 340 (recorrido), y se suman: 204 + 340 = 544.",
-        "24 × 18 = 432, calculado igual: 24 × 8 = 192 y 24 × 10 = 240, y 192 + 240 = 432."
+        "0.5 × 4.2: se multiplica 5 × 42 = 210 y como hay 1 + 1 = 2 cifras decimales en total, el resultado es 2.10.",
+        "$37.50 entre 2.5 litros: 37.50 ÷ 2.5 = $15.00 por litro.",
+        "Una receta para 8 porciones usa 2 kg de carne: por porción es 2 ÷ 8 = 0.25 kg; para 60 porciones se necesitan 0.25 × 60 = 15 kg.",
+        "250 cuadernos en paquetes de 15: 250 ÷ 15 = 16 paquetes completos (16 × 15 = 240) y sobran 250 − 240 = 10 cuadernos."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "Una fábrica de conservas produce 24 frascos por caja. Si empaca 18 cajas, ¿cuántos frascos produce en total?",
+          "pregunta": "El kilogramo de jitomate cuesta $18.50. Si Marisol compra 3.5 kg, ¿cuánto paga en total?",
           "opciones": [
-            "402",
-            "412",
-            "432",
-            "442"
+            "$61.25",
+            "$63.00",
+            "$64.75",
+            "$66.50"
           ],
           "respuestaCorrecta": 2,
-          "retroalimentacion": "24 × 18 = 432 frascos en total."
+          "retroalimentacion": "18.50 × 3.5 = $64.75."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "Un autobús escolar transporta 45 alumnos por viaje. Contando cada viaje por separado, en 23 viajes transporta a ___ alumnos en total.",
-          "respuestaCorrecta": "1035",
-          "retroalimentacion": "45 × 23 = 1035 traslados de alumnos en total."
+          "frase": "Un refresco de 2.5 litros cuesta $37.50. El precio por litro es de $___.",
+          "respuestaCorrecta": "15",
+          "retroalimentacion": "37.50 ÷ 2.5 = $15.00 por litro."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "36 × 27 = 972.",
+          "enunciado": "0.5 × 4.2 = 2.1",
           "respuestaCorrecta": true,
-          "retroalimentacion": "Correcto: 36 × 7 = 252 y 36 × 20 = 720; 252 + 720 = 972."
+          "retroalimentacion": "Correcto: 5 × 42 = 210, y como hay 2 cifras decimales en total entre los factores, el resultado es 2.10."
         },
         {
           "tipo": "algoritmo_columnas",
           "operacion": "multiplicacion",
           "filas": [
             {
-              "valor": "34"
+              "valor": "6.4"
             },
             {
-              "valor": "16",
+              "valor": "3",
               "signo": "×"
             },
             {
-              "valor": "204"
-            },
-            {
-              "valor": "340"
-            },
-            {
-              "valor": "544",
+              "valor": "19.2",
               "esResultado": true
             }
           ],
           "ocultos": [
-            [
-              1
-            ],
-            [
-              0
-            ],
             [],
             [],
             [
-              0
+              0,
+              3
             ]
           ],
-          "retroalimentacion": "34 × 16 = 544: el producto parcial 34 × 6 = 204, el producto parcial 34 × 10 = 340, y 204 + 340 = 544."
+          "retroalimentacion": "6.4 × 3 = 19.2: se multiplica 64 × 3 = 192 y, como el 6.4 tiene 1 cifra decimal, el resultado lleva 1 cifra decimal."
         },
         {
           "tipo": "relacionar_columnas",
-          "instruccion": "Relaciona cada multiplicación con su resultado correcto.",
+          "instruccion": "Relaciona cada operación con decimales con su resultado correcto.",
           "columnaA": [
-            "27 × 14",
-            "19 × 16",
-            "23 × 12"
+            "$52.50 ÷ 3.5 kg",
+            "4.2 × $12.50",
+            "$0.75 × 8"
           ],
           "columnaB": [
-            "276",
-            "304",
-            "378",
-            "350"
+            "$6.00",
+            "$15.00",
+            "$52.50",
+            "$8.40"
           ],
           "parejasCorrectas": [
-            2,
             1,
+            2,
             0
           ],
-          "retroalimentacion": "27 × 14 = 378, 19 × 16 = 304 y 23 × 12 = 276. El \"350\" era una opción extra que no corresponde a ninguna multiplicación."
+          "retroalimentacion": "52.50 ÷ 3.5 = $15.00, 4.2 × 12.50 = $52.50 y 0.75 × 8 = $6.00. El \"$8.40\" era una opción extra que no corresponde a ninguna operación."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una cocina económica prepara 8 porciones de pozole con 2 kg de carne. Si van a preparar pozole para una posada de 60 personas (1 porción por persona), ¿cuántos kilogramos de carne necesitan?",
+          "opciones": [
+            "12 kg",
+            "15 kg",
+            "18 kg",
+            "20 kg"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Por porción: 2 ÷ 8 = 0.25 kg. Para 60 porciones: 0.25 × 60 = 15 kg."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Una tienda compra 24 cajas de refresco a $180 cada una; cada caja trae 12 refrescos y se venden por unidad a $18 cada uno. Si vende todos los refrescos de las 24 cajas, obtiene un total de $___ en ventas (24 cajas × 12 refrescos × $18).",
+          "respuestaCorrecta": "5184",
+          "retroalimentacion": "24 × 12 = 288 refrescos en total; 288 × 18 = $5184 en ventas."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Si 5 albañiles tardan 20 días en construir una barda, entonces 10 albañiles (el doble de obreros) tardarían 10 días en construir la misma barda, trabajando al mismo ritmo.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: el trabajo total es el mismo (5 × 20 = 100 \"albañil-días\"); con el doble de albañiles, 100 ÷ 10 = 10 días."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una papelería recibe 250 cuadernos para repartir en paquetes de 15 hacia varias escuelas. ¿Cuántos paquetes completos arma y cuántos cuadernos le sobran?",
+          "opciones": [
+            "16 paquetes y sobran 10",
+            "15 paquetes y sobran 25",
+            "16 paquetes y sobran 0",
+            "17 paquetes y faltan 5"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "250 ÷ 15 = 16 con residuo 10, porque 16 × 15 = 240 y 250 − 240 = 10."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "8.75"
+            },
+            {
+              "valor": "6",
+              "signo": "×"
+            },
+            {
+              "valor": "52.50",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          "retroalimentacion": "8.75 × 6 = 52.50: es el costo de 6 kg de un producto a $8.75 el kilogramo (875 × 6 = 5250, y con 2 cifras decimales queda 52.50)."
         }
       ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Una fonda prepara agua de horchata: por cada tanda usa 500 g de arroz molido y rinde 20 vasos. Si quieren preparar 60 vasos para una fiesta, ¿cuántos gramos de arroz molido necesitan, manteniendo la misma proporción?",
+      "opciones": [
+        "1200 g",
+        "1400 g",
+        "1500 g",
+        "1600 g"
+      ],
+      "respuestaCorrecta": 2,
+      "retroalimentacion": "Por vaso: 500 ÷ 20 = 25 g. Para 60 vasos: 25 × 60 = 1500 g."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Una fábrica textil corta 18 metros de tela en pedazos de 0.75 m cada uno para hacer fundas. ¿Cuántas fundas completas puede cortar? ___ fundas.",
+      "respuestaCorrecta": "24",
+      "retroalimentacion": "18 ÷ 0.75 = 24 fundas completas, sin que sobre tela."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Un tinaco de 900 litros se llena con una manguera que aporta 12.5 litros por minuto; tardará 72 minutos en llenarse por completo.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: 900 ÷ 12.5 = 72 minutos exactos."
     }
   ]
 }

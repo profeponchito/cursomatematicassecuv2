@@ -1,27 +1,29 @@
 {
   "id": "OB-34-01",
   "grado": "Operaciones Básicas",
-  "numero": 265,
+  "numero": 133,
   "categoria": "potencias_raices",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Producto y cociente de potencias de igual base — Momento 1/8",
+  "titulo": "Producto y cociente de potencias de igual base — Módulo 1/4",
   "contenido": "Las propiedades básicas de las potencias: producto de potencias de igual base (se suman exponentes) y cociente de potencias de igual base (se restan exponentes).",
   "pda": "Aplica las propiedades del producto y el cociente de potencias de la misma base para simplificar expresiones sencillas.",
   "problematizacion": {
-    "contexto": "En el mercado de La Merced, don Efraín ordena sus cajas de jitomate en anaqueles: cada anaquel tiene 3 filas y 3 columnas, es decir, 3² cajas por anaquel, y coloca 3³ anaqueles idénticos, uno junto a otro, en su bodega.",
-    "pregunta": "Si don Efraín quiere expresar el total de cajas de todos los anaqueles como una sola potencia de base 3, ¿qué potencia obtiene?"
+    "contexto": "En el mercado de La Merced, don Efraín ordena sus cajas de jitomate en anaqueles: cada anaquel tiene 3 filas y 3 columnas, es decir, 3² cajas por anaquel, y coloca 3³ anaqueles idénticos, uno junto a otro, en su bodega.\n\nEn la escuela secundaria Benito Juárez, el club de ciencias tiene 4^5 fichas de dominó guardadas para un experimento de probabilidad, y quiere repartirlas en cajas iguales: cada caja debe llevar exactamente 4^2 fichas.",
+    "pregunta": "Si don Efraín quiere expresar el total de cajas de todos los anaqueles como una sola potencia de base 3, ¿qué potencia obtiene? Además: ¿Cuántas cajas necesita el club, expresado como una sola potencia de base 4?"
   },
   "subtemas": [
     {
       "numero": "34.1",
-      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
-      "titulo": "Multiplicar potencias de la misma base",
-      "explicacion": "Cuando multiplicas dos potencias que tienen exactamente la misma base, no multiplicas las bases entre sí: dejas la base igual y sumas los exponentes. Así, una multiplicación de potencias se convierte en una sola potencia más grande. Esta regla solo funciona si la base es idéntica en ambos factores.",
-      "formula": "a^m · a^n = a^(m+n)",
+      "nivelEtiqueta": "Nivel 1 de 4 · Introductorio",
+      "titulo": "Multiplicar potencias de la misma base y Dividir potencias de la misma base",
+      "explicacion": "Cuando multiplicas dos potencias que tienen exactamente la misma base, no multiplicas las bases entre sí: dejas la base igual y sumas los exponentes. Así, una multiplicación de potencias se convierte en una sola potencia más grande. Esta regla solo funciona si la base es idéntica en ambos factores.\n\nCuando divides dos potencias con exactamente la misma base, dejas la base igual y restas el exponente del divisor al exponente del dividendo. Por ahora trabajaremos casos donde el exponente de arriba es mayor que el de abajo, para obtener siempre un exponente positivo. Esta regla es el proceso inverso al que viste en el producto de potencias.",
+      "formula": "a^m · a^n = a^(m+n); a^m ÷ a^n = a^(m-n)",
       "ejemplos": [
         "2^3 · 2^2 = 2^(3+2) = 2^5 = 32",
-        "5^1 · 5^2 = 5^(1+2) = 5^3 = 125"
+        "5^1 · 5^2 = 5^(1+2) = 5^3 = 125",
+        "5^4 ÷ 5^2 = 5^(4-2) = 5^2 = 25",
+        "2^6 ÷ 2^3 = 2^(6-3) = 2^3 = 8"
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
@@ -82,6 +84,63 @@
             2
           ],
           "retroalimentacion": "En cada caso la base no cambia y solo se suman los exponentes: 6^2·6^1=6^3, 7^3·7^2=7^5, 9^1·9^2=9^3."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Simplifica 7^5 ÷ 7^3.",
+          "opciones": [
+            "7^2 = 49",
+            "7^8",
+            "7^15",
+            "49^2"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Se restan los exponentes: 5 - 3 = 2, entonces 7^5 ÷ 7^3 = 7^2 = 49."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "6^5 ÷ 6^2 es igual a 6^3.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 5 - 2 = 3, y en números, 7776 ÷ 36 = 216 = 6^3."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Al dividir potencias con la misma base, se ___ los exponentes.",
+          "respuestaCorrecta": "restan",
+          "retroalimentacion": "Se resta el exponente del divisor al exponente del dividendo: a^m ÷ a^n = a^(m-n)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado de 10^4 ÷ 10^1?",
+          "opciones": [
+            "10^3 = 1000",
+            "10^4",
+            "10^5",
+            "10^3 = 100"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Se restan los exponentes: 4 - 1 = 3, entonces 10^4 ÷ 10^1 = 10^3 = 1000."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada división de potencias con su resultado simplificado.",
+          "columnaA": [
+            "8^5 ÷ 8^2",
+            "3^6 ÷ 3^4",
+            "9^4 ÷ 9^3"
+          ],
+          "columnaB": [
+            "8^3",
+            "3^2",
+            "9^1",
+            "8^7"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "Se resta el exponente del divisor: 8^5÷8^2=8^3, 3^6÷3^4=3^2, 9^4÷9^3=9^1."
         }
       ]
     }

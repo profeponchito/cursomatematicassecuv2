@@ -1,71 +1,132 @@
 {
   "id": "OB-29-03",
   "grado": "Operaciones Básicas",
-  "numero": 227,
+  "numero": 115,
   "categoria": "potencias_raices",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Significado de la potencia (multiplicación repetida) — Momento 3/8",
+  "titulo": "Significado de la potencia (multiplicación repetida) — Módulo 3/4",
   "contenido": "La potencia como una multiplicación repetida de un mismo factor (base), identificando base y exponente.",
   "pda": "Interpreta una potencia como la multiplicación repetida de su base, e identifica base y exponente en una expresión.",
   "problematizacion": {
-    "contexto": "En la clase de Educación Física, el profesor Iván organizó un torneo de eliminación directa donde el número total de partidos posibles se relaciona con la potencia 2^5, y los alumnos del equipo de voleibol quieren saber cuántos juegos se calculan con esa expresión.",
-    "pregunta": "¿Cuál es el valor de 2^5 que anotó el profesor Iván en su lista de partidos?"
+    "contexto": "En un examen, Fernanda escribió que 3^5 y 3×5 daban el mismo resultado porque 'llevan los mismos números', y su compañero Emiliano no estaba seguro de si eso era correcto antes de entregar su hoja.\n\nEn una fábrica de calzado de León, Guanajuato, los pares de zapatos se empacan en cajas de 10, esas cajas en bultos de 10 cajas, y esos bultos en contenedores de 10 bultos, así que el gerente Rogelio usa potencias de 10 para calcular rápidamente cuántos pares caben en varios contenedores.",
+    "pregunta": "¿Fernanda tiene razón en que 3^5 y 3×5 dan el mismo resultado? Además: si un contenedor guarda 10^3 pares de zapatos, ¿aproximadamente cuántos pares son?"
   },
   "subtemas": [
     {
       "numero": "29.3",
-      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
-      "titulo": "Calcula el valor multiplicando paso a paso",
-      "explicacion": "Ahora que ya sabes expandir una potencia, el siguiente paso es calcular su valor multiplicando los factores uno por uno, de izquierda a derecha. Conviene ir resolviendo de dos en dos para no perderte: primero multiplicas los dos primeros factores, luego el resultado por el siguiente factor, y así sucesivamente hasta terminar. Este procedimiento funciona para cualquier potencia, sin importar qué tan grande sea el exponente.",
+      "nivelEtiqueta": "Nivel 3 de 4 · Avanzado",
+      "titulo": "No confundas la potencia con una multiplicación simple y Potencias de 10 y potencias con base decimal",
+      "explicacion": "Un error muy común es confundir b^n (una potencia) con b×n (una multiplicación simple de dos números), pero significan cosas totalmente distintas y casi siempre dan resultados muy diferentes. En b^n, la base se multiplica por sí misma n veces; en b×n, simplemente se multiplican dos números distintos una sola vez. Siempre que veas un exponente, revisa que estás multiplicando la base por sí misma y no multiplicándola una sola vez por el número del exponente.\n\nLas potencias de 10 son especiales porque su resultado siempre es un 1 seguido de tantos ceros como indique el exponente; por ejemplo, 10^4 = 10,000, que tiene un 1 y cuatro ceros. El significado de multiplicación repetida también aplica cuando la base es un número decimal: en (0.5)^3, el 0.5 se multiplica por sí mismo tres veces. Reconocer este patrón te ayuda a resolver potencias de 10 casi sin hacer cuentas, y a calcular potencias decimales con cuidado.",
       "ejemplos": [
-        "3^4 = 3×3×3×3 = 9×3×3 = 27×3 = 81",
-        "2^5 = 2×2×2×2×2 = 4×2×2×2 = 8×2×2 = 16×2 = 32"
+        "2^5 = 32 (el 2 multiplicado por sí mismo 5 veces), pero 2×5 = 10 (una sola multiplicación).",
+        "4^3 = 64 (el 4 multiplicado por sí mismo 3 veces), pero 4×3 = 12 (una sola multiplicación).",
+        "10^4 = 10×10×10×10 = 10,000 (un 1 seguido de 4 ceros).",
+        "(0.5)^3 = 0.5×0.5×0.5 = 0.125."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuál es el valor de 3^4?",
+          "pregunta": "¿Cuál es el valor de 3^5?",
           "opciones": [
-            "12",
-            "64",
+            "15",
             "81",
+            "125",
             "243"
           ],
-          "respuestaCorrecta": 2,
-          "retroalimentacion": "3^4 = 3×3×3×3 = 9×3×3 = 27×3 = 81."
+          "respuestaCorrecta": 3,
+          "retroalimentacion": "3^5 = 3×3×3×3×3 = 243. No es lo mismo que 3×5, que solo da 15."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuál es el valor de 5^3?",
+          "pregunta": "¿Cuál es el resultado de 3×5 (multiplicación simple, no potencia)?",
           "opciones": [
+            "8",
             "15",
-            "125",
-            "243",
-            "625"
+            "35",
+            "243"
           ],
           "respuestaCorrecta": 1,
-          "retroalimentacion": "5^3 = 5×5×5 = 25×5 = 125."
+          "retroalimentacion": "3×5 es una multiplicación simple de dos factores distintos y da 15, muy diferente de 3^5 = 243."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "2^6 = ___.",
-          "respuestaCorrecta": "64",
-          "retroalimentacion": "2^6 = 2×2×2×2×2×2 = 4×2×2×2×2 = 8×2×2×2 = 16×2×2 = 32×2 = 64."
+          "frase": "2^4 es igual a ___ (no lo confundas con 2×4, que da 8).",
+          "respuestaCorrecta": "16",
+          "retroalimentacion": "2^4 = 2×2×2×2 = 16, mientras que 2×4 es una multiplicación simple que da 8."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "4^3 es igual a 64.",
-          "respuestaCorrecta": true,
-          "retroalimentacion": "Verdadero. 4^3 = 4×4×4 = 16×4 = 64."
+          "enunciado": "5^2 y 5×2 dan el mismo resultado.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso. 5^2 = 5×5 = 25, mientras que 5×2 = 10; son resultados diferentes."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada expresión con su resultado correcto.",
+          "columnaA": [
+            "4^3",
+            "4×3",
+            "6^2",
+            "6×3"
+          ],
+          "columnaB": [
+            "36",
+            "64",
+            "18",
+            "12"
+          ],
+          "parejasCorrectas": [
+            1,
+            3,
+            0,
+            2
+          ],
+          "retroalimentacion": "4^3 = 64, 4×3 = 12, 6^2 = 36 y 6×3 = 18. Fíjate cómo la potencia y la multiplicación simple dan resultados distintos aunque usen los mismos números."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el valor de 10^5?",
+          "opciones": [
+            "500",
+            "10,000",
+            "50,000",
+            "100,000"
+          ],
+          "respuestaCorrecta": 3,
+          "retroalimentacion": "10^5 es un 1 seguido de 5 ceros: 100,000."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "6^2 = ___.",
-          "respuestaCorrecta": "36",
-          "retroalimentacion": "6^2 = 6×6 = 36."
+          "frase": "10^3 = ___.",
+          "respuestaCorrecta": "1000",
+          "retroalimentacion": "10^3 es un 1 seguido de 3 ceros: 1000."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "10^7 tiene 7 ceros después del 1.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Verdadero. En las potencias de 10, el número de ceros siempre es igual al exponente."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un mercado vende paquetes de 10 tortillas. Esos paquetes se agrupan en cajas de 10 paquetes, y las cajas en bultos de 10 cajas. Si multiplicas 10×10×10, ¿cuántas tortillas hay en total en un bulto?",
+          "opciones": [
+            "30",
+            "300",
+            "1,000",
+            "10,000"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "10×10×10 = 10^3 = 1,000 tortillas en total dentro de un bulto."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El valor de (0.5)^3 es ___.",
+          "respuestaCorrecta": "0.125",
+          "retroalimentacion": "(0.5)^3 = 0.5×0.5×0.5 = 0.25×0.5 = 0.125."
         }
       ]
     }

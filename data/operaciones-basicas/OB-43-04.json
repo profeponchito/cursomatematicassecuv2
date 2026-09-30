@@ -1,74 +1,144 @@
 {
   "id": "OB-43-04",
   "grado": "Operaciones Básicas",
-  "numero": 340,
+  "numero": 172,
   "categoria": "integracion",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Operaciones combinadas con números con signo — Momento 4/8",
+  "titulo": "Operaciones combinadas con números con signo — Módulo 4/4",
   "contenido": "Resolución de expresiones que combinan las cuatro operaciones y potencias con números enteros con signo, aplicando la jerarquía de operaciones y la regla de signos a la vez.",
   "pda": "Resuelve expresiones numéricas combinadas con números con signo, aplicando la jerarquía de operaciones y la regla de signos.",
   "problematizacion": {
-    "contexto": "En la ruta 24 de camiones urbanos, el chofer Nazario cuenta cuántos pasajeros suben (+) y bajan (−) en cada parada, y multiplica algunos conteos por el número de paradas dobles que hace en su turno para estimar el movimiento total de pasajeros del día.",
-    "pregunta": "Si en una vuelta bajaron pasajeros repartidos entre varias paradas, subieron otros grupos y al final se descontaron algunos boletos, ¿qué expresión combinada representa el resultado del día?"
+    "contexto": "El buzo Adrián registra profundidades en sus inmersiones cerca de un arrecife de Veracruz. Para calcular la presión que siente su equipo, a veces necesita sacar la raíz cuadrada de una medición y combinarla con otros datos, siempre cuidando si el número dentro de la raíz puede ser negativo o no.\n\nEl equipo de robótica de la Secundaria 12 programó un robot explorador para una feria de ciencias. El robot suma y resta puntos según los obstáculos que sortea, eleva al cuadrado ciertas mediciones de sensores y saca raíces cuadradas para calibrar la distancia real, todo en una sola fórmula que el equipo debe calcular a mano antes de programarla.",
+    "pregunta": "Si Adrián necesita calcular √36 antes de restarle otra medición, ¿qué debe verificar primero antes de sacar esa raíz? Además: si la fórmula del robot es (-3)² − √16 ÷ (-2) + 5, ¿qué resultado final debe esperar el equipo antes de programarlo?"
   },
   "subtemas": [
     {
       "numero": "43.4",
-      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
-      "titulo": "Las cuatro operaciones combinadas, sin paréntesis",
-      "explicacion": "Ahora resolverás expresiones más largas que mezclan sumas, restas, multiplicaciones y divisiones, todas en la misma línea y sin paréntesis. Recuerda el orden: primero se resuelven, de izquierda a derecha, todas las multiplicaciones y divisiones que aparezcan; después se resuelven, de izquierda a derecha, las sumas y restas. Aplica la regla de signos en cada multiplicación o división antes de sumar o restar los resultados parciales.",
-      "formula": "1° × y ÷ (izquierda a derecha)  →  2° + y − (izquierda a derecha)",
+      "nivelEtiqueta": "Nivel 4 de 4 · Integración",
+      "titulo": "Raíces cuadradas con signo en la mezcla y Integración total: las cuatro operaciones, potencias y raíces",
+      "explicacion": "La raíz cuadrada de un número positivo tiene resultado positivo (por ejemplo √16 = 4), pero la raíz cuadrada de un número negativo NO existe dentro de los números que conoces hasta ahora, porque ningún número elevado al cuadrado da negativo. El signo que está AFUERA del símbolo de raíz sí se conserva y se aplica al final, como en -√25 = -5. En una expresión combinada, resuelve primero lo que está dentro de paréntesis y raíces, luego las potencias, después las multiplicaciones y divisiones, y al final las sumas y restas.\n\nEste es el reto final: expresiones que combinan paréntesis, potencias, raíces cuadradas, multiplicaciones, divisiones, sumas y restas de números con signo, todo junto. La jerarquía completa es: primero paréntesis (resolviendo lo que esté dentro de ellos), luego potencias y raíces que queden sueltas, después multiplicaciones y divisiones de izquierda a derecha, y por último sumas y restas de izquierda a derecha. Ve resolviendo la expresión por pasos, anotando cada resultado parcial, y aplica la regla de signos en cada paso.",
+      "formula": "√(positivo) = positivo   √(negativo) = no existe   −√a = −(√a); Paréntesis → Potencias/Raíces → × y ÷ → + y −",
       "ejemplos": [
-        "-20 ÷ 4 + 3 × (-2) − 5: primero -20÷4=-5 y 3×(-2)=-6; luego -5 + (-6) − 5 = -16",
-        "6 × (-3) − 12 ÷ (-4) + 7: primero 6×(-3)=-18 y 12÷(-4)=-3; luego -18 − (-3) + 7 = -8"
+        "√16 + (-3)²: primero √16=4 y (-3)²=9, luego 4+9=13",
+        "-√25 + 8: primero √25=5, luego el signo de afuera da -5, luego -5+8=3",
+        "(-3)² − √16 ÷ (-2) + 5: (-3)²=9; √16÷(-2)=4÷(-2)=-2; 9−(−2)+5 = 9+2+5 = 16",
+        "(-18) ÷ (-3) + (-2)² − √25: (-18)÷(-3)=6; (-2)²=4; √25=5; 6+4−5=5"
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "-20 ÷ 4 + 3 × (-2) − 5 = ?",
+          "pregunta": "√16 + (-3)² = ?",
           "opciones": [
-            "-16",
-            "-1",
-            "16",
-            "-26"
+            "13",
+            "-13",
+            "7",
+            "-5"
           ],
           "respuestaCorrecta": 0,
-          "retroalimentacion": "-20÷4=-5; 3×(-2)=-6; -5+(-6)-5=-16."
+          "retroalimentacion": "√16=4; (-3)²=9; 4+9=13."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "6 × (-3) − 12 ÷ (-4) + 7 = ___",
-          "respuestaCorrecta": "-8",
-          "retroalimentacion": "6×(-3)=-18; 12÷(-4)=-3; -18-(-3)+7=-8."
+          "frase": "-√25 + 8 = ___",
+          "respuestaCorrecta": "3",
+          "retroalimentacion": "√25=5; el signo de afuera da -5; -5+8=3."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "El resultado de -15 + 8 × (-2) ÷ 4 − 6 es -25.",
+          "enunciado": "√36 ÷ (-2) − 4 es igual a -7.",
           "respuestaCorrecta": true,
-          "retroalimentacion": "8×(-2)=-16; -16÷4=-4; -15+(-4)-6=-25. Es correcto."
+          "retroalimentacion": "√36=6; 6÷(-2)=-3; -3-4=-7. Es correcto."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "9 − (-4) × 3 + 10 ÷ (-5) = ?",
+          "pregunta": "(-2)² − √9 × 3 = ?",
           "opciones": [
-            "19",
-            "-19",
-            "1",
-            "29"
+            "-5",
+            "13",
+            "5",
+            "-13"
           ],
           "respuestaCorrecta": 0,
-          "retroalimentacion": "(-4)×3=-12; 10÷(-5)=-2; 9-(-12)+(-2)=9+12-2=19."
+          "retroalimentacion": "(-2)²=4; √9=3; 3×3=9; 4-9=-5."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "√(-9) tiene solución y es igual a -3.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "No existe ningún número que, elevado al cuadrado, dé -9; por eso √(-9) no tiene solución con los números que conoces."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "(-3)² − √16 ÷ (-2) + 5 = ?",
+          "opciones": [
+            "16",
+            "6",
+            "-16",
+            "2"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "(-3)²=9; √16÷(-2)=4÷(-2)=-2; 9-(-2)+5=9+2+5=16."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "-2 × (-6) + 15 ÷ (-3) − 8 = ___",
-          "respuestaCorrecta": "-1",
-          "retroalimentacion": "-2×(-6)=12; 15÷(-3)=-5; 12+(-5)-8=-1."
+          "frase": "(-2)³ + √49 − (10 − 15) = ___",
+          "respuestaCorrecta": "4",
+          "retroalimentacion": "(-2)³=-8; √49=7; 10-15=-5; -8+7-(-5)=4."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "(-18) ÷ (-3) + (-2)² − √25 es igual a 5.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "(-18)÷(-3)=6; (-2)²=4; √25=5; 6+4-5=5. Es correcto."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "( -4 + (-3)² ) × √9 − (-6) = ?",
+          "opciones": [
+            "21",
+            "15",
+            "9",
+            "27"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "-4+(-3)²=-4+9=5; 5×√9=5×3=15; 15-(-6)=21."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "√64 − (-3)² + (5 − 9) × (-2) = ___",
+          "respuestaCorrecta": "7",
+          "retroalimentacion": "√64=8; (-3)²=9; 5-9=-4; -4×(-2)=8; 8-9+8=7."
         }
       ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "( (-3)² − √16 ) × (-2) + (-7) = ?",
+      "opciones": [
+        "-17",
+        "17",
+        "3",
+        "-3"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "(-3)²=9; √16=4; 9-4=5; 5×(-2)=-10; -10+(-7)=-17."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "(-2)³ − ( (-9) + √36 ) × (-4) − 5 = ___",
+      "respuestaCorrecta": "-25",
+      "retroalimentacion": "(-2)³=-8; -9+√36=-9+6=-3; -3×(-4)=12; -8-12-5=-25."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "√81 + (-2)⁴ − ( (-5) − 3 ) ÷ (-4) + (-6) es igual a 17.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "√81=9; (-2)⁴=16; (-5)-3=-8; -8÷(-4)=2; 9+16-2+(-6)=17. Es correcto."
     }
   ]
 }

@@ -1,27 +1,29 @@
 {
   "id": "OB-32-01",
   "grado": "Operaciones Básicas",
-  "numero": 249,
+  "numero": 125,
   "categoria": "potencias_raices",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Potencias de base fraccionaria — Momento 1/8",
+  "titulo": "Potencias de base fraccionaria — Módulo 1/4",
   "contenido": "Cálculo de potencias cuya base es una fracción, elevando numerador y denominador al exponente indicado.",
   "pda": "Calcula potencias de base fraccionaria, elevando por separado numerador y denominador.",
   "problematizacion": {
-    "contexto": "En la escuela secundaria técnica de Chalco, la maestra Renata pide a su grupo forrar unas baldosas cuadradas del laboratorio de cómputo. Cada baldosa mide una fracción de metro por lado, y para saber cuánta lámina de vinil necesitan hay que calcular el área de cada una.",
-    "pregunta": "¿Cómo se calcula el área de una baldosa cuadrada si su lado mide (2/5) de metro?"
+    "contexto": "En la escuela secundaria técnica de Chalco, la maestra Renata pide a su grupo forrar unas baldosas cuadradas del laboratorio de cómputo. Cada baldosa mide una fracción de metro por lado, y para saber cuánta lámina de vinil necesitan hay que calcular el área de cada una.\n\nEl entrenador Isidro guarda los balones del equipo de futbol de la secundaria en cajas cúbicas de almacén. Cada caja tiene un lado que mide una fracción de metro, y para calcular cuánto espacio (volumen) ocupa cada caja necesita elevar esa fracción al cubo.",
+    "pregunta": "¿Cómo se calcula el área de una baldosa cuadrada si su lado mide (2/5) de metro? Además: ¿Qué operación describe el volumen de una caja cúbica cuyo lado mide (1/3) de metro?"
   },
   "subtemas": [
     {
       "numero": "32.1",
-      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
-      "titulo": "El cuadrado de una fracción",
-      "explicacion": "Cuando una fracción se eleva al cuadrado, se elevan por separado el numerador y el denominador y después se escribe el resultado como una nueva fracción. Es decir, (a/b)² = a²/b². No se multiplica la fracción completa por 2, ni se suma consigo misma: se calcula el cuadrado de arriba y el cuadrado de abajo. Este momento solo trabaja con fracciones positivas menores que 1 y exponente 2, para fijar bien la idea antes de complicarla.",
-      "formula": "(a/b)² = a²/b²",
+      "nivelEtiqueta": "Nivel 1 de 4 · Introductorio",
+      "titulo": "El cuadrado de una fracción y El cubo de una fracción",
+      "explicacion": "Cuando una fracción se eleva al cuadrado, se elevan por separado el numerador y el denominador y después se escribe el resultado como una nueva fracción. Es decir, (a/b)² = a²/b². No se multiplica la fracción completa por 2, ni se suma consigo misma: se calcula el cuadrado de arriba y el cuadrado de abajo. Este momento solo trabaja con fracciones positivas menores que 1 y exponente 2, para fijar bien la idea antes de complicarla.\n\nLa misma regla del momento anterior aplica para cualquier exponente: (a/b)³ = a³/b³, elevando numerador y denominador al cubo. Este momento agrega el exponente 3 sobre fracciones positivas sencillas, para que compares cómo cambia el resultado respecto al cuadrado del mismo número. Recuerda que elevar al cubo significa multiplicar el número por sí mismo tres veces, no tres veces el número original.",
+      "formula": "(a/b)² = a²/b²; (a/b)³ = a³/b³",
       "ejemplos": [
         "(2/3)² = 2²/3² = 4/9",
-        "(3/4)² = 3²/4² = 9/16"
+        "(3/4)² = 3²/4² = 9/16",
+        "(1/2)³ = 1³/2³ = 1/8",
+        "(2/3)³ = 2³/3³ = 8/27"
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
@@ -82,6 +84,63 @@
             1
           ],
           "retroalimentacion": "(1/2)²=1/4, (1/4)²=1/16 y (3/4)²=9/16: siempre se elevan numerador y denominador por separado."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "(1/2)³ = ?",
+          "opciones": [
+            "1/8",
+            "1/6",
+            "3/8",
+            "1/4"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "1³ = 1 y 2³ = 8, entonces (1/2)³ = 1/8."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "(2/3)³ = ?",
+          "opciones": [
+            "8/27",
+            "6/9",
+            "8/9",
+            "2/9"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "2³ = 8 y 3³ = 27, así que (2/3)³ = 8/27."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "(1/5)³ es igual a 1/125.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 1³ = 1 y 5³ = 125, entonces (1/5)³ = 1/125."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "(2/5)³ = ___",
+          "respuestaCorrecta": "8/125",
+          "retroalimentacion": "2³ = 8 y 5³ = 125, entonces (2/5)³ = 8/125."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada potencia con su resultado.",
+          "columnaA": [
+            "(1/3)³",
+            "(1/2)³",
+            "(2/3)²"
+          ],
+          "columnaB": [
+            "1/27",
+            "1/8",
+            "4/9",
+            "8/27"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "(1/3)³=1/27, (1/2)³=1/8 y (2/3)²=4/9. Fíjate bien en qué exponente usa cada una."
         }
       ]
     }

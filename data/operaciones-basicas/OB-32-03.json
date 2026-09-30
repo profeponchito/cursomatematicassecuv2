@@ -1,87 +1,146 @@
 {
   "id": "OB-32-03",
   "grado": "Operaciones Básicas",
-  "numero": 251,
+  "numero": 127,
   "categoria": "potencias_raices",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Potencias de base fraccionaria — Momento 3/8",
+  "titulo": "Potencias de base fraccionaria — Módulo 3/4",
   "contenido": "Cálculo de potencias cuya base es una fracción, elevando numerador y denominador al exponente indicado.",
   "pda": "Calcula potencias de base fraccionaria, elevando por separado numerador y denominador.",
   "problematizacion": {
-    "contexto": "Doña Ofelia vende telas en el mercado de Toluca. Un cliente le pide retazos cuadrados de tela para forrar cojines, y ella calcula el área de cada retazo elevando al cuadrado la medida del lado, que viene dada en fracciones de metro.",
-    "pregunta": "¿Cuál es el área de un retazo cuadrado cuyo lado mide (3/8) de metro?"
+    "contexto": "El carpintero Refugio, de un taller en Pátzcuaro, construye mesas cuadradas cuyo lado es más largo que un metro, así que lo expresa como una fracción impropia. Antes de cortar la madera necesita calcular el área total de la cubierta.\n\nLa repostera Yolanda, dueña de una pastelería en Puebla, duplica una receta para un pedido grande. Sus medidas de harina vienen en tazas con números mixtos, y para calcular cuánta harina necesita en total eleva esas cantidades al cuadrado según la fórmula de su libreta de recetas.",
+    "pregunta": "¿Cuál es el área de una mesa cuadrada cuyo lado mide (5/4) de metro? Además: si una receta pide (1 1/4) tazas de harina y el cálculo requiere elevar esa cantidad al cuadrado, ¿qué fracción impropia debe usar Yolanda antes de elevarla?"
   },
   "subtemas": [
     {
       "numero": "32.3",
-      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
-      "titulo": "Fracciones más grandes y simplificación",
-      "explicacion": "Al trabajar con fracciones de números más grandes, el procedimiento no cambia: se sigue elevando numerador y denominador por separado. Lo nuevo aquí es que, si la fracción original no está en su mínima expresión, conviene simplificarla antes o después de elevarla al cuadrado, para que el resultado final quede en su forma más simple. Simplificar antes suele ser más fácil que simplificar un resultado con números grandes.",
-      "formula": "(a/b)ⁿ = aⁿ/bⁿ, simplificando cuando sea posible",
+      "nivelEtiqueta": "Nivel 3 de 4 · Avanzado",
+      "titulo": "Potencias de fracciones mayores que 1 y Potencias de números mixtos",
+      "explicacion": "Todo lo aprendido funciona igual cuando la fracción es mayor que 1 (fracción impropia, con numerador mayor que el denominador): se sigue elevando numerador y denominador por separado. La diferencia es que el resultado también será mayor que 1, porque la base ya era mayor que 1. Este momento aplica la potencia de fracciones a situaciones donde la medida original supera la unidad completa.\n\nUn número mixto (como 1 1/2) primero debe convertirse en fracción impropia antes de elevarlo a una potencia; no se eleva la parte entera y la fracción por separado. Una vez convertido, se aplica la misma regla de siempre: elevar numerador y denominador. Este momento también combina esa conversión con el signo negativo y con exponentes de hasta 3, integrando lo visto en momentos anteriores.",
+      "formula": "(a/b)ⁿ = aⁿ/bⁿ, incluso cuando a > b; Primero: número mixto → fracción impropia. Después: (a/b)ⁿ = aⁿ/bⁿ",
       "ejemplos": [
-        "(5/7)² = 25/49 (ya está en mínima expresión)",
-        "(2/4)² = 4/16, que simplificado es 1/4"
+        "(5/2)² = 25/4",
+        "(4/3)² = 16/9",
+        "1 1/2 = 3/2, entonces (1 1/2)² = (3/2)² = 9/4",
+        "-1 1/2 = -3/2, entonces (-1 1/2)³ = (-3/2)³ = -27/8"
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "(5/7)² = ?",
+          "pregunta": "Un terreno de maqueta mide (5/2) km de lado. Si el área se calcula como (5/2)², ¿cuánto da?",
           "opciones": [
-            "25/49",
-            "10/14",
-            "25/14",
-            "10/49"
+            "25/4",
+            "10/4",
+            "25/2",
+            "10/2"
           ],
           "respuestaCorrecta": 0,
-          "retroalimentacion": "5² = 25 y 7² = 49, entonces (5/7)² = 25/49, que ya está en su mínima expresión."
+          "retroalimentacion": "5² = 25 y 2² = 4, entonces (5/2)² = 25/4."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "(3/8)² = ?",
+          "pregunta": "(7/3)² = ?",
           "opciones": [
-            "9/64",
-            "6/16",
-            "9/16",
-            "6/64"
+            "49/9",
+            "14/6",
+            "49/6",
+            "14/9"
           ],
           "respuestaCorrecta": 0,
-          "retroalimentacion": "3² = 9 y 8² = 64, así que (3/8)² = 9/64."
+          "retroalimentacion": "7² = 49 y 3² = 9, así que (7/3)² = 49/9."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "(4/9)² es igual a 16/81.",
+          "enunciado": "(3/2)³ = 27/8.",
           "respuestaCorrecta": true,
-          "retroalimentacion": "Correcto: 4² = 16 y 9² = 81, entonces (4/9)² = 16/81."
+          "retroalimentacion": "Correcto: 3³ = 27 y 2³ = 8, entonces (3/2)³ = 27/8."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "Simplifica el resultado de (2/4)² a su mínima expresión: ___",
-          "respuestaCorrecta": "1/4",
-          "retroalimentacion": "(2/4)² = 4/16, y 4/16 simplificado (dividiendo entre 4) da 1/4."
+          "frase": "(4/3)² = ___",
+          "respuestaCorrecta": "16/9",
+          "retroalimentacion": "4² = 16 y 3² = 9, entonces (4/3)² = 16/9."
         },
         {
           "tipo": "relacionar_columnas",
-          "instruccion": "Relaciona cada potencia con su resultado correcto.",
+          "instruccion": "Relaciona cada potencia de fracción impropia con su resultado.",
           "columnaA": [
-            "(5/6)²",
-            "(7/10)²",
-            "(3/5)²"
+            "(5/4)²",
+            "(3/2)²",
+            "(7/2)²"
           ],
           "columnaB": [
-            "49/100",
-            "25/36",
-            "9/25",
-            "36/49"
+            "25/16",
+            "9/4",
+            "49/4",
+            "21/8"
           ],
           "parejasCorrectas": [
-            1,
             0,
+            1,
             2
           ],
-          "retroalimentacion": "(5/6)²=25/36, (7/10)²=49/100 y (3/5)²=9/25."
+          "retroalimentacion": "(5/4)²=25/16, (3/2)²=9/4 y (7/2)²=49/4."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Convierte 1 1/2 a fracción impropia y calcula (1 1/2)². ¿Cuál es el resultado?",
+          "opciones": [
+            "9/4",
+            "3/4",
+            "6/4",
+            "3/2"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "1 1/2 = 3/2. Entonces (3/2)² = 9/4."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "(2 1/3)² = ?",
+          "opciones": [
+            "49/9",
+            "14/6",
+            "49/6",
+            "14/9"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "2 1/3 = 7/3. Entonces (7/3)² = 49/9."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Al convertir 2 1/4 a fracción impropia se obtiene 9/4, y (9/4)² = 81/16.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 2 1/4 = 9/4, y 9² = 81, 4² = 16, entonces (9/4)² = 81/16."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "(-1 1/2)³ = ___",
+          "respuestaCorrecta": "-27/8",
+          "retroalimentacion": "-1 1/2 = -3/2. Entonces (-3/2)³ = -27/8, negativo porque el exponente es impar."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada número mixto elevado a una potencia con su resultado.",
+          "columnaA": [
+            "(1 1/4)²",
+            "(2 1/2)²",
+            "(-1 1/3)²"
+          ],
+          "columnaB": [
+            "25/16",
+            "25/4",
+            "16/9",
+            "-16/9"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "1 1/4=5/4 → 25/16; 2 1/2=5/2 → 25/4; -1 1/3=-4/3 → 16/9 (positivo por exponente par)."
         }
       ]
     }

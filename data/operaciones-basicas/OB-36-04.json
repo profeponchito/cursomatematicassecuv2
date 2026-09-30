@@ -1,82 +1,84 @@
 {
   "id": "OB-36-04",
   "grado": "Operaciones Básicas",
-  "numero": 284,
+  "numero": 144,
   "categoria": "potencias_raices",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Raíz cuadrada aproximada — Momento 4/8",
+  "titulo": "Raíz cuadrada aproximada — Módulo 4/4",
   "contenido": "Estimación de la raíz cuadrada de números que no son cuadrados perfectos, ubicándola entre dos enteros consecutivos.",
   "pda": "Estima la raíz cuadrada de un número que no es cuadrado perfecto, ubicándola entre dos números enteros consecutivos.",
   "problematizacion": {
-    "contexto": "En un taller de costura en Mérida, la dueña necesita cortar un mantel cuadrado con un área de 95 decímetros cuadrados y quiere saber cuánto medirá aproximadamente cada lado, con un decimal, para ajustar la tela sin desperdiciar material.",
-    "pregunta": "¿Cuál es la aproximación con un decimal de la raíz cuadrada de 95 (el lado del mantel)?"
+    "contexto": "En una tienda de abarrotes de Veracruz, don Efraín compara dos exhibidores cuadrados de mercancía: uno tiene capacidad para 99 productos acomodados en cuadrícula y otro para 64.\n\nPara la feria de las ciencias de una secundaria en Querétaro, un equipo de alumnos construye una base cuadrada para un cohete de globos con 205 fichas de cartón acomodadas en cuadrícula, y deben reportar en su ficha técnica la medida aproximada del lado, con un decimal.",
+    "pregunta": "¿Cuál de los dos exhibidores tiene el lado (raíz cuadrada) más grande: el de 99 productos o el de 64? Además: ¿Cuál es la aproximación con un decimal de la raíz cuadrada de 205 (el lado de la base, en fichas)?"
   },
   "subtemas": [
     {
       "numero": "36.4",
-      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
-      "titulo": "Estimar con un decimal: acércate más",
-      "explicacion": "Para afinar todavía más la estimación, puedes calcular una aproximación con un decimal usando la posición proporcional del número dentro del intervalo. La fórmula es √n ≈ a + (n − a²) ÷ ((a+1)² − a²), donde a es el entero menor del intervalo. Esta fracción indica qué tan 'adentro' está el número entre los dos cuadrados perfectos, y se suma al entero menor. Por ejemplo, para √45: a=6, entonces (45−36)÷(49−36) = 9÷13 ≈ 0.69, así que √45 ≈ 6.7. Es una aproximación práctica, no el valor exacto de calculadora, pero muy cercana.",
-      "formula": "√n ≈ a + (n − a²) ÷ ((a+1)² − a²)",
+      "nivelEtiqueta": "Nivel 4 de 4 · Integración",
+      "titulo": "Comparar y ordenar raíces cuadradas y Todo junto: domina la raíz cuadrada aproximada",
+      "explicacion": "Cuando necesitas comparar dos o más raíces cuadradas sin usar calculadora, no hace falta estimarlas por separado: basta con comparar los números que están dentro de la raíz. Como la raíz cuadrada crece de forma constante conforme crece el número, si m > n entonces √m > √n siempre. Esto te permite ordenar varias raíces cuadradas de menor a mayor con solo mirar los números originales, sin calcular ningún decimal.\n\nLlegaste al momento final de este tema: aquí vas a combinar todo lo que practicaste — ubicar la raíz entre dos enteros, decidir a cuál se acerca más y calcular una aproximación con un decimal — dentro de problemas de la vida cotidiana. Cada reactivo puede pedirte un paso distinto de este proceso, así que primero identifica qué te están preguntando exactamente antes de responder. Dominar estos pasos juntos es la meta de todo el tema de raíz cuadrada aproximada.",
+      "formula": "Si m > n, entonces √m > √n; a < √n < a+1  ·  punto medio = (a²+(a+1)²)÷2  ·  √n ≈ a + (n−a²)÷((a+1)²−a²)",
       "ejemplos": [
-        "Para √45: a=6, (45−36)÷(49−36)=9÷13≈0.69, entonces √45≈6.7.",
-        "Para √70: a=8, (70−64)÷(81−64)=6÷17≈0.35, entonces √70≈8.4."
+        "Para comparar √99 y √64: como 99>64, entonces √99>√64, sin necesidad de calcular ninguna de las dos.",
+        "Para ordenar 175, 150 y 190 de menor a mayor: como 150<175<190, entonces √150<√175<√190.",
+        "Para 205 fichas: como 196<205<225, √205 está entre 14 y 15; el punto medio es (196+225)÷2=210.5, y como 205<210.5, está más cerca de 14; su aproximación con un decimal es 14+(205−196)÷(225−196)=14+9÷29≈14.3.",
+        "Para 260 piezas: como 256<260<289, √260 está entre 16 y 17, y como el punto medio es 272.5 y 260<272.5, está más cerca de 16."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuál es la mejor aproximación con un decimal de √45?",
+          "pregunta": "¿Cuál de las siguientes raíces cuadradas es la mayor?",
           "opciones": [
-            "6.5",
-            "6.7",
-            "6.9",
-            "7.1"
+            "√50",
+            "√63",
+            "√45",
+            "√38"
           ],
           "respuestaCorrecta": 1,
-          "retroalimentacion": "a=6, (45−36)÷(49−36)=9÷13≈0.69, así que √45≈6.7."
+          "retroalimentacion": "La raíz cuadrada crece junto con el número: como 63 es el mayor de los cuatro números, √63 es la raíz mayor."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuál es la mejor aproximación con un decimal de √70?",
+          "pregunta": "¿Cuál de las siguientes raíces cuadradas es la menor?",
           "opciones": [
-            "8.1",
-            "8.4",
-            "8.6",
-            "8.9"
+            "√90",
+            "√72",
+            "√105",
+            "√84"
           ],
           "respuestaCorrecta": 1,
-          "retroalimentacion": "a=8, (70−64)÷(81−64)=6÷17≈0.35, así que √70≈8.4."
-        },
-        {
-          "tipo": "llenar_frase",
-          "frase": "Usando la aproximación con un decimal, √95 ≈ ___.",
-          "respuestaCorrecta": "9.7",
-          "retroalimentacion": "a=9, (95−81)÷(100−81)=14÷19≈0.74, así que √95≈9.7."
+          "retroalimentacion": "Como 72 es el menor de los cuatro números, √72 es la raíz menor."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "La aproximación con un decimal de √130 es 11.4.",
+          "enunciado": "√130 es mayor que √110.",
           "respuestaCorrecta": true,
-          "retroalimentacion": "Correcto: a=11, (130−121)÷(144−121)=9÷23≈0.39, así que √130≈11.4."
+          "retroalimentacion": "Correcto: como 130>110, entonces √130>√110."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Al ordenar de menor a mayor las raíces de 175, 150 y 190, la raíz cuadrada más pequeña corresponde al número ___.",
+          "respuestaCorrecta": "150",
+          "retroalimentacion": "Como 150 es el menor de los tres números, √150 es la raíz más pequeña."
         },
         {
           "tipo": "relacionar_columnas",
-          "instruccion": "Relaciona cada número con su aproximación con un decimal.",
+          "instruccion": "Relaciona cada par de raíces cuadradas con la que resulta mayor.",
           "columnaA": [
-            "55",
-            "150",
-            "205",
-            "275"
+            "√56 y √81",
+            "√99 y √64",
+            "√120 y √145",
+            "√230 y √205"
           ],
           "columnaB": [
-            "7.4",
-            "12.2",
-            "14.3",
-            "16.6",
-            "9.5"
+            "√81",
+            "√99",
+            "√145",
+            "√230",
+            "√205"
           ],
           "parejasCorrectas": [
             0,
@@ -84,9 +86,95 @@
             2,
             3
           ],
-          "retroalimentacion": "√55≈7.4; √150≈12.2; √205≈14.3; √275≈16.6, siguiendo la fórmula de aproximación proporcional."
+          "retroalimentacion": "En cada pareja, la raíz mayor corresponde siempre al número más grande dentro de la raíz: 81>56, 99>64, 145>120 y 230>205."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un panadero en Guanajuato acomoda 155 conchas en una charola cuadrada organizada en cuadrícula. ¿Cuál afirmación sobre la raíz cuadrada de 155 es correcta?",
+          "opciones": [
+            "Está entre 11 y 12, más cerca de 12",
+            "Está entre 12 y 13, más cerca de 12",
+            "Está entre 12 y 13, más cerca de 13",
+            "Está entre 13 y 14, más cerca de 13"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "144<155<169, así que √155 está entre 12 y 13; el punto medio es 156.5 y como 155<156.5, está más cerca de 12."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una cooperativa agrícola en Sinaloa organiza 205 costales de semilla en una base cuadrada. ¿Cuál es la mejor aproximación con un decimal de la raíz cuadrada de 205?",
+          "opciones": [
+            "13.8",
+            "14.1",
+            "14.3",
+            "14.7"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "a=14, (205−196)÷(225−196)=9÷29≈0.31, así que √205≈14.3."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Una tienda de artesanías en Chiapas exhibe 260 piezas en un aparador cuadrado; la raíz cuadrada de 260 está más cerca de 16 que de 17.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: el intervalo de 260 es 256 (16²) y 289 (17²), con punto medio 272.5. Como 260<272.5, √260 está más cerca de 16."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En un taller mecánico de Toluca se ordenan 330 tornillos en una charola cuadrada. La raíz cuadrada de 330 está entre 18 y ___.",
+          "respuestaCorrecta": "19",
+          "retroalimentacion": "324<330<361, y como 324=18² y 361=19², entonces 18<√330<19."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación con el entero al que se acerca más la raíz cuadrada de su cantidad.",
+          "columnaA": [
+            "230 artesanías (Oaxaca)",
+            "275 piezas de cerámica (Puebla)",
+            "340 metros² (rancho jalisciense)",
+            "390 boletos (kermés poblana)"
+          ],
+          "columnaB": [
+            "15",
+            "17",
+            "18",
+            "20",
+            "16"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "retroalimentacion": "√230 se acerca más a 15 (punto medio 240.5); √275 a 17 (punto medio 272.5); √340 a 18 (punto medio 342.5); √390 a 20 (punto medio 380.5)."
         }
       ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Una fábrica de mosaicos en León, Guanajuato, organiza 620 piezas cuadradas en una base cuadrada de exhibición. Selecciona la afirmación correcta sobre √620.",
+      "opciones": [
+        "Está entre 23 y 24, más cerca de 24",
+        "Está entre 24 y 25, más cerca de 24",
+        "Está entre 24 y 25, más cerca de 25",
+        "Está entre 25 y 26, más cerca de 25"
+      ],
+      "respuestaCorrecta": 2,
+      "retroalimentacion": "576<620<625, así que √620 está entre 24 y 25; el punto medio es 600.5 y como 620>600.5, está más cerca de 25."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "En una cooperativa de tejido en Chiapas se cuentan 840 hilos organizados en una trama cuadrada. La aproximación con un decimal de la raíz cuadrada de 840 es ___.",
+      "respuestaCorrecta": "29.0",
+      "retroalimentacion": "a=28, (840−784)÷(841−784)=56÷57≈0.98, así que √840≈29.0: está prácticamente pegada al siguiente entero."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Un organizador de eventos en la Ciudad de México acomoda 999 sillas en una cuadrícula cuadrada para un concierto; la raíz cuadrada de 999 está entre 31 y 32, más cerca de 32.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: 961<999<1024, así que √999 está entre 31 y 32; el punto medio es 992.5 y como 999>992.5, está más cerca de 32."
     }
   ]
 }

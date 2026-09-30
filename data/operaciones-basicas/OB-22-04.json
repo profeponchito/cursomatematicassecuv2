@@ -1,88 +1,176 @@
 {
   "id": "OB-22-04",
   "grado": "Operaciones Básicas",
-  "numero": 172,
+  "numero": 88,
   "categoria": "mult_div",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "División de decimales — Momento 4/8",
+  "titulo": "División de decimales — Módulo 4/4",
   "contenido": "División de números decimales, incluyendo dividir un decimal entre un natural y ajustar el divisor para trabajar con números enteros.",
   "pda": "Divide números decimales, transformando el divisor decimal en un número entero cuando es necesario.",
   "problematizacion": {
-    "contexto": "En los entrenamientos de atletismo de la escuela, el profesor Iván reparte una pista de longitud conocida en un número exacto de tramos iguales para que el equipo practique relevos, aunque la longitud de cada tramo no siempre sea un número entero de metros.",
-    "pregunta": "¿Cómo encuentras la longitud exacta de cada tramo si al dividir metros entre tramos el resultado no es un número entero?"
+    "contexto": "En un puesto de tacos en el tianguis de los domingos, tres socios reparten en partes iguales la ganancia del día, y el resultado exacto en pesos no siempre cae en un número entero de centavos.\n\nEn un ejido cercano a Celaya, el encargado del sistema de riego debe repartir el agua almacenada en un tanque entre distintos surcos de cultivo, combinando cantidades decimales de litros por minuto y tiempos de riego que no siempre son números enteros.",
+    "pregunta": "¿Qué cifra decimal debes observar para decidir si redondeas hacia arriba o dejas igual el reparto en centavos de cada socio? Además: ¿Qué pasos sigues, en orden, para dividir dos cantidades decimales cuando tanto el dividendo como el divisor tienen punto decimal?"
   },
   "subtemas": [
     {
       "numero": "22.4",
-      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
-      "titulo": "De número natural a cociente decimal",
-      "explicacion": "En este momento el dividendo es un número natural (sin punto decimal), pero al dividir no siempre da un resultado exacto en números enteros. Cuando después de bajar todas las cifras del dividendo todavía sobra residuo, colocas un punto decimal en el cociente y agregas un cero al residuo para seguir dividiendo, igual que aprendiste con los decimales. Es la misma idea del momento anterior, pero ahora partes de un número natural en vez de uno que ya tenía decimales.",
+      "nivelEtiqueta": "Nivel 4 de 4 · Integración",
+      "titulo": "Aplicaciones con dinero y redondeo a centésimos y Integración: todos los casos de división con decimales",
+      "explicacion": "En la vida diaria, sobre todo con dinero, casi siempre trabajamos con dos cifras decimales (los centavos). Cuando divides una cantidad de dinero y el cociente tiene más de dos cifras decimales, debes redondearlo a centésimos: observas la cifra de las milésimas y, si es 5 o más, subes en uno la cifra de las centésimas; si es menor que 5, la dejas igual. No todas las divisiones necesitan redondeo: cuando el cociente ya termina exacto en centésimas o antes, se deja tal cual.\n\nEste último momento junta todo lo que has practicado: dividir un decimal entre un natural, agregar ceros cuando el residuo no llega a cero, y transformar un divisor decimal en entero recorriendo el punto en ambos números (con las cifras del mismo tamaño o distinto). Antes de dividir, siempre revisa primero si el divisor tiene punto decimal; si lo tiene, conviértelo en entero recorriendo el punto en los dos números, agregando ceros al dividendo si hace falta. Después aplica el algoritmo de división normal, agregando ceros al residuo hasta que termine o hasta donde te pidan.",
+      "formula": "Redondeo: si la milésima es 5 o más, sube la centésima; si es menor que 5, la centésima no cambia",
       "ejemplos": [
-        "9 ÷ 4: 9 ÷ 4 = 2 y sobran 1; como no es exacto, se pone punto decimal en el cociente y se agrega un cero al residuo (10 ÷ 4 = 2, sobran 2); se agrega otro cero (20 ÷ 4 = 5, sobra 0). El resultado es 9 ÷ 4 = 2.25.",
-        "7 ÷ 2: 7 ÷ 2 = 3 y sobra 1; con punto decimal y un cero en el residuo, 10 ÷ 2 = 5, así que 7 ÷ 2 = 3.5."
+        "$27.50 ÷ 4 personas = 6.875; la milésima es 5, así que la centésima sube de 7 a 8: el resultado redondeado es $6.88.",
+        "$45.75 ÷ 6 = 7.625; la milésima es 5, la centésima sube de 2 a 3: el resultado redondeado es $7.63.",
+        "56.25 ÷ 2.5: el divisor tiene una cifra decimal, se recorre el punto un lugar en ambos: 562.5 ÷ 25 = 22.5.",
+        "8 ÷ 0.32: el divisor tiene dos cifras decimales; se agregan dos ceros al dividendo natural (8.00) y se recorren dos lugares en ambos: 800 ÷ 32 = 25."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuánto es 9 ÷ 4?",
+          "pregunta": "Se reparten $27.50 entre 4 personas. Redondeado a centésimos, ¿cuánto le toca a cada una?",
           "opciones": [
-            "2.5",
-            "2.25",
-            "2.4",
-            "20.25"
+            "$6.87",
+            "$6.88",
+            "$6.80",
+            "$6.90"
           ],
           "respuestaCorrecta": 1,
-          "retroalimentacion": "9 ÷ 4 = 2 con residuo 1; agregando punto decimal y ceros al residuo se llega a 9 ÷ 4 = 2.25."
-        },
-        {
-          "tipo": "llenar_frase",
-          "frase": "15 ÷ 8 = ___",
-          "respuestaCorrecta": "1.875",
-          "retroalimentacion": "15 ÷ 8 = 1 con residuo 7; agregando ceros al residuo se llega a 15 ÷ 8 = 1.875."
+          "retroalimentacion": "27.50 ÷ 4 = 6.875; la milésima es 5, así que la centésima sube: $6.88."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "7 ÷ 2 = 3.5",
+          "enunciado": "15.6 ÷ 4 da exactamente 3.9, sin necesidad de redondear.",
           "respuestaCorrecta": true,
-          "retroalimentacion": "Correcto: 7 ÷ 2 = 3 con residuo 1; agregando un cero, 10 ÷ 2 = 5, así que 7 ÷ 2 = 3.5."
+          "retroalimentacion": "Correcto: 15.6 ÷ 4 = 3.9 exacto, el residuo llega a cero sin pasar de una cifra decimal."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "8.3 ÷ 3, redondeado a centésimos, es ___",
+          "respuestaCorrecta": "2.77",
+          "retroalimentacion": "8.3 ÷ 3 = 2.7666...; la milésima es 6 (mayor que 5), así que la centésima sube de 6 a 7: 2.77."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "19 ÷ 8, redondeado a centésimos, es:",
+          "opciones": [
+            "2.37",
+            "2.38",
+            "2.40",
+            "2.35"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "19 ÷ 8 = 2.375; la milésima es 5, así que la centésima sube de 7 a 8: 2.38."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "45.75 ÷ 6, redondeado a centésimos, es ___",
+          "respuestaCorrecta": "7.63",
+          "retroalimentacion": "45.75 ÷ 6 = 7.625; la milésima es 5, así que la centésima sube de 2 a 3: 7.63."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 56.25 ÷ 2.5?",
+          "opciones": [
+            "2.25",
+            "22.5",
+            "225",
+            "2.025"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Se recorre el punto un lugar en ambos: 562.5 ÷ 25 = 22.5."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "8 ÷ 0.32 = ___",
+          "respuestaCorrecta": "25",
+          "retroalimentacion": "Se agregan dos ceros al dividendo (8.00) y se recorren dos lugares en ambos: 800 ÷ 32 = 25."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "14.4 ÷ 1.6 = 9",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: se recorre el punto un lugar en ambos, 144 ÷ 16 = 9."
         },
         {
           "tipo": "relacionar_columnas",
-          "instruccion": "Relaciona cada división de naturales con su cociente decimal.",
+          "instruccion": "Relaciona cada división de decimales con su cociente correcto.",
           "columnaA": [
-            "13 ÷ 4",
-            "11 ÷ 2",
-            "17 ÷ 4"
+            "31.5 ÷ 4.5",
+            "84 ÷ 0.4",
+            "6.72 ÷ 0.8"
           ],
           "columnaB": [
-            "3.25",
-            "5.5",
-            "4.25",
-            "2.25"
+            "7",
+            "210",
+            "8.4",
+            "9"
           ],
           "parejasCorrectas": [
             0,
             1,
             2
           ],
-          "retroalimentacion": "13 ÷ 4 = 3.25; 11 ÷ 2 = 5.5; 17 ÷ 4 = 4.25. La opción 2.25 no corresponde a ninguna de estas tres."
+          "retroalimentacion": "31.5 ÷ 4.5 = 7; 84 ÷ 0.4 = 210; 6.72 ÷ 0.8 = 8.4. La opción 9 no corresponde a ninguna de estas tres."
         },
         {
-          "tipo": "opcion_multiple",
-          "pregunta": "¿Cuánto es 21 ÷ 4?",
-          "opciones": [
-            "5.25",
-            "5.2",
-            "5.5",
-            "52.5"
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "6.125"
+            },
+            {
+              "valor": "8",
+              "signo": "×"
+            },
+            {
+              "valor": "49.000",
+              "esResultado": true
+            }
           ],
-          "respuestaCorrecta": 0,
-          "retroalimentacion": "21 ÷ 4 = 5 con residuo 1; agregando ceros al residuo se llega a 21 ÷ 4 = 5.25."
+          "ocultos": [
+            [],
+            [],
+            [
+              0,
+              1,
+              3,
+              4,
+              5
+            ]
+          ],
+          "retroalimentacion": "6.125 × 8 = 49.000, es decir 49. Esto verifica que 49 ÷ 8 = 6.125."
         }
       ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuánto es 156 ÷ 0.48?",
+      "opciones": [
+        "32.5",
+        "325",
+        "3.25",
+        "3250"
+      ],
+      "respuestaCorrecta": 1,
+      "retroalimentacion": "Se agregan dos ceros al dividendo (156.00) y se recorren dos lugares en ambos: 15600 ÷ 48 = 325."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "37.5 ÷ 1.25 = ___",
+      "respuestaCorrecta": "30",
+      "retroalimentacion": "Se agrega un cero al dividendo (37.50) y se recorren dos lugares en ambos: 3750 ÷ 125 = 30."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "9.408 ÷ 2.4 = 3.92",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: se recorre el punto un lugar en ambos (94.08 ÷ 24) y al dividir se obtiene 3.92."
     }
   ]
 }

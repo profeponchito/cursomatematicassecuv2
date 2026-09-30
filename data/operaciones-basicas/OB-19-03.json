@@ -1,68 +1,134 @@
 {
   "id": "OB-19-03",
   "grado": "Operaciones Básicas",
-  "numero": 147,
+  "numero": 75,
   "categoria": "mult_div",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "División exacta de naturales (algoritmo en columna) — Momento 3/8",
+  "titulo": "División exacta de naturales (algoritmo en columna) — Módulo 3/4",
   "contenido": "El algoritmo escrito de la división de naturales cuando el residuo final es cero.",
   "pda": "Aplica el algoritmo de la división larga con números naturales en casos donde la división es exacta.",
   "problematizacion": {
-    "contexto": "Don Refugio maneja un camión foráneo y en una semana vendió 936 boletos, la misma cantidad cada uno de los 8 días que trabajó.",
-    "pregunta": "¿Cuántos boletos vendió Don Refugio cada día, usando el algoritmo de la división en columna?"
+    "contexto": "La tienda 'El Ahorro' recibió un pedido de 432 refrescos que hay que acomodar en cajas, metiendo 12 refrescos en cada caja.\n\nLupita quiere ahorrar para un viaje y guardó 2688 pesos en monedas dentro de sobres, metiendo la misma cantidad de pesos en cada uno de 24 sobres.",
+    "pregunta": "¿Cuántas cajas se necesitan para acomodar los 432 refrescos, si ahora el divisor tiene dos cifras? Además: ¿Cuántos pesos guardó Lupita en cada sobre?"
   },
   "subtemas": [
     {
       "numero": "19.3",
-      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
-      "titulo": "Algoritmo en columna: 3 cifras entre 1 cifra",
-      "explicacion": "Para dividir un número de tres cifras entre un número de una cifra, el algoritmo en columna se hace bajando las cifras del dividendo una por una, de izquierda a derecha. En cada paso divides, multiplicas, restas y bajas la siguiente cifra, hasta que ya no queden cifras por bajar. Si al final el residuo es 0, la división es exacta. Puedes comprobar tu resultado multiplicando el cociente por el divisor: debe darte de nuevo el dividendo.",
-      "formula": "cociente × divisor = dividendo (comprobación)",
+      "nivelEtiqueta": "Nivel 3 de 4 · Avanzado",
+      "titulo": "Divisor de dos cifras: primeros pasos y Dividendos más grandes, divisor de dos cifras",
+      "explicacion": "Cuando el divisor tiene dos cifras, el algoritmo funciona igual, pero necesitas estimar cuántas veces cabe el divisor completo en el grupo de cifras que vas formando del dividendo. Conviene pensar en múltiplos redondos del divisor para tantear el cociente antes de multiplicar y restar. Con práctica, esta estimación se vuelve más rápida y precisa, y sigue siendo válido comprobar multiplicando el cociente por el divisor.\n\nEl mismo algoritmo de la división en columna se aplica a dividendos de cuatro cifras: solo hay que repetir el proceso de bajar cifras una vez más. Entre más cifras tiene el dividendo, más importante es comprobar el resultado multiplicando el cociente por el divisor, sobre todo cuando el divisor tiene dos cifras y hay más posibilidades de equivocarse en alguna resta.",
       "ejemplos": [
-        "936 ÷ 8: 9 entre 8 da 1 (sobra 1); bajas el 3 y formas 13, entre 8 da 1 (sobra 5); bajas el 6 y formas 56, entre 8 da 7 exacto. Cociente: 117.",
-        "672 ÷ 6: 6 entre 6 da 1; bajas el 7, entre 6 da 1 (sobra 1); bajas el 2 y formas 12, entre 6 da 2 exacto. Cociente: 112."
+        "432 ÷ 12: 43 entre 12 da 3 (porque 12×3=36 y 12×4=48 ya se pasa); sobran 7; bajas el 2 y formas 72, entre 12 da 6 exacto. Cociente: 36.",
+        "585 ÷ 15: 58 entre 15 da 3 (15×3=45); sobran 13; bajas el 5 y formas 135, entre 15 da 9 exacto. Cociente: 39.",
+        "2688 ÷ 24: 26 entre 24 da 1; sobra 2; bajas el 8 y formas 28, entre 24 da 1; sobra 4; bajas el 8 y formas 48, entre 24 da 2 exacto. Cociente: 112.",
+        "3915 ÷ 15: 39 entre 15 da 2; sobra 9; bajas el 1 y formas 91, entre 15 da 6; sobra 1; bajas el 5 y formas 15, entre 15 da 1 exacto. Cociente: 261."
       ],
-      "puntosPorReactivo": 15,
+      "puntosPorReactivo": 20,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "Al dividir 936 ÷ 8 con el algoritmo en columna, ¿cuál es el cociente?",
+          "pregunta": "432 ÷ 12 = ?",
           "opciones": [
-            "107",
-            "117",
-            "127",
-            "113"
+            "34",
+            "36",
+            "38",
+            "32"
           ],
           "respuestaCorrecta": 1,
-          "retroalimentacion": "936 ÷ 8 = 117, porque 117 × 8 = 936."
+          "retroalimentacion": "432 ÷ 12 = 36, porque 36 × 12 = 432."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "672 ÷ 6 = ___",
-          "respuestaCorrecta": "112",
-          "retroalimentacion": "672 ÷ 6 = 112, porque 112 × 6 = 672."
+          "frase": "585 ÷ 15 = ___",
+          "respuestaCorrecta": "39",
+          "retroalimentacion": "585 ÷ 15 = 39, porque 39 × 15 = 585."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "En la división 848 ÷ 4, el cociente es 212.",
+          "enunciado": "768 ÷ 24 = 34",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso. 768 ÷ 24 = 32 (32 × 24 = 768), no 34."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada división entre un divisor de dos cifras con su cociente.",
+          "columnaA": [
+            "918 ÷ 27",
+            "720 ÷ 18",
+            "432 ÷ 12",
+            "585 ÷ 15"
+          ],
+          "columnaB": [
+            "36",
+            "39",
+            "40",
+            "34"
+          ],
+          "parejasCorrectas": [
+            3,
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "918 ÷ 27 = 34, 720 ÷ 18 = 40, 432 ÷ 12 = 36 y 585 ÷ 15 = 39."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál de estas divisiones NO es exacta?",
+          "opciones": [
+            "450 ÷ 15",
+            "460 ÷ 15",
+            "475 ÷ 19",
+            "640 ÷ 16"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "460 ÷ 15 = 30 y sobran 10 (15 × 30 = 450, no 460), así que no es exacta. Las demás sí lo son."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "2688 ÷ 24 = ?",
+          "opciones": [
+            "102",
+            "112",
+            "122",
+            "132"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "2688 ÷ 24 = 112, porque 112 × 24 = 2688."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "3915 ÷ 15 = ___",
+          "respuestaCorrecta": "261",
+          "retroalimentacion": "3915 ÷ 15 = 261, porque 261 × 15 = 3915."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "4384 ÷ 32 = 137",
           "respuestaCorrecta": true,
-          "retroalimentacion": "Verdadero. 212 × 4 = 848, la división es exacta."
+          "retroalimentacion": "Verdadero. 137 × 32 = 4384, la división es exacta."
         },
         {
           "tipo": "algoritmo_columnas",
           "operacion": "multiplicacion",
           "filas": [
             {
-              "valor": "145"
+              "valor": "137"
             },
             {
-              "valor": "3",
+              "valor": "32",
               "signo": "×"
             },
             {
-              "valor": "435",
+              "valor": "274"
+            },
+            {
+              "valor": "4110"
+            },
+            {
+              "valor": "4384",
               "esResultado": true
             }
           ],
@@ -71,36 +137,40 @@
               0
             ],
             [
-              0
+              1
             ],
             [
               1
-            ]
+            ],
+            [
+              0
+            ],
+            []
           ],
-          "retroalimentacion": "Esto verifica que 435 ÷ 3 = 145, porque 145 × 3 = 435."
+          "retroalimentacion": "Esto verifica que 4384 ÷ 32 = 137, porque 137 × 32 = 4384 (137×2=274 y 137×30=4110, que sumados dan 4384)."
         },
         {
           "tipo": "relacionar_columnas",
-          "instruccion": "Relaciona cada división de 3 cifras entre 1 cifra con su cociente.",
+          "instruccion": "Relaciona cada división de 4 cifras entre 2 cifras con su cociente.",
           "columnaA": [
-            "824 ÷ 8",
-            "963 ÷ 9",
-            "728 ÷ 8",
-            "846 ÷ 6"
+            "6072 ÷ 24",
+            "4158 ÷ 18",
+            "4300 ÷ 25",
+            "4284 ÷ 36"
           ],
           "columnaB": [
-            "107",
-            "91",
-            "141",
-            "103"
+            "172",
+            "119",
+            "253",
+            "231"
           ],
           "parejasCorrectas": [
+            2,
             3,
             0,
-            1,
-            2
+            1
           ],
-          "retroalimentacion": "824 ÷ 8 = 103, 963 ÷ 9 = 107, 728 ÷ 8 = 91 y 846 ÷ 6 = 141."
+          "retroalimentacion": "6072 ÷ 24 = 253, 4158 ÷ 18 = 231, 4300 ÷ 25 = 172 y 4284 ÷ 36 = 119."
         }
       ]
     }

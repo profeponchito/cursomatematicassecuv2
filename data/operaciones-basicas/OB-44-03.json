@@ -1,87 +1,134 @@
 {
   "id": "OB-44-03",
   "grado": "Operaciones Básicas",
-  "numero": 347,
+  "numero": 175,
   "categoria": "integracion",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Repaso integrador de operaciones básicas — Momento 3/8",
+  "titulo": "Repaso integrador de operaciones básicas — Módulo 3/4",
   "contenido": "Repaso final que mezcla suma, resta, multiplicación, división, potencias y raíces en distintos tipos de número (naturales, decimales, fracciones, con signo), como cierre del apartado.",
   "pda": "Resuelve problemas variados que integran suma, resta, multiplicación, división, potencias y raíces como repaso final del apartado.",
   "problematizacion": {
-    "contexto": "Valentina está preparando un pastel para el festival de su escuela y sigue una receta escrita en tazas y fracciones de taza. La receta pide combinar harina, azúcar y leche en distintas proporciones, y Valentina va tachando lo que ya usó.",
-    "pregunta": "Si la receta pide 3/4 de taza de harina y ella ya usó 1/2 taza, ¿qué fracción de taza le falta por agregar?"
+    "contexto": "Un entrenador de futbol organiza un torneo relámpago entre equipos de la colonia y usa una tabla de puntos donde algunos retos otorgan puntuaciones elevadas al cuadrado o al cubo, según el nivel de dificultad del reto.\n\nDon Ramiro es agricultor y tiene un terreno cuadrado donde siembra maíz. Antes de comprar la semilla necesita saber cuánto mide cada lado de su terreno a partir del área total que aparece en la escritura del predio.",
+    "pregunta": "Si un equipo supera un reto de nivel avanzado que otorga 4 elevado al cuadrado puntos, ¿cuántos puntos obtiene ese equipo por ese reto? Además: si el área del terreno cuadrado de don Ramiro es de 196 m², ¿cuántos metros mide aproximadamente cada uno de sus lados?"
   },
   "subtemas": [
     {
       "numero": "44.3",
-      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
-      "titulo": "Suma, resta, multiplicación y división de fracciones",
-      "explicacion": "En este momento repasamos suma, resta, multiplicación y división con fracciones. Para sumar o restar necesitas un común denominador; para multiplicar, basta multiplicar numerador con numerador y denominador con denominador; para dividir, se multiplica por el recíproco de la segunda fracción. Recuerda simplificar siempre que sea posible.",
-      "formula": "a/b ÷ c/d = a/b × d/c",
+      "nivelEtiqueta": "Nivel 3 de 4 · Avanzado",
+      "titulo": "Potencias con distintos tipos de número y Raíces cuadradas y cúbicas exactas",
+      "explicacion": "En este momento repasamos potencias con números naturales, decimales y con signo. Una potencia indica cuántas veces se multiplica la base por sí misma según el exponente. Con base negativa, si el exponente es par el resultado es positivo, y si el exponente es impar el resultado conserva el signo negativo.\n\nAhora repasamos raíces cuadradas y cúbicas exactas en distintos tipos de número. La raíz cuadrada de un número busca qué valor multiplicado por sí mismo da ese número, y la raíz cúbica busca qué valor multiplicado tres veces por sí mismo da el número original. También podemos sacar raíces de decimales y de fracciones cuando el resultado es exacto.",
+      "formula": "a^n = a × a × ... × a (n veces); √(a²) = a · ∛(a³) = a",
       "ejemplos": [
-        "1/4 + 1/2 = 1/4 + 2/4 = 3/4",
-        "(2/3) × (3/4) = 6/12 = 1/2"
+        "5^3 = 5 × 5 × 5 = 125",
+        "(-2)^4 = 16, porque el exponente es par",
+        "√81 = 9, porque 9 × 9 = 81",
+        "∛125 = 5, porque 5 × 5 × 5 = 125"
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuánto es 1/3 + 1/6?",
+          "pregunta": "¿Cuánto es 6^2?",
           "opciones": [
-            "2/9",
-            "1/2",
-            "1/9",
-            "2/3"
+            "12",
+            "36",
+            "64",
+            "18"
           ],
           "respuestaCorrecta": 1,
-          "retroalimentacion": "1/3 = 2/6, entonces 2/6 + 1/6 = 3/6 = 1/2."
+          "retroalimentacion": "6^2 = 6 × 6 = 36."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "3/4 - 1/2 = 1/4",
+          "enunciado": "(-3)^3 = -27",
           "respuestaCorrecta": true,
-          "retroalimentacion": "Correcto: 1/2 = 2/4, y 3/4 - 2/4 = 1/4."
+          "retroalimentacion": "Correcto: el exponente 3 es impar, así que el resultado conserva el signo negativo: (-3)×(-3)×(-3)=-27."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "2/5 × 5/8 = ___",
-          "respuestaCorrecta": "1/4",
-          "retroalimentacion": "2/5 × 5/8 = 10/40, que simplificado es 1/4."
+          "frase": "(0.5)^2 = ___",
+          "respuestaCorrecta": "0.25",
+          "retroalimentacion": "0.5 × 0.5 = 0.25."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "(-2)^4 = ___",
+          "respuestaCorrecta": "16",
+          "retroalimentacion": "El exponente 4 es par, así que el resultado es positivo: (-2)×(-2)×(-2)×(-2)=16."
         },
         {
           "tipo": "relacionar_columnas",
-          "instruccion": "Relaciona cada división de fracciones con su resultado.",
+          "instruccion": "Relaciona cada potencia con su valor.",
           "columnaA": [
-            "1/2 ÷ 1/4",
-            "2/9 ÷ 4/9",
-            "2/3 ÷ 4/9"
+            "2^5",
+            "10^2",
+            "4^3"
           ],
           "columnaB": [
-            "3/2",
-            "2",
-            "1",
-            "1/2"
+            "64",
+            "100",
+            "32",
+            "81"
           ],
           "parejasCorrectas": [
+            2,
             1,
-            3,
             0
           ],
-          "retroalimentacion": "1/2÷1/4=2; 2/9÷4/9=1/2; 2/3÷4/9=3/2 (se multiplica por el recíproco del divisor)."
+          "retroalimentacion": "2^5=32; 10^2=100; 4^3=64."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuál es el resultado de 7/8 - 3/8?",
+          "pregunta": "¿Cuánto es √144?",
           "opciones": [
-            "1/4",
-            "1/2",
-            "1",
-            "5/8"
+            "14",
+            "12",
+            "72",
+            "24"
           ],
           "respuestaCorrecta": 1,
-          "retroalimentacion": "Como tienen el mismo denominador, solo se restan los numeradores: 7/8 - 3/8 = 4/8 = 1/2."
+          "retroalimentacion": "√144 = 12, porque 12 × 12 = 144."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "∛27 = 3",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 3 × 3 × 3 = 27."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "√0.36 = ___",
+          "respuestaCorrecta": "0.6",
+          "retroalimentacion": "0.6 × 0.6 = 0.36, así que √0.36 = 0.6."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "√(4/25) = ___",
+          "respuestaCorrecta": "2/5",
+          "retroalimentacion": "Se saca la raíz del numerador y del denominador por separado: √4=2 y √25=5, entonces √(4/25)=2/5."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada raíz con su resultado.",
+          "columnaA": [
+            "√169",
+            "∛64",
+            "√225"
+          ],
+          "columnaB": [
+            "15",
+            "4",
+            "13",
+            "20"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "√169=13; ∛64=4; √225=15."
         }
       ]
     }

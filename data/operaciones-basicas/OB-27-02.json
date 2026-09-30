@@ -1,87 +1,178 @@
 {
   "id": "OB-27-02",
   "grado": "Operaciones Básicas",
-  "numero": 210,
+  "numero": 106,
   "categoria": "mult_div",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Multiplicación y división en la vida cotidiana — Momento 2/8",
+  "titulo": "Multiplicación y división en la vida cotidiana — Módulo 2/4",
   "contenido": "Multiplicación y división aplicadas a situaciones cotidianas: repartos, precios unitarios, escalas y recetas.",
   "pda": "Resuelve problemas cotidianos de reparto, precio unitario y proporciones sencillas usando multiplicación y división.",
   "problematizacion": {
-    "contexto": "En la escuela secundaria técnica, el profesor Ramírez organiza a sus alumnos en equipos para un proyecto de ciencias y necesita repartir el material de laboratorio en partes exactamente iguales.",
-    "pregunta": "Si el profesor tiene 54 tubos de ensayo y arma 6 equipos, ¿cuántos tubos le tocan a cada equipo, sin que sobre ninguno?"
+    "contexto": "En la tienda de abarrotes del barrio, Toño quiere comprar plumas para el nuevo ciclo escolar y ve dos presentaciones distintas: una bolsa con varias plumas por un precio total, y plumas sueltas con precio individual.\n\nUna fábrica de conservas en Jalisco empaca frascos de mermelada en cajas para enviarlas a varias tiendas de la región. El encargado de logística necesita calcular cuántos frascos salen del almacén cada semana.",
+    "pregunta": "¿Cómo puede saber Toño cuál opción le conviene más comprar? Además: si cada caja lleva 24 frascos y esta semana se despacharon 18 cajas, ¿cómo puede calcular el encargado el total de frascos enviados?"
   },
   "subtemas": [
     {
       "numero": "27.2",
-      "nivelEtiqueta": "Nivel 2 de 8 · Básico",
-      "titulo": "Dividir para repartir sin que sobre nada",
-      "explicacion": "Dividir sirve para repartir una cantidad en partes iguales, por ejemplo cuando un maestro reparte material entre equipos o una familia reparte comida entre sus integrantes. En una división exacta, cada parte recibe la misma cantidad y no sobra nada. Toda división exacta tiene su multiplicación relacionada: si 48 ÷ 6 = 8, entonces 8 × 6 = 48, y esa multiplicación sirve para comprobar el resultado. Identificar cuándo una situación pide \"repartir en partes iguales\" es la clave para saber que se debe dividir.",
-      "formula": "cantidad por parte = total ÷ número de partes",
+      "nivelEtiqueta": "Nivel 2 de 4 · Intermedio",
+      "titulo": "Precio unitario: ¿cuánto cuesta uno solo? y Multiplicar por números de dos cifras para escalar cantidades",
+      "explicacion": "El precio unitario es lo que cuesta UNA sola pieza cuando se conoce el precio de un paquete completo, y se calcula dividiendo el precio total entre la cantidad de piezas. Este cálculo es muy útil para comparar ofertas y decidir qué opción conviene más al comprar. Por ejemplo, si un paquete de 4 plumas cuesta $60, cada pluma cuesta 60 ÷ 4 = $15. Comparar precios unitarios, en vez de solo precios totales, evita comprar de más o pagar más caro por lo mismo.\n\nCuando el multiplicador tiene dos cifras (como 18 o 23), se usa el algoritmo escrito con productos parciales: se multiplica primero por las unidades del multiplicador, luego por las decenas (recorriendo un lugar hacia la izquierda), y al final se suman esos productos parciales. Este procedimiento es indispensable para escalar cantidades más grandes en la vida real, como calcular la producción total de una fábrica o los pasajeros transportados en muchos viajes. Practicarlo con cuidado evita errores de acomodo de cifras, que son la causa más común de equivocarse en estos problemas.",
+      "formula": "precio unitario = precio total ÷ cantidad de piezas; producto = (multiplicando × unidades del multiplicador) + (multiplicando × decenas del multiplicador, recorrido un lugar)",
       "ejemplos": [
-        "Un maestro reparte 48 colores entre 6 equipos por igual: 48 ÷ 6 = 8 colores para cada equipo.",
-        "Comprobación: 8 colores por equipo × 6 equipos = 48 colores en total."
+        "Un paquete de 4 plumas cuesta $60, así que cada pluma cuesta 60 ÷ 4 = $15.",
+        "Comprobación con multiplicación: $15 por pluma × 4 plumas = $60, que es el precio del paquete.",
+        "34 × 16: primero 34 × 6 = 204, luego 34 × 10 = 340 (recorrido), y se suman: 204 + 340 = 544.",
+        "24 × 18 = 432, calculado igual: 24 × 8 = 192 y 24 × 10 = 240, y 192 + 240 = 432."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "Un maestro reparte 48 colores entre 6 equipos por igual. ¿Cuántos colores recibe cada equipo?",
+          "pregunta": "En la papelería, un paquete de 4 plumas cuesta $60. ¿Cuánto cuesta cada pluma?",
           "opciones": [
-            "6",
-            "7",
-            "8",
-            "9"
+            "$12",
+            "$15",
+            "$18",
+            "$20"
           ],
-          "respuestaCorrecta": 2,
-          "retroalimentacion": "48 ÷ 6 = 8 colores para cada equipo, porque 8 × 6 = 48."
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "60 ÷ 4 = $15 por pluma."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "Si 72 tamales se reparten entre 8 familias por igual, cada familia recibe ___ tamales.",
-          "respuestaCorrecta": "9",
-          "retroalimentacion": "72 ÷ 8 = 9 tamales por familia, porque 9 × 8 = 72."
+          "frase": "Si 5 kilos de manzana cuestan $75 en total, el precio de 1 kilo es de $___.",
+          "respuestaCorrecta": "15",
+          "retroalimentacion": "75 ÷ 5 = $15 por kilo."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "63 ÷ 7 = 9 porque 9 × 7 = 63.",
+          "enunciado": "Si 3 boletos de camión cuestan $54 en total, entonces cada boleto cuesta $18.",
           "respuestaCorrecta": true,
-          "retroalimentacion": "Correcto: toda división exacta se puede comprobar multiplicando el resultado por el divisor."
+          "retroalimentacion": "Correcto: 54 ÷ 3 = $18 por boleto."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una bolsa de 6 panes cuesta $48. En otra tienda venden cada pan suelto a $9. ¿Qué opción conviene más?",
+          "opciones": [
+            "La bolsa, porque cada pan sale en $8",
+            "El pan suelto, porque cuesta $9",
+            "Cuestan exactamente lo mismo",
+            "No se puede saber sin más datos"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "48 ÷ 6 = $8 por pan en la bolsa, que es menos que los $9 del pan suelto, así que la bolsa conviene más."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "90"
+            },
+            {
+              "valor": "3",
+              "signo": "×"
+            },
+            {
+              "valor": "270",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [],
+            [
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "retroalimentacion": "Esto verifica que 270 ÷ 3 = 90, porque 90 × 3 = 270: cada llanta de ese paquete de 3 cuesta $90."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una fábrica de conservas produce 24 frascos por caja. Si empaca 18 cajas, ¿cuántos frascos produce en total?",
+          "opciones": [
+            "402",
+            "412",
+            "432",
+            "442"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "24 × 18 = 432 frascos en total."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "Un autobús escolar transporta 45 alumnos por viaje. Contando cada viaje por separado, en 23 viajes transporta a ___ alumnos en total.",
+          "respuestaCorrecta": "1035",
+          "retroalimentacion": "45 × 23 = 1035 traslados de alumnos en total."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "36 × 27 = 972.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 36 × 7 = 252 y 36 × 20 = 720; 252 + 720 = 972."
+        },
+        {
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "34"
+            },
+            {
+              "valor": "16",
+              "signo": "×"
+            },
+            {
+              "valor": "204"
+            },
+            {
+              "valor": "340"
+            },
+            {
+              "valor": "544",
+              "esResultado": true
+            }
+          ],
+          "ocultos": [
+            [
+              1
+            ],
+            [
+              0
+            ],
+            [],
+            [],
+            [
+              0
+            ]
+          ],
+          "retroalimentacion": "34 × 16 = 544: el producto parcial 34 × 6 = 204, el producto parcial 34 × 10 = 340, y 204 + 340 = 544."
         },
         {
           "tipo": "relacionar_columnas",
-          "instruccion": "Relaciona cada división con su resultado correcto.",
+          "instruccion": "Relaciona cada multiplicación con su resultado correcto.",
           "columnaA": [
-            "54 ÷ 6",
-            "32 ÷ 4",
-            "30 ÷ 5"
+            "27 × 14",
+            "19 × 16",
+            "23 × 12"
           ],
           "columnaB": [
-            "6",
-            "8",
-            "9",
-            "7"
+            "276",
+            "304",
+            "378",
+            "350"
           ],
           "parejasCorrectas": [
             2,
             1,
             0
           ],
-          "retroalimentacion": "54 ÷ 6 = 9, 32 ÷ 4 = 8 y 30 ÷ 5 = 6. El \"7\" era una opción extra que no corresponde a ninguna división."
-        },
-        {
-          "tipo": "opcion_multiple",
-          "pregunta": "Un rancho tiene 96 huevos y los acomoda en cartones de 12. ¿Cuántos cartones llena por completo?",
-          "opciones": [
-            "9",
-            "8",
-            "7",
-            "6"
-          ],
-          "respuestaCorrecta": 1,
-          "retroalimentacion": "96 ÷ 12 = 8 cartones completos, porque 8 × 12 = 96."
+          "retroalimentacion": "27 × 14 = 378, 19 × 16 = 304 y 23 × 12 = 276. El \"350\" era una opción extra que no corresponde a ninguna multiplicación."
         }
       ]
     }

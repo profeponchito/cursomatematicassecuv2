@@ -1,104 +1,140 @@
 {
   "id": "OB-44-02",
   "grado": "Operaciones Básicas",
-  "numero": 346,
+  "numero": 174,
   "categoria": "integracion",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Repaso integrador de operaciones básicas — Momento 2/8",
+  "titulo": "Repaso integrador de operaciones básicas — Módulo 2/4",
   "contenido": "Repaso final que mezcla suma, resta, multiplicación, división, potencias y raíces en distintos tipos de número (naturales, decimales, fracciones, con signo), como cierre del apartado.",
   "pda": "Resuelve problemas variados que integran suma, resta, multiplicación, división, potencias y raíces como repaso final del apartado.",
   "problematizacion": {
-    "contexto": "Don Herminio vende fruta a granel en el mercado sobre ruedas de su colonia. Cada mañana pesa la fruta en su báscula y anota el precio por kilogramo, que casi siempre trae decimales, para no cobrar de más ni de menos a sus clientas.",
-    "pregunta": "Si una clienta compra 2.5 kg de manzana y 1.8 kg de plátano, ¿cuántos kilogramos de fruta se lleva en total?"
+    "contexto": "Valentina está preparando un pastel para el festival de su escuela y sigue una receta escrita en tazas y fracciones de taza. La receta pide combinar harina, azúcar y leche en distintas proporciones, y Valentina va tachando lo que ya usó.\n\nEn la estación meteorológica de Chihuahua se registran las temperaturas de una semana de invierno. Durante la madrugada suelen bajar de cero grados y por la tarde vuelven a subir, así que el encargado anota cada cambio con su signo correspondiente.",
+    "pregunta": "Si la receta pide 3/4 de taza de harina y ella ya usó 1/2 taza, ¿qué fracción de taza le falta por agregar? Además: si a las 6 de la mañana el termómetro marcaba -8 °C y para el mediodía la temperatura subió 11 grados, ¿qué temperatura hay al mediodía?"
   },
   "subtemas": [
     {
       "numero": "44.2",
-      "nivelEtiqueta": "Nivel 2 de 8 · Básico",
-      "titulo": "Suma, resta, multiplicación y división con decimales",
-      "explicacion": "Ahora practicamos las mismas cuatro operaciones, pero con números decimales. La clave es alinear el punto decimal en la suma y la resta, y contar correctamente las cifras decimales al multiplicar o dividir. Un descuido en el acomodo del punto puede cambiar por completo el resultado, así que revisa siempre cuántos decimales debe llevar tu respuesta.",
-      "formula": "En la multiplicación de decimales, el resultado lleva tantas cifras decimales como la suma de las cifras decimales de los factores.",
+      "nivelEtiqueta": "Nivel 2 de 4 · Intermedio",
+      "titulo": "Suma, resta, multiplicación y división de fracciones y Suma, resta, multiplicación y división con signos",
+      "explicacion": "En este momento repasamos suma, resta, multiplicación y división con fracciones. Para sumar o restar necesitas un común denominador; para multiplicar, basta multiplicar numerador con numerador y denominador con denominador; para dividir, se multiplica por el recíproco de la segunda fracción. Recuerda simplificar siempre que sea posible.\n\nAquí repasamos las cuatro operaciones con números con signo, positivos y negativos. Recuerda las reglas: al sumar números de signo distinto se restan sus valores absolutos y se conserva el signo del que tiene mayor valor absoluto; al multiplicar o dividir, signos iguales dan un resultado positivo y signos distintos dan un resultado negativo. Estas reglas también aplican para decimales y fracciones con signo.",
+      "formula": "a/b ÷ c/d = a/b × d/c; (+)×(+)=+ · (-)×(-)=+ · (+)×(-)=- · (-)×(+)=-",
       "ejemplos": [
-        "4.5 + 3.27 = 7.77 (se alinean los puntos decimales antes de sumar)",
-        "12.6 ÷ 3 = 4.2"
+        "1/4 + 1/2 = 1/4 + 2/4 = 3/4",
+        "(2/3) × (3/4) = 6/12 = 1/2",
+        "(-8) + 5 = -3",
+        "(-6) × (-4) = 24"
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuánto es 8.4 + 5.75?",
+          "pregunta": "¿Cuánto es 1/3 + 1/6?",
           "opciones": [
-            "13.15",
-            "14.15",
-            "14.05",
-            "13.25"
+            "2/9",
+            "1/2",
+            "1/9",
+            "2/3"
           ],
           "respuestaCorrecta": 1,
-          "retroalimentacion": "8.4 se escribe 8.40 para alinear los decimales: 8.40 + 5.75 = 14.15."
+          "retroalimentacion": "1/3 = 2/6, entonces 2/6 + 1/6 = 3/6 = 1/2."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "9.6 - 3.45 = 6.15",
+          "enunciado": "3/4 - 1/2 = 1/4",
           "respuestaCorrecta": true,
-          "retroalimentacion": "Correcto: 9.60 - 3.45 = 6.15."
+          "retroalimentacion": "Correcto: 1/2 = 2/4, y 3/4 - 2/4 = 1/4."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "3.2 × 1.5 = ___",
-          "respuestaCorrecta": "4.8",
-          "retroalimentacion": "32 × 15 = 480; como hay una cifra decimal en cada factor (2 en total), el resultado es 4.80, es decir 4.8."
-        },
-        {
-          "tipo": "algoritmo_columnas",
-          "operacion": "suma",
-          "filas": [
-            {
-              "valor": "12.75"
-            },
-            {
-              "valor": "34.60",
-              "signo": "+"
-            },
-            {
-              "valor": "47.35",
-              "esResultado": true
-            }
-          ],
-          "ocultos": [
-            [
-              1
-            ],
-            [
-              4
-            ],
-            [
-              0
-            ]
-          ],
-          "retroalimentacion": "12.75 + 34.60 = 47.35: se suma cada columna alineando el punto decimal, sin ocultar dos cifras de la misma columna."
+          "frase": "2/5 × 5/8 = ___",
+          "respuestaCorrecta": "1/4",
+          "retroalimentacion": "2/5 × 5/8 = 10/40, que simplificado es 1/4."
         },
         {
           "tipo": "relacionar_columnas",
-          "instruccion": "Relaciona cada operación con decimales con su resultado.",
+          "instruccion": "Relaciona cada división de fracciones con su resultado.",
           "columnaA": [
-            "7.2 ÷ 4",
-            "0.6 × 5",
-            "5.4 ÷ 6"
+            "1/2 ÷ 1/4",
+            "2/9 ÷ 4/9",
+            "2/3 ÷ 4/9"
           ],
           "columnaB": [
-            "0.9",
-            "3.0",
-            "4.2",
-            "1.8"
+            "3/2",
+            "2",
+            "1",
+            "1/2"
           ],
           "parejasCorrectas": [
-            3,
             1,
+            3,
             0
           ],
-          "retroalimentacion": "7.2÷4=1.8, 0.6×5=3.0 y 5.4÷6=0.9."
+          "retroalimentacion": "1/2÷1/4=2; 2/9÷4/9=1/2; 2/3÷4/9=3/2 (se multiplica por el recíproco del divisor)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado de 7/8 - 3/8?",
+          "opciones": [
+            "1/4",
+            "1/2",
+            "1",
+            "5/8"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Como tienen el mismo denominador, solo se restan los numeradores: 7/8 - 3/8 = 4/8 = 1/2."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es -12 + 7?",
+          "opciones": [
+            "5",
+            "-5",
+            "-19",
+            "19"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Los signos son distintos, así que se restan los valores absolutos (12-7=5) y se conserva el signo del mayor: -5."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "-9 - (-4) = -5",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: restar -4 es lo mismo que sumar 4, entonces -9 + 4 = -5."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "(-8) × (-3) = ___",
+          "respuestaCorrecta": "24",
+          "retroalimentacion": "Signos iguales (ambos negativos) dan resultado positivo: 24."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada operación con signo con su resultado.",
+          "columnaA": [
+            "-15 + 20",
+            "-6 × 5",
+            "18 ÷ (-3)"
+          ],
+          "columnaB": [
+            "-30",
+            "-6",
+            "5",
+            "10"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "-15+20=5; -6×5=-30; 18÷(-3)=-6."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "(-7) × (-7) = -49",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: signos iguales dan resultado positivo, así que (-7)×(-7)=49, no -49."
         }
       ]
     }

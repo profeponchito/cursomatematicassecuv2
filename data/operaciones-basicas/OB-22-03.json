@@ -1,93 +1,131 @@
 {
   "id": "OB-22-03",
   "grado": "Operaciones Básicas",
-  "numero": 171,
+  "numero": 87,
   "categoria": "mult_div",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "División de decimales — Momento 3/8",
+  "titulo": "División de decimales — Módulo 3/4",
   "contenido": "División de números decimales, incluyendo dividir un decimal entre un natural y ajustar el divisor para trabajar con números enteros.",
   "pda": "Divide números decimales, transformando el divisor decimal en un número entero cuando es necesario.",
   "problematizacion": {
-    "contexto": "En una gasolinera sobre la carretera a Toluca, un grupo de amigos que viajan en un solo coche quiere repartir en partes iguales el costo de la gasolina que llenaron, aunque el resultado no dé un número exacto de un solo decimal.",
-    "pregunta": "Si el residuo no llega a cero al dividir, ¿qué debes hacer para seguir encontrando cifras decimales del cociente?"
+    "contexto": "En su taller de costura en Puebla, la señora Aurora corta piezas de listón de la misma longitud decimal a partir de un rollo, y necesita saber cuántas piezas completas obtiene dividiendo la longitud total del rollo entre la longitud de cada pieza.\n\nEn una tienda de abarrotes en Guanajuato, don Efraín recibe un costal de arroz y necesita repartirlo en bolsas de un peso decimal fijo para venderlas por separado, aunque el peso del costal y el de cada bolsa no tengan la misma cantidad de cifras decimales.",
+    "pregunta": "¿Qué haces primero con el punto decimal del divisor antes de dividir la longitud del rollo entre la longitud de cada pieza? Además: ¿Qué debes hacer si al recorrer el punto decimal del divisor te faltan cifras en el dividendo para completar el corrimiento?"
   },
   "subtemas": [
     {
       "numero": "22.3",
-      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
-      "titulo": "Cuando sobra residuo: se agrega un cero",
-      "explicacion": "A veces, al dividir un decimal entre un natural, después de bajar todas las cifras del dividendo todavía queda un residuo distinto de cero. En ese caso no te detienes: agregas un cero al residuo (como si el dividendo tuviera una cifra decimal más, que vale cero) y sigues dividiendo. Puedes repetir este paso varias veces hasta que el residuo llegue a cero. Por eso el cociente puede terminar con más cifras decimales de las que tenía el dividendo original.",
+      "nivelEtiqueta": "Nivel 3 de 4 · Avanzado",
+      "titulo": "Divisor decimal: conviértelo en número entero y Cuando el dividendo también necesita ceros extra",
+      "explicacion": "Cuando el divisor también tiene punto decimal, el primer paso es transformarlo en un número entero. Para lograrlo, recorres el punto decimal del divisor hacia la derecha hasta que desaparezca, y recorres el punto del dividendo exactamente la misma cantidad de lugares (esto equivale a multiplicar ambos números por 10, 100, etc.). En este momento el dividendo tiene la misma cantidad de cifras decimales que el divisor, así que al recorrer el punto en ambos, los dos se vuelven números enteros de manera exacta.\n\nAhora el dividendo y el divisor no tienen la misma cantidad de cifras decimales. Recorres el punto del divisor hasta hacerlo entero, y recorres el punto del dividendo esa misma cantidad de lugares; pero si al dividendo le faltan cifras, agregas ceros a la derecha para completar el corrimiento. Este paso combina lo que ya sabes: convertir el divisor en entero (momento anterior) y agregar ceros cuando faltan cifras (momento 3), ahora aplicado antes de empezar a dividir.",
+      "formula": "Recorre el punto del divisor hasta hacerlo entero; recorre el punto del dividendo el mismo número de lugares",
       "ejemplos": [
-        "7.5 ÷ 4: 75 ÷ 4 = 18 y sobran 3; se agrega un cero al residuo (30 ÷ 4 = 7, sobran 2); se agrega otro cero (20 ÷ 4 = 5, sobra 0). El cociente completo es 7.5 ÷ 4 = 1.875.",
-        "5.4 ÷ 8: 54 ÷ 8 = 6 y sobran 6; agregando ceros al residuo se sigue dividiendo hasta llegar a 5.4 ÷ 8 = 0.675."
+        "3.6 ÷ 1.2: ambos tienen una cifra decimal, así que se recorre el punto un lugar en los dos (multiplicar por 10): 36 ÷ 12 = 3. Entonces 3.6 ÷ 1.2 = 3.",
+        "4.8 ÷ 0.6: se recorre el punto un lugar en ambos: 48 ÷ 6 = 8. Entonces 4.8 ÷ 0.6 = 8.",
+        "3.5 ÷ 0.25: el divisor tiene dos cifras decimales, así que se recorre el punto dos lugares en ambos; como 3.5 solo tiene una cifra decimal, se le agrega un cero: 3.50 se convierte en 350, y 0.25 en 25. Entonces 3.5 ÷ 0.25 = 350 ÷ 25 = 14.",
+        "6 ÷ 1.5: el divisor tiene una cifra decimal; se agrega un cero al dividendo natural: 6.0 se convierte en 60, y 1.5 en 15. Entonces 6 ÷ 1.5 = 60 ÷ 15 = 4."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuánto es 7.5 ÷ 4?",
+          "pregunta": "¿Cuánto es 3.6 ÷ 1.2?",
           "opciones": [
-            "1.75",
-            "1.875",
-            "18.75",
-            "1.85"
+            "3",
+            "0.3",
+            "30",
+            "1.3"
           ],
-          "respuestaCorrecta": 1,
-          "retroalimentacion": "75 ÷ 4 = 18 con residuo 3; agregando ceros al residuo se sigue dividiendo hasta 7.5 ÷ 4 = 1.875."
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Se recorre el punto un lugar en ambos números: 36 ÷ 12 = 3. Entonces 3.6 ÷ 1.2 = 3."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "5.4 ÷ 8 = ___",
-          "respuestaCorrecta": "0.675",
-          "retroalimentacion": "54 ÷ 8 = 6 con residuo 6; agregando ceros al residuo se llega a 5.4 ÷ 8 = 0.675."
+          "frase": "4.8 ÷ 0.6 = ___",
+          "respuestaCorrecta": "8",
+          "retroalimentacion": "Se recorre el punto un lugar en ambos: 48 ÷ 6 = 8. Entonces 4.8 ÷ 0.6 = 8."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "3.5 ÷ 4 = 0.875",
+          "enunciado": "9.6 ÷ 1.6 = 6",
           "respuestaCorrecta": true,
-          "retroalimentacion": "Correcto: 35 ÷ 4 = 8 con residuo 3; agregando ceros al residuo se llega a 3.5 ÷ 4 = 0.875."
+          "retroalimentacion": "Correcto: al recorrer el punto un lugar en ambos, 96 ÷ 16 = 6."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuánto es 1.5 ÷ 4?",
+          "pregunta": "¿Cuánto es 8.75 ÷ 1.25?",
           "opciones": [
-            "0.375",
-            "3.75",
-            "0.35",
-            "0.475"
+            "7",
+            "0.7",
+            "70",
+            "6.5"
           ],
           "respuestaCorrecta": 0,
-          "retroalimentacion": "15 ÷ 4 = 3 con residuo 3; agregando ceros al residuo se llega a 1.5 ÷ 4 = 0.375."
+          "retroalimentacion": "Se recorre el punto dos lugares en ambos (multiplicar por 100): 875 ÷ 125 = 7."
         },
         {
-          "tipo": "algoritmo_columnas",
-          "operacion": "multiplicacion",
-          "filas": [
-            {
-              "valor": "1.125"
-            },
-            {
-              "valor": "4",
-              "signo": "×"
-            },
-            {
-              "valor": "4.500",
-              "esResultado": true
-            }
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada división con su cociente, después de convertir el divisor en número entero.",
+          "columnaA": [
+            "12.6 ÷ 4.2",
+            "15 ÷ 2.5",
+            "22.4 ÷ 3.2"
           ],
-          "ocultos": [
-            [],
-            [],
-            [
-              0,
-              2,
-              3,
-              4
-            ]
+          "columnaB": [
+            "3",
+            "6",
+            "7",
+            "4"
           ],
-          "retroalimentacion": "1.125 × 4 = 4.500, es decir 4.5. Esto verifica que 4.5 ÷ 4 = 1.125."
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "12.6 ÷ 4.2 = 3; 15 ÷ 2.5 = 6; 22.4 ÷ 3.2 = 7. La opción 4 no corresponde a ninguna de estas tres."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 3.5 ÷ 0.25?",
+          "opciones": [
+            "1.4",
+            "14",
+            "140",
+            "0.14"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Se agrega un cero al dividendo (3.50) y se recorre el punto dos lugares en ambos: 350 ÷ 25 = 14."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "6 ÷ 1.5 = ___",
+          "respuestaCorrecta": "4",
+          "retroalimentacion": "Se agrega un cero al dividendo natural (6.0) y se recorre el punto un lugar en ambos: 60 ÷ 15 = 4."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "4.8 ÷ 0.15 = 32",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: se agrega un cero al dividendo (4.80) y se recorren dos lugares en ambos: 480 ÷ 15 = 32."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 2.5 ÷ 1.25?",
+          "opciones": [
+            "2",
+            "0.2",
+            "20",
+            "1.25"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Se agrega un cero al dividendo (2.50) y se recorren dos lugares en ambos: 250 ÷ 125 = 2."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "9 ÷ 0.36 = ___",
+          "respuestaCorrecta": "25",
+          "retroalimentacion": "Se agregan dos ceros al dividendo natural (9.00) y se recorren dos lugares en ambos: 900 ÷ 36 = 25."
         }
       ]
     }

@@ -1,74 +1,173 @@
 {
   "id": "OB-25-04",
   "grado": "Operaciones Básicas",
-  "numero": 196,
+  "numero": 100,
   "categoria": "mult_div",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Estimación antes de multiplicar y dividir — Momento 4/8",
+  "titulo": "Estimación antes de multiplicar y dividir — Módulo 4/4",
   "contenido": "Estimación del resultado de una multiplicación o división mediante redondeo, para verificar si un cálculo exacto es razonable.",
   "pda": "Estima el resultado de multiplicaciones y divisiones mediante redondeo y lo usa para verificar la razonabilidad de un cálculo.",
   "problematizacion": {
-    "contexto": "Una empresa maquiladora debe trasladar a 341 trabajadores del turno matutino a la planta, en camionetas que caben 6 personas cada una. Mientras tanto, en el almacén hay que repartir 436 cascos de seguridad entre 8 cuadrillas de mantenimiento.",
-    "pregunta": "Redondeando 341 a la decena más cercana, ¿aproximadamente cuántas camionetas de 6 asientos se necesitan para trasladar a los 341 trabajadores?"
+    "contexto": "Un maestro de obra recibió un pedido de 3,215 varillas de acero, que debe repartir en partes iguales entre 7 cuadrillas de trabajo antes de empezar el día.\n\nUna fábrica de calzado produce 2,340 pares de zapatos al día. El gerente quiere estimar, antes de revisar el reporte exacto, cuántos pares se producen en 5 días de trabajo.",
+    "pregunta": "Usando un número compatible cercano a 3,215, ¿aproximadamente cuántas varillas le tocarán a cada cuadrilla? Además: redondeando 2,340 a la centena más cercana, ¿cuál es una buena estimación de la producción en 5 días?"
   },
   "subtemas": [
     {
       "numero": "25.4",
-      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
-      "titulo": "Estima multiplicaciones y divisiones con números de tres cifras",
-      "explicacion": "Ya sabes estimar multiplicaciones y divisiones por separado; ahora vas a practicar ambas en el mismo momento, con números de tres cifras. Para las multiplicaciones, redondea el número más grande a la centena más cercana. Para las divisiones, busca un número compatible cercano al dividendo que se divida exacto entre el divisor. Reconocer qué operación tienes enfrente y aplicar la estrategia correcta es la clave de este nivel.",
-      "formula": "multiplicación: factor × (redondeo a la centena) · división: (compatible) ÷ divisor",
+      "nivelEtiqueta": "Nivel 4 de 4 · Integración",
+      "titulo": "Elige la mejor estrategia de estimación con números grandes y Integra la estimación para revisar cálculos complejos",
+      "explicacion": "Con números grandes (de miles), redondear a la decena ya no sirve de mucho: conviene redondear a la centena o al millar más cercano, según qué tan preciso necesites que sea tu estimación. Redondear a la centena suele dar una estimación más ajustada; redondear al millar es más rápido pero menos preciso. Para divisiones con números grandes, seguimos usando números compatibles, buscando un múltiplo cercano del divisor. En este nivel vas a decidir qué tipo de redondeo o qué número compatible conviene más en cada caso.\n\nEste es el momento más integrador del tema: vas a combinar todo lo que practicaste —multiplicaciones y divisiones, números grandes y decimales— para estimar resultados y detectar si un cálculo exacto es razonable o tiene un error. También vas a decidir, según la situación, qué estrategia de estimación conviene usar: redondeo a la centena o al millar, números compatibles, o redondeo de decimales. Dominar este nivel significa que puedes usar la estimación como una herramienta real para revisar tu propio trabajo o el de alguien más.",
       "ejemplos": [
-        "Para estimar 6 × 294: redondeamos 294 a 300 y calculamos 6 × 300 = 1800 (el resultado exacto es 1764).",
-        "Para estimar 515 ÷ 8: el compatible más cercano es 512 (8 × 64 = 512), así que la estimación es 512 ÷ 8 = 64."
+        "Para estimar 2,847 × 6: redondeando a la centena (2800) obtenemos 6 × 2800 = 16800, muy cerca del resultado exacto 17082.",
+        "Para estimar 7,215 ÷ 9: el número compatible más cercano es 7200 (9 × 800 = 7200), así que la estimación es 800.",
+        "Una alumna calculó 48 × 213 y obtuvo 1,022,400. Al estimar 50 × 200 = 10,000, la diferencia es enorme: el resultado real ronda 10,224, así que hay un error (sobran dos ceros).",
+        "Para estimar 486.5 ÷ 5: redondeamos 486.5 a 490 (compatible con 5) y calculamos 490 ÷ 5 = 98, muy cerca del resultado exacto 97.3."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "Para estimar 6 × 294, redondeamos 294 a la centena más cercana. ¿Cuál es la estimación?",
+          "pregunta": "Para estimar 2847 × 6 redondeando 2847 a la centena más cercana (2800), la estimación es 6 × 2800 = ___.",
           "opciones": [
-            "1700",
-            "1800",
-            "1900",
-            "1600"
+            "16200",
+            "16800",
+            "17400",
+            "18000"
           ],
           "respuestaCorrecta": 1,
-          "retroalimentacion": "294 se redondea a 300, y 6 × 300 = 1800. El resultado exacto es 1764."
+          "retroalimentacion": "6 × 2800 = 16800. El resultado exacto de 2847 × 6 es 17082, muy cerca de la estimación."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "Para estimar 515 ÷ 8, usamos el compatible 512 (512 ÷ 8 = 64 es exacto): 512 ÷ 8 = ___.",
-          "respuestaCorrecta": "64",
-          "retroalimentacion": "512 ÷ 8 = 64. El resultado exacto de 515 ÷ 8 es 64.375, muy cerca de la estimación."
+          "frase": "Para estimar 5,437 ÷ 8, el número compatible más cercano es 5,432 (porque 5432 ÷ 8 = 679 es exacto). Escribe la estimación: 5432 ÷ 8 = ___.",
+          "respuestaCorrecta": "679",
+          "retroalimentacion": "5432 ÷ 8 = 679. El resultado exacto de 5437 ÷ 8 es aproximadamente 679.6, muy cerca de la estimación."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "Para estimar 7 × 386, Jorge redondeó 386 a 400 y calculó 7 × 400 = 2800. Verdadero o falso: 2800 es una estimación razonable de 7 × 386 (cuyo resultado exacto es 2702).",
-          "respuestaCorrecta": true,
-          "retroalimentacion": "Verdadero. La diferencia entre 2800 y 2702 es de solo 98, así que la estimación es razonable."
+          "enunciado": "Para estimar 3,912 × 4, Kevin redondeó 3912 al millar más cercano (4000) y obtuvo 4 × 4000 = 16000. El resultado exacto es 15648. Verdadero o falso: la estimación por millar (16000) es más precisa que si hubiera redondeado a la centena más cercana (3900, con 4 × 3900 = 15600).",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso. La diferencia con el millar es de 352 (16000 − 15648), mientras que con la centena es de solo 48 (15600 − 15648): redondear a la centena da una estimación más precisa."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuál número compatible conviene para estimar 626 ÷ 7?",
+          "pregunta": "Quieres estimar 7,215 ÷ 9. ¿Cuál número compatible conviene más?",
           "opciones": [
-            "630",
-            "600",
-            "650",
-            "700"
+            "7200",
+            "7000",
+            "7290",
+            "7100"
           ],
           "respuestaCorrecta": 0,
-          "retroalimentacion": "630 es múltiplo de 7 (7 × 90 = 630) y es el más cercano a 626, así que la estimación es 90."
+          "retroalimentacion": "7200 es múltiplo de 9 (9 × 800 = 7200) y es el más cercano a 7215, así que la estimación es 800."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada operación con el resultado de su mejor estimación.",
+          "columnaA": [
+            "6,318 ÷ 7",
+            "4,835 × 3",
+            "9,120 ÷ 8"
+          ],
+          "columnaB": [
+            "1140",
+            "14400",
+            "900",
+            "15000"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "6318÷7 → compatible 6300÷7=900; 4835×3 → redondeo a centena 4800×3=14400; 9120÷8 → ya es exacto, 9120÷8=1140."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una fábrica produce 1,875 piezas al día. Redondeando 1875 a la centena más cercana (1900), la estimación de piezas en 6 días es 6 × 1900 = ___.",
+          "opciones": [
+            "10800",
+            "11400",
+            "12000",
+            "11700"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "6 × 1900 = 11400. El resultado exacto de 6 × 1875 es 11250, muy cerca de la estimación."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Un contador calculó que 3,204 ÷ 6 = 534, y comprobó con la estimación 3000 ÷ 6 = 500. Verdadero o falso: el resultado 534 es razonable.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Verdadero. La diferencia entre 534 y 500 es de solo 34, así que el resultado es razonable."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una alumna calculó 48 × 213 y obtuvo un resultado de 1,022,400. Al estimar (50 × 200 = 10,000), ¿qué puedes concluir?",
+          "opciones": [
+            "Hay un error: el resultado real ronda 10,000, no un millón",
+            "El resultado es correcto porque 48 × 213 es un número grande",
+            "La estimación está mal calculada, no el resultado",
+            "No se puede estimar multiplicaciones de tres cifras"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "El resultado real de 48 × 213 es 10224. La alumna escribió 1,022,400, cien veces más grande: le sobran dos ceros."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "Para estimar 9 × 512, redondeamos 512 a la centena más cercana (500) y multiplicamos: 9 × 500 = ___.",
-          "respuestaCorrecta": "4500",
-          "retroalimentacion": "9 × 500 = 4500. El resultado exacto de 9 × 512 es 4608, cercano a la estimación."
+          "frase": "Un chofer recorrió 486.5 km en 5 horas. Para estimar su velocidad promedio, redondea 486.5 a 490 (compatible con 5) y calcula: 490 ÷ 5 = ___ km/h.",
+          "respuestaCorrecta": "98",
+          "retroalimentacion": "490 ÷ 5 = 98 km/h. La velocidad promedio exacta es 97.3 km/h, muy cerca de la estimación."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada situación con la estrategia de estimación más adecuada.",
+          "columnaA": [
+            "7 × 3,096 (número grande)",
+            "812.4 ÷ 4 (decimal)",
+            "5,600 ÷ 8 (ya es número compatible)"
+          ],
+          "columnaB": [
+            "Redondear el decimal al entero más cercano y dividir",
+            "Usar directamente el número, porque ya es divisible exacto",
+            "Redondear a la centena o al millar más cercana y multiplicar",
+            "Redondear ambos factores a la decena"
+          ],
+          "parejasCorrectas": [
+            2,
+            0,
+            1
+          ],
+          "retroalimentacion": "Con números grandes conviene redondear a la centena o al millar; con decimales, redondear al entero; y si el número ya es compatible, se usa directamente."
         }
       ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "llenar_frase",
+      "frase": "Para estimar el costo de 3,875 kg de arena a $4.80 el kilo, redondeamos 3875 a la centena más cercana (3900) y $4.80 al peso más cercano ($5), y calculamos: 3900 × 5 = ___ pesos (estimación).",
+      "respuestaCorrecta": "19500",
+      "retroalimentacion": "3900 × 5 = 19500. El costo exacto de 3875 kg a $4.80 es $18,600, cercano a la estimación."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "Una tienda repartió $8,742.50 entre 5 empleados por partes iguales, y un empleado calculó que le tocan $174.85. Al estimar con 8,750 ÷ 5 = 1750, ¿el resultado de $174.85 es razonable?",
+      "respuestaCorrecta": false,
+      "retroalimentacion": "Falso. El resultado exacto es $1,748.50, muy cerca de la estimación de 1750. El empleado escribió $174.85, diez veces menor: se le corrió el punto decimal."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "¿Cuál de las siguientes estimaciones redondeadas se acerca más al resultado real de 27 × 4,186?",
+      "opciones": [
+        "30 × 4200 = 126,000",
+        "25 × 4000 = 100,000",
+        "30 × 4000 = 120,000",
+        "20 × 4200 = 84,000"
+      ],
+      "respuestaCorrecta": 2,
+      "retroalimentacion": "El resultado exacto de 27 × 4186 es 113,022. La opción 30 × 4000 = 120,000 es la que menos se aleja de ese valor."
     }
   ]
 }

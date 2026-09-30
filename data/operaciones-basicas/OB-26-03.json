@@ -1,66 +1,124 @@
 {
   "id": "OB-26-03",
   "grado": "Operaciones Básicas",
-  "numero": 203,
+  "numero": 103,
   "categoria": "mult_div",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Múltiplos y factores — Momento 3/8",
+  "titulo": "Múltiplos y factores — Módulo 3/4",
   "contenido": "Identificación de múltiplos y factores de un número, como puente natural entre la multiplicación/división y el álgebra.",
   "pda": "Identifica múltiplos y factores de un número natural, y los usa para resolver problemas sencillos de divisibilidad.",
   "problematizacion": {
-    "contexto": "El camión de la ruta escolar pasa por varias paradas y el chofer, don Beto, quiere saber rápido, sin dividir en papel, en cuáles números de casas puede dejar volantes de una rifa que solo entrega en casas con número par.",
-    "pregunta": "¿Cómo puede saber don Beto, con solo mirar el último dígito, si el número de una casa es par?"
+    "contexto": "El carpintero don Efrén corta tablas largas en pedazos iguales para hacer bancos. Antes de cortar, calcula entre cuántos pedazos puede dividir cada tabla sin que sobre madera, y nota que algunas medidas solo se pueden dividir de una forma, mientras que otras tienen varias opciones.\n\nEn la panadería 'El Buen Pan', un horno saca charolas de conchas cada cierto número de minutos y otro horno saca charolas de bolillos en otro intervalo distinto. La panadera quiere saber cada cuántos minutos ambos hornos terminan una charola al mismo tiempo, para organizar el empaquetado.",
+    "pregunta": "¿Por qué algunas medidas de tabla le dan a don Efrén más opciones de corte exacto que otras? Además: ¿Qué tendría que calcular la panadera con los dos intervalos de tiempo para saber cuándo coinciden los hornos?"
   },
   "subtemas": [
     {
       "numero": "26.3",
-      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
-      "titulo": "Reglas rápidas de divisibilidad",
-      "explicacion": "Las reglas de divisibilidad son atajos para saber si un número es múltiplo de otro sin tener que dividir. Un número es divisible entre 2 si su último dígito es par (0,2,4,6,8); es divisible entre 5 si termina en 0 o 5; es divisible entre 10 si termina en 0. Para saber si un número es divisible entre 3, se suman todas sus cifras: si esa suma es múltiplo de 3, el número original también lo es.",
-      "formula": "Divisible entre 3 si la suma de sus dígitos es múltiplo de 3",
+      "nivelEtiqueta": "Nivel 3 de 4 · Avanzado",
+      "titulo": "Números primos y compuestos y Múltiplos comunes y mínimo común múltiplo",
+      "explicacion": "Un número primo tiene exactamente dos factores: el 1 y él mismo (por ejemplo, 7, cuyos únicos factores son 1 y 7). Un número compuesto tiene más de dos factores, porque se puede formar multiplicando otros números además de 1 y él mismo. El número 1 es un caso especial: no es primo ni compuesto, porque solo tiene un factor. Contar los factores de un número es la forma más segura de clasificarlo.\n\nUn múltiplo común de dos números aparece en la lista de múltiplos de ambos al mismo tiempo. El mínimo común múltiplo (mcm) es el más pequeño de esos múltiplos comunes (sin contar el 0). Para encontrarlo, se pueden listar los múltiplos de cada número hasta encontrar el primero que coincide en ambas listas. Este concepto es útil, por ejemplo, para saber cada cuánto tiempo coinciden dos eventos que se repiten en ciclos distintos.",
+      "formula": "Primo = exactamente 2 factores · Compuesto = más de 2 factores; mcm(a,b) = el menor número que es múltiplo de a y de b a la vez",
       "ejemplos": [
-        "246 es divisible entre 2 porque termina en 6, que es par.",
-        "153 es divisible entre 3 porque 1+5+3 = 9, y 9 es múltiplo de 3."
+        "17 es primo porque sus únicos factores son 1 y 17.",
+        "21 es compuesto porque tiene los factores 1, 3, 7 y 21 (más de dos).",
+        "Múltiplos de 4: 4, 8, 12, 16, 20... Múltiplos de 6: 6, 12, 18, 24... El primer múltiplo común es 12, así que mcm(4,6) = 12."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "verdadero_falso",
-          "enunciado": "384 es divisible entre 2.",
+          "enunciado": "29 es un número primo.",
           "respuestaCorrecta": true,
-          "retroalimentacion": "Termina en 4, que es un dígito par, así que sí es divisible entre 2."
+          "retroalimentacion": "Los únicos factores de 29 son 1 y 29, así que es primo."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "735 es divisible entre 5.",
-          "respuestaCorrecta": true,
-          "retroalimentacion": "Termina en 5, por lo tanto es divisible entre 5."
+          "enunciado": "27 es un número primo.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "27 tiene los factores 1, 3, 9 y 27 (más de dos), así que es compuesto, no primo."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuál de estos números es divisible entre 3?",
+          "pregunta": "¿Cuál de estos números es compuesto?",
           "opciones": [
-            "124",
-            "231",
-            "502",
-            "815"
+            "23",
+            "31",
+            "33",
+            "41"
           ],
-          "respuestaCorrecta": 1,
-          "retroalimentacion": "2+3+1 = 6, y 6 es múltiplo de 3, así que 231 es divisible entre 3. Los otros no cumplen la regla."
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "33 = 3 × 11, tiene más de dos factores. Los otros tres son primos."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "Un número es divisible entre 10 si termina en ___.",
-          "respuestaCorrecta": "0",
-          "retroalimentacion": "Todos los múltiplos de 10 terminan en cero."
+          "frase": "El número 1 no es primo ni compuesto porque tiene solo ___ factor.",
+          "respuestaCorrecta": "1",
+          "retroalimentacion": "El 1 únicamente tiene un factor (él mismo), por eso queda fuera de ambas categorías."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada número con su clasificación correcta.",
+          "columnaA": [
+            "19",
+            "35",
+            "2",
+            "49"
+          ],
+          "columnaB": [
+            "Primo",
+            "Compuesto"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "retroalimentacion": "19 y 2 son primos (solo 1 y ellos mismos como factores); 35 = 5×7 y 49 = 7×7 son compuestos."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El mínimo común múltiplo de 3 y 5 es ___.",
+          "respuestaCorrecta": "15",
+          "retroalimentacion": "Como 3 y 5 no comparten factores (además del 1), su mcm es simplemente 3 × 5 = 15."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el mcm de 4 y 6?",
+          "opciones": [
+            "10",
+            "12",
+            "24",
+            "48"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Múltiplos de 4: 4,8,12... Múltiplos de 6: 6,12... El primero que coincide es 12."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "621 es divisible entre 3.",
+          "enunciado": "24 es un múltiplo común de 6 y 8.",
           "respuestaCorrecta": true,
-          "retroalimentacion": "6+2+1 = 9, y 9 es múltiplo de 3, así que 621 también lo es."
+          "retroalimentacion": "24 ÷ 6 = 4 y 24 ÷ 8 = 3, ambas exactas, así que 24 sí es múltiplo común de 6 y 8."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el mcm de 2 y 9?",
+          "opciones": [
+            "11",
+            "18",
+            "2",
+            "9"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "2 y 9 no comparten factores además del 1, así que su mcm es 2 × 9 = 18."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El primer múltiplo común (distinto de 0) de 5 y 7 es ___.",
+          "respuestaCorrecta": "35",
+          "retroalimentacion": "5 y 7 no comparten factores, así que su mcm es 5 × 7 = 35."
         }
       ]
     }

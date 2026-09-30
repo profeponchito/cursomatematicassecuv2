@@ -1,89 +1,174 @@
 {
   "id": "OB-23-04",
   "grado": "Operaciones Básicas",
-  "numero": 180,
+  "numero": 92,
   "categoria": "mult_div",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "División de fracciones — Momento 4/8",
+  "titulo": "División de fracciones — Módulo 4/4",
   "contenido": "División de fracciones mediante la multiplicación por el recíproco (fracción inversa) del divisor.",
   "pda": "Divide fracciones multiplicando por el recíproco del divisor, y simplifica el resultado.",
   "problematizacion": {
-    "contexto": "En un puesto de quesos del mercado de Oaxaca, la vendedora Carmen corta piezas de queso fresco según fracciones de kilo. Para calcular cuántas porciones exactas obtiene de un pedazo, necesita dividir fracciones y luego simplificar el resultado para dar un número claro al cliente.",
-    "pregunta": "Si Carmen tiene 4/9 de kilo de queso y quiere repartirlo en porciones de 2/3 del pedazo, ¿cuántas porciones completas obtiene?"
+    "contexto": "Para la feria de ciencias de su secundaria en Tijuana, un equipo de alumnos instaló un tinaco que llegó a 5/6 de su capacidad de agua. Necesitan repartir esa agua en frascos de experimento que usan solo una pequeña fracción de la capacidad del tinaco cada uno, para que todos los equipos tengan la misma cantidad.\n\nUn carpintero de Querétaro, el maestro Toño, recibe un pedido para cortar piezas pequeñas de distintas tablas: unas medidas son números mixtos de metros y otras son fracciones simples. Antes de encender la sierra, calcula con lápiz y papel cuántas piezas completas obtendrá de cada tabla para no desperdiciar madera.",
+    "pregunta": "¿Cuántos frascos de 1/12 de tinaco se pueden llenar con los 5/6 de tinaco disponibles? Además: si una tabla mide 4 1/2 metros y cada pieza debe medir 3/4 de metro, ¿cuántas piezas completas puede cortar el maestro Toño?"
   },
   "subtemas": [
     {
       "numero": "23.4",
-      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
-      "titulo": "Fracción entre fracción: simplifica al final",
-      "explicacion": "Ahora que ya conoces el patrón de multiplicar por el recíproco, en este momento vas a practicar con fracciones donde, después de multiplicar, el resultado sí se puede simplificar. No basta con hacer la multiplicación: siempre hay que revisar si el numerador y el denominador tienen factores comunes para reducir la fracción a su mínima expresión. Muchas veces el resultado simplificado es un número entero, como 1. Olvidar este paso es uno de los errores más comunes al dividir fracciones.",
-      "formula": "a/b ÷ c/d = a/b × d/c (simplifica el resultado)",
+      "nivelEtiqueta": "Nivel 4 de 4 · Integración",
+      "titulo": "División de fracciones con números más grandes y Integración: todos los casos de división de fracciones",
+      "explicacion": "En este momento vas a dividir fracciones con numeradores y denominadores más grandes, donde conviene simplificar antes de multiplicar, no solo al final. Esta técnica se llama cancelación cruzada: si un número del numerador de una fracción comparte factor común con un número del denominador de la otra, se pueden simplificar antes de multiplicar para trabajar con números más pequeños. El resultado final es exactamente el mismo que si multiplicas primero y simplificas después, pero el camino es más corto y hay menos riesgo de error. También vas a interpretar problemas donde tú decides qué fracción se divide entre cuál.\n\nHas llegado al momento integrador del tema: aquí se combinan todos los casos que ya practicaste (fracción entre fracción, entero entre fracción y números mixtos) dentro de problemas más completos. La estrategia siempre es la misma: si hay números mixtos, conviértelos primero a fracción impropia; luego multiplica por el recíproco del divisor; y por último simplifica el resultado. Trabajar con calma cada paso, sin saltarte ninguno, es lo que evita errores incluso en los problemas más largos.",
+      "formula": "a/b ÷ c/d = a/b × d/c (cancela factores comunes antes de multiplicar si puedes); Convierte mixtos → multiplica por el recíproco del divisor → simplifica",
       "ejemplos": [
-        "4/9 ÷ 2/3 = 4/9 × 3/2 = 12/18, que simplificado es 2/3.",
-        "6/8 ÷ 3/4 = 6/8 × 4/3 = 24/24, que simplificado es 1."
+        "9/16 ÷ 3/8 = 9/16 × 8/3: puedes cancelar el 8 con el 16 (queda 2 en el denominador) y el 3 con el 9 (queda 3 en el numerador), y obtienes 3/2 directamente.",
+        "11/15 ÷ 22/45 = 11/15 × 45/22 = 495/330, que simplificado es 3/2.",
+        "4 1/2 ÷ 3/4: primero 4 1/2 = 9/2, luego 9/2 × 4/3 = 36/6 = 6.",
+        "8/9 ÷ 16/27 = 8/9 × 27/16 = 216/144, que simplificado es 3/2."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "4/9 ÷ 2/3 = ?",
+          "pregunta": "Un tinaco tiene 5/6 de su capacidad llena de agua y se reparte en partes de 1/12 de tinaco cada una. ¿Cuántas partes se obtienen?",
           "opciones": [
-            "2/3",
-            "12/18",
-            "3/2",
-            "6/27"
+            "10",
+            "6/5",
+            "1/10",
+            "5/72"
           ],
           "respuestaCorrecta": 0,
-          "retroalimentacion": "4/9 ÷ 2/3 = 4/9 × 3/2 = 12/18, que simplificado es 2/3."
+          "retroalimentacion": "5/6 ÷ 1/12 = 5/6 × 12/1 = 60/6 = 10 partes."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "10/12 ÷ 5/6 = ___ (ya simplificado).",
-          "respuestaCorrecta": "1",
-          "retroalimentacion": "10/12 ÷ 5/6 = 10/12 × 6/5 = 60/60 = 1."
+          "frase": "7/8 ÷ 5/12 = ___ (fracción simplificada).",
+          "respuestaCorrecta": "21/10",
+          "retroalimentacion": "7/8 ÷ 5/12 = 7/8 × 12/5 = 84/40, que simplificado es 21/10."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "6/8 ÷ 3/4 = 1.",
+          "enunciado": "Para dividir 9/16 entre 3/8, conviene simplificar antes de multiplicar: en 9/16 × 8/3 se puede cancelar el 8 con el 16 y el 3 con el 9 antes de multiplicar.",
           "respuestaCorrecta": true,
-          "retroalimentacion": "Correcto: 6/8 ÷ 3/4 = 6/8 × 4/3 = 24/24 = 1."
+          "retroalimentacion": "Correcto: cancelar factores comunes antes de multiplicar (8 con 16, y 3 con 9) da el mismo resultado, 3/2, con números más pequeños."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "8/15 ÷ 4/9 = ?",
+          "pregunta": "11/15 ÷ 22/45 = ?",
           "opciones": [
-            "6/5",
-            "72/60",
-            "5/6",
-            "4/5"
+            "3/2",
+            "2/3",
+            "495/330",
+            "1"
           ],
           "respuestaCorrecta": 0,
-          "retroalimentacion": "8/15 ÷ 4/9 = 8/15 × 9/4 = 72/60, que simplificado es 6/5."
+          "retroalimentacion": "11/15 ÷ 22/45 = 11/15 × 45/22 = 495/330, que simplificado es 3/2."
         },
         {
           "tipo": "relacionar_columnas",
-          "instruccion": "Relaciona cada división con su resultado ya simplificado.",
+          "instruccion": "Relaciona cada división con su resultado, simplificando antes de multiplicar cuando sea posible.",
           "columnaA": [
-            "3/4 ÷ 6/8",
-            "4/9 ÷ 8/27",
-            "5/8 ÷ 15/16"
+            "12/25 ÷ 4/5",
+            "14/27 ÷ 7/9",
+            "10/21 ÷ 5/14"
           ],
           "columnaB": [
-            "1",
-            "3/2",
+            "3/5",
             "2/3",
-            "4/5"
+            "4/3",
+            "2"
           ],
           "parejasCorrectas": [
             0,
             1,
             2
           ],
-          "retroalimentacion": "3/4 ÷ 6/8 = 1; 4/9 ÷ 8/27 = 3/2; 5/8 ÷ 15/16 = 2/3."
+          "retroalimentacion": "12/25 ÷ 4/5 = 3/5; 14/27 ÷ 7/9 = 2/3; 10/21 ÷ 5/14 = 4/3."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Una tabla mide 4 1/2 metros y se corta en piezas de 3/4 de metro. ¿Cuántas piezas completas se obtienen?",
+          "opciones": [
+            "6",
+            "5",
+            "4/3",
+            "8"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "4 1/2 = 9/2. Luego 9/2 ÷ 3/4 = 9/2 × 4/3 = 36/6 = 6 piezas."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "5 1/3 ÷ 4/9 = ___ (simplifica).",
+          "respuestaCorrecta": "12",
+          "retroalimentacion": "5 1/3 = 16/3. Luego 16/3 ÷ 4/9 = 16/3 × 9/4 = 144/12 = 12."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "8/9 ÷ 16/27 = 3/2.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 8/9 ÷ 16/27 = 8/9 × 27/16 = 216/144, que simplificado es 3/2."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es el resultado de 7 ÷ 5/6?",
+          "opciones": [
+            "42/5",
+            "5/42",
+            "35/6",
+            "6/35"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "7 ÷ 5/6 = 7 × 6/5 = 42/5."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada división (con mixtos, fracciones o enteros) con su resultado.",
+          "columnaA": [
+            "2 2/5 ÷ 3/10",
+            "18/24 ÷ 3/8",
+            "9 ÷ 3/5"
+          ],
+          "columnaB": [
+            "8",
+            "2",
+            "15",
+            "20"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "2 2/5 = 12/5 y 12/5 ÷ 3/10 = 8; 18/24 ÷ 3/8 = 2; 9 ÷ 3/5 = 15."
         }
       ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Un albañil mezcla 3 1/4 bultos de cemento y los reparte en cubetas de 5/8 de bulto cada una. ¿Cuántas cubetas equivalentes representa esa mezcla, según 3 1/4 ÷ 5/8?",
+      "opciones": [
+        "26/5",
+        "5/26",
+        "20/104",
+        "8/65"
+      ],
+      "respuestaCorrecta": 0,
+      "retroalimentacion": "3 1/4 = 13/4. Luego 13/4 ÷ 5/8 = 13/4 × 8/5 = 104/20, que simplificado es 26/5."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "15/22 ÷ 25/33 = ___ (simplificado).",
+      "respuestaCorrecta": "9/10",
+      "retroalimentacion": "15/22 ÷ 25/33 = 15/22 × 33/25 = 495/550, que simplificado es 9/10."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "6 3/5 ÷ 11/15 = 9.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "Correcto: 6 3/5 = 33/5, y 33/5 ÷ 11/15 = 33/5 × 15/11 = 495/55 = 9."
     }
   ]
 }

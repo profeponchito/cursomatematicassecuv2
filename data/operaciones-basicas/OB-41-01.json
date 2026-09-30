@@ -1,27 +1,29 @@
 {
   "id": "OB-41-01",
   "grado": "Operaciones Básicas",
-  "numero": 321,
+  "numero": 161,
   "categoria": "integracion",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Jerarquía de operaciones — Momento 1/8",
+  "titulo": "Jerarquía de operaciones — Módulo 1/4",
   "contenido": "El orden correcto para resolver una expresión con varias operaciones: potencias y raíces, multiplicación y división, suma y resta, y el papel de los paréntesis.",
   "pda": "Aplica la jerarquía de operaciones (paréntesis, potencias/raíces, multiplicación/división, suma/resta) para resolver expresiones numéricas.",
   "problematizacion": {
-    "contexto": "Doña Refugio atiende un puesto de frutas en el mercado sobre ruedas de su colonia. Cada mañana anota en un cuaderno cuántas piezas vende y cuánto le queda de mercancía, mezclando compras y ventas en la misma cuenta.",
-    "pregunta": "Si Doña Refugio anota '8 + 2 × 3' para saber cuántas piezas de fruta le quedan, ¿por qué operación debe empezar para que la cuenta sea correcta?"
+    "contexto": "Doña Refugio atiende un puesto de frutas en el mercado sobre ruedas de su colonia. Cada mañana anota en un cuaderno cuántas piezas vende y cuánto le queda de mercancía, mezclando compras y ventas en la misma cuenta.\n\nEn la cooperativa escolar, Fernanda apunta en el pizarrón cuántos productos hay que reponer. Un compañero escribió la cuenta con paréntesis y otro la escribió sin ellos, y a los dos les salieron números diferentes para la misma situación.",
+    "pregunta": "Si Doña Refugio anota '8 + 2 × 3' para saber cuántas piezas de fruta le quedan, ¿por qué operación debe empezar para que la cuenta sea correcta? Además: ¿Por qué (5 + 3) × 2 y 5 + 3 × 2 no dan el mismo resultado, si tienen los mismos números?"
   },
   "subtemas": [
     {
       "numero": "41.1",
-      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
-      "titulo": "Multiplicación y división antes que suma y resta",
-      "explicacion": "Cuando una expresión no tiene paréntesis, no se resuelve simplemente de izquierda a derecha. Primero se realizan todas las multiplicaciones y divisiones, en el orden en que aparecen, y hasta el final se hacen las sumas y restas. Esta regla evita que el mismo cálculo tenga varios resultados según quién lo resuelva. Es la base de toda la jerarquía de operaciones que verás en este tema.",
-      "formula": "1) × y ÷  →  2) + y −",
+      "nivelEtiqueta": "Nivel 1 de 4 · Introductorio",
+      "titulo": "Multiplicación y división antes que suma y resta y Los paréntesis cambian el orden",
+      "explicacion": "Cuando una expresión no tiene paréntesis, no se resuelve simplemente de izquierda a derecha. Primero se realizan todas las multiplicaciones y divisiones, en el orden en que aparecen, y hasta el final se hacen las sumas y restas. Esta regla evita que el mismo cálculo tenga varios resultados según quién lo resuelva. Es la base de toda la jerarquía de operaciones que verás en este tema.\n\nLos paréntesis son una señal que indica qué operación se debe resolver primero, sin importar qué tipo de operación sea. Todo lo que está dentro de un paréntesis se calcula antes que cualquier otra cosa fuera de él. Por eso, la misma serie de números puede dar resultados distintos con y sin paréntesis. Aprender a leer los paréntesis correctamente es la segunda pieza de la jerarquía de operaciones.",
+      "formula": "1) × y ÷  →  2) + y −; 1) ( )  →  2) × y ÷  →  3) + y −",
       "ejemplos": [
         "8 + 2 × 3: primero 2 × 3 = 6, y luego 8 + 6 = 14 (no se suma 8 + 2 primero).",
-        "15 − 3 × 4: primero 3 × 4 = 12, y luego 15 − 12 = 3."
+        "15 − 3 × 4: primero 3 × 4 = 12, y luego 15 − 12 = 3.",
+        "(8 + 2) × 3: primero 8 + 2 = 10, y luego 10 × 3 = 30.",
+        "8 + 2 × 3 (sin paréntesis): primero 2 × 3 = 6, y luego 8 + 6 = 14."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
@@ -67,6 +69,65 @@
           "enunciado": "El resultado de 5 + 6 ÷ 2 es 11.",
           "respuestaCorrecta": false,
           "retroalimentacion": "Falso: primero se hace 6 ÷ 2 = 3, y luego 5 + 3 = 8, no 11. Sumar 5+6 antes de dividir es el error común."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es (5 + 3) × 2?",
+          "opciones": [
+            "16",
+            "11",
+            "8",
+            "6"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "El paréntesis obliga a sumar primero: 5 + 3 = 8, y luego 8 × 2 = 16."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuánto es 5 + 3 × 2 (sin paréntesis)?",
+          "opciones": [
+            "11",
+            "16",
+            "8",
+            "6"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "Sin paréntesis se multiplica primero: 3 × 2 = 6, y luego 5 + 6 = 11. Es distinto al resultado con paréntesis."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "El resultado de (12 − 4) ÷ 2 es 4.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: dentro del paréntesis, 12 − 4 = 8, y luego 8 ÷ 2 = 4."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "(6 + 4) × 5 = ___",
+          "respuestaCorrecta": "50",
+          "retroalimentacion": "Primero 6 + 4 = 10 por el paréntesis, y luego 10 × 5 = 50."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada expresión con su resultado correcto.",
+          "columnaA": [
+            "(2 + 3) × 4",
+            "2 + 3 × 4",
+            "(9 − 3) × 2",
+            "9 − 3 × 2"
+          ],
+          "columnaB": [
+            "14",
+            "20",
+            "3",
+            "12"
+          ],
+          "parejasCorrectas": [
+            1,
+            0,
+            3,
+            2
+          ],
+          "retroalimentacion": "(2+3)×4=20; 2+3×4=14; (9−3)×2=12; 9−3×2=3. El paréntesis cambia por completo el resultado."
         }
       ]
     }

@@ -1,48 +1,129 @@
 {
   "id": "OB-28-03",
   "grado": "Operaciones Básicas",
-  "numero": 219,
+  "numero": 111,
   "categoria": "mult_div",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Encuentra el error: multiplicación y división — Momento 3/8",
+  "titulo": "Encuentra el error: multiplicación y división — Módulo 3/4",
   "contenido": "Identificación del paso exacto donde una multiplicación o división ya resuelta contiene un error, como forma de reforzar el algoritmo desde la revisión.",
   "pda": "Identifica errores en algoritmos de multiplicación y división ya resueltos, explicando en qué paso ocurre el error.",
   "problematizacion": {
-    "contexto": "Don Refugio maneja una camioneta de reparto y necesita acomodar cajas de refresco en partes iguales entre varias camionetas para no sobrecargar ninguna. Su ayudante hizo las divisiones en una hoja, pero Don Refugio siempre las comprueba multiplicando antes de cargar el camión.",
-    "pregunta": "¿Por qué multiplicar el cociente por el divisor le sirve a Don Refugio para saber si una división está bien resuelta, sin tener que repetirla?"
+    "contexto": "En la papelería del barrio, el señor Huerta recibe un pedido grande de cuadernos: cierto número de paquetes, cada uno con varias decenas de piezas. Para saber el costo total multiplica precio por cantidad usando multiplicadores de dos cifras, y siempre revisa sus productos parciales antes de cobrar.\n\nEl entrenador Iván organiza un torneo escolar de futbol y necesita repartir el total de jugadores inscritos en equipos de un mismo tamaño, o repartir los balones disponibles entre las canchas. Antes de anunciar los equipos, comprueba cada división para no dejar jugadores fuera por error de cálculo.",
+    "pregunta": "Si la suma final de un pedido no coincide con lo que esperaba el señor Huerta, ¿en qué dos lugares distintos podría estar el error? Además: ¿Qué comprobación puede hacer el entrenador Iván para saber si el número de equipos que calculó realmente reparte a todos los jugadores?"
   },
   "subtemas": [
     {
       "numero": "28.3",
-      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
-      "titulo": "Revisar una división exacta con la multiplicación inversa",
-      "explicacion": "La forma más confiable de revisar una división ya resuelta es 'deshacerla': multiplicar el cociente por el divisor y comprobar que el resultado sea igual al dividendo. Si no coincide, el cociente tiene un error. En este momento vas a practicar divisiones exactas (sin residuo) de un número de dos o tres cifras entre una cifra, usando siempre esta comprobación por multiplicación para decidir si el cociente dado es correcto.",
-      "formula": "cociente × divisor = dividendo (en una división exacta, sin residuo)",
+      "nivelEtiqueta": "Nivel 3 de 4 · Avanzado",
+      "titulo": "Productos parciales: dónde se esconde el error con multiplicadores de dos cifras y Divisores de dos cifras: cuando el cociente estimado no alcanza",
+      "explicacion": "Cuando el multiplicador tiene dos cifras, la multiplicación se resuelve en varios productos parciales (uno por cada cifra del multiplicador) que después se suman. Un error puede estar en cualquiera de los productos parciales, o en la suma final que los junta, así que hay que revisar cada parte por separado. En este momento vas a identificar en cuál de esos pasos ocurrió el error: el primer producto parcial, el segundo, o la suma total.\n\nAl dividir entre un número de dos cifras, el error más frecuente es estimar mal el cociente: elegirlo demasiado grande (el producto se pasa del dividendo) o demasiado chico (sobra más de lo que debería). La forma más rápida de revisar es, otra vez, multiplicar el cociente propuesto por el divisor y comparar contra el dividendo. En este momento vas a aplicar esa comprobación a divisiones exactas con divisor de dos cifras, donde el margen de error al estimar es mayor.",
+      "formula": "resultado = (número × cifra de unidades del multiplicador) + (número × cifra de decenas del multiplicador); cociente × divisor = dividendo (comprobación); si el producto se pasa o se queda corto, el cociente propuesto está mal",
       "ejemplos": [
-        "162 ÷ 9: se propone el cociente 18. Comprobación: 18 × 9 = 162. Coincide, así que 18 es correcto.",
-        "162 ÷ 9 = 17 (propuesto). Comprobación: 17 × 9 = 153, que no es igual a 162, así que 17 es un cociente incorrecto."
+        "24 × 13: producto parcial 1 = 24 × 3 = 72; producto parcial 2 = 24 × 10 = 240; suma = 72 + 240 = 312.",
+        "Si alguien escribió 24 × 13 = 302, pero sus productos parciales 72 y 240 están bien, el error está en la suma final (72 + 240 = 312, no 302).",
+        "748 ÷ 22: se propone 34. Comprobación: 34 × 22 = 748. Coincide, es correcto.",
+        "748 ÷ 22 = 32 (propuesto). Comprobación: 32 × 22 = 704, que no llega a 748, así que el cociente 32 se quedó corto; el correcto es 34."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
-          "tipo": "opcion_multiple",
-          "pregunta": "Ya resuelto: 216 ÷ 6 = 34. ¿Cuál es el cociente correcto?",
-          "opciones": [
-            "32",
-            "34",
-            "36",
-            "38"
+          "tipo": "algoritmo_columnas",
+          "operacion": "multiplicacion",
+          "filas": [
+            {
+              "valor": "34"
+            },
+            {
+              "valor": "26",
+              "signo": "×"
+            },
+            {
+              "valor": "204"
+            },
+            {
+              "valor": "680"
+            },
+            {
+              "valor": "884",
+              "esResultado": true
+            }
           ],
-          "respuestaCorrecta": 2,
-          "retroalimentacion": "Comprobación: 36 × 6 = 216. El cociente correcto es 36; 34 × 6 = 204, que no coincide."
+          "ocultos": [
+            [],
+            [],
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "retroalimentacion": "34 × 26 = 884. El primer producto parcial es 34 × 6 = 204 (falta la cifra de las centenas, 2); el segundo es 34 × 20 = 680 (falta la cifra de las decenas, 8); y su suma da 884 (falta la cifra de las unidades, 4)."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Ya resuelto: 42 × 13. Productos parciales: 42 × 3 = 126, 42 × 10 = 410, suma = 536. ¿En qué paso está el error?",
+          "opciones": [
+            "En el primer producto parcial: 42 × 3",
+            "En el segundo producto parcial: 42 × 10",
+            "En la suma de los productos parciales",
+            "No hay ningún error"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "42 × 3 = 126 está bien, pero 42 × 10 = 420, no 410. El resultado correcto de 42 × 13 es 126 + 420 = 546."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "245 ÷ 7 = 36 está resuelto correctamente.",
-          "respuestaCorrecta": false,
-          "retroalimentacion": "Es falso: 36 × 7 = 252, no 245. El cociente correcto es 35, porque 35 × 7 = 245."
+          "enunciado": "En la multiplicación 25 × 38, el producto parcial 25 × 8 = 200 es correcto.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Es correcto: 25 × 8 = 200. El otro producto parcial es 25 × 30 = 750, y la suma total es 950."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "En la multiplicación 51 × 22, el segundo producto parcial es 51 × 20 y su valor correcto es ___.",
+          "respuestaCorrecta": "1020",
+          "retroalimentacion": "51 × 20 = 1020. Sumado al primer producto parcial (51 × 2 = 102), el resultado total de 51 × 22 es 1122."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Ya resuelto: 63 × 15 = 855. Los productos parciales fueron 63 × 5 = 315 y 63 × 10 = 630. ¿Dónde está el error?",
+          "opciones": [
+            "No hay error, 855 es el resultado correcto",
+            "El primer producto parcial (315) está mal",
+            "El segundo producto parcial (630) está mal",
+            "Los productos parciales son correctos, pero la suma final debería ser 945"
+          ],
+          "respuestaCorrecta": 3,
+          "retroalimentacion": "63 × 5 = 315 y 63 × 10 = 630 son correctos, pero 315 + 630 = 945, no 855. El error está en la suma final."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Ya resuelto: 782 ÷ 34 = 24. ¿Cuál es el cociente correcto?",
+          "opciones": [
+            "22",
+            "23",
+            "24",
+            "25"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "Comprobación: 23 × 34 = 782. El cociente correcto es 23; 24 × 34 = 816, que se pasa del dividendo."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "936 ÷ 26 = 36 está resuelto correctamente.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Es correcto: 36 × 26 = 936."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "La división 675 ÷ 27 = 24 tiene un error; el cociente correcto es ___.",
+          "respuestaCorrecta": "25",
+          "retroalimentacion": "Comprobación: 25 × 27 = 675. El cociente correcto es 25; 24 × 27 = 648, que se queda corto."
         },
         {
           "tipo": "algoritmo_columnas",
@@ -52,41 +133,37 @@
               "valor": "23"
             },
             {
-              "valor": "8",
+              "valor": "24",
               "signo": "×"
             },
             {
-              "valor": "184",
+              "valor": "552",
               "esResultado": true
             }
           ],
           "ocultos": [
-            [],
+            [
+              0
+            ],
             [],
             [
               0,
-              1
+              2
             ]
           ],
-          "retroalimentacion": "23 × 8 = 184, esto verifica que 184 ÷ 8 = 23. Las cifras que faltaban en el resultado son 1 (centenas) y 8 (decenas)."
-        },
-        {
-          "tipo": "llenar_frase",
-          "frase": "La división 312 ÷ 8 = 41 tiene un error; el cociente correcto es ___.",
-          "respuestaCorrecta": "39",
-          "retroalimentacion": "Comprobación: 39 × 8 = 312. El cociente correcto es 39; 41 × 8 = 328, que no coincide."
+          "retroalimentacion": "23 × 24 = 552, esto verifica que 552 ÷ 24 = 23. Faltaban la cifra de las decenas de 23 (el 2) y las cifras de las centenas y unidades de 552 (5 y 2)."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "Ya resuelto: 189 ÷ 9 = 22. ¿Cuál es el cociente correcto?",
+          "pregunta": "Ya resuelto: 891 ÷ 33 = 26. ¿Cuál es el error?",
           "opciones": [
-            "19",
-            "20",
-            "21",
-            "22"
+            "No hay error, 26 es correcto",
+            "El cociente correcto es 27",
+            "El cociente correcto es 29",
+            "El cociente correcto es 24"
           ],
-          "respuestaCorrecta": 2,
-          "retroalimentacion": "Comprobación: 21 × 9 = 189. El cociente correcto es 21; 22 × 9 = 198, que no coincide."
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "26 × 33 = 858, que no llega a 891. El cociente correcto es 27, porque 27 × 33 = 891."
         }
       ]
     }

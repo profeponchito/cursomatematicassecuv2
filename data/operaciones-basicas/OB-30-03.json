@@ -1,87 +1,143 @@
 {
   "id": "OB-30-03",
   "grado": "Operaciones Básicas",
-  "numero": 235,
+  "numero": 119,
   "categoria": "potencias_raices",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Cálculo de potencias de naturales (cuadrados y cubos) — Momento 3/8",
+  "titulo": "Cálculo de potencias de naturales (cuadrados y cubos) — Módulo 3/4",
   "contenido": "Cálculo de potencias de números naturales, con énfasis en cuadrados y cubos de uso frecuente.",
   "pda": "Calcula potencias de números naturales, incluyendo cuadrados y cubos perfectos comunes.",
   "problematizacion": {
-    "contexto": "El equipo de natación de Mazatlán entrena en una alberca con forma de tanque cúbico para prácticas especiales. El entrenador explica que la capacidad de un cuerpo cúbico depende de su arista elevada al cubo, y hoy usarán un tanque de prueba de 3 metros de arista.",
-    "pregunta": "¿Cuál sería el volumen, en metros cúbicos, de ese tanque de 3 metros de arista?"
+    "contexto": "Una empresa de mudanzas en Monterrey necesita calcular cuánto espacio de estacionamiento cuadrado usarán sus camiones y cuánta carga cabe en un contenedor cúbico. El encargado de logística está revisando las medidas antes de armar la ruta del día.\n\nEn una ferretería de Querétaro venden azulejos grandes para pisos de locales comerciales. El vendedor necesita calcular cuántos azulejos cuadrados de 1 metro caben en distintas secciones rectangulares que sus clientes le piden cortar en forma de cuadrado.",
+    "pregunta": "Si el contenedor cúbico tiene 4 metros de arista, ¿cuánto espacio aproximado ocupará dentro del camión? Además: ¿Cuántos azulejos cuadrados caben en una sección cuadrada de 18 metros por lado?"
   },
   "subtemas": [
     {
       "numero": "30.3",
-      "nivelEtiqueta": "Nivel 3 de 8 · Guiado",
-      "titulo": "¿Qué es un cubo? Cubos sencillos",
-      "explicacion": "Elevar un número al cubo (exponente 3) significa multiplicarlo por sí mismo tres veces: n³ = n × n × n. Por ejemplo, 3³ = 3 × 3 × 3 = 27. Un truco útil es calcularlo en dos pasos: primero el cuadrado y luego multiplicar ese resultado otra vez por la base. En este momento practicarás cubos de números pequeños, del 1 al 5.",
-      "formula": "n³ = n × n × n",
+      "nivelEtiqueta": "Nivel 3 de 4 · Avanzado",
+      "titulo": "Cuadrados y cubos en área y volumen y Cuadrados de dos cifras (11 a 20)",
+      "explicacion": "Los cuadrados sirven para calcular el área de superficies cuadradas: si un lado mide n unidades, el área es n². Los cubos sirven para calcular el volumen de cuerpos cúbicos: si la arista mide n unidades, el volumen es n³. En este momento aplicarás estas ideas a situaciones cotidianas, como un patio cuadrado o una caja cúbica de mudanza.\n\nAhora calcularás cuadrados de números de dos cifras, del 11 al 20, que aparecen seguido en problemas de área con terrenos, salones o pisos grandes. Fíjate en un patrón útil: los cuadrados de números que terminan en 5 siempre terminan en 25; por ejemplo, 15² = 225. Sigue multiplicando con calma, sin saltarte pasos, aunque los números sean más grandes.",
+      "formula": "Área del cuadrado = lado² ; Volumen del cubo = arista³; n² = n × n",
       "ejemplos": [
-        "4³ = 4 × 4 × 4: primero 4 × 4 = 16, luego 16 × 4 = 64",
-        "2³ = 2 × 2 × 2: primero 2 × 2 = 4, luego 4 × 2 = 8"
+        "Un terreno cuadrado de 12 m de lado tiene un área de 12² = 144 m²",
+        "Una caja cúbica de 3 m de arista tiene un volumen de 3³ = 27 m³",
+        "13² = 13 × 13 = 169",
+        "18² = 18 × 18 = 324"
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuál es 3³?",
+          "pregunta": "Un patio cuadrado mide 11 m por lado. ¿Cuál es su área?",
           "opciones": [
-            "9",
-            "27",
-            "6",
-            "33"
+            "22 m²",
+            "121 m²",
+            "33 m²",
+            "111 m²"
           ],
           "respuestaCorrecta": 1,
-          "retroalimentacion": "3³ = 3 × 3 × 3: primero 3 × 3 = 9, luego 9 × 3 = 27."
-        },
-        {
-          "tipo": "llenar_frase",
-          "frase": "5³ = 5 × 5 × 5 = ___.",
-          "respuestaCorrecta": "125",
-          "retroalimentacion": "5 × 5 = 25, y 25 × 5 = 125."
-        },
-        {
-          "tipo": "verdadero_falso",
-          "enunciado": "2³ es igual a 6.",
-          "respuestaCorrecta": false,
-          "retroalimentacion": "Falso: 2³ = 2 × 2 × 2 = 8, no 2 × 3 = 6."
+          "retroalimentacion": "Área = 11² = 121 m²."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuál es 4³?",
+          "pregunta": "Una caja cúbica de mudanza tiene aristas de 4 m. ¿Cuál es su volumen?",
           "opciones": [
-            "12",
-            "16",
-            "64",
-            "48"
+            "16 m³",
+            "12 m³",
+            "64 m³",
+            "48 m³"
           ],
           "respuestaCorrecta": 2,
-          "retroalimentacion": "4 × 4 = 16, y 16 × 4 = 64."
+          "retroalimentacion": "Volumen = 4³ = 64 m³."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Para hallar el área de un cuadrado de 9 m de lado se calcula 9³.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso: el área usa el cuadrado (9² = 81 m²). El cubo (9³) se usa para volumen, no para área."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El área de una cancha cuadrada de 15 m de lado es ___ m².",
+          "respuestaCorrecta": "225",
+          "retroalimentacion": "15² = 225 m²."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada medida con la potencia que usarías para calcularla.",
+          "columnaA": [
+            "Área de un cuadrado",
+            "Volumen de un cubo"
+          ],
+          "columnaB": [
+            "arista³",
+            "lado²",
+            "perímetro × 4"
+          ],
+          "parejasCorrectas": [
+            1,
+            0
+          ],
+          "retroalimentacion": "El área se calcula con lado² y el volumen con arista³."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es 12²?",
+          "opciones": [
+            "24",
+            "144",
+            "124",
+            "244"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "12 × 12 = 144."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es 17²?",
+          "opciones": [
+            "289",
+            "179",
+            "34",
+            "294"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "17 × 17 = 289."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "20² es igual a 400.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 20 × 20 = 400."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El cuadrado de 15 es ___ (recuerda el patrón de los números que terminan en 5).",
+          "respuestaCorrecta": "225",
+          "retroalimentacion": "15² = 225; en efecto termina en 25, como predice el patrón."
         },
         {
           "tipo": "relacionar_columnas",
           "instruccion": "Relaciona cada potencia con su resultado.",
           "columnaA": [
-            "1³",
-            "2³",
-            "3³"
+            "14²",
+            "16²",
+            "19²"
           ],
           "columnaB": [
-            "1",
-            "9",
-            "8",
-            "27"
+            "361",
+            "256",
+            "196",
+            "144"
           ],
           "parejasCorrectas": [
-            0,
             2,
-            3
+            1,
+            0
           ],
-          "retroalimentacion": "1³ = 1, 2³ = 8, 3³ = 27."
+          "retroalimentacion": "14² = 196, 16² = 256, 19² = 361."
         }
       ]
     }

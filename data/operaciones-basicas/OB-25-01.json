@@ -1,27 +1,29 @@
 {
   "id": "OB-25-01",
   "grado": "Operaciones Básicas",
-  "numero": 193,
+  "numero": 97,
   "categoria": "mult_div",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Estimación antes de multiplicar y dividir — Momento 1/8",
+  "titulo": "Estimación antes de multiplicar y dividir — Módulo 1/4",
   "contenido": "Estimación del resultado de una multiplicación o división mediante redondeo, para verificar si un cálculo exacto es razonable.",
   "pda": "Estima el resultado de multiplicaciones y divisiones mediante redondeo y lo usa para verificar la razonabilidad de un cálculo.",
   "problematizacion": {
-    "contexto": "Don Refugio surte la tienda de abarrotes de su colonia y compró 8 cajas de refresco, cada una con 24 botellas. Antes de contarlas una por una, quiere saber más o menos cuántas botellas tiene en total.",
-    "pregunta": "Si redondeas 24 a la decena más cercana (20), ¿aproximadamente cuántas botellas compró Don Refugio en total?"
+    "contexto": "Don Refugio surte la tienda de abarrotes de su colonia y compró 8 cajas de refresco, cada una con 24 botellas. Antes de contarlas una por una, quiere saber más o menos cuántas botellas tiene en total.\n\nEn la kermés de la escuela, el comité de padres de familia vende boletos de rifa en talonarios. Cada talonario tiene 36 boletos y se repartieron 24 talonarios entre distintos grupos.",
+    "pregunta": "Si redondeas 24 a la decena más cercana (20), ¿aproximadamente cuántas botellas compró Don Refugio en total? Además: redondeando 36 y 24 a la decena más cercana, ¿cuál es una buena estimación del total de boletos repartidos?"
   },
   "subtemas": [
     {
       "numero": "25.1",
-      "nivelEtiqueta": "Nivel 1 de 8 · Introductorio",
-      "titulo": "Redondea un factor para estimar un producto",
-      "explicacion": "Estimar significa calcular un resultado aproximado, rápido y sin calculadora, redondeando los números antes de operar. En este primer paso vas a redondear solo uno de los dos factores (el de dos cifras) a la decena más cercana, dejando el otro número tal cual. Después multiplicas mentalmente los números para obtener una estimación cercana al resultado exacto. Esta habilidad te sirve para saber, de un vistazo, si un cálculo tiene sentido antes de resolverlo con calculadora.",
-      "formula": "estimación ≈ factor × (factor redondeado a la decena)",
+      "nivelEtiqueta": "Nivel 1 de 4 · Introductorio",
+      "titulo": "Redondea un factor para estimar un producto y Redondea los dos factores en una multiplicación",
+      "explicacion": "Estimar significa calcular un resultado aproximado, rápido y sin calculadora, redondeando los números antes de operar. En este primer paso vas a redondear solo uno de los dos factores (el de dos cifras) a la decena más cercana, dejando el otro número tal cual. Después multiplicas mentalmente los números para obtener una estimación cercana al resultado exacto. Esta habilidad te sirve para saber, de un vistazo, si un cálculo tiene sentido antes de resolverlo con calculadora.\n\nCuando ambos factores de una multiplicación tienen dos cifras, la estimación se vuelve más útil porque hacer la cuenta exacta mentalmente es más difícil. En este momento vas a redondear LOS DOS factores a la decena más cercana antes de multiplicar. Recuerda la regla del redondeo: si la cifra de las unidades es 5 o más, la decena sube uno; si es menor que 5, la decena se queda igual. Una vez redondeados ambos factores, multiplicarlos es mucho más sencillo y te da una estimación razonable del resultado real.",
+      "formula": "estimación ≈ factor × (factor redondeado a la decena); estimación ≈ (factor redondeado) × (factor redondeado)",
       "ejemplos": [
         "Para estimar 6 × 48: redondeamos 48 a la decena más cercana (50) y calculamos 6 × 50 = 300. El resultado exacto es 288, así que 300 es una buena estimación.",
-        "Para estimar 9 × 31: redondeamos 31 a 30 y calculamos 9 × 30 = 270."
+        "Para estimar 9 × 31: redondeamos 31 a 30 y calculamos 9 × 30 = 270.",
+        "Para estimar 32 × 48: redondeamos 32 a 30 y 48 a 50, y calculamos 30 × 50 = 1500. El resultado exacto es 1536, muy cercano a la estimación.",
+        "Para estimar 63 × 21: redondeamos 63 a 60 y 21 a 20, y calculamos 60 × 20 = 1200."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
@@ -67,6 +69,63 @@
           "frase": "Para estimar 5 × 19, redondeamos 19 a la decena más cercana (20) y multiplicamos: 5 × 20 = ___.",
           "respuestaCorrecta": "100",
           "retroalimentacion": "5 × 20 = 100. El resultado exacto de 5 × 19 es 95, muy cerca de la estimación."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Para estimar 32 × 48, se redondean ambos factores a la decena más cercana: 30 y 50. ¿Cuál es la estimación?",
+          "opciones": [
+            "1200",
+            "1500",
+            "1800",
+            "1350"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "30 × 50 = 1500. El resultado exacto de 32 × 48 es 1536, muy cerca de la estimación."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "63 × 21 se estima redondeando a 60 y 20: 60 × 20 = ___.",
+          "respuestaCorrecta": "1200",
+          "retroalimentacion": "60 × 20 = 1200. El resultado exacto de 63 × 21 es 1323."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "Beto quiere estimar 34 × 57. Redondeó 34 a 40 y 57 a 60, y calculó 40 × 60 = 2400. Verdadero o falso: Beto redondeó correctamente el número 34 a la decena más cercana.",
+          "respuestaCorrecta": false,
+          "retroalimentacion": "Falso. 34 está a 4 unidades de 30 y a 6 unidades de 40, así que la decena más cercana es 30, no 40."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "¿Cuál es la estimación de 58 × 23 redondeando ambos factores a la decena más cercana?",
+          "opciones": [
+            "1000",
+            "1200",
+            "1400",
+            "1100"
+          ],
+          "respuestaCorrecta": 1,
+          "retroalimentacion": "58 se redondea a 60 y 23 a 20: 60 × 20 = 1200. El resultado exacto es 1334."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada multiplicación con su estimación, redondeando ambos factores a la decena más cercana.",
+          "columnaA": [
+            "41 × 62",
+            "29 × 72",
+            "19 × 51"
+          ],
+          "columnaB": [
+            "1000",
+            "2100",
+            "2400",
+            "3000"
+          ],
+          "parejasCorrectas": [
+            2,
+            1,
+            0
+          ],
+          "retroalimentacion": "41×62 → 40×60=2400; 29×72 → 30×70=2100; 19×51 → 20×50=1000."
         }
       ]
     }

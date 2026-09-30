@@ -1,87 +1,146 @@
 {
   "id": "OB-23-02",
   "grado": "Operaciones Básicas",
-  "numero": 178,
+  "numero": 90,
   "categoria": "mult_div",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "División de fracciones — Momento 2/8",
+  "titulo": "División de fracciones — Módulo 2/4",
   "contenido": "División de fracciones mediante la multiplicación por el recíproco (fracción inversa) del divisor.",
   "pda": "Divide fracciones multiplicando por el recíproco del divisor, y simplifica el resultado.",
   "problematizacion": {
-    "contexto": "Don Efrén conduce una combi de transporte público en Guadalajara. Al iniciar el turno, su tanque tiene 3/4 de su capacidad llena de combustible. Necesita repartir mentalmente ese combustible entre 3 vueltas completas que dará por la misma ruta antes de volver a cargar gasolina.",
-    "pregunta": "¿Qué fracción del tanque completo se usa aproximadamente en cada vuelta si se reparte 3/4 entre 3 vueltas iguales?"
+    "contexto": "La entrenadora Lupita organiza los entrenamientos de un equipo de basquetbol en una cancha escolar de Monterrey. Un bloque de práctica dura una fracción de hora, y ella quiere repartirlo en ejercicios más cortos, también medidos en fracciones, para aprovechar bien el tiempo.\n\nEn un puesto de quesos del mercado de Oaxaca, la vendedora Carmen corta piezas de queso fresco según fracciones de kilo. Para calcular cuántas porciones exactas obtiene de un pedazo, necesita dividir fracciones y luego simplificar el resultado para dar un número claro al cliente.",
+    "pregunta": "¿Cuántos ejercicios de 2/5 de bloque caben en un bloque de entrenamiento de 1/3 de hora? Además: si Carmen tiene 4/9 de kilo de queso y quiere repartirlo en porciones de 2/3 del pedazo, ¿cuántas porciones completas obtiene?"
   },
   "subtemas": [
     {
       "numero": "23.2",
-      "nivelEtiqueta": "Nivel 2 de 8 · Básico",
-      "titulo": "Fracción entre número entero",
-      "explicacion": "Cuando divides una fracción entre un número entero, puedes pensar el entero como una fracción con denominador 1: por ejemplo, 3 es lo mismo que 3/1. Para dividir, multiplicas la fracción original por el recíproco de ese entero, es decir, por 1 entre el número. En la práctica esto significa que el denominador de la fracción se multiplica por el número entero, mientras el numerador se queda igual. Al final siempre conviene revisar si el resultado se puede simplificar.",
-      "formula": "a/b ÷ n = a/b × 1/n = a/(b × n)",
+      "nivelEtiqueta": "Nivel 2 de 4 · Intermedio",
+      "titulo": "Fracción entre fracción: el patrón básico y Fracción entre fracción: simplifica al final",
+      "explicacion": "Dividir una fracción entre otra fracción sigue siempre el mismo patrón: se deja la primera fracción igual y se multiplica por el recíproco (la fracción volteada) de la segunda. Es decir, a/b ÷ c/d se convierte en a/b × d/c. Este cambio de división a multiplicación es la idea central de todo el tema. En este momento vas a practicar con fracciones sencillas donde, al multiplicar, el resultado ya queda en su forma más simple sin necesitar simplificar después.\n\nAhora que ya conoces el patrón de multiplicar por el recíproco, en este momento vas a practicar con fracciones donde, después de multiplicar, el resultado sí se puede simplificar. No basta con hacer la multiplicación: siempre hay que revisar si el numerador y el denominador tienen factores comunes para reducir la fracción a su mínima expresión. Muchas veces el resultado simplificado es un número entero, como 1. Olvidar este paso es uno de los errores más comunes al dividir fracciones.",
+      "formula": "a/b ÷ c/d = a/b × d/c; a/b ÷ c/d = a/b × d/c (simplifica el resultado)",
       "ejemplos": [
-        "3/4 ÷ 3 = 3/4 × 1/3 = 3/12, que simplificado es 1/4.",
-        "2/5 ÷ 4 = 2/5 × 1/4 = 2/20, que simplificado es 1/10."
+        "1/3 ÷ 2/5 = 1/3 × 5/2 = 5/6.",
+        "2/7 ÷ 3/4 = 2/7 × 4/3 = 8/21.",
+        "4/9 ÷ 2/3 = 4/9 × 3/2 = 12/18, que simplificado es 2/3.",
+        "6/8 ÷ 3/4 = 6/8 × 4/3 = 24/24, que simplificado es 1."
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "3/4 ÷ 3 = ?",
+          "pregunta": "1/3 ÷ 2/5 = ?",
           "opciones": [
-            "1/12",
-            "1/4",
-            "9/4",
-            "4/3"
+            "5/6",
+            "2/15",
+            "6/5",
+            "3/10"
           ],
-          "respuestaCorrecta": 1,
-          "retroalimentacion": "3/4 ÷ 3 = 3/4 × 1/3 = 3/12, que simplificado es 1/4."
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "1/3 ÷ 2/5 = 1/3 × 5/2 = 5/6."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "5/6 ÷ 5 = ___ (en su forma más simple).",
-          "respuestaCorrecta": "1/6",
-          "retroalimentacion": "5/6 ÷ 5 = 5/6 × 1/5 = 5/30, que simplificado es 1/6."
+          "frase": "2/7 ÷ 3/4 = ___.",
+          "respuestaCorrecta": "8/21",
+          "retroalimentacion": "2/7 ÷ 3/4 = 2/7 × 4/3 = 8/21."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "Dividir 2/9 entre 2 da como resultado 1/9.",
+          "enunciado": "1/5 ÷ 2/3 es lo mismo que 1/5 × 3/2.",
           "respuestaCorrecta": true,
-          "retroalimentacion": "Correcto: 2/9 ÷ 2 = 2/9 × 1/2 = 2/18, que simplificado es 1/9."
+          "retroalimentacion": "Correcto: dividir entre 2/3 equivale a multiplicar por su recíproco, que es 3/2."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "8/9 ÷ 4 = ?",
+          "pregunta": "5/9 ÷ 2/7 = ?",
           "opciones": [
-            "2/9",
-            "8/36",
-            "2/5",
-            "4/9"
+            "35/18",
+            "10/63",
+            "18/35",
+            "7/9"
           ],
           "respuestaCorrecta": 0,
-          "retroalimentacion": "8/9 ÷ 4 = 8/9 × 1/4 = 8/36, que simplificado es 2/9."
+          "retroalimentacion": "5/9 ÷ 2/7 = 5/9 × 7/2 = 35/18."
         },
         {
           "tipo": "relacionar_columnas",
-          "instruccion": "Relaciona cada división entre su resultado simplificado.",
+          "instruccion": "Relaciona cada división con su resultado.",
           "columnaA": [
-            "4/5 ÷ 2",
-            "6/7 ÷ 3",
-            "9/10 ÷ 3"
+            "1/4 ÷ 3/5",
+            "2/9 ÷ 1/5",
+            "3/7 ÷ 2/5"
           ],
           "columnaB": [
-            "2/5",
-            "2/7",
-            "3/10",
-            "4/15"
+            "5/12",
+            "10/9",
+            "15/14",
+            "6/7"
           ],
           "parejasCorrectas": [
             0,
             1,
             2
           ],
-          "retroalimentacion": "4/5 ÷ 2 = 2/5; 6/7 ÷ 3 = 2/7; 9/10 ÷ 3 = 3/10."
+          "retroalimentacion": "1/4 ÷ 3/5 = 5/12; 2/9 ÷ 1/5 = 10/9; 3/7 ÷ 2/5 = 15/14."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "4/9 ÷ 2/3 = ?",
+          "opciones": [
+            "2/3",
+            "12/18",
+            "3/2",
+            "6/27"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "4/9 ÷ 2/3 = 4/9 × 3/2 = 12/18, que simplificado es 2/3."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "10/12 ÷ 5/6 = ___ (ya simplificado).",
+          "respuestaCorrecta": "1",
+          "retroalimentacion": "10/12 ÷ 5/6 = 10/12 × 6/5 = 60/60 = 1."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "6/8 ÷ 3/4 = 1.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "Correcto: 6/8 ÷ 3/4 = 6/8 × 4/3 = 24/24 = 1."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "8/15 ÷ 4/9 = ?",
+          "opciones": [
+            "6/5",
+            "72/60",
+            "5/6",
+            "4/5"
+          ],
+          "respuestaCorrecta": 0,
+          "retroalimentacion": "8/15 ÷ 4/9 = 8/15 × 9/4 = 72/60, que simplificado es 6/5."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada división con su resultado ya simplificado.",
+          "columnaA": [
+            "3/4 ÷ 6/8",
+            "4/9 ÷ 8/27",
+            "5/8 ÷ 15/16"
+          ],
+          "columnaB": [
+            "1",
+            "3/2",
+            "2/3",
+            "4/5"
+          ],
+          "parejasCorrectas": [
+            0,
+            1,
+            2
+          ],
+          "retroalimentacion": "3/4 ÷ 6/8 = 1; 4/9 ÷ 8/27 = 3/2; 5/8 ÷ 15/16 = 2/3."
         }
       ]
     }

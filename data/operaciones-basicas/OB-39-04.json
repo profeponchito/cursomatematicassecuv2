@@ -1,88 +1,172 @@
 {
   "id": "OB-39-04",
   "grado": "Operaciones Básicas",
-  "numero": 308,
+  "numero": 156,
   "categoria": "potencias_raices",
   "campoFormativo": "Saberes y Pensamiento Científico",
   "eje": "Sentido numérico y pensamiento algebraico",
-  "titulo": "Potencias y raíces en la vida cotidiana — Momento 4/8",
+  "titulo": "Potencias y raíces en la vida cotidiana — Módulo 4/4",
   "contenido": "Potencias y raíces aplicadas a situaciones cotidianas: área de cuadrados, volumen de cubos, crecimiento repetido.",
   "pda": "Resuelve problemas cotidianos de área y volumen que requieren calcular una potencia o una raíz.",
   "problematizacion": {
-    "contexto": "La escuela secundaria 'Benito Juárez' quiere pintar un mural cuadrado en la fachada para festejar su aniversario, y el espacio disponible en la pared tiene un área de 64 m².",
-    "pregunta": "¿Cuánto debe medir cada lado del mural para que quede exactamente cuadrado y ocupe los 64 m² disponibles?"
+    "contexto": "En el laboratorio de la escuela, la maestra de ciencias muestra bajo el microscopio un cultivo de bacterias que se duplica cada hora, empezando con una sola bacteria en la placa de cultivo.\n\nEn la Feria de Ciencias y Matemáticas de la escuela, distintos equipos presentan sus stands: uno mide el área de mesas cuadradas de exhibición, otro calcula el volumen de cajas cúbicas de un programa de reciclaje, y otro simula el crecimiento de una población de insectos en un terrario.",
+    "pregunta": "Si el cultivo se duplica cada hora, ¿cuántas veces la cantidad inicial habrá después de 5 horas? Además: si el stand de reciclaje usa cajas cúbicas de arista 7 dm y el de población parte de 3 insectos que se cuadriplican cada semana, ¿qué cálculo hace falta en cada caso: una potencia o una raíz?"
   },
   "subtemas": [
     {
       "numero": "39.4",
-      "nivelEtiqueta": "Nivel 4 de 8 · Intermedio",
-      "titulo": "La raíz cuadrada: del área al lado",
-      "explicacion": "La raíz cuadrada es la operación inversa de elevar al cuadrado: si el área de un cuadrado es igual a lado², entonces el lado se obtiene calculando lado = √Área. Por eso, para hallar la raíz cuadrada de un número basta preguntarse: '¿qué número multiplicado por sí mismo me da esta cantidad?'. En este momento vas a usar la raíz cuadrada para encontrar el lado de un cuadrado cuando ya conoces su área, siempre con números que dan una raíz exacta.",
-      "formula": "lado = √Área",
+      "nivelEtiqueta": "Nivel 4 de 4 · Integración",
+      "titulo": "Potencias fuera de la geometría: crecimiento repetido y Integración: área, volumen, crecimiento y raíces que no son exactas",
+      "explicacion": "Las potencias no solo sirven para áreas y volúmenes: también representan un crecimiento repetido, cuando una cantidad se multiplica por el mismo factor varias veces seguidas. Si una cantidad se multiplica por un factor f, y eso ocurre n veces seguidas, el resultado es fⁿ veces la cantidad inicial. Aquí el exponente ya no se limita a 2 o 3, depende de cuántas veces se repite el crecimiento. En este momento vas a calcular ese tipo de crecimiento en situaciones que no son de área ni de volumen.\n\nEn este último momento se integran todas las ideas del tema: calcular potencias para hallar áreas, volúmenes o crecimientos repetidos, y calcular raíces exactas para regresar del área al lado o del volumen a la arista. Además, se agrega una idea nueva: no todos los números tienen raíz cuadrada exacta, pero siempre se puede estimar entre qué dos números enteros consecutivos se encuentra, comparando con los cuadrados perfectos más cercanos. Por ejemplo, √90 está entre 9 y 10 porque 9²=81 y 10²=100, y 81<90<100.",
+      "formula": "cantidad final = (factor de crecimiento) elevado al número de veces que se repite; √n está entre a y b si a² < n < b²",
       "ejemplos": [
-        "Si el área es 49 m², el lado es √49 = 7 m, porque 7² = 49",
-        "Si el área es 100 cm², el lado es √100 = 10 cm, porque 10² = 100"
+        "Si una bacteria se duplica cada hora (factor 2) y pasan 4 horas, hay 2⁴ = 16 veces la cantidad inicial",
+        "Si algo se triplica 3 veces seguidas, el resultado es 3³ = 27 veces la cantidad inicial",
+        "√90 está entre 9 y 10, porque 9²=81, 10²=100 y 81<90<100",
+        "El volumen de un cubo de arista 5 cm es 5³ = 125 cm³"
       ],
       "puntosPorReactivo": 10,
       "estrellasMax": 3,
       "reactivos": [
         {
           "tipo": "opcion_multiple",
-          "pregunta": "El área de un mural cuadrado es 81 m². ¿Cuánto mide cada lado?",
+          "pregunta": "Una bacteria se duplica cada hora. Después de 5 horas, ¿cuántas veces la cantidad inicial hay?",
           "opciones": [
-            "8 m",
-            "9 m",
-            "40.5 m",
-            "18 m"
+            "10",
+            "16",
+            "32",
+            "25"
           ],
-          "respuestaCorrecta": 1,
-          "retroalimentacion": "√81 = 9, porque 9² = 81."
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Se duplica 5 veces seguidas: 2⁵ = 32 veces la cantidad inicial."
         },
         {
           "tipo": "llenar_frase",
-          "frase": "Si un patio cuadrado tiene un área de 121 m², cada lado mide ___ m.",
-          "respuestaCorrecta": "11",
-          "retroalimentacion": "√121 = 11, porque 11² = 121."
+          "frase": "Si una cantidad se triplica 4 veces seguidas (3⁴), el resultado es ___ veces la cantidad inicial.",
+          "respuestaCorrecta": "81",
+          "retroalimentacion": "3⁴ = 3×3×3×3 = 81."
         },
         {
           "tipo": "verdadero_falso",
-          "enunciado": "Si el área de un cuadrado es 36 cm², entonces su lado mide 6 cm.",
+          "enunciado": "Si una plaga de insectos se multiplica por 5 cada semana, después de 2 semanas hay 5² = 25 veces la cantidad inicial.",
           "respuestaCorrecta": true,
-          "retroalimentacion": "√36 = 6, porque 6² = 36."
+          "retroalimentacion": "5² = 25, así que sí hay 25 veces la cantidad inicial."
         },
         {
           "tipo": "opcion_multiple",
-          "pregunta": "¿Cuál es la raíz cuadrada de 144?",
+          "pregunta": "Un rumor se comparte y cada persona se lo cuenta a 3 personas nuevas. Si esto se repite en 3 rondas seguidas, ¿a cuántas veces la cantidad inicial de personas llega?",
           "opciones": [
-            "11",
-            "12",
-            "14",
-            "72"
+            "9",
+            "27",
+            "81",
+            "12"
           ],
           "respuestaCorrecta": 1,
-          "retroalimentacion": "√144 = 12, porque 12² = 144."
+          "retroalimentacion": "Se multiplica por 3 en 3 rondas seguidas: 3³ = 27 veces la cantidad inicial."
         },
         {
           "tipo": "relacionar_columnas",
-          "instruccion": "Relaciona cada área con la medida del lado del cuadrado correspondiente.",
+          "instruccion": "Relaciona cada situación de crecimiento repetido con la potencia que la representa.",
           "columnaA": [
-            "Área 25 m²",
-            "Área 49 m²",
-            "Área 100 m²"
+            "Se duplica 3 veces seguidas",
+            "Se triplica 2 veces seguidas",
+            "Se duplica 4 veces seguidas"
           ],
           "columnaB": [
-            "10 m",
-            "7 m",
-            "5 m"
+            "3²",
+            "2⁴",
+            "2³"
           ],
           "parejasCorrectas": [
             2,
+            0,
+            1
+          ],
+          "retroalimentacion": "Duplicar 3 veces es 2³=8, triplicar 2 veces es 3²=9 y duplicar 4 veces es 2⁴=16."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "El stand de reciclaje usa cajas cúbicas de arista 7 dm. ¿Cuál es su volumen?",
+          "opciones": [
+            "49 dm³",
+            "147 dm³",
+            "343 dm³",
+            "21 dm³"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Volumen = arista³ = 7³ = 343 dm³."
+        },
+        {
+          "tipo": "llenar_frase",
+          "frase": "El área de una mesa cuadrada del stand es 169 dm². Cada lado mide ___ dm.",
+          "respuestaCorrecta": "13",
+          "retroalimentacion": "√169 = 13, porque 13² = 169."
+        },
+        {
+          "tipo": "verdadero_falso",
+          "enunciado": "La raíz cuadrada de 50 está entre 7 y 8.",
+          "respuestaCorrecta": true,
+          "retroalimentacion": "7²=49 y 8²=64. Como 49<50<64, entonces √50 está entre 7 y 8."
+        },
+        {
+          "tipo": "opcion_multiple",
+          "pregunta": "Un stand simula una población que parte de 3 insectos y se cuadriplica cada semana. Después de 2 semanas, ¿cuántas veces la cantidad inicial hay?",
+          "opciones": [
+            "8",
+            "12",
+            "16",
+            "64"
+          ],
+          "respuestaCorrecta": 2,
+          "retroalimentacion": "Se cuadriplica 2 veces seguidas: 4² = 16 veces la cantidad inicial."
+        },
+        {
+          "tipo": "relacionar_columnas",
+          "instruccion": "Relaciona cada raíz cuadrada no exacta con el par de enteros consecutivos entre los que se encuentra.",
+          "columnaA": [
+            "√20",
+            "√75",
+            "√10"
+          ],
+          "columnaB": [
+            "3 y 4",
+            "4 y 5",
+            "8 y 9"
+          ],
+          "parejasCorrectas": [
             1,
+            2,
             0
           ],
-          "retroalimentacion": "√25=5, √49=7 y √100=10."
+          "retroalimentacion": "√20 está entre 4 y 5 (16<20<25); √75 está entre 8 y 9 (64<75<81); √10 está entre 3 y 4 (9<10<16)."
         }
       ]
+    }
+  ],
+  "practicaExtra": [
+    {
+      "tipo": "opcion_multiple",
+      "pregunta": "Una caja cúbica de reciclaje tiene un volumen de 512 dm³. ¿Cuánto mide su arista?",
+      "opciones": [
+        "6 dm",
+        "7 dm",
+        "8 dm",
+        "9 dm"
+      ],
+      "respuestaCorrecta": 2,
+      "retroalimentacion": "∛512 = 8, porque 8³ = 512."
+    },
+    {
+      "tipo": "llenar_frase",
+      "frase": "Una población de bacterias inicia con 2 y se duplica cada hora. Después de 6 horas, hay ___ veces la cantidad inicial.",
+      "respuestaCorrecta": "64",
+      "retroalimentacion": "Se duplica 6 veces seguidas: 2⁶ = 64 veces la cantidad inicial."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "enunciado": "La raíz cuadrada de 200 está entre 14 y 15.",
+      "respuestaCorrecta": true,
+      "retroalimentacion": "14²=196 y 15²=225. Como 196<200<225, entonces √200 está entre 14 y 15."
     }
   ]
 }
